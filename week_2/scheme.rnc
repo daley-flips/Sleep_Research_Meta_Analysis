@@ -1,0 +1,28 @@
+start = paper
+
+paper = element paper {
+    title, 
+    authors, 
+    abstract, 
+    keywords*, 
+    methods,
+    results,
+    references*,
+    else+
+}
+
+title=element title{text}
+
+authors=element authors{text}
+
+abstract=element abstract{text}
+
+keywords=element keywords{text}
+
+methods=element methods{text}
+
+results=element results{text}
+
+references=element references{text}
+
+else=element else{text}

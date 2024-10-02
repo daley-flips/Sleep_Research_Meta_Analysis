@@ -6,6 +6,7 @@ Goals:
 
 markup a few interesting papers:
 
+    write a python script to scrape PMCID papers
     find a good schema
 
 define research questions and goals:
@@ -21,6 +22,12 @@ define research questions and goals:
     
 findings:
 
-    more findings!?!?!?!?
+    use pandoc to do pdf --> text
     
-# How'd it go? (respond on 10/5)    
+    
+# How'd it go? (respond on 10/5)   
+
+corpus: 41,271
+everything in PMC 
+
+use pand
