@@ -4,11 +4,11 @@ paper = element paper {
     title, 
     authors, 
     abstract, 
-    keywords*, 
+    keywords*,
+    else+,
     methods,
     results,
-    references*,
-    else+
+    references 
 }
 
 title=element title{text}
