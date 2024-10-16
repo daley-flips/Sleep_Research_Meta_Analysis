@@ -90,7 +90,9 @@ if __name__ == '__main__':
     # start iterating through the ids for more info
     # =============================================================================
     iteration = 0
+    pmc_ids = [pmc_ids[5]]
     
+    print(pmc_ids)
     for pmcid in pmc_ids:
         
     
@@ -145,6 +147,27 @@ if __name__ == '__main__':
         print(f"Year: {year}, Month: {month}, Day: {day}")
         
         
+        
+        tree = etree.ElementTree(paper_data)
+    
+        # Write the tree to an XML file
+        file_name = 'unfamiliar_envs.xml'
+        with open(file_name, 'wb') as file:
+            tree.write(file, pretty_print=True, xml_declaration=True, encoding='UTF-8')
+    
+            
+            
+            
+            
+    
+    
+    
+    
+    
+    
+    
+    
+    
     
     
     
