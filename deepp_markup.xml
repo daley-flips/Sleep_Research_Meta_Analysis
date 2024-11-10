@@ -1,0 +1,1224 @@
+<?xml-model href="deep_markup.rnc" type="application/relax-ng-compact-syntax"?>
+<full_article>
+<!-- ============================================================================================================== -->
+ <!-- ============================================================================================================== -->
+ <!-- ============================================================================================================== -->
+<title> 
+ Which Sleep Health Characteristics Predict All-Cause Mortality in Older Men?
+ An Application of Flexible Multivariable Approaches
+</title>
+ <!-- ============================================================================================================== -->
+ <!-- ============================================================================================================== -->
+ 
+ 
+ <!-- ============================================================================================================== -->
+ <!-- ============================================================================================================== -->
+<authors>
+ Meredith L. Wallace, PhD1
+ , Katie Stone, PhD2,3
+ , Stephen F. Smagula, PhD1
+ , Martica H. Hall, PhD1
+ , Burcin Simsek, PhD1
+ , Deborah M. Kado, MD, MS4
+ , Susan
+ Redline, MD, MPH5
+ , Tien N. Vo, MS6
+ ,
+ Daniel J. Buysse, MD1
+ , for the Osteoporotic Fractures in Men (MrOS) Study Research Group
+</authors>
+ <!-- ============================================================================================================== -->
+ <!-- ============================================================================================================== -->
+ 
+
+ <!-- ============================================================================================================== -->
+ <!-- ============================================================================================================== -->
+<schools>
+ 1
+ Department of Psychiatry, University of Pittsburgh, Pittsburgh, PA; 2
+ California Pacific Medical Center, Research Institute, San Francisco, CA; 3
+ Department of Epidemiology and
+ Biostatistics, University of California, San Francisco, CA; 4
+ Department of Family Medicine &amp; Public Health, University of California, La Jolla, San Diego, CA; 5
+ Departments of
+ Medicine, Brigham and Women’s Hospital and Beth Israel Deaconess Medical Center, Harvard Medical School, Boston, MA; 6
+ Division of Epidemiology and Community Health,
+ University of Minnesota, Minneapolis, MN
+</schools>
+ <!-- ============================================================================================================== -->
+ <!-- ============================================================================================================== -->
+ 
+ 
+ <!-- ============================================================================================================== -->
+ <!-- ============================================================================================================== -->
+<summary>
+  
+  <subtitle>
+   Study Objectives:
+  </subtitle>
+   Sleep is multidimensional, with domains including duration, timing, continuity, regularity, rhythmicity, quality, and sleepiness/alertness.
+  Individual sleep characteristics representing these domains are known to predict health outcomes. However, most studies consider sleep characteristics in
+  isolation, resulting in an incomplete understanding of which sleep characteristics are the strongest predictors of health outcomes. We applied three multivariable
+  approaches to robustly determine which sleep characteristics increase mortality risk in the osteoporotic fractures in men sleep study.
+  
+  <subtitle>
+  Methods: 
+  </subtitle>
+  In total, 2,887 men (mean 76.3 years) completed relevant assessments and were followed for up to 11 years. One actigraphy or self-reported sleep
+  characteristic was selected to represent each of seven sleep domains. Multivariable Cox models, survival trees, and random survival forests were applied to
+  determine which sleep characteristics increase mortality risk.
+  
+  <subtitle> 
+  Results: 
+  </subtitle>
+  Rhythmicity (actigraphy pseudo-F statistic) and continuity (actigraphy minutes awake after sleep onset) were the most robust sleep predictors across
+  models. In a multivariable Cox model, lower rhythmicity (hazard ratio, HR [95%CI] =1.12 [1.04, 1.22]) and lower continuity (1.16 [1.08, 1.24]) were the strongest
+  sleep predictors. In the random survival forest, rhythmicity and continuity were the most important individual sleep characteristics (ranked as the sixth and eighth
+  most important among 43 possible sleep and non-sleep predictors); moreover, the predictive importance of all sleep information considered simultaneously
+  followed only age, cognition, and cardiovascular disease.
+  
+  <subtitle>
+   Conclusions:
+  </subtitle>
+   Research within a multidimensional sleep health framework can jumpstart future research on causal pathways linking sleep and health, new
+  interventions that target specific sleep health profiles, and improved sleep screening for adverse health outcomes.
+  
+</summary>
+ <!-- ============================================================================================================== -->
+ <!-- ============================================================================================================== -->
+ 
+
+ <!-- ============================================================================================================== -->
+ <!-- ============================================================================================================== -->
+
+ <!-- ============================================================================================================== -->
+ <!-- ============================================================================================================== -->
+ 
+ <!-- ============================================================================================================== -->
+ <!-- ============================================================================================================== -->
+ <kw>
+     Keywords: sleep health, circadian rhythm, multivariable analyses, mortality, men, late-life, survival tree, random survival forest.
+ </kw>
+ <!-- ============================================================================================================== -->
+ <!-- ============================================================================================================== -->
+ 
+ 
+ <!-- ============================================================================================================== -->
+ <!-- ============================================================================================================== -->
+ <subsection>
+  
+   <subtitle>
+    INTRODUCTION
+   </subtitle>
+  
+    Measures of sleep duration,1–11 quality,5,12,13 timing,14,15 continuity,16–19 circadian rhythmicity,20,21 regularity,22–24 and daytime sleepiness25–27 have been shown to predict important health outcomes.
+    Many of these findings are based on models that consider only one
+    of these sleep characteristics at a time,7–9,12–14,16–18,21,22 or at most
+    two or three of them simultaneously.3,4,20,23–27 The clinical reality,
+    however, is that sleep is a multidimensional construct that can be
+    characterized across several domains.28,29 Ignoring the multidimensional nature of sleep makes it difficult to organize findings
+    across the literature to determine which aspects of sleep are most
+    important for predicting health outcomes. Moreover, a combination of characteristics is more likely to be associated with health
+    and behavioral outcomes than any individual characteristic. Thus,
+    studies that consider multidimensional sleep health are warranted.
+    We recently developed a working definition of “sleep health”
+    as a “multidimensional pattern of sleep-wakefulness…that
+    promotes physical well-being.”29 Although the exact number
+    of relevant sleep health dimensions is open to debate, we here
+    emphasize seven potential domains: (1) Duration: the total
+    amount of sleep obtained per 24 hours; (2) Continuity: the ease of
+    falling asleep and returning to sleep; (3) Timing: the placement
+    of sleep within the 24-hour day; (4) Sleepiness/Alertness: the
+    ability to maintain attentive wakefulness; (5) Quality: the subjective assessment of “good” or “poor” sleep; (6) Regularity: the
+    consistency of sleep timing; and (7) Rhythmicity: the strength
+    of the overall sleep–wake pattern in a 24-hour cycle. Although
+    other potential domains could be considered (e.g., sleep depth or
+    adaptability), these seven were selected based on prior literature
+    indicating their independence from one another as well as their
+    potential roles in important health outcomes.29
+    Because sleep health is relevant for everyone, not just those
+    with sleep disorders, research within a multidimensional sleep
+    health framework has the potential to inform large-scale public health initiatives by improving screening and clinical recommendations.29–31 It could also inform which specific sleep
+    characteristics should be considered in mechanistic studies and
+    ultimately lead to the development of targeted sleep treatments
+    that may reduce mortality and morbidity. But despite its potential
+    impact, few previous studies have utilized a multidimensional
+    One possible reason is that complex,
+    nonlinear relationships are likely to exist among sleep characteristics, nonsleep risk factors, and health outcomes. Traditional
+    multivariable regression has numerous advantages, including
+    the ability to quantify the added risk of having a more extreme
+    level of one sleep characteristic while adjusting for other sleep
+    and nonsleep risk factors. However, a weakness of multivariable
+    regression is that it is not conducive to modeling complex, nonlinear associations such as those that may be observed within a
+    multidimensional sleep health framework.
+    Two flexible, nonlinear multivariable modeling approaches
+    that could facilitate research within a multidimensional sleep
+    health framework are conditional inference tree-structured analyses32 and random forests.33,34 Conditional inference tree-structured analysis is a data-driven approach that recursively divides
+    the sample into covariate-defined subsamples with similar outcomes. Given a set of potential predictors, the algorithm first
+    identifies the single predictor with the strongest association
+    with the outcome and then identifies the binary split-point on
+    the selected predictor that best divides the sample into two subsamples with different outcomes. This splitting procedure continues iteratively on each successive subsample until there are
+    no remaining significant predictors or the subsample size is too
+    small. A random forest is comprised of hundreds of trees fit to
+    bootstrap samples. The trees in the “forest” are averaged to get
+    predictions for new individuals. A variable importance (VIMP)
+    index34 can be extracted from the random forest and used to
+    rank each variable (or a set of variables) based on its relative
+    predictive importance. Multivariable regression, tree-structured analysis, and random forests are three complementary
+    approaches that can provide a comprehensive assessment of the
+    associations between multivariable sleep and health outcomes.
+    The primary goal of this manuscript is to use data from the
+    Outcome of Sleep Disorders in Older Men (MrOS) Sleep study,35
+    a large multisite cohort study of older men, to robustly determine
+    which sleep characteristics predict time to all-cause mortality in
+    older men. Given the potentially complex associations among sleep
+    risk factors, nonsleep risk factors, and health outcomes, we accomplish this goal by comparing findings from three complimentary
+    multivariable modeling approaches for survival endpoints: Cox regression, tree-structured survival analysis, and a random survival
+    forest. Moreover, we expect that the demonstration of these three
+    multivariable approaches will promote the study of multidimensional sleep health with other samples and outcomes.
+    
+ </subsection>
+ <!-- ============================================================================================================== -->
+ <!-- ============================================================================================================== -->
+ 
+ 
+ <!-- ============================================================================================================== -->
+ <!-- ============================================================================================================== -->
+ <subsection>
+  
+  <subtitle>
+   Statement of Significance
+  </subtitle>
+  
+  Most studies use individual sleep characteristics to predict health outcomes. However, sleep can be characterized along multiple dimensions such
+  as duration, continuity, and rhythmicity. We applied three multivariable modeling approaches in a large sample of older men to examine which sleep
+  characteristics are most important for predicting mortality. Across approaches, lower sleep-wake rhythmicity and lower sleep continuity were the sleep
+  characteristics that conferred the strongest risk for mortality among older men. These findings can help us to clarify how sleep affects health, how sleep
+  problems should be evaluated, and how sleep treatments might improve health. Ultimately, studying multidimensional sleep could improve public health by
+  promoting healthy sleep for the entire population, rather than only those with sleep disorders.
+ </subsection>
+ <!-- ============================================================================================================== -->
+ <!-- ============================================================================================================== -->
+ 
+ 
+ <!-- ============================================================================================================== -->
+ <!-- ============================================================================================================== -->
+<subsection>
+ 
+ <subtitle>
+  METHODS
+ </subtitle>
+ 
+ <!-- ============================================================================================================== -->
+   <subsubsection>
+       <subsubtitle>
+        Participants
+       </subsubtitle>
+    
+       The full MrOS cohort consists of 5,994 community dwelling,
+       ambulatory men aged 65 years and older, recruited at six clinical centers across the United States between March 2000 and
+       April 2002. Inclusion criteria were as follows: (1) ability to
+       walk unassisted, (2) absence of bilateral hip replacements, (3)
+       ability to provide self-reported data, (4) absence of a medical
+       condition resulting in imminent death, and (5) ability to understand and provide informed consent. All participants provided
+       written informed consent. The initial wave of the MrOS Sleep
+       study was completed between December 2003 and March 2005.
+       It recruited 3,125 participants from the full MrOS cohort for
+       a comprehensive sleep assessment. Men were screened and
+       Figure 1—Derivation of analytic sample.
+       Downloaded from https://academic.oup.com/sleep/article/41/1/zsx189/4642232 by Falk Library user on 22 October 2024
+       SLEEP, Vol. 41, No. 1, 2018 3 An Application of Flexible Multivariable Approaches—Wallace et al.
+       generally excluded for nightly use of mechanical devices during sleep, mouthpiece for snoring or sleep apnea, or oxygen
+       therapy. Full details of the sample are published elsewhere.35–37
+       Our analytic sample consists of 2,887 men who took part in
+       the sleep study and for whom all relevant sleep and covariate
+       data were observed (Figure 1). The mean (SD) age of the analytic sample at the baseline sleep visit was 76.3 (5.5) years, ranging from 67 to 96. The sample primarily consists of Caucasian
+       men (89.9%, N = 2,595) and most have at least some college
+       education (78.9%, N = 2,277)
+   </subsubsection>
+ <!-- ============================================================================================================== -->
+ 
+ <!-- ============================================================================================================== -->
+   <subsubsection>  
+       <subsubtitle>
+        MrOS Sleep Study
+       </subsubtitle>
+    
+       In the MrOS Sleep study, sleep characteristics were captured
+       through retrospective self-report, actigraphy, daily sleep diary,
+       and one night of in-home polysomnography. Our primary
+       focus herein is on sleep as captured through retrospective selfreport and actigraphy. Briefly, the Sleepwatch-O (Ambulatory
+       Monitoring, Inc., Ardsley, NY) was used to capture actigraphy
+       data. Actigraphs are wristwatch-like devices that provide an
+       estimate of the sleep-wake cycle via rest-activity patterns. They
+       summarize the frequency of motions into epochs of specified
+       time duration and store the summary in memory. These data
+       are then downloaded and scored to generate various sleep
+       characteristics. The actigraphy data used herein were analyzed
+       using Action W-2 software with Proportional Integration Mode
+       and the University of California, San Diego scoring algorithm.38
+       Circadian rhythm variables (e.g., Pseudo-F statistic [PsF])
+       were scored using an extended cosine model.39 Full details of
+       these actigraphy methods have been published previously.37,40
+       Men wore the actigraphs for a minimum of four consecutive
+       24-hour periods. In our analytic sample, each participant had a
+       mean (SD) of 5.3 (0.8) nights of sleep data. Additional details
+       regarding the inter- and intra-subject variability of the relevant
+       actigraphy measures are provided in Supplementary Material.
+   </subsubsection>
+ <!-- ============================================================================================================== -->
+ 
+ <!-- ============================================================================================================== -->
+   <subsubsection>  
+       <subsubtitle>
+        Outcome
+       </subsubtitle>
+       
+       
+        Although numerous health outcomes could be studied, we
+        selected time to all-cause mortality (confirmed by centralized
+        review of death certificates) as an unequivocal “hard” outcome
+        of importance to patients and society. In our analytic sample,
+        36.7% (N = 1,060) of participants died during follow-up, 3.9%
+        (N = 112) terminated the study, and 59.4% (N = 1,715) were still
+        alive and being followed. As fewer than 50% of individuals died
+        during follow-up, the median (50th percentile) years to all-cause
+        mortality was not observed. The 25th percentile (95% CI) years
+        to all-cause mortality was 8.0 (7.7, 8.3), with a maximum of
+        11.2 years of follow-up.
+   </subsubsection>
+ <!-- ============================================================================================================== -->
+   <subsubsection>
+       <subsubtitle>
+        Sleep Characteristics and Domains
+       </subsubtitle>
+       
+        Our primary aim was to robustly determine which sleep health
+        characteristics predict time to all-cause mortality by comparing
+        findings across three complementary multivariable approaches:
+        Cox regression, tree-structured survival analysis, and random
+        survival forest. In Cox regression, inclusion of variables that
+        are too highly correlated (i.e., multicollinearity) can lead to
+        unstable estimates. Therefore, we used clinical and scientific
+        justification to select one sleep characteristic to represent each
+        of the seven proposed domains (duration, continuity, timing, sleepiness/alertness, quality, regularity, and rhythmicity)
+        and then examined correlations to ensure that the selected
+        characteristics were not too highly correlated. Although random survival forests and tree-structured survival analysis can
+        accommodate highly correlated variables, our strategy was to
+        use the same clinically meaningful subset of variables across all
+        three approaches. This strategy facilitates a direct comparison
+        of findings across approaches and enhances our ability to obtain
+        meaningful results. Finally, when making our selections, we
+        prioritized measures that were objective, stable, representative
+        of an individual’s usual sleep pattern, and clinically relevant.
+        To this end, we gave preference to estimates from actigraphy
+        (based on multiple nights of sleep in an individual’s usual environment) over polysomnography (based on a single night of
+        sleep in a lab) or self-report measures when possible.
+        We selected actigraphy-assessed average total sleep time
+        (TST; minutes of actual asleep at night) to represent duration,
+        actigraphy-assessed wake after sleep onset (WASO; the number of minutes an individual is awake after falling asleep) to
+        represent continuity, and actigraphy-assessed mean sleep midpoint (midpoint of bed and wake time) to represent timing. We
+        selected the Epworth Sleepiness Scale41 (ESS) to represent
+        sleepiness/alertness. The ESS is a self-report scale including
+        eight questions, with total scores ranging from 0 (no sleepiness) to 24 (severe sleepiness). We selected the Pittsburgh Sleep
+        Quality Index (PSQI) sleep quality item to represent the quality
+        domain.42 The PSQI sleep quality item asks “During the past
+        month, how would you rate your sleep quality overall?” with
+        possible responses: “Very Good” (0), “Fairly Good” (1), “Fairly
+        Bad” (2), and “Very Bad” (3). This single item was selected
+        over the total PSQI score because the total PSQI score also
+        incorporates information about other domains of sleep (e.g.,
+        sleep timing and continuity).
+        We selected the standard deviation of wake time (SD wake)
+        to represent regularity. This measure was selected over other
+        possible measures of regularity, such as the standard deviation
+        of sleep midpoint, because it is less resistant to change and specifically relates to the time that people are exposed to morning light, which is a strong circadian zeitgeber. The PsF was
+        selected to represent circadian rhythmicity. PsF captures the
+        extent to which an individual’s sleep-wake activity conforms
+        to an extended cosine model,39 with higher values indicating
+        greater conformity to the cosine shape. An individual could
+        have a strong rhythm that takes a different shape; however, a
+        uniphasic circadian rhythm such as that captured by the PsF
+        is the dominant rhythm in most adults. Furthermore, PsF has
+        previously been shown to be related to important health outcomes.21,43,44 Although SD wake and PsF are similar in some
+        regards, they do address conceptually different entities. That
+        is, SD wake reflects the regularity surrounding wake timing
+        specifically, whereas PsF captures the strength of the overall
+        rhythmicity of the rest–activity (or sleep–wake) cycle. The relatively small correlation among these two measures (Spearman
+        r = −0.21) further solidified our consideration of regularity and
+        rhythmicity as separate domains.
+        Motivated by prior sleep health research,45 we were also interested in the predictive ability of a clinically meaningful composite
+        measure defined as the number of “extreme” sleep characteristics. To compute this composite measure, we used existing clinical and scientific guidelines to identify values of “extreme” sleep
+        Downloaded from https://academic.oup.com/sleep/article/41/1/zsx189/4642232 by Falk Library user on 22 October 2024
+        SLEEP, Vol. 41, No. 1, 2018 4 An Application of Flexible Multivariable Approaches—Wallace et al.
+        characteristics wherever possible. In the absence of such guidelines, we empirically identified the most extreme third of the distribution. We defined early sleep midpoint as ≤2:00 am, medium
+        sleep midpoint as 2:01 am–4:00 am, and late sleep midpoint as
+        &gt;4:00 am. Extreme sleep midpoint was defined as either early or
+        late sleep midpoint.46 Based on the published recommendations,41
+        extreme ESS was defined as a total score of &gt;10. Extreme sleep
+        quality was indicated as “Very Bad” or “Fairly Bad” responses on
+        the PSQI sleep quality item. Extreme WASO, PsF, and SD wake
+        were defined as the most extreme third of the distribution (high
+        WASO, low PsF, and high SD wake). Because both short and long
+        durations may be related to poor health outcomes,47 extreme TST
+        was defined as either the lowest sixth or highest sixth of the distribution, resulting in one-third of the distribution having extreme
+        TST. Further details of selected sleep characteristics and specific
+        cut points are provided in Table 1.
+        Hereafter, we refer to the selected characteristics by their
+        respective domain names to enhance readability. We provide
+        sleep characteristic names in parentheses when useful for clarification or interpretation of model results.
+   </subsubsection>
+ <!-- ============================================================================================================== -->
+ 
+ <!-- ============================================================================================================== -->
+   <subsubsection>  
+        <subsubtitle>
+         Nonsleep Risk Factors
+        </subsubtitle>
+        
+         Numerous nonsleep risk factors for mortality were captured in
+         the MrOS study and considered in our analyses. Demographic
+         characteristics were age, clinic site, and years of education.
+         Health characteristics were self-reported health status (good or
+         poor), physical activity (Physical Activity Scale for the Elderly;
+         PASE48), depressed mood (Geriatric Depression Scale49), smoking
+         status (current, past, or never), caffeine intake (mg per day), alcohol use (&gt;1 drink per week), cognitive function (Teng Modified
+         Mini-Mental State (3MS) Exam50), and body mass index (BMI;
+         kg/m2
+         ). Self-reported histories of the following medical conditions were considered: arthritis (osteoarthritis or rheumatoid
+         arthritis), cardiovascular disease (CVD), stroke, diabetes mellitus, chronic obstructive pulmonary disease (COPD), and hypertension (HTN). Finally, use of the following medications in the
+         past 30 days was considered: antidepressants, benzodiazepines,
+         and other sedatives or hypnotics, nonsteroidal anti-inflammatory
+         drugs (NSAIDs), and corticosteroids. All medications recorded
+         by the clinics were entered into an electronic medications inventory (San Francisco Coordinating Center, San Francisco, CA).
+         Each medication was matched to its ingredient(s) based on the
+         Iowa Drug Information Service (IDIS) Drug Vocabulary (College
+         of Pharmacy, University of Iowa, Iowa City, IA) and coded based
+         on the published recommendations.51 Further descriptions of
+         these nonsleep predictors and their associations with all-cause
+         mortality in MrOS are provided in Supplementary Material.
+   </subsubsection>
+ <!-- ============================================================================================================== -->
+ <!-- ============================================================================================================== -->
+ 
+ <!-- ============================================================================================================== -->
+ <!-- ============================================================================================================== -->
+   <subsubsection>
+   
+     <subsubtitle>
+      Data Analysis
+     </subsubtitle>
+
+     <algo>
+        <algotitle>
+         Cox Proportional Hazards Regression
+        </algotitle>
+        We fit Cox models with time to all-cause mortality as the
+        outcome, utilizing univariable, multivariable, and composite
+        approaches to modeling sleep characteristics. In univariable
+        approaches (fit primarily for comparison purposes), we modeled
+        Table 1—Descriptive Statistics for Continuous and Categorical Sleep Characteristics.
+        Sleep domain Representative sleep characteristic Median (1st quartile, 3rd
+        quartile) for continuous
+        sleep characteristic
+        Categorical sleep
+        characteristic definition
+        % (N) for Categorical
+        Sleep Characteristic
+        Duration Actigraphy average mean total sleep time
+        (TST) in minutes
+        391.00 (345.20, 432.20) ≤ 319.6 (short)
+        319.6–450.3 (medium)
+        &gt; 450.3a
+        (long)
+        16.70 (482)
+        66.68 (1925)
+        16.63 (480)
+        Continuity Actigraphy average mean wake after sleep
+        onset (WASO) in minutes
+        68.67 (45.60, 101.40) &lt; 88
+        ≥ 88a
+        66.47 (1919)
+        33.52 (968)
+        Timing Actigraphy average mean sleep midpoint 03:01 am (02:27 am, 03:38 am) ≤ 02:00a
+        (early)
+        02:01–04:00 (middle)
+        &gt;04:00a
+        (late)
+        12.23 (353)
+        71.87 (2075)
+        15.90 (459)
+        Sleepiness/
+        alertness
+        Epworth Sleepiness Scale (ESS) 6 (3, 8) ≤10
+        &gt;10a
+        87.18 (2517)
+        12.82 (370)
+        Quality Pittsburgh Sleep Quality Index (PQSI)
+        sleep quality itemb
+        1 (0, 1) ≤ 1
+        &gt; 1a
+        84.21 (2431)
+        15.79 (456)
+        Rhythmicity Actigraphy pseudo-F statistics (PsF) 967.44 (700.45, 1319.43) ≤ 785.60a
+        &gt; 785.60
+        66.68 (1925)
+        33.32 (962)
+        Regularity Standard deviation of actigraphy wake time
+        in hours (SD wake)
+        0.57 (0.37, 0.87) &lt; 0.75
+        ≥0.75a
+        65.74 (1898)
+        34.26 (989)
+        Composite Number of extreme sleep characteristics 2 (1, 3) 0
+        1
+        2
+        3
+        ≥4
+        15.48 (447)
+        28.65 (827)
+        25.46 (735)
+        16.56 (478)
+        13.86 (400)
+        a
+        “Extreme” sleep category.
+        b
+        PSQI Sleep quality Index sleep quality item coding: 0 = “Very Good,” 1 = “Somewhat Good,” 2 = “Somewhat Bad,” 3 = “Very Bad.”
+        Downloaded from https://academic.oup.com/sleep/article/41/1/zsx189/4642232 by Falk Library user on 22 October 2024
+        SLEEP, Vol. 41, No. 1, 2018 5 An Application of Flexible Multivariable Approaches—Wallace et al.
+        each sleep characteristic in a separate model. In multivariable
+        approaches, we included all seven sleep characteristics simultaneously in the same model. In composite approaches, we
+        included the number of extreme sleep characteristics, considered continuously in one model and categorically (0, 1, 2, 3, ≥4
+        extreme characteristics) in another. For univariable, multivariable, and composite approaches, we first fit base models adjusted
+        for only age and clinic site, and then fit full models that were
+        adjusted for all nonsleep risk factors (demographics, clinical
+        measures, lifestyle factors, medications, and medical history).
+        Given previous reports of U-shaped or nonlinear associations
+        for timing and duration, quadratic forms of these variables were
+        considered; however, quadratic effects that were nonsignificant
+        in a model were removed. To enhance interpretability of HRs,
+        continuous sleep and nonsleep measures were standardized.52
+     </algo>
+<!-- ============================================================================================================== -->
+    
+<!-- ============================================================================================================== -->   
+     <algo>
+   
+      <algotitle>
+       Tree-Structured Survival Models
+      </algotitle>
+      A conditional inference tree model empirically identifies the
+      variable and cut-point that best divide the sample into two subsamples with different mortality risks. This splitting process
+      continues iteratively on each successive subsample, resulting in
+      a final set of covariate-defined subsamples with different risks
+      for mortality. We first fit a base tree model that considered only
+      the seven continuous sleep characteristics and the number of
+      extreme sleep characteristics. We then fit a second tree model
+      that considered the full set of sleep and nonsleep risk factors. To
+      maximize stability and interpretability, we required a minimum
+      of N = 289 (10% of the sample) in each subsample, allowed a
+      maximum of three successive splits, and required a significance
+      of p &lt; .05 after a Bonferroni correction for multiple comparisons.
+     </algo>
+<!-- ============================================================================================================== -->
+    
+<!-- ============================================================================================================== -->
+    <algo>
+     
+     <algotitle>
+      Random Survival Forest
+     </algotitle>
+     A random survival forest is comprised of a series of survival trees
+     models fit to bootstrap samples. VIMP statistics can be extracted
+     and used to rank the variables (or sets of variables) from most to
+     least predictive in context of one another. We fit a random survival forest including the seven continuous sleep characteristics,
+     the number of extreme sleep characteristics, and all nonsleep
+     risk factors. After fitting this model, we calculated the VIMP for
+     each individual sleep and nonsleep predictor, the joint VIMP for
+     the seven sleep characteristics considered simultaneously (“7
+     Sleep”), and the joint VIMP for the seven sleep characteristics
+     plus the number of extreme sleep characteristics considered
+     simultaneously (“7 Sleep + # Extreme”). To provide a clinically
+     meaningful frame of reference for the VIMP, we calculated the
+     percentage of each predictor’s VIMP relative to that of the strongest and most clinically meaningful predictor, age [i.e., (VIMP of
+     predictor)/(VIMP of age) × 100]. Finally, we assessed the direction and magnitude of the effects of the most highly ranked
+     predictors in the forest (those with VIMPs that were at least 5%
+     of the VIMP of age) by using them to predict time to all-cause
+     mortality in a multivariable Cox regression model.
+    </algo>
+<!-- ============================================================================================================== -->
+   
+<!-- ============================================================================================================== -->
+    <algo>
+     <algotitle>
+      Sensitivity Analyses
+     </algotitle>
+     To assess the importance of the sleep characteristics above and
+     beyond sleep apnea, a prevalent sleep disorder with established
+     health risks,53,54 we refit the fully adjusted models controlling
+     for the apnea–hypopnea index (AHI) determined by overnight
+     in-home polysomnography conducted at the same exam cycle
+     as actigraphy.40 This measure was not included in the primary
+     analyses because it was missing in 173 (6%) men in our sample.
+     To rule out confounding by possible ongoing and unmeasured
+     disease processes, we also refit the fully adjusted models after
+     excluding 29 (1%) individuals who died during the year immediately following the sleep assessment.
+    </algo>
+<!-- ============================================================================================================== -->
+   </subsubsection>
+</subsection>
+ <!-- ============================================================================================================== -->
+ <!-- ============================================================================================================== -->
+ 
+
+ <!-- ============================================================================================================== -->
+ <!-- ============================================================================================================== -->
+<subsection>
+  
+  <subtitle>
+   RESULTS
+  </subtitle>
+
+  Table 1 describes the distributions of the seven selected sleep
+  characteristics and the frequencies of individuals with 0, 1, 2,
+  3, and ≥4 extreme sleep characteristics. The sleep characteristics had a median Spearman correlation magnitude of 0.12 (1st
+  quartile = 0.09, 3rd quartile = 0.18). The largest correlations
+  were observed between continuity and duration (r = −0.45),
+  rhythmicity and duration (r = 0.23), and rhythmicity and regularity (r = −0.21). All other correlation magnitudes among
+  the sleep characteristics were &lt;0.20. The full set of sleep and
+  nonsleep variables had a median Spearman correlation magnitude of only 0.04 (1st quartile &lt; 0.001, 3rd quartile = 0.08). See
+  Supplementary Material for additional descriptions, including
+  (1) the full correlation matrix among sleep characteristics, (2)
+  a detailed characterization of the sample based on nonsleep
+  demographic, health, and behavioral risk factors, including
+  their associations with time to mortality, and (3) types and combinations of extreme sleep characteristics in the sample.
+  
+  <algo>
+   <algotitle>
+    Cox Proportional Hazards Regression
+   </algotitle>
+   Table 2 provides results from Cox models with sleep characteristics considered continuously. Across all models, lower sleep–
+   wake rhythmicity (lower PsF) and lower continuity (higher
+   WASO) were significantly associated with increased mortality
+   risk and had the largest HRs. In the full multivariable model
+   (i.e., adjusting for all other sleep and nonsleep risk factors), we
+   observed HRs (95% CIs) of 1.12 (1.04, 1.22) per one SD decrease in rhythmicity and 1.16 (1.08, 1.24) per one SD decrease
+   in continuity. Quadratic effects for timing were also significant
+   across all models, indicating that earlier and later timing were
+   associated with greater mortality risk.
+   Linear or quadratic effects for duration were significant in the
+   univariable models and the base multivariable model, but not in
+   the full multivariable model. Lower regularity (higher SD wake)
+   was significantly associated with increased mortality risk in the
+   base univariable models but not in any full or multivariable
+   model. Sleepiness/alertness was not associated with mortality
+   in any of the models. Sleep quality results were unexpected.
+   Quality was not significantly associated with mortality in the
+   base models. However, in the multivariable models, having
+   better sleep quality was significantly associated with increased
+   mortality risk (1.08 [1.02, 1.16] in the full multivariable model).
+   In general, similar inferences were made when sleep characteristics were considered categorically based on cutoffs in Table 1.
+   In the full multivariable model, having extreme rhythmicity
+   (1.27 [1.10, 1.46]), extreme continuity (1.33 [1.16, 1.53]), and
+   (unexpectedly) nonextreme sleep quality (i.e., “Very Good” or
+   “Somewhat Good”) (1.28 [1.08, 1.54]) were each significantly
+   associated with increased risk for mortality. Full details of these
+   categorical models are provided in Supplementary Material.
+   Downloaded from https://academic.oup.com/sleep/article/41/1/zsx189/4642232 by Falk Library user on 22 October 2024
+   SLEEP, Vol. 41, No. 1, 2018 6 An Application of Flexible Multivariable Approaches—Wallace et al.
+   Table 3 provides results from the Cox models for the number of
+   extreme sleep characteristics. Treated continuously, having additional extreme sleep characteristics was significantly associated
+   with increased mortality (1.10 [1.05, 1.15] in the full model).
+   This measure was also significantly associated with time to mortality when treated categorically. Having 3 (1.40 [1.11, 1.77]) or
+   ≥4 (1.57 [1.23, 2.00]) versus zero extreme sleep characteristics
+   were each associated with increased mortality risk.
+  </algo>
+ 
+  <algo>
+    <algotitle>
+     Tree-Structured Model
+    </algotitle>
+    The base survival tree model considering age, site, the seven
+    sleep characteristics, and the number of extreme sleep characteristics is shown in Figure 2. Only age, sleep continuity, and
+    the number of extreme sleep characteristics were empirically
+    selected to enter the model. For those aged ≤72, having &gt;1
+    extreme sleep characteristic was associated with increased mortality risk (1.68 [1.21, 2.33]). For those aged &gt;72 and ≤79, lower
+    continuity (i.e., WASO &gt; 98.6) was associated with increased
+    mortality risk (1.74 [1.41, 2.14]). For those aged &gt;79, age
+    again splits the tree such that those aged &gt;83 had an even further increased risk of mortality (1.79 [1.51, 2.14]). In the full
+    survival tree model considering all sleep and nonsleep predictors, only age, physical activity, and cognition were empirically
+    selected to enter the model (see Supplementary Material).
+  </algo>
+ 
+  <algo>
+    <algotitle>
+     Random Survival Forest
+    </algotitle>
+    Figure 3 shows the VIMP for each predictor as a percent of the
+    VIMP for age (0.036) in the random survival forest. Cognition
+    Table 2—Cox Proportional Hazards Regression Models for (Standardized) Continuous Sleep Domains Predicting Time to All-Cause Mortality.
+    Univariable models: each sleep characteristic in a
+    separate model
+    Multivariable models: all sleep characteristics in
+    the same model
+    HR (95% CI) X2 statistic (p-value) HR (95% CI) X2 statistic (p-value)
+    Base models: Sleep characteristic(s), age, and site
+    Quality (PSQI quality itema
+    ) 1.01 (0.95, 1.07) 0.11 (.738) 0.96 (0.90, 1.02) 1.91 (.167)
+    Sleepiness/alertness (ESS) 1.04 (0.98, 1.11) 1.79 (.181) 1.01 (0.95, 1.08) 0.14 (.705)
+    Timing (sleep midpoint) — 12.67 (.002) — 8.13 (.017)b
+    Linear term 1.04 (0.97, 1.11) 1.18 (.277) 0.99 (0.93, 1.05) 0.14 (.707)
+    Quadratic termc 1.02 (1.01, 1.04) 11.67 (&lt;.001) 1.03 (1.01, 1.04) 11.75 (&lt;.001)
+    Duration (TST) — 11.50 (.003) — NA
+    Linear term 0.95 (0.89, 1.01) 2.68 (.102) 1.10 (1.02, 1.18) 6.47 (.011)
+    Quadratic termc 1.03 (1.00, 1.07) 4.46 (.035) NA NA
+    Continuity (WASO) 1.23 (1.16, 1.30) 55.93 (&lt;.001) 1.25 (1.17, 1.34) 44.83 (&lt;.001)
+    Rhythmicity(PsFd
+    ) 0.80 (0.75, 0.86) 36.53 (&lt;.001) 0.83 (0.77, 0.90) 22.21 (&lt;.001)
+    Regularity (SD wake) 1.12 (1.06, 1.19) 14.12 (&lt;.001) 1.04 (0.97, 1.11) 1.30 (.255)
+    Full models: Sleep characteristic(s) and all nonsleep characteristicse
+    Quality (PSQI quality itema
+    ) 0.94 (0.88, 1.00) 3.88 (.049) 0.92 (0.86, 0.98) 7.35 (.007)
+    Sleepiness/Alertness (ESS) 0.99 (0.93, 1.06) 0.08 (.775) 0.98 (0.91, 1.04) 0.60 (.440)
+    Timing (sleep midpoint) — 7.28 (.026) — 6.81 (.033)b
+    Linear term 0.99 (0.93, 1.06) 0.04 (.841) 0.97 (0.91, 1.03) 0.96 (.328)
+    Quadratic Termc 1.02 (1.01, 1.04) 9.90 (.002) 1.02 (1.01, 1.04) 9.86 (.002)
+    Duration (TST) 0.93 (0.87, 0.98) 6.37 (.012) 1.02 (0.94, 1.10) 0.177 (.674)
+    Continuity (WASO) 1.15 (1.08, 1.22) 22.42 (&lt;.001) 1.16 (1.08, 1.24) 17.83 (&lt;.001)
+    Rhythmicity(PsFd
+    ) 0.88 (0.82, 0.95) 11.29 (&lt;.001) 0.89 (0.82, 0.96) 8.54 (.004)
+    Regularity (SD wake) 1.05 (0.99, 1.12) 2.63 (.105) 1.01 (0.95, 1.08) 0.13 (.719)
+    HR = hazard ratio; CI = confidence interval; PSQI = Pittsburgh Sleep Quality Index; ESS = Epworth Sleepiness Scale; WASO = minutes awake after sleep
+    onset; PsF = pseudo-F statistic; SD wake = within-subject standard deviation of wake time; ACT = actigraphy-assessed; TST = total sleep time. a
+    Lower values indicate worse quality.
+    b
+    Likelihood ratio test for inclusion of both linear and quadratic terms.
+    c
+    HRs associated with the quadratic term &gt; 1 indicate a convex (i.e., “U”-shaped) associations, with larger values suggesting a steeper curve. d
+    Lower values indicate more irregularity of overall sleep–wake rhythm.
+    e
+    Adjusted for age, site, race, education, self-reported health status, physical activity, depressed mood, smoking, caffeine intake, daily alcohol use, cognitive
+    function, body mass index, self-reported histories of medical conditions (arthritis, cardiovascular disease, stroke, diabetes, chronic obstructive pulmonary
+    disease, and hypertension), and uses of medications (antidepressants, benzodiazepines, and other sedatives/hyponotics, NSAIDS, corticosteroids).
+    Downloaded from https://academic.oup.com/sleep/article/41/1/zsx189/4642232 by Falk Library user on 22 October 2024
+    SLEEP, Vol. 41, No. 1, 2018 7 An Application of Flexible Multivariable Approaches—Wallace et al.
+    and CVD had VIMPs that were approximately 20% of the VIMP
+    of age. The joint VIMP for all sleep information (“7 Sleep + #
+    Extreme”) was 14.4% of the VIMP for age. VIMPs for physical
+    activity (PASE), rhythmicity, and the seven sleep characteristics
+    considered jointly (“7 Sleep”) were 11.5%, 9.2%, and 8.8% of
+    the VIMP for age, respectively. Following these were depression at 8.0%, continuity at 7.7%, and the number of extreme
+    sleep characteristics (“# Extreme”) at 5.5%. Timing, duration,
+    quality, and sleepiness/alertness each had VIMPs &lt; 1%.
+    Finally, the Cox model including age and the variables with a
+    VIMP at least 5% of the VIMP of age (cognition CVD, physical
+    activity, rhythmicity, depression, continuity, and the number of
+    extreme sleep characteristics) is shown in Table 4. Older age
+    (1.70 [1.60, 1.81]), CVD (1.49 [1.32, 1.69]), lower cognition
+    (1.19 [1.14, 1.25]), and lower physical activity (1.14 [1.05,
+    1.22]) conferred the strongest risk for mortality. Closely following was lower sleep continuity (1.13 [1.06, 1.20]), lower
+    rhythmicity (1.09 [1.01, 1.18]), and higher depressive symptoms (1.08 [1.02, 1.15]). After adjusting for these risk factors,
+    the number of extreme sleep characteristics was no longer significantly associated with mortality (1.03 [0.98, 1.09]).
+  </algo>
+ 
+  <algo>
+    <algotitle>
+     Sensitivity Analyses
+    </algotitle>
+    Models Adjusted for AHI (N = 2,714)
+    We obtained very similar results across approaches when AHI
+    was included among potential covariates. In the full multivariable Cox model, rhythmicity (1.11 [1.03, 1.20]) and continuity (1.15 [1.07, 1.23]) remained the strongest predictors of time
+    to all-cause mortality, whereas no significant association was
+    observed for AHI (1.00 [0.93, 1.07]). In a fully adjusted Cox
+    model, the number of extreme sleep characteristics treated continuously was associated with mortality (1.09 [1.04, 1.15]),
+    whereas AHI was not (1.01 [0.94, 1.08]). Similarly, the number of extreme sleep characteristics treated categorially was
+    associated with mortality (X2
+    = 17.06, p = .0002; HR [95%CI]
+    for 3 vs. 0 = 1.37 [1.08, 1.74]; HR [95%CI] for ≥4 versus
+    0 = 1.56 [1.21, 2.00]), whereas AHI was not (1.00 [0.94, 1.07]).
+    In the survival tree model considering AHI, the identical variables (age, cognition, and physical activity) and cut-points were
+    empirically selected as in the tree model that did not consider
+    AHI (see Supplementary Material). Finally, in the random survival forest including AHI, the top 10 predictors were identical
+    to those in the random survival forest that did not include AHI,
+    with only slight changes in order. AHI was ranked as the 21st
+    most important predictor in the random survival forest, with
+    a VIMP that was 1.03% of that of age. Additional details are
+    provided in Supplementary Material.
+    Models Addressing Reverse Causality (N = 2,858)
+    We obtained very similar results excluding those who died in
+    the year following the Sleep Visit (addressing “reverse causality”). In the full multivariable Cox model, rhythmicity (1.11
+    [1.03, 1.20]) and continuity (1.16 [1.08, 1.24]) remained the
+    strongest predictors of time to all-cause mortality. In a full Cox
+    model, the number of extreme sleep characteristics treated continuously was associated with mortality (1.09 [1.04, 1.14]).
+    Similarly, the number of extreme characteristics treated categorically was associated with mortality [X2
+    = 17.06, p = .0002]
+    Table 3—Cox Proportional Hazards Regression Models for the Number of Extreme Sleep Characteristics and All-Cause Mortality.
+    HR (95% CI) X2 statistic (p-value)
+    Base model: number of extreme sleep characteristics, age, and site
+    Continuous 1.17 (1.12, 1.22) 56.89 (&lt;.001)
+    Categorical — 59.84 (&lt;.001)a
+    1 vs 0 1.23 (1.00, 1.53) 3.66 (.056)
+    2 vs 0 1.35 (1.09, 1.68) 7.45 (.006)
+    3 vs 0
+    4+ vs 0
+    1.76 (1.40, 2.20) 24.17 (&lt;.001)
+    2.13 (1.70, 2.68) 42.94 (&lt;.001)
+    Full model: number of extreme sleep characteristics and all nonsleep characteristicsb
+    Continuous 1.10 (1.05, 1.15) 16.74 (&lt;.001)
+    Categorical — 20.71 (&lt;.001)a
+    1 vs 0 1.09 (0.88, 1.36) 0.60 (.438)
+    2 vs 0 1.17 (0.94, 1.46) 1.97 (.161)
+    3 vs 0 1.40 (1.11, 1.77) 8.17 (.004)
+    4+ vs 0 1.57 (1.23, 2.00) 13.31 (&lt;.001)
+    HR = hazard ratio; CI = confidence interval.
+    a
+    Likelihood ratio test for categorical variable with &gt;2 categories.
+    b
+    Adjusted for age, site, race, education, self-reported health status, physical activity, depressed mood, smoking, caffeine intake, daily alcohol use, cognitive
+    function, body mass index, self-reported histories of medical conditions (arthritis, cardiovascular disease, stroke, diabetes, chronic obstructive pulmonary
+    disease, and hypertension), and uses of medications (antidepressants, benzodiazepines, and other sedatives/hypnotics, NSAIDS, corticosteroids).
+    Downloaded from https://academic.oup.com/sleep/article/41/1/zsx189/4642232 by Falk Library user on 22 October 2024
+    SLEEP, Vol. 41, No. 1, 2018 8 An Application of Flexible Multivariable Approaches—Wallace et al.
+    Figure 3—Variable importance (VIMP) from a random survival forest, expressed as the percentage relative to age. The model included the
+    seven individual sleep characteristics, the number of extreme characteristics (# Extreme), and all nonsleep predictors. Joint VIMPs for the
+    seven sleep characteristics (“7 Sleep”) and the seven sleep characteristics plus the number of extreme sleep characteristics (“7 sleep + #
+    Extreme”) were also calculated. CVD = cardiovascular disease; PASE = Physical Activity Scale for the elderly; HTN = hypertension; SR
+    Health = Self-Reported Health Status; COPD = chronic obstructive pulmonary disease; BMI = body mass index; NSAIDS = nonsteroidal
+    anti-inflammatory drugs.
+    Figure  2—Conditional inference tree model. Characteristics considered for inclusion were the seven individual sleep characteristics, the
+    number of extreme sleep characteristics, age, and site. Terminal nodes show time in years to 25% mortality (95% CI). NA indicates that the
+    estimate cannot be obtained because either the 25% mortality rate or its upper or lower confidence limit was not observed. HR = hazard ratio;
+    CI = confidence interval; #Extreme = number of extreme sleep characteristics; PASE = Physical Activity Scale for the elderly.
+    Downloaded from https://academic.oup.com/sleep/article/41/1/zsx189/4642232 by Falk Library user on 22 October 2024
+    SLEEP, Vol. 41, No. 1, 2018 9 An Application of Flexible Multivariable Approaches—Wallace et al.
+    such that having 3 versus 0 (1.37 [1.08, 1.73]) or ≥4 versus 0
+    (1.50 [1.17, 1.91]), extreme sleep characteristics were significantly associated with mortality. In the survival tree model, only
+    age and CVD were empirically selected (see Supplementary
+    Material). This is different from the results based on the full
+    sample, where age, cognition, and physical activity were empirically selected to enter the tree model. Finally, in the random
+    survival forest, the top 10 predictors were identical to those in
+    the full sample, with only slight changes in order. Additional
+    details are provided in Supplementary Material.
+  </algo>
+   
+</subsection>
+ <!-- ============================================================================================================== -->
+ <!-- ============================================================================================================== -->
+ 
+ 
+ <!-- ============================================================================================================== -->
+ <!-- ============================================================================================================== -->
+<subsection>
+  <subtitle>
+   DISCUSSION
+  </subtitle>
+  This study used a multivariable sleep health framework29 to
+  simultaneously examine seven sleep characteristics as predictors of time to all-cause mortality in older men. Across multivariable approaches, lower sleep-wake rhythmicity and lower
+  sleep continuity increased risk for all-cause mortality even
+  after considering other important sleep, demographic, health,
+  and behavioral risk factors. Similar findings regarding the
+  importance of measures of continuity (here, measured by actigraphy-assessed minutes awake after sleep onset) and rhythmicity (here, measured by actigraphy-derived PsF) for predicting
+  mortality in older adults have been observed previously by at
+  least one other study.20 
+  
+  <contradiction>
+  <!-- negative citation!! -->
+  However, current sleep recommendations from the National Sleep Foundation55,56 and the American
+  Academy of Sleep Medicine57 are primarily focused on sleep
+  duration, which has been most widely studied. 
+  
+  In our Cox models that focused on duration as the only sleep characteristic
+  (with or without other nonsleep risk factors), duration was a
+  significant predictor. However, in the full multivariable models including all sleep and nonsleep predictors, duration was no
+  longer significant. This highlights the importance of studying
+  sleep within a multidimensional sleep health framework and
+  considering multiple sleep characteristics simultaneously.
+  </contradiction>
+  
+  Our findings also emphasize how the simultaneous consideration of multiple sleep characteristics can enhance predictive power. In the random survival forest, only age, cognition,
+  and history of CVD were more important than all of the sleep
+  variables considered simultaneously (i.e., the seven sleep
+  characteristics and the number of extreme characteristics). This
+  finding, combined with the fact that sleep is modifiable through
+  behavioral techniques, suggests that multidimensional sleep
+  measures could play an important role in future prognostic
+  models, and that it may also be an important target for largescale population interventions.
+  The number of extreme sleep characteristics was a significant
+  predictor of mortality even after adjusting for numerous nonsleep risk factors in a Cox regression model. It was also empirically selected as the best predictor of mortality among men
+  aged &lt;72 in the base tree-structured survival model. However,
+  the random survival forest indicated that rhythmicity and continuity were more important for predicting mortality than the
+  number of extreme sleep characteristics, and the number of
+  extreme sleep characteristics was not significant in a multivariable Cox model that also included rhythmicity and continuity.
+  As such, it is probably that rhythmicity and continuity are the
+  primary contributors to the “number of extreme sleep characteristics” variable. To explore this further, we recalculated the
+  number of extreme sleep characteristics variable in two ways:
+  (1) counting only rhythmicity and continuity (ranging from 0
+  to 2), and (2) counting only duration, continuity, rhythmicity,
+  regularity, and quality (i.e., excluding rhythmicity and continuity, ranging from 0 to 5). The continuous measure counting only
+  rhythmicity and continuity was significantly associated with
+  mortality (HR [95% CI] = 1.31 [1.19, 1.43]). However, the continuous measure excluding rhythmicity and continuity was not
+  significantly associated with mortality (HR [95%CI] = 1.05
+  [0.99, 1.11]). These findings provide further support for the
+  importance of both rhythmicity and continuity in predicting
+  mortality among older men.
+  Our strategy of using both traditional Cox models and flexible, nonlinear tree-modeling approaches allowed us to establish which findings are most robust amidst potentially complex
+  associations. In general, our findings from the Cox model
+  regarding rhythmicity, continuity, and the number of extreme
+  sleep characteristics were replicated using flexible tree-structured analysis and/or the random forests. However, the finding
+  from the fully adjusted Cox models showing that better quality
+  Table 4.—Multivariable Cox Model Including Age and Variables With Variable Importance Statistics (VIMPs) at Least 5% as Large as Age (Identified From
+  Random Forest).
+  Predictor HR (95% CI) X2 statistic (p-value)
+  Age 1.70 (1.60, 1.81) 292.37 (&lt;.001)
+  Cognition (MMSE) 0.84 (0.80, 0.88) 45.25 (&lt;.001)
+  History of cardiovascular disease 1.49 (1.32, 1.69) 39.80 (&lt;.001)
+  Physical activity (PASE) 0.88 (0.82, 0.95) 11.80 (&lt;.001)
+  Rhythmicity (PsF) 0.92 (0.85, 0.99) 5.25 (.022)
+  Depression (GDS) 1.08 (1.02, 1.15) 7.12 (.008)
+  Continuity (WASO) 1.13 (1.06, 1.20) 14.47 (&lt;.001)
+  Number of extreme sleep characteristics 1.03 (0.98, 1.09) 1.58 (.209)
+  MMSE = Mini-Mental State Exam; CVD = History of cardiovascular disease; PASE = Physical Activity Scale for the elderly; GDS = Geriatric Depression
+  Scale; WASO = minutes awake after sleep onset.
+  Downloaded from https://academic.oup.com/sleep/article/41/1/zsx189/4642232 by Falk Library user on 22 October 2024
+  SLEEP, Vol. 41, No. 1, 2018 10 An Application of Flexible Multivariable Approaches—Wallace et al.
+  (captured by the PSQI sleep quality item) was significantly
+  associated with increased mortality risk was not replicated in
+  the tree-structured model or the random forest. This discrepancy
+  suggests that it is unlikely that better sleep quality increases
+  mortality risk. It also highlights the importance of considering
+  flexible, nonlinear alternatives such as tree-structured models
+  and random forests when studying multivariable sleep health.
+  Our variable selection strategy was to preselect one sleep characteristic for each domain, prioritizing measures that are clinically relevant, stable, representative of daily life, and based on
+  prior scientific evidence. This strategy is likely to yield clinically meaningful model interpretations and reduces the risk of
+  spurious findings because of the scientific evidence behind our
+  selections. However, it does not necessarily result in the greatest
+  predictive power, nor does it provide a comprehensive assessment of exactly which characteristics within each sleep domain
+  are most representative or predictive. In future research, it may be
+  useful to apply factor analysis and develop representative domain
+  scores (e.g., through item response theory) for use in subsequent
+  models. Alternatively, the tree-structured models and random
+  forests used herein, as well as regularized regression approaches
+  (e.g., the elastic net58), allow for many potentially correlated variables to be considered simultaneously. Using these multivariable
+  approaches to explore which sleep characteristics (out of a much
+  larger, exploratory pool of potential sleep characteristics) are the
+  strongest predictors of health outcomes could yield important
+  findings that differ from the results presented here.
+  
+  Our findings should be interpreted in the context of some limitations. First, we explored multiple models and analytic strategies, and as such, our findings are hypothesis-generating and
+  need to be validated in future studies. 
+  
+  <takeaway>
+  However, the fact that rhythmicity and continuity consistently emerged as important
+  across a variety of modeling strategies and sensitivity analyses suggests that these findings are robust within our sample.
+  </takeaway>
+  
+  Second, although conditional inference tree-structured models and random forests have numerous strengths as discussed
+  above, they also have weaknesses. Conditional inference tree
+  models can be unstable in their structure, are less efficient than
+  regression when associations between predictors and the outcome are truly linear, and are not necessarily optimal predictors
+  (i.e., each split is selected to optimally predict the outcome at
+  each node; however, this does not necessarily result in an entire tree that optimally predicts the outcome). Although random
+  forests mitigate these limitations of the single tree model, a disadvantage is that they do not facilitate a nuanced interpretation
+  of the direction and magnitude of the associations. Third, our
+  results are specific to older men enrolled in the MrOS study and
+  an all-cause mortality outcome. Similar analyses should be conducted with other outcomes (e.g., cause-specific mortality or
+  specific disease states) and populations (e.g., women) to assess
+  generalizability.
+  A final limitation is that we did not investigate mechanisms
+  through which sleep characteristics (namely, sleep-wake rhythmicity and sleep continuity) may relate to mortality. Thus, we
+  cannot discern whether these sleep characteristics are directly
+  related to mortality or whether they are indirectly related to mortality through other factors. Prior studies investigating mechanistic links between sleep and mortality have primarily (but not
+  exclusively59,60) focused on long or short sleep duration.47,61–63
+  Our study suggests that shifting the focus of these mechanistic
+  studies from sleep duration to measures of sleep-wake rhythmicity and sleep continuity may be a promising direction of
+  future research, especially given their associations with potential mortality-related mechanisms including immunity,60,64
+  inflammation,22,59 depression,65 cognitive deficits,66,67 high blood
+  pressure,68 and obesity.69 Notably, a previously published study59
+  using a subset of our MrOS sample investigated inflammation
+  and morbidity or lifestyle factors (measured concurrently with
+  sleep) as mechanisms through which actigraphy-measured
+  WASO (i.e., sleep continuity) predicted mortality. However, the
+  WASO-mortality association was found to be independent of
+  these potential mechanisms.
+  In conclusion, we found that the simultaneous consideration
+  of multiple sleep characteristics can enhance predictive power
+  for mortality among older men, and that rhythmicity and continuity in particular confer the strongest risk for mortality.
+  Critical next steps in the study of multivariable sleep health will
+  be to conduct studies to elucidate the physiological, psychological, and behavioral mechanisms through which rhythmicity
+  and continuity (individually and in combination with one another) relate to all-cause mortality; to develop new treatments
+  that target the specific sleep profiles that cause morbidity and
+  mortality; and to create enhanced health screening tools that
+  incorporate multivariable sleep measures.
+</subsection>
+ <!-- ============================================================================================================== -->
+ <!-- ============================================================================================================== -->
+ 
+ 
+ <!-- ============================================================================================================== -->
+ <!-- ============================================================================================================== -->
+<subsection>
+  <subtitle>
+   REFERENCES
+  </subtitle>
+  1. Cappuccio FP, Cooper D, D’Elia L, Strazzullo P, Miller MA. Sleep
+  duration predicts cardiovascular outcomes: a systematic review and
+  meta-analysis of prospective studies. Eur Heart J. 2011; 32(12):
+  1484–1492.
+  2. da Silva AA, de Mello RG, Schaan CW, Fuchs FD, Redline S, Fuchs
+  SC. Sleep duration and mortality in the elderly: a systematic review with
+  meta-analysis. BMJ Open. 2016; 6(2): e008119.
+  3. Smagula SF, Stone KL, Redline S, et al.; Osteoporotic Fractures in Men
+  (MrOS) Research Group. Actigraphy- and polysomnography-measured
+  sleep disturbances, inflammation, and mortality among older men.
+  Psychosom Med. 2016; 78(6): 686–696.
+  4. Hoevenaar-Blom MP, Spijkerman AM, Kromhout D, van den Berg JF,
+  Verschuren WM. Sleep duration and sleep quality in relation to 12-year
+  cardiovascular disease incidence: the MORGEN study. Sleep. 2011;
+  34(11): 1487–1492.
+  5. Lou P, Chen P, Zhang L, et al. Relation of sleep quality and sleep duration to type 2 diabetes: a population-based cross-sectional survey. BMJ
+  Open. 2012;2(4). pii: e000956.
+  6. Engeda J, Mezuk B, Ratliff S, Ning Y. Association between duration and
+  quality of sleep and the risk of pre-diabetes: evidence from NHANES.
+  Diabet Med. 2013; 30(6): 676–680.
+  7. Yaggi HK, Araujo AB, McKinlay JB. Sleep duration as a risk factor
+  for the development of type 2 diabetes. Diabetes Care. 2006; 29(3):
+  657–661.
+  8. Soreca I, Wallace ML, Frank E, Hasler BP, Levenson JC, Kupfer DJ.
+  Sleep duration is associated with dyslipidemia in patients with bipolar
+  disorder in clinical remission. J Affect Disord. 2012; 141(2-3): 484–487.
+  9. Kowall B, Lehnich AT, Strucksberg KH, et al. Associations among sleep
+  disturbances, nocturnal sleep duration, daytime napping, and incident
+  prediabetes and type 2 diabetes: the Heinz Nixdorf Recall Study. Sleep
+  Med. 2016; 21: 35–41.
+  10. Gallicchio L, Kalesan B. Sleep duration and mortality: a systematic review and meta-analysis. J Sleep Res. 2009; 18(2): 148–158.
+  11. Cappuccio FP, D’Elia L, Strazzullo P, Miller MA. Sleep duration and
+  all-cause mortality: a systematic review and meta-analysis of prospective studies. Sleep. 2010; 33(5): 585–592.
+  12. Haseli-Mashhadi N, Dadd T, Pan A, Yu Z, Lin X, Franco OH. Sleep
+  quality in middle-aged and elderly Chinese: distribution, associated
+  Downloaded from https://academic.oup.com/sleep/article/41/1/zsx189/4642232 by Falk Library user on 22 October 2024
+  SLEEP, Vol. 41, No. 1, 2018 11 An Application of Flexible Multivariable Approaches—Wallace et al.
+  factors and associations with cardio-metabolic risk factors. BMC Public
+  Health. 2009; 9: 130.
+  13. Elder SJ, Pisoni RL, Akizawa T, et al. Sleep quality predicts quality
+  of life and mortality risk in haemodialysis patients: results from the
+  Dialysis Outcomes and Practice Patterns Study (DOPPS). Nephrol Dial
+  Transplant. 2008; 23(3): 998–1004.
+  14. Akerstedt T, Kecklund G, Johansson SE. Shift work and mortality.
+  Chronobiol Int. 2004; 21(6): 1055–1061.
+  15. Frost P, Kolstad HA, Bonde JP. Shift work and the risk of ischemic heart
+  disease - a systematic review of the epidemiologic evidence. Scand J
+  Work Environ Health. 2009; 35(3): 163–179.
+  16. Dew MA, Hoch CC, Buysse DJ, et al. Healthy older adults’ sleep predicts all-cause mortality at 4 to 19 years of follow-up. Psychosom Med.
+  2003; 65(1): 63–73.
+  17. Grandner MA, Jackson NJ, Pak VM, Gehrman PR. Sleep disturbance
+  is associated with cardiovascular and metabolic disorders. J Sleep Res.
+  2012; 21(4): 427–433.
+  18. Troxel WM, Buysse DJ, Matthews KA, et al. Sleep symptoms predict the development of the metabolic syndrome. Sleep. 2010; 33(12):
+  1633–1640.
+  19. Laugsand LE, Vatten LJ, Platou C, Janszky I. Insomnia and the risk
+  of acute myocardial infarction: a population study. Circulation. 2011;
+  124(19): 2073–2081.
+  20. Zuurbier LA, Luik AI, Hofman A, Franco OH, Van Someren EJ, Tiemeier
+  H. Fragmentation and stability of circadian activity rhythms predict mortality: the Rotterdam study. Am J Epidemiol. 2015; 181(1): 54–63.
+  21. Paudel ML, Taylor BC, Ancoli-Israel S, et al.; Osteoporotic Fractures in
+  Men (MrOS) Study. Rest/activity rhythms and mortality rates in older
+  men: MrOS Sleep Study. Chronobiol Int. 2010; 27(2): 363–377.
+  22. Okun ML, Reynolds CF 3rd, Buysse DJ, et al. Sleep variability, health-related practices, and inflammatory markers in a community dwelling
+  sample of older adults. Psychosom Med. 2011; 73(2): 142–150.
+  23. Ogilvie RP, Redline S, Bertoni AG, et al. Actigraphy measured sleep
+  indices and adiposity: the Multi-Ethnic Study of Atherosclerosis
+  (MESA). Sleep. 2016; 39(9): 1701–1708.
+  24. Chontong S, Saetung S, Reutrakul S. Higher sleep variability is associated with poorer glycaemic control in patients with type 1 diabetes. J
+  Sleep Res. 2016; 25(4): 438–444.
+  25. Hays JC, Blazer DG, Foley DJ. Risk of napping: excessive daytime
+  sleepiness and mortality in an older community population. J Am
+  Geriatr Soc. 1996; 44(6): 693–698.
+  26. Newman AB, Spiekerman CF, Enright P, et al. Daytime sleepiness
+  predicts mortality and cardiovascular disease in older adults. The
+  Cardiovascular Health Study Research Group. J Am Geriatr Soc. 2000;
+  48(2): 115–123.
+  27. Sabanayagam C, Shankar A, Buchwald D, Goins RT. Insomnia symptoms and cardiovascular disease among older American Indians: the
+  Native Elder Care Study. J Environ Public Health. 2011; 2011: 964617.
+  28. Short MA, Gradisar M, Lack LC, Wright HR. The impact of sleep on
+  adolescent depressed mood, alertness and academic performance. J
+  Adolesc. 2013; 36(6): 1025–1033.
+  29. Buysse DJ. Sleep health: can we define it? Does it matter? Sleep. 2014;
+  37(1): 9–17.
+  30. Stine NW, Chokshi DA, Gourevitch MN. Improving population health in
+  US cities. JAMA. 2013; 309(5): 449–450.
+  31. Institute of Medicine (US) Committee on Sleep Medicine and Research.
+  Sleep Disorders and Sleep Deprivation: An Unmet Public Health
+  Problem. In: Colten HR, Altevogt BM, eds. Washington, DC: National
+  Academies Press (US); 2006.
+  32. Hothorn T, Hornik K, Zeileis A. Unbiased recursive partitioning: a conditional inference framework. J Comp Graph Stat. 2006; 15(3): 651–674.
+  33. Ishrawan H, Kogalur UB, Blackston EH, Lauer MS. Random Survival
+  Forests. Ann Appl Stat. 2008; 2: 841–860.
+  34. Heagerty PJ, Zheng Y. Survival model predictive accuracy and ROC
+  curves. Biometrics. 2005; 61(1): 92–105.
+  35. Orwoll E, Blank JB, Barrett-Connor E, et al. Design and baseline
+  characteristics of the osteoporotic fractures in men (MrOS) study–a
+  large observational study of the determinants of fracture in older men.
+  Contemp Clin Trials. 2005; 26(5): 569–585.
+  36. Blank JB, Cawthon PM, Carrion-Petersen ML, et al. Overview of recruitment for the osteoporotic fractures in men study (MrOS). Contemp
+  Clin Trials. 2005; 26(5): 557–568.
+  37. Blackwell T, Ancoli-Israel S, Redline S, Stone KL; Osteoporotic
+  Fractures in Men (MrOS) Study Group. Factors that may influence the
+  classification of sleep-wake by wrist actigraphy: the MrOS sleep study. J
+  Clin Sleep Med. 2011; 7(4): 357–367.
+  38. Girardin JL, Kripke DF, Mason WJ, Elliott JA, Youngstedt SD. Sleep
+  estimation from wrist movement quantified by different modalities. J
+  Neurosci Methods 2001; 105(2): 185–191.
+  39. Marler MR, Gehrman P, Martin JL, Ancoli-Israel S. The sigmoidally
+  transformed cosine curve: a mathematical model for circadian rhythms
+  with symmetric non-sinusoidal shapes. Stat Med. 2006; 25(22):
+  3893–3904.
+  40. Mehra R, Stone KL, Blackwell T, et al.; Osteoporotic Fractures in Men
+  Study. Prevalence and correlates of sleep-disordered breathing in older
+  men: osteoporotic fractures in men sleep study. J Am Geriatr Soc. 2007;
+  55(9): 1356–1364.
+  41. Johns MW. A new method for measuring daytime sleepiness: the
+  Epworth Sleepiness Scale. Sleep. 1991; 14(6): 540–545.
+  42. Buysse DJ, Reynolds CF 3rd, Monk TH, Berman SR, Kupfer DJ. The
+  Pittsburgh Sleep Quality Index: a new instrument for psychiatric practice and research. Psychiatry Res. 1989; 28(2): 193–213.
+  43. Smagula SF, Ancoli-Israel S, Blackwell T, et al.; Osteoporotic Fractures
+  in Men (MrOS) Research Group. Circadian rest-activity rhythms predict
+  future increases in depressive symptoms among community-dwelling
+  older men. Am J Geriatr Psychiatry. 2015; 23(5): 495–505.
+  44. Rogers TS, Blackwell TL, Lane NE, et al. Rest-activity patterns and falls
+  and fractures in older men. Osteoporos Int. 2017; 28(4): 1313–1322.
+  45. Furihata R, Hall MH, Stone KL, et al. An aggregate measure of sleep
+  health is associated with prevalent and incident depression among community-dwelling older women. Sleep. 2017;40(3).
+  46. Walch OJ, Cochran A, Forger DB. A global quantification of “normal”
+  sleep schedules using smartphone data. Sci Adv. 2016; 2(5): e1501705.
+  47. Kurina LM, McClintock MK, Chen JH, Waite LJ, Thisted RA,
+  Lauderdale DS. Sleep duration and all-cause mortality: a critical
+  review of measurement and associations. Ann Epidemiol. 2013; 23(6):
+  361–370.
+  48. Washburn RA, Smith KW, Jette AM, Janney CA. The Physical Activity
+  Scale for the Elderly (PASE): development and evaluation. J Clin
+  Epidemiol. 1993; 46(2): 153–162.
+  49. Aikman GG, Oehlert ME. Geriatric Depression Scale: long form versus
+  short form. Clin Gerontol. 2000;22(3/4):63–70.
+  50. Teng EL, Chui HC. The Modified Mini-Mental State (3MS) examination. J Clin Psychiatry. 1987; 48(8): 314–318.
+  51. Pahor M, Chrischilles EA, Guralnik JM, Brown SL, Wallace RB,
+  Carbonin P. Drug data coding and analysis in epidemiologic studies. Eur
+  J Epidemiol. 1994; 10(4): 405–411.
+  52. Kraemer HC, Blasey CM. Centring in regression analyses: a strategy to
+  prevent errors in statistical inference. Int J Methods Psychiatr Res. 2004;
+  13(3): 141–151.
+  53. Ram S, Seirawan H, Kumar SK, Clark GT. Prevalence and impact of
+  sleep disorders and sleep habits in the United States. Sleep Breath. 2010;
+  14(1): 63–70.
+  54. Kendzerska T, Mollayeva T, Gershon AS, Leung RS, Hawker G,
+  Tomlinson G. Untreated obstructive sleep apnea and the risk for serious
+  long-term adverse outcomes: a systematic review. Sleep Med Rev. 2014;
+  18(1): 49–59.
+  55. Foley D, Ancoli-Israel S, Britz P, Walsh J. Sleep disturbances and
+  chronic disease in older adults: results of the 2003 National Sleep
+  Foundation Sleep in America Survey. J Psychosom Res. 2004; 56(5):
+  497–502.
+  56. Hirshkowitz M, Whiton K, Albert SM, et al. National Sleep Foundation’s
+  sleep time duration recommendations: methodology and results summary. Sleep Health. 2015; 1(1): 40–43.
+  57. Watson NF, Badr MS, Belenky G, et al. Joint consensus statement of the
+  American Academy of Sleep Medicine and Sleep Research Society on
+  the recommended amount of sleep for a healthy adult: methodology and
+  discussion. J Clin Sleep Med. 2015;11(8):931–952.
+  Downloaded from https://academic.oup.com/sleep/article/41/1/zsx189/4642232 by Falk Library user on 22 October 2024
+  SLEEP, Vol. 41, No. 1, 2018 12 An Application of Flexible Multivariable Approaches—Wallace et al.
+  58. Zou H, Hastie T. Regularization and variable selection via the elastic net.
+  R Stat Soc Series B Stat Methodol. 2005;67(2):301–320.
+  59. Smagula SF, Stone KL, Redline S, et al.; Osteoporotic Fractures in Men
+  (MrOS) Research Group. Actigraphy- and polysomnography-measured
+  sleep disturbances, inflammation, and mortality among older men.
+  Psychosom Med. 2016; 78(6): 686–696.
+  60. Haus EL, Smolensky MH. Shift work and cancer risk: potential mechanistic roles of circadian disruption, light at night, and sleep deprivation.
+  Sleep Med Rev. 2013; 17(4): 273–284.
+  61. Grandner MA, Hale L, Moore M, Patel NP. Mortality associated with
+  short sleep duration: The evidence, the possible mechanisms, and the
+  future. Sleep Med Rev. 2010; 14(3): 191–203.
+  62. Grandner MA, Drummond SP. Who are the long sleepers? Towards an
+  understanding of the mortality relationship. Sleep Med Rev. 2007; 11(5):
+  341–360.
+  63. Hall MH, Smagula SF, Boudreau RM, et al. Association between sleep
+  duration and mortality is mediated by markers of inflammation and
+  health in older adults: the Health, Aging and Body Composition Study.
+  Sleep. 2015; 38(2): 189–195.
+  64. Logan RW, Sarkar DK. Circadian nature of immune function. Mol Cell
+  Endocrinol. 2012; 349(1): 82–90.
+  65. Luik AI, Zuurbier LA, Hofman A, Van Someren EJ, Tiemeier H.
+  Stability and fragmentation of the activity rhythm across the sleep-wake
+  cycle: the importance of age, lifestyle, and mental health. Chronobiol
+  Int. 2013; 30(10): 1223–1230.
+  66. Oosterman JM, van Someren EJ, Vogels RL, Van Harten B, Scherder
+  EJ. Fragmentation of the rest-activity rhythm correlates with age-related
+  cognitive deficits. J Sleep Res. 2009; 18(1): 129–135.
+  67. Maaskant M, van de Wouw E, van Wijck R, Evenhuis HM, Echteld MA.
+  Circadian sleep-wake rhythm of older adults with intellectual disabilities. Res Dev Disabil. 2013; 34(4): 1144–1151.
+  68. Matthews KA, Kamarck TW, H Hall M, et al. Blood pressure dipping
+  and sleep disturbance in African-American and Caucasian men and
+  women. Am J Hypertens. 2008; 21(7): 826–831.
+  69. van den Berg JF, Knvistingh Neven A, Tulen JH, et al. Actigraphic sleep
+  duration and fragmentation are related to obesity in the elderly: the
+  Rotterdam Study. Int J Obes (Lond). 2008; 32(7): 1083–1090.
+</subsection>
+ <!-- ============================================================================================================== -->
+ <!-- ============================================================================================================== -->
+ 
+ 
+ <!-- ============================================================================================================== -->
+ <!-- ============================================================================================================== -->
+<subsection>
+  <subtitle>
+   SUPPLEMENTARY MATERIAL
+  </subtitle>
+  Supplementary material is available at SLEEP online.
+</subsection>
+
+<subsection>
+  <subtitle>
+   FUNDING
+  </subtitle>
+  The National Heart, Lung, and Blood Institute (NHLBI) provides funding for
+  the MrOS Sleep ancillary study “Outcomes of Sleep Disorders in Older Men”
+  under the following grant numbers: R01 HL071194, R01 HL070848, R01
+  HL070847, R01 HL070842, R01 HL070841, R01 HL070837, R01 HL070838,
+  and R01 HL070839. The Osteoporotic Fractures in Men (MrOS) Study is
+  supported by National Institutes of Health funding. The following institutes
+  provided their support: the National Institute on Aging (NIA), the National
+  Institute of Arthritis and Musculoskeletal and Skin Diseases (NIAMS), the
+  National Center for Advancing Translational Sciences (NCATS), and National
+  Institutes of Health Roadmap for Medical Research under the following grant
+  numbers: U01 AG027810, U01 AG042124, U01 AG042139, U01 AG042140,
+  U01 AG042143, U01 AG042145, U01 AG042168, U01 AR066160, and UL1
+  TR000128. MLW has been supported by National Institutes of Health grants
+  K01 MH096944 and R01 AG056331. SFS has been supported by National
+  Institutes of Health grants T32 MH019986 and T32 HL082610.
+</subsection>
+ 
+<subsection>
+  <subtitle>
+   SUBMISSION &amp; CORRESPONDENCE INFORMATION
+  </subtitle>
+  Submitted for publication April, 2017
+  Submitted in final revised form October, 2017
+  Accepted for publication October, 2017
+  Address correspondence to: Meredith Wallace, 3811 O’Hara Street,
+  Pittsburgh, PA 15132, USA. Telephone: (412) 648-5938; Fax: (412) 383-5412;
+  Email: lotzmj@upmc.edu
+ 
+</subsection>
+
+<subsection>
+  <subtitle>
+   DISCLOSURE STATEMENT
+  </subtitle>
+  SR reports receiving a research contract from Jazz Pharmaceuticals. DJB
+  reports receiving consultation fees from Bayer HealthCare, BeHealth Solutions,
+  Ebb Therapuetics/Cereve, Inc., CME Insitute, CME Outfitters, Emmi Solutions,
+  Medscape, and Merck; and grants from NIH, outside the submitted work.
+  In addition, DJB receives licensing fees (royalties) for the Pittsburgh Sleep
+  Quality Index (PSQI), which is copyrighted by the University of Pittsburgh.
+  Downloaded from https://academic.oup.com/sleep/article/41/1/zsx189/4642232 by Falk Library user on 22 October 2024
+</subsection>
+
+</full_article>

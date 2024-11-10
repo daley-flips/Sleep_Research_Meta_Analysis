@@ -1,0 +1,24 @@
+start = full_article
+
+full_article = element full_article{
+title, authors, schools, summary, kw, subsection+, text
+}
+#
+title = element title{text}
+#
+authors = element authors{text}
+#
+schools = element schools{text}
+#
+summary = element summary{(subtitle, text)+}
+subtitle = element subtitle{text}
+#
+kw = element kw{text}
+#
+subsection = element subsection{subtitle, (subsubsection | algo | text | takeaway | contradiction)*}
+subsubsection = element subsubsection{subsubtitle, algo*, text}
+subsubtitle = element subsubtitle{text}
+algo = element algo{algotitle, text}
+algotitle = element algotitle{text}
+takeaway = element takeaway{text}
+contradiction = element contradiction{text}

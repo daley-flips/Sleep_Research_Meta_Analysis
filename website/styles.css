@@ -1,0 +1,64 @@
+/* define something to split the navigaiton | content */
+.container {
+    display: flex;
+    height: 100vh; /* Full viewport height */
+}
+/* =========================================================== */
+#content {
+    flex: 1; /* Takes up remaining space */
+    padding: 20px;
+    background-color: #ffffff; /* White background for content */
+    overflow-y: auto; /* Scroll if content overflows */
+}
+/* =========================================================== */
+
+/* =========================================================== */
+/* navigation bar */
+/* =========================================================== */
+#nav-container {
+    width: 20%; /* Adjust as needed */
+    background-color: #f4f4f4; /* Light gray for sidebar */
+    padding: 20px;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column; /* Align items vertically */
+    justify-content: flex-start; /* Align items to the top */
+}
+#nav-container h2 {
+    margin-top: 0;
+}
+
+#nav-container ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#nav-container ul li {
+    margin: 10px 0;
+}
+
+#nav-container ul li a {
+    color: #1e90ff; /* Link color */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#nav-container ul li a:hover {
+    text-decoration: underline;
+}
+/* =========================================================== */
+
+/* =========================================================== */
+/* specifically for methods */
+/* =========================================================== */
+/* Bold styling for cited parts */
+#content p b {
+    font-weight: bold;
+    color: #333333; /* Darker color for better contrast */
+}
+
+/* Styling for keywords in methods */
+#content .keyword {
+    color: #1e90ff; /* Distinct blue color */
+    font-weight: bold;
+}
