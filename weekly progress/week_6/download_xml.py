@@ -62,6 +62,8 @@ print(f'found {len(pmc_ids)} papers\n')
 # start iterating through the ids for more info
 # =============================================================================
 iteration = 0
+
+pmc_ids = [33857311]
 for pmcid in pmc_ids:
     
     iteration += 1
@@ -76,6 +78,7 @@ for pmcid in pmc_ids:
         if success:
             paper_data, success = to_xml(response)
     
+    print('hi')
     # Define folder path and ensure the filename is unique for each paper
     folder = '/Users/daleyfraser/Documents/cs/classes/INFSCI_0013/Sleep_Research_Meta_Analysis/xml_papers/'
     file_path = f"{folder}{pmcid}.xml"  # Use pmcid as the filename
