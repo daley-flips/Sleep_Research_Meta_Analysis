@@ -1,0 +1,651 @@
+<pmc-articleset><article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" dtd-version="1.3" xml:lang="en" article-type="research-article">
+  <?properties open_access?>
+  <processing-meta base-tagset="archiving" mathml-version="3.0" table-model="xhtml" tagset-family="jats">
+    <restricted-by>pmc</restricted-by>
+  </processing-meta>
+  <front><journal-meta><journal-id journal-id-type="nlm-ta">Nat Sci Sleep</journal-id><journal-id journal-id-type="iso-abbrev">Nat Sci Sleep</journal-id><journal-id journal-id-type="publisher-id">nss</journal-id><journal-title-group><journal-title>Nature and Science of Sleep</journal-title></journal-title-group><issn pub-type="epub">1179-1608</issn><publisher><publisher-name>Dove</publisher-name></publisher></journal-meta>
+<article-meta><article-id pub-id-type="pmid">39318394</article-id><article-id pub-id-type="pmc">11420898</article-id><article-id pub-id-type="publisher-id">468748</article-id><article-id pub-id-type="doi">10.2147/NSS.S468748</article-id><article-categories><subj-group subj-group-type="heading"><subject>Original Research</subject></subj-group></article-categories><title-group><article-title>Predicting Depression Among Chinese Patients with Narcolepsy Type 1: A Machine-Learning Approach</article-title><alt-title alt-title-type="running-authors">Wang et al</alt-title><alt-title alt-title-type="running-title">Wang et al</alt-title></title-group><contrib-group><contrib contrib-type="author"><name><surname>Wang</surname><given-names>Mengmeng</given-names></name><xref rid="aff0001" ref-type="aff">
+<sup>1</sup>
+</xref></contrib><contrib contrib-type="author"><contrib-id contrib-id-type="orcid">http://orcid.org/0000-0002-6484-7441</contrib-id><name><surname>Wang</surname><given-names>Huanhuan</given-names></name><xref rid="aff0001" ref-type="aff">
+<sup>1</sup>
+</xref><xref rid="aff0002" ref-type="aff">
+<sup>2</sup>
+</xref></contrib><contrib contrib-type="author"><name><surname>Feng</surname><given-names>Zhaoyan</given-names></name><xref rid="aff0001" ref-type="aff">
+<sup>1</sup>
+</xref></contrib><contrib contrib-type="author"><name><surname>Wu</surname><given-names>Shuai</given-names></name><xref rid="aff0001" ref-type="aff">
+<sup>1</sup>
+</xref></contrib><contrib contrib-type="author"><name><surname>Li</surname><given-names>Bei</given-names></name><xref rid="aff0001" ref-type="aff">
+<sup>1</sup>
+</xref><xref rid="aff0002" ref-type="aff">
+<sup>2</sup>
+</xref></contrib><contrib contrib-type="author"><name><surname>Han</surname><given-names>Fang</given-names></name><xref rid="aff0001" ref-type="aff">
+<sup>1</sup>
+</xref></contrib><contrib contrib-type="author"><name><surname>Xiao</surname><given-names>Fulong</given-names></name><xref rid="aff0001" ref-type="aff">
+<sup>1</sup>
+</xref><xref rid="an0001" ref-type="corresp"/></contrib><aff id="aff0001"><label>1</label><institution>Division of Sleep Medicine, Peking University People’s Hospital</institution>, <addr-line>Beijing</addr-line>, <country>People’s Republic of China</country></aff><aff id="aff0002"><label>2</label><institution>School of Nursing, Peking University</institution>, <addr-line>Beijing</addr-line>, <country>People’s Republic of China</country></aff></contrib-group><author-notes><corresp id="an0001">Correspondence: Fulong Xiao; Fang Han, <institution>Division of Sleep Medicine, Peking University People’s Hospital</institution>, <addr-line>Beijing</addr-line>, <addr-line>100044</addr-line>, <country>People’s Republic of China</country>, Email xiaofulong1681@163.com; hanfang1@hotmail.com</corresp></author-notes><pub-date pub-type="epub"><day>19</day><month>9</month><year>2024</year></pub-date><pub-date pub-type="collection"><year>2024</year></pub-date><volume>16</volume><fpage>1419</fpage><lpage>1429</lpage><history><date date-type="received"><day>13</day><month>3</month><year>2024</year></date><date date-type="accepted"><day>10</day><month>9</month><year>2024</year></date></history><permissions><copyright-statement>© 2024 Wang et al.</copyright-statement><copyright-year>2024</copyright-year><copyright-holder>Wang et al.</copyright-holder><license><ali:license_ref xmlns:ali="http://www.niso.org/schemas/ali/1.0/" specific-use="textmining" content-type="ccbynclicense">https://creativecommons.org/licenses/by-nc/3.0/</ali:license_ref><license-p>This work is published and licensed by Dove Medical Press Limited. The full terms of this license are available at <ext-link ext-link-type="uri" xlink:href="https://www.dovepress.com/terms.php">https://www.dovepress.com/terms.php</ext-link> and incorporate the Creative Commons Attribution – Non Commercial (unported, v3.0) License (<ext-link ext-link-type="uri" xlink:href="https://creativecommons.org/licenses/by-nc/3.0/">http://creativecommons.org/licenses/by-nc/3.0/</ext-link>). By accessing the work you hereby accept the Terms. Non-commercial uses of the work are permitted without any further permission from Dove Medical Press Limited, provided the work is properly attributed. For permission for commercial use of this work, please see paragraphs 4.2 and 5 of our Terms (<ext-link ext-link-type="uri" xlink:href="https://www.dovepress.com/terms.php">https://www.dovepress.com/terms.php</ext-link>).</license-p></license></permissions><abstract><sec><title>Objective</title><p>Depression is a common psychiatric issue among patients with narcolepsy type 1 (NT1). Effective management requires accurate screening and prediction of depression in NT1 patients. This study aims to identify relevant factors for predicting depression in Chinese NT1 patients using machine learning (ML) approaches.</p></sec><sec><title>Methods</title><p>A total of 203 drug-free NT1 patients (aged 5–61), diagnosed based on the ICSD-3 criteria, were consecutively recruited from the Sleep Medicine Center at Peking University People’s Hospital between September 2019 and April 2023. Depression, daytime sleepiness, and impulsivity were assessed using the Center for Epidemiologic Studies Depression Scale for Children (CES-DC) or the Self-Rating Depression Scale (SDS), the Epworth Sleepiness Scale for adult or children and adolescents (ESS or ESS-CHAD), and the Barratt Impulse Scale (BIS-11). Demographic characteristics and objective sleep parameters were also analyzed. Three ML models-Logistic Regression (LR), Random Forest (RF), and Support Vector Machine (SVM)-were used to predict depression. Model performance was evaluated using receiver operating curve (AUC), accuracy, precision, recall, F1 score, and decision curve analysis (DCA).</p></sec><sec><title>Results</title><p>The LR model identified hallucinations (OR 2.21, 95% CI 1.01–4.90, <italic toggle="yes">p</italic> = 0.048) and motor impulsivity (OR 1.10, 95% CI 1.02–1.18, <italic toggle="yes">p</italic> = 0.015) as predictors of depression. Among the ML models, SVM showed the best performance with an AUC of 0.653, accuracy of 0.659, sensitivity of 0.727, and F1 score of 0.696, reflecting its effectiveness in integrating sleep-related and psychosocial factors.</p></sec><sec><title>Conclusion</title><p>This study highlights the potential of ML models for predicting depression in NT1 patients. The SVM model shows promise in identifying patients at high risk of depression, offering a foundation for developing a data-driven, personalized decision-making tool. Further research should validate these findings in diverse populations and include additional psychological variables to enhance model accuracy.</p></sec></abstract><kwd-group kwd-group-type="author"><title>Keywords</title><kwd>narcolepsy type 1</kwd><kwd>depression</kwd><kwd>machine learning</kwd><kwd>support vector machine</kwd></kwd-group><funding-group><award-group><funding-source>
+<institution-wrap><institution>National Natural Science Foundation of China</institution><institution-id institution-id-type="open-funder-registry">10.13039/501100001809</institution-id></institution-wrap>
+</funding-source></award-group><award-group><funding-source>
+<institution-wrap><institution>Youth Talent Support Project from the China Association for Science and Technology, and the Leading Talents Project from Peking University School of Nursing</institution></institution-wrap>
+</funding-source></award-group><funding-statement>This study was reported by the National Natural Science Foundation of China (81700088), the National Natural Science Foundation of China (82070091), the Youth Talent Support Project from the China Association for Science and Technology, and the Leading Talents Project from Peking University School of Nursing (LJRC22YB06, LJRC22YB05).</funding-statement></funding-group><counts><fig-count count="2"/><table-count count="2"/><ref-count count="62"/><page-count count="11"/></counts></article-meta></front>
+  <body>
+    <sec sec-type="intro" id="s0001">
+      <title>Introduction</title>
+      <p>Narcolepsy type 1 (NT1) is a specific subtype of narcolepsy, characterized by excessive daytime sleepiness (EDS), cataplexy, hypnagogic/hypnopompic hallucinations (HH), sleep paralysis (SP), and disrupted nocturnal sleep (DNS).<xref rid="cit0001" ref-type="bibr">1</xref> Importantly, neuropsychiatric manifestations are frequently observed in patients with narcolepsy.<xref rid="cit0002" ref-type="bibr">2</xref> Despite variations in the reported prevalence of psychiatric comorbidities among patients with narcolepsy, existing empirical evidence predominantly supports a higher incidence of depression compared to other psychiatric disorders.<xref rid="cit0003" ref-type="bibr">3–6</xref> For instance, research has shown that a higher proportion of patients with narcolepsy (32%, 95% Confidence Interval, 28–36%) experience depression or depressive symptoms.<xref rid="cit0007" ref-type="bibr">7</xref></p>
+      <p>It has been confirmed that depression is associated with poor quality of life,<xref rid="cit0008" ref-type="bibr">8</xref>,<xref rid="cit0009" ref-type="bibr">9</xref> low physical activity levels<xref rid="cit0010" ref-type="bibr">10</xref> and decreased job effectiveness and daily activities<xref rid="cit0011" ref-type="bibr">11</xref> among patients with NT1. Furthermore, comorbid depression may increase the risk of suicidality in narcolepsy patients.<xref rid="cit0002" ref-type="bibr">2</xref> While depression is often overlooked and not adequately treated in patients with NT1. Research indicates that despite the high prevalence<xref rid="cit0007" ref-type="bibr">7</xref> and substantial effects of depression<xref rid="cit0009" ref-type="bibr">9</xref> in patients with narcolepsy, appropriate mental health care is not provided. European evidence-based guidelines<xref rid="cit0012" ref-type="bibr">12</xref> recommend treating psychiatric disorders in narcolepsy using general principles, as there are limited specific studies supporting any particular treatments for depression in narcolepsy. Only a few studies have explored non-pharmacological interventions, such as cognitive behavioral therapy (CBT)<xref rid="cit0013" ref-type="bibr">13</xref> and peer support,<xref rid="cit0014" ref-type="bibr">14</xref> to address the psychosocial needs of these patients. For example, Ong et al<xref rid="cit0013" ref-type="bibr">13</xref> developed a CBT for hypersomnia (CBT-H) program to address the psychosocial needs of individuals with central disorders of hypersomnolence (CDH), finding that it could reduce depressive symptoms (decrease in Patient Health Questionnaire ≥ 5) among patients with CDH. Consequently, early and accurate prediction of depression in patients with NT1 assumes paramount importance for disease management and enhancement of their overall well-being.</p>
+      <p>Several factors may contribute to the development of depression among patients with NT1, including neurobiological factors such as hypocretin deficit, cortisol levels, and corticotropin-releasing hormone (CRH) neurons;<xref rid="cit0015" ref-type="bibr">15–17</xref> sleep-related factors like sleep quality, EDS and hallucinations;<xref rid="cit0010" ref-type="bibr">10</xref>,<xref rid="cit0018" ref-type="bibr">18</xref> as well as psychosocial factors such as stigma or resilience.<xref rid="cit0019" ref-type="bibr">19</xref>,<xref rid="cit0020" ref-type="bibr">20</xref> As for neurobiological factors, the deficiency in hypocretin of cerebral spinal fluid (CSF) is believed to be a potential avenue for investigating the pathological basis of depression in patients with NT1.<xref rid="cit0016" ref-type="bibr">16</xref> Additionally, studies have demonstrated a reduction in CRH neurons in NT1,<xref rid="cit0021" ref-type="bibr">21</xref> accompanied by hyperactivity in the remaining neurons.<xref rid="cit0017" ref-type="bibr">17</xref> Given that paraventricular CRH neurons are crucial to the hypothalamic-pituitary-adrenal (HPA) stress axis and HPA axis overactivity is linked to depression,<xref rid="cit0022" ref-type="bibr">22</xref> this hyperactivity may significantly contribute to mood and anxiety symptoms in NT1. Moreover, it had been reported that the disruption of white matter integrity and prevalent brain degeneration of frontal lobes were associated with depressive symptoms in narcolepsy.<xref rid="cit0023" ref-type="bibr">23</xref> Concerning sleep-related aspects like sleep quality or EDS,<xref rid="cit0010" ref-type="bibr">10</xref> as well as occurrences of sleep-related hallucinations,<xref rid="cit0018" ref-type="bibr">18</xref> have been suggested to potentially correlate with depression. Compared to the former factors, there has been a limited amount of research on the psychosocial factors that impact mental illness in patients with NT1. In our prior study, we proposed a potential association between impulsivity and depressive symptoms.<xref rid="cit0018" ref-type="bibr">18</xref> This relationship between depression and impulsivity has also been reported in other studies.<xref rid="cit0024" ref-type="bibr">24–26</xref> Therefore, by incorporating impulsivity along with demographic and sleep-related characteristics, it may be possible to predict the presence of depression with appropriate models.</p>
+      <p>Previous studies have explored the relationship between depression risk factors among patients, which was limited to linear relationships, such as logistic models.<xref rid="cit0027" ref-type="bibr">27</xref> However, existing clinical measures for identifying depression are time-consuming and labor-intensive, and often require specialized expertise for result evaluation.<xref rid="cit0028" ref-type="bibr">28</xref> Besides, the overlapping symptoms of sleepiness, sleep disturbance, and fatigue,<xref rid="cit0002" ref-type="bibr">2</xref>,<xref rid="cit0029" ref-type="bibr">29</xref> between depression and narcolepsy make it challenging to accurately detect and diagnose depression in patients with NT1 using subjective questionnaires. Polysomnography (PSG) and Multiple Sleep Latency Test (MSLT) are validated objective measures for evaluating sleep architecture, quality, and abnormal sleep patterns. Utilizing PSG and MSLT parameters may aid in differentiating depression from narcolepsy. Thus, a novel approach is needed to predict the presence of depression. In contrast to traditional statistical models and diagnostic algorithms, machine learning (ML) has the capability to analyze both linear and nonlinear relationships across high-dimensional data sets,<xref rid="cit0030" ref-type="bibr">30</xref>,<xref rid="cit0031" ref-type="bibr">31</xref> making them well-suited for predictive modeling in clinical settings. Recent studies have leveraged ML algorithms to screen or predict diseases, such as obstructive sleep apnea,<xref rid="cit0032" ref-type="bibr">32</xref> anxiety and depression.<xref rid="cit0028" ref-type="bibr">28</xref>,<xref rid="cit0033" ref-type="bibr">33</xref></p>
+      <p>While depression is widely acknowledged as a common comorbidity in NT1, the specific factors that contribute to its development and the effectiveness of predictive models in this context have not been comprehensively explored. This study aims to address this gap by employing machine learning to identify novel predictors and evaluate their potential in improving the early diagnosis and management of depression in NT1 patients.</p>
+    </sec>
+    <sec id="s0002">
+      <title>Methods</title>
+      <sec id="s0002-s2001">
+        <title>Participants</title>
+        <p>A total of 203 drug-free NT1 patients were recruited at the Sleep Medicine Center of Peking University People’s Hospital from September 2019 to April 2023. All patients were consecutively diagnosed with NT1 based on the International Classification of Sleep Disorders (ICSD-3) criteria: (1) the presence of EDS for at least 3 months; (2) the presence of clear-cut cataplexy, and a mean sleep latency ≤ 8 min with ≥ 2 sleep onset Rapid Eye Movement periods (SOREMPs) during MSLT. REM onset within 15 min of sleep onset during preceding nocturnal PSG may replace one of the SOREMPs during the MSLT. Or without cataplexy but with lower levels of hypocretin (less than 110 pg/mL or one-third of normative values) in CSF. Patients were excluded following the criteria: had a history of mental illness or were having an episode of mental illness. All participants provided written/oral informed consent (for juveniles, the permission of parents/legal guardians also were obtained). This study was approved by the ethics committees of Peking University People’s Hospital and conducted by the Declaration of Helsinki.</p>
+      </sec>
+      <sec id="s0002-s2002">
+        <title>Input Features</title>
+        <p>We selected the following potential features based on subjective knowledge and previous studies on risk factors for comorbid depression among patients with NT1. Potential features covering five domains: (1) demographic features: age, gender, body mass index (BMI), education years; (2) clinical features: age at onset, sleep paralysis, hallucinations; (3) self-reported questionnaires: Epworth Sleepiness Scale (ESS), the total and the subscales of Barratt Impulse Scale-11 (BIS-11); (4) PSG parameters: total sleep time (TST), sleep efficiency (SE), nocturnal sleep latency (SL), wake after sleep onset (WASO), R stage (%), N1 stage (%), N2 stage (%), N3 stage (%), apnea-hypopnea index (AHI), arousal index [respiratory-related arousal index (RAI), leg movement-related arousal index (LAI), spontaneous arousal index (SAI)], periodic leg movements index (PLMI); (5) MSLT measurements: The SL in the MSLT.</p>
+      </sec>
+      <sec id="s0002-s2003">
+        <title>Measurements</title>
+        <sec id="s0002-s2003-s3001">
+          <title>Polysomnography and Multiple Sleep Latency Test</title>
+          <p>All patients underwent one overnight polysomnography (PSG, Respironics LE-Series Physiological Monitoring System, Alice 6 LE, FL, USA) recording from 10 pm to 6 am. The more detailed information was reported in our previous research.<xref rid="cit0018" ref-type="bibr">18</xref> Sleep stages and events were scored by experienced technicians according to the newest American Academy of Sleep Medicine (AASM) manual.<xref rid="cit0034" ref-type="bibr">34</xref> The following PSG parameters were collected: total sleep time (TST), sleep efficiency (SE), nocturnal sleep latency (SL), wake after sleep onset (WASO), sleep stages percentages, arousals (respiratory-related arousals index, RAI; leg movement-related arousals index, LAI; spontaneous arousals index, SAI), periodic leg movements index (PLMI), and apnea-hypopnea index (AHI). The MSLT was performed at 2-hour intervals following PSG the night prior. A total of five 20-minute nap opportunities were provided. Each nap was terminated 15 minutes after sleep onset or 20 minutes after wakefulness. Sleep latency was defined as the time from the light off to the first 30-second epoch of any stage of sleep. The mean sleep latency from the 5 naps was calculated.</p>
+        </sec>
+        <sec id="s0002-s2003-s3002">
+          <title>Demographic and Clinical Characteristics</title>
+          <p>All patients were systematically evaluated for clinical characteristics including age, gender, body mass index (BMI), age at narcolepsy onset, hypnagogic/hypnopompic hallucination (HH) and sleep paralysis (SP). HH are vivid, dreamlike experiences involving auditory, visual, or tactile sensations that occur either at sleep onset, known as hypnagogic hallucinations, or upon awakening, known as hypnopompic hallucinations.<xref rid="cit0035" ref-type="bibr">35</xref> SP is characterized by the temporary inability to speak or move voluntary muscles, typically occurring during transitions between sleeping and waking.<xref rid="cit0001" ref-type="bibr">1</xref></p>
+        </sec>
+        <sec id="s0002-s2003-s3003">
+          <title>Excessive Daytime Sleepiness</title>
+          <p>Excessive daytime sleepiness was measured by the Epworth Sleepiness Scale (ESS)<xref rid="cit0036" ref-type="bibr">36</xref> or the Epworth Sleepiness Scale for Children and Adolescents (ESS-CHAD).<xref rid="cit0037" ref-type="bibr">37</xref> The Chinese version of ESS has been validated in Chinese adults with sleep-disordered breathing showing acceptable internal consistency (Cronbach’s α = 0.81).<xref rid="cit0038" ref-type="bibr">38</xref> The ESS-CHAD was adapted for children and adolescents aged 7–17 years old,<xref rid="cit0037" ref-type="bibr">37</xref> which has been used in our previous study (Cronbach’s α = 0.87).<xref rid="cit0039" ref-type="bibr">39</xref> The ESS consists of 8 items based on retrospective reports of the likelihood of dozing off or falling asleep in a variety of different situations. Respondents were asked to rate on a 4-point scale (0–3) from would never doze to high chance of dozing. The higher the ESS score indicates the higher their daytime sleepiness.</p>
+        </sec>
+        <sec id="s0002-s2003-s3004">
+          <title>Depression</title>
+          <p>The depressive symptoms were assessed by the Center for Epidemiologic Studies Depression Scale for Children (CES-DC)<xref rid="cit0040" ref-type="bibr">40</xref> for adolescent NT1 patients or the Self-Rating Depression Scale (SDS)<xref rid="cit0041" ref-type="bibr">41</xref> for adult NT1 patients. The Chinese versions of both CES-DC<xref rid="cit0042" ref-type="bibr">42</xref> and SDS<xref rid="cit0043" ref-type="bibr">43</xref> have been translated and validated within the Chinese population. The CES-DC is a self-administered questionnaire with 20 items. Each item is answered on a 4-point scale (0–3). Total scores range from 0 to 60, with higher scores indicating greater depressive symptomatology. Individuals with a score of 20 or more suggest depressive symptoms.<xref rid="cit0044" ref-type="bibr">44</xref> The SDS is also a 20-item scale using a 4-point scale ranging from 1 (none, or a little of the time) to 4 (most, or all of the time). The standardized score of SDS is the raw score multiplied by 1.25, with a cut-off ≥ 53 suggesting depression symptoms.<xref rid="cit0018" ref-type="bibr">18</xref> Depression was categorized as a dichotomous variable (depression/non-depression) according to CES-DC or SDS in this study.</p>
+        </sec>
+        <sec id="s0002-s2003-s3005">
+          <title>Impulsivity Questionnaire</title>
+          <p>The Barratt Impulse Scale (BIS-11), revised by Patton, Stanford and Barratt, was used to assess impulsive behaviors. The Chinese version of the BIS-11 has been widely used among adolescents<xref rid="cit0045" ref-type="bibr">45</xref>,<xref rid="cit0046" ref-type="bibr">46</xref> and adults<xref rid="cit0047" ref-type="bibr">47</xref>,<xref rid="cit0048" ref-type="bibr">48</xref> population, showing good internal consistency (Cronbach’s α = 0.80–0.92). The BIS consists of three subscales named no-planning impulsivity, motor impulsivity and attentional impulsivity, with each subscale containing 10 items. Each item has 5-point Likert responses from 1 (never) to 5 (always). Individuals with a higher score indicate stronger impulsivity.</p>
+        </sec>
+      </sec>
+      <sec id="s0002-s2004">
+        <title>Sample Size</title>
+        <p>The sample size for developing the two-class prediction model was calculated using the “pmsampsize” package in R (version 4.1.1).<xref rid="cit0049" ref-type="bibr">49</xref> The calculation was based on a target concordance index of 0.8, considering 5 predictor parameters, and assuming an outcome prevalence of 32%.<xref rid="cit0007" ref-type="bibr">7</xref> The analysis indicated that a minimum sample size of 167, with 53 events (events per predictor parameter of at least 10.69), was required for the prediction model development.</p>
+      </sec>
+      <sec id="s0002-s2005">
+        <title>Model Building</title>
+        <p>After partitioning the dataset into a 70:30 split, with 70% allocated for training and 30% for testing, we used 10-fold cross-validation within the training set to build and fine-tune the models. The trained models were subsequently validated on the independent test set to assess their performance. Three classification models were constructed using the Support Vector Machine (SVM), Random forest (RF), and Logistic Regression (LR) algorithms. The LR model, which is a generalized linear regression analysis model, is frequently employed in data mining and disease diagnosis. It was implemented using the “glm” function in the R programming language. The SVM is a supervised learning algorithm particularly effective for high-dimensional data classification. It was implemented using the “e1071” package in R. The optimal parameters for the SVM model are the polynomial kernel with a degree of 2, a scale of 0.01, and C of 0.25. The RF algorithm, which comprises multiple decision trees, was implemented using the R package “randomForest”. The 10-fold cross validation was carried out through the R package “caret”. Ultimately, the efficacy of the three models was evaluated in the testing sets utilizing receiver operating characteristic (ROC) curves.</p>
+      </sec>
+      <sec id="s0002-s2006">
+        <title>Model Evaluation</title>
+        <p>Model performance metrics included the area under the receiver operating characteristic curve (AUC), accuracy, precision, recall, sensitivity, specificity, positive predictive value (PPV), negative predictive value (NPV), and F1 score. The DeLong test was employed to compare the differences between the ROC curves of the various models. Additionally, Decision Curve Analysis (DCA) was conducted for the three models. DCA was developed to evaluate whether the implementation of a prediction model in clinical decision-making would yield more benefits than harms. In summary, a quantitative measure known as net benefit was computed based on the true positive and false positive rates of each model, allowing for a standardized comparison of their advantages and disadvantages.<xref rid="cit0050" ref-type="bibr">50</xref></p>
+      </sec>
+      <sec id="s0002-s2007">
+        <title>Statistical Analysis</title>
+        <p>Descriptive statistics are presented using mean and standard deviation, frequencies, and percentages. Univariate analysis (chi-square test for categorical variables or independent samples <italic toggle="yes">t</italic>-test for continuous variables) was conducted to compare demographic, clinical characteristics and sleep parameters between depression and non-depression groups. Univariate analyses were conducted using IBM SPSS Statistics 26.0. In contrast, machine learning algorithms were implemented utilizing R software (<underline><ext-link xlink:href="http://www.R-project.org" ext-link-type="uri">http://www.R-project.org</ext-link></underline>). Significant differences were found at p-value &lt; 0.05.</p>
+      </sec>
+    </sec>
+    <sec id="s0003">
+      <title>Results</title>
+      <sec id="s0003-s2001">
+        <title>Demographics Characteristics of NT1 Patients</title>
+        <p>Based on the established inclusion and exclusion criteria, a total of 203 NT1 patients (131 males and 72 females), aged 5 to 61 years, were selected for inclusion in this study, comprising 106 adolescents and 97 adults. Among the NT1 patients, 47.8% (97/203) reported experiencing HH, a proportion comparable to those who reported SP (48.8%). The majority (80.8%) experienced narcolepsy onset during childhood or adolescence. The sleep latency in MLST was 1.92 ± 1.79 min. Additionally, EDS symptom was prevalent, as reflected by an ESS score of 17.04 ± 4.62, with a range of 6 to 24. The BIS score was 88.58±15.63, ranging from 41 to 138. Notably, significant differences were observed between the two groups only in the motor impulsivity subscale of the BIS and the presence of HH. Further details are presented in <xref rid="t0001" ref-type="table">Table 1</xref>.<table-wrap position="float" id="t0001"><label>Table 1</label><caption><p>Univariate Analysis Between Depression and Non-Depression Groups (n=203)</p></caption><table frame="hsides" rules="groups"><thead><tr><th rowspan="1" colspan="1">Characteristics</th><th rowspan="1" colspan="1">Total (n=203)</th><th rowspan="1" colspan="1">Non-depression (n=97)</th><th rowspan="1" colspan="1">Depression (n=106)</th><th rowspan="1" colspan="1">χ<sup>2</sup>/T value</th><th rowspan="1" colspan="1">P value</th></tr></thead><tbody><tr><td rowspan="1" colspan="1"><bold>Age (at inclusion)</bold></td><td rowspan="1" colspan="1">21.10 ± 11.90</td><td rowspan="1" colspan="1">21.03 ± 12.94</td><td rowspan="1" colspan="1">21.16 ± 10.92</td><td rowspan="1" colspan="1">−0.077</td><td rowspan="1" colspan="1">0.939</td></tr><tr><td rowspan="1" colspan="1"><bold>Age group</bold></td><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1">0.010</td><td rowspan="1" colspan="1">0.922</td></tr><tr><td rowspan="1" colspan="1"> Children and adolescent group</td><td rowspan="1" colspan="1">106 (52.2%)</td><td rowspan="1" colspan="1">51 (48.1%)</td><td rowspan="1" colspan="1">55 (51.9%)</td><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"/></tr><tr><td rowspan="1" colspan="1"> Adult group</td><td rowspan="1" colspan="1">97 (47.8%)</td><td rowspan="1" colspan="1">46 (47.4%)</td><td rowspan="1" colspan="1">51 (52.6%)</td><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"/></tr><tr><td rowspan="1" colspan="1"><bold>Gender</bold></td><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1">0.170</td><td rowspan="1" colspan="1">0.680</td></tr><tr><td rowspan="1" colspan="1"> Male</td><td rowspan="1" colspan="1">131 (64.5%)</td><td rowspan="1" colspan="1">64 (48.9%)</td><td rowspan="1" colspan="1">67 (51.1%)</td><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"/></tr><tr><td rowspan="1" colspan="1"> Female</td><td rowspan="1" colspan="1">72 (35.4%)</td><td rowspan="1" colspan="1">33 (45.8%)</td><td rowspan="1" colspan="1">39 (54.2%)</td><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"/></tr><tr><td rowspan="1" colspan="1"><bold>Education years (years)</bold></td><td rowspan="1" colspan="1">9.86 ± 4.30</td><td rowspan="1" colspan="1">9.27 ± 4.5</td><td rowspan="1" colspan="1">10.41 ± 4.06</td><td rowspan="1" colspan="1">−1.894</td><td rowspan="1" colspan="1">0.060</td></tr><tr><td rowspan="1" colspan="1"><bold>Hypnagogic/hypnopompic Hallucination</bold></td><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1">8.476</td><td rowspan="1" colspan="1"><bold>0.004</bold></td></tr><tr><td rowspan="1" colspan="1"> Yes</td><td rowspan="1" colspan="1">97 (47.8%)</td><td rowspan="1" colspan="1">36 (37.1%)</td><td rowspan="1" colspan="1">61 (62.9%)</td><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"/></tr><tr><td rowspan="1" colspan="1"> No</td><td rowspan="1" colspan="1">106 (52.2%)</td><td rowspan="1" colspan="1">61 (57.5%)</td><td rowspan="1" colspan="1">45 (42.5%)</td><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"/></tr><tr><td rowspan="1" colspan="1"><bold>Sleep paralysis</bold></td><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1">3.142</td><td rowspan="1" colspan="1">0.076</td></tr><tr><td rowspan="1" colspan="1"> Yes</td><td rowspan="1" colspan="1">99 (48.8%)</td><td rowspan="1" colspan="1">41 (41.4%)</td><td rowspan="1" colspan="1">58 (58.6%)</td><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"/></tr><tr><td rowspan="1" colspan="1"> No</td><td rowspan="1" colspan="1">104 (51.2%)</td><td rowspan="1" colspan="1">56 (53.8%)</td><td rowspan="1" colspan="1">48 (46.2%)</td><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"/></tr><tr><td rowspan="1" colspan="1"><bold>Age at onset</bold></td><td rowspan="1" colspan="1">13.97 ± 10.37</td><td rowspan="1" colspan="1">14.32 ± 11.44</td><td rowspan="1" colspan="1">13.64 ± 9.32</td><td rowspan="1" colspan="1">0.464</td><td rowspan="1" colspan="1">0.643</td></tr><tr><td rowspan="1" colspan="1"><bold>Age onset group</bold></td><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1">0.711</td><td rowspan="1" colspan="1">0.399</td></tr><tr><td rowspan="1" colspan="1"> Children and adolescent group</td><td rowspan="1" colspan="1">164 (80.8%)</td><td rowspan="1" colspan="1">76 (46.3%)</td><td rowspan="1" colspan="1">88 (53.7%)</td><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"/></tr><tr><td rowspan="1" colspan="1"> Adult group</td><td rowspan="1" colspan="1">39 (19.2%)</td><td rowspan="1" colspan="1">21 (53.8%)</td><td rowspan="1" colspan="1">18 (46.2%)</td><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"/></tr><tr><td rowspan="1" colspan="1"><bold>BMI</bold></td><td rowspan="1" colspan="1">25.69 ± 5.03</td><td rowspan="1" colspan="1">25.26 ± 4.78</td><td rowspan="1" colspan="1">26.08 ± 5.24</td><td rowspan="1" colspan="1">−1.152</td><td rowspan="1" colspan="1">0.251</td></tr><tr><td rowspan="1" colspan="1"><bold>Polysomnography parameters</bold></td><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"/></tr><tr><td rowspan="1" colspan="1"> Total sleep time (min)</td><td rowspan="1" colspan="1">448.70 ± 69.74</td><td rowspan="1" colspan="1">458.45 ± 58.21</td><td rowspan="1" colspan="1">439.77 ± 78.04</td><td rowspan="1" colspan="1">1.919</td><td rowspan="1" colspan="1">0.056</td></tr><tr><td rowspan="1" colspan="1"> Wake after sleep onset (min)</td><td rowspan="1" colspan="1">56.91 ± 47.40</td><td rowspan="1" colspan="1">56.9 ± 46.05</td><td rowspan="1" colspan="1">56.92 ± 48.82</td><td rowspan="1" colspan="1">−0.004</td><td rowspan="1" colspan="1">0.997</td></tr><tr><td rowspan="1" colspan="1"> Sleep efficiency (%)</td><td rowspan="1" colspan="1">88.24 ± 9.14</td><td rowspan="1" colspan="1">88.48 ± 8.67</td><td rowspan="1" colspan="1">88.03 ± 9.58</td><td rowspan="1" colspan="1">0.350</td><td rowspan="1" colspan="1">0.727</td></tr><tr><td rowspan="1" colspan="1"> Sleep latency (min)</td><td rowspan="1" colspan="1">5.03 ± 8.90</td><td rowspan="1" colspan="1">4.69 ± 6.88</td><td rowspan="1" colspan="1">5.33 ± 10.43</td><td rowspan="1" colspan="1">−0.507</td><td rowspan="1" colspan="1">0.613</td></tr><tr><td rowspan="1" colspan="1"> Sleep stages</td><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"/></tr><tr><td rowspan="1" colspan="1">  R (%)</td><td rowspan="1" colspan="1">22.11 ± 9.55</td><td rowspan="1" colspan="1">21.92 ± 9.09</td><td rowspan="1" colspan="1">22.28 ± 9.99</td><td rowspan="1" colspan="1">−0.262</td><td rowspan="1" colspan="1">0.793</td></tr><tr><td rowspan="1" colspan="1">  N1 (%)</td><td rowspan="1" colspan="1">20.00 ± 13.30</td><td rowspan="1" colspan="1">20.96 ± 13.76</td><td rowspan="1" colspan="1">19.13 ± 12.87</td><td rowspan="1" colspan="1">0.979</td><td rowspan="1" colspan="1">0.329</td></tr><tr><td rowspan="1" colspan="1">  N2 (%)</td><td rowspan="1" colspan="1">40.77 ± 11.40</td><td rowspan="1" colspan="1">39.85 ± 10.56</td><td rowspan="1" colspan="1">41.61 ± 12.09</td><td rowspan="1" colspan="1">−1.100</td><td rowspan="1" colspan="1">0.272</td></tr><tr><td rowspan="1" colspan="1">  N3 (%)</td><td rowspan="1" colspan="1">16.81 ± 10.08</td><td rowspan="1" colspan="1">17.38 ± 10.93</td><td rowspan="1" colspan="1">16.28 ± 9.26</td><td rowspan="1" colspan="1">0.777</td><td rowspan="1" colspan="1">0.438</td></tr><tr><td rowspan="1" colspan="1"> AHI</td><td rowspan="1" colspan="1">6.86 ± 12.04</td><td rowspan="1" colspan="1">6.31 ± 9.90</td><td rowspan="1" colspan="1">7.37 ± 13.74</td><td rowspan="1" colspan="1">−0.625</td><td rowspan="1" colspan="1">0.533</td></tr><tr><td rowspan="1" colspan="1"> Respiratory-related arousals index</td><td rowspan="1" colspan="1">3.37 ± 7.62</td><td rowspan="1" colspan="1">2.82 ± 5.59</td><td rowspan="1" colspan="1">3.88 ± 9.10</td><td rowspan="1" colspan="1">−0.994</td><td rowspan="1" colspan="1">0.322</td></tr><tr><td rowspan="1" colspan="1"> Leg movement-related arousals index</td><td rowspan="1" colspan="1">1.37 ± 1.88</td><td rowspan="1" colspan="1">1.64 ± 2.22</td><td rowspan="1" colspan="1">1.13 ± 1.46</td><td rowspan="1" colspan="1">1.939</td><td rowspan="1" colspan="1">0.054</td></tr><tr><td rowspan="1" colspan="1"> Spontaneous arousals index</td><td rowspan="1" colspan="1">9.99 ± 7.23</td><td rowspan="1" colspan="1">10.65 ± 8.23</td><td rowspan="1" colspan="1">9.38 ± 6.14</td><td rowspan="1" colspan="1">1.251</td><td rowspan="1" colspan="1">0.212</td></tr><tr><td rowspan="1" colspan="1"> PLMI</td><td rowspan="1" colspan="1">7.89 ± 12.15</td><td rowspan="1" colspan="1">8.89 ± 14.64</td><td rowspan="1" colspan="1">6.98 ± 9.29</td><td rowspan="1" colspan="1">1.097</td><td rowspan="1" colspan="1">0.274</td></tr><tr><td rowspan="1" colspan="1"><bold>Sleep latency-MSLT (min)<sup>a</sup></bold></td><td rowspan="1" colspan="1">1.92 ± 1.79</td><td rowspan="1" colspan="1">1.81 ± 1.67</td><td rowspan="1" colspan="1">2.03 ± 1.90</td><td rowspan="1" colspan="1">−0.841</td><td rowspan="1" colspan="1">0.401</td></tr><tr><td rowspan="1" colspan="1"><bold>ESS</bold></td><td rowspan="1" colspan="1">17.28 ± 5.04</td><td rowspan="1" colspan="1">16.89 ± 5.40</td><td rowspan="1" colspan="1">17.64 ± 4.67</td><td rowspan="1" colspan="1">−1.067</td><td rowspan="1" colspan="1">0.287</td></tr><tr><td rowspan="1" colspan="1"><bold>BIS</bold></td><td rowspan="1" colspan="1">76.54 ± 27.03</td><td rowspan="1" colspan="1">75.69 ± 28.97</td><td rowspan="1" colspan="1">77.31 ± 25.24</td><td rowspan="1" colspan="1">−0.426</td><td rowspan="1" colspan="1">0.671</td></tr><tr><td rowspan="1" colspan="1"> Attentional impulsivity score</td><td rowspan="1" colspan="1">29.21 ± 7.34</td><td rowspan="1" colspan="1">28.90 ± 7.83</td><td rowspan="1" colspan="1">29.50 ± 6.89</td><td rowspan="1" colspan="1">−0.584</td><td rowspan="1" colspan="1">0.560</td></tr><tr><td rowspan="1" colspan="1"> Motor impulsivity score</td><td rowspan="1" colspan="1">28.10 ± 7.30</td><td rowspan="1" colspan="1">26.60 ± 7.03</td><td rowspan="1" colspan="1">29.48 ± 7.30</td><td rowspan="1" colspan="1">−2.861</td><td rowspan="1" colspan="1"><bold>0.005</bold></td></tr><tr><td rowspan="1" colspan="1"> Non-planning impulsivity score</td><td rowspan="1" colspan="1">43.30 ± 25.92</td><td rowspan="1" colspan="1">43.14 ± 22.87</td><td rowspan="1" colspan="1">43.44 ± 28.54</td><td rowspan="1" colspan="1">−0.082</td><td rowspan="1" colspan="1">0.935</td></tr></tbody></table><table-wrap-foot><fn id="tfn0001"><p><bold>Notes</bold>: <sup>a</sup>Sleep latency refers to the mean sleep latency in the multiple sleep latency test. <sup>b</sup><italic toggle="yes">P</italic> value from the Independent sample <italic toggle="yes">t</italic>-test (for continuous data), a Chi-square test or Fisher exact test (for categorical variables). <italic toggle="yes">P</italic> value in bold if &lt; 0.05.</p></fn><fn id="tfn0002"><p><bold>Abbreviations</bold>: BMI, body mass index; AHI, apnea hypopnea index; MSLT, multiple sleep latency test; BIS, Barratt Impulse Scale; PLMI, periodic leg movements index; MSLT, multiple sleep latency test; ESS, Epworth Sleepiness Scale.</p></fn></table-wrap-foot></table-wrap></p>
+      </sec>
+      <sec id="s0003-s2002">
+        <title>Performance on Different Machine Learning Models and Logistic Regression in the Validation Dataset</title>
+        <p>Three algorithms, namely LR, RF and SVM, were used to construct a predictive model for depression in NT1 patients. The prediction summary of the models is shown in <xref rid="t0002" ref-type="table">Table 2</xref>. ROC curves and DCA of three models are shown in <xref rid="f0001" ref-type="fig">Figure 1</xref>. Additional information from the logistic regression model, such as odds ratio (OR) and confidence interval (CI), was shown in <underline><ext-link xlink:href="https://www.dovepress.com/get_supplementary_file.php?f=468748.docx" ext-link-type="uri">Supplementary Table 1</ext-link></underline>. Using the clinical and sleep metrics as features of the SVM classification model achieved better performance in distinguishing depression from non-depression. Briefly, the SVM model classification of accuracy was 0.659, specificity was 0.579, sensitivity was 0.727, PPV was 0.667, and NPV was 0.647 in the test set. The DCA of the SVM model classification was also better than other models (<xref rid="f0001" ref-type="fig">Figure 1b</xref>). The SVM classification importance of each feature was further examined, and the results are presented in <xref rid="f0002" ref-type="fig">Figure 2</xref>.<table-wrap position="float" id="t0002"><label>Table 2</label><caption><p>Prediction of Different Machine Learning Models and Logistic Regression in the Validation Dataset (n = 61)</p></caption><table frame="hsides" rules="groups"><thead><tr><th rowspan="1" colspan="1"/><th rowspan="1" colspan="1">LR</th><th rowspan="1" colspan="1">SVM</th><th rowspan="1" colspan="1">RF</th></tr></thead><tbody><tr><td rowspan="1" colspan="1"><bold>AUC (95% CI)</bold></td><td rowspan="1" colspan="1">0.543 (0.389–0.697)</td><td rowspan="1" colspan="1">0.653 (0.505–0.802)</td><td rowspan="1" colspan="1">0.422 (0.27–0.575)</td></tr><tr><td rowspan="1" colspan="1"><bold>Accuracy (95% CI)</bold></td><td rowspan="1" colspan="1">0.537 (0.374–0.693)</td><td rowspan="1" colspan="1">0.659 (0.494–0.799)</td><td rowspan="1" colspan="1">0.415 (0.263–0.579)</td></tr><tr><td rowspan="1" colspan="1"><bold>Balanced Accuracy</bold></td><td rowspan="1" colspan="1">0.543</td><td rowspan="1" colspan="1">0.653</td><td rowspan="1" colspan="1">0.422</td></tr><tr><td rowspan="1" colspan="1"><bold>Sensitivity</bold></td><td rowspan="1" colspan="1">0.455</td><td rowspan="1" colspan="1">0.727</td><td rowspan="1" colspan="1">0.318</td></tr><tr><td rowspan="1" colspan="1"><bold>Specificity</bold></td><td rowspan="1" colspan="1">0.632</td><td rowspan="1" colspan="1">0.579</td><td rowspan="1" colspan="1">0.526</td></tr><tr><td rowspan="1" colspan="1"><bold>Positive predictive value</bold></td><td rowspan="1" colspan="1">0.588</td><td rowspan="1" colspan="1">0.667</td><td rowspan="1" colspan="1">0.438</td></tr><tr><td rowspan="1" colspan="1"><bold>Negative predictive value</bold></td><td rowspan="1" colspan="1">0.5</td><td rowspan="1" colspan="1">0.647</td><td rowspan="1" colspan="1">0.4</td></tr><tr><td rowspan="1" colspan="1"><bold>Prevalence</bold></td><td rowspan="1" colspan="1">0.537</td><td rowspan="1" colspan="1">0.537</td><td rowspan="1" colspan="1">0.537</td></tr><tr><td rowspan="1" colspan="1"><bold>Precision</bold></td><td rowspan="1" colspan="1">0.588</td><td rowspan="1" colspan="1">0.667</td><td rowspan="1" colspan="1">0.438</td></tr><tr><td rowspan="1" colspan="1"><bold>Recall</bold></td><td rowspan="1" colspan="1">0.455</td><td rowspan="1" colspan="1">0.727</td><td rowspan="1" colspan="1">0.318</td></tr><tr><td rowspan="1" colspan="1"><bold>F1 Score</bold></td><td rowspan="1" colspan="1">0.513</td><td rowspan="1" colspan="1">0.696</td><td rowspan="1" colspan="1">0.368</td></tr><tr><td rowspan="1" colspan="1"><bold>Kappa</bold></td><td rowspan="1" colspan="1">0.085</td><td rowspan="1" colspan="1">0.308</td><td rowspan="1" colspan="1">−0.152</td></tr></tbody></table><table-wrap-foot><fn id="tfn0003"><p><bold>Abbreviations</bold>: AUC, area under receiver operating characteristic curve; CI, confidence interval; LR, logistic regression; SVM, support vector machine; RF, random forest.</p></fn></table-wrap-foot></table-wrap>
+<fig position="float" id="f0001" fig-type="figure"><label>Figure 1</label><caption><p>(<bold>a</bold>) The receiver operating characteristic curve of the models. (<bold>b</bold>) The decision curve analysis of the models.</p></caption><graphic xlink:href="NSS-16-1419-g0001" content-type="print-only" position="float"/><attrib><bold>Abbreviations:</bold> ROC, receiver operating characteristic curve; LR, logistic regression; RF, random forest; SVM, support vector machine.</attrib></fig>
+<fig position="float" id="f0002" fig-type="figure"><label>Figure 2</label><caption><p>The importance index of all variables from the support vector machine model.</p></caption><graphic xlink:href="NSS-16-1419-g0002" content-type="print-only" position="float"/><attrib><bold>Abbreviations:</bold> BMI, body mass index; ESS, Epworth Sleepiness Scale; WASO, wake after sleep onset; PLMI, periodic leg movements index; AHI, apnea-hypopnea index.</attrib></fig></p>
+      </sec>
+    </sec>
+    <sec id="s0004">
+      <title>Discussion</title>
+      <p>Depression is a prevalent comorbidity among patients with NT1. Despite many studies investigating the relationship between narcolepsy and depression, a robust predictive model for depression in NT1 patients remains elusive. This study presents evidence supporting the efficacy of ML tools in predicting depression among patients with NT1. The LR model identified hallucinations and motor impulsivity as predictors of depression. Additionally, our SVM model incorporating routinely collected clinic variables, PSG parameters, ESS scores, and BIS scores outperformed the traditional LR model in predicting depression. Consequently, using readily available data from the PSG parameters, ML algorithms offer a more efficient approach for large-scale identification of depression among patients with NT1.</p>
+      <p>In this study, 52.2% of NT1 patients (52.6% of adults and 51.9% of children and adolescents) reported experiencing depression symptoms, a rate higher than that reported in a systematic review (32%, 95% CI, 28–36%).<xref rid="cit0007" ref-type="bibr">7</xref> This discrepancy may be due to the measurement tool we used, which could overestimate depression prevalence compared to studies employing the Diagnostic and Statistical Manual of Mental Disorders (DSM-III/IV) criteria or psychiatric interviews. The prevailing consensus in the literature is that the high prevalence of depression/depressive symptoms among narcolepsy patients is primarily attributed to hypocretin deficiency<xref rid="cit0051" ref-type="bibr">51–53</xref> and its subsequent effects caused by narcolepsy disease, such as poor quality of life or social stigma.<xref rid="cit0007" ref-type="bibr">7</xref>,<xref rid="cit0027" ref-type="bibr">27</xref></p>
+      <p>Motor impulsivity was also associated with depressive symptoms in children and adolescents with NT1, a relationship that we previously identified.<xref rid="cit0018" ref-type="bibr">18</xref> This relationship may be rooted in the pathophysiology of NT1, particularly hypocretin deficiency, which is associated with emotion regulation and stress-adaptive responses.<xref rid="cit0015" ref-type="bibr">15</xref> The lack of hypocretin may impair emotional responses, leading to increased impulsivity and a higher risk of depression. In addition, a study examining brain structure in children and adolescents has demonstrated that both depression and impulsivity are associated with cortical thickness. Similarly, our findings indicate that the depressive symptoms and impulsivity in NT1 patients are linked to morphological changes in the cerebral cortex<xref rid="cit0054" ref-type="bibr">54</xref> and alterations in default mode network connectivity.<xref rid="cit0055" ref-type="bibr">55</xref></p>
+      <p>The HH symptom was found to be independently associated with depressive symptoms among patients with NT1, consistent with findings from previous studies.<xref rid="cit0008" ref-type="bibr">8</xref>,<xref rid="cit0027" ref-type="bibr">27</xref> The association between HH and depression is noteworthy and may be attributed to several overlapping physiological and psychological mechanisms. Firstly, narcolepsy is characterized by abnormal regulation of REM sleep, which is closely linked to the occurrence of hallucinations.<xref rid="cit0056" ref-type="bibr">56</xref> The REM sleep dysregulation has also been implicated with mood disorders, particularly depression.<xref rid="cit0057" ref-type="bibr">57</xref> Furthermore, hypocretin deficiency, the hallmark of NT1, is thought to contribute to both hallucinations and depressive symptoms.<xref rid="cit0052" ref-type="bibr">52</xref> Finally, the distress caused by hallucinations, which can be disturbing and frightening, may exacerbate or contribute to the progression of depressive symptoms in NT1 patients.<xref rid="cit0058" ref-type="bibr">58</xref></p>
+      <p>Our research primarily focuses on children and adolescents, who constitute 80% of patients presenting symptoms, a demographic distinct from adults in terms of depression-related factors. Additionally, our patient cohort exhibits a higher prevalence of sleep-related symptoms, such as hallucinations, compared to other studies. We have also included impulsivity as a potential non-sleep symptom factor in our analysis. Given these considerations, age-specific symptom development, the prevalence of sleep-related symptoms, and the role of impulsivity, our results may differ from those of previous research.</p>
+      <p>ML has been extensively applied in mental health for detection, diagnosis, prognosis, and treatment, particularly in depression, schizophrenia, and Alzheimer’s Disease.<xref rid="cit0059" ref-type="bibr">59</xref> However, research on utilizing these algorithms to predict depression in patients with NT1 remains limited. Our study demonstrates that the SVM model, incorporating both clinical factors and PSG parameters, exhibited superior performance relative to other machine learning models tested (<xref rid="t0002" ref-type="table">Table 2</xref>), as evidenced by its higher net benefit in decision curve analysis, in NT1 patients. Consistent with previous studies,<xref rid="cit0060" ref-type="bibr">60–62</xref> the SVM algorithm demonstrated the optimal performance in developing ML models for depression prediction. When identifying depression in NT1 patients, it is crucial to comprehensively and precisely identify emotional difficulties. The SVM model performs better with an AUC of 0.653, showing good discriminative ability. The accuracy of 0.659 and balanced accuracy of 0.653 are strong, suggesting that the model is effective at classifying both positive and negative cases. It also exhibits high sensitivity (0.727) and recall (0.727), indicating its strength in detecting positive cases. However, the specificity (0.579) is lower compared to LR, and the F1 Score (0.696) and Kappa (0.308) suggest a generally better performance but with room for improvement. The models were trained on a subset of the available data and tested independently. However, to truly measure generalizability, it is necessary to test the models on external datasets or in real-world scenarios. Limited external validation may affect the robustness and applicability of our findings across diverse populations or settings. Although we employed 10-fold cross-validation to mitigate overfitting by validating the model on different subsets of the training data, this technique cannot eliminate the risk.</p>
+      <p>The ML model can be integrated into clinical practice to enhance early detection of depression in NT1 patients, enabling timely and personalized interventions. By serving as a decision-support tool, it can help clinicians prioritize at-risk patients for further evaluation and targeted care. Additionally, the model’s adaptability allows for continuous improvement as new biomarkers and psychological variables are incorporated, ensuring it remains a valuable resource in managing NT1 and its comorbidities.</p>
+    </sec>
+    <sec id="s0005">
+      <title>Limitations</title>
+      <p>This study has several limitations. Firstly, this study is based on cross-sectional data, which prevents the establishment of a causal relationship between the factors investigated in our research and depression outcomes. Secondly, the sample size was relatively small; however, it should be noted that even smaller sample sizes have been used in other published studies employing SVM for clinical medicine, eg, 71 participants<xref rid="cit0060" ref-type="bibr">60</xref> and 55 participants.<xref rid="cit0061" ref-type="bibr">61</xref> The ML algorithm may achieve more optimal performance with larger input data;<xref rid="cit0049" ref-type="bibr">49</xref> therefore, further validation of these models using additional data is warranted. Thirdly, the depressive symptoms were assessed by a scale, which is not the gold standard for the diagnosis of depression, although the scales have been extensively used and validated in previous studies.<xref rid="cit0018" ref-type="bibr">18</xref>,<xref rid="cit0023" ref-type="bibr">23</xref>,<xref rid="cit0033" ref-type="bibr">33</xref> Lastly, the absence of psychological factors data among patients with NT1 poses a limitation in exploring potential causes for depression within this study. Given the multifaceted nature of depression, future research should consider integrating additional psychological variables, such as stigma, resilience, and coping strategies, into the model to improve its sensitivity and predictive accuracy. Beyond psychological factors, exploring potential biomarkers, such as inflammatory markers or neuroimaging data, and incorporating novel data sources like real-time digital health metrics or genetic information could further enhance the model’s predictive power.</p>
+    </sec>
+    <sec id="s0006">
+      <title>Conclusion</title>
+      <p>This exploratory study demonstrates the potential of ML models in addressing clinical challenges related to depression in NT1 patients. Our findings indicate that depression in NT1 is significantly associated with sleep-related hallucinations and impulsivity. The models developed herein provide promising tools for identifying NT1 patients at elevated risk for depression, paving the way for the development of a data-driven, personalized decision-making framework. Such a tool could significantly enhance the efficiency of depression diagnoses in NT1 patients. Future research should focus on validating these findings across diverse populations and incorporating additional psychological variables to further refine and improve the model’s precision.</p>
+    </sec>
+  </body>
+  <back>
+    <ack>
+      <title>Acknowledgments</title>
+      <p>We would like to express our gratitude to all adult patients, juvenile patients, and their parents for their participation in this study.</p>
+    </ack>
+    <sec sec-type="COI-statement" id="s0007">
+      <title>Disclosure</title>
+      <p>The authors have no conflict of interest to declare.</p>
+    </sec>
+    <ref-list>
+      <title>References</title>
+      <ref id="cit0001">
+        <label>1.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Bassetti</surname>
+<given-names>CLA</given-names></string-name>, <string-name><surname>Adamantidis</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Burdakov</surname>
+<given-names>D</given-names></string-name>, et al. <article-title>Narcolepsy - clinical spectrum, aetiopathophysiology, diagnosis and treatment</article-title>. <source><italic toggle="yes">Nat Rev Neurol</italic></source>. <year>2019</year>;<volume>15</volume>(<issue>9</issue>):<fpage>519</fpage>–<lpage>539</lpage>. doi:<pub-id pub-id-type="doi">10.1038/s41582-019-0226-9</pub-id><pub-id pub-id-type="pmid">31324898</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0002">
+        <label>2.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>BaHammam</surname>
+<given-names>AS</given-names></string-name>, <string-name><surname>Alnakshabandi</surname>
+<given-names>K</given-names></string-name>, <string-name><surname>Pandi-Perumal</surname>
+<given-names>SR</given-names></string-name>. <article-title>Neuropsychiatric correlates of narcolepsy</article-title>. <source><italic toggle="yes">Curr Psychiatry Rep</italic></source>. <year>2020</year>;<volume>22</volume>(<issue>8</issue>):<fpage>36</fpage>. doi:<pub-id pub-id-type="doi">10.1007/s11920-020-01159-y</pub-id><pub-id pub-id-type="pmid">32514698</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0003">
+        <label>3.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Alasim</surname>
+<given-names>H</given-names></string-name>, <string-name><surname>AlQazlan</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Albanyan</surname>
+<given-names>S</given-names></string-name>, et al. <article-title>Comorbid psychiatric disorders among patients with narcolepsy</article-title>. <source><italic toggle="yes">Sleep Breath</italic></source>. <year>2020</year>;<volume>24</volume>(<issue>2</issue>):<fpage>629</fpage>–<lpage>636</lpage>. doi:<pub-id pub-id-type="doi">10.1007/s11325-019-01890-8</pub-id><pub-id pub-id-type="pmid">31280401</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0004">
+        <label>4.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Li</surname>
+<given-names>B</given-names></string-name>, <string-name><surname>Gao</surname>
+<given-names>Z</given-names></string-name>, <string-name><surname>He</surname>
+<given-names>Y</given-names></string-name>, et al. <article-title>Narcolepsy and psychiatric disorders: a bidirectional Mendelian randomization study</article-title>. <source><italic toggle="yes">J Psychiatr Res</italic></source>. <year>2024</year>;<volume>169</volume>:<fpage>42</fpage>–<lpage>48</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.jpsychires.2023.11.034</pub-id><pub-id pub-id-type="pmid">38000183</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0005">
+        <label>5.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Ohayon</surname>
+<given-names>MM</given-names></string-name>. <article-title>Narcolepsy is complicated by high medical and psychiatric comorbidities: a comparison with the general population</article-title>. <source><italic toggle="yes">Sleep Med</italic></source>. <year>2013</year>;<volume>14</volume>(<issue>6</issue>):<fpage>488</fpage>–<lpage>492</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.sleep.2013.03.002</pub-id><pub-id pub-id-type="pmid">23643648</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0006">
+        <label>6.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Ruoff</surname>
+<given-names>CM</given-names></string-name>, <string-name><surname>Reaven</surname>
+<given-names>NL</given-names></string-name>, <string-name><surname>Funk</surname>
+<given-names>SE</given-names></string-name>, et al. <article-title>High rates of psychiatric comorbidity in narcolepsy: findings from the burden of narcolepsy disease (BOND) study of 9312 patients in the United States</article-title>. <source><italic toggle="yes">J Clin Psychiatry</italic></source>. <year>2017</year>;<volume>78</volume>(<issue>2</issue>):<fpage>171</fpage>–<lpage>176</lpage>. doi:<pub-id pub-id-type="doi">10.4088/JCP.15m10262</pub-id><pub-id pub-id-type="pmid">27835717</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0007">
+        <label>7.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Li</surname>
+<given-names>X</given-names></string-name>, <string-name><surname>Sanford</surname>
+<given-names>LD</given-names></string-name>, <string-name><surname>Zong</surname>
+<given-names>Q</given-names></string-name>, et al. <article-title>Prevalence of depression or depressive symptoms in patients with narcolepsy: a systematic review and meta-analysis</article-title>. <source><italic toggle="yes">Neuropsychol Rev</italic></source>. <year>2021</year>;<volume>31</volume>(<issue>1</issue>):<fpage>89</fpage>–<lpage>102</lpage>. doi:<pub-id pub-id-type="doi">10.1007/s11065-020-09443-7</pub-id><pub-id pub-id-type="pmid">32671534</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0008">
+        <label>8.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Barateau</surname>
+<given-names>L</given-names></string-name>, <string-name><surname>Lopez</surname>
+<given-names>R</given-names></string-name>, <string-name><surname>Chenini</surname>
+<given-names>S</given-names></string-name>, et al. <article-title>Depression and suicidal thoughts in untreated and treated narcolepsy</article-title>. <source><italic toggle="yes">Neurology</italic></source>. <year>2020</year>;<volume>95</volume>(<issue>20</issue>):<fpage>e2755</fpage>–<lpage>e2768</lpage>. doi:<pub-id pub-id-type="doi">10.1212/WNL.0000000000010737</pub-id><pub-id pub-id-type="pmid">32963102</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0009">
+        <label>9.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>David</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Constantino</surname>
+<given-names>F</given-names></string-name>, <string-name><surname>Santos Dos</surname>
+<given-names>JM</given-names></string-name>, <string-name><surname>Paiva</surname>
+<given-names>T</given-names></string-name>. <article-title>Health-related quality of life in Portuguese patients with narcolepsy</article-title>. <source><italic toggle="yes">Sleep Med</italic></source>. <year>2012</year>;<volume>13</volume>(<issue>3</issue>):<fpage>273</fpage>–<lpage>277</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.sleep.2011.06.021</pub-id><pub-id pub-id-type="pmid">22281002</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0010">
+        <label>10.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Parmar</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Yeh</surname>
+<given-names>EA</given-names></string-name>, <string-name><surname>Korczak</surname>
+<given-names>DJ</given-names></string-name>, et al. <article-title>Depressive symptoms, sleep patterns, and physical activity in adolescents with narcolepsy</article-title>. <source><italic toggle="yes">Sleep</italic></source>. <year>2019</year>;<volume>42</volume>(<issue>8</issue>):<fpage>zsz111</fpage>. doi:<pub-id pub-id-type="doi">10.1093/sleep/zsz111</pub-id><pub-id pub-id-type="pmid">31070768</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0011">
+        <label>11.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Bassi</surname>
+<given-names>C</given-names></string-name>, <string-name><surname>Biscarini</surname>
+<given-names>F</given-names></string-name>, <string-name><surname>Zenesini</surname>
+<given-names>C</given-names></string-name>, et al. <article-title>Work productivity and activity impairment in patients with narcolepsy type 1</article-title>. <source><italic toggle="yes">J Sleep Res</italic></source>. <year>2023</year>;<volume>33</volume>(<issue>3</issue>):<fpage>e14087</fpage>. doi:<pub-id pub-id-type="doi">10.1111/jsr.14087</pub-id><pub-id pub-id-type="pmid">38086564</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0012">
+        <label>12.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Bassetti</surname>
+<given-names>CLA</given-names></string-name>, <string-name><surname>Kallweit</surname>
+<given-names>U</given-names></string-name>, <string-name><surname>Vignatelli</surname>
+<given-names>L</given-names></string-name>, et al. <article-title>European guideline and expert statements on the management of narcolepsy in adults and children</article-title>. <source><italic toggle="yes">Eur J Neurol</italic></source>. <year>2021</year>;<volume>28</volume>(<issue>9</issue>):<fpage>2815</fpage>–<lpage>2830</lpage>. doi:<pub-id pub-id-type="doi">10.1111/ene.14888</pub-id><pub-id pub-id-type="pmid">34173695</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0013">
+        <label>13.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Ong</surname>
+<given-names>JC</given-names></string-name>, <string-name><surname>Dawson</surname>
+<given-names>SC</given-names></string-name>, <string-name><surname>Mundt</surname>
+<given-names>JM</given-names></string-name>, <string-name><surname>Moore</surname>
+<given-names>C</given-names></string-name>. <article-title>Developing a cognitive behavioral therapy for hypersomnia using telehealth: a feasibility study</article-title>. <source><italic toggle="yes">J Clin Sleep Med</italic></source>. <year>2020</year>;<volume>16</volume>(<issue>12</issue>):<fpage>2047</fpage>–<lpage>2062</lpage>. doi:<pub-id pub-id-type="doi">10.5664/jcsm.8750</pub-id><pub-id pub-id-type="pmid">32804069</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0014">
+        <label>14.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Franceschini</surname>
+<given-names>C</given-names></string-name>, <string-name><surname>Fante</surname>
+<given-names>C</given-names></string-name>, <string-name><surname>Filardi</surname>
+<given-names>M</given-names></string-name>, et al. <article-title>Can a peer support the process of self-management in narcolepsy? A qualitative narrative analysis of a narcoleptic patient</article-title>. <source><italic toggle="yes">Front Psychol</italic></source>. <year>2020</year>;<volume>11</volume>:<fpage>1353</fpage>. doi:<pub-id pub-id-type="doi">10.3389/fpsyg.2020.01353</pub-id><pub-id pub-id-type="pmid">32733314</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0015">
+        <label>15.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Wang</surname>
+<given-names>C</given-names></string-name>, <string-name><surname>Wang</surname>
+<given-names>Q</given-names></string-name>, <string-name><surname>Ji</surname>
+<given-names>B</given-names></string-name>, et al. <article-title>The orexin/receptor system: molecular mechanism and therapeutic potential for neurological diseases</article-title>. <source><italic toggle="yes">Front Mol Neurosci</italic></source>. <year>2018</year>;<volume>11</volume>:<fpage>220</fpage>. doi:<pub-id pub-id-type="doi">10.3389/fnmol.2018.00220</pub-id><pub-id pub-id-type="pmid">30002617</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0016">
+        <label>16.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Summers</surname>
+<given-names>CH</given-names></string-name>, <string-name><surname>Yaeger</surname>
+<given-names>JDW</given-names></string-name>, <string-name><surname>Staton</surname>
+<given-names>CD</given-names></string-name>, <string-name><surname>Arendt</surname>
+<given-names>DH</given-names></string-name>, <string-name><surname>Summers</surname>
+<given-names>TR</given-names></string-name>. <article-title>Orexin/hypocretin receptor modulation of anxiolytic and antidepressive responses during social stress and decision-making: potential for therapy</article-title>. <source><italic toggle="yes">Brain Res</italic></source>. <year>2020</year>;<volume>1731</volume>:<fpage>146085</fpage>. doi:<pub-id pub-id-type="doi">10.1016/j.brainres.2018.12.036</pub-id><pub-id pub-id-type="pmid">30590027</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0017">
+        <label>17.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Shan</surname>
+<given-names>L</given-names></string-name>, <string-name><surname>Linssen</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Harteman</surname>
+<given-names>Z</given-names></string-name>, et al. <article-title>Activated Wake Systems in Narcolepsy Type 1</article-title>. <source><italic toggle="yes">Ann Neurol</italic></source>. <year>2023</year>;<volume>94</volume>(<issue>4</issue>):<fpage>762</fpage>–<lpage>771</lpage>. doi:<pub-id pub-id-type="doi">10.1002/ana.26736</pub-id><pub-id pub-id-type="pmid">37395722</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0018">
+        <label>18.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Yang</surname>
+<given-names>Y</given-names></string-name>, <string-name><surname>Zhang</surname>
+<given-names>J</given-names></string-name>, <string-name><surname>Han</surname>
+<given-names>F</given-names></string-name>, <string-name><surname>Xiao</surname>
+<given-names>F</given-names></string-name>. <article-title>Not only excessive daytime sleepiness but also depression symptoms, chronological age and onset-age were associated with impulsivity in narcolepsy type 1 patients</article-title>. <source><italic toggle="yes">Nat Sci Sleep</italic></source>. <year>2022</year>;<volume>14</volume>:<fpage>1857</fpage>–<lpage>1866</lpage>. doi:<pub-id pub-id-type="doi">10.2147/NSS.S377372</pub-id><pub-id pub-id-type="pmid">36275179</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0019">
+        <label>19.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Kapella</surname>
+<given-names>MC</given-names></string-name>, <string-name><surname>Berger</surname>
+<given-names>BE</given-names></string-name>, <string-name><surname>Vern</surname>
+<given-names>BA</given-names></string-name>, <string-name><surname>Vispute</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Prasad</surname>
+<given-names>B</given-names></string-name>, <string-name><surname>Carley</surname>
+<given-names>DW</given-names></string-name>. <article-title>Health-related stigma as a determinant of functioning in young adults with narcolepsy</article-title>. <source><italic toggle="yes">PLoS One</italic></source>. <year>2015</year>;<volume>10</volume>(<issue>4</issue>):<fpage>e0122478</fpage>. doi:<pub-id pub-id-type="doi">10.1371/journal.pone.0122478</pub-id><pub-id pub-id-type="pmid">25898361</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0020">
+        <label>20.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>D’Alterio</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Menchetti</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Zenesini</surname>
+<given-names>C</given-names></string-name>, et al. <article-title>Resilience and its correlates in patients with narcolepsy type 1</article-title>. <source><italic toggle="yes">J Clin Sleep Med</italic></source>. <year>2023</year>;<volume>19</volume>(<issue>4</issue>):<fpage>719</fpage>–<lpage>726</lpage>. doi:<pub-id pub-id-type="doi">10.5664/jcsm.10418</pub-id><pub-id pub-id-type="pmid">36689313</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0021">
+        <label>21.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Shan</surname>
+<given-names>L</given-names></string-name>, <string-name><surname>Balesar</surname>
+<given-names>R</given-names></string-name>, <string-name><surname>Swaab</surname>
+<given-names>DF</given-names></string-name>, <string-name><surname>Lammers</surname>
+<given-names>GJ</given-names></string-name>, <string-name><surname>Fronczek</surname>
+<given-names>R</given-names></string-name>. <article-title>Reduced numbers of corticotropin-releasing hormone neurons in narcolepsy type 1</article-title>. <source><italic toggle="yes">Ann Neurol</italic></source>. <year>2022</year>;<volume>91</volume>(<issue>2</issue>):<fpage>282</fpage>–<lpage>288</lpage>. doi:<pub-id pub-id-type="doi">10.1002/ana.26300</pub-id><pub-id pub-id-type="pmid">34981555</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0022">
+        <label>22.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Menke</surname>
+<given-names>A</given-names></string-name>. <article-title>The HPA axis as target for depression</article-title>. <source><italic toggle="yes">Curr Neuropharmacol</italic></source>. <year>2024</year>;<volume>22</volume>(<issue>5</issue>):<fpage>904</fpage>–<lpage>915</lpage>. doi:<pub-id pub-id-type="doi">10.2174/1570159X21666230811141557</pub-id><pub-id pub-id-type="pmid">37581323</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0023">
+        <label>23.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Park</surname>
+<given-names>YK</given-names></string-name>, <string-name><surname>Kwon</surname>
+<given-names>OH</given-names></string-name>, <string-name><surname>Joo</surname>
+<given-names>EY</given-names></string-name>, et al. <article-title>White matter alterations in narcolepsy patients with cataplexy: tract-based spatial statistics</article-title>. <source><italic toggle="yes">J Sleep Res</italic></source>. <year>2016</year>;<volume>25</volume>(<issue>2</issue>):<fpage>181</fpage>–<lpage>189</lpage>. doi:<pub-id pub-id-type="doi">10.1111/jsr.12366</pub-id><pub-id pub-id-type="pmid">26610427</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0024">
+        <label>24.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Merz</surname>
+<given-names>EC</given-names></string-name>, <string-name><surname>He</surname>
+<given-names>X</given-names></string-name>, <string-name><surname>Noble</surname>
+<given-names>KG</given-names></string-name>. <article-title>Pediatric imaging, neurocognition, and genetics study. anxiety, depression, impulsivity, and brain structure in children and adolescents</article-title>. <source><italic toggle="yes">NeuroImage Clin</italic></source>. <year>2018</year>;<volume>20</volume>:<fpage>243</fpage>–<lpage>251</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.nicl.2018.07.020</pub-id><pub-id pub-id-type="pmid">30094172</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0025">
+        <label>25.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Saddichha</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Schuetz</surname>
+<given-names>C</given-names></string-name>. <article-title>Impulsivity in remitted depression: a meta-analytical review</article-title>. <source><italic toggle="yes">Asian J Psychiatr</italic></source>. <year>2014</year>;<volume>9</volume>:<fpage>13</fpage>–<lpage>16</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.ajp.2014.02.003</pub-id><pub-id pub-id-type="pmid">24813029</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0026">
+        <label>26.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Guo</surname>
+<given-names>Z</given-names></string-name>, <string-name><surname>Cui</surname>
+<given-names>Y</given-names></string-name>, <string-name><surname>Qiu</surname>
+<given-names>R</given-names></string-name>, et al. <article-title>The association of impulsivity with depression and anxiety symptoms: a transdiagnostic network analysis and replication</article-title>. <source><italic toggle="yes">J Affect Disord</italic></source>. <year>2024</year>;<volume>359</volume>:<fpage>100</fpage>–<lpage>108</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.jad.2024.05.076</pub-id><pub-id pub-id-type="pmid">38772504</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0027">
+        <label>27.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Yang</surname>
+<given-names>Y</given-names></string-name>, <string-name><surname>Li</surname>
+<given-names>C</given-names></string-name>, <string-name><surname>Zhao</surname>
+<given-names>L</given-names></string-name>, <string-name><surname>Li</surname>
+<given-names>J</given-names></string-name>, <string-name><surname>Han</surname>
+<given-names>F</given-names></string-name>, <string-name><surname>Xiao</surname>
+<given-names>F</given-names></string-name>. <article-title>Factors associated with depression and sub-dimension symptoms in adolescent narcolepsy</article-title>. <source><italic toggle="yes">Nat Sci Sleep</italic></source>. <year>2021</year>;<volume>13</volume>:<fpage>1075</fpage>–<lpage>1082</lpage>. doi:<pub-id pub-id-type="doi">10.2147/NSS.S312000</pub-id><pub-id pub-id-type="pmid">34262378</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0028">
+        <label>28.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Huang</surname>
+<given-names>Y</given-names></string-name>, <string-name><surname>Zhu</surname>
+<given-names>C</given-names></string-name>, <string-name><surname>Feng</surname>
+<given-names>Y</given-names></string-name>, et al. <article-title>Comparison of three machine learning models to predict suicidal ideation and depression among Chinese adolescents: a cross-sectional study</article-title>. <source><italic toggle="yes">J Affect Disord</italic></source>. <year>2022</year>;<volume>319</volume>:<fpage>221</fpage>–<lpage>228</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.jad.2022.08.123</pub-id><pub-id pub-id-type="pmid">36122602</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0029">
+        <label>29.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Morse</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Sanjeev</surname>
+<given-names>K</given-names></string-name>. <article-title>Narcolepsy and psychiatric disorders: comorbidities or shared pathophysiology?</article-title>
+<source><italic toggle="yes">Med Sci</italic></source>. <year>2018</year>;<volume>6</volume>(<issue>1</issue>):<fpage>16</fpage>. doi:<pub-id pub-id-type="doi">10.3390/medsci6010016</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0030">
+        <label>30.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Zhang</surname>
+<given-names>Y</given-names></string-name>, <string-name><surname>Wang</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Hermann</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Joly</surname>
+<given-names>R</given-names></string-name>, <string-name><surname>Pathak</surname>
+<given-names>J</given-names></string-name>. <article-title>Development and validation of a machine learning algorithm for predicting the risk of postpartum depression among pregnant women</article-title>. <source><italic toggle="yes">J Affect Disord</italic></source>. <year>2021</year>;<volume>279</volume>:<fpage>1</fpage>–<lpage>8</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.jad.2020.09.113</pub-id><pub-id pub-id-type="pmid">33035748</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0031">
+        <label>31.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Maniaci</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Riela</surname>
+<given-names>PM</given-names></string-name>, <string-name><surname>Iannella</surname>
+<given-names>G</given-names></string-name>, et al. <article-title>Machine learning identification of obstructive sleep apnea severity through the patient clinical features: a retrospective study</article-title>. <source><italic toggle="yes">Life Basel Switz</italic></source>. <year>2023</year>;<volume>13</volume>(<issue>3</issue>):<fpage>702</fpage>. doi:<pub-id pub-id-type="doi">10.3390/life13030702</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0032">
+        <label>32.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Marzolini</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Sarin</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Reitav</surname>
+<given-names>J</given-names></string-name>, <string-name><surname>Mendelson</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Oh</surname>
+<given-names>P</given-names></string-name>. <article-title>Utility of screening for obstructive sleep apnea in cardiac rehabilitation</article-title>. <source><italic toggle="yes">J Cardiopulm Rehabil Prev</italic></source>. <year>2016</year>;<volume>36</volume>(<issue>6</issue>):<fpage>413</fpage>–<lpage>420</lpage>. doi:<pub-id pub-id-type="doi">10.1097/HCR.0000000000000186</pub-id><pub-id pub-id-type="pmid">27182760</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0033">
+        <label>33.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Liu</surname>
+<given-names>K</given-names></string-name>, <string-name><surname>Droncheff</surname>
+<given-names>B</given-names></string-name>, <string-name><surname>Warren</surname>
+<given-names>SL</given-names></string-name>. <article-title>Predictive utility of symptom measures in classifying anxiety and depression: a machine-learning approach</article-title>. <source><italic toggle="yes">Psychiatry Res</italic></source>. <year>2022</year>;<volume>312</volume>:<fpage>114534</fpage>. doi:<pub-id pub-id-type="doi">10.1016/j.psychres.2022.114534</pub-id><pub-id pub-id-type="pmid">35381506</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0034">
+        <label>34.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Berry</surname>
+<given-names>RB</given-names></string-name>, <string-name><surname>Brooks</surname>
+<given-names>R</given-names></string-name>, <string-name><surname>Gamaldo</surname>
+<given-names>C</given-names></string-name>, et al. <article-title>AASM scoring manual updates for 2017 (Version 2.4)</article-title>. <source><italic toggle="yes">J Clin Sleep Med</italic></source>. <year>2017</year>;<volume>13</volume>(<issue>5</issue>):<fpage>665</fpage>–<lpage>666</lpage>. doi:<pub-id pub-id-type="doi">10.5664/jcsm.6576</pub-id><pub-id pub-id-type="pmid">28416048</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0035">
+        <label>35.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Barateau</surname>
+<given-names>L</given-names></string-name>, <string-name><surname>Pizza</surname>
+<given-names>F</given-names></string-name>, <string-name><surname>Chenini</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Peter-Derex</surname>
+<given-names>L</given-names></string-name>, <string-name><surname>Dauvilliers</surname>
+<given-names>Y</given-names></string-name>. <article-title>Narcolepsies, update in 2023</article-title>. <source><italic toggle="yes">Rev Neurol</italic></source>. <year>2023</year>;<volume>179</volume>(<issue>7</issue>):<fpage>727</fpage>–<lpage>740</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.neurol.2023.08.001</pub-id><pub-id pub-id-type="pmid">37634997</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0036">
+        <label>36.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Johns</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Hocking</surname>
+<given-names>B</given-names></string-name>. <article-title>Daytime sleepiness and sleep habits of Australian workers</article-title>. <source><italic toggle="yes">Sleep</italic></source>. <year>1997</year>;<volume>20</volume>(<issue>10</issue>):<fpage>844</fpage>–<lpage>849</lpage>. doi:<pub-id pub-id-type="doi">10.1093/sleep/20.10.844</pub-id><pub-id pub-id-type="pmid">9415943</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0037">
+        <label>37.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Wang</surname>
+<given-names>YG</given-names></string-name>, <string-name><surname>Benmedjahed</surname>
+<given-names>K</given-names></string-name>, <string-name><surname>Lambert</surname>
+<given-names>J</given-names></string-name>, et al. <article-title>Assessing narcolepsy with cataplexy in children and adolescents: development of a cataplexy diary and the ESS-Chad</article-title>. <source><italic toggle="yes">Nat Sci Sleep</italic></source>. <year>2017</year>;<volume>9</volume>:<fpage>201</fpage>–<lpage>211</lpage>. doi:<pub-id pub-id-type="doi">10.2147/NSS.S140143</pub-id><pub-id pub-id-type="pmid">28860883</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0038">
+        <label>38.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Chen</surname>
+<given-names>NH</given-names></string-name>, <string-name><surname>Johns</surname>
+<given-names>MW</given-names></string-name>, <string-name><surname>Li</surname>
+<given-names>HY</given-names></string-name>, et al. <article-title>Validation of a Chinese version of the Epworth sleepiness scale</article-title>. <source><italic toggle="yes">Qual Life Res</italic></source>. <year>2002</year>;<volume>11</volume>(<issue>8</issue>):<fpage>817</fpage>–<lpage>821</lpage>. doi:<pub-id pub-id-type="doi">10.1023/a:1020818417949</pub-id><pub-id pub-id-type="pmid">12482165</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0039">
+        <label>39.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Wang</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Shen</surname>
+<given-names>C</given-names></string-name>, <string-name><surname>Liu</surname>
+<given-names>X</given-names></string-name>, et al. <article-title>Executive function performance in children and adolescent patients with narcolepsy type 1</article-title>. <source><italic toggle="yes">Sleep Med</italic></source>. <year>2024</year>;<volume>119</volume>:<fpage>342</fpage>–<lpage>351</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.sleep.2024.05.021</pub-id><pub-id pub-id-type="pmid">38754344</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0040">
+        <label>40.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Fendrich</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Weissman</surname>
+<given-names>MM</given-names></string-name>, <string-name><surname>Warner</surname>
+<given-names>V</given-names></string-name>. <article-title>Screening for depressive disorder in children and adolescents: validating the center for epidemiologic studies depression scale for children</article-title>. <source><italic toggle="yes">Am J Epidemiol</italic></source>. <year>1990</year>;<volume>131</volume>(<issue>3</issue>):<fpage>538</fpage>–<lpage>551</lpage>. doi:<pub-id pub-id-type="doi">10.1093/oxfordjournals.aje.a115529</pub-id><pub-id pub-id-type="pmid">2301363</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0041">
+        <label>41.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Zung</surname>
+<given-names>WW</given-names></string-name>. <article-title>A self-rating depression scale</article-title>. <source><italic toggle="yes">Arch Gen Psychiatry</italic></source>. <year>1965</year>;<volume>12</volume>:<fpage>63</fpage>–<lpage>70</lpage>. doi:<pub-id pub-id-type="doi">10.1001/archpsyc.1965.01720310065008</pub-id><pub-id pub-id-type="pmid">14221692</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0042">
+        <label>42.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Chen</surname>
+<given-names>Z</given-names></string-name>, <string-name><surname>Yang</surname>
+<given-names>X</given-names></string-name>, <string-name><surname>Li</surname>
+<given-names>X</given-names></string-name>. <article-title>Psychometric features of CES-D in Chinese adolescents</article-title>. <source><italic toggle="yes">Chin J Clin Psychol</italic></source>. <year>2009</year>;<volume>17</volume>(<issue>4</issue>):<fpage>443</fpage>–<lpage>448</lpage>. doi:<pub-id pub-id-type="doi">10.16128/j.cnki.1005-3611.2009.04.027</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0043">
+        <label>43.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Wang</surname>
+<given-names>R</given-names></string-name>, <string-name><surname>Liu</surname>
+<given-names>L</given-names></string-name>, <string-name><surname>Ge</surname>
+<given-names>H</given-names></string-name>, <string-name><surname>Han</surname>
+<given-names>J</given-names></string-name>. <article-title>Study on the feasibility of the self-rating depression scale (SDS) as a diagnostic screened implement for depressive disorder in surgical inpatients</article-title>. <source><italic toggle="yes">J Psychiatry</italic></source>. <year>2009</year>;<volume>22</volume>(<issue>4</issue>):<fpage>251</fpage>–<lpage>253</lpage>. doi:<pub-id pub-id-type="doi">10.3969/j.issn.1009-7201.2009.04.004</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0044">
+        <label>44.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Vilagut</surname>
+<given-names>G</given-names></string-name>, <string-name><surname>Forero</surname>
+<given-names>CG</given-names></string-name>, <string-name><surname>Barbaglia</surname>
+<given-names>G</given-names></string-name>, <string-name><surname>Alonso</surname>
+<given-names>J</given-names></string-name>. <article-title>Screening for depression in the general population with the center for epidemiologic studies depression (CES-D): a systematic review with meta-analysis</article-title>. <source><italic toggle="yes">PLoS One</italic></source>. <year>2016</year>;<volume>11</volume>(<issue>5</issue>):<fpage>e0155431</fpage>. doi:<pub-id pub-id-type="doi">10.1371/journal.pone.0155431</pub-id><pub-id pub-id-type="pmid">27182821</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0045">
+        <label>45.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Ran</surname>
+<given-names>H</given-names></string-name>, <string-name><surname>Fang</surname>
+<given-names>D</given-names></string-name>, <string-name><surname>Donald</surname>
+<given-names>AR</given-names></string-name>, et al. <article-title>Impulsivity mediates the association between parenting styles and self-harm in Chinese adolescents</article-title>. <source><italic toggle="yes">BMC Public Health</italic></source>. <year>2021</year>;<volume>21</volume>(<issue>1</issue>). doi:<pub-id pub-id-type="doi">10.1186/s12889-021-10386-8</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0046">
+        <label>46.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Yao</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Yang</surname>
+<given-names>H</given-names></string-name>, <string-name><surname>Zhu</surname>
+<given-names>X</given-names></string-name>, et al. <article-title>An examination of the psychometric properties of the Chinese version of the Barratt impulsiveness scale, 11th version in a sample of Chinese adolescents</article-title>. <source><italic toggle="yes">Percept Mot Skills</italic></source>. <year>2007</year>;<volume>104</volume>(<issue>3 Pt 2</issue>):<fpage>1169</fpage>–<lpage>1182</lpage>. doi:<pub-id pub-id-type="doi">10.2466/pms.104.4.1169-1182</pub-id><pub-id pub-id-type="pmid">17879649</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0047">
+        <label>47.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Li</surname>
+<given-names>W</given-names></string-name>, <string-name><surname>Zhang</surname>
+<given-names>W</given-names></string-name>, <string-name><surname>Xiao</surname>
+<given-names>L</given-names></string-name>, <string-name><surname>Nie</surname>
+<given-names>J</given-names></string-name>. <article-title>The association of internet addiction symptoms with impulsiveness, loneliness, novelty seeking and behavioral inhibition system among adults with attention-deficit/hyperactivity disorder (ADHD)</article-title>. <source><italic toggle="yes">Psychiatry Res</italic></source>. <year>2016</year>;<volume>243</volume>:<fpage>357</fpage>–<lpage>364</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.psychres.2016.02.020</pub-id><pub-id pub-id-type="pmid">27449004</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0048">
+        <label>48.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Wang</surname>
+<given-names>Q</given-names></string-name>, <string-name><surname>Wang</surname>
+<given-names>Y</given-names></string-name>, <string-name><surname>Zuo</surname>
+<given-names>J</given-names></string-name>, et al. <article-title>Factors of negative affect in elderly patients with substance use disorders during COVID-19 pandemic</article-title>. <source><italic toggle="yes">Front Psychiatry</italic></source>. <year>2021</year>:<fpage>12</fpage>. doi:<pub-id pub-id-type="doi">10.3389/fpsyt.2021.697472</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0049">
+        <label>49.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Riley</surname>
+<given-names>RD</given-names></string-name>, <string-name><surname>Ensor</surname>
+<given-names>J</given-names></string-name>, <string-name><surname>Snell</surname>
+<given-names>KIE</given-names></string-name>, et al. <article-title>Calculating the sample size required for developing a clinical prediction model</article-title>. <source><italic toggle="yes">BMJ</italic></source>. <year>2020</year>;<volume>368</volume>:<fpage>m441</fpage>. doi:<pub-id pub-id-type="doi">10.1136/bmj.m441</pub-id><pub-id pub-id-type="pmid">32188600</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0050">
+        <label>50.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Vickers</surname>
+<given-names>AJ</given-names></string-name>, <string-name><surname>Holland</surname>
+<given-names>F</given-names></string-name>. <article-title>Decision curve analysis to evaluate the clinical benefit of prediction models</article-title>. <source><italic toggle="yes">Spine J</italic></source>. <year>2021</year>;<volume>21</volume>(<issue>10</issue>):<fpage>1643</fpage>–<lpage>1648</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.spinee.2021.02.024</pub-id><pub-id pub-id-type="pmid">33676020</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0051">
+        <label>51.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Abenza-Abildua</surname>
+<given-names>MJ</given-names></string-name>, <string-name><surname>Suárez-Gisbert</surname>
+<given-names>E</given-names></string-name>, <string-name><surname>Lores-Gutiérrez</surname>
+<given-names>V</given-names></string-name>, et al. <article-title>Anxiety and depression in patients with narcolepsy</article-title>. <source><italic toggle="yes">J Sleep Res</italic></source>. <year>2023</year>;<volume>32</volume>(<issue>4</issue>):<fpage>e13812</fpage>. doi:<pub-id pub-id-type="doi">10.1111/jsr.13812</pub-id><pub-id pub-id-type="pmid">36564940</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0052">
+        <label>52.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Dauvilliers</surname>
+<given-names>Y</given-names></string-name>, <string-name><surname>Lopez</surname>
+<given-names>R</given-names></string-name>, <string-name><surname>Ohayon</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Bayard</surname>
+<given-names>S</given-names></string-name>. <article-title>Hypersomnia and depressive symptoms: methodological and clinical aspects</article-title>. <source><italic toggle="yes">BMC Med</italic></source>. <year>2013</year>;<volume>11</volume>(<issue>1</issue>):<fpage>78</fpage>. doi:<pub-id pub-id-type="doi">10.1186/1741-7015-11-78</pub-id><pub-id pub-id-type="pmid">23514569</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0053">
+        <label>53.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Hansen</surname>
+<given-names>BH</given-names></string-name>, <string-name><surname>Andresen</surname>
+<given-names>HN</given-names></string-name>, <string-name><surname>Gjesvik</surname>
+<given-names>J</given-names></string-name>, <string-name><surname>Thorsby</surname>
+<given-names>PM</given-names></string-name>, <string-name><surname>Naerland</surname>
+<given-names>T</given-names></string-name>, <string-name><surname>Knudsen-Heier</surname>
+<given-names>S</given-names></string-name>. <article-title>Associations between psychiatric comorbid disorders and executive dysfunctions in hypocretin-1 deficient pediatric narcolepsy type 1</article-title>. <source><italic toggle="yes">Sleep Med</italic></source>. <year>2023</year>;<volume>109</volume>:<fpage>149</fpage>–<lpage>157</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.sleep.2023.06.021</pub-id><pub-id pub-id-type="pmid">37442017</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0054">
+        <label>54.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Fulong</surname>
+<given-names>X</given-names></string-name>, <string-name><surname>Spruyt</surname>
+<given-names>K</given-names></string-name>, <string-name><surname>Xiaosong</surname>
+<given-names>D</given-names></string-name>, <string-name><surname>Zhaolong</surname>
+<given-names>C</given-names></string-name>, <string-name><surname>Jun</surname>
+<given-names>Z</given-names></string-name>, <string-name><surname>Fang</surname>
+<given-names>H</given-names></string-name>. <article-title>Morphological and age-related changes in the narcolepsy Brain</article-title>. <source><italic toggle="yes">Cereb Cortex N Y N 1991</italic></source>. <year>2021</year>;<volume>31</volume>(<issue>12</issue>):<fpage>5460</fpage>–<lpage>5469</lpage>. doi:<pub-id pub-id-type="doi">10.1093/cercor/bhab171</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0055">
+        <label>55.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Fulong</surname>
+<given-names>X</given-names></string-name>, <string-name><surname>Spruyt</surname>
+<given-names>K</given-names></string-name>, <string-name><surname>Chao</surname>
+<given-names>L</given-names></string-name>, <string-name><surname>Dianjiang</surname>
+<given-names>Z</given-names></string-name>, <string-name><surname>Jun</surname>
+<given-names>Z</given-names></string-name>, <string-name><surname>Fang</surname>
+<given-names>H</given-names></string-name>. <article-title>Resting-state brain network topological properties and the correlation with neuropsychological assessment in adolescent narcolepsy</article-title>. <source><italic toggle="yes">Sleep</italic></source>. <year>2020</year>;<volume>43</volume>(<issue>8</issue>):<fpage>zsaa018</fpage>. doi:<pub-id pub-id-type="doi">10.1093/sleep/zsaa018</pub-id><pub-id pub-id-type="pmid">32047928</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0056">
+        <label>56.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Scammell</surname>
+<given-names>TE</given-names></string-name>. <article-title>Narcolepsy</article-title>. <source><italic toggle="yes">N Engl J Med</italic></source>. <year>2015</year>;<volume>373</volume>(<issue>27</issue>):<fpage>2654</fpage>–<lpage>2662</lpage>. doi:<pub-id pub-id-type="doi">10.1056/NEJMra1500587</pub-id><pub-id pub-id-type="pmid">26716917</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0057">
+        <label>57.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Wang</surname>
+<given-names>YQ</given-names></string-name>, <string-name><surname>Li</surname>
+<given-names>R</given-names></string-name>, <string-name><surname>Zhang</surname>
+<given-names>MQ</given-names></string-name>, <string-name><surname>Zhang</surname>
+<given-names>Z</given-names></string-name>, <string-name><surname>Qu</surname>
+<given-names>WM</given-names></string-name>, <string-name><surname>Huang</surname>
+<given-names>ZL</given-names></string-name>. <article-title>The neurobiological mechanisms and treatments of REM sleep disturbances in depression</article-title>. <source><italic toggle="yes">Curr Neuropharmacol</italic></source>. <year>2015</year>;<volume>13</volume>(<issue>4</issue>):<fpage>543</fpage>–<lpage>553</lpage>. doi:<pub-id pub-id-type="doi">10.2174/1570159X13666150310002540</pub-id><pub-id pub-id-type="pmid">26412074</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0058">
+        <label>58.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Fortuyn</surname>
+<given-names>HAD</given-names></string-name>, <string-name><surname>Lappenschaar</surname>
+<given-names>GA</given-names></string-name>, <string-name><surname>Nienhuis</surname>
+<given-names>FJ</given-names></string-name>, et al. <article-title>Psychotic symptoms in narcolepsy: phenomenology and a comparison with schizophrenia</article-title>. <source><italic toggle="yes">Gen Hosp Psychiatry</italic></source>. <year>2009</year>;<volume>31</volume>(<issue>2</issue>):<fpage>146</fpage>–<lpage>154</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.genhosppsych.2008.12.002</pub-id><pub-id pub-id-type="pmid">19269535</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0059">
+        <label>59.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Shatte</surname>
+<given-names>ABR</given-names></string-name>, <string-name><surname>Hutchinson</surname>
+<given-names>DM</given-names></string-name>, <string-name><surname>Teague</surname>
+<given-names>SJ</given-names></string-name>. <article-title>Machine learning in mental health: a scoping review of methods and applications</article-title>. <source><italic toggle="yes">Psychol Med</italic></source>. <year>2019</year>;<volume>49</volume>(<issue>9</issue>):<fpage>1426</fpage>–<lpage>1448</lpage>. doi:<pub-id pub-id-type="doi">10.1017/S0033291719000151</pub-id><pub-id pub-id-type="pmid">30744717</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0060">
+        <label>60.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Wang</surname>
+<given-names>F</given-names></string-name>, <string-name><surname>Cheung</surname>
+<given-names>CW</given-names></string-name>, <string-name><surname>Wong</surname>
+<given-names>SSC</given-names></string-name>. <article-title>Use of pain-related gene features to predict depression by support vector machine model in patients with fibromyalgia</article-title>. <source><italic toggle="yes">Front Genet</italic></source>. <year>2023</year>;<volume>14</volume>:<fpage>1026672</fpage>. doi:<pub-id pub-id-type="doi">10.3389/fgene.2023.1026672</pub-id><pub-id pub-id-type="pmid">37065490</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0061">
+        <label>61.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Wu</surname>
+<given-names>CT</given-names></string-name>, <string-name><surname>Dillon</surname>
+<given-names>DG</given-names></string-name>, <string-name><surname>Hsu</surname>
+<given-names>HC</given-names></string-name>, <string-name><surname>Huang</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Barrick</surname>
+<given-names>E</given-names></string-name>, <string-name><surname>Liu</surname>
+<given-names>YH</given-names></string-name>. <article-title>Depression detection using relative EEG power induced by emotionally positive images and a conformal kernel support vector machine</article-title>. <source><italic toggle="yes">Appl Sci</italic></source>. <year>2018</year>;<volume>8</volume>(<issue>8</issue>):<fpage>1244</fpage>. doi:<pub-id pub-id-type="doi">10.3390/app8081244</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0062">
+        <label>62.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Yu</surname>
+<given-names>JS</given-names></string-name>, <string-name><surname>Xue</surname>
+<given-names>AY</given-names></string-name>, <string-name><surname>Redei</surname>
+<given-names>EE</given-names></string-name>, <string-name><surname>Bagheri</surname>
+<given-names>N</given-names></string-name>. <article-title>A support vector machine model provides an accurate transcript-level-based diagnostic for major depressive disorder</article-title>. <source><italic toggle="yes">Transl Psychiatry</italic></source>. <year>2016</year>;<volume>6</volume>(<issue>10</issue>):<fpage>e931</fpage>–<lpage>e931</lpage>. doi:<pub-id pub-id-type="doi">10.1038/tp.2016.198</pub-id><pub-id pub-id-type="pmid">27779627</pub-id>
+</mixed-citation>
+      </ref>
+    </ref-list>
+  </back>
+</article>
+</pmc-articleset>

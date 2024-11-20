@@ -1,0 +1,646 @@
+<pmc-articleset><article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" dtd-version="1.3" xml:lang="en" article-type="research-article">
+  <?properties open_access?>
+  <processing-meta base-tagset="archiving" mathml-version="3.0" table-model="xhtml" tagset-family="jats">
+    <restricted-by>pmc</restricted-by>
+  </processing-meta>
+  <front><journal-meta><journal-id journal-id-type="nlm-ta">Nat Sci Sleep</journal-id><journal-id journal-id-type="iso-abbrev">Nat Sci Sleep</journal-id><journal-id journal-id-type="publisher-id">nss</journal-id><journal-title-group><journal-title>Nature and Science of Sleep</journal-title></journal-title-group><issn pub-type="epub">1179-1608</issn><publisher><publisher-name>Dove</publisher-name></publisher></journal-meta>
+<article-meta><article-id pub-id-type="pmid">38374869</article-id><article-id pub-id-type="pmc">10876006</article-id><article-id pub-id-type="publisher-id">439274</article-id><article-id pub-id-type="doi">10.2147/NSS.S439274</article-id><article-categories><subj-group subj-group-type="heading"><subject>Original Research</subject></subj-group></article-categories><title-group><article-title>Investigating the Causal Relationship Between Sleep Behaviors and Primary Open-Angle Glaucoma: A Bidirectional Two-Sample Mendelian Randomization Study</article-title><alt-title alt-title-type="running-authors">Zhang et al</alt-title><alt-title alt-title-type="running-title">Zhang et al</alt-title></title-group><contrib-group><contrib contrib-type="author" equal-contrib="yes"><contrib-id contrib-id-type="orcid">http://orcid.org/0000-0003-2621-3939</contrib-id><name><surname>Zhang</surname><given-names>Jun</given-names></name><xref rid="aff0001" ref-type="aff">
+<sup>1</sup>
+</xref><xref rid="ft0001" ref-type="author-notes">*</xref></contrib><contrib contrib-type="author" equal-contrib="yes"><name><surname>Chen</surname><given-names>Xiaoyan</given-names></name><xref rid="aff0002" ref-type="aff">
+<sup>2</sup>
+</xref><xref rid="ft0001" ref-type="author-notes">*</xref></contrib><contrib contrib-type="author" equal-contrib="yes"><name><surname>Zhu</surname><given-names>Yan</given-names></name><xref rid="aff0001" ref-type="aff">
+<sup>1</sup>
+</xref><xref rid="ft0001" ref-type="author-notes">*</xref></contrib><contrib contrib-type="author"><name><surname>Wan</surname><given-names>Shanshan</given-names></name><xref rid="aff0001" ref-type="aff">
+<sup>1</sup>
+</xref></contrib><contrib contrib-type="author"><name><surname>Hu</surname><given-names>Shuqiong</given-names></name><xref rid="aff0003" ref-type="aff">
+<sup>3</sup>
+</xref></contrib><contrib contrib-type="author"><contrib-id contrib-id-type="orcid">http://orcid.org/0000-0001-8419-6706</contrib-id><name><surname>Yang</surname><given-names>Yanning</given-names></name><xref rid="aff0001" ref-type="aff">
+<sup>1</sup>
+</xref><xref rid="an0001" ref-type="corresp"/></contrib><aff id="aff0001"><label>1</label><institution>Department of Ophthalmology, Renmin Hospital of Wuhan University</institution>, <addr-line>Wuhan</addr-line>, <addr-line>Hubei</addr-line>, <country>People’s Republic of China</country></aff><aff id="aff0002"><label>2</label><institution>Department of Obstetrics and Gynecology, Women and Children’s Hospital of Chongqing Medical University, Chongqing Health Center for Women and Children</institution>, <addr-line>Chongqing</addr-line>, <country>People’s Republic of China</country></aff><aff id="aff0003"><label>3</label><institution>Aier Eye Hospital of Wuhan University (Wuhan Aier Eye Hospital)</institution>, <addr-line>Wuhan</addr-line>, <addr-line>Hubei</addr-line>, <country>People’s Republic of China</country></aff></contrib-group><author-notes><corresp id="an0001">Correspondence: Yanning Yang, <institution>Department of Ophthalmology, Renmin Hospital of Wuhan University</institution>, <addr-line>Jiefang Road 238</addr-line>, <addr-line>Wuhan</addr-line>, <addr-line>Hubei Province</addr-line>, <country>People’s Republic of China</country>, Tel/Fax <phone>+86-27-88041911</phone>, Email ophyyn@163.com</corresp><fn id="ft0001"><label>*</label><p>These authors contributed equally to this work</p></fn></author-notes><pub-date pub-type="epub"><day>15</day><month>2</month><year>2024</year></pub-date><pub-date pub-type="collection"><year>2024</year></pub-date><volume>16</volume><fpage>143</fpage><lpage>153</lpage><history><date date-type="received"><day>08</day><month>9</month><year>2023</year></date><date date-type="accepted"><day>08</day><month>2</month><year>2024</year></date></history><permissions><copyright-statement>© 2024 Zhang et al.</copyright-statement><copyright-year>2024</copyright-year><copyright-holder>Zhang et al.</copyright-holder><license><ali:license_ref xmlns:ali="http://www.niso.org/schemas/ali/1.0/" specific-use="textmining" content-type="ccbynclicense">https://creativecommons.org/licenses/by-nc/3.0/</ali:license_ref><license-p>This work is published and licensed by Dove Medical Press Limited. The full terms of this license are available at <ext-link ext-link-type="uri" xlink:href="https://www.dovepress.com/terms.php">https://www.dovepress.com/terms.php</ext-link> and incorporate the Creative Commons Attribution – Non Commercial (unported, v3.0) License (<ext-link ext-link-type="uri" xlink:href="https://creativecommons.org/licenses/by-nc/3.0/">http://creativecommons.org/licenses/by-nc/3.0/</ext-link>). By accessing the work you hereby accept the Terms. Non-commercial uses of the work are permitted without any further permission from Dove Medical Press Limited, provided the work is properly attributed. For permission for commercial use of this work, please see paragraphs 4.2 and 5 of our Terms (<ext-link ext-link-type="uri" xlink:href="https://www.dovepress.com/terms.php">https://www.dovepress.com/terms.php</ext-link>).</license-p></license></permissions><abstract><sec><title>Background</title><p>Although previous studies of sleep-related behaviors in relation to primary open-angle glaucoma (POAG) have been noted, the causal relationship remains unclear. The purpose of our present study was to investigate the relationships of genetically predicted sleep traits with POAG using a two-sample bidirectional Mendelian randomization (MR) method.</p></sec><sec><title>Methods</title><p>Summary-level data collected from publicly available genome-wide association studies (GWAS) of European decent were applied for the bidirectional MR analysis. After quality control steps, independent single-nucleotide polymorphisms for eight sleep behaviors and POAG were selected as the genetic instruments. The inverse-variance weighted (IVW) approach was adopted as the primary method, which was complemented by a series of sensitivity analyses to assess the robustness of the results by estimating heterogeneity and pleiotropy. Multivariable MR (MVMR) was used to assess the direct effect of sleep traits on POAG, after adjusting for several confounding factors.</p></sec><sec><title>Results</title><p>Our investigation revealed a positive correlation between genetically predicted ease of getting up in the morning and sleep duration and POAG using the IVW method (odds ratio (OR)=1.78, 95% confidence interval (CI):1.29–2.46, P = 4.33× 10<sup>−4</sup>; OR = 1.66, 95% CI:1.18–2.34, P = 3.38×10<sup>−3</sup>, respectively). Other supplementary MR methods also confirmed similar results. Moreover, the MVMR results also revealed that the adverse effects of these two sleep traits on POAG persisted after adjusting for body mass index, smoking, drinking, and education (all P &lt; 0.05). Conversely, the relationships between genetic liability of POAG and different sleep behaviors were not statistically significant in the reverse-direction MR estimate (all P &gt; 0.05).</p></sec><sec><title>Conclusion</title><p>Our study demonstrated that genetic prediction of getting up easily in the morning or sleep duration were associated with a higher risk of POAG, but not vice versa, in a European population. Further validation and clinical interventions are required to offer potential strategies to prevent and manage POAG.</p></sec></abstract><kwd-group kwd-group-type="author"><title>Keywords</title><kwd>genome-wide association study</kwd><kwd>mendelian randomization</kwd><kwd>sleep behaviors</kwd><kwd>primary open-angle glaucoma</kwd><kwd>risk factors</kwd></kwd-group><funding-group><award-group><funding-source>
+<institution-wrap><institution>Fundamental Research Funds for Central Universities</institution></institution-wrap>
+</funding-source></award-group><award-group><funding-source>
+<institution-wrap><institution>National Natural Science Foundation of China</institution><institution-id institution-id-type="open-funder-registry">10.13039/501100001809</institution-id></institution-wrap>
+</funding-source></award-group><award-group><funding-source>
+<institution-wrap><institution>Hubei Provincial Natural Science Foundation of China</institution></institution-wrap>
+</funding-source></award-group><funding-statement>This work was supported by Fundamental Research Funds for Central Universities (2042023kf0047); National Natural Science Foundation of China (82301193); and Hubei Provincial Natural Science Foundation of China (2023AFB223).</funding-statement></funding-group><counts><fig-count count="1"/><table-count count="2"/><ref-count count="61"/><page-count count="11"/></counts></article-meta></front>
+  <body>
+    <sec sec-type="intro" id="s0001">
+      <title>Introduction</title>
+      <p>Glaucoma is a heterogeneous group of irreversible diseases characterized by progressive optic neuropathy, which commonly impairs the visual field and is the second leading cause of permanent blindness worldwide.<xref rid="cit0001" ref-type="bibr">1</xref>,<xref rid="cit0002" ref-type="bibr">2</xref> Primary open-angle glaucoma (POAG) is the most common form of disease. The total number of POAG cases in the world was around 68.56 million in 2020 and will rise to 111.8 million by 2040, with Asia and Africa accounting for the vast majority.<xref rid="cit0003" ref-type="bibr">3</xref> Despite tremendous research efforts, the etiology of POAG remains poorly understood and the risk factors contributing to its progression have not been fully characterized.<xref rid="cit0004" ref-type="bibr">4</xref></p>
+      <p>In the past decade, considerable effort has been devoted to elucidating the genetic causes and risk factors of POAG. A recently published genome-wide association study (GWAS) identified 127 novel genetic variants associated with POAG.<xref rid="cit0005" ref-type="bibr">5</xref> Currently, it is widely accepted that sleep-related behavioral phenotypes and POAG have bidirectional relationships, that is, growing evidence indicates that patients with poor sleep traits are more likely to develop a risk of POAG.<xref rid="cit0006" ref-type="bibr">6–8</xref> In contrast, patients with glaucoma are more susceptible than healthy people to sleep dysfunction such as obstructive sleep apnea (OSA), snoring, or insomnia.<xref rid="cit0009" ref-type="bibr">9–13</xref></p>
+      <p>Despite increasing evidence from observational studies suggesting a correlation between sleep behaviors and POAG, there have also been several clinical studies reporting no association between them,<xref rid="cit0014" ref-type="bibr">14–16</xref> with the existing literature on the subject being inconclusive and debatable. Additionally, whether demographics, socioeconomic status, and comorbidities are potential confounding factors in this relationship remains to be elucidated. Recently, Zhou et al conducted a pooled meta-analysis of sleep duration and risk of major eye disorders, suggesting no association between inadequate sleep duration and glaucoma.<xref rid="cit0017" ref-type="bibr">17</xref> In addition, to date, no systematic, evidence-based randomized controlled trial (RCT) has summarized the association between sleep behaviors and POAG globally. Therefore, a better understanding of sleep-related phenotypes causally related to POAG may contribute to the prevention of adverse outcomes.</p>
+      <p>Given the tendency of the RCT approach to be expensive and time-consuming, Mendelian randomization (MR) analysis has been widely used to determine the causal estimate of risk factors for disease outcomes by utilizing genetic variants such as single nucleotide polymorphisms (SNPs) as instrumental variables (IVs). In contrast to observational studies, MR is an alternative estimation technique in which SNPs are randomly assigned during conception and are irrelevant to environmental confounding factors, which could strengthen the causal inference by eliminating substantial confounding bias and avoiding reverse causality.<xref rid="cit0018" ref-type="bibr">18</xref> To the best of our knowledge, no effort has yet been made to combine different sleep-related phenotypes and POAG outcomes using an MR design. Here, we employed a two-sample MR framework to thoroughly disentangle the causal associations between different sleep traits and the risk of POAG, and explore whether there was a bidirectional relationship in both directions.</p>
+    </sec>
+    <sec id="s0002">
+      <title>Materials and Methods</title>
+      <sec id="s0002-s2001">
+        <title>Study Design</title>
+        <p>A schematic representation of the research design is shown in <xref rid="f0001" ref-type="fig">Figure 1</xref>. The key component of our MR study was to examine the causal role of genetically predicted sleep-related phenotypes in the susceptibility to POAG. Our main analysis was constructed to meet the following assumptions for valid genetic variants: (a) reliably and robustly associated with exposure, (b) independent of any risk factor-outcome confounders, and (c) influence the outcome only via exposure.<xref rid="cit0019" ref-type="bibr">19</xref> The Coordinating Ethics Committee of the Hospital District of Helsinki and Uusimaa approved the FinnGen study protocol Nr HUS/990/2017. The FinnGen study was approved by Finnish Institute for Health and Welfare. The remaining analyses of publicly available datasets did not require ethical approval.
+<fig position="float" id="f0001" fig-type="figure"><label>Figure 1</label><caption><p>Workflow of bidirectional Mendelian randomization analysis demonstrating causality between sleep-related behaviors and POAG. Three principal assumptions of a valid genetic instrument for MR analysis. The dotted line and the “×” represent variables that are invalid once correlated with the outcome or potential confounders.</p></caption><graphic xlink:href="NSS-16-143-g0001" content-type="print-only" position="float"/><attrib><bold>Abbreviations</bold>: POAG, primary open-angle glaucoma; IVW, inverse variance weighted; MR-RAPS, MR robust adjusted profile score; MR-PRESSO, MR pleiotropy residual sum and outlier; BMI, body mass index.</attrib></fig></p>
+      </sec>
+      <sec id="s0002-s2002">
+        <title>GWAS Summary Statistics of Sleep-Related Phenotypes</title>
+        <p>We used published genome-wide association studies (GWAS) summary-level data of eight sleep-related phenotypes from large genetic consortia<xref rid="cit0020" ref-type="bibr">20</xref> in the PubMed and IEU databases (<underline><ext-link xlink:href="https://gwas.mrcieu.ac.uk" ext-link-type="uri">https://gwas.mrcieu.ac.uk</ext-link></underline>). A summary of the data sources for each sleep-related phenotype is presented in <xref rid="t0001" ref-type="table">Table 1</xref>. The eight sleep traits were self-reported chronotype (morning/evening person), ease of getting up in the morning, sleep duration, napping during the day, insomnia, daytime dozing/narcolepsy, snoring, and OSA. A detailed description of the data sources is presented in <underline><ext-link xlink:href="https://www.dovepress.com/get_supplementary_file.php?f=439274.zip" ext-link-type="uri">Table S1</ext-link></underline>. Genetic variant relationships for all sleep phenotypes were measured using available participants of European ancestry. To assess the potential for genetic confounding through clinical traits such as body mass index (BMI), smoking, drinking, and education,<xref rid="cit0006" ref-type="bibr">6</xref> we further applied the conventional linear multivariable MR (MVMR) approach to disentangle the direct effect of sleep traits on POAG by adjusting for these factors. The summary statistics for these factors were obtained from the corresponding GWASs.<xref rid="cit0021" ref-type="bibr">21–23</xref><table-wrap position="float" id="t0001"><label>Table 1</label><caption><p>Detailed Information on Included Traits in this Study</p></caption><table frame="hsides" rules="groups"><thead><tr><th rowspan="1" colspan="1">Traits</th><th align="center" rowspan="1" colspan="1">Dataset</th><th rowspan="1" colspan="1">Consortium</th><th rowspan="1" colspan="1">Sample size</th><th rowspan="1" colspan="1">Case</th><th rowspan="1" colspan="1">Control</th><th rowspan="1" colspan="1">Population</th><th rowspan="1" colspan="1">PMID</th></tr></thead><tbody><tr><td rowspan="1" colspan="1">Chronotype</td><td rowspan="1" colspan="1">ukb-b-4956</td><td rowspan="1" colspan="1">MRC-IEU</td><td rowspan="1" colspan="1">413343</td><td rowspan="1" colspan="1">–</td><td rowspan="1" colspan="1">–</td><td rowspan="1" colspan="1">European</td><td rowspan="1" colspan="1">–</td></tr><tr><td rowspan="1" colspan="1">Getting up in the morning</td><td rowspan="1" colspan="1">ukb-b-2772</td><td rowspan="1" colspan="1">MRC-IEU</td><td rowspan="1" colspan="1">461658</td><td rowspan="1" colspan="1">–</td><td rowspan="1" colspan="1">–</td><td rowspan="1" colspan="1">European</td><td rowspan="1" colspan="1">–</td></tr><tr><td rowspan="1" colspan="1">Sleep duration</td><td rowspan="1" colspan="1">ukb-b-4424</td><td rowspan="1" colspan="1">MRC-IEU</td><td rowspan="1" colspan="1">460099</td><td rowspan="1" colspan="1">–</td><td rowspan="1" colspan="1">–</td><td rowspan="1" colspan="1">European</td><td rowspan="1" colspan="1">–</td></tr><tr><td rowspan="1" colspan="1">Nap during the day</td><td rowspan="1" colspan="1">ukb-b-4616</td><td rowspan="1" colspan="1">MRC-IEU</td><td rowspan="1" colspan="1">462400</td><td rowspan="1" colspan="1">–</td><td rowspan="1" colspan="1">–</td><td rowspan="1" colspan="1">European</td><td rowspan="1" colspan="1">–</td></tr><tr><td rowspan="1" colspan="1">Insomnia</td><td rowspan="1" colspan="1">ukb-b-3957</td><td rowspan="1" colspan="1">MRC-IEU</td><td rowspan="1" colspan="1">462341</td><td rowspan="1" colspan="1">–</td><td rowspan="1" colspan="1">–</td><td rowspan="1" colspan="1">European</td><td rowspan="1" colspan="1">–</td></tr><tr><td rowspan="1" colspan="1">Daytime dozing/narcolepsy</td><td rowspan="1" colspan="1">ukb-b-5776</td><td rowspan="1" colspan="1">MRC-IEU</td><td rowspan="1" colspan="1">460913</td><td rowspan="1" colspan="1">–</td><td rowspan="1" colspan="1">–</td><td rowspan="1" colspan="1">European</td><td rowspan="1" colspan="1">–</td></tr><tr><td rowspan="1" colspan="1">Snoring</td><td rowspan="1" colspan="1">ukb-b-17,400</td><td rowspan="1" colspan="1">MRC-IEU</td><td rowspan="1" colspan="1">430438</td><td rowspan="1" colspan="1">270,007</td><td rowspan="1" colspan="1">160,431</td><td rowspan="1" colspan="1">European</td><td rowspan="1" colspan="1">–</td></tr><tr><td rowspan="1" colspan="1">OSA</td><td rowspan="1" colspan="1">–</td><td rowspan="1" colspan="1">–</td><td rowspan="1" colspan="1">362,638</td><td rowspan="1" colspan="1">25,008</td><td rowspan="1" colspan="1">337,630</td><td rowspan="1" colspan="1">European</td><td rowspan="1" colspan="1">36,525,587</td></tr><tr><td rowspan="1" colspan="1">POAG</td><td rowspan="1" colspan="1">GCST90011767</td><td rowspan="1" colspan="1">GWAS Catalog</td><td rowspan="1" colspan="1">192,702</td><td rowspan="1" colspan="1">15,229</td><td rowspan="1" colspan="1">177,473</td><td rowspan="1" colspan="1">European</td><td rowspan="1" colspan="1">33,627,673</td></tr><tr><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1">Finngen-public-data-r8</td><td rowspan="1" colspan="1">FinnGen</td><td rowspan="1" colspan="1">333,019</td><td rowspan="1" colspan="1">6585</td><td rowspan="1" colspan="1">326,434</td><td rowspan="1" colspan="1">European</td><td rowspan="1" colspan="1">–</td></tr></tbody></table><table-wrap-foot><fn id="tfn0001"><p><bold>Abbreviations</bold>: OSA, obstructive sleep apnea; POAG, primary open-angle glaucoma.</p></fn></table-wrap-foot></table-wrap></p>
+      </sec>
+      <sec id="s0002-s2003">
+        <title>GWAS Summary Statistics of POAG</title>
+        <p>The genetic variant relationships with the risk of POAG were retrieved from a meta-analysis of GWAS on 18 independent studies of European ancestry,<xref rid="cit0005" ref-type="bibr">5</xref> which included UKBB datasets. Most studies have restricted glaucoma to POAG based on the ICD9/ICD10 criteria. Considering the potential bias of overlapping samples between sleep phenotypes and POAG, the POAG GWAS summary statistics without UKBB individuals (15,229 POAG cases and 177,473 controls) were used in the bidirectional MR analysis (<xref rid="t0001" ref-type="table">Table 1</xref>). Moreover, summary statistics for POAG were acquired from the FinnGen study (<underline><ext-link xlink:href="https://www.finngen.fi/en/access_results" ext-link-type="uri">https://www.finngen.fi/en/access_results</ext-link></underline>; 6585 POAG cases and 326,434 controls) for external validation. GWAS adjusted for age, sex, and study-specific principal components.<xref rid="cit0005" ref-type="bibr">5</xref></p>
+      </sec>
+      <sec id="s0002-s2004">
+        <title>Selection of Genetic Instruments</title>
+        <p>We identified SNPs robustly associated with sleep traits to obtain eligible genetic instruments at a genome-wide significance threshold of P &lt; 5×10<sup>−8</sup>. Because the number of eligible IVs (P &lt; 5×10<sup>−8</sup>) was null, SNPs with a relatively relaxed and previously used instrument threshold (P &lt; 5×10<sup>−5</sup>) for OSA were selected to obtain a more comprehensive result.<xref rid="cit0024" ref-type="bibr">24</xref> Based on the 1000 Genomes Project European reference panel, the candidate set of SNPs was located in different gene regions without linkage disequilibrium LD (R<sup>2</sup>&lt;0.001 and a window size = 10,000 kb) estimation. We searched for instrumental variables using PhenoScanner (<underline><ext-link xlink:href="http://www.phenoscanner.medschl.cam.ac.uk/" ext-link-type="uri">http://www.phenoscanner.medschl.cam.ac.uk/</ext-link></underline>) to identify any previous associations with potential confounders. We further harmonized the exposure and outcome datasets to obtain genetic instrument effects on POAG and to remove palindromic SNPs. Specially, when genetic instruments associated with exposure factor were not available in the outcome GWAS dataset, proxy SNPs with a high LD (R<sup>2</sup>&gt; 0.8) corresponding to the summary statistics in the outcome GWAS dataset were applied for the causal estimation procedure. If no proxy SNP was found with this framework, we abandoned the unavailable SNP instrument. Regarding existing weak instrument bias, SNPs with an F statistic &gt;10 were considered sufficiently strong instruments for our analysis.<xref rid="cit0025" ref-type="bibr">25</xref> In addition, the proportion of variance (R<sup>2</sup>) explained by the SNPs was used to verify the strength of the instruments for exposure factors. The F statistic and R<sup>2</sup> were calculated using previously reported methods to evaluate the strength of the eligible SNPs.<xref rid="cit0026" ref-type="bibr">26</xref></p>
+      </sec>
+      <sec id="s0002-s2005">
+        <title>Statistical Analysis</title>
+        <sec id="s0002-s2005-s3001">
+          <title>MR Analysis</title>
+          <p>In this study, we firstly used sleep-related phenotypes as the exposure and POAG as the outcome to perform MR with “TwoSampleMR” package. Inverse-variance weighting (IVW) was used as the primary approach,<xref rid="cit0019" ref-type="bibr">19</xref> which calculated and combined the Wald ratio of each SNP through a meta-analysis to estimate the overall causal association between sleep traits and POAG. However, this may be biased by horizontal pleiotropy.<xref rid="cit0027" ref-type="bibr">27</xref> We therefore adopted multiple MR analysis as complementary methods, including weighted median, maximum likelihood, MR-Egger, MR Robust Adjusted Profile Score (MR-RAPS), and radial MR, to estimate the robustness and reliability for MR estimates.<xref rid="cit0028" ref-type="bibr">28–32</xref> Additionally, we assessed the impact of adding potential confounders to the adjusted model individually in any MVMR analysis. Details of the SNPs for the four confounders are listed in <underline><ext-link xlink:href="https://www.dovepress.com/get_supplementary_file.php?f=439274.zip" ext-link-type="uri">Table S2</ext-link></underline>.</p>
+          <p>For the primary analysis, Bonferroni correction was used to account for multiple comparisons, and a threshold P-value of 0.05/8 (P &lt; 6.25 × 10<sup>−3</sup>) was used to prioritize the results for further analysis. A value between 6.25 × 10<sup>−3</sup> and 0.05 was regarded as evidence of suggestive causal inference. A replication MR analysis was also conducted on the preliminarily identified estimation for external validation using the GWAS databases of the FinnGen study.</p>
+        </sec>
+      </sec>
+      <sec id="s0002-s2006">
+        <title>Reverse Causality Detection</title>
+        <p>Following the same screening criteria for sleep-related phenotypes, eligible genetic instruments for POAG exposure were also selected from publicly available GWAS for bidirectional MR analysis to detect potential reverse causality. The main effect was estimated by applying the aforementioned MR method. The results were considered statistically significant at P &lt; 0.05.</p>
+      </sec>
+      <sec id="s0002-s2007">
+        <title>Pleiotropy and Sensitivity Analysis</title>
+        <p>In our study, IVW, MR-Egger regression, and radial MR analyses were used to detect heterogeneity, and Cochran’s <italic toggle="yes">Q</italic>-test was used to assess the heterogeneity between the SNP-specific estimates. Cochrane’s Q value and I<sup>2</sup> were calculated to appraise heterogeneity and a fixed-effect model would be adopted if there was no significant heterogeneity existed (I<sup>2</sup>≤50%). SNPs that exhibited significant heterogeneity were removed and MR estimates were reassessed. The MR-Egger method assumes no intercept term in the model, and the intercept is considered to be zero. When the P value is larger than 0.05 in the MR-Egger intercept test, it can provide evidence for absence of pleiotropic bias.<xref rid="cit0030" ref-type="bibr">30</xref> In addition, pleiotropy was examined using the MR Pleiotropy Residual Sum and Outlier (MR-PRESSO) global tests. Thus, P-values were calculated according to 5000 simulations, which could detect the outlier SNPs reflecting likely pleiotropy with a P-value of 0.05, and correct for horizontal pleiotropy by removing outlier.<xref rid="cit0033" ref-type="bibr">33</xref> Furthermore, the directionality that exposure causes the outcome was determined using the MR Steiger test.<xref rid="cit0034" ref-type="bibr">34</xref> Leave-one-out sensitivity analysis was applied to evaluate whether the MR results relied on any single SNP.</p>
+        <p>The associations between sleep-related phenotypes and POAG from different databases, including the UK Biobank and FinnGen studies, were combined by meta-analysis using the R software. Causal effect estimates were interpreted per category increase in the sleep-related phenotypes. Additionally, we presented our MR results as odds ratios (ORs) accompanied by their respective 95% confidence intervals (CIs), which represented the outcome risk associated with unit changes in exposure. All statistical analyses were performed using the “TwoSampleMR”, “mr.raps”, and “MR-PRESSO” MR-PRESSO packages in R software version 4.3.0.</p>
+      </sec>
+    </sec>
+    <sec id="s0003">
+      <title>Results</title>
+      <p>After removing palindromic and unavailable proxy SNPs, 132 SNPs were used to instrument chronotype, 66 for getting up in the morning, 58 for sleep duration, 88 for nap during the day, 32 for insomnia, 30 for daytime dozing/narcolepsy, 35 for snoring, and 77 for OSA exposure. Based on the selection criteria, we selected 51 SNPs for POAG as IVs for the analysis of the causal effects of POAG on sleep trait outcomes. Detailed information on each SNP for sleep traits and POAG used in the current study is shown in <underline><ext-link xlink:href="https://www.dovepress.com/get_supplementary_file.php?f=439274.zip" ext-link-type="uri">Tables S3</ext-link></underline>–<underline><ext-link xlink:href="https://www.dovepress.com/get_supplementary_file.php?f=439274.zip" ext-link-type="uri">S11</ext-link></underline>. Finally, the screened SNPs with F-statistics &gt; 10, indicating no weak tool bias, were selected as IVs for further MR analysis.</p>
+      <sec id="s0003-s2001">
+        <title>Univariable MR Analyses</title>
+        <p>The results of the MR analysis are presented in <xref rid="t0002" ref-type="table">Table 2</xref> and <underline><ext-link xlink:href="https://www.dovepress.com/get_supplementary_file.php?f=439274.zip" ext-link-type="uri">Figures S1</ext-link></underline>, <underline><ext-link xlink:href="https://www.dovepress.com/get_supplementary_file.php?f=439274.zip" ext-link-type="uri">S2</ext-link></underline> and <underline><ext-link xlink:href="https://www.dovepress.com/get_supplementary_file.php?f=439274.zip" ext-link-type="uri">S3</ext-link></underline>. With the IVW method providing the main results, genetic liability to ease of getting up in the morning and sleep duration were associated with a higher risk of POAG outcome (getting up easily in the morning and POAG, IVW OR = 1.78, 95% CI:1.29–2.46, P = 4.33 × 10<sup>−4</sup>; sleep duration and POAG, IVW OR = 1.66, 95% CI:1.18–2.34, P = 3.38 × 10<sup>−3</sup>). MR estimates were significant and consistent across various methods, including the weighted median, maximum likelihood, MR-PRESSO, MR-RAPS, and radial MR methods (<xref rid="t0002" ref-type="table">Table 2</xref>). Correct causal direction was also confirmed using the MR-Steiger directionality test (P for Steiger = 1.99 × 10<sup>−102</sup>, 3.90 × 10<sup>−90</sup>, respectively). The MR-Egger regression test showed no evidence of pleiotropy (getting up easily in the morning and sleep duration for POAG, P = 0.489 and 0.145, respectively), and the Cochran’s Q statistic showed no significant heterogeneity with I<sup>2</sup> statistics ranging from 27.94% to 34.99% using IVW, maximum likelihood, MR-Egger, and radial MR (IVW getting up easily in the morning and sleep duration for POAG, P-value=2.00×10<sup>−2</sup> and 6.00 × 10<sup>−3</sup>) as presented in <xref rid="t0002" ref-type="table">Table 2</xref>. Although leave-one-out analysis indicated that one outlier SNP was detected in the analysis of POAG (<underline><ext-link xlink:href="https://www.dovepress.com/get_supplementary_file.php?f=439274.zip" ext-link-type="uri">Figure S1</ext-link></underline>), similar results were obtained after excluding the respective SNP (IVW OR = 1.44, 95% CI:1.04–2.00, P = 0.027), suggesting that the overall estimates of causal effects were not driven by a single SNP. Moreover, the MR-PRESSO global test did not detect any outlier SNPs or horizontal pleiotropic effects of getting up easily in the morning or sleep duration on the risk of POAG (P &gt; 0.05, <xref rid="t0002" ref-type="table">Table 2</xref>).<table-wrap position="float" id="t0002"><label>Table 2</label><caption><p>Mendelian Randomization Positive Results and Heterogeneity Analysis for Effect of Genetically Predicted Sleep Related Behaviors on POAG</p></caption><table frame="hsides" rules="groups"><thead><tr><th rowspan="2" colspan="1">Method</th><th rowspan="2" colspan="1">No. of SNPs</th><th align="center" colspan="3" rowspan="1">MR Analysis</th><th align="center" colspan="3" rowspan="1">Heterogeneity Test</th><th rowspan="2" colspan="1">P-Intercept for MR-Egger</th><th rowspan="2" colspan="1">P-Global</th></tr><tr><th rowspan="1" colspan="1">OR</th><th rowspan="1" colspan="1">95% CI</th><th rowspan="1" colspan="1">P</th><th rowspan="1" colspan="1">Cochran’s Q</th><th rowspan="1" colspan="1">I<sup>2</sup></th><th rowspan="1" colspan="1">P</th></tr></thead><tbody><tr><td rowspan="1" colspan="1">Getting up in morning</td><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"/></tr><tr><td rowspan="1" colspan="1">IVW</td><td rowspan="1" colspan="1">66</td><td rowspan="1" colspan="1">1.78</td><td rowspan="1" colspan="1">1.29–2.46</td><td rowspan="1" colspan="1">4.33×10<sup>−4</sup></td><td rowspan="1" colspan="1">90.60</td><td rowspan="1" colspan="1">28.25%</td><td rowspan="1" colspan="1">0.020</td><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"/></tr><tr><td rowspan="1" colspan="1">Weighted median</td><td rowspan="1" colspan="1">66</td><td rowspan="1" colspan="1">1.71</td><td rowspan="1" colspan="1">1.08–2.72</td><td rowspan="1" colspan="1">0.023</td><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"/></tr><tr><td rowspan="1" colspan="1">Maximum likelihood</td><td rowspan="1" colspan="1">66</td><td rowspan="1" colspan="1">1.82</td><td rowspan="1" colspan="1">1.31–2.52</td><td rowspan="1" colspan="1">3.51×10<sup>−4</sup></td><td rowspan="1" colspan="1">90.21</td><td rowspan="1" colspan="1">27.94%</td><td rowspan="1" colspan="1">0.021</td><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"/></tr><tr><td rowspan="1" colspan="1">MR-PRESSO</td><td rowspan="1" colspan="1">66</td><td rowspan="1" colspan="1">1.82</td><td rowspan="1" colspan="1">1.31–2.52</td><td rowspan="1" colspan="1">3.52×10<sup>−4</sup></td><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1">0.72</td></tr><tr><td rowspan="1" colspan="1">MR-Egger</td><td rowspan="1" colspan="1">66</td><td rowspan="1" colspan="1">1.11</td><td rowspan="1" colspan="1">0.28–4.42</td><td rowspan="1" colspan="1">0.879</td><td rowspan="1" colspan="1">89.92</td><td rowspan="1" colspan="1">28.82%</td><td rowspan="1" colspan="1">0.018</td><td rowspan="1" colspan="1">0.489</td><td rowspan="1" colspan="1"/></tr><tr><td rowspan="1" colspan="1">MR-RAPS</td><td rowspan="1" colspan="1">66</td><td rowspan="1" colspan="1">1.81</td><td rowspan="1" colspan="1">1.31–2.52</td><td rowspan="1" colspan="1">3.75×10<sup>−4</sup></td><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"/></tr><tr><td rowspan="1" colspan="1">Radial MR</td><td rowspan="1" colspan="1">66</td><td rowspan="1" colspan="1">1.81</td><td rowspan="1" colspan="1">1.32–2.50</td><td rowspan="1" colspan="1">4.04×10<sup>−3</sup></td><td rowspan="1" colspan="1">90.60</td><td rowspan="1" colspan="1">28.25%</td><td rowspan="1" colspan="1">0.020</td><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"/></tr><tr><td rowspan="1" colspan="1">Sleep duration</td><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"/></tr><tr><td rowspan="1" colspan="1">IVW</td><td rowspan="1" colspan="1">58</td><td rowspan="1" colspan="1">1.66</td><td rowspan="1" colspan="1">1.18–2.34</td><td rowspan="1" colspan="1">3.38×10<sup>−3</sup></td><td rowspan="1" colspan="1">87.68</td><td rowspan="1" colspan="1">34.99%</td><td rowspan="1" colspan="1">0.006</td><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"/></tr><tr><td rowspan="1" colspan="1">Weighted median</td><td rowspan="1" colspan="1">58</td><td rowspan="1" colspan="1">1.48</td><td rowspan="1" colspan="1">0.88–2.49</td><td rowspan="1" colspan="1">0.141</td><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"/></tr><tr><td rowspan="1" colspan="1">Maximum likelihood</td><td rowspan="1" colspan="1">58</td><td rowspan="1" colspan="1">1.70</td><td rowspan="1" colspan="1">1.20–2.40</td><td rowspan="1" colspan="1">2.93×10<sup>−3</sup></td><td rowspan="1" colspan="1">87.52</td><td rowspan="1" colspan="1">34.87%</td><td rowspan="1" colspan="1">0.006</td><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"/></tr><tr><td rowspan="1" colspan="1">MR-PRESSO</td><td rowspan="1" colspan="1">58</td><td rowspan="1" colspan="1">1.70</td><td rowspan="1" colspan="1">1.20–2.40</td><td rowspan="1" colspan="1">2.93×10<sup>−3</sup></td><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1">0.39</td></tr><tr><td rowspan="1" colspan="1">MR-Egger</td><td rowspan="1" colspan="1">58</td><td rowspan="1" colspan="1">0.55</td><td rowspan="1" colspan="1">0.12–2.53</td><td rowspan="1" colspan="1">0.447</td><td rowspan="1" colspan="1">84.38</td><td rowspan="1" colspan="1">33.64%</td><td rowspan="1" colspan="1">0.008</td><td rowspan="1" colspan="1">0.145</td><td rowspan="1" colspan="1"/></tr><tr><td rowspan="1" colspan="1">MR-RAPS</td><td rowspan="1" colspan="1">58</td><td rowspan="1" colspan="1">1.69</td><td rowspan="1" colspan="1">1.20–2.40</td><td rowspan="1" colspan="1">2.86×10<sup>−3</sup></td><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"/></tr><tr><td rowspan="1" colspan="1">Radial MR</td><td rowspan="1" colspan="1">58</td><td rowspan="1" colspan="1">1.69</td><td rowspan="1" colspan="1">1.21–2.39</td><td rowspan="1" colspan="1">0.022</td><td rowspan="1" colspan="1">87.68</td><td rowspan="1" colspan="1">34.99%</td><td rowspan="1" colspan="1">0.006</td><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"/></tr></tbody></table><table-wrap-foot><fn id="tfn0002"><p><bold>Abbreviations</bold>: IVW, inverse variance weighted; MR, mendelian randomization; MR-PRESSO, MR-pleiotropy residual sum and outlier; No, number; SNP, single nucleotide polymorphism; OR, odds ratio; 95% CI, 95% confidence interval.</p></fn></table-wrap-foot></table-wrap></p>
+        <p>However, few significant causal inferences were identified for other genetically predicted sleep traits with POAG (all P &gt; 0.05), without any evidence of significant heterogeneity in MR estimates among selected SNPs. As delineated in <underline><ext-link xlink:href="https://www.dovepress.com/get_supplementary_file.php?f=439274.zip" ext-link-type="uri">Table S12</ext-link></underline>, the aforementioned complementary MR methods produced similar results with that using IVW method. All MR-Egger intercept tests indicated no horizontal pleiotropy (P &gt; 0.05). Consistent with the main MR analysis, leave-one-out analysis revealed that the main causal associations were not directly driven by SNPs (<underline><ext-link xlink:href="https://www.dovepress.com/get_supplementary_file.php?f=439274.zip" ext-link-type="uri">Figure S1</ext-link></underline>).</p>
+      </sec>
+      <sec id="s0003-s2002">
+        <title>External Validation of Sleep Behaviors for POAG</title>
+        <p>Using the significant-variant strategy in different datasets, we decided to perform an MR analysis between sleep-related phenotypes and POAG derived from the FinnGen dataset. To further verify the positive association, the validated analysis using the FinnGen GWAS cohort for POAG outcome yielded similar estimates as the main finding that POAG might be influenced by getting up easily in the morning rather than sleep duration (IVW OR = 1.57, 95% CI:1.02–2.40, P = 3.89×10<sup>−2</sup>, <underline><ext-link xlink:href="https://www.dovepress.com/get_supplementary_file.php?f=439274.zip" ext-link-type="uri">Table S13</ext-link></underline>).</p>
+      </sec>
+      <sec id="s0003-s2003">
+        <title>Multivariable MR Analyses</title>
+        <p>Given the possible effects of BMI, smoking, drinking, and education on estimating causal inferences, we further performed an MVMR analysis adjusting for these confounding factors to infer the direct effect of sleep-related phenotypes on POAG. As for the overall association between genetically predicted ease of getting up in the morning and POAG susceptibility, MR estimates were not attenuated after adjustments were made for BMI, smoking initiation, drinking, and educational attainment (all P &lt; 0.05, <underline><ext-link xlink:href="https://www.dovepress.com/get_supplementary_file.php?f=439274.zip" ext-link-type="uri">Table S14</ext-link></underline>). Additionally, the patterns between genetic liability, sleep duration, and POAG outcome were still significant after adjusting for multivariable factors (IVW, all P &lt; 0.05, <underline><ext-link xlink:href="https://www.dovepress.com/get_supplementary_file.php?f=439274.zip" ext-link-type="uri">Table S14</ext-link></underline>). However, the results from our MVMR estimation did not reveal a possible causal relationship between other sleep traits and higher POAG risk when these factors were accounted for.</p>
+      </sec>
+      <sec id="s0003-s2004">
+        <title>Reverse Mendelian Randomization</title>
+        <p>Regarding the reverse direction, genetic liabilities for POAG were used as exposure.</p>
+        <p>No clear evidence supported a causal association between POAG and the different sleep-related phenotypes in the seven analyses mentioned above, including the IVW method (IVW, all P &gt; 0.05, <underline><ext-link xlink:href="https://www.dovepress.com/get_supplementary_file.php?f=439274.zip" ext-link-type="uri">Table S15</ext-link></underline>). Similar results were obtained in subsequent sensitivity analyses. The statistical results for reverse-direction MR are presented in <underline><ext-link xlink:href="https://www.dovepress.com/get_supplementary_file.php?f=439274.zip" ext-link-type="uri">Figures S4</ext-link></underline>, <underline><ext-link xlink:href="https://www.dovepress.com/get_supplementary_file.php?f=439274.zip" ext-link-type="uri">S5</ext-link></underline> and <underline><ext-link xlink:href="https://www.dovepress.com/get_supplementary_file.php?f=439274.zip" ext-link-type="uri">S6</ext-link></underline>. The overall estimations were not driven by a single genetic variant tested in “leave-one-out” analysis (<underline><ext-link xlink:href="https://www.dovepress.com/get_supplementary_file.php?f=439274.zip" ext-link-type="uri">Figure S4</ext-link></underline>).</p>
+      </sec>
+    </sec>
+    <sec id="s0004">
+      <title>Discussion</title>
+      <p>To the best of our knowledge, this is the first study to explore the effect of multiple sleep-related behaviors on POAG outcomes using two-sample bidirectional MR analysis across GWAS datasets of the European population. The results demonstrated that a genetic predisposition to ease getting up in the morning or sleep duration could be the cause of POAG susceptibility, and POAG might not change sleep-related behaviors in reverse-direction MR analysis. In addition, genetically predicted getting up easily in the morning was also found to be associated with POAG, using a similar approach to reassess in the FinnGen cohorts, further suggesting the reliability of the causal estimates identified in this study. Moreover, our multivariable MR estimates were consistent with the univariate MR findings after adjusting for potential confounding factors. Therefore, it can be concluded with strong evidence from this study that genetic liability to sleep traits, especially the ease of getting up in the morning and sleep duration, is an important risk factor for POAG.</p>
+      <p>Poor sleep quality and disruption are commonly observed in patients with POAG or glaucoma. A Pittsburgh Sleep Quality Index survey demonstrated that glaucoma patients had higher (worse) scores compared with controls for sleep latency, sleep duration, and subjective sleep quality.<xref rid="cit0035" ref-type="bibr">35</xref> A prospective cross-sectional study with consecutive sampling in the Southeast Asian population indicated that patients with primary glaucoma have poorer sleep quality than controls.<xref rid="cit0013" ref-type="bibr">13</xref> On the other hand, although we identified a detrimental impact of ease of getting up in the morning on POAG development, there was inadequate previous evidence for causal associations between them. Consistent with our findings, the development of getting up easily in the morning has been observed in 24.5% of patients with glaucoma at various disease stages.<xref rid="cit0036" ref-type="bibr">36</xref> Notably, the prevalence of glaucoma and waking up in the early morning tends to increase with age, the higher risk of POAG in individuals with waking up early may be attributed to age age-related bias. Thus, the relative age effect in both clinical phenotypes could not be neglected. To the best of our knowledge, no previous MR study has investigated the association between genetically predicted getting up easily in the morning with POAG, and several MR analyses have reported that trouble getting up in the morning is associated with an increased risk of nonalcoholic fatty liver disease, end-stage renal disease, and auditory hallucinations.<xref rid="cit0037" ref-type="bibr">37–39</xref></p>
+      <p>In addition, we expanded on these findings by demonstrating the effects of sleep duration on POAG. Genetic association data estimated for sleep duration was retrieved from UKBB dataset of European ancestry. The data was assessed by answering the question “About how many hours sleep do you get in every 24 hours? (please include naps)” and the results show the mean time of sleep duration is about 7h. And over 80% of the samples range from 6 to 8 h. In comparison with normal sleep, poor sleep duration increases a 1.66-fold higher risk of POAG in our MR estimate. Observational studies have suggested that sleep duration is an independent risk factor for glaucoma. A prospective, case-control study of matched patients with advanced glaucoma proposed that these patients showed more awakenings at night, shorter sleep duration, and lower sleep efficiency than the control subjects.<xref rid="cit0040" ref-type="bibr">40</xref> Another prospective cohort study in the UK Biobank concluded that short or long sleep duration, individually or jointly, was associated with the risk of glaucoma, but not with POAG subtype.<xref rid="cit0006" ref-type="bibr">6</xref> In addition, a cross-sectional study stratified by obesity status using data from the Korean National Health and Nutrition Examination Survey revealed a U-shaped association between sleep duration and the prevalence of POAG.<xref rid="cit0041" ref-type="bibr">41</xref> However, a systematic meta-analysis showed that inappropriate sleep duration was not associated with the incidence of glaucoma,<xref rid="cit0017" ref-type="bibr">17</xref> which contradicts the present findings of the MR analysis.</p>
+      <p>Several observations and systematic analyses suggest an equivocal relationship between POAG and other sleep traits. A Munich chronotype questionnaire indicated that no clear changes were identified in the chronotype, as determined by the sleep phase of patients with glaucoma.<xref rid="cit0042" ref-type="bibr">42</xref> Similarly, Sun et al found an excess risk of glaucoma among individuals with late-chronotype sleep pattern.<xref rid="cit0006" ref-type="bibr">6</xref> An interviewer-administered semi-structured questionnaire suggested that patients showed a high prevalence of insomnia, excessive daytime dozing/narcolepsy, and snoring.<xref rid="cit0043" ref-type="bibr">43</xref> An observational, prospective, non-exposed-exposed study with a period of 18 months found that insomnia was a potential risk factor for POAG.<xref rid="cit0044" ref-type="bibr">44</xref> Despite the opposite result reported in another prospective cohort study involving 3468 subjects, the results indicated that severe snoring was not significantly associated with POAG prevalence of POAG.<xref rid="cit0045" ref-type="bibr">45</xref> Balbay et al concluded that a higher prevalence of OSA is observed in patients with POAG.<xref rid="cit0046" ref-type="bibr">46</xref> Conversely, a population-based, cross-sectional study of Indian and Malay adults indicated that a non-significant increase was confirmed in the likelihood of having POAG in those with an intermediate/higher risk of OSA than in those with a low risk.<xref rid="cit0047" ref-type="bibr">47</xref> A cross-sectional telephone survey using the STOP-BANG questionnaire demonstrated no evidence that glaucoma patients were more likely to have OSA or develop more severe OSA than others.<xref rid="cit0016" ref-type="bibr">16</xref> Furthermore, Chan et al argued that the presence of glaucoma increased the risk of moderate-to-severe OSA compared with the control group.<xref rid="cit0012" ref-type="bibr">12</xref> In contrast, a population-based nationwide cohort study showed no significant increase in the risk of OSA in patients with POAG.<xref rid="cit0010" ref-type="bibr">10</xref> A meta-analysis of OSA in patients with glaucoma confirmed that OSA is associated with a significantly increased risk of glaucoma.<xref rid="cit0048" ref-type="bibr">48</xref> A recently published meta-analysis suggested that OSA is associated with a higher risk of glaucoma and its subtype.<xref rid="cit0049" ref-type="bibr">49</xref> These inconsistent conclusions may be attributed to different risk biases, including the control of confounding factors and reverse caution. Considering the wide range of potential confounders, the findings about the causal effects of OSA on glaucoma in our MR analysis are consistent with a previous MR study conducted by Ingold Nathan et al.<xref rid="cit0050" ref-type="bibr">50</xref> Different from their MR design, we used MVMR to avoid horizontal pleiotropy, which allowed us to further consider the influence of additional factors and draw a more solid conclusion. After adjusting for these confounding factors, the previously identified MR associations were retained, which suggested that confounding factors did not drive the observed estimate between sleep traits and POAG. Moreover, we extended the scope of our study by including chronotype, napping during the day, insomnia, daytime dozing/narcolepsy, snoring, and OSA as studied outcomes. Although there was no potential causal inference between these genetically predicted sleep traits and POAG, we still need to pay attention to sleep-related health to mitigate the incidence of POAG.</p>
+      <p>To this end, reverse MR analysis was performed to determine the influence of POAG on sleep-related behaviors. However, no clear evidence of a causal relationship between POAG and sleep traits has been identified, suggesting that sleep traits are more likely to be a cause rather than a consequence of POAG. Furthermore, the aim of building a multivariate MR analysis in our study was to investigate the causal effect of multiple sleep-related behaviors on POAG outcomes, with the advantage that the direct effect of sleep traits on POAG could be robustly estimated in different scenarios. Thus, possible confounding factors, reverse direction, or pleiotropic pathway effects exerted by secondary exposures.<xref rid="cit0051" ref-type="bibr">51</xref> More convincingly, our results demonstrated that increasing the ease of getting up in the morning or sleep duration was associated with a high risk of POAG, after adjusting for BMI, smoking, drinking, and education. This finding is in accordance with that of a previous observational study showing that the associations of sleep patterns with glaucoma did not differ according to BMI, lifestyle factors such as smoking status and physical activity.<xref rid="cit0006" ref-type="bibr">6</xref></p>
+      <p>The underlying mechanisms that explain the association between sleep-related behaviors and POAG are biologically plausible. One such common pathogenetic mechanism may involve systemic inflammation-related processes, such as C-reactive protein, neutrophil-to-lymphocyte ratio, systemic immune inflammation index, and cytokine TNF-α, which are more relevant to the development of optic nerve neuropathy and vision in POAG.<xref rid="cit0052" ref-type="bibr">52–54</xref> Vascular factors, including recurrent hypoxia with increased vascular resistance and oxidative stress damage to the optic nerve, have been implicated in POAG pathogenesis of POAG.<xref rid="cit0055" ref-type="bibr">55</xref> Evidence also shows that OSA predisposes patients to optic nerve head ischemia and damage through mitochondrial dysregulation and hemodynamic changes to retinal blood vessels, which are subjected to the progress of POAG.<xref rid="cit0048" ref-type="bibr">48</xref>,<xref rid="cit0056" ref-type="bibr">56</xref> Furthermore, chronic insomnia and its related physiological responses may stimulate neurotransmitter secretion and the autonomic nervous system, thereby affecting the regulation of IOP and optic nerve perfusion.<xref rid="cit0057" ref-type="bibr">57–59</xref> Additionally, mood disorders, such as anxiety and depression, co-occur often with insomnia and may also result in elevated IOP through dysregulation of cortisol hormone.<xref rid="cit0060" ref-type="bibr">60</xref>,<xref rid="cit0061" ref-type="bibr">61</xref> Nonetheless, the complex interactions between poor sleep behaviors and an increased risk of POAG have not been sufficiently elucidated.</p>
+      <p>This study, following the MR guidelines, elucidated the causal inferences between the genetic liability for eight sleep behaviors and POAG, with several important implications. Our research has the main strength of obtaining less confounded estimates from the largest summary-level GWAS datasets of sleep behaviors and POAG with replication and external validation, along with multiple sensitivity analyses. Thus, the reality and robustness of the MR results were ensured. Our study was a bidirectional MR study that can strongly determine whether reverse causation exists. All strong and reliable IVs from different large-scale GWASs were introduced to avoid potentially weak instrumental biases and enhance credibility. In addition, we stratified the population according to European descent and minimized the bias due to ethnic heterogeneity.</p>
+      <p>Nevertheless, it is inevitable that there are also some potential limitations needed to be noted. First, the results were obtained from European individuals and might not be generalized to other ethnic populations. Further replication based on cohorts of different ancestry was still warranted. Second, although all eligible IVs associated with sleep-related behaviors were selected, they could only represent a relatively small proportion of complex phenotypes. Thus, our analysis cannot be considered an accurate proxy for exposure. Third, our study mainly chose the clinical data of sleep traits from a self-reported questionnaire instead of accelerometer estimation, which might have led to a potential bias. Fourth, potential confounders, such as stress or depression may affect sleep duration and needed to be investigated in the future observational study. Fifth, although the potential causal relationships between sleep traits and POAG could be retrieved from a genetic perspective, the underlying mechanisms and specific biological pathways are uncertain and require further investigation.</p>
+    </sec>
+    <sec id="s0005">
+      <title>Conclusion</title>
+      <p>In summary, this comprehensive bidirectional two-sample MR analysis demonstrated that individuals with suboptimal sleep patterns, such as ease of getting up in the morning and poor sleep duration, were at increased risk of POAG. To better understand and manage both phenotypes in our clinical implications, potential ophthalmologic screening and intervention among individuals with chronic sleep problems should be made to help prevent POAG.</p>
+    </sec>
+  </body>
+  <back>
+    <ack>
+      <title>Acknowledgments</title>
+      <p>The authors thank all the investigators of the UK Biobank and the MRC IEU Open GWAS Project for publicly providing data.</p>
+    </ack>
+    <sec id="s0006">
+      <title>Data Sharing Statement</title>
+      <p>The data used in our Mendelian randomization analysis were obtained from the UK Biobank and the MRC IEU Open GWAS Project. We also acknowledge the participants and investigators of the FinnGen Study. Further inquiries can be directed to the corresponding author.</p>
+    </sec>
+    <sec id="s0007">
+      <title>Ethics Approval</title>
+      <p>The present study was strictly conducted in accordance with the Declaration of Helsinki and International Ethical Guidelines for Health-related Research Involving Humans. This study was approved by the Medical Ethics Committee of Renmin Hospital of Wuhan University. Additional ethics approval or participate informed consent have been obtained in the original studies.</p>
+    </sec>
+    <sec id="s0008">
+      <title>Author Contributions</title>
+      <p>All authors made a significant contribution to the work reported, whether that is in the conception, study design, execution, acquisition of data, analysis and interpretation, or in all these areas; took part in drafting, revising or critically reviewing the article; gave final approval of the version to be published; have agreed on the journal to which the article has been submitted; and agree to be accountable for all aspects of the work.</p>
+    </sec>
+    <sec sec-type="COI-statement" id="s0009">
+      <title>Disclosure</title>
+      <p>The authors declare that they have no conflict of interest.</p>
+    </sec>
+    <ref-list>
+      <title>References</title>
+      <ref id="cit0001">
+        <label>1.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Tham</surname>
+<given-names>YC</given-names></string-name>, <string-name><surname>Li</surname>
+<given-names>X</given-names></string-name>, <string-name><surname>Wong</surname>
+<given-names>TY</given-names></string-name>, et al. <article-title>Global prevalence of glaucoma and projections of glaucoma burden through 2040: a systematic review and meta-analysis</article-title>. <source><italic toggle="yes">Ophthalmology</italic></source>. <year>2014</year>;<volume>121</volume>(<issue>11</issue>):<fpage>2081</fpage>–<lpage>2090</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.ophtha.2014.05.013</pub-id><pub-id pub-id-type="pmid">24974815</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0002">
+        <label>2.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Stein</surname>
+<given-names>JD</given-names></string-name>, <string-name><surname>Khawaja</surname>
+<given-names>AP</given-names></string-name>, <string-name><surname>Weizer</surname>
+<given-names>JS</given-names></string-name>. <article-title>Glaucoma in adults-screening, diagnosis, and management: a review</article-title>. <source><italic toggle="yes">JAMA</italic></source>. <year>2021</year>;<volume>325</volume>(<issue>2</issue>):<fpage>164</fpage>–<lpage>174</lpage>. doi:<pub-id pub-id-type="doi">10.1001/jama.2020.21899</pub-id><pub-id pub-id-type="pmid">33433580</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0003">
+        <label>3.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Zhang</surname>
+<given-names>N</given-names></string-name>, <string-name><surname>Wang</surname>
+<given-names>J</given-names></string-name>, <string-name><surname>Li</surname>
+<given-names>Y</given-names></string-name>, <string-name><surname>Jiang</surname>
+<given-names>B</given-names></string-name>. <article-title>Prevalence of primary open angle glaucoma in the last 20 years: a meta-analysis and systematic review</article-title>. <source><italic toggle="yes">Sci Rep</italic></source>. <year>2021</year>;<volume>11</volume>(<issue>1</issue>):<fpage>13762</fpage>. doi:<pub-id pub-id-type="doi">10.1038/s41598-021-92971-w</pub-id><pub-id pub-id-type="pmid">34215769</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0004">
+        <label>4.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Nickells</surname>
+<given-names>RW</given-names></string-name>, <string-name><surname>Howell</surname>
+<given-names>GR</given-names></string-name>, <string-name><surname>Soto</surname>
+<given-names>I</given-names></string-name>, <string-name><surname>John</surname>
+<given-names>SW</given-names></string-name>. <article-title>Under pressure: cellular and molecular responses during glaucoma, a common neurodegeneration with axonopathy</article-title>. <source><italic toggle="yes">Annu Rev Neurosci</italic></source>. <year>2012</year>;<volume>35</volume>(<issue>1</issue>):<fpage>153</fpage>–<lpage>179</lpage>. doi:<pub-id pub-id-type="doi">10.1146/annurev.neuro.051508.135728</pub-id><pub-id pub-id-type="pmid">22524788</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0005">
+        <label>5.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Gharahkhani</surname>
+<given-names>P</given-names></string-name>, <string-name><surname>Jorgenson</surname>
+<given-names>E</given-names></string-name>, <string-name><surname>Hysi</surname>
+<given-names>P</given-names></string-name>, et al. <article-title>Genome-wide meta-analysis identifies 127 open-angle glaucoma loci with consistent effect across ancestries</article-title>. <source><italic toggle="yes">Nat Commun</italic></source>. <year>2021</year>;<volume>12</volume>(<issue>1</issue>):<fpage>1258</fpage>. doi:<pub-id pub-id-type="doi">10.1038/s41467-020-20851-4</pub-id><pub-id pub-id-type="pmid">33627673</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0006">
+        <label>6.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Sun</surname>
+<given-names>C</given-names></string-name>, <string-name><surname>Yang</surname>
+<given-names>H</given-names></string-name>, <string-name><surname>Hu</surname>
+<given-names>Y</given-names></string-name>, et al. <article-title>Association of sleep behaviour and pattern with the risk of glaucoma: a prospective cohort study in the UK Biobank</article-title>. <source><italic toggle="yes">BMJ Open</italic></source>. <year>2022</year>;<volume>12</volume>(<issue>11</issue>):<fpage>e063676</fpage>. doi:<pub-id pub-id-type="doi">10.1136/bmjopen-2022-063676</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0007">
+        <label>7.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Lee</surname>
+<given-names>TE</given-names></string-name>, <string-name><surname>Kim</surname>
+<given-names>JS</given-names></string-name>, <string-name><surname>Yeom</surname>
+<given-names>SW</given-names></string-name>, et al. <article-title>Long-term effects of obstructive sleep apnea and its treatment on open-angle glaucoma: a big-data cohort study</article-title>. <source><italic toggle="yes">J Clin Sleep Med</italic></source>. <year>2023</year>;<volume>19</volume>(<issue>2</issue>):<fpage>339</fpage>–<lpage>346</lpage>. doi:<pub-id pub-id-type="doi">10.5664/jcsm.10334</pub-id><pub-id pub-id-type="pmid">36305582</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0008">
+        <label>8.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Gubin</surname>
+<given-names>DG</given-names></string-name>, <string-name><surname>Malishevskaya Capital Te</surname>
+<given-names>C</given-names></string-name>, <string-name><surname>Astakhov</surname>
+<given-names>YS</given-names></string-name>, et al. <article-title>Progressive retinal ganglion cell loss in primary open-angle glaucoma is associated with temperature circadian rhythm phase delay and compromised sleep</article-title>. <source><italic toggle="yes">Chronobiol Int</italic></source>. <year>2019</year>;<volume>36</volume>(<issue>4</issue>):<fpage>564</fpage>–<lpage>577</lpage>. doi:<pub-id pub-id-type="doi">10.1080/07420528.2019.1566741</pub-id><pub-id pub-id-type="pmid">30663431</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0009">
+        <label>9.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Friedlander</surname>
+<given-names>AH</given-names></string-name>, <string-name><surname>Graves</surname>
+<given-names>LL</given-names></string-name>, <string-name><surname>Chang</surname>
+<given-names>TI</given-names></string-name>, et al. <article-title>Prevalence of primary open-angle glaucoma among patients with obstructive sleep apnea</article-title>. <source><italic toggle="yes">Oral Surg Oral Med Oral Pathol Oral Radiol</italic></source>. <year>2018</year>;<volume>126</volume>(<issue>3</issue>):<fpage>226</fpage>–<lpage>230</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.oooo.2018.01.021</pub-id><pub-id pub-id-type="pmid">29506916</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0010">
+        <label>10.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Lee</surname>
+<given-names>SY</given-names></string-name>, <string-name><surname>Yu</surname>
+<given-names>H</given-names></string-name>, <string-name><surname>Kim</surname>
+<given-names>DK</given-names></string-name>. <article-title>Glaucoma is associated with the risk of obstructive sleep apnea: a population-based nationwide cohort study</article-title>. <source><italic toggle="yes">Diagnostics</italic></source>. <year>2022</year>;<volume>13</volume>(<issue>1</issue>):<fpage>12</fpage>. doi:<pub-id pub-id-type="doi">10.3390/diagnostics13010012</pub-id><pub-id pub-id-type="pmid">36611304</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0011">
+        <label>11.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Fan</surname>
+<given-names>YY</given-names></string-name>, <string-name><surname>Su</surname>
+<given-names>WW</given-names></string-name>, <string-name><surname>Liu</surname>
+<given-names>CH</given-names></string-name>, et al. <article-title>Correlation between structural progression in glaucoma and obstructive sleep apnea</article-title>. <source><italic toggle="yes">Eye</italic></source>. <year>2019</year>;<volume>33</volume>(<issue>9</issue>):<fpage>1459</fpage>–<lpage>1465</lpage>. doi:<pub-id pub-id-type="doi">10.1038/s41433-019-0430-2</pub-id><pub-id pub-id-type="pmid">30971813</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0012">
+        <label>12.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Chan</surname>
+<given-names>YH</given-names></string-name>, <string-name><surname>Chuang</surname>
+<given-names>LH</given-names></string-name>, <string-name><surname>Yu</surname>
+<given-names>CC</given-names></string-name>, et al. <article-title>Prospective evaluation of the comorbidity of obstructive sleep apnea in patients with glaucoma</article-title>. <source><italic toggle="yes">J Clin Sleep Med</italic></source>. <year>2022</year>;<volume>18</volume>(<issue>1</issue>):<fpage>47</fpage>–<lpage>56</lpage>. doi:<pub-id pub-id-type="doi">10.5664/jcsm.9488</pub-id><pub-id pub-id-type="pmid">34170230</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0013">
+        <label>13.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Chin</surname>
+<given-names>JY</given-names></string-name>, <string-name><surname>Toh</surname>
+<given-names>ZH</given-names></string-name>, <string-name><surname>Lo</surname>
+<given-names>YT</given-names></string-name>, et al. <article-title>Effects of primary glaucoma on sleep quality and daytime sleepiness of patients residing at an equatorial latitude</article-title>. <source><italic toggle="yes">Int J Ophthalmol</italic></source>. <year>2020</year>;<volume>13</volume>(<issue>9</issue>):<fpage>1451</fpage>–<lpage>1458</lpage>. doi:<pub-id pub-id-type="doi">10.18240/ijo.2020.09.18</pub-id><pub-id pub-id-type="pmid">32953586</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0014">
+        <label>14.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Lee</surname>
+<given-names>CY</given-names></string-name>, <string-name><surname>Chien</surname>
+<given-names>HW</given-names></string-name>, <string-name><surname>Huang</surname>
+<given-names>JY</given-names></string-name>, et al. <article-title>The need for glaucoma management in glaucoma patients with concurrent obstructive sleep apnea: a population-based cohort study</article-title>. <source><italic toggle="yes">Biomedicines</italic></source>. <year>2023</year>;<volume>12</volume>(<issue>1</issue>):<fpage>11</fpage>. doi:<pub-id pub-id-type="doi">10.3390/biomedicines12010011</pub-id><pub-id pub-id-type="pmid">38275372</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0015">
+        <label>15.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Davanian</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Williamson</surname>
+<given-names>L</given-names></string-name>, <string-name><surname>Taylor</surname>
+<given-names>C</given-names></string-name>, et al. <article-title>Optical coherence tomography angiography and Humphrey visual field in patients with obstructive sleep apnea</article-title>. <source><italic toggle="yes">J Clin Sleep Med</italic></source>. <year>2022</year>;<volume>18</volume>(<issue>9</issue>):<fpage>2133</fpage>–<lpage>2142</lpage>. doi:<pub-id pub-id-type="doi">10.5664/jcsm.10054</pub-id><pub-id pub-id-type="pmid">35532117</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0016">
+        <label>16.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Alotaibi</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Alsubaie</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Alharthi</surname>
+<given-names>A</given-names></string-name>, et al. <article-title>The risk of obstructive sleep apnea in open-angle glaucoma patients</article-title>. <source><italic toggle="yes">Cureus</italic></source>. <year>2021</year>;<volume>13</volume>(<issue>10</issue>):<fpage>e18699</fpage>. doi:<pub-id pub-id-type="doi">10.7759/cureus.18699</pub-id><pub-id pub-id-type="pmid">34786269</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0017">
+        <label>17.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Zhou</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Li</surname>
+<given-names>DL</given-names></string-name>, <string-name><surname>Kai</surname>
+<given-names>JY</given-names></string-name>, <string-name><surname>Zhang</surname>
+<given-names>XF</given-names></string-name>, <string-name><surname>Pan</surname>
+<given-names>CW</given-names></string-name>. <article-title>Sleep duration and the risk of major eye disorders: a systematic review and meta-analysis</article-title>. <source><italic toggle="yes">Eye</italic></source>. <year>2023</year>;<volume>37</volume>(<issue>13</issue>):<fpage>2707</fpage>–<lpage>2715</lpage>. doi:<pub-id pub-id-type="doi">10.1038/s41433-023-02403-4</pub-id><pub-id pub-id-type="pmid">36683054</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0018">
+        <label>18.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Davies</surname>
+<given-names>NM</given-names></string-name>, <string-name><surname>Holmes</surname>
+<given-names>MV</given-names></string-name>, <string-name><surname>Davey Smith</surname>
+<given-names>G</given-names></string-name>. <article-title>Reading Mendelian randomisation studies: a guide, glossary, and checklist for clinicians</article-title>. <source><italic toggle="yes">BMJ</italic></source>. <year>2018</year>;<volume>362</volume>:<fpage>k601</fpage>. doi:<pub-id pub-id-type="doi">10.1136/bmj.k601</pub-id><pub-id pub-id-type="pmid">30002074</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0019">
+        <label>19.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Lawlor</surname>
+<given-names>DA</given-names></string-name>, <string-name><surname>Harbord</surname>
+<given-names>RM</given-names></string-name>, <string-name><surname>Sterne</surname>
+<given-names>JA</given-names></string-name>, <string-name><surname>Timpson</surname>
+<given-names>N</given-names></string-name>, <string-name><surname>Davey Smith</surname>
+<given-names>G</given-names></string-name>. <article-title>Mendelian randomization: using genes as instruments for making causal inferences in epidemiology</article-title>. <source><italic toggle="yes">Stat Med</italic></source>. <year>2008</year>;<volume>27</volume>(<issue>8</issue>):<fpage>1133</fpage>–<lpage>1163</lpage>. doi:<pub-id pub-id-type="doi">10.1002/sim.3034</pub-id><pub-id pub-id-type="pmid">17886233</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0020">
+        <label>20.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Campos</surname>
+<given-names>AI</given-names></string-name>, <string-name><surname>Ingold</surname>
+<given-names>N</given-names></string-name>, <string-name><surname>Huang</surname>
+<given-names>Y</given-names></string-name>, et al. <article-title>Discovery of genomic loci associated with sleep apnea risk through multi-trait GWAS analysis with snoring</article-title>. <source><italic toggle="yes">Sleep</italic></source>. <year>2023</year>;<volume>3</volume>:<fpage>46</fpage>.</mixed-citation>
+      </ref>
+      <ref id="cit0021">
+        <label>21.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Yengo</surname>
+<given-names>L</given-names></string-name>, <string-name><surname>Sidorenko</surname>
+<given-names>J</given-names></string-name>, <string-name><surname>Kemper</surname>
+<given-names>KE</given-names></string-name>, et al. <article-title>Meta-analysis of genome-wide association studies for height and body mass index in approximately 700000 individuals of European ancestry</article-title>. <source><italic toggle="yes">Hum Mol Genet</italic></source>. <year>2018</year>;<volume>27</volume>(<issue>20</issue>):<fpage>3641</fpage>–<lpage>3649</lpage>. doi:<pub-id pub-id-type="doi">10.1093/hmg/ddy271</pub-id><pub-id pub-id-type="pmid">30124842</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0022">
+        <label>22.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Liu</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Jiang</surname>
+<given-names>Y</given-names></string-name>, <string-name><surname>Wedow</surname>
+<given-names>R</given-names></string-name>, et al. <article-title>Association studies of up to 1.2 million individuals yield new insights into the genetic etiology of tobacco and alcohol use</article-title>. <source><italic toggle="yes">Nat Genet</italic></source>. <year>2019</year>;<volume>51</volume>(<issue>2</issue>):<fpage>237</fpage>–<lpage>244</lpage>. doi:<pub-id pub-id-type="doi">10.1038/s41588-018-0307-5</pub-id><pub-id pub-id-type="pmid">30643251</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0023">
+        <label>23.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Okbay</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Wu</surname>
+<given-names>Y</given-names></string-name>, <string-name><surname>Wang</surname>
+<given-names>N</given-names></string-name>, et al. <article-title>Polygenic prediction of educational attainment within and between families from genome-wide association analyses in 3 million individuals</article-title>. <source><italic toggle="yes">Nat Genet</italic></source>. <year>2022</year>;<volume>54</volume>(<issue>4</issue>):<fpage>437</fpage>–<lpage>449</lpage>. doi:<pub-id pub-id-type="doi">10.1038/s41588-022-01016-z</pub-id><pub-id pub-id-type="pmid">35361970</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0024">
+        <label>24.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Lin</surname>
+<given-names>Y</given-names></string-name>, <string-name><surname>Yang</surname>
+<given-names>Y</given-names></string-name>, <string-name><surname>Fu</surname>
+<given-names>T</given-names></string-name>, et al. <article-title>Impairment of kidney function and kidney cancer: a bidirectional Mendelian randomization study</article-title>. <source><italic toggle="yes">Cancer Med</italic></source>. <year>2023</year>;<volume>12</volume>(<issue>3</issue>):<fpage>3610</fpage>–<lpage>3622</lpage>. doi:<pub-id pub-id-type="doi">10.1002/cam4.5204</pub-id><pub-id pub-id-type="pmid">36069056</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0025">
+        <label>25.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Palmer</surname>
+<given-names>TM</given-names></string-name>, <string-name><surname>Lawlor</surname>
+<given-names>DA</given-names></string-name>, <string-name><surname>Harbord</surname>
+<given-names>RM</given-names></string-name>, et al. <article-title>Using multiple genetic variants as instrumental variables for modifiable risk factors</article-title>. <source><italic toggle="yes">Stat Methods Med Res</italic></source>. <year>2012</year>;<volume>21</volume>(<issue>3</issue>):<fpage>223</fpage>–<lpage>242</lpage>. doi:<pub-id pub-id-type="doi">10.1177/0962280210394459</pub-id><pub-id pub-id-type="pmid">21216802</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0026">
+        <label>26.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Anderson</surname>
+<given-names>EL</given-names></string-name>, <string-name><surname>Richmond</surname>
+<given-names>RC</given-names></string-name>, <string-name><surname>Jones</surname>
+<given-names>SE</given-names></string-name>, et al. <article-title>Is disrupted sleep a risk factor for Alzheimer’s disease? Evidence from a two-sample Mendelian randomization analysis</article-title>. <source><italic toggle="yes">Int J Epidemiol</italic></source>. <year>2021</year>;<volume>50</volume>(<issue>3</issue>):<fpage>817</fpage>–<lpage>828</lpage>. doi:<pub-id pub-id-type="doi">10.1093/ije/dyaa183</pub-id><pub-id pub-id-type="pmid">33150399</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0027">
+        <label>27.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Lee</surname>
+<given-names>CH</given-names></string-name>, <string-name><surname>Cook</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Lee</surname>
+<given-names>JS</given-names></string-name>, <string-name><surname>Han</surname>
+<given-names>B</given-names></string-name>. <article-title>Comparison of two meta-analysis methods: inverse-variance-weighted average and weighted sum of Z-Scores</article-title>. <source><italic toggle="yes">Genomics Inform</italic></source>. <year>2016</year>;<volume>14</volume>(<issue>4</issue>):<fpage>173</fpage>–<lpage>180</lpage>. doi:<pub-id pub-id-type="doi">10.5808/GI.2016.14.4.173</pub-id><pub-id pub-id-type="pmid">28154508</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0028">
+        <label>28.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Bowden</surname>
+<given-names>J</given-names></string-name>, <string-name><surname>Davey Smith</surname>
+<given-names>G</given-names></string-name>, <string-name><surname>Haycock</surname>
+<given-names>PC</given-names></string-name>, <string-name><surname>Burgess</surname>
+<given-names>S</given-names></string-name>. <article-title>Consistent estimation in mendelian randomization with some invalid instruments using a weighted median estimator</article-title>. <source><italic toggle="yes">Genet Epidemiol</italic></source>. <year>2016</year>;<volume>40</volume>(<issue>4</issue>):<fpage>304</fpage>–<lpage>314</lpage>. doi:<pub-id pub-id-type="doi">10.1002/gepi.21965</pub-id><pub-id pub-id-type="pmid">27061298</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0029">
+        <label>29.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Nguyen</surname>
+<given-names>LT</given-names></string-name>, <string-name><surname>Schmidt</surname>
+<given-names>HA</given-names></string-name>, <string-name><surname>von Haeseler</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Minh</surname>
+<given-names>BQ</given-names></string-name>. <article-title>IQ-TREE: a fast and effective stochastic algorithm for estimating maximum-likelihood phylogenies</article-title>. <source><italic toggle="yes">Mol Biol Evol</italic></source>. <year>2015</year>;<volume>32</volume>(<issue>1</issue>):<fpage>268</fpage>–<lpage>274</lpage>. doi:<pub-id pub-id-type="doi">10.1093/molbev/msu300</pub-id><pub-id pub-id-type="pmid">25371430</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0030">
+        <label>30.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Bowden</surname>
+<given-names>J</given-names></string-name>, <string-name><surname>Davey Smith</surname>
+<given-names>G</given-names></string-name>, <string-name><surname>Burgess</surname>
+<given-names>S</given-names></string-name>. <article-title>Mendelian randomization with invalid instruments: effect estimation and bias detection through Egger regression</article-title>. <source><italic toggle="yes">Int J Epidemiol</italic></source>. <year>2015</year>;<volume>44</volume>(<issue>2</issue>):<fpage>512</fpage>–<lpage>525</lpage>. doi:<pub-id pub-id-type="doi">10.1093/ije/dyv080</pub-id><pub-id pub-id-type="pmid">26050253</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0031">
+        <label>31.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Zhao</surname>
+<given-names>Q</given-names></string-name>, <string-name><surname>Wang</surname>
+<given-names>J</given-names></string-name>, <string-name><surname>Hemani</surname>
+<given-names>G</given-names></string-name>, <string-name><surname>Bowden</surname>
+<given-names>J</given-names></string-name>, <string-name><surname>Small</surname>
+<given-names>DS</given-names></string-name>. <article-title>Statistical inference in two-sample summary-data Mendelian randomization using robust adjusted profile score</article-title>. <source><italic toggle="yes">Ann Statist</italic></source>. <year>2020</year>;<volume>48</volume>(<issue>3</issue>):<fpage>1742</fpage>–<lpage>1769</lpage>. doi:<pub-id pub-id-type="doi">10.1214/19-AOS1866</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0032">
+        <label>32.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Bowden</surname>
+<given-names>J</given-names></string-name>, <string-name><surname>Spiller</surname>
+<given-names>W</given-names></string-name>, <string-name><surname>Del Greco</surname>
+<given-names>MF</given-names></string-name>, et al. <article-title>Improving the visualization, interpretation and analysis of two-sample summary data mendelian randomization via the radial plot and radial regression</article-title>. <source><italic toggle="yes">Int J Epidemiol</italic></source>. <year>2018</year>;<volume>47</volume>(<issue>4</issue>):<fpage>1264</fpage>–<lpage>1278</lpage>. doi:<pub-id pub-id-type="doi">10.1093/ije/dyy101</pub-id><pub-id pub-id-type="pmid">29961852</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0033">
+        <label>33.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Verbanck</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Chen</surname>
+<given-names>CY</given-names></string-name>, <string-name><surname>Neale</surname>
+<given-names>B</given-names></string-name>, <string-name><surname>Do</surname>
+<given-names>R</given-names></string-name>. <article-title>Detection of widespread horizontal pleiotropy in causal relationships inferred from Mendelian randomization between complex traits and diseases</article-title>. <source><italic toggle="yes">Nat Genet</italic></source>. <year>2018</year>;<volume>50</volume>(<issue>5</issue>):<fpage>693</fpage>–<lpage>698</lpage>. doi:<pub-id pub-id-type="doi">10.1038/s41588-018-0099-7</pub-id><pub-id pub-id-type="pmid">29686387</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0034">
+        <label>34.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Lutz</surname>
+<given-names>SM</given-names></string-name>, <string-name><surname>Wu</surname>
+<given-names>AC</given-names></string-name>, <string-name><surname>Hokanson</surname>
+<given-names>JE</given-names></string-name>, <string-name><surname>Vansteelandt</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Lange</surname>
+<given-names>C</given-names></string-name>. <article-title>Caution against examining the role of reverse causality in mendelian randomization</article-title>. <source><italic toggle="yes">Genet Epidemiol</italic></source>. <year>2021</year>;<volume>45</volume>(<issue>5</issue>):<fpage>445</fpage>–<lpage>454</lpage>. doi:<pub-id pub-id-type="doi">10.1002/gepi.22385</pub-id><pub-id pub-id-type="pmid">34008876</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0035">
+        <label>35.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Stoner</surname>
+<given-names>AM</given-names></string-name>, <string-name><surname>Patnaik</surname>
+<given-names>JL</given-names></string-name>, <string-name><surname>Ertel</surname>
+<given-names>MK</given-names></string-name>, et al. <article-title>Subjective and objective measurement of sleep quality and activity in glaucoma</article-title>. <source><italic toggle="yes">J Glaucoma</italic></source>. <year>2023</year>;<volume>32</volume>(<issue>4</issue>):<fpage>265</fpage>–<lpage>271</lpage>. doi:<pub-id pub-id-type="doi">10.1097/IJG.0000000000002186</pub-id><pub-id pub-id-type="pmid">36795515</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0036">
+        <label>36.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Qiu</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Ramulu</surname>
+<given-names>PY</given-names></string-name>, <string-name><surname>Boland</surname>
+<given-names>MV</given-names></string-name>. <article-title>Association between sleep parameters and glaucoma in the United States Population: national health and nutrition examination survey</article-title>. <source><italic toggle="yes">J Glaucoma</italic></source>. <year>2019</year>;<volume>28</volume>(<issue>2</issue>):<fpage>97</fpage>–<lpage>104</lpage>. doi:<pub-id pub-id-type="doi">10.1097/IJG.0000000000001169</pub-id><pub-id pub-id-type="pmid">30585942</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0037">
+        <label>37.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Fan</surname>
+<given-names>H</given-names></string-name>, <string-name><surname>Liu</surname>
+<given-names>Z</given-names></string-name>, <string-name><surname>Zhang</surname>
+<given-names>X</given-names></string-name>, et al. <article-title>Investigating the association between seven sleep traits and nonalcoholic fatty liver disease: observational and mendelian randomization study</article-title>. <source><italic toggle="yes">Front Genet</italic></source>. <year>2022</year>;<volume>13</volume>:<fpage>792558</fpage>. doi:<pub-id pub-id-type="doi">10.3389/fgene.2022.792558</pub-id><pub-id pub-id-type="pmid">35656325</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0038">
+        <label>38.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Li</surname>
+<given-names>K</given-names></string-name>, <string-name><surname>Zhao</surname>
+<given-names>J</given-names></string-name>, <string-name><surname>Yang</surname>
+<given-names>W</given-names></string-name>, <string-name><surname>Ye</surname>
+<given-names>Z</given-names></string-name>. <article-title>Sleep traits and risk of end-stage renal disease: a mendelian randomization study</article-title>. <source><italic toggle="yes">BMC Med Genomics</italic></source>. <year>2023</year>;<volume>16</volume>(<issue>1</issue>):<fpage>76</fpage>. doi:<pub-id pub-id-type="doi">10.1186/s12920-023-01497-9</pub-id><pub-id pub-id-type="pmid">37029366</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0039">
+        <label>39.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Yu</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Du</surname>
+<given-names>Y</given-names></string-name>, <string-name><surname>Liu</surname>
+<given-names>K</given-names></string-name>, et al. <article-title>Sleep duration and auditory hallucinations: genetic correlation and two-sample Mendelian randomization study</article-title>. <source><italic toggle="yes">J Affect Disord</italic></source>. <year>2021</year>;<volume>291</volume>:<fpage>409</fpage>–<lpage>414</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.jad.2021.04.038</pub-id><pub-id pub-id-type="pmid">33994199</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0040">
+        <label>40.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Lanzani</surname>
+<given-names>MF</given-names></string-name>, <string-name><surname>de Zavalia</surname>
+<given-names>N</given-names></string-name>, <string-name><surname>Fontana</surname>
+<given-names>H</given-names></string-name>, et al. <article-title>Alterations of locomotor activity rhythm and sleep parameters in patients with advanced glaucoma</article-title>. <source><italic toggle="yes">Chronobiol Int</italic></source>. <year>2012</year>;<volume>29</volume>(<issue>7</issue>):<fpage>911</fpage>–<lpage>919</lpage>. doi:<pub-id pub-id-type="doi">10.3109/07420528.2012.691146</pub-id><pub-id pub-id-type="pmid">22823874</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0041">
+        <label>41.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Lee</surname>
+<given-names>JA</given-names></string-name>, <string-name><surname>Han</surname>
+<given-names>K</given-names></string-name>, <string-name><surname>Min</surname>
+<given-names>JA</given-names></string-name>, <string-name><surname>Choi</surname>
+<given-names>JA</given-names></string-name>. <article-title>Epidemiologic Survey Committee of the Korean Ophthalmological S, (2016) Associations of sleep duration with open angle glaucoma in the Korea national health and nutrition examination survey</article-title>. <source><italic toggle="yes">Medicine</italic></source>. <year>2016</year>;<volume>95</volume>(<issue>52</issue>):<fpage>e5704</fpage>. doi:<pub-id pub-id-type="doi">10.1097/MD.0000000000005704</pub-id><pub-id pub-id-type="pmid">28033268</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0042">
+        <label>42.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Bierings</surname>
+<given-names>R</given-names></string-name>, <string-name><surname>Gordijn</surname>
+<given-names>MCM</given-names></string-name>, <string-name><surname>Jansonius</surname>
+<given-names>NM</given-names></string-name>, <string-name><surname>Challet</surname>
+<given-names>E</given-names></string-name>. <article-title>Chronotyping glaucoma patients with the Munich ChronoType Questionnaire: a case-control study</article-title>. <source><italic toggle="yes">PLoS One</italic></source>. <year>2019</year>;<volume>14</volume>(<issue>3</issue>):<fpage>e0214046</fpage>. doi:<pub-id pub-id-type="doi">10.1371/journal.pone.0214046</pub-id><pub-id pub-id-type="pmid">30921336</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0043">
+        <label>43.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Onen</surname>
+<given-names>SH</given-names></string-name>, <string-name><surname>Mouriaux</surname>
+<given-names>F</given-names></string-name>, <string-name><surname>Berramdane</surname>
+<given-names>L</given-names></string-name>, et al. <article-title>High prevalence of sleep-disordered breathing in patients with primary open-angle glaucoma</article-title>. <source><italic toggle="yes">Acta Ophthalmol Scand</italic></source>. <year>2000</year>;<volume>78</volume>(<issue>6</issue>):<fpage>638</fpage>–<lpage>641</lpage>. doi:<pub-id pub-id-type="doi">10.1034/j.1600-0420.2000.078006638.x</pub-id><pub-id pub-id-type="pmid">11167222</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0044">
+        <label>44.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Marc</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Stan</surname>
+<given-names>C</given-names></string-name>. <article-title>Effect of physical and psychological stress on the course of primary open angle glaucoma</article-title>. <source><italic toggle="yes">Oftalmologia</italic></source>. <year>2013</year>;<volume>57</volume>(<issue>2</issue>):<fpage>60</fpage>–<lpage>66</lpage>.<pub-id pub-id-type="pmid">24386794</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0045">
+        <label>45.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Wang</surname>
+<given-names>YX</given-names></string-name>, <string-name><surname>Xu</surname>
+<given-names>L</given-names></string-name>, <string-name><surname>Li</surname>
+<given-names>JJ</given-names></string-name>, et al. <article-title>Snoring and glaucoma</article-title>. <source><italic toggle="yes">PLoS One</italic></source>. <year>2014</year>;<volume>9</volume>(<issue>2</issue>):<fpage>e88949</fpage>. doi:<pub-id pub-id-type="doi">10.1371/journal.pone.0088949</pub-id><pub-id pub-id-type="pmid">24551196</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0046">
+        <label>46.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Balbay</surname>
+<given-names>EG</given-names></string-name>, <string-name><surname>Balbay</surname>
+<given-names>O</given-names></string-name>, <string-name><surname>Annakkaya</surname>
+<given-names>AN</given-names></string-name>, et al. <article-title>Obstructive sleep apnoea syndrome in patients with primary open-angle glaucoma</article-title>. <source><italic toggle="yes">Hong Kong Med J</italic></source>. <year>2014</year>;<volume>20</volume>(<issue>5</issue>):<fpage>379</fpage>–<lpage>385</lpage>. doi:<pub-id pub-id-type="doi">10.12809/hkmj134021</pub-id><pub-id pub-id-type="pmid">24914073</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0047">
+        <label>47.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Mehta</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Man</surname>
+<given-names>REK</given-names></string-name>, <string-name><surname>Gan</surname>
+<given-names>AT</given-names></string-name>, et al. <article-title>Association between risk of obstructive sleep apnea and glaucoma: the singapore epidemiology of eye diseases study</article-title>. <source><italic toggle="yes">J Glaucoma</italic></source>. <year>2022</year>;<volume>31</volume>(<issue>12</issue>):<fpage>935</fpage>–<lpage>940</lpage>. doi:<pub-id pub-id-type="doi">10.1097/IJG.0000000000002105</pub-id><pub-id pub-id-type="pmid">35980862</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0048">
+        <label>48.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Garcia-Sanchez</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Villalain</surname>
+<given-names>I</given-names></string-name>, <string-name><surname>Asencio</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Garcia</surname>
+<given-names>J</given-names></string-name>, <string-name><surname>Garcia-Rio</surname>
+<given-names>F</given-names></string-name>. <article-title>Sleep apnea and eye diseases: evidence of association and potential pathogenic mechanisms</article-title>. <source><italic toggle="yes">J Clin Sleep Med</italic></source>. <year>2022</year>;<volume>18</volume>(<issue>1</issue>):<fpage>265</fpage>–<lpage>278</lpage>. doi:<pub-id pub-id-type="doi">10.5664/jcsm.9552</pub-id><pub-id pub-id-type="pmid">34283018</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0049">
+        <label>49.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Cheong</surname>
+<given-names>AJY</given-names></string-name>, <string-name><surname>Wang</surname>
+<given-names>SKX</given-names></string-name>, <string-name><surname>Woon</surname>
+<given-names>CY</given-names></string-name>, et al. <article-title>Obstructive sleep apnoea and glaucoma: a systematic review and meta-analysis</article-title>. <source><italic toggle="yes">Eye</italic></source>. <year>2023</year>;<volume>37</volume>(<issue>15</issue>):<fpage>3065</fpage>–<lpage>3083</lpage>. doi:<pub-id pub-id-type="doi">10.1038/s41433-023-02471-6</pub-id><pub-id pub-id-type="pmid">36977937</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0050">
+        <label>50.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Ingold</surname>
+<given-names>N</given-names></string-name>, <string-name><surname>Campos</surname>
+<given-names>AI</given-names></string-name>, <string-name><surname>Han</surname>
+<given-names>X</given-names></string-name>, et al. <article-title>Is genetic risk for sleep apnea causally linked with glaucoma susceptibility?</article-title>
+<source><italic toggle="yes">Invest Ophthalmol Vis Sci</italic></source>. <year>2022</year>;<volume>63</volume>(<issue>1</issue>):<fpage>25</fpage>. doi:<pub-id pub-id-type="doi">10.1167/iovs.63.1.25</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0051">
+        <label>51.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Sanderson</surname>
+<given-names>E</given-names></string-name>, <string-name><surname>Davey Smith</surname>
+<given-names>G</given-names></string-name>, <string-name><surname>Windmeijer</surname>
+<given-names>F</given-names></string-name>, <string-name><surname>Bowden</surname>
+<given-names>J</given-names></string-name>. <article-title>An examination of multivariable Mendelian randomization in the single-sample and two-sample summary data settings</article-title>. <source><italic toggle="yes">Int J Epidemiol</italic></source>. <year>2019</year>;<volume>48</volume>(<issue>3</issue>):<fpage>713</fpage>–<lpage>727</lpage>. doi:<pub-id pub-id-type="doi">10.1093/ije/dyy262</pub-id><pub-id pub-id-type="pmid">30535378</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0052">
+        <label>52.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Jonas</surname>
+<given-names>JB</given-names></string-name>, <string-name><surname>Wei</surname>
+<given-names>WB</given-names></string-name>, <string-name><surname>Xu</surname>
+<given-names>L</given-names></string-name>, <string-name><surname>Wang</surname>
+<given-names>YX</given-names></string-name>, <string-name><surname>Liu</surname>
+<given-names>G-S</given-names></string-name>. <article-title>Systemic inflammation and eye diseases. The Beijing Eye Study</article-title>. <source><italic toggle="yes">PLoS One</italic></source>. <year>2018</year>;<volume>13</volume>(<issue>10</issue>):<fpage>e0204263</fpage>. doi:<pub-id pub-id-type="doi">10.1371/journal.pone.0204263</pub-id><pub-id pub-id-type="pmid">30281641</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0053">
+        <label>53.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Tang</surname>
+<given-names>B</given-names></string-name>, <string-name><surname>Li</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Han</surname>
+<given-names>J</given-names></string-name>, <string-name><surname>Cao</surname>
+<given-names>W</given-names></string-name>, <string-name><surname>Sun</surname>
+<given-names>X</given-names></string-name>. <article-title>Associations between blood cell profiles and primary open-angle glaucoma: a retrospective case-control study</article-title>. <source><italic toggle="yes">Ophthalmic Res</italic></source>. <year>2020</year>;<volume>63</volume>(<issue>4</issue>):<fpage>413</fpage>–<lpage>422</lpage>. doi:<pub-id pub-id-type="doi">10.1159/000504450</pub-id><pub-id pub-id-type="pmid">32018245</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0054">
+        <label>54.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Kondkar</surname>
+<given-names>AA</given-names></string-name>, <string-name><surname>Sultan</surname>
+<given-names>T</given-names></string-name>, <string-name><surname>Almobarak</surname>
+<given-names>FA</given-names></string-name>, et al. <article-title>Association of increased levels of plasma tumor necrosis factor alpha with primary open-angle glaucoma</article-title>. <source><italic toggle="yes">Clin Ophthalmol</italic></source>. <year>2018</year>;<volume>12</volume>:<fpage>701</fpage>–<lpage>706</lpage>. doi:<pub-id pub-id-type="doi">10.2147/OPTH.S162999</pub-id><pub-id pub-id-type="pmid">29695893</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0055">
+        <label>55.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Chaitanya</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Pai</surname>
+<given-names>VH</given-names></string-name>, <string-name><surname>Mohapatra</surname>
+<given-names>AK</given-names></string-name>, <string-name><surname>Ve</surname>
+<given-names>RS</given-names></string-name>. <article-title>Glaucoma and its association with obstructive sleep apnea: a narrative review</article-title>. <source><italic toggle="yes">Oman J Ophthalmol</italic></source>. <year>2016</year>;<volume>9</volume>(<issue>3</issue>):<fpage>125</fpage>–<lpage>134</lpage>. doi:<pub-id pub-id-type="doi">10.4103/0974-620X.192261</pub-id><pub-id pub-id-type="pmid">27843225</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0056">
+        <label>56.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Yamazaki</surname>
+<given-names>Y</given-names></string-name>, <string-name><surname>Drance</surname>
+<given-names>SM</given-names></string-name>. <article-title>The relationship between progression of visual field defects and retrobulbar circulation in patients with glaucoma</article-title>. <source><italic toggle="yes">Am J Ophthalmol</italic></source>. <year>1997</year>;<volume>124</volume>(<issue>3</issue>):<fpage>287</fpage>–<lpage>295</lpage>. doi:<pub-id pub-id-type="doi">10.1016/S0002-9394(14)70820-7</pub-id><pub-id pub-id-type="pmid">9439354</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0057">
+        <label>57.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Wan</surname>
+<given-names>Y</given-names></string-name>, <string-name><surname>Lv</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Zhou</surname>
+<given-names>K</given-names></string-name>, et al. <article-title>Mood disorders are correlated with autonomic nervous function in chronic insomnia patients with OSA</article-title>. <source><italic toggle="yes">Nat Sci Sleep</italic></source>. <year>2023</year>;<volume>15</volume>:<fpage>511</fpage>–<lpage>522</lpage>. doi:<pub-id pub-id-type="doi">10.2147/NSS.S396773</pub-id><pub-id pub-id-type="pmid">37426309</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0058">
+        <label>58.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Jones</surname>
+<given-names>RT</given-names></string-name>, <string-name><surname>Benowitz</surname>
+<given-names>NL</given-names></string-name>, <string-name><surname>Herning</surname>
+<given-names>RI</given-names></string-name>. <article-title>Clinical relevance of cannabis tolerance and dependence</article-title>. <source><italic toggle="yes">J Clin Pharmacol</italic></source>. <year>1981</year>;<volume>21</volume>:<fpage>143S</fpage>–<lpage>152S</lpage>.<pub-id pub-id-type="pmid">6271820</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0059">
+        <label>59.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Karakucuk</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Goktas</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Aksu</surname>
+<given-names>M</given-names></string-name>, et al. <article-title>Ocular blood flow in patients with obstructive sleep apnea syndrome (OSAS)</article-title>. <source><italic toggle="yes">Graefes Arch Clin Exp Ophthalmol</italic></source>. <year>2008</year>;<volume>246</volume>(<issue>1</issue>):<fpage>129</fpage>–<lpage>134</lpage>. doi:<pub-id pub-id-type="doi">10.1007/s00417-007-0656-8</pub-id><pub-id pub-id-type="pmid">17676331</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0060">
+        <label>60.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Vera</surname>
+<given-names>J</given-names></string-name>, <string-name><surname>Redondo</surname>
+<given-names>B</given-names></string-name>, <string-name><surname>Alvarez-Rodriguez</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Molina</surname>
+<given-names>R</given-names></string-name>, <string-name><surname>Jimenez</surname>
+<given-names>R</given-names></string-name>. <article-title>The intraocular pressure responses to oral academic examination: the influence of perceived levels of public speaking anxiety</article-title>. <source><italic toggle="yes">Appl Ergon</italic></source>. <year>2020</year>;<volume>88</volume>:<fpage>103158</fpage>. doi:<pub-id pub-id-type="doi">10.1016/j.apergo.2020.103158</pub-id><pub-id pub-id-type="pmid">32678777</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0061">
+        <label>61.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Abe</surname>
+<given-names>RY</given-names></string-name>, <string-name><surname>Silva</surname>
+<given-names>TC</given-names></string-name>, <string-name><surname>Dantas</surname>
+<given-names>I</given-names></string-name>, et al. <article-title>Can psychologic stress elevate intraocular pressure in healthy individuals?</article-title>
+<source><italic toggle="yes">Ophthalmol Glaucoma</italic></source>. <year>2020</year>;<volume>3</volume>(<issue>6</issue>):<fpage>426</fpage>–<lpage>433</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.ogla.2020.06.011</pub-id><pub-id pub-id-type="pmid">32768362</pub-id>
+</mixed-citation>
+      </ref>
+    </ref-list>
+  </back>
+</article>
+</pmc-articleset>

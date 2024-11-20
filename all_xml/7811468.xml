@@ -1,0 +1,563 @@
+<pmc-articleset><article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="research-article">
+  <?properties open_access?>
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="nlm-ta">Nat Sci Sleep</journal-id>
+      <journal-id journal-id-type="iso-abbrev">Nat Sci Sleep</journal-id>
+      <journal-id journal-id-type="publisher-id">nss</journal-id>
+      <journal-id journal-id-type="pmc">nss</journal-id>
+      <journal-title-group>
+        <journal-title>Nature and Science of Sleep</journal-title>
+      </journal-title-group>
+      <issn pub-type="epub">1179-1608</issn>
+      <publisher>
+        <publisher-name>Dove</publisher-name>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="pmid">33469399</article-id>
+      <article-id pub-id-type="pmc">7811468</article-id>
+      <article-id pub-id-type="publisher-id">287048</article-id>
+      <article-id pub-id-type="doi">10.2147/NSS.S287048</article-id>
+      <article-categories>
+        <subj-group subj-group-type="heading">
+          <subject>Original Research</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>The Development and Accuracy of the THIM Wearable Device for Estimating Sleep and Wakefulness</article-title>
+        <alt-title alt-title-type="running-authors">Scott et al</alt-title>
+        <alt-title alt-title-type="running-title">Scott et al</alt-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <contrib-id contrib-id-type="orcid" authenticated="false">http://orcid.org/0000-0002-0707-8068</contrib-id>
+          <name>
+            <surname>Scott</surname>
+            <given-names>Hannah</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff0001">
+            <sup>1</sup>
+          </xref>
+          <xref ref-type="aff" rid="aff0002">
+            <sup>2</sup>
+          </xref>
+          <xref ref-type="corresp" rid="an0001"/>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Lovato</surname>
+            <given-names>Nicole</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff0002">
+            <sup>2</sup>
+          </xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <contrib-id contrib-id-type="orcid" authenticated="false">http://orcid.org/0000-0002-8505-5873</contrib-id>
+          <name>
+            <surname>Lack</surname>
+            <given-names>Leon</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff0001">
+            <sup>1</sup>
+          </xref>
+          <xref ref-type="aff" rid="aff0002">
+            <sup>2</sup>
+          </xref>
+        </contrib>
+        <aff id="aff0001"><label>1</label><institution>College of Education, Psychology and Social Work, Flinders University</institution>, <addr-line>Adelaide</addr-line>, <addr-line>SA</addr-line>, <addr-line>5001</addr-line>, <country>Australia</country></aff>
+        <aff id="aff0002"><label>2</label><institution>Adelaide Institute for Sleep Health: AFlinders Centre of Research Excellence, College of Medicine and Public Health, Flinders University</institution>, <addr-line>Adelaide</addr-line>, <addr-line>SA</addr-line>, <addr-line>5001</addr-line>, <country>Australia</country></aff>
+      </contrib-group>
+      <author-notes>
+        <corresp id="an0001">Correspondence: Hannah Scott <institution>College of Education, Psychology and Social Work, Flinders University</institution>, <addr-line>GPO Box 2100</addr-line>, <addr-line>Adelaide</addr-line>, <addr-line>SA</addr-line>, <addr-line>5001</addr-line>, <country>Australia</country><phone>Tel + 61 8 8201 2767</phone> Email hannah.scott@flinders.edu.au</corresp>
+      </author-notes>
+      <pub-date pub-type="epub">
+        <day>12</day>
+        <month>1</month>
+        <year>2021</year>
+      </pub-date>
+      <pub-date pub-type="collection">
+        <year>2021</year>
+      </pub-date>
+      <volume>13</volume>
+      <fpage>39</fpage>
+      <lpage>53</lpage>
+      <history>
+        <date date-type="received">
+          <day>15</day>
+          <month>10</month>
+          <year>2020</year>
+        </date>
+        <date date-type="accepted">
+          <day>18</day>
+          <month>12</month>
+          <year>2020</year>
+        </date>
+      </history>
+      <permissions>
+        <copyright-statement>© 2021 Scott et al.</copyright-statement>
+        <copyright-year>2021</copyright-year>
+        <copyright-holder>Scott et al.</copyright-holder>
+        <license license-type="open-access" xlink:href="http://creativecommons.org/licenses/by-nc/3.0/">
+          <license-p>This work is published and licensed by Dove Medical Press Limited. The full terms of this license are available at <ext-link ext-link-type="uri" xlink:href="https://www.dovepress.com/terms.php">https://www.dovepress.com/terms.php</ext-link> and incorporate the Creative Commons Attribution – Non Commercial (unported, v3.0) License (<ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by-nc/3.0/">http://creativecommons.org/licenses/by-nc/3.0/</ext-link>). By accessing the work you hereby accept the Terms. Non-commercial uses of the work are permitted without any further permission from Dove Medical Press Limited, provided the work is properly attributed. For permission for commercial use of this work, please see paragraphs 4.2 and 5 of our Terms (<ext-link ext-link-type="uri" xlink:href="https://www.dovepress.com/terms.php">https://www.dovepress.com/terms.php</ext-link>).</license-p>
+        </license>
+      </permissions>
+      <abstract>
+        <sec id="s2001" sec-type="intro">
+          <title>Introduction</title>
+          <p>THIM is a new wearable device worn on the finger that can passively monitor sleep and wakefulness overnight using actigraphy. This article showcases the development of the THIM sleep tracking algorithm (Study 1) and the testing of its accuracy against polysomnography (PSG) with an independent sample of good and poor sleepers (Study 2). The accuracy of THIM was compared to two popular wearables, Fitbit and Actiwatch devices.</p>
+        </sec>
+        <sec id="s2002">
+          <title>Methods</title>
+          <p>Twenty-five (Study 1) and twenty (Study 2) healthy individuals with good or poor sleep (defined by scores on the Insomnia Severity Index) slept overnight in the sleep laboratory on one night. Participants slept from their typical bedtime to their typical wake up time with simultaneous recording from PSG, THIM, Fitbit and Actiwatch devices.</p>
+        </sec>
+        <sec id="s2003">
+          <title>Results</title>
+          <p>In both studies, THIM had lower sensitivity (<italic>M</italic> = 0.89–0.91) compared to the Actiwatch (<italic>M</italic> = 0.95) and Fitbit devices (<italic>M</italic> = 0.96–0.98), yet higher specificity (<italic>M</italic> = 0.59 vs <italic>M</italic> = 0.32–0.59) in detecting sleep. There were no significant differences between PSG and THIM in either study for sleep onset latency, total sleep time, wake after sleep onset, or sleep efficiency, <italic>p</italic> &gt; 0.06. Yet, there was high variability in the accuracy of all three actigraphy devices between individuals (evident on Bland–Altman plots) that was unexplained by sleep quality.</p>
+        </sec>
+        <sec id="s2004">
+          <title>Discussion</title>
+          <p>Together, these studies suggest that THIM is capable of monitoring sleep and wake overnight in good and poor sleepers to a similar degree of accuracy as two of the most popular actigraphy devices available. Future research will examine the accuracy of THIM for monitoring sleep in people with insomnia.</p>
+        </sec>
+      </abstract>
+      <kwd-group kwd-group-type="author">
+        <title>Keywords</title>
+        <kwd>wearable technology</kwd>
+        <kwd>consumer sleep technology</kwd>
+        <kwd>polysomnography</kwd>
+        <kwd>actigraphy</kwd>
+        <kwd>sleep parameters</kwd>
+        <kwd>validation</kwd>
+      </kwd-group>
+      <counts>
+        <fig-count count="2"/>
+        <table-count count="12"/>
+        <ref-count count="35"/>
+        <page-count count="15"/>
+      </counts>
+    </article-meta>
+  </front>
+  <body>
+    <sec sec-type="intro" id="s0001">
+      <title>Introduction</title>
+      <p>There are many uses for a sleep tracker that can accurately measure objective sleep in the home environment. For researchers, an accurate sleep tracker would enable research studies that are currently resource-heavy to be conducted more practically, including observational studies to explore sleep health with big data.<xref rid="cit0001" ref-type="bibr">1</xref>,<xref rid="cit0002" ref-type="bibr">2</xref> For clinicians, an accurate sleep tracker may represent a substantially cheaper alternative to PSG for the monitoring of certain sleep disorders. For consumers, an accurate sleep tracker may allow individuals to monitor their sleep and benefit from individualised programs that incorporate their sleep tracker data and make recommendations to improve their sleep health. For individuals with insomnia, an accurate sleep tracker could assess the degree to which patients adhere with prescribed time in bed in the case of monitoring adherence to behavioural treatments. It is imperative that sleep trackers are accurate to ensure that any decisions made based on this data are appropriate, which is of even greater importance for diagnostic and treatment-related purposes. This article describes the development and accuracy of a new consumer sleep tracker, called THIM, for estimating sleep and wakefulness while in bed across the intended sleep period.</p>
+      <p>THIM passively estimates sleep and wakefulness using actigraphy,<xref rid="cit0003" ref-type="bibr">3</xref> which is a method employed in many research and consumer sleep trackers. These typically wrist-worn devices contain an in-built accelerometer that quantifies wrist movement.<xref rid="cit0004" ref-type="bibr">4</xref> Individuals tend to remain relatively immobile when sleeping and move their limbs to a greater extent when awake. However, individuals also tend to lie still in bed whilst awake, particularly when they are close to initiating sleep.<xref rid="cit0005" ref-type="bibr">5</xref> It is therefore unsurprising that these devices tend to overestimate sleep and underestimate wakefulness in most individuals.<xref rid="cit0006" ref-type="bibr">6</xref> This can be particularly true for individuals that typically spend considerable durations of time in bed awake but inactive, such as those with insomnia,<xref rid="cit0007" ref-type="bibr">7</xref>,<xref rid="cit0008" ref-type="bibr">8</xref> as noted in the American Academy of Sleep Medicine Clinical Practice Guidelines [see<xref rid="cit0009" ref-type="bibr">9</xref> for a comprehensive review]. For this reason, the accuracy of THIM will be examined with both good and poor sleepers to identify significant differences that may exist between groups.</p>
+      <p>Whilst the actigraphy method has limited sensitivity for estimating wakefulness, placing the device in a different body location to the traditional wrist placement may improve accuracy. The wrist was selected when actigraphy was developed in the 1980s because it could accommodate the relatively bulky devices at the time. Once algorithms were developed for scoring sleep from wrist movements, the wrist location perpetuated despite recent technology allowing miniaturisation of actigraphy to a smaller location, such as the finger. Wrist actigraphy devices typically only detect significant body movements involving the forearm. An actigraphy device placed on the finger may be able to detect much smaller movements from the hand and finger that occur during wakefulness and light stages of sleep, such as finger twitches.<xref rid="cit0010" ref-type="bibr">10</xref> THIM differs from most common sleep trackers because it is worn on the index finger as opposed to the wrist and may consequently be more accurate than wrist actigraphy devices. Research with a similar finger-worn actigraphy device have found promising results for estimating sleep and wake.<xref rid="cit0034" ref-type="bibr">34</xref> Across 41 healthy adolescents/young adults, the OURA ring achieved a high sensitivity of 0.96 and a specificity of 0.48, which is at least comparable, if not better, performance than similar wrist-based devices for the adolescent population.<xref rid="cit0011" ref-type="bibr">11</xref> We therefore predict that THIM may be more accurate than wrist-based actigraphy devices.</p>
+      <p>This article described the development and accuracy of the THIM device for tracking sleep and wakefulness overnight compared to PSG. Two studies will be presented. Study 1 aimed to 1) develop the algorithm that THIM uses to track sleep and wakefulness, 2) test whether it performs differently to other actigraphy devices, and 3) assess the impact of insomnia symptoms on device performance. This was investigated by dichotomising participants into good and poor sleeper groups based on their scores on the Insomnia Severity Index (ISI). The potential uses of THIM for these two groups differ, and therefore, it is more meaningful for the interpretation of the study findings to consider good and poor sleepers separately. Study 2 provides preliminary evidence about the accuracy of THIM in an independent sample of healthy individuals with self-reported good or poor sleep. Importantly, the validation was conducted on an entirely independent sample from that used to develop the algorithm in Study 1.</p>
+    </sec>
+    <sec id="s0002">
+      <title>Study 1: Method</title>
+      <sec id="s0002-s2001">
+        <title>Participants</title>
+        <p>Ethics approval was obtained from the Flinders University Social and Behavioural Research Ethics Committee, South Australia. This study was conducted in accordance with the Declaration of Helsinki. All participants provided written, informed consent.</p>
+        <p>Participants were recruited via print and online advertisements and completed a battery of screening questionnaires to assess their eligibility. The screening questionnaires comprised the Insomnia Severity Index [ISI],<xref rid="cit0012" ref-type="bibr">12</xref> and the Pittsburgh Sleep Quality Index [PSQI],<xref rid="cit0013" ref-type="bibr">13</xref> to assess sleep patterns and symptoms of insomnia. A health and lifestyle questionnaire was administered to assess physical and mental health conditions, as well as lifestyle factors, such as medication use, caffeine/alcohol/nicotine consumption, and recent trans-meridian travel. Both good sleepers (ISI score &lt; 7) and those with subthreshold clinical insomnia symptoms (ISI score 8–15), termed “poor sleepers”, were recruited for this study to develop the sleep tracking algorithm in a sample with varied sleep quality. Specific eligibility criteria were as follows:
+<list list-type="order"><list-item><p>Self-reported average habitual bedtime between 22:00 and 00:00 and wake up time between 06:00 and 08:00;</p></list-item><list-item><p>Fluent in English;</p></list-item><list-item><p>No self-reported diagnosis of a physical or mental health condition;</p></list-item><list-item><p>No active nicotine or illicit substance use, or alcohol (&gt;10 standard drinks p/wk) or caffeine (&gt;250 mg p/day) dependence;</p></list-item><list-item><p>No consumption of medications known to interfere with sleep;</p></list-item><list-item><p>No overnight shift work or trans-meridian travel within the last two months;</p></list-item><list-item><p>Not pregnant or lactating.</p></list-item></list></p>
+        <p>After screening, 25 healthy individuals met the eligibility criteria. Twelve individuals participated in this study in June 2017 and 13 individuals participated from April–July 2018 as part of a larger laboratory study. See <xref rid="t0001" ref-type="table">Table 1</xref> for participant characteristic information.<table-wrap id="t0001" orientation="portrait" position="float"><label>Table 1</label><caption><p>Descriptive Characteristics for Participants in Study 1</p></caption><table frame="hsides" rules="groups"><thead><tr><th rowspan="1" colspan="1">Characteristics</th><th rowspan="1" colspan="1">Good Sleepers (N = 19)</th><th rowspan="1" colspan="1">Poor Sleepers (N = 6)</th><th rowspan="1" colspan="1">Total Sample (N = 25)</th></tr></thead><tbody><tr><td rowspan="1" colspan="1">Age, mean (SD), y</td><td rowspan="1" colspan="1">25.20 (6.60)</td><td rowspan="1" colspan="1">25.92 (6.23)</td><td rowspan="1" colspan="1">25.38 (6.39)</td></tr><tr><td rowspan="1" colspan="1">Sex, No. (%)</td><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"/></tr><tr><td rowspan="1" colspan="1"> Men</td><td rowspan="1" colspan="1">10 (53)</td><td rowspan="1" colspan="1">0 (0)</td><td rowspan="1" colspan="1">10 (40)</td></tr><tr><td rowspan="1" colspan="1"> Women</td><td rowspan="1" colspan="1">9 (47)</td><td rowspan="1" colspan="1">6 (100)</td><td rowspan="1" colspan="1">15 (60)</td></tr><tr><td rowspan="1" colspan="1">BMI, mean (SD)</td><td rowspan="1" colspan="1">23.36 (3.10)</td><td rowspan="1" colspan="1">24.10 (4.50)</td><td rowspan="1" colspan="1">23.54 (3.40)</td></tr><tr><td rowspan="1" colspan="1"><bold>Lifestyle characteristics</bold></td><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"/></tr><tr><td rowspan="1" colspan="1"> Weekly alcohol consumption, No. (SD)</td><td rowspan="1" colspan="1">1.84 (2.52)</td><td rowspan="1" colspan="1">1.67 (1.97)</td><td rowspan="1" colspan="1">1.80 (2.36)</td></tr><tr><td rowspan="1" colspan="1"> Daily caffeine consumption, No. (SD)</td><td rowspan="1" colspan="1">1.45 (1.21)</td><td rowspan="1" colspan="1">1.67 (1.21)</td><td rowspan="1" colspan="1">1.50 (1.19)</td></tr><tr><td rowspan="1" colspan="1"><bold>Sleep characteristics</bold></td><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"/></tr><tr><td rowspan="1" colspan="1"> ISI, mean (SD)</td><td rowspan="1" colspan="1">1.74 (1.19)</td><td rowspan="1" colspan="1">10.67 (3.14)</td><td rowspan="1" colspan="1">3.88 (4.28)</td></tr><tr><td rowspan="1" colspan="1"> PSQI, mean (SD)</td><td rowspan="1" colspan="1">3.53 (1.54)</td><td rowspan="1" colspan="1">7.00 (3.16)</td><td rowspan="1" colspan="1">4.36 (2.48)</td></tr><tr><td rowspan="1" colspan="1"> Habitual Bedtime, mean time (SD, min)</td><td rowspan="1" colspan="1">22:47 (50.67)</td><td rowspan="1" colspan="1">22:35 (31.75)</td><td rowspan="1" colspan="1">22:44 (46.57)</td></tr><tr><td rowspan="1" colspan="1"> Habitual Wake Up Time, mean time (SD, min)</td><td rowspan="1" colspan="1">07:24 (54.08)</td><td rowspan="1" colspan="1">07:25 (24.31)</td><td rowspan="1" colspan="1">07:25 (48.14)</td></tr><tr><td rowspan="1" colspan="1"> Habitual total sleep time, mean hrs (SD)</td><td rowspan="1" colspan="1">7.96 (0.88)</td><td rowspan="1" colspan="1">7.17 (1.37)</td><td rowspan="1" colspan="1">7.77 (1.05)</td></tr></tbody></table><table-wrap-foot><fn id="tfn0001"><p><bold>Abbreviations:</bold> BMI, body mass index; ISI, Insomnia Severity Index; N, sample size; PSQI, Pittsburgh Sleep Quality Index; SD, standard deviation.</p></fn></table-wrap-foot></table-wrap>
+</p>
+      </sec>
+      <sec id="s0002-s2002">
+        <title>Study Design</title>
+        <p>This was a within-groups observational study. All participants slept overnight in the sleep laboratory with PSG, THIM and two additional actigraphy devices, the Fitbit Flex and the Actiwatch devices, recording simultaneously. The degree of agreement was assessed between the three actigraphy devices and PSG.</p>
+      </sec>
+      <sec id="s0002-s2003">
+        <title>Materials</title>
+        <sec id="s0002-s2003-s3001">
+          <title>Polysomnography</title>
+          <p>PSG was recorded using Compumedics Grael 4K PSG:EEG devices (Compumedics, Victoria, Australia). Six electroencephalography (EEG) sites (F3-M2, F4-M1, C3-M2, C4-M1, O1-M2, O2-M1), reference and ground, right and left electrooculography (EOG), chin electromyography (EMG), and electrocardiography (ECG) sites were recorded in accordance with the 10–20 EEG placement system. An independent registered sleep technician blind to the output from the actigraphy devices scored the PSG data using Profusion Compumedics software (v 4.0) according to standardised AASM PSG scoring criteria.<xref rid="cit0014" ref-type="bibr">14</xref></p>
+        </sec>
+        <sec id="s0002-s2003-s3002">
+          <title>THIM</title>
+          <p>THIM (firmware v 1.0.3) is a ring-like device worn on the middle phalanx of the index finger on the dominant hand. The device contains an in-built tri-axial accelerometer which measures acceleration (change of velocity). The device pre-processes the raw acceleration values and stores an average value for each 30-second epoch. To retrieve this data, the device is connected via Bluetooth to the accompanying THIM smartphone application (app). Data is sent to cloud-based servers for further processing, during which a sleep tracking algorithm is applied to score every 30-second epoch into sleep or wake. This information is subsequently displayed on the THIM app as key sleep parameters – total sleep time (TST), sleep onset latency (SOL), wake after sleep onset (WASO), and sleep efficiency (SE) – and as a visual sleep hypnogram.</p>
+          <p>For this study, the THIM smartphone app (v 1.0.1) was operated on an Apple iPhone 5s model (iOS 8.0 operating system) to upload the 30-second epoch data to the cloud-based servers. At present, the epoch data is not readily accessible for download. The manufacturers of THIM, Re-Time Pty. Ltd., retrieved and forwarded the data to us for the purpose of this study. The sleep periods were determined from the lights out/lights on times recorded on the laboratory night. We then developed the THIM sleep tracking algorithm on this data, which is applied to the THIM data in the cloud-based servers (from firmware v 1.0.4).</p>
+          <p>To create the algorithm, we first developed a smoothing function applied to pre-processed data (data after high and low pass filter processing) by iteratively adjusting the number of included previous and subsequent epochs and their weightings in the smoothing function until the algorithm reached high agreement with PSG for estimating sleep and wake periods. Secondly, a threshold applied to the epoch data to distinguish between sleep and wake epochs was identified by iteratively adjusting the threshold until acceptable sensitivity and specificity was reached across the whole sample. Thirdly, specific scoring criteria regarding the number of “wake” epochs required to determine SOL and subsequent awakenings were iteratively adjusted until high correspondence was obtained between PSG and THIM across this sample. The algorithm cannot be discussed in greater detail as it is proprietary.</p>
+        </sec>
+        <sec id="s0002-s2003-s3003">
+          <title>Actiwatch Devices</title>
+          <p>Developed by Philips Respironics, this device uses an internal tri-axial accelerometer to identify participants’ wrist movements in three-dimensional space. The Actiwatch Spectrum model was used to collect data in 2017 and the Actiwatch-2 model for 2019, however these models perform equivalently.<xref rid="cit0015" ref-type="bibr">15</xref> The devices were worn on the wrist of the non-dominant hand and the data was retrieved in 30-second epochs using the Actiware Sleep software (v 6.0.0, Philips Respironics, Bend, OR). The times in and out of bed were manually entered from the lights out/lights on times recorded on the laboratory night. The default software algorithm automatically scored the epochs by applying the medium threshold criterion and “10 immobile minutes” scoring parameters. The sleep/wake epoch data were exported into Microsoft Excel for analysis.</p>
+        </sec>
+        <sec id="s0002-s2003-s3004">
+          <title>Fitbit Flex</title>
+          <p>Similar to the Actiwatch device, the Fitbit Flex uses accelerometry to measure wrist movement. The device was operated using the Fitbit Flex smartphone app (v 3.3.1) on the same Apple iPhone 5s model phone used to operate THIM. Participants’ age, gender, height and weight were entered into the Fitbit app before the laboratory nights commenced as it is unknown whether this information is incorporated into the proprietary Fitbit algorithm to estimate sleep and wakefulness. The sleep recording periods were manually initiated and terminated by tapping on the Fitbit device worn on the wrist of participants’ non-dominant hands when they got in/out of bed. The times in and out of bed were manually entered from the lights out/lights on times recorded on the laboratory night. After the laboratory night, the “normal” Fitbit algorithm setting was applied to score the data into 60-second epochs. The sleep/wake epoch data were retrieved via Squash Leagues (<underline><ext-link ext-link-type="uri" xlink:href="http://www.squashleagues.org/">www.squashleagues.org/</ext-link></underline>): a website independent of Fitbit that retrieves the epoch data from the Fitbit account, which was downloaded in a CSV format for analysis.</p>
+        </sec>
+      </sec>
+      <sec id="s0002-s2004">
+        <title>Procedure</title>
+        <sec id="s0002-s2004-s3001">
+          <title>Home Testing</title>
+          <p>Participants completed an online sleep diary every morning for one week via Qualtrics software. This online diary is based on the Consensus Sleep Diary.<xref rid="cit0016" ref-type="bibr">16</xref> Participants also wore the Actiwatch device every day during this week to corroborate the sleep diary information.</p>
+        </sec>
+        <sec id="s0002-s2004-s3002">
+          <title>Laboratory Night</title>
+          <p>Participants arrived at the Flinders University Sleep Research Laboratory at approximately 20:00. Participants were setup for overnight PSG recording. THIM was attached to the index finger on their self-reported dominant hand. The Fitbit Flex and Actiwatch devices were attached to the wrist of their non-dominant hand. Participants went to bed at their typical bedtime and woke up at their typical wake up time, as calculated from the previous week of sleep diaries.</p>
+        </sec>
+      </sec>
+      <sec id="s0002-s2005">
+        <title>Statistical Analysis</title>
+        <p>The accuracy of the three actigraphy devices (THIM, Fitbit Flex and Actiwatch) compared to PSG was analysed in accordance with recommended guidelines for device validation studies.<xref rid="cit0017" ref-type="bibr">17</xref>,<xref rid="cit0018" ref-type="bibr">18</xref> Epoch-by-epoch analyses were conducted by calculating the sensitivity (proportion of epochs that the device scored as sleep when the individual was asleep according to PSG), specificity (proportion of epochs that the device scored as wake when the individual was awake according to PSG) and accuracy (proportion of correctly scored epochs) separately for each participant and averaging these values together for each actigraphy device. Linear Mixed Modelling (LMM) was performed to examine whether there were any significant differences between the actigraphy devices (the fixed effect) on sensitivity, specificity and accuracy (IBM SPSS, v 23). All LMM analyses used a first-order autoregressive covariance structure with device as a fixed effect. Where appropriate, post hoc comparisons were conducted with the Bonferroni correction. This statistical approach minimised the likelihood of Type I errors and account for missing data.</p>
+        <p>The limit of agreement between PSG and each actigraphy device was also analysed using Bland–Altman plots.<xref rid="cit0019" ref-type="bibr">19</xref>,<xref rid="cit0020" ref-type="bibr">20</xref> These plots show the discrepancy between PSG and the device for each participant (y axis) against PSG (x axis) on separate plots for each sleep parameter. The plots also display the overall mean difference (also known as the bias), standard deviation, and the lower and upper limits of agreement (± 1.96 SD of the mean difference).</p>
+        <p>Estimations of the common sleep parameters were compared between each actigraphy device and PSG. For the actigraphy devices, TST was calculated from the sum of epochs that do not exceed the sensitivity threshold (ie, epochs defined as sleep). SOL was calculated from the sum of epochs that exceeded the sensitivity threshold (ie, wake epochs) between lights out and the first sleep epoch. WASO was calculated from the sum of wake epochs between the first epoch of sleep and lights on. SE was calculated by dividing TST by the total time spent in bed and multiplied by 100. PSG sleep parameters were defined according to established guidelines.<xref rid="cit0014" ref-type="bibr">14</xref> LMM analyses examined whether there were any significant differences between actigraphy devices (the fixed effect) for estimating each sleep parameter (SOL, TST, WASO, and SE). A statistically significant main effect for device was further examined using Bonferroni adjusted pairwise comparisons.</p>
+        <p>Additional analyses included examining whether the type of sleeper (good or poor sleeper) impacted the accuracy of the actigraphy devices. Sleeper type was entered as a factor in all LMM analyses discussed above. Where the interaction between device and sleeper type was statistically significant, Bonferroni-adjusted pairwise comparisons were conducted to further investigate the effect.</p>
+      </sec>
+    </sec>
+    <sec id="s0003">
+      <title>Study 1: Results</title>
+      <sec id="s0003-s2001">
+        <title>Missing Data</title>
+        <p>Four nights of Actiwatch data were missing due to battery difficulties. All nights of data were obtained with the THIM and Fitbit devices.</p>
+      </sec>
+      <sec id="s0003-s2002">
+        <title>Epoch-by-Epoch Analysis</title>
+        <p>The sensitivity, specificity and accuracy of each actigraphy device are presented in <xref rid="t0002" ref-type="table">Table 2</xref>. As shown, all three actigraphy devices had high sensitivity. A LMM indicated that the sensitivities differed between devices, F(2, 68) = 21.16, <italic>p</italic> &lt; 0.001. Post hoc tests showed that THIM had significantly lower sensitivity than the Actiwatch, <italic>p</italic> = 0.001, and the Fitbit Flex devices, <italic>p</italic> &lt; 0.001. According to Cohen’s d criteria, the difference was large between THIM and the Actiwatch Spectrum, <italic>d</italic> = 0.88, as well as between THIM and the Fitbit Flex device, <italic>d</italic> = 1.70. There was no significant difference between the Actiwatch and Fitbit Flex mean sensitivities, <italic>p</italic> = 0.07.<table-wrap id="t0002" orientation="portrait" position="float"><label>Table 2</label><caption><p>Epoch-by-Epoch and Sleep Parameter Descriptive Statistics for PSG and the Actigraphy Devices</p></caption><table frame="hsides" rules="groups"><thead><tr><th rowspan="2" colspan="1">Variables</th><th colspan="4" rowspan="1">Actigraphy Device</th></tr><tr><th rowspan="1" colspan="1">PSG</th><th rowspan="1" colspan="1">THIM</th><th rowspan="1" colspan="1">Actiwatch</th><th rowspan="1" colspan="1">Fitbit Flex</th></tr></thead><tbody><tr><td colspan="5" rowspan="1"><bold>Epoch-by-epoch analyses</bold></td></tr><tr><td rowspan="1" colspan="1">Sensitivity (SD)</td><td rowspan="1" colspan="1">–</td><td rowspan="1" colspan="1">0.91 (0.05)</td><td rowspan="1" colspan="1">0.95 (0.04)*</td><td rowspan="1" colspan="1">0.98 (0.03)*</td></tr><tr><td rowspan="1" colspan="1">Specificity (SD)</td><td rowspan="1" colspan="1">–</td><td rowspan="1" colspan="1">0.59 (0.21)</td><td rowspan="1" colspan="1">0.35 (0.18)*</td><td rowspan="1" colspan="1">0.32 (0.22)*</td></tr><tr><td rowspan="1" colspan="1">Accuracy (SD)</td><td rowspan="1" colspan="1">–</td><td rowspan="1" colspan="1">0.85 (0.07)</td><td rowspan="1" colspan="1">0.85 (0.10)</td><td rowspan="1" colspan="1">0.87 (0.09)</td></tr><tr><td colspan="5" rowspan="1"><bold>Sleep parameters</bold></td></tr><tr><td rowspan="1" colspan="1">SOL, mean min (SD)</td><td rowspan="1" colspan="1">24.22 (19.98)</td><td rowspan="1" colspan="1">20.40 (21.46)</td><td rowspan="1" colspan="1">5.36 (3.77)*</td><td rowspan="1" colspan="1">11.64 (11.54)*</td></tr><tr><td rowspan="1" colspan="1">TST, mean min (SD)</td><td rowspan="1" colspan="1">400.96 (67.02)</td><td rowspan="1" colspan="1">394.46 (48.72)</td><td rowspan="1" colspan="1">423.10 (51.00)</td><td rowspan="1" colspan="1">440.60 (45.06)</td></tr><tr><td rowspan="1" colspan="1">WASO, mean min (SD)</td><td rowspan="1" colspan="1">48.06 (36.34)</td><td rowspan="1" colspan="1">58.38 (22.55)</td><td rowspan="1" colspan="1">38.00 (26.53)</td><td rowspan="1" colspan="1">19.60 (18.37)*</td></tr><tr><td rowspan="1" colspan="1">SE, mean % (SD)</td><td rowspan="1" colspan="1">84.58 (11.10)</td><td rowspan="1" colspan="1">83.50 (7.56)</td><td rowspan="1" colspan="1">90.73 (6.04)</td><td rowspan="1" colspan="1">93.52 (5.10)*</td></tr></tbody></table><table-wrap-foot><fn id="tfn0002"><p><bold>Note:</bold> *p &lt; 0.05 from LMM analyses between PSG and actigraphy device.</p><p><bold>Abbreviations:</bold> PSG, polysomnography; SD, standard deviation; SOL, sleep onset latency; TST, total sleep time; WASO, wake after sleep onset.</p></fn></table-wrap-foot></table-wrap>
+</p>
+        <p>Specificities also differed between devices, <italic>F</italic>(2, 68) = 12.11, <italic>p</italic> &lt; 0.001. Post hoc tests indicated that THIM had a significantly higher specificity than the Actiwatch Spectrum device, p = 0.001, and the Fitbit Flex devices, p &lt; 0.001. The effect sizes were large between THIM and the Actiwatch Spectrum, <italic>d</italic> = 1.23, as well as between the THIM and the Fitbit Flex devices, <italic>d</italic> = 1.26. However, there was no significant difference between the specificities for the Actiwatch and Fitbit Flex devices, <italic>p</italic> = 0.99. There were no significant differences in accuracy between devices, <italic>F</italic>(2, 68) = 0.49, <italic>p</italic> = 0.61.</p>
+      </sec>
+      <sec id="s0003-s2003">
+        <title>Sleep Parameter Estimations</title>
+        <p><xref rid="t0002" ref-type="table">Table 2</xref> also presents the descriptive statistics on estimations of each sleep parameter for each device. A LMM determined there were significant differences between devices for estimations of SOL, <italic>F</italic>(3, 92) = 6.39, <italic>p</italic> = 0.001. Post hoc comparisons indicated there were large significant differences between PSG and the Actiwatch device, <italic>p</italic> &lt; 0.001, <italic>d</italic> = 1.31, and Fitbit Flex devices, <italic>p</italic> = 0.04, <italic>d</italic> = 0.77. There was no significant difference between PSG and THIM estimations of SOL, <italic>p</italic> = 0.99.</p>
+        <p>There were significant differences for estimations of TST, <italic>F</italic>(3, 92) = 3.84, <italic>p</italic> = 0.01. However, post hoc comparisons indicated no significant differences between PSG and any of the actigraphy devices, <italic>p</italic> &gt; 0.06.</p>
+        <p>There were significant differences for WASO, <italic>F</italic>(3, 92) = 9.48, <italic>p</italic> &lt; 0.001. Post hoc tests indicated a large significant difference between PSG and the Fitbit Flex device, <italic>p</italic> = 0.002, <italic>d</italic> = 0.99, but no significant differences between PSG and THIM, <italic>p</italic> = 0.99, or PSG and the Actiwatch device, <italic>p</italic> = 0.99.</p>
+        <p>There were significant differences for SE, <italic>F</italic>(3,92) = 9.27, <italic>p</italic> &lt; 0.001. Post hoc comparisons indicated large significant differences between PSG and the Fitbit Flex, <italic>p</italic> = 0.004, <italic>d</italic> = 1.04. There were no significant differences between PSG and THIM, <italic>p</italic> = 0.99, or the Actiwatch for estimations of SE, <italic>p</italic> = 0.06.</p>
+      </sec>
+      <sec id="s0003-s2004">
+        <title>Bland–Altman Plots</title>
+        <p><xref ref-type="fig" rid="f0001">Figure 1</xref> presents Bland–Altman plots for each actigraphy device on key sleep parameters. Significant proportional bias was observed for the Actiwatch and Fitbit Flex devices, such that increasing sleep onset latency resulted in greater underestimations. The TST plots show that the mean biases for the Actiwatch and Fitbit Flex devices trends towards overestimation. Yet, considering the findings of the LMM analyses above, there is no significant difference between devices. All three devices have lines of best fit with steep negative slopes, with significant proportional bias potentially due to the presence of an outlier. The WASO plots illustrate that THIM tends to overestimate WASO whilst the other devices tend to underestimate WASO. Yet, the LMM analyses indicate that only the Fitbit Flex produced significantly different estimates of WASO compared to PSG. All devices have lines of best fit with steep negative slopes and significant proportional bias, again potentially due to the presence of an outlier. The plots illustrate that THIM had a small bias towards underestimating sleep efficiency, while the other devices overestimated sleep efficiency. Yet, the Fitbit Flex was the only device to produce significantly different estimates of SE compared to PSG.<fig id="f0001" fig-type="figure" orientation="portrait" position="float"><label>Figure 1</label><caption><p>Bland–Altman plots showing the agreement between PSG and (<bold>A</bold>) THIM, (<bold>B</bold>) Actiwatch and (<bold>C</bold>) Fitbit Flex devices separately on sleep onset latency, total sleep time, wake after sleep onset and sleep efficiency. The solid black horizontal line indicates perfect agreement with PSG. The solid coloured horizontal line indicates the mean bias for the device, the dashed coloured horizontal lines indicates the upper and lower limits of agreement, and the dotted coloured lines are the lines of best fit.</p></caption><graphic content-type="print-only" xlink:href="NSS-13-39-g0001"/></fig></p>
+      </sec>
+      <sec id="s0003-s2005">
+        <title>Good and Poor Sleeper Comparison</title>
+        <p><xref rid="t0003" ref-type="table">Table 3</xref> contains the descriptive statistics for these secondary analyses. For sensitivity, there was a statistically significant interaction between device and the type of sleeper, <italic>F</italic>(2,43.81) = 8.66, <italic>p</italic> = 0.001. Post hoc analyses revealed that sensitivity was significantly higher for good sleepers compared to poor sleepers for the THIM device, <italic>p</italic> &lt; 0.001. This was a large effect, <italic>d</italic> = 1.50. There were no significant differences between good and poor sleepers for the sensitivity of the Actiwatch, <italic>p</italic> = 0.07, or the Fitbit Flex devices, <italic>p</italic> = 0.93. A LMM examining the interaction between device and sleeper type on specificity was not significant, <italic>p</italic> = 0.77. There was a statistically significant interaction between device and the type of sleeper on accuracy, <italic>F</italic>(2,42.55) = 6.44, <italic>p</italic> = 0.004. However, post hoc comparisons between groups within devices were not significant, <italic>p</italic> &gt; 0.12.<table-wrap id="t0003" orientation="portrait" position="float"><label>Table 3</label><caption><p>Epoch-by-Epoch and Sleep Parameter Descriptive Statistics for Each Actigraphy Device Comparing Good and Poor Sleepers</p></caption><table frame="hsides" rules="groups"><thead><tr><th rowspan="2" colspan="1">Variables</th><th colspan="3" rowspan="1">Actigraphy Device</th></tr><tr><th rowspan="1" colspan="1">THIM</th><th rowspan="1" colspan="1">Actiwatch</th><th rowspan="1" colspan="1">Fitbit Flex</th></tr></thead><tbody><tr><td colspan="4" rowspan="1"><bold>Epoch-by-epoch analyses</bold></td></tr><tr><td rowspan="1" colspan="1">Sensitivity, mean (SD)</td><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"/></tr><tr><td rowspan="1" colspan="1"> Good sleepers</td><td rowspan="1" colspan="1">0.92 (0.04)</td><td rowspan="1" colspan="1">0.94 (0.04)</td><td rowspan="1" colspan="1">0.98 (0.03)</td></tr><tr><td rowspan="1" colspan="1"> Poor sleepers</td><td rowspan="1" colspan="1">0.86 (0.04)*</td><td rowspan="1" colspan="1">0.98 (0.01)</td><td rowspan="1" colspan="1">0.98 (0.02)</td></tr><tr><td rowspan="1" colspan="1">Specificity, mean (SD)<break/> Good sleepers<break/> Poor sleepers</td><td rowspan="1" colspan="1"><break/>0.55 (0.22)<break/>0.68 (0.16)</td><td rowspan="1" colspan="1"><break/>0.34 (0.15)<break/>0.45 (0.27)</td><td rowspan="1" colspan="1"><break/>0.31 (0.19)<break/>0.37 (0.29)</td></tr><tr><td rowspan="1" colspan="1">Accuracy, mean (SD)<break/> Good sleepers<break/> Poor sleepers</td><td rowspan="1" colspan="1"><break/>0.86 (0.07)<break/>0.84 (0.04)</td><td rowspan="1" colspan="1"><break/>0.84 (0.11)<break/>0.91 (0.04)</td><td rowspan="1" colspan="1"><break/>0.86 (0.10)<break/>0.92 (0.03)</td></tr><tr><td colspan="4" rowspan="1"><bold>Sleep parameters</bold></td></tr><tr><td rowspan="1" colspan="1">SOL discrepancy, mean min (SD)<break/> Good sleepers<break/> Poor sleepers</td><td rowspan="1" colspan="1"><break/>−7.24 (13.12)<break/>7.00 (18.13)</td><td rowspan="1" colspan="1"><break/>−21.31 (19.98)<break/>-9.90 (10.77)</td><td rowspan="1" colspan="1"><break/>−14.45 (15.81)<break/>-6.66 (13.12)</td></tr><tr><td rowspan="1" colspan="1">TST discrepancy, mean min (SD)<break/> Good sleepers<break/> Poor sleepers</td><td rowspan="1" colspan="1"><break/>5.13 (40.91)<break/>-43.33 (25.73)</td><td rowspan="1" colspan="1"><break/>33.61 (38.46)<break/>15.43 (21.20)</td><td rowspan="1" colspan="1"><break/>45.13 (52.31)<break/>22.25 (27.75)</td></tr><tr><td rowspan="1" colspan="1">WASO discrepancy, mean min (SD)<break/> Good sleepers<break/> Poor sleepers</td><td rowspan="1" colspan="1"><break/>2.11 (35.93)<break/>36.33 (13.43)</td><td rowspan="1" colspan="1"><break/>−12.38 (34.59)<break/>-7.25 (10.73)</td><td rowspan="1" colspan="1"><break/>−32.16 (43.45)<break/>-16.75 (19.48)</td></tr><tr><td rowspan="1" colspan="1">SE discrepancy, mean % (SD)<break/> Good sleepers<break/> Poor sleepers</td><td rowspan="1" colspan="1"><break/>1.39 (9.62)<break/>-8.91 (5.06)</td><td rowspan="1" colspan="1"><break/>7.37 (9.23)<break/>3.19 (4.36)</td><td rowspan="1" colspan="1"><break/>10.25 (12.05)<break/>4.77 (5.74)</td></tr></tbody></table><table-wrap-foot><fn id="tfn0003"><p><bold>Note:</bold> *p &lt; 0.05 between good and poor sleepers with this device.</p></fn></table-wrap-foot></table-wrap>
+</p>
+        <p>LMM analyses determined whether there were any significant differences between good and poor sleepers on the mean discrepancies of the actigraphy devices for each sleep parameter. The descriptive statistics for these analyses are presented in <xref rid="t0003" ref-type="table">Table 3</xref>. These LMM analyses found no significant interactions between device and the type of sleeper on SOL, <italic>p</italic> = 0.66, TST, <italic>p</italic> = 0.06, WASO, <italic>p</italic> = 0.08, or SE, <italic>p</italic> = 0.08.</p>
+      </sec>
+    </sec>
+    <sec id="s0004">
+      <title>Study 1: Discussion</title>
+      <p>Study 1 aimed to develop the THIM sleep tracking algorithm and compare its accuracy to two popular actigraphy devices. The epoch-by-epoch analysis revealed that THIM was less sensitive for detecting sleep compared to the Fitbit Flex and Actiwatch devices but had higher specificity and comparable overall accuracy. Analysis of the sleep parameter estimations further demonstrated that THIM aligned closely with PSG, with no significant differences between THIM and PSG for any sleep parameter. In comparison, the Fitbit Flex and Actiwatch Spectrum devices’ estimations of SOL were significantly lower than PSG, and the Fitbit Flex’s estimations of WASO and SE differed to PSG. Overall, these findings suggest that THIM has comparable accuracy to the Actiwatch and Fitbit Flex devices, with perhaps greater agreement with PSG for estimating key sleep parameters. However, the THIM sleep tracking algorithm was developed and optimised for estimating sleep and wake with this sample. As such, the device may not be as accurate with a different sample of healthy individuals. To draw stronger conclusions about the accuracy of THIM, the device needed to be tested with a separate sample. This was addressed in Study 2.</p>
+      <p>This study examined whether this high variability across individuals evident on the Bland–Altman plots could be due to the type of sleeper (good or poor sleeper). There was only one significant difference between good and poor sleepers across the dependent variables for the actigraphy devices – THIM showed significantly lower sensitivity for poor sleepers. Nonetheless, sleeper characteristics is an important factor that has impacted the accuracy of actigraphy devices in previous research,<xref rid="cit0006" ref-type="bibr">6</xref>,<xref rid="cit0021" ref-type="bibr">21</xref> although some studies have found no significant differences between good sleepers and those with insomnia.<xref rid="cit0022" ref-type="bibr">22</xref>,<xref rid="cit0023" ref-type="bibr">23</xref> Further investigation is warranted to understand the suitability of THIM for monitoring the sleep of individuals with good or poor sleep.</p>
+      <p>The aims of Study 2 were three-fold: to 1) test the accuracy of the THIM algorithm developed in Study 1 with an independent sample, 2) determine whether the device is more accurate than other actigraphy devices, and 3) investigate whether the accuracy of the actigraphy devices differ between good and poor sleepers.</p>
+    </sec>
+    <sec id="s0005">
+      <title>Study 2: Method</title>
+      <p>This study tested the accuracy of the actigraphy devices with an independent sample. The Actiwatch Spectrum and Fitbit Flex devices were substituted with the updated Actiwatch-2 and Fitbit Alta devices. Other aspects of the study method are identical to the first study.</p>
+      <sec id="s0005-s2001">
+        <title>Participants</title>
+        <p>Participants met the same eligibility criteria as participants in the first study. Twenty-one healthy individuals participated in this study. However, one recording failed due to technician error with the PSG. As such, these findings are based on 20 participants. See participant characteristic information in <xref rid="t0004" ref-type="table">Table 4</xref>.<table-wrap id="t0004" orientation="portrait" position="float"><label>Table 4</label><caption><p>Descriptive Statistics for Participant Characteristics Collected at Screening in Study 2</p></caption><table frame="hsides" rules="groups"><thead><tr><th rowspan="1" colspan="1">Characteristics</th><th rowspan="1" colspan="1">Good Sleepers<break/>(N = 10)</th><th rowspan="1" colspan="1">Poor Sleepers (N = 10)</th><th rowspan="1" colspan="1">Total Sample<break/>(N = 20)</th></tr></thead><tbody><tr><td rowspan="1" colspan="1">Age, mean (SD), y</td><td rowspan="1" colspan="1">24.86 (5.60)</td><td rowspan="1" colspan="1">21.88 (4.29)</td><td rowspan="1" colspan="1">23.22 (5.01)</td></tr><tr><td rowspan="1" colspan="1">Sex, No. (%)</td><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"/></tr><tr><td rowspan="1" colspan="1"> Men</td><td rowspan="1" colspan="1">3 (33)</td><td rowspan="1" colspan="1">3 (27)</td><td rowspan="1" colspan="1">6 (30)</td></tr><tr><td rowspan="1" colspan="1"> Women</td><td rowspan="1" colspan="1">6 (67)</td><td rowspan="1" colspan="1">8 (73)</td><td rowspan="1" colspan="1">14 (70)</td></tr><tr><td rowspan="1" colspan="1">BMI, mean (SD)</td><td rowspan="1" colspan="1">24.42 (2.25)</td><td rowspan="1" colspan="1">24.88 (3.95)</td><td rowspan="1" colspan="1">24.68 (3.22)</td></tr><tr><td rowspan="1" colspan="1"><bold>Lifestyle characteristics</bold></td><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"/></tr><tr><td rowspan="1" colspan="1"> Weekly alcohol consumption, No. (SD)</td><td rowspan="1" colspan="1">1.56 (1.74)</td><td rowspan="1" colspan="1">1.27 (1.79)</td><td rowspan="1" colspan="1">1.40 (1.73)</td></tr><tr><td rowspan="1" colspan="1"> Daily caffeine consumption, No. (SD)</td><td rowspan="1" colspan="1">1.72 (1.60)</td><td rowspan="1" colspan="1">1.91 (1.36)</td><td rowspan="1" colspan="1">1.83 (1.44)</td></tr><tr><td rowspan="1" colspan="1"><bold>Sleep characteristics</bold></td><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"/></tr><tr><td rowspan="1" colspan="1"> ISI, mean (SD)</td><td rowspan="1" colspan="1">1.89 (1.17)</td><td rowspan="1" colspan="1">11.36 (3.83)</td><td rowspan="1" colspan="1">7.10 (5.63)</td></tr><tr><td rowspan="1" colspan="1"> PSQI, mean (SD)</td><td rowspan="1" colspan="1">3.22 (1.79)</td><td rowspan="1" colspan="1">7.73 (3.50)</td><td rowspan="1" colspan="1">5.70 (3.61)</td></tr><tr><td rowspan="1" colspan="1"> Habitual Bedtime, mean time (SD, min)</td><td rowspan="1" colspan="1">22:36 (61.68)</td><td rowspan="1" colspan="1">23:08 (67.43)</td><td rowspan="1" colspan="1">22:54 (65.50)</td></tr><tr><td rowspan="1" colspan="1"> Habitual Wake Up Time, mean time (SD, min)</td><td rowspan="1" colspan="1">07:17 (53.21)</td><td rowspan="1" colspan="1">07:56 (68.54)</td><td rowspan="1" colspan="1">07:38 (64.26)</td></tr><tr><td rowspan="1" colspan="1"> Habitual TST, mean hrs (SD)</td><td rowspan="1" colspan="1">8.06 (0.88)</td><td rowspan="1" colspan="1">7.09 (1.50)</td><td rowspan="1" colspan="1">7.53 (1.32)</td></tr></tbody></table><table-wrap-foot><fn id="tfn0004"><p><bold>Abbreviations:</bold> BMI, body mass index; ISI, Insomnia Severity Index; N, sample size; PSQI, Pittsburgh Sleep Quality Index; SD, standard deviation.</p></fn></table-wrap-foot></table-wrap>
+</p>
+      </sec>
+    </sec>
+    <sec id="s0006">
+      <title>Study 2: Results</title>
+      <sec id="s0006-s2001">
+        <title>Missing Data</title>
+        <p>Due to battery issues, three nights of Actiwatch data were missing. All nights were recorded successfully with the THIM and Fitbit devices.</p>
+      </sec>
+      <sec id="s0006-s2002">
+        <title>Epoch-by-Epoch Analysis</title>
+        <p><xref rid="t0005" ref-type="table">Table 5</xref> presents the descriptive statistics for the epoch-by-epoch analyses with each actigraphy device. Despite high sensitivity, a LMM revealed that there were significant differences between the devices, <italic>F</italic>(2, 54) = 14.52, <italic>p</italic> &lt; 0.001. Post hoc tests showed that THIM had a significantly lower sensitivity than the Actiwatch-2, <italic>p</italic> &lt; 0.001, <italic>d</italic> = 1.18, and Fitbit Alta devices, <italic>p</italic> &lt; 0.001, <italic>d</italic> = 1.37. There was no significant difference between the Actiwatch-2 and Fitbit Alta devices, <italic>p</italic> = 0.99.<table-wrap id="t0005" orientation="portrait" position="float"><label>Table 5</label><caption><p>Epoch-by-Epoch and Sleep Parameter Descriptive Statistics for PSG and the Actigraphy Devices from Study 2</p></caption><table frame="hsides" rules="groups"><thead><tr><th rowspan="2" colspan="1">Variables</th><th colspan="4" rowspan="1">Actigraphy Device</th></tr><tr><th rowspan="1" colspan="1">PSG</th><th rowspan="1" colspan="1">THIM</th><th rowspan="1" colspan="1">Actiwatch-2</th><th rowspan="1" colspan="1">Fitbit Alta</th></tr></thead><tbody><tr><td colspan="5" rowspan="1"><bold>Epoch-by-epoch analyses</bold></td></tr><tr><td rowspan="1" colspan="1">Sensitivity (SD)</td><td rowspan="1" colspan="1">–</td><td rowspan="1" colspan="1">0.89 (0.06)</td><td rowspan="1" colspan="1">0.95 (0.04)*</td><td rowspan="1" colspan="1">0.96 (0.04)*</td></tr><tr><td rowspan="1" colspan="1">Specificity (SD)</td><td rowspan="1" colspan="1">–</td><td rowspan="1" colspan="1">0.59 (0.18)</td><td rowspan="1" colspan="1">0.59 (0.20)</td><td rowspan="1" colspan="1">0.39 (0.18)*</td></tr><tr><td rowspan="1" colspan="1">Accuracy (SD)</td><td rowspan="1" colspan="1">–</td><td rowspan="1" colspan="1">0.85 (0.06)</td><td rowspan="1" colspan="1">0.91 (0.05)*</td><td rowspan="1" colspan="1">0.89 (0.07)</td></tr><tr><td colspan="5" rowspan="1"><bold>Sleep parameters</bold></td></tr><tr><td rowspan="1" colspan="1">SOL, mean min (SD)</td><td rowspan="1" colspan="1">21.68 (16.65)</td><td rowspan="1" colspan="1">19.15 (17.82)</td><td rowspan="1" colspan="1">4.53 (4.25)*</td><td rowspan="1" colspan="1">14.03 (19.22)</td></tr><tr><td rowspan="1" colspan="1">TST, mean min (SD)</td><td rowspan="1" colspan="1">424.60 (48.73)</td><td rowspan="1" colspan="1">403.25 (46.15)</td><td rowspan="1" colspan="1">434.35 (46.66)</td><td rowspan="1" colspan="1">438.05 (43.54)</td></tr><tr><td rowspan="1" colspan="1">WASO, mean min (SD)</td><td rowspan="1" colspan="1">40.68 (34.50)</td><td rowspan="1" colspan="1">64.55 (30.36)</td><td rowspan="1" colspan="1">45.03 (24.84)</td><td rowspan="1" colspan="1">22.28 (21.88)</td></tr><tr><td rowspan="1" colspan="1">SE, mean % (SD)</td><td rowspan="1" colspan="1">87.36 (8.62)</td><td rowspan="1" colspan="1">82.93 (7.82)</td><td rowspan="1" colspan="1">89.88 (4.86)</td><td rowspan="1" colspan="1">92.33 (4.56)</td></tr></tbody></table><table-wrap-foot><fn id="tfn0005"><p><bold>Note:</bold> *p &lt; 0.05 from LMM analyses between PSG and actigraphy device.</p><p><bold>Abbreviations:</bold> PSG, polysomnography; SD, standard deviation; SOL, sleep onset latency; TST, total sleep time; WASO, wake after sleep onset.</p></fn></table-wrap-foot></table-wrap>
+</p>
+        <p>Furthermore, a LMM indicated significant differences in the specificities between devices, <italic>F</italic>(2, 54) = 7.72, <italic>p</italic> = 0.001. Post hoc tests indicated that both THIM and the Actiwatch-2 had significantly higher specificities than the Fitbit Alta, p &lt; 0.005, d = 1.11 and 1.05, respectively. There was no difference between THIM and the Actiwatch-2, <italic>p</italic> = 0.99.</p>
+        <p>A significant main effect of device was found on accuracy, <italic>F</italic>(2, 54) = 5.14, <italic>p</italic> = 0.009. Post hoc tests indicated THIM had significantly lower accuracy than the Actiwatch-2, <italic>p</italic> = 0.01, but was not significantly different compared to the Fitbit Alta, <italic>p</italic> = 0.09. There was no significant difference between the Actiwatch-2 and Fitbit Alta devices, <italic>p</italic> = 0.99.</p>
+      </sec>
+      <sec id="s0006-s2003">
+        <title>Sleep Parameter Estimations</title>
+        <p><xref rid="t0005" ref-type="table">Table 5</xref> also presents the descriptive statistics for the sleep parameter estimations. A LMM determined significant differences on estimations of SOL, <italic>F</italic>(3, 73) = 4.07, <italic>p</italic> = 0.01. Post hoc comparisons indicated a large significant difference between PSG and the Actiwatch-2, <italic>p</italic> = 0.01, <italic>d</italic> = 1.41, and no significant differences between PSG and THIM, <italic>p</italic> = 0.99, or the Fitbit Alta, <italic>p</italic> = 0.81. There were no significant differences on estimations of TST, <italic>F</italic>(3, 73) = 2.23, <italic>p</italic> = 0.75. There were significant differences on WASO, <italic>F</italic>(3, 73) = 7.44, <italic>p</italic> &lt; 0.001. However, post hoc comparisons indicated that these significant differences were not between PSG and any of the actigraphy devices, <italic>p</italic> &gt; 0.06. Similarly, there were significant differences on SE, <italic>F</italic>(3, 73) = 6.95, <italic>p</italic> &lt; 0.001, but post hoc comparisons indicated that there were no significant differences between PSG and any actigraphy device, <italic>p</italic> &gt; 0.14.</p>
+      </sec>
+      <sec id="s0006-s2004">
+        <title>Bland–Altman Plots</title>
+        <p><xref ref-type="fig" rid="f0002">Figure 2</xref> presents Bland–Altman plots for each actigraphy device. Overall, the plots are similar to those found in Study 1. The SOL plots show that THIM has a mean bias in close agreement with PSG. Significant proportional bias was observed for the Actiwatch and Fitbit Flex devices, such that increasing sleep onset latency resulted in greater underestimations. The TST plots indicate that THIM appears to have a mean bias towards underestimating TST compared to the Actiwatch-2 device with a mean bias close to zero and the Fitbit Alta device with a mean bias greater than zero. Yet, considering the findings above, these biases do not produce estimation of TST that are significantly different to PSG. The WASO plots illustrate lines of best fit with steep negative slopes (ie, significant proportional bias), though this is potentially driven by the presence of an outlier. The SE plots further illustrate that THIM had a small bias towards underestimating sleep efficiency, while the other devices overestimated sleep efficiency. Nonetheless, the findings of the LMM analyses above indicate that these biases do not produce estimation of SE significantly different to PSG.<fig id="f0002" fig-type="figure" orientation="portrait" position="float"><label>Figure 2</label><caption><p>Bland–Altman plots showing the agreement between PSG and (<bold>A</bold>) THIM, (<bold>B</bold>) Actiwatch-2 and (<bold>C</bold>) Fitbit Alta devices separately on sleep onset latency (SOL), total sleep time (TST), wake after sleep onset (WASO), and sleep efficiency (SE). The solid black horizontal line indicates perfect agreement with PSG. The solid coloured horizontal line indicates the mean bias for the device, the dashed coloured horizontal lines indicates the upper and lower limits of agreement, and the dotted coloured lines are the lines of best fit.</p></caption><graphic content-type="print-only" xlink:href="NSS-13-39-g0002"/></fig></p>
+      </sec>
+      <sec id="s0006-s2005">
+        <title>Good and Poor Sleeper Comparison</title>
+        <p><xref rid="t0006" ref-type="table">Table 6</xref> contains the descriptive statistics for LMM analyses conducted to determine whether there were any significant differences between good and poor sleepers on the sensitivity, specificity and accuracy of the actigraphy devices. The interactions between the actigraphy devices and sleeper type were not statistically significant for sensitivity, <italic>p</italic> = 0.78, specificity, <italic>p</italic> = 0.43, or accuracy, <italic>p</italic> = 0.37.<table-wrap id="t0006" orientation="portrait" position="float"><label>Table 6</label><caption><p>Epoch-by-Epoch and Sleep Parameter Descriptive Statistics Comparing Good and Poor Sleepers from Study 2</p></caption><table frame="hsides" rules="groups"><thead><tr><th rowspan="2" colspan="1">Variables</th><th colspan="3" rowspan="1">Actigraphy Device</th></tr><tr><th rowspan="1" colspan="1">THIM</th><th rowspan="1" colspan="1">Actiwatch-2</th><th rowspan="1" colspan="1">Fitbit Alta</th></tr></thead><tbody><tr><td colspan="4" rowspan="1"><bold>Epoch-by-epoch analyses</bold></td></tr><tr><td rowspan="1" colspan="1">Sensitivity, mean (SD)</td><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"/></tr><tr><td rowspan="1" colspan="1"> Good sleepers</td><td rowspan="1" colspan="1">0.91 (0.05)</td><td rowspan="1" colspan="1">0.97 (0.01)</td><td rowspan="1" colspan="1">0.98 (0.01)</td></tr><tr><td rowspan="1" colspan="1"> Poor sleepers</td><td rowspan="1" colspan="1">0.87 (0.07)</td><td rowspan="1" colspan="1">0.94 (0.04)</td><td rowspan="1" colspan="1">0.94 (0.05)</td></tr><tr><td rowspan="1" colspan="1">Specificity, mean (SD)<break/> Good sleepers<break/> Poor sleepers</td><td rowspan="1" colspan="1"><break/>0.54 (0.16)<break/>0.63 (0.19)</td><td rowspan="1" colspan="1"><break/>0.52 (0.15)<break/>0.64 (0.22)</td><td rowspan="1" colspan="1"><break/>0.29 (0.10)<break/>0.47 (0.20)</td></tr><tr><td rowspan="1" colspan="1">Accuracy, mean (SD)<break/> Good sleepers<break/> Poor sleepers</td><td rowspan="1" colspan="1"><break/>0.87 (0.04)<break/>0.83 (0.07)</td><td rowspan="1" colspan="1"><break/>0.91 (0.04)<break/>0.89 (0.05)</td><td rowspan="1" colspan="1"><break/>0.90 (0.04)<break/>0.88 (0.08)</td></tr><tr><td colspan="4" rowspan="1"><bold>Sleep parameters</bold></td></tr><tr><td rowspan="1" colspan="1">SOL discrepancy, mean min (SD)<break/> Good sleepers<break/> Poor sleepers</td><td rowspan="1" colspan="1"><break/>−2.17 (13.56)<break/>-2.82 (16.46)</td><td rowspan="1" colspan="1"><break/>−12.07 (8.65)<break/>-15.40 (18.34)</td><td rowspan="1" colspan="1"><break/>−11.44 (8.95)<break/>-4.55 (31.57)</td></tr><tr><td rowspan="1" colspan="1">TST discrepancy, mean min (SD)<break/> Good sleepers<break/> Poor sleepers</td><td rowspan="1" colspan="1"><break/>−14.44 (24.75)<break/>-27.00 (58.04)</td><td rowspan="1" colspan="1"><break/>14.36 (28.02)<break/>-8.10 (26.70)</td><td rowspan="1" colspan="1"><break/>25.50 (28.84)<break/>3.59 (61.00)</td></tr><tr><td rowspan="1" colspan="1">WASO discrepancy, mean min (SD)<break/> Good sleepers<break/> Poor sleepers</td><td rowspan="1" colspan="1"><break/>16.61 (17.54)<break/>29.82 (47.13)</td><td rowspan="1" colspan="1"><break/>−2.29 (20.77)<break/>18.95 (31.57)</td><td rowspan="1" colspan="1"><break/>−19.67 (22.91)<break/>-17.36 (34.74)</td></tr><tr><td rowspan="1" colspan="1">SE discrepancy, mean % (SD)<break/> Good sleepers<break/> Poor sleepers</td><td rowspan="1" colspan="1"><break/>−2.84 (4.95)<break/>-5.74 (11.46)</td><td rowspan="1" colspan="1"><break/>2.87 (5.54)<break/>-0.78 (4.68)</td><td rowspan="1" colspan="1"><break/>6.27 (5.97)<break/>3.89 (9.27)</td></tr></tbody></table><table-wrap-foot><fn id="tfn0006"><p><bold>Note:</bold> There were no significant differences between good and poor sleepers on any device.</p></fn></table-wrap-foot></table-wrap>
+</p>
+        <p>The descriptive statistics for LMM analyses comparing mean discrepancies between PSG and each actigraphy device on the sleep parameters are also presented in <xref rid="t0006" ref-type="table">Table 6</xref>. There were no significant interactions between device and sleeper type on SOL, <italic>p</italic> = 0.55, TST, <italic>p</italic> = 0.75, WASO, <italic>p</italic> = 0.47, or SE, <italic>p</italic> = 0.95.</p>
+      </sec>
+    </sec>
+    <sec id="s0007">
+      <title>Study 2: Discussion</title>
+      <p>The first aim of Study 2 was to test the accuracy of THIM with an independent sample. THIM had slightly lower sensitivity compared to the findings from Study 1, reflecting a greater bias towards scoring sleep epochs as wake in this independent sample. However, this greater bias did not produce estimates of sleep parameters that significantly differed from PSG. The THIM Bland–Altman plots appeared comparable between Study 1 and Study 2, with high variability in the discrepancy between PSG and THIM shown across all sleep parameters (evident by the wide levels of agreement). Together, these findings suggest that THIM was similar in accuracy for estimating sleep and wake in the independent sample as the sample from which the algorithm was developed.</p>
+      <p>The second aim of Study 2 was to compare the accuracy of THIM to the Fitbit Alta and Actiwatch-2 devices. THIM had lower sensitivity yet higher specificity than the Fitbit device. Overall, THIM was slightly lower in accuracy than the Acitwatch-2 device. The Bland–Altman plots also indicated that THIM had a bias towards underestimating TST and SE, and overestimating WASO compared to the other two actigraphy devices that overestimated sleep. Notably, all three devices performed better on the sleep parameter estimations than on the epoch-by-epoch statistics, demonstrating the need to assess device performance using agreement rather than correspondence statistics. These findings contrast previous research with Fitbit and Actiwatch devices that demonstrate a bias towards overestimating sleep and underestimating wake.<xref rid="cit0024" ref-type="bibr">24–27</xref> Further, differences in the findings from the current study compared to previous research may be due to differences between algorithms or device placement, or both, between THIM and other actigraphy devices. For instance, the presence of finger twitches during REM sleep may explain the trend towards overestimating WASO, as period of REM may have been miss-scored as wake.<xref rid="cit0010">10</xref> Further research could investigate whether the presence of finger twitches during REM sleep correspond with wake periods identified by a finger-worn actigraphy device.</p>
+      <p>Study 2 also aimed to determine whether there were any differences in the accuracy of these devices between good and poor sleepers. Similar to the findings of Study 1, there were no significant differences between good and poor sleepers for any of the dependent variables across actigraphy devices. This contrasts with previous research where actigraphy devices were less accurate for those with a range of sleep problems compared to good sleepers,<xref rid="cit0021" ref-type="bibr">21</xref>,<xref rid="cit0028" ref-type="bibr">28</xref> particularly when assessed in people with insomnia.<xref rid="cit0022" ref-type="bibr">22</xref> Such differences between studies may be due to the algorithm used to score the actigraphy data, as noted in reviews of this area.<xref rid="cit0025" ref-type="bibr">25</xref> Further research is warranted to assess not only device accuracy but also algorithm accuracy across sleep disordered populations compared to good sleepers.</p>
+      <p>Nonetheless, as found in Study 1, there is still considerably high variability in agreement on the Bland–Altman plots for all actigraphy devices. The limits of agreement ranged from a minimum of 58 minutes for SOL, 112 minutes for TST, 113 minutes for WASO, and 20% for sleep efficiency across the actigraphy devices. Whilst there are no current recommendations about acceptable limits of agreement for actigraphy devices<xref rid="cit0017" ref-type="bibr">17</xref> this degree of variability is presumably not acceptable to appropriately substitute for PSG, particularly when interpreting the data at the individual level.<xref rid="cit0029" ref-type="bibr">29</xref> Additional individual characteristics that theoretically may explain high variability in the accuracy of actigraphy devices include age, gender, BMI, and the presence of sleep disorders.<xref rid="cit0017" ref-type="bibr">17</xref>,<xref rid="cit0029" ref-type="bibr">29</xref> In additional LMM analyses, the main effects of gender and BMI were not significant across any of the sleep parameters, and therefore, these factors do not explain the variability in this sample. Due to none of the participants having a sleep disorder and a small age range, these factors are likely to have a small effect size in the current study.</p>
+      <p>Regarding the limitations of the current study, the PSG data were scored by one qualified sleep technician. The interrater reliability of PSG sleep scoring amongst qualified individuals can be low,<xref rid="cit0035" ref-type="bibr">35</xref> increasing the error of measurement of our gold standard measure. Additionally, the sample size was low compared to other validation studies. These limitations should be considered when interpreting differences between devices and when generalising the findings of the current study to the general population.</p>
+      <p>Importantly, THIM has not been tested for people with insomnia and could be assessed in future research. Studies could also investigate night-to-night variability in the accuracy of THIM, which is particularly important to assess since people with insomnia have high variability in sleep across nights.<xref rid="cit0030" ref-type="bibr">30</xref> Additionally, considering that people with insomnia experience different sleep quality in the sleep laboratory compared to their home environments,<xref rid="cit0031" ref-type="bibr">31</xref>,<xref rid="cit0032" ref-type="bibr">32</xref> it is particularly important to test THIM in individuals’ homes. Future studies could also collect data from larger, more heterogenous samples to provide stronger conclusions about the accuracy of THIM than the present studies. The validity of THIM for estimating sleep and wake in individuals with insomnia is the next priority to further the long-term goal of improving the treatment of insomnia.</p>
+    </sec>
+    <sec id="s0008">
+      <title>Conclusion</title>
+      <p>The two current studies aimed to develop (Study 1) and provide preliminary evidence for the accuracy (Study 2) of the THIM wearable device for estimating sleep and wakefulness. With an independent sample in Study 2, THIM had slightly lower sensitivity compared to the findings with the algorithm training sample in Study 1. However, specificity remained relatively high compared to other actigraphy devices. The studies also examined whether THIM performed comparably to two popular actigraphy devices: the Actiwatch and Fitbit devices. In these preliminary studies, it appears that THIM is relatively similar in accuracy for estimating sleep and wake compared to the Actiwatch and Fitbit devices. However, THIM showed a tendency towards underestimating sleep and overestimating wakefulness. Whilst these studies did not find differences in the accuracy of actigraphy devices between good and poor sleepers, there was high variability in the devices’ accuracies between individuals that could be explored in future research. The accuracy of THIM for estimating sleep and wake in individuals with insomnia could also be explored to further the long-term goal of improving the treatment of insomnia.</p>
+    </sec>
+  </body>
+  <back>
+    <ack>
+      <title>Acknowledgments</title>
+      <p>The authors would like to acknowledge the contributions of study participants, Flinders University third-year Psychology placement students, and Adelaide Institute for Sleep Health staff that assisted with data collection.</p>
+    </ack>
+    <sec id="s0009" sec-type="COI-statement">
+      <title>Disclosure</title>
+      <p>Research costs were partially funded by Re-Time Pty Ltd, the company that sell THIM. None of the study authors were financially supported by Re-Time Pty Ltd for this project. Hannah Scott reports grants from Re-Time Pty Ltd during the conduct of the study and has a patent pending: PCT/US2017/23240. Leon Lack reports grants from Re-Time Pty Ltd during the conduct of the study; is a shareholder of Re-Time Pty Ltd; and receives royalties for downloads of their book from the Re-Time website, outside the submitted work; in addition, Leon Lack has a US patent application pending to Re-Time Pty Ltd: 16/496360. The authors report no other potential conflicts of interest for this work.</p>
+    </sec>
+    <ref-list>
+      <title>References</title>
+      <ref id="cit0001">
+        <label>1.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Kuula</surname>
+<given-names>L</given-names></string-name>, <string-name><surname>Gradisar</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Martinmäki</surname>
+<given-names>K</given-names></string-name>, et al. <article-title>Using big data to explore worldwide trends in objective sleep in the transition to adulthood</article-title>. <source><italic toggle="yes">Sleep Med</italic></source>. <year>2019</year>;<volume>62</volume>:<fpage>69</fpage>–<lpage>76</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.sleep.2019.07.024</pub-id><pub-id pub-id-type="pmid">31563008</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0002">
+        <label>2.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Ong</surname>
+<given-names>JL</given-names></string-name>, <string-name><surname>Tandi</surname>
+<given-names>J</given-names></string-name>, <string-name><surname>Patanaik</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Lo</surname>
+<given-names>JC</given-names></string-name>, <string-name><surname>Chee</surname>
+<given-names>MWL</given-names></string-name>. <article-title>Large-scale data from wearables reveal regional disparities in sleep patterns that persist across age and sex</article-title>. <source><italic toggle="yes">Sci Rep</italic></source>. <year>2019</year>;<volume>9</volume>(<issue>1</issue>):<fpage>3415</fpage>. doi:<pub-id pub-id-type="doi">10.1038/s41598-019-40156-x</pub-id><pub-id pub-id-type="pmid">30833649</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0003">
+        <label>3.</label>
+        <mixed-citation publication-type="book"><string-name><surname>Re-Time</surname>
+<given-names>PL</given-names></string-name>. <source><italic toggle="yes">Thim - the First Wearable Device for Sleep, Which Will Improve Your Sleep</italic></source>. <year>2016</year>
+<comment>Available from</comment>
+<ext-link ext-link-type="uri" xlink:href="http://thim.io/">http://thim.io/</ext-link>. <date-in-citation>Accessed <month>12</month><day>21</day>, 2020</date-in-citation>.</mixed-citation>
+      </ref>
+      <ref id="cit0004">
+        <label>4.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Sadeh</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Acebo</surname>
+<given-names>C</given-names></string-name>. <article-title>The role of actigraphy in sleep medicine</article-title>. <source><italic toggle="yes">Sleep Med Rev</italic></source>. <year>2002</year>;<volume>6</volume>(<issue>2</issue>):<fpage>113</fpage>–<lpage>124</lpage>. doi:<pub-id pub-id-type="doi">10.1053/smrv.2001.0182</pub-id><pub-id pub-id-type="pmid">12531147</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0005">
+        <label>5.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Pollak</surname>
+<given-names>CP</given-names></string-name>, <string-name><surname>Tryon</surname>
+<given-names>WW</given-names></string-name>, <string-name><surname>Nagaraja</surname>
+<given-names>H</given-names></string-name>, <string-name><surname>Dzwonczyk</surname>
+<given-names>R</given-names></string-name>. <article-title>How accurately does wrist actigraphy identify the states of sleep and wakefulness?</article-title>
+<source><italic toggle="yes">Sleep</italic></source>. <year>2001</year>;<volume>24</volume>(<issue>8</issue>):<fpage>957</fpage>–<lpage>965</lpage>. doi:<pub-id pub-id-type="doi">10.1093/sleep/24.8.957</pub-id><pub-id pub-id-type="pmid">11766166</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0006">
+        <label>6.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Van den Water</surname>
+<given-names>ATM</given-names></string-name>, <string-name><surname>Holmes</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Hurley</surname>
+<given-names>DA</given-names></string-name>. <article-title>Objective measurements of sleep for non-laboratory settings as alternative to polysomnography - a systematic review</article-title>. <source><italic toggle="yes">J Sleep Res</italic></source>. <year>2011</year>;<volume>20</volume>:<fpage>183</fpage>–<lpage>200</lpage>. doi:<pub-id pub-id-type="doi">10.1111/j.1365-2869.2009.00814.x</pub-id><pub-id pub-id-type="pmid">20374444</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0007">
+        <label>7.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Silvertsen</surname>
+<given-names>B</given-names></string-name>, <string-name><surname>Omvik</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Havik</surname>
+<given-names>OE</given-names></string-name>, et al. <article-title>A comparison of actigraphy and polysomnography in older adults treated for chronic primary insomnia</article-title>. <source><italic toggle="yes">Sleep</italic></source>. <year>2006</year>;<volume>29</volume>(<issue>10</issue>):<fpage>1353</fpage>–<lpage>1358</lpage>. doi:<pub-id pub-id-type="doi">10.1093/sleep/29.10.1353</pub-id><pub-id pub-id-type="pmid">17068990</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0008">
+        <label>8.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Vallières</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Morin</surname>
+<given-names>CM</given-names></string-name>. <article-title>Actigraphy in the assessment of insomnia</article-title>. <source><italic toggle="yes">Sleep</italic></source>. <year>2003</year>;<volume>26</volume>(<issue>7</issue>):<fpage>902</fpage>–<lpage>906</lpage>. doi:<pub-id pub-id-type="doi">10.1093/sleep/26.7.902</pub-id><pub-id pub-id-type="pmid">14655927</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0009">
+        <label>9.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Smith</surname>
+<given-names>MT</given-names></string-name>, <string-name><surname>McCrae</surname>
+<given-names>CS</given-names></string-name>, <string-name><surname>Cheung</surname>
+<given-names>J</given-names></string-name>, et al. <article-title>Use of actigraphy for the evaluation of sleep disorders and circadian rhythm sleep-wake disorders: an American Academy of Sleep Medicine Systematic Review, meta-analysis, and GRADE assessment</article-title>. <source><italic toggle="yes">J Clin Sleep Med</italic></source>. <year>2018</year>;<volume>14</volume>(<issue>7</issue>):<fpage>1209</fpage>–<lpage>1230</lpage>. doi:<pub-id pub-id-type="doi">10.5664/jcsm.7228</pub-id><pub-id pub-id-type="pmid">29991438</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0010">
+        <label>10.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Reiter</surname>
+<given-names>AM</given-names></string-name>, <string-name><surname>Roach</surname>
+<given-names>GD</given-names></string-name>, <string-name><surname>Sargent</surname>
+<given-names>C</given-names></string-name>, <string-name><surname>Lack</surname>
+<given-names>L</given-names></string-name>. <article-title>Finger twitches are more frequent in REM sleep than in Non-REM sleep</article-title>. <source><italic toggle="yes">Nat Sci Sleep</italic></source>. <year>2020</year>;<volume>12</volume>:<fpage>49</fpage>–<lpage>56</lpage>. doi:<pub-id pub-id-type="doi">10.2147/NSS.S233439</pub-id><pub-id pub-id-type="pmid">32158293</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0011">
+        <label>11.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Meltzer</surname>
+<given-names>LJ</given-names></string-name>, <string-name><surname>Hiruma</surname>
+<given-names>LS</given-names></string-name>, <string-name><surname>Avis</surname>
+<given-names>K</given-names></string-name>, <string-name><surname>Montgomery-Downs</surname>
+<given-names>H</given-names></string-name>, <string-name><surname>Valentin</surname>
+<given-names>J</given-names></string-name>. <article-title>Comparison of a commercial accelerometer with polysomnography and actigraphy in children and adolescents</article-title>. <source><italic toggle="yes">Sleep</italic></source>. <year>2015</year>;<volume>38</volume>(<issue>8</issue>):<fpage>1323</fpage>–<lpage>1330</lpage>. doi:<pub-id pub-id-type="doi">10.5665/sleep.4918</pub-id><pub-id pub-id-type="pmid">26118555</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0012">
+        <label>12.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Morin</surname>
+<given-names>CM</given-names></string-name>, <string-name><surname>Belleville</surname>
+<given-names>G</given-names></string-name>, <string-name><surname>Bélanger</surname>
+<given-names>L</given-names></string-name>, <string-name><surname>Ivers</surname>
+<given-names>H</given-names></string-name>. <article-title>The Insomnia Severity Index: psychometric indicators to detect insomnia cases and evaluate treatment response</article-title>. <source><italic toggle="yes">Sleep</italic></source>. <year>2011</year>;<volume>34</volume>(<issue>5</issue>):<fpage>601</fpage>–<lpage>608</lpage>. doi:<pub-id pub-id-type="doi">10.1093/sleep/34.5.601</pub-id><pub-id pub-id-type="pmid">21532953</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0013">
+        <label>13.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Buysse</surname>
+<given-names>DJ</given-names></string-name>, <string-name><surname>Reynolds</surname>
+<given-names>CF</given-names></string-name>, <string-name><surname>Monk</surname>
+<given-names>TH</given-names></string-name>, <string-name><surname>Berman</surname>
+<given-names>SR</given-names></string-name>, <string-name><surname>Kupfer</surname>
+<given-names>DJ</given-names></string-name>. <article-title>The Pittsburgh Sleep Quality Index: a new instrument for psychiatric practice and research</article-title>. <source><italic toggle="yes">Psychiatry Res</italic></source>. <year>1989</year>;<volume>28</volume>:<fpage>193</fpage>–<lpage>213</lpage>. doi:<pub-id pub-id-type="doi">10.1016/0165-1781(89)90047-4</pub-id><pub-id pub-id-type="pmid">2748771</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0014">
+        <label>14.</label>
+        <mixed-citation publication-type="book"><collab>American Academy of Sleep Medicine</collab>. <source><italic toggle="yes">The AASM Manual for the Scoring of Sleep and Associated Events (Version 2.5)</italic></source>. <publisher-name>American Academy of Sleep Medicine</publisher-name>; <year>2018</year>.</mixed-citation>
+      </ref>
+      <ref id="cit0015">
+        <label>15.</label>
+        <mixed-citation publication-type="book"><string-name><surname>Respironics</surname>
+<given-names>P</given-names></string-name>. <source><italic toggle="yes">Equivalence of Activity Recordings and Derived Sleep Statistics: Actiwatch-64, Actiwatch 2 and Actiwatch Spectrum</italic></source>. <year>2009</year>.</mixed-citation>
+      </ref>
+      <ref id="cit0016">
+        <label>16.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Carney</surname>
+<given-names>CE</given-names></string-name>, <string-name><surname>Buysse</surname>
+<given-names>DJ</given-names></string-name>, <string-name><surname>Ancoli-Israel</surname>
+<given-names>S</given-names></string-name>, et al. <article-title>The consensus sleep diary: standardizing prospective sleep self-monitoring</article-title>. <source><italic toggle="yes">Sleep</italic></source>. <year>2012</year>;<volume>35</volume>(<issue>2</issue>):<fpage>287</fpage>–<lpage>302</lpage>. doi:<pub-id pub-id-type="doi">10.5665/sleep.1642</pub-id><pub-id pub-id-type="pmid">22294820</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0017">
+        <label>17.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>de Zambotti</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Cellini</surname>
+<given-names>N</given-names></string-name>, <string-name><surname>Goldstone</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Colrain</surname>
+<given-names>IM</given-names></string-name>, <string-name><surname>Baker</surname>
+<given-names>FC</given-names></string-name>. <article-title>Wearable sleep technology in clinical and research settings</article-title>. <source><italic toggle="yes">Med Sci Sports Exerc</italic></source>. <year>2019</year>;<volume>51</volume>(<issue>7</issue>):<fpage>1538</fpage>–<lpage>1557</lpage>. doi:<pub-id pub-id-type="doi">10.1249/MSS.0000000000001947</pub-id><pub-id pub-id-type="pmid">30789439</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0018">
+        <label>18.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Depner</surname>
+<given-names>CM</given-names></string-name>, <string-name><surname>Cheng</surname>
+<given-names>PC</given-names></string-name>, <string-name><surname>Devine</surname>
+<given-names>JK</given-names></string-name>, et al. <article-title>Wearable technologies for developing sleep and circadian biomarkers: a summary of workshop discussions</article-title>. <source><italic toggle="yes">Sleep</italic></source>. <year>2019</year>. doi:<pub-id pub-id-type="doi">10.1093/sleep/zsz254</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0019">
+        <label>19.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Bland</surname>
+<given-names>JM</given-names></string-name>, <string-name><surname>Altman</surname>
+<given-names>D</given-names></string-name>. <article-title>Statistical methods for assessing agreement between two methods of clinical measurement</article-title>. <source><italic toggle="yes">The Lancet</italic></source>. <year>1986</year>;<volume>327</volume>(<issue>8476</issue>):<fpage>307</fpage>–<lpage>310</lpage>. doi:<pub-id pub-id-type="doi">10.1016/S0140-6736(86)90837-8</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0020">
+        <label>20.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Giavarina</surname>
+<given-names>D</given-names></string-name>. <article-title>Understanding Bland Altman analysis</article-title>. <source><italic toggle="yes">Biochem Med (Zagreb)</italic></source>. <year>2015</year>;<volume>25</volume>(<issue>2</issue>):<fpage>141</fpage>–<lpage>151</lpage>. doi:<pub-id pub-id-type="doi">10.11613/BM.2015.015</pub-id><pub-id pub-id-type="pmid">26110027</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0021">
+        <label>21.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Hedner</surname>
+<given-names>J</given-names></string-name>, <string-name><surname>Pillar</surname>
+<given-names>G</given-names></string-name>, <string-name><surname>Pittman</surname>
+<given-names>SD</given-names></string-name>, <string-name><surname>Zou</surname>
+<given-names>D</given-names></string-name>, <string-name><surname>Grote</surname>
+<given-names>L</given-names></string-name>, <string-name><surname>White</surname>
+<given-names>DP</given-names></string-name>. <article-title>A novel adaptive wrist actigraphy algorithm for sleep-wake assessment in sleep apnea patients</article-title>. <source><italic toggle="yes">Sleep</italic></source>. <year>2004</year>;<volume>27</volume>(<issue>8</issue>):<fpage>1560</fpage>–<lpage>1566</lpage>. doi:<pub-id pub-id-type="doi">10.1093/sleep/27.8.1560</pub-id><pub-id pub-id-type="pmid">15683148</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0022">
+        <label>22.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Kang</surname>
+<given-names>SG</given-names></string-name>, <string-name><surname>Kang</surname>
+<given-names>JM</given-names></string-name>, <string-name><surname>Ko</surname>
+<given-names>KP</given-names></string-name>, <string-name><surname>Park</surname>
+<given-names>SC</given-names></string-name>, <string-name><surname>Mariani</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Weng</surname>
+<given-names>J</given-names></string-name>. <article-title>Validity of a commercial wearable sleep tracker in adult insomnia disorder patients and good sleepers</article-title>. <source><italic toggle="yes">J Psychosom Res</italic></source>. <year>2017</year>;<volume>97</volume>:<fpage>38</fpage>–<lpage>44</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.jpsychores.2017.03.009</pub-id><pub-id pub-id-type="pmid">28606497</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0023">
+        <label>23.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Sanchez-Ortuno</surname>
+<given-names>MM</given-names></string-name>, <string-name><surname>Edinger</surname>
+<given-names>JD</given-names></string-name>, <string-name><surname>Means</surname>
+<given-names>MK</given-names></string-name>, <string-name><surname>Almirall</surname>
+<given-names>D</given-names></string-name>. <article-title>Home is where sleep is: an ecological approach to test the validity of actigraphy for the assessment of insomnia</article-title>. <source><italic toggle="yes">J Clin Sleep Med</italic></source>. <year>2010</year>;<volume>6</volume>(<issue>1</issue>):<fpage>21</fpage>–<lpage>29</lpage>. doi:<pub-id pub-id-type="doi">10.5664/jcsm.27706</pub-id><pub-id pub-id-type="pmid">20191934</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0024">
+        <label>24.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Bianchi</surname>
+<given-names>MT</given-names></string-name>. <article-title>Sleep Devices: wearables and nearables, informational and interventional, consumer and clinical</article-title>. <source><italic toggle="yes">Metabolism</italic></source>. <year>2017</year>. doi:<pub-id pub-id-type="doi">10.1016/j.metabol.2017.10.008</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0025">
+        <label>25.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Evenson</surname>
+<given-names>KR</given-names></string-name>, <string-name><surname>Goto</surname>
+<given-names>MM</given-names></string-name>, <string-name><surname>Furberg</surname>
+<given-names>RD</given-names></string-name>. <article-title>Systematic review of the validity and reliability of consumer-wearable activity trackers</article-title>. <source><italic toggle="yes">Int J Behav Nutr Phys Act</italic></source>. <year>2015</year>;<volume>12</volume>:<fpage>159</fpage>. doi:<pub-id pub-id-type="doi">10.1186/s12966-015-0314-1</pub-id><pub-id pub-id-type="pmid">26684758</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0026">
+        <label>26.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Haghayegh</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Khoshnevis</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Smolensky</surname>
+<given-names>MH</given-names></string-name>, <string-name><surname>Diller</surname>
+<given-names>KR</given-names></string-name>, <string-name><surname>Castriotta</surname>
+<given-names>RJ</given-names></string-name>. <article-title>Accuracy of wristband fitbit models in assessing sleep: systematic review and meta-analysis</article-title>. <source><italic toggle="yes">J Med Internet Res</italic></source>. <year>2019a</year>;<volume>21</volume>(<issue>11</issue>):<fpage>e16273</fpage>. doi:<pub-id pub-id-type="doi">10.2196/16273</pub-id><pub-id pub-id-type="pmid">31778122</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0027">
+        <label>27.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Haghayegh</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Khoshnevis</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Smolensky</surname>
+<given-names>MH</given-names></string-name>, <string-name><surname>Diller</surname>
+<given-names>KR</given-names></string-name>, <string-name><surname>Castriotta</surname>
+<given-names>RJ</given-names></string-name>. <article-title>Performance assessment of new-generation Fitbit technology in deriving sleep parameters and stages</article-title>. <source><italic toggle="yes">Chronobiol Int</italic></source>. <year>2019b</year>;<volume>37</volume>(<issue>1</issue>):<fpage>47</fpage>–<lpage>59</lpage>. doi:<pub-id pub-id-type="doi">10.1080/07420528.2019.1682006</pub-id><pub-id pub-id-type="pmid">31718308</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0028">
+        <label>28.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Cook</surname>
+<given-names>JD</given-names></string-name>, <string-name><surname>Prairie</surname>
+<given-names>ML</given-names></string-name>, <string-name><surname>Plante</surname>
+<given-names>DT</given-names></string-name>. <article-title>Utility of the Fitbit Flex to evaluate sleep in major depressive disorder: A comparison against polysomnography and wrist-worn actigraphy</article-title>. <source><italic toggle="yes">J Affect Disord</italic></source>. <year>2017</year>;<volume>217</volume>:<fpage>299</fpage>–<lpage>305</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.jad.2017.04.030</pub-id><pub-id pub-id-type="pmid">28448949</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0029">
+        <label>29.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Danzig</surname>
+<given-names>R</given-names></string-name>, <string-name><surname>Wang</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Shah</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Trotti</surname>
+<given-names>LM</given-names></string-name>. <article-title>The wrist is not the brain: estimation of sleep by clinical and consumer wearable actigraphy devices is impacted by multiple patient- and device-specific factors</article-title>. <source><italic toggle="yes">J Sleep Res</italic></source>. <year>2019</year>;<volume>29</volume>(<issue>1</issue>):<fpage>e12926</fpage>. doi:<pub-id pub-id-type="doi">10.1111/jsr.12926</pub-id><pub-id pub-id-type="pmid">31621129</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0030">
+        <label>30.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Buysse</surname>
+<given-names>DJ</given-names></string-name>, <string-name><surname>Cheng</surname>
+<given-names>Y</given-names></string-name>, <string-name><surname>Germain</surname>
+<given-names>A</given-names></string-name>, et al. <article-title>Night-to-night sleep variability in older adults with and without chronic insomnia</article-title>. <source><italic toggle="yes">Sleep Med</italic></source>. <year>2010</year>;<volume>11</volume>(<issue>1</issue>):<fpage>56</fpage>–<lpage>64</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.sleep.2009.02.010</pub-id><pub-id pub-id-type="pmid">19962939</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0031">
+        <label>31.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Edinger</surname>
+<given-names>JD</given-names></string-name>, <string-name><surname>Fins</surname>
+<given-names>AI</given-names></string-name>, <string-name><surname>Sullivan</surname>
+<given-names>R</given-names>
+<suffix>Jr</suffix></string-name>, et al. <article-title>Sleep in the laboratory and sleep at home: comparisons of older insomniacs and normal sleepers</article-title>. <source><italic toggle="yes">Sleep</italic></source>. <year>1997</year>;<volume>20</volume>(<issue>12</issue>):<fpage>1119</fpage>–<lpage>1126</lpage>. doi:<pub-id pub-id-type="doi">10.1093/sleep/20.12.1119</pub-id><pub-id pub-id-type="pmid">9493921</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0032">
+        <label>32.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Edinger</surname>
+<given-names>JD</given-names></string-name>, <string-name><surname>Glenn</surname>
+<given-names>DM</given-names></string-name>, <string-name><surname>Bastian</surname>
+<given-names>LA</given-names></string-name>, et al. <article-title>Sleep in the laboratory and sleep at home II: comparisons of middle-aged insomnia sufferers and normal sleepers</article-title>. <source><italic toggle="yes">Sleep</italic></source>. <year>2001</year>;<volume>24</volume>(<issue>7</issue>):<fpage>761</fpage>–<lpage>770</lpage>. doi:<pub-id pub-id-type="doi">10.1093/sleep/24.7.761</pub-id><pub-id pub-id-type="pmid">11683479</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0033">
+        <label>33.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Withrow</surname>
+<given-names>D</given-names></string-name>, <string-name><surname>Roth</surname>
+<given-names>T</given-names></string-name>, <string-name><surname>Koshorek</surname>
+<given-names>G</given-names></string-name>, <string-name><surname>Roehrs</surname>
+<given-names>T</given-names></string-name>. <article-title>Relation between ambulatory actigraphy and laboratory polysomnography in insomnia practice and research</article-title>. <source><italic toggle="yes">J Sleep Res</italic></source>. <year>2019</year>;<volume>28</volume>(<issue>4</issue>):<fpage>e12854</fpage>. doi:<pub-id pub-id-type="doi">10.1111/jsr.12854</pub-id><pub-id pub-id-type="pmid">30941838</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0034">
+        <label>34.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>de Zambotti</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Rosas</surname>
+<given-names>L</given-names></string-name>, <string-name><surname>Colrain</surname>
+<given-names>IM</given-names></string-name>, <string-name><surname>Baker</surname>
+<given-names>FC</given-names></string-name>. <article-title>The Sleep of the Ring: Comparison of the ŌURA Sleep Tracker Against Polysomnography</article-title>. <source><italic toggle="yes">Behav Sleep Med</italic></source>. <year>2019</year>;<volume>17</volume>(<issue>2</issue>):<fpage>124</fpage>–<lpage>136</lpage>. doi:<pub-id pub-id-type="doi">10.1080/15402002.2017.1300587</pub-id><pub-id pub-id-type="pmid">28323455</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0035">
+        <label>35.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Rosenberg</surname>
+<given-names>RS</given-names></string-name>, <string-name><surname>Van Hout</surname>
+<given-names>S</given-names></string-name>. <article-title>The American Academy of Sleep Medicine inter-scorer reliability program: sleep stage scoring</article-title>. <source><italic toggle="yes">J Clin Sleep Med</italic></source>. <year>2013</year> Jan 15; <volume>9</volume>(<issue>1</issue>):<fpage>81</fpage>–<lpage>7</lpage>. doi:<pub-id pub-id-type="doi">10.5664/jcsm.2350</pub-id><pub-id pub-id-type="pmid">23319910</pub-id></mixed-citation>
+      </ref>
+    </ref-list>
+  </back>
+</article>
+</pmc-articleset>

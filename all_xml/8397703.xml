@@ -1,0 +1,570 @@
+<pmc-articleset><article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" article-type="research-article">
+  <?properties open_access?>
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="nlm-ta">Nat Sci Sleep</journal-id>
+      <journal-id journal-id-type="iso-abbrev">Nat Sci Sleep</journal-id>
+      <journal-id journal-id-type="publisher-id">nss</journal-id>
+      <journal-id journal-id-type="pmc">nss</journal-id>
+      <journal-title-group>
+        <journal-title>Nature and Science of Sleep</journal-title>
+      </journal-title-group>
+      <issn pub-type="epub">1179-1608</issn>
+      <publisher>
+        <publisher-name>Dove</publisher-name>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="pmid">34466045</article-id>
+      <article-id pub-id-type="pmc">8397703</article-id>
+      <article-id pub-id-type="publisher-id">320664</article-id>
+      <article-id pub-id-type="doi">10.2147/NSS.S320664</article-id>
+      <article-categories>
+        <subj-group subj-group-type="heading">
+          <subject>Original Research</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>Artificial Intelligence Analysis of Mandibular Movements Enables Accurate Detection of Phasic Sleep Bruxism in OSA Patients: A Pilot Study</article-title>
+        <alt-title alt-title-type="running-authors">Martinot et al</alt-title>
+        <alt-title alt-title-type="running-title">Martinot et al</alt-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <contrib-id contrib-id-type="orcid" authenticated="false">http://orcid.org/0000-0001-8536-7300</contrib-id>
+          <name>
+            <surname>Martinot</surname>
+            <given-names>Jean-Benoit</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff0001">
+<sup>1</sup>
+</xref>
+          <xref ref-type="aff" rid="aff0002">
+<sup>2</sup>
+</xref>
+          <xref ref-type="corresp" rid="an0001"/>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Le-Dong</surname>
+            <given-names>Nhat-Nam</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff0003">
+<sup>3</sup>
+</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Cuthbert</surname>
+            <given-names>Valérie</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff0001">
+<sup>1</sup>
+</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Denison</surname>
+            <given-names>Stéphane</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff0003">
+<sup>3</sup>
+</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Gozal</surname>
+            <given-names>David</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff0004">
+<sup>4</sup>
+</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Lavigne</surname>
+            <given-names>Gilles</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff0005">
+<sup>5</sup>
+</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <contrib-id contrib-id-type="orcid" authenticated="false">http://orcid.org/0000-0003-3832-2358</contrib-id>
+          <name>
+            <surname>Pépin</surname>
+            <given-names>Jean-Louis</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff0006">
+<sup>6</sup>
+</xref>
+        </contrib>
+        <aff id="aff0001"><label>1</label><institution>Sleep Laboratory, CHU Université Catholique de Louvain (UCL) Namur Site Sainte-Elisabeth</institution>, <addr-line>Namur</addr-line>, <addr-line>5000</addr-line>, <country>Belgium</country></aff>
+        <aff id="aff0002"><label>2</label><institution>Institute of Experimental and Clinical Research, UCL Bruxelles Woluwe</institution>, <addr-line>Brussels</addr-line>, <addr-line>1200</addr-line>, <country>Belgium</country></aff>
+        <aff id="aff0003"><label>3</label><institution>Sunrise</institution>, <addr-line>Namur</addr-line>, <addr-line>5101</addr-line>, <country>Belgium</country></aff>
+        <aff id="aff0004"><label>4</label><institution>Department of Child Health and Child Health Research Institute, University of Missouri</institution>, <addr-line>Columbia</addr-line>, <addr-line>MO</addr-line>, <addr-line>65201</addr-line>, <country>USA</country></aff>
+        <aff id="aff0005"><label>5</label><institution>Faculté de médecine dentaire, Université de Montréal</institution>, <addr-line>Montréal</addr-line>, <addr-line>Québec</addr-line>, <addr-line>H3C 3J7</addr-line>, <country>Canada</country></aff>
+        <aff id="aff0006"><label>6</label><institution>HP2 Laboratory, Inserm U1042, University Grenoble Alpes</institution>, <addr-line>Grenoble</addr-line>, <addr-line>38000</addr-line>, <country>France</country></aff>
+      </contrib-group>
+      <author-notes>
+        <corresp id="an0001">Correspondence: Jean-Benoit Martinot <institution>Centre du Sommeil et de la Vigilance, CHU UCL Namur Site Ste Elisabeth</institution>, <addr-line>15, Place Louise Godin</addr-line>, <addr-line>Namur</addr-line>, <addr-line>5000</addr-line>, <country>Belgium</country><phone>Tel +32 81 720 411</phone><fax>Fax +32 81 570 754</fax> Email martinot.j@respisom.be</corresp>
+      </author-notes>
+      <pub-date pub-type="epub">
+        <day>23</day>
+        <month>8</month>
+        <year>2021</year>
+      </pub-date>
+      <pub-date pub-type="collection">
+        <year>2021</year>
+      </pub-date>
+      <volume>13</volume>
+      <fpage>1449</fpage>
+      <lpage>1459</lpage>
+      <history>
+        <date date-type="received">
+          <day>25</day>
+          <month>5</month>
+          <year>2021</year>
+        </date>
+        <date date-type="accepted">
+          <day>05</day>
+          <month>8</month>
+          <year>2021</year>
+        </date>
+      </history>
+      <permissions>
+        <copyright-statement>© 2021 Martinot et al.</copyright-statement>
+        <copyright-year>2021</copyright-year>
+        <copyright-holder>Martinot et al.</copyright-holder>
+        <license>
+          <ali:license_ref xmlns:ali="http://www.niso.org/schemas/ali/1.0/" specific-use="textmining" content-type="ccbynclicense">https://creativecommons.org/licenses/by-nc/3.0/</ali:license_ref>
+          <license-p>This work is published and licensed by Dove Medical Press Limited. The full terms of this license are available at <ext-link ext-link-type="uri" xlink:href="https://www.dovepress.com/terms.php">https://www.dovepress.com/terms.php</ext-link> and incorporate the Creative Commons Attribution – Non Commercial (unported, v3.0) License (<ext-link ext-link-type="uri" xlink:href="https://creativecommons.org/licenses/by-nc/3.0/">http://creativecommons.org/licenses/by-nc/3.0/</ext-link>). By accessing the work you hereby accept the Terms. Non-commercial uses of the work are permitted without any further permission from Dove Medical Press Limited, provided the work is properly attributed. For permission for commercial use of this work, please see paragraphs 4.2 and 5 of our Terms (<ext-link ext-link-type="uri" xlink:href="https://www.dovepress.com/terms.php">https://www.dovepress.com/terms.php</ext-link>).</license-p>
+        </license>
+      </permissions>
+      <abstract>
+        <sec id="s2001">
+          <title>Purpose</title>
+          <p>Sleep bruxism (SBx) activity is classically identified by capturing masseter and/or temporalis masticatory muscles electromyographic activity (EMG-MMA) during in-laboratory polysomnography (PSG). We aimed to identify stereotypical mandibular jaw movements (MJM) in patients with SBx and to develop rhythmic masticatory muscles activities (RMMA) automatic detection using an artificial intelligence (AI) based approach.</p>
+        </sec>
+        <sec id="s2002">
+          <title>Patients and Methods</title>
+          <p>This was a prospective, observational study of 67 suspected obstructive sleep apnea (OSA) patients in whom PSG with masseter EMG was performed with simultaneous MJM recordings. The system used to collect MJM consisted of a small hardware device attached on the chin that communicates to a cloud-based infrastructure. An extreme gradient boosting (XGB) multiclass classifier was trained on 79,650 10-second epochs of MJM data from the 39 subjects with a history of SBx targeting 3 labels: RMMA episodes (n=1072), micro-arousals (n=1311), and MJM occurring at the breathing frequency (n=77,267).</p>
+        </sec>
+        <sec id="s2003">
+          <title>Results</title>
+          <p>Validated on unseen data from 28 patients, the model showed a very good epoch-by-epoch agreement (Kappa = 0.799) and balanced accuracy of 86.6% was found for the MJM events when using RMMA standards. The RMMA episodes were detected with a sensitivity of 84.3%. Class-wise receiver operating characteristic (ROC) curve analysis confirmed the well-balanced performance of the classifier for RMMA (ROC area under the curve: 0.98, 95% confidence interval [CI] 0.97–0.99). There was good agreement between the MJM analytic model and manual EMG signal scoring of RMMA (median bias −0.80 events/h, 95% CI −9.77 to 2.85).</p>
+        </sec>
+        <sec id="s2004">
+          <title>Conclusion</title>
+          <p>SBx can be reliably identified, quantified, and characterized with MJM when subjected to automated analysis supported by AI technology.</p>
+        </sec>
+      </abstract>
+      <abstract abstract-type="video">
+        <title>Video Abstract</title>
+        <p>
+<fig id="UF0001" fig-type="figure" orientation="portrait" position="anchor"><graphic content-type="print-only" xlink:href="NSS-13-1449-g0001"/></fig>
+</p>
+        <p>Point your SmartPhone at the code above. If you have a QR code reader the video abstract will appear. Or use:</p>
+        <p>
+<underline><ext-link ext-link-type="uri" xlink:href="https://youtu.be/M7LqfF1ZCyk">https://youtu.be/M7LqfF1ZCyk</ext-link></underline>
+</p>
+      </abstract>
+      <kwd-group kwd-group-type="author">
+        <title>Keywords</title>
+        <kwd>masticatory muscular activities</kwd>
+        <kwd>machine learning</kwd>
+        <kwd>jaw movement</kwd>
+      </kwd-group>
+      <funding-group>
+        <award-group>
+          <funding-source>
+            <institution-wrap>
+              <institution>French National Research Agency in the framework of the “Investissements d’avenir” program</institution>
+            </institution-wrap>
+          </funding-source>
+        </award-group>
+        <award-group>
+          <funding-source>
+            <institution-wrap>
+              <institution>the “e-health and integrated care and trajectories medicine and MIAI artificial intelligence”</institution>
+            </institution-wrap>
+          </funding-source>
+        </award-group>
+        <award-group>
+          <funding-source>
+            <institution-wrap>
+              <institution>MIAI @ Grenoble Alpes</institution>
+            </institution-wrap>
+          </funding-source>
+        </award-group>
+        <award-group>
+          <funding-source>
+            <institution-wrap>
+              <institution>National Institutes of Health</institution>
+              <institution-id institution-id-type="open-funder-registry">10.13039/100000002</institution-id>
+            </institution-wrap>
+          </funding-source>
+        </award-group>
+        <funding-statement>J-L.P. is supported by the French National Research Agency in the framework of the “Investissements d’avenir” program (ANR-15-IDEX-02) and the “e-health and integrated care and trajectories medicine and MIAI artificial intelligence” chairs of excellence from the Grenoble Alpes University Foundation. This work has been partially supported by MIAI @ Grenoble Alpes, (ANR-19-P3IA-0003). G.L. hold a Canada Research Chair in pain, sleep and trauma. D.G. is supported in part by National Institutes of Health grants HL130984, AG 061824, and HL140548 and a University of Missouri Tier 2 grant.</funding-statement>
+      </funding-group>
+      <counts>
+        <fig-count count="4"/>
+        <table-count count="2"/>
+        <ref-count count="58"/>
+        <page-count count="11"/>
+      </counts>
+    </article-meta>
+  </front>
+  <body>
+    <sec sec-type="intro" id="s0001">
+      <title>Introduction</title>
+      <p>Recent progress in biosensor technology and digital health are speeding up digitization in sleep medicine.<xref rid="cit0001" ref-type="bibr">1</xref>,<xref rid="cit0002" ref-type="bibr">2</xref> Artificial intelligence has provided new tools for automated scoring and interpretation of complex biological signals to characterize sleep architecture in various sleep disorders.<xref rid="cit0003" ref-type="bibr">3–5</xref> These innovations are beginning to offer patients the possibility of monitoring their sleep with simplified devices, in ecological conditions at home. These digital medicine solutions will also enable long-term follow-up and personalized expert guidance coaching.</p>
+      <p>Repetitive jaw muscle activity may lead to development of sleep bruxism (SBx) in some individuals, which is characterized by tooth clenching or grinding and/or mandible bracing or thrusting.<xref rid="cit0006" ref-type="bibr">6–9</xref> The estimated prevalence of SBx is primarily based on reports by parents or a sleep partner and is highest in childhood, varying from 14% to 20%.<xref rid="cit0010" ref-type="bibr">10</xref> SBx prevalence then stabilizes at about 8–12% in teenagers and adults, and declines to ~3% in older individuals.<xref rid="cit0007" ref-type="bibr">7</xref>,<xref rid="cit0008" ref-type="bibr">8</xref>,<xref rid="cit0010" ref-type="bibr">10</xref></p>
+      <p>Not all individuals with SBx present tooth grinding, but all SBx patients display rhythmic masticatory muscles activities (RMMA) during sleep.<xref rid="cit0007" ref-type="bibr">7</xref>,<xref rid="cit0011" ref-type="bibr">11</xref>,<xref rid="cit0012" ref-type="bibr">12</xref> Clinical SBx with an RMMA frequency of at least 2 episodes per hour of sleep is frequently found in the general population, as well as in patients with sleep comorbidities such as obstructive sleep apnea (OSA) and insomnia.<xref rid="cit0013" ref-type="bibr">13–15</xref></p>
+      <p>RMMA occurs as a result of an involuntary trigeminal motor-neuronal discharge detected through stereotypical and repetitive EMG activities recorded at the surface of the related muscles.<xref rid="cit0006" ref-type="bibr">6</xref> Conventional in-laboratory type 1 polysomnography (PSG) remains the gold standard for SBx diagnosis in complex or severe cases.<xref rid="cit0016" ref-type="bibr">16</xref> However, the PSG montage has to be supplemented by the surface EMG electrodes applied over the masseter and/or anterior temporal jaw muscles to record underlying RMMAs (EMG-MMA).<xref rid="cit0017" ref-type="bibr">17</xref></p>
+      <p>Until now, the size and discomfort imposed by jaw tracking recording devices have been a major limitation for human sleep studies in a natural home environment.<xref rid="cit0018" ref-type="bibr">18</xref>,<xref rid="cit0019" ref-type="bibr">19</xref> Recent noninvasive and easy to use technological innovation has made possible the continuous data collection during sleep of mandibular jaw movements (<xref ref-type="fig" rid="f0001">Figure 1</xref>). This technological advance supported by artificial intelligence analyses confers the opportunity to collect accurate information on sleep-wake transitions, cortical arousals and respiratory effort in the presence of sleep-related breathing disorders.<xref rid="cit0020" ref-type="bibr">20</xref> Additionally, preliminary data have demonstrated the feasibility of such technology to assess SBx EMG-MMA.<xref rid="cit0021" ref-type="bibr">21</xref> Artificial intelligence (AI) methods have been developed to automate and enhance the scoring of sleep mandibular jaw movements (MJM) to characterize SBx episodes, respiratory efforts and micro-arousals.<fig id="f0001" fig-type="figure" orientation="portrait" position="float"><label>Figure 1</label><caption><p>Jaw mandibular sensing and overview of data analysis plan.</p></caption><graphic content-type="print-only" xlink:href="NSS-13-1449-g0002"/></fig></p>
+      <p>The objective of the present study was to test if a machine learning AI automated analysis of MJM recorded with a mandibular sensor provided concordant results with the classical SBx metric, EMG-MMA, in patients undergoing overnight PSG for suspected OSA.</p>
+    </sec>
+    <sec id="s0002">
+      <title>Patients and Methods</title>
+      <sec id="s0002-s2001">
+        <title>Study Subjects and Design</title>
+        <p>Sixty-seven consecutive patients, clinically suspected of suffering from OSA, were referred for in-laboratory PSG. Among these, 61 SBx subjects were recruited based on positive self-report of awareness of jaw clenching and/or tooth grinding, and/or sleep partner report of tooth grinding, and/or dentist report of high probability of SBx.<xref rid="cit0009" ref-type="bibr">9</xref> Their sleep was recorded in a dedicated room with a specific EMG montage for collection of jaw muscle activities (masseter) and MJM with the Sunrise device. All recordings were done at a single sleep centre (CHU UCL Namur, Sainte Elisabeth site, Namur, Belgium) between February 2018 and November 2019.</p>
+        <p>The study has been performed in accordance with the principles stated in the Declaration of Helsinki. Prior to starting the study, ethical approval has been obtained from the local ethics committee (Comité d’Ethique Hospitalo-Facultaire-Universitaire de Liège, Belgium) to confirm the study meets national and international guidelines for research on humans. Each participant provided written informed consent to be part of the study (IRB 00004890 - number B707201523388). Preliminary results of this study were presented at the 2020 virtual Sleep meeting (August 27–30, 2020).<xref rid="cit0021" ref-type="bibr">21</xref></p>
+        <p>The study design was a prospective, cross-sectional observational study, whereby 2 subgroups of consecutive suspected OSA patients participated in a training set to develop an AI analytic model, and in a clinical independent validation study.</p>
+      </sec>
+      <sec id="s0002-s2002">
+        <title>Sleep Study</title>
+        <p>In-laboratory type 1 PSG was recorded with a digital acquisition system (Somnoscreen Plus, Somnomedics, Germany). Classical monitored parameters were complemented with bilateral surface masseter electromyograms (see <underline><ext-link ext-link-type="uri" xlink:href="https://www.dovepress.com/get_supplementary_file.php?f=320664.docx">Online Supplement</ext-link></underline>).</p>
+        <p>PSG data were manually scored by two experienced investigators (V.C. and an experienced sleep technologist; both trained in the same sleep laboratory used the same scoring software [Domino version 3.0.0.1]) and achieved &gt;90% scoring agreement. All sleep stages, EEG arousals, and sleep-related respiratory events were visually scored in accordance with the current American Academy of Sleep Medicine (AASM) criteria.<xref rid="cit0022" ref-type="bibr">22</xref>,<xref rid="cit0023" ref-type="bibr">23</xref> Hypopneas were scored using the AASM-recommended hypopnea 1A definition, requiring a ≥30% decrease in airflow lasting ≥10 seconds and associated with a ≥3% decrease in oxygen saturation or an EEG arousal.<xref rid="cit0023" ref-type="bibr">23</xref>,<xref rid="cit0024" ref-type="bibr">24</xref></p>
+        <p>SBx was diagnosed based on the criteria defined in the third edition of the International Classification of Sleep Disorders (ICSD-3) and the recent version of the AASM manual for the scoring of sleep.<xref rid="cit0013" ref-type="bibr">13</xref>,<xref rid="cit0022" ref-type="bibr">22</xref></p>
+        <p>RMMA scoring during polysomnography includes the following classifications: masseter contractions that are phasic (˃3 electromyogram [EMG] bursts lasting 0.25–2.0 s each) and/or tonic (sustained for ˃2 s) and/or a mixture of both.<xref rid="cit0013" ref-type="bibr">13</xref>,<xref rid="cit0025" ref-type="bibr">25</xref></p>
+        <p>In this study, we used the definition provided by an international consensus where SBx self-reports and clinical examination are not mandatorily required if EMG-MMA data are recorded.<xref rid="cit0004" ref-type="bibr">4</xref> According to the AASM manual for the scoring of sleep, SBx was scored if the RMMA was associated with the presence of ≥2 recorded audio-video episodes/sleep period of obvious undisputable grinding. The concomitant bursts of activity at the masseter surface EMG could be phasic, tonic, or mixed according to ICSD-3.<xref rid="cit0013" ref-type="bibr">13</xref></p>
+        <p>The RMMA associated to SBx is produced at a typical frequency around 1 Hz. By contrast artifacts due to scratching, swallowing or coughing are not occurring at a predictable frequency. Differences in signal amplitudes are also displayed ie, very large movement in case of swallowing, very sharp when coughing. During the data preparation for model training and labeling, we did remove the epochs including these artifacts (less than 1% of the total amount of the studied epochs).</p>
+      </sec>
+      <sec id="s0002-s2003">
+        <title>MJM Recordings and Description of the Movement Sensor (<xref ref-type="fig" rid="f0001">Figure 1</xref>)</title>
+        <p>As indicated above, bilateral masseter surface EMG was added to the PSG montage as the reference method for detecting RMMA. A blinded comparison was done with simultaneous MJM recordings using the MJM sensor system.</p>
+        <p>MJM was recorded with the Sunrise system (Namur, Belgium), a light-weighted device (3 gr - 42×17 mm) taped with an adhesive to the patient’s chin (in the mentolabial sulcus) (<xref ref-type="fig" rid="f0001">Figure 1</xref>) and synchronized with the clock of the PSG acquisition system. The device includes an inertial measurement unit that enables jaw movement sensing, and communicates with a smartphone application for external control. This unit encodes the linear acceleration and rotational velocities of the mandible, measured at the mentolabial sulcus (and therefore MJM) during respiratory and non-respiratory activation of the masseters and the submental muscles.<xref rid="cit0026" ref-type="bibr">26</xref>,<xref rid="cit0027" ref-type="bibr">27</xref> MJM data are automatically transferred to a cloud-based infrastructure at the end of the night.</p>
+        <p>The MJM sensor algorithm allows for automatic identification of obstructive and mixed apneas and hypopneas or respiratory effort-related arousals (RERAs) through stereotypical MJM patterns. It also identifies respiratory disturbances, as a period of change in respiratory effort ended by an arousal or an awakening. Respiratory effort is identified through oscillating MJM at the breathing frequency and of increasing amplitude.<xref rid="cit0020" ref-type="bibr">20</xref> During episodes of SBx, the mandible displays cyclical movements at a frequency and an amplitude that can be readily identified and differentiated from other sleep movements or arousals (closing or opening the mouth), or during periods of altered respiratory effort.<xref rid="cit0030" ref-type="bibr">30</xref> All episodes of RMMA related to other masticatory muscle activity like chewing, swallowing or facial scratching, or grimacing are discarded from the training set after audio/video examination during PSG.</p>
+      </sec>
+      <sec id="s0002-s2004">
+        <title>Data Analysis</title>
+        <p>An individual data pack was acquired for each patient. This pack consists of: four PSG scoring sequences (sleep stages, micro-arousals, RMMA and respiratory effort-related events) synchronized with 6 channels of MJM raw signals acquired with the Sunrise device and 2 channels of surface masseter EMG signal.</p>
+        <p>Data pre-processing and preparation, plus model development (training set) and the validation set were performed using Python programming language.<xref rid="cit0029" ref-type="bibr">29</xref> The data analysis plan included seven key steps (<xref ref-type="fig" rid="f0001">Figure 1</xref>):
+<list list-type="order"><list-item><p>Data splitting: Individual data from 61 patients with SBx were randomly split into training (n=39 [65%]) and validation testing (n=22 [35%]) subsets. Six individuals without SBx (true negative subjects) were added to the test subset, making a total of 28 data packs in the final test set.</p></list-item><list-item><p>MJM signals pre-processing and features generation: Raw MJM sequential data (6 channels) were consecutively segmented into 10-seconds epochs. These segments were passed through a customized processing, labeling and feature generating module. This procedure produces time series from the 6 MJM signals (sliding windows of 10 s each), synchronized with PSG sleep scoring sequences.</p></list-item><list-item><p>Exploratory analysis: Before training a classification algorithm, we performed an exploratory analysis on a small subset of 3000 segments, randomly sampled from the training set, to verify how many target labels have to be considered for our classification approach, and the performance for each combination including: periods of oscillations of the mandible at the breathing frequency (respiratory mandibular movements), micro-arousals and RMMA events. The data visualization implied K-means clustering and Uniform Manifold Approximation and Projection (UMAP) algorithms.<xref rid="cit0030" ref-type="bibr">30</xref></p></list-item><list-item><p>Training set size estimation: Once the classification problem was well determined, we performed an ad-hoc analysis to estimate the necessary size of the training set, which allows an extreme gradient boosting (XGB) classifier to achieve its best performance using the extracted features.</p></list-item><list-item><p>Machine learning experiment: The learning objective was set as multiclass classification, which aims to classify three target labels: RMMA events, micro-arousals and other MJM at the breathing frequency with different amplitudes regarding the level of RE (BMM). The XGB classifier was adopted as the core algorithm. The model optimization procedure and a leave one out cross-validation at subject level are detailed in the online supplements.<xref rid="cit0031" ref-type="bibr">31</xref></p></list-item><list-item><p>The final model was trained on the whole training set using only the most relevant features and the optimized hyperparameter setting.</p></list-item><list-item><p>Independent model validation: The classifier was independently validated on unseen datasets of 28 participants (including six true negative subjects with RMMA index = 0). The validation aimed to: a) evaluate the overall agreement between model’s epoch-by-epoch prediction and the reference PSG scoring; and b) verify whether the automatic scoring algorithm could provide a reliable estimation of the RMMA hourly index. The epoch-by-epoch agreement evaluation consists of: 1) confusion matrix; 2) overall agreement metrics (Cohen’s Kappa coefficient and balanced accuracy); 3) classwise performance analysis, using precision, recall, F1 score and receiver operating characteristic area under the curve (ROC AUC).</p></list-item></list></p>
+        <p>The Bland Altman method was used for quantitative agreement analysis.</p>
+      </sec>
+    </sec>
+    <sec id="s0003">
+      <title>Results</title>
+      <sec id="s0003-s2001">
+        <title>Study Population</title>
+        <p>All sixty-one participants exhibited RMMA associated with grinding sounds and forced displacements of the jaw in a lateral or forward direction during PSG audio-video recordings (<underline><ext-link ext-link-type="uri" xlink:href="https://www.dovepress.com/get_supplementary_file.php?f=320664.docx">eTable 1</ext-link></underline>). Of these, 39 were included in the training set and 22 in the validation study. All were SBx according to ICSD 3 criteria. 53/61 showed on oral inspection the presence of tooth wear consisting of erosion, attrition, or abrasion of the dental enamel, and therefore highly suggestive and confirmatory of SBx. During the period of recruitment 6 other patients with no symptoms and a PSG-verified SBx absence were randomly selected and used to ensure proper representation of a true negative population in our sample (<underline><ext-link ext-link-type="uri" xlink:href="https://www.dovepress.com/get_supplementary_file.php?f=320664.docx">eTable 1</ext-link></underline>).</p>
+      </sec>
+      <sec id="s0003-s2002">
+        <title>Exploratory Analysis</title>
+        <sec id="s0003-s2002-s3001">
+          <title>Rationale to Formulate a Multiclass Classification Task</title>
+          <p>Three specific patterns of MJM signals could be visually identified using a 10-seconds sampling window (<xref ref-type="fig" rid="f0002">Figure 2</xref>): micro-arousals (n=1311; both respiratory effort induced or spontaneous); BMM with normal (n=71,663) or increased respiratory effort (n=5604); and typical sleep clonic or tonico-clonic RMMA evoking SBx (n=1072). MJM during episodes of RMMA are typically phasic and of large amplitude cyclically repeated at a frequency between 0.5 and 1.5 Hz. Spontaneous micro-arousals appear as brisk MJM of large amplitude, indicating abrupt closure of the mouth characteristic of cortical arousals. Respiratory effort was identified through oscillating MJM at the breathing frequency of increasing amplitude depending on the level of effort (BMM). Data from features extracted from MJM signals after dimensionality reduction provided a clear clustering of three labels allowing separate identification of typical RMMA, micro-arousals and respiratory effort-related MJM (BMM) (<underline><ext-link ext-link-type="uri" xlink:href="https://www.dovepress.com/get_supplementary_file.php?f=320664.docx">eFigure 1</ext-link></underline>).<fig id="f0002" fig-type="figure" orientation="portrait" position="float"><label>Figure 2</label><caption><p>Pattern of mandibular jaw movements. Specific patterns of mandibular jaw movement (MJM) tri-axial gyroscope (<bold>A</bold>) or masseter surface EMG reference (<bold>B</bold>) signals captured within a 10-seconds epoch during a typical rhythmic masticatory muscle activity (RMMA) event (left column), a micro-arousal (middle column) and a period of respiratory effort (right column). The fourth row shows the scaleogram from a continuous wavelet transform (CWT) on the abstracted gyroscopic signal (Gs, determined as (G<sub>x</sub><sup>2</sup> + G<sub>y</sub><sup>2</sup> + G<sub>z</sub><sup>2</sup>)<sup>0.5</sup>).</p></caption><graphic content-type="print-only" xlink:href="NSS-13-1449-g0003"/></fig></p>
+        </sec>
+      </sec>
+      <sec id="s0003-s2003">
+        <title>Training Set Size Estimation</title>
+        <p>For the chosen algorithm (XGB classifier with logarithmic loss-guided booster), the training curve based on cross-validation indicates that the model would achieve its highest possible performance at a training-set size of around 2000 to 3000 epochs (randomly sampled and balanced for 3 target labels) (<underline><ext-link ext-link-type="uri" xlink:href="https://www.dovepress.com/get_supplementary_file.php?f=320664.docx">eFigure 2</ext-link></underline>), which correspond to a sample of 30 to 39 patients. Thus, our training sample size was adequate, and consequently, the model’s performance was not expected to improve by adding incremental data. The final model was trained on 79,649 10-seconds epochs of MJM data from all 39 subjects, targeting 3 labels: RMMA (n=1072), micro-arousals (n=1311) and other MJM related to respiration (BMM) (n=77,267). Using a learning rate of 0.05, the model reached the optimal status after 87 training steps.</p>
+      </sec>
+      <sec id="s0003-s2004">
+        <title>Model Performance</title>
+        <p>In the validation data set (n=28; 22 SBx plus 6 controls), the model achieved very good agreement (Kappa = 0.799) and high balanced accuracy (86.6%), detecting bruxism episodes with a sensitivity of 84.3%. The class-wise performances of the model’s prediction are summarized in <xref rid="t0001" ref-type="table">Table 1</xref> and <xref ref-type="fig" rid="f0003">Figure 3</xref>. The results issued from the leave one out cross-validation at subject level agreed with the model performance in the validation set of 28 subjects (<underline><ext-link ext-link-type="uri" xlink:href="https://www.dovepress.com/get_supplementary_file.php?f=320664.docx">eTable 2</ext-link></underline>, <underline><ext-link ext-link-type="uri" xlink:href="https://www.dovepress.com/get_supplementary_file.php?f=320664.docx">eFigures 3–8</ext-link></underline>).<table-wrap id="t0001" orientation="portrait" position="float"><label>Table 1</label><caption><p>Class-Wise Performance</p></caption><table frame="hsides" rules="groups"><thead><tr><th rowspan="1" colspan="1">Performance Metrics</th><th rowspan="1" colspan="1">BMM (n=59,685)</th><th rowspan="1" colspan="1">Micro-Arousals (n=523)</th><th rowspan="1" colspan="1">RMMA (n=580)</th></tr></thead><tbody><tr><td rowspan="1" colspan="1">Precision</td><td rowspan="1" colspan="1">0.935</td><td rowspan="1" colspan="1">0.837</td><td rowspan="1" colspan="1">0.823</td></tr><tr><td rowspan="1" colspan="1">Recall</td><td rowspan="1" colspan="1">0.955</td><td rowspan="1" colspan="1">0.800</td><td rowspan="1" colspan="1">0.843</td></tr><tr><td rowspan="1" colspan="1">F1 score</td><td rowspan="1" colspan="1">0.945</td><td rowspan="1" colspan="1">0.818</td><td rowspan="1" colspan="1">0.833</td></tr><tr><td rowspan="1" colspan="1">Accuracy</td><td rowspan="1" colspan="1">0.865</td><td rowspan="1" colspan="1">0.866</td><td rowspan="1" colspan="1">0.865</td></tr></tbody></table><table-wrap-foot><fn id="tfn0001"><p><bold>Abbreviations</bold>: BMM, mandibular movements at breathing frequency; RMMA, rhythmic masticatory muscle activity.</p></fn></table-wrap-foot></table-wrap>
+<fig id="f0003" fig-type="figure" orientation="portrait" position="float"><label>Figure 3</label><caption><p>Class-wise receiver operating curve (ROC) curve analysis. Prediction scores for each target label (rhythmic masticatory muscle muscular activity [RMMA], micro-arousals and ventilatory patterns [BMM]) and for each patient were extracted, then the false and true positive rates of a binary one-versus-rest classification rule were estimated to establish the ROC curve. The 95% confidence intervals (CIs) of the area under the curve (AUC) and smoothing effect were obtained from empirical data (without using any resampling). The diagonal dotted line (reference) shows the performance if SBx detection was made randomly.</p></caption><graphic content-type="print-only" xlink:href="NSS-13-1449-g0004"/></fig></p>
+      </sec>
+      <sec id="s0003-s2005">
+        <title>Temporal Agreement Between AI and Manual Scoring</title>
+        <p>The coincidence of prediction and true events (at a precision of 10 seconds) could also be evaluated by visual inspection. <underline><ext-link ext-link-type="uri" xlink:href="https://www.dovepress.com/get_supplementary_file.php?f=320664.docx">eFigure 7</ext-link></underline> shows the confusion matrix for the test set, and <underline><ext-link ext-link-type="uri" xlink:href="https://www.dovepress.com/get_supplementary_file.php?f=320664.docx">eFigure 8</ext-link></underline> shows the temporal agreement and confusion matrix for the model compared with EMG scoring for three patients randomly selected from the validation set.</p>
+      </sec>
+      <sec id="s0003-s2006">
+        <title>Quantitative Agreement Evaluation</title>
+        <p>This consists of evaluating disagreement between the algorithmic analysis and the manual scoring of the EMGs to estimate RMMA hourly index for SBx. Bland-Altman analysis from the data test set showed a low median bias of −0.8 units of EMG-MMA index but an underestimation at the highest values (&gt;15) of the RMMA scale (95% CI +2.85; −9.77) (<xref ref-type="fig" rid="f0004">Figure 4</xref>).<fig id="f0004" fig-type="figure" orientation="portrait" position="float"><label>Figure 4</label><caption><p>Agreement between MJM analytic model and manual EMG signal scoring of RMMA. Bland-Altman plot evaluating measurement bias of rhythmic masticatory muscle activity (RMMA) index in the 28 subjects of the validation study. The median dash line corresponds to a negative bias 0.8 unit of RMMA index. Upper and lower dashed lines correspond to 95% confidence interval, +2.85 and −9.77 RMMA index. The dots in green represent the 6 true negative subjects.</p></caption><graphic content-type="print-only" xlink:href="NSS-13-1449-g0005"/></fig></p>
+      </sec>
+    </sec>
+    <sec id="s0004">
+      <title>Discussion</title>
+      <p>The present study demonstrates the capability of an automated RMMA recognition system to quantify SBx by measuring stereotypical MJM with a wireless sensor device integrated with a supporting analysis system based on AI. Our findings showed that: 1) MJM activity can accurately detect RMMA episodes with a very good agreement when compared to the gold standard, ie, PSG; and 2) scoring based on this classifier estimates the RMMA index (per hour of sleep) with a median bias of only 0.8 units, with the 95% confidence interval increasing only when the RMMA index exceeds 15/hour of sleep, a value that is infrequently observed in the SBx population.<xref rid="cit0006" ref-type="bibr">6</xref>,<xref rid="cit0012" ref-type="bibr">12</xref> Thus, the combination of an innovative sensor coupled with an AI algorithm offers a reliable and simple solution for diagnosing and monitoring SBx in an ambulatory setting.</p>
+      <p>Despite being a prevalent and important issue, SBx remains underrecognized in the clinical setting due to the lack of simple to use and noninvasive monitoring, and the need for visual, labor-intensive and time-consuming scoring even when using diagnostic home sleep testing (HST) tools.<xref rid="cit0032" ref-type="bibr">32</xref>,<xref rid="cit0033" ref-type="bibr">33</xref> Undiagnosed and untreated SBx can have multiple adverse consequences.<xref rid="cit0004" ref-type="bibr">4</xref> The most frequent complaints are alterations in sleep quality, tensional headaches, masticatory muscle pain or fatigue, and temporomandibular disorders, all of which have a significant negative impact on quality of life.<xref rid="cit0034" ref-type="bibr">34</xref> Sleep comorbidities are frequent in SBx patients, and include OSA, insomnia, periodic limb movement disorder of sleep, gastroesophageal reflux, and in rare cases REM behavior disorder and sleep-associated epilepsy.<xref rid="cit0006" ref-type="bibr">6</xref>,<xref rid="cit0014" ref-type="bibr">14</xref>,<xref rid="cit0015" ref-type="bibr">15</xref>,<xref rid="cit0035" ref-type="bibr">35–37</xref></p>
+      <p>RMMA events are associated with sleep arousals, and are characteristically accompanied by a surge of sympathetic cardiac activity. This association is temporally related in 50–80% of RMMA events in otherwise healthy children and adults.<xref rid="cit0011" ref-type="bibr">11</xref>,<xref rid="cit0014" ref-type="bibr">14</xref>,<xref rid="cit0037" ref-type="bibr">37</xref></p>
+      <p>Audio-video recordings during PSG are used to exclude atypical non-SBx-related orofacial activity and movement disorders, and to confirm the presence and the specificity of typical grinding sounds.<xref rid="cit0007" ref-type="bibr">7</xref>,<xref rid="cit0016" ref-type="bibr">16</xref>,<xref rid="cit0038" ref-type="bibr">38–40</xref> However long waiting lists, access inequalities, overall costs, and patient acceptability issues, make the PSG as a less than optimal or cost-effective approach for numerous SBx patients, which has prompted the emergence of HST options, such as a single EMG recordings as a viable alternative to PSG.<xref rid="cit0031" ref-type="bibr">31</xref>,<xref rid="cit0032" ref-type="bibr">32</xref>,<xref rid="cit0041" ref-type="bibr">41–43</xref> Similarly, MJM are under corticobulbar motor control, and can be tracked in animals and humans during sleep.<xref rid="cit0018" ref-type="bibr">18</xref>,<xref rid="cit0019" ref-type="bibr">19</xref>,<xref rid="cit0044" ref-type="bibr">44–46</xref> However, all these methodologies have significant limitations, and suffer from lack of standardization for quantitative SBx assessments, particularly in the presence of sleep comorbidities.<xref rid="cit0007" ref-type="bibr">7</xref>,<xref rid="cit0009" ref-type="bibr">9</xref>,<xref rid="cit0033" ref-type="bibr">33</xref>,<xref rid="cit0044" ref-type="bibr">44</xref></p>
+      <p>The majority of current alternatives to PSG use one or more sensors to capture EMG activities of the jaw muscles, but some have also used interdental pressure and accelerometers, all of which present different levels of discomfort.<xref rid="cit0047" ref-type="bibr">47–51</xref> Furthermore, none of these technologies has been sufficiently validated to date to allow implementation in clinical practice and endorsement by professional evidence-based guidelines. In addition, current diagnostic tools are contingent on expert human resources and suffer from interobserver reproducibility. Application of decision tree algorithms applied to EMG signals has only been undertaken recently, and not yet translated into clinical practice.<xref rid="cit0052" ref-type="bibr">52</xref></p>
+      <p>The rationale of our study was based on previous observations that periods of teeth grinding could be characterized by specific behaviors of the mandible.<xref rid="cit0028" ref-type="bibr">28</xref> The adoption of the MJM signal provides an alternative to masseter surface EMG for detecting RMMA. During episodes of SBx, the mandible displays cyclical movements at a frequency and an amplitude that can be readily distinguished from other mandibular sleep movements occurring concurrently with arousals (closing or opening the mouth) or typically reflecting normal or abnormal ventilatory patterns.<xref rid="cit0053" ref-type="bibr">53</xref> Thus, the MJM signal has the potential to collect information not only about RMMA but also its consequences (micro-arousal) as well as potential underlying precipitating factors (eg, OSA).<xref rid="cit0053" ref-type="bibr">53</xref> However, it remains to be demonstrated whether both entities are coincidental, causally related, linked to arousal reactivity, or relate to a physiological state, which involves the triggering of one or the other.<xref rid="cit0054" ref-type="bibr">54</xref>,<xref rid="cit0055" ref-type="bibr">55</xref></p>
+      <p>Detected SBx episodes were analyzed in time series of MJM where variations in morphology can identify related cortical arousal and possible changes in respiratory effort (eg, increased respiratory effort during episodes of OSA or RERA before the SBx episode and/or periods of decreased respiratory effort during central apnea-hypopnea after a SBx episode). Using this technology, time series of clustered MJM remain editable for manual review and analysis in expert centers. However, the automated detection of the stereotypical MJM based on AI could prevent human error or drift, as observed during visual and manual PSG scoring.<xref rid="cit0056" ref-type="bibr">56</xref></p>
+      <p>MJM recordings over several nights have potential future use in physiological, epidemiological and clinical studies of SBx, thereby amplifying our understanding of this condition, and optimizing its treatment.</p>
+    </sec>
+    <sec id="s0005">
+      <title>Limitations</title>
+      <p>The large amplitude of movements during RMMA could potentially be confused with micro-arousal amplitudes; therefore, some misclassifications of these events might occur when an RMMA episode ends with a micro-arousal. While our OSA study population was typical of those referred to a sleep laboratory, generalization of data to SBx real life and in absence of OSA requires additional studies. Finally, the AI algorithms will require external validation, especially in other sleep cohorts.</p>
+      <p>In this pilot study, we set the trained machine learning algorithms with fragments of MJM in comparison to RMMA collected from masseter EMG. We recognize that our algorithms may have underestimate the occurrence of sustained-tonic contractions, a less dominant but co-occurring type of EMG activities in presence of SBx. Most sleep bruxism EMG events associate to phasic pattern, tonic and mixed contractions; these in otherwise healthy SBx individuals and in the ones with painful temporomandibular disorders whereas tonic phenotype could be prominent.<xref rid="cit0057" ref-type="bibr">57</xref>,<xref rid="cit0058" ref-type="bibr">58</xref></p>
+    </sec>
+    <sec id="s0006">
+      <title>Conclusion</title>
+      <p>This study shows that automated analysis of MJM recorded with an inertial unit integrated with a machine learning-derived algorithmic set can identify and quantify SBx episodes. The study shows very good agreement with PSG. Informative sleep MJM provides a unique opportunity to easily detect RMMA and confirm a clinical diagnosis of SBx in conjunction with clinical history, and more importantly when OSA is a comorbid condition.</p>
+    </sec>
+  </body>
+  <back>
+    <ack>
+      <title>Acknowledgments</title>
+      <p>The authors wish to thank Ms. Liesbeth Ory and Ms. Ravzat Ashurlaeva for their secretarial assistance and support. English language editing assistance was provided by Nicola Ryan, independent medical writer, funded by Sunrise.</p>
+    </ack>
+    <sec id="s0007">
+      <title>Role of the Sponsors</title>
+      <p>The funding sources had no role in the design and conduct of the study; collection, management, analysis, and interpretation of the data; preparation, review, or approval of the manuscript; and decision to submit the manuscript for publication.</p>
+    </sec>
+    <sec id="s0008">
+      <title>Data Sharing Statement</title>
+      <p>The data sets generated during the current study are available from the corresponding author based upon reasonable request.</p>
+    </sec>
+    <sec id="s0009">
+      <title>Author Contributions</title>
+      <p>All authors helped revise the manuscript and approved it for submission. All authors made a significant contribution to the work reported, whether that is in the conception, study design, execution, acquisition of data, analysis and interpretation, or in all these areas; took part in drafting, revising or critically reviewing the article; gave final approval of the version to be published; have agreed on the journal to which the article has been submitted; and agree to be accountable for all aspects of the work.</p>
+    </sec>
+    <sec id="s0010" sec-type="COI-statement">
+      <title>Disclosure</title>
+      <p>Dr. Martinot reported being a non-remunerated scientific advisor to Sunrise and being an investigator in pharmacy trials for Jazz Pharmaceuticals and Theranexus. Dr. Nhat-Nam Le-Dong reports being a full-time employee at Sunrise during the conduct of the study. Dr. Le-Dong and Mr. Denison reported receiving as employees personal fees from Sunrise. Dr. Gozal is the recipient of an investigator-initiated grant from Jazz Pharmaceuticals, and serves as scientific consultant to Nanit, Dr. Lullaby, ClairLabs, and Sleep Foundation. Dr. Pépin reports grants from Air Liquide Foundation, Mutualia, Resmed, and Vitalaire, and personal fees from Agiradom, AstraZeneca, Fisher and Paykel, Philips, Boehringer Ingelheim, Jazz pharmaceutical, Night Balance, and Sefam, outside the submitted work; and reported being a scientific advisor to Sunrise; receiving grants and/or personal fees from ResMed, Philips, Fisher &amp; Paykel, Sefam, AstraZeneca, AGIR à dom, Elevie, VitalAire, Boehringer Ingelheim, Jazz Pharmaceuticals, and Itamar Medical Ltd; and receiving research support for clinical studies from Mutualia and Air Liquide Foundation. There are no other disclosures to report in relation to this work. There was no funding or other financial support to this research from Sunrise company.</p>
+      <p>Non-financial disclosure: None.</p>
+    </sec>
+    <ref-list>
+      <title>References</title>
+      <ref id="cit0001">
+        <label>1.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Pépin</surname><given-names>JL</given-names></string-name>, <string-name><surname>Bailly</surname><given-names>S</given-names></string-name>, <string-name><surname>Tamisier</surname><given-names>R</given-names></string-name>. <article-title>Big data in sleep apnoea: opportunities and challenges</article-title>. <source><italic toggle="yes">Respirology</italic></source>. <year>2020</year>;<volume>25</volume>:<fpage>486</fpage>–<lpage>494</lpage>. doi:<pub-id pub-id-type="doi">10.1111/resp.13669</pub-id><pub-id pub-id-type="pmid">31411796</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0002">
+        <label>2.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Sharma</surname><given-names>M</given-names></string-name>, <string-name><surname>Patel</surname><given-names>V</given-names></string-name>, <string-name><surname>Acharya</surname><given-names>UR</given-names></string-name>. <article-title>Automated identification of insomnia using optimal bi-orthogonal wavelet transform technique with single-channel EEG signals.”</article-title>. <source><italic toggle="yes">Knowl-Based Syst</italic></source>. <year>2021</year>;<volume>224</volume>:<fpage>107078</fpage>. doi:<pub-id pub-id-type="doi">10.1016/j.knosys.2021.107078</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0003">
+        <label>3.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Arnal</surname><given-names>PJ</given-names></string-name>, <string-name><surname>Thorey</surname><given-names>V</given-names></string-name>, <string-name><surname>Debellemaniere</surname><given-names>E</given-names></string-name>, et al. <article-title>The Dreem Headband compared to polysomnography for electroencephalographic signal acquisition and sleep staging</article-title>. <source><italic toggle="yes">Sleep</italic></source>. <year>2020</year>;<volume>43</volume>(<issue>11</issue>):<fpage>zsaa097</fpage>. doi:<pub-id pub-id-type="doi">10.1093/sleep/zsaa097</pub-id><pub-id pub-id-type="pmid">32433768</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0004">
+        <label>4.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Stephansen</surname><given-names>JB</given-names></string-name>, <string-name><surname>Olesen</surname><given-names>AN</given-names></string-name>, <string-name><surname>Olsen</surname><given-names>M</given-names></string-name>, et al. <article-title>Neural network analysis of sleep stages enables efficient diagnosis of narcolepsy</article-title>. <source><italic toggle="yes">Nat Commun</italic></source>. <year>2018</year>;<volume>9</volume>:<fpage>5229</fpage>. doi:<pub-id pub-id-type="doi">10.1038/s41467-018-07229-3</pub-id><pub-id pub-id-type="pmid">30523329</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0005">
+        <label>5.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Goldstein</surname><given-names>CA</given-names></string-name>, <string-name><surname>Berry</surname><given-names>RB</given-names></string-name>, <string-name><surname>Kent</surname><given-names>D</given-names></string-name>, et al. <article-title>Artificial intelligence in sleep medicine: an American Academy of Sleep Medicine position statement</article-title>. <source><italic toggle="yes">J Clin Sleep Med</italic></source>. <year>2020</year>;<volume>16</volume>:<fpage>605</fpage>–<lpage>607</lpage>. doi:<pub-id pub-id-type="doi">10.5664/jcsm.8288</pub-id><pub-id pub-id-type="pmid">32022674</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0006">
+        <label>6.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Carra</surname><given-names>MC</given-names></string-name>, <string-name><surname>Huynh</surname><given-names>N</given-names></string-name>, <string-name><surname>Lavigne</surname><given-names>G</given-names></string-name>. <article-title>Sleep bruxism: a comprehensive overview for the dental clinician interested in sleep medicine</article-title>. <source><italic toggle="yes">Dent Clin North Am</italic></source>. <year>2012</year>;<volume>56</volume>:<fpage>387</fpage>–<lpage>413</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.cden.2012.01.003</pub-id><pub-id pub-id-type="pmid">22480810</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0007">
+        <label>7.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Mayer</surname><given-names>P</given-names></string-name>, <string-name><surname>Heinzer</surname><given-names>R</given-names></string-name>, <string-name><surname>Lavigne</surname><given-names>G</given-names></string-name>. <article-title>Sleep bruxism in respiratory medicine practice</article-title>. <source><italic toggle="yes">Chest</italic></source>. <year>2016</year>;<volume>149</volume>:<fpage>262</fpage>–<lpage>271</lpage>. doi:<pub-id pub-id-type="doi">10.1378/chest.15-0822</pub-id><pub-id pub-id-type="pmid">26225899</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0008">
+        <label>8.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Rompré</surname><given-names>PH</given-names></string-name>, <string-name><surname>Daigle-Landry</surname><given-names>D</given-names></string-name>, <string-name><surname>Guitard</surname><given-names>F</given-names></string-name>, <string-name><surname>Montplaisir</surname><given-names>JY</given-names></string-name>, <string-name><surname>Lavigne</surname><given-names>GJ</given-names></string-name>. <article-title>Identification of a sleep bruxism subgroup with a higher risk of pain</article-title>. <source><italic toggle="yes">J Dent Res</italic></source>. <year>2007</year>;<volume>86</volume>:<fpage>837</fpage>–<lpage>842</lpage>. doi:<pub-id pub-id-type="doi">10.1177/154405910708600906</pub-id><pub-id pub-id-type="pmid">17720851</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0009">
+        <label>9.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Lobbezoo</surname><given-names>F</given-names></string-name>, <string-name><surname>Ahlberg</surname><given-names>J</given-names></string-name>, <string-name><surname>Raphael</surname><given-names>KG</given-names></string-name>, et al. <article-title>Manfredini International consensus on the assessment of bruxism: report of a work in progress</article-title>. <source><italic toggle="yes">J Oral Rehabil</italic></source>. <year>2018</year>;<volume>45</volume>:<fpage>837</fpage>–<lpage>844</lpage>. doi:<pub-id pub-id-type="doi">10.1111/joor.12663</pub-id><pub-id pub-id-type="pmid">29926505</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0010">
+        <label>10.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Carra</surname><given-names>MC</given-names></string-name>, <string-name><surname>Huynh</surname><given-names>N</given-names></string-name>, <string-name><surname>Morton</surname><given-names>P</given-names></string-name>, et al. <article-title>Prevalence and risk factors of sleep bruxism and wake-time tooth clenching in a 7- to 17-yr-old population</article-title>. <source><italic toggle="yes">Eur J Oral Sci</italic></source>. <year>2011</year>;<volume>119</volume>:<fpage>386</fpage>–<lpage>394</lpage>. doi:<pub-id pub-id-type="doi">10.1111/j.1600-0722.2011.00846.x</pub-id><pub-id pub-id-type="pmid">21896056</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0011">
+        <label>11.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Manfredini</surname><given-names>D</given-names></string-name>, <string-name><surname>Fabbri</surname><given-names>A</given-names></string-name>, <string-name><surname>Peretta</surname><given-names>R</given-names></string-name>, <string-name><surname>Guarda-Nardini</surname><given-names>L</given-names></string-name>, <string-name><surname>Lobbezoo</surname><given-names>F</given-names></string-name>. <article-title>Influence of psychological symptoms on home-recorded sleep-time masticatory muscle activity in healthy subjects</article-title>. <source><italic toggle="yes">J Oral Rehabil</italic></source>. <year>2011</year>;<volume>38</volume>:<fpage>902</fpage>–<lpage>911</lpage>. doi:<pub-id pub-id-type="doi">10.1111/j.1365-2842.2011.02226.x</pub-id><pub-id pub-id-type="pmid">21569074</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0012">
+        <label>12.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Manfredini</surname><given-names>D</given-names></string-name>, <string-name><surname>Ahlberg</surname><given-names>J</given-names></string-name>, <string-name><surname>Wetselaar</surname><given-names>P</given-names></string-name>, <string-name><surname>Svensson</surname><given-names>P</given-names></string-name>, <string-name><surname>Lobbezoo</surname><given-names>F</given-names></string-name>. <article-title>The bruxism construct: from cut-off points to a continuum spectrum</article-title>. <source><italic toggle="yes">J Oral Rehabil</italic></source>. <year>2019</year>;<volume>46</volume>:<fpage>991</fpage>–<lpage>997</lpage>. doi:<pub-id pub-id-type="doi">10.1111/joor.12833</pub-id><pub-id pub-id-type="pmid">31264730</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0013">
+        <label>13.</label>
+        <mixed-citation publication-type="book"><collab>American Academy of Sleep Medicine</collab>. <source><italic toggle="yes">International Classification of Sleep Disorders</italic></source>. <edition>3rd</edition> ed. <publisher-name>American Academy of Sleep Medicine</publisher-name>; <year>2014</year>.</mixed-citation>
+      </ref>
+      <ref id="cit0014">
+        <label>14.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Maluly</surname><given-names>M</given-names></string-name>, <string-name><surname>Andersen</surname><given-names>ML</given-names></string-name>, <string-name><surname>Dal-Fabbro</surname><given-names>C</given-names></string-name>, et al. <article-title>Polysomnographic study of the prevalence of sleep bruxism in a population sample</article-title>. <source><italic toggle="yes">J Dent Res</italic></source>. <year>2013</year>;<volume>92</volume>:<fpage>97S</fpage>–<lpage>103S</lpage>. doi:<pub-id pub-id-type="doi">10.1177/0022034513484328</pub-id><pub-id pub-id-type="pmid">23690359</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0015">
+        <label>15.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>da Costa Lopes</surname><given-names>AJ</given-names></string-name>, <string-name><surname>Cunha</surname><given-names>TCA</given-names></string-name>, <string-name><surname>Monteiro</surname><given-names>MCM</given-names></string-name>, <string-name><surname>Serra-Negra</surname><given-names>JM</given-names></string-name>, <string-name><surname>Cabral</surname><given-names>LC</given-names></string-name>, <string-name><surname>Júnior</surname><given-names>PCS</given-names></string-name>. <article-title>Is there an association between sleep bruxism and obstructive sleep apnea syndrome? A systematic review</article-title>. <source><italic toggle="yes">Sleep Breath</italic></source>. <year>2020</year>;<volume>24</volume>:<fpage>913</fpage>–<lpage>921</lpage>. doi:<pub-id pub-id-type="doi">10.1007/s11325-019-01919-y</pub-id><pub-id pub-id-type="pmid">31628624</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0016">
+        <label>16.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Stuginski-Barbosa</surname><given-names>J</given-names></string-name>, <string-name><surname>Porporatti</surname><given-names>AL</given-names></string-name>, <string-name><surname>Costa</surname><given-names>YM</given-names></string-name>, <string-name><surname>Svensson</surname><given-names>P</given-names></string-name>, <string-name><surname>Conti</surname><given-names>PC</given-names></string-name>. <article-title>Agreement of the International Classification of Sleep Disorders Criteria with polysomnography for sleep bruxism diagnosis: a preliminary study</article-title>. <source><italic toggle="yes">J Prosthet Dent</italic></source>. <year>2017</year>;<volume>117</volume>:<fpage>61</fpage>–<lpage>66</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.prosdent.2016.01.035</pub-id><pub-id pub-id-type="pmid">27460312</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0017">
+        <label>17.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Martynowicz</surname><given-names>H</given-names></string-name>, <string-name><surname>Gac</surname><given-names>P</given-names></string-name>, <string-name><surname>Brzecka</surname><given-names>A</given-names></string-name>, et al. <article-title>The relationship between sleep bruxism and obstructive sleep apnea based on polysomnographic findings</article-title>. <source><italic toggle="yes">J Clin Med</italic></source>. <year>2019</year>;<volume>8</volume>:<fpage>1653</fpage>. doi:<pub-id pub-id-type="doi">10.3390/jcm8101653</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0018">
+        <label>18.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Akamatsu</surname><given-names>Y</given-names></string-name>, <string-name><surname>Minagi</surname><given-names>S</given-names></string-name>, <string-name><surname>Sato</surname><given-names>T</given-names></string-name>. <article-title>A new method for recording mandibular position during nocturnal bruxism</article-title>. <source><italic toggle="yes">J Oral Rehabil</italic></source>. <year>1996</year>;<volume>23</volume>:<fpage>622</fpage>–<lpage>626</lpage>. doi:<pub-id pub-id-type="doi">10.1111/j.1365-2842.1996.tb00901.x</pub-id><pub-id pub-id-type="pmid">8890063</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0019">
+        <label>19.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Minagi</surname><given-names>S</given-names></string-name>, <string-name><surname>Akamatsu</surname><given-names>Y</given-names></string-name>, <string-name><surname>Matsunaga</surname><given-names>T</given-names></string-name>, <string-name><surname>Sato</surname><given-names>T</given-names></string-name>. <article-title>Relationship between mandibular position and the coordination of masseter muscle activity during sleep in humans</article-title>. <source><italic toggle="yes">J Oral Rehabil</italic></source>. <year>1998</year>;<volume>25</volume>:<fpage>902</fpage>–<lpage>907</lpage>. doi:<pub-id pub-id-type="doi">10.1046/j.1365-2842.1998.00335.x</pub-id><pub-id pub-id-type="pmid">9888224</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0020">
+        <label>20.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Martinot</surname><given-names>JB</given-names></string-name>, <string-name><surname>Le-Dong</surname><given-names>NN</given-names></string-name>, <string-name><surname>Cuthbert</surname><given-names>V</given-names></string-name>, et al. <article-title>Mandibular movements as accurate reporters of respiratory effort during sleep: validation against diaphragmatic electromyography</article-title>. <source><italic toggle="yes">Front Neurol</italic></source>. <year>2017</year>;<volume>8</volume>:<fpage>353</fpage>. doi:<pub-id pub-id-type="doi">10.3389/fneur.2017.00353</pub-id><pub-id pub-id-type="pmid">28785240</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0021">
+        <label>21.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Martinot</surname><given-names>JB</given-names></string-name>, <string-name><surname>Le-Dong</surname><given-names>NN</given-names></string-name>, <string-name><surname>Cuthbert</surname><given-names>V</given-names></string-name>, <string-name><surname>Denison</surname><given-names>S</given-names></string-name>, <string-name><surname>Pepin</surname><given-names>JL</given-names></string-name>. <article-title>Mandibular movement monitoring with artificial intelligence analysis for the diagnosis of sleep bruxism</article-title>. <source><italic toggle="yes">Sleep</italic></source>. <year>2020</year>;<volume>43</volume>:<fpage>A301</fpage>–<lpage>A302</lpage>. doi:<pub-id pub-id-type="doi">10.1093/sleep/zsaa056.788</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0022">
+        <label>22.</label>
+        <mixed-citation publication-type="web">Berry RB, Brooks R, Gamaldo C, et al. <article-title>AASM scoring manual updates for 2017 (Version 2.4)</article-title>. <italic>J Clin Sleep Med</italic>. 2017;13(5):665–666. doi:<pub-id pub-id-type="doi">10.5664/jcsm.6576</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0023">
+        <label>23.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Berry</surname><given-names>RB</given-names></string-name>, <string-name><surname>Budhiraja</surname><given-names>R</given-names></string-name>, <string-name><surname>Gottlieb</surname><given-names>DJ</given-names></string-name>, et al. <article-title>Rules for scoring respiratory events in sleep: update of the 2007 AASM manual for the scoring of sleep and associated events. Deliberations of the sleep apnea definitions task force of the American Academy of Sleep Medicine</article-title>. <source><italic toggle="yes">J Clin Sleep Med</italic></source>. <year>2012</year>;<volume>8</volume>:<fpage>597</fpage>–<lpage>619</lpage>. doi:<pub-id pub-id-type="doi">10.5664/jcsm.2172</pub-id><pub-id pub-id-type="pmid">23066376</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0024">
+        <label>24.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Berry</surname><given-names>RB</given-names></string-name>, <string-name><surname>Brooks</surname><given-names>R</given-names></string-name>, <string-name><surname>Gamaldo</surname><given-names>C</given-names></string-name>, et al. <article-title>AASM scoring manual updates for 2017 (Version 2.4)</article-title>. <source><italic toggle="yes">J Clin Sleep Med</italic></source>. <year>2017</year>;<volume>13</volume>:<fpage>665</fpage>–<lpage>666</lpage>. doi:<pub-id pub-id-type="doi">10.5664/jcsm.6576</pub-id><pub-id pub-id-type="pmid">28416048</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0025">
+        <label>25.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Yoshida</surname><given-names>Y</given-names></string-name>, <string-name><surname>Suganuma</surname><given-names>T</given-names></string-name>, <string-name><surname>Takaba</surname><given-names>M</given-names></string-name>, et al. <article-title>Association between patterns of jaw motor activity during sleep and clinical signs and symptoms of sleep bruxism</article-title>. <source><italic toggle="yes">J Sleep Res</italic></source>. <year>2017</year>;<volume>26</volume>(<issue>4</issue>):<fpage>415</fpage>–<lpage>421</lpage>. doi:<pub-id pub-id-type="doi">10.1111/jsr.12481</pub-id><pub-id pub-id-type="pmid">27996170</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0026">
+        <label>26.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Hollowell</surname><given-names>DE</given-names></string-name>, <string-name><surname>Suratt</surname><given-names>PM</given-names></string-name>. <article-title>Mandible position and activation of submental and masseter muscles during sleep</article-title>. <source><italic toggle="yes">J Appl Physiol</italic></source>. <year>1991</year>;<volume>71</volume>:<fpage>2267</fpage>–<lpage>2273</lpage>. doi:<pub-id pub-id-type="doi">10.1152/jappl.1991.71.6.2267</pub-id><pub-id pub-id-type="pmid">1778922</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0027">
+        <label>27.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Martinot</surname><given-names>JB</given-names></string-name>, <string-name><surname>Le-Dong</surname><given-names>NN</given-names></string-name>, <string-name><surname>Cuthbert</surname><given-names>V</given-names></string-name>, et al. <article-title>The key role of the mandible in modulating airflow amplitude during sleep</article-title>. <source><italic toggle="yes">Respir Physiol Neurobiol</italic></source>. <year>2020</year>;<volume>279</volume>:<fpage>103447</fpage>. doi:<pub-id pub-id-type="doi">10.1016/j.resp.2020.103447</pub-id><pub-id pub-id-type="pmid">32416331</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0028">
+        <label>28.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Martinot</surname><given-names>JB</given-names></string-name>, <string-name><surname>Borel</surname><given-names>JC</given-names></string-name>, <string-name><surname>Le-Dong</surname><given-names>NN</given-names></string-name>, et al. <article-title>Bruxism relieved under CPAP treatment in a patient with OSA syndrome</article-title>. <source><italic toggle="yes">Chest</italic></source>. <year>2020</year>;<volume>157</volume>:<fpage>e59</fpage>–<lpage>e62</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.chest.2019.07.032</pub-id><pub-id pub-id-type="pmid">32145817</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0029">
+        <label>29.</label>
+        <mixed-citation publication-type="book"><collab>Python Core Team</collab>. <article-title>Python: a dynamic open-source programming language</article-title>. <publisher-name>Python Softward Foundation</publisher-name>; <year>2019</year>. <comment>Available from:</comment><ext-link ext-link-type="uri" xlink:href="https://www.python.org/">https://www.python.org/</ext-link>. <date-in-citation>Accessed <month>11</month><day>18</day>, 2020.</date-in-citation></mixed-citation>
+      </ref>
+      <ref id="cit0030">
+        <label>30.</label>
+        <mixed-citation publication-type="web">McInnes L, Healy J, Melville J. UMAP: <article-title>Uniform manifold approximation and projection for dimension reduction</article-title>. arXiv:1802.03426; 2018. Available from:  <ext-link ext-link-type="uri" xlink:href="https://arxiv.org/abs/1802.03426">https://arxiv.org/abs/1802.03426</ext-link>. <date-in-citation>Accessed <month>8</month><day>10</day>, 2021</date-in-citation>.</mixed-citation>
+      </ref>
+      <ref id="cit0031">
+        <label>31.</label>
+        <mixed-citation publication-type="book">Chen T, Guestrin C. XGBoost: A Scalable Tree Boosting System. 22nd SIGKDD Conference on Knowledge Discovery and Data Mining. 2016;785–794. Available from: <ext-link ext-link-type="uri" xlink:href="https://pypi.org/project/xgboost/">https://pypi.org/project/xgboost/</ext-link>. doi:<pub-id pub-id-type="doi">10.1145/2939672.2939785</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0032">
+        <label>32.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Stuginski-Barbosa</surname><given-names>J</given-names></string-name>, <string-name><surname>Porporatti</surname><given-names>AL</given-names></string-name>, <string-name><surname>Costa</surname><given-names>YM</given-names></string-name>, <string-name><surname>Svensson</surname><given-names>P</given-names></string-name>, <string-name><surname>Conti</surname><given-names>PC</given-names></string-name>. <article-title>Diagnostic validity of the use of a portable single-channel electromyography device for sleep bruxism</article-title>. <source><italic toggle="yes">Sleep Breath</italic></source>. <year>2016</year>;<volume>20</volume>:<fpage>695</fpage>–<lpage>702</lpage>. doi:<pub-id pub-id-type="doi">10.1007/s11325-015-1283-y</pub-id><pub-id pub-id-type="pmid">26527206</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0033">
+        <label>33.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Manfredini</surname><given-names>D</given-names></string-name>, <string-name><surname>Ahlberg</surname><given-names>J</given-names></string-name>, <string-name><surname>Castroflorio</surname><given-names>T</given-names></string-name>, <string-name><surname>Poggio</surname><given-names>CE</given-names></string-name>, <string-name><surname>Guarda-Nardini</surname><given-names>L</given-names></string-name>, <string-name><surname>Lobbezoo</surname><given-names>F</given-names></string-name>. <article-title>Diagnostic accuracy of portable instrumental devices to measure sleep bruxism: a systematic literature review of polysomnographic studies</article-title>. <source><italic toggle="yes">J Oral Rehabil</italic></source>. <year>2014</year>;<volume>41</volume>:<fpage>836</fpage>–<lpage>842</lpage>. doi:<pub-id pub-id-type="doi">10.1111/joor.12207</pub-id><pub-id pub-id-type="pmid">25040303</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0034">
+        <label>34.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Hublin</surname><given-names>C</given-names></string-name>, <string-name><surname>Kaprio</surname><given-names>J</given-names></string-name>, <string-name><surname>Partinen</surname><given-names>M</given-names></string-name>, <string-name><surname>Koskenvuo</surname><given-names>M</given-names></string-name>. <article-title>Sleep bruxism based on self-report in a nationwide twin cohort</article-title>. <source><italic toggle="yes">J Sleep Res</italic></source>. <year>1998</year>;<volume>7</volume>:<fpage>61</fpage>–<lpage>67</lpage>. doi:<pub-id pub-id-type="doi">10.1046/j.1365-2869.1998.00091.x</pub-id><pub-id pub-id-type="pmid">9613429</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0035">
+        <label>35.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Tan</surname><given-names>MWY</given-names></string-name>, <string-name><surname>Yap</surname><given-names>AU</given-names></string-name>, <string-name><surname>Chua</surname><given-names>AP</given-names></string-name>, <string-name><surname>Wong</surname><given-names>JCM</given-names></string-name>, <string-name><surname>Parot</surname><given-names>MVJ</given-names></string-name>, <string-name><surname>Tan</surname><given-names>KBC</given-names></string-name>. <article-title>Prevalence of sleep bruxism and its association with obstructive sleep apnea in adult patients: a retrospective polysomnographic investigation</article-title>. <source><italic toggle="yes">J Oral Facial Pain Headache</italic></source>. <year>2019</year>;<volume>33</volume>:<fpage>269</fpage>–<lpage>277</lpage>. doi:<pub-id pub-id-type="doi">10.11607/ofph.2068</pub-id><pub-id pub-id-type="pmid">30371687</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0036">
+        <label>36.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Maluly</surname><given-names>M</given-names></string-name>, <string-name><surname>Dal Fabbro</surname><given-names>C</given-names></string-name>, <string-name><surname>Andersen</surname><given-names>ML</given-names></string-name>, <string-name><surname>Herrero Babiloni</surname><given-names>A</given-names></string-name>, <string-name><surname>Lavigne</surname><given-names>GJ</given-names></string-name>, <string-name><surname>Tufik</surname><given-names>S</given-names></string-name>. <article-title>Sleep bruxism and its associations with insomnia and OSA in the general population of Sao Paulo</article-title>. <source><italic toggle="yes">Sleep Med</italic></source>. <year>2020</year>;<volume>75</volume>:<fpage>141</fpage>–<lpage>148</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.sleep.2020.06.016</pub-id><pub-id pub-id-type="pmid">32858352</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0037">
+        <label>37.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Abe</surname><given-names>S</given-names></string-name>, <string-name><surname>Gagnon</surname><given-names>JF</given-names></string-name>, <string-name><surname>Montplaisir</surname><given-names>JY</given-names></string-name>, et al. <article-title>Sleep bruxism and oromandibular myoclonus in rapid eye movement sleep behavior disorder: a preliminary report</article-title>. <source><italic toggle="yes">Sleep Med</italic></source>. <year>2013</year>;<volume>14</volume>:<fpage>1024</fpage>–<lpage>1030</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.sleep.2013.04.021</pub-id><pub-id pub-id-type="pmid">23953215</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0038">
+        <label>38.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Bonnet</surname><given-names>M</given-names></string-name>, <string-name><surname>Carley</surname><given-names>D</given-names></string-name>, <string-name><surname>Carskadon</surname><given-names>M</given-names></string-name>, et al. <article-title>EEG arousals: scoring rules and examples: a preliminary report from the Sleep Disorders Atlas Task Force of the American Sleep Disorders Association</article-title>. <source><italic toggle="yes">Sleep</italic></source>. <year>1992</year>;<volume>15</volume>:<fpage>173</fpage>–<lpage>184</lpage>.<pub-id pub-id-type="pmid">11032543</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0039">
+        <label>39.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Carra</surname><given-names>MC</given-names></string-name>, <string-name><surname>Huynh</surname><given-names>N</given-names></string-name>, <string-name><surname>Lavigne</surname><given-names>GJ</given-names></string-name>. <article-title>Diagnostic accuracy of sleep bruxism scoring in absence of audio-video recording: a pilot study</article-title>. <source><italic toggle="yes">Sleep Breath</italic></source>. <year>2015</year>;<volume>19</volume>:<fpage>183</fpage>–<lpage>190</lpage>. doi:<pub-id pub-id-type="doi">10.1007/s11325-014-0986-9</pub-id><pub-id pub-id-type="pmid">24792778</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0040">
+        <label>40.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Dutra</surname><given-names>KM</given-names></string-name>, <string-name><surname>Pereira</surname><given-names>FJ</given-names><suffix>Jr</suffix></string-name>, <string-name><surname>Rompré</surname><given-names>PH</given-names></string-name>, <string-name><surname>Huynh</surname><given-names>N</given-names></string-name>, <string-name><surname>Fleming</surname><given-names>N</given-names></string-name>, <string-name><surname>Lavigne</surname><given-names>GJ</given-names></string-name>. <article-title>Oro-facial activities in sleep bruxism patients and in normal subjects: a controlled polygraphic and audio-video study</article-title>. <source><italic toggle="yes">J Oral Rehabil</italic></source>. <year>2009</year>;<volume>36</volume>:<fpage>86</fpage>–<lpage>92</lpage>. doi:<pub-id pub-id-type="doi">10.1111/j.1365-2842.2008.01912.x</pub-id><pub-id pub-id-type="pmid">18976258</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0041">
+        <label>41.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Mainieri</surname><given-names>VC</given-names></string-name>, <string-name><surname>Saueressig</surname><given-names>AC</given-names></string-name>, <string-name><surname>Pattussi</surname><given-names>MP</given-names></string-name>, <string-name><surname>Fagondes</surname><given-names>SC</given-names></string-name>, <string-name><surname>Grossi</surname><given-names>ML</given-names></string-name>. <article-title>Validation of the Bitestrip versus polysomnography in the diagnosis of patients with a clinical history of sleep bruxism</article-title>. <source><italic toggle="yes">Oral Surg Oral Med Oral Pathol Oral Radiol</italic></source>. <year>2012</year>;<volume>113</volume>:<fpage>612</fpage>–<lpage>617</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.oooo.2011.10.008</pub-id><pub-id pub-id-type="pmid">22668619</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0042">
+        <label>42.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Saczuk</surname><given-names>K</given-names></string-name>, <string-name><surname>Lapinska</surname><given-names>B</given-names></string-name>, <string-name><surname>Wilmont</surname><given-names>P</given-names></string-name>, <string-name><surname>Pawlak</surname><given-names>L</given-names></string-name>, <string-name><surname>Lukomska-Szymanska</surname><given-names>M</given-names></string-name>. <article-title>The Bruxoff device as a screening method for sleep bruxism in dental practice</article-title>. <source><italic toggle="yes">J Clin Med</italic></source>. <year>2019</year>;<volume>8</volume>(<issue>7</issue>):<fpage>930</fpage>. doi:<pub-id pub-id-type="doi">10.3390/jcm8070930</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0043">
+        <label>43.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Shochat</surname><given-names>T</given-names></string-name>, <string-name><surname>Gavish</surname><given-names>A</given-names></string-name>, <string-name><surname>Arons</surname><given-names>E</given-names></string-name>, et al. <article-title>Validation of the BiteStrip screener for sleep bruxism</article-title>. <source><italic toggle="yes">Oral Surg Oral Med Oral Pathol Oral Radiol Endod</italic></source>. <year>2007</year>;<volume>104</volume>(<issue>3</issue>):<fpage>e32</fpage>–<lpage>9</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.tripleo.2007.03.009</pub-id><pub-id pub-id-type="pmid">17618147</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0044">
+        <label>44.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Lavigne</surname><given-names>GJ</given-names></string-name>, <string-name><surname>Kato</surname><given-names>T</given-names></string-name>, <string-name><surname>Kolta</surname><given-names>A</given-names></string-name>, <string-name><surname>Sessle</surname><given-names>BJ</given-names></string-name>. <article-title>Neurobiological mechanisms involved in sleep bruxism</article-title>. <source><italic toggle="yes">Crit Rev Oral Biol Med</italic></source>. <year>2003</year>;<volume>14</volume>:<fpage>30</fpage>–<lpage>46</lpage>. doi:<pub-id pub-id-type="doi">10.1177/154411130301400104</pub-id><pub-id pub-id-type="pmid">12764018</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0045">
+        <label>45.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Yamada</surname><given-names>Y</given-names></string-name>, <string-name><surname>Uchida</surname><given-names>K</given-names></string-name>, <string-name><surname>Sato</surname><given-names>T</given-names></string-name>. <article-title>Mandibular movement trajectories and masticatory muscle activities in the rabbit in the sleep and wake states</article-title>. <source><italic toggle="yes">Dent Jpn (Tokyo)</italic></source>. <year>1990</year>;<volume>27</volume>:<fpage>35</fpage>–<lpage>39</lpage>.<pub-id pub-id-type="pmid">2099289</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0046">
+        <label>46.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Yao</surname><given-names>D</given-names></string-name>, <string-name><surname>Lavigne</surname><given-names>GJ</given-names></string-name>, <string-name><surname>Lee</surname><given-names>JC</given-names></string-name>, <string-name><surname>Adachi</surname><given-names>K</given-names></string-name>, <string-name><surname>Sessle</surname><given-names>BJ</given-names></string-name>. <article-title>Jaw-opening reflex and corticobulbar motor excitability changes during quiet sleep in non-human primates</article-title>. <source><italic toggle="yes">Sleep</italic></source>. <year>2013</year>;<volume>36</volume>:<fpage>269</fpage>–<lpage>280</lpage>. doi:<pub-id pub-id-type="doi">10.5665/sleep.2388</pub-id><pub-id pub-id-type="pmid">23372275</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0047">
+        <label>47.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Kim</surname><given-names>J</given-names></string-name>, <string-name><surname>McAuliffe</surname><given-names>P</given-names></string-name>, <string-name><surname>O’Connell</surname><given-names>B</given-names></string-name>, <string-name><surname>Diamond</surname><given-names>D</given-names></string-name>, <string-name><surname>Lau</surname><given-names>K</given-names></string-name>. <article-title>Development of wireless bruxism monitoring device based on pressure-sensitive polymer composite</article-title>. <source><italic toggle="yes">Sens Actuators A Phys</italic></source>. <year>2010</year>;<volume>163</volume>:<fpage>486</fpage>–<lpage>492</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.sna.2010.08.033</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0048">
+        <label>48.</label>
+        <mixed-citation publication-type="confproc"><string-name><surname>Kim</surname><given-names>JH</given-names></string-name>, <string-name><surname>McAuliffe</surname><given-names>P</given-names></string-name>, <string-name><surname>O’Connell</surname><given-names>B</given-names></string-name>, <string-name><surname>Diamond</surname><given-names>D</given-names></string-name>, <string-name><surname>Lau</surname><given-names>KT</given-names></string-name><article-title>Development of a wireless autonomous bruxism monitoring device</article-title>. <conf-name>Presented at Biosignal 2010 – 20th Biennial International EURASIP conference</conf-name>; <month>6</month><day>27–29</day>, <year>2010</year>; <conf-loc>Brno, Czech Republic</conf-loc>. <comment>Available from:</comment><ext-link ext-link-type="uri" xlink:href="http://doras.dcu.ie/15380/2/Biosignal_full_paper.pdf">http://doras.dcu.ie/15380/2/Biosignal_full_paper.pdf</ext-link>. <date-in-citation>Accessed <month>11</month><day>18</day>, 2020</date-in-citation>.</mixed-citation>
+      </ref>
+      <ref id="cit0049">
+        <label>49.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Kostka</surname><given-names>PS</given-names></string-name>, <string-name><surname>Tkacz</surname><given-names>EJ</given-names></string-name>. <article-title>Multi-sources data analysis with sympatho-vagal balance estimation toward early bruxism episodes detection</article-title>. <source><italic toggle="yes">Annu Int Conf IEEE Eng Med Biol Soc</italic></source>. <year>2015</year>;<volume>2015</volume>:<fpage>6010</fpage>–<lpage>6013</lpage>.<pub-id pub-id-type="pmid">26737661</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0050">
+        <label>50.</label>
+        <mixed-citation publication-type="confproc"><string-name><surname>Morgado</surname><given-names>P</given-names></string-name>, <string-name><surname>Lantada</surname><given-names>A</given-names></string-name>, <string-name><surname>Alvarez</surname><given-names>A</given-names></string-name>, et al. <article-title>Instrumented splint for the diagnosis of bruxism</article-title>. <conf-name>International Conference on Biomedical Electronics and Devices BIODEVICES, January 28, 2008–January 31, 2008</conf-name>; <year>2008</year>; <conf-loc>Madeira, Portugal</conf-loc>.</mixed-citation>
+      </ref>
+      <ref id="cit0051">
+        <label>51.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Yoshimi</surname><given-names>H</given-names></string-name>, <string-name><surname>Sasaguri</surname><given-names>K</given-names></string-name>, <string-name><surname>Tamaki</surname><given-names>K</given-names></string-name>, <string-name><surname>Sato</surname><given-names>S</given-names></string-name>. <article-title>Identification of the occurrence and pattern of masseter muscle activities during sleep using EMG and accelerometer systems</article-title>. <source><italic toggle="yes">Head Face Med</italic></source>. <year>2009</year>;<volume>5</volume>:<fpage>7</fpage>. doi:<pub-id pub-id-type="doi">10.1186/1746-160X-5-7</pub-id><pub-id pub-id-type="pmid">19208264</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0052">
+        <label>52.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Heyat</surname><given-names>MBB</given-names></string-name>, <string-name><surname>Lai</surname><given-names>D</given-names></string-name>, <string-name><surname>Khan</surname><given-names>FI</given-names></string-name>, <string-name><surname>Zhang</surname><given-names>Y</given-names></string-name>. <article-title>Sleep bruxism detection using decision tree method by the combination of C4-P4 and C4-A1 channels of scalp EEG</article-title>. <source><italic toggle="yes">IEEE Access</italic></source>. <year>2019</year>;<volume>7</volume>:<fpage>102542</fpage>–<lpage>102553</lpage>. doi:<pub-id pub-id-type="doi">10.1109/ACCESS.2019.2928020</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0053">
+        <label>53.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Pépin</surname><given-names>JL</given-names></string-name>, <string-name><surname>Letesson</surname><given-names>C</given-names></string-name>, <string-name><surname>Le-Dong</surname><given-names>NN</given-names></string-name>, et al. <article-title>Assessment of mandibular movement monitoring with machine learning analysis for the diagnosis of obstructive sleep apnea</article-title>. <source><italic toggle="yes">JAMA Netw Open</italic></source>. <year>2020</year>;<volume>3</volume>:<fpage>e1919657</fpage>. doi:<pub-id pub-id-type="doi">10.1001/jamanetworkopen.2019.19657</pub-id><pub-id pub-id-type="pmid">31968116</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0054">
+        <label>54.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Oksenberg</surname><given-names>A</given-names></string-name>, <string-name><surname>Arons</surname><given-names>E</given-names></string-name>. <article-title>Sleep bruxism related to obstructive sleep apnea: the effect of continuous positive airway pressure</article-title>. <source><italic toggle="yes">Sleep Med</italic></source>. <year>2002</year>;<volume>3</volume>:<fpage>513</fpage>–<lpage>515</lpage>. doi:<pub-id pub-id-type="doi">10.1016/S1389-9457(02)00130-2</pub-id><pub-id pub-id-type="pmid">14592147</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0055">
+        <label>55.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Winck</surname><given-names>M</given-names></string-name>, <string-name><surname>Drummond</surname><given-names>M</given-names></string-name>, <string-name><surname>Viana</surname><given-names>P</given-names></string-name>, <string-name><surname>Pinho</surname><given-names>JC</given-names></string-name>, <string-name><surname>Winck</surname><given-names>JC</given-names></string-name>. <article-title>Sleep bruxism associated with obstructive sleep apnoea syndrome - A pilot study using a new portable device</article-title>. <source><italic toggle="yes">Rev Port Pneumol</italic></source>. <year>2017</year>;<volume>23</volume>:<fpage>22</fpage>–<lpage>26</lpage>.<pub-id pub-id-type="pmid">27567051</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0056">
+        <label>56.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Rosenberg</surname><given-names>RS</given-names></string-name>, <string-name><surname>Van Hout</surname><given-names>S</given-names></string-name>. <article-title>The American Academy of sleep medicine inter-scorer reliability program: sleep stage scoring</article-title>. <source><italic toggle="yes">J Clin Sleep Med</italic></source>. <year>2013</year>;<volume>9</volume>(<issue>01</issue>):<fpage>81</fpage>–<lpage>87</lpage>. doi:<pub-id pub-id-type="doi">10.5664/jcsm.2350</pub-id><pub-id pub-id-type="pmid">23319910</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0057">
+        <label>57.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Yoshizawa</surname><given-names>S</given-names></string-name>, <string-name><surname>Suganuma</surname><given-names>T</given-names></string-name>, <string-name><surname>Takaba</surname><given-names>M</given-names></string-name>, et al. <article-title>Phasic jaw motor episodes in healthy subjects with or without clinical signs and symptoms of sleep bruxism: a pilot study</article-title>. <source><italic toggle="yes">Sleep Breath</italic></source>. <year>2014</year>;<volume>18</volume>:<fpage>187</fpage>–<lpage>193</lpage>. doi:<pub-id pub-id-type="doi">10.1007/s11325-013-0868-6</pub-id><pub-id pub-id-type="pmid">23775827</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0058">
+        <label>58.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Smardz</surname><given-names>J</given-names></string-name>, <string-name><surname>Martynowicz</surname><given-names>H</given-names></string-name>, <string-name><surname>Michalek-Zrabkowska</surname><given-names>M</given-names></string-name>, et al. <article-title>Sleep bruxism and occurrence of temporomandibular disorders-related pain: a polysomnographic study</article-title>. <source><italic toggle="yes">Front Neurol</italic></source>. <year>2019</year>;<volume>10</volume>:<fpage>168</fpage>. doi:<pub-id pub-id-type="doi">10.3389/fneur.2019.00168</pub-id><pub-id pub-id-type="pmid">30915015</pub-id></mixed-citation>
+      </ref>
+    </ref-list>
+  </back>
+</article>
+</pmc-articleset>

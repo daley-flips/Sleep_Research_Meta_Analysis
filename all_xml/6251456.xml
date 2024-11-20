@@ -1,0 +1,2040 @@
+<pmc-articleset><article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="research-article">
+  <?properties open_access?>
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="nlm-ta">Nat Sci Sleep</journal-id>
+      <journal-id journal-id-type="iso-abbrev">Nat Sci Sleep</journal-id>
+      <journal-id journal-id-type="publisher-id">Nature and Science of Sleep</journal-id>
+      <journal-title-group>
+        <journal-title>Nature and Science of Sleep</journal-title>
+      </journal-title-group>
+      <issn pub-type="epub">1179-1608</issn>
+      <publisher>
+        <publisher-name>Dove Medical Press</publisher-name>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="pmid">30538591</article-id>
+      <article-id pub-id-type="pmc">6251456</article-id>
+      <article-id pub-id-type="doi">10.2147/NSS.S175998</article-id>
+      <article-id pub-id-type="publisher-id">nss-10-385</article-id>
+      <article-categories>
+        <subj-group subj-group-type="heading">
+          <subject>Original Research</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>A novel in-ear sensor to determine sleep latency during the Multiple Sleep Latency Test in healthy adults with and without sleep restriction</article-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Alqurashi</surname>
+            <given-names>Yousef D</given-names>
+          </name>
+          <xref ref-type="aff" rid="af1-nss-10-385">1</xref>
+          <xref ref-type="aff" rid="af2-nss-10-385">2</xref>
+          <xref ref-type="corresp" rid="c1-nss-10-385"/>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Nakamura</surname>
+            <given-names>Takashi</given-names>
+          </name>
+          <xref ref-type="aff" rid="af3-nss-10-385">3</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Goverdovsky</surname>
+            <given-names>Valentin</given-names>
+          </name>
+          <xref ref-type="aff" rid="af3-nss-10-385">3</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Moss</surname>
+            <given-names>James</given-names>
+          </name>
+          <xref ref-type="aff" rid="af1-nss-10-385">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Polkey</surname>
+            <given-names>Michael I</given-names>
+          </name>
+          <xref ref-type="aff" rid="af4-nss-10-385">4</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Mandic</surname>
+            <given-names>Danilo P</given-names>
+          </name>
+          <xref ref-type="aff" rid="af3-nss-10-385">3</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Morrell</surname>
+            <given-names>Mary J</given-names>
+          </name>
+          <xref ref-type="aff" rid="af1-nss-10-385">1</xref>
+          <xref ref-type="aff" rid="af4-nss-10-385">4</xref>
+        </contrib>
+      </contrib-group>
+      <aff id="af1-nss-10-385">
+<label>1</label>Sleep and Ventilation Unit, Royal Brompton Campus, National Heart and Lung Institute, Imperial College, London, UK, <email>y.alqurashi15@imperial.ac.uk</email></aff>
+      <aff id="af2-nss-10-385">
+<label>2</label>Respiratory Care Department, Imam Abdulrahman Bin Faisal University, Dammam, Saudi Arabia, <email>y.alqurashi15@imperial.ac.uk</email></aff>
+      <aff id="af3-nss-10-385">
+<label>3</label>Department of Electrical and Electronic Engineering, Communications and Signal Processing Group, Imperial College, London, UK</aff>
+      <aff id="af4-nss-10-385">
+<label>4</label>National Institute for Health Research, Respiratory Disease Biomedical Research Unit at the Royal Brompton and Harefield National Health Service Foundation Trust and Imperial College, London, UK</aff>
+      <author-notes>
+        <corresp id="c1-nss-10-385">Correspondence: Yousef D Alqurashi, Sleep and Ventilation Unit, Royal Brompton Campus, National Heart and Lung Institute, Imperial College London SW3 6NP, UK, Email <email>y.alqurashi15@imperial.ac.uk</email></corresp>
+      </author-notes>
+      <pub-date pub-type="collection">
+        <year>2018</year>
+      </pub-date>
+      <pub-date pub-type="epub">
+        <day>19</day>
+        <month>11</month>
+        <year>2018</year>
+      </pub-date>
+      <volume>10</volume>
+      <fpage>385</fpage>
+      <lpage>396</lpage>
+      <permissions>
+        <copyright-statement>© 2018 Alqurashi et al. This work is published and licensed by Dove Medical Press Limited</copyright-statement>
+        <copyright-year>2018</copyright-year>
+        <license>
+          <license-p>The full terms of this license are available at <ext-link ext-link-type="uri" xlink:href="https://www.dovepress.com/terms.php">https://www.dovepress.com/terms.php</ext-link> and incorporate the Creative Commons Attribution – Non Commercial (unported, v3.0) License (<ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by-nc/3.0/">http://creativecommons.org/licenses/by-nc/3.0/</ext-link>). By accessing the work you hereby accept the Terms. Non-commercial uses of the work are permitted without any further permission from Dove Medical Press Limited, provided the work is properly attributed.</license-p>
+        </license>
+      </permissions>
+      <abstract>
+        <sec>
+          <title>Objectives</title>
+          <p>Detecting sleep latency during the Multiple Sleep Latency Test (MSLT) using electroencephalogram (scalp-EEG) is time-consuming. The aim of this study was to evaluate the efficacy of a novel in-ear sensor (in-ear EEG) to detect the sleep latency, compared to scalp-EEG, during MSLT in healthy adults, with and without sleep restriction.</p>
+        </sec>
+        <sec>
+          <title>Methods</title>
+          <p>We recruited 25 healthy adults (28.5±5.3 years) who participated in two MSLTs with simultaneous recording of scalp and in-ear EEG. Each test followed a randomly assigned sleep restriction (≤5 hours sleep) or usual night sleep (≥7 hours sleep). Reaction time and Stroop test were used to assess the functional impact of the sleep restriction. The EEGs were scored blind to the mode of measurement and study conditions, using American Academy of Sleep Medicine 2012 criteria. The Agreement between the scalp and in-ear EEG was assessed using Bland-Altman analysis.</p>
+        </sec>
+        <sec>
+          <title>Results</title>
+          <p>Technically acceptable data were obtained from 23 adults during 69 out of 92 naps in the sleep restriction condition and 25 adults during 85 out of 100 naps in the usual night sleep. Meaningful sleep restrictions were confirmed by an increase in the reaction time (mean ± SD: 238±30 ms vs 228±27 ms; <italic>P</italic>=0.045). In the sleep restriction condition, the in-ear EEG exhibited a sensitivity of 0.93 and specificity of 0.80 for detecting sleep latency, with a substantial agreement (κ<italic>=</italic>0.71), whereas after the usual night’s sleep, the in-ear EEG exhibited a sensitivity of 0.91 and specificity of 0.89, again with a substantial agreement (κ<italic>=</italic>0.79).</p>
+        </sec>
+        <sec>
+          <title>Conclusion</title>
+          <p>The in-ear sensor was able to detect reduced sleep latency following sleep restriction, which was sufficient to impair both the reaction time and cognitive function. Substantial agreement was observed between the scalp and in-ear EEG when measuring sleep latency. This new in-ear EEG technology is shown to have a significant value as a convenient measure for sleep latency.</p>
+        </sec>
+      </abstract>
+      <kwd-group>
+        <title>Keywords</title>
+        <kwd>electroencephalography</kwd>
+        <kwd>in-ear EEG</kwd>
+        <kwd>multiple sleep latency test</kwd>
+        <kwd>excessive daytime sleepiness</kwd>
+        <kwd>sleep onset</kwd>
+        <kwd>sleep restriction</kwd>
+      </kwd-group>
+    </article-meta>
+  </front>
+  <body>
+    <sec sec-type="intro">
+      <title>Introduction</title>
+      <p>Excessive daytime sleepiness (EDS) is a common problem affecting ~12% of the general population.<xref rid="b1-nss-10-385" ref-type="bibr">1</xref>–<xref rid="b3-nss-10-385" ref-type="bibr">3</xref> The causes of EDS include both primary sleep disorders and secondary medical conditions that disrupt sleep, eg, those causing pain. In addition, poor sleep habits, whether chosen by the patient or imposed by occupational circumstances, can cause EDS. The consequences of EDS also vary widely, ranging from underperformance at school in the young population, to fatal road traffic accidents (RTAs) in adults. A recent Cochrane Review suggested that EDS is associated with school absenteeism and poor academic performance.<xref rid="b4-nss-10-385" ref-type="bibr">4</xref> Among drivers, EDS is thought to be a contributing factor in 5%–7% of all RTAs.<xref rid="b5-nss-10-385" ref-type="bibr">5</xref>,<xref rid="b6-nss-10-385" ref-type="bibr">6</xref> For example, in the USA only, RTAs due to sleep or drowsiness while driving was reported to result in 8,952 deaths and 220,000 serious injuries between 2004 and 2013.<xref rid="b7-nss-10-385" ref-type="bibr">7</xref> Similar underperformance and accidents issues arise among other occupations too. Reis et al<xref rid="b8-nss-10-385" ref-type="bibr">8</xref> have shown that the prevalence of EDS among pilots was around 60%<xref rid="b8-nss-10-385" ref-type="bibr">8</xref> and Cotrim et al<xref rid="b9-nss-10-385" ref-type="bibr">9</xref> found that EDS was highly prevalent among train drivers, peaking at 72% during night shifts.</p>
+      <p>Currently, evaluation of EDS in real-world situations is limited to subjective measures of sleepiness, with objective tests, such as the Multiple Sleep Latency Test (MSLT) and the Maintenance of Wakefulness Test (MWT), mainly being undertaken in a sleep laboratory.<xref rid="b10-nss-10-385" ref-type="bibr">10</xref>–<xref rid="b12-nss-10-385" ref-type="bibr">12</xref> In both these tests, the electroencephalography (EEG) recorded from the scalp (scalp-EEG) is used to detect sleep latency, a standard measure of sleepiness. They are the standard diagnostic tests for patients with hypersomnia of central origins such as narcolepsy. However, neither the MSLT nor the MWT has achieved universal acceptance because they require patients to stay in the laboratory for the whole day; this renders the investigation inconvenient, relatively costly and not representative of real-world situations. A common subjective measure of sleepiness is the Epworth Sleepiness Scale (ESS)<xref rid="b13-nss-10-385" ref-type="bibr">13</xref> which has been used extensively in many countries.<xref rid="b14-nss-10-385" ref-type="bibr">14</xref>–<xref rid="b26-nss-10-385" ref-type="bibr">26</xref> However, ESS is known to be poorly correlated with objective measures of sleepiness<xref rid="b27-nss-10-385" ref-type="bibr">27</xref> and functional outcomes.<xref rid="b28-nss-10-385" ref-type="bibr">28</xref> Therefore, the development of a robust, non-invasive, wearable EEG-based method for detecting sleep latency could be of significant value to facilitate the measurement and understanding of EDS.</p>
+      <p>Our group have previously reported a wearable sensor that measures EEG from the external auditory meatus (in-ear EEG).<xref rid="b29-nss-10-385" ref-type="bibr">29</xref>,<xref rid="b30-nss-10-385" ref-type="bibr">30</xref> In preliminary studies, we have shown that the in-ear EEG can be used to detect slow wave sleep during short sleep studies (&lt;1 hour) in four healthy adults.<xref rid="b31-nss-10-385" ref-type="bibr">31</xref> The aim of the present study was to evaluate the efficacy of the in-ear EEG to detect sleep latency during MSLT in healthy adults. We have tested the hypothesis that the in-ear EEG was not inferior to the scalp-EEG to detect sleep latency during MSLT. For robustness, we have used the intervention of voluntary sleep restriction and confirmed that this was a stimulus of appropriate magnitude by measuring reaction time and cognitive impairment associated with our sleep restriction intervention.</p>
+    </sec>
+    <sec sec-type="methods">
+      <title>Methods</title>
+      <sec sec-type="subjects">
+        <title>Participants</title>
+        <p>We recruited 25 (8 female) healthy adults, who were identified using advertisements posted on campus at Imperial College London, UK; the majority of participants were students or employees. Participants were excluded from the study if they reported any sleep disorders or neurological conditions, the use of sleep medications, reported shift working, a long-haul flight in the past 2 weeks, a hearing impairment or ear infection. Participants gave written informed consent and the study was approved by Imperial College London Research Ethics Committee (ICREC_12_1_1).</p>
+      </sec>
+      <sec>
+        <title>Screening</title>
+        <p>Communication with potential participants was conducted initially through emails and then by face-to-face interviews, in order to ensure that the inclusion and exclusion criteria were met and to familiarize the participants with the in-ear EEG sensor. If participants met the criteria and agreed to participate, they were assigned dates for the study (two day-time laboratory visits). The order of the studies (sleep restriction and usual night sleep) was randomized.</p>
+      </sec>
+      <sec>
+        <title>Protocol</title>
+        <p>A prospective, randomized crossover design was used, where the participants were asked to come to the Imperial College signal processing EEG sleep laboratory either after a single night of sleep restriction (≤5 hours) or usual night sleep (≥7 hours). Adherence to the study protocol on the night before the MSLT was confirmed by asking participants to log-in to a webpage every hour from 18:00 until the bed time and again when they first woke-up. Participants were asked to refrain from having caffeine or any stimulants on the day of the study.</p>
+        <p>The MSLT protocol is shown in <xref ref-type="fig" rid="f1-nss-10-385">Figure 1</xref>. Participants arrived at the lab at 09:30 and the first nap (nap 1) started at 10:00; naps then occurred every 2 hours and the fourth nap (nap 4) was finished by 17:00.<xref rid="b32-nss-10-385" ref-type="bibr">32</xref>,<xref rid="b33-nss-10-385" ref-type="bibr">33</xref> The setup time was ~30 minutes for attachment of both the scalp and in-ear EEG. The impedance was checked before each nap to maintain the quality of the signals. The scalp EEG electrodes were firmly attached throughout the study. The in-ear EEG sensor was also attached throughout the study unless the participant requested to remove it in between naps. If the in-ear sensor was removed in between naps, the sensor was then reinserted before each nap and impedance was checked again. The scalp-EEG electrodes were placed at the C3 and C4 positions according to the 10–20 montage, with the ground electrode placed on the forehead. The electrooculogram (right/left EOG) and electromyogram (chin EMG) were not recorded.</p>
+        <p>Full details of the in-ear EEG sensor are given in our previous publication.<xref rid="b30-nss-10-385" ref-type="bibr">30</xref>,<xref rid="b31-nss-10-385" ref-type="bibr">31</xref> In brief, the in-ear EEG sensor is of ~25 mm length and 12 mm diameter. The two EEG elec trodes are embedded onto the sensor diametrically opposite one another (<xref ref-type="fig" rid="f2-nss-10-385">Figure 2A</xref>). The flexible viscoelastic sensor was inserted into the external auditory meatus by squeezing it to fit into the ear canal. The left or right ear was used for placement, according to participants’ preference. The reference and ground electrodes for the in-ear EEG were placed on the helix and earlobe, respectively, using gold cup electrodes (Bio-medical, Clinton Township, MI, USA). An example of a participant wearing scalp and in-ear EEG and corresponding signals is shown in <xref ref-type="fig" rid="f2-nss-10-385">Figure 2B</xref>. Prior to the application of gold cup electrodes, skin was prepared using abrasive gel (Nuprep, Bio-medical). Earwax was removed from the ear using ear cotton buds, and Signa Gel was applied on the in-ear EEG sensor before inserting it into the ear (Parker Laboratories, Inc, Fairfield, NJ, USA). Scalp and in-ear EEG were recorded simultaneously using g-USBamp, a 24-bit biosignal amplifier (g.tec medical engineering GmbH, Schiedlberg, Austria). Data were acquired with a sampling rate of 1.2 kS/s. The impedance was checked before the start of the recording for both the in-ear and scalp EEG, and we aimed to keep these below 10 kΩ. We did not amplify the signals. A fourth-order Butterworth bandpass filter with passband 3–14 Hz was applied to both scalp and in-ear EEG.</p>
+        <p>Once the EEG electrodes were placed, participants were asked to sleep on a comfortable bed in a quiet and dark room following standardized instructions.<xref rid="b32-nss-10-385" ref-type="bibr">32</xref>,<xref rid="b33-nss-10-385" ref-type="bibr">33</xref> Each nap was of 20 minutes duration, and if the participant slept they were allowed to continue for the duration of the nap.</p>
+      </sec>
+      <sec>
+        <title>Measurement of functional outcomes of sleep restriction</title>
+        <p>After nap 1, participants performed a Multiple Unprepared Reaction Time using the Oxford Sleep Resistance Test (Stowood Scientific, Oxford, UK).<xref rid="b34-nss-10-385" ref-type="bibr">34</xref> After nap 3, participants performed a Stroop test.<xref rid="b35-nss-10-385" ref-type="bibr">35</xref> Results were recorded in the form of the number of mistakes and the duration taken to complete the task.</p>
+      </sec>
+      <sec sec-type="methods">
+        <title>Data analysis</title>
+        <p>Data were analyzed blinded to the order allocation (sleep restriction or usual night sleep) and the mode of measurement (scalp-EEG or in-ear EEG). The EEG scoring was performed by a single scorer according to the American Academy of Sleep Medicine criteria, 2012 version 2.0.<xref rid="b36-nss-10-385" ref-type="bibr">36</xref> Sleep latency was defined as the start of the first epoch scored at any stage other than stage wake. This included the attenuation of the alpha rhythm (8–13 Hz) of more than 50% of an epoch and replaced by a low-amplitude, mixed-frequency activity (4–7 Hz). For participants who did not generate alpha activity, sleep latency was defined as first appearance of sleep spindle and/or K-complex. Epochs were labelled as “unable to analyze” if &gt;50% of the EEG signal (scalp or in-ear) showed artifact that prevented the scorer from clearly distinguishing the stage or if the electrodes did not record data due to technical problems. Naps were then removed from the analysis if over 50% of the nap could not be scored. When the scoring was completed, the data sets were un-blinded, to enable statistical analysis.</p>
+      </sec>
+      <sec sec-type="methods">
+        <title>Sample size and statistical analysis</title>
+        <p>The sample size was calculated using the null hypothesis that the in-ear EEG was not inferior to the scalp-EEG, with a non-inferiority margin of 3 minutes and population variance of 4 minutes. The margin of 3 minutes was selected, as sleep latency has previously been reported to be reduced by 3 minutes following sleep restriction.<xref rid="b37-nss-10-385" ref-type="bibr">37</xref> For the 5% significance level and 80% power we estimated that 25 participants were required for this study.</p>
+        <p>The primary outcome of this study was the sleep latency measured from the in-ear EEG compared to the scalp-EEG, with and without sleep restriction. Data were evaluated by the mean and SD or number and percent (%) for categorical variables. The sleep latency measured from scalp and in-ear EEG was compared using either a paired <italic>t</italic>-test or Wilcoxon-signed rank sum test, as appropriate to the distribution of the data. Any nap that did not have a “pair” (either scalp or in-ear EEG) was deleted from the comparison (pair-wise deletion). Given the non-inferiority nature of this study, a CI for the mean difference was constructed using the non-inferiority margin of 3 minutes, in order to assess whether indeed in-ear EEG was not inferior to the scalp-EEG. To evaluate the sensitivity and specificity of in-ear EEG against the scalp-EEG, the sleep latency score was categorized into “positive” and “negative” for both devices and that categorization was used to assess the sensitivity and specificity. Agreement between scalp and in-ear EEG in detecting sleep latency was performed using the Bland-Altman analyses.<xref rid="b38-nss-10-385" ref-type="bibr">38</xref> The limits of agreement were defined as mean±1.96 SD. All statistical tests other than the non-inferiority test were two-sided and the statistical significance was set at <italic>P</italic>&lt;0.05. The IBM SPSS 23.0 software and Excel 2013 were used for statistical analysis, whereas GraphPad Prism 7 and Matlab 2016b (MathWorks, Inc) were used for generating the figures.</p>
+      </sec>
+    </sec>
+    <sec sec-type="results">
+      <title>Results</title>
+      <p>We screened 36 healthy adults of which 25 (8 female) were included in the study; details of recruitment are shown in the consort diagram (<xref ref-type="fig" rid="f3-nss-10-385">Figure 3A</xref>). The mean age of the participants was 28.5±5.3 years. By design, since we sought healthy adults, the mean ESS score prior to the study was normal (6±3).</p>
+      <sec>
+        <title>Comparison of in-ear EEG vs scalp-EEG</title>
+        <p>Technically acceptable data were obtained from 23 adults during 69/92 naps in the sleep restriction condition and 25 adults during 85/100 naps in the usual night sleep. Naps were excluded from the analysis either because signals could not be scored (28 naps) or due to technical problems (10 naps). Specific details regarding which naps were excluded are given in <xref ref-type="fig" rid="f3-nss-10-385">Figure 3B</xref>. Unscoreable signals included: 1) high frequency artifacts (16 naps, all of which came from the same participants, n=2 [4 naps×2 conditions×2 participants=16 naps]); 2) electrocardiogram (ECG)/pulse artifacts (4 naps); 3) low-frequency artifacts consistent with respiratory frequency (four naps); 4) movement (4 naps). The majority of naps excluded due to technical problems were from nap 4 in the usual night sleep condition. The group mean comparison between scalp-EEG and in-ear EEG in detecting sleep latency is shown in <xref rid="t1-nss-10-385" ref-type="table">Table 1</xref>.</p>
+        <p>The majority of our participants (22 out of 25) wore the in-ear sensor throughout the MSLT, including hours between naps, and only one participant commented negatively about the comfort of the in-ear EEG sensor. Individual examples of scalp and in-ear EEG during four naps for a participant who kept the in-ear sensor throughout the test, and a participant who removed the in-ear sensor between naps, are shown in <xref ref-type="fig" rid="f4-nss-10-385">Figure 4A and B</xref>, respectively.</p>
+        <p>The difference between scalp and in-ear EEG in detecting sleep latency was &lt;3 minutes in 84% (58 out of 69) following sleep restriction and 94% (80 out of 85) of participants after usual night sleep. In the sleep restriction condition, the in-ear EEG exhibited a sensitivity of 0.93 and specificity of 0.80 for detecting sleep latency, with a substantial agreement (κ<italic>=</italic>0.71), while after the usual night sleep, the in-ear EEG exhibited a sensitivity of 0.91 and specificity of 0.89, again with a substantial agreement (κ<italic>=</italic>0.79), compared to scalp-EEG. Bland-Altman analysis (<xref ref-type="fig" rid="f5-nss-10-385">Figure 5A</xref>) revealed good agreement between the two methods (in-ear EEG minus scalp-EEG) for all naps combined (<xref ref-type="fig" rid="f5-nss-10-385">Figure 5B</xref>).</p>
+      </sec>
+      <sec>
+        <title>Changes in sleep latency, reaction time and cognitive function following sleep restriction</title>
+        <p>The mean sleep latency decreased significantly after sleep restriction compared to after usual night sleep in scalp-EEG (10.4±4.8 minutes, 12.4±5.2 minutes; <italic>P=</italic>0.014) and in-ear EEG (10.9±5.1 minutes, 12.7±4.9 minutes; <italic>P=</italic>0.019).</p>
+        <p>Participants fell asleep in 83% (57 out of 69) of naps after sleep restriction and in 64% (55 out of 85) of naps after usual night sleep. Comparison of individual naps showed that nap 3 and nap 4 exhibited greater differences between sleep restriction and usual night sleep (<italic>P</italic>=0.004<italic>, P</italic>=0.005) compared with nap 1 and 2 (<italic>P</italic>=0.115<italic>, P</italic>=0.792).</p>
+        <p>There was a modest but statistically significant increase in reaction time after sleep restriction compared with usual night sleep (238.4±30.4 ms, 228.5±27.1 ms; <italic>P</italic>=0.045). When completing the Stroop test, the number of mistakes in the conflicting word task increased significantly after sleep restriction compared to after usual night sleep (2±2, 1±1, <italic>P</italic>=0.003). No significant increases were observed in the conflicting color, color block, or monochrome tasks (<xref ref-type="fig" rid="f6-nss-10-385">Figure 6A</xref>). The duration taken to complete each task increased for the conflicting color, color block, and monochrome tasks after sleep restriction, but this was not statistically significant (<xref ref-type="fig" rid="f6-nss-10-385">Figure 6B</xref>).</p>
+      </sec>
+    </sec>
+    <sec sec-type="discussion">
+      <title>Discussion</title>
+      <p>The main finding of this study was that the in-ear EEG sensor was able to detect the sleep latency with substantial agreement, compared to the scalp-EEG. As a consequence, the in-ear EEG sensor was also able to detect the shortened sleep latency, induced by sleep restriction, which was associated with measurable functional impairment, as indicated by the reduced reaction time, and cognitive function.</p>
+      <sec>
+        <title>Critique of the method</title>
+        <p>The participants in this study were all healthy adults. The performance of the in-ear EEG in patients with sleep disorders is yet to be examined, therefore at the moment we cannot comment on the applicability of the current data, compared to patients with sleep disorders. Likewise, discussion applies to older people with more fragmented and less well-defined sleep architecture.</p>
+        <p>Another limitation of our study was that an overnight polysomnography was not carried out prior to the MSLT, defined by the standard protocol.<xref rid="b32-nss-10-385" ref-type="bibr">32</xref> Therefore, the sleep restriction was not objectively documented. It could have been that the participants slept in between logging into the website during the sleep restriction and/or may have stayed awake during the usual night sleep duration. However, the reaction time and cognitive ability measured by Stroop test were significantly impaired following the sleep restriction, suggesting that our participants adhered to the protocol. Previous studies, utilizing acute sleep restriction ≤5 hours, have found a decreased sleep latency of 2 minutes.<xref rid="b39-nss-10-385" ref-type="bibr">39</xref> The sleep restriction in our study also produced a reduction in sleep latency of 2 minutes. In addition, reaction time was increased, and cognitive ability was impaired.<xref rid="b40-nss-10-385" ref-type="bibr">40</xref> Our finding that the number of errors on the conflicting word task increased following sleep restriction is also consistent with previous studies.<xref rid="b41-nss-10-385" ref-type="bibr">41</xref> In our study, Stroop test was performed after nap 3, which enabled us to test the maximum impact of the decline in cognitive abilities as this seems to deteriorate as cumulative time awake increased.<xref rid="b42-nss-10-385" ref-type="bibr">42</xref> Previous studies also showed that the time of the day (morning vs afternoon) impacted the cognitive abilities after sleep restrictions due to the circadian dip.<xref rid="b43-nss-10-385" ref-type="bibr">43</xref></p>
+        <p>The current study extends our previous findings that the in-ear sensor can detect non-REM (N3) stage,<xref rid="b31-nss-10-385" ref-type="bibr">31</xref> but it does not extend to REM sleep, indeed we are not claiming the applicability of the sensor in the evaluation or diagnosis of specific sleep stages beyond sleep latency or sleep disorders.</p>
+      </sec>
+      <sec>
+        <title>The in-ear EEG</title>
+        <p>In this study, the in-ear sensor was made from viscoelastic material, to enable expansion to fit tightly in the ear canal.<xref rid="b30-nss-10-385" ref-type="bibr">30</xref> The size of the in-ear sensor was also the same for all participants, even though the size of the ear canal may be different in some participants; so it could be that the in-ear EEG sensor did not fit properly with the ear canal. Therefore, naps were removed from the analysis due to poor signal quality from the in-ear EEG; specifically ECG artifacts, high frequency artifacts, low-frequency artifacts, or movements artifacts may observed as a consequence of the conduction problem between the skin and the in-ear sensor. A potential development could be to make the in-ear EEG sensor available in different sizes, and this could increase the retention of the in-ear sensor. This may be important when studying females in whom the average ear diameter is smaller (8.5±0.7 mm) compared to males (9.7±1.1 mm), and when studying different ethnicities, as European people typically have a larger ear canal diameter compared to those of Asian descent.<xref rid="b44-nss-10-385" ref-type="bibr">44</xref></p>
+        <p>In our study, the in-ear EEG analysis was carried out offline; capturing and analyzing data in real time requires an automated algorithm. The development of such algorithms has proved elusive for polysomnography, although this might be easier for the in-ear EEG since the interference of the EEG recorded from the ear canal is minimal.<xref rid="b45-nss-10-385" ref-type="bibr">45</xref>–<xref rid="b47-nss-10-385" ref-type="bibr">47</xref></p>
+        <p>Recording the EEG from within the ear has been investigated by different research groups.<xref rid="b48-nss-10-385" ref-type="bibr">48</xref>,<xref rid="b49-nss-10-385" ref-type="bibr">49</xref> However, there are distinct differences between our in-ear EEG device and other devices. Nguyen et al<xref rid="b48-nss-10-385" ref-type="bibr">48</xref> have used an off-the-shelf foam-based earplug that can be inserted in both ears simultaneously. One of the ear pieces has two passive electrodes, and the reference and ground electrodes are placed on the other ear piece. The two earpieces are connected with a wire cable. The device that was used by Mikkelsen et al<xref rid="b49-nss-10-385" ref-type="bibr">49</xref> is a custom-made hard-shell in-ear EEG. The ear piece has six electrodes in total, all embedded in the same earpiece and referenced to a passive electrode placed next to the scalp Cz electrode. Therefore, our device is different in several ways. It is made from a viscoelastic earplug based on “one-size-fits-all,” and used only in one ear (left or right). Additionally, the reference and ground electrodes of our in-ear EEG device were placed on the helix and earlobe, respectively, using gold cup electrodes.</p>
+      </sec>
+      <sec sec-type="results">
+        <title>Significance of the findings</title>
+        <p>The in-ear EEG sensor has at least two characteristics that make it convenient to use. First, the memory foam mounting enables the sensor to be fitted comfortably and safely inside the ear after squeezing it from all sides. It also allows the sensor to expand evenly so it remains in place. Secondly, the sensor incorporates a conductive cloth cover, which is flexible and soft to make the sensor comfortable to wear. While the present data confirm that the in-ear EEG can identify sleep latency accurately enough to detect the short sleep latency elicited by sleep restriction in healthy adults, further development is needed to understand how this can become a useful tool to capture sleepiness in the real world.<xref rid="b50-nss-10-385" ref-type="bibr">50</xref></p>
+        <p>In our study, the majority of our participants wore the in-ear EEG sensor throughout the MSLT, including the hours between naps. The quality of the EEG signals between a participant who wore the sensor throughout the MSLT and a participant who remove the sensor were almost the same (<xref ref-type="fig" rid="f4-nss-10-385">Figure 4A, B</xref>). These figures demonstrate that the transition from alpha activity to theta activity in scalp-EEG is very similar to the in-ear EEG. Therefore the quality of the signals does not change over time and this suggests that the in-ear EEG sensor is applicable for long-term recordings, such as an overnight recording. The investigation of the applicability of the in-ear EEG overnight is currently underway.</p>
+        <p>A logical development of our study could be to develop a real-world MSLT; however, unless functionally significant data could be obtained from less than four naps the procedure would still be time-consuming for the participant, even if less so for the investigator. Sunwoo et al<xref rid="b51-nss-10-385" ref-type="bibr">51</xref> have shown that compared to four naps, single nap from MSLT can detect reasonably well individuals with sleep latency of less than 8 minutes.</p>
+        <p>Another potential use for our sensor might be domiciliary measurement of sleep latency. Although not easily done for practical reasons it could be that, eg, sleep latency measured at home on several consecutive nights might lead to a better understanding of idiopathic hypersomnia, which is currently typically monitored by actigraphy.<xref rid="b52-nss-10-385" ref-type="bibr">52</xref> A further potential development for the in-ear EEG sensor would be in real-time detection of sleep, eg, a system to detect sleepiness during driving. This would entail development of an automated scoring algorithm. Nakamura et al<xref rid="b53-nss-10-385" ref-type="bibr">53</xref> have developed an algorithm to classify sleep stages with 90% agreement, compared to conventional scoring. In this context, a strength of the in-ear EEG is that it allows “free movement” and is not visibly obtrusive; it may be possible to modify its use in environments where polysomnography is not feasible.</p>
+        <p>Finally, although not tested in this study, our findings suggest that in-ear EEG could also be used to simplify MSLT/MWT. This could be useful for some high-risk occupations where remaining alert is a requirement. For example, military pilots with hypersomnia in the USA are advised, by the USA Air Force, to be tested for alertness using MWT.<xref rid="b54-nss-10-385" ref-type="bibr">54</xref> Similarly, Australia recommended MWT to assess the fitness for driving in patients with sleep disorders.<xref rid="b55-nss-10-385" ref-type="bibr">55</xref> One could imagine a scenario where a modified simple MSLT/MWT was used to screen employees in high-risk occupations before starting their shifts.</p>
+      </sec>
+    </sec>
+    <sec>
+      <title>Conclusion</title>
+      <p>Our findings have shown that sleep latency can be detected by the in-ear EEG, during MSLT with and without sleep restriction, with substantial agreement compared to the gold standard scalp-EEG. The majority of participants in our study found the in-ear EEG sensor comfortable and were able to keep it in situ all day. Also, our data showed that the sleep restriction was sufficient to shorten the sleep latency, with a decline on cognitive ability elicited by sleep restriction. We believe that the in-ear EEG will provide new opportunities in clinical and occupational medicine to monitor real world sleep.</p>
+    </sec>
+  </body>
+  <back>
+    <ack>
+      <title>Acknowledgments</title>
+      <p>The authors wish to thank all of the participants who contributed to this study.</p>
+    </ack>
+    <fn-group>
+      <fn fn-type="COI-statement">
+        <p>
+          <bold>Disclosure</bold>
+        </p>
+        <p>The authors report no conflicts of interest in this work.</p>
+      </fn>
+    </fn-group>
+    <ref-list>
+      <title>References</title>
+      <ref id="b1-nss-10-385">
+        <label>1</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Jaussent</surname>
+              <given-names>I</given-names>
+            </name>
+            <name>
+              <surname>Bouyer</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Ancelin</surname>
+              <given-names>ML</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Excessive sleepiness is predictive of cognitive decline in the elderly</article-title>
+          <source>Sleep</source>
+          <year>2012</year>
+          <volume>35</volume>
+          <issue>9</issue>
+          <fpage>1201</fpage>
+          <lpage>1207</lpage>
+          <pub-id pub-id-type="pmid">22942498</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b2-nss-10-385">
+        <label>2</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Pallesen</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Nordhus</surname>
+              <given-names>IH</given-names>
+            </name>
+            <name>
+              <surname>Omvik</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Sivertsen</surname>
+              <given-names>B</given-names>
+            </name>
+            <name>
+              <surname>Tell</surname>
+              <given-names>GS</given-names>
+            </name>
+            <name>
+              <surname>Bjorvatn</surname>
+              <given-names>B</given-names>
+            </name>
+          </person-group>
+          <article-title>Prevalence and risk factors of subjective sleepiness in the general adult population</article-title>
+          <source>Sleep</source>
+          <year>2007</year>
+          <volume>30</volume>
+          <issue>5</issue>
+          <fpage>619</fpage>
+          <lpage>624</lpage>
+          <pub-id pub-id-type="pmid">17552377</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b3-nss-10-385">
+        <label>3</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kim</surname>
+              <given-names>H</given-names>
+            </name>
+            <name>
+              <surname>Young</surname>
+              <given-names>T</given-names>
+            </name>
+          </person-group>
+          <article-title>Subjective daytime sleepiness: dimensions and correlates in the general population</article-title>
+          <source>Sleep</source>
+          <year>2005</year>
+          <volume>28</volume>
+          <issue>5</issue>
+          <fpage>625</fpage>
+          <lpage>634</lpage>
+          <pub-id pub-id-type="pmid">16171277</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b4-nss-10-385">
+        <label>4</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Marx</surname>
+              <given-names>R</given-names>
+            </name>
+            <name>
+              <surname>Tanner-Smith</surname>
+              <given-names>EE</given-names>
+            </name>
+            <name>
+              <surname>Davison</surname>
+              <given-names>CM</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Later school start times for supporting the education, health, and well-being of high school students</article-title>
+          <source>Cochrane Database Syst Rev</source>
+          <year>2017</year>
+          <volume>7</volume>
+          <fpage>CD009467</fpage>
+          <pub-id pub-id-type="pmid">28670711</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b5-nss-10-385">
+        <label>5</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Mcnicholas</surname>
+              <given-names>WT</given-names>
+            </name>
+            <name>
+              <surname>Rodenstein</surname>
+              <given-names>D</given-names>
+            </name>
+          </person-group>
+          <article-title>Sleep apnoea and driving risk: the need for regulation</article-title>
+          <source>Eur Respir Rev</source>
+          <year>2015</year>
+          <volume>24</volume>
+          <issue>138</issue>
+          <fpage>602</fpage>
+          <lpage>606</lpage>
+          <pub-id pub-id-type="pmid">26621974</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b6-nss-10-385">
+        <label>6</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Tefft</surname>
+              <given-names>BC</given-names>
+            </name>
+          </person-group>
+          <article-title>Prevalence of motor vehicle crashes involving drowsy drivers, United States, 1999–2008</article-title>
+          <source>Accid Anal Prev</source>
+          <year>2012</year>
+          <volume>45</volume>
+          <fpage>180</fpage>
+          <lpage>186</lpage>
+          <pub-id pub-id-type="pmid">22269499</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b7-nss-10-385">
+        <label>7</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Burks</surname>
+              <given-names>SV</given-names>
+            </name>
+            <name>
+              <surname>Anderson</surname>
+              <given-names>JE</given-names>
+            </name>
+            <name>
+              <surname>Bombyk</surname>
+              <given-names>M</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Nonadherence with employer-mandated sleep apnea treatment and increased risk of serious truck crashes</article-title>
+          <source>Sleep</source>
+          <year>2016</year>
+          <volume>39</volume>
+          <issue>5</issue>
+          <fpage>967</fpage>
+          <lpage>975</lpage>
+          <pub-id pub-id-type="pmid">27070139</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b8-nss-10-385">
+        <label>8</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Reis</surname>
+              <given-names>C</given-names>
+            </name>
+            <name>
+              <surname>Mestre</surname>
+              <given-names>C</given-names>
+            </name>
+            <name>
+              <surname>Canhão</surname>
+              <given-names>H</given-names>
+            </name>
+            <name>
+              <surname>Gradwell</surname>
+              <given-names>D</given-names>
+            </name>
+            <name>
+              <surname>Paiva</surname>
+              <given-names>T</given-names>
+            </name>
+          </person-group>
+          <article-title>Sleep complaints and fatigue of airline pilots</article-title>
+          <source>Sleep Sci</source>
+          <year>2016</year>
+          <volume>9</volume>
+          <issue>2</issue>
+          <fpage>73</fpage>
+          <lpage>77</lpage>
+          <pub-id pub-id-type="pmid">27656269</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b9-nss-10-385">
+        <label>9</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Cotrim</surname>
+              <given-names>T</given-names>
+            </name>
+            <name>
+              <surname>Carvalhais</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Neto</surname>
+              <given-names>C</given-names>
+            </name>
+            <name>
+              <surname>Teles</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Noriega</surname>
+              <given-names>P</given-names>
+            </name>
+            <name>
+              <surname>Rebelo</surname>
+              <given-names>F</given-names>
+            </name>
+          </person-group>
+          <article-title>Determinants of sleepiness at work among railway control workers</article-title>
+          <source>Appl Ergon</source>
+          <year>2017</year>
+          <volume>58</volume>
+          <fpage>293</fpage>
+          <lpage>300</lpage>
+          <pub-id pub-id-type="pmid">27633225</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b10-nss-10-385">
+        <label>10</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Richardson</surname>
+              <given-names>GS</given-names>
+            </name>
+            <name>
+              <surname>Carskadon</surname>
+              <given-names>MA</given-names>
+            </name>
+            <name>
+              <surname>Flagg</surname>
+              <given-names>W</given-names>
+            </name>
+            <name>
+              <surname>van den Hoed</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Dement</surname>
+              <given-names>WC</given-names>
+            </name>
+            <name>
+              <surname>Mitler</surname>
+              <given-names>MM</given-names>
+            </name>
+          </person-group>
+          <article-title>Excessive daytime sleepiness in man: multiple sleep latency measurement in narcoleptic and control subjects</article-title>
+          <source>Electroencephalogr Clin Neurophysiol</source>
+          <year>1978</year>
+          <volume>45</volume>
+          <issue>5</issue>
+          <fpage>621</fpage>
+          <lpage>627</lpage>
+          <pub-id pub-id-type="pmid">81764</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b11-nss-10-385">
+        <label>11</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Johns</surname>
+              <given-names>MW</given-names>
+            </name>
+          </person-group>
+          <article-title>Sensitivity and specificity of the multiple sleep latency test (MSLT), the maintenance of wakefulness test and the Epworth Sleepiness Scale: failure of the MSLT as a gold standard</article-title>
+          <source>J Sleep Res</source>
+          <year>2000</year>
+          <volume>9</volume>
+          <issue>1</issue>
+          <fpage>5</fpage>
+          <lpage>11</lpage>
+          <pub-id pub-id-type="pmid">10733683</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b12-nss-10-385">
+        <label>12</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Mitler</surname>
+              <given-names>MM</given-names>
+            </name>
+            <name>
+              <surname>Gujavarty</surname>
+              <given-names>KS</given-names>
+            </name>
+            <name>
+              <surname>Browman</surname>
+              <given-names>CP</given-names>
+            </name>
+          </person-group>
+          <article-title>Maintenance of wakefulness test: a polysomnographic technique for evaluation treatment efficacy in patients with excessive somnolence</article-title>
+          <source>Electroencephalogr Clin Neurophysiol</source>
+          <year>1982</year>
+          <volume>53</volume>
+          <issue>6</issue>
+          <fpage>658</fpage>
+          <lpage>661</lpage>
+          <pub-id pub-id-type="pmid">6177511</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b13-nss-10-385">
+        <label>13</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Johns</surname>
+              <given-names>MW</given-names>
+            </name>
+          </person-group>
+          <article-title>A new method for measuring daytime sleepiness: the Epworth Sleepiness Scale</article-title>
+          <source>Sleep</source>
+          <year>1991</year>
+          <volume>14</volume>
+          <issue>6</issue>
+          <fpage>540</fpage>
+          <lpage>545</lpage>
+          <pub-id pub-id-type="pmid">1798888</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b14-nss-10-385">
+        <label>14</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Chen</surname>
+              <given-names>NH</given-names>
+            </name>
+            <name>
+              <surname>Johns</surname>
+              <given-names>MW</given-names>
+            </name>
+            <name>
+              <surname>Li</surname>
+              <given-names>HY</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Validation of a Chinese version of the Epworth sleepiness scale</article-title>
+          <source>Qual Life Res</source>
+          <year>2002</year>
+          <volume>11</volume>
+          <issue>8</issue>
+          <fpage>817</fpage>
+          <lpage>821</lpage>
+          <pub-id pub-id-type="pmid">12482165</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b15-nss-10-385">
+        <label>15</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Izci</surname>
+              <given-names>B</given-names>
+            </name>
+            <name>
+              <surname>Ardic</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Firat</surname>
+              <given-names>H</given-names>
+            </name>
+            <name>
+              <surname>Sahin</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Altinors</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Karacan</surname>
+              <given-names>I</given-names>
+            </name>
+          </person-group>
+          <article-title>Reliability and validity studies of the Turkish version of the Epworth Sleepiness Scale</article-title>
+          <source>Sleep Breath</source>
+          <year>2008</year>
+          <volume>12</volume>
+          <issue>2</issue>
+          <fpage>161</fpage>
+          <lpage>168</lpage>
+          <pub-id pub-id-type="pmid">17922157</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b16-nss-10-385">
+        <label>16</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Bloch</surname>
+              <given-names>KE</given-names>
+            </name>
+            <name>
+              <surname>Schoch</surname>
+              <given-names>OD</given-names>
+            </name>
+            <name>
+              <surname>Zhang</surname>
+              <given-names>JN</given-names>
+            </name>
+            <name>
+              <surname>Russi</surname>
+              <given-names>EW</given-names>
+            </name>
+          </person-group>
+          <article-title>German version of the Epworth Sleepiness Scale</article-title>
+          <source>Respiration</source>
+          <year>1999</year>
+          <volume>66</volume>
+          <issue>5</issue>
+          <fpage>440</fpage>
+          <lpage>447</lpage>
+          <pub-id pub-id-type="pmid">10516541</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b17-nss-10-385">
+        <label>17</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Tsara</surname>
+              <given-names>V</given-names>
+            </name>
+            <name>
+              <surname>Serasli</surname>
+              <given-names>E</given-names>
+            </name>
+            <name>
+              <surname>Amfilochiou</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Constantinidis</surname>
+              <given-names>T</given-names>
+            </name>
+            <name>
+              <surname>Christaki</surname>
+              <given-names>P</given-names>
+            </name>
+          </person-group>
+          <article-title>Greek version of the Epworth Sleepiness Scale</article-title>
+          <source>Sleep Breath</source>
+          <year>2004</year>
+          <volume>8</volume>
+          <issue>2</issue>
+          <fpage>91</fpage>
+          <lpage>95</lpage>
+          <pub-id pub-id-type="pmid">15211393</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b18-nss-10-385">
+        <label>18</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Bertolazi</surname>
+              <given-names>AN</given-names>
+            </name>
+            <name>
+              <surname>Fagondes</surname>
+              <given-names>SC</given-names>
+            </name>
+            <name>
+              <surname>Hoff</surname>
+              <given-names>LS</given-names>
+            </name>
+            <name>
+              <surname>Pedro</surname>
+              <given-names>VD</given-names>
+            </name>
+            <name>
+              <surname>Menna Barreto</surname>
+              <given-names>SS</given-names>
+            </name>
+            <name>
+              <surname>Johns</surname>
+              <given-names>MW</given-names>
+            </name>
+          </person-group>
+          <article-title>Portuguese-language version of the Epworth sleepiness scale: validation for use in Brazil</article-title>
+          <source>J Bras Pneumol</source>
+          <year>2009</year>
+          <volume>35</volume>
+          <issue>9</issue>
+          <fpage>877</fpage>
+          <lpage>883</lpage>
+          <pub-id pub-id-type="pmid">19820814</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b19-nss-10-385">
+        <label>19</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Beiske</surname>
+              <given-names>KK</given-names>
+            </name>
+            <name>
+              <surname>Kjelsberg</surname>
+              <given-names>FN</given-names>
+            </name>
+            <name>
+              <surname>Ruud</surname>
+              <given-names>EA</given-names>
+            </name>
+            <name>
+              <surname>Stavem</surname>
+              <given-names>K</given-names>
+            </name>
+          </person-group>
+          <article-title>Reliability and validity of a Norwegian version of the Epworth sleepiness scale</article-title>
+          <source>Sleep Breath</source>
+          <year>2009</year>
+          <volume>13</volume>
+          <issue>1</issue>
+          <fpage>65</fpage>
+          <lpage>72</lpage>
+          <pub-id pub-id-type="pmid">18560916</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b20-nss-10-385">
+        <label>20</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Rosales-Mayor</surname>
+              <given-names>E</given-names>
+            </name>
+            <name>
+              <surname>Rey de Castro</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Huayanay</surname>
+              <given-names>L</given-names>
+            </name>
+            <name>
+              <surname>Zagaceta</surname>
+              <given-names>K</given-names>
+            </name>
+          </person-group>
+          <article-title>Validation and modification of the Epworth Sleepiness Scale in Peruvian population</article-title>
+          <source>Sleep Breath</source>
+          <year>2012</year>
+          <volume>16</volume>
+          <issue>1</issue>
+          <fpage>59</fpage>
+          <lpage>69</lpage>
+          <pub-id pub-id-type="pmid">21279696</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b21-nss-10-385">
+        <label>21</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Vignatelli</surname>
+              <given-names>L</given-names>
+            </name>
+            <name>
+              <surname>Plazzi</surname>
+              <given-names>G</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Italian version of the Epworth Sleepiness Scale: external validity</article-title>
+          <source>Neurol Sci</source>
+          <year>2003</year>
+          <volume>23</volume>
+          <issue>6</issue>
+          <fpage>295</fpage>
+          <lpage>300</lpage>
+          <pub-id pub-id-type="pmid">12624716</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b22-nss-10-385">
+        <label>22</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Banhiran</surname>
+              <given-names>W</given-names>
+            </name>
+            <name>
+              <surname>Assanasen</surname>
+              <given-names>P</given-names>
+            </name>
+            <name>
+              <surname>Nopmaneejumruslers</surname>
+              <given-names>C</given-names>
+            </name>
+            <name>
+              <surname>Metheetrairut</surname>
+              <given-names>C</given-names>
+            </name>
+          </person-group>
+          <article-title>Epworth sleepiness scale in obstructive sleep disordered breathing: the reliability and validity of the Thai version</article-title>
+          <source>Sleep Breath</source>
+          <year>2011</year>
+          <volume>15</volume>
+          <issue>3</issue>
+          <fpage>571</fpage>
+          <lpage>577</lpage>
+          <pub-id pub-id-type="pmid">20835769</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b23-nss-10-385">
+        <label>23</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kopitovic</surname>
+              <given-names>I</given-names>
+            </name>
+            <name>
+              <surname>Trajanovic</surname>
+              <given-names>N</given-names>
+            </name>
+            <name>
+              <surname>Prodic</surname>
+              <given-names>S</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>The Serbian version of the Epworth Sleepiness Scale</article-title>
+          <source>Sleep Breath</source>
+          <year>2011</year>
+          <volume>15</volume>
+          <issue>4</issue>
+          <fpage>775</fpage>
+          <lpage>780</lpage>
+          <pub-id pub-id-type="pmid">21053085</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b24-nss-10-385">
+        <label>24</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Cho</surname>
+              <given-names>YW</given-names>
+            </name>
+            <name>
+              <surname>Lee</surname>
+              <given-names>JH</given-names>
+            </name>
+            <name>
+              <surname>Son</surname>
+              <given-names>HK</given-names>
+            </name>
+            <name>
+              <surname>Lee</surname>
+              <given-names>SH</given-names>
+            </name>
+            <name>
+              <surname>Shin</surname>
+              <given-names>C</given-names>
+            </name>
+            <name>
+              <surname>Johns</surname>
+              <given-names>MW</given-names>
+            </name>
+          </person-group>
+          <article-title>The reliability and validity of the Korean version of the Epworth sleepiness scale</article-title>
+          <source>Sleep Breath</source>
+          <year>2011</year>
+          <volume>15</volume>
+          <issue>3</issue>
+          <fpage>377</fpage>
+          <lpage>384</lpage>
+          <pub-id pub-id-type="pmid">20358406</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b25-nss-10-385">
+        <label>25</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Pecotic</surname>
+              <given-names>R</given-names>
+            </name>
+            <name>
+              <surname>Dodig</surname>
+              <given-names>IP</given-names>
+            </name>
+            <name>
+              <surname>Valic</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Ivkovic</surname>
+              <given-names>N</given-names>
+            </name>
+            <name>
+              <surname>Dogas</surname>
+              <given-names>Z</given-names>
+            </name>
+          </person-group>
+          <article-title>The evaluation of the Croatian version of the Epworth sleepiness scale and STOP questionnaire as screening tools for obstructive sleep apnea syndrome</article-title>
+          <source>Sleep Breath</source>
+          <year>2012</year>
+          <volume>16</volume>
+          <issue>3</issue>
+          <fpage>793</fpage>
+          <lpage>802</lpage>
+          <pub-id pub-id-type="pmid">21874368</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b26-nss-10-385">
+        <label>26</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Ahmed</surname>
+              <given-names>AE</given-names>
+            </name>
+            <name>
+              <surname>Fatani</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Al-Harbi</surname>
+              <given-names>A</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Validation of the Arabic version of the Epworth Sleepiness Scale</article-title>
+          <source>J Epidemiol Glob Health</source>
+          <year>2014</year>
+          <volume>4</volume>
+          <issue>4</issue>
+          <fpage>297</fpage>
+          <lpage>302</lpage>
+          <pub-id pub-id-type="pmid">25455647</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b27-nss-10-385">
+        <label>27</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Chervin</surname>
+              <given-names>RD</given-names>
+            </name>
+            <name>
+              <surname>Aldrich</surname>
+              <given-names>MS</given-names>
+            </name>
+          </person-group>
+          <article-title>The Epworth Sleepiness Scale may not reflect objective measures of sleepiness or sleep apnea</article-title>
+          <source>Neurology</source>
+          <year>1999</year>
+          <volume>52</volume>
+          <issue>1</issue>
+          <fpage>125</fpage>
+          <lpage>125</lpage>
+          <pub-id pub-id-type="pmid">9921859</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b28-nss-10-385">
+        <label>28</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Waller</surname>
+              <given-names>KL</given-names>
+            </name>
+            <name>
+              <surname>Mortensen</surname>
+              <given-names>EL</given-names>
+            </name>
+            <name>
+              <surname>Avlund</surname>
+              <given-names>K</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Subjective sleep quality and daytime sleepiness in late midlife and their association with age-related changes in cognition</article-title>
+          <source>Sleep Med</source>
+          <year>2016</year>
+          <volume>17</volume>
+          <fpage>165</fpage>
+          <lpage>173</lpage>
+          <pub-id pub-id-type="pmid">26188599</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b29-nss-10-385">
+        <label>29</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Looney</surname>
+              <given-names>D</given-names>
+            </name>
+            <name>
+              <surname>Kidmose</surname>
+              <given-names>P</given-names>
+            </name>
+            <name>
+              <surname>Park</surname>
+              <given-names>C</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>The in-the-ear recording concept: user-centered and wearable brain monitoring</article-title>
+          <source>IEEE Pulse</source>
+          <year>2012</year>
+          <volume>3</volume>
+          <issue>6</issue>
+          <fpage>32</fpage>
+          <lpage>42</lpage>
+          <pub-id pub-id-type="pmid">23247157</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b30-nss-10-385">
+        <label>30</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Goverdovsky</surname>
+              <given-names>V</given-names>
+            </name>
+            <name>
+              <surname>Looney</surname>
+              <given-names>D</given-names>
+            </name>
+            <name>
+              <surname>Kidmose</surname>
+              <given-names>P</given-names>
+            </name>
+            <name>
+              <surname>Mandic</surname>
+              <given-names>DP</given-names>
+            </name>
+          </person-group>
+          <article-title>In-ear EEG from viscoelastic generic earpieces: robust and unobtrusive 24/7 monitoring</article-title>
+          <source>IEEE Sens J</source>
+          <year>2016</year>
+          <volume>16</volume>
+          <issue>1</issue>
+          <fpage>271</fpage>
+          <lpage>277</lpage>
+        </element-citation>
+      </ref>
+      <ref id="b31-nss-10-385">
+        <label>31</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Looney</surname>
+              <given-names>D</given-names>
+            </name>
+            <name>
+              <surname>Goverdovsky</surname>
+              <given-names>V</given-names>
+            </name>
+            <name>
+              <surname>Rosenzweig</surname>
+              <given-names>I</given-names>
+            </name>
+            <name>
+              <surname>Morrell</surname>
+              <given-names>MJ</given-names>
+            </name>
+            <name>
+              <surname>Mandic</surname>
+              <given-names>DP</given-names>
+            </name>
+          </person-group>
+          <article-title>Wearable in-ear encephalography sensor for monitoring sleep. Preliminary observations from Nap studies</article-title>
+          <source>Ann Am Thorac Soc</source>
+          <year>2016</year>
+          <volume>13</volume>
+          <issue>12</issue>
+          <fpage>2229</fpage>
+          <lpage>2233</lpage>
+          <pub-id pub-id-type="pmid">27684316</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b32-nss-10-385">
+        <label>32</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Carskadon</surname>
+              <given-names>MA</given-names>
+            </name>
+            <name>
+              <surname>Dement</surname>
+              <given-names>WC</given-names>
+            </name>
+            <name>
+              <surname>Mitler</surname>
+              <given-names>MM</given-names>
+            </name>
+            <name>
+              <surname>Roth</surname>
+              <given-names>T</given-names>
+            </name>
+            <name>
+              <surname>Westbrook</surname>
+              <given-names>PR</given-names>
+            </name>
+            <name>
+              <surname>Keenan</surname>
+              <given-names>S</given-names>
+            </name>
+          </person-group>
+          <article-title>Guidelines for the Multiple Sleep Latency Test (MSLT): a standard measure of sleepiness</article-title>
+          <source>Sleep</source>
+          <year>1986</year>
+          <volume>9</volume>
+          <issue>4</issue>
+          <fpage>519</fpage>
+          <lpage>524</lpage>
+          <pub-id pub-id-type="pmid">3809866</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b33-nss-10-385">
+        <label>33</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Arand</surname>
+              <given-names>D</given-names>
+            </name>
+            <name>
+              <surname>Bonnet</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Hurwitz</surname>
+              <given-names>T</given-names>
+            </name>
+            <name>
+              <surname>Mitler</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Rosa</surname>
+              <given-names>R</given-names>
+            </name>
+            <name>
+              <surname>Sangal</surname>
+              <given-names>RB</given-names>
+            </name>
+          </person-group>
+          <article-title>The clinical use of the MSLT and MWT</article-title>
+          <source>Sleep</source>
+          <year>2005</year>
+          <volume>28</volume>
+          <issue>1</issue>
+          <fpage>123</fpage>
+          <lpage>144</lpage>
+          <pub-id pub-id-type="pmid">15700728</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b34-nss-10-385">
+        <label>34</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Bennett</surname>
+              <given-names>LS</given-names>
+            </name>
+            <name>
+              <surname>Stradling</surname>
+              <given-names>JR</given-names>
+            </name>
+            <name>
+              <surname>Davies</surname>
+              <given-names>RJ</given-names>
+            </name>
+          </person-group>
+          <article-title>A behavioural test to assess daytime sleepiness in obstructive sleep apnoea</article-title>
+          <source>J Sleep Res</source>
+          <year>1997</year>
+          <volume>6</volume>
+          <issue>2</issue>
+          <fpage>142</fpage>
+          <lpage>145</lpage>
+          <pub-id pub-id-type="pmid">9377534</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b35-nss-10-385">
+        <label>35</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Stroop</surname>
+              <given-names>JR</given-names>
+            </name>
+          </person-group>
+          <article-title>Studies of interference in serial verbal reactions</article-title>
+          <source>J Exp Psychol</source>
+          <year>1935</year>
+          <volume>18</volume>
+          <issue>6</issue>
+          <fpage>643</fpage>
+          <lpage>662</lpage>
+        </element-citation>
+      </ref>
+      <ref id="b36-nss-10-385">
+        <label>36</label>
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Berry</surname>
+              <given-names>RB</given-names>
+            </name>
+            <name>
+              <surname>Brooks</surname>
+              <given-names>R</given-names>
+            </name>
+            <name>
+              <surname>Gamaldo</surname>
+              <given-names>CE</given-names>
+            </name>
+            <name>
+              <surname>Harding</surname>
+              <given-names>SM</given-names>
+            </name>
+            <name>
+              <surname>Marcus</surname>
+              <given-names>C</given-names>
+            </name>
+            <name>
+              <surname>Vaughn</surname>
+              <given-names>B</given-names>
+            </name>
+          </person-group>
+          <source>The AASM Manual for the Scoring of Sleep and Associated Events Rules, Terminology and Technical Specifications</source>
+          <publisher-loc>Darien</publisher-loc>
+          <publisher-name>American Academy of Sleep Medicine</publisher-name>
+          <year>2012</year>
+        </element-citation>
+      </ref>
+      <ref id="b37-nss-10-385">
+        <label>37</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Pejovic</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Basta</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Vgontzas</surname>
+              <given-names>AN</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Effects of recovery sleep after one work week of mild sleep restriction on interleukin-6 and cortisol secretion and daytime sleepiness and performance</article-title>
+          <source>Am J Physiol Endocrinol Metab</source>
+          <year>2013</year>
+          <volume>305</volume>
+          <issue>7</issue>
+          <fpage>E890</fpage>
+          <lpage>E896</lpage>
+          <pub-id pub-id-type="pmid">23941878</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b38-nss-10-385">
+        <label>38</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Bland</surname>
+              <given-names>JM</given-names>
+            </name>
+            <name>
+              <surname>Altman</surname>
+              <given-names>DG</given-names>
+            </name>
+          </person-group>
+          <article-title>Statistical methods for assessing agreement between two methods of clinical measurement</article-title>
+          <source>Lancet</source>
+          <year>1986</year>
+          <volume>1</volume>
+          <issue>8476</issue>
+          <fpage>307</fpage>
+          <lpage>310</lpage>
+          <pub-id pub-id-type="pmid">2868172</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b39-nss-10-385">
+        <label>39</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Belenky</surname>
+              <given-names>G</given-names>
+            </name>
+            <name>
+              <surname>Wesensten</surname>
+              <given-names>NJ</given-names>
+            </name>
+            <name>
+              <surname>Thorne</surname>
+              <given-names>DR</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Patterns of performance degradation and restoration during sleep restriction and subsequent recovery: a sleep dose-response study</article-title>
+          <source>J Sleep Res</source>
+          <year>2003</year>
+          <volume>12</volume>
+          <issue>1</issue>
+          <fpage>1</fpage>
+          <lpage>12</lpage>
+          <pub-id pub-id-type="pmid">12603781</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b40-nss-10-385">
+        <label>40</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Lim</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Dinges</surname>
+              <given-names>DF</given-names>
+            </name>
+          </person-group>
+          <article-title>Sleep deprivation and vigilant attention</article-title>
+          <source>Ann N Y Acad Sci</source>
+          <year>2008</year>
+          <volume>1129</volume>
+          <fpage>305</fpage>
+          <lpage>322</lpage>
+          <pub-id pub-id-type="pmid">18591490</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b41-nss-10-385">
+        <label>41</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Macleod</surname>
+              <given-names>CM</given-names>
+            </name>
+          </person-group>
+          <article-title>Half a century of research on the Stroop effect: an integrative review</article-title>
+          <source>Psychol Bull</source>
+          <year>1991</year>
+          <volume>109</volume>
+          <issue>2</issue>
+          <fpage>163</fpage>
+          <lpage>203</lpage>
+          <pub-id pub-id-type="pmid">2034749</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b42-nss-10-385">
+        <label>42</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Doran</surname>
+              <given-names>SM</given-names>
+            </name>
+            <name>
+              <surname>Van Dongen</surname>
+              <given-names>HP</given-names>
+            </name>
+            <name>
+              <surname>Dinges</surname>
+              <given-names>DF</given-names>
+            </name>
+          </person-group>
+          <article-title>Sustained attention performance during sleep deprivation: evidence of state instability</article-title>
+          <source>Arch Ital Biol</source>
+          <year>2001</year>
+          <volume>139</volume>
+          <issue>3</issue>
+          <fpage>253</fpage>
+          <lpage>267</lpage>
+          <pub-id pub-id-type="pmid">11330205</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b43-nss-10-385">
+        <label>43</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Mollicone</surname>
+              <given-names>DJ</given-names>
+            </name>
+            <name>
+              <surname>Van Dongen</surname>
+              <given-names>HP</given-names>
+            </name>
+            <name>
+              <surname>Rogers</surname>
+              <given-names>NL</given-names>
+            </name>
+            <name>
+              <surname>Banks</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Dinges</surname>
+              <given-names>DF</given-names>
+            </name>
+          </person-group>
+          <article-title>Time of day effects on neurobehavioral performance during chronic sleep restriction</article-title>
+          <source>Aviat Space Environ Med</source>
+          <year>2010</year>
+          <volume>81</volume>
+          <issue>8</issue>
+          <fpage>735</fpage>
+          <lpage>744</lpage>
+          <pub-id pub-id-type="pmid">20681233</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b44-nss-10-385">
+        <label>44</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Staab</surname>
+              <given-names>WJ</given-names>
+            </name>
+            <name>
+              <surname>Sjursen</surname>
+              <given-names>W</given-names>
+            </name>
+            <name>
+              <surname>Preves</surname>
+              <given-names>D</given-names>
+            </name>
+          </person-group>
+          <article-title>A one-size disposable hearing aid is introduced</article-title>
+          <source>Hear J</source>
+          <year>2000</year>
+          <volume>53</volume>
+          <issue>4</issue>
+          <fpage>36</fpage>
+        </element-citation>
+      </ref>
+      <ref id="b45-nss-10-385">
+        <label>45</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kappel</surname>
+              <given-names>SL</given-names>
+            </name>
+            <name>
+              <surname>Looney</surname>
+              <given-names>D</given-names>
+            </name>
+            <name>
+              <surname>Mandic</surname>
+              <given-names>DP</given-names>
+            </name>
+            <name>
+              <surname>Kidmose</surname>
+              <given-names>P</given-names>
+            </name>
+          </person-group>
+          <article-title>Physiological artifacts in scalp EEG and ear-EEG</article-title>
+          <source>Biomed Eng Online</source>
+          <year>2017</year>
+          <volume>16</volume>
+          <issue>1</issue>
+          <fpage>103</fpage>
+          <pub-id pub-id-type="pmid">28800744</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b46-nss-10-385">
+        <label>46</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Tonoyan</surname>
+              <given-names>Y</given-names>
+            </name>
+            <name>
+              <surname>Looney</surname>
+              <given-names>D</given-names>
+            </name>
+            <name>
+              <surname>Mandic</surname>
+              <given-names>DP</given-names>
+            </name>
+            <name>
+              <surname>Van Hulle</surname>
+              <given-names>MM</given-names>
+            </name>
+          </person-group>
+          <article-title>Discriminating multiple emotional states from EEG using a data-adaptive, multi-scale information-theoretic approach</article-title>
+          <source>Int J Neural Syst</source>
+          <year>2016</year>
+          <volume>26</volume>
+          <issue>2</issue>
+          <fpage>1650005</fpage>
+          <pub-id pub-id-type="pmid">26829885</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b47-nss-10-385">
+        <label>47</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Nakamura</surname>
+              <given-names>T</given-names>
+            </name>
+            <name>
+              <surname>Goverdovsky</surname>
+              <given-names>V</given-names>
+            </name>
+            <name>
+              <surname>Morrell</surname>
+              <given-names>MJ</given-names>
+            </name>
+            <name>
+              <surname>Mandic</surname>
+              <given-names>DP</given-names>
+            </name>
+          </person-group>
+          <article-title>Automatic sleep monitoring using ear-EEG</article-title>
+          <source>IEEE J Transl Eng Health Med</source>
+          <year>2017</year>
+          <volume>5</volume>
+          <fpage>1</fpage>
+          <lpage>8</lpage>
+        </element-citation>
+      </ref>
+      <ref id="b48-nss-10-385">
+        <label>48</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Nguyen</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Alqurashi</surname>
+              <given-names>R</given-names>
+            </name>
+            <name>
+              <surname>Raghebi</surname>
+              <given-names>Z</given-names>
+            </name>
+            <name>
+              <surname>Banaei-Kashani</surname>
+              <given-names>F</given-names>
+            </name>
+            <name>
+              <surname>Halbower</surname>
+              <given-names>AC</given-names>
+            </name>
+            <name>
+              <surname>Vu</surname>
+              <given-names>T</given-names>
+            </name>
+          </person-group>
+          <article-title>LIBS: a lightweight and inexpensive in-ear sensing system for automatic whole-night sleep stage monitoring</article-title>
+          <source>GetMobile: Mobile Comput Commun</source>
+          <year>2017</year>
+          <volume>21</volume>
+          <issue>3</issue>
+          <fpage>31</fpage>
+          <lpage>34</lpage>
+        </element-citation>
+      </ref>
+      <ref id="b49-nss-10-385">
+        <label>49</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Mikkelsen</surname>
+              <given-names>KB</given-names>
+            </name>
+            <name>
+              <surname>Villadsen</surname>
+              <given-names>DB</given-names>
+            </name>
+            <name>
+              <surname>Otto</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Kidmose</surname>
+              <given-names>P</given-names>
+            </name>
+          </person-group>
+          <article-title>Automatic sleep staging using ear-EEG</article-title>
+          <source>Biomed Eng Online</source>
+          <year>2017</year>
+          <volume>16</volume>
+          <issue>1</issue>
+          <fpage>111</fpage>
+          <pub-id pub-id-type="pmid">28927417</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b50-nss-10-385">
+        <label>50</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Goverdovsky</surname>
+              <given-names>V</given-names>
+            </name>
+            <name>
+              <surname>von Rosenberg</surname>
+              <given-names>W</given-names>
+            </name>
+            <name>
+              <surname>Nakamura</surname>
+              <given-names>T</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Hearables: multimodal physiological in-ear sensing</article-title>
+          <source>Sci Rep</source>
+          <year>2017</year>
+          <volume>7</volume>
+          <issue>1</issue>
+          <fpage>6948</fpage>
+          <pub-id pub-id-type="pmid">28761162</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b51-nss-10-385">
+        <label>51</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Sunwoo</surname>
+              <given-names>BY</given-names>
+            </name>
+            <name>
+              <surname>Jackson</surname>
+              <given-names>N</given-names>
+            </name>
+            <name>
+              <surname>Maislin</surname>
+              <given-names>G</given-names>
+            </name>
+            <name>
+              <surname>Gurubhagavatula</surname>
+              <given-names>I</given-names>
+            </name>
+            <name>
+              <surname>George</surname>
+              <given-names>CF</given-names>
+            </name>
+            <name>
+              <surname>Pack</surname>
+              <given-names>AI</given-names>
+            </name>
+          </person-group>
+          <article-title>Reliability of a single objective measure in assessing sleepiness</article-title>
+          <source>Sleep</source>
+          <year>2012</year>
+          <volume>35</volume>
+          <issue>1</issue>
+          <fpage>149</fpage>
+          <lpage>158</lpage>
+          <pub-id pub-id-type="pmid">22215929</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b52-nss-10-385">
+        <label>52</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Sateia</surname>
+              <given-names>MJ</given-names>
+            </name>
+          </person-group>
+          <article-title>International classification of sleep disorders, third edition</article-title>
+          <source>Chest</source>
+          <year>2014</year>
+          <volume>146</volume>
+          <issue>5</issue>
+          <fpage>1387</fpage>
+          <lpage>1394</lpage>
+          <pub-id pub-id-type="pmid">25367475</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b53-nss-10-385">
+        <label>53</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Nakamura</surname>
+              <given-names>T</given-names>
+            </name>
+            <name>
+              <surname>Adjei</surname>
+              <given-names>T</given-names>
+            </name>
+            <name>
+              <surname>Alqurashi</surname>
+              <given-names>Y</given-names>
+            </name>
+            <name>
+              <surname>Looney</surname>
+              <given-names>D</given-names>
+            </name>
+            <name>
+              <surname>Morrell</surname>
+              <given-names>MJ</given-names>
+            </name>
+            <name>
+              <surname>Mandic</surname>
+              <given-names>DP</given-names>
+            </name>
+          </person-group>
+          <article-title>Complexity science for sleep stage classification from EEG</article-title>
+          <source>Proceedings of IEEE International Joint Conference on Neural Networks (IJCNN)</source>
+          <fpage>4387</fpage>
+          <lpage>4394</lpage>
+          <year>2017</year>
+        </element-citation>
+      </ref>
+      <ref id="b54-nss-10-385">
+        <label>54</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Grossman</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Barenboim</surname>
+              <given-names>E</given-names>
+            </name>
+            <name>
+              <surname>Azaria</surname>
+              <given-names>B</given-names>
+            </name>
+            <name>
+              <surname>Sherer</surname>
+              <given-names>Y</given-names>
+            </name>
+            <name>
+              <surname>Goldstein</surname>
+              <given-names>L</given-names>
+            </name>
+          </person-group>
+          <article-title>The maintenance of wakefulness test as a predictor of alertness in aircrew members with idiopathic hypersomnia</article-title>
+          <source>Aviat Space Environ Med</source>
+          <year>2004</year>
+          <volume>75</volume>
+          <issue>3</issue>
+          <fpage>281</fpage>
+          <lpage>283</lpage>
+          <pub-id pub-id-type="pmid">15018299</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b55-nss-10-385">
+        <label>55</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Lloyd</surname>
+              <given-names>S</given-names>
+            </name>
+          </person-group>
+          <article-title>Assessing fitness to drive for commercial and private vehicle drivers (medical standards for licensing and clinical management guidelines)—a resource for health professionals in Australia</article-title>
+          <source>Occup Med</source>
+          <year>2012</year>
+          <volume>62</volume>
+          <issue>6</issue>
+          <fpage>472</fpage>
+          <lpage>473</lpage>
+        </element-citation>
+      </ref>
+    </ref-list>
+  </back>
+  <floats-group>
+    <fig id="f1-nss-10-385" position="float">
+      <label>Figure 1</label>
+      <caption>
+        <p>The MSLT protocol.</p>
+        <p><bold>Notes:</bold> Sleep duration in the prior night was estimated by asking the participants to log-in to a webpage every hour during the night and once when they woke up. Periods of naps during the sleep restriction visit are shown in orange, and periods of naps during the usual night sleep visit are shown in purple.</p>
+        <p><bold>Abbreviation:</bold> MSLT, Multiple Sleep Latency Test; RT, reaction time.</p>
+      </caption>
+      <graphic xlink:href="nss-10-385Fig1"/>
+    </fig>
+    <fig id="f2-nss-10-385" position="float">
+      <label>Figure 2</label>
+      <caption>
+        <p>The in-ear EEG sensor.</p>
+        <p><bold>Notes:</bold> (<bold>A</bold>) The hardware of the in-ear EEG and the sensor placement inside the external auditory meatus. The length and diameter are the measurements before the insertion. (<bold>B</bold>) A person wearing the scalp-EEG (<bold>C4</bold>) and in-ear EEG sensor with corresponding signals. The EEG shows a transition from alpha activity to theta activity during 10 seconds.</p>
+        <p><bold>Abbreviations:</bold> EEG, electroencephalography; GND, ground.</p>
+      </caption>
+      <graphic xlink:href="nss-10-385Fig2"/>
+    </fig>
+    <fig id="f3-nss-10-385" position="float">
+      <label>Figure 3</label>
+      <caption>
+        <p>Consort flowchart.</p>
+        <p><bold>Notes:</bold> (<bold>A</bold>) Consort diagram of the recruitment. (<bold>B</bold>) Details of the naps excluded from the analysis: participant number, visits (first or second visit), sleep restriction (orange box) and usual night sleep (purple box) and nap numbers. Disconnection means that the electrodes did not record data due to technical problems.</p>
+      </caption>
+      <graphic xlink:href="nss-10-385Fig3"/>
+      <graphic xlink:href="nss-10-385Fig3a"/>
+    </fig>
+    <fig id="f4-nss-10-385" position="float">
+      <label>Figure 4</label>
+      <caption>
+        <p>Examples of signals from scalp-EEG and in-ear EEG.</p>
+        <p><bold>Notes:</bold> (<bold>A</bold>) Examples for in-ear EEG (black) and scalp-EEG (blue) during four naps from one participant (26-year-old male) who did not remove the in-ear EEG sensor in between naps. (<bold>B</bold>) Examples for in-ear EEG (black) and scalp-EEG (blue) during four naps from one participant (25-year-old male) who removed the in-ear EEG sensor in between naps. Each EEG figure represents a 30-second epoch. Note that the amplitude of the in-ear-EEG was less than the scalp EEG in <xref ref-type="fig" rid="f4-nss-10-385">Figure 4A</xref>. However, inspection of the trends of power spectral density showed that they were similar over all 23 participants, for both scalp and in-ear EEG channels.</p>
+        <p><bold>Abbreviation:</bold> EEG, electroencephalogram.</p>
+      </caption>
+      <graphic xlink:href="nss-10-385Fig4"/>
+    </fig>
+    <fig id="f5-nss-10-385" position="float">
+      <label>Figure 5</label>
+      <caption>
+        <p>Bland-Altman agreement for scalp-EEG vs in-ear EEG.</p>
+        <p><bold>Notes:</bold> (<bold>A</bold>) Bland-Altman agreement for individual naps (in-ear EEG minus scalp-EEG), usual night sleep visit (left) and sleep restriction visit (right). Dashed lines show the CI. (<bold>B</bold>) Bland-Altman agreement for all naps combined (in-ear EEG minus scalp-EEG), sleep restriction (orange) and usual night sleep (purple). Dashed orange lines are the CI for sleep restriction, whereas dashed purple lines show the CI for usual night sleep. Note that several data points are overlapped.</p>
+        <p><bold>Abbreviation:</bold> EEG, electroencephalogram.</p>
+      </caption>
+      <graphic xlink:href="nss-10-385Fig5"/>
+    </fig>
+    <fig id="f6-nss-10-385" position="float">
+      <label>Figure 6</label>
+      <caption>
+        <p>Stroop test after sleep restriction and after usual night sleep.</p>
+        <p><bold>Notes:</bold> (<bold>A</bold>) The number of mistakes in each task. The highest number of mistakes was in the conflicting word task after sleep restriction, and this change significantly compared to after usual night sleep. (<bold>B</bold>) The mean time spent on each task (seconds). The time increased after sleep restriction in conflicting color, color block, and monochrome set, but did not reach significance level. **<italic>P</italic>=0.003.</p>
+      </caption>
+      <graphic xlink:href="nss-10-385Fig6"/>
+    </fig>
+    <table-wrap id="t1-nss-10-385" position="float">
+      <label>Table 1</label>
+      <caption>
+        <p>Comparison between in-ear-EEG and scalp-EEG in detecting sleep latency<xref ref-type="table-fn" rid="tfn2-nss-10-385">b</xref></p>
+      </caption>
+      <table frame="box" rules="all">
+        <thead>
+          <tr>
+            <th rowspan="2" valign="top" align="left" colspan="1">Sleep Latencies</th>
+            <th colspan="4" valign="top" align="left" rowspan="1">Usual night sleep</th>
+            <th colspan="4" valign="top" align="left" rowspan="1">Sleep restriction</th>
+          </tr>
+          <tr>
+            <th valign="top" align="left" rowspan="1" colspan="1">N</th>
+            <th valign="top" align="left" rowspan="1" colspan="1">Scalp</th>
+            <th valign="top" align="left" rowspan="1" colspan="1">In-ear</th>
+            <th valign="top" align="left" rowspan="1" colspan="1"><italic>P</italic>-value</th>
+            <th valign="top" align="left" rowspan="1" colspan="1">N</th>
+            <th valign="top" align="left" rowspan="1" colspan="1">Scalp</th>
+            <th valign="top" align="left" rowspan="1" colspan="1">In-ear</th>
+            <th valign="top" align="left" rowspan="1" colspan="1"><italic>P</italic>-value</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td valign="top" align="left" rowspan="1" colspan="1">
+              <bold>Sleep latency of nap 1 (minutes)</bold>
+            </td>
+            <td valign="top" align="left" rowspan="1" colspan="1">23</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">11.1±6.2</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">11.7±6.2</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">0.40</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">17</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">9.6±5.9</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">10.7±6.2</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">0.14</td>
+          </tr>
+          <tr>
+            <td valign="top" align="left" rowspan="1" colspan="1">
+              <bold>Sleep latency of nap 2 (minutes)</bold>
+            </td>
+            <td valign="top" align="left" rowspan="1" colspan="1">23</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">12.0±6.4</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">11.9±6.4</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">0.10</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">19</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">11.6±6.7</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">12.2±6.9</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">0.59</td>
+          </tr>
+          <tr>
+            <td valign="top" align="left" rowspan="1" colspan="1">
+              <bold>Sleep latency of nap 3 (minutes)</bold>
+            </td>
+            <td valign="top" align="left" rowspan="1" colspan="1">23</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">12.7±7.0</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">12.4±6.7</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">0.50</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">17</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">8.4±5.1</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">9.1±5.7</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">0.14</td>
+          </tr>
+          <tr>
+            <td valign="top" align="left" rowspan="1" colspan="1">
+              <bold>Sleep latency of nap 4 (minutes)</bold>
+            </td>
+            <td valign="top" align="left" rowspan="1" colspan="1">16</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">15.6±5.7</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">15.6±5.7</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">0.81</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">16</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">12.5±6.5</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">12.7±5.2</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">0.27</td>
+          </tr>
+          <tr>
+            <td valign="top" align="left" rowspan="1" colspan="1">
+              <bold>Mean sleep latency all naps (minutes)</bold>
+            </td>
+            <td valign="top" align="left" rowspan="1" colspan="1">23</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">12.4±5.2</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">12.7±4.9</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">0.38</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">19</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">10.4±4.8</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">10.9±5.1</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">0.26</td>
+          </tr>
+          <tr>
+            <td valign="top" align="left" rowspan="1" colspan="1">
+              <bold>Mean sleep latency of nap 1–3 (minutes)<xref ref-type="table-fn" rid="tfn1-nss-10-385">a</xref></bold>
+            </td>
+            <td valign="top" align="left" rowspan="1" colspan="1">23</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">12.4±5.3</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">12.7±5.1</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">0.49</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">19</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">10.0±4.7</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">10.5±5.1</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">0.37</td>
+          </tr>
+        </tbody>
+      </table>
+      <table-wrap-foot>
+        <fn>
+          <p>
+            <bold>Notes:</bold>
+          </p>
+        </fn>
+        <fn id="tfn1-nss-10-385">
+          <label>a</label>
+          <p>This measure of sleep latency is calculated to show that the data missed on nap number 4 due to technical problems did not change the group mean sleep latency.</p>
+        </fn>
+        <fn id="tfn2-nss-10-385">
+          <label>b</label>
+          <p>Data are presented as mean±SD.</p>
+        </fn>
+        <fn id="tfn3-nss-10-385">
+          <p><bold>Abbreviation:</bold> EEG, electroencephalogram.</p>
+        </fn>
+      </table-wrap-foot>
+    </table-wrap>
+  </floats-group>
+</article>
+</pmc-articleset>

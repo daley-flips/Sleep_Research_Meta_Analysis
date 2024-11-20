@@ -1,0 +1,613 @@
+<pmc-articleset><article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" dtd-version="1.3" xml:lang="en" article-type="research-article">
+  <?properties open_access?>
+  <processing-meta base-tagset="archiving" mathml-version="3.0" table-model="xhtml" tagset-family="jats">
+    <restricted-by>pmc</restricted-by>
+  </processing-meta>
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="nlm-ta">Nat Sci Sleep</journal-id>
+      <journal-id journal-id-type="iso-abbrev">Nat Sci Sleep</journal-id>
+      <journal-id journal-id-type="publisher-id">nss</journal-id>
+      <journal-title-group>
+        <journal-title>Nature and Science of Sleep</journal-title>
+      </journal-title-group>
+      <issn pub-type="epub">1179-1608</issn>
+      <publisher>
+        <publisher-name>Dove</publisher-name>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="pmid">35369531</article-id>
+      <article-id pub-id-type="pmc">8965013</article-id>
+      <article-id pub-id-type="publisher-id">351027</article-id>
+      <article-id pub-id-type="doi">10.2147/NSS.S351027</article-id>
+      <article-categories>
+        <subj-group subj-group-type="heading">
+          <subject>Original Research</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>Prediction of Mandibular Advancement Device Response Using CPAP Pressure in Different Polysomnographic Phenotypes</article-title>
+        <alt-title alt-title-type="running-authors">Lee et al</alt-title>
+        <alt-title alt-title-type="running-title">Lee et al</alt-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author" equal-contrib="yes">
+          <name>
+            <surname>Lee</surname>
+            <given-names>Chien-Feng</given-names>
+          </name>
+          <xref rid="aff0001" ref-type="aff">
+<sup>1</sup>
+</xref>
+          <xref rid="ft0001" ref-type="author-notes">*</xref>
+        </contrib>
+        <contrib contrib-type="author" equal-contrib="yes">
+          <name>
+            <surname>Chen</surname>
+            <given-names>Yunn-Jy</given-names>
+          </name>
+          <xref rid="aff0002" ref-type="aff">
+<sup>2</sup>
+</xref>
+          <xref rid="ft0001" ref-type="author-notes">*</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Huang</surname>
+            <given-names>Wen-Chi</given-names>
+          </name>
+          <xref rid="aff0003" ref-type="aff">
+<sup>3</sup>
+</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Hou</surname>
+            <given-names>Jen-Wen</given-names>
+          </name>
+          <xref rid="aff0004" ref-type="aff">
+<sup>4</sup>
+</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Liu</surname>
+            <given-names>Yu-Ting</given-names>
+          </name>
+          <xref rid="aff0005" ref-type="aff">
+<sup>5</sup>
+</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Shih</surname>
+            <given-names>Tiffany Ting-Fang</given-names>
+          </name>
+          <xref rid="aff0006" ref-type="aff">
+<sup>6</sup>
+</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0002-6883-9502</contrib-id>
+          <name>
+            <surname>Lee</surname>
+            <given-names>Pei-Lin</given-names>
+          </name>
+          <xref rid="aff0007" ref-type="aff">
+<sup>7</sup>
+</xref>
+          <xref rid="aff0008" ref-type="aff">
+<sup>8</sup>
+</xref>
+          <xref rid="aff0009" ref-type="aff">
+<sup>9</sup>
+</xref>
+          <xref rid="aff0010" ref-type="aff">
+<sup>10</sup>
+</xref>
+          <xref rid="an0001" ref-type="corresp"/>
+        </contrib>
+        <contrib contrib-type="author">
+          <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0001-5664-9392</contrib-id>
+          <name>
+            <surname>Yu</surname>
+            <given-names>Chong-Jen</given-names>
+          </name>
+          <xref rid="aff0001" ref-type="aff">
+<sup>1</sup>
+</xref>
+          <xref rid="aff0008" ref-type="aff">
+<sup>8</sup>
+</xref>
+          <xref rid="aff0009" ref-type="aff">
+<sup>9</sup>
+</xref>
+        </contrib>
+        <aff id="aff0001"><label>1</label><institution>Department of Internal Medicine, National Taiwan University Hospital Hsin-Chu Branch</institution>, <addr-line>Hsin-Chu</addr-line>, <country>Taiwan</country></aff>
+        <aff id="aff0002"><label>2</label><institution>Department of Dentistry, School of Dentistry, National Taiwan University Hospital</institution>, <addr-line>Taipei</addr-line>, <country>Taiwan</country></aff>
+        <aff id="aff0003"><label>3</label><institution>Department of Computer Science and Information Engineering, National Taiwan University</institution>, <addr-line>Taipei</addr-line>, <country>Taiwan</country></aff>
+        <aff id="aff0004"><label>4</label><institution>Graduate Institute of Electronics Engineering, National Taiwan University</institution>, <addr-line>Taipei</addr-line>, <country>Taiwan</country></aff>
+        <aff id="aff0005"><label>5</label><institution>MediaTek Inc</institution>., <addr-line>Hsinchu</addr-line>, <country>Taiwan</country></aff>
+        <aff id="aff0006"><label>6</label><institution>Department of Radiology and Medical Imaging, National Taiwan University Hospital</institution>, <addr-line>Taipei</addr-line>, <country>Taiwan</country></aff>
+        <aff id="aff0007"><label>7</label><institution>Center of Sleep Disorder, National Taiwan University Hospital</institution>, <addr-line>Taipei</addr-line>, <country>Taiwan</country></aff>
+        <aff id="aff0008"><label>8</label><institution>Department of Internal Medicine, National Taiwan University Hospital</institution>, <addr-line>Taipei</addr-line>, <country>Taiwan</country></aff>
+        <aff id="aff0009"><label>9</label><institution>School of Medicine, College of Medicine, National Taiwan University</institution>, <addr-line>Taipei</addr-line>, <country>Taiwan</country></aff>
+        <aff id="aff0010"><label>10</label><institution>Center for Electronics Technology Integration, National Taiwan University</institution>, <addr-line>Taipei</addr-line>, <country>Taiwan</country></aff>
+      </contrib-group>
+      <author-notes>
+        <corresp id="an0001">Correspondence: Pei-Lin Lee, <phone>Tel +886-2-2356-2755</phone>, <fax>Fax +886-2-2358-2867</fax>, Email leepeilin@ntu.edu.tw</corresp>
+        <fn id="ft0001">
+          <label>*</label>
+          <p>These authors contributed equally to this work</p>
+        </fn>
+      </author-notes>
+      <pub-date pub-type="epub">
+        <day>25</day>
+        <month>3</month>
+        <year>2022</year>
+      </pub-date>
+      <pub-date pub-type="collection">
+        <year>2022</year>
+      </pub-date>
+      <volume>14</volume>
+      <fpage>517</fpage>
+      <lpage>529</lpage>
+      <history>
+        <date date-type="received">
+          <day>30</day>
+          <month>11</month>
+          <year>2021</year>
+        </date>
+        <date date-type="accepted">
+          <day>13</day>
+          <month>3</month>
+          <year>2022</year>
+        </date>
+      </history>
+      <permissions>
+        <copyright-statement>© 2022 Lee et al.</copyright-statement>
+        <copyright-year>2022</copyright-year>
+        <copyright-holder>Lee et al.</copyright-holder>
+        <license>
+          <ali:license_ref xmlns:ali="http://www.niso.org/schemas/ali/1.0/" specific-use="textmining" content-type="ccbynclicense">https://creativecommons.org/licenses/by-nc/3.0/</ali:license_ref>
+          <license-p>This work is published and licensed by Dove Medical Press Limited. The full terms of this license are available at <ext-link ext-link-type="uri" xlink:href="https://www.dovepress.com/terms.php">https://www.dovepress.com/terms.php</ext-link> and incorporate the Creative Commons Attribution – Non Commercial (unported, v3.0) License (<ext-link ext-link-type="uri" xlink:href="https://creativecommons.org/licenses/by-nc/3.0/">http://creativecommons.org/licenses/by-nc/3.0/</ext-link>). By accessing the work you hereby accept the Terms. Non-commercial uses of the work are permitted without any further permission from Dove Medical Press Limited, provided the work is properly attributed. For permission for commercial use of this work, please see paragraphs 4.2 and 5 of our Terms (<ext-link ext-link-type="uri" xlink:href="https://www.dovepress.com/terms.php">https://www.dovepress.com/terms.php</ext-link>).</license-p>
+        </license>
+      </permissions>
+      <abstract>
+        <sec id="s2001">
+          <title>Objective</title>
+          <p>Both continuous positive airway pressure (CPAP) pressure and polysomnographic phenotypes have been associated with mandibular advancement device (MAD) treatment response, but the precise relationship has not been fully elucidated. We hypothesized that utilizing CPAP pressure would predict the MAD response in treatment-naïve patients with moderate-severe obstructive sleep apnea (OSA), and the MAD response would be associated with two polysomnographic phenotypes, including sleep stage dependency and positional dependency.</p>
+        </sec>
+        <sec id="s2002">
+          <title>Methods</title>
+          <p>OSA treatment-naïve patients with an apnea-hypopnea index (AHI) ≥15/h who declined CPAP treatment and received MAD treatment for 3–6 months were enrolled. The MAD treatment response was defined as 1) residual AHI under MAD (AHI<sub>MAD</sub>) &lt;5/h and 2) AHI<sub>MAD</sub> &lt;10/h. Logistic regression was applied to identify the association between CPAP pressure and MAD treatment responders. The predictability of the MAD responder status utilizing CPAP pressure was assessed with the area under the receiver operating characteristic (AUROC).</p>
+        </sec>
+        <sec id="s2003">
+          <title>Results</title>
+          <p>A total of 128 enrolled patients (AHI ≥30/h in 74.2%) were recruited, of whom 119 patients and 80 patients were included for analysis of sleep stage and positional dependency, respectively. REM-predominant OSA had lower AHI than stage-independent OSA, while the supine-predominant phenotype had lower anthropometrics than the nonpositional-dependent phenotype. The response rates for AHI<sub>MAD</sub> &lt;5/h and AHI<sub>MAD</sub> &lt;10/h were 25.8% and 48.4%, respectively. Lower anthropometrics, baseline AHI, and supine predominance were associated with the responder status, while CPAP pressure was an independent predictor. The AUROCs for the prediction of AHI<sub>MAD</sub> &lt;5/h and AHI<sub>MAD</sub> &lt;10/h responders were 0.635 and 0.664, respectively. Utilizing a CPAP level &gt;14 cmH<sub>2</sub>O as the cutoff to predict criterion 1 and 2 nonresponders, the sensitivity was 93.9% and 95.2%, respectively.</p>
+        </sec>
+        <sec id="s2004">
+          <title>Conclusion</title>
+          <p>In treatment-naïve patients with moderate-severe OSA, the supine-predominant phenotype and lower CPAP pressure were associated with the MAD response, while the sleep stage dependency phenotype was not. Utilization of a CPAP level &gt;14 cmH<sub>2</sub>O could be a sensitive measure to identify nonresponders.</p>
+        </sec>
+      </abstract>
+      <abstract abstract-type="video">
+        <title>Video abstract</title>
+        <p>
+<fig position="anchor" id="UF0001" fig-type="figure"><graphic xlink:href="NSS-14-517-g0001" content-type="print-only" position="float"/></fig>
+</p>
+        <p>Point your SmartPhone at the code above. If you have a QR code reader the video abstract will appear. Or use:</p>
+        <p>
+<underline>
+<ext-link xlink:href="https://youtu.be/IlU03CfrQvg" ext-link-type="uri">https://youtu.be/IlU03CfrQvg</ext-link>
+</underline>
+</p>
+      </abstract>
+      <kwd-group kwd-group-type="author">
+        <title>Keywords</title>
+        <kwd>continuous positive airway pressure</kwd>
+        <kwd>mandibular advancement device</kwd>
+        <kwd>polysomnography</kwd>
+        <kwd>phenotype</kwd>
+        <kwd>sleep apnea</kwd>
+        <kwd>obstructive</kwd>
+      </kwd-group>
+      <counts>
+        <fig-count count="2"/>
+        <table-count count="13"/>
+        <ref-count count="36"/>
+        <page-count count="13"/>
+      </counts>
+    </article-meta>
+  </front>
+  <body>
+    <sec sec-type="intro" id="s0001">
+      <title>Introduction</title>
+      <p>Obstructive sleep apnea (OSA) is a common disease with a 9–38% prevalence in the general population.<xref rid="cit0001" ref-type="bibr">1</xref> It is characterized by the recurrent collapse of the upper airway during sleep, resulting in chronic intermittent hypoxia and sleep fragmentation. Untreated OSA is associated with hypertension, cardiovascular mortality, motor vehicle accidents, diabetes mellitus, and impaired quality of life.<xref rid="cit0002" ref-type="bibr">2–4</xref> Continuous positive airway pressure (CPAP) therapy is the standard treatment for moderate-severe OSA and can improve daytime sleepiness, quality of life, and blood pressure.<xref rid="cit0005" ref-type="bibr">5–9</xref> However, the efficacy of CPAP is often offset by suboptimal adherence.<xref rid="cit0010" ref-type="bibr">10</xref> Mandibular advancement device (MAD) treatment is an alternative for patients who refuse or cannot tolerate CPAP therapy. The response to MAD treatment is defined according to the residual apnea-hypopnea index (AHI) on MAD treatment (AHI<sub>MAD</sub>) and AHI reduction: criterion 1, AHI<sub>MAD</sub> &lt;5/h with a reduction &gt;50%; criterion 2, AHI<sub>MAD</sub> &lt;10/h with a reduction &gt;50%, and criterion 3, a reduction in AHI &gt;50%. The response rates to the three criteria have been reported to be 48%, 64%, and 35%, respectively, which highlights the importance of patient selection.<xref rid="cit0011" ref-type="bibr">11</xref>,<xref rid="cit0012" ref-type="bibr">12</xref> Therefore, a biomarker is needed to identify patients who would benefit from MAD treatment.</p>
+      <p>Factors associated with a favorable response to MAD treatment include younger age, female sex, lower AHI, body mass index (BMI) and neck circumference,<xref rid="cit0011" ref-type="bibr">11–15</xref> craniofacial features (eg, angle between the anterior cranial base and mandibular plane),<xref rid="cit0016" ref-type="bibr">16</xref> extent of mandibular advancement,<xref rid="cit0017" ref-type="bibr">17</xref> and upper airway response (collapsibility, loop gain, arousal threshold, compensation, and ventilatory response to arousal).<xref rid="cit0018" ref-type="bibr">18</xref> Few studies have linked polysomnographic phenotypes, including sleep stage dependency and positional dependency, to MAD treatment response. Three studies have shown that positional-predominant OSA was more likely to have a better response to MAD therapy than non-positional OSA,<xref rid="cit0019" ref-type="bibr">19–21</xref> while one study showed the opposite findings.<xref rid="cit0014" ref-type="bibr">14</xref> One study reported that rapid eye movement (REM)-predominant OSA was associated with a lower MAD treatment response,<xref rid="cit0014" ref-type="bibr">14</xref> while another reported no association between sleep-stage dependency and MAD treatment response.<xref rid="cit0022" ref-type="bibr">22</xref> The inconsistencies are partly related to differences in the definitions of sleep stage dependency, positional dependency and MAD type.<xref rid="cit0014" ref-type="bibr">14</xref>,<xref rid="cit0015" ref-type="bibr">15</xref>,<xref rid="cit0019" ref-type="bibr">19–22</xref></p>
+      <p>Recent studies have reported that the CPAP pressure was associated with the MAD treatment response.<xref rid="cit0023" ref-type="bibr">23–26</xref> Our previous study identified that higher BMI and higher CPAP pressure were associated with AHI<sub>MAD</sub> ≥15/h.<xref rid="cit0027" ref-type="bibr">27</xref> Tsuiki et al reported that a fixed pressure ≥10.5 cmH<sub>2</sub>O could predict no response to MAD therapy across all three criteria in male Japanese patients adhering to CPAP treatment.<xref rid="cit0026" ref-type="bibr">26</xref> Sutherland et al reported that a fixed pressure ≥13 cmH<sub>2</sub>O was predictive of criterion 1 or 2 nonresponders in treatment-naïve Caucasian patients.<xref rid="cit0025" ref-type="bibr">25</xref> Additionally, Storesund et al reported that a maximum autoadjusting CPAP (APAP) level &gt;12 cmH<sub>2</sub>O could predict criterion 1 and 2 nonresponders in Caucasian patients nonadherent to APAP.<xref rid="cit0024" ref-type="bibr">24</xref> Moreover, Dort et al reported that CPAP level &gt;9 cmH<sub>2</sub>O, obtained from both fixed pressure and APAP, could predict criterion 1 nonresponders in a variety of Caucasian patients, including those who were treatment naïve; had failed CPAP treatment; had an unsuccessful surgery; and were using a MAD as a temporary alternative.<xref rid="cit0023" ref-type="bibr">23</xref> These inconsistencies in CPAP level cutoff values may be related to the heterogeneity of the participants, treatment prior to MAD treatment, and the method of determining the CPAP pressure.</p>
+      <p>To the best of our knowledge, no study has reported the association between MAD treatment response and CPAP pressure and the polysomnographic phenotype of sleep stage and positional dependency. Moreover, it is unclear whether the predictability of the MAD treatment response with CPAP pressure varies across different polysomnographic phenotypes. We hypothesized that the level of CPAP was predictive of the MAD treatment response independent of the polysomnographic phenotype (sleep stage dependency and positional dependency) in treatment-naïve patients with moderate-severe OSA. The present study aimed to test the association between CPAP pressure and MAD treatment responder status across different sleep stages and positional dependency phenotypes. We also tested the predictability of the MAD response utilizing CPAP pressure.</p>
+    </sec>
+    <sec id="s0002">
+      <title>Methods</title>
+      <sec id="s0002-s2001">
+        <title>Study Setting</title>
+        <p>This retrospective study was conducted at the Center of Sleep Disorder of National Taiwan University Hospital (NTUH). The routine protocol for treating patients with moderate-severe OSA (AHI ≥15/h) has previously been reported.<xref rid="cit0027" ref-type="bibr">27</xref> Briefly, patients underwent 2-week fixed-pressure CPAP, where therapeutic pressure was obtained by overnight manual titration. Patients who declined CPAP treatment were referred to an orthodontist for MAD treatment. Three to six months after MAD delivery, the patient underwent follow-up polysomnography (PSG) while on MAD to determine the response to MAD treatment.</p>
+      </sec>
+      <sec id="s0002-s2002">
+        <title>Participants and Data Collection</title>
+        <p>Medical records of patients referred for suspected OSA from January 1, 2008, to December 31, 2017, were reviewed for eligibility. Patients who fulfilled all the following inclusion criteria were eligible for the study: 1) age 20–80 years; 2) diagnosed moderate-severe OSA; 3) no previous treatment for OSA; 3) CPAP titration to determine the therapeutic pressure; and 4) refusal of CPAP treatment and subsequent receipt of MAD treatment for 3–6 months. Patients were excluded if they fulfilled one of the following exclusion criteria: 1) failed CPAP titration; 2) residual AHI ≥ 5/h at a CPAP level of 20 cmH<sub>2</sub>O; 3) MAD treatment period &lt; 3 months; and 4) refusal of follow-up PSG after MAD for 3–6 months (<underline><ext-link xlink:href="https://www.dovepress.com/get_supplementary_file.php?f=351027.docx" ext-link-type="uri">Figure S1</ext-link></underline>).</p>
+        <p>Data extracted from collected medical records included demographics, anthropometrics [body mass index (BMI), neck and waist circumference], subjective sleepiness, PSG parameters, and CPAP pressure. All methods were carried out in compliance with the Declaration of Helsinki and the data remained confidential. The study protocol was approved by the Research Ethics Committee of NTUH (protocol number 20161218ORINA). Because it was a retrospective study, the need for consent from the participants was waived by the Research Ethics Committee.</p>
+      </sec>
+      <sec id="s0002-s2003">
+        <title>Polysomnographic Phenotype</title>
+        <p>Full-night PSG (Embla N7000, Medcare Flaga, Reykjavik, Iceland) was performed in the sleep lab following the protocol as previously described.<xref rid="cit0027" ref-type="bibr">27</xref> Apnea was defined as the absence of airflow for ≥ 10 sec, and hypopnea was defined as a 30% decrease in airflow for ≥ 10 sec associated with a ≥ 4% reduction in arterial oxygen saturation. The oxygen desaturation index was defined as the number of times that pulse oxygen saturation decreased by ≥ 4% per hour.<xref rid="cit0028" ref-type="bibr">28</xref></p>
+        <p>The polysomnographic phenotypes in the present study included positional dependency and sleep stage dependency. Patients with a time in supine or nonsupine sleep &lt;15 min were excluded from the analysis of positional dependency, while patients with a time in REM or NREM &lt;15 min were excluded from the analysis of sleep stage dependency. Positional dependency was defined as the ratio of the AHI during supine sleep (AHI<sub>supine</sub>) to the AHI during nonsupine sleep (<sub>AHInonsupine</sub>). Supine-predominant OSA was defined as an AHI<sub>supine</sub>/AHI<sub>non-supine</sub> ratio ≥ 2, and nonpositional OSA was defined as an AHI<sub>supine</sub>/AHI<sub>non-supine</sub> ratio &lt; 2.</p>
+        <p>Sleep stage dependency was defined as the ratio of AHI during REM (AHI<sub>REM</sub>) to AHI during NREM (AHI<sub>NREM</sub>). Because the definition of sleep stage dependency was inconsistent across previous reports, two definitions for the sleep stage phenotype were applied in the present study. First, REM-predominant OSA was defined as an AHI<sub>REM</sub>/AHI<sub>NREM</sub> ratio ≥ 2, and NREM-predominant OSA was defined as an AHI<sub>REM</sub>/AHI<sub>NREM</sub> ratio ≤ 0.5. Stage-independent OSA was defined as a ratio between 2 and 0.5.<xref rid="cit0014" ref-type="bibr">14</xref>,<xref rid="cit0029" ref-type="bibr">29</xref>,<xref rid="cit0030" ref-type="bibr">30</xref> Second, REM-related OSA (AHI<sub>REM</sub>/AHI<sub>NREM</sub> ratio ≥ 2) and NREM-related OSA (AHI<sub>REM</sub>/AHI<sub>NREM</sub> ratio &lt; 2) were defined.<xref rid="cit0031" ref-type="bibr">31–33</xref></p>
+      </sec>
+      <sec id="s0002-s2004">
+        <title>Determination of CPAP Pressure</title>
+        <p>The therapeutic pressure was determined by overnight manual titration using BiPAP Synchrony<sup>TM</sup> (Respironics Inc., Murrysville, PA, USA) following a published protocol.<xref rid="cit0027" ref-type="bibr">27</xref> The manual titration started with the CPAP mode at a pressure of 4 cmH<sub>2</sub>O. The pressure was then increased in 1 cmH<sub>2</sub>O increments over 10 min to eliminate obstructive events, including apnea, hypopnea, and snoring, and to minimize electroencephalography arousals until 30 min had elapsed without any obstructive events. Optimal pressure was defined as the pressure at which the AHI was &lt; 5/h for 15 min, including supine REM sleep. The choice of interface started with a nasal mask, which was changed to an oronasal mask if a significant mouth leak was detected.</p>
+      </sec>
+      <sec id="s0002-s2005">
+        <title>MAD Treatment</title>
+        <p>The MAD used in the present study was a monobloc that was fabricated as previously described to achieve 75% of the maximum mandibular advancement, and the vertical opening was limited to 5 mm.<xref rid="cit0027" ref-type="bibr">27</xref> The design of the MAD remained the same during the study period. MAD was delivered four weeks after taking a dental impression. The patients visited the clinic at the 1st, 3rd, 6th, and 12th months after MAD delivery, where the self-reported average nightly usage was recorded at every follow-up visit.</p>
+      </sec>
+      <sec id="s0002-s2006">
+        <title>Outcomes</title>
+        <p>The outcome was the MAD treatment response, which was evaluated by reduction in the baseline AHI and residual AHI (AHI<sub>MAD</sub>) on the follow-up PSG. The response to MAD treatment was defined by two criteria: criterion 1, residual AHI<sub>MAD</sub> &lt; 5/h with AHI reduction &gt; 50%; criterion 2, AHI<sub>MAD</sub> &lt; 10/h with AHI reduction &gt; 50%.<xref rid="cit0023" ref-type="bibr">23</xref>,<xref rid="cit0025" ref-type="bibr">25</xref>,<xref rid="cit0026" ref-type="bibr">26</xref></p>
+      </sec>
+      <sec id="s0002-s2007">
+        <title>Data Analysis</title>
+        <p>Factors associated with positional dependency were determined by comparing the clinical features between supine-predominant and nonpositional-dependent OSA; between REM-predominant, NREM-predominant, and stage-independent OSA; and between REM-related and NREM-related OSA. Factors associated with MAD treatment response were determined by comparing the clinical features between the responders and nonresponders.</p>
+        <p>Correlations between clinical features, CPAP pressure, baseline AHI, and AHI<sub>MAD</sub> were evaluated using Spearman's correlation analysis. The association between CPAP pressure and MAD treatment response was determined with logistic regression. Multiple logistic regression was conducted with age, sex, BMI, baseline AHI, CPAP pressure, sleep stage dependency, positional dependency, and factors significant at the 0.1 level in univariate analysis entered into the regression model.</p>
+        <p>The ability of the CPAP pressure to predict the MAD treatment response was assessed using the area under the receiver operating characteristic curve (AUROC). In addition, the best cutoff CPAP level was based on sensitivity, specificity, positive predictive value (PPV), negative predictive value (NPV), positive likelihood ratio (LR+), negative likelihood ratio (LR−), and accuracy.</p>
+        <p>Continuous variables are expressed as medians (interquartile ranges [IQRs]), and categorical variables are expressed as numbers (percentages). The Wilcoxon-Mann–Whitney <italic toggle="yes">U</italic>-test, chi-square test or Fisher’s exact test with Bonferroni correction, and the Kruskal–Wallis test with the Bonferroni post hoc method were used as appropriate. A two-tailed P value &lt;0.05 was considered to be statistically significant. All statistical analyses were conducted using SPSS version 23 (SPSS, Chicago, IL, USA).</p>
+      </sec>
+      <sec sec-type="data-availability" id="s0002-s2008">
+        <title>Data Availability Statement</title>
+        <p>The data of individual subjects that are not publicly available may be obtained from the corresponding author upon reasonable request.</p>
+      </sec>
+    </sec>
+    <sec id="s0003">
+      <title>Results</title>
+      <sec id="s0003-s2001">
+        <title>Clinical Features of the Participants</title>
+        <p><underline><ext-link xlink:href="https://www.dovepress.com/get_supplementary_file.php?f=351027.docx" ext-link-type="uri">Figure S1</ext-link></underline> shows the recruitment flowchart. A total of 5796 patients with moderate-severe OSA aged 20–80 years were screened. A total of 4859 patients were newly diagnosed and had never been treated for OSA (treatment-naïve). Among the 1559 who underwent CPAP titration, 53 had titration failure, and 151 had a residual AHI &gt; 5/h at a pressure of 20 cmH<sub>2</sub>O. Among the 1355 patients with a residual AHI&lt;5/h, 144 received MAD treatment. A total of 128 patients who completed 3–6 months of MAD treatment and underwent follow-up PSG were recruited for the study.</p>
+        <p><xref rid="t0001" ref-type="table">Table 1</xref> shows the clinical features of these 128 patients. The patients were middle-aged, predominantly male (82%), and overweight-obese with a median BMI of 26.8 kg/m<sup>2</sup> (IQR, 24.2–28.6). The median baseline AHI was 38.9/h (IQR, 29.3–52.1), with an AHI ≥ 30/h observed in 74.2% of the patients. The median CPAP level was 9 cmH<sub>2</sub>O (IQR, 7–12), and the median AHI<sub>MAD</sub> was 10.2/h (IQR, 4.7–20.3). Compared to the male patients, female patients were older, had lower neck and waist circumferences, had more excessive daytime sleepiness (EDS), and had a higher AHI<sub>REM</sub>.<table-wrap position="float" id="t0001"><label>Table 1</label><caption><p>Comparisons of the 105 Male and 23 Female Enrolled Patients</p></caption><table frame="hsides" rules="groups"><thead><tr><th rowspan="1" colspan="1">Feature</th><th rowspan="1" colspan="1">All (N=128)</th><th rowspan="1" colspan="1">Male (N=105)</th><th rowspan="1" colspan="1">Female (N=23)</th><th rowspan="1" colspan="1"><italic toggle="yes">P</italic></th></tr></thead><tbody><tr><td rowspan="1" colspan="1">Age (years)</td><td rowspan="1" colspan="1">54.5 (48.0–61.8)</td><td rowspan="1" colspan="1">53.4 (46.0–60.6)</td><td rowspan="1" colspan="1">57.4 (53.6–61.9)</td><td rowspan="1" colspan="1">0.037</td></tr><tr><td rowspan="1" colspan="1">BMI (kg/m<sup>2</sup>)</td><td rowspan="1" colspan="1">26.8 (24.2–28.6)</td><td rowspan="1" colspan="1">26.8 (24.2–28.6)</td><td rowspan="1" colspan="1">27.1 (24.7–28.8)</td><td rowspan="1" colspan="1">0.884</td></tr><tr><td rowspan="1" colspan="1">Neck circumference (cm)</td><td rowspan="1" colspan="1">38.5 (36.0–40.0)</td><td rowspan="1" colspan="1">39.0 (37.0–41.0)</td><td rowspan="1" colspan="1">33.0 (32.0–36.0)</td><td rowspan="1" colspan="1">&lt;0.001</td></tr><tr><td rowspan="1" colspan="1">Waist circumference (cm)</td><td rowspan="1" colspan="1">91.5 (86.0–96.0)</td><td rowspan="1" colspan="1">92.0 (88.0–98.0)</td><td rowspan="1" colspan="1">87.0 (78.0–92.0)</td><td rowspan="1" colspan="1">0.001</td></tr><tr><td rowspan="1" colspan="1">ESS</td><td rowspan="1" colspan="1">10 (7–13)</td><td rowspan="1" colspan="1">9 (7–12)</td><td rowspan="1" colspan="1">11 (9–14)</td><td rowspan="1" colspan="1">0.184</td></tr><tr><td rowspan="1" colspan="1">EDS, n (%)</td><td rowspan="1" colspan="1">46 (35.9)</td><td rowspan="1" colspan="1">33 (34.4)</td><td rowspan="1" colspan="1">13 (61.9)</td><td rowspan="1" colspan="1">0.019</td></tr><tr><td rowspan="1" colspan="1">Polysomnographic parameter</td><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"/></tr><tr><td rowspan="1" colspan="1"> REM (%)</td><td rowspan="1" colspan="1">17.0 (11.6–21.5)</td><td rowspan="1" colspan="1">16.9 (11.6–21.2)</td><td rowspan="1" colspan="1">19.3 (12.1–24.2)</td><td rowspan="1" colspan="1">0.507</td></tr><tr><td rowspan="1" colspan="1"> AHI (/h)</td><td rowspan="1" colspan="1">38.9 (29.3–52.1)</td><td rowspan="1" colspan="1">39.5 (30.4–51.7)</td><td rowspan="1" colspan="1">32.4 (27.4–50.1)</td><td rowspan="1" colspan="1">0.446</td></tr><tr><td rowspan="1" colspan="1">  ≥ 30/h, n (%)</td><td rowspan="1" colspan="1">95 (74.2)</td><td rowspan="1" colspan="1">79 (75.2)</td><td rowspan="1" colspan="1">16 (69.6)</td><td rowspan="1" colspan="1">0.573</td></tr><tr><td rowspan="1" colspan="1"> AHI<sub>REM</sub> (/h)<sup>#</sup></td><td rowspan="1" colspan="1">48.0 (34.5–60.2)</td><td rowspan="1" colspan="1">46.7 (33.5–58.9)</td><td rowspan="1" colspan="1">59.7 (47.7–63.8)</td><td rowspan="1" colspan="1">0.021</td></tr><tr><td rowspan="1" colspan="1"> AHI<sub>NREM</sub> (/h)<sup>#</sup></td><td rowspan="1" colspan="1">36.5 (26.8–52.9)</td><td rowspan="1" colspan="1">37.2 (28.0–53.5)</td><td rowspan="1" colspan="1">29.0 (20.9–45.9)</td><td rowspan="1" colspan="1">0.104</td></tr><tr><td rowspan="1" colspan="1"> AHI<sub>supine</sub> (/h)<sup>&amp;</sup></td><td rowspan="1" colspan="1">48.4 (33.9–65.2)</td><td rowspan="1" colspan="1">49.9 (34.3–65.6)</td><td rowspan="1" colspan="1">41.7 (32.4–56.2)</td><td rowspan="1" colspan="1">0.510</td></tr><tr><td rowspan="1" colspan="1"> AHI<sub>non-supine</sub> (/h)<sup>&amp;</sup></td><td rowspan="1" colspan="1">28.9 (7.3–53.6)</td><td rowspan="1" colspan="1">30.6 (8.9–61.8)</td><td rowspan="1" colspan="1">22.1 (5.2–34.6)</td><td rowspan="1" colspan="1">0.206</td></tr><tr><td rowspan="1" colspan="1"> Sleep stage dependency, n<sup>#</sup></td><td rowspan="1" colspan="1">119</td><td rowspan="1" colspan="1">98</td><td rowspan="1" colspan="1">21</td><td rowspan="1" colspan="1">0.083</td></tr><tr><td rowspan="1" colspan="1">  REM-predominant, n (%)</td><td rowspan="1" colspan="1">20 (16.8)</td><td rowspan="1" colspan="1">13 (13.3)</td><td rowspan="1" colspan="1">7 (33.3)</td><td rowspan="1" colspan="1"/></tr><tr><td rowspan="1" colspan="1">  NREM-predominant, n (%)</td><td rowspan="1" colspan="1">14 (11.8)</td><td rowspan="1" colspan="1">12 (12.2)</td><td rowspan="1" colspan="1">2 (9.5)</td><td rowspan="1" colspan="1"/></tr><tr><td rowspan="1" colspan="1">  Stage-independent, n (%)</td><td rowspan="1" colspan="1">85 (71.4)</td><td rowspan="1" colspan="1">73 (85.9)</td><td rowspan="1" colspan="1">12 (57.1)</td><td rowspan="1" colspan="1"/></tr><tr><td rowspan="1" colspan="1"> Positional dependency, n<sup>&amp;</sup></td><td rowspan="1" colspan="1">80</td><td rowspan="1" colspan="1">67</td><td rowspan="1" colspan="1">13</td><td rowspan="1" colspan="1">0.762</td></tr><tr><td rowspan="1" colspan="1">  Supine-predominant, n (%)</td><td rowspan="1" colspan="1">40 (50.0)</td><td rowspan="1" colspan="1">33 (49.3)</td><td rowspan="1" colspan="1">7 (53.8)</td><td rowspan="1" colspan="1"/></tr><tr><td rowspan="1" colspan="1">  Nonpositional, n (%)</td><td rowspan="1" colspan="1">40 (50.0)</td><td rowspan="1" colspan="1">34 (50.7)</td><td rowspan="1" colspan="1">6 (46.2)</td><td rowspan="1" colspan="1"/></tr><tr><td rowspan="1" colspan="1">CPAP (cmH<sub>2</sub>O)</td><td rowspan="1" colspan="1">9.0 (7.0–12.0)</td><td rowspan="1" colspan="1">9.0 (7.0–12.0)</td><td rowspan="1" colspan="1">9.0 (7.0–11.5)</td><td rowspan="1" colspan="1">0.808</td></tr><tr><td rowspan="1" colspan="1">AHI<sub>MAD</sub> (/h)</td><td rowspan="1" colspan="1">10.2 (4.7–20.3)</td><td rowspan="1" colspan="1">10.2 (4.3–21.3)</td><td rowspan="1" colspan="1">11.1 (6.8–17.8)</td><td rowspan="1" colspan="1">0.826</td></tr></tbody></table><table-wrap-foot><fn id="tfn0001"><p><bold>Notes</bold>: Data are presented as the median (interquartile range) or number (percentage). <sup>#</sup>Patients with time in REM or NREM &lt;15 minutes were excluded from the analysis; <sup>&amp;</sup>Patients with a time in supine sleep &lt;15 minutes or nonsupine sleep &lt;15 minutes were excluded from the analysis.</p></fn><fn id="tfn0002"><p><bold>Abbreviations</bold>: BMI, body mass index; ESS, Epworth sleepiness scale; EDS, excessive daytime sleepiness; REM (%), rapid eye movement percentage of total sleep time; AHI, apnea-hypopnea index; AHI<sub>REM</sub>, apnea-hypopnea index during the rapid eye movement stage; AHI<sub>NREM</sub>, apnea-hypopnea index during the nonrapid eye movement stage; AHI<sub>supine</sub>, apnea-hypopnea index during the supine position; AHI<sub>non-supine</sub>, apnea-hypopnea index during nonsupine positions; REM, rapid eye movement; NREM, non-rapid eye movement; CPAP, continuous positive airway pressure; AHI<sub>MAD</sub>, residual apnea-hypopnea index under MAD treatment.</p></fn></table-wrap-foot></table-wrap>
+</p>
+      </sec>
+      <sec id="s0003-s2002">
+        <title>Polysomnographic Phenotype</title>
+        <p>Nine patients with time in REM &lt; 15 mins were excluded from the analysis of the sleep stage dependency phenotype. Among the remaining 119 patients, stage independency accounted for 71.4%, while REM predominance and NREM predominance accounted for 16.8% and 11.8%, respectively. Patients with REM-predominant OSA tended to have a higher percentage of females and lower baseline AHI than sleep stage-independent patients. Patients with NREM-predominant OSA had a lower percentage of criterion 1 and 2 responders. Age, sex, anthropometrics, and CPAP pressure were similar in the three sleep-stage dependency phenotypes (<xref rid="t0002" ref-type="table">Table 2</xref>). For the other definition of sleep stage dependency, 20 patients had REM-related OSA and 99 had NREM-related OSA, and REM-related OSA had a higher percentage of female patients and lower baseline AHI but a similar percentage of criterion 1 and 2 responders than NREM-related OSA (<underline><ext-link xlink:href="https://www.dovepress.com/get_supplementary_file.php?f=351027.docx" ext-link-type="uri">Table S1</ext-link></underline>).<table-wrap position="float" id="t0002" orientation="landscape"><label>Table 2</label><caption><p>Comparison of Patients with Different Sleep Stage Dependency and Positional Dependency Phenotypes</p></caption><table frame="hsides" rules="groups"><thead><tr><th rowspan="3" colspan="1">Feature</th><th colspan="4" align="center" rowspan="1">Sleep Stage Dependency (N=119)</th><th colspan="3" align="center" rowspan="1">Positional Dependency (N=80)</th></tr><tr><th rowspan="1" colspan="1">REM-Predominant</th><th rowspan="1" colspan="1">NREM-Predominant</th><th rowspan="1" colspan="1">Stage-Independent</th><th rowspan="2" colspan="1"><italic toggle="yes">P</italic></th><th rowspan="1" colspan="1">Supine-Predominant</th><th rowspan="1" colspan="1">Nonpositional</th><th rowspan="2" colspan="1"><italic toggle="yes">P</italic></th></tr><tr><th rowspan="1" colspan="1">(N=20)</th><th rowspan="1" colspan="1">(N=14)</th><th rowspan="1" colspan="1">(N=85)</th><th rowspan="1" colspan="1">(N=40)</th><th rowspan="1" colspan="1">(N=40)</th></tr></thead><tbody><tr><td rowspan="1" colspan="1">Age (years)</td><td rowspan="1" colspan="1">57.1 (52.7–62.2)</td><td rowspan="1" colspan="1">57.8 (49.6–62.9)</td><td rowspan="1" colspan="1">52.8 (47.6–58.7)</td><td rowspan="1" colspan="1">0.185</td><td rowspan="1" colspan="1">57.3 (51.0–62.6)</td><td rowspan="1" colspan="1">51.7 (43.1–57.1)</td><td rowspan="1" colspan="1">0.024</td></tr><tr><td rowspan="1" colspan="1">Male, n (%)</td><td rowspan="1" colspan="1">13 (65.0)</td><td rowspan="1" colspan="1">12 (85.7)</td><td rowspan="1" colspan="1">73 (85.9)</td><td rowspan="1" colspan="1">0.083</td><td rowspan="1" colspan="1">33 (82.5)</td><td rowspan="1" colspan="1">34 (85.0)</td><td rowspan="1" colspan="1">0.762</td></tr><tr><td rowspan="1" colspan="1">BMI (kg/m<sup>2</sup>)</td><td rowspan="1" colspan="1">27.4 (26.1–28.4)</td><td rowspan="1" colspan="1">26.8 (24.7–27.8)</td><td rowspan="1" colspan="1">26.3 (23.8–28.9)</td><td rowspan="1" colspan="1">0.339</td><td rowspan="1" colspan="1">26.6 (24.0–28.4)</td><td rowspan="1" colspan="1">27.3 (24.7–29.5)</td><td rowspan="1" colspan="1">0.201</td></tr><tr><td rowspan="1" colspan="1">Neck circumference (cm)</td><td rowspan="1" colspan="1">38.5 (34.0–40.0)</td><td rowspan="1" colspan="1">39.0 (36.0–40.0)</td><td rowspan="1" colspan="1">38.0 (36.0–40.0)</td><td rowspan="1" colspan="1">0.960</td><td rowspan="1" colspan="1">38.0 (36.0–40.0)</td><td rowspan="1" colspan="1">39.5 (37.5–41.5)</td><td rowspan="1" colspan="1">0.044</td></tr><tr><td rowspan="1" colspan="1">Waist circumference (cm)</td><td rowspan="1" colspan="1">95.0 (87.5–100.0)</td><td rowspan="1" colspan="1">90.5 (87.0–95.0)</td><td rowspan="1" colspan="1">91.0 (86.0–98.0)</td><td rowspan="1" colspan="1">0.471</td><td rowspan="1" colspan="1">90.0 (86.0–95.0)</td><td rowspan="1" colspan="1">95.0 (89.0–100.8)</td><td rowspan="1" colspan="1">0.014</td></tr><tr><td rowspan="1" colspan="1">ESS</td><td rowspan="1" colspan="1">10 (8.5–15)</td><td rowspan="1" colspan="1">9 (7–12)</td><td rowspan="1" colspan="1">9 (6.5–12)</td><td rowspan="1" colspan="1">0.372</td><td rowspan="1" colspan="1">9 (6–13)</td><td rowspan="1" colspan="1">10 (8.5–13)</td><td rowspan="1" colspan="1">0.084</td></tr><tr><td rowspan="1" colspan="1">EDS, n (%)</td><td rowspan="1" colspan="1">7 (43.8)</td><td rowspan="1" colspan="1">5 (35.7)</td><td rowspan="1" colspan="1">29 (36.7)</td><td rowspan="1" colspan="1">0.858</td><td rowspan="1" colspan="1">12 (31.6)</td><td rowspan="1" colspan="1">16 (44.4)</td><td rowspan="1" colspan="1">0.254</td></tr><tr><td colspan="8" rowspan="1">Polysomnographic parameter</td></tr><tr><td rowspan="1" colspan="1"> REM (%)</td><td rowspan="1" colspan="1">20.0 (14.3–24.3)</td><td rowspan="1" colspan="1">17.1 (13.6–23.0)</td><td rowspan="1" colspan="1">17.1 (11.6–21.0)</td><td rowspan="1" colspan="1">0.252</td><td rowspan="1" colspan="1">18.5 (14.5–22.5)</td><td rowspan="1" colspan="1">14.9 (11.3–21.5)</td><td rowspan="1" colspan="1">0.072</td></tr><tr><td rowspan="1" colspan="1"> AHI (/h)</td><td rowspan="1" colspan="1">27.6 (22.6–30.5)<sup>^^^</sup></td><td rowspan="1" colspan="1">37.4 (26.3–43.9)</td><td rowspan="1" colspan="1">44.4 (33.4–58.4)</td><td rowspan="1" colspan="1">&lt;0.001</td><td rowspan="1" colspan="1">35.9 (30.3–45.2)</td><td rowspan="1" colspan="1">36.8 (27.1–50.2)</td><td rowspan="1" colspan="1">0.690</td></tr><tr><td rowspan="1" colspan="1">  ≥ 30/h, n (%)</td><td rowspan="1" colspan="1">6 (30)<sup>^</sup></td><td rowspan="1" colspan="1">10 (71.4)</td><td rowspan="1" colspan="1">74 (87.1)</td><td rowspan="1" colspan="1">&lt;0.001</td><td rowspan="1" colspan="1">31 (77.5)</td><td rowspan="1" colspan="1">28 (70.0)</td><td rowspan="1" colspan="1">0.446</td></tr><tr><td rowspan="1" colspan="1"> AHI<sub>REM</sub> (/h)</td><td rowspan="1" colspan="1">56.7 (49.2–62.7)</td><td rowspan="1" colspan="1">13.2 (6.3–16.5)***</td><td rowspan="1" colspan="1">51.5 (38.8–61.3)<sup>$</sup></td><td rowspan="1" colspan="1">&lt;0.001</td><td rowspan="1" colspan="1">–</td><td rowspan="1" colspan="1">–</td><td rowspan="1" colspan="1"/></tr><tr><td rowspan="1" colspan="1"> AHI<sub>NREM</sub> (/h)</td><td rowspan="1" colspan="1">19.4 (16.6–22.3)<sup>^^^</sup></td><td rowspan="1" colspan="1">40.9 (29.1–52.1)***</td><td rowspan="1" colspan="1">42.8 (32.6–58.0)</td><td rowspan="1" colspan="1">&lt;0.001</td><td rowspan="1" colspan="1">–</td><td rowspan="1" colspan="1">–</td><td rowspan="1" colspan="1"/></tr><tr><td rowspan="1" colspan="1"> AHI<sub>supine</sub> (/h)</td><td rowspan="1" colspan="1">–</td><td rowspan="1" colspan="1">–</td><td rowspan="1" colspan="1">–</td><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1">48.4 (35.5–65.5)</td><td rowspan="1" colspan="1">46.4 (29.7–65.1)</td><td rowspan="1" colspan="1">0.419</td></tr><tr><td rowspan="1" colspan="1"> AHI<sub>non-supine</sub> (/h)</td><td rowspan="1" colspan="1">–</td><td rowspan="1" colspan="1">–</td><td rowspan="1" colspan="1">–</td><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1">7.3 (2.2–14.8)</td><td rowspan="1" colspan="1">53.6 (36.1–81.9)</td><td rowspan="1" colspan="1">&lt;0.001</td></tr><tr><td rowspan="1" colspan="1">CPAP (cmH<sub>2</sub>O)</td><td rowspan="1" colspan="1">7.5 (6.0–12.0)</td><td rowspan="1" colspan="1">10.0 (8.0–13.0)</td><td rowspan="1" colspan="1">9 (7.0–12.0)</td><td rowspan="1" colspan="1">0.440</td><td rowspan="1" colspan="1">9.0 (6.0–11.5)</td><td rowspan="1" colspan="1">9.0 (8.0–11.0)</td><td rowspan="1" colspan="1">0.313</td></tr><tr><td rowspan="1" colspan="1">AHI<sub>MAD</sub> (/h)</td><td rowspan="1" colspan="1">10.9 (5.8–17.8)</td><td rowspan="1" colspan="1">14.1 (8.1–24.4)</td><td rowspan="1" colspan="1">9.9 (4.2–20.4)</td><td rowspan="1" colspan="1">0.232</td><td rowspan="1" colspan="1">10.7 (4.0–20.1)</td><td rowspan="1" colspan="1">14.2 (7.9–22.9)</td><td rowspan="1" colspan="1">0.058</td></tr><tr><td rowspan="1" colspan="1">AHI<sub>MAD</sub> &lt;5/h, reduction &gt;50%, n (%)</td><td rowspan="1" colspan="1">4 (20)</td><td rowspan="1" colspan="1">0</td><td rowspan="1" colspan="1">26 (30.6)<sup>$</sup></td><td rowspan="1" colspan="1">0.043</td><td rowspan="1" colspan="1">14 (35.0)</td><td rowspan="1" colspan="1">3 (7.5)</td><td rowspan="1" colspan="1">0.003</td></tr><tr><td rowspan="1" colspan="1">AHI<sub>MAD</sub> &lt;10/h reduction &gt;50%, n (%)</td><td rowspan="1" colspan="1">9 (45.0)</td><td rowspan="1" colspan="1">4 (28.6)</td><td rowspan="1" colspan="1">43 (50.6)</td><td rowspan="1" colspan="1">0.304</td><td rowspan="1" colspan="1">19 (47.5)</td><td rowspan="1" colspan="1">14 (35.0)</td><td rowspan="1" colspan="1">0.256</td></tr></tbody></table><table-wrap-foot><fn id="tfn0003"><p><bold>Notes</bold>: Data are presented as the median (interquartile range) or number (percentage). Kruskal–Wallis test with the Bonferroni post hoc method: ***REM-predominant vs NREM-predominant: <italic toggle="yes">p</italic> &lt; 0.001; <sup>$$</sup>NREM-predominant vs stage independent: <italic toggle="yes">p</italic> &lt; 0.001; <sup>^^^</sup>Stage independent vs REM-predominant: <italic toggle="yes">p</italic> &lt; 0.001. Chi-square test with Bonferroni correction: <sup>^</sup>Stage independent vs REM-predominant: <italic toggle="yes">p</italic> &lt; 0.017; <sup>$</sup>NREM-predominant vs stage-independent: <italic toggle="yes">p</italic> &lt; 0.017.</p></fn><fn id="tfn0004"><p><bold>Abbreviations</bold>: BMI, body mass index; ESS, Epworth sleepiness scale; EDS, excessive daytime sleepiness; REM (%), rapid eye movement percentage of total sleep time; AHI, apnea-hypopnea index; AHI<sub>REM</sub>, apnea-hypopnea index during the rapid eye movement stage; AHI<sub>NREM</sub>, apnea-hypopnea index during the nonrapid eye movement stage; AHI<sub>supine</sub>, apnea-hypopnea index during supine sleep; AHI<sub>non-supine</sub>, apnea-hypopnea index during nonsupine sleep; CPAP, continuous positive airway pressure; AHI<sub>MAD</sub>, residual apnea-hypopnea index under MAD treatment.</p></fn></table-wrap-foot></table-wrap>
+</p>
+        <p>A total of 48 patients with supine sleep and nonsupine sleep &lt; 15 mins were excluded from the analysis of the positional dependency phenotype. In the remaining 80 patients, supine-predominant and nonpositional OSA accounted for half each. Compared with the patients with nonpositional OSA, those with supine-predominant OSA were older, had lower neck and waist circumferences, and had a higher percentage of criterion 1 responders (<xref rid="t0002" ref-type="table">Table 2</xref>).</p>
+      </sec>
+      <sec id="s0003-s2003">
+        <title>Response to MAD Treatment</title>
+        <p>The percentages of criterion 1 and 2 responders were 25.8% and 48.4%, respectively. For criteria 1 and 2, responders had lower anthropometrics and lower CPAP pressure but a similar age and percentage of males compared with nonresponders. Compared with nonresponders, criterion 2 responders had a lower baseline AHI, lower percentage of severe OSA, and lower AHI<sub>NREM</sub>, AHI<sub>supine</sub> and AHI<sub>non-supine,</sub> while AHI<sub>non-supine</sub> was lower in criterion 1 responders. Regarding sleep stage dependency, stage-independent OSA was the most common phenotype in both responders and nonresponders for both criterion 1 and 2. For criterion 1 responders, there was a higher percentage of stage-independent and no NREM-predominant OSA. For criterion 1 responders, the percentage of supine-predominant OSA was higher than that of nonresponders (<xref rid="t0003" ref-type="table">Table 3</xref>).<table-wrap position="float" id="t0003"><label>Table 3</label><caption><p>Comparison of Criterion 1 and 2 Responders and Nonresponders</p></caption><table frame="hsides" rules="groups"><thead><tr><th rowspan="2" colspan="1">Feature</th><th colspan="3" align="center" rowspan="1">AHI<sub>MAD</sub> &lt;5/h, Reduction &gt;50%</th><th colspan="3" align="center" rowspan="1">AHI<sub>MAD</sub> &lt;10/h, Reduction &gt;50%</th></tr><tr><th rowspan="1" colspan="1">Responder (N=33)</th><th rowspan="1" colspan="1">Nonresponder (N=95)</th><th rowspan="1" colspan="1"><italic toggle="yes">P</italic></th><th rowspan="1" colspan="1">Responder (N=62)</th><th rowspan="1" colspan="1">Nonresponder (N=66)</th><th rowspan="1" colspan="1"><italic toggle="yes">P</italic></th></tr></thead><tbody><tr><td rowspan="1" colspan="1">Age (years)</td><td rowspan="1" colspan="1">57.1 (49.9–62.0)</td><td rowspan="1" colspan="1">53.7 (47.8–60.5)</td><td rowspan="1" colspan="1">0.299</td><td rowspan="1" colspan="1">54.2 (45.8–60.3)</td><td rowspan="1" colspan="1">54.5 (50.0–62.2)</td><td rowspan="1" colspan="1">0.507</td></tr><tr><td rowspan="1" colspan="1">Male, n (%)</td><td rowspan="1" colspan="1">29 (87.9)</td><td rowspan="1" colspan="1">76 (80.0)</td><td rowspan="1" colspan="1">0.310</td><td rowspan="1" colspan="1">52 (83.9)</td><td rowspan="1" colspan="1">53 (80.3)</td><td rowspan="1" colspan="1">0.599</td></tr><tr><td rowspan="1" colspan="1">BMI (kg/m<sup>2</sup>)</td><td rowspan="1" colspan="1">23.9 (23.4–27.1)</td><td rowspan="1" colspan="1">27.3 (25.4–29.0)</td><td rowspan="1" colspan="1">&lt;0.001</td><td rowspan="1" colspan="1">25.5 (23.6–27.4)</td><td rowspan="1" colspan="1">27.7 (25.8–29.4)</td><td rowspan="1" colspan="1">&lt;0.001</td></tr><tr><td rowspan="1" colspan="1">Neck circumference (cm)</td><td rowspan="1" colspan="1">37.0 (35.0–39.0)</td><td rowspan="1" colspan="1">39.0 (36.0–41.0)</td><td rowspan="1" colspan="1">0.023</td><td rowspan="1" colspan="1">37.0 (35.0–39.0)</td><td rowspan="1" colspan="1">39.5 (36.3–42.0)</td><td rowspan="1" colspan="1">0.003</td></tr><tr><td rowspan="1" colspan="1">Waist circumference (cm)</td><td rowspan="1" colspan="1">88.0 (83.5–92.5)</td><td rowspan="1" colspan="1">93.0 (88.0–100.0)</td><td rowspan="1" colspan="1">0.004</td><td rowspan="1" colspan="1">89.0 (84.5–93.5)</td><td rowspan="1" colspan="1">95.0 (89.0–100.8)</td><td rowspan="1" colspan="1">0.001</td></tr><tr><td rowspan="1" colspan="1">ESS</td><td rowspan="1" colspan="1">11 (8–15)</td><td rowspan="1" colspan="1">9 (7–12)</td><td rowspan="1" colspan="1">0.156</td><td rowspan="1" colspan="1">10 (7–13.5)</td><td rowspan="1" colspan="1">9.5 (6–12)</td><td rowspan="1" colspan="1">0.470</td></tr><tr><td rowspan="1" colspan="1">EDS, n (%)</td><td rowspan="1" colspan="1">17 (51.5)</td><td rowspan="1" colspan="1">29 (34.5)</td><td rowspan="1" colspan="1">0.090</td><td rowspan="1" colspan="1">23 (39.0)</td><td rowspan="1" colspan="1">23 (39.7)</td><td rowspan="1" colspan="1">0.941</td></tr><tr><td colspan="7" rowspan="1">Polysomnographic parameter</td></tr><tr><td rowspan="1" colspan="1"> REM (%)</td><td rowspan="1" colspan="1">17.2 (13.3–21.3)</td><td rowspan="1" colspan="1">16.8 (11.3–21.7)</td><td rowspan="1" colspan="1">0.571</td><td rowspan="1" colspan="1">17.2 (12.3–21.5)</td><td rowspan="1" colspan="1">16.8 (11.5–21.5)</td><td rowspan="1" colspan="1">0.754</td></tr><tr><td rowspan="1" colspan="1"> AHI (/h)</td><td rowspan="1" colspan="1">36.6 (30.4–47.4)</td><td rowspan="1" colspan="1">39.5 (28.6–54.0)</td><td rowspan="1" colspan="1">0.479</td><td rowspan="1" colspan="1">32.4 (26.2–46.8)</td><td rowspan="1" colspan="1">43.4 (32.3–57.6)</td><td rowspan="1" colspan="1">0.005</td></tr><tr><td rowspan="1" colspan="1">  ≥ 30/h, n (%)</td><td rowspan="1" colspan="1">25 (75.8)</td><td rowspan="1" colspan="1">70 (73.7)</td><td rowspan="1" colspan="1">0.815</td><td rowspan="1" colspan="1">40 (64.5)</td><td rowspan="1" colspan="1">55 (83.3)</td><td rowspan="1" colspan="1">0.015</td></tr><tr><td rowspan="1" colspan="1"> AHI<sub>REM</sub> (/h)<sup>#</sup></td><td rowspan="1" colspan="1">46.4 (39.1–59.1)</td><td rowspan="1" colspan="1">51.5 (34.3–60.9)</td><td rowspan="1" colspan="1">0.886</td><td rowspan="1" colspan="1">44.4 (29.4–58.5)</td><td rowspan="1" colspan="1">54.4 (37.9–63.2)</td><td rowspan="1" colspan="1">0.071</td></tr><tr><td rowspan="1" colspan="1"> AHI<sub>NREM</sub> (/h)<sup>#</sup></td><td rowspan="1" colspan="1">34.8 (28.0–43.3)</td><td rowspan="1" colspan="1">37.3 (26.6–56.7)</td><td rowspan="1" colspan="1">0.377</td><td rowspan="1" colspan="1">34.0 (24.4–43.1)</td><td rowspan="1" colspan="1">43.3 (29.1–57.7)</td><td rowspan="1" colspan="1">0.018</td></tr><tr><td rowspan="1" colspan="1"> AHI<sub>supine</sub> (/h)<sup>&amp;</sup></td><td rowspan="1" colspan="1">38.0 (35.4–60.7)</td><td rowspan="1" colspan="1">49.9 (31.8–65.2)</td><td rowspan="1" colspan="1">0.724</td><td rowspan="1" colspan="1">36.1 (28.4–52.9)</td><td rowspan="1" colspan="1">53.0 (40.2–66.8)</td><td rowspan="1" colspan="1">0.002</td></tr><tr><td rowspan="1" colspan="1"> AHI<sub>non-supine</sub> (/h)<sup>&amp;</sup></td><td rowspan="1" colspan="1">4.1 (1.5–14.3)</td><td rowspan="1" colspan="1">34.4 (13.9–65.7)</td><td rowspan="1" colspan="1">&lt;0.001</td><td rowspan="1" colspan="1">7.7 (2.2–34.7)</td><td rowspan="1" colspan="1">34.9 (14.7–71.7)</td><td rowspan="1" colspan="1">0.001</td></tr><tr><td rowspan="1" colspan="1"> Sleep stage dependency, n<sup>#</sup></td><td rowspan="1" colspan="1">30</td><td rowspan="1" colspan="1">89</td><td rowspan="1" colspan="1">0.043</td><td rowspan="1" colspan="1">56</td><td rowspan="1" colspan="1">63</td><td rowspan="1" colspan="1">0.304</td></tr><tr><td rowspan="1" colspan="1">  REM-predominant, n (%)</td><td rowspan="1" colspan="1">4 (13.3)</td><td rowspan="1" colspan="1">16 (18.0)</td><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1">9 (16.1)</td><td rowspan="1" colspan="1">11 (17.4)</td><td rowspan="1" colspan="1"/></tr><tr><td rowspan="1" colspan="1">  NREM-predominant, n (%)</td><td rowspan="1" colspan="1">0</td><td rowspan="1" colspan="1">14 (15.7)<sup>Φ</sup></td><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1">4 (7.1)</td><td rowspan="1" colspan="1">10 (15.8)</td><td rowspan="1" colspan="1"/></tr><tr><td rowspan="1" colspan="1">  Stage-independent, n (%)</td><td rowspan="1" colspan="1">26 (86.7)</td><td rowspan="1" colspan="1">59 (69.3)<sup>Φ</sup></td><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1">43 (76.8)</td><td rowspan="1" colspan="1">42 (66.7)</td><td rowspan="1" colspan="1"/></tr><tr><td rowspan="1" colspan="1"> Positional dependency, n<sup>&amp;</sup></td><td rowspan="1" colspan="1">17</td><td rowspan="1" colspan="1">63</td><td rowspan="1" colspan="1">0.003</td><td rowspan="1" colspan="1">33</td><td rowspan="1" colspan="1">47</td><td rowspan="1" colspan="1">0.256</td></tr><tr><td rowspan="1" colspan="1">  Supine-predominant, n (%)</td><td rowspan="1" colspan="1">14 (82.4)</td><td rowspan="1" colspan="1">26 (41.3)</td><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1">19 (57.6)</td><td rowspan="1" colspan="1">21 (44.7)</td><td rowspan="1" colspan="1"/></tr><tr><td rowspan="1" colspan="1">  Nonpositional, n (%)</td><td rowspan="1" colspan="1">3 (17.6)</td><td rowspan="1" colspan="1">37 (58.7)</td><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1">14 (42.4)</td><td rowspan="1" colspan="1">26 (55.3)</td><td rowspan="1" colspan="1"/></tr><tr><td rowspan="1" colspan="1">CPAP (cmH<sub>2</sub>O)</td><td rowspan="1" colspan="1">8.0 (5.0–11.0)</td><td rowspan="1" colspan="1">9.0 (7.5–12.0)</td><td rowspan="1" colspan="1">0.020</td><td rowspan="1" colspan="1">8.0 (6.0–11.0)</td><td rowspan="1" colspan="1">9.5 (8.0–13.0)</td><td rowspan="1" colspan="1">0.001</td></tr><tr><td rowspan="1" colspan="1">AHI<sub>MAD</sub> (/h)</td><td rowspan="1" colspan="1">2.2 (0.9–3.4)</td><td rowspan="1" colspan="1">13.5 (9.2–24.2)</td><td rowspan="1" colspan="1">&lt;0.001</td><td rowspan="1" colspan="1">4.6 (2.1–6.9)</td><td rowspan="1" colspan="1">20.0 (13.1–35.3)</td><td rowspan="1" colspan="1">&lt;0.001</td></tr></tbody></table><table-wrap-foot><fn id="tfn0005"><p><bold>Notes</bold>: Data are presented as the median (interquartile range) or number (percentage). <sup>#</sup>Patients with time in REM or NREM ≤15 min were excluded from the analysis; <sup>&amp;</sup>Patients with time in supine sleep ≤15 min or nonsupine sleep ≤15 min were excluded from the analysis. Chi-square test with Bonferroni correction: <sup>Φ</sup>Responder vs nonresponder: <italic toggle="yes">p</italic> &lt; 0.017.</p></fn><fn id="tfn0006"><p><bold>Abbreviations</bold>: BMI, body mass index; ESS, Epworth sleepiness scale; EDS, excessive daytime sleepiness; REM (%), rapid eye movement percentage of total sleep time; AHI, apnea-hypopnea index; AHI<sub>REM</sub>, apnea-hypopnea index during the rapid eye movement stage; AHI<sub>NREM</sub>, apnea-hypopnea index during the nonrapid eye movement stage; AHI<sub>supine</sub>, apnea-hypopnea index during supine sleep; AHI<sub>non-supine</sub>, apnea-hypopnea index during nonsupine sleep; CPAP, continuous positive airway pressure; AHI<sub>MAD</sub>, residual apnea-hypopnea index under MAD treatment.</p></fn></table-wrap-foot></table-wrap>
+</p>
+      </sec>
+      <sec id="s0003-s2004">
+        <title>Factors Associated with the MAD Treatment Response</title>
+        <p>Spearman's correlation showed that the AHI<sub>MAD</sub> was positively correlated with BMI, neck and waist circumferences, baseline AHI, and CPAP pressure. CPAP pressure was correlated with BMI, neck circumference, and baseline AHI (<xref rid="f0001" ref-type="fig">Figure 1A</xref>). For patients included in the analysis of sleep stage dependency, AHI<sub>NREM</sub> was correlated with both AHI<sub>MAD</sub> and CPAP pressure, while the AHI<sub>REM</sub> was not (<xref rid="f0001" ref-type="fig">Figure 1B</xref>). For patients included in the analysis of positional dependency, AHI<sub>supine</sub> and AHI<sub>non-supine</sub> were correlated with AHI<sub>MAD,</sub> while AHI<sub>non-supine</sub> was correlated with CPAP pressure (<xref rid="f0001" ref-type="fig">Figure 1C</xref>).<fig position="float" id="f0001" fig-type="figure"><label>Figure 1</label><caption><p>Heatmap of the correlation between clinical features, CPAP pressure, and AHI<sub>MAD</sub> in (<bold>A</bold>) all 128 patients and (<bold>B</bold>) 119 patients included for analysis of sleep stage dependency (<bold>C</bold>) 80 patients included for analysis of positional dependency. **p &lt;0.01, *p &lt;0.05.</p></caption><graphic xlink:href="NSS-14-517-g0002" content-type="print-only" position="float"/><attrib><bold>Abbreviations</bold>: BMI, body mass index; Neck, neck circumference; Waist, waist circumference; AHI, apnea-hypopnea index; AHI<sub>REM</sub>, apnea-hypopnea index during the rapid eye movement stage; AHI<sub>NREM</sub>, apnea-hypopnea index during the nonrapid eye movement stage; AHI<sub>MAD</sub>, residual apnea-hypopnea index during mandibular advancement device treatment.</attrib></fig></p>
+        <p>Univariate analysis revealed that BMI, neck circumference, and baseline AHI were associated with CPAP, while age, sex, and waist circumference were not in all patients. Neither the sleep stage dependency nor positional dependency phenotype was associated with CPAP pressure (<underline><ext-link xlink:href="https://www.dovepress.com/get_supplementary_file.php?f=351027.docx" ext-link-type="uri">Table S2</ext-link></underline>). Lower anthropometrics and CPAP pressure were associated with criterion 1 and 2 responders, while lower baseline AHI was associated with criterion 2 responders. Compared with stage-independent OSA, REM-predominant and NREM-predominant OSA has similar associations with responders. Compared with nonpositional OSA, supine-predominant OSA was associated with criterion 1 responders (<underline><ext-link xlink:href="https://www.dovepress.com/get_supplementary_file.php?f=351027.docx" ext-link-type="uri">Table S3</ext-link></underline>).</p>
+        <p>Multivariable analysis was applied to identify the association between CPAP pressure and MAD treatment responders. The unadjusted model showed that lower CPAP pressure was associated with the MAD treatment response. For criterion 1 responders, the association was not observed after adjustment for BMI in either all groups or patients included for analysis of sleep stage dependency. However, for patients included for positional dependency, a lower CPAP pressure was associated with responder status, even with further adjustment for position dependency. For criterion 2, CPAP pressure was associated with responder status after full adjustment, including age, sex, BMI, baseline AHI, and sleep stage dependency or positional dependency (<xref rid="t0004" ref-type="table">Table 4</xref>).<table-wrap position="float" id="t0004"><label>Table 4</label><caption><p>Multivariable Logistic Regression to Identify the Association Between CPAP and MAD Treatment Responder</p></caption><table frame="hsides" rules="groups"><thead><tr><th rowspan="2" colspan="1">Model</th><th rowspan="2" colspan="1">Model Variable</th><th colspan="3" align="center" rowspan="1">AHI<sub>MAD</sub> &lt;5/h, Reduction &gt;50%</th><th colspan="3" align="center" rowspan="1">AHI<sub>MAD</sub> &lt;10/h, Reduction &gt;50%</th></tr><tr><th rowspan="1" colspan="1">OR (95% CI)</th><th rowspan="1" colspan="1"><italic toggle="yes">P</italic></th><th rowspan="1" colspan="1">R<sup>2</sup></th><th rowspan="1" colspan="1">OR (95% CI)</th><th rowspan="1" colspan="1"><italic toggle="yes">P</italic></th><th rowspan="1" colspan="1">R<sup>2</sup></th></tr></thead><tbody><tr><td colspan="8" rowspan="1"><bold>All (N=128)</bold></td></tr><tr><td rowspan="1" colspan="1">1</td><td rowspan="1" colspan="1">CPAP</td><td rowspan="1" colspan="1">0.885 (0.783–1.000)</td><td rowspan="1" colspan="1">0.049</td><td rowspan="1" colspan="1">0.050</td><td rowspan="1" colspan="1">0.848 (0.763–0.943)</td><td rowspan="1" colspan="1">0.002</td><td rowspan="1" colspan="1">0.108</td></tr><tr><td rowspan="1" colspan="1">2</td><td rowspan="1" colspan="1">Model 1 and age and sex</td><td rowspan="1" colspan="1">0.882 (0.782–0.995)</td><td rowspan="1" colspan="1">0.041</td><td rowspan="1" colspan="1">0.089</td><td rowspan="1" colspan="1">0.848 (0.763–0.943)</td><td rowspan="1" colspan="1">0.002</td><td rowspan="1" colspan="1">0.113</td></tr><tr><td rowspan="1" colspan="1">3</td><td rowspan="1" colspan="1">Model 2 and BMI</td><td rowspan="1" colspan="1">0.912 (0.805–1.033)</td><td rowspan="1" colspan="1">0.145</td><td rowspan="1" colspan="1">0.221</td><td rowspan="1" colspan="1">0.870 (0.780–0.970)</td><td rowspan="1" colspan="1">0.012</td><td rowspan="1" colspan="1">0.209</td></tr><tr><td rowspan="1" colspan="1">4</td><td rowspan="1" colspan="1">Model 3 and baseline AHI</td><td rowspan="1" colspan="1">0.905 (0.796–1.029)</td><td rowspan="1" colspan="1">0.128</td><td rowspan="1" colspan="1">0.223</td><td rowspan="1" colspan="1">0.881 (0.788–0.984)</td><td rowspan="1" colspan="1">0.025</td><td rowspan="1" colspan="1">0.218</td></tr><tr><td colspan="8" rowspan="1"><bold>Sleep stage dependency (N=119)</bold></td></tr><tr><td rowspan="1" colspan="1">1</td><td rowspan="1" colspan="1">CPAP</td><td rowspan="1" colspan="1">0.874 (0.767–0.995)</td><td rowspan="1" colspan="1">0.042</td><td rowspan="1" colspan="1">0.059</td><td rowspan="1" colspan="1">0.847 (0.759–0.945)</td><td rowspan="1" colspan="1">0.003</td><td rowspan="1" colspan="1">0.110</td></tr><tr><td rowspan="1" colspan="1">2</td><td rowspan="1" colspan="1">Model 1 and age and sex</td><td rowspan="1" colspan="1">0.871 (0.767–0.991)</td><td rowspan="1" colspan="1">0.035</td><td rowspan="1" colspan="1">0.085</td><td rowspan="1" colspan="1">0.849 (0.760–0.948)</td><td rowspan="1" colspan="1">0.004</td><td rowspan="1" colspan="1">0.116</td></tr><tr><td rowspan="1" colspan="1">3</td><td rowspan="1" colspan="1">Model 2 and BMI</td><td rowspan="1" colspan="1">0.896 (0.784–1.024)</td><td rowspan="1" colspan="1">0.108</td><td rowspan="1" colspan="1">0.235</td><td rowspan="1" colspan="1">0.870 (0.776–0.975)</td><td rowspan="1" colspan="1">0.016</td><td rowspan="1" colspan="1">0.224</td></tr><tr><td rowspan="1" colspan="1">4</td><td rowspan="1" colspan="1">Model 3 and baseline AHI</td><td rowspan="1" colspan="1">0.896 (0.783–1.026)</td><td rowspan="1" colspan="1">0.113</td><td rowspan="1" colspan="1">0.235</td><td rowspan="1" colspan="1">0.882 (0.786–0.989)</td><td rowspan="1" colspan="1">0.032</td><td rowspan="1" colspan="1">0.237</td></tr><tr><td rowspan="1" colspan="1">5</td><td rowspan="1" colspan="1">Model 4 and sleep stage dependency</td><td rowspan="1" colspan="1">0.919 (0.798–1.059)</td><td rowspan="1" colspan="1">0.242</td><td rowspan="1" colspan="1">0.320</td><td rowspan="1" colspan="1">0.890 (0.791–1.001)</td><td rowspan="1" colspan="1">0.052</td><td rowspan="1" colspan="1">0.265</td></tr><tr><td colspan="8" rowspan="1"><bold>Positional dependency</bold> (<bold>N=80)</bold></td></tr><tr><td rowspan="1" colspan="1">1</td><td rowspan="1" colspan="1">CPAP</td><td rowspan="1" colspan="1">0.745 (0.592–0.938)</td><td rowspan="1" colspan="1">0.012</td><td rowspan="1" colspan="1">0.172</td><td rowspan="1" colspan="1">0.776 (0.657–0.915)</td><td rowspan="1" colspan="1">0.003</td><td rowspan="1" colspan="1">0.202</td></tr><tr><td rowspan="1" colspan="1">2</td><td rowspan="1" colspan="1">Model 1 and age and sex</td><td rowspan="1" colspan="1">0.745 (0.591–0.939)</td><td rowspan="1" colspan="1">0.013</td><td rowspan="1" colspan="1">0.215</td><td rowspan="1" colspan="1">0.770 (0.648–0.915)</td><td rowspan="1" colspan="1">0.003</td><td rowspan="1" colspan="1">0.215</td></tr><tr><td rowspan="1" colspan="1">3</td><td rowspan="1" colspan="1">Model 2 and BMI</td><td rowspan="1" colspan="1">0.744 (0.583–0.951)</td><td rowspan="1" colspan="1">0.018</td><td rowspan="1" colspan="1">0.287</td><td rowspan="1" colspan="1">0.783 (0.653–0.938)</td><td rowspan="1" colspan="1">0.008</td><td rowspan="1" colspan="1">0.318</td></tr><tr><td rowspan="1" colspan="1">4</td><td rowspan="1" colspan="1">Model 3 and baseline AHI</td><td rowspan="1" colspan="1">0.754 (0.587–0.968)</td><td rowspan="1" colspan="1">0.027</td><td rowspan="1" colspan="1">0.290</td><td rowspan="1" colspan="1">0.824 (0.668–0.987)</td><td rowspan="1" colspan="1">0.035</td><td rowspan="1" colspan="1">0.392</td></tr><tr><td rowspan="1" colspan="1">5</td><td rowspan="1" colspan="1">Model 4 and position dependency</td><td rowspan="1" colspan="1">0.779 (0.609–0.996)</td><td rowspan="1" colspan="1">0.047</td><td rowspan="1" colspan="1">0.366</td><td rowspan="1" colspan="1">0.828 (0.689–0.995)</td><td rowspan="1" colspan="1">0.044</td><td rowspan="1" colspan="1">0.402</td></tr></tbody></table><table-wrap-foot><fn id="tfn0007"><p><bold>Abbreviations</bold>: CPAP, continuous positive airway pressure; BMI, body mass index; AHI, apnea-hypopnea index; OR, odds ratio.</p></fn></table-wrap-foot></table-wrap>
+</p>
+      </sec>
+      <sec id="s0003-s2005">
+        <title>Prediction of MAD Responder Status with CPAP Pressure</title>
+        <p>Using CPAP pressure alone, the AUROC was 0.635 (95% CI, 0.519–0.751; <italic toggle="yes">P</italic>=0.027) and 0.664 (95% CI, 0.570–0.757; <italic toggle="yes">P</italic>=0.001) in predicting criterion 1 and 2 responders, respectively (<xref rid="f0002" ref-type="fig">Figure 2</xref>). To maximize the sensitivity in identifying patients who may benefit from MAD treatment, CPAP level &gt;14 cmH<sub>2</sub>O was selected as a cutoff value to predict both criterion 1 and 2 nonresponders, in which the minimal pressure reached the highest sensitivity. The prediction model of criterion 1 nonresponders had a sensitivity of 93.9%, specificity of 13.7%, and accuracy of 34.4%. The prediction model of criterion 2 nonresponders had a sensitivity of 95.2%, specificity of 18.2%, and accuracy of 55.5% (<xref rid="t0005" ref-type="table">Table 5</xref>).<table-wrap position="float" id="t0005"><label>Table 5</label><caption><p>Utilizing CPAP to Predict MAD Treatment Nonresponders with Criteria 1 and 2 According to Different Cutoff Values</p></caption><table frame="hsides" rules="groups"><thead><tr><th rowspan="1" colspan="1">Pressure Cutoff (cmH<sub>2</sub>O)</th><th rowspan="1" colspan="1">8</th><th rowspan="1" colspan="1">9</th><th rowspan="1" colspan="1">10</th><th rowspan="1" colspan="1">11</th><th rowspan="1" colspan="1">12</th><th rowspan="1" colspan="1">13</th><th rowspan="1" colspan="1">14</th><th rowspan="1" colspan="1">15</th></tr></thead><tbody><tr><td rowspan="1" colspan="1">CPAP &gt;cutoff, no.</td><td rowspan="1" colspan="1">74</td><td rowspan="1" colspan="1">53</td><td rowspan="1" colspan="1">43</td><td rowspan="1" colspan="1">35</td><td rowspan="1" colspan="1">26</td><td rowspan="1" colspan="1">18</td><td rowspan="1" colspan="1">15</td><td rowspan="1" colspan="1">12</td></tr><tr><td colspan="9" rowspan="1"><bold>AHI<sub>MAD</sub> &lt;5/h, reduction &gt;50%</bold></td></tr><tr><td rowspan="1" colspan="1"> Sensitivity (%)</td><td rowspan="1" colspan="1">60.6</td><td rowspan="1" colspan="1">69.7</td><td rowspan="1" colspan="1">72.7</td><td rowspan="1" colspan="1">78.8</td><td rowspan="1" colspan="1">81.8</td><td rowspan="1" colspan="1">90.9</td><td rowspan="1" colspan="1">93.9</td><td rowspan="1" colspan="1">93.9</td></tr><tr><td rowspan="1" colspan="1"> Specificity (%)</td><td rowspan="1" colspan="1">64.2</td><td rowspan="1" colspan="1">45.3</td><td rowspan="1" colspan="1">35.8</td><td rowspan="1" colspan="1">29.5</td><td rowspan="1" colspan="1">21.1</td><td rowspan="1" colspan="1">15.8</td><td rowspan="1" colspan="1">13.7</td><td rowspan="1" colspan="1">10.5</td></tr><tr><td rowspan="1" colspan="1"> PPV (%)</td><td rowspan="1" colspan="1">37.0</td><td rowspan="1" colspan="1">30.7</td><td rowspan="1" colspan="1">28.2</td><td rowspan="1" colspan="1">28.0</td><td rowspan="1" colspan="1">26.5</td><td rowspan="1" colspan="1">27.3</td><td rowspan="1" colspan="1">27.4</td><td rowspan="1" colspan="1">26.7</td></tr><tr><td rowspan="1" colspan="1"> NPV (%)</td><td rowspan="1" colspan="1">82.4</td><td rowspan="1" colspan="1">81.1</td><td rowspan="1" colspan="1">79.1</td><td rowspan="1" colspan="1">80.0</td><td rowspan="1" colspan="1">76.9</td><td rowspan="1" colspan="1">83.3</td><td rowspan="1" colspan="1">86.7</td><td rowspan="1" colspan="1">83.3</td></tr><tr><td rowspan="1" colspan="1"> LR+</td><td rowspan="1" colspan="1">1.69</td><td rowspan="1" colspan="1">1.27</td><td rowspan="1" colspan="1">1.13</td><td rowspan="1" colspan="1">1.12</td><td rowspan="1" colspan="1">1.04</td><td rowspan="1" colspan="1">1.08</td><td rowspan="1" colspan="1">1.09</td><td rowspan="1" colspan="1">1.05</td></tr><tr><td rowspan="1" colspan="1"> LR-</td><td rowspan="1" colspan="1">0.61</td><td rowspan="1" colspan="1">0.67</td><td rowspan="1" colspan="1">0.76</td><td rowspan="1" colspan="1">0.72</td><td rowspan="1" colspan="1">0.86</td><td rowspan="1" colspan="1">0.58</td><td rowspan="1" colspan="1">0.44</td><td rowspan="1" colspan="1">0.58</td></tr><tr><td rowspan="1" colspan="1"> Accuracy (%)</td><td rowspan="1" colspan="1">63.3</td><td rowspan="1" colspan="1">51.6</td><td rowspan="1" colspan="1">45.3</td><td rowspan="1" colspan="1">42.2</td><td rowspan="1" colspan="1">36.7</td><td rowspan="1" colspan="1">35.2</td><td rowspan="1" colspan="1">34.4</td><td rowspan="1" colspan="1">32.0</td></tr><tr><td colspan="9" rowspan="1"><bold>AHI<sub>MAD</sub> &lt;10/h, reduction &gt;50%</bold></td></tr><tr><td rowspan="1" colspan="1"> Sensitivity (%)</td><td rowspan="1" colspan="1">54.8</td><td rowspan="1" colspan="1">67.7</td><td rowspan="1" colspan="1">72.6</td><td rowspan="1" colspan="1">80.6</td><td rowspan="1" colspan="1">85.5</td><td rowspan="1" colspan="1">93.5</td><td rowspan="1" colspan="1">95.2</td><td rowspan="1" colspan="1">95.2</td></tr><tr><td rowspan="1" colspan="1"> Specificity (%)</td><td rowspan="1" colspan="1">69.7</td><td rowspan="1" colspan="1">50.0</td><td rowspan="1" colspan="1">39.4</td><td rowspan="1" colspan="1">34.8</td><td rowspan="1" colspan="1">25.8</td><td rowspan="1" colspan="1">21.2</td><td rowspan="1" colspan="1">18.2</td><td rowspan="1" colspan="1">13.6</td></tr><tr><td rowspan="1" colspan="1"> PPV (%)</td><td rowspan="1" colspan="1">63.0</td><td rowspan="1" colspan="1">56.0</td><td rowspan="1" colspan="1">52.9</td><td rowspan="1" colspan="1">53.8</td><td rowspan="1" colspan="1">52.0</td><td rowspan="1" colspan="1">52.7</td><td rowspan="1" colspan="1">52.2</td><td rowspan="1" colspan="1">50.9</td></tr><tr><td rowspan="1" colspan="1"> NPV (%)</td><td rowspan="1" colspan="1">62.2</td><td rowspan="1" colspan="1">62.3</td><td rowspan="1" colspan="1">60.5</td><td rowspan="1" colspan="1">65.7</td><td rowspan="1" colspan="1">65.4</td><td rowspan="1" colspan="1">77.8</td><td rowspan="1" colspan="1">80.0</td><td rowspan="1" colspan="1">75.0</td></tr><tr><td rowspan="1" colspan="1"> LR+</td><td rowspan="1" colspan="1">1.81</td><td rowspan="1" colspan="1">1.35</td><td rowspan="1" colspan="1">1.20</td><td rowspan="1" colspan="1">1.24</td><td rowspan="1" colspan="1">1.15</td><td rowspan="1" colspan="1">1.19</td><td rowspan="1" colspan="1">1.16</td><td rowspan="1" colspan="1">1.10</td></tr><tr><td rowspan="1" colspan="1"> LR-</td><td rowspan="1" colspan="1">0.65</td><td rowspan="1" colspan="1">0.65</td><td rowspan="1" colspan="1">0.70</td><td rowspan="1" colspan="1">0.56</td><td rowspan="1" colspan="1">0.56</td><td rowspan="1" colspan="1">0.30</td><td rowspan="1" colspan="1">0.27</td><td rowspan="1" colspan="1">0.35</td></tr><tr><td rowspan="1" colspan="1"> Accuracy (%)</td><td rowspan="1" colspan="1">62.5</td><td rowspan="1" colspan="1">58.6</td><td rowspan="1" colspan="1">55.5</td><td rowspan="1" colspan="1">57.0</td><td rowspan="1" colspan="1">54.7</td><td rowspan="1" colspan="1">56.3</td><td rowspan="1" colspan="1">55.5</td><td rowspan="1" colspan="1">53.1</td></tr></tbody></table><table-wrap-foot><fn id="tfn0008"><p><bold>Abbreviations</bold>: CPAP, continuous positive airway pressure; PPV, positive predictive value; NPV, negative predictive value; LR, likelihood ratio.</p></fn></table-wrap-foot></table-wrap>
+<fig position="float" id="f0002" fig-type="figure"><label>Figure 2</label><caption><p>AUROC in the prediction of MAD responder status with CPAP pressure.</p></caption><graphic xlink:href="NSS-14-517-g0003" content-type="print-only" position="float"/></fig></p>
+      </sec>
+    </sec>
+    <sec id="s0004">
+      <title>Discussion</title>
+      <p>This study aimed to test the association between CPAP pressure and MAD treatment responders across different sleep stages and positional dependency phenotypes in treatment-naïve patients with moderate-severe OSA. Our results showed that CPAP pressure was independently associated with responder status independent of sleep stage and positional dependency. Utilizing CPAP level &gt;14 cmH<sub>2</sub>O identified nonresponders to MAD treatment with a sensitivity of 93.9–95.2%. Moreover, supine-predominant OSA might be associated with the MAD treatment response.</p>
+      <p>The strength of our study included our recruitment of patients with moderate-severe OSA with AHI ≥ 30/h in 74.2%. In this population, CPAP is superior to MAD for AHI reduction, and MAD is an alternative treatment for those who refuse or cannot tolerate CPAP treatment. Hence, a parameter of high sensitivity may maximize the chance of identifying candidates for MAD treatment. Moreover, only patients whose time in supine sleep, nonsupine sleep, REM and NREM ≥ 15 min were included for analysis of sleep stage dependency and positional dependency, which enhanced the robustness of the phenotyping. Our results showed that CPAP pressure was a sensitive measure in identifying candidates for MAD treatment across different polysomnographic phenotypes.</p>
+      <p>In the present study, the response rates for criterion 1 and 2 were 25.8% and 48.4%, respectively. These rates were lower than the 53.8% and 69.2% reported in the study by Sutherland et al, who recruited 78 treatment-naïve Caucasian patients.<xref rid="cit0025" ref-type="bibr">25</xref> It was also lower than the 35.6% and 64.4% reported by Storesund et al, who recruited 87 Caucasian patients with moderate-severe OSA who were CPAP non-adherent.<xref rid="cit0024" ref-type="bibr">24</xref> This discrepancy may be related to the older age, higher baseline AHI, monoblock device use, longer duration of MAD treatment, and Asian ethnicity of our patients. Older age and higher baseline AHI have been associated with a poor response to MAD treatment,<xref rid="cit0015" ref-type="bibr">15</xref> while Asian ethnicity has been associated with a higher craniofacial risk and higher AHI than BMI-matched Caucasians. These discrepancies may contribute to the lower response rate in the present study. Our response rate was similar to the result reported by Tsuiki et al. However, Tsuiki included patients who adhered to CPAP, whose upper airway may have less collapsibility and need a lower CPAP pressure. In contrast, we included treatment-naïve patients whose airway may have had higher collapsibility and who needed higher CPAP pressure to stent the airway. The difference in upper airway physiology was supported by the higher cutoff of CPAP level (14 cmH<sub>2</sub>O) in the present study than that (10.5 cmH<sub>2</sub>O) reported by Tsuiki et al.<xref rid="cit0026" ref-type="bibr">26</xref></p>
+      <p>Supine position-related fallback of the mandible, tongue, and soft palate could compromise the upper airway during sleep and could be reversed by mandibular protrusion with MAD treatment. Our study revealed that supine-predominant OSA was associated with a higher criterion 1 response, which is in line with the study by Chung et al.<xref rid="cit0021" ref-type="bibr">21</xref> Both studies excluded patients with inadequate nonsupine sleep time, which may enhance the robustness of the definition of positional dependency. Sutherland et al<xref rid="cit0014" ref-type="bibr">14</xref> reported that patients with supine-predominant OSA had a lower response rate, which was in contrast to the findings of our and other studies.<xref rid="cit0019" ref-type="bibr">19–21</xref> The higher BMI and lower percentage of supine-predominant OSA in the study by Sutherland et al may contribute to the paradoxical findings.</p>
+      <p>Very few studies have investigated the association between stage-dependent OSA and MAD treatment response. Our results showed that the response rate was similar between different sleep stage dependencies for two definitions, which is in line with the findings of the study by Nishio et al.<xref rid="cit0022" ref-type="bibr">22</xref> Our finding is in contrast with that reported by Sutherland et al, who showed that REM-predominant OSA had a lower response rate than NREM-predominant and stage-independent OSA.<xref rid="cit0014" ref-type="bibr">14</xref> A possible explanation for the discrepancy in the results is that participants included in the study by Sutherland had more elderly females, higher BMI, and lower AHI, which may contribute to a higher percentage of REM-predominant OSA and higher residual AHI at REM. Despite the difference in response rate, all three studies confirmed that sleep stage dependency was not associated with MAD treatment response.</p>
+      <p>There were several limitations to this study. First, it is a retrospective study with a small cohort consisting of a small number of each polysomnographic phenotype, which may underestimate the power of the study. However, despite the possibility of underestimation, our study still confirmed the association between MAD response, positional dependency and CPAP pressure. Such an association may be more significant in the larger cohort. Second, patients with residual AHI ≥ 5/h at a CPAP level of 20 cmH<sub>2</sub>O were excluded, and thus, our findings may not apply to patients treated with BPAP. Third, the MAD in the present study was a nontitratable monobloc with tongue backing. Even though a monobloc MAD has been reported to be noninferior to a titratable bibloc in reducing AHI,<xref rid="cit0034" ref-type="bibr">34</xref>,<xref rid="cit0035" ref-type="bibr">35</xref> the CPAP pressure cutoff may be different between the two designs. Fourth, all participants were of Asian ethnicity recruited from a single-center hospital, and our findings need to be validated in a large-scale prospective study with a multiethnic population. Fifth, craniofacial features were not analyzed in the present study. However, craniofacial phenotyping has been demonstrated to have limited utility in enhancing models based on clinical variables alone,<xref rid="cit0036" ref-type="bibr">36</xref> and there is no universal standard to evaluate craniofacial features.<xref rid="cit0015" ref-type="bibr">15</xref> Sixth, the CPAP pressure in the present study was obtained by overnight manual titration, which may limit the generalizability of its implications. Further study to validate the predictability of MAD treatment response utilizing pressure obtained from APAP may promote feasibility.</p>
+      <p>In conclusion, in patients with moderate-severe OSA who were treatment-naïve, CPAP pressure may be a sensitive predictor for identifying candidates for MAD treatment, and the predictability was consistent across the different polysomnographic phenotypes. Further study with the CPAP pressure obtained from APAP in a large-scale and multiethnicity cohort to validate the findings of the present study is warranted.</p>
+    </sec>
+    <sec id="s0005">
+      <title>Rationale</title>
+      <p>Mandibular advancement devices (MADs) are alternative treatments to continuous positive airway pressure (CPAP) for patients with moderate-severe obstructive sleep apnea (OSA) who cannot tolerate CPAP therapy. Both CPAP pressure and positional phenotype (supine vs nonsupine) have been associated with the response to MAD treatment. However, the interplay between CPAP, polysomnographic phenotype (sleep stage dependency, positional dependency), and MAD treatment response has not been fully elucidated.</p>
+    </sec>
+    <sec id="s0006">
+      <title>Study Impact</title>
+      <p>In patients with moderate-severe OSA who were treatment-naïve, the response rates for residual AHI under MAD (AHI<sub>MAD</sub>) &lt;5/h and AHI<sub>MAD</sub> &lt;10/h were 25.8% and 48.4%, respectively. Supine dependency was associated with responders, while sleep stage dependency was not. CPAP pressure was an independent predictor, and utilization of CPAP level &gt;14 cmH<sub>2</sub>O could be a sensitive measure for identifying nonresponders.</p>
+    </sec>
+  </body>
+  <back>
+    <ack>
+      <title>Acknowledgments</title>
+      <p>This study was sponsored by the National Scientific Council (NSC 102-2314-B002-099), the Ministry of Science and Technology of Taiwan (MOST 103-2314-B-002−139-MY3, 109-2314-B-002-252), National Taiwan University Hospital (NTUH 109-042, 108-S4331, 110-N5164, 107-19, 111-S0298, 111-X0033), National Taiwan University (NTU-EPR-104R8951-1; 105R8951-1; 106R880301), and Center for Electronic Technology Integration (NTU-107L900502, 108L900502, 109L900502) from The Featured Areas Research Center Program within the framework of the Higher Education Sprout Project by the Ministry of Education (MOE) in Taiwan, and NTU-NTUH-MediaTek Innovative Medical Electronics Research Center. The work was performed in National Taiwan University Hospital.</p>
+    </ack>
+    <sec sec-type="COI-statement" id="s0007">
+      <title>Disclosure</title>
+      <p>All authors declare that they have no conflicts of interest in this work.</p>
+    </sec>
+    <ref-list>
+      <title>References</title>
+      <ref id="cit0001">
+        <label>1.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Senaratna</surname>
+<given-names>CV</given-names></string-name>, <string-name><surname>Perret</surname>
+<given-names>JL</given-names></string-name>, <string-name><surname>Lodge</surname>
+<given-names>CJ</given-names></string-name>, et al. <article-title>Prevalence of obstructive sleep apnea in the general population: a systematic review</article-title>. <source><italic toggle="yes">Sleep Med Rev</italic></source>. <year>2017</year>;<volume>34</volume>:<fpage>70</fpage>–<lpage>81</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.smrv.2016.07.002</pub-id><pub-id pub-id-type="pmid">27568340</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0002">
+        <label>2.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Altaf</surname>
+<given-names>QA</given-names></string-name>, <string-name><surname>Dodson</surname>
+<given-names>P</given-names></string-name>, <string-name><surname>Ali</surname>
+<given-names>A</given-names></string-name>, et al. <article-title>Obstructive sleep apnea and retinopathy in patients with type 2 diabetes. A longitudinal study</article-title>. <source><italic toggle="yes">Am J Respir Crit Care Med</italic></source>. <year>2017</year>;<volume>196</volume>(<issue>7</issue>):<fpage>892</fpage>–<lpage>900</lpage>. doi:<pub-id pub-id-type="doi">10.1164/rccm.201701-0175OC</pub-id><pub-id pub-id-type="pmid">28594570</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0003">
+        <label>3.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Botros</surname>
+<given-names>N</given-names></string-name>, <string-name><surname>Concato</surname>
+<given-names>J</given-names></string-name>, <string-name><surname>Mohsenin</surname>
+<given-names>V</given-names></string-name>, <string-name><surname>Selim</surname>
+<given-names>B</given-names></string-name>, <string-name><surname>Doctor</surname>
+<given-names>K</given-names></string-name>, <string-name><surname>Yaggi</surname>
+<given-names>HK</given-names></string-name>. <article-title>Obstructive sleep apnea as a risk factor for type 2 diabetes</article-title>. <source><italic toggle="yes">Am J Med</italic></source>. <year>2009</year>;<volume>122</volume>(<issue>12</issue>):<fpage>1122</fpage>–<lpage>1127</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.amjmed.2009.04.026</pub-id><pub-id pub-id-type="pmid">19958890</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0004">
+        <label>4.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Young</surname>
+<given-names>T</given-names></string-name>, <string-name><surname>Peppard</surname>
+<given-names>PE</given-names></string-name>, <string-name><surname>Gottlieb</surname>
+<given-names>DJ</given-names></string-name>. <article-title>Epidemiology of obstructive sleep apnea: a population health perspective</article-title>. <source><italic toggle="yes">Am J Respir Crit Care Med</italic></source>. <year>2002</year>;<volume>165</volume>(<issue>9</issue>):<fpage>1217</fpage>–<lpage>1239</lpage>. doi:<pub-id pub-id-type="doi">10.1164/rccm.2109080</pub-id><pub-id pub-id-type="pmid">11991871</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0005">
+        <label>5.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>McDaid</surname>
+<given-names>C</given-names></string-name>, <string-name><surname>Duree</surname>
+<given-names>KH</given-names></string-name>, <string-name><surname>Griffin</surname>
+<given-names>SC</given-names></string-name>, et al. <article-title>A systematic review of continuous positive airway pressure for obstructive sleep apnoea-hypopnoea syndrome</article-title>. <source><italic toggle="yes">Sleep Med Rev</italic></source>. <year>2009</year>;<volume>13</volume>(<issue>6</issue>):<fpage>427</fpage>–<lpage>436</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.smrv.2009.02.004</pub-id><pub-id pub-id-type="pmid">19362029</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0006">
+        <label>6.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Antic</surname>
+<given-names>NA</given-names></string-name>, <string-name><surname>Catcheside</surname>
+<given-names>P</given-names></string-name>, <string-name><surname>Buchan</surname>
+<given-names>C</given-names></string-name>, et al. <article-title>The effect of CPAP in normalizing daytime sleepiness, quality of life, and neurocognitive function in patients with moderate to severe OSA</article-title>. <source><italic toggle="yes">Sleep</italic></source>. <year>2011</year>;<volume>34</volume>(<issue>1</issue>):<fpage>111</fpage>–<lpage>119</lpage>. doi:<pub-id pub-id-type="doi">10.1093/sleep/34.1.111</pub-id><pub-id pub-id-type="pmid">21203366</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0007">
+        <label>7.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Dempsey</surname>
+<given-names>JA</given-names></string-name>, <string-name><surname>Veasey</surname>
+<given-names>SC</given-names></string-name>, <string-name><surname>Morgan</surname>
+<given-names>BJ</given-names></string-name>, <string-name><surname>O’Donnell</surname>
+<given-names>CP</given-names></string-name>. <article-title>Pathophysiology of sleep apnea</article-title>. <source><italic toggle="yes">Physiol Rev</italic></source>. <year>2010</year>;<volume>90</volume>(<issue>1</issue>):<fpage>47</fpage>–<lpage>112</lpage>. doi:<pub-id pub-id-type="doi">10.1152/physrev.00043.2008</pub-id><pub-id pub-id-type="pmid">20086074</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0008">
+        <label>8.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Lin</surname>
+<given-names>MT</given-names></string-name>, <string-name><surname>Lai</surname>
+<given-names>CL</given-names></string-name>, <string-name><surname>Lee</surname>
+<given-names>PL</given-names></string-name>, et al. <article-title>Timely diagnosis and treatment of sleep apnea reduce cardiovascular sequelae in patients with myocardial infarction</article-title>. <source><italic toggle="yes">PLoS One</italic></source>. <year>2018</year>;<volume>13</volume>(<issue>7</issue>):<fpage>e0201493</fpage>. doi:<pub-id pub-id-type="doi">10.1371/journal.pone.0201493</pub-id><pub-id pub-id-type="pmid">30059554</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0009">
+        <label>9.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Lin</surname>
+<given-names>MT</given-names></string-name>, <string-name><surname>Lin</surname>
+<given-names>HH</given-names></string-name>, <string-name><surname>Lee</surname>
+<given-names>PL</given-names></string-name>, et al. <article-title>Beneficial effect of continuous positive airway pressure on lipid profiles in obstructive sleep apnea: a meta-analysis</article-title>. <source><italic toggle="yes">Sleep Breath</italic></source>. <year>2015</year>;<volume>19</volume>(<issue>3</issue>):<fpage>809</fpage>–<lpage>817</lpage>. doi:<pub-id pub-id-type="doi">10.1007/s11325-014-1082-x</pub-id><pub-id pub-id-type="pmid">25450153</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0010">
+        <label>10.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Kribbs</surname>
+<given-names>NB</given-names></string-name>, <string-name><surname>Pack</surname>
+<given-names>AI</given-names></string-name>, <string-name><surname>Kline</surname>
+<given-names>LR</given-names></string-name>, et al. <article-title>Objective measurement of patterns of nasal CPAP use by patients with obstructive sleep apnea</article-title>. <source><italic toggle="yes">Am Rev Respir Dis</italic></source>. <year>1993</year>;<volume>147</volume>(<issue>4</issue>):<fpage>887</fpage>–<lpage>895</lpage>. doi:<pub-id pub-id-type="doi">10.1164/ajrccm/147.4.887</pub-id><pub-id pub-id-type="pmid">8466125</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0011">
+        <label>11.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Ramar</surname>
+<given-names>K</given-names></string-name>, <string-name><surname>Dort</surname>
+<given-names>LC</given-names></string-name>, <string-name><surname>Katz</surname>
+<given-names>SG</given-names></string-name>, et al. <article-title>Clinical practice guideline for the treatment of obstructive sleep apnea and snoring with oral appliance therapy: an update for 2015</article-title>. <source><italic toggle="yes">J Clin Sleep Med</italic></source>. <year>2015</year>;<volume>11</volume>(<issue>7</issue>):<fpage>773</fpage>–<lpage>827</lpage>. doi:<pub-id pub-id-type="doi">10.5664/jcsm.4858</pub-id><pub-id pub-id-type="pmid">26094920</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0012">
+        <label>12.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Sutherland</surname>
+<given-names>K</given-names></string-name>, <string-name><surname>Vanderveken</surname>
+<given-names>OM</given-names></string-name>, <string-name><surname>Tsuda</surname>
+<given-names>H</given-names></string-name>, et al. <article-title>Oral appliance treatment for obstructive sleep apnea: an update</article-title>. <source><italic toggle="yes">J Clin Sleep Med</italic></source>. <year>2014</year>;<volume>10</volume>(<issue>2</issue>):<fpage>215</fpage>–<lpage>227</lpage>. doi:<pub-id pub-id-type="doi">10.5664/jcsm.3460</pub-id><pub-id pub-id-type="pmid">24533007</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0013">
+        <label>13.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Mehta</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Qian</surname>
+<given-names>J</given-names></string-name>, <string-name><surname>Petocz</surname>
+<given-names>P</given-names></string-name>, <string-name><surname>Darendeliler</surname>
+<given-names>MA</given-names></string-name>, <string-name><surname>Cistulli</surname>
+<given-names>PA</given-names></string-name>. <article-title>A randomized, controlled study of a mandibular advancement splint for obstructive sleep apnea</article-title>. <source><italic toggle="yes">Am J Respir Crit Care Med</italic></source>. <year>2001</year>;<volume>163</volume>(<issue>6</issue>):<fpage>1457</fpage>–<lpage>1461</lpage>. doi:<pub-id pub-id-type="doi">10.1164/ajrccm.163.6.2004213</pub-id><pub-id pub-id-type="pmid">11371418</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0014">
+        <label>14.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Sutherland</surname>
+<given-names>K</given-names></string-name>, <string-name><surname>Takaya</surname>
+<given-names>H</given-names></string-name>, <string-name><surname>Qian</surname>
+<given-names>J</given-names></string-name>, <string-name><surname>Petocz</surname>
+<given-names>P</given-names></string-name>, <string-name><surname>Ng</surname>
+<given-names>AT</given-names></string-name>, <string-name><surname>Cistulli</surname>
+<given-names>PA</given-names></string-name>. <article-title>Oral appliance treatment response and polysomnographic phenotypes of obstructive sleep apnea</article-title>. <source><italic toggle="yes">J Clin Sleep Med</italic></source>. <year>2015</year>;<volume>11</volume>(<issue>8</issue>):<fpage>861</fpage>–<lpage>868</lpage>. doi:<pub-id pub-id-type="doi">10.5664/jcsm.4934</pub-id><pub-id pub-id-type="pmid">25845897</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0015">
+        <label>15.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Chen</surname>
+<given-names>H</given-names></string-name>, <string-name><surname>Eckert</surname>
+<given-names>DJ</given-names></string-name>, <string-name><surname>van der Stelt</surname>
+<given-names>PF</given-names></string-name>, et al. <article-title>Phenotypes of responders to mandibular advancement device therapy in obstructive sleep apnea patients: a systematic review and meta-analysis</article-title>. <source><italic toggle="yes">Sleep Med Rev</italic></source>. <year>2020</year>;<volume>49</volume>:<fpage>101229</fpage>. doi:<pub-id pub-id-type="doi">10.1016/j.smrv.2019.101229</pub-id><pub-id pub-id-type="pmid">31785583</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0016">
+        <label>16.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Ng</surname>
+<given-names>AT</given-names></string-name>, <string-name><surname>Darendeliler</surname>
+<given-names>MA</given-names></string-name>, <string-name><surname>Petocz</surname>
+<given-names>P</given-names></string-name>, <string-name><surname>Cistulli</surname>
+<given-names>PA</given-names></string-name>. <article-title>Cephalometry and prediction of oral appliance treatment outcome</article-title>. <source><italic toggle="yes">Sleep Breath</italic></source>. <year>2012</year>;<volume>16</volume>(<issue>1</issue>):<fpage>47</fpage>–<lpage>58</lpage>. doi:<pub-id pub-id-type="doi">10.1007/s11325-011-0484-2</pub-id><pub-id pub-id-type="pmid">21424283</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0017">
+        <label>17.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Walker-Engstrom</surname>
+<given-names>ML</given-names></string-name>, <string-name><surname>Ringqvist</surname>
+<given-names>I</given-names></string-name>, <string-name><surname>Vestling</surname>
+<given-names>O</given-names></string-name>, <string-name><surname>Wilhelmsson</surname>
+<given-names>B</given-names></string-name>, <string-name><surname>Tegelberg</surname>
+<given-names>A</given-names></string-name>. <article-title>A prospective randomized study comparing two different degrees of mandibular advancement with a dental appliance in treatment of severe obstructive sleep apnea</article-title>. <source><italic toggle="yes">Sleep Breath</italic></source>. <year>2003</year>;<volume>7</volume>(<issue>3</issue>):<fpage>119</fpage>–<lpage>130</lpage>. doi:<pub-id pub-id-type="doi">10.1007/s11325-003-0119-3</pub-id><pub-id pub-id-type="pmid">14569523</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0018">
+        <label>18.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Op de Beeck</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Dieltjens</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Azarbarzin</surname>
+<given-names>A</given-names></string-name>, et al. <article-title>Mandibular advancement device treatment efficacy is associated with polysomnographic endotypes</article-title>. <source><italic toggle="yes">Ann Am Thorac Soc</italic></source>. <year>2021</year>;<volume>18</volume>(<issue>3</issue>):<fpage>511</fpage>–<lpage>518</lpage>. doi:<pub-id pub-id-type="doi">10.1513/AnnalsATS.202003-220OC</pub-id><pub-id pub-id-type="pmid">32946702</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0019">
+        <label>19.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Yoshida</surname>
+<given-names>K</given-names></string-name>. <article-title>Influence of sleep posture on response to oral appliance therapy for sleep apnea syndrome</article-title>. <source><italic toggle="yes">Sleep</italic></source>. <year>2001</year>;<volume>24</volume>(<issue>5</issue>):<fpage>538</fpage>–<lpage>544</lpage>. doi:<pub-id pub-id-type="doi">10.1093/sleep/24.5.538</pub-id><pub-id pub-id-type="pmid">11480651</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0020">
+        <label>20.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Lee</surname>
+<given-names>CH</given-names></string-name>, <string-name><surname>Jung</surname>
+<given-names>HJ</given-names></string-name>, <string-name><surname>Lee</surname>
+<given-names>WH</given-names></string-name>, et al. <article-title>The effect of positional dependency on outcomes of treatment with a mandibular advancement device</article-title>. <source><italic toggle="yes">Arch Otolaryngol Head Neck Surg</italic></source>. <year>2012</year>;<volume>138</volume>(<issue>5</issue>):<fpage>479</fpage>–<lpage>483</lpage>. doi:<pub-id pub-id-type="doi">10.1001/archoto.2012.452</pub-id><pub-id pub-id-type="pmid">22652946</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0021">
+        <label>21.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Chung</surname>
+<given-names>JW</given-names></string-name>, <string-name><surname>Enciso</surname>
+<given-names>R</given-names></string-name>, <string-name><surname>Levendowski</surname>
+<given-names>DJ</given-names></string-name>, <string-name><surname>Morgan</surname>
+<given-names>TD</given-names></string-name>, <string-name><surname>Westbrook</surname>
+<given-names>PR</given-names></string-name>, <string-name><surname>Clark</surname>
+<given-names>GT</given-names></string-name>. <article-title>Treatment outcomes of mandibular advancement devices in positional and nonpositional OSA patients</article-title>. <source><italic toggle="yes">Oral Surg Oral Med Oral Pathol Oral Radiol Endod</italic></source>. <year>2010</year>;<volume>109</volume>(<issue>5</issue>):<fpage>724</fpage>–<lpage>731</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.tripleo.2009.11.031</pub-id><pub-id pub-id-type="pmid">20299246</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0022">
+        <label>22.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Nishio</surname>
+<given-names>Y</given-names></string-name>, <string-name><surname>Hoshino</surname>
+<given-names>T</given-names></string-name>, <string-name><surname>Murotani</surname>
+<given-names>K</given-names></string-name>, et al. <article-title>Treatment outcome of oral appliance in patients with REM-related obstructive sleep apnea</article-title>. <source><italic toggle="yes">Sleep Breath</italic></source>. <year>2020</year>;<volume>24</volume>(<issue>4</issue>):<fpage>1339</fpage>–<lpage>1347</lpage>. doi:<pub-id pub-id-type="doi">10.1007/s11325-019-01966-5</pub-id><pub-id pub-id-type="pmid">31768931</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0023">
+        <label>23.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Dort</surname>
+<given-names>L</given-names></string-name>, <string-name><surname>Savard</surname>
+<given-names>N</given-names></string-name>, <string-name><surname>Dort</surname>
+<given-names>E</given-names></string-name>, <string-name><surname>Dort</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Dort</surname>
+<given-names>J</given-names></string-name>. <article-title>Does CPAP pressure predict treatment outcome with oral appliances?</article-title>
+<source><italic toggle="yes">J Dent Sleep Med</italic></source>. <year>2016</year>;<volume>3</volume>(<issue>4</issue>):<fpage>113</fpage>–<lpage>117</lpage>. doi:<pub-id pub-id-type="doi">10.15331/jdsm.6248</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0024">
+        <label>24.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Storesund</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Johansson</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Bjorvatn</surname>
+<given-names>B</given-names></string-name>, <string-name><surname>Lehmann</surname>
+<given-names>S</given-names></string-name>. <article-title>Oral appliance treatment outcome can be predicted by continuous positive airway pressure in moderate to severe obstructive sleep apnea</article-title>. <source><italic toggle="yes">Sleep Breath</italic></source>. <year>2018</year>;<volume>22</volume>(<issue>2</issue>):<fpage>385</fpage>–<lpage>392</lpage>. doi:<pub-id pub-id-type="doi">10.1007/s11325-017-1578-2</pub-id><pub-id pub-id-type="pmid">29067558</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0025">
+        <label>25.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Sutherland</surname>
+<given-names>K</given-names></string-name>, <string-name><surname>Phillips</surname>
+<given-names>CL</given-names></string-name>, <string-name><surname>Davies</surname>
+<given-names>A</given-names></string-name>, et al. <article-title>CPAP pressure for prediction of oral appliance treatment response in obstructive sleep apnea</article-title>. <source><italic toggle="yes">J Clin Sleep Med</italic></source>. <year>2014</year>;<volume>10</volume>(<issue>9</issue>):<fpage>943</fpage>–<lpage>949</lpage>. doi:<pub-id pub-id-type="doi">10.5664/jcsm.4020</pub-id><pub-id pub-id-type="pmid">25142773</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0026">
+        <label>26.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Tsuiki</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Kobayashi</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Namba</surname>
+<given-names>K</given-names></string-name>, et al. <article-title>Optimal positive airway pressure predicts oral appliance response to sleep apnoea</article-title>. <source><italic toggle="yes">Eur Respir J</italic></source>. <year>2010</year>;<volume>35</volume>(<issue>5</issue>):<fpage>1098</fpage>–<lpage>1105</lpage>. doi:<pub-id pub-id-type="doi">10.1183/09031936.00121608</pub-id><pub-id pub-id-type="pmid">19840960</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0027">
+        <label>27.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Liu</surname>
+<given-names>HW</given-names></string-name>, <string-name><surname>Chen</surname>
+<given-names>YJ</given-names></string-name>, <string-name><surname>Lai</surname>
+<given-names>YC</given-names></string-name>, et al. <article-title>Combining MAD and CPAP as an effective strategy for treating patients with severe sleep apnea intolerant to high-pressure PAP and unresponsive to MAD</article-title>. <source><italic toggle="yes">PLoS One</italic></source>. <year>2017</year>;<volume>12</volume>(<issue>10</issue>):<fpage>e0187032</fpage>. doi:<pub-id pub-id-type="doi">10.1371/journal.pone.0187032</pub-id><pub-id pub-id-type="pmid">29073254</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0028">
+        <label>28.</label>
+        <mixed-citation publication-type="book"><string-name><surname>Iber</surname>
+<given-names>C</given-names></string-name>, <string-name><surname>Quan</surname>
+<given-names>S</given-names></string-name>. <source><italic toggle="yes">The AASM Manual for the Scoring of Sleep and Associated Events: Rules, Terminology and Technical Specifications</italic></source>. <edition>1st</edition> ed. <publisher-name>The American Academy of Sleep Medicine: American Academy of Sleep Medicine</publisher-name>; <year>2007</year>.</mixed-citation>
+      </ref>
+      <ref id="cit0029">
+        <label>29.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Joosten</surname>
+<given-names>SA</given-names></string-name>, <string-name><surname>Hamza</surname>
+<given-names>K</given-names></string-name>, <string-name><surname>Sands</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Turton</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Berger</surname>
+<given-names>P</given-names></string-name>, <string-name><surname>Hamilton</surname>
+<given-names>G</given-names></string-name>. <article-title>Phenotypes of patients with mild to moderate obstructive sleep apnoea as confirmed by cluster analysis</article-title>. <source><italic toggle="yes">Respirology</italic></source>. <year>2012</year>;<volume>17</volume>(<issue>1</issue>):<fpage>99</fpage>–<lpage>107</lpage>. doi:<pub-id pub-id-type="doi">10.1111/j.1440-1843.2011.02037.x</pub-id><pub-id pub-id-type="pmid">21848707</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0030">
+        <label>30.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Joosten</surname>
+<given-names>SA</given-names></string-name>, <string-name><surname>O’Driscoll</surname>
+<given-names>DM</given-names></string-name>, <string-name><surname>Berger</surname>
+<given-names>PJ</given-names></string-name>, <string-name><surname>Hamilton</surname>
+<given-names>GS</given-names></string-name>. <article-title>Supine position related obstructive sleep apnea in adults: pathogenesis and treatment</article-title>. <source><italic toggle="yes">Sleep Med Rev</italic></source>. <year>2014</year>;<volume>18</volume>(<issue>1</issue>):<fpage>7</fpage>–<lpage>17</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.smrv.2013.01.005</pub-id><pub-id pub-id-type="pmid">23669094</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0031">
+        <label>31.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Sakao</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Sakurai</surname>
+<given-names>T</given-names></string-name>, <string-name><surname>Yahaba</surname>
+<given-names>M</given-names></string-name>, et al. <article-title>Features of REM-related sleep disordered breathing in the Japanese population</article-title>. <source><italic toggle="yes">Intern Med</italic></source>. <year>2015</year>;<volume>54</volume>(<issue>12</issue>):<fpage>1481</fpage>–<lpage>1487</lpage>. doi:<pub-id pub-id-type="doi">10.2169/internalmedicine.54.4248</pub-id><pub-id pub-id-type="pmid">26073236</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0032">
+        <label>32.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Conwell</surname>
+<given-names>W</given-names></string-name>, <string-name><surname>Patel</surname>
+<given-names>B</given-names></string-name>, <string-name><surname>Doeing</surname>
+<given-names>D</given-names></string-name>, et al. <article-title>Prevalence, clinical features, and CPAP adherence in REM-related sleep-disordered breathing: a cross-sectional analysis of a large clinical population</article-title>. <source><italic toggle="yes">Sleep Breath</italic></source>. <year>2012</year>;<volume>16</volume>(<issue>2</issue>):<fpage>519</fpage>–<lpage>526</lpage>. doi:<pub-id pub-id-type="doi">10.1007/s11325-011-0537-6</pub-id><pub-id pub-id-type="pmid">21614575</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0033">
+        <label>33.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Hoshino</surname>
+<given-names>T</given-names></string-name>, <string-name><surname>Sasanabe</surname>
+<given-names>R</given-names></string-name>, <string-name><surname>Mano</surname>
+<given-names>M</given-names></string-name>, et al. <article-title>Prevalence of rapid eye movement-related obstructive sleep apnea in adult narcolepsy</article-title>. <source><italic toggle="yes">Intern Med</italic></source>. <year>2019</year>;<volume>58</volume>(<issue>15</issue>):<fpage>2151</fpage>–<lpage>2157</lpage>. doi:<pub-id pub-id-type="doi">10.2169/internalmedicine.2601-18</pub-id><pub-id pub-id-type="pmid">30996185</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0034">
+        <label>34.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Bloch</surname>
+<given-names>KE</given-names></string-name>, <string-name><surname>Iseli</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Zhang</surname>
+<given-names>JN</given-names></string-name>, et al. <article-title>A randomized, controlled crossover trial of two oral appliances for sleep apnea treatment</article-title>. <source><italic toggle="yes">Am J Respir Crit Care Med</italic></source>. <year>2000</year>;<volume>162</volume>(<issue>1</issue>):<fpage>246</fpage>–<lpage>251</lpage>. doi:<pub-id pub-id-type="doi">10.1164/ajrccm.162.1.9908112</pub-id><pub-id pub-id-type="pmid">10903249</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0035">
+        <label>35.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Ishiyama</surname>
+<given-names>H</given-names></string-name>, <string-name><surname>Hasebe</surname>
+<given-names>D</given-names></string-name>, <string-name><surname>Sato</surname>
+<given-names>K</given-names></string-name>, et al. <article-title>The efficacy of device designs (mono-block or bi-block) in oral appliance therapy for obstructive sleep apnea patients: a systematic review and meta-analysis</article-title>. <source><italic toggle="yes">Int J Environ Res Public Health</italic></source>. <year>2019</year>;<volume>16</volume>(<issue>17</issue>):<fpage>3182</fpage>. doi:<pub-id pub-id-type="doi">10.3390/ijerph16173182</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0036">
+        <label>36.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Sutherland</surname>
+<given-names>K</given-names></string-name>, <string-name><surname>Chan</surname>
+<given-names>ASL</given-names></string-name>, <string-name><surname>Ngiam</surname>
+<given-names>J</given-names></string-name>, <string-name><surname>Dalci</surname>
+<given-names>O</given-names></string-name>, <string-name><surname>Darendeliler</surname>
+<given-names>MA</given-names></string-name>, <string-name><surname>Cistulli</surname>
+<given-names>PA</given-names></string-name>. <article-title>Awake multimodal phenotyping for prediction of oral appliance treatment outcome</article-title>. <source><italic toggle="yes">J Clin Sleep Med</italic></source>. <year>2018</year>;<volume>14</volume>(<issue>11</issue>):<fpage>1879</fpage>–<lpage>1887</lpage>. doi:<pub-id pub-id-type="doi">10.5664/jcsm.7484</pub-id><pub-id pub-id-type="pmid">30373687</pub-id></mixed-citation>
+      </ref>
+    </ref-list>
+  </back>
+</article>
+</pmc-articleset>

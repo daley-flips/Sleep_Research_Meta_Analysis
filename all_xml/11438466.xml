@@ -1,0 +1,582 @@
+<pmc-articleset><article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" dtd-version="1.3" xml:lang="en" article-type="research-article">
+  <?properties open_access?>
+  <processing-meta base-tagset="archiving" mathml-version="3.0" table-model="xhtml" tagset-family="jats">
+    <restricted-by>pmc</restricted-by>
+  </processing-meta>
+  <front><journal-meta><journal-id journal-id-type="nlm-ta">Nat Sci Sleep</journal-id><journal-id journal-id-type="iso-abbrev">Nat Sci Sleep</journal-id><journal-id journal-id-type="publisher-id">nss</journal-id><journal-title-group><journal-title>Nature and Science of Sleep</journal-title></journal-title-group><issn pub-type="epub">1179-1608</issn><publisher><publisher-name>Dove</publisher-name></publisher></journal-meta>
+<article-meta><article-id pub-id-type="pmid">39347483</article-id><article-id pub-id-type="pmc">11438466</article-id><article-id pub-id-type="publisher-id">473022</article-id><article-id pub-id-type="doi">10.2147/NSS.S473022</article-id><article-categories><subj-group subj-group-type="heading"><subject>Original Research</subject></subj-group></article-categories><title-group><article-title>Using Bioinformatics and Machine Learning to Predict the Genetic Characteristics of Ferroptosis-Cuproptosis-Related Genes Associated with Sleep Deprivation</article-title><alt-title alt-title-type="running-authors">Wang et al</alt-title><alt-title alt-title-type="running-title">Wang et al</alt-title></title-group><contrib-group><contrib contrib-type="author" equal-contrib="yes"><contrib-id contrib-id-type="orcid">http://orcid.org/0000-0003-3991-0020</contrib-id><name><surname>Wang</surname><given-names>Liang</given-names></name><xref rid="aff0001" ref-type="aff">
+<sup>1</sup>
+</xref><xref rid="aff0002" ref-type="aff">
+<sup>2</sup>
+</xref><xref rid="ft0001" ref-type="author-notes">*</xref></contrib><contrib contrib-type="author" equal-contrib="yes"><name><surname>Wang</surname><given-names>Shuo</given-names></name><xref rid="aff0003" ref-type="aff">
+<sup>3</sup>
+</xref><xref rid="ft0001" ref-type="author-notes">*</xref></contrib><contrib contrib-type="author"><name><surname>Tian</surname><given-names>Chujiao</given-names></name><xref rid="aff0003" ref-type="aff">
+<sup>3</sup>
+</xref></contrib><contrib contrib-type="author"><name><surname>Zou</surname><given-names>Tao</given-names></name><xref rid="aff0003" ref-type="aff">
+<sup>3</sup>
+</xref></contrib><contrib contrib-type="author"><name><surname>Zhao</surname><given-names>Yunshan</given-names></name><xref rid="aff0002" ref-type="aff">
+<sup>2</sup>
+</xref></contrib><contrib contrib-type="author"><name><surname>Li</surname><given-names>Shaodan</given-names></name><xref rid="aff0003" ref-type="aff">
+<sup>3</sup>
+</xref><xref rid="an0001" ref-type="corresp"/></contrib><contrib contrib-type="author"><name><surname>Yang</surname><given-names>Minghui</given-names></name><xref rid="aff0003" ref-type="aff">
+<sup>3</sup>
+</xref></contrib><contrib contrib-type="author"><name><surname>Chai</surname><given-names>Ningli</given-names></name><xref rid="aff0001" ref-type="aff">
+<sup>1</sup>
+</xref><xref rid="an0002" ref-type="corresp"/></contrib><aff id="aff0001"><label>1</label><institution>Department of Gastroenterology, First Medical Center, Chinese PLA General Hospital</institution>, <addr-line>Beijing</addr-line>, <addr-line>100853</addr-line>, <country>People’s Republic of China</country></aff><aff id="aff0002"><label>2</label><institution>Health Medicine Department, the 955th Hospital of the Army, Changdu</institution>, <addr-line>Tibet</addr-line>, <addr-line>854000</addr-line>, <country>People’s Republic of China</country></aff><aff id="aff0003"><label>3</label><institution>Department of TCM, Sixth Medical Center, Chinese PLA General Hospital</institution>, <addr-line>Beijing</addr-line>, <addr-line>100048</addr-line>, <country>People’s Republic of China</country></aff></contrib-group><author-notes><corresp id="an0001">Correspondence: Shaodan Li, <institution>Department of TCM, Sixth Medical Center, Chinese PLA General Hospital</institution>, <addr-line>Beijing</addr-line>, <addr-line>100048</addr-line>, <country>People’s Republic of China</country>, Email lsd301@126.com</corresp><corresp id="an0002">Ningli Chai, <institution>Department of Gastroenterology, First Medical Center, Chinese PLA General Hospital</institution>, <addr-line>Beijing</addr-line>, <addr-line>100853</addr-line>, <country>People’s Republic of China</country>, Email chainingli@vip.163.com</corresp><fn id="ft0001"><label>*</label><p>These authors contributed equally to this work</p></fn></author-notes><pub-date pub-type="epub"><day>24</day><month>9</month><year>2024</year></pub-date><pub-date pub-type="collection"><year>2024</year></pub-date><volume>16</volume><fpage>1497</fpage><lpage>1513</lpage><history><date date-type="received"><day>13</day><month>5</month><year>2024</year></date><date date-type="accepted"><day>12</day><month>9</month><year>2024</year></date></history><permissions><copyright-statement>© 2024 Wang et al.</copyright-statement><copyright-year>2024</copyright-year><copyright-holder>Wang et al.</copyright-holder><license><ali:license_ref xmlns:ali="http://www.niso.org/schemas/ali/1.0/" specific-use="textmining" content-type="ccbynclicense">https://creativecommons.org/licenses/by-nc/3.0/</ali:license_ref><license-p>This work is published and licensed by Dove Medical Press Limited. The full terms of this license are available at <ext-link ext-link-type="uri" xlink:href="https://www.dovepress.com/terms.php">https://www.dovepress.com/terms.php</ext-link> and incorporate the Creative Commons Attribution – Non Commercial (unported, v3.0) License (<ext-link ext-link-type="uri" xlink:href="https://creativecommons.org/licenses/by-nc/3.0/">http://creativecommons.org/licenses/by-nc/3.0/</ext-link>). By accessing the work you hereby accept the Terms. Non-commercial uses of the work are permitted without any further permission from Dove Medical Press Limited, provided the work is properly attributed. For permission for commercial use of this work, please see paragraphs 4.2 and 5 of our Terms (<ext-link ext-link-type="uri" xlink:href="https://www.dovepress.com/terms.php">https://www.dovepress.com/terms.php</ext-link>).</license-p></license></permissions><abstract><sec id="s2001"><title>Purpose</title><p>Sleep deprivation (SD), a common sleep disease in clinic, has certain risks, and its pathogenesis is still unclear. This study aimed to identify ferroptosis-cuproptosis-related genes (FCRGs) associated with SD through bioinformatics and machine learning, thus elucidating their biological significance and clinical value.</p></sec><sec id="s2002"><title>Methods</title><p>SD-DEGs were obtained from GEO. We intersected key WGCNA module genes of DE-FCRGs with SD-DEGs to obtain SD-DE-FCRGs. GO and KEGG analyses were performed. Machine learning was used to screen SD-DE-FCRGs, and filtered genes were intersected to obtain SD characteristic genes. ROC curves were used to evaluate the accuracy of SD characteristic genes. CIBERSORT was used to analyze the correlation between SD-DE-FCRGs and immune cells. We constructed a ceRNA network of SD-DE-FCRGs and used DGIbd to predict gene drug targets.</p></sec><sec id="s2003"><title>Results</title><p>The 156 DEGs were identified from GSE98566. Five SD-DE-FCRGs from DE- FCRGs and SD-DEGs were analyzed via WGCNA, and enrichment analysis involved mainly ribosome regulation, mitochondrial pathways, and neurodegenerative diseases. Machine learning was used to obtain Four SD-DE-FCRGs (IKZF1, JCHAIN, MGST3, and UQCR11), and these gene analyses accurately evaluated the distribution model (AUC=0.793). Immune infiltration revealed that SD hub genes were correlated with most immune cells. Unsupervised cluster analysis revealed significant differential expression of immune-related genes between two subtypes. GSVA and GSEA revealed that enriched biological functions included oxidative phosphorylation, ribonucleic acid, metabolic diseases, activation of oxidative phosphorylation, and other pathways. Four SD-DE-FCRGs associated with 29 miRNAs were identified via the construction of a ceRNA network. The important target lenalidomide of IKZF1 was predicted.</p></sec><sec id="s2004"><title>Conclusion</title><p>We first used bioinformatics and machine learning to screen four SD-DE-FCRGs. These genes may affect the involvement of infiltrating immune cells in pathogenesis of SD by regulating FCRGs. We predicted that lenalidomide may target IKZF1 from SD-DE-FCRGs.</p></sec></abstract><abstract abstract-type="graphical"><title>Graphical Abstract</title><p>
+<fig position="anchor" id="uf0001"><graphic xlink:href="NSS-16-1497-g0001" content-type="print-only" position="float"/></fig>
+</p></abstract><kwd-group kwd-group-type="author"><title>Keywords</title><kwd>sleep deprivation</kwd><kwd>ferroptosis</kwd><kwd>cuproptosis</kwd><kwd>bioinformatics</kwd><kwd>machine learning</kwd><kwd>immune infiltration</kwd></kwd-group><funding-group><award-group><funding-source>
+<institution-wrap><institution>This study was supported by the 75th batch of general support from the China Postdoctoral Science Foundation, National Natural Science Foundation of China</institution></institution-wrap>
+</funding-source></award-group><award-group><funding-source>
+<institution-wrap><institution>the special plan for the cultivation and improvement of TCM service capabilities</institution></institution-wrap>
+</funding-source></award-group><award-group><funding-source>
+<institution-wrap><institution>the Basic and Clinical Research on Prevention and Treatment of Geriatric Diseases with Integrated Traditional Chinese and Western Medicine-National Grant</institution></institution-wrap>
+</funding-source></award-group><funding-statement>This study was supported by the 75th batch of general support from the China Postdoctoral Science Foundation, National Natural Science Foundation of China (82174283, 82474485), the special plan for the cultivation and improvement of TCM service capabilities (2021ZY009, 2021ZY048), and the Basic and Clinical Research on Prevention and Treatment of Geriatric Diseases with Integrated Traditional Chinese and Western Medicine-National Grant (111-gb).</funding-statement></funding-group><counts><fig-count count="10"/><ref-count count="53"/><page-count count="17"/></counts></article-meta></front>
+  <body>
+    <sec sec-type="intro" id="s0001">
+      <title>Introduction</title>
+      <p>Adequate sleep is an important support for human physical and mental health and social activities.<xref rid="cit0001" ref-type="bibr">1</xref> With the development of the global social economy and changes in human lifestyle, people’s sleep time has significantly shortened. As a common clinical disease of the nervous system, sleep deprivation (SD) has become a very common social phenomenon. Recent studies have shown that sleeping less than 7 hours per night increases the risk of death by 12%-35%.<xref rid="cit0002" ref-type="bibr">2</xref> Long-term SD can harm human health and increase the risk of developing other diseases.<xref rid="cit0003" ref-type="bibr">3</xref></p>
+      <p>In recent years, with the development and popularization of high-throughput sequencing technology, disease research models based on data mining technologies such as bioinformatics and machine learning have gradually matured, providing important methods and means for mining potential mechanisms, potential biomarkers and therapeutic targets of various diseases.<xref rid="cit0004" ref-type="bibr">4</xref> Sleep-related bioinformatics research is an emerging field worthy of in-depth study. Sleep studies have shown that obstructive sleep apnea, as a sleep disorder, may have the same bioinformatics basis as several sleep phenotypes in terms of etiology and causal pathways.<xref rid="cit0005" ref-type="bibr">5</xref> Exploring the genetic relationship between sleep function and sleep deprivation from a bioinformatics perspective is highly beneficial for evidence-based and personalized sleep deprivation treatment in the future.<xref rid="cit0006" ref-type="bibr">6</xref> Ferroptosis and cuproptosis, new modes of cell death that have been discovered one after another and are different from the traditional apoptosis pathway, have been confirmed to play important roles in the pathophysiological processes of cancer, the nervous system and other diseases, mostly involving immunity, cognition and inflammation.<xref rid="cit0007" ref-type="bibr">7–9</xref> Previous studies have shown that SD can lead to neuronal ferroptosis and affect hippocampal function and that copper transport signaling is a potential therapeutic target for sleep disorder-related myocardial injury and even ischemic myocardial injury.<xref rid="cit0010" ref-type="bibr">10</xref>,<xref rid="cit0011" ref-type="bibr">11</xref> At present, the pathogenesis of SD is not clear, and no relevant literature has analyzed the role of ferroptosis combined with cuproptosis in SD via data mining methods.</p>
+      <p>In this study, we integrate previously published transcriptome data related to SD, propose the use of bioinformatics and machine learning, identify the relevant hub genes involved in SD and their relationships with immune cell infiltration through ferroptosis combined with the cuproptosis pathway, screen key genes, and mine potential drugs that can treat SD. This study provides a reference for further exploration of the key target genes of SD-differentially expressed-ferroptosis-cuproptosis-related genes (SD-DE-FCRGs) and screening potential drugs for the treatment of SD. The specific design scheme and process of this study are shown in <xref rid="f0001" ref-type="fig">Figure 1</xref>.<fig position="float" id="f0001" fig-type="figure"><label>Figure 1</label><caption><p>Flowchart of the overall study design.</p></caption><graphic xlink:href="NSS-16-1497-g0002" content-type="print-only" position="float"/></fig></p>
+    </sec>
+    <sec id="s0002">
+      <title>Materials and Methods</title>
+      <sec id="s0002-s2001">
+        <title>Data Acquisition</title>
+        <p>The original SD dataset GSE98566 (annotation platform: GPL6244) was obtained from the GEO database (<underline><ext-link xlink:href="https://www.ncbi.nlm.nih.gov/GEO/" ext-link-type="uri">https://www.ncbi.nlm.nih.gov/GEO/</ext-link></underline>). Ferroptosis-related genes (FRGs) were downloaded from the FerrDb database (<underline><ext-link xlink:href="http://www.zhounan.org/ferrdb/" ext-link-type="uri">http://www.zhounan.org/ferrdb/</ext-link></underline>) and retrieved from previous publications. Cuproptosis-related genes (CRGs) were obtained from the literature and materials databases.<xref rid="cit0012" ref-type="bibr">12–15</xref></p>
+      </sec>
+      <sec id="s0002-s2002">
+        <title>Identification of SD-DE-FCRGs</title>
+        <p>We used the R package to process, count, and analyze expression files. We downloaded a series of matrix files for the dataset from GEO. The R package “limma” was used to normalize the data and locate differentially expressed genes (DEGs), with P&lt;0.05 and log2 |FC|&gt;0.3 considered significant DEGs.<xref rid="cit0016" ref-type="bibr">16</xref> The “ggplot2” package was used to construct a volcano map of the DEGs. In addition, the mRNA expression data obtained via log2 transformation were arranged into a heatmap via the “pheatmap” R package. The “GSVA” package in R was applied to compute the FCRGs scores of each patient with SDs, which could serve as an indicator of FCRGs activity. The “wilcox.test” function in R was then employed to compare the discrepancy in the FCRGs scores between different clusters.</p>
+      </sec>
+      <sec id="s0002-s2003">
+        <title>Weighted Gene Coexpression Network Analysis (WGCNA) to Determine the Core SD-DE-FCRGs</title>
+        <p>On the basis of the results of WGCNA, we obtained gene modules related to ferroptosis and cuproptosis expression and explored the correlations between gene networks and ferroptosis-cuproptosis, as well as the core SD-DE-FCRGs in the network.<xref rid="cit0017" ref-type="bibr">17</xref> We used the GSVA method to quantify the scores of ferroptosis genes and analyzed the differences between the ferroptosis scores and ferroptosis scores via the Wilcoxon test.</p>
+      </sec>
+      <sec id="s0002-s2004">
+        <title>Functional Enrichment Analysis of the Core SD-DE-FCRGs</title>
+        <p>Gene Ontology (GO) analysis is based on the analysis of the cellular component (CC), biological process (BP), and molecular function (MF) of candidate genes. The Kyoto Encyclopedia of Genes and Genomes (KEGG) mainly generates pathway maps on the basis of the relationship network formed by gene sequences, genome information, metabolism, disease, etc. To analyze the enrichment of gene biological functions and pathways, the “clusterProfiler” package was used for enrichment analysis of brown module genes, and the “org.db” package and “ggplot2” package were used for data and information visualization. GO and KEGG enrichment pathways with p and q values less than 0.05 were considered significant categories.</p>
+      </sec>
+      <sec id="s0002-s2005">
+        <title>Machine Learning Feature Gene Selection</title>
+        <p>Three machine learning algorithms (LASSO, random forest, and SVM-RFE) were used to screen feature.<xref rid="cit0018" ref-type="bibr">18</xref>,<xref rid="cit0019" ref-type="bibr">19</xref> Compared with regression analysis, LASSO is a dimensionality reduction method that demonstrates superiority in evaluating high-dimensional data. LASSO analysis searches for the smallest classification error λ to determine variables and is mainly used for screening feature variables and constructing the best classification model. LASSO analysis was conducted via the glmnet software package via 10-fold cross validation and the turning/privacy parameters. Recursive feature elimination (RFE) of the random forest algorithm is a supervised machine learning method that was used to sort SD-DE-FCRGs. The prediction performance was estimated through 10-fold cross-validation, and the relative importance of the top 5 genes was identified as the characteristic gene. SVM-RFE was superior to linear discriminant analysis and mean squared error in selecting relevant features and removing redundant features. SVM-RFE was applied to feature selection through tenfold cross validation. The genes associated with these genes are considered hub genes in SD diagnosis.</p>
+        <p>ROC analysis was used to estimate diagnostic efficacy by combining hub genes to establish nomograms.<xref rid="cit0020" ref-type="bibr">20</xref> The calibration curve is used to evaluate the accuracy of the column chart. The clinical practicality of the column charts was evaluated through decision curve analysis.</p>
+      </sec>
+      <sec id="s0002-s2006">
+        <title>Immune Cell Infiltration</title>
+        <p>We used ssGSEA to analyze the infiltration level of immune cells on the basis of the expression profiles of 28 immune-related features. The estimated proportions of 28 immune cell subtypes in each sample were subsequently visualized via the “forcats” and “tidyHetmap” packages. The “coreplot” package was used to analyze the interaction between immune cells and further analyze the impact of disease-immune cell interactions. The “vioplot” package was used to plot the relative content of immune cells between different subtypes.<xref rid="cit0021" ref-type="bibr">21</xref></p>
+      </sec>
+      <sec id="s0002-s2007">
+        <title>Unsupervised Clustering of SD-DE-FCRGs</title>
+        <p>On the basis of the expression levels of the 5 SD-DE-FCRGs, unsupervised cluster analysis was performed via the R package “Consensus Cluster Plus” to classify the SD samples into different clusters.<xref rid="cit0022" ref-type="bibr">22</xref> The consensus matrix graph, consensus cumulative distribution function (CDF) graph, relative change in area under the CDF curve and tracking graph are used to find the optimal number of clusters. Principal component analysis (PCA) was used to determine the differences in HF progression and immune-related gene expression between the two subtypes. The PCA diagram was depicted via the ggplot2 package.</p>
+      </sec>
+      <sec id="s0002-s2008">
+        <title>Gene Set Variation Analysis (GSVA) and Gene Set Enrichment Analysis (GSEA)</title>
+        <p>We obtained the “c2. cp. kegg. Hs. symbols” file from the MSigDB online database (<underline><ext-link xlink:href="http://software.broadinstitute.org/gsea/msigdb" ext-link-type="uri">http://software.broadinstitute.org/gsea/msigdb</ext-link></underline>) and conducted GSVA enrichment analysis via R packages to evaluate the activity and biological function of different pathways among different subtypes.<xref rid="cit0023" ref-type="bibr">23</xref> We used the “vioplot” package to plot the relative content of immune cells among the different subtypes.</p>
+        <p>The implementation of GSEA aims to elucidate the biological significance of characteristic genes in terms of functionality. The “c2. cp. kegg. v7.4. symbols. gmt”. The gene set from MSigDB was used as a reference set.<xref rid="cit0024" ref-type="bibr">24</xref>,<xref rid="cit0025" ref-type="bibr">25</xref> To obtain standardized enrichment scores for each analysis, a gene set arrangement was conducted once. FDR&lt;0.05 was considered to indicate significant enrichment.</p>
+      </sec>
+      <sec id="s0002-s2009">
+        <title>Building a ceRNA Network and Predicting Target Drugs</title>
+        <p>We used the multiMiR R package as a tool for predicting miRNA binding sites to estimate the miRNAs with which SD-DE-FCRGs may interact. We subsequently constructed a ceRNA network of mRNAs via the visualization function of Cytoscape 3.8.0. Finally, we used the DGIbd database (<underline><ext-link xlink:href="https://dgidb.org/" ext-link-type="uri">https://dgidb.org/</ext-link></underline>) to predict the target drugs of the SD-DE-FCRGs.<xref rid="cit0026" ref-type="bibr">26</xref></p>
+      </sec>
+      <sec id="s0002-s2010">
+        <title>Statistical Analysis</title>
+        <p>All the statistical analyses were conducted via R software (version 4.1.2). Receiver operating characteristic analysis was used to measure the extent to which the model predicted outcomes. Immune infiltrating cells were compared via the Wilcoxon test. Visualization was performed via the “ggplot2”, “pheatmap”, and “forestplot” packages. The Wilcoxon test was used to analyze the differences between the two groups. All the statistical tests conducted were bilateral, and values of p&lt;0.05 were considered statistically significant.</p>
+      </sec>
+    </sec>
+    <sec id="s0003">
+      <title>Results</title>
+      <sec id="s0003-s2001">
+        <title>Data Preprocessing and Identification of DEGs</title>
+        <p>The original SD dataset GSE98566 was collected from the GEO database and included 92 SD samples and 71 normal samples. We used a filter with a |log2-fold change (FC)| &gt; 0.3 and a p value &lt; 0.05 in the analysis process of the SD dataset GSE98566. A total of 156 DEGs were identified in this analysis, including 138 highly expressed up-regulated genes (CA1, CLEC12A, CLEC1B, etc). and 18 highly expressed down-regulated genes (DEFA1B, DEFA4, EIF1AY, etc)., as shown in <xref rid="f0002" ref-type="fig">Figure 2A</xref>. The visualization of the DEGs in the form of volcano maps and heatmaps is shown in <xref rid="f0002" ref-type="fig">Figure 2B</xref>. These 728 FRGs were downloaded from the FerrDb database (<underline><ext-link xlink:href="http://www.zhounan.org/" ext-link-type="uri">http://www.zhounan.org/</ext-link></underline> ferrdb/) and retrieved from previous publications. These 13 CRGs were obtained from the literature and materials databases. A differential expression box diagram of the ferroptosis scores and cuproptosis scores in the SD group and normal group is shown in <xref rid="f0002" ref-type="fig">Figure 2C</xref>.<fig position="float" id="f0002" fig-type="figure"><label>Figure 2</label><caption><p>The Identification of SD-DEGs and DE-FCRGs. (<bold>A</bold>) Volcano plot of SD-DEGs. Note: The red dots indicate 138 highly expressed up-regulated genes (CA1, CLEC12A, CLEC1B, etc.), the gray dots indicate no significance expression of differential genes, and the blue dots indicate 18 highly expressed down-regulated genes (DEFA1B, DEFA4, EIF1AY, etc). (<bold>B</bold>) Clustered heatmap of SD-related FCRGs expression levels. (<bold>C</bold>) Box diagram of the DE-FCRGs scores in the SD group and normal group.</p></caption><graphic xlink:href="NSS-16-1497-g0003" content-type="print-only" position="float"/></fig></p>
+      </sec>
+      <sec id="s0003-s2002">
+        <title>The Construction of WGCNA</title>
+        <p>A coexpression network of all genes in the dataset was constructed via the WGCNA-R package, and hierarchical clustering was performed (<xref rid="f0003" ref-type="fig">Figure 3A</xref>), with a soft threshold set to 7 (<xref rid="f0003" ref-type="fig">Figure 3B</xref>). The weighted adjacency matrix was transformed into a TOM to estimate the network connectivity, and the hierarchical clustering method was used to construct the clustering tree structure of the TOM matrix (<xref rid="f0003" ref-type="fig">Figure 3C</xref>). The different branches of the clustering tree represent different gene modules, and different colors represent different modules. On the basis of the weighted correlation coefficient of genes, genes are classified according to their expression pattern, and genes with similar patterns are classified into one module. Genes are divided into multiple modules through their gene expression patterns. The associations among the six modules evaluated revealed that brown modules were most closely associated with ferroptosis and cuproptosis and contained 1069 genes (<xref rid="f0003" ref-type="fig">Figure 3D</xref> and <xref rid="f0003" ref-type="fig">E</xref>). The Venn online tool was used to identify five SD-DE-FCRGs (IKZF1, JCHAIN, MGST3, UQCR11, and XCL1) from the intersection of the SD-DEGs and key module genes identified via WGCNA (<xref rid="f0003" ref-type="fig">Figure 3F</xref>).<fig position="float" id="f0003" fig-type="figure"><label>Figure 3</label><caption><p>The construction of the WGCNA graph. (<bold>A</bold>) Dendrogram and trait heatmap formed by hierarchical clustering of samples. (<bold>B</bold>) Building a gene relationship network. (<bold>C</bold>) Constructing gene modules through hierarchical clustering. (<bold>D</bold>) DE-FCRG quantification module feature association. (<bold>E</bold>) Identification of the brown module as most relevant to DE-FCRGs. (<bold>F</bold>) Intersection of SD-DEGs and WGCNA key module genes (SD-DE-FCRGs).</p></caption><graphic xlink:href="NSS-16-1497-g0004" content-type="print-only" position="float"/></fig></p>
+      </sec>
+      <sec id="s0003-s2003">
+        <title>GO and KEGG Enrichment Pathway Analysis</title>
+        <p>We investigated the main functions of the SD-DE-FCRGs through GO and KEGG enrichment pathway analyses. GO enrichment analysis included BP, CC, and MF, where BP included mRNA processing, histone modification, RNA splicing, RNA splicing, transesterification reactions with bulged adenosine as the nucleophile, mRNA splicing via the spliceosome, RNA splicing via transesterification reactions, regulation of mRNA metabolic processes, Golgi vesicle transport, regulation of DNA metabolic processes, cytosolic transport, etc. Moreover, we also demonstrated CC enrichment of ribosomes, ribosomal subunits, mitochondrial protein-containing complexes, spliceosomal complexes, respirasomes, mitochondrial respirasomes, catalytic step 2 spliceosomes, U2-type spliceosomal complexes, cytosolic ribosomes, and large ribosomal subunits. The MF terms included structural constituent of ribosome, transcription coregulator activity, oxidoreduction-driven active transmembrane transporter activity, RNA polymerase II-specific DNA-binding transcription factor binding, DNA-binding transcription factor binding, histone binding, transcription coactivator activity, primary active transmembrane transporter activity, electron transfer activity, and NADH dehydrogenase (ubiquinone) activity (<xref rid="f0004" ref-type="fig">Figure 4A</xref> and <xref rid="f0004" ref-type="fig">B</xref>). According to the KEGG analysis, the DEGs were enriched in signaling pathways such as amyotrophic lateral sclerosis, pathways related to neurodegeneration-multiple diseases, Huntington’s disease, Alzheimer’s disease, Parkinson’s disease, thermogenesis, prion disease, ribosomes, chemical carcinogenesis-reactive oxygen species, and spliceosomes (<xref rid="f0004" ref-type="fig">Figure 4C</xref> and <xref rid="f0004" ref-type="fig">D</xref>).<fig position="float" id="f0004" fig-type="figure"><label>Figure 4</label><caption><p>The GO and KEGG analysis of SD-DE-FCRGs. (<bold>A</bold> and <bold>B</bold>) The most enriched GO analysis terms, including BP, CC, and MF. (<bold>C</bold> and <bold>D</bold>) Enriched terms in the KEGG pathway analysis.</p></caption><graphic xlink:href="NSS-16-1497-g0005" content-type="print-only" position="float"/></fig></p>
+      </sec>
+      <sec id="s0003-s2004">
+        <title>Selection of Feature Genes in Machine Learning</title>
+        <p>As a technical means of implementing artificial intelligence (AI), machine learning can automatically analyze existing data to obtain rules or models and use guidelines to predict unknown data. Using the LASSO regression algorithm, five genes (IKZF1, JCHAIN, MGST3, UQCR11, XCL1) extracted from SD and DE-FCRGs were identified as potential diagnostic biomarkers (<xref rid="f0005" ref-type="fig">Figure 5A</xref> and <xref rid="f0005" ref-type="fig">B</xref>). The RF algorithm identified 5 genes with diagnostic value (<xref rid="f0005" ref-type="fig">Figure 5C</xref> and <xref rid="f0005" ref-type="fig">D</xref>). Through the SVM-REF algorithm, five genes extracted from these potential targets were used as candidate biomarkers (<xref rid="f0005" ref-type="fig">Figure 5E</xref> and <xref rid="f0005" ref-type="fig">F</xref>). The characteristic gene Wayne maps obtained from the three algorithms were subsequently overlaid to obtain four diagnostic biomarkers, IKZF1, JCHAIN, MGST3, and UQCR11 (<xref rid="f0005" ref-type="fig">Figure 5G</xref>).<fig position="float" id="f0005" fig-type="figure"><label>Figure 5</label><caption><p>Three machine learning algorithms for screening SD-DE-FCRGs characteristic genes. LASSO algorithm for screening candidate genes. LASSO coefficient profiles, (<bold>C-D</bold>) Construction of the random forest model, (<bold>E</bold> and <bold>F</bold>) SVM-RFE algorithm. Notes: The vertical axis in the figure represents the size of the error, whereas the horizontal axis represents the number of genes.(<bold>G</bold>) The Wayne map of SD-DE-FCRGs was obtained via the intersection of the LASSO, SVM-RFE and RF algorithms.</p></caption><graphic xlink:href="NSS-16-1497-g0006" content-type="print-only" position="float"/></fig></p>
+      </sec>
+      <sec id="s0003-s2005">
+        <title>ROC Curve</title>
+        <p>The area under the ROC curve is called the AUC and is currently considered the standard method for evaluating the accuracy of predictive distribution models. The receiver operating characteristic curves of the four disease characteristic genes obtained from machine learning methods were drawn, and the AUC values of the four disease characteristic genes were greater than 0.5. Finally, the AUC value of the detection model was 0.793, indicating that IKZF1, JCHAIN, MGST3, and UQCR11 were SD characteristic genes with a certain accuracy, as shown in <xref rid="f0006" ref-type="fig">Figure 6A–D</xref>.<fig position="float" id="f0006" fig-type="figure"><label>Figure 6</label><caption><p>The receiver operating characteristic curves of four SD-DE-FCRGs. (<bold>A</bold>) Nomogram for predicting SD risk on the basis of signature genes. (<bold>B</bold>) Decision curve showing the clinical value of the nomogram. (<bold>C</bold>) Time ROC curve of the SD-DE-FCRGs risk score. (<bold>D</bold>) ROC curve for the validation set.</p></caption><graphic xlink:href="NSS-16-1497-g0007" content-type="print-only" position="float"/></fig></p>
+      </sec>
+      <sec id="s0003-s2006">
+        <title>Evaluation of Immune Cell Infiltration</title>
+        <p>To further confirm the correlation between the expression of SD-DE-FCRGs and 24 types of immune cells, the CIBERSORT algorithm was used to analyze the proportion of infiltrating immune cells, and a map of 24 immune cells in the SD sample was drawn (<xref rid="f0007" ref-type="fig">Figure 7A</xref>).<fig position="float" id="f0007" fig-type="figure"><label>Figure 7</label><caption><p>Correlations between key SD-DE-FCRGs and immune cells. (<bold>A</bold>) Box plot of the scores and estimated proportions of different immune cell infiltrates in SD patients. (<bold>B</bold>) Correlations between the hub genes and immune cells. (<bold>C</bold>–<bold>F</bold>) Correlations between IKZF1, JCHAIN, MGST3, and UQCR11 genes and immune cells. Notes: The red, yellow and green dots indicate P&lt;0.05, and gray dots indicate P≥0.05. (<bold>G</bold>) Correlations between two sets of risk scores and 24 different immune cell subtypes in patients with SD.</p></caption><graphic xlink:href="NSS-16-1497-g0008" content-type="print-only" position="float"/></fig></p>
+        <p>Correlation analysis between four types of SD-DE-FCRGs (IKZF1, JCHAIN, MGST3, and UQCR11) and 24 immune cells revealed that the majority of immune cells were significantly correlated with SD-DE-FCRGs (<xref rid="f0007" ref-type="fig">Figure 7B</xref>). IKZF1 expression was positively correlated with T helper cells, TILs, and MHC class I. Neutrophils, CD8+ T cells, and inflammation-promoting macrophages were positively correlated; IKZF1 expression was negatively correlated with NK cells, the type II IFN response, T-cell coinhibition, and pDCs (<xref rid="f0007" ref-type="fig">Figure 7C</xref>). JCHAI expression was positively correlated with APC cosimulation, cytological activity, the type II IFN response, and Th1 cells. JCHAI expression and neutrophil, T helper cell, HLA, and CD8+ T cell, macrophage, and type I IFN responses were negatively correlated (<xref rid="f0007" ref-type="fig">Figure 7D</xref>). MGST3 expression was positively correlated with type II IFN response, NK cells, cytosolic activity, Th1 cells, T-cell coinhibition, APC cosimulation, checkpoints, pDCs, T-cell cosimulation, and Th2 cells. MGST3 expression and neutrophil, T helper cell, macrophage, Treg, HLA, and TIL counts were negatively correlated (<xref rid="f0007" ref-type="fig">Figure 7E</xref>). UQCR11 expression was positively correlated with NK cells, the type II IFN response, APC cosimulation, T-cell coinhibition, parainflammation, and the type I IFN response. UQCR11 expression was negatively correlated with T helper cells, neutrophils, TILs, macrophages, inflammation-promoting cells, MHC class I cells, CD8+ T cells, CCRs, HLA cells, and B cells (<xref rid="f0007" ref-type="fig">Figure 7F</xref>).</p>
+        <p>The correlations among the 24 immune cell scores were analyzed on the basis of the expression levels of IKZF1, JCHAIN, MGST3, and UQCR11. Different immune cells, especially NK cells, Th1 cells, APC Co simulations, B cells, checkpoints, T-cell Co simulations, macrophages, CCRs, type II IFN responses, TILs, T helper cells, and MHC class I cells, exhibited different effects in the two groups (<xref rid="f0007" ref-type="fig">Figure 7G</xref>). These results further support that the levels of IKZF1, JCHAIN, MGST3, and UQCR11 may affect the immune activity of immune cells.</p>
+      </sec>
+      <sec id="s0003-s2007">
+        <title>Unsupervised Clustering of SD-DE-FCRGs</title>
+        <p>A consensus matrix graph, consensus CDF graph, relative change in the area under the CDF curve, and tracking graph were used to find the optimal number of clusters (<xref rid="f0008" ref-type="fig">Figure 8A–C</xref>). PCA was conducted, indicating a good degree of clustering between the SD and normal groups (<xref rid="f0008" ref-type="fig">Figure 8D</xref>). The Wilcoxon test was used to determine the differences in the expression of immune-related genes between the two subtypes of SD (<xref rid="f0008" ref-type="fig">Figure 8E</xref>).<fig position="float" id="f0008" fig-type="figure"><label>Figure 8</label><caption><p>Construction of two ferroptosis–cuproptosis subtypes in SD. (<bold>A</bold>) Consensus clustering matrix when k=2. (<bold>B</bold> and <bold>C</bold>) Relative alterations in the area under the CDF curve. (<bold>D</bold>) PCA plot showing the distribution of the two subclusters. (<bold>E</bold>) Box plot showing the differential expression of SD-DE-FCRGs between subtypes.</p></caption><graphic xlink:href="NSS-16-1497-g0009" content-type="print-only" position="float"/></fig></p>
+      </sec>
+      <sec id="s0003-s2008">
+        <title>GSVA and GSEA Functional Enrichment</title>
+        <p>The R package GSVA was used for enrichment analysis. The significantly enriched pathways and biological functions of group A and group B in the SD patients were associated mainly with oxidative phosphorylation, melanogenesis, various metabolic and degenerative diseases and other signaling pathways, revealing a possible molecular mechanism underlying the difference between the two groups of SD patients (<xref rid="f0009" ref-type="fig">Figure 9A</xref>).<fig position="float" id="f0009" fig-type="figure"><label>Figure 9</label><caption><p>The GSVA and GSEA functional enrichment. (<bold>A</bold>) GSVA KEGG enrichment; (<bold>B</bold>) GSEA map of the IKZF1 gene; (<bold>C</bold>) GSEA map of the JCHAIN gene; (<bold>D</bold>) GSEA map of the MGST3 gene; (<bold>E</bold>) GSEA map of the UQCR11 gene.</p></caption><graphic xlink:href="NSS-16-1497-g0010" content-type="print-only" position="float"/><attrib><bold>Notes</bold>: The upper half of the graph represents the score of each gene in pathway enrichment, the lower half represents the RANK value expression of each gene, the left half represents high expression, and the right half represents low expression.</attrib></fig></p>
+        <p>Single-gene enrichment analysis revealed that the influence of four key molecules on SD involves multiple signaling pathways, such as IKZF1, JCHAIN, MGST3, and UQCR11, and the activation of related signaling pathways, such as oxidative phosphorylation, ribosome, porphyrin and chlorophyll metabolism, and neural degenerative disease, with a significant correlation (<xref rid="f0009" ref-type="fig">Figure 9B–E</xref>).</p>
+      </sec>
+      <sec id="s0003-s2009">
+        <title>Building the ceRNA Network and Predicting Drugs</title>
+        <p>We found that four characteristic genes were associated with 29 miRNAs by constructing a ceRNA network of mRNAs. The red hexagons in the figure represent SD-DE-FCRGs; the green ovals represent the miRNA map (<xref rid="f0010" ref-type="fig">Figure 10A</xref> and <xref rid="f0010" ref-type="fig">B</xref>). Moreover, important targets, such as lenalidomide, for IKZF1 gene drugs were predicted (<xref rid="f0010" ref-type="fig">Figure 10C</xref> and <xref rid="f0010" ref-type="fig">D</xref>).<fig position="float" id="f0010" fig-type="figure"><label>Figure 10</label><caption><p>Building the ceRNA network and predicting drugs of four SD-DE-FCRGs. (<bold>A</bold>) SD-DE-FCRGs predict miRNAs. (<bold>B</bold>) CeRNA network map of SD-DE-FCRGs. Notes: The circles represent SD-DE-FCRGs; the blue diamonds represent lncRNAs. (<bold>C</bold>) Drug targets for predicting SD-DE-FCRGs. (<bold>D</bold>) Prediction of targets for IKZF1 gene drugs.</p></caption><graphic xlink:href="NSS-16-1497-g0011" content-type="print-only" position="float"/></fig></p>
+      </sec>
+    </sec>
+    <sec id="s0004">
+      <title>Discussion</title>
+      <p>It is generally believed that SD specifically refers to a decrease in sleep time and frequent staying up late for various subjective reasons. Owing to changes in modern lifestyles, overall sleep time in society has sharply decreased, resulting in SD affecting the work efficiency and quality of life of millions of people worldwide and gradually leading to affective disorders such as mental and psychological disorders.<xref rid="cit0027" ref-type="bibr">27</xref> The widespread application of bioinformatics analysis and high-throughput sequencing technology, as well as the gradual maturity of machine learning in bioinformatics applications, provides important artificial intelligence methods and means for further data mining of potential mechanisms, biomarkers, and therapeutic targets of various diseases.<xref rid="cit0028" ref-type="bibr">28</xref> Scientists such as Yin Yen Lee have integrated multiple whole-genome datasets and applied machine learning to identify genes and pathways related to sleep regulation.<xref rid="cit0029" ref-type="bibr">29</xref></p>
+      <p>In recent years, ferroptosis and cuproptosis<xref rid="cit0015" ref-type="bibr">15</xref> have been confirmed to be highly correlated with diseases and iron- or copper-dependent programmed new cell death pathways and have been found to affect the occurrence and development of many diseases, such as nervous system diseases and tumors.<xref rid="cit0015" ref-type="bibr">15</xref>,<xref rid="cit0030" ref-type="bibr">30</xref>,<xref rid="cit0031" ref-type="bibr">31</xref> Research has shown<xref rid="cit0032" ref-type="bibr">32</xref> that the disruption of iron homeostasis or even ferroptosis in the brain can significantly damage the oxidative metabolism of neurons, exerting significant effects on synaptic plasticity, myelin formation, neurotransmitter synthesis, and energy metabolism.<xref rid="cit0033" ref-type="bibr">33</xref> Research has suggested that copper can bind to various proteins or enzymes and participate in regulating multiple physiological processes, such as energy metabolism, mitochondrial respiration, and antioxidant activity.<xref rid="cit0012" ref-type="bibr">12</xref>,<xref rid="cit0034" ref-type="bibr">34</xref> These effects are all related to the disruption of the physiological mechanisms of neurological diseases.</p>
+      <p>However, as ferroptosis is a common manifestation of clinical neurological diseases, there have been no reports on the mechanism of ferroptosis combined with cuproptosis in SD. Therefore, the purpose of this study was to explore biomarkers related to SD and ferroptosis and further analyze their relationships with immune cell infiltration, signaling pathways, drug sensitivity, etc., providing new directions for clinical research on SD.</p>
+      <p>In this study, we identified 155 DEGs between the SD and control groups on the basis of the GSE98566 dataset. WGCNA of the intersection of FCRGs and SD-DEGs yielded 5 SD-DE-FCRGs. The GO and KEGG enrichment analyses involved mainly ribosome regulation, mitochondrial pathways, oxidative phosphorylation, and neurodegenerative diseases. We applied three types of machine learning to ultimately obtain four feature genes (IKZF1, JCHAIN, MGST3, and UQCR11) as potential biomarkers for SD diagnosis and validated them via receiver operating characteristic (ROC) analysis. Importantly, immune infiltration analysis revealed that the majority of immune cells were high in SD patients and that their hub genes were correlated with most immune cells. There were significant differences in the expression of 12 immune cell types and in the expression of four characteristic immune-related genes between the two subtypes. IKZF1 was upregulated in T helper cells and downregulated in NK cells. JCHAIN was upregulated in APC costimulation and downregulated in neutrophils. MGST3 was upregulated in type II IFN response and NK cells and downregulated in T helper cells. UQCR11 was upregulated in NK cells and the type II IFN response and downregulated in T helper cells and neutrophils. GSEA revealed that IKZF1, JCHAIN, MGST3, and UQCR11 were related to the activation of oxidative phosphorylation, ribosomes, porphyrin and chlorophyll metabolism, neurodegenerative diseases, and other related signaling pathways, and there were significant correlations. We found that 4 characteristic genes were associated with 29 miRNAs by constructing a ceRNA network of mRNAs. We predicted important targets of IKZF1 gene drugs, such as lenalidomide, and conducted correlation analysis. These results indicate that IKZF1 is highly correlated with genes involved in the MAPK signaling pathway, cytotoxic particle movement and exocytosis, and NK cell activation. In addition, GSEA and KEGG analysis revealed that the DE-FCRGs between low- and high-IKZF1-expressing samples in GSE59867 are closely related to the immune response and NK cell-mediated inflammatory regulation. These findings suggest that the biological function of IKZF1 in DE FCRGs may be related to the immune response related to SD and is especially closely related to the immune response of NK cells.</p>
+      <p>IKZF1 belongs to the zinc finger DNA-binding protein family of transcription factors, is involved in multiple signaling pathways and regulatory mechanisms and is particularly crucial for immune cell development and homeostasis.<xref rid="cit0035" ref-type="bibr">35</xref> IKZF1 is involved in the direct regulation of the expression of IL-2, a key and differentially regulated factor in many T-cell gene programs in T cells.<xref rid="cit0036" ref-type="bibr">36</xref>,<xref rid="cit0037" ref-type="bibr">37</xref> B lymphoid transcription factors such as IKZF1 are crucial for early B-cell development.<xref rid="cit0038" ref-type="bibr">38</xref> Research has shown that IKZF1 forces chronic energy deprivation, leading to constitutive activation of the energy pressure sensor AMPK, whereas the dominant negative mutant of IKZF1 alleviates glucose and energy limitations.<xref rid="cit0039" ref-type="bibr">39</xref> SD affects the body’s energy metabolism. PET studies have shown that, as the main user of glucose, the brain glucose utilization rate seems to decrease after SD.<xref rid="cit0040" ref-type="bibr">40</xref> In addition, IKZF1/3 regulates a positive feedback loop involving interferon regulatory factor 4 (IRF4) and c-Myc, thereby maintaining the abnormal proliferation of MM cells.</p>
+      <p>The JCHAIN gene is expressed to synthesize J-chain immunoglobulin (j-chain), a cysteine-rich peptide chain synthesized by plasma cells, and is a B-cell immune response-related gene. The main function of the j-chain is to connect multiple Ig monomers into polymers.<xref rid="cit0041" ref-type="bibr">41</xref> The JCHAIN gene is expressed during the differentiation stage of B lymphocytes and is a marker or prognostic factor for many diseases. The MGMT3 gene is an important enzyme-coding gene in the human genome that has important biological functions in cells.<xref rid="cit0042" ref-type="bibr">42</xref> The MGST3 enzymes belong to the glutathione S-transferase family and have antioxidant effects. They protect cells from oxidative stress by reacting with glutathione and lipid peroxides. Research has shown that the antioxidant effect of the MGST3 enzyme is crucial for cell survival and functional maintenance, is closely related to the occurrence and development of various diseases, and has important value in personalized drug therapy. Research has shown that MGST3 can regulate the size of the hippocampus in the mammalian brain, which is associated with specific genes related to neurological diseases.<xref rid="cit0043" ref-type="bibr">43</xref> The UQCR11 gene encodes the smallest known component of the ubiquinone cytochrome c reductase complex that can form a part of the mitochondrial respiratory chain.<xref rid="cit0044" ref-type="bibr">44</xref> This gene is needed for energy metabolism in the oxidative phosphorylation process and is also the main source of ROS, which are closely related to mitochondrial energy metabolism.<xref rid="cit0045" ref-type="bibr">45–47</xref> Research has shown that UQCR11 plays a role in the biological process of mitochondrial dysfunction in neurological diseases.<xref rid="cit0048" ref-type="bibr">48</xref></p>
+      <p>Lenalidomide, an analog of the immune regulatory drug thalidomide<xref rid="cit0049" ref-type="bibr">49</xref>, has various cellular effects, such as immune regulation and antiangiogenic, anti-inflammatory, and antiproliferation effects.<xref rid="cit0050" ref-type="bibr">50</xref> In this study, we found through the DGIbd database that the IKZF1 gene is an important target for lenalidomide. Research has shown that lenalidomide has a protective effect on many inflammation-related diseases. Lenalidomide increases the ubiquitination of the Ikaros family zinc finger transcription factor IKZF and its members and specifically reduces protein levels.<xref rid="cit0051" ref-type="bibr">51</xref> Lenalidomide was previously considered a “magical drug” that can provide safe and good sleep.<xref rid="cit0052" ref-type="bibr">52</xref> Currently, lenalidomide, a new type of immunoregulatory and anti-inflammatory drug, is expected to be helpful for people with related diseases and sleep disorders caused by immune inflammation.<xref rid="cit0053" ref-type="bibr">53</xref></p>
+      <p>Our study has increased the understanding of bioinformatics and machine learning related to ferroptosis combined with necroptosis during SD. However, this study has certain limitations. First, the proposed machine learning model was constructed and validated via a public database with a single source, and additional prospective real-world data are needed to confirm its clinical significance. Second, the regulatory mechanism of FCRGs and their functions in SD immune infiltration are not yet clear, and more in vitro and in vivo experiments are needed to assist in verification. Finally, further research is needed to confirm the accuracy and stability of the machine learning model and determine whether it can be used to predict the feasibility and safety of SD treatment drugs in clinical practice.</p>
+    </sec>
+    <sec id="s0005">
+      <title>Conclusion</title>
+      <p>In summary, we first used bioinformatics and three machine learning methods to screen four feature genes related to SD-DE-FCRGs (IKZF1, JCHAIN, MGST3, and UQCR11) and found that they may affect the involvement of infiltrating immune cells in the pathogenesis of SD by regulating FCRGs. We predicted that lenalidomide may be a target of the core feature gene IKZF1 of SD-DE-FCRGs. However, this study still has certain limitations, and the dataset used was relatively small. In the future, in vitro and in vivo experiments are needed to verify the regulatory mechanism of SD-DE-FCRGs, predict drug safety, etc., to further clarify their pathogenesis and provide a reference for subsequent SD experimental research.</p>
+    </sec>
+  </body>
+  <back>
+    <ack>
+      <title>Acknowledgments</title>
+      <p>We are grateful to the China Postdoctoral Science Foundation, the National Natural Science Foundation of China and the special plan for the cultivation and improvement of TCM service capabilities.</p>
+    </ack>
+    <sec id="s0006">
+      <title>Data Share Statement</title>
+      <p>Both the SD-related database and the aggregated analysis data in this study are available for public download by qualified researchers. The SD dataset GSE98566 (annotation platform: GPL6244) was obtained from the GEO database (<underline><ext-link xlink:href="https://www.ncbi.nlm.nih.gov/GEO/" ext-link-type="uri">https://www.ncbi.nlm.nih.gov/GEO/</ext-link></underline>). The FRGs were obtained from the FerrDb database (<underline><ext-link xlink:href="http://www.zhounan.org/ferrdb/" ext-link-type="uri">http://www.zhounan.org/ferrdb/</ext-link></underline>). Data from the current study can be obtained from the corresponding author (Shaodan Li, Email: <email xlink:href="mailto:lsd301@126.com">lsd301@126.com</email>) upon reasonable request.</p>
+    </sec>
+    <sec id="s0007">
+      <title>Ethics Approval and Consent to Participate</title>
+      <p>The present study was conducted in strict accordance with the Declaration of Helsinki and its later amendments or comparable ethical standards. Our research project was approved by the Medical Ethics Committee of Chinese PLA General Hospital.</p>
+    </sec>
+    <sec id="s0008">
+      <title>Author Contributions</title>
+      <p>All authors made a significant contribution to the work reported, whether in the conception, study design, execution, acquisition of data, analysis and interpretation, or in all these areas; took part in drafting, revising or critically reviewing the article; gave final approval of the version to be published; agreed on the journal to which the article has been submitted; and agreed to be accountable for all aspects of the work.</p>
+    </sec>
+    <sec sec-type="COI-statement" id="s0009">
+      <title>Disclosure</title>
+      <p>The authors report no conflicts of interest in this work.</p>
+    </sec>
+    <ref-list>
+      <title>References</title>
+      <ref id="cit0001">
+        <label>1.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Li</surname>
+<given-names>Z-H</given-names></string-name>, <string-name><surname>Cheng</surname>
+<given-names>L</given-names></string-name>, <string-name><surname>Wen</surname>
+<given-names>C</given-names></string-name>, et al. <article-title>Activation of CNR1/PI3K/AKT pathway by tanshinone IIA protects hippocampal neurons and ameliorates sleep deprivation-induced cognitive dysfunction in rats</article-title>. <source><italic toggle="yes">Front Pharmacol</italic></source>. <year>2022</year>;<volume>13</volume>:<fpage>823732</fpage>. doi:<pub-id pub-id-type="doi">10.3389/fphar.2022.823732</pub-id><pub-id pub-id-type="pmid">35295327</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0002">
+        <label>2.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Svensson</surname>
+<given-names>T</given-names></string-name>, <string-name><surname>Saito</surname>
+<given-names>E</given-names></string-name>, <string-name><surname>Svensson</surname>
+<given-names>AK</given-names></string-name>, et al. <article-title>Association of sleep duration with all- and major-cause mortality among adults in Japan, China, Singapore, and Korea</article-title>. <source><italic toggle="yes">JAMA Network Open</italic></source>. <year>2021</year>;<volume>4</volume>(<issue>9</issue>):<fpage>e2122837</fpage>. doi:<pub-id pub-id-type="doi">10.1001/jamanetworkopen.2021.22837</pub-id><pub-id pub-id-type="pmid">34477853</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0003">
+        <label>3.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Sabia</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Dugravot</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Léger</surname>
+<given-names>D</given-names></string-name>, et al. <article-title>Association of sleep duration at age 50, 60, and 70 years with risk of multimorbidity in the UK: 25-year follow-up of the Whitehall II cohort study</article-title>. <source><italic toggle="yes">PLoS Med</italic></source>. <year>2022</year>;<volume>19</volume>(<issue>10</issue>):<fpage>e1004109</fpage>. doi:<pub-id pub-id-type="doi">10.1371/journal.pmed.1004109</pub-id><pub-id pub-id-type="pmid">36256607</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0004">
+        <label>4.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Chen</surname>
+<given-names>X</given-names></string-name>, <string-name><surname>Li</surname>
+<given-names>Q</given-names></string-name>, <string-name><surname>Zhang</surname>
+<given-names>Z</given-names></string-name>, et al. <article-title>Identification of potential diagnostic biomarkers from circulating cells during the course of sleep deprivation-related myocardial infarction based on bioinformatics analyses</article-title>. <source><italic toggle="yes">Front Cardiovasc Med</italic></source>. <year>2022</year>;<volume>9</volume>:<fpage>843426</fpage>. doi:<pub-id pub-id-type="doi">10.3389/fcvm.2022.843426</pub-id><pub-id pub-id-type="pmid">35369343</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0005">
+        <label>5.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Sofer</surname>
+<given-names>T</given-names></string-name>, <string-name><surname>Kurniansyah</surname>
+<given-names>N</given-names></string-name>, <string-name><surname>Murray</surname>
+<given-names>M</given-names></string-name>, et al. <article-title>Genome-wide association study of obstructive sleep apnea in the Million Veteran Program uncovers genetic heterogeneity by sex</article-title>. <source><italic toggle="yes">EBioMedicine</italic></source>. <year>2023</year>;<volume>90</volume>:<fpage>104536</fpage>. doi:<pub-id pub-id-type="doi">10.1016/j.ebiom.2023.104536</pub-id><pub-id pub-id-type="pmid">36989840</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0006">
+        <label>6.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Pandi-Perumal</surname>
+<given-names>SR</given-names></string-name>, <string-name><surname>Saravanan</surname>
+<given-names>KM</given-names></string-name>, <string-name><surname>Paul</surname>
+<given-names>S</given-names></string-name>, et al. <article-title>Waking up the sleep field: an overview on the implications of genetics and bioinformatics of sleep</article-title>. <source><italic toggle="yes">Mol Biotechnol</italic></source>. <year>2024</year>;<volume>66</volume>(<issue>5</issue>):<fpage>919</fpage>–<lpage>931</lpage>. doi:<pub-id pub-id-type="doi">10.1007/s12033-023-01009-1</pub-id><pub-id pub-id-type="pmid">38198051</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0007">
+        <label>7.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Stockwell</surname>
+<given-names>BR</given-names></string-name>. <article-title>A powerful cell-protection system prevents cell death by ferroptosis</article-title>. <source><italic toggle="yes">Nature</italic></source>. <year>2019</year>;<volume>575</volume>(<issue>7784</issue>):<fpage>597</fpage>–<lpage>598</lpage>. doi:<pub-id pub-id-type="doi">10.1038/d41586-019-03145-8</pub-id><pub-id pub-id-type="pmid">31768036</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0008">
+        <label>8.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Kahlson</surname>
+<given-names>MA</given-names></string-name>, <string-name><surname>Dixon</surname>
+<given-names>SJ</given-names></string-name>. <article-title>Copper-induced cell death</article-title>. <source><italic toggle="yes">Science</italic></source>. <year>2022</year>;<volume>375</volume>(<issue>6586</issue>):<fpage>1231</fpage>–<lpage>1232</lpage>. doi:<pub-id pub-id-type="doi">10.1126/science.abo3959</pub-id><pub-id pub-id-type="pmid">35298241</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0009">
+        <label>9.</label>
+        <mixed-citation publication-type="book"><string-name><surname>Fuding</surname>
+<given-names>W</given-names></string-name>. <source><italic toggle="yes">FerroptosisM</italic></source>. <publisher-loc>Beijing</publisher-loc>: <publisher-name>Science Press</publisher-name>; <year>2022</year>.</mixed-citation>
+      </ref>
+      <ref id="cit0010">
+        <label>10.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Chen</surname>
+<given-names>N</given-names></string-name>, <string-name><surname>Guo</surname>
+<given-names>L</given-names></string-name>, <string-name><surname>Wang</surname>
+<given-names>L</given-names></string-name>, et al. <article-title>Sleep fragmentation exacerbates myocardial ischemia‒reperfusion injury by promoting copper overload in cardiomyocytes</article-title>. <source><italic toggle="yes">Nat Commun</italic></source>. <year>2024</year>;<volume>15</volume>(<issue>1</issue>):<fpage>3834</fpage>. doi:<pub-id pub-id-type="doi">10.1038/s41467-024-48227-y</pub-id><pub-id pub-id-type="pmid">38714741</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0011">
+        <label>11.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Yuan</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Wang</surname>
+<given-names>F</given-names></string-name>, <string-name><surname>Sun</surname>
+<given-names>T</given-names></string-name>, et al. <article-title>Vitamin B6 alleviates chronic sleep deprivation-induced hippocampal ferroptosis through CBS/GSH/GPX4 pathway</article-title>. <source><italic toggle="yes">Biomed Pharmacother</italic></source>. <year>2024</year>;<volume>174</volume>:<fpage>116547</fpage>. doi:<pub-id pub-id-type="doi">10.1016/j.biopha.2024.116547</pub-id><pub-id pub-id-type="pmid">38599059</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0012">
+        <label>12.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Chen</surname>
+<given-names>L</given-names></string-name>, <string-name><surname>Min</surname>
+<given-names>J</given-names></string-name>, <string-name><surname>Wang</surname>
+<given-names>F</given-names></string-name>. <article-title>Copper homeostasis and cuproptosis in health and disease</article-title>. <source><italic toggle="yes">Signal Transduct Target Ther</italic></source>. <year>2022</year>;<volume>7</volume>(<issue>1</issue>):<fpage>378</fpage>. doi:<pub-id pub-id-type="doi">10.1038/s41392-022-01229-y</pub-id><pub-id pub-id-type="pmid">36414625</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0013">
+        <label>13.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Huang</surname>
+<given-names>J</given-names></string-name>, <string-name><surname>Xu</surname>
+<given-names>Z</given-names></string-name>, <string-name><surname>Yuan</surname>
+<given-names>Z</given-names></string-name>, et al. <article-title>Identification of a cuproptosis-related lncRNA signature to predict the prognosis and immune landscape of head and neck squamous cell carcinoma</article-title>. <source><italic toggle="yes">Front Oncol</italic></source>. <year>2022</year>;<volume>12</volume>:<fpage>983956</fpage>. doi:<pub-id pub-id-type="doi">10.3389/fonc.2022.983956</pub-id><pub-id pub-id-type="pmid">36568234</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0014">
+        <label>14.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Ren</surname>
+<given-names>X</given-names></string-name>, <string-name><surname>Pan</surname>
+<given-names>C</given-names></string-name>, <string-name><surname>Pan</surname>
+<given-names>Z</given-names></string-name>, et al. <article-title>Knowledge mapping of copper-induced cell death: a bibliometric study from 2012 to 2022</article-title>. <source><italic toggle="yes">Medicine (Baltimore)</italic></source>. <year>2022</year>;<volume>101</volume>(<issue>45</issue>):<fpage>e31133</fpage>. doi:<pub-id pub-id-type="doi">10.1097/MD.0000000000031133</pub-id><pub-id pub-id-type="pmid">36397452</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0015">
+        <label>15.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Tsvetkov</surname>
+<given-names>P</given-names></string-name>, <string-name><surname>Coy</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Petrova</surname>
+<given-names>B</given-names></string-name>, et al. <article-title>Copper induces cell death by targeting lipoylated TCA cycle proteins</article-title>. <source><italic toggle="yes">Science</italic></source>. <year>2022</year>;<volume>375</volume>(<issue>6586</issue>):<fpage>1254</fpage>–<lpage>1261</lpage>. doi:<pub-id pub-id-type="doi">10.1126/science.abf0529</pub-id><pub-id pub-id-type="pmid">35298263</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0016">
+        <label>16.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Wang</surname>
+<given-names>T</given-names></string-name>, <string-name><surname>Jiang</surname>
+<given-names>X</given-names></string-name>, <string-name><surname>Lu</surname>
+<given-names>Y</given-names></string-name>, et al. <article-title>Identification and integration analysis of a novel prognostic signature associated with cuproptosis-related ferroptosis genes and relevant lncRNA regulatory axis in lung adenocarcinoma</article-title>. <source><italic toggle="yes">Aging (Albany NY)</italic></source>. <year>2023</year>;<volume>15</volume>(<issue>5</issue>):<fpage>1543</fpage>–<lpage>1563</lpage>. doi:<pub-id pub-id-type="doi">10.18632/aging.204561</pub-id><pub-id pub-id-type="pmid">36881404</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0017">
+        <label>17.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Liu</surname>
+<given-names>Z</given-names></string-name>, <string-name><surname>Ma</surname>
+<given-names>H</given-names></string-name>, <string-name><surname>Lai</surname>
+<given-names>Z</given-names></string-name>. <article-title>The role of ferroptosis and cuproptosis in curcumin against hepatocellular carcinoma</article-title>. <source><italic toggle="yes">Molecules</italic></source>. <year>2023</year>;<volume>28</volume>(<issue>4</issue>):<fpage>1623</fpage>. doi:<pub-id pub-id-type="doi">10.3390/molecules28041623</pub-id><pub-id pub-id-type="pmid">36838613</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0018">
+        <label>18.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Huang</surname>
+<given-names>YY</given-names></string-name>, <string-name><surname>Bao</surname>
+<given-names>TY</given-names></string-name>, <string-name><surname>Huang</surname>
+<given-names>XQ</given-names></string-name>, et al. <article-title>Machine learning algorithm to construct cuproptosis- and immune-related prognosis prediction model for colon cancer</article-title>. <source><italic toggle="yes">World J Gastrointest Oncol</italic></source>. <year>2023</year>;<volume>15</volume>(<issue>3</issue>):<fpage>372</fpage>–<lpage>388</lpage>. doi:<pub-id pub-id-type="doi">10.4251/wjgo.v15.i3.372</pub-id><pub-id pub-id-type="pmid">37009317</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0019">
+        <label>19.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Liu</surname>
+<given-names>L</given-names></string-name>, <string-name><surname>Liang</surname>
+<given-names>L</given-names></string-name>, <string-name><surname>Yang</surname>
+<given-names>C</given-names></string-name>, et al. <article-title>Machine learning-based solution reveals cuproptosis features in inflammatory bowel disease</article-title>. <source><italic toggle="yes">Front Immunol</italic></source>. <year>2023</year>;<volume>14</volume>:<fpage>1136991</fpage>. doi:<pub-id pub-id-type="doi">10.3389/fimmu.2023.1136991</pub-id><pub-id pub-id-type="pmid">37275904</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0020">
+        <label>20.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Liu</surname>
+<given-names>R</given-names></string-name>, <string-name><surname>Liu</surname>
+<given-names>Y</given-names></string-name>, <string-name><surname>Zhang</surname>
+<given-names>F</given-names></string-name>, et al. <article-title>A cuproptosis random forest cox score model-based evaluation of prognosis, mutation characterization, immune infiltration, and drug sensitivity in hepatocellular carcinoma</article-title>. <source><italic toggle="yes">Front Immunol</italic></source>. <year>2023</year>;<volume>14</volume>:<fpage>1146411</fpage>. doi:<pub-id pub-id-type="doi">10.3389/fimmu.2023.1146411</pub-id><pub-id pub-id-type="pmid">37063920</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0021">
+        <label>21.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Zhang</surname>
+<given-names>H</given-names></string-name>, <string-name><surname>Nagai</surname>
+<given-names>J</given-names></string-name>, <string-name><surname>Hao</surname>
+<given-names>L</given-names></string-name>, et al. <article-title>Identification of key genes and immunological features associated with copper metabolism in parkinson’s disease by bioinformatics analysis</article-title>. <source><italic toggle="yes">Mol Neurobiol</italic></source>. <year>2023</year>;<volume>61</volume>(<issue>2</issue>):<fpage>799</fpage>–<lpage>811</lpage>. doi:<pub-id pub-id-type="doi">10.1007/s12035-023-03565-8</pub-id><pub-id pub-id-type="pmid">37659036</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0022">
+        <label>22.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Chen</surname>
+<given-names>H</given-names></string-name>, <string-name><surname>Zhang</surname>
+<given-names>J</given-names></string-name>, <string-name><surname>Sun</surname>
+<given-names>X</given-names></string-name>, et al. <article-title>Mitophagy-mediated molecular subtypes depict the hallmarks of the tumor metabolism and guide precision chemotherapy in pancreatic adenocarcinoma</article-title>. <source><italic toggle="yes">Front Cell Dev Biol</italic></source>. <year>2022</year>;<volume>10</volume>:<fpage>901207</fpage>. doi:<pub-id pub-id-type="doi">10.3389/fcell.2022.901207</pub-id><pub-id pub-id-type="pmid">35938160</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0023">
+        <label>23.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Ferreira</surname>
+<given-names>MR</given-names></string-name>, <string-name><surname>Santos</surname>
+<given-names>GA</given-names></string-name>, <string-name><surname>Biagi</surname>
+<given-names>CA</given-names></string-name>, et al. <article-title>GSVA score reveals molecular signatures from transcriptomes for biomaterials comparison</article-title>. <source><italic toggle="yes">J Biomed Mater Res A</italic></source>. <year>2021</year>;<volume>109</volume>(<issue>6</issue>):<fpage>1004</fpage>–<lpage>1014</lpage>. doi:<pub-id pub-id-type="doi">10.1002/jbm.a.37090</pub-id><pub-id pub-id-type="pmid">32820608</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0024">
+        <label>24.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Molendijk</surname>
+<given-names>J</given-names></string-name>, <string-name><surname>Yip</surname>
+<given-names>R</given-names></string-name>, <string-name><surname>Parker</surname>
+<given-names>BL</given-names></string-name>. <article-title>urPTMdb/TeaProt: upstream and downstream proteomics analysis</article-title>. <source><italic toggle="yes">J Proteome Res</italic></source>. <year>2023</year>;<volume>22</volume>(<issue>2</issue>):<fpage>302</fpage>–<lpage>310</lpage>. doi:<pub-id pub-id-type="doi">10.1021/acs.jproteome.2c00048</pub-id><pub-id pub-id-type="pmid">35759515</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0025">
+        <label>25.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Su</surname>
+<given-names>J</given-names></string-name>, <string-name><surname>Peng</surname>
+<given-names>J</given-names></string-name>, <string-name><surname>Wang</surname>
+<given-names>L</given-names></string-name>, et al. <article-title>Identification of endoplasmic reticulum stress-related biomarkers of diabetes nephropathy based on bioinformatics and machine learning</article-title>. <source><italic toggle="yes">Front Endocrinol (Lausanne)</italic></source>. <year>2023</year>;<volume>14</volume>:<fpage>1206154</fpage>. doi:<pub-id pub-id-type="doi">10.3389/fendo.2023.1206154</pub-id><pub-id pub-id-type="pmid">37745718</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0026">
+        <label>26.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>He</surname>
+<given-names>Y</given-names></string-name>, <string-name><surname>Zou</surname>
+<given-names>C</given-names></string-name>, <string-name><surname>Cai</surname>
+<given-names>Z</given-names></string-name>. <article-title>Construction and comprehensive analysis of the ceRNA network to reveal key genes for benign tracheal stenosis</article-title>. <source><italic toggle="yes">Front Genet</italic></source>. <year>2022</year>;<volume>13</volume>:<fpage>891741</fpage>. doi:<pub-id pub-id-type="doi">10.3389/fgene.2022.891741</pub-id><pub-id pub-id-type="pmid">35812753</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0027">
+        <label>27.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Troynikov</surname>
+<given-names>O</given-names></string-name>, <string-name><surname>Watson</surname>
+<given-names>CG</given-names></string-name>, <string-name><surname>Nawaz</surname>
+<given-names>N</given-names></string-name>. <article-title>Sleep environments and sleep physiology: a review</article-title>. <source><italic toggle="yes">J Therm Biol</italic></source>. <year>2018</year>;<volume>78</volume>:<fpage>192</fpage>–<lpage>203</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.jtherbio.2018.09.012</pub-id><pub-id pub-id-type="pmid">30509635</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0028">
+        <label>28.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Kumar</surname>
+<given-names>N</given-names></string-name>, <string-name><surname>Narayan Das</surname>
+<given-names>N</given-names></string-name>, <string-name><surname>Gupta</surname>
+<given-names>D</given-names></string-name>, et al. <article-title>Efficient automated disease diagnosis using machine learning models</article-title>. <source><italic toggle="yes">J Healthc Eng</italic></source>. <year>2021</year>;<volume>2021</volume>:<fpage>9983652</fpage>. doi:<pub-id pub-id-type="doi">10.1155/2021/9983652</pub-id><pub-id pub-id-type="pmid">34035886</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0029">
+        <label>29.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Lee</surname>
+<given-names>YY</given-names></string-name>, <string-name><surname>Endale</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Wu</surname>
+<given-names>G</given-names></string-name>, et al. <article-title>Integration of genome-scale data identifies candidate sleep regulators</article-title>. <source><italic toggle="yes">Sleep</italic></source>. <year>2023</year>;<volume>46</volume>(<issue>2</issue>):<fpage>zsac279</fpage>. doi:<pub-id pub-id-type="doi">10.1093/sleep/zsac279</pub-id><pub-id pub-id-type="pmid">36462188</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0030">
+        <label>30.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Dixon</surname>
+<given-names>SJ</given-names></string-name>, <string-name><surname>Lemberg</surname>
+<given-names>KM</given-names></string-name>, <string-name><surname>Lamprecht</surname>
+<given-names>MR</given-names></string-name>, et al. <article-title>Ferroptosis: an iron-dependent form of nonapoptotic cell death</article-title>. <source><italic toggle="yes">Cell</italic></source>. <year>2012</year>;<volume>149</volume>(<issue>5</issue>):<fpage>1060</fpage>–<lpage>1072</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.cell.2012.03.042</pub-id><pub-id pub-id-type="pmid">22632970</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0031">
+        <label>31.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Tang</surname>
+<given-names>D</given-names></string-name>, <string-name><surname>Chen</surname>
+<given-names>X</given-names></string-name>, <string-name><surname>Kang</surname>
+<given-names>R</given-names></string-name>, et al. <article-title>Ferroptosis: molecular mechanisms and health implications</article-title>. <source><italic toggle="yes">Cell Res</italic></source>. <year>2021</year>;<volume>31</volume>(<issue>2</issue>):<fpage>107</fpage>–<lpage>125</lpage>. doi:<pub-id pub-id-type="doi">10.1038/s41422-020-00441-1</pub-id><pub-id pub-id-type="pmid">33268902</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0032">
+        <label>32.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Ferreira</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Neves</surname>
+<given-names>P</given-names></string-name>, <string-name><surname>Gozzelino</surname>
+<given-names>R</given-names></string-name>. <article-title>Multilevel Impacts of Iron in the Brain: the Cross Talk between Neurophysiological Mechanisms, Cognition, and Social Behavior</article-title>. <source><italic toggle="yes">Pharmaceuticals (Basel)</italic></source>. <year>2019</year>;<volume>12</volume>(<issue>3</issue>):<fpage>126</fpage>. doi:<pub-id pub-id-type="doi">10.3390/ph12030126</pub-id><pub-id pub-id-type="pmid">31470556</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0033">
+        <label>33.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Wang</surname>
+<given-names>X</given-names></string-name>, <string-name><surname>Wang</surname>
+<given-names>Z</given-names></string-name>, <string-name><surname>Cao</surname>
+<given-names>J</given-names></string-name>, et al. <article-title>Melatonin alleviates acute sleep deprivation-induced memory loss in mice by suppressing hippocampal ferroptosis</article-title>. <source><italic toggle="yes">Front Pharmacol</italic></source>. <year>2021</year>;<volume>12</volume>:<fpage>708645</fpage>. doi:<pub-id pub-id-type="doi">10.3389/fphar.2021.708645</pub-id><pub-id pub-id-type="pmid">34335271</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0034">
+        <label>34.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>An</surname>
+<given-names>Y</given-names></string-name>, <string-name><surname>Li</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Huang</surname>
+<given-names>X</given-names></string-name>, et al. <article-title>The role of copper homeostasis in brain disease</article-title>. <source><italic toggle="yes">Int J Mol Sci</italic></source>. <year>2022</year>;<volume>23</volume>(<issue>22</issue>):<fpage>13850</fpage>. doi:<pub-id pub-id-type="doi">10.3390/ijms232213850</pub-id><pub-id pub-id-type="pmid">36430330</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0035">
+        <label>35.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Leng</surname>
+<given-names>D</given-names></string-name>, <string-name><surname>Yang</surname>
+<given-names>Z</given-names></string-name>, <string-name><surname>Sun</surname>
+<given-names>H</given-names></string-name>, et al. <article-title>Comprehensive analysis of tumor microenvironment reveals prognostic ceRNA network related to immune infiltration in sarcoma</article-title>. <source><italic toggle="yes">Clin Cancer Res</italic></source>. <year>2023</year>;<volume>19</volume>(<issue>3986</issue>):<fpage>4001</fpage>–<lpage>4010</lpage>. doi:<pub-id pub-id-type="doi">10.1158/1078-0432.CCR-22-3396</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0036">
+        <label>36.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Huang</surname>
+<given-names>J</given-names></string-name>, <string-name><surname>Zhou</surname>
+<given-names>Q</given-names></string-name>. <article-title>CD8+T-cell-related gene biomarkers in macular edema of diabetic retinopathy</article-title>. <source><italic toggle="yes">Front Endocrinol</italic></source>. <year>2022</year>;<volume>13</volume>:<fpage>907396</fpage>. doi:<pub-id pub-id-type="doi">10.3389/fendo.2022.907396</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0037">
+        <label>37.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Ye</surname>
+<given-names>MT</given-names></string-name>, <string-name><surname>Wang</surname>
+<given-names>Y</given-names></string-name>, <string-name><surname>Zuo</surname>
+<given-names>Z</given-names></string-name>, et al. <article-title>Integrated clinical genotype-phenotype characteristics of early T-cell precursor acute lymphoblastic leukemia</article-title>. <source><italic toggle="yes">Cancer</italic></source>. <year>2023</year>;<volume>129</volume>(<issue>1</issue>):<fpage>49</fpage>–<lpage>59</lpage>. doi:<pub-id pub-id-type="doi">10.1002/cncr.34515</pub-id><pub-id pub-id-type="pmid">36281717</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0038">
+        <label>38.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Lopes</surname>
+<given-names>BA</given-names></string-name>, <string-name><surname>Meyer</surname>
+<given-names>C</given-names></string-name>, <string-name><surname>Bouzada</surname>
+<given-names>H</given-names></string-name>, et al. <article-title>The recombinome of IKZF1 deletions in B-cell precursor ALL</article-title>. <source><italic toggle="yes">Leukemia</italic></source>. <year>2023</year>;<volume>37</volume>(<issue>8</issue>):<fpage>1727</fpage>–<lpage>1731</lpage>. doi:<pub-id pub-id-type="doi">10.1038/s41375-023-01935-8</pub-id><pub-id pub-id-type="pmid">37386080</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0039">
+        <label>39.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Chan</surname>
+<given-names>LN</given-names></string-name>, <string-name><surname>Chen</surname>
+<given-names>Z</given-names></string-name>, <string-name><surname>Braas</surname>
+<given-names>D</given-names></string-name>, et al. <article-title>Metabolic gatekeeper function of B-lymphoid transcription factorsJ</article-title>. <source><italic toggle="yes">Nature</italic></source>. <year>2017</year>;<volume>542</volume>(<issue>7642</issue>):<fpage>479</fpage>–<lpage>483</lpage>. doi:<pub-id pub-id-type="doi">10.1038/nature21076</pub-id><pub-id pub-id-type="pmid">28192788</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0040">
+        <label>40.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Morselli</surname>
+<given-names>L</given-names></string-name>, <string-name><surname>Leproult</surname>
+<given-names>R</given-names></string-name>, <string-name><surname>Balbo</surname>
+<given-names>M</given-names></string-name>, et al. <article-title>Role of sleep duration in the regulation of glucose metabolism and appetite</article-title>. <source><italic toggle="yes">Best Pract Res Clin Endocrinol Metab</italic></source>. <year>2010</year>;<volume>24</volume>(<issue>5</issue>):<fpage>687</fpage>–<lpage>702</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.beem.2010.07.005</pub-id><pub-id pub-id-type="pmid">21112019</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0041">
+        <label>41.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>King</surname>
+<given-names>LB</given-names></string-name>, <string-name><surname>Corley</surname>
+<given-names>RB</given-names></string-name>. <article-title>Characterization of a presecretory phase in B-cell differentiation</article-title>. <source><italic toggle="yes">Proc Natl Acad Sci U S A</italic></source>. <year>1989</year>;<volume>86</volume>(<issue>8</issue>):<fpage>2814</fpage>–<lpage>2818</lpage>. doi:<pub-id pub-id-type="doi">10.1073/pnas.86.8.2814</pub-id><pub-id pub-id-type="pmid">2495536</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0042">
+        <label>42.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Kelner</surname>
+<given-names>MJ</given-names></string-name>, <string-name><surname>Diccianni</surname>
+<given-names>MB</given-names></string-name>, <string-name><surname>Yu</surname>
+<given-names>AL</given-names></string-name>, et al. <article-title>Absence of MGST1 mRNA and protein expression in human neuroblastoma cell lines and primary tissue</article-title>. <source><italic toggle="yes">Free Radic Biol Med</italic></source>. <year>2014</year>;<volume>69</volume>:<fpage>167</fpage>–<lpage>171</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.freeradbiomed.2014.01.021</pub-id><pub-id pub-id-type="pmid">24486338</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0043">
+        <label>43.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>González-Castillo</surname>
+<given-names>C</given-names></string-name>, <string-name><surname>Ortuño-Sahagún</surname>
+<given-names>D</given-names></string-name>, <string-name><surname>Guzmán-Brambila</surname>
+<given-names>C</given-names></string-name>, et al. <article-title>The absence of pleiotrophin modulates gene expression in the hippocampus in vivo and in cerebellar granule cells in vitro</article-title>. <source><italic toggle="yes">Mol Cell Neurosci</italic></source>. <year>2016</year>;<volume>75</volume>:<fpage>113</fpage>–<lpage>121</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.mcn.2016.07.004</pub-id><pub-id pub-id-type="pmid">27468976</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0044">
+        <label>44.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Wang</surname>
+<given-names>X</given-names></string-name>, <string-name><surname>Huang</surname>
+<given-names>K</given-names></string-name>, <string-name><surname>Yang</surname>
+<given-names>F</given-names></string-name>, et al. <article-title>Association between structural brain features and gene expression by weighted gene coexpression network analysis in conversion from MCI to AD</article-title>. <source><italic toggle="yes">Behav Brain Res</italic></source>. <year>2021</year>;<volume>410</volume>:<fpage>113330</fpage>. doi:<pub-id pub-id-type="doi">10.1016/j.bbr.2021.113330</pub-id><pub-id pub-id-type="pmid">33940051</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0045">
+        <label>45.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Achreja</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Yu</surname>
+<given-names>T</given-names></string-name>, <string-name><surname>Mittal</surname>
+<given-names>A</given-names></string-name>, et al. <article-title>Metabolic collateral lethal target identification reveals MTHFD2 paralog dependency in ovarian cancer</article-title>. <source><italic toggle="yes">Nat Metab</italic></source>. <year>2022</year>;<volume>4</volume>(<issue>9</issue>):<fpage>1119</fpage>–<lpage>1137</lpage>. doi:<pub-id pub-id-type="doi">10.1038/s42255-022-00636-3</pub-id><pub-id pub-id-type="pmid">36131208</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0046">
+        <label>46.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Han</surname>
+<given-names>N</given-names></string-name>, <string-name><surname>Luo</surname>
+<given-names>R</given-names></string-name>, <string-name><surname>Liu</surname>
+<given-names>J</given-names></string-name>, et al. <article-title>Transcriptomic and proteomic analysis reveals mechanisms of patulin-induced cell toxicity in human embryonic kidney cells</article-title>. <source><italic toggle="yes">Toxins</italic></source>. <year>2020</year>;<volume>12</volume>(<issue>11</issue>):<fpage>681</fpage>. doi:<pub-id pub-id-type="doi">10.3390/toxins12110681</pub-id><pub-id pub-id-type="pmid">33138038</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0047">
+        <label>47.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Feng</surname>
+<given-names>Z</given-names></string-name>, <string-name><surname>Hom</surname>
+<given-names>ME</given-names></string-name>, <string-name><surname>Bearrood</surname>
+<given-names>TE</given-names></string-name>, et al. <article-title>Targeting colorectal cancer with small-molecule inhibitors of ALDH1B1</article-title>. <source><italic toggle="yes">Nat Chem Biol</italic></source>. <year>2022</year>;<volume>18</volume>(<issue>10</issue>):<fpage>1065</fpage>–<lpage>1075</lpage>. doi:<pub-id pub-id-type="doi">10.1038/s41589-022-01048-w</pub-id><pub-id pub-id-type="pmid">35788181</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0048">
+        <label>48.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Liu</surname>
+<given-names>W</given-names></string-name>, <string-name><surname>Li</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Zhang</surname>
+<given-names>W</given-names></string-name>, et al. <article-title>Leveraging functional annotation to identify genes associated with complex diseases</article-title>. <source><italic toggle="yes">PLoS Comput Biol</italic></source>. <year>2020</year>;<volume>16</volume>(<issue>11</issue>):<fpage>e1008315</fpage>. doi:<pub-id pub-id-type="doi">10.1371/journal.pcbi.1008315</pub-id><pub-id pub-id-type="pmid">33137096</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0049">
+        <label>49.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Osada</surname>
+<given-names>N</given-names></string-name>, <string-name><surname>Kikuchi</surname>
+<given-names>J</given-names></string-name>, <string-name><surname>Iha</surname>
+<given-names>H</given-names></string-name>, et al. <article-title>c-FOS is an integral component of the IKZF1 transactivator complex and mediates lenalidomide resistance in multiple myeloma</article-title>. <source><italic toggle="yes">Clin Transl Med</italic></source>. <year>2023</year>;<volume>13</volume>(<issue>8</issue>):<fpage>e1364</fpage>. doi:<pub-id pub-id-type="doi">10.1002/ctm2.1364</pub-id><pub-id pub-id-type="pmid">37581569</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0050">
+        <label>50.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Liu</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Li</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Donnenberg</surname>
+<given-names>V</given-names></string-name>, et al. <article-title>Immunomodulatory drugs downregulate IKZF1 leading to expansion of hematopoietic progenitors with concomitant block of megakaryocytic maturation</article-title>. <source><italic toggle="yes">Hematologica</italic></source>. <year>2018</year>;<volume>103</volume>(<issue>10</issue>):<fpage>1688</fpage>–<lpage>1697</lpage>. doi:<pub-id pub-id-type="doi">10.3324/hematol.2018.188227</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0051">
+        <label>51.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Krönke</surname>
+<given-names>J</given-names></string-name>, <string-name><surname>Hurst</surname>
+<given-names>SN</given-names></string-name>, <string-name><surname>Ebert</surname>
+<given-names>BL</given-names></string-name>. <article-title>Lenalidomide induces degradation of IKZF1 and IKZF3</article-title>. <source><italic toggle="yes">Oncoimmunology</italic></source>. <year>2014</year>;<volume>3</volume>(<issue>7</issue>):<fpage>e941742</fpage>. doi:<pub-id pub-id-type="doi">10.4161/21624011.2014.941742</pub-id><pub-id pub-id-type="pmid">25610725</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0052">
+        <label>52.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Kumar</surname>
+<given-names>N</given-names></string-name>, <string-name><surname>Sharma</surname>
+<given-names>U</given-names></string-name>, <string-name><surname>Singh</surname>
+<given-names>C</given-names></string-name>, et al. <article-title>Thalidomide: chemistry, therapeutic potential and oxidative stress induced teratogenicity</article-title>. <source><italic toggle="yes">Curr Top Med Chem</italic></source>. <year>2012</year>;<volume>12</volume>(<issue>13</issue>):<fpage>1436</fpage>–<lpage>1455</lpage>. doi:<pub-id pub-id-type="doi">10.2174/156802612801784407</pub-id><pub-id pub-id-type="pmid">22650376</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0053">
+        <label>53.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Asher</surname>
+<given-names>C</given-names></string-name>, <string-name><surname>Furnish</surname>
+<given-names>T</given-names></string-name>. <article-title>Lenalidomide and thalidomide in the treatment of chronic pain</article-title>. <source><italic toggle="yes">Expert Opin Drug Saf</italic></source>. <year>2013</year>;<volume>12</volume>(<issue>3</issue>):<fpage>367</fpage>–<lpage>374</lpage>. doi:<pub-id pub-id-type="doi">10.1517/14740338.2013.775242</pub-id><pub-id pub-id-type="pmid">23442012</pub-id>
+</mixed-citation>
+      </ref>
+    </ref-list>
+  </back>
+</article>
+</pmc-articleset>

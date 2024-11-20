@@ -1,0 +1,770 @@
+<pmc-articleset><article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" dtd-version="1.3" xml:lang="en" article-type="research-article">
+  <?properties open_access?>
+  <processing-meta base-tagset="archiving" mathml-version="3.0" table-model="xhtml" tagset-family="jats">
+    <restricted-by>pmc</restricted-by>
+  </processing-meta>
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="nlm-ta">Nat Sci Sleep</journal-id>
+      <journal-id journal-id-type="iso-abbrev">Nat Sci Sleep</journal-id>
+      <journal-id journal-id-type="publisher-id">nss</journal-id>
+      <journal-title-group>
+        <journal-title>Nature and Science of Sleep</journal-title>
+      </journal-title-group>
+      <issn pub-type="epub">1179-1608</issn>
+      <publisher>
+        <publisher-name>Dove</publisher-name>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="pmid">36275180</article-id>
+      <article-id pub-id-type="pmc">9581540</article-id>
+      <article-id pub-id-type="publisher-id">373107</article-id>
+      <article-id pub-id-type="doi">10.2147/NSS.S373107</article-id>
+      <article-categories>
+        <subj-group subj-group-type="heading">
+          <subject>Original Research</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>Actigraphy-Based Sleep Detection: Validation with Polysomnography and Comparison of Performance for Nighttime and Daytime Sleep During Simulated Shift Work</article-title>
+        <alt-title alt-title-type="running-authors">Gao et al</alt-title>
+        <alt-title alt-title-type="running-title">Gao et al</alt-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Gao</surname>
+            <given-names>Chenlu</given-names>
+          </name>
+          <xref rid="aff0001" ref-type="aff">
+<sup>1</sup>
+</xref>
+          <xref rid="aff0002" ref-type="aff">
+<sup>2</sup>
+</xref>
+          <xref rid="aff0003" ref-type="aff">
+<sup>3</sup>
+</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0002-4684-4909</contrib-id>
+          <name>
+            <surname>Li</surname>
+            <given-names>Peng</given-names>
+          </name>
+          <xref rid="aff0001" ref-type="aff">
+<sup>1</sup>
+</xref>
+          <xref rid="aff0002" ref-type="aff">
+<sup>2</sup>
+</xref>
+          <xref rid="aff0003" ref-type="aff">
+<sup>3</sup>
+</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Morris</surname>
+            <given-names>Christopher J</given-names>
+          </name>
+          <xref rid="aff0001" ref-type="aff">
+<sup>1</sup>
+</xref>
+          <xref rid="aff0002" ref-type="aff">
+<sup>2</sup>
+</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Zheng</surname>
+            <given-names>Xi</given-names>
+          </name>
+          <xref rid="aff0001" ref-type="aff">
+<sup>1</sup>
+</xref>
+          <xref rid="aff0003" ref-type="aff">
+<sup>3</sup>
+</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Ulsa</surname>
+            <given-names>Ma Cherrysse</given-names>
+          </name>
+          <xref rid="aff0001" ref-type="aff">
+<sup>1</sup>
+</xref>
+          <xref rid="aff0003" ref-type="aff">
+<sup>3</sup>
+</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0003-1476-1460</contrib-id>
+          <name>
+            <surname>Gao</surname>
+            <given-names>Lei</given-names>
+          </name>
+          <xref rid="aff0001" ref-type="aff">
+<sup>1</sup>
+</xref>
+          <xref rid="aff0002" ref-type="aff">
+<sup>2</sup>
+</xref>
+          <xref rid="aff0003" ref-type="aff">
+<sup>3</sup>
+</xref>
+          <xref rid="aff0004" ref-type="aff">
+<sup>4</sup>
+</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Scheer</surname>
+            <given-names>Frank A J L</given-names>
+          </name>
+          <xref rid="aff0001" ref-type="aff">
+<sup>1</sup>
+</xref>
+          <xref rid="aff0002" ref-type="aff">
+<sup>2</sup>
+</xref>
+          <xref rid="aff0003" ref-type="aff">
+<sup>3</sup>
+</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0003-0350-3132</contrib-id>
+          <name>
+            <surname>Hu</surname>
+            <given-names>Kun</given-names>
+          </name>
+          <xref rid="aff0001" ref-type="aff">
+<sup>1</sup>
+</xref>
+          <xref rid="aff0002" ref-type="aff">
+<sup>2</sup>
+</xref>
+          <xref rid="aff0003" ref-type="aff">
+<sup>3</sup>
+</xref>
+          <xref rid="an0001" ref-type="corresp"/>
+        </contrib>
+        <aff id="aff0001"><label>1</label><institution>Division of Sleep and Circadian Disorders, Departments of Medicine and Neurology, Brigham and Women’s Hospital</institution>, <addr-line>Boston</addr-line>, <addr-line>MA</addr-line>, <country>USA</country></aff>
+        <aff id="aff0002"><label>2</label><institution>Division of Sleep Medicine, Harvard Medical School</institution>, <addr-line>Boston</addr-line>, <addr-line>MA</addr-line>, <country>USA</country></aff>
+        <aff id="aff0003"><label>3</label><institution>Broad Institute of MIT and Harvard</institution>, <addr-line>Cambridge</addr-line>, <addr-line>MA</addr-line>, <country>USA</country></aff>
+        <aff id="aff0004"><label>4</label><institution>Department of Anesthesia, Critical Care and Pain Medicine, Massachusetts General Hospital, Harvard Medical School</institution>, <addr-line>Boston</addr-line>, <addr-line>MA</addr-line>, <country>USA</country></aff>
+      </contrib-group>
+      <author-notes>
+        <corresp id="an0001">Correspondence: Kun Hu, <institution>Brigham and Women’s Hospital</institution>, <addr-line>221 Longwood Avenue, 040 BLI</addr-line>, <addr-line>Boston</addr-line>, <addr-line>MA</addr-line>, <addr-line>02115</addr-line>, <country>USA</country>, <phone>Tel +1 617-525 8694</phone>, <fax>Fax +1 617-732 7337</fax>, Email khu1@bwh.harvard.edu</corresp>
+      </author-notes>
+      <pub-date pub-type="epub">
+        <day>14</day>
+        <month>10</month>
+        <year>2022</year>
+      </pub-date>
+      <pub-date pub-type="collection">
+        <year>2022</year>
+      </pub-date>
+      <volume>14</volume>
+      <fpage>1801</fpage>
+      <lpage>1816</lpage>
+      <history>
+        <date date-type="received">
+          <day>07</day>
+          <month>5</month>
+          <year>2022</year>
+        </date>
+        <date date-type="accepted">
+          <day>27</day>
+          <month>9</month>
+          <year>2022</year>
+        </date>
+      </history>
+      <permissions>
+        <copyright-statement>© 2022 Gao et al.</copyright-statement>
+        <copyright-year>2022</copyright-year>
+        <copyright-holder>Gao et al.</copyright-holder>
+        <license>
+          <ali:license_ref xmlns:ali="http://www.niso.org/schemas/ali/1.0/" specific-use="textmining" content-type="ccbynclicense">https://creativecommons.org/licenses/by-nc/3.0/</ali:license_ref>
+          <license-p>This work is published and licensed by Dove Medical Press Limited. The full terms of this license are available at <ext-link ext-link-type="uri" xlink:href="https://www.dovepress.com/terms.php">https://www.dovepress.com/terms.php</ext-link> and incorporate the Creative Commons Attribution – Non Commercial (unported, v3.0) License (<ext-link ext-link-type="uri" xlink:href="https://creativecommons.org/licenses/by-nc/3.0/">http://creativecommons.org/licenses/by-nc/3.0/</ext-link>). By accessing the work you hereby accept the Terms. Non-commercial uses of the work are permitted without any further permission from Dove Medical Press Limited, provided the work is properly attributed. For permission for commercial use of this work, please see paragraphs 4.2 and 5 of our Terms (<ext-link ext-link-type="uri" xlink:href="https://www.dovepress.com/terms.php">https://www.dovepress.com/terms.php</ext-link>).</license-p>
+        </license>
+      </permissions>
+      <abstract>
+        <sec id="s2001">
+          <title>Purpose</title>
+          <p>Actigraphy-based sleep detection algorithms were mostly validated using nighttime sleep, and their performance in detecting daytime sleep is unclear. We evaluated and compared the performance of Actiware and the Cole-Kripke algorithm (C-K) – two commonly used actigraphy-based algorithms – in detecting daytime and nighttime sleep.</p>
+        </sec>
+        <sec id="s2002">
+          <title>Participants and Methods</title>
+          <p>Twenty-five healthy young adults were monitored by polysomnography and actigraphy during two in-lab protocols with scheduled nighttime and/or daytime sleep (within-subject design). Mixed-effect models were conducted to compare the sensitivity, specificity, and F1 score (a less-biased measure of accuracy) of Actiware (with low/medium/high threshold setting, separately) and C-K in detecting sleep epochs from actigraphy recordings during nighttime/daytime. <italic toggle="yes">t</italic>-tests and intraclass correlation coefficients were used to assess the agreement between actigraphy-based algorithms and polysomnography in scoring total sleep time (TST).</p>
+        </sec>
+        <sec id="s2003">
+          <title>Results</title>
+          <p>Sensitivity was similar between nighttime (Actiware: 0.93–0.99 across threshold settings; C-K: 0.61) and daytime sleep (Actiware: 0.93–0.99; C-K: 0.66) for both the C-K and Actiware (daytime/nighttime×algorithm interaction: p &gt; 0.1). Specificity for daytime sleep was lower (Actiware: 0.35–0.54; C-K: 0.91) than that for nighttime sleep (Actiware: 0.37–0.62; C-K: 0.93; p = 0.001). Specificity was also higher for C-K than Actiware (p &lt; 0.001), with no daytime/nighttime×algorithm interaction (p &gt; 0.1). C-K had lower F1 (nighttime = 0.74; daytime = 0.77) than Actiware (nighttime = 0.95–0.98; daytime = 0.90–0.91) for both nighttime and daytime sleep (all p &lt; 0.05). The daytime-nighttime difference in F1 was opposite for Actiware (daytime: 0.90–0.91; nighttime: 0.95–0.98) and C-K (daytime: 0.77; nighttime: 0.74; interaction p = 0.003). Bias in TST was lowest in Actiware (with medium-threshold) for nighttime sleep (underestimation of 5.99 min/8h) and in Actiware (with low-threshold) for daytime sleep (overestimation of 17.75 min/8h).</p>
+        </sec>
+        <sec id="s2004">
+          <title>Conclusion</title>
+          <p>Daytime/nighttime sleep affected specificity and F1 but not sensitivity of actigraphy-based sleep scoring. Overall, Actiware performed better than the C-K algorithm. Actiware with medium-threshold was the least biased in estimating nighttime TST, and Actiware with low-threshold was the least biased in estimating daytime TST.</p>
+        </sec>
+      </abstract>
+      <kwd-group kwd-group-type="author">
+        <title>Keywords</title>
+        <kwd>Actiware</kwd>
+        <kwd>Cole-Kripke algorithm</kwd>
+        <kwd>sleep scoring</kwd>
+        <kwd>shift worker</kwd>
+        <kwd>circadian rhythms</kwd>
+      </kwd-group>
+      <funding-group>
+        <award-group>
+          <funding-source>
+<institution-wrap><institution>NIH R01HL094806, RF1AG064312, RF1AG059867</institution></institution-wrap>
+</funding-source>
+        </award-group>
+        <award-group>
+          <funding-source>
+<institution-wrap><institution>the BrightFocus Foundation Alzheimer’s Disease Research Program</institution></institution-wrap>
+</funding-source>
+        </award-group>
+        <award-group>
+          <funding-source>
+<institution-wrap><institution>the Alzheimer’s Association (AARFD-22-928372)</institution></institution-wrap>
+</funding-source>
+        </award-group>
+        <award-group>
+          <funding-source>
+<institution-wrap><institution>the National Institute on Aging (NIA)</institution></institution-wrap>
+</funding-source>
+        </award-group>
+        <award-group>
+          <funding-source>
+<institution-wrap><institution>NIH R01HL153969</institution></institution-wrap>
+</funding-source>
+        </award-group>
+        <funding-statement>This research was supported by NIH R01HL094806, RF1AG064312, RF1AG059867. C.G. and P.L. are also supported by the BrightFocus Foundation Alzheimer’s Disease Research Program (A2020886S). C.G. is additionally supported by the Alzheimer’s Association (AARFD-22-928372). L.G. is also supported by the National Institute on Aging (NIA) grant (R03AG067985). F.A.J.L.S. was further supported by NIH R01HL153969.</funding-statement>
+      </funding-group>
+      <counts>
+        <fig-count count="6"/>
+        <table-count count="2"/>
+        <ref-count count="51"/>
+        <page-count count="16"/>
+      </counts>
+    </article-meta>
+  </front>
+  <body>
+    <sec id="s0001">
+      <title>Plain Language Summary</title>
+      <p>Actigraphy is widely used in both research and clinical settings to estimate sleep. Two commonly used algorithms for actigraphy-based sleep scoring are the built-in algorithm of the Actiware software (Philips Respironics) and the Cole-Kripke algorithm. The Cole-Kripke algorithm implements re-scoring rules to reduce the overestimation of sleep time. Existing validations of both algorithms predominantly focused on nighttime sleep, whereas it is unknown how accurate they are in detecting daytime sleep. Here, we reported that the performance of the two algorithms in identifying sleep epochs remained similar for daytime and nighttime sleep, and both algorithms had increased errors in identifying wake epochs during daytime. These findings may provide useful guidance for objective evaluation of daytime sleep using ambulatory actigraphy and justify the necessity for improving actigraphy-based algorithms in scoring daytime sleep.</p>
+    </sec>
+    <sec sec-type="intro" id="s0002">
+      <title>Introduction</title>
+      <p>While polysomnography (PSG) is the gold standard for measuring sleep, it requires costly equipment, electrode placement and equipment calibrations by knowledgeable sleep technicians, and time-consuming manual scoring.<xref rid="cit0001" ref-type="bibr">1</xref> A widely used alternative sleep assessment method is actigraphy. Unlike PSG-derived sleep scores that are based on brain activity (EEG), eye movements (EOG), muscle activity and skeletal muscle activation (EMG), actigraphy measures body (wrist) movement and actigraphy-based algorithms use movement activity data to estimate sleep.<xref rid="cit0002" ref-type="bibr">2</xref>,<xref rid="cit0003" ref-type="bibr">3</xref> Compared to PSG, actigraphy-based sleep assessment has several advantages, including greater ecological validity, less influence on sleep,<xref rid="cit0004" ref-type="bibr">4</xref> and the utility for continuous monitoring across days.<xref rid="cit0002" ref-type="bibr">2</xref> Thus, actigraphy may offer a convenient and naturalistic solution of long-term sleep monitoring in the home environment. In 2007, the American Academy of Sleep Medicine published guidelines on using actigraphy to diagnose sleep disorders.<xref rid="cit0005" ref-type="bibr">5</xref> Later, a systematic review and meta-analysis concluded that actigraphy is generally a valid and useful tool for diagnosing and assessing treatment outcomes for some sleep disorders, such as delayed sleep-wake phase disorder.<xref rid="cit0006" ref-type="bibr">6</xref></p>
+      <p>However, because actigraphy distinguishes wake from sleep based on movements in the forms of activity counts and/or raw acceleration, it may erroneously categorize quiet rest as sleep, especially as occurred to insomnia patients who may stay awake while lying still in bed<xref rid="cit0007" ref-type="bibr">7</xref> and patients who are bedbound due to illnesses.<xref rid="cit0008" ref-type="bibr">8</xref> Indeed, the widely used Actiware (Philips Respironics) algorithm shows high sensitivity (ie, correctly scoring sleep epochs) but low specificity (ie, correctly scoring wake epochs). For example, specificity of Actiware for overnight sleep was 0.48 among a group of 38 healthy young adults,<xref rid="cit0009" ref-type="bibr">9</xref> 0.28–0.48 in sleep-disordered patients across different thresholds,<xref rid="cit0010" ref-type="bibr">10</xref> and 0.67 in 33 middle-aged adults with lower back pain;<xref rid="cit0011" ref-type="bibr">11</xref> specificity of Actiware for daytime naps ranged from 0.36 to 0.64 in healthy young adults;<xref rid="cit0012" ref-type="bibr">12</xref> sensitivity of Actiware was above 0.87 and up to 0.96 in all these studies. Due to low specificity, Actiware as well as other actigraphy-based algorithms may generate ambiguous inference about sleep/wake states, resulting in overestimation of sleep.<xref rid="cit0002" ref-type="bibr">2</xref></p>
+      <p>To address the issue of overestimation of sleep, re-scoring rules have been introduced in the Cole-Kripke algorithm to score actigraphy data.<xref rid="cit0013" ref-type="bibr">13</xref>,<xref rid="cit0014" ref-type="bibr">14</xref> For instance, based on one physiological consideration that people may stop moving for a few minutes before falling asleep (ie, the onset of sleep), the first few epochs (eg, 3 minutes) after a certain amount of wakefulness (eg, 10 minutes) scored as sleep are re-scored to wake. A study of 40 young adults showed that applying the re-scoring rules in the Cole-Kripke algorithm improved the specificity from 0.441 to 0.486 while reducing the sensitivity slightly from 0.975 to 0.970.<xref rid="cit0015" ref-type="bibr">15</xref> Though the Cole-Kripke algorithm is a commonly used algorithm for scoring sleep based on actigraphy (eg, Gu et al 2020;<xref rid="cit0016" ref-type="bibr">16</xref> Widome et al 2020;<xref rid="cit0017" ref-type="bibr">17</xref> and epidemiological studies such as the Jackson Heart Sleep Study),<xref rid="cit0018" ref-type="bibr">18</xref> especially for data from accelerometer devices other than the Actiwatch (Bend, OR), its performance as comparison to Actiware is still not clear. Certain studies showed that the Cole-Kripke algorithm can achieve a specificity up to 0.65<xref rid="cit0013" ref-type="bibr">13</xref> and can reduce the overestimation of total sleep time from 1.89% to 0.81%,<xref rid="cit0014" ref-type="bibr">14</xref> while other studies showed the specificity of the Cole-Kripke algorithm is still low (eg, 0.34 among healthy young adults).<xref rid="cit0019" ref-type="bibr">19</xref></p>
+      <p>Previous validation studies of actigraphy-based sleep scoring have predominantly used data collected during nighttime sleep.<xref rid="cit0006" ref-type="bibr">6</xref> Sleep during daytime, such as recovery sleep during the morning hours after night shift and napping in the afternoon before night shift, is common in today’s society and an important component of the 24-hour sleep-wake cycle. Many studies have provided convincing evidence for the physiological importance of daytime sleep, showing that, for instance, mid-afternoon recovery sleep improves vigilance.<xref rid="cit0020" ref-type="bibr">20</xref> The performance of actigraphy-based algorithms for detecting daytime sleep has rarely been tested.<xref rid="cit0021" ref-type="bibr">21</xref> It is unclear whether these algorithms perform similarly or differently for detecting daytime sleep as for nighttime sleep. Addressing the question is crucial for the design of large-scale field sleep studies, in which actigraphy may be the only feasible tool for sleep assessment.</p>
+      <p>A related question is whether it is appropriate to perform sleep scoring on 24-h actigraphy data when scheduled sleep episodes are unknown (eg, sleep/wake diary is not available or not reliable). Though sleep diary/log is often used in conjunction with actigraphy,<xref rid="cit0022" ref-type="bibr">22</xref> completing sleep diaries adds extra burden to participants and compliance rates vary across studies. For example, a two-week study by Maich et al found 99.8% completion rate of sleep diary.<xref rid="cit0023" ref-type="bibr">23</xref> However, in Thurman’s study of 30 healthy adults who were asked to wear actiwatches and keep sleep logs for up to 16 consecutive weeks,<xref rid="cit0024" ref-type="bibr">24</xref> the overall completion rate of sleep logs was 73% and only 60% of participants completed ≥75% of their 16-week sleep logs, with lower diary completion rates associated with lower agreement between sleep log and actigraphy. On the other hand, considering the health relevance of sleep, long-term sleep monitoring should become more and more common in health care as well as in clinical research, especially for older adults who may not be able to complete sleep diaries (eg, people with Alzheimer’s disease). Therefore, testing whether Actiware and the Cole-Kripke algorithms can perform well with unknown sleep episodes is also of importance for sleep study design using actigraphy.</p>
+      <p>To fill the gaps in the literature, we examined the performance of Actiware and the Cole-Kripke algorithms using the data collected from the same participants during daytime and nighttime sleep. Objective 1 of this study was to test whether actigraphy-based sleep assessment detected sleep epochs during daytime and nighttime sleep episodes equally accurately against polysomnography. Objective 2 of this study was to compare the performance of the two algorithms using the same dataset. If their performance in detecting sleep (ie, sensitivity) differed, we would further explore whether the differences were due to differences in detecting light sleep stages, because the Cole-Kripke’s re-scoring rules apply to the first few sleep epochs following wakefulness. Objective 3 of this study was to test the importance of sleep/wake diary by determining the differences in the performance of actigraphy-based sleep assessment when 24-hour actigraphy data were analyzed compared to when only scheduled sleep episodes were analyzed.</p>
+    </sec>
+    <sec id="s0003">
+      <title>Methods</title>
+      <sec id="s0003-s2001">
+        <title>Participants and Protocols</title>
+        <p>We used data from two experiments each with two multi-day in-laboratory protocols. Other aspects of these protocols, designed to test independent hypotheses, have been published previously.<xref rid="cit0025" ref-type="bibr">25–38</xref> Experiment 1 included 14 non-shift worker adults (mean age = 28.16y, SD = 9.20y, age range: 20–50y; eight women) who did not perform any shift work in the past three years, were not involved in more than six months of cumulative lifetime shift work, and did not cross more than one time zone in the past three months. Experiment 2 included 11 shift workers (mean age = 34.46y, SD = 7.64y, age range: 24–48y; six women) who had on average 4.52y (SD = 7.74y, range: 1.11–25.09y) of consecutive shift work experience and on average 5.30y (SD = 7.66y, range: 1.11–25.09y) of lifetime cumulative shift work experience. In both experiments, participants were non-smokers and not taking drugs or medications (except for oral contraceptives). Each participant completed a circadian alignment protocol (Experiment 1: <xref rid="f0001" ref-type="fig">Figure 1A</xref>; Experiment 2: <xref rid="f0001" ref-type="fig">Figure 1C</xref>) and a circadian misalignment protocol (Experiment 1: <xref rid="f0001" ref-type="fig">Figure 1B</xref>; Experiment 2: <xref rid="f0001" ref-type="fig">Figure 1D</xref>). The two protocols were in randomized order and separated by 2–8 weeks (Experiment 1: Mean = 4, SD = 2; Experiment 2: Mean = 4, SD = 1). During the circadian alignment protocol of both experiments, participants had a daily scheduled sleep episode between 11pm-7am. A simulated shift work schedule was used to introduce circadian misalignment in both experiments. Specifically, in Experiment 1 (non-shift workers), following nighttime sleep episodes between 11pm-7am on Days 1–3, participants were scheduled to sleep between 3pm-7pm on Day 4 and 11am-7pm on Days 5–8; in Experiment 2 (chronic shift workers), participants had scheduled sleep episodes between 3pm-7pm on Day 1 and between 11am-7pm on Days 2–3.
+<fig position="float" id="f0001" fig-type="figure"><label>Figure 1</label><caption><p>Experiment protocols. (<bold>A</bold> and <bold>B</bold>) Two 8-day protocols in Experiment 1 were designed for non-shift workers, including (<bold>A</bold>) a circadian alignment protocol with nighttime sleep and (<bold>B</bold>) a misalignment protocol with nighttime sleep from Day 1 to Day 3, an afternoon nap on Day 4, and daytime sleep from Day 5 to Day 8. (<bold>C</bold> and <bold>D</bold>) Two 3-day protocols in Experiment 2 were designed for chronic shift workers, including (<bold>C</bold>) a circadian alignment protocol with nighttime sleep and (<bold>D</bold>) a misalignment protocol with an afternoon nap on Day 1 followed by nighttime sleep on Days 2–3.</p></caption><graphic xlink:href="NSS-14-1801-g0001" position="float"/></fig></p>
+        <p>Experiment 1 consisted of two 8-day (with 7 nights) laboratory protocols. Sleep was recorded via PSG during the scheduled nighttime sleep episodes (~11pm-7am) on Day 4 and Day 6 of the circadian alignment protocol and during the scheduled daytime sleep episodes (~11am-7pm) on Day 5 and Day 7 of the circadian misalignment protocol (<xref rid="f0001" ref-type="fig">Figure 1A</xref> and <xref rid="f0001" ref-type="fig">Figure 1</xref>). Experiment 2 consisted of two 3-day (with 2 nights) laboratory protocols. Participants were instructed to sleep from 11pm to 7am on the night before the in-laboratory protocols to reduce prior sleep debt. During the study, PSG was recorded during the scheduled nighttime sleep episode (~11pm-7am) on Day 1 of the circadian alignment protocol and during the scheduled daytime sleep episode (~11am-7pm) on Day 2 of the circadian misalignment protocol (<xref rid="f0001" ref-type="fig">Figure 1C</xref> and <xref rid="f0001" ref-type="fig">Figure 1</xref>). For both experiments, each scheduled sleep opportunity episode was 8 hours to allow sufficient sleep and increase generalizability to the general population with normal sleep duration. Wrist actigraphy (Actiwatch Spectrum, Bend, OR) was continuously worn during the whole study period. More details on the study methods have been previously reported.<xref rid="cit0037" ref-type="bibr">37</xref>,<xref rid="cit0038" ref-type="bibr">38</xref> Both experiments complied with the Declaration of Helsinki, were approved by the Partners Human Research Committee, and were conducted in the Center for Clinical Investigation at Brigham and Women’s Hospital (Boston, Massachusetts). All participants provided written informed consent.</p>
+      </sec>
+      <sec id="s0003-s2002">
+        <title>Data Collection and Analysis</title>
+        <sec id="s0003-s2002-s3001">
+          <title>Polysomnography</title>
+          <p>During each PSG assessment, data were collected continuously using Vitaport-3 (Temec Instruments, Kerkrade, B.V., The Netherlands) with a sampling rate of 256 Hz, including left and right electrooculography (EOG), bipolar submental electromyography (EMG), bipolar electrocardiography (ECG), and electroencephalography (EEG; F3, F4, C3, C4, O1 and O2 channels, referenced to contralateral mastoids). Research personnel inspected and scored the PSG recordings in 30-second epochs using the Vitascore software (Temec Instruments) based on the American Academy of Sleep Medicine guidelines.<xref rid="cit0039" ref-type="bibr">39</xref> Participants were monitored and kept awake outside the scheduled sleep opportunities, based on study protocols.</p>
+        </sec>
+        <sec id="s0003-s2002-s3002">
+          <title>Actigraphy</title>
+          <p>The Actiwatch monitored raw acceleration with a sample frequency of 32 Hz and integrated the data to a proprietary “count” value for every epoch (1 minute). A built-in capacitive sensor determined whether the device was on-wrist or off-wrist. On-wrist epochs of the activity count data were loaded into the following two software packages for sleep/wake scoring. (1) Actiware software (version 5.52; Respironics, Inc. Murrysville, PA)<xref rid="cit0040" ref-type="bibr">40</xref> describes the scoring approach as follows:
+<disp-quote><p>Whether a particular epoch is scored as wake is determined by comparing [the weighted value of] activity counts [in 5 consecutive epochs centered at] the [current] epoch in question, to a threshold value which can be set by the researcher … If the number of counts exceeds the threshold the epoch is scored as wake. If it falls below, or is equal to, the threshold the epoch is scored as sleep.</p></disp-quote></p>
+          <p>There are three levels for the threshold, 20, 40, and 80 activity counts, that correspond to low-, medium-, and high-sensitivity settings, respectively. (2) The ezActi software was developed by the Medical Biodynamics Program at Brigham and Women’s Hospital to provide a graphical user interface in the MATLAB platform for activity data analysis, and the Cole-Kripke algorithm<xref rid="cit0013" ref-type="bibr">13</xref>,<xref rid="cit0014" ref-type="bibr">14</xref> was implemented in this software to determine sleep or wake epochs. This software can be accessed at: <underline><ext-link xlink:href="https://github.com/pliphd/Actigraphy" ext-link-type="uri">https://github.com/pliphd/Actigraphy</ext-link></underline>.</p>
+        </sec>
+        <sec id="s0003-s2002-s3003">
+          <title>Temporal Alignment of PSG and Actigraphy Measurements</title>
+          <p>Because of the difference in length and start time of epochs between PSG and actigraphy, the beginning of each 1-minute actigraphy epoch did not align perfectly with the beginning of a 30-second PSG epoch. To resolve this, we identified three 30-second PSG epochs that overlapped with each 1-minute actigraphy epoch and considered a 1-minute actigraphy epoch as a true sleep epoch when the three 30-second PSG epochs were all sleep epochs. We further categorized the true sleep epochs into PSG-light sleep (ie, N1 and N2), PSG-slow-wave sleep (SWS; ie, N3), or PSG-rapid eye movement (REM) sleep if their corresponding PSG epochs were all light sleep, SWS, or REM sleep, respectively. Likewise, a 1-min actigraphy epoch was considered a true wake epoch if the corresponding three PSG 30-second epochs were wake. Otherwise, we categorized an epoch as a transitional epoch (1.93% of all epochs), which was excluded from analyses.</p>
+        </sec>
+        <sec id="s0003-s2002-s3004">
+          <title>Epoch-by-Epoch Analysis</title>
+          <p>We compared the epoch-by-epoch scoring from Actiware and the Cole-Kripke algorithm to sleep/wake status obtained from PSG and study protocols (scheduled wakeful episodes). For each participant during each study protocol, we computed sensitivity, specificity, positive predictive value (PPV), negative predictive value (NPV), F1 score (ie, a better measure of accuracy in the case of imbalanced data, which is less biased than the traditional accuracy), and Cohen’s kappa using data during the scheduled sleep episodes with PSG. Then, we repeated the calculation of these measures for the 24-h time windows (the 24 hours following the beginning of a sleep opportunity period) in those days with PSG (<xref rid="f0001" ref-type="fig">Figure 1</xref>). Sensitivity refers to the proportion of true sleep epochs that was correctly scored as sleep by Actiware/Cole-Kripke algorithm; specificity refers to the proportion of true wake epochs that was correctly scored as wake by Actiware/Cole-Kripke algorithm.<xref rid="cit0041" ref-type="bibr">41</xref> PPV is the probability that an epoch scored as sleep by Actiware/Cole-Kripke algorithm was truly a sleep epoch and NPV is the probability that an epoch scored as wake by Actiware/Cole-Kripke algorithm was truly a wake epoch. F1 score is a measure of accuracy that is less affected by the imbalanced samples in a data set.<xref rid="cit0042" ref-type="bibr">42</xref> It is the harmonic mean of sensitivity and PPV, specifically:
+<disp-formula-group><disp-formula id="um0001"><alternatives><graphic xlink:href="NSS-14-1801-e0001.jpg" position="float"/><tex-math id="Tex001">\documentclass[12pt]{minimal}
+\usepackage{wasysym}
+\usepackage[substack]{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage[mathscr]{eucal}
+\usepackage{mathrsfs}
+\DeclareFontFamily{T1}{linotext}{}
+\DeclareFontShape{T1}{linotext}{m}{n} {linotext }{}
+\DeclareSymbolFont{linotext}{T1}{linotext}{m}{n}
+\DeclareSymbolFontAlphabet{\mathLINOTEXT}{linotext}
+\begin{document}
+$$F1 = {2 \over {{1 \over {PPV}} + {1 \over {Sensitivity}}}}$$
+\end{document}</tex-math></alternatives></disp-formula></disp-formula-group></p>
+          <p>Cohen’s kappa measures agreement between PSG and Actiware/Cole-Kripke algorithm, with values ≤0.2 indicating no or slight agreement, 0.2–0.4 indicating fair, 0.4–0.6 indicating moderate, 0.6–0.8 indicating substantial, and 0.8–1.0 indicating perfect agreement.<xref rid="cit0043" ref-type="bibr">43</xref> For statistical analyses, we focused on the commonly used metrics (ie, sensitivity, specificity, and F1).</p>
+        </sec>
+        <sec id="s0003-s2002-s3005">
+          <title>Summary Sleep Parameters</title>
+          <p>In addition to epoch-by-epoch analyses, we compared total sleep time (TST) and wake after sleep onset (WASO) measured by the Cole-Kripke algorithm, Actiware, and PSG, because TST and WASO are widely used in both research and clinical settings.</p>
+        </sec>
+      </sec>
+      <sec id="s0003-s2003">
+        <title>Statistical Analysis</title>
+        <p>We first conducted independent-samples <italic toggle="yes">t</italic>-tests (for continuous variables) and chi-square (for dichotomous variables) to compare participants and their sleep characteristics in the two experiments. Because Experiment 1 and Experiment 2 participants were demographically similar and they had similar sleep characteristics, we combined the samples of two experiments for the following analyses. To compare nighttime and daytime sleep characteristics of the same individuals, we conducted mixed-effect models with protocol (2 levels: nighttime/daytime sleep) as the fixed-effect factor and individual subject as the random-effect factor. Outcomes were PSG-measured TST, light sleep, SWS, REM sleep, and activity counts per epoch during each sleep stage. Mixed-effect models were further used to investigate whether activity counts per epoch were associated with sensitivity.</p>
+        <p>To evaluate the performance of actigraphy-based sleep, we conducted two models for epoch-by-epoch analyses. Model 1: For objective 1 (nighttime vs daytime sleep) and objective 2 (Cole-Kripke vs Actiware), we conducted a mixed-effect model with protocol (2 levels: nighttime/daytime sleep), Algorithm (4 levels: Actiware low/medium/high threshold or the Cole-Kripke algorithm), and Protocol × Algorithm interaction as fixed-effect factors. Individual subject was included in the model as a random-effect factor. Sensitivity, specificity, and F1 scores for <italic toggle="yes">scheduled sleep episodes</italic> and sensitivity during light sleep, SWS, and REM sleep were the outcomes. Post-hoc analyses (pair-wise Tukey LSD test) were conducted for significant main and interaction effects.</p>
+        <p>Model 2: For objective 3 (scheduled sleep vs 24-hour windows), we added Analysis Window (2 levels: scheduled sleep or 24-h time windows), Analysis Window × Protocol interaction, Analysis Window × Algorithm interaction, and the three-way interaction of Analysis Window × Protocol × Algorithm as fixed-effect factors to model 1. Post-hoc analyses (pair-wise Tukey LSD test) were conducted for significant main and interaction effects. Specificity and F1 scores were the outcomes. Sensitivity was not tested as an outcome, because it is not influenced by analysis window.</p>
+        <p>For analyses on TST and WASO, we computed the mean difference between the Cole-Kripke/Actiware and PSG as a measure of bias and the standard deviation of such difference as a measure of imprecision. We used paired-samples <italic toggle="yes">t</italic>-test to examine whether TST/WASO measured by the Cole-Kripke or Actiware was different from PSG-measured TST/WASO. Complimentarily, we computed the absolute difference between TST/WASO measured by PSG and the Cole-Kripke algorithm or Actiware and used one-sample <italic toggle="yes">t</italic>-test to examine whether such difference was different from 0. To test the agreement in TST between the algorithms and PSG, we computed intraclass correlation coefficients (ICC); we used two-way mixed-effect models to compute ICCs and estimated the reliability of a single measure to examine the consistency between measures.<xref rid="cit0044" ref-type="bibr">44</xref> ICC values &lt;0.50, 0.50–0.75, 0.75–0.90, and &gt;0.90 indicate poor, moderate, good, and excellent agreement, respectively. We computed ICCs in SPSS 28 and performed all other analyses in JMP Pro 16; all statistical tests were two-tailed, and statistical significance was accepted at alpha = 0.05.</p>
+      </sec>
+    </sec>
+    <sec id="s0004">
+      <title>Results</title>
+      <sec id="s0004-s2001">
+        <title>Participant and Sleep Characteristics</title>
+        <p>Participants from Experiment 1 and Experiment 2 had similar age (<italic toggle="yes">t</italic>=1.87, <italic toggle="yes">p</italic>=0.074) and gender distribution (<italic toggle="yes">χ</italic><sup>2</sup>=0.02, <italic toggle="yes">p</italic>=0.897), as well as PSG-measured TST, light sleep, SWS, and REM sleep minutes per night during nighttime (<italic toggle="yes">p</italic>s&gt;0.05) and daytime sleep (<italic toggle="yes">p</italic>s&gt;0.05; <xref rid="t0001" ref-type="table">Table 1</xref>). Next, we combined participants from the two Experiments and found that TST (<italic toggle="yes">F</italic>=22.85, <italic toggle="yes">p</italic>&lt;0.001), light sleep (<italic toggle="yes">F</italic>=10.47, <italic toggle="yes">p</italic>=0.004), and REM sleep (<italic toggle="yes">F</italic>=14.24, <italic toggle="yes">p</italic>=0.001) were shorter during daytime than nighttime sleep. SWS minutes were similar between nighttime and daytime sleep (<italic toggle="yes">F</italic>=1.78, <italic toggle="yes">p</italic>=0.198).<table-wrap position="float" id="t0001"><label>Table 1</label><caption><p>Participant Characteristics and Data Analyzed</p></caption><table frame="hsides" rules="groups"><thead><tr><th rowspan="1" colspan="1"/><th rowspan="1" colspan="1">Experiment 1 (Non-Shift Workers)</th><th rowspan="1" colspan="1">Experiment 2 (Shift Workers)</th><th rowspan="1" colspan="1">Comparison</th></tr></thead><tbody><tr><td rowspan="1" colspan="1">N</td><td rowspan="1" colspan="1">14</td><td rowspan="1" colspan="1">11</td><td rowspan="1" colspan="1"/></tr><tr><td rowspan="1" colspan="1">Age (years)</td><td rowspan="1" colspan="1">28.16 (9.20), 22.08–32.30</td><td rowspan="1" colspan="1">34.45 (7.63), 30.10–39.30</td><td rowspan="1" colspan="1"><italic toggle="yes">t</italic>=1.87, <italic toggle="yes">p</italic>=0.074</td></tr><tr><td rowspan="1" colspan="1">Gender (female)</td><td rowspan="1" colspan="1">8 (57.14%)</td><td rowspan="1" colspan="1">6 (54.55%)</td><td rowspan="1" colspan="1">χ=0.02, <italic toggle="yes">p</italic>=0.897</td></tr><tr><td colspan="4" align="center" rowspan="1"><bold>Circadian Alignment Protocol</bold> (Nighttime sleep)</td></tr><tr><td rowspan="1" colspan="1">Scheduled sleep opportunity with actigraphy and PSG (h)</td><td rowspan="1" colspan="1">16</td><td rowspan="1" colspan="1">8</td><td rowspan="1" colspan="1"/></tr><tr><td rowspan="1" colspan="1">PSG total sleep time/night (min)</td><td rowspan="1" colspan="1">438.19 (19.68), 424.06–454.25</td><td rowspan="1" colspan="1">452.33 (27.77), 445.00–469.00</td><td rowspan="1" colspan="1"><italic toggle="yes">t</italic>=1.37, <italic toggle="yes">p</italic>=0.187</td></tr><tr><td rowspan="1" colspan="1">NREM light sleep (N1 and N2; min)</td><td rowspan="1" colspan="1">217.13 (31.27), 192.69–230.69</td><td rowspan="1" colspan="1">220.61 (28.88), 207.00–244.00</td><td rowspan="1" colspan="1"><italic toggle="yes">t</italic>=0.26, <italic toggle="yes">p</italic>=0.797</td></tr><tr><td rowspan="1" colspan="1">NREM light sleep (N1 and N2; %)</td><td rowspan="1" colspan="1">49.72 (8.02), 42.52–56.78</td><td rowspan="1" colspan="1">48.66 (4.70), 44.49–53.64</td><td rowspan="1" colspan="1"><italic toggle="yes">t</italic>=0.35, <italic toggle="yes">p</italic>=0.728</td></tr><tr><td rowspan="1" colspan="1">Slow-wave sleep (min)</td><td rowspan="1" colspan="1">104.96 (28.18), 81.50–124.81</td><td rowspan="1" colspan="1">108.72 (31.06), 84.25–140.75</td><td rowspan="1" colspan="1"><italic toggle="yes">t</italic>=0.29, <italic toggle="yes">p</italic>=0.775</td></tr><tr><td rowspan="1" colspan="1">Slow-wave sleep (%)</td><td rowspan="1" colspan="1">23.89 (6.06), 19.67–28.20</td><td rowspan="1" colspan="1">24.26 (7.57), 18.46–32.06</td><td rowspan="1" colspan="1"><italic toggle="yes">t</italic>=0.13, <italic toggle="yes">p</italic>=0.901</td></tr><tr><td rowspan="1" colspan="1">Rapid eye movement sleep (min)</td><td rowspan="1" colspan="1">116.10 (23.85), 90.75–129.88</td><td rowspan="1" colspan="1">123.00 (37.52), 94.00–156.75</td><td rowspan="1" colspan="1"><italic toggle="yes">t</italic>=0.52, <italic toggle="yes">p</italic>=0.612</td></tr><tr><td rowspan="1" colspan="1">Rapid eye movement sleep (%)</td><td rowspan="1" colspan="1">26.39 (4.69), 21.27–29.70</td><td rowspan="1" colspan="1">27.08 (7.70), 21.66–34.00</td><td rowspan="1" colspan="1"><italic toggle="yes">t</italic>=0.25, <italic toggle="yes">p</italic>=0.802</td></tr><tr><td colspan="4" align="center" rowspan="1"><bold>Circadian Misalignment Protocol</bold> (Daytime sleep)</td></tr><tr><td rowspan="1" colspan="1">Scheduled sleep opportunity with actigraphy and PSG (h)</td><td rowspan="1" colspan="1">16</td><td rowspan="1" colspan="1">8</td><td rowspan="1" colspan="1"/></tr><tr><td rowspan="1" colspan="1">PSG total sleep time/day (min)</td><td rowspan="1" colspan="1">386.46 (44.45), 357.63–417.50</td><td rowspan="1" colspan="1">368.82 (86.26), 273.50–451.00</td><td rowspan="1" colspan="1"><italic toggle="yes">t</italic>=0.65, <italic toggle="yes">p</italic>=0.526</td></tr><tr><td rowspan="1" colspan="1">NREM light sleep (N1 and N2; min)</td><td rowspan="1" colspan="1">190.83 (31.54), 163.50–212.25</td><td rowspan="1" colspan="1">178.05 (56.92), 112.00–218.00</td><td rowspan="1" colspan="1"><italic toggle="yes">t</italic>=0.70, <italic toggle="yes">p</italic>=0.495</td></tr><tr><td rowspan="1" colspan="1">NREM light sleep (N1 and N2; %)</td><td rowspan="1" colspan="1">49.68 (8.13), 42.34–55.52</td><td rowspan="1" colspan="1">47.75 (7.49), 46.37–53.34</td><td rowspan="1" colspan="1"><italic toggle="yes">t</italic>=0.60, <italic toggle="yes">p</italic>=0.554</td></tr><tr><td rowspan="1" colspan="1">Slow-wave sleep (min)</td><td rowspan="1" colspan="1">109.31 (27.50), 89.13–130.88</td><td rowspan="1" colspan="1">92.50 (30.80), 62.50–116.00</td><td rowspan="1" colspan="1"><italic toggle="yes">t</italic>=1.41, <italic toggle="yes">p</italic>=0.172</td></tr><tr><td rowspan="1" colspan="1">Slow-wave sleep (%)</td><td rowspan="1" colspan="1">28.16 (5.75), 25.00–31.60</td><td rowspan="1" colspan="1">25.51 (7.25), 20.39–29.98</td><td rowspan="1" colspan="1"><italic toggle="yes">t</italic>=1.00, <italic toggle="yes">p</italic>=0.328</td></tr><tr><td rowspan="1" colspan="1">Rapid eye movement sleep (min)</td><td rowspan="1" colspan="1">86.33 (28.47), 70.38–111.25</td><td rowspan="1" colspan="1">98.27 (29.24), 71.50–124.50</td><td rowspan="1" colspan="1"><italic toggle="yes">t</italic>=1.01, <italic toggle="yes">p</italic>=0.323</td></tr><tr><td rowspan="1" colspan="1">Rapid eye movement sleep (%)</td><td rowspan="1" colspan="1">22.16 (5.92), 18.85–26.35</td><td rowspan="1" colspan="1">26.74 (4.76), 25.59–30.12</td><td rowspan="1" colspan="1"><italic toggle="yes">t</italic>=2.06, <italic toggle="yes">p</italic>=0.051</td></tr></tbody></table><table-wrap-foot><fn id="tfn0001"><p><bold>Notes</bold>: Data presented as n (%) or mean (standard deviation), interquartile ranges. Each scheduled sleep opportunity episode was 8 hours.</p></fn><fn id="tfn0002"><p><bold>Abbreviations</bold>: NREM, non-rapid eye movement; PSG, polysomnography.</p></fn></table-wrap-foot></table-wrap></p>
+      </sec>
+      <sec id="s0004-s2002">
+        <title>Epoch-by-Epoch Analysis</title>
+        <p><underline><ext-link xlink:href="https://www.dovepress.com/get_supplementary_file.php?f=373107.docx" ext-link-type="uri">Supplemental Table 1</ext-link></underline> and <xref rid="f0002" ref-type="fig">Figure 2</xref> present the epoch-by-epoch analysis results for scheduled sleep episodes. <underline><ext-link xlink:href="https://www.dovepress.com/get_supplementary_file.php?f=373107.docx" ext-link-type="uri">Supplemental Table 2</ext-link></underline> presents the number of epochs scored as sleep or wake.
+<fig position="float" id="f0002" fig-type="figure"><label>Figure 2</label><caption><p>(<bold>A</bold>) Sensitivity, (<bold>B</bold>) specificity, and (<bold>C</bold>) F1 score comparison of actigraphy-based sleep scoring algorithms for scheduled sleep episodes. Each circle represents the value from an individual study protocol of a participant. The horizontal lines represent the mean and 1 standard deviation above/below the mean. *Indicates <italic toggle="yes">p</italic>&lt;0.05.</p></caption><graphic xlink:href="NSS-14-1801-g0002" content-type="print-only" position="float"/></fig></p>
+        <p>Model 1 showed a significant difference in sensitivity across algorithms (<italic toggle="yes">F</italic>=248.46, <italic toggle="yes">p</italic>&lt;0.001), no significant difference in sensitivity between nighttime and daytime sleep (<italic toggle="yes">F</italic>=2.41, <italic toggle="yes">p</italic>=0.122), and no significant interaction effect on sensitivity between protocol and algorithms (<italic toggle="yes">F</italic>=1.28, <italic toggle="yes">p</italic>=0.285). Post-hoc analyses showed that Cole-Kripke yielded lower sensitivity than Actiware with different thresholds (<italic toggle="yes">p</italic>s&lt;0.05), and Actiware (low) yielded lower sensitivity than Actiware (high) (<italic toggle="yes">p</italic>&lt;0.05). The difference in sensitivity across algorithms was also observed for each sleep stage (Light: <italic toggle="yes">F</italic>=234.88, <italic toggle="yes">p</italic>&lt;0.001; SWS: <italic toggle="yes">F</italic>=37.58, <italic toggle="yes">p</italic>&lt;0.001; REM: <italic toggle="yes">F</italic>=149.83, <italic toggle="yes">p</italic>&lt;0.001; <underline><ext-link xlink:href="https://www.dovepress.com/get_supplementary_file.php?f=373107.docx" ext-link-type="uri">Supplemental Table 3</ext-link></underline>; <xref rid="f0003" ref-type="fig">Figure 3</xref>). Cole-Kripke was the least sensitive in detecting sleep epochs during any sleep stage (<italic toggle="yes">p</italic>s&lt;0.05). During both light sleep and SWS, sensitivity was similar for nighttime and daytime sleep (light sleep: <italic toggle="yes">F</italic>=0.02, <italic toggle="yes">p</italic>=0.887; SWS: <italic toggle="yes">F</italic>=0.82, <italic toggle="yes">p</italic>=0.367), which was consistent across all algorithms (Protocol × Algorithm interactions for light sleep: <italic toggle="yes">F</italic>=0.003, <italic toggle="yes">p</italic>&gt;0.999; SWS: <italic toggle="yes">F</italic>=1.34, <italic toggle="yes">p</italic>=0.265). In contrast, within REM sleep, the algorithms were overall more sensitive for daytime than nighttime sleep (<italic toggle="yes">F</italic>=6.10, <italic toggle="yes">p</italic>=0.015), and this difference in sensitivity was similar across algorithms (Protocol × Algorithm interaction: <italic toggle="yes">F</italic>=2.12, <italic toggle="yes">p</italic>=0.100). Furthermore, there was no difference in activity counts per epoch between circadian alignment and misalignment protocols during wakefulness, NREM light sleep, or SWS (<underline><ext-link xlink:href="https://www.dovepress.com/get_supplementary_file.php?f=373107.docx" ext-link-type="uri">Supplemental Table 4</ext-link></underline>), but activity counts were higher during nighttime than daytime REM sleep (<italic toggle="yes">p</italic>=0.010). During REM sleep, higher activity counts per epoch were associated with lower sensitivity in all algorithms (<italic toggle="yes">p</italic>s&lt;0.001).
+<fig position="float" id="f0003" fig-type="figure"><label>Figure 3</label><caption><p>Comparison of sensitivity of actigraphy-based sleep scoring algorithms in detecting sleep during (<bold>A</bold>) light sleep (ie, N1 and N2), (<bold>B</bold>) slow-wave sleep (N3), and (<bold>C</bold>) REM sleep stages. Each circle represents the value from an individual study protocol of a participant. The horizontal lines represent the mean and 1 standard deviation above/below the mean. *<italic toggle="yes">p</italic>&lt;0.05. *Indicates <italic toggle="yes">p</italic>&lt;0.05.</p></caption><graphic xlink:href="NSS-14-1801-g0003" content-type="print-only" position="float"/><attrib><bold>Abbreviation</bold>: REM, rapid eye movement.</attrib></fig></p>
+        <p>Specificity was lower for daytime than nighttime sleep (<italic toggle="yes">F</italic>=8.37, <italic toggle="yes">p</italic>=0.004), differed across algorithms (<italic toggle="yes">F</italic>=124.05, <italic toggle="yes">p</italic>&lt;0.001), and showed no Protocol × Algorithm interaction (<italic toggle="yes">F</italic>=0.59, <italic toggle="yes">p</italic>=0.622). Post-hoc analyses revealed that specificity was the highest in Cole-Kripke, and it decreased as the Actiware threshold increased from low to high (all pairwise <italic toggle="yes">p</italic>s&lt;0.05). To explore the factors that contributed to the difference in specificity between daytime and nighttime sleep, we further examined those PSG-based wake epochs within sleep episodes (<underline><ext-link xlink:href="https://www.dovepress.com/get_supplementary_file.php?f=373107.docx" ext-link-type="uri">Supplemental Table 4</ext-link></underline>). We found that, despite longer duration of wake bouts during daytime sleep, mean activity counts in each wake bout during daytime sleep were much lower than those during nighttime sleep (<italic toggle="yes">p</italic>&lt;0.001). In addition, lower activity accounts were associated with lower specificity within both daytime and nighttime sleep episodes for all algorithms (<italic toggle="yes">p</italic>s&lt;0.001).</p>
+        <p>F1 differed across algorithms (<italic toggle="yes">F</italic>=65.72, <italic toggle="yes">p</italic>&lt;0.001; <underline><ext-link xlink:href="https://www.dovepress.com/get_supplementary_file.php?f=373107.docx" ext-link-type="uri">Supplemental Table 1</ext-link></underline>; <xref rid="f0002" ref-type="fig">Figure 2C</xref>) and the difference appeared to depend on scheduled sleep time (Protocol × Algorithm interaction: <italic toggle="yes">F</italic>=4.96, <italic toggle="yes">p</italic>=0.003). Post-hoc analyses showed that Cole-Kripke yielded lower F1 than Actiware with different thresholds for both daytime and nighttime sleep (<italic toggle="yes">p</italic>s&lt;0.05), F1 of Cole-Kripke showed an improving trend for scoring daytime sleep, and F1 of Actiware showed an improving trend for scoring nighttime sleep. Consistently, the difference in F1 between Cole-Kripke and Actiware was more pronounced for nighttime sleep.</p>
+      </sec>
+      <sec id="s0004-s2003">
+        <title>Scheduled Sleep vs 24-Hour Analysis Window</title>
+        <p>Overall specificity increased when using 24-h time windows as compared to that based on scheduled sleep episodes (<italic toggle="yes">F</italic>=49.18, <italic toggle="yes">p</italic>&lt;0.001; <xref rid="f0004" ref-type="fig">Figure 4A</xref>). This effect was mainly driven by Actiware rather than Cole-Kripke (Analysis Window × Algorithm interaction: <italic toggle="yes">F</italic>=5.57, <italic toggle="yes">p</italic>=0.001), ie, Actiware had improved specificity for 24-hour analysis window than scheduled sleep episodes (<italic toggle="yes">p</italic>s&lt;0.05), while no improvement was observed in Cole-Kripke (<italic toggle="yes">p</italic>&gt;0.05). Additionally, the difference in specificity between 24-hour and scheduled sleep episodes was similar for daytime and nighttime sleep (Analysis Window × Protocol interaction: <italic toggle="yes">F</italic>=1.49, <italic toggle="yes">p</italic>=0.223; Analysis Window × Algorithm × Protocol three-way interaction: <italic toggle="yes">F</italic>=0.22, <italic toggle="yes">p</italic>=0.882). Though the change of specificity was different for different algorithms when using 24-h windows, Cole-Kripke still had the highest specificity and Actiware (high) had the lowest specificity for both nighttime and daytime sleep.
+<fig position="float" id="f0004" fig-type="figure"><label>Figure 4</label><caption><p>(<bold>A</bold>) Specificity and (<bold>B</bold>) F1 score comparison of actigraphy-based sleep scoring algorithms using data during scheduled sleep episodes and using 24-h data. Each circle represents the value from an individual study Protocol of a participant. The horizontal lines represent the mean and 1 standard deviation above/below the mean. *Indicates <italic toggle="yes">p</italic>&lt;0.05.</p></caption><graphic xlink:href="NSS-14-1801-g0004" content-type="print-only" position="float"/></fig></p>
+        <p>F1 score decreased when using data across 24 h as compared to that using data during scheduled sleep episodes (<italic toggle="yes">F</italic>=789.19, <italic toggle="yes">p</italic>&lt;0.001). This decrease in F1 was observed in all algorithms (<italic toggle="yes">p</italic>s&lt;0.05), but it was larger in Actiware than Cole-Kripke (Analysis Window × Algorithm interaction: <italic toggle="yes">F</italic>=44.74, <italic toggle="yes">p</italic>&lt;0.001; <xref rid="f0004" ref-type="fig">Figure 4B</xref>). Protocol (daytime/nighttime sleep) had no significant influences on these changes in F1 score (Analysis Window × Protocol interaction: <italic toggle="yes">F</italic>=0.28, <italic toggle="yes">p</italic>=0.594; Analysis Window × Algorithm × Protocol three-way interaction: <italic toggle="yes">F</italic>=0.07, <italic toggle="yes">p</italic>=0.974).</p>
+      </sec>
+      <sec id="s0004-s2004">
+        <title>Summary Sleep Parameters</title>
+        <p>Complementary to the epoch-by-epoch analyses, we examined whether TST scored by actigraphy algorithms agreed with TST measured by PSG. As shown in <xref rid="t0002" ref-type="table">Table 2</xref> and <xref rid="f0005" ref-type="fig">Figure 5</xref>, during the scheduled sleep episodes, Cole-Kripke agreed with PSG poorly (ICC = 0.29) for nighttime sleep and moderately (ICC = 0.57) for daytime sleep (<underline><ext-link xlink:href="https://www.dovepress.com/get_supplementary_file.php?f=373107.docx" ext-link-type="uri">Supplemental Figure 1A</ext-link></underline> and <underline><ext-link xlink:href="https://www.dovepress.com/get_supplementary_file.php?f=373107.docx" ext-link-type="uri">B</ext-link></underline>). Actiware (low) showed moderate agreement with PSG for nighttime sleep (ICC = 0.65) and poor agreement for daytime sleep (ICC = 0.49; <underline><ext-link xlink:href="https://www.dovepress.com/get_supplementary_file.php?f=373107.docx" ext-link-type="uri">Supplemental Figure 1C</ext-link></underline> and <underline><ext-link xlink:href="https://www.dovepress.com/get_supplementary_file.php?f=373107.docx" ext-link-type="uri">D</ext-link></underline>). Actiware (medium) scored nighttime sleep with moderate agreement (ICC = 0.72) and daytime sleep with poor agreement with PSG (ICC = 0.47; <underline><ext-link xlink:href="https://www.dovepress.com/get_supplementary_file.php?f=373107.docx" ext-link-type="uri">Supplemental Figure 1E</ext-link></underline> and <underline><ext-link xlink:href="https://www.dovepress.com/get_supplementary_file.php?f=373107.docx" ext-link-type="uri">F</ext-link></underline>). Actiware (high) showed moderate agreement with PSG for nighttime (ICC = 0.66) and poor agreement for daytime sleep (ICC = 0.38; <underline><ext-link xlink:href="https://www.dovepress.com/get_supplementary_file.php?f=373107.docx" ext-link-type="uri">Supplemental Figure 1G</ext-link></underline> and <underline><ext-link xlink:href="https://www.dovepress.com/get_supplementary_file.php?f=373107.docx" ext-link-type="uri">H</ext-link></underline>). In summary, Cole-Kripke underestimated TST for both nighttime and daytime sleep (<xref rid="t0002" ref-type="table">Table 2</xref>). Actiware (medium) showed the least bias and highest agreement with PSG for nighttime sleep; Actiware (low) showed the least bias and Cole-Kripke showed highest agreement with PSG for daytime sleep.<table-wrap position="float" id="t0002" orientation="landscape"><label>Table 2</label><caption><p>Agreement Between the Cole-Kripke Algorithm, Actiware, and PSG on Total Sleep Time (TST)</p></caption><table frame="hsides" rules="groups"><thead><tr><th colspan="2" rowspan="1"/><th align="center" colspan="3" rowspan="1">Scheduled Sleep Episodes</th><th align="center" colspan="3" rowspan="1">24-Hour Periods</th><th align="center" rowspan="1" colspan="1">16-h Non-Scheduled Sleep Periods</th></tr><tr><th rowspan="1" colspan="1"/><th rowspan="1" colspan="1">PSG TST Min/Night (Mean, SD, Interquartile Range)</th><th rowspan="1" colspan="1">Bias (Mean, SD)</th><th rowspan="1" colspan="1">Absolute Difference (Mean, SD)</th><th rowspan="1" colspan="1">PSG-Actigraphy Agreement (ICC, 95% CI)</th><th rowspan="1" colspan="1">Bias (Mean, SD)</th><th rowspan="1" colspan="1">Absolute Difference (Mean, SD)</th><th rowspan="1" colspan="1">PSG-Actigraphy Agreement (ICC, 95% CI)</th><th rowspan="1" colspan="1">Bias (Mean, SD)</th></tr></thead><tbody><tr><td colspan="9" rowspan="1"><bold>Circadian Alignment Protocol; Nighttime Sleep</bold></td></tr><tr><td rowspan="1" colspan="1">Cole-Kripke</td><td rowspan="1" colspan="1">444.25 (23.93), 434.50–463.13</td><td rowspan="1" colspan="1">−175.58 (75.18)***</td><td rowspan="1" colspan="1">175.58 (75.18)***</td><td rowspan="1" colspan="1">0.29 (−0.15, 0.64)</td><td rowspan="1" colspan="1">−103.18 (106.71)***</td><td rowspan="1" colspan="1">118.49 (88.45)***</td><td rowspan="1" colspan="1">0.22 (−0.23, 0.59)</td><td rowspan="1" colspan="1">72.40 (39.28)***</td></tr><tr><td rowspan="1" colspan="1">Actiware (low)</td><td rowspan="1" colspan="1">444.25 (23.93), 434.50–463.13</td><td rowspan="1" colspan="1">−27.85 (23.32)***</td><td rowspan="1" colspan="1">29.70 (20.77)***</td><td rowspan="1" colspan="1">0.65 (0.31, 0.84)</td><td rowspan="1" colspan="1">232.08 (109.93)***</td><td rowspan="1" colspan="1">233.42 (106.92)***</td><td rowspan="1" colspan="1">0.18 (−0.27, 0.56)</td><td rowspan="1" colspan="1">259.93 (94.96)***</td></tr><tr><td rowspan="1" colspan="1">Actiware (medium)</td><td rowspan="1" colspan="1">444.25 (23.93), 434.50–463.13</td><td rowspan="1" colspan="1">−5.99 (17.75)</td><td rowspan="1" colspan="1">14.08 (12.03)***</td><td rowspan="1" colspan="1">0.72 (0.42, 0.87)</td><td rowspan="1" colspan="1">332.99 (116.56)***</td><td rowspan="1" colspan="1">332.99 (116.56)***</td><td rowspan="1" colspan="1">0.16 (−0.28, 0.55)</td><td rowspan="1" colspan="1">338.98 (110.14)***</td></tr><tr><td rowspan="1" colspan="1">Actiware (high)</td><td rowspan="1" colspan="1">444.25 (23.93), 434.50–463.13</td><td rowspan="1" colspan="1">11.63 (17.08)**</td><td rowspan="1" colspan="1">14.70 (14.38)***</td><td rowspan="1" colspan="1">0.66 (0.32, 0.84)</td><td rowspan="1" colspan="1">467.96 (120.45)***</td><td rowspan="1" colspan="1">467.96 (120.45)***</td><td rowspan="1" colspan="1">0.16 (−0.28, 0.54)</td><td rowspan="1" colspan="1">456.33 (118.05)***</td></tr><tr><td colspan="9" rowspan="1"><bold>Circadian Misalignment Protocol; Daytime Sleep</bold></td></tr><tr><td rowspan="1" colspan="1">Cole-Kripke</td><td rowspan="1" colspan="1">378.38 (65.93), 334.50–423.69</td><td rowspan="1" colspan="1">−124.98 (65.72)***</td><td rowspan="1" colspan="1">124.98 (65.72)***</td><td rowspan="1" colspan="1">0.57 (0.23, 0.79)</td><td rowspan="1" colspan="1">−50.21 (79.00)**</td><td rowspan="1" colspan="1">74.90 (54.93)***</td><td rowspan="1" colspan="1">0.49 (0.12, 0.74)</td><td rowspan="1" colspan="1">74.77 (28.80)***</td></tr><tr><td rowspan="1" colspan="1">Actiware (low)</td><td rowspan="1" colspan="1">378.38 (65.93), 334.50–423.69</td><td rowspan="1" colspan="1">17.75 (57.29)</td><td rowspan="1" colspan="1">47.75 (35.09)***</td><td rowspan="1" colspan="1">0.49 (0.11, 0.74)</td><td rowspan="1" colspan="1">286.13 (116.62)***</td><td rowspan="1" colspan="1">286.13 (116.62)***</td><td rowspan="1" colspan="1">0.13 (−0.29, 0.50)</td><td rowspan="1" colspan="1">268.38 (75.74)***</td></tr><tr><td rowspan="1" colspan="1">Actiware (medium)</td><td rowspan="1" colspan="1">378.38 (65.93), 334.50–423.69</td><td rowspan="1" colspan="1">43.06 (55.27)***</td><td rowspan="1" colspan="1">55.08 (42.71)***</td><td rowspan="1" colspan="1">0.47 (0.09, 0.73)</td><td rowspan="1" colspan="1">387.71 (128.86)***</td><td rowspan="1" colspan="1">387.71 (128.86)***</td><td rowspan="1" colspan="1">0.06 (−0.35, 0.44)</td><td rowspan="1" colspan="1">344.65 (92.71)***</td></tr><tr><td rowspan="1" colspan="1">Actiware (high)</td><td rowspan="1" colspan="1">378.38 (65.93), 334.50–423.69</td><td rowspan="1" colspan="1">64.38 (56.43)***</td><td rowspan="1" colspan="1">65.33 (55.26)***</td><td rowspan="1" colspan="1">0.38 (−0.2, 0.68)</td><td rowspan="1" colspan="1">522.25 (141.82)***</td><td rowspan="1" colspan="1">522.25 (141.82)***</td><td rowspan="1" colspan="1">0.01 (−0.39, 0.41)</td><td rowspan="1" colspan="1">457.88 (109.41)***</td></tr></tbody></table><table-wrap-foot><fn id="tfn0003"><p><bold>Notes</bold>: Bias was computed by subtracting PSG-measured TST from TST scored by the Cole-Kripke or Actiware algorithm. Positive values indicate that actigraphy-based algorithm overestimated TST; negative values indicate that actigraphy-based algorithm underestimated TST. **Indicates p&lt;0.01, ***Indicates p&lt;0.001.</p></fn><fn id="tfn0004"><p><bold>Abbreviations</bold>: ICC, intraclass correlation coefficient; PSG, polysomnography; TST, total sleep time.</p></fn></table-wrap-foot></table-wrap>
+<fig position="float" id="f0005" fig-type="figure"><label>Figure 5</label><caption><p>Agreement in total sleep time during scheduled sleep episodes between PSG- and (<bold>A</bold>) Cole-Kripke algorithm, (<bold>B</bold>) Actiware with low threshold, (<bold>C</bold>) Actiware with medium threshold, and (<bold>D</bold>) Actiware with high threshold. The dashed lines represent perfect agreement.</p></caption><graphic xlink:href="NSS-14-1801-g0005" content-type="print-only" position="float"/><attrib><bold>Abbreviation</bold>: TST, total sleep time.</attrib></fig></p>
+        <p>Next, during 24-hour time windows, all algorithms showed poor agreement with PSG for both nighttime and daytime sleep (ICCs &lt;0.50; <xref rid="t0002" ref-type="table">Table 2</xref>; <xref rid="f0006" ref-type="fig">Figure 6</xref>; <underline><ext-link xlink:href="https://www.dovepress.com/get_supplementary_file.php?f=373107.docx" ext-link-type="uri">Supplemental Figure 2</ext-link></underline>), but Cole-Kripke yielded the least bias. All Actiware thresholds overestimated TST, with greater overestimation in higher thresholds.
+<fig position="float" id="f0006" fig-type="figure"><label>Figure 6</label><caption><p>Agreement in total sleep time during 24-hour periods between PSG- and (<bold>A</bold>) Cole-Kripke algorithm, (<bold>B</bold>) Actiware with low threshold, (<bold>C</bold>) Actiware with medium threshold, and (<bold>D</bold>) Actiware with high threshold. The dashed lines represent perfect agreement.</p></caption><graphic xlink:href="NSS-14-1801-g0006" content-type="print-only" position="float"/><attrib><bold>Abbreviation</bold>: TST, total sleep time.</attrib></fig></p>
+        <p>As shown in <underline><ext-link xlink:href="https://www.dovepress.com/get_supplementary_file.php?f=373107.docx" ext-link-type="uri">Supplemental Table 6</ext-link></underline>, all algorithms yielded poor agreement with PSG in scoring WASO for nighttime and daytime sleep (ICCs &lt;0.50).</p>
+      </sec>
+    </sec>
+    <sec id="s0005">
+      <title>Discussion</title>
+      <p>Using simulated shift work data collected from the same individuals with both daytime and nighttime sleep, we compared the performance of Cole-Kripke algorithm and Actiware software in identifying sleep/wake epochs and achieved three objectives.</p>
+      <p>For objective 1 (nighttime vs daytime sleep), overall sensitivity for both algorithms was similar between daytime and nighttime except that sensitivity in detecting sleep epochs within REM sleep was higher for daytime sleep than that for nighttime sleep. The lower sensitivity during nighttime for REM sleep may be explained by greater activity counts across REM epochs during nighttime than those of daytime because actigraphy-based sleep scoring is mainly based on activity levels (ie, low levels for sleep). Different from sensitivity, specificity was lower for daytime sleep, which is consistent for both algorithms. This finding is consistent with previous studies. For example, using a within-subject design, Paquet found that specificity of Actiware (as compared to PSG) was lower for two daytime recovery sleep episodes than that during a nocturnal sleep episode;<xref rid="cit0045" ref-type="bibr">45</xref> and another actigraphy study of a diverse sample of participants showed lower specificity of the Cole-Kripke algorithm during daytime sleep in night workers as compared to that during nighttime sleep in sleep-restricted individuals.<xref rid="cit0046" ref-type="bibr">46</xref> We showed that the daytime-nighttime difference in specificity was caused by lower mean activity levels within wake bouts during daytime sleep that led to lower specificity despite longer duration of wake bouts during daytime sleep. Regarding TST, we found that Actiware (medium) showed the least bias for nighttime sleep and Actiware (low) showed the least bias for daytime sleep. Though the Cole-Kripke algorithm showed the highest agreement with PSG for daytime sleep, it showed significant bias. In conjunction with previous studies showing the least bias of Actiware low threshold (compared to medium/high) in estimation of TST among patients with sleep disorders,<xref rid="cit0007" ref-type="bibr">7</xref>,<xref rid="cit0010" ref-type="bibr">10</xref> Actiware low-threshold (rather than medium/high) should be recommended for estimating TST when sleep may be disrupted.</p>
+      <p>Our objective 2 was to compare the Cole-Kripke algorithm with Actiware. The Cole-Kripke algorithm yielded lower sensitivity, higher specificity, and lower F1 scores than Actiware (all three thresholds). Our findings on Actiware (ie, high sensitivity and low specificity) were consistent with past observations.<xref rid="cit0006" ref-type="bibr">6</xref> However, our findings on the Cole-Kripke algorithm were different from past observations of high sensitivity, low specificity, and accurate estimation of TST.<xref rid="cit0013" ref-type="bibr">13</xref>,<xref rid="cit0015" ref-type="bibr">15</xref>,<xref rid="cit0019" ref-type="bibr">19</xref> The differences may be caused by different accelerometer devices (eg, Motionlogger Actigraph,<xref rid="cit0013" ref-type="bibr">13</xref> Motionlogger Micro Watch Actigraph,<xref rid="cit0015" ref-type="bibr">15</xref> Mini Motionlogger Actigraph – Basic 32 C<xref rid="cit0019" ref-type="bibr">19</xref> vs Actiwatch Spectrum in this study) with different configurations to obtain activity counts (eg, zero-crossing mode<xref rid="cit0013" ref-type="bibr">13</xref>,<xref rid="cit0015" ref-type="bibr">15</xref>,<xref rid="cit0019" ref-type="bibr">19</xref> vs proportional integrated mode in this study), PSG scoring criteria (eg, standard criteria of Rechtschaffen and Kales<xref rid="cit0013" ref-type="bibr">13</xref>,<xref rid="cit0019" ref-type="bibr">19</xref> vs AASM guidelines in this study), populations (eg, middle-aged adults,<xref rid="cit0013" ref-type="bibr">13</xref> healthy young adults,<xref rid="cit0015" ref-type="bibr">15</xref>,<xref rid="cit0019" ref-type="bibr">19</xref> vs healthy shift workers and non-shift workers in this study), and/or the study environment (eg, at home<xref rid="cit0015" ref-type="bibr">15</xref> vs laboratory environment in this study).</p>
+      <p>Our objective 3 was to compare the algorithms’ performance between scheduled sleep episodes and 24-h time windows. For the Cole-Kripke algorithm, specificity was similar for scheduled sleep and 24-hour periods, but F1 was lower for 24-hour windows. For Actiware, specificity was higher but F1 was lower for 24-hour windows than scheduled sleep episodes. The improvement in specificity is likely due to the inclusion of more wake epochs with higher activity counts for 24-hour windows. Researchers and clinicians often employ different methods to assess sleep via actigraphy. For example, in some studies, actigraphy was collected continuously across multiple days and nights (eg, Gao et al 2019),<xref rid="cit0047" ref-type="bibr">47</xref> whereas in other studies, actigraphy was only collected during scheduled sleep episodes at night (eg, Alsaadi et al 2014;<xref rid="cit0011" ref-type="bibr">11</xref> common among studies that only used actigraphy for one night).<xref rid="cit0002" ref-type="bibr">2</xref> The proportion of sleep epochs across all available epochs would influence the estimation of specificity and accuracy of actigraphy-based algorithms, especially when participants were relatively sedentary. Therefore, limiting analyses to sleep episodes, for example via sleep diary, appears to improve the accuracy of sleep assessment.</p>
+      <p>Strengths of the current study include the diverse samples of non-shift workers and shift workers, within-subject design for both circadian alignment and misalignment protocols (nighttime and daytime sleep), and the comparison of algorithms using the same data sets. In a laboratory environment, we were also able to closely monitor sleep/wake using both video and PSG while minimizing potential confounders during simulated shift work (eg, differences in sleep environment). The compromise of both algorithms in focusing on only one performance measure (either sensitivity or specificity) while sacrificing the other calls for the development of new approaches that can balance and/or improve both measures. One of the limitations is that all participants were young and healthy. The performance of the algorithms should also be tested in older populations and clinical populations with sleep, circadian, or movement disorders and during sedentary periods. We combined non-shift workers and shift workers in our experiments as they were demographically similar, but future studies with sufficient sample sizes should investigate the populations separately. Moreover, in the current study, the scheduled sleep opportunities were regular across days and the duration of each sleep opportunity was 8 hours during daytime/nighttime while no spontaneous sleep was allowed outside of this window. Our findings based on 8-h scheduled sleep episodes in the laboratory may not be generalizable to short sleep episodes (eg, napping). For instance, Cole-Kripke’s re-scoring rules should be reconsidered for detection of short naps. Given that naps are linked to diseases (eg, dementia),<xref rid="cit0048" ref-type="bibr">48</xref> algorithms and validation studies are needed on detecting naps via actiwatches to facilitate investigations of objective naps and diseases. Last, we only evaluated two actigraphy algorithms using activity counts collected with the Actiwatch Spectrum devices that automatically detect and exclude off-wrist periods.<xref rid="cit0049" ref-type="bibr">49</xref> Future studies are needed to examine other actigraphy-scoring algorithms (eg, the Sadeh algorithm)<xref rid="cit0050" ref-type="bibr">50</xref> or other sleep-monitoring devices (eg, other wristband accelerometers or non-wearables)<xref rid="cit0051" ref-type="bibr">51</xref> especially those without on-wrist/in-use detection.</p>
+      <p>In conclusion, across Actiware and Cole-Kripke algorithms, sensitivity of sleep scoring was similar between daytime and nighttime sleep and specificity was lower for daytime sleep. Actiware outperformed the Cole-Kripke algorithm in sleep scoring of actigraphic recordings for both daytime and nighttime sleep episodes scheduled in laboratory. On average, Actiware with low-threshold yielded the least bias in estimating daytime TST and Actiware with medium-threshold yielded the least bias in estimating nighttime TST. Additionally, using sleep diary and limiting the actigraphy-based analyses to known periods in bed should improve sleep assessment.</p>
+    </sec>
+  </body>
+  <back>
+    <sec id="s0006">
+      <title>Abbreviations</title>
+      <p>C-K, Cole-Kripke; ECG, electrocardiography; EEG, electroencephalography; EOG, electrooculography; EMG, electromyography; ICC, intraclass correlation coefficient; NREM, non-rapid eye movement; PPV, positive predictive value; PSG, polysomnography; REM, rapid eye movement; SWS, slow-wave sleep; TST, total sleep time.</p>
+    </sec>
+    <sec sec-type="COI-statement" id="s0007">
+      <title>Disclosure</title>
+      <p>C.J.M is an employee of and holds stock/stock options in Biogen. This employment is not related to the current work. CG reports grants from NIH, BrightFocus Foundation, and National Institute on Aging, during the conduct of the study. PL reports grants from The BrightFocus Foundation and grants from NIH, outside the submitted work. FAJLS serves on the Board of Directors for the Sleep Research Society and has received consulting fees from the University of Alabama at Birmingham. FAJLS interests were reviewed and managed by Brigham and Women’s Hospital and Partners HealthCare in accordance with their conflict of interest policies. FAJLS consultancies are not related to the current work. The authors report no other conflicts of interest in this work.</p>
+    </sec>
+    <ref-list>
+      <title>References</title>
+      <ref id="cit0001">
+        <label>1.</label>
+        <mixed-citation publication-type="book"><string-name><surname>Stone</surname>
+<given-names>KL</given-names></string-name>, <string-name><surname>Ancoli-Israel</surname>
+<given-names>S</given-names></string-name>. <part-title>Actigraphy</part-title>. In: <source><italic toggle="yes">Principles and Practice of Sleep Medicine</italic></source>. <edition>6th</edition> ed. <publisher-name>Elsevier</publisher-name>; <year>2016</year>:<fpage>1671</fpage>–<lpage>1678</lpage>.</mixed-citation>
+      </ref>
+      <ref id="cit0002">
+        <label>2.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Conley</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Knies</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Batten</surname>
+<given-names>J</given-names></string-name>, et al. <article-title>Agreement between actigraphic and polysomnographic measures of sleep in adults with and without chronic conditions: a systematic review and meta-analysis</article-title>. <source><italic toggle="yes">Sleep Med Rev</italic></source>. <year>2019</year>;<volume>46</volume>:<fpage>151</fpage>–<lpage>160</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.smrv.2019.05.001</pub-id><pub-id pub-id-type="pmid">31154154</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0003">
+        <label>3.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Smith</surname>
+<given-names>MT</given-names></string-name>, <string-name><surname>McCrae</surname>
+<given-names>CS</given-names></string-name>, <string-name><surname>Cheung</surname>
+<given-names>J</given-names></string-name>, et al. <article-title>Use of actigraphy for the evaluation of sleep disorders and circadian rhythm sleep-wake disorders: an American Academy of Sleep Medicine clinical practice guideline</article-title>. <source><italic toggle="yes">J Clin Sleep Med</italic></source>. <year>2018</year>;<volume>14</volume>(<issue>7</issue>):<fpage>1231</fpage>–<lpage>1237</lpage>. doi:<pub-id pub-id-type="doi">10.5664/jcsm.7230</pub-id><pub-id pub-id-type="pmid">29991437</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0004">
+        <label>4.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Agnew</surname>
+<given-names>HW</given-names></string-name>, <string-name><surname>Webb</surname>
+<given-names>WB</given-names></string-name>, <string-name><surname>Williams</surname>
+<given-names>RL</given-names></string-name>. <article-title>The first night effect: an EEG study of sleep</article-title>. <source><italic toggle="yes">Psychophysiology</italic></source>. <year>1966</year>;<volume>2</volume>(<issue>3</issue>):<fpage>263</fpage>–<lpage>266</lpage>. doi:<pub-id pub-id-type="doi">10.1111/j.1469-8986.1966.tb02650.x</pub-id><pub-id pub-id-type="pmid">5903579</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0005">
+        <label>5.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Morgenthaler</surname>
+<given-names>T</given-names></string-name>, <string-name><surname>Alessi</surname>
+<given-names>C</given-names></string-name>, <string-name><surname>Friedman</surname>
+<given-names>L</given-names></string-name>, et al. <article-title>Practice parameters for the use of actigraphy in the assessment of sleep and sleep disorders: an update for 2007</article-title>. <source><italic toggle="yes">Sleep</italic></source>. <year>2007</year>;<volume>30</volume>(<issue>4</issue>):<fpage>519</fpage>–<lpage>529</lpage>. doi:<pub-id pub-id-type="doi">10.1093/sleep/30.4.519</pub-id><pub-id pub-id-type="pmid">17520797</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0006">
+        <label>6.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Smith</surname>
+<given-names>MT</given-names></string-name>, <string-name><surname>McCrae</surname>
+<given-names>CS</given-names></string-name>, <string-name><surname>Cheung</surname>
+<given-names>J</given-names></string-name>, et al. <article-title>Use of actigraphy for the evaluation of sleep disorders and circadian rhythm sleep-wake disorders: an American Academy of Sleep Medicine systematic review, meta-analysis, and GRADE assessment</article-title>. <source><italic toggle="yes">J Clin Sleep Med</italic></source>. <year>2018</year>;<volume>14</volume>(<issue>7</issue>):<fpage>1209</fpage>–<lpage>1230</lpage>. doi:<pub-id pub-id-type="doi">10.5664/jcsm.7228</pub-id><pub-id pub-id-type="pmid">29991438</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0007">
+        <label>7.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Taibi</surname>
+<given-names>DM</given-names></string-name>, <string-name><surname>Landis</surname>
+<given-names>CA</given-names></string-name>, <string-name><surname>Vitiello</surname>
+<given-names>MV</given-names></string-name>. <article-title>Concordance of polysomnographic and actigraphic measurement of sleep and wake in older women with insomnia</article-title>. <source><italic toggle="yes">J Clin Sleep Med</italic></source>. <year>2013</year>;<volume>9</volume>(<issue>3</issue>):<fpage>217</fpage>–<lpage>225</lpage>. doi:<pub-id pub-id-type="doi">10.5664/jcsm.2482</pub-id><pub-id pub-id-type="pmid">23493815</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0008">
+        <label>8.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Beecroft</surname>
+<given-names>JM</given-names></string-name>, <string-name><surname>Ward</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Younes</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Crombach</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Smith</surname>
+<given-names>O</given-names></string-name>, <string-name><surname>Hanly</surname>
+<given-names>PJ</given-names></string-name>. <article-title>Sleep monitoring in the intensive care unit: comparison of nurse assessment, actigraphy and polysomnography</article-title>. <source><italic toggle="yes">Intensive Care Med</italic></source>. <year>2008</year>;<volume>34</volume>(<issue>11</issue>):<fpage>2076</fpage>–<lpage>2083</lpage>. doi:<pub-id pub-id-type="doi">10.1007/s00134-008-1180-y</pub-id><pub-id pub-id-type="pmid">18521566</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0009">
+        <label>9.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Chakar</surname>
+<given-names>B</given-names></string-name>, <string-name><surname>Senny</surname>
+<given-names>F</given-names></string-name>, <string-name><surname>Poirrier</surname>
+<given-names>AL</given-names></string-name>, <string-name><surname>Cambron</surname>
+<given-names>L</given-names></string-name>, <string-name><surname>Fanielle</surname>
+<given-names>J</given-names></string-name>, <string-name><surname>Poirrier</surname>
+<given-names>R</given-names></string-name>. <article-title>Validation of midsagittal jaw movements to measure sleep in healthy adults by comparison with actigraphy and polysomnography</article-title>. <source><italic toggle="yes">Sleep Sci</italic></source>. <year>2017</year>;<volume>10</volume>(<issue>3</issue>):<fpage>122</fpage>. doi:<pub-id pub-id-type="doi">10.5935/1984-0063.20170021</pub-id><pub-id pub-id-type="pmid">29410741</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0010">
+        <label>10.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Kushida</surname>
+<given-names>CA</given-names></string-name>, <string-name><surname>Chang</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Gadkary</surname>
+<given-names>C</given-names></string-name>, <string-name><surname>Guilleminault</surname>
+<given-names>C</given-names></string-name>, <string-name><surname>Carrillo</surname>
+<given-names>O</given-names></string-name>, <string-name><surname>Dement</surname>
+<given-names>WC</given-names></string-name>. <article-title>Comparison of actigraphic, polysomnographic, and subjective assessment of sleep parameters in sleep-disordered patients</article-title>. <source><italic toggle="yes">Sleep Med</italic></source>. <year>2001</year>;<volume>2</volume>(<issue>5</issue>):<fpage>389</fpage>–<lpage>396</lpage>. doi:<pub-id pub-id-type="doi">10.1016/S1389-9457(00)00098-8</pub-id><pub-id pub-id-type="pmid">14592388</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0011">
+        <label>11.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Alsaadi</surname>
+<given-names>SM</given-names></string-name>, <string-name><surname>McAuley</surname>
+<given-names>JH</given-names></string-name>, <string-name><surname>Hush</surname>
+<given-names>JM</given-names></string-name>, et al. <article-title>Assessing sleep disturbance in low back pain: the validity of portable instruments</article-title>. <source><italic toggle="yes">PLoS One</italic></source>. <year>2014</year>;<volume>9</volume>(<issue>4</issue>):<fpage>e95824</fpage>. doi:<pub-id pub-id-type="doi">10.1371/journal.pone.0095824</pub-id><pub-id pub-id-type="pmid">24763506</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0012">
+        <label>12.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Cellini</surname>
+<given-names>N</given-names></string-name>, <string-name><surname>Buman</surname>
+<given-names>MP</given-names></string-name>, <string-name><surname>McDevitt</surname>
+<given-names>EA</given-names></string-name>, <string-name><surname>Ricker</surname>
+<given-names>AA</given-names></string-name>, <string-name><surname>Mednick</surname>
+<given-names>SC</given-names></string-name>. <article-title>Direct comparison of two actigraphy devices with polysomnographically recorded naps in healthy young adults</article-title>. <source><italic toggle="yes">Chronobiol Int</italic></source>. <year>2013</year>;<volume>30</volume>(<issue>5</issue>):<fpage>691</fpage>–<lpage>698</lpage>. doi:<pub-id pub-id-type="doi">10.3109/07420528.2013.782312</pub-id><pub-id pub-id-type="pmid">23721120</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0013">
+        <label>13.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Cole</surname>
+<given-names>RJ</given-names></string-name>, <string-name><surname>Kripke</surname>
+<given-names>DF</given-names></string-name>, <string-name><surname>Gruen</surname>
+<given-names>W</given-names></string-name>, <string-name><surname>Mullaney</surname>
+<given-names>DJ</given-names></string-name>, <string-name><surname>Gillin</surname>
+<given-names>JC</given-names></string-name>. <article-title>Automatic sleep/wake identification from wrist activity</article-title>. <source><italic toggle="yes">Sleep</italic></source>. <year>1992</year>;<volume>15</volume>(<issue>5</issue>):<fpage>461</fpage>–<lpage>469</lpage>. doi:<pub-id pub-id-type="doi">10.1093/sleep/15.5.461</pub-id><pub-id pub-id-type="pmid">1455130</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0014">
+        <label>14.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Webster</surname>
+<given-names>JB</given-names></string-name>, <string-name><surname>Kripke</surname>
+<given-names>DF</given-names></string-name>, <string-name><surname>Messin</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Mullaney</surname>
+<given-names>DJ</given-names></string-name>, <string-name><surname>Wyborney</surname>
+<given-names>G</given-names></string-name>. <article-title>An activity-based sleep monitor system for ambulatory use</article-title>. <source><italic toggle="yes">Sleep</italic></source>. <year>1982</year>;<volume>5</volume>(<issue>4</issue>):<fpage>389</fpage>–<lpage>399</lpage>. doi:<pub-id pub-id-type="doi">10.1093/sleep/5.4.389</pub-id><pub-id pub-id-type="pmid">7163726</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0015">
+        <label>15.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Haghayegh</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Khoshnevis</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Smolensky</surname>
+<given-names>MH</given-names></string-name>, <string-name><surname>Diller</surname>
+<given-names>KR</given-names></string-name>, <string-name><surname>Castriotta</surname>
+<given-names>RJ</given-names></string-name>. <article-title>Performance comparison of different interpretative algorithms utilized to derive sleep parameters from wrist actigraphy data</article-title>. <source><italic toggle="yes">Chronobiol Int</italic></source>. <year>2019</year>;<volume>36</volume>(<issue>12</issue>):<fpage>1752</fpage>–<lpage>1760</lpage>. doi:<pub-id pub-id-type="doi">10.1080/07420528.2019.1679826</pub-id><pub-id pub-id-type="pmid">31658822</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0016">
+        <label>16.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Gu</surname>
+<given-names>C</given-names></string-name>, <string-name><surname>Brereton</surname>
+<given-names>N</given-names></string-name>, <string-name><surname>Schweitzer</surname>
+<given-names>A</given-names></string-name>, et al. <article-title>Metabolic effects of late dinner in healthy volunteers—a randomized crossover clinical trial</article-title>. <source><italic toggle="yes">J Clin Endocrinol Metab</italic></source>. <year>2020</year>;<volume>105</volume>(<issue>8</issue>):<fpage>2789</fpage>–<lpage>2802</lpage>. doi:<pub-id pub-id-type="doi">10.1210/clinem/dgaa354</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0017">
+        <label>17.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Widome</surname>
+<given-names>R</given-names></string-name>, <string-name><surname>Berger</surname>
+<given-names>AT</given-names></string-name>, <string-name><surname>Iber</surname>
+<given-names>C</given-names></string-name>, et al. <article-title>Association of delaying school start time with sleep duration, timing, and quality among adolescents</article-title>. <source><italic toggle="yes">JAMA Pediatr</italic></source>. <year>2020</year>;<volume>174</volume>(<issue>7</issue>):<fpage>697</fpage>–<lpage>704</lpage>. doi:<pub-id pub-id-type="doi">10.1001/jamapediatrics.2020.0344</pub-id><pub-id pub-id-type="pmid">32338727</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0018">
+        <label>18.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Jackson</surname>
+<given-names>CL</given-names></string-name>, <string-name><surname>Ward</surname>
+<given-names>JB</given-names></string-name>, <string-name><surname>Johnson</surname>
+<given-names>DA</given-names></string-name>, <string-name><surname>Sims</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Wilson</surname>
+<given-names>J</given-names></string-name>, <string-name><surname>Redline</surname>
+<given-names>S</given-names></string-name>. <article-title>Concordance between self-reported and actigraphy-assessed sleep duration among African-American adults: findings from the Jackson Heart Sleep Study</article-title>. <source><italic toggle="yes">Sleep</italic></source>. <year>2020</year>;<volume>43</volume>(<issue>3</issue>):<fpage>zsz246</fpage>. doi:<pub-id pub-id-type="doi">10.1093/sleep/zsz246</pub-id><pub-id pub-id-type="pmid">31616945</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0019">
+        <label>19.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>de Souza</surname>
+<given-names>L</given-names></string-name>, <string-name><surname>Benedito-Silva</surname>
+<given-names>AA</given-names></string-name>, <string-name><surname>Pires</surname>
+<given-names>MLN</given-names></string-name>, <string-name><surname>Poyares</surname>
+<given-names>D</given-names></string-name>, <string-name><surname>Tufik</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Calil</surname>
+<given-names>HM</given-names></string-name>. <article-title>Further validation of actigraphy for sleep studies</article-title>. <source><italic toggle="yes">Sleep</italic></source>. <year>2003</year>;<volume>26</volume>(<issue>1</issue>):<fpage>81</fpage>–<lpage>85</lpage>. doi:<pub-id pub-id-type="doi">10.1093/sleep/26.1.81</pub-id><pub-id pub-id-type="pmid">12627737</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0020">
+        <label>20.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Lo</surname>
+<given-names>JC</given-names></string-name>, <string-name><surname>Leong</surname>
+<given-names>RL</given-names></string-name>, <string-name><surname>Ng</surname>
+<given-names>AS</given-names></string-name>, et al. <article-title>Cognitive effects of split and continuous sleep schedules in adolescents differ according to total sleep opportunity</article-title>. <source><italic toggle="yes">Sleep</italic></source>. <year>2020</year>;<volume>43</volume>(<issue>12</issue>):<fpage>zsaa129</fpage>. doi:<pub-id pub-id-type="doi">10.1093/sleep/zsaa129</pub-id><pub-id pub-id-type="pmid">32619240</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0021">
+        <label>21.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Kanady</surname>
+<given-names>JC</given-names></string-name>, <string-name><surname>Drummond</surname>
+<given-names>SP</given-names></string-name>, <string-name><surname>Mednick</surname>
+<given-names>SC</given-names></string-name>. <article-title>Actigraphic assessment of a polysomnographic-recorded nap: a validation study</article-title>. <source><italic toggle="yes">J Sleep Res</italic></source>. <year>2011</year>;<volume>20</volume>(<issue>1pt2</issue>):<fpage>214</fpage>–<lpage>222</lpage>. doi:<pub-id pub-id-type="doi">10.1111/j.1365-2869.2010.00858.x</pub-id><pub-id pub-id-type="pmid">20626612</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0022">
+        <label>22.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Littner</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Kushida</surname>
+<given-names>CA</given-names></string-name>, <string-name><surname>Anderson</surname>
+<given-names>WM</given-names></string-name>, et al. <article-title>Practice parameters for the role of actigraphy in the study of sleep and circadian rhythms: an update for 2002</article-title>. <source><italic toggle="yes">Sleep</italic></source>. <year>2003</year>;<volume>26</volume>(<issue>3</issue>):<fpage>337</fpage>–<lpage>341</lpage>. doi:<pub-id pub-id-type="doi">10.1093/sleep/26.3.337</pub-id><pub-id pub-id-type="pmid">12749556</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0023">
+        <label>23.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Maich</surname>
+<given-names>KH</given-names></string-name>, <string-name><surname>Lachowski</surname>
+<given-names>AM</given-names></string-name>, <string-name><surname>Carney</surname>
+<given-names>CE</given-names></string-name>. <article-title>Psychometric properties of the consensus sleep diary in those with insomnia disorder</article-title>. <source><italic toggle="yes">Behav Sleep Med</italic></source>. <year>2018</year>;<volume>16</volume>(<issue>2</issue>):<fpage>117</fpage>–<lpage>134</lpage>. doi:<pub-id pub-id-type="doi">10.1080/15402002.2016.1173556</pub-id><pub-id pub-id-type="pmid">27231885</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0024">
+        <label>24.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Thurman</surname>
+<given-names>SM</given-names></string-name>, <string-name><surname>Wasylyshyn</surname>
+<given-names>N</given-names></string-name>, <string-name><surname>Roy</surname>
+<given-names>H</given-names></string-name>, et al. <article-title>Individual differences in compliance and agreement for sleep logs and wrist actigraphy: a longitudinal study of naturalistic sleep in healthy adults</article-title>. <source><italic toggle="yes">PLoS One</italic></source>. <year>2018</year>;<volume>13</volume>(<issue>1</issue>):<fpage>e0191883</fpage>. doi:<pub-id pub-id-type="doi">10.1371/journal.pone.0191883</pub-id><pub-id pub-id-type="pmid">29377925</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0025">
+        <label>25.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Li</surname>
+<given-names>P</given-names></string-name>, <string-name><surname>Morris</surname>
+<given-names>CJ</given-names></string-name>, <string-name><surname>Patxot</surname>
+<given-names>M</given-names></string-name>, et al. <article-title>Reduced tolerance to night shift in chronic shift workers: insight from fractal regulation</article-title>. <source><italic toggle="yes">Sleep</italic></source>. <year>2017</year>;<volume>40</volume>(<issue>7</issue>):<fpage>zsx092</fpage>. doi:<pub-id pub-id-type="doi">10.1093/sleep/zsx092</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0026">
+        <label>26.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Morris</surname>
+<given-names>CJ</given-names></string-name>, <string-name><surname>Purvis</surname>
+<given-names>TE</given-names></string-name>, <string-name><surname>Hu</surname>
+<given-names>K</given-names></string-name>, <string-name><surname>Scheer</surname>
+<given-names>FA</given-names></string-name>. <article-title>Circadian misalignment increases cardiovascular disease risk factors in humans</article-title>. <source><italic toggle="yes">Proc Natl Acad Sci</italic></source>. <year>2016</year>;<volume>113</volume>(<issue>10</issue>):<fpage>E1402</fpage>–<lpage>E1411</lpage>. doi:<pub-id pub-id-type="doi">10.1073/pnas.1516953113</pub-id><pub-id pub-id-type="pmid">26858430</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0027">
+        <label>27.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Morris</surname>
+<given-names>CJ</given-names></string-name>, <string-name><surname>Purvis</surname>
+<given-names>TE</given-names></string-name>, <string-name><surname>Mistretta</surname>
+<given-names>J</given-names></string-name>, <string-name><surname>Hu</surname>
+<given-names>K</given-names></string-name>, <string-name><surname>Scheer</surname>
+<given-names>FA</given-names></string-name>. <article-title>Circadian misalignment increases C-reactive protein and blood pressure in chronic shift workers</article-title>. <source><italic toggle="yes">J Biol Rhythms</italic></source>. <year>2017</year>;<volume>32</volume>(<issue>2</issue>):<fpage>154</fpage>–<lpage>164</lpage>. doi:<pub-id pub-id-type="doi">10.1177/0748730417697537</pub-id><pub-id pub-id-type="pmid">28347188</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0028">
+        <label>28.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Chellappa</surname>
+<given-names>SL</given-names></string-name>, <string-name><surname>Morris</surname>
+<given-names>CJ</given-names></string-name>, <string-name><surname>Scheer</surname>
+<given-names>FA</given-names></string-name>. <article-title>Circadian misalignment increases mood vulnerability in simulated shift work</article-title>. <source><italic toggle="yes">Sci Rep</italic></source>. <year>2020</year>;<volume>10</volume>(<issue>1</issue>):<fpage>1</fpage>–<lpage>10</lpage>. doi:<pub-id pub-id-type="doi">10.1038/s41598-020-75245-9</pub-id><pub-id pub-id-type="pmid">31913322</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0029">
+        <label>29.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Tucker</surname>
+<given-names>MA</given-names></string-name>, <string-name><surname>Morris</surname>
+<given-names>CJ</given-names></string-name>, <string-name><surname>Morgan</surname>
+<given-names>A</given-names></string-name>, et al. <article-title>The relative impact of sleep and circadian drive on motor skill acquisition and memory consolidation</article-title>. <source><italic toggle="yes">Sleep</italic></source>. <year>2017</year>;<volume>40</volume>(<issue>4</issue>):<fpage>zsx036</fpage>. doi:<pub-id pub-id-type="doi">10.1093/sleep/zsx036</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0030">
+        <label>30.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Chellappa</surname>
+<given-names>SL</given-names></string-name>, <string-name><surname>Morris</surname>
+<given-names>CJ</given-names></string-name>, <string-name><surname>Scheer</surname>
+<given-names>FAJL</given-names></string-name>. <article-title>Daily circadian misalignment impairs human cognitive performance task-dependently</article-title>. <source><italic toggle="yes">Sci Rep</italic></source>. <year>2018</year>;<volume>8</volume>(<issue>1</issue>):<fpage>3041</fpage>. doi:<pub-id pub-id-type="doi">10.1038/s41598-018-20707-4</pub-id><pub-id pub-id-type="pmid">29445188</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0031">
+        <label>31.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Chellappa</surname>
+<given-names>SL</given-names></string-name>, <string-name><surname>Morris</surname>
+<given-names>CJ</given-names></string-name>, <string-name><surname>Scheer</surname>
+<given-names>FAJL</given-names></string-name>. <article-title>Effects of circadian misalignment on cognition in chronic shift workers</article-title>. <source><italic toggle="yes">Sci Rep</italic></source>. <year>2019</year>;<volume>9</volume>(<issue>1</issue>):<fpage>699</fpage>. doi:<pub-id pub-id-type="doi">10.1038/s41598-018-36762-w</pub-id><pub-id pub-id-type="pmid">30679522</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0032">
+        <label>32.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Qian</surname>
+<given-names>J</given-names></string-name>, <string-name><surname>Morris</surname>
+<given-names>CJ</given-names></string-name>, <string-name><surname>Caputo</surname>
+<given-names>R</given-names></string-name>, <string-name><surname>Wang</surname>
+<given-names>W</given-names></string-name>, <string-name><surname>Garaulet</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Scheer</surname>
+<given-names>FA</given-names></string-name>. <article-title>Sex differences in the circadian misalignment effects on energy regulation</article-title>. <source><italic toggle="yes">Proc Natl Acad Sci</italic></source>. <year>2019</year>;<volume>116</volume>(<issue>47</issue>):<fpage>23806</fpage>–<lpage>23812</lpage>. doi:<pub-id pub-id-type="doi">10.1073/pnas.1914003116</pub-id><pub-id pub-id-type="pmid">31685618</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0033">
+        <label>33.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Morris</surname>
+<given-names>CJ</given-names></string-name>, <string-name><surname>Garcia</surname>
+<given-names>JI</given-names></string-name>, <string-name><surname>Myers</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Yang</surname>
+<given-names>JN</given-names></string-name>, <string-name><surname>Trienekens</surname>
+<given-names>N</given-names></string-name>, <string-name><surname>Scheer</surname>
+<given-names>FA</given-names></string-name>. <article-title>The human circadian system has a dominating role in causing the morning/evening difference in diet-induced thermogenesis</article-title>. <source><italic toggle="yes">Obesity</italic></source>. <year>2015</year>;<volume>23</volume>(<issue>10</issue>):<fpage>2053</fpage>–<lpage>2058</lpage>. doi:<pub-id pub-id-type="doi">10.1002/oby.21189</pub-id><pub-id pub-id-type="pmid">26414564</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0034">
+        <label>34.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Qian</surname>
+<given-names>J</given-names></string-name>, <string-name><surname>Dalla Man</surname>
+<given-names>C</given-names></string-name>, <string-name><surname>Morris</surname>
+<given-names>CJ</given-names></string-name>, <string-name><surname>Cobelli</surname>
+<given-names>C</given-names></string-name>, <string-name><surname>Scheer</surname>
+<given-names>FA</given-names></string-name>. <article-title>Differential effects of the circadian system and circadian misalignment on insulin sensitivity and insulin secretion in humans</article-title>. <source><italic toggle="yes">Diabetes Obes Metab</italic></source>. <year>2018</year>;<volume>20</volume>(<issue>10</issue>):<fpage>2481</fpage>–<lpage>2485</lpage>. doi:<pub-id pub-id-type="doi">10.1111/dom.13391</pub-id><pub-id pub-id-type="pmid">29862620</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0035">
+        <label>35.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Qian</surname>
+<given-names>J</given-names></string-name>, <string-name><surname>Morris</surname>
+<given-names>CJ</given-names></string-name>, <string-name><surname>Caputo</surname>
+<given-names>R</given-names></string-name>, <string-name><surname>Garaulet</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Scheer</surname>
+<given-names>FA</given-names></string-name>. <article-title>Ghrelin is impacted by the endogenous circadian system and by circadian misalignment in humans</article-title>. <source><italic toggle="yes">Int J Obes</italic></source>. <year>2019</year>;<volume>43</volume>(<issue>8</issue>):<fpage>1644</fpage>–<lpage>1649</lpage>. doi:<pub-id pub-id-type="doi">10.1038/s41366-018-0208-9</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0036">
+        <label>36.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Qian</surname>
+<given-names>J</given-names></string-name>, <string-name><surname>Morris</surname>
+<given-names>CJ</given-names></string-name>, <string-name><surname>Phillips</surname>
+<given-names>AJK</given-names></string-name>, et al. <article-title>Unanticipated daytime melatonin secretion on a simulated night shift schedule generates a distinctive 24-h melatonin rhythm with antiphasic daytime and nighttime peaks</article-title>. <source><italic toggle="yes">J Pineal Res</italic></source>. <year>2022</year>;<volume>72</volume>(<issue>3</issue>):<fpage>e12791</fpage>. doi:<pub-id pub-id-type="doi">10.1111/jpi.12791</pub-id><pub-id pub-id-type="pmid">35133678</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0037">
+        <label>37.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Morris</surname>
+<given-names>CJ</given-names></string-name>, <string-name><surname>Purvis</surname>
+<given-names>TE</given-names></string-name>, <string-name><surname>Mistretta</surname>
+<given-names>J</given-names></string-name>, <string-name><surname>Scheer</surname>
+<given-names>FA</given-names></string-name>. <article-title>Effects of the internal circadian system and circadian misalignment on glucose tolerance in chronic shift workers</article-title>. <source><italic toggle="yes">J Clin Endocrinol Metab</italic></source>. <year>2016</year>;<volume>101</volume>(<issue>3</issue>):<fpage>1066</fpage>–<lpage>1074</lpage>. doi:<pub-id pub-id-type="doi">10.1210/jc.2015-3924</pub-id><pub-id pub-id-type="pmid">26771705</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0038">
+        <label>38.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Morris</surname>
+<given-names>CJ</given-names></string-name>, <string-name><surname>Yang</surname>
+<given-names>JN</given-names></string-name>, <string-name><surname>Garcia</surname>
+<given-names>JI</given-names></string-name>, et al. <article-title>Endogenous circadian system and circadian misalignment impact glucose tolerance via separate mechanisms in humans</article-title>. <source><italic toggle="yes">Proc Natl Acad Sci U S A</italic></source>. <year>2015</year>;<volume>112</volume>(<issue>17</issue>):<fpage>E2225</fpage>–<lpage>2234</lpage>. doi:<pub-id pub-id-type="doi">10.1073/pnas.1418955112</pub-id><pub-id pub-id-type="pmid">25870289</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0039">
+        <label>39.</label>
+        <mixed-citation publication-type="book"><string-name><surname>Iber</surname>
+<given-names>C</given-names></string-name>, <string-name><surname>Ancoli-Israel</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Chesson</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Quan</surname>
+<given-names>SF</given-names></string-name>. <source><italic toggle="yes">The AASM Manual for the Scoring of Sleep and Associated Events</italic></source>. <edition>1st</edition> ed. <publisher-loc>Westchester, IL</publisher-loc>: <publisher-name>American Academy of Sleep Medicine</publisher-name>; <year>2007</year>.</mixed-citation>
+      </ref>
+      <ref id="cit0040">
+        <label>40.</label>
+        <mixed-citation publication-type="book"><string-name><surname>Oakley</surname>
+<given-names>NR</given-names></string-name>. <source><italic toggle="yes">Validation with Polysomnography of the Sleepwatch Sleep/Wake Scoring Algorithm Used by the Actiwatch Activity Monitoring System</italic></source>. <publisher-loc>Bend</publisher-loc>: <publisher-name>Mini Mitter, Cambridge Neurotechnology</publisher-name>; <year>1997</year>.</mixed-citation>
+      </ref>
+      <ref id="cit0041">
+        <label>41.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Parikh</surname>
+<given-names>R</given-names></string-name>, <string-name><surname>Mathai</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Parikh</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Sekhar</surname>
+<given-names>GC</given-names></string-name>, <string-name><surname>Thomas</surname>
+<given-names>R</given-names></string-name>. <article-title>Understanding and using sensitivity, specificity and predictive values</article-title>. <source><italic toggle="yes">Indian J Ophthalmol</italic></source>. <year>2008</year>;<volume>56</volume>(<issue>1</issue>):<fpage>45</fpage>. doi:<pub-id pub-id-type="doi">10.4103/0301-4738.37595</pub-id><pub-id pub-id-type="pmid">18158403</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0042">
+        <label>42.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Sasaki</surname>
+<given-names>Y</given-names></string-name>, <string-name><surname>Yamamoto</surname>
+<given-names>W</given-names></string-name>, <string-name><surname>Wada</surname>
+<given-names>M</given-names></string-name>. <article-title>The truth of the F-measure</article-title>. <source><italic toggle="yes">Palliative Supportive Care</italic></source>. <year>2007</year>;<volume>5</volume>:<fpage>411</fpage>–<lpage>414</lpage>. doi:<pub-id pub-id-type="doi">10.1017/s1478951507000612</pub-id><pub-id pub-id-type="pmid">18044419</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0043">
+        <label>43.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>McHugh</surname>
+<given-names>ML</given-names></string-name>. <article-title>Interrater reliability: the kappa statistic</article-title>. <source><italic toggle="yes">Biochem Medica</italic></source>. <year>2012</year>;<volume>22</volume>(<issue>3</issue>):<fpage>276</fpage>–<lpage>282</lpage>. doi:<pub-id pub-id-type="doi">10.11613/BM.2012.031</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0044">
+        <label>44.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Koo</surname>
+<given-names>TK</given-names></string-name>, <string-name><surname>Li</surname>
+<given-names>MY</given-names></string-name>. <article-title>A guideline of selecting and reporting intraclass correlation coefficients for reliability research</article-title>. <source><italic toggle="yes">J Chiropr Med</italic></source>. <year>2016</year>;<volume>15</volume>(<issue>2</issue>):<fpage>155</fpage>–<lpage>163</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.jcm.2016.02.012</pub-id><pub-id pub-id-type="pmid">27330520</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0045">
+        <label>45.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Paquet</surname>
+<given-names>J</given-names></string-name>, <string-name><surname>Kawinska</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Carrier</surname>
+<given-names>J</given-names></string-name>. <article-title>Wake detection capacity of actigraphy during sleep</article-title>. <source><italic toggle="yes">Sleep</italic></source>. <year>2007</year>;<volume>30</volume>(<issue>10</issue>):<fpage>1362</fpage>–<lpage>1369</lpage>. doi:<pub-id pub-id-type="doi">10.1093/sleep/30.10.1362</pub-id><pub-id pub-id-type="pmid">17969470</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0046">
+        <label>46.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Marino</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Li</surname>
+<given-names>Y</given-names></string-name>, <string-name><surname>Rueschman</surname>
+<given-names>MN</given-names></string-name>, et al. <article-title>Measuring sleep: accuracy, sensitivity, and specificity of wrist actigraphy compared to polysomnography</article-title>. <source><italic toggle="yes">Sleep</italic></source>. <year>2013</year>;<volume>36</volume>(<issue>11</issue>):<fpage>1747</fpage>–<lpage>1755</lpage>. doi:<pub-id pub-id-type="doi">10.5665/sleep.3142</pub-id><pub-id pub-id-type="pmid">24179309</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0047">
+        <label>47.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Gao</surname>
+<given-names>C</given-names></string-name>, <string-name><surname>Terlizzese</surname>
+<given-names>T</given-names></string-name>, <string-name><surname>Scullin</surname>
+<given-names>MK</given-names></string-name>. <article-title>Short sleep and late bedtimes are detrimental to educational learning and knowledge transfer: an investigation of individual differences in susceptibility</article-title>. <source><italic toggle="yes">Chronobiol Int</italic></source>. <year>2019</year>;<volume>36</volume>(<issue>3</issue>):<fpage>307</fpage>–<lpage>318</lpage>. doi:<pub-id pub-id-type="doi">10.1080/07420528.2018.1539401</pub-id><pub-id pub-id-type="pmid">30409040</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0048">
+        <label>48.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Li</surname>
+<given-names>P</given-names></string-name>, <string-name><surname>Gao</surname>
+<given-names>L</given-names></string-name>, <string-name><surname>Yu</surname>
+<given-names>L</given-names></string-name>, et al. <article-title>Daytime napping and Alzheimer’s dementia: a potential bidirectional relationship</article-title>. <source><italic toggle="yes">Alzheimer's Dementia</italic></source>. <year>2022</year>. doi:<pub-id pub-id-type="doi">10.1002/alz.12636</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0049">
+        <label>49.</label>
+        <mixed-citation publication-type="webpage"><collab>Philips</collab>. <article-title>Actiwatch spectrum activity monitor</article-title>. <comment>Available from</comment>: <ext-link xlink:href="https://www.usa.philips.com/healthcare/product/HC1046964/actiwatch-spectrum-activity-monitor" ext-link-type="uri">https://www.usa.philips.com/healthcare/product/HC1046964/actiwatch-spectrum-activity-monitor</ext-link>. <date-in-citation>Accessed <month>September</month>
+<day>29</day>, 2022</date-in-citation>.</mixed-citation>
+      </ref>
+      <ref id="cit0050">
+        <label>50.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Sadeh</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Sharkey</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Carskadon</surname>
+<given-names>MA</given-names></string-name>. <article-title>Activity-based sleep-wake identification: an empirical test of methodological issues</article-title>. <source><italic toggle="yes">Sleep</italic></source>. <year>1994</year>;<volume>17</volume>(<issue>3</issue>):<fpage>201</fpage>–<lpage>207</lpage>. doi:<pub-id pub-id-type="doi">10.1093/sleep/17.3.201</pub-id><pub-id pub-id-type="pmid">7939118</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0051">
+        <label>51.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Hsiou</surname>
+<given-names>DA</given-names></string-name>, <string-name><surname>Gao</surname>
+<given-names>C</given-names></string-name>, <string-name><surname>Matlock</surname>
+<given-names>RC</given-names></string-name>, <string-name><surname>Scullin</surname>
+<given-names>MK</given-names></string-name>. <article-title>Validation of a nonwearable device in healthy adults with normal and short sleep durations</article-title>. <source><italic toggle="yes">J Clin Sleep Med</italic></source>. <year>2022</year>;<volume>18</volume>(<issue>3</issue>):<fpage>751</fpage>–<lpage>757</lpage>. doi:<pub-id pub-id-type="doi">10.5664/jcsm.9700</pub-id><pub-id pub-id-type="pmid">34608858</pub-id></mixed-citation>
+      </ref>
+    </ref-list>
+  </back>
+</article>
+</pmc-articleset>

@@ -1,0 +1,2031 @@
+<pmc-articleset><article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="research-article">
+  <?properties open_access?>
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="nlm-ta">Nat Sci Sleep</journal-id>
+      <journal-id journal-id-type="iso-abbrev">Nat Sci Sleep</journal-id>
+      <journal-title-group>
+        <journal-title>Nature and Science of Sleep</journal-title>
+      </journal-title-group>
+      <issn pub-type="epub">1179-1608</issn>
+      <publisher>
+        <publisher-name>Dove Medical Press</publisher-name>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="pmid">23620676</article-id>
+      <article-id pub-id-type="pmc">3630982</article-id>
+      <article-id pub-id-type="doi">10.2147/NSS.S15515</article-id>
+      <article-id pub-id-type="publisher-id">nss-3-021</article-id>
+      <article-categories>
+        <subj-group subj-group-type="heading">
+          <subject>Original Research</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>Correlations of physiological activities in nocturnal Cheyne–Stokes respiration</article-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Umantsev</surname>
+            <given-names>Alexander</given-names>
+          </name>
+          <xref ref-type="aff" rid="af1-nss-3-021">1</xref>
+          <xref ref-type="corresp" rid="c1-nss-3-021"/>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Golbin</surname>
+            <given-names>Alexander</given-names>
+          </name>
+          <xref ref-type="aff" rid="af2-nss-3-021">2</xref>
+        </contrib>
+      </contrib-group>
+      <aff id="af1-nss-3-021"><label>1</label>Department of Chemistry/Physics, Fayetteville State University, Fayetteville, NC, USA</aff>
+      <aff id="af2-nss-3-021"><label>2</label>Sleep and Behavior Medicine Institute, Vernon Hills, IL, USA</aff>
+      <author-notes>
+        <corresp id="c1-nss-3-021">Correspondence: Alexander Umantsev, Department of Chemistry/Physics, Fayetteville State University, 1200 Murchison Road, Fayetteville, NC 28301, USA, Tel +1 910 672 1449, Fax +1 910 672 2420, Email <email>aumantsev@uncfsu.edu</email></corresp>
+      </author-notes>
+      <pub-date pub-type="collection">
+        <year>2011</year>
+      </pub-date>
+      <pub-date pub-type="epub">
+        <day>11</day>
+        <month>1</month>
+        <year>2011</year>
+      </pub-date>
+      <volume>3</volume>
+      <fpage>21</fpage>
+      <lpage>32</lpage>
+      <permissions>
+        <copyright-statement>© 2011 Umantsev and Golbin, publisher and licensee Dove Medical Press Ltd.</copyright-statement>
+        <copyright-year>2011</copyright-year>
+        <license>
+          <license-p>This is an Open Access article which permits unrestricted noncommercial use, provided the original work is properly cited.</license-p>
+        </license>
+      </permissions>
+      <abstract>
+        <p>We have conducted a power–spectrum–density (PSD) analysis of the distinct sleep stages of a previously diagnosed nocturnal Cheyne–Stokes respiration patient (NCSR) and studied the correlations of different physiological activities. This is the first study where the correlations were analyzed separately for different sleep stages and the influence of arousals was completely eliminated. Mathematical analysis of the polysomnographical records revealed clear indicators of the disorder in the form of large peaks in a very-low frequency range of <italic>f</italic> ≈ 0.02 Hz. We have shown existence of the significant entrainment of the cerebral and cardiac activities with respiration during different stages of sleep in the patient. The entrainment is highly pronounced in light (stage 2) and deep (stage 3) sleep, but is significantly less pronounced in rapid eye movement sleep. A correlation functions analysis revealed that the correlations between the central activities and respiration attain maximum at negative lag times. Lagging of respiration behind the central activities favors the central hypothesis of generation of NCSR. On the basis of comparison of PSD plots of a NCSR patient and a healthy patient we speculate that the vasomotor center of a NCSR patient assumes the control function in the respiratory control system. Clinical applications of the findings of the study may lead to the development of novel low-cost methods of diagnostic of NCSR based on easy-to-obtain electrocardiogram or electroencephalogram records of patients and emergence of some forms of “substitution therapy”.</p>
+      </abstract>
+      <kwd-group>
+        <kwd>power-spectrum-density analysis</kwd>
+        <kwd>respiration</kwd>
+        <kwd>sleep stages</kwd>
+        <kwd>periodic breathing</kwd>
+      </kwd-group>
+    </article-meta>
+  </front>
+  <body>
+    <sec>
+      <title>Background</title>
+      <p>A cyclic breathing pattern characterized by a regular waxing and waning of breathing amplitude and period (T) ranging from 25 to 100 s is a frequently observed sleep disorder.<xref ref-type="bibr" rid="b1-nss-3-021">1</xref>–<xref ref-type="bibr" rid="b7-nss-3-021">7</xref> Researchers usually distinguish the cases when the intervals of hyperventilation are separated only by hypopneas (decrease of 50%–90% of the amplitude of airflow lasting 10 s or more) from the cases when both hypopneas and apneas (reduction of &gt;90%) are present between the episodes of hyperventilation. The former patterns are called periodic breathing (PB) while the latter ones are Cheyne–Stokes respiration (CSR). Both patterns may be encountered in sleep and wakeful subjects,<xref ref-type="bibr" rid="b4-nss-3-021">4</xref>,<xref ref-type="bibr" rid="b8-nss-3-021">8</xref>–<xref ref-type="bibr" rid="b10-nss-3-021">10</xref> in extreme conditions, eg, at high altitudes,<xref ref-type="bibr" rid="b11-nss-3-021">11</xref>–<xref ref-type="bibr" rid="b13-nss-3-021">13</xref> or normal conditions.<xref ref-type="bibr" rid="b4-nss-3-021">4</xref>,<xref ref-type="bibr" rid="b10-nss-3-021">10</xref>,<xref ref-type="bibr" rid="b14-nss-3-021">14</xref>,<xref ref-type="bibr" rid="b15-nss-3-021">15</xref> Since its discovery in the mid-19th century, CSR has been associated with congestive heart failure (CHF).<xref ref-type="bibr" rid="b7-nss-3-021">7</xref> Recently, however, significant evidence has appeared that this type of breathing pattern may come about during sleep in patients without detected CHF.<xref ref-type="bibr" rid="b16-nss-3-021">16</xref>–<xref ref-type="bibr" rid="b18-nss-3-021">18</xref></p>
+      <p>The physiological mechanisms responsible for different types of PB are still a matter of debate. Two major hypotheses, however, have received the most attention in the last two decades. The “instability” hypothesis explains PB as a self-sustaining oscillation due to the loss of stability in the closed-loop chemical control of ventilation.<xref ref-type="bibr" rid="b1-nss-3-021">1</xref>–<xref ref-type="bibr" rid="b3-nss-3-021">3</xref>,<xref ref-type="bibr" rid="b14-nss-3-021">14</xref>,<xref ref-type="bibr" rid="b16-nss-3-021">16</xref>,<xref ref-type="bibr" rid="b18-nss-3-021">18</xref>–<xref ref-type="bibr" rid="b22-nss-3-021">22</xref> This loss of stability is thought to be caused by the concurrent presence of slow circulation between lungs and chemoreceptors, enhanced loop gain, and underdumping of CO<sub>2</sub> and O<sub>2</sub> that the body stores. Several theoretical models have been suggested to explain PB on the basis of chemical feedback of ventilatory control.<xref ref-type="bibr" rid="b2-nss-3-021">2</xref>,<xref ref-type="bibr" rid="b3-nss-3-021">3</xref>,<xref ref-type="bibr" rid="b14-nss-3-021">14</xref></p>
+      <p>The “central” hypothesis, on the contrary, explains PB as the manifestation of a central vasomotor rhythm that modulates ventilation either indirectly through modulation of blood flow<xref ref-type="bibr" rid="b23-nss-3-021">23</xref>,<xref ref-type="bibr" rid="b24-nss-3-021">24</xref> or directly through central irradiation to respiratory centers.<xref ref-type="bibr" rid="b25-nss-3-021">25</xref> The instability hypothesis has gained wider acceptance than the central hypothesis mainly because of its sound theoretical basis and use of mathematical models of the respiratory control system.<xref ref-type="bibr" rid="b2-nss-3-021">2</xref>,<xref ref-type="bibr" rid="b17-nss-3-021">17</xref>,<xref ref-type="bibr" rid="b19-nss-3-021">19</xref> Other hypotheses suggest that PB is just a mechanically and energetically efficient way to deliver oxygen during sleep.<xref ref-type="bibr" rid="b11-nss-3-021">11</xref>,<xref ref-type="bibr" rid="b21-nss-3-021">21</xref></p>
+    </sec>
+    <sec>
+      <title>Motivation and objectives</title>
+      <p>Many clinicians would like to have a simple set of indicators of different cases of PB or CSR in their patient because that can help them determine the treatment strategy. As reported previously,<xref ref-type="bibr" rid="b26-nss-3-021">26</xref> oxygen supplementation and continuous positive airway pressure therapy are very helpful for CHF patients but exacerbate the symptoms of obstructive sleep apnea patients by increasing the length and depth of their apneas. It is entirely possible that different types of PB are caused by different physiological mechanisms. However, the case of nocturnal CSR (NCSR) in the patients without detected CHF deserves special attention because more and more patients of sleep centers exhibit this type of sleep disorder.</p>
+      <p>The main objective of the present research is to study correlations between the central activities (cerebral and cardiac) and respiration that cause PB during sleep in humans. In the present study, only the cases of NCSR in the patients without detected CHF are analyzed. We used the mathematical methods of spectral analysis and correlation functions of time series.<xref ref-type="bibr" rid="b27-nss-3-021">27</xref>,<xref ref-type="bibr" rid="b28-nss-3-021">28</xref> We do not intend to present a comprehensive statistical analysis of a broad cohort of patients; our intention is to analyze a record of a typical NCSR patient. However, it is one of the objectives of the present study to analyze the physiological correlations of the NCSR in different sleep stages.</p>
+    </sec>
+    <sec sec-type="methods">
+      <title>Methods</title>
+      <sec sec-type="subjects">
+        <title>Subjects and protocol</title>
+        <p>The study was not conducted in a clinical setting; it was based on the records of the regular patients of the Sleep and Behavior Medicine Institute (SBMI) in Bannockburn, IL, accredited by the American Academy of Sleep Medicine. Usually patients are referred to SBMI because of a history of sleep disorders. The overnight sleep examinations were performed in the supine position and without use of additional sedatives or hypnotics. Overall, 12 records of the NSCR adult patients aged from 29 to 62 years old have been screened. All NSCR patients and the control subject (no PB symptoms) were free of CHF as assessed by history and physical examination. All records of NSCR patients exhibited similar features. In the present publication we analyze the record of a 58-year-old male patient who later returned to SBMI for treatment. This particular patient was selected from the group of screened NSCR patients because we could ascertain persistence of the symptoms after a significant period of time.</p>
+      </sec>
+      <sec>
+        <title>Polysomnography</title>
+        <p>The clinical evaluations of the patients and all night polysomnograms (PSG) were performed at SBMI using an 18-channel fully computerized system with nasal thermistors to measure the respiration airflow (FLOW) and standard equipment to measure cardiac (electrocardiogram [EKG]) and cerebral (electroencephalogram [EEG]) activities. All measurements were recorded and processed by the commercial software Polysmith 2003 (Neutronics, Inc., Gainesville, FL) using 250 Hz sampling frequency for EEG and EKG channels and 25 Hz sampling frequency for the respiration. <xref ref-type="fig" rid="f1-nss-3-021">Figure 1A</xref> is a typical night PSG of a NCSR patient; <xref ref-type="fig" rid="f1-nss-3-021">Figure 1B</xref> is the scoring file of the same record as in <xref ref-type="fig" rid="f1-nss-3-021">Figure 1A</xref>. The scoring has been done by trained technicians at SBMI using standard criteria,<xref ref-type="bibr" rid="b29-nss-3-021">29</xref> which include the differentiation of delta sleep on stages 3 and 4.</p>
+      </sec>
+      <sec sec-type="methods">
+        <title>Data analysis</title>
+        <p>The mathematical analysis consisted of two parts: examination of power-spectrum-density (PSD) and correlation-function plots. PSD analysis of PSG recordings was done using custom made software Veeger Fast Fourier Transform (FFT)-Analyzer (EegSoft, Inc., Tempe, AZ). All PSG channels were analyzed in the same range of frequencies from 0.0005 Hz to 0.5 Hz. Correlation functions of the signals could have been obtained from the FFTs of the same signals using the correlation theorem and inverse FFT procedure. However, we found the direct numerical integration method to be more efficient here. The correlation analysis was performed using a program of numerical integration.<xref ref-type="bibr" rid="b30-nss-3-021">30</xref> Although the authors conducted only the mathematical analysis of completely anonymous PSG records, the study was approved by the Human Subject Internal Review Board of Fayetteville State University.</p>
+        <p>According to the ergodic theorem from the Theory of Stochastic Processes, the same results must come from the analysis of a large group of objects for a short period of time or just one object from the group for a long period of time.<xref ref-type="bibr" rid="b31-nss-3-021">31</xref> Due to reasons explained above we decided to analyze a record of one typical patient for a full night instead of looking at the random episodes of all the subjects in the cohort. For the statistical fidelity of the results, the analyzed sleep intervals have to be as long as possible and contain as many events of apnea as possible. Large fluctuations in the rate, often associated with body movements, usually occur at the transitions between sleep stages and wake stages. These large fluctuations representing local trends were eliminated because it was our intention to analyze the sleep stages separately and exclude the events of arousals but not the microarousals, which do not disturb the sleep pattern. Arousals are defined as brief – less than 15 s – changes of the EEG pattern without changes of the underlying sleep stage, which may be manifested by incomplete awakenings; microarousals are arousals of duration less than 3 s and not accompanied by any degree of awakening. Thus, from the whole night record there were selected continuous time intervals within the same sleep stage and without arousals. These intervals were called sleep episodes; their durations are shown in the column “Elapsed time” of <xref ref-type="table" rid="t1-nss-3-021">Table 1</xref>. The total duration of all the episodes was 5.575 h out of approximately 7 h of the patient’s sleep.</p>
+      </sec>
+    </sec>
+    <sec sec-type="results">
+      <title>Results</title>
+      <sec sec-type="methods">
+        <title>PSD analysis</title>
+        <p><xref ref-type="fig" rid="f2-nss-3-021">Figure 2</xref> shows PSD plots of various channels of the PSG records of a healthy individual with no recognized PB in sleep. PSD of the FLOW channel (<xref ref-type="fig" rid="f2-nss-3-021">Figure 2A</xref>) has high density of peaks in the frequency range 0.20–0.25 Hz, which represents normal breathing waves. There is no significant power in the low-frequency range (&lt;0.1 Hz) that characterizes PB. PSD of EKG channel (<xref ref-type="fig" rid="f2-nss-3-021">Figure 2C</xref>), in addition to the high-frequency peaks (0.2–0.25 Hz) centered at the normal breathing frequencies, contains two more groups of peaks, mid frequency (0.1–0.2 Hz) and low frequency (0.05 Hz), which are associated respectively with the baroreceptor reflex and vasomotor tone.<xref ref-type="bibr" rid="b32-nss-3-021">32</xref>–<xref ref-type="bibr" rid="b34-nss-3-021">34</xref> PSD of EEG channel (<xref ref-type="fig" rid="f2-nss-3-021">Figure 2B</xref>) is dominated by the normal breathing waves of high frequencies (0.2–0.3 Hz) and the very slow waves (0.01–0.02 Hz). Both EEG and EKG activities are strongly correlated with respiration in the range of normal breathing frequencies.</p>
+        <p>PSG of the NCSR patient, <xref ref-type="fig" rid="f1-nss-3-021">Figure 1A</xref>, shows that the time of breathing and the length of apnea are almost equal. Contrary to a traditional pattern of Cheyne–Stokes respiration, this patient has strong asymmetric pattern of waxing and waning of ventilation. The scoring of the PSG of this patient, <xref ref-type="fig" rid="f1-nss-3-021">Figure 1B</xref>, shows that there were apneas in all sleep stages during the night. Recurrent apneas continued from 10 min to several hours and were typically ended by sudden agitated arousals with symptoms of hyperventilation.</p>
+        <p><xref ref-type="fig" rid="f3-nss-3-021">Figure 3</xref> represents PSD plots of various activities of the NCSR patient in sleep stage 2. <xref ref-type="fig" rid="f3-nss-3-021">Figure 3A</xref> shows that the spectrum of respiration of this patient is dominated by the discrete, narrow peaks within the frequency range of 0.02–0.12 Hz – NCSR frequencies – which are absent from the same plot of a healthy individual (see <xref ref-type="fig" rid="f2-nss-3-021">Figure 2A</xref>). The fundamental frequency of instantaneous airflow peaks at 0.025 Hz. This corresponds to T = 40 s, which is clearly recognizable on the PSG record (<xref ref-type="fig" rid="f1-nss-3-021">Figure 1A</xref>). The amplitude of the fundamental peak is more than an order of magnitude higher than that of the peaks of the normal breathing ( <italic>f</italic> ~ 0.3 Hz). The fundamental frequency entails two prominent harmonics at <italic>f</italic> = 0.049 Hz and <italic>f</italic> = 0.075 Hz. Appearance of large harmonics of a fundamental frequency is a clear indication of the nonlinear nature of the respiratory control system.</p>
+        <p>The powers of EEG and EKG records, <xref ref-type="fig" rid="f3-nss-3-021">Figures 3B and 3C</xref> respectively, are also shifted to the lower frequencies compared to that of the healthy patient. The PSD peaks of EEG and EKG channels correlate closely with the PSD peaks of the FLOW channel, <xref ref-type="fig" rid="f3-nss-3-021">Figure 3A</xref>, and reach maximum precisely at the fundamental frequency of NCSR ( <italic>f</italic> = 0.025 Hz). In addition to the fundamental peak, both cerebral and cardiac activities also have identifiable harmonics of the fundamental one. Interestingly that respiration, <xref ref-type="fig" rid="f3-nss-3-021">Figure 3A</xref>, does not have any peaks in the very-low-frequency range ( <italic>f</italic> &lt; 0.02 Hz), although both central channels (EEG and EKG) have recognizable power in this range.</p>
+        <p><xref ref-type="fig" rid="f4-nss-3-021">Figure 4</xref> represents PSD plots of respiration and central activities during sleep-stage 3 of the NCSR patient. Although sleep architecture of the patient does not exhibit many episodes of deep sleep (see <xref ref-type="fig" rid="f1-nss-3-021">Figure 1B</xref>), when they occur, their spectral characteristics are very similar to those of light stages (see <xref ref-type="fig" rid="f3-nss-3-021">Figures 3</xref> and <xref ref-type="fig" rid="f4-nss-3-021">4</xref>). The most important features are large amplitudes and narrow peaks of the fundamental NCSR frequency plus a few harmonics and a strong correlation between respiration and central activities.</p>
+        <p>Contrary to the previous reports that PB is typical for light stages only,<xref ref-type="bibr" rid="b17-nss-3-021">17</xref> we are finding that apneas and hypopneas permeate all stages, including rapid eye movement (REM) and deep sleep (see <xref ref-type="fig" rid="f1-nss-3-021">Figure 1B</xref>). However, what is true is that the patients who suffer from NCSR syndrome do not go into stage 3 very often and stage 4 not at all. The PSD plot of the FLOW channel during REM sleep stage of the NCSR patient, <xref ref-type="fig" rid="f5-nss-3-021">Figure 5A</xref>, shows more equal distribution of power between the NCSR and normal-breathing frequency ranges with a great number of low-frequency waves having significant amplitudes. This means that this stage of sleep is more chaotic (in the sense of dynamical systems), which is reminiscent of a wake stage. PSD of EEG and EKG records (<xref ref-type="fig" rid="f5-nss-3-021">Figures 5B and 5C</xref>) also have significant power in the range of NCSR frequencies, but they do not dominate the spectra as in stages 2 and 3. The correlation between respiration and central activities exists only in the form of increased low-frequency power, but is not as strong as that in sleep stage 2 or 3.</p>
+      </sec>
+      <sec sec-type="methods">
+        <title>Correlation function analysis</title>
+        <p>PSD analysis shows clearly that CSR is a state of strong correlations between the central activities and respiration during sleep. The PSD analysis, however, does not shed light on cause–consequence relationship between them. In order to reveal this relationship we analyzed the correlation functions of EEG/FLOW and EKG/FLOW channels of the PSG records of the patients. Specifically we computed the following functions:</p>
+        <disp-formula id="FD1">
+          <label>(1)</label>
+          <mml:math id="mm1">
+            <mml:mtable columnalign="left">
+              <mml:mtr>
+                <mml:mtd>
+                  <mml:mi>c</mml:mi>
+                  <mml:mi>o</mml:mi>
+                  <mml:mi>r</mml:mi>
+                  <mml:mi>r</mml:mi>
+                  <mml:mo>&lt;</mml:mo>
+                  <mml:mi>b</mml:mi>
+                  <mml:mo>,</mml:mo>
+                  <mml:mi>f</mml:mi>
+                  <mml:mo>&gt;</mml:mo>
+                  <mml:mo stretchy="false">(</mml:mo>
+                  <mml:mi>τ</mml:mi>
+                  <mml:mo stretchy="false">)</mml:mo>
+                  <mml:mo>=</mml:mo>
+                  <mml:mfrac>
+                    <mml:mn>1</mml:mn>
+                    <mml:mrow>
+                      <mml:msub>
+                        <mml:mrow>
+                          <mml:mi>t</mml:mi>
+                        </mml:mrow>
+                        <mml:mn>2</mml:mn>
+                      </mml:msub>
+                      <mml:mo>-</mml:mo>
+                      <mml:msub>
+                        <mml:mrow>
+                          <mml:mi>t</mml:mi>
+                        </mml:mrow>
+                        <mml:mn>1</mml:mn>
+                      </mml:msub>
+                    </mml:mrow>
+                  </mml:mfrac>
+                  <mml:mrow>
+                    <mml:munderover>
+                      <mml:mo>∫</mml:mo>
+                      <mml:mrow>
+                        <mml:msub>
+                          <mml:mrow>
+                            <mml:mi>t</mml:mi>
+                          </mml:mrow>
+                          <mml:mn>1</mml:mn>
+                        </mml:msub>
+                      </mml:mrow>
+                      <mml:mrow>
+                        <mml:msub>
+                          <mml:mrow>
+                            <mml:mi>t</mml:mi>
+                          </mml:mrow>
+                          <mml:mn>2</mml:mn>
+                        </mml:msub>
+                      </mml:mrow>
+                    </mml:munderover>
+                    <mml:mrow>
+                      <mml:mi>b</mml:mi>
+                      <mml:mo stretchy="false">(</mml:mo>
+                      <mml:mi>t</mml:mi>
+                      <mml:mo>+</mml:mo>
+                      <mml:mi>τ</mml:mi>
+                      <mml:mo stretchy="false">)</mml:mo>
+                      <mml:mi>f</mml:mi>
+                      <mml:mo stretchy="false">(</mml:mo>
+                      <mml:mi>t</mml:mi>
+                      <mml:mo stretchy="false">)</mml:mo>
+                      <mml:mi>d</mml:mi>
+                      <mml:mi>t</mml:mi>
+                    </mml:mrow>
+                  </mml:mrow>
+                </mml:mtd>
+              </mml:mtr>
+              <mml:mtr>
+                <mml:mtd>
+                  <mml:mi>c</mml:mi>
+                  <mml:mi>o</mml:mi>
+                  <mml:mi>r</mml:mi>
+                  <mml:mi>r</mml:mi>
+                  <mml:mo>&lt;</mml:mo>
+                  <mml:mi>h</mml:mi>
+                  <mml:mo>,</mml:mo>
+                  <mml:mi>f</mml:mi>
+                  <mml:mo>&gt;</mml:mo>
+                  <mml:mo stretchy="false">(</mml:mo>
+                  <mml:mi>τ</mml:mi>
+                  <mml:mo stretchy="false">)</mml:mo>
+                  <mml:mo>=</mml:mo>
+                  <mml:mfrac>
+                    <mml:mn>1</mml:mn>
+                    <mml:mrow>
+                      <mml:msub>
+                        <mml:mrow>
+                          <mml:mi>t</mml:mi>
+                        </mml:mrow>
+                        <mml:mn>2</mml:mn>
+                      </mml:msub>
+                      <mml:mo>-</mml:mo>
+                      <mml:msub>
+                        <mml:mrow>
+                          <mml:mi>t</mml:mi>
+                        </mml:mrow>
+                        <mml:mn>1</mml:mn>
+                      </mml:msub>
+                    </mml:mrow>
+                  </mml:mfrac>
+                  <mml:mrow>
+                    <mml:munderover>
+                      <mml:mo>∫</mml:mo>
+                      <mml:mrow>
+                        <mml:msub>
+                          <mml:mrow>
+                            <mml:mi>t</mml:mi>
+                          </mml:mrow>
+                          <mml:mn>1</mml:mn>
+                        </mml:msub>
+                      </mml:mrow>
+                      <mml:mrow>
+                        <mml:msub>
+                          <mml:mrow>
+                            <mml:mi>t</mml:mi>
+                          </mml:mrow>
+                          <mml:mn>2</mml:mn>
+                        </mml:msub>
+                      </mml:mrow>
+                    </mml:munderover>
+                    <mml:mrow>
+                      <mml:mi>h</mml:mi>
+                      <mml:mo stretchy="false">(</mml:mo>
+                      <mml:mi>t</mml:mi>
+                      <mml:mo>+</mml:mo>
+                      <mml:mi>τ</mml:mi>
+                      <mml:mo stretchy="false">)</mml:mo>
+                      <mml:mi>f</mml:mi>
+                      <mml:mo stretchy="false">(</mml:mo>
+                      <mml:mi>t</mml:mi>
+                      <mml:mo stretchy="false">)</mml:mo>
+                      <mml:mi>d</mml:mi>
+                      <mml:mi>t</mml:mi>
+                    </mml:mrow>
+                  </mml:mrow>
+                </mml:mtd>
+              </mml:mtr>
+            </mml:mtable>
+          </mml:math>
+        </disp-formula>
+        <p>which are the integrals of the normalized EEG(t), EKG(t), and FLOW(t) channel records superposed and shifted left or right in time. The functions in <xref rid="FD1" ref-type="disp-formula">Equation 1</xref> are defined as follows:</p>
+        <disp-formula id="FD2">
+          <label>(2)</label>
+          <mml:math id="mm2">
+            <mml:mtable columnalign="left">
+              <mml:mtr>
+                <mml:mtd>
+                  <mml:mi>b</mml:mi>
+                  <mml:mo stretchy="false">(</mml:mo>
+                  <mml:mi>t</mml:mi>
+                  <mml:mo stretchy="false">)</mml:mo>
+                  <mml:mo>=</mml:mo>
+                  <mml:mfrac>
+                    <mml:mrow>
+                      <mml:mi>E</mml:mi>
+                      <mml:mi>E</mml:mi>
+                      <mml:mi>G</mml:mi>
+                      <mml:mo stretchy="false">(</mml:mo>
+                      <mml:mi>t</mml:mi>
+                      <mml:mo stretchy="false">)</mml:mo>
+                      <mml:mo>-</mml:mo>
+                      <mml:mo>&lt;</mml:mo>
+                      <mml:mi>E</mml:mi>
+                      <mml:mi>E</mml:mi>
+                      <mml:mi>G</mml:mi>
+                      <mml:mo>&gt;</mml:mo>
+                    </mml:mrow>
+                    <mml:mrow>
+                      <mml:msqrt>
+                        <mml:mrow>
+                          <mml:mtext>var</mml:mtext>
+                          <mml:mo stretchy="false">(</mml:mo>
+                          <mml:mi>E</mml:mi>
+                          <mml:mi>E</mml:mi>
+                          <mml:mi>G</mml:mi>
+                          <mml:mo stretchy="false">)</mml:mo>
+                        </mml:mrow>
+                      </mml:msqrt>
+                    </mml:mrow>
+                  </mml:mfrac>
+                  <mml:mo>;</mml:mo>
+                </mml:mtd>
+              </mml:mtr>
+              <mml:mtr>
+                <mml:mtd>
+                  <mml:mi>h</mml:mi>
+                  <mml:mo stretchy="false">(</mml:mo>
+                  <mml:mi>t</mml:mi>
+                  <mml:mo stretchy="false">)</mml:mo>
+                  <mml:mo>=</mml:mo>
+                  <mml:mfrac>
+                    <mml:mrow>
+                      <mml:mi>E</mml:mi>
+                      <mml:mi>K</mml:mi>
+                      <mml:mi>G</mml:mi>
+                      <mml:mo stretchy="false">(</mml:mo>
+                      <mml:mi>t</mml:mi>
+                      <mml:mo stretchy="false">)</mml:mo>
+                      <mml:mo>-</mml:mo>
+                      <mml:mo>&lt;</mml:mo>
+                      <mml:mi>E</mml:mi>
+                      <mml:mi>K</mml:mi>
+                      <mml:mi>G</mml:mi>
+                      <mml:mo>&gt;</mml:mo>
+                    </mml:mrow>
+                    <mml:mrow>
+                      <mml:msqrt>
+                        <mml:mrow>
+                          <mml:mtext>var</mml:mtext>
+                          <mml:mo stretchy="false">(</mml:mo>
+                          <mml:mi>E</mml:mi>
+                          <mml:mi>K</mml:mi>
+                          <mml:mi>G</mml:mi>
+                          <mml:mo stretchy="false">)</mml:mo>
+                        </mml:mrow>
+                      </mml:msqrt>
+                    </mml:mrow>
+                  </mml:mfrac>
+                  <mml:mo>;</mml:mo>
+                </mml:mtd>
+              </mml:mtr>
+              <mml:mtr>
+                <mml:mtd>
+                  <mml:mi>f</mml:mi>
+                  <mml:mo stretchy="false">(</mml:mo>
+                  <mml:mi>t</mml:mi>
+                  <mml:mo stretchy="false">)</mml:mo>
+                  <mml:mo>=</mml:mo>
+                  <mml:mfrac>
+                    <mml:mrow>
+                      <mml:mi>F</mml:mi>
+                      <mml:mi>L</mml:mi>
+                      <mml:mi>O</mml:mi>
+                      <mml:mi>W</mml:mi>
+                      <mml:mo stretchy="false">(</mml:mo>
+                      <mml:mi>t</mml:mi>
+                      <mml:mo stretchy="false">)</mml:mo>
+                      <mml:mo>-</mml:mo>
+                      <mml:mo>&lt;</mml:mo>
+                      <mml:mi>F</mml:mi>
+                      <mml:mi>L</mml:mi>
+                      <mml:mi>O</mml:mi>
+                      <mml:mi>W</mml:mi>
+                      <mml:mo>&gt;</mml:mo>
+                    </mml:mrow>
+                    <mml:mrow>
+                      <mml:msqrt>
+                        <mml:mrow>
+                          <mml:mtext>var</mml:mtext>
+                          <mml:mo stretchy="false">(</mml:mo>
+                          <mml:mi>F</mml:mi>
+                          <mml:mi>L</mml:mi>
+                          <mml:mi>O</mml:mi>
+                          <mml:mi>W</mml:mi>
+                          <mml:mo stretchy="false">)</mml:mo>
+                        </mml:mrow>
+                      </mml:msqrt>
+                    </mml:mrow>
+                  </mml:mfrac>
+                  <mml:mo>.</mml:mo>
+                </mml:mtd>
+              </mml:mtr>
+            </mml:mtable>
+          </mml:math>
+        </disp-formula>
+        <p>where the average and variance of a channel are:</p>
+        <disp-formula id="FD3">
+          <label>(3)</label>
+          <mml:math id="mm3">
+            <mml:mtable columnalign="center">
+              <mml:mtr>
+                <mml:mtd>
+                  <mml:mo>&lt;</mml:mo>
+                  <mml:mi>C</mml:mi>
+                  <mml:mi>H</mml:mi>
+                  <mml:mi>A</mml:mi>
+                  <mml:mi>N</mml:mi>
+                  <mml:mo>&gt;</mml:mo>
+                  <mml:mo>=</mml:mo>
+                  <mml:mfrac>
+                    <mml:mn>1</mml:mn>
+                    <mml:mrow>
+                      <mml:msub>
+                        <mml:mrow>
+                          <mml:mi>t</mml:mi>
+                        </mml:mrow>
+                        <mml:mn>2</mml:mn>
+                      </mml:msub>
+                      <mml:mo>-</mml:mo>
+                      <mml:msub>
+                        <mml:mrow>
+                          <mml:mi>t</mml:mi>
+                        </mml:mrow>
+                        <mml:mn>1</mml:mn>
+                      </mml:msub>
+                    </mml:mrow>
+                  </mml:mfrac>
+                  <mml:mrow>
+                    <mml:munderover>
+                      <mml:mo>∫</mml:mo>
+                      <mml:mrow>
+                        <mml:msub>
+                          <mml:mrow>
+                            <mml:mi>t</mml:mi>
+                          </mml:mrow>
+                          <mml:mn>1</mml:mn>
+                        </mml:msub>
+                      </mml:mrow>
+                      <mml:mrow>
+                        <mml:msub>
+                          <mml:mrow>
+                            <mml:mi>t</mml:mi>
+                          </mml:mrow>
+                          <mml:mn>2</mml:mn>
+                        </mml:msub>
+                      </mml:mrow>
+                    </mml:munderover>
+                    <mml:mrow>
+                      <mml:mi>C</mml:mi>
+                      <mml:mi>H</mml:mi>
+                      <mml:mi>A</mml:mi>
+                      <mml:mi>N</mml:mi>
+                      <mml:mo stretchy="false">(</mml:mo>
+                      <mml:mi>t</mml:mi>
+                      <mml:mo stretchy="false">)</mml:mo>
+                      <mml:mi>d</mml:mi>
+                      <mml:mi>t</mml:mi>
+                      <mml:mo>;</mml:mo>
+                    </mml:mrow>
+                  </mml:mrow>
+                </mml:mtd>
+              </mml:mtr>
+              <mml:mtr>
+                <mml:mtd>
+                  <mml:mtext>var</mml:mtext>
+                  <mml:mo stretchy="false">(</mml:mo>
+                  <mml:mi>C</mml:mi>
+                  <mml:mi>H</mml:mi>
+                  <mml:mi>A</mml:mi>
+                  <mml:mi>N</mml:mi>
+                  <mml:mo stretchy="false">)</mml:mo>
+                  <mml:mo>=</mml:mo>
+                  <mml:mfrac>
+                    <mml:mn>1</mml:mn>
+                    <mml:mrow>
+                      <mml:msub>
+                        <mml:mrow>
+                          <mml:mi>t</mml:mi>
+                        </mml:mrow>
+                        <mml:mn>2</mml:mn>
+                      </mml:msub>
+                      <mml:mo>-</mml:mo>
+                      <mml:msub>
+                        <mml:mrow>
+                          <mml:mi>t</mml:mi>
+                        </mml:mrow>
+                        <mml:mn>1</mml:mn>
+                      </mml:msub>
+                    </mml:mrow>
+                  </mml:mfrac>
+                  <mml:mrow>
+                    <mml:munderover>
+                      <mml:mo>∫</mml:mo>
+                      <mml:mrow>
+                        <mml:msub>
+                          <mml:mrow>
+                            <mml:mi>t</mml:mi>
+                          </mml:mrow>
+                          <mml:mn>1</mml:mn>
+                        </mml:msub>
+                      </mml:mrow>
+                      <mml:mrow>
+                        <mml:msub>
+                          <mml:mrow>
+                            <mml:mi>t</mml:mi>
+                          </mml:mrow>
+                          <mml:mn>2</mml:mn>
+                        </mml:msub>
+                      </mml:mrow>
+                    </mml:munderover>
+                    <mml:mrow>
+                      <mml:msup>
+                        <mml:mrow>
+                          <mml:mrow>
+                            <mml:mo stretchy="false">[</mml:mo>
+                            <mml:mi>C</mml:mi>
+                            <mml:mi>H</mml:mi>
+                            <mml:mi>A</mml:mi>
+                            <mml:mi>N</mml:mi>
+                            <mml:mo stretchy="false">(</mml:mo>
+                            <mml:mi>t</mml:mi>
+                            <mml:mo stretchy="false">)</mml:mo>
+                            <mml:mo>-</mml:mo>
+                            <mml:mo>&lt;</mml:mo>
+                            <mml:mi>C</mml:mi>
+                            <mml:mi>H</mml:mi>
+                            <mml:mi>A</mml:mi>
+                            <mml:mi>N</mml:mi>
+                            <mml:mo>&gt;</mml:mo>
+                            <mml:mo stretchy="false">]</mml:mo>
+                          </mml:mrow>
+                        </mml:mrow>
+                        <mml:mn>2</mml:mn>
+                      </mml:msup>
+                      <mml:mi>d</mml:mi>
+                      <mml:mi>t</mml:mi>
+                    </mml:mrow>
+                  </mml:mrow>
+                  <mml:mo>;</mml:mo>
+                </mml:mtd>
+              </mml:mtr>
+              <mml:mtr>
+                <mml:mtd>
+                  <mml:mi>C</mml:mi>
+                  <mml:mi>H</mml:mi>
+                  <mml:mi>A</mml:mi>
+                  <mml:mi>N</mml:mi>
+                  <mml:mo stretchy="false">(</mml:mo>
+                  <mml:mi>t</mml:mi>
+                  <mml:mo stretchy="false">)</mml:mo>
+                  <mml:mo>=</mml:mo>
+                  <mml:mi>E</mml:mi>
+                  <mml:mi>E</mml:mi>
+                  <mml:mi>G</mml:mi>
+                  <mml:mo stretchy="false">(</mml:mo>
+                  <mml:mi>t</mml:mi>
+                  <mml:mo stretchy="false">)</mml:mo>
+                  <mml:mo>;</mml:mo>
+                  <mml:mi>E</mml:mi>
+                  <mml:mi>K</mml:mi>
+                  <mml:mi>G</mml:mi>
+                  <mml:mo stretchy="false">(</mml:mo>
+                  <mml:mi>t</mml:mi>
+                  <mml:mo stretchy="false">)</mml:mo>
+                  <mml:mo>;</mml:mo>
+                  <mml:mi>F</mml:mi>
+                  <mml:mi>L</mml:mi>
+                  <mml:mi>O</mml:mi>
+                  <mml:mi>W</mml:mi>
+                  <mml:mo stretchy="false">(</mml:mo>
+                  <mml:mi>t</mml:mi>
+                  <mml:mo stretchy="false">)</mml:mo>
+                  <mml:mo>.</mml:mo>
+                </mml:mtd>
+              </mml:mtr>
+            </mml:mtable>
+          </mml:math>
+        </disp-formula>
+        <p>Because the actual records are represented in the form of time series instead of a continuous function, all integrals in <xref rid="FD1" ref-type="disp-formula">Equations 1</xref>–<xref rid="FD3" ref-type="disp-formula">3</xref> were replaced by their discrete equivalents according to:</p>
+        <disp-formula id="FD4">
+          <label>(4)</label>
+          <mml:math id="mm4">
+            <mml:mrow>
+              <mml:mfrac>
+                <mml:mn>1</mml:mn>
+                <mml:mrow>
+                  <mml:msub>
+                    <mml:mrow>
+                      <mml:mi>t</mml:mi>
+                    </mml:mrow>
+                    <mml:mn>2</mml:mn>
+                  </mml:msub>
+                  <mml:mo>-</mml:mo>
+                  <mml:msub>
+                    <mml:mrow>
+                      <mml:mi>t</mml:mi>
+                    </mml:mrow>
+                    <mml:mn>1</mml:mn>
+                  </mml:msub>
+                </mml:mrow>
+              </mml:mfrac>
+              <mml:mrow>
+                <mml:munderover>
+                  <mml:mo>∫</mml:mo>
+                  <mml:mrow>
+                    <mml:msub>
+                      <mml:mrow>
+                        <mml:mi>t</mml:mi>
+                      </mml:mrow>
+                      <mml:mn>1</mml:mn>
+                    </mml:msub>
+                  </mml:mrow>
+                  <mml:mrow>
+                    <mml:msub>
+                      <mml:mrow>
+                        <mml:mi>t</mml:mi>
+                      </mml:mrow>
+                      <mml:mn>2</mml:mn>
+                    </mml:msub>
+                  </mml:mrow>
+                </mml:munderover>
+                <mml:mrow>
+                  <mml:mo>{</mml:mo>
+                  <mml:mo>⋯</mml:mo>
+                  <mml:mo>}</mml:mo>
+                  <mml:mi>d</mml:mi>
+                  <mml:mi>t</mml:mi>
+                </mml:mrow>
+              </mml:mrow>
+              <mml:mo>→</mml:mo>
+              <mml:mfrac>
+                <mml:mn>1</mml:mn>
+                <mml:mi>N</mml:mi>
+              </mml:mfrac>
+              <mml:munderover>
+                <mml:mo>∑</mml:mo>
+                <mml:mrow>
+                  <mml:mi>i</mml:mi>
+                  <mml:mo>=</mml:mo>
+                  <mml:mn>1</mml:mn>
+                </mml:mrow>
+                <mml:mi>N</mml:mi>
+              </mml:munderover>
+              <mml:mrow>
+                <mml:mo>{</mml:mo>
+                <mml:mo>⋯</mml:mo>
+                <mml:mo>}</mml:mo>
+              </mml:mrow>
+            </mml:mrow>
+          </mml:math>
+        </disp-formula>
+        <p>The correlation function is large at some positive (negative) value of the time lag τ if the first function is a close copy of the second one but is shifted to the right (left) of the second.</p>
+        <p><xref ref-type="fig" rid="f6-nss-3-021">Figure 6</xref> is a plot of the EEG/FLOW and EKG/FLOW correlation functions of the healthy patient. They have an obvious high frequency periodicity (T ≈ 4 s) due to normal respiration, which is easily observed on PSD plots in the form of the peaks in the normal-breathing range (0.2–0.25 Hz; see <xref ref-type="fig" rid="f2-nss-3-021">Figure 2</xref>). The high frequency modulation of the correlation functions is not of interest in the present study and could have been removed through some kind of coarse-graining procedure, eg, detrending.<xref ref-type="bibr" rid="b27-nss-3-021">27</xref> It did not present a significant obstacle in the present analysis and, hence, was not removed. The EKG/FLOW correlation function has a low-frequency modulation (T ≈ 30 s), which is due to low-frequency waves of cardiac activity driven by the vasomotor tone, <xref ref-type="fig" rid="f2-nss-3-021">Figure 2C</xref>. The EEG/FLOW correlation function also has the low-frequency modulation, but less pronounced (has smaller amplitude).</p>
+        <p>The plots of the EEG/FLOW and EKG/FLOW correlation functions of the NCSR patient in sleep stages 2 and 3 are depicted in <xref ref-type="fig" rid="f7-nss-3-021">Figures 7</xref> and <xref ref-type="fig" rid="f8-nss-3-021">8</xref>, (A) and (B), respectively. The low-frequency modulation (NCSR frequencies, T ≈ 40 s) is more pronounced (has greater amplitude) than the high-frequency one (normal-breathing frequencies, T ≈ 3 s). This fact is also prominent on the PSD plots of the respective episodes, <xref ref-type="fig" rid="f3-nss-3-021">Figures 3</xref> and <xref ref-type="fig" rid="f4-nss-3-021">4</xref>, in the form of large amplitudes of the NCSR waves. Interestingly, the amplitude of <italic>corr</italic>&lt;<italic>b,f</italic> &gt;(<italic>τ</italic>) is more than twice the amplitude of <italic>corr</italic>&lt;<italic>h,f</italic> &gt;(<italic>τ</italic>), while for the healthy subject they are practically equal. It would have been interesting to extend the correlation analysis beyond T = 100 s, but this was not possible due to limited duration of episodes. <xref ref-type="fig" rid="f9-nss-3-021">Figure 9</xref> presents correlation functions in REM sleep stage. While the high-frequency modulations are practically of the same scale as in stages 2 or 3, the low frequency amplitudes are significantly smaller than in stages 2 or 3. This fact may also be confirmed on PSD plots of the corresponding channels (<xref ref-type="fig" rid="f3-nss-3-021">Figures 3</xref>–<xref ref-type="fig" rid="f5-nss-3-021">5</xref>).</p>
+        <p>To characterize the cause–consequence relationship between the time series we introduce respectively the time lags of maximum correlation of the cerebral and cardiac activities with the respiration:</p>
+        <disp-formula id="FD5">
+          <label>(5)</label>
+          <mml:math id="mm5">
+            <mml:mtable columnalign="left">
+              <mml:mtr>
+                <mml:mtd>
+                  <mml:msub>
+                    <mml:mrow>
+                      <mml:mover accent="true">
+                        <mml:mi>τ</mml:mi>
+                        <mml:mo>^</mml:mo>
+                      </mml:mover>
+                    </mml:mrow>
+                    <mml:mrow>
+                      <mml:mi>b</mml:mi>
+                      <mml:mo>,</mml:mo>
+                      <mml:mi>f</mml:mi>
+                    </mml:mrow>
+                  </mml:msub>
+                  <mml:mo>=</mml:mo>
+                  <mml:mi>τ</mml:mi>
+                  <mml:mrow>
+                    <mml:mo>{</mml:mo>
+                    <mml:mrow>
+                      <mml:mo>|</mml:mo>
+                      <mml:mi>c</mml:mi>
+                      <mml:mi>o</mml:mi>
+                      <mml:mi>r</mml:mi>
+                      <mml:mi>r</mml:mi>
+                      <mml:mo>&lt;</mml:mo>
+                      <mml:mi>b</mml:mi>
+                      <mml:mo>,</mml:mo>
+                      <mml:mi>f</mml:mi>
+                      <mml:mo>&gt;</mml:mo>
+                      <mml:mo stretchy="false">(</mml:mo>
+                      <mml:mi>τ</mml:mi>
+                      <mml:mo stretchy="false">)</mml:mo>
+                      <mml:mo>|</mml:mo>
+                      <mml:mo>⇒</mml:mo>
+                      <mml:mtext>max</mml:mtext>
+                    </mml:mrow>
+                    <mml:mo>}</mml:mo>
+                  </mml:mrow>
+                </mml:mtd>
+              </mml:mtr>
+              <mml:mtr>
+                <mml:mtd>
+                  <mml:msub>
+                    <mml:mrow>
+                      <mml:mover accent="true">
+                        <mml:mi>τ</mml:mi>
+                        <mml:mo>^</mml:mo>
+                      </mml:mover>
+                    </mml:mrow>
+                    <mml:mrow>
+                      <mml:mi>h</mml:mi>
+                      <mml:mo>,</mml:mo>
+                      <mml:mi>f</mml:mi>
+                    </mml:mrow>
+                  </mml:msub>
+                  <mml:mo>=</mml:mo>
+                  <mml:mi>τ</mml:mi>
+                  <mml:mrow>
+                    <mml:mo>{</mml:mo>
+                    <mml:mrow>
+                      <mml:mo>|</mml:mo>
+                      <mml:mi>c</mml:mi>
+                      <mml:mi>o</mml:mi>
+                      <mml:mi>r</mml:mi>
+                      <mml:mi>r</mml:mi>
+                      <mml:mo>&lt;</mml:mo>
+                      <mml:mi>h</mml:mi>
+                      <mml:mo>,</mml:mo>
+                      <mml:mi>f</mml:mi>
+                      <mml:mo>&gt;</mml:mo>
+                      <mml:mo stretchy="false">(</mml:mo>
+                      <mml:mi>τ</mml:mi>
+                      <mml:mo stretchy="false">)</mml:mo>
+                      <mml:mo>|</mml:mo>
+                      <mml:mo>⇒</mml:mo>
+                      <mml:mtext>max</mml:mtext>
+                    </mml:mrow>
+                    <mml:mo>}</mml:mo>
+                  </mml:mrow>
+                </mml:mtd>
+              </mml:mtr>
+            </mml:mtable>
+          </mml:math>
+        </disp-formula>
+        <p>The maximum-correlation time lags for EEG/FLOW and EKG/FLOW correlation functions of the healthy patient were practically zero. <xref ref-type="table" rid="t1-nss-3-021">Table 1</xref> contains the lag times of maximum correlation of the EEG/FLOW and EKG/FLOW activities for the NCSR patient. More than 75% of the lag times are negative (<italic>τ̂</italic><italic><sub>b,f</sub></italic><italic>&lt;</italic> 0, <italic>τ̂</italic><italic><sub>h,f</sub></italic> &lt;0), with the average values of &lt;<italic>τ̂</italic><italic><sub>b,f</sub></italic>&gt; = −1.57<italic>s</italic>,&lt;<italic>τ̂</italic><italic><sub>h,f</sub></italic>&gt; = −1.25<italic>s</italic> Moreover, there are no episodes where the cerebral and cardiac time lags are both positive. The analysis of the data proves statistical significance of the revealed correlation. Together with the fact that for the healthy patient the maximum-correlation time lags were practically zero, this leads us to the conclusion that NCSR is generated by variations in central nervous activity. In other words, the results of the present study favor the central hypothesis of the origin of NCSR.</p>
+      </sec>
+    </sec>
+    <sec sec-type="discussion">
+      <title>Discussion</title>
+      <p>We have conducted the PSD analysis of the distinct sleep stages of previously diagnosed NCSR patients and studied correlations of the different physiological activities in them. In this publication we present analysis of the full-night record of a typical NCSR patient. The statistical analysis of the data proved the significance of our findings. This is the first study where the correlations were analyzed separately for different sleep stages and the influence of the arousals was completely eliminated. Mathematical analysis of PSG records of the NCSR patient revealed clear indicators of this type of disorder in the form of a large peak in a very-low-frequency range of <italic>f</italic> ≈ 0.02 Hz. We have shown existence of the significant entrainment of the cerebral and cardiac activities with respiration during different stages of sleep in the NCSR patient. The entrainment is highly pronounced in light (stage 2) and deep (stage 3) sleep, and is significantly less pronounced in REM sleep. This result may lead to the development of novel low-cost methods of diagnosis of NCSR based on easy-to-obtain EKG records of patients.</p>
+      <p>The simple PSD analysis, however, did not shed light on causal nature of the nocturnal PB. A correlation functions analysis revealed that the correlations between the central activities and respiration attain maximum at negative lag times. Lagging of respiration behind the central activities in NCSR patients cannot be explained simply by the time for propagation of the neuronal impulses from the brain-stem to the plant because, first, the healthy patient did not have this type of lagging, and, second, neither EEG nor EKG are likely to detect this type of activity.</p>
+      <p>Comparing PSD plots of a NCSR and healthy patients, one can notice that the NCSR frequencies are close to the frequencies of the vasomotor tone. Thus, the results of the present study suggest that, at least for the analyzed patient, “the prime generator of CSR is variations in the central nervous regulatory activity, which, in turn, is influenced by factors such as heart failure”.<xref ref-type="bibr" rid="b25-nss-3-021">25</xref> According to this hypothesis, the vasomotor center of a NCSR patient assumes the control function in the respiratory control system. Franklin et al also speculated that “CSR is a physiological life-saving mechanism when a vital organ such as the heart or the brain has been severely damaged”.<xref ref-type="bibr" rid="b25-nss-3-021">25</xref> In this case CSR is an example of compensatory mechanism of physiological disorders, which has been considered recently by the present authors in the general framework of control system theory.<xref ref-type="bibr" rid="b35-nss-3-021">35</xref> To prove or disprove this hypothesis we are planning an experimental application of periodic vibrostimulation during sleep of a patient with NCSR. If the hypothesis is correct, the patient will respond to such stimulation by complete elimination of apneas or at least in significant decrease of its frequency. In this case the findings of the present study can have clinical applications. For instance, one may foresee development of some forms of low-cost EKG- or EEG-based “substitution therapy” for CSR.</p>
+    </sec>
+  </body>
+  <back>
+    <ack>
+      <title>Acknowledgments</title>
+      <p>The authors would like to thank Dr N Freedman for selecting and providing the appropriate records of patients, and to Mr Y Katz, RPSGT for scorings and technical assistance. One of us (AU) acknowledges the help of Dr Nickolov in the analysis of the literature on periodic breathing. Support for this research was provided by grant P20 MD001089-01 from the National Institution of Health, NCMHD, and Department of Health and Human Services.</p>
+    </ack>
+    <fn-group>
+      <fn id="fn1-nss-3-021">
+        <p>
+          <bold>Disclosure</bold>
+        </p>
+        <p>The authors report no conflicts of interest in this work.</p>
+      </fn>
+    </fn-group>
+    <ref-list>
+      <title>References</title>
+      <ref id="b1-nss-3-021">
+        <label>1</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Cherniack</surname>
+              <given-names>NS</given-names>
+            </name>
+          </person-group>
+          <article-title>Apnea and PB during sleep</article-title>
+          <source>N Engl J Med</source>
+          <year>1999</year>
+          <volume>341</volume>
+          <fpage>985</fpage>
+          <lpage>987</lpage>
+          <pub-id pub-id-type="pmid">10498496</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b2-nss-3-021">
+        <label>2</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Khoo</surname>
+              <given-names>MCK</given-names>
+            </name>
+            <name>
+              <surname>Gottschalk</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Pack</surname>
+              <given-names>AI</given-names>
+            </name>
+          </person-group>
+          <article-title>Sleep-induced PB and apnea: a theoretical study</article-title>
+          <source>J Appl Physiol</source>
+          <year>1991</year>
+          <volume>70</volume>
+          <fpage>2014</fpage>
+          <lpage>2024</lpage>
+          <pub-id pub-id-type="pmid">1907602</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b3-nss-3-021">
+        <label>3</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Khoo</surname>
+              <given-names>MCK</given-names>
+            </name>
+            <name>
+              <surname>Kronauer</surname>
+              <given-names>RE</given-names>
+            </name>
+            <name>
+              <surname>Strohl</surname>
+              <given-names>KP</given-names>
+            </name>
+            <name>
+              <surname>Slutsky</surname>
+              <given-names>AS</given-names>
+            </name>
+          </person-group>
+          <article-title>Factors inducing PB in humans: a general model</article-title>
+          <source>J Appl Physiol</source>
+          <year>1982</year>
+          <volume>53</volume>
+          <fpage>644</fpage>
+          <lpage>659</lpage>
+          <pub-id pub-id-type="pmid">7129986</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b4-nss-3-021">
+        <label>4</label>
+        <element-citation publication-type="book">
+          <person-group person-group-type="editor">
+            <name>
+              <surname>Kryger</surname>
+              <given-names>MH</given-names>
+            </name>
+            <name>
+              <surname>Roth</surname>
+              <given-names>T</given-names>
+            </name>
+            <name>
+              <surname>Dement</surname>
+              <given-names>WC</given-names>
+            </name>
+          </person-group>
+          <source>Principles and Practice of Sleep Medicine</source>
+          <edition>3rd ed</edition>
+          <publisher-loc>Philadelphia, PA</publisher-loc>
+          <publisher-name>WB Saunders</publisher-name>
+          <year>2000</year>
+        </element-citation>
+      </ref>
+      <ref id="b5-nss-3-021">
+        <label>5</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Schultz</surname>
+              <given-names>R</given-names>
+            </name>
+            <name>
+              <surname>Baseler</surname>
+              <given-names>G</given-names>
+            </name>
+            <name>
+              <surname>Ghofrani</surname>
+              <given-names>HA</given-names>
+            </name>
+            <name>
+              <surname>Grimminger</surname>
+              <given-names>F</given-names>
+            </name>
+            <name>
+              <surname>Olschewski</surname>
+              <given-names>H</given-names>
+            </name>
+            <name>
+              <surname>Seeger</surname>
+              <given-names>W</given-names>
+            </name>
+          </person-group>
+          <article-title>Nocturnal PB in primary pulmonary hypertension</article-title>
+          <source>Eur Respir J</source>
+          <year>2002</year>
+          <volume>19</volume>
+          <fpage>658</fpage>
+          <lpage>663</lpage>
+          <pub-id pub-id-type="pmid">11998995</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b6-nss-3-021">
+        <label>6</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Webb</surname>
+              <given-names>P</given-names>
+            </name>
+          </person-group>
+          <article-title>PB during sleep</article-title>
+          <source>J Appl Physiol</source>
+          <year>1974</year>
+          <volume>37</volume>
+          <fpage>899</fpage>
+          <lpage>903</lpage>
+          <pub-id pub-id-type="pmid">4373431</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b7-nss-3-021">
+        <label>7</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Al Dabal</surname>
+              <given-names>L</given-names>
+            </name>
+            <name>
+              <surname>BaHammam</surname>
+              <given-names>AS</given-names>
+            </name>
+          </person-group>
+          <article-title>Cheyne-Stokes respiration in patients with heart failure</article-title>
+          <source>Lung</source>
+          <year>2010</year>
+          <volume>188</volume>
+          <fpage>5</fpage>
+          <lpage>14</lpage>
+          <pub-id pub-id-type="pmid">19956965</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b8-nss-3-021">
+        <label>8</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Bulow</surname>
+              <given-names>K</given-names>
+            </name>
+          </person-group>
+          <article-title>Respiration and wakefulness in man</article-title>
+          <source>Acta Physiol Scand Suppl</source>
+          <year>1963</year>
+          <volume>209</volume>
+          <fpage>1</fpage>
+          <lpage>110</lpage>
+          <pub-id pub-id-type="pmid">14016805</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b9-nss-3-021">
+        <label>9</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Bulow</surname>
+              <given-names>K</given-names>
+            </name>
+            <name>
+              <surname>Ingvar</surname>
+              <given-names>D</given-names>
+            </name>
+          </person-group>
+          <article-title>Respiration and state of wakefulness in normals</article-title>
+          <source>Acta Physiol Scand</source>
+          <year>1961</year>
+          <volume>51</volume>
+          <fpage>230</fpage>
+          <lpage>238</lpage>
+        </element-citation>
+      </ref>
+      <ref id="b10-nss-3-021">
+        <label>10</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Hanly</surname>
+              <given-names>PJ</given-names>
+            </name>
+            <name>
+              <surname>Millar</surname>
+              <given-names>TW</given-names>
+            </name>
+            <name>
+              <surname>Steljes</surname>
+              <given-names>DG</given-names>
+            </name>
+            <name>
+              <surname>Baert</surname>
+              <given-names>R</given-names>
+            </name>
+            <name>
+              <surname>Frais</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Kryger</surname>
+              <given-names>MH</given-names>
+            </name>
+          </person-group>
+          <article-title>Respiration and abnormal sleep in patients with congestive heart failure</article-title>
+          <source>Chest</source>
+          <year>1989</year>
+          <volume>96</volume>
+          <fpage>480</fpage>
+          <lpage>488</lpage>
+          <pub-id pub-id-type="pmid">2766808</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b11-nss-3-021">
+        <label>11</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Brusil</surname>
+              <given-names>PJ</given-names>
+            </name>
+            <name>
+              <surname>Waggener</surname>
+              <given-names>TB</given-names>
+            </name>
+            <name>
+              <surname>Kronauer</surname>
+              <given-names>RE</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Methods for identifying respiratory oscillations disclose altitude effects</article-title>
+          <source>J Appl Physiol</source>
+          <year>1980</year>
+          <volume>48</volume>
+          <fpage>545</fpage>
+          <lpage>556</lpage>
+          <pub-id pub-id-type="pmid">7372526</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b12-nss-3-021">
+        <label>12</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Lahiri</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Maret</surname>
+              <given-names>K</given-names>
+            </name>
+            <name>
+              <surname>Sherpa</surname>
+              <given-names>MG</given-names>
+            </name>
+          </person-group>
+          <article-title>Dependence of high altitude sleep apnea on ventilatory sensitivity to hypoxia</article-title>
+          <source>Respir Physiol</source>
+          <year>1985</year>
+          <volume>52</volume>
+          <fpage>281</fpage>
+          <lpage>301</lpage>
+          <pub-id pub-id-type="pmid">6412339</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b13-nss-3-021">
+        <label>13</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Weil</surname>
+              <given-names>JV</given-names>
+            </name>
+          </person-group>
+          <article-title>Respiratory physiology: sleep at high altitude</article-title>
+          <source>Clin Chest Med</source>
+          <year>1985</year>
+          <volume>6</volume>
+          <fpage>615</fpage>
+          <lpage>621</lpage>
+          <pub-id pub-id-type="pmid">2935358</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b14-nss-3-021">
+        <label>14</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Chapman</surname>
+              <given-names>KR</given-names>
+            </name>
+            <name>
+              <surname>Bruce</surname>
+              <given-names>EN</given-names>
+            </name>
+            <name>
+              <surname>Gothe</surname>
+              <given-names>B</given-names>
+            </name>
+            <name>
+              <surname>Cherniack</surname>
+              <given-names>NS</given-names>
+            </name>
+          </person-group>
+          <article-title>Possible mechanisms of PB during sleep</article-title>
+          <source>J Appl Physiol</source>
+          <year>1988</year>
+          <volume>64</volume>
+          <fpage>1000</fpage>
+          <lpage>1008</lpage>
+          <pub-id pub-id-type="pmid">3366723</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b15-nss-3-021">
+        <label>15</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Lorenzi-Filho</surname>
+              <given-names>G</given-names>
+            </name>
+            <name>
+              <surname>Dajani</surname>
+              <given-names>HR</given-names>
+            </name>
+            <name>
+              <surname>Leung</surname>
+              <given-names>RST</given-names>
+            </name>
+            <name>
+              <surname>Floras</surname>
+              <given-names>JS</given-names>
+            </name>
+            <name>
+              <surname>Bradley</surname>
+              <given-names>TD</given-names>
+            </name>
+          </person-group>
+          <article-title>Entrainment of blood pressure and heart rate oscillation by periodic breathing</article-title>
+          <source>Am J Respir Crit Care Med</source>
+          <year>1999</year>
+          <volume>159</volume>
+          <fpage>1147</fpage>
+          <lpage>1154</lpage>
+          <pub-id pub-id-type="pmid">10194159</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b16-nss-3-021">
+        <label>16</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Javaheri</surname>
+              <given-names>S</given-names>
+            </name>
+          </person-group>
+          <article-title>A mechanism of central sleep apnea in patients with heart failure</article-title>
+          <source>N Engl J Med</source>
+          <year>1999</year>
+          <volume>341</volume>
+          <fpage>949</fpage>
+          <lpage>954</lpage>
+          <pub-id pub-id-type="pmid">10498490</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b17-nss-3-021">
+        <label>17</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kohnlein</surname>
+              <given-names>T</given-names>
+            </name>
+            <name>
+              <surname>Welte</surname>
+              <given-names>T</given-names>
+            </name>
+            <name>
+              <surname>Tan</surname>
+              <given-names>LB</given-names>
+            </name>
+            <name>
+              <surname>Elliot</surname>
+              <given-names>MW</given-names>
+            </name>
+          </person-group>
+          <article-title>Central sleep apnea syndrome in patients with chronic heart disease: a critical review of the current literature</article-title>
+          <source>Thorax</source>
+          <year>2002</year>
+          <volume>57</volume>
+          <fpage>547</fpage>
+          <lpage>554</lpage>
+          <pub-id pub-id-type="pmid">12037232</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b18-nss-3-021">
+        <label>18</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Ryan</surname>
+              <given-names>CM</given-names>
+            </name>
+            <name>
+              <surname>Bradley</surname>
+              <given-names>TD</given-names>
+            </name>
+          </person-group>
+          <article-title>Periodicity of obstructive sleep apnea in patients with and without heart failure</article-title>
+          <source>Chest</source>
+          <year>2005</year>
+          <volume>127</volume>
+          <fpage>536</fpage>
+          <lpage>542</lpage>
+          <pub-id pub-id-type="pmid">15705993</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b19-nss-3-021">
+        <label>19</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Carley</surname>
+              <given-names>DW</given-names>
+            </name>
+            <name>
+              <surname>Shannon</surname>
+              <given-names>DC</given-names>
+            </name>
+          </person-group>
+          <article-title>A minimal mathematical model of human periodic breathing</article-title>
+          <source>J Appl Physiol</source>
+          <year>1988</year>
+          <volume>65</volume>
+          <fpage>1400</fpage>
+          <lpage>1409</lpage>
+          <pub-id pub-id-type="pmid">3141356</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b20-nss-3-021">
+        <label>20</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Cherniack</surname>
+              <given-names>NS</given-names>
+            </name>
+            <name>
+              <surname>Longobardo</surname>
+              <given-names>GS</given-names>
+            </name>
+          </person-group>
+          <article-title>Cheyne-Stokes breathing. An instability in physiologic control</article-title>
+          <source>N Engl J Med</source>
+          <year>1973</year>
+          <volume>288</volume>
+          <fpage>952</fpage>
+          <lpage>957</lpage>
+          <pub-id pub-id-type="pmid">4571351</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b21-nss-3-021">
+        <label>21</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Ghazanshashi</surname>
+              <given-names>SD</given-names>
+            </name>
+            <name>
+              <surname>Khoo</surname>
+              <given-names>MC</given-names>
+            </name>
+          </person-group>
+          <article-title>Optimal ventilatory patterns in periodic breathing</article-title>
+          <source>Ann Biomed Eng</source>
+          <year>1993</year>
+          <volume>21</volume>
+          <fpage>517</fpage>
+          <lpage>530</lpage>
+          <pub-id pub-id-type="pmid">8239092</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b22-nss-3-021">
+        <label>22</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Pinna</surname>
+              <given-names>GD</given-names>
+            </name>
+            <name>
+              <surname>Maestri</surname>
+              <given-names>R</given-names>
+            </name>
+            <name>
+              <surname>Mortara</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>La Rovere</surname>
+              <given-names>MT</given-names>
+            </name>
+            <name>
+              <surname>Fanfulla</surname>
+              <given-names>F</given-names>
+            </name>
+            <name>
+              <surname>Sleight</surname>
+              <given-names>P</given-names>
+            </name>
+          </person-group>
+          <article-title>PB in heart failure patients: testing the hypothesis of instability of the chemoreflex loop</article-title>
+          <source>J Appl Physiol</source>
+          <year>2000</year>
+          <volume>89</volume>
+          <fpage>2147</fpage>
+          <lpage>2157</lpage>
+          <pub-id pub-id-type="pmid">11090561</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b23-nss-3-021">
+        <label>23</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Yajima</surname>
+              <given-names>T</given-names>
+            </name>
+            <name>
+              <surname>Koike</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Sugimoto</surname>
+              <given-names>K</given-names>
+            </name>
+            <name>
+              <surname>Miyahara</surname>
+              <given-names>Y</given-names>
+            </name>
+            <name>
+              <surname>Marumo</surname>
+              <given-names>F</given-names>
+            </name>
+            <name>
+              <surname>Hiroe</surname>
+              <given-names>M</given-names>
+            </name>
+          </person-group>
+          <article-title>Mechanism of PB in patients with cardiovascular disease</article-title>
+          <source>Chest</source>
+          <year>1994</year>
+          <volume>106</volume>
+          <fpage>142</fpage>
+          <lpage>146</lpage>
+          <pub-id pub-id-type="pmid">8020261</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b24-nss-3-021">
+        <label>24</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Ben-Dov</surname>
+              <given-names>I</given-names>
+            </name>
+            <name>
+              <surname>Sietsema</surname>
+              <given-names>KE</given-names>
+            </name>
+            <name>
+              <surname>Casaburi</surname>
+              <given-names>R</given-names>
+            </name>
+            <name>
+              <surname>Wasserman</surname>
+              <given-names>K</given-names>
+            </name>
+          </person-group>
+          <article-title>Evidence that circulatory oscillations accompany ventilatory oscillations during exercise in patients with heart failure</article-title>
+          <source>Am Rev Respir Dis</source>
+          <year>1992</year>
+          <volume>145</volume>
+          <fpage>776</fpage>
+          <lpage>781</lpage>
+          <pub-id pub-id-type="pmid">1554201</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b25-nss-3-021">
+        <label>25</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Franklin</surname>
+              <given-names>KA</given-names>
+            </name>
+            <name>
+              <surname>Sandstrom</surname>
+              <given-names>E</given-names>
+            </name>
+            <name>
+              <surname>Johansson</surname>
+              <given-names>G</given-names>
+            </name>
+            <name>
+              <surname>Balfors</surname>
+              <given-names>EM</given-names>
+            </name>
+          </person-group>
+          <article-title>Hemodynamics, cerebral circulation, and oxygen saturation in Cheyne-Stokes respiration</article-title>
+          <source>J Appl Physiol</source>
+          <year>1997</year>
+          <volume>83</volume>
+          <fpage>1184</fpage>
+          <lpage>1191</lpage>
+          <pub-id pub-id-type="pmid">9338427</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b26-nss-3-021">
+        <label>26</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Ringler</surname>
+              <given-names>JR</given-names>
+            </name>
+            <name>
+              <surname>Basner</surname>
+              <given-names>RC</given-names>
+            </name>
+            <name>
+              <surname>Shannon</surname>
+              <given-names>R</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Hypoxemia alone does not explain blood pressure elevations after obstructive apneas</article-title>
+          <source>J Appl Physiol</source>
+          <year>1990</year>
+          <volume>69</volume>
+          <fpage>2143</fpage>
+          <lpage>2148</lpage>
+          <pub-id pub-id-type="pmid">2077012</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b27-nss-3-021">
+        <label>27</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Bunde</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Havlin</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Kantelhardt</surname>
+              <given-names>JW</given-names>
+            </name>
+            <name>
+              <surname>Penzel</surname>
+              <given-names>T</given-names>
+            </name>
+            <name>
+              <surname>Peter</surname>
+              <given-names>JH</given-names>
+            </name>
+            <name>
+              <surname>Voigt</surname>
+              <given-names>K</given-names>
+            </name>
+          </person-group>
+          <article-title>Correlated and uncorrelated regions in heart-rate fluctuations during sleep</article-title>
+          <source>Phys Rev Lett</source>
+          <year>2000</year>
+          <volume>85</volume>
+          <fpage>3736</fpage>
+          <pub-id pub-id-type="pmid">11030994</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b28-nss-3-021">
+        <label>28</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Dingli</surname>
+              <given-names>K</given-names>
+            </name>
+            <name>
+              <surname>Assimakopoulos</surname>
+              <given-names>T</given-names>
+            </name>
+            <name>
+              <surname>Wraith</surname>
+              <given-names>PK</given-names>
+            </name>
+            <name>
+              <surname>Fietze</surname>
+              <given-names>I</given-names>
+            </name>
+            <name>
+              <surname>Douglas</surname>
+              <given-names>NJ</given-names>
+            </name>
+          </person-group>
+          <article-title>Spectral oscillations of RR intervals in sleep apnea/hypopnea syndrome patients</article-title>
+          <source>Eur Respir J</source>
+          <year>2003</year>
+          <volume>22</volume>
+          <fpage>943</fpage>
+          <lpage>950</lpage>
+          <pub-id pub-id-type="pmid">14680083</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b29-nss-3-021">
+        <label>29</label>
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Rechtschaffen</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Kales</surname>
+              <given-names>A</given-names>
+            </name>
+          </person-group>
+          <source>A Manual of Standardized Terminology, Techniques, and Scoring System for Sleep Stages of Human Subjects</source>
+          <publisher-loc>Los Angeles, CA</publisher-loc>
+          <publisher-name>Brain Information Service/Brain Research Institute, UCLA</publisher-name>
+          <year>1968</year>
+        </element-citation>
+      </ref>
+      <ref id="b30-nss-3-021">
+        <label>30</label>
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Press</surname>
+              <given-names>WH</given-names>
+            </name>
+            <name>
+              <surname>Teukolsky</surname>
+              <given-names>SA</given-names>
+            </name>
+            <name>
+              <surname>Vetterling</surname>
+              <given-names>WT</given-names>
+            </name>
+            <name>
+              <surname>Flannery</surname>
+              <given-names>BP</given-names>
+            </name>
+          </person-group>
+          <source>Numerical Recipes in Fortran The Art of Scientific Computing</source>
+          <edition>2nd ed</edition>
+          <publisher-loc>NY</publisher-loc>
+          <publisher-name>Cambridge University Press</publisher-name>
+          <year>1992</year>
+        </element-citation>
+      </ref>
+      <ref id="b31-nss-3-021">
+        <label>31</label>
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Balescu</surname>
+              <given-names>R</given-names>
+            </name>
+          </person-group>
+          <source>Equilibrium and Nonequilibrium Statistical Mechanics</source>
+          <publisher-loc>New York, NY</publisher-loc>
+          <publisher-name>Wiley and Sons</publisher-name>
+          <year>1975</year>
+        </element-citation>
+      </ref>
+      <ref id="b32-nss-3-021">
+        <label>32</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Akselrod</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Gordon</surname>
+              <given-names>D</given-names>
+            </name>
+            <name>
+              <surname>Ubel</surname>
+              <given-names>FA</given-names>
+            </name>
+            <name>
+              <surname>Shannon</surname>
+              <given-names>DC</given-names>
+            </name>
+            <name>
+              <surname>Barger</surname>
+              <given-names>AC</given-names>
+            </name>
+            <name>
+              <surname>Cohen</surname>
+              <given-names>RJ</given-names>
+            </name>
+          </person-group>
+          <article-title>Power spectrum analysis of heart rate fluctuation: a quantitative probe of beat-to-beat cardiovascular control</article-title>
+          <source>Science</source>
+          <year>1981</year>
+          <volume>213</volume>
+          <fpage>220</fpage>
+          <lpage>222</lpage>
+          <pub-id pub-id-type="pmid">6166045</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b33-nss-3-021">
+        <label>33</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Pagani</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Lombardi</surname>
+              <given-names>F</given-names>
+            </name>
+            <name>
+              <surname>Guzzetti</surname>
+              <given-names>S</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Power spectral analysis of heart rate and arterial pressure variabilities as a marker of sympathovagal interaction in man and conscious dog</article-title>
+          <source>Circ Res</source>
+          <year>1986</year>
+          <volume>59</volume>
+          <fpage>178</fpage>
+          <lpage>193</lpage>
+          <pub-id pub-id-type="pmid">2874900</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b34-nss-3-021">
+        <label>34</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Pomeranz</surname>
+              <given-names>B</given-names>
+            </name>
+            <name>
+              <surname>Macaulay</surname>
+              <given-names>RJB</given-names>
+            </name>
+            <name>
+              <surname>Caudill</surname>
+              <given-names>MA</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Assessment of autonomic function in humans by heart rate spectral analysis</article-title>
+          <source>Am J Physiol</source>
+          <year>1985</year>
+          <volume>248</volume>
+          <fpage>H151</fpage>
+          <lpage>H153</lpage>
+          <pub-id pub-id-type="pmid">3970172</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b35-nss-3-021">
+        <label>35</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Golbin</surname>
+              <given-names>AZ</given-names>
+            </name>
+            <name>
+              <surname>Umantsev</surname>
+              <given-names>A</given-names>
+            </name>
+          </person-group>
+          <article-title>Adaptive chaos: mild disorder may help contain major disease</article-title>
+          <source>Med Hypotheses</source>
+          <year>2006</year>
+          <volume>66</volume>
+          <fpage>182</fpage>
+          <pub-id pub-id-type="pmid">16165309</pub-id>
+        </element-citation>
+      </ref>
+    </ref-list>
+  </back>
+  <floats-group>
+    <fig id="f1-nss-3-021" position="float">
+      <label>Figure 1</label>
+      <caption>
+        <p>Polysomnography of a patient with NCSR.</p>
+        <p><bold>Notes:</bold> The x-axis is time with the scale shown on the bottom of each picture: <bold>A</bold>) 5 min record from the episode #5 (see <xref ref-type="table" rid="t1-nss-3-021">Table 1</xref>); <bold>B</bold>) Full night sleepnogram and apnea-hypopnea graph of the same patient.</p>
+      </caption>
+      <graphic xlink:href="nss-3-021f1"/>
+    </fig>
+    <fig id="f2-nss-3-021" position="float">
+      <label>Figure 2</label>
+      <caption>
+        <p>PSD plots of 20 min records during sleep stage 2 of a healthy patient.</p>
+        <p><bold>Notes:</bold> y-axis – PSD values of the channels: <bold>A</bold>) FLOW; <bold>B</bold>) EEG; <bold>C</bold>) EKG.</p>
+        <p><bold>Abbreviations:</bold> EEG, electroencephalogram; EKG, electrocardiogram; FLOW, respiration airflow; PSD, power–spectrum–density.</p>
+      </caption>
+      <graphic xlink:href="nss-3-021f2"/>
+    </fig>
+    <fig id="f3-nss-3-021" position="float">
+      <label>Figure 3</label>
+      <caption>
+        <p>PSD plots during sleep-stage 2 episode #12 (see <xref ref-type="table" rid="t1-nss-3-021">Table 1</xref>) of a NCSR patient.</p>
+        <p><bold>Notes:</bold> y-axis – PSD values of the channels: <bold>A</bold>) FLOW; <bold>B</bold>) EEG; <bold>C</bold>) EKG.</p>
+        <p><bold>Abbreviations:</bold> EEG, electroencephalogram; EKG, electrocardiogram; FLOW, respiration airflow; PSD, power-spectrum-density.</p>
+      </caption>
+      <graphic xlink:href="nss-3-021f3"/>
+    </fig>
+    <fig id="f4-nss-3-021" position="float">
+      <label>Figure 4</label>
+      <caption>
+        <p>PSD plots during sleep-stage 3 episode #9 (see <xref ref-type="table" rid="t1-nss-3-021">Table 1</xref>) of a NCSR patient.</p>
+        <p><bold>Notes:</bold> y-axis – PSD values of the channels: <bold>A</bold>) FLOW; <bold>B</bold>) EEG; <bold>C</bold>) EKG.</p>
+        <p><bold>Abbreviations:</bold> EEG, electroencephalogram; EKG, electrocardiogram; FLOW, respiration airflow; PSD, power-spectrum-density.</p>
+      </caption>
+      <graphic xlink:href="nss-3-021f4"/>
+    </fig>
+    <fig id="f5-nss-3-021" position="float">
+      <label>Figure 5</label>
+      <caption>
+        <p>PSD plots during REM sleep-stage episode #3 (see <xref ref-type="table" rid="t1-nss-3-021">Table 1</xref>) of a NCSR patient.</p>
+        <p><bold>Notes:</bold> y-axis – PSD values of the channels: <bold>A</bold>) FLOW; <bold>B</bold>) EEG; <bold>C</bold>) EKG.</p>
+        <p><bold>Abbreviations:</bold> EEG, electroencephalogram; EKG, electrocardiogram; FLOW, respiration airflow; PSD, power-spectrum-density; REM, rapid eye movement.</p>
+      </caption>
+      <graphic xlink:href="nss-3-021f5"/>
+    </fig>
+    <fig id="f6-nss-3-021" position="float">
+      <label>Figure 6</label>
+      <caption>
+        <p>Correlation functions of central activities and respiration in sleep stage 2 of a healthy patient: <bold>A</bold>) EEG/FLOW; <bold>B</bold>) EKG/FLOW.</p>
+        <p><bold>Abbreviations:</bold> EEG, electroencephalogram; EKG, electrocardiogram; FLOW, respiration airflow.</p>
+      </caption>
+      <graphic xlink:href="nss-3-021f6"/>
+    </fig>
+    <fig id="f7-nss-3-021" position="float">
+      <label>Figure 7</label>
+      <caption>
+        <p>Correlation functions of sleep stage 2 episode #12 (see <xref ref-type="table" rid="t1-nss-3-021">Table 1</xref>) of an NCSR patient: <bold>A</bold>) EEG/FLOW; <bold>B</bold>) EKG/FLOW.</p>
+        <p><bold>Abbreviations:</bold> EEG, electroencephalogram; EKG, electrocardiogram; FLOW, respiration airflow; NCSR, nocturnal Cheyne–Stokes respiration.</p>
+      </caption>
+      <graphic xlink:href="nss-3-021f7"/>
+    </fig>
+    <fig id="f8-nss-3-021" position="float">
+      <label>Figure 8</label>
+      <caption>
+        <p>Correlation functions of sleep stage 3 episode #9 (see <xref ref-type="table" rid="t1-nss-3-021">Table 1</xref>) of an NCSR patient: <bold>A</bold>) EEG/FLOW; <bold>B</bold>) EKG/FLOW.</p>
+        <p><bold>Abbreviations:</bold> EEG, electroencephalogram; EKG, electrocardiogram; FLOW, respiration airflow; NCSR, nocturnal Cheyne-Stokes respiration.</p>
+      </caption>
+      <graphic xlink:href="nss-3-021f8"/>
+    </fig>
+    <fig id="f9-nss-3-021" position="float">
+      <label>Figure 9</label>
+      <caption>
+        <p>Correlation functions of REM sleep-stage episode #3 (see <xref ref-type="table" rid="t1-nss-3-021">Table 1</xref>) of an NCSR patient: <bold>A</bold>) EEG/FLOW; <bold>B</bold>) EKG/FLOW.</p>
+        <p><bold>Abbreviations:</bold> EEG, electroencephalogram; EKG, electrocardiogram; FLOW, respiration airflow; NCSR, nocturnal Cheyne–Stokes respiration; REM, rapid eye movement.</p>
+      </caption>
+      <graphic xlink:href="nss-3-021f9"/>
+    </fig>
+    <table-wrap id="t1-nss-3-021" position="float">
+      <label>Table 1</label>
+      <caption>
+        <p>Lag times and correlation functions of maximum correlation for the NCSR patient</p>
+      </caption>
+      <table frame="hsides" rules="groups">
+        <thead>
+          <tr>
+            <th align="left" valign="top" rowspan="3" colspan="1">Episode number</th>
+            <th align="left" valign="top" rowspan="3" colspan="1">Sleep stage</th>
+            <th align="left" valign="top" rowspan="3" colspan="1">Elapsed time (s)</th>
+            <th colspan="2" align="left" valign="top" rowspan="1">EEG-FLOW</th>
+            <th colspan="2" align="left" valign="top" rowspan="1">EKG-FLOW</th>
+            <th align="left" valign="top" rowspan="1" colspan="1">Comments</th>
+          </tr>
+          <tr>
+            <th colspan="2" align="left" valign="top" rowspan="1">
+<hr/></th>
+            <th colspan="2" align="left" valign="top" rowspan="1">
+<hr/></th>
+            <th align="left" valign="top" rowspan="1" colspan="1">
+<hr/></th>
+          </tr>
+          <tr>
+            <th align="left" valign="top" rowspan="1" colspan="1">Time lag (s)</th>
+            <th align="left" valign="top" rowspan="1" colspan="1">Correlation function</th>
+            <th align="left" valign="top" rowspan="1" colspan="1">Time lag (s)</th>
+            <th align="left" valign="top" rowspan="1" colspan="1">Correlation function</th>
+            <th align="left" valign="top" rowspan="1" colspan="1">Arousal during sleep</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td align="left" valign="top" rowspan="1" colspan="1">1</td>
+            <td align="left" valign="top" rowspan="1" colspan="1">2</td>
+            <td align="left" valign="top" rowspan="1" colspan="1">660</td>
+            <td align="left" valign="top" rowspan="1" colspan="1">2.343</td>
+            <td align="left" valign="top" rowspan="1" colspan="1">−0.0799</td>
+            <td align="left" valign="top" rowspan="1" colspan="1">−0.017</td>
+            <td align="left" valign="top" rowspan="1" colspan="1">0.0495</td>
+            <td align="left" valign="top" rowspan="1" colspan="1"/>
+          </tr>
+          <tr>
+            <td align="left" valign="top" rowspan="1" colspan="1">2</td>
+            <td align="left" valign="top" rowspan="1" colspan="1">3</td>
+            <td align="left" valign="top" rowspan="1" colspan="1">360</td>
+            <td align="left" valign="top" rowspan="1" colspan="1">−0.37705</td>
+            <td align="left" valign="top" rowspan="1" colspan="1">−0.07782</td>
+            <td align="left" valign="top" rowspan="1" colspan="1">0.063</td>
+            <td align="left" valign="top" rowspan="1" colspan="1">0.0599</td>
+            <td align="left" valign="top" rowspan="1" colspan="1"/>
+          </tr>
+          <tr>
+            <td align="left" valign="top" rowspan="1" colspan="1">3</td>
+            <td align="left" valign="top" rowspan="1" colspan="1">REM</td>
+            <td align="left" valign="top" rowspan="1" colspan="1">1,260</td>
+            <td align="left" valign="top" rowspan="1" colspan="1">−0.597</td>
+            <td align="left" valign="top" rowspan="1" colspan="1">−0.1914</td>
+            <td align="left" valign="top" rowspan="1" colspan="1">0.443</td>
+            <td align="left" valign="top" rowspan="1" colspan="1">0.0459</td>
+            <td align="left" valign="top" rowspan="1" colspan="1"/>
+          </tr>
+          <tr>
+            <td align="left" valign="top" rowspan="1" colspan="1">4</td>
+            <td align="left" valign="top" rowspan="1" colspan="1">2</td>
+            <td align="left" valign="top" rowspan="1" colspan="1">523</td>
+            <td align="left" valign="top" rowspan="1" colspan="1">−3.397</td>
+            <td align="left" valign="top" rowspan="1" colspan="1">−0.135</td>
+            <td align="left" valign="top" rowspan="1" colspan="1">0.083</td>
+            <td align="left" valign="top" rowspan="1" colspan="1">0.0355</td>
+            <td align="left" valign="top" rowspan="1" colspan="1"/>
+          </tr>
+          <tr>
+            <td align="left" valign="top" rowspan="1" colspan="1">5</td>
+            <td align="left" valign="top" rowspan="1" colspan="1">3</td>
+            <td align="left" valign="top" rowspan="1" colspan="1">1,410</td>
+            <td align="left" valign="top" rowspan="1" colspan="1">0.262955</td>
+            <td align="left" valign="top" rowspan="1" colspan="1">−0.06007</td>
+            <td align="left" valign="top" rowspan="1" colspan="1">−2.927</td>
+            <td align="left" valign="top" rowspan="1" colspan="1">0.0526</td>
+            <td align="left" valign="top" rowspan="1" colspan="1"/>
+          </tr>
+          <tr>
+            <td align="left" valign="top" rowspan="1" colspan="1">6</td>
+            <td align="left" valign="top" rowspan="1" colspan="1">2</td>
+            <td align="left" valign="top" rowspan="1" colspan="1">480</td>
+            <td align="left" valign="top" rowspan="1" colspan="1">2.063</td>
+            <td align="left" valign="top" rowspan="1" colspan="1">0.2079</td>
+            <td align="left" valign="top" rowspan="1" colspan="1">0.263</td>
+            <td align="left" valign="top" rowspan="1" colspan="1">0.0459</td>
+            <td align="left" valign="top" rowspan="1" colspan="1">Arousal</td>
+          </tr>
+          <tr>
+            <td align="left" valign="top" rowspan="1" colspan="1">7</td>
+            <td align="left" valign="top" rowspan="1" colspan="1">3</td>
+            <td align="left" valign="top" rowspan="1" colspan="1">600</td>
+            <td align="left" valign="top" rowspan="1" colspan="1">−1.557</td>
+            <td align="left" valign="top" rowspan="1" colspan="1">0.1264</td>
+            <td align="left" valign="top" rowspan="1" colspan="1">0.173</td>
+            <td align="left" valign="top" rowspan="1" colspan="1">0.0692</td>
+            <td align="left" valign="top" rowspan="1" colspan="1"/>
+          </tr>
+          <tr>
+            <td align="left" valign="top" rowspan="1" colspan="1">8</td>
+            <td align="left" valign="top" rowspan="1" colspan="1">2</td>
+            <td align="left" valign="top" rowspan="1" colspan="1">990</td>
+            <td align="left" valign="top" rowspan="1" colspan="1">3.853</td>
+            <td align="left" valign="top" rowspan="1" colspan="1">0.1042</td>
+            <td align="left" valign="top" rowspan="1" colspan="1">0.083</td>
+            <td align="left" valign="top" rowspan="1" colspan="1">0.0602</td>
+            <td align="left" valign="top" rowspan="1" colspan="1">Arousal</td>
+          </tr>
+          <tr>
+            <td align="left" valign="top" rowspan="1" colspan="1">9</td>
+            <td align="left" valign="top" rowspan="1" colspan="1">3</td>
+            <td align="left" valign="top" rowspan="1" colspan="1">990</td>
+            <td align="left" valign="top" rowspan="1" colspan="1">−3.597</td>
+            <td align="left" valign="top" rowspan="1" colspan="1">0.0936</td>
+            <td align="left" valign="top" rowspan="1" colspan="1">−2.967</td>
+            <td align="left" valign="top" rowspan="1" colspan="1">0.0364</td>
+            <td align="left" valign="top" rowspan="1" colspan="1"/>
+          </tr>
+          <tr>
+            <td align="left" valign="top" rowspan="1" colspan="1">10</td>
+            <td align="left" valign="top" rowspan="1" colspan="1">2</td>
+            <td align="left" valign="top" rowspan="1" colspan="1">630</td>
+            <td align="left" valign="top" rowspan="1" colspan="1">96.8752</td>
+            <td align="left" valign="top" rowspan="1" colspan="1">0.1557</td>
+            <td align="left" valign="top" rowspan="1" colspan="1">−0.267</td>
+            <td align="left" valign="top" rowspan="1" colspan="1">0.0459</td>
+            <td align="left" valign="top" rowspan="1" colspan="1">Arousal</td>
+          </tr>
+          <tr>
+            <td align="left" valign="top" rowspan="1" colspan="1">11</td>
+            <td align="left" valign="top" rowspan="1" colspan="1">REM</td>
+            <td align="left" valign="top" rowspan="1" colspan="1">570</td>
+            <td align="left" valign="top" rowspan="1" colspan="1">0.543</td>
+            <td align="left" valign="top" rowspan="1" colspan="1">0.2896</td>
+            <td align="left" valign="top" rowspan="1" colspan="1">−0.297</td>
+            <td align="left" valign="top" rowspan="1" colspan="1">0.0574</td>
+            <td align="left" valign="top" rowspan="1" colspan="1"/>
+          </tr>
+          <tr>
+            <td align="left" valign="top" rowspan="1" colspan="1">12</td>
+            <td align="left" valign="top" rowspan="1" colspan="1">2</td>
+            <td align="left" valign="top" rowspan="1" colspan="1">930</td>
+            <td align="left" valign="top" rowspan="1" colspan="1">−3.417</td>
+            <td align="left" valign="top" rowspan="1" colspan="1">0.1003</td>
+            <td align="left" valign="top" rowspan="1" colspan="1">−0.077</td>
+            <td align="left" valign="top" rowspan="1" colspan="1">0.0494</td>
+            <td align="left" valign="top" rowspan="1" colspan="1"/>
+          </tr>
+          <tr>
+            <td align="left" valign="top" rowspan="1" colspan="1">13</td>
+            <td align="left" valign="top" rowspan="1" colspan="1">2</td>
+            <td align="left" valign="top" rowspan="1" colspan="1">1,350</td>
+            <td align="left" valign="top" rowspan="1" colspan="1">−0.557</td>
+            <td align="left" valign="top" rowspan="1" colspan="1">0.1322</td>
+            <td align="left" valign="top" rowspan="1" colspan="1">−2.517</td>
+            <td align="left" valign="top" rowspan="1" colspan="1">0.0314</td>
+            <td align="left" valign="top" rowspan="1" colspan="1">Microarousal</td>
+          </tr>
+          <tr>
+            <td align="left" valign="top" rowspan="1" colspan="1">14</td>
+            <td align="left" valign="top" rowspan="1" colspan="1">2</td>
+            <td align="left" valign="top" rowspan="1" colspan="1">420</td>
+            <td align="left" valign="top" rowspan="1" colspan="1">−0.987</td>
+            <td align="left" valign="top" rowspan="1" colspan="1">0.1726</td>
+            <td align="left" valign="top" rowspan="1" colspan="1">−37.7067</td>
+            <td align="left" valign="top" rowspan="1" colspan="1">0.0436</td>
+            <td align="left" valign="top" rowspan="1" colspan="1">Microarousal</td>
+          </tr>
+          <tr>
+            <td align="left" valign="top" rowspan="1" colspan="1">15</td>
+            <td align="left" valign="top" rowspan="1" colspan="1">2</td>
+            <td align="left" valign="top" rowspan="1" colspan="1">1,980</td>
+            <td align="left" valign="top" rowspan="1" colspan="1">−2.317</td>
+            <td align="left" valign="top" rowspan="1" colspan="1">0.1508</td>
+            <td align="left" valign="top" rowspan="1" colspan="1">−3.037</td>
+            <td align="left" valign="top" rowspan="1" colspan="1">0.0297</td>
+            <td align="left" valign="top" rowspan="1" colspan="1"/>
+          </tr>
+          <tr>
+            <td align="left" valign="top" rowspan="1" colspan="1">16</td>
+            <td align="left" valign="top" rowspan="1" colspan="1">REM</td>
+            <td align="left" valign="top" rowspan="1" colspan="1">600</td>
+            <td align="left" valign="top" rowspan="1" colspan="1">−4.167</td>
+            <td align="left" valign="top" rowspan="1" colspan="1">0.1773</td>
+            <td align="left" valign="top" rowspan="1" colspan="1">−7.0171</td>
+            <td align="left" valign="top" rowspan="1" colspan="1">0.0565</td>
+            <td align="left" valign="top" rowspan="1" colspan="1"/>
+          </tr>
+          <tr>
+            <td align="left" valign="top" rowspan="1" colspan="1">17</td>
+            <td align="left" valign="top" rowspan="1" colspan="1">2</td>
+            <td align="left" valign="top" rowspan="1" colspan="1">2,580</td>
+            <td align="left" valign="top" rowspan="1" colspan="1">−0.877</td>
+            <td align="left" valign="top" rowspan="1" colspan="1">0.1681</td>
+            <td align="left" valign="top" rowspan="1" colspan="1">−1.58704</td>
+            <td align="left" valign="top" rowspan="1" colspan="1">−0.02254</td>
+            <td align="left" valign="top" rowspan="1" colspan="1">Microarousal</td>
+          </tr>
+          <tr>
+            <td align="left" valign="top" rowspan="1" colspan="1">18</td>
+            <td align="left" valign="top" rowspan="1" colspan="1">2</td>
+            <td align="left" valign="top" rowspan="1" colspan="1">780</td>
+            <td align="left" valign="top" rowspan="1" colspan="1">−4.017</td>
+            <td align="left" valign="top" rowspan="1" colspan="1">0.2346</td>
+            <td align="left" valign="top" rowspan="1" colspan="1">0.333</td>
+            <td align="left" valign="top" rowspan="1" colspan="1">0.0418</td>
+            <td align="left" valign="top" rowspan="1" colspan="1"/>
+          </tr>
+          <tr>
+            <td align="left" valign="top" rowspan="1" colspan="1">19</td>
+            <td align="left" valign="top" rowspan="1" colspan="1">2</td>
+            <td align="left" valign="top" rowspan="1" colspan="1">1,080</td>
+            <td align="left" valign="top" rowspan="1" colspan="1">−2.337</td>
+            <td align="left" valign="top" rowspan="1" colspan="1">0.2124</td>
+            <td align="left" valign="top" rowspan="1" colspan="1">−1.237</td>
+            <td align="left" valign="top" rowspan="1" colspan="1">0.0317</td>
+            <td align="left" valign="top" rowspan="1" colspan="1"/>
+          </tr>
+          <tr>
+            <td align="left" valign="top" rowspan="1" colspan="1">20</td>
+            <td align="left" valign="top" rowspan="1" colspan="1">REM</td>
+            <td align="left" valign="top" rowspan="1" colspan="1">510</td>
+            <td align="left" valign="top" rowspan="1" colspan="1">−2.337</td>
+            <td align="left" valign="top" rowspan="1" colspan="1">0.1245</td>
+            <td align="left" valign="top" rowspan="1" colspan="1">−1.587</td>
+            <td align="left" valign="top" rowspan="1" colspan="1">0.0522</td>
+            <td align="left" valign="top" rowspan="1" colspan="1"/>
+          </tr>
+          <tr>
+            <td align="left" valign="top" rowspan="1" colspan="1">21</td>
+            <td align="left" valign="top" rowspan="1" colspan="1">1,2</td>
+            <td align="left" valign="top" rowspan="1" colspan="1">1,260</td>
+            <td align="left" valign="top" rowspan="1" colspan="1">−0.907</td>
+            <td align="left" valign="top" rowspan="1" colspan="1">−0.2198</td>
+            <td align="left" valign="top" rowspan="1" colspan="1">0.903</td>
+            <td align="left" valign="top" rowspan="1" colspan="1">−0.0241</td>
+            <td align="left" valign="top" rowspan="1" colspan="1"/>
+          </tr>
+        </tbody>
+      </table>
+      <table-wrap-foot>
+        <fn id="tfn1-nss-3-021">
+          <p><bold>Abbreviations:</bold> EEG, electroencephalogram; EKG, electrocardiogram; FLOW, respiration airflow; REM, rapid eye movement.</p>
+        </fn>
+      </table-wrap-foot>
+    </table-wrap>
+  </floats-group>
+</article>
+</pmc-articleset>

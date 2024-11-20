@@ -1,0 +1,516 @@
+<pmc-articleset><article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" dtd-version="1.3" xml:lang="en" article-type="article-commentary">
+  <?properties open_access?>
+  <processing-meta base-tagset="archiving" mathml-version="3.0" table-model="xhtml" tagset-family="jats">
+    <restricted-by>pmc</restricted-by>
+  </processing-meta>
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="nlm-ta">Nat Sci Sleep</journal-id>
+      <journal-id journal-id-type="iso-abbrev">Nat Sci Sleep</journal-id>
+      <journal-id journal-id-type="publisher-id">nss</journal-id>
+      <journal-title-group>
+        <journal-title>Nature and Science of Sleep</journal-title>
+      </journal-title-group>
+      <issn pub-type="epub">1179-1608</issn>
+      <publisher>
+        <publisher-name>Dove</publisher-name>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="pmid">37159812</article-id>
+      <article-id pub-id-type="pmc">10163901</article-id>
+      <article-id pub-id-type="publisher-id">405663</article-id>
+      <article-id pub-id-type="doi">10.2147/NSS.S405663</article-id>
+      <article-categories>
+        <subj-group subj-group-type="heading">
+          <subject>Expert Opinion</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>The Future of Sleep Staging, Revisited</article-title>
+        <alt-title alt-title-type="running-authors">Stanley</alt-title>
+        <alt-title alt-title-type="running-title">Stanley</alt-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0002-5876-3006</contrib-id>
+          <name>
+            <surname>Stanley</surname>
+            <given-names>Neil</given-names>
+          </name>
+          <xref rid="aff0001" ref-type="aff">1</xref>
+          <xref rid="an0001" ref-type="corresp"/>
+        </contrib>
+        <aff id="aff0001"><label>1</label><institution>Independent Sleep Expert</institution>, <addr-line>Farnborough</addr-line>, <addr-line>Hampshire</addr-line>, <country>UK</country></aff>
+      </contrib-group>
+      <author-notes>
+        <corresp id="an0001">Correspondence: Neil Stanley, Email drrneilstanley@yahoo.co.uk</corresp>
+      </author-notes>
+      <pub-date pub-type="epub">
+        <day>02</day>
+        <month>5</month>
+        <year>2023</year>
+      </pub-date>
+      <pub-date pub-type="collection">
+        <year>2023</year>
+      </pub-date>
+      <volume>15</volume>
+      <fpage>313</fpage>
+      <lpage>322</lpage>
+      <history>
+        <date date-type="received">
+          <day>03</day>
+          <month>2</month>
+          <year>2023</year>
+        </date>
+        <date date-type="accepted">
+          <day>19</day>
+          <month>4</month>
+          <year>2023</year>
+        </date>
+      </history>
+      <permissions>
+        <copyright-statement>© 2023 Stanley.</copyright-statement>
+        <copyright-year>2023</copyright-year>
+        <copyright-holder>Stanley.</copyright-holder>
+        <license>
+          <ali:license_ref xmlns:ali="http://www.niso.org/schemas/ali/1.0/" specific-use="textmining" content-type="ccbynclicense">https://creativecommons.org/licenses/by-nc/3.0/</ali:license_ref>
+          <license-p>This work is published and licensed by Dove Medical Press Limited. The full terms of this license are available at <ext-link ext-link-type="uri" xlink:href="https://www.dovepress.com/terms.php">https://www.dovepress.com/terms.php</ext-link> and incorporate the Creative Commons Attribution – Non Commercial (unported, v3.0) License (<ext-link ext-link-type="uri" xlink:href="https://creativecommons.org/licenses/by-nc/3.0/">http://creativecommons.org/licenses/by-nc/3.0/</ext-link>). By accessing the work you hereby accept the Terms. Non-commercial uses of the work are permitted without any further permission from Dove Medical Press Limited, provided the work is properly attributed. For permission for commercial use of this work, please see paragraphs 4.2 and 5 of our Terms (<ext-link ext-link-type="uri" xlink:href="https://www.dovepress.com/terms.php">https://www.dovepress.com/terms.php</ext-link>).</license-p>
+        </license>
+      </permissions>
+      <abstract>
+        <title>Abstract</title>
+        <p>In 1996, I published a paper entitled “The Future of Sleep Staging”. At this time, paper and ink records were the standard way of recording sleep records. Computerised systems had only recently become commercially available. The original article was a response to those initial computer-based systems, pointing out the potential limitations of the systems. Now, digital sleep recording is ubiquitous and software and hardware capabilities have improved immeasurably. However, I will argue that despite 50 years of progress, there has not been an increase in the accuracy of sleep staging. I will propose that this is due to the limitations of the task that we have set the automatic analysis methods.</p>
+      </abstract>
+      <kwd-group kwd-group-type="author">
+        <title>Keywords</title>
+        <kwd>sleep staging</kwd>
+        <kwd>Rechtschaffen and Kales</kwd>
+        <kwd>EEG</kwd>
+        <kwd>artificial intelligence</kwd>
+      </kwd-group>
+      <counts>
+        <fig-count count="0"/>
+        <ref-count count="41"/>
+        <page-count count="10"/>
+      </counts>
+    </article-meta>
+  </front>
+  <body>
+    <sec id="s0001">
+      <title>The Past</title>
+      <p>
+<disp-quote><p>To be ignorant of what occurred before you were born is to remain always a child. For what is the worth of human life, unless it is woven into the life of our ancestors by the records of history? Cicero, Orator</p></disp-quote></p>
+      <p>As Cicero alludes to above, we must know the past to understand the present and future of sleep staging. In 1968 the first manual standardising the scoring of sleep stages was published.<xref rid="cit0001" ref-type="bibr">1</xref> This manual, universally known as Rechtschaffen and Kales, or simply R&amp;K, was compiled over several years by an ad hoc committee of 12 leading sleep researchers. The description of sleep given in R&amp;K is thus a purely human construct that does not adequately describe the complexity of the human EEG (there is a perhaps apocryphal story that the door had to be locked on the committee until they agreed on the criteria for stages 3 and 4). While initially, R&amp;K was a good tool for the recording technology of the time, it remained unchanged for far too long, “The guidelines of Rechtschaffen and Kales (R&amp;K) were meant as a reference method. However, it became, unintentionally, a gold standard”.<xref rid="cit0002" ref-type="bibr">2</xref></p>
+      <p>The first notable feature of R&amp;K is that it was solely designed for staging from paper traces. From Berger’s first recordings of the EEG in 1929 until at least the mid-1990s, all sleep records were recorded and staged on paper. At the time of the genesis of R&amp;K, signals were recorded onto paper running at 10mm/sec, giving a 30-s epoch on a 30cm sheet of paper. Impedances on all electrodes were checked and were all below 5kΩ at the start of the recording. Amplifiers were calibrated, so the deflection of the pens was correct in amplitude. Before starting the sleep recording, a bio-calibration was performed; the patient/subject was instructed to open eyes, close eyes, look left, look right, look up, look down, blink five times and finally grit their teeth. Recordings were always attended, mainly for simple, practical reasons, such as refilling the ink wells, uncrossing jammed pens, clearing paper jams, and ensuring the paper folded correctly. However, from a technical point of view, attended recordings also allowed real-time changes to the recording gains and sometimes the recording montage in the event of artefacts or electrode loss.</p>
+      <p>Another thing to be aware of is that R&amp;K only described and illustrated a few data channels. This was because of the considerable expense of amplifiers at the time, limiting the number of routinely recorded traces. A typical sleep recording montage, using the 10–20 system, would be C<sub>4</sub>-A<sub>1</sub>, O<sub>2</sub>-A<sub>1</sub>, right and left electrooculogram (R<sub>EOG</sub>, L<sub>EOG</sub>) and submental electromyogram (EMG).<xref rid="cit0003" ref-type="bibr">3</xref> Electrodes for recording C<sub>3</sub> -A<sub>2</sub> and O<sub>1</sub>-A<sub>2</sub> were often also applied to act as backups in the event of electrode loss.</p>
+      <p>The accuracy of sleep staging using paper records was facilitated because the paper was printed with squares, with each large square horizontally representing 0.5 sec. Each large square was subdivided into five smaller squares; therefore, visually judging phenomena with 0.1-s accuracy was easy. The amplitude of the various waveforms depended on the electrode sensitivity used during the recording. These could vary for several reasons, but any change was marked on the trace. This meant it was easy to visually identify 0.5 sec or 75µV peak to peak (being mindful of changes in sensitivity) and even easier to measure amplitude and frequency using a ruler. Paper recordings also allowed easy identification of the lowest EMG level of the night and permitted easy reference to the bio-calibration and forward and back searching for various events. Paper recordings allowed two pages to be displayed simultaneously and where necessary, four or more pages were easily viewed with no loss of scale, facilitating the accurate identification of entry and exit of sleep stages.</p>
+      <p>In the sleep laboratory where I learnt to stage sleep (Neuroscience Division, Royal Airforce Institute of Aviation Medicine, Farnborough, UK), paper records were then independently scored by two proficient sleep stagers; their staging was then consolidated, i.e., where there was concordance of staging, this stage was retained. Where there was disagreement, these epochs were discussed between two experienced stagers (not necessarily the original scorers) to agree on the sleep stage to be assigned. In the event of a further lack of agreement, the issue was referred to a more experienced stager. A well-thumbed copy of R&amp;K was always at hand during this process. Scorers were generally sleep staging with someone who had also been taught how to sleep stage within the same team; this meant that the concordance of staging was very high. There were, of course, individual differences in applying the R&amp;K rules (I worked with someone who barely ever staged stage 4 and another who was very eager to give stage 4). However, the influence of such biases was minimised because of the double staging and the rectification process. Thus, the final agreed stages were as accurate to R&amp;K as humanly possible. Although it should be noted that in 35 years of staging sleep, the author has only ever seen two people with sleep EEG traces that could be accurately staged merely by reference to the R&amp;K criteria. Because members of a particular research group are taught to stage in the same way by their colleagues and learn how others in the same team stage in practice, they end up defining and adopting their own “norms” and means for interpreting R&amp;K, leading to the intragroup accuracy of sleep scoring that was shown by several studies.<xref rid="cit0004" ref-type="bibr">4</xref>,<xref rid="cit0005" ref-type="bibr">5</xref></p>
+    </sec>
+    <sec id="s0002">
+      <title>AASM Rules</title>
+      <p>The criteria for sleep staging in R&amp;K were intended to reaffirm the partitioning of sleep into stages proposed by Dement and Kleitman (1957).<xref rid="cit0006" ref-type="bibr">6</xref> R&amp;K also sought to revise and expand these criteria to consider the research done in the intervening 10 years. Rechtschaffen and Kales say in their concluding comments,
+<disp-quote><p>This handbook should be viewed as a working instrument rather than a statute. Experience with the manual may suggest possible revisions. When these suggestions accumulate appreciably, it would seem in order to have a review of the manual.</p></disp-quote></p>
+      <p>In response to the lack of revision of R&amp;K despite a massive increase in the number of sleep recordings being performed worldwide and envisaging the technological future, I wrote in 1996<xref rid="cit0007" ref-type="bibr">7</xref>
+<disp-quote><p>Any new sleep staging criteria must be exhaustively comprehensive and because of this computers will probably be relied upon to a much greater degree, as the set of rules must be accurately, reliably and reproducibly applied in all centres.</p></disp-quote></p>
+      <p>However, R&amp;K had become a de facto “gold standard” and despite the expressed desire that R&amp;K be modified and various criticisms of R&amp;K,<xref rid="cit0002" ref-type="bibr">2</xref> it was not until 2003 that such a revision was initiated by the board of directors of the AASM who approved a proposal to develop a new manual for sleep scoring. In 2004, a task force was set up to develop reference material and support the new manual. Although the new sleep scoring rules were published in 2007,<xref rid="cit0008" ref-type="bibr">8</xref> long after digital sleep recording had become widespread, the authors seemingly took little or no account of the fact that sleep was now predominantly being staged on screens, not paper.</p>
+      <p>The new AASM guidelines contained relatively few minor modifications to the rules of R&amp;K. Interestingly, despite the technological advancements in signal processing and analysis in the intervening years, the new rules, rather than getting more complex, eg, introducing additional sleep stages to give a better description of sleep as envisaged in their introduction by R&amp;K, were simplified. There were now three stages of NREM, not four as per R&amp;K, which itself was a simplification of the five stages proposed by Loomis in 1935.<xref rid="cit0009" ref-type="bibr">9</xref></p>
+      <p>These new rules were found to have a significant effect on sleep staging when compared to R&amp;K.<xref rid="cit0010" ref-type="bibr">10</xref> Sleep latency and REM latency, total sleep time, and sleep efficiency were not affected by the classification standard; the time (in minutes and in per cent of total sleep time) spent in sleep stage 1 (S1/N1), stage 2 (S2/N2) and slow-wave sleep (S3+S4/N3) differed significantly between the R&amp;K and the AASM classification. While Stage 1 (+2.8%) and slow-wave sleep (S3+S4 vs N3, +2.4%) significantly increased, stage 2 sleep decreased significantly according to AASM rules (–4.9%). Moreover, wake after sleep onset was significantly prolonged by approximately 4 min according to the AASM standard.</p>
+      <p>The new rules also led to changes in the inter-rater reliability of sleep staging, with the modification of the scoring rules improving IRR due to the integration of occipital, central and frontal leads. However, there was a decline in IRR specifically for N2 due to the new rule that cortical arousals with or without a concurrent increase in submental electromyogram are critical events for the end of N2.<xref rid="cit0011" ref-type="bibr">11</xref></p>
+      <p>Because the new AASM guidelines produced statistically significant differences in the scoring of sleep stages, it is wrong to state that sleep staged according to the AASM guidelines is being staged according to R&amp;K. Yet, this is repeatedly asserted in the literature.</p>
+      <p>R&amp;K, and subsequently the AASM scoring rules, were written for a different time and way of sleep scoring. Because of this, I believe that the current AASM scoring manual, like R&amp;K before, is the primary factor holding back accurate computerised sleep scoring or the implementation of Artificial Intelligence (AI)/Machine Learning (ML) scoring algorithms.</p>
+      <p>Yet, despite the failings of R&amp;K and the fact that the AASM revision led to no improvement in staging accuracy, Lee et al 2021,<xref rid="cit0012" ref-type="bibr">12</xref> seem to envisage that there is still a necessity for improving the guidelines for manual scoring writing
+<disp-quote><p>These results can serve as baseline data with which to judge whether the guidelines to be updated improve the interrater reliability.</p></disp-quote></p>
+      <p>But they do not state how such a further revision of the staging guidelines is to be achieved. However, while they claim that the inaccuracy of the human scorer is a reason to improve the guidelines, they claim that automatic systems are “accurate” even though they use the same guidelines.</p>
+      <p>This contrasts with my view that
+<disp-quote><p>that humans are not up to the task of using such a criterion, but with the correct algorithms, computers could be.</p></disp-quote></p>
+      <p>As I wrote in 1996, the answer is not to rewrite the guidelines for human stagers but
+<disp-quote><p>The solution must be to rewrite R&amp;K for the computer age. This must be done as soon as possible, as failure to do so will result in automatic sleep systems being developed, all with various and different algorithms for staging sleep.</p></disp-quote></p>
+      <p>Unfortunately, this complete lack of standardisation between systems is exactly what has occurred. We have ended up with imperfect staging rules being imperfectly implemented, in numerous different ways, by dozens of companies, using proprietary algorithms, most of which are not in the public domain, all of which claim they are staging sleep according to the R&amp;K/AASM guidelines. As foreseen in 1996, this lack of standardisation between systems is a real problem as we have no way of knowing how these systems are staging sleep. Bandyopadhyay &amp; Goldstein,<xref rid="cit0013" ref-type="bibr">13</xref> in what seems to be an effort akin to closing the stable door after the horse has bolted, state
+<disp-quote><p>With multiple commercial companies developing FDA cleared algorithms, there is a need to standardise commercial algorithms through certification by an accredited regulatory body.</p></disp-quote></p>
+      <p>Few people today who are designing automatic sleep scoring algorithms, championing the possibilities of AI/ML, etc., have experience staging sleep according to R&amp;K on paper. Instead, they see sleep staging merely as an engineering/programming problem. Because of this view, they see it as a challenge to implement an algorithm replicating R&amp;K/AASM.</p>
+      <sec id="s0002-s2001">
+        <title>The Human/Computer Accuracy Paradox</title>
+        <p>When comparing human and computer staging of sleep, papers frequently reference the sleep staging being performed by an “experienced” sleep stager, yet they do not define what defines an “experienced” stager. Being “experienced” is not a quantifiable measure of quality. (I, for instance, have staged &gt;25,000 sleep records both in research and clinically. I learnt to score sleep in 1982 on paper using a Grass 8–10 and Nihon Kohden. In the computer age, I have scored sleep using equipment from Oxford (Medilog 9000 and 9200), Temec, Nicolet, Compumedics, Embla, Alice. I last manually staged a sleep record in April 2017 using the Nox system). Thus, the “experience” of the stagers used in comparison studies is unknown and unquantifiable. Although many people claim a human-to-human accuracy of 75–85%, the actual figures are far more nuanced, as seen by the work of Ferri et al,<xref rid="cit0005" ref-type="bibr">5</xref> who showed an overall epoch-by-epoch agreement of between 60.9% and 96% in a study of nine different Italian sleep laboratories, comprising 17 specialists. For the five example records analysed, two of which were identical, they found significant intergroup differences in identifying stages 2, 3 and 4. An epoch-by-epoch “consensus” analysis was obtained from the nine groups using the most frequent value scored for each epoch. The intergroup agreement was between 47.5–100% for stage 0; 33.3–96.3% for stage 1; 39.9–99.1% for stage 2; 3–100% for stage 3/4 and 62.6–100% for REM stage. They also found that seven of the nine laboratories agreed more than 84% of the time; they concluded that intergroup ratings of 80% or better should be considered acceptable as evidence of the consistency with which staging could be performed. However, the variability inherent in the scoring of sleep records shows that R&amp;K is not the “gold standard” to which it is so often referred.</p>
+        <p>However, this inaccuracy of human sleep staging has somehow been transformed into a measure of automatic/AI staging accuracy. The argument goes something like this; human scorers are XX% accurate at staging sleep; therefore, if automated/AI staging is close to or even better than XX% accuracy, this is satisfactory or even superior to human scoring. This is a widespread conceit in the literature; for instance, Stanus et al 1987<xref rid="cit0014" ref-type="bibr">14</xref> write, “Average agreement rates of both methods compared to expert visual scoring were very similar, although a few specifics occasionally appeared for partial sleep stages. The comparison of more than 40,000 sleep decisions (on 20-sec epochs) yielded 75% absolute reliability for normal controls and 70% for pathological cases. However, if the agreement rate obtained for routine visual scoring (82%) in our sleep laboratory is considered satisfactory, our system is then 90% satisfactory”.</p>
+        <p>However, the question that seems never asked is against what standard do the human scorers agree 82%? If R&amp;K/AASM are not the “Gold standard”, then what is? Sleep staging has no definitive standard; there is nothing like the standard kilo or metre. There is no perfectly staged sleep record(s) against which to benchmark human scorers or automatic scoring algorithms. The accuracy of automatic sleep stagers is based on false logic, as it is compared to the standard of two human sleep scorers who only agree 75–85% of the time. From this, it is intuited that as long as the staging agrees with a single human sleep scorer at approximately the same rate, the algorithm is as good as human staging. This fails logically because we do not know the precise accuracy of the human scorer’s staging, as there is no reference with which to compare. They could be 75–85% accurate to R&amp;K/AASM, but equally, they may only be 50% accurate, 25% or even 0%. The accuracy of the human scorer is arbitrarily assumed, whereas, in practice, it is unknown and indeed unknowable.</p>
+        <p>Rechtschaffen and Kales, in the foreword to their manual, stated,
+<disp-quote><p>An evaluation of how much such standardisation contributes to the reliability of scoring will have to await the development of experience with the system and empirical testing.</p></disp-quote></p>
+        <p>This has never been done, but in my original paper, I proposed a solution to this problem
+<disp-quote><p>It is imperative to find out how human scorers actually stage sleep records and to identify important and false cue utilisation.</p></disp-quote></p>
+        <p>I argued that in order to be useful, it is imperative that the records scored must include examples of all known deviations from the rules of R&amp;K, eg, sleep in geriatrics, drug-induced sleep, sleep in depressed patients and poor quality recordings.</p>
+        <p>This process would
+<disp-quote><p>allow rules for sleep scoring to be drawn up which are set and a good descriptor of underlying phenomenon.</p></disp-quote></p>
+        <p>Attempts at such a standardised database have been implemented, eg the SIESTA project<xref rid="cit0015" ref-type="bibr">15</xref>,<xref rid="cit0016" ref-type="bibr">16</xref> and the development of the European Data Format,<xref rid="cit0017" ref-type="bibr">17</xref> but, however worthy these endeavours, their impact has been somewhat limited.</p>
+      </sec>
+      <sec id="s0002-s2002">
+        <title>Technology Means That Humans are Even More Inaccurate</title>
+        <p>Recording and staging sleep on paper is now a thing of the distant past; the first commercially available computer-based sleep systems started to appear in the mid-1980s. The new systems’ initial attraction was their ability to store a seemingly vast amount of data in a minimal space rather than 1/3 of a mile-long paper traces that were sometimes required to be stored for 5 years. But with the advent of computer systems came the idea that they could also be used to stage sleep automatically. In departments with a long tradition of staging sleep, this was a mere novelty and human staging was still the default sleep staging method.</p>
+        <p>With the introduction of the AASM guidelines, it was stated<xref rid="cit0018" ref-type="bibr">18</xref> that
+<disp-quote><p>No visual based scoring system will ever be perfect, as all methods are limited by the physiology of the human eye and visual cortex, individual differences in scoring experience, and the ability to detect events viewed using a 30-second epoch.</p></disp-quote></p>
+        <p>Yet, while this statement is relevant to staging on paper, it takes no cognisance of staging on the screens of computerised systems. Initially, when they became commercially available, computerised systems only had a small screen that was less than ideal for staging (indeed, for a time, we printed out the digital records onto paper using a high-speed Mingograf printer, we were blessed with a lot of storage space). However, over time staging on such a small screen became the norm. However, one main issue is that the computer monitors, due to their size, do not present traces as though they were a 30cm page. Even with the introduction of larger monitors, this issue has not been addressed. Events such as K-complexes, sleep spindles, etc., are thus not represented as described in the AASM scoring manual and, therefore, the visual judgement of 0.5 sec or 75uV peak to peak is challenging. This is exacerbated by the almost infinite changes the scorer can make to how the data is presented. Quick and easy measurement of these events by a ruler is practically impossible. Rather than replicate the look of the pen and ink on a 30cm page of squared paper, at best, screens only usually provide 0.5-sec grid lines, although these are typically optional and do not provide any vertical grid lines. Perhaps how far removed we are from R&amp;K can be illustrated by the fact that in the relevant chapter of the most recent edition of Principles and Practice of Sleep Medicine,<xref rid="cit0019" ref-type="bibr">19</xref> examples of sleep stages are shown with neither the x nor y-axis defined.</p>
+        <p>The inaccuracy inherent in scoring from screens is further compounded by the use of 4k monitors and very high sampling rates, which means that the scorer is now presented with traces that look less and less like the examples given in R&amp;K. (Because we have not seen waveforms/events before we do not know if they are a unique phenomenon, a hardware recording artefact or a meaningful population-wide brain phenomenon).</p>
+        <p>Computerised PSG systems can also record a large number of data channels. The price of amplifiers is no longer a factor; a scorer may be presented, or choose to be presented, with data from electrode derivations that are not described in the R&amp;K/AASM criteria. Again, this moves any staging away from that set out in R&amp;K/AASM.</p>
+        <p>It is also possible for the user to modify the sleep scoring criteria and thus move even further away from the “Gold standard” and introduce even more inaccuracy.</p>
+      </sec>
+      <sec id="s0002-s2003">
+        <title>Automatic Staging Inaccuracy</title>
+        <p>Automatic sleep scoring first became commercially available in the mid-1980s.<xref rid="cit0020" ref-type="bibr">20–22</xref> There have also been numerous algorithms proposed since R&amp;K for measuring/describing sleep. In the early 1990s, several analyses unrelated to R&amp;K, eg Cyclic Alternating Pattern (CAP),<xref rid="cit0023" ref-type="bibr">23–25</xref> wavelets,<xref rid="cit0026" ref-type="bibr">26</xref>,<xref rid="cit0027" ref-type="bibr">27</xref> and neural networks,<xref rid="cit0028" ref-type="bibr">28</xref>,<xref rid="cit0029" ref-type="bibr">29</xref> were reported to be able to analyze sleep accurately. However, these techniques have failed to gain acceptance outside the research laboratory.</p>
+        <p>Essentially, the AASM scoring manual makes it impossible for a computer to mimic human sleep staging accurately and thus achieve accurate computerised sleep scoring. The problems with R&amp;K/AASM for automatic sleep staging were identified by Hirshkowitz and Moore (1994)<xref rid="cit0030" ref-type="bibr">30</xref> when they asked, “How can a computer be expected to agree with human stagers if two human stagers do not agree with each other?”</p>
+        <p>For example, the rules for assigning stage 3 (delta &gt;75 µV peak to peak, &lt;2 cps &gt;20%, &lt;50% of epoch) and stage 4 (&gt;50% delta) were the most unambiguous in the R&amp;K. Yet, the wide range of values found in the Ferri et al<xref rid="cit0005" ref-type="bibr">5</xref> study illustrates that even simple rules are applied inaccurately or inconsistently. If the rules of R &amp; K were fit for purpose, then squared paper and a ruler would be sufficient to stage slow-wave sleep accurately. However, experience dictates that inter-rater reliability becomes more variable with the increasing complexity of sleep recording. The lack of agreement between stagers using R &amp; K for straightforward scoring does not augur well for consistency when patients with a significant physical pathology and greatly fragmented sleep are evaluated. Thus, if it is difficult for two human stagers to agree on interpreting a set of EEG data, it will be almost impossible for a software engineer to design a computerised version of the rules to be superior. Designers of automatic sleep staging systems are restricted to making their machines mimic AASM as closely as possible. Yet they have condemned themselves to produce software that scores sleep inaccurately by doing so. R&amp;K was written for human stagers when computers were essentially non-existent in sleep science. However, the descriptions of sleep stages seem highly amenable to automation; R&amp;K was never written with computers in mind. This can be most clearly seen with the R&amp;K definitions for stages 3 and 4; the definition given in R&amp;K should be easy to convert to a rule an algorithm can run. However, such basic criteria mean that any such algorithm will identify any waveform, however spurious, that fits the criteria. As the old saying goes, “Garbage in, Garbage out” and with regard to automatic sleep staging, the limitations inherent in the R&amp;K/AASM scoring rules can, in my opinion, be regarded, although completely understandably, as “garbage”, not fit for purpose.</p>
+        <p>Simply by virtue of its capabilities in acquiring, filtering and processing raw data, a computer should be much more accurate and error-free than a human scorer in its identification sleep stages, according to R&amp;K/AASM. The new system’s high sampling rates also mean that automatic staging algorithms analyse information that was impossible to obtain when R&amp;K and the current AASM manuals were written. This can be illustrated by the work of Hori et al 1994,<xref rid="cit0031" ref-type="bibr">31</xref> who classified the EEG patterns during the Sleep Onset Period (SOP) into 9 EEG stages. If there is this degree of complexity in the short Sleep Onset Period, imagine the actual complexity of sleep across all the AASM sleep stages. Rather than discussing the clinical relevance of these nine “stages”, the revision of R&amp;K made sleep less complex. Sleep EEG is vastly more complex than AASM staging allows. At the same time, a computer has to analyse all this information; it reduces the complexity of what it “sees” to match the AASM criteria. Surely, the point of technology is to be able to do complex things better/faster than humans. Even when we make the staging rules simpler, technology still cannot perform sleep staging better than a human.</p>
+        <p>The human sleep scorer’s ability to pick out the various frequencies in a 30-s epoch of data is much less than a computer working to the same rules. It is, therefore, possible that the difference between human and computer scoring lies in the fact that a computer applies R&amp;K/AASM in a completely rigid and reproducible manner. As such, it is possible that in some instances, eg, stages 3 and 4, the automatic scoring is a better descriptor of the rules of R &amp; K than a human stager. It is not surprising that there are differences; the human scorer may miss important information, or it may lead to an over/underestimate of the amounts of specific frequencies in an epoch, whereas a computer working to a rigid set of rules cannot do this. However, due to the nature of R&amp;K/AASM, the computer’s answer may be wrong, even though the way it achieves the result will appear to be consistent and reproducible.</p>
+      </sec>
+      <sec id="s0002-s2004">
+        <title>Why Automatic Sleep Staging is Inaccurate</title>
+        <p>The main problem with the current AASM guidelines, as with R&amp;K before them, is that they are not universal rules. R&amp;K said their manual was applicable for adult humans, yet 80% of the examples of EEG traces given were from normal young males. Because the ASSM manual is based on R&amp;K, it appears that the rules merely describe young, healthy males. (It is also interesting that the AASM scoring manual does not give examples of PSG traces). Such subjects are not representative of the general population. They are even less typical of insomniac and sleep disorder patients, who are the ones that are routinely having their EEGs recorded for diagnostic purposes. Significant interindividual differences are found in EEG; these can be compounded by factors such as age, health, medications, drugs of abuse, etc. Therefore, a sleep stager may only ever see a few records entirely representative of R&amp;K/AASM. The remainder of the time, the expert sleep stager must fit the data to the rules in the best possible manner, with varying degrees of success. With every sleep record staged, it is necessary to continuously interpret the scoring rules according to the scorer’s experience; this is done in an unquantifiable and sometimes idiosyncratic manner. However proficient or “experienced” a particular sleep expert may be, the ambiguity and lack of universality of R&amp;K inevitably lead to differences in the accuracy and consistency of identifying sleep stages between human stagers. (Although, as mentioned, double scoring the data and reaching a consensus can, to a degree, ameliorate this inaccuracy). However, an algorithm cannot deviate from the criteria by which it is programmed, and therefore cannot adapt to changes seen in EEG, for instance, in depressed subjects who have reduced alpha;<xref rid="cit0032" ref-type="bibr">32</xref> fluoxetine users that have prominent eye movements in NREM;<xref rid="cit0033" ref-type="bibr">33</xref> the low amplitude delta seen in the elderly;<xref rid="cit0034" ref-type="bibr">34</xref> or alpha-delta sleep.<xref rid="cit0035" ref-type="bibr">35</xref> How can the algorithm accurately stage if it cannot apply modified criteria the way a human sleep stager could?</p>
+        <p>As I have pointed out, the accuracy of automatic staging needs to be assessed in various populations, eg, across age groups and in different pathologies. This has not been done with any current or proposed automatic/AI/ML scoring technology (however, it is also true that no assessment of this kind has been conducted with human sleep scorers either). Therefore, it is correct to hypothesise that it is impossible to reliably measure the accuracy of automatic/AI/ML staging in a diverse selection of subjects/patients if such data does not exist for human scoring. Automatic staging based on the R&amp;K/AASM rules cannot be expected to accurately score sleep in the different age groups or pathologies seen in the sleep clinic or research laboratory.</p>
+        <p>The same problem would be encountered in the way computers identify and remove artefacts caused by patient sweating, patient movement or possible contamination of signals due to the ubiquity of electrical devices such as phones, tablets, or headphones in the bedroom as well as the signals from transmitting devices, such as wireless routers, keyboards, and monitors.</p>
+        <p>If automatic scoring/AI/ML systems are not using the EEG channels given in AASM, then they will, by definition, produce different results from a human stager. Unless, of course, the human is also scoring using these non-ASSM channels, but if this were the case, then they are not staging according to the AASM criteria. Therefore, if non-standard EEG channels are used, it is inevitable that automatic scoring/AI/ML will be different from a human scorer. Analysing data from numerous channels again moves the analysis further from the R&amp;K/AASM rules. More importantly, if data from non-standard channels are used, this inevitably means that the human scorer is an imperfect comparator. This is particularly true of systems that utilise merely a single channel of EEG.</p>
+        <p>Another reason for the disagreement between human stagers and automatic staging is when recording on paper; the fold in the paper delineates each 30-s epoch. Whereas with digital systems, the epoch is defined as 30-s from the start of the recording period. This could potentially mean a mismatch between the exact timing of the waveforms seen in a particular 30-s epoch, eg, the first k-complex or sleep spindle. This could influence the epoch in which the start or end of a specific sleep stage is given.</p>
+        <p>Also of importance is how do digital systems use filtering. Low and high pass filters can reduce or eliminate specific frequencies but equally filtering out a signal too much can cause artefact. How is this implemented in each system? And what effect does this filtering have on any automatic staging derived from the filtered signals?</p>
+        <p>While many studies have been published on automatic sleep staging since my paper in 1996, it is unnecessary to review them. The simple fact is that in 1971, Sith and Karacen<xref rid="cit0036" ref-type="bibr">36</xref> reported an 83% accuracy for their analysis against human scoring. In 1973, with an “entire programme that consisted of 1664 (3200 octal) 16-bit words”, Gaillard and Tissot<xref rid="cit0037" ref-type="bibr">37</xref> reported a mean accuracy against visual scoring of 83.71%. Fifty years later, after all this time and effort, accuracy for various commercially available devices was, according to the review by Fiorillo et al<xref rid="cit0038" ref-type="bibr">38</xref> reported to be “on average around 85%”, ie, there has been zero progress in the accuracy of automatic staging despite the unimagined increase in computing power and sophistication and complexity of staging algorithms. A simple automatic sleep staging based on R&amp;K/AASM cannot work; commercial interests and marketing drive the hyperbole about automatic sleep staging and, I believe, ignores the reality of sleep science.</p>
+      </sec>
+      <sec id="s0002-s2005">
+        <title>The “Impossibility” of Sleep Staging Using AI/ML</title>
+        <p>Although neophiles seem to consider AI/ML the future, AI sleep staging has been under development since at least the mid-1990s<xref rid="cit0039" ref-type="bibr">39</xref> and yet, as Bandyopadhyay and Goldstein,<xref rid="cit0013" ref-type="bibr">13</xref> in their review of the literature show, the accuracy of AI/ML sleep staging is still only approx. 85% (a figure strangely similar to that reported using non-AI automatic scoring).<xref rid="cit0038" ref-type="bibr">38</xref> However, it is interesting that the authors do not comment on this level of accuracy or its clinical significance.</p>
+        <p>However, AI/ML may provide a way forward despite this inaccuracy, but not how its advocates imagine. Again, they are trying to compare AI/ML with R&amp;K. If AI/ML can make its own rules, how can this be compared to a human working to a staging criterion, however, inaccurately? However, AI/ML potentially has the possibility of helping us get a better definition of sleep; in 1996, I wrote
+<disp-quote><p>Rather than having an expert committee come up with a set of rules for humans that are then translated into an automatic staging algorithm, we need to do precisely the opposite; we need to find out what a computer can measure</p></disp-quote></p>
+        <p>Once this is done I proposed that an expert committee would decide if what can be measured by the computer was actually of any descriptive utility in staging sleep. I recommended that
+<disp-quote><p>The computer would need to measure sleep from numerous types of populations.</p></disp-quote></p>
+        <p>Once the experts had decided on which waveforms provided utility in staging the
+<disp-quote><p>It will be possible to marry the human experience with a computer’s ability. The performance of the computerised rules must be equal to that of the human scorer and would additionally include criteria that humans are unable to apply.</p></disp-quote></p>
+        <p>Sleep medicine does not need computers to be as good as humans; it needs them to be better. As an outcome of the above process
+<disp-quote><p>A comprehensive, reproducible set of staging algorithms would result and be adopted as the standard. All automatic sleep stagers would then be required to use this standard.</p></disp-quote></p>
+        <p>Simply using AI/ML to learn about EEG and then deciding the clinical relevance of what is found could 1) move forward sleep science and 2) lead to reproducible and accurate automatic sleep staging. It says a lot about inertia in the field that, in 2022, Bandyopadhyay and Goldstein<xref rid="cit0013" ref-type="bibr">13</xref> echo my thoughts
+<disp-quote><p>Most of the existing datasets using polysomnogram data are research datasets collected from a subgroup meeting certain inclusion criteria. Hence, they are not generalisable and not representative of what the clinician encounters in real practice.</p></disp-quote></p>
+        <p>In order to ensure this they propose that
+<disp-quote><p>There is an acute need for larger-scale research trials which can corroborate machine algorithm generated measures to clinically significant outcomes. This prompts the need for research datasets with heterogeneity in signals, patient demographics, sleep disorders, and clinical outcomes.</p></disp-quote></p>
+      </sec>
+    </sec>
+    <sec id="s0003">
+      <title>The Future</title>
+      <p>As Hirshkowitz and Moore wrote in 1994:<xref rid="cit0030" ref-type="bibr">30</xref>
+<disp-quote><p>We clearly need more properly conducted research that tests automated system performance. Until a competent literature amasses in the appropriate arena, confidence remains the “bottom line” issue.</p></disp-quote></p>
+      <p>It is, I believe, impossible to automate the accurate staging of sleep according to R&amp;K/AASM as all AI/ML-based systems that use R&amp;K/AASM as the basis for their rules have an inherent and, I believe, fatal weakness built-in. The future of sleep staging looks very similar to the future I envisioned in 1996.
+<disp-quote><p>The research required to draw up a new set of rules will be time-consuming and expensive, but that should not discourage the sleep community from rising to the challenge. The potential benefits outweigh the problems.</p></disp-quote></p>
+      <p>My final call to action was that
+<disp-quote><p>Rewriting R&amp;K for the computerised future of the 21st century cannot be seen as too difficult to attempt. It has to be done and must be started now.</p></disp-quote></p>
+      <p>The lack of progress in developing sleep scoring rules in light of the possibilities of new technology coupled with the multitude of commercially available systems using a myriad of different algorithms now available means that it will be more challenging than it has ever been to bring about standardisation of sleep scoring and the optimisation of scoring accuracy.</p>
+      <p>However, there is a belief from some that progress has been made; for instance, “In our view, automatic sleep staging with PSG on healthy people has basically been solved, not only for adults but also for children” (although the authors give no indication why healthy people would undergo PSG examination).<xref rid="cit0040" ref-type="bibr">40</xref> Yet despite this seemingly positive statement, the authors admit that we are, in fact, no closer to having accurate automatic sleep staging in the clinic,
+<disp-quote><p>It is not sufficient to have high-quality PSG scoring of healthy people only. In a clinical setting, the tools applied should be equally capable when confronted with non-textbook sleep phenotypes</p></disp-quote></p>
+      <p>This is important in cases where
+<disp-quote><p>The sleep EEG may either be masked by disease-related artifacts, or where the sleep EEG itself may be so drastically changed by the patient’s condition.</p></disp-quote></p>
+      <p>They conclude that to be more widely adopted clinically,
+<disp-quote><p>Automatic sleep scoring should be as robust as manual scoring.</p></disp-quote></p>
+      <p>The unavoidable fact is after 50 years of attempting to automate sleep scoring and 27 years after my previous call to action, we are, despite the massive increase in computer sophistication, the myriad of publications and marketing hype, no closer to producing an accurate automatic staging algorithm. The simple fact is that this will never happen as long as we try to get computers to replicate R&amp;K/AASM. We must stop accepting “around 85%” accuracy, against a false standard, ie the arbitrarily defined accuracy of human stagers, as good enough. If we, as a field, continue to believe that a model “achieves excellent performance” when it shows accuracy against manual staging using FP<sub>z</sub>-C<sub>z</sub> channel of 84.6% and using P<sub>z</sub>-O<sub>z</sub> channel of 82.3%<xref rid="cit0041" ref-type="bibr">41</xref> then we can and will never make progress on this vital issue.</p>
+    </sec>
+  </body>
+  <back>
+    <sec sec-type="COI-statement" id="s0004">
+      <title>Disclosure</title>
+      <p>The author reports no conflicts of interest in this work.</p>
+    </sec>
+    <ref-list>
+      <title>References</title>
+      <ref id="cit0001">
+        <label>1.</label>
+        <mixed-citation publication-type="book"><string-name><surname>Rechtschaffen</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Kales</surname>
+<given-names>A</given-names></string-name>. <source><italic toggle="yes">A Manual of Standardised Terminology. Techniques and Scoring System for Sleep Stages of Human Subjects</italic></source>. <publisher-loc>Washington</publisher-loc>: <publisher-name>Public Health Service, USA Government Printing Office</publisher-name>; <year>1968</year>.</mixed-citation>
+      </ref>
+      <ref id="cit0002">
+        <label>2.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Himanen</surname>
+<given-names>SL</given-names></string-name>, <string-name><surname>Hasan</surname>
+<given-names>J</given-names></string-name>. <article-title>Limitations of Rechtschaffen and Kales</article-title>. <source><italic toggle="yes">Sleep Med Rev</italic></source>. <year>2000</year>;<volume>4</volume>(<issue>2</issue>):<fpage>149</fpage>–<lpage>167</lpage>. doi:<pub-id pub-id-type="doi">10.1053/smrv.1999.0086</pub-id><pub-id pub-id-type="pmid">12531164</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0003">
+        <label>3.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Jasper</surname>
+<given-names>H</given-names></string-name>. <article-title>Report of the committee on methods of clinical examination in electroencephalography</article-title>. <source><italic toggle="yes">Electroencephalogr Clin Neurophysiol</italic></source>. <year>1958</year>;<volume>10</volume>:<fpage>370</fpage>–<lpage>375</lpage>. doi:<pub-id pub-id-type="doi">10.1016/0013-4694(58)90053-1</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0004">
+        <label>4.</label>
+        <mixed-citation publication-type="book"><string-name><surname>Kubicki</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Hermann</surname>
+<given-names>WM</given-names></string-name>, <string-name><surname>Holler</surname>
+<given-names>L</given-names></string-name>. <part-title>Critical comments on the rules by Rechtschaffen and Kales concerning the visual evalution of EEG sleep records</part-title>. In: <string-name><surname>Kubicki</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Hermann</surname>
+<given-names>WM</given-names></string-name>, editors. <source><italic toggle="yes">Methods of Sleep Research</italic></source>. <publisher-loc>Stuttgart</publisher-loc>: <publisher-name>Gustav Fischer</publisher-name>; <year>1985</year>:<fpage>19</fpage>–<lpage>35</lpage>.</mixed-citation>
+      </ref>
+      <ref id="cit0005">
+        <label>5.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Ferri</surname>
+<given-names>R</given-names></string-name>, <string-name><surname>Ferri</surname>
+<given-names>P</given-names></string-name>, <string-name><surname>Colognola</surname>
+<given-names>RM</given-names></string-name>, <string-name><surname>Petrella</surname>
+<given-names>MA</given-names></string-name>, <string-name><surname>Musumeci</surname>
+<given-names>SA</given-names></string-name>, <string-name><surname>Bergonzi</surname>
+<given-names>P</given-names></string-name>. <article-title>Comparison between the results of an automatic and a visual scoring of sleep EEG recordings</article-title>. <source><italic toggle="yes">Sleep</italic></source>. <year>1989</year>;<volume>12</volume>(<issue>4</issue>):<fpage>354</fpage>–<lpage>362</lpage>. doi:<pub-id pub-id-type="doi">10.1093/sleep/12.4.354</pub-id><pub-id pub-id-type="pmid">2762689</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0006">
+        <label>6.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Dement</surname>
+<given-names>W</given-names></string-name>, <string-name><surname>Kleitman</surname>
+<given-names>N</given-names></string-name>. <article-title>Cyclic variations in EEG during sleep and their relation to eye movements, body motility, and dreaming</article-title>. <source><italic toggle="yes">Electroencephalogr Clin Neurophysiol</italic></source>. <year>1957</year>;<volume>9</volume>(<issue>4</issue>):<fpage>673</fpage>–<lpage>690</lpage>. doi:<pub-id pub-id-type="doi">10.1016/0013-4694(57)90088-3</pub-id><pub-id pub-id-type="pmid">13480240</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0007">
+        <label>7.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Stanley</surname>, <given-names>Neil</given-names></string-name>. <article-title>The future of sleep staging</article-title>.<source><italic toggle="yes">Hum Psychopharmacol</italic></source>. <year>1996</year>;<volume>11</volume>(<issue>3</issue>):<fpage>253</fpage>–<lpage>256</lpage>.</mixed-citation>
+      </ref>
+      <ref id="cit0008">
+        <label>8.</label>
+        <mixed-citation publication-type="book"><string-name><surname>Iber</surname>
+<given-names>C</given-names></string-name>, <string-name><surname>Ancoli-Israel</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Chesson</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Quan</surname>
+<given-names>SF</given-names></string-name>. <source><italic toggle="yes">The AASM Manual for the Scoring of Sleep and Associated Events: Rules, Terminology, and Technical Specification</italic></source>. <edition>1st</edition> ed. <publisher-loc>Westchester, IL</publisher-loc>: <publisher-name>American Academy of Sleep Medicine</publisher-name>; <year>2007</year>.</mixed-citation>
+      </ref>
+      <ref id="cit0009">
+        <label>9.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Loomis</surname>
+<given-names>AL</given-names></string-name>, <string-name><surname>Harvey</surname>
+<given-names>EN</given-names></string-name>, <string-name><surname>Hobart</surname>
+<given-names>G</given-names></string-name>. <article-title>Further observations on the potential rhythms of the cerebral cortex during sleep</article-title>. <source><italic toggle="yes">Science</italic></source>. <year>1935</year>;<volume>82</volume>(<issue>2122</issue>):<fpage>198</fpage>–<lpage>200</lpage>. doi:<pub-id pub-id-type="doi">10.1126/science.82.2122.198</pub-id><pub-id pub-id-type="pmid">17844579</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0010">
+        <label>10.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Moser</surname>
+<given-names>D</given-names></string-name>, <string-name><surname>Anderer</surname>
+<given-names>P</given-names></string-name>, <string-name><surname>Gruber</surname>
+<given-names>G</given-names></string-name>, et al. <article-title>Sleep classification according to AASM and Rechtschaffen &amp; Kales: effects on sleep scoring parameters</article-title>. <source><italic toggle="yes">Sleep</italic></source>. <year>2009</year>;<volume>32</volume>(<issue>2</issue>):<fpage>139</fpage>–<lpage>149</lpage>. doi:<pub-id pub-id-type="doi">10.1093/sleep/32.2.139</pub-id><pub-id pub-id-type="pmid">19238800</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0011">
+        <label>11.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Danker‐hopfe</surname>
+<given-names>H</given-names></string-name>, <string-name><surname>Anderer</surname>
+<given-names>P</given-names></string-name>, <string-name><surname>Zeitlhofer</surname>
+<given-names>J</given-names></string-name>, et al. <article-title>Interrater reliability for sleep scoring according to the Rechtschaffen &amp; Kales and the new AASM standard</article-title>. <source><italic toggle="yes">J Sleep Res</italic></source>. <year>2009</year>;<volume>18</volume>(<issue>1</issue>):<fpage>74</fpage>–<lpage>84</lpage>. doi:<pub-id pub-id-type="doi">10.1111/j.1365-2869.2008.00700.x</pub-id><pub-id pub-id-type="pmid">19250176</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0012">
+        <label>12.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Lee</surname>
+<given-names>YJ</given-names></string-name>, <string-name><surname>Lee</surname>
+<given-names>JY</given-names></string-name>, <string-name><surname>Cho</surname>
+<given-names>JH</given-names></string-name>, <string-name><surname>Choi</surname>
+<given-names>JH</given-names></string-name>. <article-title>Inter-rater reliability of sleep stage scoring: a meta-analysis</article-title>. <source><italic toggle="yes">J Clin Sleep Med</italic></source>. <year>2021</year>;<volume>2021</volume>:<fpage>193</fpage>–<lpage>202</lpage>. doi:<pub-id pub-id-type="doi">10.5664/jcsm.9538</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0013">
+        <label>13.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Bandyopadhyay</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Goldstein</surname>
+<given-names>C</given-names></string-name>. <article-title>Clinical applications of artificial intelligence in sleep medicine: a sleep clinician’s perspective</article-title>. <source><italic toggle="yes">Sleep Breath</italic></source>. <year>2022</year>;<volume>9</volume>:<fpage>1</fpage>–<lpage>7</lpage>. doi:<pub-id pub-id-type="doi">10.1007/s11325-022-02593-4</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0014">
+        <label>14.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Stanus</surname>
+<given-names>E</given-names></string-name>, <string-name><surname>Lacroix</surname>
+<given-names>B</given-names></string-name>, <string-name><surname>Kerkhofs</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Mendlewicz</surname>
+<given-names>J</given-names></string-name>. <article-title>Automated sleep scoring: a comparative reliability study of two algorithms</article-title>. <source><italic toggle="yes">Electroencephalogr Clin Neurophysiol</italic></source>. <year>1987</year>;<volume>66</volume>(<issue>4</issue>):<fpage>448</fpage>–<lpage>456</lpage>. doi:<pub-id pub-id-type="doi">10.1016/0013-4694(87)90214-8</pub-id><pub-id pub-id-type="pmid">2435525</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0015">
+        <label>15.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Klosh</surname>
+<given-names>G</given-names></string-name>, <string-name><surname>Kemp</surname>
+<given-names>B</given-names></string-name>, <string-name><surname>Penzel</surname>
+<given-names>T</given-names></string-name>, et al. <article-title>The SIESTA project polygraphic and clinical database</article-title>. <source><italic toggle="yes">IEEE Eng Med Biol Mag</italic></source>. <year>2001</year>;<volume>20</volume>(<issue>3</issue>):<fpage>51</fpage>–<lpage>57</lpage>. doi:<pub-id pub-id-type="doi">10.1109/51.932725</pub-id><pub-id pub-id-type="pmid">11446210</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0016">
+        <label>16.</label>
+        <mixed-citation publication-type="confproc"><string-name><surname>Penzel</surname>
+<given-names>T</given-names></string-name>, <string-name><surname>Glos</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Garcia</surname>
+<given-names>C</given-names></string-name>, <string-name><surname>Schoebel</surname>
+<given-names>C</given-names></string-name>, <string-name><surname>Fietze</surname>
+<given-names>I</given-names></string-name>. <article-title>The SIESTA database and the SIESTA sleep analyser</article-title>. <conf-name>Annual International Conference of the IEEE Engineering in Medicine and Biology Society</conf-name>; <publisher-name>IEEE</publisher-name>; <year>2011</year>:<fpage>8323</fpage>–<lpage>8326</lpage>. doi:<pub-id pub-id-type="doi">10.1109/iembs.2011.6092052</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0017">
+        <label>17.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Kemp</surname>
+<given-names>B</given-names></string-name>, <string-name><surname>Värri</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Rosa</surname>
+<given-names>AC</given-names></string-name>, <string-name><surname>Nielsen</surname>
+<given-names>KD</given-names></string-name>, <string-name><surname>Gade</surname>
+<given-names>J</given-names></string-name>. <article-title>A simple format for exchange of digitised polygraphic recordings</article-title>. <source><italic toggle="yes">Electroencephalogr Clin Neurophysiol</italic></source>. <year>1992</year>;<volume>82</volume>(<issue>5</issue>):<fpage>391</fpage>–<lpage>393</lpage>. doi:<pub-id pub-id-type="doi">10.1016/0013-4694(92)90009-7</pub-id><pub-id pub-id-type="pmid">1374708</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0018">
+        <label>18.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Silber</surname>
+<given-names>MH</given-names></string-name>, <string-name><surname>Ancoli-Israel</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Bonnet</surname>
+<given-names>MH</given-names></string-name>, et al. <article-title>The visual scoring of sleep in adults</article-title>. <source><italic toggle="yes">J Clin Sleep Med</italic></source>. <year>2007</year>;<volume>3</volume>(<issue>02</issue>):<fpage>121</fpage>–<lpage>131</lpage>. doi:<pub-id pub-id-type="doi">10.5664/jcsm.26814</pub-id><pub-id pub-id-type="pmid">17557422</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0019">
+        <label>19.</label>
+        <mixed-citation publication-type="book"><string-name><surname>Keenan</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Hirshkositz</surname>
+<given-names>M</given-names></string-name>. <part-title>Sleep Stage Scoring</part-title>. In: <string-name><surname>Kryger</surname>
+<given-names>MH</given-names></string-name>, <string-name><surname>Roth</surname>
+<given-names>T</given-names></string-name>, <string-name><surname>Goldstein</surname>
+<given-names>CA</given-names></string-name>, editors. <source><italic toggle="yes">Kryger’s Principles and Practice of Sleep Medicine</italic></source>. <publisher-loc>Philadelphia</publisher-loc>: <publisher-name>Elsevier Health Sciences</publisher-name>; <year>2021</year>:<fpage>1839</fpage>–<lpage>1847</lpage>.</mixed-citation>
+      </ref>
+      <ref id="cit0020">
+        <label>20.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Höller</surname>
+<given-names>L</given-names></string-name>, <string-name><surname>Riemer</surname>
+<given-names>H</given-names></string-name>. <article-title>Comparison of visual analysis and automatic sleep stage scoring (Oxford Medilog 9000 System)</article-title>. <source><italic toggle="yes">Eur Neurol</italic></source>. <year>1986</year>;<volume>25</volume>(<issue>Suppl. 2</issue>):<fpage>36</fpage>–<lpage>45</lpage>. doi:<pub-id pub-id-type="doi">10.1159/000116080</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0021">
+        <label>21.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Hoelscher</surname>
+<given-names>TJ</given-names></string-name>, <string-name><surname>Erwin</surname>
+<given-names>CW</given-names></string-name>, <string-name><surname>Marsh</surname>
+<given-names>GR</given-names></string-name>, <string-name><surname>Webb</surname>
+<given-names>MD</given-names></string-name>, <string-name><surname>Radtke</surname>
+<given-names>RA</given-names></string-name>, <string-name><surname>Anne</surname>
+<given-names>L</given-names></string-name>. <article-title>Ambulatory sleep monitoring with the Oxford-Medilog 9000: technical acceptability, patient acceptance, and clinical indications</article-title>. <source><italic toggle="yes">Sleep</italic></source>. <year>1987</year>;<volume>10</volume>(<issue>6</issue>):<fpage>606</fpage>–<lpage>607</lpage>. doi:<pub-id pub-id-type="doi">10.1093/sleep/10.6.606</pub-id><pub-id pub-id-type="pmid">3432861</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0022">
+        <label>22.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Hoelscher</surname>
+<given-names>TJ</given-names></string-name>, <string-name><surname>McCall</surname>
+<given-names>WV</given-names></string-name>, <string-name><surname>Powell</surname>
+<given-names>J</given-names></string-name>, <string-name><surname>Marsh</surname>
+<given-names>GR</given-names></string-name>, <string-name><surname>Erwin</surname>
+<given-names>CW</given-names></string-name>. <article-title>Two methods of scoring sleep with the Oxford Medilog 9000: comparison to conventional paper scoring</article-title>. <source><italic toggle="yes">Sleep</italic></source>. <year>1989</year>;<volume>12</volume>(<issue>2</issue>):<fpage>133</fpage>–<lpage>139</lpage>. doi:<pub-id pub-id-type="doi">10.1093/sleep/12.2.133</pub-id><pub-id pub-id-type="pmid">2711088</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0023">
+        <label>23.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Terzano</surname>
+<given-names>MG</given-names></string-name>, <string-name><surname>Parrino</surname>
+<given-names>L</given-names></string-name>. <article-title>Clinical applications of cyclic alternating pattern</article-title>. <source><italic toggle="yes">Physiol Behav</italic></source>. <year>1993</year>;<volume>54</volume>(<issue>4</issue>):<fpage>807</fpage>–<lpage>813</lpage>. doi:<pub-id pub-id-type="doi">10.1016/0031-9384(93)90096-X</pub-id><pub-id pub-id-type="pmid">8248361</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0024">
+        <label>24.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Parrino</surname>
+<given-names>L</given-names></string-name>, <string-name><surname>Boselli</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Spaggiari</surname>
+<given-names>MC</given-names></string-name>, <string-name><surname>Smerieri</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Terzano</surname>
+<given-names>MG</given-names></string-name>. <article-title>Cyclic alternating pattern (CAP) in normal sleep: polysomnographic parameters in different age groups</article-title>. <source><italic toggle="yes">Electroencephalogr Clin Neurophysiol</italic></source>. <year>1998</year>;<volume>107</volume>(<issue>6</issue>):<fpage>439</fpage>–<lpage>450</lpage>. doi:<pub-id pub-id-type="doi">10.1016/S0013-4694(98)00108-4</pub-id><pub-id pub-id-type="pmid">9922091</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0025">
+        <label>25.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Terzano</surname>
+<given-names>MG</given-names></string-name>, <string-name><surname>Parrino</surname>
+<given-names>L</given-names></string-name>, <string-name><surname>Sherieri</surname>
+<given-names>A</given-names></string-name>, et al. <article-title>Atlas, rules, and recording techniques for the scoring of cyclic alternating pattern (CAP) in human sleep</article-title>. <source><italic toggle="yes">Sleep Med</italic></source>. <year>2001</year>;<volume>2</volume>(<issue>6</issue>):<fpage>537</fpage>–<lpage>553</lpage>. doi:<pub-id pub-id-type="doi">10.1016/S1389-9457(01)00149-6</pub-id><pub-id pub-id-type="pmid">14592270</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0026">
+        <label>26.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Jobert</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Tismer</surname>
+<given-names>C</given-names></string-name>, <string-name><surname>Poiseau</surname>
+<given-names>E</given-names></string-name>, <string-name><surname>Schulz</surname>
+<given-names>H</given-names></string-name>. <article-title>Wavelets—a new tool in sleep biosignal analysis</article-title>. <source><italic toggle="yes">J Sleep Res</italic></source>. <year>1994</year>;<volume>3</volume>(<issue>4</issue>):<fpage>223</fpage>–<lpage>232</lpage>. doi:<pub-id pub-id-type="doi">10.1111/j.1365-2869.1994.tb00135.x</pub-id><pub-id pub-id-type="pmid">10607129</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0027">
+        <label>27.</label>
+        <mixed-citation publication-type="book"><string-name><surname>Oropesa</surname>
+<given-names>E</given-names></string-name>, <string-name><surname>Cycon</surname>
+<given-names>HL</given-names></string-name>, <string-name><surname>Jobert</surname>
+<given-names>M</given-names></string-name>. <source><italic toggle="yes">Sleep Stage Classification Using Wavelet Transform and Neural Network</italic></source>. <publisher-loc>Berkeley, California</publisher-loc>: <publisher-name>International Computer Science Institute</publisher-name>; <year>1999</year>.</mixed-citation>
+      </ref>
+      <ref id="cit0028">
+        <label>28.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Pardey</surname>
+<given-names>J</given-names></string-name>, <string-name><surname>Roberts</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Tarassenko</surname>
+<given-names>L</given-names></string-name>, <string-name><surname>Stradling</surname>
+<given-names>J</given-names></string-name>. <article-title>A new approach to the analysis of the human sleep/wakefulness continuum</article-title>. <source><italic toggle="yes">J Sleep Res</italic></source>. <year>1996</year>;<volume>5</volume>(<issue>4</issue>):<fpage>201</fpage>–<lpage>210</lpage>. doi:<pub-id pub-id-type="doi">10.1111/j.1365-2869.1996.00201.x</pub-id><pub-id pub-id-type="pmid">9065871</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0029">
+        <label>29.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Roberts</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Tarassenko</surname>
+<given-names>L</given-names></string-name>. <article-title>New method of automated sleep quantification</article-title>. <source><italic toggle="yes">Med Biol Eng Comput</italic></source>. <year>1992</year>;<volume>30</volume>(<issue>5</issue>):<fpage>509</fpage>–<lpage>517</lpage>. doi:<pub-id pub-id-type="doi">10.1007/BF02457830</pub-id><pub-id pub-id-type="pmid">1293442</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0030">
+        <label>30.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Hirshkowitz</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Moore</surname>
+<given-names>CA</given-names></string-name>. <article-title>Issues in computerised polysomnography</article-title>. <source><italic toggle="yes">Sleep</italic></source>. <year>1994</year>;<volume>17</volume>(<issue>2</issue>):<fpage>105</fpage>–<lpage>112</lpage>. doi:<pub-id pub-id-type="doi">10.1093/sleep/17.2.105a</pub-id><pub-id pub-id-type="pmid">8036364</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0031">
+        <label>31.</label>
+        <mixed-citation publication-type="book"><string-name><surname>Hori</surname>
+<given-names>T</given-names></string-name>, <string-name><surname>Hayashi</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Morikawa</surname>
+<given-names>T</given-names></string-name>. <part-title>Topographical EEG changes and the hypnagogic experience</part-title>. In: <string-name><surname>Ogilvie</surname>
+<given-names>RD</given-names></string-name>, <string-name><surname>Harsh</surname>
+<given-names>JR</given-names></string-name>, editors. <source><italic toggle="yes">Sleep Onset: Normal and Abnormal Processes</italic></source>. <publisher-loc>Washington</publisher-loc>: <publisher-name>American Psychological Association</publisher-name>;<year>1994</year>:<fpage>237</fpage>–<lpage>253</lpage>. doi:<pub-id pub-id-type="doi">10.1037/10166-000</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0032">
+        <label>32.</label>
+        <mixed-citation publication-type="confproc"><string-name><surname>Kan</surname>
+<given-names>DP</given-names></string-name>, <string-name><surname>Lee</surname>
+<given-names>PF</given-names></string-name>. <article-title>Decrease alpha waves in depression: an electroencephalogram (EEG) study</article-title>. In: <conf-name>2015 International Conference on BioSignal Analysis, Processing and Systems (ICBAPS)</conf-name>; <publisher-name>IEEE</publisher-name>; <year>2015</year>:<fpage>156</fpage>–<lpage>161</lpage>. doi:<pub-id pub-id-type="doi">10.1109/icbaps.2015.7292237</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0033">
+        <label>33.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Schenck</surname>
+<given-names>CH</given-names></string-name>, <string-name><surname>Mahowald</surname>
+<given-names>MW</given-names></string-name>, <string-name><surname>Kim</surname>
+<given-names>SW</given-names></string-name>, <string-name><surname>O’Connor</surname>
+<given-names>KA</given-names></string-name>, <string-name><surname>Hurwitz</surname>
+<given-names>TD</given-names></string-name>. <article-title>Prominent eye movements during NREM sleep and REM sleep behavior disorder associated with fluoxetine treatment of depression and obsessive-compulsive disorder</article-title>. <source><italic toggle="yes">Sleep</italic></source>. <year>1992</year>;<volume>15</volume>(<issue>3</issue>):<fpage>226</fpage>–<lpage>235</lpage>. doi:<pub-id pub-id-type="doi">10.1093/sleep/15.3.226</pub-id><pub-id pub-id-type="pmid">1621023</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0034">
+        <label>34.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Smith</surname>
+<given-names>JR</given-names></string-name>, <string-name><surname>Karacan</surname>
+<given-names>I</given-names></string-name>, <string-name><surname>Yang</surname>
+<given-names>M</given-names></string-name>. <article-title>Ontogeny of delta activity during human sleep</article-title>. <source><italic toggle="yes">Electroencephalogr Clin Neurophysiol</italic></source>. <year>1977</year>;<volume>43</volume>(<issue>2</issue>):<fpage>229</fpage>–<lpage>237</lpage>. doi:<pub-id pub-id-type="doi">10.1016/0013-4694(77)90130-4</pub-id><pub-id pub-id-type="pmid">69533</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0035">
+        <label>35.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Hauri</surname>
+<given-names>P</given-names></string-name>, <string-name><surname>Hawkins</surname>
+<given-names>DR</given-names></string-name>. <article-title>Alpha-delta sleep</article-title>. <source><italic toggle="yes">Electroencephalogr Clin Neurophysiol</italic></source>. <year>1973</year>;<volume>34</volume>(<issue>3</issue>):<fpage>233</fpage>–<lpage>237</lpage>. doi:<pub-id pub-id-type="doi">10.1016/0013-4694(73)90250-2</pub-id><pub-id pub-id-type="pmid">4129610</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0036">
+        <label>36.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Smith</surname>
+<given-names>JR</given-names></string-name>, <string-name><surname>Karacan</surname>
+<given-names>I</given-names></string-name>. <article-title>EEG sleep stage scoring by an automatic hybrid system</article-title>. <source><italic toggle="yes">Electroencephalogr Clin Neurophysiol</italic></source>. <year>1971</year>;<volume>31</volume>(<issue>3</issue>):<fpage>231</fpage>–<lpage>237</lpage>. doi:<pub-id pub-id-type="doi">10.1016/0013-4694(71)90092-7</pub-id><pub-id pub-id-type="pmid">4105870</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0037">
+        <label>37.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Gaillard</surname>
+<given-names>JM</given-names></string-name>, <string-name><surname>Tissot</surname>
+<given-names>R</given-names></string-name>. <article-title>Principles of automatic analysis of sleep records with a hybrid system</article-title>. <source><italic toggle="yes">Comput Biomed Res</italic></source>. <year>1973</year>;<volume>6</volume>(<issue>1</issue>):<fpage>1</fpage>–<lpage>3</lpage>. doi:<pub-id pub-id-type="doi">10.1016/0010-4809(73)90059-1</pub-id><pub-id pub-id-type="pmid">4348642</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0038">
+        <label>38.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Fiorillo</surname>
+<given-names>L</given-names></string-name>, <string-name><surname>Puiatti</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Papandrea</surname>
+<given-names>M</given-names></string-name>, et al. <article-title>Automated sleep scoring: a review of the latest approaches</article-title>. <source><italic toggle="yes">Sleep Med Rev</italic></source>. <year>2019</year>;<volume>48</volume>:<fpage>101204</fpage>. doi:<pub-id pub-id-type="doi">10.1016/j.smrv.2019.07.007</pub-id><pub-id pub-id-type="pmid">31491655</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0039">
+        <label>39.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Kubat</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Pfurtscheller</surname>
+<given-names>G</given-names></string-name>, <string-name><surname>Flotzinger</surname>
+<given-names>D</given-names></string-name>. <article-title>AI-based approach to automatic sleep classification</article-title>. <source><italic toggle="yes">Biol Cybern</italic></source>. <year>1994</year>;<volume>70</volume>(<issue>5</issue>):<fpage>443</fpage>–<lpage>448</lpage>. doi:<pub-id pub-id-type="doi">10.1007/BF00203237</pub-id><pub-id pub-id-type="pmid">8186305</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0040">
+        <label>40.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Phan</surname>
+<given-names>H</given-names></string-name>, <string-name><surname>Mikkelsen</surname>
+<given-names>K</given-names></string-name>. <article-title>Automatic sleep staging of EEG signals: recent development, challenges, and future directions</article-title>. <source><italic toggle="yes">Physiol Meas</italic></source>. <year>2022</year>;<volume>43</volume>:<fpage>04TR01</fpage>. doi:<pub-id pub-id-type="doi">10.1088/1361-6579/ac6049</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0041">
+        <label>41.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Huang</surname>
+<given-names>J</given-names></string-name>, <string-name><surname>Ren</surname>
+<given-names>L</given-names></string-name>, <string-name><surname>Zhou</surname>
+<given-names>X</given-names></string-name>, <string-name><surname>Yan</surname>
+<given-names>K</given-names></string-name>. <article-title>An improved neural network based on SENet for sleep stage classification</article-title>. <source><italic toggle="yes">IEEE J Biomed Health Inform</italic></source>. <year>2022</year>;<volume>26</volume>(<issue>10</issue>):<fpage>4948</fpage>–<lpage>4956</lpage>. doi:<pub-id pub-id-type="doi">10.1109/JBHI.2022.3157262</pub-id><pub-id pub-id-type="pmid">35259120</pub-id></mixed-citation>
+      </ref>
+    </ref-list>
+  </back>
+</article>
+</pmc-articleset>

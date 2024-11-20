@@ -1,0 +1,1029 @@
+<pmc-articleset><article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" dtd-version="1.3" xml:lang="en" article-type="research-article">
+  <?properties open_access?>
+  <processing-meta base-tagset="archiving" mathml-version="3.0" table-model="xhtml" tagset-family="jats">
+    <restricted-by>pmc</restricted-by>
+  </processing-meta>
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="nlm-ta">Nat Sci Sleep</journal-id>
+      <journal-id journal-id-type="iso-abbrev">Nat Sci Sleep</journal-id>
+      <journal-id journal-id-type="publisher-id">nss</journal-id>
+      <journal-title-group>
+        <journal-title>Nature and Science of Sleep</journal-title>
+      </journal-title-group>
+      <issn pub-type="epub">1179-1608</issn>
+      <publisher>
+        <publisher-name>Dove</publisher-name>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="pmid">35002345</article-id>
+      <article-id pub-id-type="pmc">8721741</article-id>
+      <article-id pub-id-type="publisher-id">333566</article-id>
+      <article-id pub-id-type="doi">10.2147/NSS.S333566</article-id>
+      <article-categories>
+        <subj-group subj-group-type="heading">
+          <subject>Original Research</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>Confidence-Based Framework Using Deep Learning for Automated Sleep Stage Scoring</article-title>
+        <alt-title alt-title-type="running-authors">Hong et al</alt-title>
+        <alt-title alt-title-type="running-title">Hong et al</alt-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author" equal-contrib="yes">
+          <contrib-id contrib-id-type="orcid" authenticated="false">http://orcid.org/0000-0002-1893-7868</contrib-id>
+          <name>
+            <surname>Hong</surname>
+            <given-names>Jung Kyung</given-names>
+          </name>
+          <xref rid="aff0001" ref-type="aff">
+<sup>1</sup>
+</xref>
+          <xref rid="aff0002" ref-type="aff">
+<sup>2</sup>
+</xref>
+          <xref rid="ft0001" ref-type="author-notes">*</xref>
+        </contrib>
+        <contrib contrib-type="author" equal-contrib="yes">
+          <contrib-id contrib-id-type="orcid" authenticated="false">http://orcid.org/0000-0002-2182-8654</contrib-id>
+          <name>
+            <surname>Lee</surname>
+            <given-names>Taeyoung</given-names>
+          </name>
+          <xref rid="aff0003" ref-type="aff">
+<sup>3</sup>
+</xref>
+          <xref rid="ft0001" ref-type="author-notes">*</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <contrib-id contrib-id-type="orcid" authenticated="false">http://orcid.org/0000-0003-1368-6817</contrib-id>
+          <name>
+            <surname>Delos Reyes</surname>
+            <given-names>Roben Deocampo</given-names>
+          </name>
+          <xref rid="aff0004" ref-type="aff">
+<sup>4</sup>
+</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <contrib-id contrib-id-type="orcid" authenticated="false">http://orcid.org/0000-0002-8378-3332</contrib-id>
+          <name>
+            <surname>Hong</surname>
+            <given-names>Joonki</given-names>
+          </name>
+          <xref rid="aff0003" ref-type="aff">
+<sup>3</sup>
+</xref>
+          <xref rid="aff0004" ref-type="aff">
+<sup>4</sup>
+</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <contrib-id contrib-id-type="orcid" authenticated="false">http://orcid.org/0000-0002-4006-3909</contrib-id>
+          <name>
+            <surname>Tran</surname>
+            <given-names>Hai Hong</given-names>
+          </name>
+          <xref rid="aff0004" ref-type="aff">
+<sup>4</sup>
+</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <contrib-id contrib-id-type="orcid" authenticated="false">http://orcid.org/0000-0003-4660-6174</contrib-id>
+          <name>
+            <surname>Lee</surname>
+            <given-names>Dongheon</given-names>
+          </name>
+          <xref rid="aff0004" ref-type="aff">
+<sup>4</sup>
+</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <contrib-id contrib-id-type="orcid" authenticated="false">http://orcid.org/0000-0002-2455-4206</contrib-id>
+          <name>
+            <surname>Jung</surname>
+            <given-names>Jinhwan</given-names>
+          </name>
+          <xref rid="aff0004" ref-type="aff">
+<sup>4</sup>
+</xref>
+          <xref rid="an0002" ref-type="corresp"/>
+        </contrib>
+        <contrib contrib-type="author">
+          <contrib-id contrib-id-type="orcid" authenticated="false">http://orcid.org/0000-0002-3995-8238</contrib-id>
+          <name>
+            <surname>Yoon</surname>
+            <given-names>In-Young</given-names>
+          </name>
+          <xref rid="aff0001" ref-type="aff">
+<sup>1</sup>
+</xref>
+          <xref rid="aff0002" ref-type="aff">
+<sup>2</sup>
+</xref>
+          <xref rid="an0001" ref-type="corresp"/>
+        </contrib>
+        <aff id="aff0001"><label>1</label><institution>Department of Psychiatry, Seoul National University Bundang Hospital</institution>, <addr-line>Seongnam</addr-line>, <country>Korea</country></aff>
+        <aff id="aff0002"><label>2</label><institution>Seoul National University College of Medicine</institution>, <addr-line>Seoul</addr-line>, <country>Korea</country></aff>
+        <aff id="aff0003"><label>3</label><institution>Korea Advanced Institute of Science and Technology</institution>, <addr-line>Daejeon</addr-line>, <country>Korea</country></aff>
+        <aff id="aff0004"><label>4</label><institution>Asleep Inc</institution>., <addr-line>Seoul</addr-line>, <country>Korea</country></aff>
+      </contrib-group>
+      <author-notes>
+        <corresp id="an0001">Correspondence: In-Young Yoon <institution>Department of Psychiatry, Seoul National University Bundang Hospital</institution>, <addr-line>82, Gumi-ro 173beon-gil, Bundang-gu</addr-line>, <addr-line>Seongnam-si</addr-line>, <addr-line>Gyeonggi-do</addr-line>, <addr-line>463-707</addr-line>, <country>Korea</country>
+<phone>Tel +82-31-787-7433</phone>
+<fax>Fax +82-31-787-4058</fax> Email iyoon@snu.ac.kr</corresp>
+        <corresp id="an0002">Jinhwan Jung <institution>R&amp;D Division, Asleep Inc</institution>, <addr-line>Asleep, 15, Teheran-ro 82-gil, Gangnam-gu</addr-line>, <addr-line>Seoul</addr-line>, <country>Korea</country>
+<phone>Tel +82-10-6228-7137</phone> Email insomnia@asleep.ai</corresp>
+        <fn id="ft0001">
+          <label>*</label>
+          <p>These authors contributed equally to this work</p>
+        </fn>
+      </author-notes>
+      <pub-date pub-type="epub">
+        <day>24</day>
+        <month>12</month>
+        <year>2021</year>
+      </pub-date>
+      <pub-date pub-type="collection">
+        <year>2021</year>
+      </pub-date>
+      <volume>13</volume>
+      <fpage>2239</fpage>
+      <lpage>2250</lpage>
+      <history>
+        <date date-type="received">
+          <day>16</day>
+          <month>8</month>
+          <year>2021</year>
+        </date>
+        <date date-type="accepted">
+          <day>06</day>
+          <month>12</month>
+          <year>2021</year>
+        </date>
+      </history>
+      <permissions>
+        <copyright-statement>© 2021 Hong et al.</copyright-statement>
+        <copyright-year>2021</copyright-year>
+        <copyright-holder>Hong et al.</copyright-holder>
+        <license>
+          <ali:license_ref xmlns:ali="http://www.niso.org/schemas/ali/1.0/" specific-use="textmining" content-type="ccbynclicense">https://creativecommons.org/licenses/by-nc/3.0/</ali:license_ref>
+          <license-p>This work is published and licensed by Dove Medical Press Limited. The full terms of this license are available at <ext-link ext-link-type="uri" xlink:href="https://www.dovepress.com/terms.php">https://www.dovepress.com/terms.php</ext-link> and incorporate the Creative Commons Attribution – Non Commercial (unported, v3.0) License (<ext-link ext-link-type="uri" xlink:href="https://creativecommons.org/licenses/by-nc/3.0/">http://creativecommons.org/licenses/by-nc/3.0/</ext-link>). By accessing the work you hereby accept the Terms. Non-commercial uses of the work are permitted without any further permission from Dove Medical Press Limited, provided the work is properly attributed. For permission for commercial use of this work, please see paragraphs 4.2 and 5 of our Terms (<ext-link ext-link-type="uri" xlink:href="https://www.dovepress.com/terms.php">https://www.dovepress.com/terms.php</ext-link>).</license-p>
+        </license>
+      </permissions>
+      <abstract>
+        <sec id="s2001">
+          <title>Study Objectives</title>
+          <p>Automated sleep stage scoring is not yet vigorously used in practice because of the black-box nature and the risk of wrong predictions. The objective of this study was to introduce a confidence-based framework to detect the possibly wrong predictions that would inform clinicians about which epochs would require a manual review and investigate the potential to improve accuracy for automated sleep stage scoring.</p>
+        </sec>
+        <sec id="s2002">
+          <title>Methods</title>
+          <p>We used 702 polysomnography studies from a local clinical dataset (SNUBH dataset) and 2804 from an open dataset (SHHS dataset) for experiments. We adapted the state-of-the-art TinySleepNet architecture to train the classifier and modified the ConfidNet architecture to train an auxiliary confidence model. For the confidence model, we developed a novel method, Dropout Correct Rate (DCR), and the performance of it was compared with other existing methods.</p>
+        </sec>
+        <sec id="s2003">
+          <title>Results</title>
+          <p>Confidence estimates (0.754) reflected accuracy (0.758) well in general. The best performance for differentiating correct and wrong predictions was shown when using the DCR method (AUROC: 0.812) compared to the existing approaches which largely failed to detect wrong predictions. By reviewing only 20% of epochs that received the lowest confidence values, the overall accuracy of sleep stage scoring was improved from 76% to 87%. For patients with reduced accuracy (ie, individuals with obesity or severe sleep apnea), the possible improvement range after applying confidence estimation was even greater.</p>
+        </sec>
+        <sec id="s2004">
+          <title>Conclusion</title>
+          <p>To the best of our knowledge, this is the first study applying confidence estimation on automated sleep stage scoring. Reliable confidence estimates by the DCR method help screen out most of the wrong predictions, which would increase the reliability and interpretability of automated sleep stage scoring.</p>
+        </sec>
+      </abstract>
+      <kwd-group kwd-group-type="author">
+        <title>Keywords</title>
+        <kwd>confidence estimation</kwd>
+        <kwd>deep learning</kwd>
+        <kwd>electroencephalography</kwd>
+        <kwd>polysomnography</kwd>
+        <kwd>sleep stages</kwd>
+        <kwd>accuracy improvement</kwd>
+      </kwd-group>
+      <counts>
+        <fig-count count="7"/>
+        <table-count count="9"/>
+        <ref-count count="26"/>
+        <page-count count="12"/>
+      </counts>
+    </article-meta>
+  </front>
+  <body>
+    <sec id="s0001">
+      <title>Plain Language Summary</title>
+      <p>Deploying automated sleep stage scoring in practice requires models to be both accurate and reliable. While existing works have focused on improving the accuracy, the problem of their black-box nature has hardly been solved. As the first study to introduce confidence estimation in automated sleep stage scoring, we focused on how to increase the reliability and utility of automated sleep stage scoring. Confidence estimation can serve a surveillance role for the classifier and screen out challenging epochs by showing low confidence. Therefore, only epochs with possibly wrong predictions will need manual review while accuracy is kept high. By adopting a confidence model, automated sleep stage scoring can be used in practice in a manipulable and reliable manner.</p>
+    </sec>
+    <sec sec-type="intro" id="s0002">
+      <title>Introduction</title>
+      <p>Polysomnography (PSG) is the gold-standard procedure for analyzing and diagnosing sleep health. A PSG recording provides overnight sleep data for a patient’s sleeping at a sleep center. It mainly consists of various biosignals, including electroencephalogram (EEG), electrooculogram, electromyogram, electrocardiogram, and respiratory signals. Every 30-sec epoch of this sleep data is visually inspected by a human sleep expert and manually classified into one of five sleep stages according to the American Academy of Sleep Medicine (AASM) Scoring Manual.<xref rid="cit0001" ref-type="bibr">1</xref> These five sleep stages are: Wake (W), Rapid eye movement (REM) sleep (R), Non-REM stage 1 (N1), Non-REM stage 2 (N2), and Non-REM stage 3 (N3). While information of sleep stages is essential for sleep diagnosis, manual annotation for sleep stages is a time-consuming and labor-intensive process. With the advancement of artificial intelligence (AI), many automated sleep stage scoring models that are trained via deep learning (DL) have been proposed to make the process more efficient.</p>
+      <p>DL-based sleep stage scoring models take advantage of huge amounts of data and recent advances in technology to automate the sleep stage scoring process. One of the earliest automated sleep stage scoring models is DeepSleepNet.<xref rid="cit0002" ref-type="bibr">2</xref> By using convolutional and recurrent neural networks, DeepSleepNet learns spatial and temporal patterns of sleep data such that it can accurately predict sleep stages given data of raw single EEG channel as input. More recently, TinySleepNet has been proposed as a lighter version of DeepSleepNet with improved prediction capabilities and generalizability across different sleep datasets.<xref rid="cit0003" ref-type="bibr">3</xref> Many other automated sleep stage scoring models have also been reported in the literature,<xref rid="cit0004" ref-type="bibr">4–10</xref> with their own carefully designed model architecture and novel DL technique aimed to improve the model’s capability to classify 30-sec sleep epochs. The introduction of DL in sleep stage scoring has improved the accuracy of those automated systems by a huge margin, with reported Cohen’s kappa values of up to 0.80,<xref rid="cit0010" ref-type="bibr">10</xref>,<xref rid="cit0011" ref-type="bibr">11</xref> which surpasses the inter-rater reliability among sleep technologists (Cohen's kappa: 0.68–0.76).<xref rid="cit0012" ref-type="bibr">12</xref></p>
+      <p>Despite their remarkable performances for classification, DL-based sleep stage scoring models are not yet widely used in clinical environments. The lack of transparency of these models is considered as their major drawback.<xref rid="cit0013" ref-type="bibr">13</xref> The black-box nature of DL models raises concerns regarding their reliability in practice since rationales for their predictions are not accessible. In addition, current DL-based sleep stage scoring models do not allow human experts to intervene or supervise AI-derived results. Thus, the only way to confirm their predictions is to manually review the entire PSGs. If there is a way to differentiate between reliable predictions and possibly wrong predictions, which are often mixed together within each PSG recording, clinicians would not need to review the whole PSGs. DL-based sleep stage scoring models would be more usable in clinical practice if additional information is provided with their predictions, which can specify epochs that require a manual review.</p>
+      <p>One way of doing so is by adding confidence estimation to the automated sleep stage scoring, by which values indicating how confident the model is about its predictions are given. This would allow sleep technologists and clinicians to selectively inspect those epochs screened out by the system and re-score them manually when needed. This approach may speed up the manual sleep stage scoring process while ensuring its accuracy and reliability. One of the well-known confidence estimation methods is temperature scaling<xref rid="cit0014" ref-type="bibr">14</xref> which adopts calibrated output of neural networks as confidence to match prediction accuracy. However, the calibration does not affect the ranking of confidence estimates. In other words, wrong predictions may have the highest confidence estimate even with the calibration; thus, it is not applicable to failure prediction.<xref rid="cit0015" ref-type="bibr">15</xref>,<xref rid="cit0016" ref-type="bibr">16</xref> A new confidence estimation model which is able to distinguish correct and wrong predictions is needed.</p>
+      <p>The objective of the study was to evaluate the utility and efficacy of confidence estimation in automatic sleep stage scoring. We proposed a novel confidence estimation model which is specified for automated sleep stage scoring to detect the wrong classification. We evaluated the performance of confidence estimation itself, compared the performance of our novel confidence model with other existing methods, and experimented with scenarios such as rejecting a fixed percentage of predictions with the lowest confidence estimates.</p>
+    </sec>
+    <sec id="s0003">
+      <title>Methods</title>
+      <sec id="s0003-s2001">
+        <title>Datasets</title>
+        <sec id="s0003-s2001-s3001">
+          <title>Local Dataset</title>
+          <p>The dataset consisted of 3510 PSGs recorded from 1st January 2013 to 31st December 2020 at the sleep center in Seoul National University Bundang Hospital (SNUBH). For most (91.8%) subjects, the sleep study was prescribed for the purpose of clinical diagnosis, while the rest (8.2%) were for clinical trials. Exclusion criteria for the data were: (1) from patients aged &lt;19 years or &gt;80 years, and (2) recorded sleep time less than 240 minutes. Since the dataset was retrospectively collected from PSGs conducted in the past, additional informed consents were not available. However, the data were all anonymized. The use of this dataset in this study was approved by the Institutional Review Board (IRB) of SNUBH (IRB No. B-2011/648-102).</p>
+          <p>To increase the efficiency and save time to run numerous DL experiments, 20% of data from the SNUBH dataset were randomly selected and used for the experiments, giving a total of 702 PSGs. The mean age of examinees was 52.8±13.9 years and there were 237 (33.8%) females. The data consisted of 71 (10.1%) patients with insomnia, 347 (49.4%) patients with moderate-severe degree of sleep apnea (AHI ≥ 15), and 141 (20.1%) patients diagnosed with REM sleep behavior disorder. The mean recording time was 472.5 ± 30.1 minutes per night, ranging from 370.8 minutes to 617.6 minutes. Each PSG was visually inspected and manually annotated by sleep technologists according to AASM scoring rules and confirmed by a sleep expert.</p>
+        </sec>
+        <sec id="s0003-s2001-s3002">
+          <title>Preprocessing</title>
+          <p>Preprocessing of the data included filtering, downsampling, and normalization. In the current study, only a single EEG signal (C3-A2) was used as input data. For filtering, a Butterworth bandpass filter with a range of 0.3 Hz to 35 Hz was applied to keep alpha (8–13 Hz), theta (4–8 Hz), delta (1–4 Hz), and sleep spindles (11–16 Hz) known to be important waveforms for sleep stage scoring according to the AASM manual. To assess the model’s performance in a realistic scenario, artifacts caused by the major body movements or by the equipment were not eliminated. Signals were then downsampled from 500 Hz to 100 Hz to reduce the computational complexity of the training of DL models. Downsampled data were then cut into 30-sec epochs. Every 11 epochs were then grouped into a sequence because when the sequence length is 10 or more, the accuracy improvement is saturated according to the previous literatures.<xref rid="cit0004" ref-type="bibr">4</xref>,<xref rid="cit0005" ref-type="bibr">5</xref> Normalization was done using the mean and standard deviation calculated with the Welford’s algorithm, which was conducted because of the huge dataset size (600 GB). Finally, the entire dataset was divided into train, validation, and test sets with a ratio of 70:15:15 at the PSG level.</p>
+        </sec>
+        <sec id="s0003-s2001-s3003">
+          <title>Public Dataset</title>
+          <p>To validate our framework, the Sleep Heart Health Study (SHHS) dataset from the National Heart, Lung, and Blood Institute,<xref rid="cit0017" ref-type="bibr">17</xref>,<xref rid="cit0018" ref-type="bibr">18</xref> one of well-known open datasets, was used. We used the 125 Hz single EEG channel data from SHHS-1, and merged stages 3 and 4 according to R&amp;K scoring rules into N3 as other existing literature.<xref rid="cit0019" ref-type="bibr">19</xref>,<xref rid="cit0020" ref-type="bibr">20</xref> We randomly selected 50% of the data from SHHS-1, which had a total of 5793 PSG recordings, for the experiments. These data were also divided into train, valid, and test sets with a ratio of 70:15:15 at the PSG level.</p>
+        </sec>
+      </sec>
+      <sec id="s0003-s2002">
+        <title>Framework Architecture</title>
+        <p>Our framework was composed of a class prediction model and a confidence model (<xref rid="f0001" ref-type="fig">Figure 1</xref>). The classifier and the parallel confidence model both took EEG time series data as input and output sleep stages and confidence estimates, respectively. Therefore, each epoch receives a prediction of sleep stage (<inline-formula id="ilm0001"><alternatives><inline-graphic xlink:href="NSS-13-2239-e0001.jpg"/><tex-math id="Tex001">\documentclass[12pt]{minimal}
+\usepackage{wasysym}
+\usepackage[substack]{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage[mathscr]{eucal}
+\usepackage{mathrsfs}
+\DeclareFontFamily{T1}{linotext}{}
+\DeclareFontShape{T1}{linotext}{m}{n} {linotext }{}
+\DeclareSymbolFont{linotext}{T1}{linotext}{m}{n}
+\DeclareSymbolFontAlphabet{\mathLINOTEXT}{linotext}
+\begin{document}
+$$\hat y$$
+\end{document}</tex-math></alternatives></inline-formula>) with a degree of certainty which is presented as a confidence value (<inline-formula id="ilm0002"><alternatives><inline-graphic xlink:href="NSS-13-2239-e0002.jpg"/><tex-math id="Tex002">\documentclass[12pt]{minimal}
+\usepackage{wasysym}
+\usepackage[substack]{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage[mathscr]{eucal}
+\usepackage{mathrsfs}
+\DeclareFontFamily{T1}{linotext}{}
+\DeclareFontShape{T1}{linotext}{m}{n} {linotext }{}
+\DeclareSymbolFont{linotext}{T1}{linotext}{m}{n}
+\DeclareSymbolFontAlphabet{\mathLINOTEXT}{linotext}
+\begin{document}
+$$\hat \kappa $$
+\end{document}</tex-math></alternatives></inline-formula>). Through this confidence output, sleep physicians can decide which predictions of epochs are reliable and which epochs would need a manual review. If an empirical threshold for an acceptable confidence can be set, it would be even easier to screen out epochs requiring manual review by simply accepting predictions with confidence equal to or above the threshold while rejecting predictions with confidence under the threshold. Sleep physicians will only need to manually review and re-annotate epochs with low confidence which are assumed to be a small portion of full PSGs.<fig position="float" id="f0001" fig-type="figure"><label>Figure 1</label><caption><p>Confidence-based re-scoring framework for automated sleep stage scoring via deep learning. The confidence threshold <inline-formula id="ilm0003"><alternatives><inline-graphic xlink:href="NSS-13-2239-e0003.jpg"/><tex-math id="Tex003">\documentclass[12pt]{minimal}
+\usepackage{wasysym}
+\usepackage[substack]{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage[mathscr]{eucal}
+\usepackage{mathrsfs}
+\DeclareFontFamily{T1}{linotext}{}
+\DeclareFontShape{T1}{linotext}{m}{n} {linotext }{}
+\DeclareSymbolFont{linotext}{T1}{linotext}{m}{n}
+\DeclareSymbolFontAlphabet{\mathLINOTEXT}{linotext}
+\begin{document}
+$$\delta $$
+\end{document}</tex-math></alternatives></inline-formula> is hypothetically set at 0.5.</p></caption><graphic xlink:href="NSS-13-2239-g0001" content-type="print-only" position="float"/></fig></p>
+      </sec>
+      <sec id="s0003-s2003">
+        <title>Selective Classifier</title>
+        <p>In our problem, given the dataset (<inline-formula id="ilm0004"><alternatives><inline-graphic xlink:href="NSS-13-2239-e0004.jpg"/><tex-math id="Tex004">\documentclass[12pt]{minimal}
+\usepackage{wasysym}
+\usepackage[substack]{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage[mathscr]{eucal}
+\usepackage{mathrsfs}
+\DeclareFontFamily{T1}{linotext}{}
+\DeclareFontShape{T1}{linotext}{m}{n} {linotext }{}
+\DeclareSymbolFont{linotext}{T1}{linotext}{m}{n}
+\DeclareSymbolFontAlphabet{\mathLINOTEXT}{linotext}
+\begin{document}
+$$X,Y$$
+\end{document}</tex-math></alternatives></inline-formula>) of PSG recordings (X) and sleep stage labels (<inline-formula id="ilm0005"><alternatives><inline-graphic xlink:href="NSS-13-2239-e0005.jpg"/><tex-math id="Tex005">\documentclass[12pt]{minimal}
+\usepackage{wasysym}
+\usepackage[substack]{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage[mathscr]{eucal}
+\usepackage{mathrsfs}
+\DeclareFontFamily{T1}{linotext}{}
+\DeclareFontShape{T1}{linotext}{m}{n} {linotext }{}
+\DeclareSymbolFont{linotext}{T1}{linotext}{m}{n}
+\DeclareSymbolFontAlphabet{\mathLINOTEXT}{linotext}
+\begin{document}
+$$Y$$
+\end{document}</tex-math></alternatives></inline-formula>), we defined the classifier <italic toggle="yes">f</italic> such that for a given time series EEG signal <inline-formula id="ilm0006"><alternatives><inline-graphic xlink:href="NSS-13-2239-e0006.jpg"/><tex-math id="Tex006">\documentclass[12pt]{minimal}
+\usepackage{wasysym}
+\usepackage[substack]{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage[mathscr]{eucal}
+\usepackage{mathrsfs}
+\DeclareFontFamily{T1}{linotext}{}
+\DeclareFontShape{T1}{linotext}{m}{n} {linotext }{}
+\DeclareSymbolFont{linotext}{T1}{linotext}{m}{n}
+\DeclareSymbolFontAlphabet{\mathLINOTEXT}{linotext}
+\begin{document}
+$${x_i} \in X$$
+\end{document}</tex-math></alternatives></inline-formula>, the classifier could output a corresponding sleep stage label <inline-formula id="ilm0007"><alternatives><inline-graphic xlink:href="NSS-13-2239-e0007.jpg"/><tex-math id="Tex007">\documentclass[12pt]{minimal}
+\usepackage{wasysym}
+\usepackage[substack]{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage[mathscr]{eucal}
+\usepackage{mathrsfs}
+\DeclareFontFamily{T1}{linotext}{}
+\DeclareFontShape{T1}{linotext}{m}{n} {linotext }{}
+\DeclareSymbolFont{linotext}{T1}{linotext}{m}{n}
+\DeclareSymbolFontAlphabet{\mathLINOTEXT}{linotext}
+\begin{document}
+$${y_i} \in Y$$
+\end{document}</tex-math></alternatives></inline-formula> among five classes (W, N1, N2, N3, and R). The architecture of the classifier is based on TinySleepNet<xref rid="cit0003" ref-type="bibr">3</xref> and adapted to the SNUBH dataset. As a “selective” classifier, in addition to general classification, it can selectively “accept” or “reject” the output, which is determined based on confidence in the present study. In other words, given the input <italic toggle="yes">x</italic><sub><italic toggle="yes">i</italic></sub>, the selective classifier’s prediction <inline-formula id="ilm0008"><alternatives><inline-graphic xlink:href="NSS-13-2239-e0008.jpg"/><tex-math id="Tex008">\documentclass[12pt]{minimal}
+\usepackage{wasysym}
+\usepackage[substack]{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage[mathscr]{eucal}
+\usepackage{mathrsfs}
+\DeclareFontFamily{T1}{linotext}{}
+\DeclareFontShape{T1}{linotext}{m}{n} {linotext }{}
+\DeclareSymbolFont{linotext}{T1}{linotext}{m}{n}
+\DeclareSymbolFontAlphabet{\mathLINOTEXT}{linotext}
+\begin{document}
+$${\hat y_i}$$
+\end{document}</tex-math></alternatives></inline-formula> is accepted only when the confidence <inline-formula id="ilm0009"><alternatives><inline-graphic xlink:href="NSS-13-2239-e0009.jpg"/><tex-math id="Tex009">\documentclass[12pt]{minimal}
+\usepackage{wasysym}
+\usepackage[substack]{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage[mathscr]{eucal}
+\usepackage{mathrsfs}
+\DeclareFontFamily{T1}{linotext}{}
+\DeclareFontShape{T1}{linotext}{m}{n} {linotext }{}
+\DeclareSymbolFont{linotext}{T1}{linotext}{m}{n}
+\DeclareSymbolFontAlphabet{\mathLINOTEXT}{linotext}
+\begin{document}
+$${\kappa _f}\left({{x_i}} \right)$$
+\end{document}</tex-math></alternatives></inline-formula> is equal to or larger than a threshold <inline-formula id="ilm0010"><alternatives><inline-graphic xlink:href="NSS-13-2239-e0010.jpg"/><tex-math id="Tex010">\documentclass[12pt]{minimal}
+\usepackage{wasysym}
+\usepackage[substack]{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage[mathscr]{eucal}
+\usepackage{mathrsfs}
+\DeclareFontFamily{T1}{linotext}{}
+\DeclareFontShape{T1}{linotext}{m}{n} {linotext }{}
+\DeclareSymbolFont{linotext}{T1}{linotext}{m}{n}
+\DeclareSymbolFontAlphabet{\mathLINOTEXT}{linotext}
+\begin{document}
+$$\delta $$
+\end{document}</tex-math></alternatives></inline-formula>. Otherwise, the selective classifier rejects (ie, NONE) the prediction and asks for a manual review.
+<disp-formula-group><disp-formula id="um0001"><alternatives><graphic xlink:href="NSS-13-2239-e0011.jpg" position="float"/><tex-math id="Tex011">\documentclass[12pt]{minimal}
+\usepackage{wasysym}
+\usepackage[substack]{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage[mathscr]{eucal}
+\usepackage{mathrsfs}
+\DeclareFontFamily{T1}{linotext}{}
+\DeclareFontShape{T1}{linotext}{m}{n} {linotext }{}
+\DeclareSymbolFont{linotext}{T1}{linotext}{m}{n}
+\DeclareSymbolFontAlphabet{\mathLINOTEXT}{linotext}
+\begin{document}
+$$f\left({{x_i}} \right) = \left\{ { \matrix{ {{y_i}\ \ \ \ \ \ if\ {\kappa _f}\left({{x_i}} \right)\ge \delta } \cr {\!\!None\ \ if\ {\kappa _f}\left({{x_i}} \right)\ \lt\ \delta } \cr } } \right.$$
+\end{document}</tex-math></alternatives></disp-formula></disp-formula-group></p>
+        <p>The confidence rate function <inline-formula id="ilm0011"><alternatives><inline-graphic xlink:href="NSS-13-2239-e0012.jpg"/><tex-math id="Tex012">\documentclass[12pt]{minimal}
+\usepackage{wasysym}
+\usepackage[substack]{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage[mathscr]{eucal}
+\usepackage{mathrsfs}
+\DeclareFontFamily{T1}{linotext}{}
+\DeclareFontShape{T1}{linotext}{m}{n} {linotext }{}
+\DeclareSymbolFont{linotext}{T1}{linotext}{m}{n}
+\DeclareSymbolFontAlphabet{\mathLINOTEXT}{linotext}
+\begin{document}
+$${\kappa _f}:X \to \left[{0,1} \right]$$
+\end{document}</tex-math></alternatives></inline-formula> indicates how confident the classifier <inline-formula id="ilm0012"><alternatives><inline-graphic xlink:href="NSS-13-2239-e0013.jpg"/><tex-math id="Tex013">\documentclass[12pt]{minimal}
+\usepackage{wasysym}
+\usepackage[substack]{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage[mathscr]{eucal}
+\usepackage{mathrsfs}
+\DeclareFontFamily{T1}{linotext}{}
+\DeclareFontShape{T1}{linotext}{m}{n} {linotext }{}
+\DeclareSymbolFont{linotext}{T1}{linotext}{m}{n}
+\DeclareSymbolFontAlphabet{\mathLINOTEXT}{linotext}
+\begin{document}
+$$f$$
+\end{document}</tex-math></alternatives></inline-formula> is about its prediction on a given data <inline-formula id="ilm0013"><alternatives><inline-graphic xlink:href="NSS-13-2239-e0014.jpg"/><tex-math id="Tex014">\documentclass[12pt]{minimal}
+\usepackage{wasysym}
+\usepackage[substack]{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage[mathscr]{eucal}
+\usepackage{mathrsfs}
+\DeclareFontFamily{T1}{linotext}{}
+\DeclareFontShape{T1}{linotext}{m}{n} {linotext }{}
+\DeclareSymbolFont{linotext}{T1}{linotext}{m}{n}
+\DeclareSymbolFontAlphabet{\mathLINOTEXT}{linotext}
+\begin{document}
+$${x_i}$$
+\end{document}</tex-math></alternatives></inline-formula>. A user-defined parameter <inline-formula id="ilm0014"><alternatives><inline-graphic xlink:href="NSS-13-2239-e0015.jpg"/><tex-math id="Tex015">\documentclass[12pt]{minimal}
+\usepackage{wasysym}
+\usepackage[substack]{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage[mathscr]{eucal}
+\usepackage{mathrsfs}
+\DeclareFontFamily{T1}{linotext}{}
+\DeclareFontShape{T1}{linotext}{m}{n} {linotext }{}
+\DeclareSymbolFont{linotext}{T1}{linotext}{m}{n}
+\DeclareSymbolFontAlphabet{\mathLINOTEXT}{linotext}
+\begin{document}
+$$\delta $$
+\end{document}</tex-math></alternatives></inline-formula> is a threshold to decide the level of confidence required to accept a prediction.</p>
+      </sec>
+      <sec id="s0003-s2004">
+        <title>SeqConfidNet with DCR</title>
+        <p>The key component of our framework is defining the confidence rate function <inline-formula id="ilm0015"><alternatives><inline-graphic xlink:href="NSS-13-2239-e0016.jpg"/><tex-math id="Tex016">\documentclass[12pt]{minimal}
+\usepackage{wasysym}
+\usepackage[substack]{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage[mathscr]{eucal}
+\usepackage{mathrsfs}
+\DeclareFontFamily{T1}{linotext}{}
+\DeclareFontShape{T1}{linotext}{m}{n} {linotext }{}
+\DeclareSymbolFont{linotext}{T1}{linotext}{m}{n}
+\DeclareSymbolFontAlphabet{\mathLINOTEXT}{linotext}
+\begin{document}
+$${\kappa _f}$$
+\end{document}</tex-math></alternatives></inline-formula> so that the confidence model can accurately estimate the accuracy of the classifier. A common way to estimate the confidence is to utilize softmax values from the last layer of the classifier. The last layer of the classifier outputs five values which are probabilities for a given epoch to be classified to each of five sleep stages. The classifier outputs the class yielding the highest probability as the final prediction, while the highest probability itself (ie, the maximum class probability) can be considered as the corresponding confidence. The Maximum Class Probability (MCP)<xref rid="cit0021" ref-type="bibr">21</xref> can be easily obtained without an additional cost. However, it tends to be overconfident by nature. Since it is the maximum probability among the five classes, the confidence value remains high even when the prediction is incorrect.</p>
+        <p>Because of the overconfidence of MCP, another method called True Class Probability (TCP) was introduced.<xref rid="cit0015" ref-type="bibr">15</xref>,<xref rid="cit0016" ref-type="bibr">16</xref> TCP takes the probability of the true class as confidence (<xref rid="f0002" ref-type="fig">Figure 2</xref>). It is ideal in that confidence would be low for wrong predictions. However, since the information for a true class is not available in a real clinical setting where PSGs are pending for annotation, an additional neural network is required to be trained when estimating confidence that uses that information. For example, ConfidNet is a confidence model proposed to output confidence values using TCP as the confidence rate function.<xref rid="cit0015" ref-type="bibr">15</xref> Although TCP is regarded as a better confidence estimation method than MCP, both could not reflect the actual accuracy of the classifier. Thus, using them as reference in deciding when to accept or reject predictions has limitations.<fig position="float" id="f0002" fig-type="figure"><label>Figure 2</label><caption><p>Overview on how to calculate (<bold>A</bold>) class probability-based confidences and (<bold>B</bold>) dropout correct rate (DCR) confidence. For a given 30-s epoch <inline-formula id="ilm0016"><alternatives><inline-graphic xlink:href="NSS-13-2239-e0017.jpg"/><tex-math id="Tex017">\documentclass[12pt]{minimal}
+\usepackage{wasysym}
+\usepackage[substack]{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage[mathscr]{eucal}
+\usepackage{mathrsfs}
+\DeclareFontFamily{T1}{linotext}{}
+\DeclareFontShape{T1}{linotext}{m}{n} {linotext }{}
+\DeclareSymbolFont{linotext}{T1}{linotext}{m}{n}
+\DeclareSymbolFontAlphabet{\mathLINOTEXT}{linotext}
+\begin{document}
+$$x$$
+\end{document}</tex-math></alternatives></inline-formula>, method (<bold>A</bold>) assigns the maximum class probability (MCP) or the true class probability (TCP) outputted at the last layer of the classifier <inline-formula id="ilm0017"><alternatives><inline-graphic xlink:href="NSS-13-2239-e0018.jpg"/><tex-math id="Tex018">\documentclass[12pt]{minimal}
+\usepackage{wasysym}
+\usepackage[substack]{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage[mathscr]{eucal}
+\usepackage{mathrsfs}
+\DeclareFontFamily{T1}{linotext}{}
+\DeclareFontShape{T1}{linotext}{m}{n} {linotext }{}
+\DeclareSymbolFont{linotext}{T1}{linotext}{m}{n}
+\DeclareSymbolFontAlphabet{\mathLINOTEXT}{linotext}
+\begin{document}
+$$f$$
+\end{document}</tex-math></alternatives></inline-formula> as the confidence estimate for the predicted class <inline-formula id="ilm0018"><alternatives><inline-graphic xlink:href="NSS-13-2239-e0019.jpg"/><tex-math id="Tex019">\documentclass[12pt]{minimal}
+\usepackage{wasysym}
+\usepackage[substack]{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage[mathscr]{eucal}
+\usepackage{mathrsfs}
+\DeclareFontFamily{T1}{linotext}{}
+\DeclareFontShape{T1}{linotext}{m}{n} {linotext }{}
+\DeclareSymbolFont{linotext}{T1}{linotext}{m}{n}
+\DeclareSymbolFontAlphabet{\mathLINOTEXT}{linotext}
+\begin{document}
+$$\hat y$$
+\end{document}</tex-math></alternatives></inline-formula>. On the other hand, method (<bold>B</bold>) predicts the class of epoch <inline-formula id="ilm0019"><alternatives><inline-graphic xlink:href="NSS-13-2239-e0020.jpg"/><tex-math id="Tex020">\documentclass[12pt]{minimal}
+\usepackage{wasysym}
+\usepackage[substack]{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage[mathscr]{eucal}
+\usepackage{mathrsfs}
+\DeclareFontFamily{T1}{linotext}{}
+\DeclareFontShape{T1}{linotext}{m}{n} {linotext }{}
+\DeclareSymbolFont{linotext}{T1}{linotext}{m}{n}
+\DeclareSymbolFontAlphabet{\mathLINOTEXT}{linotext}
+\begin{document}
+$$x$$
+\end{document}</tex-math></alternatives></inline-formula> multiple times with dropout layers activated and takes the accuracy of those predictions as confidence.</p></caption><graphic xlink:href="NSS-13-2239-g0002" content-type="print-only" position="float"/></fig></p>
+        <p>To overcome the limitation of these class probability-based methods, we propose a new confidence estimation method that uses the dropout technique to allow direct estimation of the accuracy of the sleep stage classifier. Dropout is one of the most popular DL techniques for regularization. When the dropout method is applied for a given classifier <inline-formula id="ilm0020"><alternatives><inline-graphic xlink:href="NSS-13-2239-e0021.jpg"/><tex-math id="Tex021">\documentclass[12pt]{minimal}
+\usepackage{wasysym}
+\usepackage[substack]{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage[mathscr]{eucal}
+\usepackage{mathrsfs}
+\DeclareFontFamily{T1}{linotext}{}
+\DeclareFontShape{T1}{linotext}{m}{n} {linotext }{}
+\DeclareSymbolFont{linotext}{T1}{linotext}{m}{n}
+\DeclareSymbolFontAlphabet{\mathLINOTEXT}{linotext}
+\begin{document}
+$$f$$
+\end{document}</tex-math></alternatives></inline-formula>, some neurons are randomly ignored when making the prediction. As shown in <xref rid="f0002" ref-type="fig">Figure 2B</xref>, we can apply the dropout method to the classifier to generate multiple copies of the neural network which uses different sets of neurons for prediction. For a given sample, each of dropout-applied <inline-formula id="ilm0021"><alternatives><inline-graphic xlink:href="NSS-13-2239-e0022.jpg"/><tex-math id="Tex022">\documentclass[12pt]{minimal}
+\usepackage{wasysym}
+\usepackage[substack]{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage[mathscr]{eucal}
+\usepackage{mathrsfs}
+\DeclareFontFamily{T1}{linotext}{}
+\DeclareFontShape{T1}{linotext}{m}{n} {linotext }{}
+\DeclareSymbolFont{linotext}{T1}{linotext}{m}{n}
+\DeclareSymbolFontAlphabet{\mathLINOTEXT}{linotext}
+\begin{document}
+$$f$$
+\end{document}</tex-math></alternatives></inline-formula>s can perform class prediction independently. The total number of correct predictions is then counted. Dropout Correct Rate (DCR) is calculated as the number of correct predictions divided by the number of dropout trials. For example, if 60 predictions are correct out of 100 dropout-applied <inline-formula id="ilm0022"><alternatives><inline-graphic xlink:href="NSS-13-2239-e0023.jpg"/><tex-math id="Tex023">\documentclass[12pt]{minimal}
+\usepackage{wasysym}
+\usepackage[substack]{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage[mathscr]{eucal}
+\usepackage{mathrsfs}
+\DeclareFontFamily{T1}{linotext}{}
+\DeclareFontShape{T1}{linotext}{m}{n} {linotext }{}
+\DeclareSymbolFont{linotext}{T1}{linotext}{m}{n}
+\DeclareSymbolFontAlphabet{\mathLINOTEXT}{linotext}
+\begin{document}
+$$f$$
+\end{document}</tex-math></alternatives></inline-formula>’s predictions, the DCR is 0.6.</p>
+        <p>In this work, we adapted the ConfidNet of Corbiere et al<xref rid="cit0015" ref-type="bibr">15</xref>,<xref rid="cit0016" ref-type="bibr">16</xref> and designed a sequence-to-sequence confidence model (SeqConfidNet) to give a sequence of confidence values corresponding to the sequence of sleep stages predicted by the classifier. Since DCR approximates the accuracy of the prediction, the estimated confidence from SeqConfidNet with DCR is likely to reflect the actual accuracy of the class prediction. We would test not only SeqConfidNet with DCR, but also other existing confidence rate functions [MCP, temperature-scaled MCP (t-MCP), and TCP] to evaluate if SeqConfidNet with DCR could have better performance than other methods for estimating clinically meaningful confidence.</p>
+      </sec>
+      <sec id="s0003-s2005">
+        <title>Model Architecture and Training</title>
+        <p>The model architectures of the classifier <inline-formula id="ilm0023"><alternatives><inline-graphic xlink:href="NSS-13-2239-e0024.jpg"/><tex-math id="Tex024">\documentclass[12pt]{minimal}
+\usepackage{wasysym}
+\usepackage[substack]{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage[mathscr]{eucal}
+\usepackage{mathrsfs}
+\DeclareFontFamily{T1}{linotext}{}
+\DeclareFontShape{T1}{linotext}{m}{n} {linotext }{}
+\DeclareSymbolFont{linotext}{T1}{linotext}{m}{n}
+\DeclareSymbolFontAlphabet{\mathLINOTEXT}{linotext}
+\begin{document}
+$$f$$
+\end{document}</tex-math></alternatives></inline-formula> and SeqConfidNet are both made up of four convolutional layers, one recurrent layer, and one fully connected layer. For the classifier <inline-formula id="ilm0024"><alternatives><inline-graphic xlink:href="NSS-13-2239-e0025.jpg"/><tex-math id="Tex025">\documentclass[12pt]{minimal}
+\usepackage{wasysym}
+\usepackage[substack]{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage[mathscr]{eucal}
+\usepackage{mathrsfs}
+\DeclareFontFamily{T1}{linotext}{}
+\DeclareFontShape{T1}{linotext}{m}{n} {linotext }{}
+\DeclareSymbolFont{linotext}{T1}{linotext}{m}{n}
+\DeclareSymbolFontAlphabet{\mathLINOTEXT}{linotext}
+\begin{document}
+$$f$$
+\end{document}</tex-math></alternatives></inline-formula>, the fully connected layer outputs five values, each showing the probability of the 30-s epoch belonging to one of five sleep stages. For SeqConfidNet, the fully connected layer only outputs one value per epoch which quantifies the confidence of classifier <inline-formula id="ilm0025"><alternatives><inline-graphic xlink:href="NSS-13-2239-e0026.jpg"/><tex-math id="Tex026">\documentclass[12pt]{minimal}
+\usepackage{wasysym}
+\usepackage[substack]{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage[mathscr]{eucal}
+\usepackage{mathrsfs}
+\DeclareFontFamily{T1}{linotext}{}
+\DeclareFontShape{T1}{linotext}{m}{n} {linotext }{}
+\DeclareSymbolFont{linotext}{T1}{linotext}{m}{n}
+\DeclareSymbolFontAlphabet{\mathLINOTEXT}{linotext}
+\begin{document}
+$$f$$
+\end{document}</tex-math></alternatives></inline-formula> in its prediction. The detailed hyperparameters of the classifier such as filter stride, filter size, and the number of hidden layers were used with the same values as those in the original paper.<xref rid="cit0003" ref-type="bibr">3</xref></p>
+        <p>For model training, the classifier <inline-formula id="ilm0026"><alternatives><inline-graphic xlink:href="NSS-13-2239-e0027.jpg"/><tex-math id="Tex027">\documentclass[12pt]{minimal}
+\usepackage{wasysym}
+\usepackage[substack]{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage[mathscr]{eucal}
+\usepackage{mathrsfs}
+\DeclareFontFamily{T1}{linotext}{}
+\DeclareFontShape{T1}{linotext}{m}{n} {linotext }{}
+\DeclareSymbolFont{linotext}{T1}{linotext}{m}{n}
+\DeclareSymbolFontAlphabet{\mathLINOTEXT}{linotext}
+\begin{document}
+$$f$$
+\end{document}</tex-math></alternatives></inline-formula> is first trained to minimize the mean squared error between the true class and the predicted class using an Adam optimizer, a learning rate of 0.0001, and a batch size of 64. Right after the classifier training, the training of the confidence model begins, with initial weights of convolutional layers set as trained weights of the classifier’s convolutional layers. To prevent the confidence model from diverging too much from the classifier, the training of SeqConfidNet freezes convolutional layers and starts with the training of recurrent and fully connected layers. After those layers are well trained, the next step is fine-tuning of SeqConfidNet where convolutional layers are trained together with recurrent and fully connected layers. Using an Adam optimizer and a batch size of 64, SeqConfidNet is trained to minimize the mean squared error between output values estimated by the confidence model and those given by the confidence rate function <inline-formula id="ilm0027"><alternatives><inline-graphic xlink:href="NSS-13-2239-e0028.jpg"/><tex-math id="Tex028">\documentclass[12pt]{minimal}
+\usepackage{wasysym}
+\usepackage[substack]{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage[mathscr]{eucal}
+\usepackage{mathrsfs}
+\DeclareFontFamily{T1}{linotext}{}
+\DeclareFontShape{T1}{linotext}{m}{n} {linotext }{}
+\DeclareSymbolFont{linotext}{T1}{linotext}{m}{n}
+\DeclareSymbolFontAlphabet{\mathLINOTEXT}{linotext}
+\begin{document}
+$${\kappa _f}$$
+\end{document}</tex-math></alternatives></inline-formula>. During the training of SeqConfidNet, the learning rate was initially set at 0.0001 but reduced to 0.00003 during fine-tuning to stabilize the learning. To avoid overfitting of models, early stopping was done for training both the classifier and the SeqConfidNet.</p>
+      </sec>
+      <sec id="s0003-s2006">
+        <title>Evaluation Metrics</title>
+        <p>The classifier performance was evaluated by mean accuracy, Cohen’s kappa, weighted macro-F1 score, and confusion matrix. Regarding the performance of confidence estimation, five types of metrics were used as in previous works: (1) area under the receiver operating characteristic curve (AUROC),<xref rid="cit0021" ref-type="bibr">21</xref> (2) area under the precision-recall curve (AUPR),<xref rid="cit0021" ref-type="bibr">21</xref> (3) false positive rate (FPR) when the true positive rate (TPR) was 95% (FPR@95%TPR),<xref rid="cit0015" ref-type="bibr">15</xref>,<xref rid="cit0016" ref-type="bibr">16</xref> (4) area under the risk-coverage curve (AURC),<xref rid="cit0022" ref-type="bibr">22</xref>,<xref rid="cit0023" ref-type="bibr">23</xref> and (5) Excess-AURC (E-AURC).<xref rid="cit0024" ref-type="bibr">24</xref> The AUROC is the most commonly used metric to evaluate a method’s ability of distinguishing between classes. To note, we defined a “positive class” as wrong predictions by the sleep stage classifier and the “negative class” as correct predictions because the wrong predictions were our targets to be detected here. Thus, successful rejection of wrong predictions would be a “true positive (TP)” and successful pass (non-rejection) for correct predictions would be a “true negative”. In addition to TP, false positive (FP), true negative (TN), and false negative (FN) were used to calculate precision (TP/(TP+FP)), recall=TPR (TP/(TP+FN)), FPR (FP/(FP+TN), risk (FN/(TN+FN)), and coverage (TN+FN/(TN+FN+TP+FP)), respectively. The AUPR is better in the case of two classes with greatly different base rates because it adjusts for base rates. AUROC and AUPR denote areas under the TPR-FPR curve (ROC) and the precision-recall curve while varying the confidence threshold <inline-formula id="ilm0028"><alternatives><inline-graphic xlink:href="NSS-13-2239-e0029.jpg"/><tex-math id="Tex029">\documentclass[12pt]{minimal}
+\usepackage{wasysym}
+\usepackage[substack]{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage[mathscr]{eucal}
+\usepackage{mathrsfs}
+\DeclareFontFamily{T1}{linotext}{}
+\DeclareFontShape{T1}{linotext}{m}{n} {linotext }{}
+\DeclareSymbolFont{linotext}{T1}{linotext}{m}{n}
+\DeclareSymbolFontAlphabet{\mathLINOTEXT}{linotext}
+\begin{document}
+$$\delta $$
+\end{document}</tex-math></alternatives></inline-formula>, with higher value indicating better performance. The FPR@95%TPR was the FPR at a certain threshold that gave a TPR of 95%, with a lower FPR at TPR 95% indicating a better performance. Regarding AURC, it is better to reduce the risk (missing wrong predictions) while keeping the coverage (1-rejection rate) as high as possible. E-AURC was a normalized variant of AURC by subtracting the inevitable risk. Lower values for AURC and E-AURC indicated better performances. The primary outcomes were AUROC and AUPR while FPR@95%TPR, AURC, and E-AURC were considered secondary outcomes to help evaluate the performance of confidence estimation in various aspects.</p>
+      </sec>
+    </sec>
+    <sec id="s0004">
+      <title>Results</title>
+      <sec id="s0004-s2001">
+        <title>Sleep Staging Performance</title>
+        <sec id="s0004-s2001-s3001">
+          <title>Classification Metrics</title>
+          <p><xref rid="f0003" ref-type="fig">Figure 3</xref> shows the confusion matrix for sleep stage classification based on local SNUBH and public SHHS sleep datasets. With the SNUBH dataset, the classifier was able to predict 85% of Wake, 59% of N1, 74% of N2, 77% of N3, and 83% of REM correctly, resulting in an average classification accuracy of 76%. The Cohen’s kappa value was 0.67 and the overall weighted F1 score was 0.76. The evaluation via the SHHS dataset showed similar results (accuracy: 82%, Cohen’s kappa: 0.75, F1 score: 0.82) (<xref rid="f0003" ref-type="fig">Figure 3B</xref>), confirming the efficiency and robustness of the classifier.<fig position="float" id="f0003" fig-type="figure"><label>Figure 3</label><caption><p>Confusion matrices for sleep stage classification, comparing manual scoring vs automated scoring by the classifier using (<bold>A</bold>) the SNUBH dataset or (<bold>B</bold>) the SHHS dataset.</p></caption><graphic xlink:href="NSS-13-2239-g0003" content-type="print-only" position="float"/></fig></p>
+        </sec>
+        <sec id="s0004-s2001-s3002">
+          <title>Accuracy per Data Category</title>
+          <p>When categorizing the data based on specific features as displayed in <xref rid="t0001" ref-type="table">Table 1</xref>, the classifier exhibited classification accuracy for certain groups. The accuracy seemed generally robust across age spans and genders except that it had a slightly lower value for the old group. However, the accuracy was reduced greatly for people with high BMI or AHI. The accuracy reduced to 68.6% for the obese group and 68.4% for people with AHI of 30 or more. When features were grouped on the level of epoch, the accuracy reduced to 64.8% for epochs with sleep apnea/hypopnea and 62.5% for epochs with respiratory arousal.<table-wrap position="float" id="t0001"><label>Table 1</label><caption><p>Classification Accuracy and Mean Estimated Confidence According to Clinical Features in the SNUBH Dataset</p></caption><table frame="hsides" rules="groups"><thead><tr><th rowspan="2" colspan="1">Feature</th><th rowspan="2" colspan="1">Group</th><th rowspan="2" colspan="1">Number of Epochs</th><th rowspan="2" colspan="1">Number of Patients</th><th rowspan="2" colspan="1">Accuracy</th><th colspan="4" align="center" rowspan="1">Confidence</th></tr><tr><th rowspan="1" colspan="1">MCP</th><th rowspan="1" colspan="1">t-MCP</th><th rowspan="1" colspan="1">TCP</th><th rowspan="1" colspan="1">DCR</th></tr></thead><tbody><tr><td rowspan="1" colspan="1">Average</td><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1">96,448</td><td rowspan="1" colspan="1">104</td><td rowspan="1" colspan="1">75.8</td><td rowspan="1" colspan="1">77.1</td><td rowspan="1" colspan="1">76.5</td><td rowspan="1" colspan="1">67.5</td><td rowspan="1" colspan="1">75.4*</td></tr><tr><td rowspan="1" colspan="1">Age</td><td rowspan="1" colspan="1">Young: [19, 40)</td><td rowspan="1" colspan="1">18,975</td><td rowspan="1" colspan="1">21</td><td rowspan="1" colspan="1">77.8</td><td rowspan="1" colspan="1">75.6*</td><td rowspan="1" colspan="1">75.0</td><td rowspan="1" colspan="1">65.6</td><td rowspan="1" colspan="1">74.4</td></tr><tr><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1">Middle: [40, 60)</td><td rowspan="1" colspan="1">44,033</td><td rowspan="1" colspan="1">48</td><td rowspan="1" colspan="1">76.7</td><td rowspan="1" colspan="1">77.2</td><td rowspan="1" colspan="1">76.5*</td><td rowspan="1" colspan="1">67.7</td><td rowspan="1" colspan="1">75.6</td></tr><tr><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1">Old: [60, 80)</td><td rowspan="1" colspan="1">33,440</td><td rowspan="1" colspan="1">35</td><td rowspan="1" colspan="1">73.7</td><td rowspan="1" colspan="1">78.0</td><td rowspan="1" colspan="1">77.4</td><td rowspan="1" colspan="1">68.3</td><td rowspan="1" colspan="1">75.6*</td></tr><tr><td rowspan="1" colspan="1">Gender</td><td rowspan="1" colspan="1">Male</td><td rowspan="1" colspan="1">58,850</td><td rowspan="1" colspan="1">64</td><td rowspan="1" colspan="1">75.3</td><td rowspan="1" colspan="1">75.7</td><td rowspan="1" colspan="1">75.1*</td><td rowspan="1" colspan="1">65.9</td><td rowspan="1" colspan="1">73.9</td></tr><tr><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1">Female</td><td rowspan="1" colspan="1">37,598</td><td rowspan="1" colspan="1">40</td><td rowspan="1" colspan="1">76.8</td><td rowspan="1" colspan="1">79.3</td><td rowspan="1" colspan="1">78.7</td><td rowspan="1" colspan="1">70.0</td><td rowspan="1" colspan="1">77.6*</td></tr><tr><td rowspan="1" colspan="1">BMI</td><td rowspan="1" colspan="1">Underweight: [0, 18.5)</td><td rowspan="1" colspan="1">1903</td><td rowspan="1" colspan="1">2</td><td rowspan="1" colspan="1">83.2</td><td rowspan="1" colspan="1">78.6*</td><td rowspan="1" colspan="1">78.0</td><td rowspan="1" colspan="1">69.5</td><td rowspan="1" colspan="1">78.6*</td></tr><tr><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1">Normal: [18.5, 25)</td><td rowspan="1" colspan="1">40,359</td><td rowspan="1" colspan="1">44</td><td rowspan="1" colspan="1">78.0</td><td rowspan="1" colspan="1">79.1</td><td rowspan="1" colspan="1">78.5*</td><td rowspan="1" colspan="1">69.9</td><td rowspan="1" colspan="1">77.3</td></tr><tr><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1">Overweight: [25, 30)</td><td rowspan="1" colspan="1">45,826</td><td rowspan="1" colspan="1">49</td><td rowspan="1" colspan="1">75.1</td><td rowspan="1" colspan="1">76.5</td><td rowspan="1" colspan="1">75.9</td><td rowspan="1" colspan="1">66.6</td><td rowspan="1" colspan="1">74.4*</td></tr><tr><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1">Obese: [30,∞]</td><td rowspan="1" colspan="1">8360</td><td rowspan="1" colspan="1">9</td><td rowspan="1" colspan="1">68.6</td><td rowspan="1" colspan="1">70.6</td><td rowspan="1" colspan="1">69.9*</td><td rowspan="1" colspan="1">60.3</td><td rowspan="1" colspan="1">70.1</td></tr><tr><td rowspan="1" colspan="1">AHI</td><td rowspan="1" colspan="1">Normal: [0, 5)</td><td rowspan="1" colspan="1">26,169</td><td rowspan="1" colspan="1">28</td><td rowspan="1" colspan="1">79.9</td><td rowspan="1" colspan="1">79.5*</td><td rowspan="1" colspan="1">78.9</td><td rowspan="1" colspan="1">70.6</td><td rowspan="1" colspan="1">78.4</td></tr><tr><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1">Mild: [5, 15)</td><td rowspan="1" colspan="1">23,749</td><td rowspan="1" colspan="1">26</td><td rowspan="1" colspan="1">78.3</td><td rowspan="1" colspan="1">78.0*</td><td rowspan="1" colspan="1">77.4</td><td rowspan="1" colspan="1">68.6</td><td rowspan="1" colspan="1">76.1</td></tr><tr><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1">Moderate: [15, 30)</td><td rowspan="1" colspan="1">19,327</td><td rowspan="1" colspan="1">21</td><td rowspan="1" colspan="1">78.1</td><td rowspan="1" colspan="1">79.6</td><td rowspan="1" colspan="1">79.0</td><td rowspan="1" colspan="1">70.4</td><td rowspan="1" colspan="1">78.0*</td></tr><tr><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1">Severe: [30,∞]</td><td rowspan="1" colspan="1">27,203</td><td rowspan="1" colspan="1">29</td><td rowspan="1" colspan="1">68.4</td><td rowspan="1" colspan="1">72.4</td><td rowspan="1" colspan="1">71.7</td><td rowspan="1" colspan="1">61.5</td><td rowspan="1" colspan="1">70.0*</td></tr><tr><td rowspan="3" colspan="1">Sleep respiratory event</td><td rowspan="1" colspan="1">No event</td><td rowspan="1" colspan="1">72,637</td><td align="center" rowspan="1" colspan="1">-</td><td rowspan="1" colspan="1">79.6</td><td rowspan="1" colspan="1">79.7*</td><td rowspan="1" colspan="1">79.1</td><td rowspan="1" colspan="1">71.0</td><td rowspan="1" colspan="1">78.4</td></tr><tr><td rowspan="1" colspan="1">Apnea/hypopnea</td><td rowspan="1" colspan="1">22,813</td><td align="center" rowspan="1" colspan="1">-</td><td rowspan="1" colspan="1">64.8</td><td rowspan="1" colspan="1">69.4</td><td rowspan="1" colspan="1">68.7</td><td rowspan="1" colspan="1">56.9</td><td rowspan="1" colspan="1">66.2*</td></tr><tr><td rowspan="1" colspan="1">Respiratory arousal</td><td rowspan="1" colspan="1">13,125</td><td align="center" rowspan="1" colspan="1">-</td><td rowspan="1" colspan="1">62.5</td><td rowspan="1" colspan="1">67.7</td><td rowspan="1" colspan="1">67.0</td><td rowspan="1" colspan="1">54.3</td><td rowspan="1" colspan="1">63.9*</td></tr></tbody></table><table-wrap-foot><fn id="tfn0001"><p><bold>Notes</bold>: All values are percentages. *Mean estimated confidence value closest to the classification accuracy.</p></fn><fn id="tfn0002"><p><bold>Abbreviations</bold>: BMI, body mass index; AHI, apnea-hypopnea index; MCP, Maximum Class Probability; t-MCP, temperature-scaled MCP; TCP, True Class Probability; DCR, Dropout Correct Rate; SNUBH, Seoul National University Bundang Hospital.</p></fn></table-wrap-foot></table-wrap>
+</p>
+        </sec>
+      </sec>
+      <sec id="s0004-s2002">
+        <title>Confidence Estimation Performance</title>
+        <sec id="s0004-s2002-s3001">
+          <title>Confidence Estimation Metrics</title>
+          <p>Results of the primary and secondary metrics for confidence estimation methods are shown in <xref rid="t0002" ref-type="table">Table 2</xref>. Regarding the primary metrics, the DCR method showed the best AUROC (0.812) and the second best AUPR (0.533) following the TCP (0.538). The values of FPR@95%TPR (0.591), AURC (0.088), and E-AURC (0.057) were the best using the DCR method, followed by the values with TCP.<table-wrap position="float" id="t0002"><label>Table 2</label><caption><p>Performances of the Three Confidence Estimation Methods in Differentiating Wrong and Correct Predictions</p></caption><table frame="hsides" rules="groups"><thead><tr><th rowspan="1" colspan="1">Dataset</th><th rowspan="1" colspan="1">Confidence</th><th rowspan="1" colspan="1">↑AUROC</th><th rowspan="1" colspan="1">↑AUPR</th><th rowspan="1" colspan="1">↓FPR@ 95TPR</th><th rowspan="1" colspan="1">↓AURC</th><th rowspan="1" colspan="1">↓E-AURC</th></tr></thead><tbody><tr><td rowspan="3" colspan="1">SNUBH</td><td rowspan="1" colspan="1">MCP/t-MCP</td><td rowspan="1" colspan="1">77.1</td><td rowspan="1" colspan="1">48.4</td><td rowspan="1" colspan="1">68.5</td><td rowspan="1" colspan="1">10.34</td><td rowspan="1" colspan="1">7.17</td></tr><tr><td rowspan="1" colspan="1">TCP</td><td rowspan="1" colspan="1">80.6</td><td rowspan="1" colspan="1">53.8*</td><td rowspan="1" colspan="1">60.4</td><td rowspan="1" colspan="1">9.07</td><td rowspan="1" colspan="1">5.90</td></tr><tr><td rowspan="1" colspan="1">DCR (Ours)</td><td rowspan="1" colspan="1">81.2*</td><td rowspan="1" colspan="1">53.3</td><td rowspan="1" colspan="1">59.1*</td><td rowspan="1" colspan="1">8.84*</td><td rowspan="1" colspan="1">5.67*</td></tr><tr><td rowspan="3" colspan="1">SHHS</td><td rowspan="1" colspan="1">MCP/t-MCP</td><td rowspan="1" colspan="1">82.5</td><td rowspan="1" colspan="1">48.4</td><td rowspan="1" colspan="1">57.6</td><td rowspan="1" colspan="1">5.78*</td><td rowspan="1" colspan="1">4.00*</td></tr><tr><td rowspan="1" colspan="1">TCP</td><td rowspan="1" colspan="1">82.5</td><td rowspan="1" colspan="1">49.5</td><td rowspan="1" colspan="1">57.4*</td><td rowspan="1" colspan="1">5.79</td><td rowspan="1" colspan="1">4.00*</td></tr><tr><td rowspan="1" colspan="1">DCR (Ours)</td><td rowspan="1" colspan="1">82.6*</td><td rowspan="1" colspan="1">50.0*</td><td rowspan="1" colspan="1">60.2</td><td rowspan="1" colspan="1">5.87</td><td rowspan="1" colspan="1">4.09</td></tr></tbody></table><table-wrap-foot><fn id="tfn0003"><p><bold>Notes</bold>: All values are percentages. *Best metric value.</p></fn><fn id="tfn0004"><p><bold>Abbreviations</bold>: SNUBH, Seoul National University Bundang Hospital; SHHS, Sleep Heart Health Study; MCP, Maximum Class Probability; t-MCP, temperature-scaled MCP; TCP, True Class Probability; DCR, Dropout Correct Rate; AUROC, area under the receiver operating characteristic curve; AUPR, area under the precision-recall curve; FPR@95TPR, false positive rate at true positive rate set as 95%; AURC, area under the risk-coverage curve; E-AURC, Excess-AURC.</p></fn></table-wrap-foot></table-wrap>
+</p>
+        </sec>
+        <sec id="s0004-s2002-s3002">
+          <title>Rejection of the Least Confident Predictions</title>
+          <p>In <xref rid="f0004" ref-type="fig">Figure 4</xref>, the TPR is shown at each rejection rate applied. For each rejection rate, a certain percentage of predictions with the lowest confidence were rejected. A higher TPR could be interpreted as a higher rate of wrong predictions to be included in the rejection (ie, a higher detection rate for wrong predictions). By applying 20% as the rejection rate, a TPR as high as 50% was achieved using the confidence estimation by DCR. That is, almost half of the classifier’s wrong predictions could be detected, which was considered quite successful compared to the TPR of 20% at random rejection. Furthermore, if epochs with rejected predictions could be hypothesized to be manually re-scored, the classifier’s overall weighted F1 score and Cohen’s kappa value improved greatly by a maximum of 0.203 and 0.276, respectively. When the rejection rate was increased to 50%, the detection rate of wrong predictions was increased to as high as 85% and the overall accuracy of sleep staging was highly improved.<fig position="float" id="f0004" fig-type="figure"><label>Figure 4</label><caption><p>Changes of metrics when applying different rejection rates. Rejected epochs are selected (<bold>A</bold>) randomly or (<bold>B</bold>) based on DCR.</p></caption><graphic xlink:href="NSS-13-2239-g0004" content-type="print-only" position="float"/><attrib><bold>Abbreviations</bold>: TPR, true positive rate; DCR, Dropout Correct Rate.</attrib></fig></p>
+          <p>In addition, we compared the possible improvement of F1 score and Cohen’s kappa by re-scoring rejected epochs among the three confidence estimation methods (<xref rid="f0005" ref-type="fig">Figure 5</xref>). Rejecting predictions by using the DCR confidence resulted in the largest improvement of the classification accuracy among the three methods. When 40% of predictions with the lowest confidence values were replaced with original labels, DCR improved the classifier’s overall weighted F1 score by 0.015 and Cohen’s kappa value by 0.02 more than MCP did.<fig position="float" id="f0005" fig-type="figure"><label>Figure 5</label><caption><p>Possible improvement of classification accuracy by re-scoring epochs rejected by the three confidence estimation methods. The improvement by MCP was taken as the baseline (set at 0). The improvement by rejecting predictions using TCP or DCR is shown as the difference to the improvement by MCP. To note, the figure did not include t-MCP which was simply a scaled version of MCP and showed exactly the same results as MCP.</p></caption><graphic xlink:href="NSS-13-2239-g0005" content-type="print-only" position="float"/><attrib><bold>Abbreviations</bold>: MCP, Maximum Class Probability; TCP, True Class Probability; DCR, Dropout Correct Rate.</attrib></fig></p>
+        </sec>
+        <sec id="s0004-s2002-s3003">
+          <title>Confidence per Data Category</title>
+          <p>In most categories, mean estimated DCR confidence values were the closest to the classification accuracy among the confidence estimation methods (<xref rid="t0001" ref-type="table">Table 1</xref>). In particular, MCP showed confidence values close to accuracy for the young, the underweight, and the normal-to-mild sleep apnea groups. However, for the older group and groups with high BMI or AHI, in which the accuracy was reduced, DCR performed the best, outputting the closest confidence values to accuracy. DCR seemed to reflect the classifier performance honestly and be less overconfident when the accuracy was reduced in specific groups.</p>
+          <p>When 20% of predictions with the lowest DCR confidence would be replaced by the correct labels, accuracy improved by as much as 10–20%. The most improvement of classification accuracy occurred for groups with low accuracies (eg, patients with old age, obesity, or severe sleep apnea) (<xref rid="f0006" ref-type="fig">Figure 6</xref>).<fig position="float" id="f0006" fig-type="figure"><label>Figure 6</label><caption><p>Possible increase in accuracy (%) after re-scoring is presented according to clinical features. Groups with low classification accuracy (ie, epochs with sleep respiratory events and people with older age, obesity, or severe sleep apnea) showed the greatest potential for improvement.</p></caption><graphic xlink:href="NSS-13-2239-g0006" content-type="print-only" position="float"/></fig></p>
+        </sec>
+      </sec>
+      <sec id="s0004-s2003">
+        <title>Threshold Determination</title>
+        <p>The confidence threshold <inline-formula id="ilm0029"><alternatives><inline-graphic xlink:href="NSS-13-2239-e0030.jpg"/><tex-math id="Tex030">\documentclass[12pt]{minimal}
+\usepackage{wasysym}
+\usepackage[substack]{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage[mathscr]{eucal}
+\usepackage{mathrsfs}
+\DeclareFontFamily{T1}{linotext}{}
+\DeclareFontShape{T1}{linotext}{m}{n} {linotext }{}
+\DeclareSymbolFont{linotext}{T1}{linotext}{m}{n}
+\DeclareSymbolFontAlphabet{\mathLINOTEXT}{linotext}
+\begin{document}
+$$\delta $$
+\end{document}</tex-math></alternatives></inline-formula> can be chosen arbitrarily by users. Here, we evaluated three systematic ways of setting the threshold. The first criterion was to set the confidence value at when TPR reached a desired value (eg, TPR = 0.95) as threshold for rejection. As shown in <xref rid="t0003" ref-type="table">Table 3</xref>, this criterion resulted in a high threshold at <inline-formula id="ilm0030"><alternatives><inline-graphic xlink:href="NSS-13-2239-e0031.jpg"/><tex-math id="Tex031">\documentclass[12pt]{minimal}
+\usepackage{wasysym}
+\usepackage[substack]{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage[mathscr]{eucal}
+\usepackage{mathrsfs}
+\DeclareFontFamily{T1}{linotext}{}
+\DeclareFontShape{T1}{linotext}{m}{n} {linotext }{}
+\DeclareSymbolFont{linotext}{T1}{linotext}{m}{n}
+\DeclareSymbolFontAlphabet{\mathLINOTEXT}{linotext}
+\begin{document}
+$$\delta = 0.890$$
+\end{document}</tex-math></alternatives></inline-formula> and rejections for a large portion of epochs (54.3% of correct prediction and 95.7% of wrong prediction) that required manual review. The second criterion picked the threshold as the value that kept the accuracy of remaining epochs at a desired value (eg, Accuracy = 0.85). In this case, less epochs were subjected to manual review, decreasing both FPR (21.7%) and TPR (52.3%). The third criterion was the gap maximization which set the threshold as the value that maximized the TPR while minimizing the FPR. The gap maximization criteria set the threshold at 0.724 where 29.6% of correct predictions and 82.5% of wrong predictions were rejected.<table-wrap position="float" id="t0003"><label>Table 3</label><caption><p>Percentages of Epochs with Correct and Wrong Predictions Chosen for Manual Review According to Each Threshold Setting Criterion</p></caption><table frame="hsides" rules="groups"><thead><tr><th rowspan="1" colspan="1">Selection Criterion</th><th rowspan="1" colspan="1">Threshold <inline-formula id="ilm0031"><alternatives><inline-graphic xlink:href="NSS-13-2239-e0032.jpg"/><tex-math id="Tex032">\documentclass[12pt]{minimal}
+\usepackage{wasysym}
+\usepackage[substack]{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage[mathscr]{eucal}
+\usepackage{mathrsfs}
+\DeclareFontFamily{T1}{linotext}{}
+\DeclareFontShape{T1}{linotext}{m}{n} {linotext }{}
+\DeclareSymbolFont{linotext}{T1}{linotext}{m}{n}
+\DeclareSymbolFontAlphabet{\mathLINOTEXT}{linotext}
+\begin{document}
+$${\bf{\it{\delta }}}$$
+\end{document}</tex-math></alternatives></inline-formula></th><th rowspan="1" colspan="1">Rejection Rate</th><th rowspan="1" colspan="1">FPR</th><th rowspan="1" colspan="1">TPR</th><th rowspan="1" colspan="1">Accuracy</th></tr></thead><tbody><tr><td rowspan="1" colspan="1">TPR = 0.95</td><td rowspan="1" colspan="1">0.890</td><td rowspan="1" colspan="1">61.4</td><td rowspan="1" colspan="1">54.3</td><td rowspan="1" colspan="1">95.7</td><td rowspan="1" colspan="1">95</td></tr><tr><td rowspan="1" colspan="1">Accuracy = 0.85</td><td rowspan="1" colspan="1">0.554</td><td rowspan="1" colspan="1">21.5</td><td rowspan="1" colspan="1">21.7</td><td rowspan="1" colspan="1">52.3</td><td rowspan="1" colspan="1">84</td></tr><tr><td rowspan="1" colspan="1">Gap Maximization</td><td rowspan="1" colspan="1">0.724</td><td rowspan="1" colspan="1">41.3</td><td rowspan="1" colspan="1">29.6</td><td rowspan="1" colspan="1">82.5</td><td rowspan="1" colspan="1">91</td></tr></tbody></table><table-wrap-foot><fn id="tfn0005"><p><bold>Notes</bold>: Threshold <inline-formula id="ilm0032"><alternatives><inline-graphic xlink:href="NSS-13-2239-e0033.jpg"/><tex-math id="Tex033">\documentclass[12pt]{minimal}
+\usepackage{wasysym}
+\usepackage[substack]{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage[mathscr]{eucal}
+\usepackage{mathrsfs}
+\DeclareFontFamily{T1}{linotext}{}
+\DeclareFontShape{T1}{linotext}{m}{n} {linotext }{}
+\DeclareSymbolFont{linotext}{T1}{linotext}{m}{n}
+\DeclareSymbolFontAlphabet{\mathLINOTEXT}{linotext}
+\begin{document}
+$$\delta $$
+\end{document}</tex-math></alternatives></inline-formula> was determined using the validation set. Others were calculated using the test set.</p></fn><fn id="tfn0006"><p><bold>Abbreviations</bold>: FPR, false positive rate; TPR, true positive rate.</p></fn></table-wrap-foot></table-wrap>
+</p>
+      </sec>
+      <sec id="s0004-s2004">
+        <title>Utility of Confidence in Sleep Staging</title>
+        <p>Examples for the utility of confidence are presented in <xref rid="f0007" ref-type="fig">Figure 7</xref>. The accuracy was high for the PSG of a patient with mild sleep apnea (AHI = 7.4), so was the confidence estimated by SeqConfidNet with DCR. When the threshold was used to achieve accuracy of 85% for the remaining predictions (<inline-formula id="ilm0033"><alternatives><inline-graphic xlink:href="NSS-13-2239-e0034.jpg"/><tex-math id="Tex034">\documentclass[12pt]{minimal}
+\usepackage{wasysym}
+\usepackage[substack]{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage[mathscr]{eucal}
+\usepackage{mathrsfs}
+\DeclareFontFamily{T1}{linotext}{}
+\DeclareFontShape{T1}{linotext}{m}{n} {linotext }{}
+\DeclareSymbolFont{linotext}{T1}{linotext}{m}{n}
+\DeclareSymbolFontAlphabet{\mathLINOTEXT}{linotext}
+\begin{document}
+$$\delta = 0.554$$
+\end{document}</tex-math></alternatives></inline-formula>, the second selection criteria we proposed), the rejection rate was 10.4%. However, for a patient with severe sleep apnea and frequent sleep stage shifting, the accuracy of the classifier reduced to 69%. The estimated confidence also reduced greatly, resulting in 44.1% rejection rate when the same threshold was applied. Despite various accuracies for these two cases, epochs with wrong predictions were largely overlapped with a low confidence. After these rejected predictions were revised with correct sleep stages, the overall accuracy could be improved to 94–95% in both cases.<fig position="float" id="f0007" fig-type="figure"><label>Figure 7</label><caption><p>Hypnograms of two patients with different AHI levels from the SNUBH dataset as the test set. From the top to bottom were visualizations of original labels of epochs, the classifier’s predicted sleep stages, SeqConfidNet’s estimated DCR confidence values, and revised predictions after rejected predictions were replaced with original labels. The threshold for rejection was set at <inline-formula id="ilm0034"><alternatives><inline-graphic xlink:href="NSS-13-2239-e0035.jpg"/><tex-math id="Tex035">\documentclass[12pt]{minimal}
+\usepackage{wasysym}
+\usepackage[substack]{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage[mathscr]{eucal}
+\usepackage{mathrsfs}
+\DeclareFontFamily{T1}{linotext}{}
+\DeclareFontShape{T1}{linotext}{m}{n} {linotext }{}
+\DeclareSymbolFont{linotext}{T1}{linotext}{m}{n}
+\DeclareSymbolFontAlphabet{\mathLINOTEXT}{linotext}
+\begin{document}
+$$\delta = 0.554$$
+\end{document}</tex-math></alternatives></inline-formula> to make an accuracy of 0.85. Red shade indicates wrong predictions. Green shade specifies confidence values below the threshold. (<bold>A</bold>) For a patient with mild sleep apnea (AHI = 7.4), the classifier’s accuracy was high (88%) and only 10.4% of predictions were rejected. (<bold>B</bold>) For a patient with severe sleep apnea (AHI = 30.7), the accuracy was only 69% and the rejection rate was 44.1% with the same threshold applied. After rejected predictions were replaced with correct sleep stages, the accuracy was improved to 95% and 94%, respectively.</p></caption><graphic xlink:href="NSS-13-2239-g0007" content-type="print-only" position="float"/></fig></p>
+      </sec>
+    </sec>
+    <sec id="s0005">
+      <title>Discussion</title>
+      <p>To the best of our knowledge, this is the first study to introduce confidence estimation and selective classifier into DL-based automated sleep stage scoring, where the objective was to detect wrong predictions for sleep stages. With confidence estimation and a threshold for it, selective classifier could reject probably wrong predictions (confidence below the threshold) and only output probably correct predictions (confidence equal to or above the threshold). In addition to previously proposed confidence estimation methods (the MCP and the TCP), we proposed a novel method, DCR. We evaluated the performance of all three confidence estimation methods by their capabilities of detecting wrong predictions. DCR performed the best to differentiate correct and wrong predictions based on not only the primary metrics of AUROC but also the secondary metrics of FPT@95TPR, AURC and E-AURC. DCR also showed the greatest improvement of overall accuracy when a fixed percentage of predictions with the lowest confidence were rejected. Lastly, for groups with low accuracies, DCR confidence values were reduced concordantly with the level of accuracy, showing that the DCR method better reflected accuracy and that it was less overconfident.</p>
+      <p>In designing our classifier for automated sleep stage scoring, we adopted the TinySleepNet architecture which is light, simple, and highly robust. As expected, the performance of the classifier was robust with the local dataset (accuracy 76%) and the public dataset (accuracy 82%), which was compatible with other classifiers (accuracy 75–85%).<xref rid="cit0010" ref-type="bibr">10</xref>,<xref rid="cit0011" ref-type="bibr">11</xref> The lower accuracy with the SNUBH dataset compared to the SHHS dataset might be explained by the fact that majority of its data were from clinical patients with various sleep disorders including sleep apnea. The classifier performed fairly well for the data without sleep respiratory events (accuracy 80%). However, the accuracy was reduced particularly for epochs with sleep respiratory events and for people with an old age, obesity, and severe sleep apnea, which was observed in other classifiers as well.<xref rid="cit0006" ref-type="bibr">6</xref>,<xref rid="cit0025" ref-type="bibr">25</xref>,<xref rid="cit0026" ref-type="bibr">26</xref></p>
+      <p>The confidence model, the key component in our framework, provides confidence estimates for predictions of the classifier on a level of epoch. Confidence estimates can quantify how confident the model is toward its predictions. We expect a well-designed confidence function <inline-formula id="ilm0035"><alternatives><inline-graphic xlink:href="NSS-13-2239-e0036.jpg"/><tex-math id="Tex036">\documentclass[12pt]{minimal}
+\usepackage{wasysym}
+\usepackage[substack]{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage[mathscr]{eucal}
+\usepackage{mathrsfs}
+\DeclareFontFamily{T1}{linotext}{}
+\DeclareFontShape{T1}{linotext}{m}{n} {linotext }{}
+\DeclareSymbolFont{linotext}{T1}{linotext}{m}{n}
+\DeclareSymbolFontAlphabet{\mathLINOTEXT}{linotext}
+\begin{document}
+$${\kappa _f}$$
+\end{document}</tex-math></alternatives></inline-formula> to output reliable confidence estimates, where high values (more confident) indicate trustworthy predictions and low values (less confident) refer to challenging data that require a manual review. We used SeqConfidNet with DCR as our confidence model, which was trained to output estimates of DCR. Conceptually, DCR is like virtual accuracy per prediction because it is the proportion of correctness in a number of dropout simulations for each prediction. It is worth noting that the DCR method, which outputs confidence estimates very much similar to accuracy by definition, actually shows the closest mean confidence value to accuracy (<xref rid="t0001" ref-type="table">Table 1</xref>). As we intended, the mean DCR confidence value followed and reflected the accuracy well in all categories regardless of the classifier’s accuracy, while the probability-based estimation (the MCP, t-MCP, and TCP) tended to be overconfident for specific groups where accuracy reduced greatly (old, high BMI, or severe apnea groups).</p>
+      <p>Regarding the ability of detecting wrong predictions, DCR showed AUROC of 0.812, AUPR of 0.930, and AURC of 0.088, which were considered as good discrimination. Metric scores of MCP or TCP were not as good as those of DCR. Detecting and re-scoring wrong predictions were intended to improve the overall accuracy. We further evaluated changes of accuracy by replacing rejected predictions with correct sleep stages. When rejection was determined by the DCR, greater improvements for both Cohen's kappa and weighted F1 score were shown compared to the rejection by the MCP or by the TCP. It might be explained by the high TPR in DCR-based rejection. That is, the DCR method can successfully detect and include more wrong predictions into rejection, leading to more potential for improvement when rejected epochs are manually re-scored.</p>
+      <p>By using DCR confidence estimates to make corrections for those predictions, the capability of DL-based automated sleep stage scoring to be used in clinical practice is maximized. PSGs can be annotated by DL-based models first and only a small portion of PSGs with possibly wrong predictions would require manual review and re-annotation. Thereby, the sleep stage scoring assisted by DL-based models can become both accurate and reliable. In addition, time complexity of DL-based models is a critical factor for practical utility, where our AI model only takes 2 seconds per PSG recording on average to output sleep stage scoring results along with confidence estimates. Therefore, for sleep physicians, the time and labor can be saved while the accuracy is kept high. Such confidence estimates can also make predictions of sleep stages transparent and manipulable.</p>
+      <p>Although our proposed framework can make DL-based sleep stage scoring models reliable, it has several limitations. First, calculating DCR confidence estimates has an additional computational overhead. Second, while the use of our confidence model is not limited for a specific classifier, the performance of confidence estimation can be highly affected by the performance of the classifier because they share the model architecture. In addition, there were limitations of the study that our experiments were conducted with only two specific datasets without external validation. Finally, the framework proposed in this study was not applied and evaluated in an actual clinical setting.</p>
+    </sec>
+    <sec id="s0006">
+      <title>Conclusion</title>
+      <p>This study showed the potential of a confidence-based framework to improve accuracy of automated sleep stage scoring. We expect that our work may help promote the active use of DL-based automated sleep stage scoring in clinical practice and result in a reduction of workload of sleep physicians. The practical utility of the framework is needed to be validated in future works. Future study of comparing accuracy and time efficiency between full manual scoring and confidence-based framework-assisted manual scoring is needed to prove the benefit of applying our proposed model in a practical setting. Another important future research direction is to improve the generalization capability of AI models for sleep stage scoring so that AI models can perform well universally, regardless of sleep centers or recording devices.</p>
+    </sec>
+  </body>
+  <back>
+    <sec sec-type="COI-statement" id="s0007">
+      <title>Disclosure</title>
+      <p>The authors report no conflicts of interest in this work.</p>
+    </sec>
+    <ref-list>
+      <title>References</title>
+      <ref id="cit0001">
+        <label>1.</label>
+        <mixed-citation publication-type="book"><collab>for the American Academy of Sleep Medicine</collab>; <string-name><surname>Iber</surname>
+<given-names>C</given-names></string-name>, <string-name><surname>Ancoli-Israel</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Chesson</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Quan</surname>
+<given-names>SF</given-names></string-name>. <source><italic toggle="yes">The AASM Manual for the Scoring of Sleep and Associated Events: Rules, Terminology and Technical Specifications</italic></source>. <publisher-loc>Westchester, IL</publisher-loc>: <publisher-name>American Academy of Sleep Medicine</publisher-name>; <year>2007</year>.</mixed-citation>
+      </ref>
+      <ref id="cit0002">
+        <label>2.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Supratak</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Dong</surname>
+<given-names>H</given-names></string-name>, <string-name><surname>Wu</surname>
+<given-names>C</given-names></string-name>, <string-name><surname>Guo</surname>
+<given-names>Y</given-names></string-name>. <article-title>DeepSleepNet: a model for automatic sleep stage scoring based on raw single-channel EEG</article-title>. <source><italic toggle="yes">IEEE Trans Neural Syst Rehabil Eng</italic></source>. <year>2017</year>;<volume>25</volume>(<issue>11</issue>):<fpage>1998</fpage>–<lpage>2008</lpage>. doi:<pub-id pub-id-type="doi">10.1109/TNSRE.2017.2721116</pub-id><pub-id pub-id-type="pmid">28678710</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0003">
+        <label>3.</label>
+        <mixed-citation publication-type="confproc"><string-name><surname>Supratak</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Guo</surname>
+<given-names>Y</given-names></string-name>. <article-title>TinySleepNet: an efficient deep learning model for sleep stage scoring based on raw single-channel EEG</article-title>. <conf-name>2020 42nd Annual International Conference of the IEEE Engineering in Medicine &amp; Biology Society (EMBC)</conf-name>; <year>2020</year>:<fpage>641</fpage>–<lpage>644</lpage>.</mixed-citation>
+      </ref>
+      <ref id="cit0004">
+        <label>4.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Phan</surname>
+<given-names>H</given-names></string-name>, <string-name><surname>Andreotti</surname>
+<given-names>F</given-names></string-name>, <string-name><surname>Cooray</surname>
+<given-names>N</given-names></string-name>, <string-name><surname>Chén</surname>
+<given-names>OY</given-names></string-name>, <string-name><surname>De Vos</surname>
+<given-names>M</given-names></string-name>. <article-title>SeqSleepNet: end-to-end hierarchical recurrent neural network for sequence-to-sequence automatic sleep staging</article-title>. <source><italic toggle="yes">IEEE Trans Neural Syst Rehabil Eng</italic></source>. <year>2019</year>;<volume>27</volume>(<issue>3</issue>):<fpage>400</fpage>–<lpage>410</lpage>. doi:<pub-id pub-id-type="doi">10.1109/TNSRE.2019.2896659</pub-id><pub-id pub-id-type="pmid">30716040</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0005">
+        <label>5.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Seo</surname>
+<given-names>H</given-names></string-name>, <string-name><surname>Back</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Lee</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Park</surname>
+<given-names>D</given-names></string-name>, <string-name><surname>Kim</surname>
+<given-names>T</given-names></string-name>, <string-name><surname>Lee</surname>
+<given-names>K</given-names></string-name>. <article-title>Intra-and inter-epoch temporal context network (IITNet) using sub-epoch features for automatic sleep scoring on raw single-channel EEG</article-title>. <source><italic toggle="yes">Biomed Signal Process Control</italic></source>. <year>2020</year>;<volume>61</volume>:<fpage>102037</fpage>. doi:<pub-id pub-id-type="doi">10.1016/j.bspc.2020.102037</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0006">
+        <label>6.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Sun</surname>
+<given-names>H</given-names></string-name>, <string-name><surname>Ganglberger</surname>
+<given-names>W</given-names></string-name>, <string-name><surname>Panneerselvam</surname>
+<given-names>E</given-names></string-name>, et al. <article-title>Sleep staging from electrocardiography and respiration with deep learning</article-title>. <source><italic toggle="yes">Sleep</italic></source>. <year>2020</year>;<volume>43</volume>(<issue>7</issue>). doi:<pub-id pub-id-type="doi">10.1093/sleep/zsz306</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0007">
+        <label>7.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Jia</surname>
+<given-names>Z</given-names></string-name>, <string-name><surname>Cai</surname>
+<given-names>X</given-names></string-name>, <string-name><surname>Zheng</surname>
+<given-names>G</given-names></string-name>, <string-name><surname>Wang</surname>
+<given-names>J</given-names></string-name>, <string-name><surname>Lin</surname>
+<given-names>Y</given-names></string-name>. <article-title>SleepPrintNet: a multivariate multimodal neural network based on physiological time-series for automatic sleep staging</article-title>. <source><italic toggle="yes">IEEE Trans Artif Intell</italic></source>. <year>2021</year>;<volume>1</volume>:<fpage>248</fpage>–<lpage>257</lpage>.</mixed-citation>
+      </ref>
+      <ref id="cit0008">
+        <label>8.</label>
+        <mixed-citation publication-type="confproc"><string-name><surname>Kim</surname>
+<given-names>HJ</given-names></string-name>, <string-name><surname>Lee</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Lee</surname>
+<given-names>SW</given-names></string-name>. <article-title>End-to-end automatic sleep stage classification using spectral-temporal sleep features</article-title>. <conf-name>2020 42nd Annual International Conference of the IEEE Engineering in Medicine &amp; Biology Society (EMBC)</conf-name>; <year>2020</year>:<fpage>3452</fpage>–<lpage>3455</lpage>.</mixed-citation>
+      </ref>
+      <ref id="cit0009">
+        <label>9.</label>
+        <mixed-citation publication-type="confproc"><string-name><surname>Phan</surname>
+<given-names>H</given-names></string-name>, <string-name><surname>Chén</surname>
+<given-names>OY</given-names></string-name>, <string-name><surname>Koch</surname>
+<given-names>P</given-names></string-name>, <string-name><surname>Mertins</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>De Vos</surname>
+<given-names>M</given-names></string-name>. <article-title>Fusion of end-to-end deep learning models for sequence-to-sequence sleep staging</article-title>. <conf-name>2019 41st Annual International Conference of the IEEE Engineering in Medicine and Biology Society (EMBC)</conf-name>; <year>2019</year>:<fpage>1829</fpage>–<lpage>1833</lpage>.</mixed-citation>
+      </ref>
+      <ref id="cit0010">
+        <label>10.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Biswal</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Sun</surname>
+<given-names>H</given-names></string-name>, <string-name><surname>Goparaju</surname>
+<given-names>B</given-names></string-name>, <string-name><surname>Westover</surname>
+<given-names>MB</given-names></string-name>, <string-name><surname>Sun</surname>
+<given-names>J</given-names></string-name>, <string-name><surname>Bianchi</surname>
+<given-names>MT</given-names></string-name>. <article-title>Expert-level sleep scoring with deep neural networks</article-title>. <source><italic toggle="yes">J Am Med Inform Assoc</italic></source>. <year>2018</year>;<volume>25</volume>(<issue>12</issue>):<fpage>1643</fpage>–<lpage>1650</lpage>.<pub-id pub-id-type="pmid">30445569</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0011">
+        <label>11.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Fiorillo</surname>
+<given-names>L</given-names></string-name>, <string-name><surname>Puiatti</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Papandrea</surname>
+<given-names>M</given-names></string-name>, et al. <article-title>Automated sleep scoring: a review of the latest approaches</article-title>. <source><italic toggle="yes">Sleep Med Rev</italic></source>. <year>2019</year>;<volume>48</volume>:<fpage>101204</fpage>. doi:<pub-id pub-id-type="doi">10.1016/j.smrv.2019.07.007</pub-id><pub-id pub-id-type="pmid">31491655</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0012">
+        <label>12.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Danker-Hopfe</surname>
+<given-names>H</given-names></string-name>, <string-name><surname>Anderer</surname>
+<given-names>P</given-names></string-name>, <string-name><surname>Zeitlhofer</surname>
+<given-names>J</given-names></string-name>, et al. <article-title>Interrater reliability for sleep scoring according to the Rechtschaffen &amp; Kales and the new AASM standard</article-title>. <source><italic toggle="yes">J Sleep Res</italic></source>. <year>2009</year>;<volume>18</volume>(<issue>1</issue>):<fpage>74</fpage>–<lpage>84</lpage>. doi:<pub-id pub-id-type="doi">10.1111/j.1365-2869.2008.00700.x</pub-id><pub-id pub-id-type="pmid">19250176</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0013">
+        <label>13.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Goldstein</surname>
+<given-names>CA</given-names></string-name>, <string-name><surname>Berry</surname>
+<given-names>RB</given-names></string-name>, <string-name><surname>Kent</surname>
+<given-names>DT</given-names></string-name>, et al. <article-title>Artificial intelligence in sleep medicine: background and implications for clinicians</article-title>. <source><italic toggle="yes">J Clin Sleep Med</italic></source>. <year>2020</year>;<volume>16</volume>(<issue>4</issue>):<fpage>609</fpage>–<lpage>618</lpage>. doi:<pub-id pub-id-type="doi">10.5664/jcsm.8388</pub-id><pub-id pub-id-type="pmid">32065113</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0014">
+        <label>14.</label>
+        <mixed-citation publication-type="journal"><collab>Guo C, Pleiss G, Sun Y, Weinberger KQ On calibration of modern neural networks</collab>. <source><italic toggle="yes">International Conference on Machine Learning</italic></source>; <year>2017</year>;<fpage>1321</fpage>–<lpage>1330</lpage>. PMLR</mixed-citation>
+      </ref>
+      <ref id="cit0015">
+        <label>15.</label>
+        <mixed-citation publication-type="journal"><collab>Corbière C, Thome N, Bar-Hen A, Cord M, Pèrez P</collab>. <article-title>Addressing failure prediction by learning model confidence</article-title>. <source><italic toggle="yes">arXiv preprint arXiv</italic></source>:<fpage>1910.04851</fpage>; <year>2019</year>.</mixed-citation>
+      </ref>
+      <ref id="cit0016">
+        <label>16.</label>
+        <mixed-citation publication-type="journal">Corbière C, Thome N, Saporta A, Vu T-H, Cord M, Pèrez P. Confidence estimation via auxiliary models. <italic toggle="yes">IEEE Trans Pattern Anal Mach Intell</italic>. <year>2020</year>;2020:54.</mixed-citation>
+      </ref>
+      <ref id="cit0017">
+        <label>17.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Quan</surname>
+<given-names>SF</given-names></string-name>, <string-name><surname>Howard</surname>
+<given-names>BV</given-names></string-name>, <string-name><surname>Iber</surname>
+<given-names>C</given-names></string-name>, et al. <article-title>The sleep heart health study: design, rationale, and methods</article-title>. <source><italic toggle="yes">Sleep</italic></source>. <year>1997</year>;<volume>20</volume>(<issue>12</issue>):<fpage>1077</fpage>–<lpage>1085</lpage>.<pub-id pub-id-type="pmid">9493915</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0018">
+        <label>18.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Zhang</surname>
+<given-names>G-Q</given-names></string-name>, <string-name><surname>Cui</surname>
+<given-names>L</given-names></string-name>, <string-name><surname>Mueller</surname>
+<given-names>R</given-names></string-name>, et al. <article-title>The national sleep research resource: towards a sleep data commons</article-title>. <source><italic toggle="yes">J Am Med Inform Assoc</italic></source>. <year>2018</year>;<volume>25</volume>(<issue>10</issue>):<fpage>1351</fpage>–<lpage>1358</lpage>. doi:<pub-id pub-id-type="doi">10.1093/jamia/ocy064</pub-id><pub-id pub-id-type="pmid">29860441</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0019">
+        <label>19.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Li</surname>
+<given-names>Q</given-names></string-name>, <string-name><surname>Li</surname>
+<given-names>Q</given-names></string-name>, <string-name><surname>Liu</surname>
+<given-names>C</given-names></string-name>, <string-name><surname>Shashikumar</surname>
+<given-names>SP</given-names></string-name>, <string-name><surname>Nemati</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Clifford</surname>
+<given-names>GD</given-names></string-name>. <article-title>Deep learning in the cross-time frequency domain for sleep staging from a single-lead electrocardiogram</article-title>. <source><italic toggle="yes">Physiol Meas</italic></source>. <year>2018</year>;<volume>39</volume>(<issue>12</issue>):<fpage>124005</fpage>. doi:<pub-id pub-id-type="doi">10.1088/1361-6579/aaf339</pub-id><pub-id pub-id-type="pmid">30524025</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0020">
+        <label>20.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Yan</surname>
+<given-names>R</given-names></string-name>, <string-name><surname>Li</surname>
+<given-names>F</given-names></string-name>, <string-name><surname>Zhou</surname>
+<given-names>DD</given-names></string-name>, <string-name><surname>Ristaniemi</surname>
+<given-names>T</given-names></string-name>, <string-name><surname>Cong</surname>
+<given-names>F</given-names></string-name>. <article-title>Automatic sleep scoring: a deep learning architecture for multi-modality time series</article-title>. <source><italic toggle="yes">J Neurosci Methods</italic></source>. <year>2021</year>;<volume>348</volume>:<fpage>108971</fpage>. doi:<pub-id pub-id-type="doi">10.1016/j.jneumeth.2020.108971</pub-id><pub-id pub-id-type="pmid">33160019</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0021">
+        <label>21.</label>
+        <mixed-citation publication-type="book"><string-name><surname>Hendrycks</surname>
+<given-names>D</given-names></string-name>, <string-name><surname>Gimpel</surname>
+<given-names>K</given-names></string-name>. <article-title>A baseline for detecting misclassified and out-of-distribution examples in neural networks</article-title>. <publisher-name>ICLR</publisher-name>; <year>2017</year>.</mixed-citation>
+      </ref>
+      <ref id="cit0022">
+        <label>22.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>El-Yaniv</surname>
+<given-names>R</given-names></string-name>, <string-name><surname>Wiener</surname>
+<given-names>Y</given-names></string-name>. <article-title>On the foundations of noise-free selective classification</article-title>. <source><italic toggle="yes">J Mach Learn Res</italic></source>. <year>2010a</year>;<volume>11</volume>(<issue>May</issue>):<fpage>1605</fpage>–<lpage>1641</lpage>.</mixed-citation>
+      </ref>
+      <ref id="cit0023">
+        <label>23.</label>
+        <mixed-citation publication-type="newspaper"><string-name><surname>Jiang</surname>
+<given-names>H</given-names></string-name>, <string-name><surname>Kim</surname>
+<given-names>B</given-names></string-name>, <string-name><surname>Guan</surname>
+<given-names>MY</given-names></string-name>, <string-name><surname>Gupta</surname>
+<given-names>MR</given-names></string-name>. <article-title>To trust or not to trust a classifier</article-title>. <source>NeurIPS</source>; <year>2018</year>.</mixed-citation>
+      </ref>
+      <ref id="cit0024">
+        <label>24.</label>
+        <mixed-citation publication-type="confproc"><string-name><surname>Geifman</surname>
+<given-names>Y</given-names></string-name>, <string-name><surname>Uziel</surname>
+<given-names>G</given-names></string-name>, <string-name><surname>El-Yaniv</surname>
+<given-names>R</given-names></string-name>. <article-title>Bias-reduced uncertainty estimation for deep neural classifiers</article-title>. <conf-name>International Conference on Learning Representations</conf-name>; <year>2019</year>.</mixed-citation>
+      </ref>
+      <ref id="cit0025">
+        <label>25.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Korkalainen</surname>
+<given-names>H</given-names></string-name>, <string-name><surname>Aakko</surname>
+<given-names>J</given-names></string-name>, <string-name><surname>Nikkonen</surname>
+<given-names>S</given-names></string-name>, et al. <article-title>Accurate deep learning-based sleep staging in a clinical population with suspected obstructive sleep apnea</article-title>. <source><italic toggle="yes">IEEE J Biomed Health Info</italic></source>. <year>2019</year>;<volume>24</volume>(<issue>7</issue>):<fpage>2073</fpage>–<lpage>2081</lpage>. doi:<pub-id pub-id-type="doi">10.1109/JBHI.2019.2951346</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0026">
+        <label>26.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Zhang</surname>
+<given-names>X</given-names></string-name>, <string-name><surname>Xu</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Li</surname>
+<given-names>Y</given-names></string-name>, et al. <article-title>Automated multi-model deep neural network for sleep stage scoring with unfiltered clinical data</article-title>. <source><italic toggle="yes">Sleep Breath</italic></source>. <year>2020</year>;<volume>24</volume>:<fpage>581</fpage>–<lpage>590</lpage>. doi:<pub-id pub-id-type="doi">10.1007/s11325-019-02008-w</pub-id><pub-id pub-id-type="pmid">31938990</pub-id></mixed-citation>
+      </ref>
+    </ref-list>
+  </back>
+</article>
+</pmc-articleset>

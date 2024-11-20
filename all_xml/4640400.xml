@@ -1,0 +1,1632 @@
+<pmc-articleset><article xmlns:ali="http://www.niso.org/schemas/ali/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="research-article">
+  <?properties open_access?>
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="nlm-ta">Nat Sci Sleep</journal-id>
+      <journal-id journal-id-type="iso-abbrev">Nat Sci Sleep</journal-id>
+      <journal-id journal-id-type="publisher-id">Nature and Science of Sleep</journal-id>
+      <journal-title-group>
+        <journal-title>Nature and Science of Sleep</journal-title>
+      </journal-title-group>
+      <issn pub-type="epub">1179-1608</issn>
+      <publisher>
+        <publisher-name>Dove Medical Press</publisher-name>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="pmid">26604847</article-id>
+      <article-id pub-id-type="pmc">4640400</article-id>
+      <article-id pub-id-type="doi">10.2147/NSS.S94182</article-id>
+      <article-id pub-id-type="publisher-id">nss-7-147</article-id>
+      <article-categories>
+        <subj-group subj-group-type="heading">
+          <subject>Perspectives</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>Consumer sleep monitors: is there a baby in the bathwater?</article-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Russo</surname>
+            <given-names>Kathryn</given-names>
+          </name>
+          <xref ref-type="aff" rid="af1-nss-7-147">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Goparaju</surname>
+            <given-names>Balaji</given-names>
+          </name>
+          <xref ref-type="aff" rid="af1-nss-7-147">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Bianchi</surname>
+            <given-names>Matt T</given-names>
+          </name>
+          <xref ref-type="aff" rid="af1-nss-7-147">1</xref>
+          <xref ref-type="aff" rid="af2-nss-7-147">2</xref>
+          <xref ref-type="corresp" rid="c1-nss-7-147"/>
+        </contrib>
+      </contrib-group>
+      <aff id="af1-nss-7-147"><label>1</label>Department of Neurology, Massachusetts General Hospital, Boston, MA, USA</aff>
+      <aff id="af2-nss-7-147"><label>2</label>Division of Sleep Medicine, Harvard Medical School, Boston, MA, USA</aff>
+      <author-notes>
+        <corresp id="c1-nss-7-147">Correspondence: Matt T Bianchi, Department of Neurology, Massachusetts General Hospital, Wang 720, 55 Fruit Street, Boston, MA 02114, USA, Tel +1 617 724 7426, Fax +1 617 724 6513, Email <email>mtbianchi@partners.org</email></corresp>
+      </author-notes>
+      <pub-date pub-type="collection">
+        <year>2015</year>
+      </pub-date>
+      <pub-date pub-type="epub">
+        <day>05</day>
+        <month>11</month>
+        <year>2015</year>
+      </pub-date>
+      <volume>7</volume>
+      <fpage>147</fpage>
+      <lpage>157</lpage>
+      <permissions>
+        <copyright-statement>© 2015 Russo et al. This work is published by Dove Medical Press Limited, and licensed under Creative Commons Attribution – Non Commercial (unported, v3.0) License</copyright-statement>
+        <copyright-year>2015</copyright-year>
+        <license>
+          <license-p>The full terms of the License are available at <ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by-nc/3.0/">http://creativecommons.org/licenses/by-nc/3.0/</ext-link>. Non-commercial uses of the work are permitted without any further permission from Dove Medical Press Limited, provided the work is properly attributed.</license-p>
+        </license>
+      </permissions>
+      <abstract>
+        <p>The rapid expansion of consumer sleep devices is outpacing the validation data necessary to assess the potential use of these devices in clinical and research settings. Common sleep monitoring devices utilize a variety of sensors to track movement as well as cardiac and respiratory physiology. The variety of sensors and user-specific factors offer the potential, at least theoretically, for clinically relevant information. We describe the current challenges for interpretation of consumer sleep monitoring data, since the devices are mainly used in non-medical contexts (consumer use) although medically-definable sleep disorders may commonly occur in this setting. A framework for addressing questions of how certain devices might be useful is offered. We suggest that multistage validation efforts are crucially needed, from the level of sensor data and algorithm output, to extrapolations beyond healthy adults and into other populations and real-world environments.</p>
+      </abstract>
+      <kwd-group>
+        <title>Keywords</title>
+        <kwd>movement</kwd>
+        <kwd>cardiac and respiratory physiology</kwd>
+        <kwd>sensor</kwd>
+        <kwd>consumer sleep monitoring data</kwd>
+      </kwd-group>
+    </article-meta>
+  </front>
+  <body>
+    <sec sec-type="intro">
+      <title>Introduction</title>
+      <p>Wearable technology for health and wellness tracking is expanding rapidly in the consumer space – perhaps faster in some cases than the medical community can assess potential risks and benefits of these advances. A variety of sensor technologies have been applied specifically to monitor sleep–wake patterns. Some of these technologies claim to improve sleep, either via “sleep-coach” features or by the implication that simply tracking one’s sleep will result in discovery of patterns that can lead to sleep improvements. Consumer demand for sleep monitors is striking, with the market apparently sufficient to support numerous companies active in this space, as well as frequent new additions from a pipeline that enjoys rapid technical and computational advances.</p>
+      <p>Despite extensive published experience with the limitations of wrist actigraphy for quantifying sleep, most of the currently available monitoring devices are actigraphy-based yet purport to accurately measure sleep. To place the marketing trends and consumer demand into perspective, we note that a consumer sleep monitor with no published validation was listed among Time Magazine’s inventions of the year in 2005,<xref rid="b1-nss-7-147" ref-type="bibr">1</xref> decades after wrist actigraphy had been introduced for sleep tracking. The combination of consumer demand and potential or perceived wellness benefits of sleep monitors seems to overshadow the limitations and lack of validation, as recently reviewed<xref rid="b2-nss-7-147" ref-type="bibr">2</xref> (some criticisms have been voiced in the academic<xref rid="b3-nss-7-147" ref-type="bibr">3</xref>,<xref rid="b4-nss-7-147" ref-type="bibr">4</xref> as well as legal settings<xref rid="b5-nss-7-147" ref-type="bibr">5</xref>). The recently increased involvement of large technology companies like Apple and Intel (the latter acquired the Basis watch) in sleep monitoring may lend further legitimacy to the idea of consumer-facing sleep monitors.</p>
+      <p>The current landscape of marketing claims that stretch beyond the scant validation literature may contribute to the discrepancy between consumer and health care community adoption of sleep monitoring devices. Clinicians and researchers, more familiar with the extensive experience and validation of polysomnography (PSG) and actigraphy, may be hesitant to become early adopters pending rigorous validation, which may not be prioritized for devices that do not intend to make medical claims. Wellness claims are necessarily vague, and as a result, government oversight is limited from a medical use perspective. In this review, we explore the developments in consumer sleep monitoring technology, identify validation issues in this space, and speculate on potential clinical utility. That sleep conceptually straddles an increasingly blurry boundary between sleep as a medical field and sleep as “wellness” emphasizes the need for a framework to interpret consumer sleep device outputs across this spectrum.</p>
+    </sec>
+    <sec>
+      <title>Consumer sleep monitors: what they measure, and what they claim</title>
+      <p>The most basic type of sensor used in consumer sleep monitors is movement detection, often based on wrist actigraphy. The algorithm output of devices in this class (<xref ref-type="table" rid="t1-nss-7-147">Table 1</xref>) may subdivide sleep into “light” or “deep” phases (eg, Jawbone and Fitbit), presumably based on the degree of detected movement. Sensor technology has more recently expanded to incorporate physiological measures beyond actigraphy, such as heart rate and/or respiration patterns (<xref ref-type="table" rid="t1-nss-7-147">Table 1</xref>). Priced similarly to some of the popular wrist movement devices, these devices contain more advanced sensing methods, some of which claim to distinguish rapid eye movement (REM) and non-REM (NREM) sleep substages. Two wrist devices monitor heart rate in addition to actigraphy and use this information to stage REM and NREM sleep (Basis, Jawbone UP3). FitBit has a model that reports heart rate, but it is not clear that this information is used in the sleep staging algorithm. Other cardiopulmonary monitors for tracking sleep can be either worn on the body (as a shirt with embedded sensors, such as the Hexoskin), or placed in the bedroom for passive data collection, such as on the mattress (eg, Beddit). The totally noncontact sensing of respiration pattern (ResMed S+) is also available and reports REM and NREM sleep stages based on stage-specific breathing patterns, which were seen even in the earliest descriptions of REM sleep.<xref rid="b6-nss-7-147" ref-type="bibr">6</xref> Each provides a sleep score (usually 0–100 scale), based on some combination of features such as total sleep duration, “depth” or fragmentation; none of the scoring quality methods has been validated. The devices differ in battery charging requirements and water resistance (<xref ref-type="supplementary-material" rid="SD1-nss-7-147">Table S1</xref>). <xref ref-type="fig" rid="f1-nss-7-147">Figure 1</xref> illustrates example outputs from some of the devices, representing a spectrum of sensor technologies, recorded simultaneously with gold standard measurements from PSG or formal actigraphy. A visual comparison between outputs among the different consumer devices, and between each consumer device and the gold standards, highlights the need for careful evaluation of what kinds of information the monitors provide, and how that information compares and/or complements currently accepted methodologies.</p>
+      <p>Although many of the available consumer devices offer a smart-alarm feature (<xref ref-type="table" rid="t1-nss-7-147">Table 1</xref>), none has been validated for this purpose. Smart alarms are based on the concept that the stimulus to awaken should be delivered when one is naturally transitioning to light sleep or wakefulness to avoid potential grogginess that may be associated with awakening from deeper NREM sleep stages. Instead of experimental validation, the marketing claims seem to be relying on face validity: the intuition that an alarm should align with times when one is already practically awake. A more appropriate term might be “transitive property validation”, because what makes the idea seem valid resides in some approximately related research. For the smart alarm, the reasoning might be: sleep inertia occurs in some people when awakened from slow wave sleep, so if the device alarm targets periods of movement, which rarely occur in deep sleep, then sleep inertia can be avoided and instead one awakens feeling more energetic. A recent study of a smart-phone app that performed similarly to actigraphy for gauging sleep versus wake in healthy adults failed to demonstrate the effectiveness of the smart-alarm feature.<xref rid="b3-nss-7-147" ref-type="bibr">3</xref></p>
+      <p>The common implication across the marketing of consumer sleep monitors is that tracking sleep will lead to improved sleep. The claims are not intended to be “medical” in nature, such that the validation standards normally applied to medically used devices are not required, and accordingly the marketing content often includes caveats in this regard. However, the language found on the web sites can range from fairly benign (Garmin: “monitor your rest”) to rather hyperbolic (Reston: “most accurate sleep monitor ever”) (<xref ref-type="table" rid="t1-nss-7-147">Table 1</xref>). Information available on the internet may influence consumer confidence, and certain language can come across as scientifically or medically valid. Consider as an example that FitBit’s chief technology officer was quoted in the USA Today regarding an individual for whom their device detected 83 wake-ups, which prompted the user to get tested for obstructive sleep apnea (OSA), adding that FitBit hears such stories “all the time”.<xref rid="b7-nss-7-147" ref-type="bibr">7</xref> This device is not validated for any medical purpose, and certainly not intended to screen for OSA, yet such public anecdotes (especially from company leadership) may send a different message to consumers. The mismatch between marketing content and supporting validation makes answering the seemingly straightforward question more challenging: is there any potential use for consumer sleep devices in sleep medicine?</p>
+    </sec>
+    <sec>
+      <title>Sleep and the blurred boundary of wellness and medicine</title>
+      <p>Motivations for using consumer sleep monitors are surely diverse and could range from simple curiosity to wellness goals like self-improvement through optimizing sleep patterns. Perhaps more concerning to physicians are the individuals with sleep-related concerns who seek some explanation or improvement via consumer devices before (or instead of) seeking medical advice. Consumers encountering the optimistic marketing claims of these sleep devices might not recognize the limitations and might even wonder why doctors do not use these devices more often in their practice. Providers, by contrast, are typically aware that even “medical-grade” actigraphy enjoys clinical utility in only limited situations,<xref rid="b8-nss-7-147" ref-type="bibr">8</xref> such as assessing circadian rhythm disorder patterns in those who cannot or will not provide diary data, or verifying adequate sleep opportunity in the nights preceding a multiple sleep latency test. Providers might be skeptical of what is seen as largely unvalidated marketing claims and thus the potential utility of the devices remains questionable.</p>
+      <p>Although the wellness claims do not require regulation typical of medical devices, the practical issues raised by devices used at the interface of health care and wellness remain challenging. Primary sleep disorders have protean manifestations, and symptoms potentially attributable to poor sleep tend to be nonspecific. The boundary between sleep as wellness and sleep as a medical concern is hardly clear, and the overlap impacts interpretation of consumer device outputs. By comparison, even medically validated diagnostic technologies are at risk for false positive and false negative results. Such risks are influenced by the Bayesian triad of sensitivity, specificity, and pretest probability of the disease in question.<xref rid="b9-nss-7-147" ref-type="bibr">9</xref> Likewise, the potential for false positive and false negative outcomes can be understood if we consider consumer sleep devices in this framework.</p>
+      <p><xref ref-type="fig" rid="f2-nss-7-147">Figure 2</xref> illustrates the potential for confusion regarding device performance accuracy across a simplified context often invoked to understand diagnostic testing: dichotomous health status (here, the presence or absence of an objective sleep disorder), and the dichotomous presence or absence of sleep-related symptoms. Consider an asymptomatic individual who uses a consumer sleep device, and is faced with interpreting the sleep “score” output. A poor score would be a false alarm if the person in fact had healthy sleep, while a good score would be a false reassurance if the person in fact had an occult primary sleep disorder. The asymptomatic individual might not appreciate that occult sleep disorders are not uncommon, and thus not appreciate that false negative results are possible.</p>
+      <p>On the other hand, an individual with symptoms that could in principle be related to a sleep disorder is presented with a similar interpretation challenge. A good sleep score from a consumer device could represent false reassurance if a primary disorder is present, or it could be accurate if sleep was in fact healthy but the symptom (such as fatigue) had a nonsleep underlying cause (such as undiagnosed depression or hypothyroidism). By contrast, a poor sleep score in this setting could falsely steer the individual toward clinical sleep investigations and potentially delay diagnosis of the actual underlying problem.</p>
+      <p>The consumer knows which row to consider when interpreting their sleep score (ie, whether they have symptoms potentially linked to poor sleep), but they do not know the probability of their true sleep status being in the healthy versus affected column (<xref ref-type="fig" rid="f2-nss-7-147">Figure 2</xref>). Thus, within each row, four possible interpretations exist for each individual using a sleep monitor, encompassing true and false positives, and true and false negatives. The probability of objective sleep disorder presence, known as the prior or pretest probability, is a necessary step to interpret any test result, such as the output of a consumer device. The other required pieces of information, sensitivity and specificity for discriminating healthy and affected states, are also not known, although the marketing language may lead consumers to believe that the outputs can accurately detect problems. Although a provider might have an intuition for the pretest probability, they have little validation data to navigate the uncertainty surrounding the accuracy of the device for quantifying any sleep disturbance in a clinical setting.</p>
+      <p>There are of course many other possibilities not captured by the dichotomies that are shown in <xref ref-type="fig" rid="f2-nss-7-147">Figure 2</xref>. Consider an individual who uses a consumer monitor that detects snoring. Upon reviewing the monitor’s data suggesting that snoring is occurring, the individual then looks on the internet for snoring interventions, and learns that nasal spray or breathe-right strips may help. This may sound innocent enough, but the potential downside is clear: the person with snoring may or may not have OSA, and the consumer sleep monitor would not answer this important question. Perhaps of greater concern, if OSA was in fact present, an over-the-counter intervention that actually reduced the snoring would be unlikely to meaningfully reduce the OSA severity. Therefore, if the device output suggested reduced snoring, then false reassurance may occur unless the individual recognizes the potential accuracy limitations of snore detection, as well as the dissociation between snoring metrics and OSA severity metrics. How might a snore detection device be used more sensibly? Although one might use snoring as one component of a risk stratification approach, to place the issue of snore detection<xref rid="b10-nss-7-147" ref-type="bibr">10</xref> into context, consider that the entire eight question STOP-Bang screening tool,<xref rid="b11-nss-7-147" ref-type="bibr">11</xref> of which snoring is just one question, has only modest screening value,<xref rid="b9-nss-7-147" ref-type="bibr">9</xref> and had somewhat lower performance in other clinical studies.<xref rid="b12-nss-7-147" ref-type="bibr">12</xref></p>
+      <p>Given this uncertainty, it is currently unclear how individual patients or providers might utilize data from consumer devices. One major concern is that consumers may conflate the rows and columns of <xref ref-type="fig" rid="f2-nss-7-147">Figure 2</xref>, assigning symptom presence/absence as if it meant sleep disorder presence/absence. Together with possibly over-estimating device accuracy, this leads to problems at all levels of Bayesian inference when interpreting device outputs. At the population level, without knowing how many individuals fall into each of these categories, the scope of false reassurance, false concern, or true health status cannot be estimated. Important questions remain thus unanswered: How often do individuals first present to their physician seeking sleep evaluation based on consumer sleep device data? What portion of individuals who use consumer sleep monitors make a health care-related decision based on the data? What portion of the physicians (sleep specialists or otherwise) feel confident in interpreting the results of consumer devices?</p>
+    </sec>
+    <sec>
+      <title>Claim-validation mismatch: the many faces of “validation”</title>
+      <p>Validation is a broad concept, the details of which are useful to consider in the context of consumer sleep devices. Vernacular use of the word validity implies a sense of legitimacy such as might be achieved by testimonials, endorsement, or the “obviousness” known as face validity. We have discussed that transitive property validation is also common in the consumer space. These aspects of validation may be useful first steps, but are insufficient to address the potential utility of devices for clinical or research endeavors. <xref ref-type="fig" rid="f3-nss-7-147">Figure 3</xref> describes different levels of validation to provide a framework for considering the potential utility of consumer sleep devices, and how validation can be achieved. Even when apparent validation data are available for a device, it is important to parse out the details regarding what aspect of sleep is being assessed by the sensors and the algorithms, what population was tested and in what context, and what external factors (sleep or medical disorders, alcohol, etc) might influence the performance in a clinical population. Because sleep is not a monolithic entity, any validation experiment or claim of a sleep monitor should be contextualized by specifying the device feature being assessed and the gold standard reference, in addition to other details of the study design and statistics.</p>
+      <p>Essentially all consumer sleep devices can make claims within the minimal validation context of face validity or transitive property validity. The next step would be comparison of device performance against a gold standard, such as PSG or actigraphy. This important step should itself be subdivided, because the experimental approach could refer to the sensor itself (does it accurately measure the aspect of physiology it purports to measure), the algorithm used to map the sensed physiology to some output (such as sleep stage), and perhaps whether a novel metric is being related to a standard metric (eg, depth instead of stage). Few devices have published data in this category of validation against a gold standard in healthy individuals. Even at the sensor level, two devices ostensibly measuring the same aspect of human physiology might not be functionally equivalent in their hardware or software components. Previous studies have shown with actigraphy and pulse oximetry that the details of the particular sensors and algorithms impact device results.<xref rid="b13-nss-7-147" ref-type="bibr">13</xref>,<xref rid="b14-nss-7-147" ref-type="bibr">14</xref> Presumably, the same issues would arise among consumer devices using a given technique, such as using wrist movement, to assess sleep–wake state.</p>
+      <p>The most important aspect of validation, however, is arguably to assess the robustness of the sensor and algorithm performance in settings beyond that of healthy adults in the sleep laboratory. External validity refers to the extent to which in-laboratory validation results can be extrapolated to populations that differed from those tested during the validation studies. For example, a laboratory validation of a consumer sleep monitor in healthy young adults might not extrapolate to device performance in an older population with objective sleep disturbance recorded by laboratory PSG. Ecological validity is a related concept, referring to the extent to which validation results can be extrapolated to different environments than those used during validation studies. For example, a laboratory validation of a consumer device in a population with objective sleep disturbance might not extrapolate to device performance when used by such patients in their homes. Further, user-specific factors such as differences in body position, tightness of the device, position of the device on the body (for wearables) or near the body (for noncontact sensors), or other behaviors might impact device outputs as well, even for devices that have been experimentally validated in certain settings, such as a controlled laboratory environment. The presence of a bed partner may impact sensor function or algorithm processing accuracy, perhaps more so if a sleep disorder is present in the partner.</p>
+    </sec>
+    <sec>
+      <title>Consumer sleep monitor validity: reframing the questions</title>
+      <p>Once the uncertainties regarding consumer device validation are appreciated, we can better address the question of what kinds of information, if any, could be reasonably extracted from these monitors to support clinical decision-making? The answer might depend on several patient-specific factors (type and severity of sleep disorder, comorbidities or medications, comfort level with different aspects of technology) and device-specific factors (type of sensor, algorithm accuracy for different aspects of sleep physiology and pathophysiology). In addition, user-specific factors and user-errors also play into the interpretation of consumer device data, such as how the device is worn (for wearable items) or where it is positioned on or near the bed (for the passive or noncontact monitors), or whether a bed partner is present. Even an apparently simple issue like needing to remember to start or stop recording could lead to nonrandom data loss during longitudinal home monitoring (eg, an individual might be more likely to forget to start recording when tired, or if alcohol was consumed). Consumer sleep devices that are easy to implement, or automatically start/stop recording, might allow for an increased likelihood of adherence. Recording multiple nights of data can capture night to night variability, avoid the first night effect that may occur in the laboratory setting, and facilitate pattern recognition linking sleep-related measurements with other behaviors (eg alcohol, medications, exercise).</p>
+      <p>By specifying potential goals for use of consumer sleep devices, one can develop a framework for assessing which devices, if any, could theoretically meet the goals, and thus inform how to undertake validation. Potential solutions surely will differ depending on context at the level of individual patient care decisions, versus large-scale epidemiological studies that combine self-reported health queries and objective monitoring. We will consider several categories of potential utility of consumer sleep devices (<xref ref-type="table" rid="t2-nss-7-147">Table 2</xref>).</p>
+      <sec>
+        <title>Can a consumer device replace or complement a diary of sleep and wake times?</title>
+        <p>For individuals who cannot or will not adhere to manually tracking their sleep and wake times, a device could theoretically substitute, if it was easy to use or had automated assessments of time in bed. Most currently available devices require the user to indicate when they are in bed trying to sleep, which itself requires some degree of adherence. From an epidemiology perspective, sleep duration is typically self-reported as an average or habitual estimate, and has led to speculation in regard to associations with long and short duration reports.<xref rid="b15-nss-7-147" ref-type="bibr">15</xref>,<xref rid="b16-nss-7-147" ref-type="bibr">16</xref> Self-reported sleep–wake durations, especially in those with sleep complaints like insomnia, are well-known to contain a variety of uncertainties.<xref rid="b17-nss-7-147" ref-type="bibr">17</xref> The question of how important the single facet of sleep duration may be for health is itself influenced by the nature of self-report; the technological advances of consumer sleep monitors hold promise for bringing objectivity and multi-night sampling to bear on this most basic epidemiological query.</p>
+      </sec>
+      <sec>
+        <title>Can a consumer device replace formal actigraphy?</title>
+        <p>The answer here depends on what aspect of actigraphy is desired. For gross patterns of time in bed versus time out of bed, nearly all of the devices on the market could accomplish this. For quantitative analysis of movements, and translating the sensor data into scoring of sleep/rest periods, wrist-worn movement devices would be preferred over cardio-pulmonary monitors, and formal validation studies would be required. This would include comparing the device sensor (accelerometer) against gold standard actigraphy, as well as the algorithm output. If application of novel metrics is based on activity counts, such as scale invariant correlations<xref rid="b18-nss-7-147" ref-type="bibr">18</xref> or transition probability metrics,<xref rid="b19-nss-7-147" ref-type="bibr">19</xref> then, in addition, the capacity to export the raw movement signals would be required.</p>
+        <p>When formal actigraphy is used to track sleep patterns longitudinally in those with insomnia, perhaps to monitor therapeutic interventions, the same limitations applying to the interpretation of actigraphy data would be germane to the interpretation of a consumer device based on the wrist movement. Formal actigraphy tends to have high sensitivity and low specificity (approximately 90% and 50%, respectively) for detecting sleep.<xref rid="b20-nss-7-147" ref-type="bibr">20</xref> Therefore, actigraphy can overestimate total sleep time for an insomniac, who may spend substantial time awake but not moving sufficiently to register with the algorithm. Individuals with primary underlying sleep disorders such as periodic limb movements or OSA might exhibit different performance accuracy of actigraphy analysis, yet actigraphy itself cannot detect these problems, so implementation of wrist actigraphy (by any device) should take this into consideration.</p>
+      </sec>
+      <sec>
+        <title>Can a consumer device be useful for insomnia management?</title>
+        <p>Although objective testing is not routinely recommended for clinical management of insomnia, recent evidence argues for the potential utility of objective sleep measurements for several reasons, and at-home multi-night tracking may be particularly useful in this population.<xref rid="b21-nss-7-147" ref-type="bibr">21</xref> Epidemiology data incorporating objective testing suggest that medical<xref rid="b22-nss-7-147" ref-type="bibr">22</xref> and psychiatric<xref rid="b23-nss-7-147" ref-type="bibr">23</xref> risks studied prospectively require the combination of insomnia symptoms and short objective sleep duration on PSG – suggesting that insomnia phenotyping according to objective measures may be important for risk stratification, risk-benefit assessment of hypnotics, and even prospective clinical trial design. Misperception among patients with chronic insomnia, which requires comparison of subjective report with objective measurement, could be better characterized with home monitoring to allow repeated measurements (is misperception a state or trait phenomenon?) and discover patterns. Feedback from sleep monitoring devices may be beneficial in patients with misperception.<xref rid="b24-nss-7-147" ref-type="bibr">24</xref> The growing risk concerns surrounding even intermittent hypnotic use, together with the limited data supporting medical benefit of these drugs, highlight the use of nonpharmacological approaches such as cognitive-behavioral therapy.<xref rid="b25-nss-7-147" ref-type="bibr">25</xref> Finally, increasing data suggesting occult sleep apnea occurs in patients with insomnia symptoms<xref rid="b26-nss-7-147" ref-type="bibr">26</xref>–<xref rid="b28-nss-7-147" ref-type="bibr">28</xref> is a reminder that the choice of testing must consider the physiological realities beyond the clinical assessments that often channel patients to certain pathways.</p>
+      </sec>
+      <sec>
+        <title>Can a consumer device be useful for tracking sleep stages?</title>
+        <p>The rich experimental literature linking REM and N3 to cognitive performance has not enjoyed wide practical clinical appreciation, in part because of limited tools to augment these stages, but also because of wide individual variability. The uncertainty in the clinical validity of these experimental links is highlighted by a recent large study of healthy adults finding no relationship of episodic memory to stage architecture.<xref rid="b29-nss-7-147" ref-type="bibr">29</xref> Having reliable home monitoring of sleep stage architecture would allow individuals to test possible relationships themselves through a combination of diary entries, device outputs, and perhaps performance tracking. The use of autonomic physiology to estimate sleep stages traditionally defined by electroencephalography involves trade-offs, such as the benefits of ease of use and simplifying automation, versus the risks of reduced estimation accuracy compared with the gold standard. Assuming no untreated primary disorder was present (such as occult OSA or occult periodic limb movements), an individual could in principle search for correlations over time, to answer two questions: are aspects of sleep architecture (stages, fragmentation, total duration) linked reliably to one or more aspects of daytime function (cognition, mood, etc), and are behaviors or experiences influencing sleep architecture (caffeine, exercise, alcohol, stress). Such data could be powerful across the spectrum of wellness and health.</p>
+      </sec>
+      <sec>
+        <title>Can a consumer device screen for sleep apnea?</title>
+        <p>Current methods of screening based on clinical features have limitations.<xref rid="b9-nss-7-147" ref-type="bibr">9</xref> However, objective testing with limited-channel devices for OSA diagnosis is explicitly excluded for general screening use by the American Academy of Sleep Medicine guidelines.<xref rid="b30-nss-7-147" ref-type="bibr">30</xref> Home monitoring might fill a niche here by adding an objective component to risk stratification. Analysis of single channels of data have already shown promise for quantifying sleep disordered breathing in certain settings,<xref rid="b31-nss-7-147" ref-type="bibr">31</xref>–<xref rid="b33-nss-7-147" ref-type="bibr">33</xref> and also used to distinguish central from obstructive apnea.<xref rid="b34-nss-7-147" ref-type="bibr">34</xref> Whether a combination of clinical information and a consumer wearable device could provide risk stratification is a testable hypothesis. Devices using only wrist movement would be unlikely to serve this purpose, whereas devices that recorded cardiac or respiratory parameters could be the focus of future validation.</p>
+      </sec>
+    </sec>
+    <sec>
+      <title>Conclusion</title>
+      <p>It is no surprise that consumer sleep devices provide only a subset of the extensive physiology contained in laboratory PSG. Yet proper validation of these devices for specific purposes has strong potential for a variety of goals described earlier. The status quo, in which consumer devices contextualize their claims as “wellness”, can send conflicting messages, in which neither providers nor consumers can rationally navigate the device outputs (<xref ref-type="fig" rid="f2-nss-7-147">Figure 2</xref>). The more widely these products enjoy consumption, the more urgently important it is for all stakeholders to engage in resolving the current state of claim-validation mismatch. Insurers are another group with potential interest in consumer devices for health tracking,<xref rid="b35-nss-7-147" ref-type="bibr">35</xref> and the same validation issues are germane to this perspective as well. The question remains whether devices can add value in clinical and research domains. Formal cost-effectiveness modeling will be informed by further validation data, as many factors have important influence such as device cost, technical robustness (failure rates), accuracy for the intended use, and downstream consequences of the actions based on device output. Although these are important concepts to consider, the time and resources required to establish external and ecological validity may not be prioritized in the consumer space, where even basic validation studies are often not available. Recognizing the validation limitations may nevertheless help pave the path forward. The widespread consumption of sleep monitors is a reminder that the stakes are high, and that prioritizing validation efforts, regardless of whether certain devices meet more rigorous medical standards, will be important for all stakeholder perspectives to understand the potential risks and benefits of sleep monitoring technology in the consumer space.</p>
+    </sec>
+    <sec sec-type="supplementary-material">
+      <title>Supplementary material</title>
+      <supplementary-material content-type="local-data" id="SD1-nss-7-147">
+        <table-wrap id="ts1-nss-7-147" position="float">
+          <label>Table S1</label>
+          <caption>
+            <p>Operational features of common consumer sleep monitors</p>
+          </caption>
+          <table frame="hsides" rules="groups">
+            <thead>
+              <tr>
+                <th valign="top" align="left" rowspan="1" colspan="1">Device</th>
+                <th valign="top" align="left" rowspan="1" colspan="1">Location</th>
+                <th valign="top" align="left" rowspan="1" colspan="1">Charge duration</th>
+                <th valign="top" align="left" rowspan="1" colspan="1">Water resistance</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td valign="top" align="left" rowspan="1" colspan="1">Basis Peak<xref rid="b36-nss-7-147" ref-type="bibr">36</xref></td>
+                <td valign="top" align="left" rowspan="1" colspan="1">On wrist</td>
+                <td valign="top" align="left" rowspan="1" colspan="1">4 days</td>
+                <td valign="top" align="left" rowspan="1" colspan="1">Water resistant to 50 m</td>
+              </tr>
+              <tr>
+                <td valign="top" align="left" rowspan="1" colspan="1">Beddit<xref rid="b37-nss-7-147" ref-type="bibr">37</xref></td>
+                <td valign="top" align="left" rowspan="1" colspan="1">Under bedsheet</td>
+                <td valign="top" align="left" rowspan="1" colspan="1">Plug-in</td>
+                <td valign="top" align="left" rowspan="1" colspan="1">Not water resistant</td>
+              </tr>
+              <tr>
+                <td valign="top" align="left" rowspan="1" colspan="1">FitBit<xref rid="b38-nss-7-147" ref-type="bibr">38</xref></td>
+                <td valign="top" align="left" rowspan="1" colspan="1">On wrist</td>
+                <td valign="top" align="left" rowspan="1" colspan="1">5 days</td>
+                <td valign="top" align="left" rowspan="1" colspan="1">Water resistant</td>
+              </tr>
+              <tr>
+                <td valign="top" align="left" rowspan="1" colspan="1">Garmin Vivofit<xref rid="b39-nss-7-147" ref-type="bibr">39</xref></td>
+                <td valign="top" align="left" rowspan="1" colspan="1">On wrist</td>
+                <td valign="top" align="left" rowspan="1" colspan="1">1+ year</td>
+                <td valign="top" align="left" rowspan="1" colspan="1">Water resistant to 50 m</td>
+              </tr>
+              <tr>
+                <td valign="top" align="left" rowspan="1" colspan="1">Hexoskin<xref rid="b40-nss-7-147" ref-type="bibr">40</xref></td>
+                <td valign="top" align="left" rowspan="1" colspan="1">T-shirt</td>
+                <td valign="top" align="left" rowspan="1" colspan="1">14–150 hours</td>
+                <td valign="top" align="left" rowspan="1" colspan="1">Machine washable</td>
+              </tr>
+              <tr>
+                <td valign="top" align="left" rowspan="1" colspan="1">Jawbone (UP3)<xref rid="b41-nss-7-147" ref-type="bibr">41</xref></td>
+                <td valign="top" align="left" rowspan="1" colspan="1">On wrist</td>
+                <td valign="top" align="left" rowspan="1" colspan="1">7 days</td>
+                <td valign="top" align="left" rowspan="1" colspan="1">Splash proof</td>
+              </tr>
+              <tr>
+                <td valign="top" align="left" rowspan="1" colspan="1">Lark Pro<xref rid="b42-nss-7-147" ref-type="bibr">42</xref></td>
+                <td valign="top" align="left" rowspan="1" colspan="1">On wrist</td>
+                <td valign="top" align="left" rowspan="1" colspan="1">Daily charge required</td>
+                <td valign="top" align="left" rowspan="1" colspan="1">Not intended to be used near water</td>
+              </tr>
+              <tr>
+                <td valign="top" align="left" rowspan="1" colspan="1">Misfit Shine<xref rid="b43-nss-7-147" ref-type="bibr">43</xref></td>
+                <td valign="top" align="left" rowspan="1" colspan="1">On wrist</td>
+                <td valign="top" align="left" rowspan="1" colspan="1">No charging</td>
+                <td valign="top" align="left" rowspan="1" colspan="1">Waterproof to 50 m</td>
+              </tr>
+              <tr>
+                <td valign="top" align="left" rowspan="1" colspan="1">ResMed S+<xref rid="b44-nss-7-147" ref-type="bibr">44</xref></td>
+                <td valign="top" align="left" rowspan="1" colspan="1">On nightstand</td>
+                <td valign="top" align="left" rowspan="1" colspan="1">Plug-in</td>
+                <td valign="top" align="left" rowspan="1" colspan="1">Not water resistant</td>
+              </tr>
+              <tr>
+                <td valign="top" align="left" rowspan="1" colspan="1">Reston<xref rid="b45-nss-7-147" ref-type="bibr">45</xref></td>
+                <td valign="top" align="left" rowspan="1" colspan="1">Under bedsheet</td>
+                <td valign="top" align="left" rowspan="1" colspan="1">30 days</td>
+                <td valign="top" align="left" rowspan="1" colspan="1">Not water resistant</td>
+              </tr>
+              <tr>
+                <td valign="top" align="left" rowspan="1" colspan="1">SleepRate<xref rid="b46-nss-7-147" ref-type="bibr">46</xref></td>
+                <td valign="top" align="left" rowspan="1" colspan="1">On chest</td>
+                <td valign="top" align="left" rowspan="1" colspan="1">200 hours</td>
+                <td valign="top" align="left" rowspan="1" colspan="1">Water resistant</td>
+              </tr>
+              <tr>
+                <td valign="top" align="left" rowspan="1" colspan="1">Sleep Tracker<xref rid="b47-nss-7-147" ref-type="bibr">47</xref></td>
+                <td valign="top" align="left" rowspan="1" colspan="1">On wrist</td>
+                <td valign="top" align="left" rowspan="1" colspan="1">Not reported</td>
+                <td valign="top" align="left" rowspan="1" colspan="1">Water resistant up to 10 m</td>
+              </tr>
+              <tr>
+                <td valign="top" align="left" rowspan="1" colspan="1">Withings Aura<xref rid="b48-nss-7-147" ref-type="bibr">48</xref></td>
+                <td valign="top" align="left" rowspan="1" colspan="1">Under mattress</td>
+                <td valign="top" align="left" rowspan="1" colspan="1">Plug-in</td>
+                <td valign="top" align="left" rowspan="1" colspan="1">Not water resistant</td>
+              </tr>
+            </tbody>
+          </table>
+        </table-wrap>
+      </supplementary-material>
+    </sec>
+  </body>
+  <back>
+    <fn-group>
+      <fn>
+        <p>
+          <bold>Disclosure</bold>
+        </p>
+        <p>Matt T Bianchi receives funding from the Department of Neurology, Massachusetts General Hospital, the Center for Integration of Medicine and Innovative Technology, and the Milton Family Foundation. Matt T Bianchi also has a patent pending on a home sleep monitoring device and has received travel funding from Servier, has consulting agreements with Foramis, MC10, Insomnisolv, and GrandRounds, and has provided expert testimony in sleep medicine. The other authors report no conflict of interest in this work.</p>
+      </fn>
+    </fn-group>
+    <ref-list>
+      <title>References</title>
+      <ref id="b1-nss-7-147">
+        <label>1</label>
+        <element-citation publication-type="book">
+          <article-title>The most amazing inventions of 2005</article-title>
+          <source>Time</source>
+          <volume>166</volume>
+          <publisher-loc>New York</publisher-loc>
+          <year>2005</year>
+          <fpage>91</fpage>
+        </element-citation>
+      </ref>
+      <ref id="b2-nss-7-147">
+        <label>2</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Ko</surname>
+              <given-names>PT</given-names>
+            </name>
+            <name>
+              <surname>Kientz</surname>
+              <given-names>JA</given-names>
+            </name>
+            <name>
+              <surname>Choe</surname>
+              <given-names>EK</given-names>
+            </name>
+            <name>
+              <surname>Kay</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Landis</surname>
+              <given-names>CA</given-names>
+            </name>
+            <name>
+              <surname>Watson</surname>
+              <given-names>NF</given-names>
+            </name>
+          </person-group>
+          <article-title>Consumer sleep technologies: a review of the landscape</article-title>
+          <source>J Clin Sleep Med</source>
+          <year>2015</year>
+          <volume>pii</volume>
+          <fpage>jc-00498-14</fpage>
+        </element-citation>
+      </ref>
+      <ref id="b3-nss-7-147">
+        <label>3</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Bhat</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Ferraris</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Gupta</surname>
+              <given-names>D</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Is there a clinical role for smartphone sleep apps? comparison of sleep cycle detection by a smartphone application to polysomnography</article-title>
+          <source>J Clin Sleep Med</source>
+          <year>2015</year>
+          <volume>11</volume>
+          <issue>7</issue>
+          <fpage>709</fpage>
+          <lpage>715</lpage>
+          <pub-id pub-id-type="pmid">25766719</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b4-nss-7-147">
+        <label>4</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Behar</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Roebuck</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Domingos</surname>
+              <given-names>JS</given-names>
+            </name>
+            <name>
+              <surname>Gederi</surname>
+              <given-names>E</given-names>
+            </name>
+            <name>
+              <surname>Clifford</surname>
+              <given-names>GD</given-names>
+            </name>
+          </person-group>
+          <article-title>A review of current sleep screening applications for smartphones</article-title>
+          <source>Physiol Meas</source>
+          <year>2013</year>
+          <volume>34</volume>
+          <issue>7</issue>
+          <fpage>R29</fpage>
+          <lpage>R46</lpage>
+          <pub-id pub-id-type="pmid">23771214</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b5-nss-7-147">
+        <label>5</label>
+        <element-citation publication-type="webpage">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Comstock</surname>
+              <given-names>J</given-names>
+            </name>
+          </person-group>
+          <comment>database on the internet</comment>
+          <year>2015</year>
+          <comment>Available from: <ext-link ext-link-type="uri" xlink:href="http://mobihealthnews.com/43499/class-action-lawsuit-alleges-fitbit-misled-buyers-with-inaccurate-sleep-tracking/">http://mobihealthnews.com/43499/class-action-lawsuit-alleges-fitbit-misled-buyers-with-inaccurate-sleep-tracking/</ext-link></comment>
+          <date-in-citation>Accessed May 17, 2015</date-in-citation>
+        </element-citation>
+      </ref>
+      <ref id="b6-nss-7-147">
+        <label>6</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Aserinsky</surname>
+              <given-names>E</given-names>
+            </name>
+            <name>
+              <surname>Kleitman</surname>
+              <given-names>N</given-names>
+            </name>
+          </person-group>
+          <article-title>Regularly occurring periods of eye motility, and concomitant phenomena, during sleep</article-title>
+          <source>Science</source>
+          <year>1953</year>
+          <volume>118</volume>
+          <issue>3062</issue>
+          <fpage>273</fpage>
+          <lpage>274</lpage>
+          <pub-id pub-id-type="pmid">13089671</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b7-nss-7-147">
+        <label>7</label>
+        <element-citation publication-type="webpage">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Painter</surname>
+              <given-names>K</given-names>
+            </name>
+          </person-group>
+          <article-title>Sleep-tracking gadgets raise awareness – and skepticism</article-title>
+          <source>U S A Today</source>
+          <year>2013</year>
+          <comment>Available from: <ext-link ext-link-type="uri" xlink:href="http://www.usatoday.com/story/news/nation/2013/03/24/sleep-tracking-devices/2007085/">http://www.usatoday.com/story/news/nation/2013/03/24/sleep-tracking-devices/2007085/</ext-link></comment>
+          <date-in-citation>Accessed July 30, 2015</date-in-citation>
+        </element-citation>
+      </ref>
+      <ref id="b8-nss-7-147">
+        <label>8</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Morgenthaler</surname>
+              <given-names>TI</given-names>
+            </name>
+            <name>
+              <surname>Lee-Chiong</surname>
+              <given-names>T</given-names>
+            </name>
+            <name>
+              <surname>Alessi</surname>
+              <given-names>C</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Practice parameters for the clinical evaluation and treatment of circadian rhythm sleep disorders. An American Academy of Sleep Medicine report</article-title>
+          <source>Sleep</source>
+          <year>2007</year>
+          <volume>30</volume>
+          <issue>11</issue>
+          <fpage>1445</fpage>
+          <lpage>1459</lpage>
+          <pub-id pub-id-type="pmid">18041479</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b9-nss-7-147">
+        <label>9</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Bianchi</surname>
+              <given-names>MT</given-names>
+            </name>
+          </person-group>
+          <article-title>Screening for obstructive sleep apnea: Bayes weighs in</article-title>
+          <source>Open Sleep J</source>
+          <year>2009</year>
+          <volume>2</volume>
+          <fpage>56</fpage>
+          <lpage>59</lpage>
+        </element-citation>
+      </ref>
+      <ref id="b10-nss-7-147">
+        <label>10</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Jin</surname>
+              <given-names>H</given-names>
+            </name>
+            <name>
+              <surname>Lee</surname>
+              <given-names>LA</given-names>
+            </name>
+            <name>
+              <surname>Song</surname>
+              <given-names>L</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Acoustic analysis of snoring in the diagnosis of obstructive sleep apnea syndrome: a call for more rigorous studies</article-title>
+          <source>J Clin Sleep Med</source>
+          <year>2015</year>
+          <volume>11</volume>
+          <issue>7</issue>
+          <fpage>765</fpage>
+          <lpage>771</lpage>
+          <pub-id pub-id-type="pmid">25766705</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b11-nss-7-147">
+        <label>11</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Chung</surname>
+              <given-names>F</given-names>
+            </name>
+            <name>
+              <surname>Yegneswaran</surname>
+              <given-names>B</given-names>
+            </name>
+            <name>
+              <surname>Liao</surname>
+              <given-names>P</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>STOP questionnaire: a tool to screen patients for obstructive sleep apnea</article-title>
+          <source>Anesthesiology</source>
+          <year>2008</year>
+          <volume>108</volume>
+          <issue>5</issue>
+          <fpage>812</fpage>
+          <lpage>821</lpage>
+          <pub-id pub-id-type="pmid">18431116</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b12-nss-7-147">
+        <label>12</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Boynton</surname>
+              <given-names>G</given-names>
+            </name>
+            <name>
+              <surname>Vahabzadeh</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Hammoud</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Ruzicka</surname>
+              <given-names>DL</given-names>
+            </name>
+            <name>
+              <surname>Chervin</surname>
+              <given-names>RD</given-names>
+            </name>
+          </person-group>
+          <article-title>Validation of the STOP-BANG questionnaire among patients referred for suspected obstructive sleep apnea</article-title>
+          <source>J Sleep Disord Treat Care</source>
+          <year>2013</year>
+          <volume>2</volume>
+          <issue>4</issue>
+        </element-citation>
+      </ref>
+      <ref id="b13-nss-7-147">
+        <label>13</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Weiss</surname>
+              <given-names>AR</given-names>
+            </name>
+            <name>
+              <surname>Johnson</surname>
+              <given-names>NL</given-names>
+            </name>
+            <name>
+              <surname>Berger</surname>
+              <given-names>NA</given-names>
+            </name>
+            <name>
+              <surname>Redline</surname>
+              <given-names>S</given-names>
+            </name>
+          </person-group>
+          <article-title>Validity of activity-based devices to estimate sleep</article-title>
+          <source>J Clin Sleep Med</source>
+          <year>2010</year>
+          <volume>6</volume>
+          <issue>4</issue>
+          <fpage>336</fpage>
+          <lpage>342</lpage>
+          <pub-id pub-id-type="pmid">20726281</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b14-nss-7-147">
+        <label>14</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Bohning</surname>
+              <given-names>N</given-names>
+            </name>
+            <name>
+              <surname>Schultheiss</surname>
+              <given-names>B</given-names>
+            </name>
+            <name>
+              <surname>Eilers</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Penzel</surname>
+              <given-names>T</given-names>
+            </name>
+            <name>
+              <surname>Bohning</surname>
+              <given-names>W</given-names>
+            </name>
+            <name>
+              <surname>Schmittendorf</surname>
+              <given-names>E</given-names>
+            </name>
+          </person-group>
+          <article-title>Comparability of pulse oximeters used in sleep medicine for the screening of OSA</article-title>
+          <source>Physiol Meas</source>
+          <year>2010</year>
+          <volume>31</volume>
+          <issue>7</issue>
+          <fpage>875</fpage>
+          <lpage>888</lpage>
+          <pub-id pub-id-type="pmid">20505219</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b15-nss-7-147">
+        <label>15</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Bliwise</surname>
+              <given-names>DL</given-names>
+            </name>
+            <name>
+              <surname>Young</surname>
+              <given-names>TB</given-names>
+            </name>
+          </person-group>
+          <article-title>The parable of parabola: what the U-shaped curve can and cannot tell us about sleep</article-title>
+          <source>Sleep</source>
+          <year>2007</year>
+          <volume>30</volume>
+          <issue>12</issue>
+          <fpage>1614</fpage>
+          <lpage>1615</lpage>
+          <pub-id pub-id-type="pmid">18246971</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b16-nss-7-147">
+        <label>16</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kurina</surname>
+              <given-names>LM</given-names>
+            </name>
+            <name>
+              <surname>McClintock</surname>
+              <given-names>MK</given-names>
+            </name>
+            <name>
+              <surname>Chen</surname>
+              <given-names>JH</given-names>
+            </name>
+            <name>
+              <surname>Waite</surname>
+              <given-names>LJ</given-names>
+            </name>
+            <name>
+              <surname>Thisted</surname>
+              <given-names>RA</given-names>
+            </name>
+            <name>
+              <surname>Lauderdale</surname>
+              <given-names>DS</given-names>
+            </name>
+          </person-group>
+          <article-title>Sleep duration and all-cause mortality: a critical review of measurement and associations</article-title>
+          <source>Ann Epidemiol</source>
+          <year>2013</year>
+          <volume>23</volume>
+          <issue>6</issue>
+          <fpage>361</fpage>
+          <lpage>370</lpage>
+          <pub-id pub-id-type="pmid">23622956</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b17-nss-7-147">
+        <label>17</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Miller</surname>
+              <given-names>CB</given-names>
+            </name>
+            <name>
+              <surname>Gordon</surname>
+              <given-names>CJ</given-names>
+            </name>
+            <name>
+              <surname>Toubia</surname>
+              <given-names>L</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Agreement between simple questions about sleep duration and sleep diaries in a large online survey</article-title>
+          <source>Sleep Health</source>
+          <year>2015</year>
+          <volume>1</volume>
+          <fpage>133</fpage>
+          <lpage>137</lpage>
+        </element-citation>
+      </ref>
+      <ref id="b18-nss-7-147">
+        <label>18</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Hu</surname>
+              <given-names>K</given-names>
+            </name>
+            <name>
+              <surname>Van Someren</surname>
+              <given-names>EJ</given-names>
+            </name>
+            <name>
+              <surname>Shea</surname>
+              <given-names>SA</given-names>
+            </name>
+            <name>
+              <surname>Scheer</surname>
+              <given-names>FA</given-names>
+            </name>
+          </person-group>
+          <article-title>Reduction of scale invariance of activity fluctuations with aging and Alzheimer’s disease: involvement of the circadian pacemaker</article-title>
+          <source>Proc Natl Acad Sci U S A</source>
+          <year>2009</year>
+          <volume>106</volume>
+          <issue>8</issue>
+          <fpage>2490</fpage>
+          <lpage>2494</lpage>
+          <pub-id pub-id-type="pmid">19202078</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b19-nss-7-147">
+        <label>19</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Lim</surname>
+              <given-names>AS</given-names>
+            </name>
+            <name>
+              <surname>Yu</surname>
+              <given-names>L</given-names>
+            </name>
+            <name>
+              <surname>Costa</surname>
+              <given-names>MD</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Quantification of the fragmentation of rest-activity patterns in elderly individuals using a state transition analysis</article-title>
+          <source>Sleep</source>
+          <year>2011</year>
+          <volume>34</volume>
+          <issue>11</issue>
+          <fpage>1569</fpage>
+          <lpage>1581</lpage>
+          <pub-id pub-id-type="pmid">22043128</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b20-nss-7-147">
+        <label>20</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Sadeh</surname>
+              <given-names>A</given-names>
+            </name>
+          </person-group>
+          <article-title>The role and validity of actigraphy in sleep medicine: an update</article-title>
+          <source>Sleep Med Rev</source>
+          <year>2011</year>
+          <volume>15</volume>
+          <issue>4</issue>
+          <fpage>259</fpage>
+          <lpage>267</lpage>
+          <pub-id pub-id-type="pmid">21237680</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b21-nss-7-147">
+        <label>21</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Sanchez-Ortuno</surname>
+              <given-names>MM</given-names>
+            </name>
+            <name>
+              <surname>Edinger</surname>
+              <given-names>JD</given-names>
+            </name>
+          </person-group>
+          <article-title>Internight sleep variability: its clinical significance and responsiveness to treatment in primary and comorbid insomnia</article-title>
+          <source>J Sleep Res Oct</source>
+          <year>2012</year>
+          <volume>21</volume>
+          <issue>5</issue>
+          <fpage>527</fpage>
+          <lpage>534</lpage>
+        </element-citation>
+      </ref>
+      <ref id="b22-nss-7-147">
+        <label>22</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Vgontzas</surname>
+              <given-names>AN</given-names>
+            </name>
+            <name>
+              <surname>Fernandez-Mendoza</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Liao</surname>
+              <given-names>D</given-names>
+            </name>
+            <name>
+              <surname>Bixler</surname>
+              <given-names>EO</given-names>
+            </name>
+          </person-group>
+          <article-title>Insomnia with objective short sleep duration: the most biologically severe phenotype of the disorder</article-title>
+          <source>Sleep Med Rev</source>
+          <year>2013</year>
+          <volume>17</volume>
+          <issue>4</issue>
+          <fpage>241</fpage>
+          <lpage>254</lpage>
+          <pub-id pub-id-type="pmid">23419741</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b23-nss-7-147">
+        <label>23</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Fernandez-Mendoza</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Shea</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Vgontzas</surname>
+              <given-names>AN</given-names>
+            </name>
+            <name>
+              <surname>Calhoun</surname>
+              <given-names>SL</given-names>
+            </name>
+            <name>
+              <surname>Liao</surname>
+              <given-names>D</given-names>
+            </name>
+            <name>
+              <surname>Bixler</surname>
+              <given-names>EO</given-names>
+            </name>
+          </person-group>
+          <article-title>Insomnia and incident depression: role of objective sleep duration and natural history</article-title>
+          <source>J Sleep Res</source>
+          <year>2015</year>
+          <volume>24</volume>
+          <issue>4</issue>
+          <fpage>390</fpage>
+          <lpage>398</lpage>
+          <pub-id pub-id-type="pmid">25728794</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b24-nss-7-147">
+        <label>24</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Harvey</surname>
+              <given-names>AG</given-names>
+            </name>
+            <name>
+              <surname>Tang</surname>
+              <given-names>NK</given-names>
+            </name>
+          </person-group>
+          <article-title>(Mis)perception of sleep in insomnia: a puzzle and a resolution</article-title>
+          <source>Psychol Bull</source>
+          <year>2012</year>
+          <volume>138</volume>
+          <issue>1</issue>
+          <fpage>77</fpage>
+          <lpage>101</lpage>
+          <pub-id pub-id-type="pmid">21967449</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b25-nss-7-147">
+        <label>25</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Edinger</surname>
+              <given-names>JD</given-names>
+            </name>
+            <name>
+              <surname>Means</surname>
+              <given-names>MK</given-names>
+            </name>
+          </person-group>
+          <article-title>Cognitive-behavioral therapy for primary insomnia</article-title>
+          <source>Clin Psychol Rev</source>
+          <year>2005</year>
+          <volume>25</volume>
+          <issue>5</issue>
+          <fpage>539</fpage>
+          <lpage>558</lpage>
+          <pub-id pub-id-type="pmid">15951083</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b26-nss-7-147">
+        <label>26</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Krakow</surname>
+              <given-names>B</given-names>
+            </name>
+            <name>
+              <surname>Ulibarri</surname>
+              <given-names>VA</given-names>
+            </name>
+            <name>
+              <surname>Romero</surname>
+              <given-names>E</given-names>
+            </name>
+          </person-group>
+          <article-title>Persistent insomnia in chronic hypnotic users presenting to a sleep medical center: a retrospective chart review of 137 consecutive patients</article-title>
+          <source>J Nerv Ment Dis</source>
+          <year>2010</year>
+          <volume>198</volume>
+          <issue>10</issue>
+          <fpage>734</fpage>
+          <lpage>741</lpage>
+          <pub-id pub-id-type="pmid">20921864</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b27-nss-7-147">
+        <label>27</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Lichstein</surname>
+              <given-names>KL</given-names>
+            </name>
+            <name>
+              <surname>Riedel</surname>
+              <given-names>BW</given-names>
+            </name>
+            <name>
+              <surname>Lester</surname>
+              <given-names>KW</given-names>
+            </name>
+            <name>
+              <surname>Aguillard</surname>
+              <given-names>RN</given-names>
+            </name>
+          </person-group>
+          <article-title>Occult sleep apnea in a recruited sample of older adults with insomnia</article-title>
+          <source>J Consult Clin Psychol</source>
+          <year>1999</year>
+          <volume>67</volume>
+          <issue>3</issue>
+          <fpage>405</fpage>
+          <lpage>410</lpage>
+          <pub-id pub-id-type="pmid">10369061</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b28-nss-7-147">
+        <label>28</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Bianchi</surname>
+              <given-names>MT</given-names>
+            </name>
+            <name>
+              <surname>Goparaju</surname>
+              <given-names>B</given-names>
+            </name>
+            <name>
+              <surname>Moro</surname>
+              <given-names>M</given-names>
+            </name>
+          </person-group>
+          <article-title>Sleep apnea in patients reporting insomnia or restless legs symptoms</article-title>
+          <source>Acta Neurol Scand</source>
+          <comment>Epub</comment>
+          <year>2015</year>
+          <month>5</month>
+          <day>14</day>
+        </element-citation>
+      </ref>
+      <ref id="b29-nss-7-147">
+        <label>29</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Ackermann</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Hartmann</surname>
+              <given-names>F</given-names>
+            </name>
+            <name>
+              <surname>Papassotiropoulos</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>de Quervain</surname>
+              <given-names>DJ</given-names>
+            </name>
+            <name>
+              <surname>Rasch</surname>
+              <given-names>B</given-names>
+            </name>
+          </person-group>
+          <article-title>No associations between interindividual differences in sleep parameters and episodic memory consolidation</article-title>
+          <source>Sleep</source>
+          <year>2015</year>
+          <volume>38</volume>
+          <issue>6</issue>
+          <fpage>951</fpage>
+          <lpage>959</lpage>
+          <pub-id pub-id-type="pmid">25325488</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b30-nss-7-147">
+        <label>30</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Collop</surname>
+              <given-names>NA</given-names>
+            </name>
+            <name>
+              <surname>Anderson</surname>
+              <given-names>WM</given-names>
+            </name>
+            <name>
+              <surname>Boehlecke</surname>
+              <given-names>B</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Clinical guidelines for the use of unattended portable monitors in the diagnosis of obstructive sleep apnea in adult patients. Portable Monitoring Task Force of the American Academy of Sleep Medicine</article-title>
+          <source>J Clin Sleep Med</source>
+          <year>2007</year>
+          <volume>3</volume>
+          <issue>7</issue>
+          <fpage>737</fpage>
+          <lpage>747</lpage>
+          <pub-id pub-id-type="pmid">18198809</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b31-nss-7-147">
+        <label>31</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Bianchi</surname>
+              <given-names>MT</given-names>
+            </name>
+            <name>
+              <surname>Lipoma</surname>
+              <given-names>T</given-names>
+            </name>
+            <name>
+              <surname>Darling</surname>
+              <given-names>C</given-names>
+            </name>
+            <name>
+              <surname>Alameddine</surname>
+              <given-names>Y</given-names>
+            </name>
+            <name>
+              <surname>Westover</surname>
+              <given-names>MB</given-names>
+            </name>
+          </person-group>
+          <article-title>Automated sleep apnea quantification based on respiratory movement</article-title>
+          <source>Int J Med Sci</source>
+          <year>2014</year>
+          <volume>11</volume>
+          <issue>8</issue>
+          <fpage>796</fpage>
+          <lpage>802</lpage>
+          <pub-id pub-id-type="pmid">24936142</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b32-nss-7-147">
+        <label>32</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Grover</surname>
+              <given-names>SS</given-names>
+            </name>
+            <name>
+              <surname>Pittman</surname>
+              <given-names>SD</given-names>
+            </name>
+          </person-group>
+          <article-title>Automated detection of sleep disordered breathing using a nasal pressure monitoring device</article-title>
+          <source>Sleep Breath</source>
+          <year>2008</year>
+          <volume>12</volume>
+          <issue>4</issue>
+          <fpage>339</fpage>
+          <lpage>345</lpage>
+          <pub-id pub-id-type="pmid">18368430</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b33-nss-7-147">
+        <label>33</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Amir</surname>
+              <given-names>O</given-names>
+            </name>
+            <name>
+              <surname>Barak-Shinar</surname>
+              <given-names>D</given-names>
+            </name>
+            <name>
+              <surname>Henry</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Smart</surname>
+              <given-names>FW</given-names>
+            </name>
+          </person-group>
+          <article-title>Photoplethysmography as a single source for analysis of sleep-disordered breathing in patients with severe cardiovascular disease</article-title>
+          <source>J Sleep Res</source>
+          <year>2012</year>
+          <volume>21</volume>
+          <issue>1</issue>
+          <fpage>94</fpage>
+          <lpage>100</lpage>
+          <pub-id pub-id-type="pmid">21672069</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b34-nss-7-147">
+        <label>34</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Thomas</surname>
+              <given-names>RJ</given-names>
+            </name>
+            <name>
+              <surname>Mietus</surname>
+              <given-names>JE</given-names>
+            </name>
+            <name>
+              <surname>Peng</surname>
+              <given-names>CK</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Differentiating obstructive from central and complex sleep apnea using an automated electrocardiogram-based method</article-title>
+          <source>Sleep</source>
+          <year>2007</year>
+          <volume>30</volume>
+          <issue>12</issue>
+          <fpage>1756</fpage>
+          <lpage>1769</lpage>
+          <pub-id pub-id-type="pmid">18246985</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b35-nss-7-147">
+        <label>35</label>
+        <element-citation publication-type="webpage">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Olson</surname>
+              <given-names>P</given-names>
+            </name>
+          </person-group>
+          <article-title>Wearable tech is plugging into health insurance</article-title>
+          <source>Forbes</source>
+          <year>2014</year>
+          <comment>Available from: <ext-link ext-link-type="uri" xlink:href="http://www.forbes.com/sites/parmyolson/2014/06/19/wearable-tech-health-insurance/">http://www.forbes.com/sites/parmyolson/2014/06/19/wearable-tech-health-insurance/</ext-link></comment>
+          <date-in-citation>Accessed July 1, 2015</date-in-citation>
+        </element-citation>
+      </ref>
+      <ref id="b36-nss-7-147">
+        <label>36</label>
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <collab>mybasis.com/ [homepage on the Internet]</collab>
+          </person-group>
+          <source>Basis| Heart Rate Monitor and Fitness Tracker</source>
+          <date-in-citation>Accessed on Oct 29, 2015</date-in-citation>
+        </element-citation>
+      </ref>
+      <ref id="b37-nss-7-147">
+        <label>37</label>
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <collab>beddit.com/features#sleepscore. [homepage on the Internet]</collab>
+          </person-group>
+          <source>Beddit Sleep Tracker: World’s first ambient sleep monitor</source>
+          <date-in-citation>Accessed on Oct 29, 2015</date-in-citation>
+        </element-citation>
+      </ref>
+      <ref id="b38-nss-7-147">
+        <label>38</label>
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <collab>fitbit.com/charge. [homepage on the Internet]</collab>
+          </person-group>
+          <source>Fitbit Official Site for Activity Trackers and More</source>
+          <date-in-citation>Accessed on Oct 29, 2015</date-in-citation>
+        </element-citation>
+      </ref>
+      <ref id="b39-nss-7-147">
+        <label>39</label>
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <collab>sites.garmin.com/en-US/vivo/vivofit/. [homepage on the Internet]</collab>
+          </person-group>
+          <source>vivofit 2 | Activity Tracker | Garmin</source>
+          <date-in-citation>Accessed on Oct 29, 2015</date-in-citation>
+        </element-citation>
+      </ref>
+      <ref id="b40-nss-7-147">
+        <label>40</label>
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <collab>hexoskin.com. [homepage on the Internet]</collab>
+          </person-group>
+          <source>Hexoskin</source>
+          <date-in-citation>Accessed on Oct 29, 2015</date-in-citation>
+        </element-citation>
+      </ref>
+      <ref id="b41-nss-7-147">
+        <label>41</label>
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <collab>jawbone.com/store/buy/up3. [homepage on the Internet.]</collab>
+          </person-group>
+          <source>The world’s most advanced tracker</source>
+          <date-in-citation>Accessed on Oct 29, 2015</date-in-citation>
+        </element-citation>
+      </ref>
+      <ref id="b42-nss-7-147">
+        <label>42</label>
+        <element-citation publication-type="other">
+          <person-group person-group-type="author">
+            <collab>support.lark.com/hc/en-us. [homepage on the Internet.]</collab>
+          </person-group>
+          <date-in-citation>Accessed on Oct 29, 2015</date-in-citation>
+        </element-citation>
+      </ref>
+      <ref id="b43-nss-7-147">
+        <label>43</label>
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <collab>misfit.com/products/shine. [homepage on the Internet.]</collab>
+          </person-group>
+          <source>Mesfit Shine | Premium Fitness + Sleep Monitor</source>
+          <date-in-citation>Accessed on Oct 29, 2015</date-in-citation>
+        </element-citation>
+      </ref>
+      <ref id="b44-nss-7-147">
+        <label>44</label>
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <collab>resmed.com/us/en/consumer/s-plus.html. [homepage on the Intenet.]</collab>
+          </person-group>
+          <source>S+ sleep monitoring device| ResMed.com</source>
+          <date-in-citation>Accessed on Oct 29, 2015</date-in-citation>
+        </element-citation>
+      </ref>
+      <ref id="b45-nss-7-147">
+        <label>45</label>
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <collab>indiegogo.com/projects/reston-more-than-a-sleep-monitor#/story [homepage on the Internet.]</collab>
+          </person-group>
+          <source>RestOn</source>
+          <date-in-citation>Accessed on Oct 29, 2015</date-in-citation>
+        </element-citation>
+      </ref>
+      <ref id="b46-nss-7-147">
+        <label>46</label>
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <collab>sleeprate.com/. [homepage on the Internet.]</collab>
+          </person-group>
+          <source>SleepRate: Sleep-Life Balance Program</source>
+          <date-in-citation>Accessed on Oct 29, 2015</date-in-citation>
+        </element-citation>
+      </ref>
+      <ref id="b47-nss-7-147">
+        <label>47</label>
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <collab>sleeptracker.com. [homepage on the Internet.]</collab>
+          </person-group>
+          <source>Sleeptracker®-Premium</source>
+          <date-in-citation>Accessed on Oct 29, 2015</date-in-citation>
+        </element-citation>
+      </ref>
+      <ref id="b48-nss-7-147">
+        <label>48</label>
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <collab>withings.com/us/en/products/aura? [homepage on the Internet.]</collab>
+          </person-group>
+          <source>Withings Aura Connected Alarm Clock</source>
+          <date-in-citation>Accessed on Oct 29, 2015</date-in-citation>
+        </element-citation>
+      </ref>
+    </ref-list>
+  </back>
+  <floats-group>
+    <fig id="f1-nss-7-147" position="float">
+      <label>Figure 1</label>
+      <caption>
+        <p>Comparison of sleep architecture across monitoring modalities.</p>
+        <p><bold>Notes:</bold> Manually aligned output from gold standard PSG scoring (<bold>A</bold>), formal actigraphy (<bold>F</bold>), Actiwatch Spectrum; vertical lines indicate movement amount in 30 second bins, as well as four consumer sleep monitors worn concurrently by an adult male in the sleep lab (<bold>B</bold>) ResMed S+; (<bold>C</bold>) Basis; (<bold>D</bold>), Beddit; (<bold>E</bold>), Jawbone. The time bar on the bottom applies to all rows. The sleep stages reported by each modality is shown on the left; an image of the technology is shown on the right.</p>
+        <p><bold>Abbreviations:</bold> REM, rapid eye movement; PSG, polysomnography.</p>
+      </caption>
+      <graphic xlink:href="nss-7-147Fig1"/>
+    </fig>
+    <fig id="f2-nss-7-147" position="float">
+      <label>Figure 2</label>
+      <caption>
+        <p>Schematic representation of symptoms, sleep health status, and consumer monitor output.</p>
+        <p><bold>Notes:</bold> Dichotomous presence of symptoms (rows) and objective sleep disorder (columns) are shown to illustrate four possible scenarios (quoted text in each box). For each scenario, the output of a consumer sleep monitor, when considered as a dichotomous result, can be either a true (green shading) or a false (red shading) finding.</p>
+        <p><bold>Abbreviations:</bold> TP, true positive; TN, true negative; FP, false positive; FN, false negative.</p>
+      </caption>
+      <graphic xlink:href="nss-7-147Fig2"/>
+    </fig>
+    <fig id="f3-nss-7-147" position="float">
+      <label>Figure 3</label>
+      <caption>
+        <p>Stages of validation for consumer sleep monitors.</p>
+        <p><bold>Notes:</bold> The most basic forms of validation (face and transitive validity) are philosophical constructs that typically motivate experimental validation against a gold standard such as PSG or actigraphy (middle dashed rectangle). This core validation is subdivided into at least three device aspects, each of which requires distinct experimental approaches. None of the existing consumer devices reach the key validation arms of external and ecological validity (right dashed rectangle).</p>
+        <p><bold>Abbreviation:</bold> PSG, polysomnography.</p>
+      </caption>
+      <graphic xlink:href="nss-7-147Fig3"/>
+    </fig>
+    <table-wrap id="t1-nss-7-147" position="float">
+      <label>Table 1</label>
+      <caption>
+        <p>Overview of common consumer sleep monitors</p>
+      </caption>
+      <table frame="hsides" rules="groups">
+        <thead>
+          <tr>
+            <th valign="top" align="left" rowspan="1" colspan="1">Device</th>
+            <th valign="top" align="left" rowspan="1" colspan="1">Sensor</th>
+            <th valign="top" align="left" rowspan="1" colspan="1">Sleep Output</th>
+            <th valign="top" align="left" rowspan="1" colspan="1">Validation</th>
+            <th valign="top" align="left" rowspan="1" colspan="1">Web site claims</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td valign="top" align="left" rowspan="1" colspan="1">Basis Peak<xref rid="b36-nss-7-147" ref-type="bibr">36</xref></td>
+            <td valign="top" align="left" rowspan="1" colspan="1">Wrist actigraphy and HR</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">W, REM, light NR, deep NR</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">N=12 healthy adults, versus PSG</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">“The ultimate fitness and sleep tracker”</td>
+          </tr>
+          <tr>
+            <td valign="top" align="left" rowspan="1" colspan="1">Beddit<xref rid="b37-nss-7-147" ref-type="bibr">37</xref>,<xref ref-type="table-fn" rid="tfn2-nss-7-147">**</xref></td>
+            <td valign="top" align="left" rowspan="1" colspan="1">Mattress sensor for respiration and HR</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">W, S (“depth”)</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">Validation of sensors</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">“The ultimate sleep guide”</td>
+          </tr>
+          <tr>
+            <td valign="top" align="left" rowspan="1" colspan="1">FitBit<xref rid="b38-nss-7-147" ref-type="bibr">38</xref>,<xref ref-type="table-fn" rid="tfn2-nss-7-147">**</xref></td>
+            <td valign="top" align="left" rowspan="1" colspan="1">Wrist actigraphy (+/− HR<xref ref-type="table-fn" rid="tfn1-nss-7-147">*</xref>)</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">W, S (depth of sleep)</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">N=24 healthy adults, versus PSG</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">“Sleep better and live well…automatically track your sleep”</td>
+          </tr>
+          <tr>
+            <td valign="top" align="left" rowspan="1" colspan="1">Garmin Vivofit<xref rid="b39-nss-7-147" ref-type="bibr">39</xref></td>
+            <td valign="top" align="left" rowspan="1" colspan="1">Wrist actigraphy (+/− HR<xref ref-type="table-fn" rid="tfn1-nss-7-147">*</xref>)</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">W, S</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">N/A</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">“Monitor your rest”</td>
+          </tr>
+          <tr>
+            <td valign="top" align="left" rowspan="1" colspan="1">Hexoskin<xref rid="b40-nss-7-147" ref-type="bibr">40</xref></td>
+            <td valign="top" align="left" rowspan="1" colspan="1">Tight shirt, embedded sensors for respiration and HR</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">W, S</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">Validation of sensors</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">“The ultimate sleep tracking device”</td>
+          </tr>
+          <tr>
+            <td valign="top" align="left" rowspan="1" colspan="1">Jawbone (UP3)<xref rid="b41-nss-7-147" ref-type="bibr">41</xref>,<xref ref-type="table-fn" rid="tfn2-nss-7-147">**</xref></td>
+            <td valign="top" align="left" rowspan="1" colspan="1">Wrist actigraphy, respiration, HR</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">W, REM, light NR, deep NR</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">N/A</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">“The world’s most advanced tracker”</td>
+          </tr>
+          <tr>
+            <td valign="top" align="left" rowspan="1" colspan="1">Lark Pro<xref rid="b42-nss-7-147" ref-type="bibr">42</xref>,<xref ref-type="table-fn" rid="tfn2-nss-7-147">**</xref></td>
+            <td valign="top" align="left" rowspan="1" colspan="1">Wrist actigraphy</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">W, S</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">N/A</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">“Our software trains you to sleep better”</td>
+          </tr>
+          <tr>
+            <td valign="top" align="left" rowspan="1" colspan="1">Misfit Shine<xref rid="b43-nss-7-147" ref-type="bibr">43</xref>,<xref ref-type="table-fn" rid="tfn2-nss-7-147">**</xref></td>
+            <td valign="top" align="left" rowspan="1" colspan="1">Wrist actigraphy</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">W, S (“depth”)</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">N/A</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">“Sleep quality and duration”</td>
+          </tr>
+          <tr>
+            <td valign="top" align="left" rowspan="1" colspan="1">ResMed S+<xref rid="b44-nss-7-147" ref-type="bibr">44</xref>,<xref ref-type="table-fn" rid="tfn2-nss-7-147">**</xref></td>
+            <td valign="top" align="left" rowspan="1" colspan="1">Radar-like respiration tracking</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">W, REM, light NR, deep NR</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">N=74 some healthy some OSA adults, versus PSG</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">“Track and improve your sleep from the very first night”</td>
+          </tr>
+          <tr>
+            <td valign="top" align="left" rowspan="1" colspan="1">Reston<xref rid="b45-nss-7-147" ref-type="bibr">45</xref></td>
+            <td valign="top" align="left" rowspan="1" colspan="1">Mattress pressure sensor for respiration and HR</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">W, S (“depth”)</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">N/A</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">“Medical-grade accuracy…helps you achieve your best sleep each night”</td>
+          </tr>
+          <tr>
+            <td valign="top" align="left" rowspan="1" colspan="1">SleepRate<xref rid="b46-nss-7-147" ref-type="bibr">46</xref></td>
+            <td valign="top" align="left" rowspan="1" colspan="1">Polar heart band + App</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">W, REM, light NR, deep NR</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">N/A</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">“Assesses the underlying causes of any sleep issues”</td>
+          </tr>
+          <tr>
+            <td valign="top" align="left" rowspan="1" colspan="1">Sleep Tracker<xref rid="b47-nss-7-147" ref-type="bibr">47</xref>,<xref ref-type="table-fn" rid="tfn2-nss-7-147">**</xref></td>
+            <td valign="top" align="left" rowspan="1" colspan="1">Wrist actigraphy</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">W, S</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">N=18 healthy adults, versus PSG</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">“Monitors your sleep patterns to help you wake up feeling refreshed”</td>
+          </tr>
+          <tr>
+            <td valign="top" align="left" rowspan="1" colspan="1">Withings Aura<xref rid="b48-nss-7-147" ref-type="bibr">48</xref>,<xref ref-type="table-fn" rid="tfn2-nss-7-147">**</xref></td>
+            <td valign="top" align="left" rowspan="1" colspan="1">Mattress pressure sensor for respiration and HR</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">W, REM, light NR, deep NR</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">N/A</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">“Expert at helping you fall asleep faster”</td>
+          </tr>
+        </tbody>
+      </table>
+      <table-wrap-foot>
+        <fn>
+          <p>
+            <bold>Notes:</bold>
+          </p>
+        </fn>
+        <fn id="tfn1-nss-7-147">
+          <label>*</label>
+          <p>indicates sleep algorithm is based on movement.</p>
+        </fn>
+        <fn id="tfn2-nss-7-147">
+          <label>**</label>
+          <p>indicates smart alarm feature.</p>
+        </fn>
+        <fn id="tfn3-nss-7-147">
+          <p><bold>Abbreviations:</bold> HR, heart rate; W, wake; S, sleep; NR, non-REM, REM, rapid eye movement; PSG, polysomnography, NA, not available.</p>
+        </fn>
+      </table-wrap-foot>
+    </table-wrap>
+    <table-wrap id="t2-nss-7-147" position="float">
+      <label>Table 2</label>
+      <caption>
+        <p>Use categories</p>
+      </caption>
+      <table frame="hsides" rules="groups">
+        <thead>
+          <tr>
+            <th valign="top" align="left" rowspan="1" colspan="1">Device</th>
+            <th valign="top" align="left" rowspan="1" colspan="1">Diary (TIB)</th>
+            <th valign="top" align="left" rowspan="1" colspan="1">Rest–activity cycles</th>
+            <th valign="top" align="left" rowspan="1" colspan="1">Stages (REM versus NREM)</th>
+            <th valign="top" align="left" rowspan="1" colspan="1">Disordered breathing</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td valign="top" align="left" rowspan="1" colspan="1">Basis Peak<xref rid="b36-nss-7-147" ref-type="bibr">36</xref></td>
+            <td valign="top" align="left" rowspan="1" colspan="1">+</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">+</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">+</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">−<xref ref-type="table-fn" rid="tfn5-nss-7-147">b</xref></td>
+          </tr>
+          <tr>
+            <td valign="top" align="left" rowspan="1" colspan="1">Beddit<xref rid="b37-nss-7-147" ref-type="bibr">37</xref></td>
+            <td valign="top" align="left" rowspan="1" colspan="1">+</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">−</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">+<xref ref-type="table-fn" rid="tfn4-nss-7-147">a</xref></td>
+            <td valign="top" align="left" rowspan="1" colspan="1">+<xref ref-type="table-fn" rid="tfn6-nss-7-147">c</xref></td>
+          </tr>
+          <tr>
+            <td valign="top" align="left" rowspan="1" colspan="1">FitBit<xref rid="b38-nss-7-147" ref-type="bibr">38</xref></td>
+            <td valign="top" align="left" rowspan="1" colspan="1">+</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">+</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">−</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">−</td>
+          </tr>
+          <tr>
+            <td valign="top" align="left" rowspan="1" colspan="1">Garmin Vivofit<xref rid="b39-nss-7-147" ref-type="bibr">39</xref></td>
+            <td valign="top" align="left" rowspan="1" colspan="1">+</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">−</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">−</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">−<xref ref-type="table-fn" rid="tfn5-nss-7-147">b</xref></td>
+          </tr>
+          <tr>
+            <td valign="top" align="left" rowspan="1" colspan="1">Hexoskin<xref rid="b40-nss-7-147" ref-type="bibr">40</xref></td>
+            <td valign="top" align="left" rowspan="1" colspan="1">+</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">−</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">+<xref ref-type="table-fn" rid="tfn4-nss-7-147">a</xref></td>
+            <td valign="top" align="left" rowspan="1" colspan="1">+<xref ref-type="table-fn" rid="tfn6-nss-7-147">c</xref></td>
+          </tr>
+          <tr>
+            <td valign="top" align="left" rowspan="1" colspan="1">Jawbone (UP3)<xref rid="b41-nss-7-147" ref-type="bibr">41</xref></td>
+            <td valign="top" align="left" rowspan="1" colspan="1">+</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">+</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">+</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">−<xref ref-type="table-fn" rid="tfn5-nss-7-147">b</xref></td>
+          </tr>
+          <tr>
+            <td valign="top" align="left" rowspan="1" colspan="1">Lark Pro<xref rid="b42-nss-7-147" ref-type="bibr">42</xref></td>
+            <td valign="top" align="left" rowspan="1" colspan="1">+</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">−</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">−</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">−</td>
+          </tr>
+          <tr>
+            <td valign="top" align="left" rowspan="1" colspan="1">Misfit Shine<xref rid="b43-nss-7-147" ref-type="bibr">43</xref></td>
+            <td valign="top" align="left" rowspan="1" colspan="1">+</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">+</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">−</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">−</td>
+          </tr>
+          <tr>
+            <td valign="top" align="left" rowspan="1" colspan="1">ResMed S+<xref rid="b44-nss-7-147" ref-type="bibr">44</xref></td>
+            <td valign="top" align="left" rowspan="1" colspan="1">+</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">−</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">+</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">+<xref ref-type="table-fn" rid="tfn6-nss-7-147">c</xref></td>
+          </tr>
+          <tr>
+            <td valign="top" align="left" rowspan="1" colspan="1">Reston<xref rid="b45-nss-7-147" ref-type="bibr">45</xref></td>
+            <td valign="top" align="left" rowspan="1" colspan="1">+</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">−</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">+<xref ref-type="table-fn" rid="tfn4-nss-7-147">a</xref></td>
+            <td valign="top" align="left" rowspan="1" colspan="1">+<xref ref-type="table-fn" rid="tfn6-nss-7-147">c</xref></td>
+          </tr>
+          <tr>
+            <td valign="top" align="left" rowspan="1" colspan="1">SleepRate<xref rid="b46-nss-7-147" ref-type="bibr">46</xref></td>
+            <td valign="top" align="left" rowspan="1" colspan="1">+</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">−</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">+</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">−<xref ref-type="table-fn" rid="tfn5-nss-7-147">b</xref></td>
+          </tr>
+          <tr>
+            <td valign="top" align="left" rowspan="1" colspan="1">Sleep Tracker<xref rid="b47-nss-7-147" ref-type="bibr">47</xref></td>
+            <td valign="top" align="left" rowspan="1" colspan="1">+</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">+</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">−</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">−</td>
+          </tr>
+          <tr>
+            <td valign="top" align="left" rowspan="1" colspan="1">Withings Aura<xref rid="b48-nss-7-147" ref-type="bibr">48</xref></td>
+            <td valign="top" align="left" rowspan="1" colspan="1">+</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">−</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">+</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">+<xref ref-type="table-fn" rid="tfn6-nss-7-147">c</xref></td>
+          </tr>
+        </tbody>
+      </table>
+      <table-wrap-foot>
+        <fn>
+          <p>
+            <bold>Notes:</bold>
+          </p>
+        </fn>
+        <fn id="tfn4-nss-7-147">
+          <label>a</label>
+          <p>Not in current state, but theoretically could yield stages based on available sensors;</p>
+        </fn>
+        <fn id="tfn5-nss-7-147">
+          <label>b</label>
+          <p>certain heart rate variability metrics may be linked to sleep apnea;</p>
+        </fn>
+        <fn id="tfn6-nss-7-147">
+          <label>c</label>
+          <p>sleep apnea may be quantifiable by respiration movement patterns alone.</p>
+        </fn>
+        <fn id="tfn7-nss-7-147">
+          <p><bold>Abbreviations:</bold> TIB, time in bed; REM, rapid eye movement; NREM, non-REM.</p>
+        </fn>
+      </table-wrap-foot>
+    </table-wrap>
+  </floats-group>
+</article>
+</pmc-articleset>

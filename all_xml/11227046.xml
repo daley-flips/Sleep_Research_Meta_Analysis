@@ -1,0 +1,826 @@
+<pmc-articleset><article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" dtd-version="1.3" xml:lang="en" article-type="research-article">
+  <?properties open_access?>
+  <processing-meta base-tagset="archiving" mathml-version="3.0" table-model="xhtml" tagset-family="jats">
+    <restricted-by>pmc</restricted-by>
+  </processing-meta>
+  <front><journal-meta><journal-id journal-id-type="nlm-ta">Nat Sci Sleep</journal-id><journal-id journal-id-type="iso-abbrev">Nat Sci Sleep</journal-id><journal-id journal-id-type="publisher-id">nss</journal-id><journal-title-group><journal-title>Nature and Science of Sleep</journal-title></journal-title-group><issn pub-type="epub">1179-1608</issn><publisher><publisher-name>Dove</publisher-name></publisher></journal-meta>
+<article-meta><article-id pub-id-type="pmid">38974693</article-id><article-id pub-id-type="pmc">11227046</article-id><article-id pub-id-type="publisher-id">463495</article-id><article-id pub-id-type="doi">10.2147/NSS.S463495</article-id><article-categories><subj-group subj-group-type="heading"><subject>Original Research</subject></subj-group></article-categories><title-group><article-title>Brain Age Estimation from Overnight Sleep Electroencephalography with Multi-Flow Sequence Learning</article-title><alt-title alt-title-type="running-authors">Zhang et al</alt-title><alt-title alt-title-type="running-title">Zhang et al</alt-title></title-group><contrib-group><contrib contrib-type="author"><name><surname>Zhang</surname><given-names>Di</given-names></name><xref rid="aff0001" ref-type="aff">
+<sup>1</sup>
+</xref><xref rid="aff0002" ref-type="aff">
+<sup>2</sup>
+</xref></contrib><contrib contrib-type="author"><name><surname>She</surname><given-names>Yichong</given-names></name><xref rid="aff0001" ref-type="aff">
+<sup>1</sup>
+</xref><xref rid="aff0002" ref-type="aff">
+<sup>2</sup>
+</xref></contrib><contrib contrib-type="author"><contrib-id contrib-id-type="orcid">http://orcid.org/0000-0001-6868-9164</contrib-id><name><surname>Sun</surname><given-names>Jinbo</given-names></name><xref rid="aff0001" ref-type="aff">
+<sup>1</sup>
+</xref><xref rid="aff0002" ref-type="aff">
+<sup>2</sup>
+</xref></contrib><contrib contrib-type="author"><name><surname>Cui</surname><given-names>Yapeng</given-names></name><xref rid="aff0001" ref-type="aff">
+<sup>1</sup>
+</xref><xref rid="aff0002" ref-type="aff">
+<sup>2</sup>
+</xref></contrib><contrib contrib-type="author"><name><surname>Yang</surname><given-names>Xuejuan</given-names></name><xref rid="aff0001" ref-type="aff">
+<sup>1</sup>
+</xref><xref rid="aff0002" ref-type="aff">
+<sup>2</sup>
+</xref></contrib><contrib contrib-type="author"><contrib-id contrib-id-type="orcid">http://orcid.org/0000-0001-5638-6545</contrib-id><name><surname>Zeng</surname><given-names>Xiao</given-names></name><xref rid="aff0001" ref-type="aff">
+<sup>1</sup>
+</xref><xref rid="aff0002" ref-type="aff">
+<sup>2</sup>
+</xref><xref rid="an0001" ref-type="corresp"/></contrib><contrib contrib-type="author"><name><surname>Qin</surname><given-names>Wei</given-names></name><xref rid="aff0001" ref-type="aff">
+<sup>1</sup>
+</xref><xref rid="aff0002" ref-type="aff">
+<sup>2</sup>
+</xref></contrib><aff id="aff0001"><label>1</label><institution>Engineering Research Center of Molecular and Neuro Imaging of the Ministry of Education, School of Life Science and Technology, Xidian University</institution>, <addr-line>Xi’an</addr-line>, <addr-line>Shaanxi</addr-line>, <addr-line>710126</addr-line>, <country>People’s Republic of China</country></aff><aff id="aff0002"><label>2</label><institution>Intelligent Non-Invasive Neuromodulation Technology and Transformation Joint Laboratory, Xidian University</institution>, <addr-line>Xi’an</addr-line>, <country>People’s Republic of China</country></aff></contrib-group><author-notes><corresp id="an0001">Correspondence: Xiao Zeng, <institution>Xidian University</institution>, <addr-line>266 Xifeng Road, Xinglong</addr-line>, <addr-line>Xi’an</addr-line>, <addr-line>Shaanxi</addr-line>, <country>People’s Republic of China</country>, <addr-line>710126</addr-line>, Email xiaozeng1024@gmail.com</corresp></author-notes><pub-date pub-type="epub"><day>01</day><month>7</month><year>2024</year></pub-date><pub-date pub-type="collection"><year>2024</year></pub-date><volume>16</volume><fpage>879</fpage><lpage>896</lpage><history><date date-type="received"><day>10</day><month>2</month><year>2024</year></date><date date-type="accepted"><day>19</day><month>6</month><year>2024</year></date></history><permissions><copyright-statement>© 2024 Zhang et al.</copyright-statement><copyright-year>2024</copyright-year><copyright-holder>Zhang et al.</copyright-holder><license><ali:license_ref xmlns:ali="http://www.niso.org/schemas/ali/1.0/" specific-use="textmining" content-type="ccbynclicense">https://creativecommons.org/licenses/by-nc/3.0/</ali:license_ref><license-p>This work is published and licensed by Dove Medical Press Limited. The full terms of this license are available at <ext-link ext-link-type="uri" xlink:href="https://www.dovepress.com/terms.php">https://www.dovepress.com/terms.php</ext-link> and incorporate the Creative Commons Attribution – Non Commercial (unported, v3.0) License (<ext-link ext-link-type="uri" xlink:href="https://creativecommons.org/licenses/by-nc/3.0/">http://creativecommons.org/licenses/by-nc/3.0/</ext-link>). By accessing the work you hereby accept the Terms. Non-commercial uses of the work are permitted without any further permission from Dove Medical Press Limited, provided the work is properly attributed. For permission for commercial use of this work, please see paragraphs 4.2 and 5 of our Terms (<ext-link ext-link-type="uri" xlink:href="https://www.dovepress.com/terms.php">https://www.dovepress.com/terms.php</ext-link>).</license-p></license></permissions><abstract><sec><title>Purpose</title><p>This study aims to improve brain age estimation by developing a novel deep learning model utilizing overnight electroencephalography (EEG) data.</p></sec><sec><title>Methods</title><p>We address limitations in current brain age prediction methods by proposing a model trained and evaluated on multiple cohort data, covering a broad age range. The model employs a one-dimensional Swin Transformer to efficiently extract complex patterns from sleep EEG signals and a convolutional neural network with attentional mechanisms to summarize sleep structural features. A multi-flow learning-based framework attentively merges these two features, employing sleep structural information to direct and augment the EEG features. A post-prediction model is designed to integrate the age-related features throughout the night. Furthermore, we propose a DecadeCE loss function to address the problem of an uneven age distribution.</p></sec><sec><title>Results</title><p>We utilized 18,767 polysomnograms (PSGs) from 13,616 subjects to develop and evaluate the proposed model. The model achieves a mean absolute error (MAE) of 4.19 and a correlation of 0.97 on the mixed-cohort test set, and an MAE of 6.18 years and a correlation of 0.78 on an independent test set. Our brain age estimation work reduced the error by more than 1 year compared to other studies that also used EEG, achieving the level of neuroimaging. The estimated brain age index demonstrated longitudinal sensitivity and exhibited a significant increase of 1.27 years in individuals with psychiatric or neurological disorders relative to healthy individuals.</p></sec><sec><title>Conclusion</title><p>The multi-flow deep learning model proposed in this study, based on overnight EEG, represents a more accurate approach for estimating brain age. The utilization of overnight sleep EEG for the prediction of brain age is both cost-effective and adept at capturing dynamic changes. These findings demonstrate the potential of EEG in predicting brain age, presenting a noninvasive and accessible method for assessing brain aging.</p></sec></abstract><kwd-group kwd-group-type="author"><title>Keywords</title><kwd>brain age</kwd><kwd>sleep polysomnography</kwd><kwd>electroencephalography</kwd><kwd>deep learning</kwd><kwd>swin transformer</kwd></kwd-group><funding-group><award-group><funding-source>
+<institution-wrap><institution>Innovation Team and Talents Cultivation Program of National Administration of Traditional Chinese Medicine</institution></institution-wrap>
+</funding-source></award-group><funding-statement>This work was funded by the Innovation Team and Talents Cultivation Program of National Administration of Traditional Chinese Medicine (Grant No. ZYYCXTD-C-202004), the National Key R&amp;D Program of China (Grant No. 2021YFF0306500), the Key Research and Development Program of Shaanxi (Grant No. 2020ZDLSF04-05), Natural Science Basic Research Program of Shaanxi (Grant No. 2022JQ-649), Natural Science Basic Research Program of Shaanxi (2023-JC-YB682).</funding-statement></funding-group><counts><fig-count count="7"/><table-count count="5"/><ref-count count="49"/><page-count count="18"/></counts></article-meta></front>
+  <body>
+    <sec sec-type="intro" id="s0001">
+      <title>Introduction</title>
+      <p>In recent years, an increasing number of neuropsychiatric disorders have been shown to be associated with increased brain age. These include traumatic brain injury,<xref rid="cit0001" ref-type="bibr">1</xref> schizophrenia,<xref rid="cit0002" ref-type="bibr">2</xref>,<xref rid="cit0003" ref-type="bibr">3</xref> bipolar disorder,<xref rid="cit0003" ref-type="bibr">3</xref> epilepsy,<xref rid="cit0004" ref-type="bibr">4</xref> Alzheimer’s disease and Parkinson’s disease,<xref rid="cit0005" ref-type="bibr">5</xref> major depressive disorder,<xref rid="cit0006" ref-type="bibr">6</xref>,<xref rid="cit0007" ref-type="bibr">7</xref> dementia<xref rid="cit0008" ref-type="bibr">8</xref> and among others.<xref rid="cit0009" ref-type="bibr">9</xref> Researches indicate that people with these disorders tend to have changes in brain structure and function, exhibiting accelerated brain aging compared to their chronological age (CA). To better understand brain age acceleration, researchers have developed the brain age index (BAI). It represents the discrepancy between an individual’s estimated brain age (BA) and its CA, presenting a potential novel biomarker for age acceleration.<xref rid="cit0010" ref-type="bibr">10</xref> Accurately predicting brain age can provide valuable insights into the risk of cognitive decline, neurological disorders, psychiatric conditions, and even mortality.<xref rid="cit0007" ref-type="bibr">7</xref>,<xref rid="cit0011" ref-type="bibr">11</xref></p>
+      <p>Currently, a common non-invasive approach for estimating BA involves imaging modalities, where machine learning techniques are used to evaluate the extent of brain aging based on imaging features. Traditional approaches often rely on feature-based regression modeling, including the extraction of principal components,<xref rid="cit0012" ref-type="bibr">12</xref> cortical thickness and surface curvature,<xref rid="cit0013" ref-type="bibr">13</xref> as well as the volumes of gray matter, white matter, and cerebrospinal fluid.<xref rid="cit0014" ref-type="bibr">14</xref> These feature extraction methods introduce prior knowledge, which aids in the interpretability and guidance of results. Recently, deep learning approaches have attracted significant interest among researchers. These data-driven methods can extract deep features and reduce the reliance on prior knowledge. Deep neural network models, particularly those based on convolutional neural networks (CNNs), have demonstrated improved accuracy in BA estimation across various studies.<xref rid="cit0015" ref-type="bibr">15–17</xref> However, this approach is limited by its sensitivity disadvantages, as structural brain aging is typically slow and gradual, and the high costs restrict its use for tracking and at-home monitoring of dynamic neural changes. Consequently, it is essential to integrate neural data from other modalities in order to provide a more comprehensive assessment of brain age.</p>
+      <p>As our understanding of aging evolves, new paradigms are being proposed. The analysis of electroencephalogram (EEG) during sleep has become a new method to enhance BAI predictions. This approach focuses on the dynamic and functional aspects of sleep patterns and EEG signals, rather than the structural aspect. This unique approach allows analysis of the intrinsic effects of aging on brain activity. It is also participant-friendly, avoiding the high costs and complexity associated with imaging techniques. Moreover, as EEG and sleep are inherently dynamic, this approach provides a more sensitive assessment of the impact on brain health than neuroimaging, allowing for a timely assessment of the effectiveness and potential risks of interventions.</p>
+      <p>Researchers have achieved significant results in predicting BA using machine learning and deep learning methods applied to sleep EEG data. Zoubi et al proposed a stack-ensemble learning-based model to predict BA from manually extracted features including amplitude domain, range domain, spectral domain, and fractal dimension domain, which resulted in MAE= 6.87 years.<xref rid="cit0018" ref-type="bibr">18</xref> Sun et al employed a publicly available dataset to predict BA from sleep structural features and EEG features, achieving MAEs of 23.3 years and 7.6 years, respectively.<xref rid="cit0019" ref-type="bibr">19</xref> The introduction of deep learning methods significantly improved the BA prediction performance. Yook et al introduced a 3D DenseNet model to analyze multichannel scalograms of EEG and achieved an MAE of 5.4 years.<xref rid="cit0020" ref-type="bibr">20</xref> Brink-Kjaer et al developed a deep framework for age estimation using multiple datasets. The framework performed short-term age estimation of 5-min physiological signals using a CNN model, and integrated overnight results using a long- and short-term memory network, achieving MAEs of 5.8–14.6 years. The MAE using central EEG alone was 6.77 years.<xref rid="cit0021" ref-type="bibr">21</xref></p>
+      <p>However, challenges remain when using sleep EEG for brain age prediction. Firstly, most existing methods for calculating BAI are limited in formulation without model optimization for sleep characteristics. Secondly, these methods were developed on relatively small data sizes or single cohorts, limiting their generalizability and applicability. Finally, compared to other perspectives for assessing brain age, methods using EEG still have room for improvement in accuracy.</p>
+      <p>This study aims to address these challenges by developing a novel multi-flow deep learning model. The model was specifically developed to enhance the accuracy and robustness of brain age estimation from overnight sleep EEGs. The major contributions of this work are presented below.</p>
+      <p>1) Integration of Sleep EEG for Brain Age Estimation: This study utilizes overnight sleep EEG for predicting brain age, which is a dynamic, cost-effective, and suitable for therapeutic interventions approach rather than traditional neuroimaging methods.</p>
+      <p>2) Development of the multi-flow model: We present a multi-flow deep learning architecture for the sleep-specific problem. The model utilizes an attention mechanism with two modalities, EEG features and sleep structure information, to enhance accuracy and robustness.</p>
+      <p>3) Sleep Dynamics Investigation: This study reveals that the stage N2 significantly contributes to accurate brain age prediction and underscores the close relationship between light sleep and accelerated brain aging.</p>
+      <p>4) High Accuracy and Expanded Applicability: The proposed model achieves prediction accuracy comparable to that of neuroimaging techniques. Furthermore, it is capable of detecting accelerated brain aging in populations with psychiatric or neurological disorders, thereby demonstrating its potential clinical utility.</p>
+    </sec>
+    <sec id="s0002">
+      <title>Materials and Methods</title>
+      <sec id="s0002-s2001">
+        <title>Datasets</title>
+        <p>This study utilized data from a total of 8 publicly available cohorts, each encompassing diverse research objectives or populations:
+<list list-type="bullet"><list-item><p>The Apnea, Bariatric surgery, and CPAP (ABC) study focused on comparing the effectiveness of bariatric surgery and CPAP therapy for severe obstructive sleep apnea (OSA) and morbid obesity patients.<xref rid="cit0022" ref-type="bibr">22</xref></p></list-item><list-item><p>The Cleveland Family Study (CFS) investigated sleep apnea within a large family-based context to explore its genetic and environmental determinants.<xref rid="cit0023" ref-type="bibr">23</xref></p></list-item><list-item><p>The Home Positive Airway Pressure (HPAP) study examined the efficacy of home-based portable monitoring for diagnosing and treating OSA compared to laboratory-based PSG.<xref rid="cit0024" ref-type="bibr">24</xref></p></list-item><list-item><p>The Multi-Ethnic Study of Atherosclerosis (MESA) aimed to understand factors associated with cardiovascular disease progression by analyzing sleep patterns across different ethnic groups.<xref rid="cit0025" ref-type="bibr">25</xref></p></list-item><list-item><p>The MrOS Sleep Study explored the relationship between sleep patterns, sleep-disordered breathing, and cognition in elderly men.<xref rid="cit0026" ref-type="bibr">26</xref></p></list-item><list-item><p>The NCH Sleep DataBank (NCHSDB) provided insights into pediatric sleep patterns in children in the United States.<xref rid="cit0027" ref-type="bibr">27</xref></p></list-item><list-item><p>The Sleep Heart Health Study (SHHS) examined sleep-disordered breathing as a risk factor for cardiovascular disease development in a large prospective cohort.<xref rid="cit0028" ref-type="bibr">28</xref></p></list-item><list-item><p>The Wisconsin Sleep Cohort (WSC) is a still ongoing longitudinal study focusing on various sleep disorders, collected in the United States.<xref rid="cit0029" ref-type="bibr">29</xref>,<xref rid="cit0030" ref-type="bibr">30</xref></p></list-item></list></p>
+        <p>These cohorts collectively comprised 18,767 PSG records from 13,616 subjects, with each PSG including EEG recordings from at least two central channels. ABC, MROS, and SHHS, in particular, contribute multiple datasets due to the inclusion of multiple visits from the same subjects. HPAP serves as an independent test set held-out from neural network training. These cohorts can be approved by the National Sleep Research Resource.<xref rid="cit0022" ref-type="bibr">22</xref>,<xref rid="cit0031" ref-type="bibr">31</xref> There are a total of 12 datasets included in these 8 cohorts covering a wide range of age groups, and the <xref rid="f0001" ref-type="fig">Figure 1</xref> visually depicts the distribution of the CAs for each dataset. The demographics and profiles of the included subjects are shown in <xref rid="t0001" ref-type="table">Table 1</xref>.</p>
+      </sec>
+      <sec id="s0002-s2002">
+        <title>Data Pre-Processing and Preparation</title>
+        <p>The raw time series data is composed of six EEG channels (F3, F4, C3, C4, O1, O2, if available) that were filtered (bandpass 0.3–35 Hz), clipped (−1000 to 1000 μV), and resampled (128 Hz). Three channels of EEG were used for model input: frontal, central and occipital regions of the right hemisphere. (The left hemisphere was used as an alternative if signal quality was poor) Missing channels were manually set to zero during training and testing. During training, each EEG inputs underwent various data enhancement techniques: 1) Channel missing, with a 10% probability of randomly masking certain EEG channels with zeros. 2) Channel reversal, with a 10% probability of flipping the polarity of each EEG channel. 3) Gaussian noise, with a 10% probability of being added to the EEG signals as random noise to introduce variability and mimic real-world conditions (noise amplitude = 0–30% of the raw signal).</p>
+        <p>Except for HPAP, the other data were split by subject according to Ref,<xref rid="cit0032" ref-type="bibr">32</xref> into training set, validation set (10%, up to 50, per cohort), and test set (15%, up to 100, per cohort). The split data were mixed among cohorts for model training and evaluation, and HPAP was used as an independent test set solely to evaluate the generalization of the predictive model.</p>
+      </sec>
+      <sec id="s0002-s2003">
+        <title>Two-Flow Prediction: Brain Age Estimation by 5-Minute Epoch</title>
+        <p>The multi-flow sequence learning network proposed in this study uses two scales of modal sequences as inputs: a 5-minute EEG epoch and the hypnodensity throughout the night. In this model, EEG deep features are crucial in estimating brain age, while sleep structural features from hypnodensity enhance the EEG deep features. We intercepted the overnight EEG into 5-minute epochs with 50% overlap as separate samples. The method described in Ref<xref rid="cit0033" ref-type="bibr">33</xref> was utilized for sleep staging and to obtain hypnodensity. The hypnodensity demonstrates the possibilities of sleep stages for each epoch, thereby capturing the dynamic shifts and variability of the sleep structure. By employing a deep feature extraction of hypnodensity, it is possible to generalize beyond manually extracted sleep structural information such as total sleep time (TST), sleep efficiency (SE), or wake after sleep onset (WASO).<xref rid="cit0034" ref-type="bibr">34</xref>
+<xref rid="f0002" ref-type="fig">Figure 2</xref> presents the overall framework and details of the proposed network model.</p>
+        <p>A one-dimensional Swin Transformer neural network is designed for sleep EEG feature extraction. The multi-layered feature pyramid structure inherent in the network model proved helpful in capturing information embedded in EEG features at various scales. For EEG input, the segment embedding is proposed, which involves partitioning the sequence into non-overlapping segments through spaced sampling and projecting them into a high-dimensional space via linear embedding. A trainable vector is incorporated into the input’s channel dimension for position embedding. Four pairs of Swin Transformer layers are employed for feature extraction, encompassing diverse temporal scales. Each pair comprises a window (W-) and a shifted window (SW-) based multi-head self-attention (MSA) module. These modules perform self-attention mapping along the time dimension within the window and feature interactions through the shift window mechanism. Furthermore, we introduce segment merging (SM) to reduce feature dimensionality and preserve sequence information, which is a one-dimensional implementation of patch merging in Swin Transformer.</p>
+        <p>Another one-dimensional neural network is also introduced to extract sleep structure features from hypnodensity, which are used to attentional enhance the abovementioned EEG features. The network is composed of three convolutional residual blocks connected in series and a gated recurrent neural network. It is implemented in parallel with the aforementioned EEG feature extractor, forming two feature extraction flows. The two flows’ outputs utilize a global average pooling layer to remove sequence dependence and maintain channel information. The extracted sleep features z’ are subsequently used to attention-enhance EEG features.</p>
+        <p>To consider the contribution of the sleep structure to the brain age estimation, a gated multimodal fusion method is introduced.<xref rid="cit0035" ref-type="bibr">35</xref> In this method, the interactive attention map of the two modalities is implemented through a bilinear-gating approach, which enables hypnodensity enhancement on the EEG features, the fusion output o(F<sub>H</sub>, F<sub>E</sub>) is calculated as:
+<disp-formula-group><disp-formula id="um0001"><alternatives><graphic xlink:href="NSS-16-879-e0001.jpg" position="float"/><tex-math id="Tex001">\documentclass[12pt]{minimal}
+\usepackage{wasysym}
+\usepackage[substack]{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage[mathscr]{eucal}
+\usepackage{mathrsfs}
+\DeclareFontFamily{T1}{linotext}{}
+\DeclareFontShape{T1}{linotext}{m}{n} {linotext }{}
+\DeclareSymbolFont{linotext}{T1}{linotext}{m}{n}
+\DeclareSymbolFontAlphabet{\mathLINOTEXT}{linotext}
+\begin{document}
+$$Attn\left({{F_H},{F_E}} \right) = U{F_H} \otimes V{F_E},$$
+\end{document}</tex-math></alternatives></disp-formula></disp-formula-group>
+<disp-formula-group><disp-formula id="um0002"><alternatives><graphic xlink:href="NSS-16-879-e0002.jpg" position="float"/><tex-math id="Tex002">\documentclass[12pt]{minimal}
+\usepackage{wasysym}
+\usepackage[substack]{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage[mathscr]{eucal}
+\usepackage{mathrsfs}
+\DeclareFontFamily{T1}{linotext}{}
+\DeclareFontShape{T1}{linotext}{m}{n} {linotext }{}
+\DeclareSymbolFont{linotext}{T1}{linotext}{m}{n}
+\DeclareSymbolFontAlphabet{\mathLINOTEXT}{linotext}
+\begin{document}
+$$o\left({{F_H},{F_E}} \right) = W\left({\lambda \cdot Attn\left({{F_H},{F_E}} \right) + V{F_E}} \right),$$
+\end{document}</tex-math></alternatives></disp-formula></disp-formula-group></p>
+        <p>where <italic toggle="yes">Attn</italic> represents the attention map, F<sub>H</sub> is normalized hypnodensity feature, F<sub>E</sub> is EEG epoch feature, <italic toggle="yes">W, U, V</italic> are weight matrices, λ is a harmonic weight, and the symbol ⨂ represents matrix-vector multiplication. The fusion utilizes information on long-distance sleep dynamics to enhance the constraints on high-dimensional EEG features, enabling more robust brain age estimation. The model takes in the τ-th EEG epoch and the overnight hypnodensity as inputs and produces an estimated brain age value ŷ<sub>τ</sub>, for that epoch. The model is trained individually to minimize the difference between ŷ<sub>τ</sub> and the chronological age <italic toggle="yes">y</italic>.</p>
+      </sec>
+      <sec id="s0002-s2004">
+        <title>Post-Prediction: Ensemble Overnight Brain Age</title>
+        <p>After fine-tuning the two-flow network for epoch prediction, we introduce a new network model to estimate the brain age over the entire night. The potential features <italic toggle="yes">z</italic> are defined as the deep features in the last layer of the two-flow network. These potential features are averaged over the temporal dimensions, preserving channel information. The post-prediction network takes the ensemble of <italic toggle="yes">z</italic> from multiple epochs during the overnight period as input.</p>
+        <p>To capture extended dependencies within the sleep structure, we introduce a two-layer Swin Transformer with window sizes resembling the sleep cycle (90 minutes). For the final step, we apply the gated fusion mentioned above, using <italic toggle="yes">z’</italic> to attentively enhance the sequence feature <italic toggle="yes">z</italic> and generate category predictions with a fully connected network.</p>
+      </sec>
+      <sec id="s0002-s2005">
+        <title>Loss Function</title>
+        <p>The age distribution of the training samples is inhomogeneous, which presents a significant challenge for the regression problem. Given that age is a continuous variable, we proposed the DecadeCE Loss, which transforms the regression problem into an ordered multiclassification problem, with each class spanning 10 years. The DecadeCE Loss samples numerical labels from a Gaussian distribution for each range to obtain class vectors, preventing precision lost. The soft cross-entropy between these vectors and the model output is then calculated. For a given age y, it is first discretized into a distribution that follows the N(<italic toggle="yes">y</italic>, σ), calculated as:
+<disp-formula-group><disp-formula id="um0003"><alternatives><graphic xlink:href="NSS-16-879-e0003.jpg" position="float"/><tex-math id="Tex003">\documentclass[12pt]{minimal}
+\usepackage{wasysym}
+\usepackage[substack]{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage[mathscr]{eucal}
+\usepackage{mathrsfs}
+\DeclareFontFamily{T1}{linotext}{}
+\DeclareFontShape{T1}{linotext}{m}{n} {linotext }{}
+\DeclareSymbolFont{linotext}{T1}{linotext}{m}{n}
+\DeclareSymbolFontAlphabet{\mathLINOTEXT}{linotext}
+\begin{document}
+$$p\left(t \right) ={\mathrm{1\over{\sqrt{2\pi}{\sigma^2}}}\exp\left({-{{{{\left({t-y}\right)}^2}}\over{2{\sigma^2}}}}\right)}$$
+\end{document}</tex-math></alternatives></disp-formula></disp-formula-group></p>
+        <p>where t=5,15,…,95, representing the midpoints of each decade. The numerical <italic toggle="yes">y</italic> value is converted to vector <italic toggle="yes">Y</italic> containing 10 levels of probability as
+<disp-formula-group><disp-formula id="um0004"><alternatives><graphic xlink:href="NSS-16-879-e0004.jpg" position="float"/><tex-math id="Tex004">\documentclass[12pt]{minimal}
+\usepackage{wasysym}
+\usepackage[substack]{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage[mathscr]{eucal}
+\usepackage{mathrsfs}
+\DeclareFontFamily{T1}{linotext}{}
+\DeclareFontShape{T1}{linotext}{m}{n} {linotext }{}
+\DeclareSymbolFont{linotext}{T1}{linotext}{m}{n}
+\DeclareSymbolFontAlphabet{\mathLINOTEXT}{linotext}
+\begin{document}
+$${Y^{\left(t \right)}} = p(t)/ma{x_t}(p(t)).$$
+\end{document}</tex-math></alternatives></disp-formula></disp-formula-group></p>
+        <p>Then, the loss between a target <italic toggle="yes">Y</italic> and a predicted ŷ is computed by weighted cross-entropy, expressed as:
+<disp-formula-group><disp-formula id="um0005"><alternatives><graphic xlink:href="NSS-16-879-e0005.jpg" position="float"/><tex-math id="Tex005">\documentclass[12pt]{minimal}
+\usepackage{wasysym}
+\usepackage[substack]{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage[mathscr]{eucal}
+\usepackage{mathrsfs}
+\DeclareFontFamily{T1}{linotext}{}
+\DeclareFontShape{T1}{linotext}{m}{n} {linotext }{}
+\DeclareSymbolFont{linotext}{T1}{linotext}{m}{n}
+\DeclareSymbolFontAlphabet{\mathLINOTEXT}{linotext}
+\begin{document}
+$$Loss = - {1 \over {10}}\sum\nolimits_t {\left[{{Y^{\left(t \right)}}log\left({{{\hat Y}^{\left(t \right)}}} \right) + \left({1 - {Y^{\left(t \right)}}} \right){\mathrm{log}}\left({1 - {{\hat Y}^{\left(t \right)}}} \right)} \right]}$$
+\end{document}</tex-math></alternatives></disp-formula></disp-formula-group></p>
+        <p>where ŷ<sup>(t)</sup> denotes the predicted vector of age range (t-5:t+5).</p>
+        <p>During model inference, the 10 class outputs of the neural network are passed through the softmax function to obtain their corresponding predictive probabilities, calculated as:
+<disp-formula-group><disp-formula id="um0006"><alternatives><graphic xlink:href="NSS-16-879-e0006.jpg" position="float"/><tex-math id="Tex006">\documentclass[12pt]{minimal}
+\usepackage{wasysym}
+\usepackage[substack]{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage[mathscr]{eucal}
+\usepackage{mathrsfs}
+\DeclareFontFamily{T1}{linotext}{}
+\DeclareFontShape{T1}{linotext}{m}{n} {linotext }{}
+\DeclareSymbolFont{linotext}{T1}{linotext}{m}{n}
+\DeclareSymbolFontAlphabet{\mathLINOTEXT}{linotext}
+\begin{document}
+$$\hat P = softmax\left({\hat Y} \right)$$
+\end{document}</tex-math></alternatives></disp-formula></disp-formula-group></p>
+        <p>Therefore, <inline-formula id="ilm0001"><alternatives><inline-graphic xlink:href="NSS-16-879-e0007.jpg"/><tex-math id="Tex007">\documentclass[12pt]{minimal}
+\usepackage{wasysym}
+\usepackage[substack]{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage[mathscr]{eucal}
+\usepackage{mathrsfs}
+\DeclareFontFamily{T1}{linotext}{}
+\DeclareFontShape{T1}{linotext}{m}{n} {linotext }{}
+\DeclareSymbolFont{linotext}{T1}{linotext}{m}{n}
+\DeclareSymbolFontAlphabet{\mathLINOTEXT}{linotext}
+\begin{document}
+$P= \{ {\hat P^{\left(t \right)}}|t = 5,15, \ldots ,95\}$\end{document}</tex-math></alternatives></inline-formula> is composed of probabilities from 10 classes. We define the ordered median predictive probability as the output BA value of the model to enhance the stability of converting continuous classification results into regression values. It is calculated as follows:
+<disp-formula-group><disp-formula id="um0007"><alternatives><graphic xlink:href="NSS-16-879-e0008.jpg" position="float"/><tex-math id="Tex008">\documentclass[12pt]{minimal}
+\usepackage{wasysym}
+\usepackage[substack]{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage[mathscr]{eucal}
+\usepackage{mathrsfs}
+\DeclareFontFamily{T1}{linotext}{}
+\DeclareFontShape{T1}{linotext}{m}{n} {linotext }{}
+\DeclareSymbolFont{linotext}{T1}{linotext}{m}{n}
+\DeclareSymbolFontAlphabet{\mathLINOTEXT}{linotext}
+\begin{document}
+$$P\left(x \right) = {1 \over {10}}\sum\nolimits_{i = 1}^x {\sum\nolimits_t {{{\hat P}^{\left(t \right)}} \cdot {1_{[t - 5{\mathrm{\lt}}i \le t + 5]}}} }$$
+\end{document}</tex-math></alternatives></disp-formula></disp-formula-group>
+<disp-formula-group><disp-formula id="um0008"><alternatives><graphic xlink:href="NSS-16-879-e0009.jpg" position="float"/><tex-math id="Tex009">\documentclass[12pt]{minimal}
+\usepackage{wasysym}
+\usepackage[substack]{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage[mathscr]{eucal}
+\usepackage{mathrsfs}
+\DeclareFontFamily{T1}{linotext}{}
+\DeclareFontShape{T1}{linotext}{m}{n} {linotext }{}
+\DeclareSymbolFont{linotext}{T1}{linotext}{m}{n}
+\DeclareSymbolFontAlphabet{\mathLINOTEXT}{linotext}
+\begin{document}
+$$BA = {\mathrm{min}}\left({x\mid P\left(x \right) \ge 0.5} \right)$$
+\end{document}</tex-math></alternatives></disp-formula></disp-formula-group></p>
+        <p>where <italic toggle="yes">i</italic> ranges from 1 to 100 in one-year increments, while the indicator function <bold>1</bold> equals one when <italic toggle="yes">i</italic> is within the decadal range of t and zero otherwise. Briefly, in steps of 1 year, the age of the left and right area equivalents of the 10 class probability densities was determined as the predicted BA.</p>
+        <p><xref rid="f0003" ref-type="fig">Figure 3</xref> illustrates the DecadeLoss and the inference process. It demonstrates how the regression problem is converted into a continuous categorical classification problem and how predicted multi-class probabilities are translated into a numerical prediction.</p>
+      </sec>
+      <sec id="s0002-s2006">
+        <title>Training and Evaluation</title>
+        <p>For the epoch prediction neural network training, we used a batch size of 64 EEG and hypnodensity combinations as inputs for one iteration of training, totaling 320,000 iterations. An AdamW<xref rid="cit0036" ref-type="bibr">36</xref> optimizer with a learning rate of 0.001 and cosine decayed to 1e-6 is used. For the post prediction network training, we utilized identical optimizer parameters, set the batch size to 128, and completed 50 iterations of training data.</p>
+        <p>The model’s best MAE on the validation set was used for test evaluation in each training session. The training process consisted of two steps, which took approximately 30 hours and 0.2 hours, respectively, on a workstation with an Intel Core (TM) i9-10900X CPU and NVIDIA RTX 3080 graphics card. It takes about two seconds to estimate overnight brain age.</p>
+      </sec>
+      <sec id="s0002-s2007">
+        <title>Evaluation Metrics and Statistical Analysis</title>
+        <p>The MAE and Pearson correlation (<italic toggle="yes">R</italic>) are used to evaluate the predictive performance of the model across varied age ranges.<xref rid="cit0009" ref-type="bibr">9</xref> They are denoted as:
+<disp-formula-group><disp-formula id="um0009"><alternatives><graphic xlink:href="NSS-16-879-e0010.jpg" position="float"/><tex-math id="Tex010">\documentclass[12pt]{minimal}
+\usepackage{wasysym}
+\usepackage[substack]{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage[mathscr]{eucal}
+\usepackage{mathrsfs}
+\DeclareFontFamily{T1}{linotext}{}
+\DeclareFontShape{T1}{linotext}{m}{n} {linotext }{}
+\DeclareSymbolFont{linotext}{T1}{linotext}{m}{n}
+\DeclareSymbolFontAlphabet{\mathLINOTEXT}{linotext}
+\begin{document}
+$$MAE = {1 \over N}\mathop \sum \limits_{i = 1}^N \left| {{{\hat y}_i} - {y_i}} \right|$$
+\end{document}</tex-math></alternatives></disp-formula></disp-formula-group>
+<disp-formula-group><disp-formula id="um0010"><alternatives><graphic xlink:href="NSS-16-879-e0011.jpg" position="float"/><tex-math id="Tex011">\documentclass[12pt]{minimal}
+\usepackage{wasysym}
+\usepackage[substack]{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage[mathscr]{eucal}
+\usepackage{mathrsfs}
+\DeclareFontFamily{T1}{linotext}{}
+\DeclareFontShape{T1}{linotext}{m}{n} {linotext }{}
+\DeclareSymbolFont{linotext}{T1}{linotext}{m}{n}
+\DeclareSymbolFontAlphabet{\mathLINOTEXT}{linotext}
+\begin{document}
+$$R = {{{{\mathop \sum \nolimits}^}\left({y - \bar y} \right)\left({\hat y- \overline {\hat y} } \right)} \over {\sqrt {{{\mathop \sum \nolimits}^}{{\left({y - \bar y} \right)}^2}{{\mathop \sum \nolimits}^}{{\left({\hat y- \overline {\hat y} } \right)}^2}} }},$$
+\end{document}</tex-math></alternatives></disp-formula></disp-formula-group></p>
+        <p>where <italic toggle="yes">ŷ</italic> and <italic toggle="yes">y</italic> are predicted brain age and chronological age labels, respectively. The BAI is defined as BA-CA and quantifies the extent to which predicted brain age exceeds chronological age.</p>
+        <p>Unless otherwise specified, the results presented in this paper are subject-wise, meaning that they aggregate each individual’s BA assessment with the difference from their CA. Paired t-tests compare model performance on the same data, while independent t-tests and ANOVA assess variations between different datasets or populations.</p>
+      </sec>
+      <sec id="s0002-s2008">
+        <title>Experimental Setup</title>
+        <p>This section outlines the experimental procedures conducted to assess the performance, robustness, and reliability of our model, as well as to investigate the BA and BAI.</p>
+        <sec id="s0002-s2008-s3001">
+          <title>Performance Evaluation</title>
+          <p>To evaluate the performance of the model, three evaluation experiments were conducted. The mixed-cohort evaluation involved training and testing the multiple cohort data, except HPAP, after the aforementioned data splitting. The optimized model was then used for subsequent experimental evaluations. The hold-out evaluation entailed using the optimized model to test it directly on the HPAP data. Finally, the comparative evaluation compared EEG feature extraction performance, introducing four typical deep learning methods for EEG analysis.<xref rid="cit0021" ref-type="bibr">21</xref>,<xref rid="cit0033" ref-type="bibr">33</xref>,<xref rid="cit0037" ref-type="bibr">37</xref>,<xref rid="cit0038" ref-type="bibr">38</xref> These methods represent the most recent mainstream deep frameworks: CNN, CNN+GRU, CNN+LSTM, and Transformer.</p>
+        </sec>
+        <sec id="s0002-s2008-s3002">
+          <title>Ablation Experiments</title>
+          <p>To understand the specific contributions of certain components in our proposed models, we conducted three ablative experiments by removing or replacing them with other approaches.</p>
+          <p>We first take apart proposed multi-flow network taking hypnodensity and EEG epochs separately for brain age prediction. The structure of the networks remains unchanged except that the merging module is replaced by a simple classification header. To simplify the aggregation of overnight estimates from different approaches, we replace the post-prediction model with the estimated mean value of the overnight epoch.</p>
+          <p>Next, to assess the effectiveness of proposed DecadeCE Loss in model training, we compared it to two commonly used regression losses: MSE Loss and Huber Loss. They are calculated as follows:
+<disp-formula-group><disp-formula id="um0011"><alternatives><graphic xlink:href="NSS-16-879-e0012.jpg" position="float"/><tex-math id="Tex012">\documentclass[12pt]{minimal}
+\usepackage{wasysym}
+\usepackage[substack]{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage[mathscr]{eucal}
+\usepackage{mathrsfs}
+\DeclareFontFamily{T1}{linotext}{}
+\DeclareFontShape{T1}{linotext}{m}{n} {linotext }{}
+\DeclareSymbolFont{linotext}{T1}{linotext}{m}{n}
+\DeclareSymbolFontAlphabet{\mathLINOTEXT}{linotext}
+\begin{document}
+$$MSE\,{\mathrm{ }}Loss\left({y,\hat y} \right) = {\mathrm{ }}{\left({{y_i} - {{\hat y}_i}} \right)^2}$$
+\end{document}</tex-math></alternatives></disp-formula></disp-formula-group>
+<disp-formula-group><disp-formula id="um0012"><alternatives><graphic xlink:href="NSS-16-879-e0013.jpg" position="float"/><tex-math id="Tex013">\documentclass[12pt]{minimal}
+\usepackage{wasysym}
+\usepackage[substack]{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage[mathscr]{eucal}
+\usepackage{mathrsfs}
+\DeclareFontFamily{T1}{linotext}{}
+\DeclareFontShape{T1}{linotext}{m}{n} {linotext }{}
+\DeclareSymbolFont{linotext}{T1}{linotext}{m}{n}
+\DeclareSymbolFontAlphabet{\mathLINOTEXT}{linotext}
+\begin{document}
+$$Huber\,Loss\left({{y_i},{{\hat y}_i}} \right) = \left \{ \matrix{ 0.5{\left({{y_i} - {{\hat y}_i}} \right)^2},\,\,\,if\left| {{y_i} - {{\hat y}_i}} \right| \le 5 \hfill \cr 5\left({\left| {{y_i} - {{\hat y}_i}} \right| - 2.5} \right),\,\,\,if\left| {{y_i} - {{\hat y}_i}} \right| \le 5 \hfill \cr} \right.$$
+\end{document}</tex-math></alternatives></disp-formula></disp-formula-group></p>
+          <p>where <italic toggle="yes">y</italic> and ŷ are the CA and predicted values, respectively, and the two comparison losses use the optimizer described in Ref.<xref rid="cit0021" ref-type="bibr">21</xref> To simplify the aggregation of overnight estimates from different approaches, we replace the post-prediction model with the estimated mean value of the overnight epoch.</p>
+          <p>Finally, we investigated the effect of the overnight post-prediction model on brain age prediction, in its place: no processing and overnight averaging.</p>
+        </sec>
+        <sec id="s0002-s2008-s3003">
+          <title>Longitudinal Reliability Evaluation</title>
+          <p>We investigated the longitudinal reliability of proposed brain age prediction model across multiple follow-up visits in datasets SHHS, MROS, and ABC. By analyzing the incremental changes in predicted BA and CA at each visit, we assessed how this model capturing the natural progression of brain aging over time.</p>
+        </sec>
+        <sec id="s0002-s2008-s3004">
+          <title>Investigation of Brain Age Index</title>
+          <p>We explored the relationship between sleep stages and the predictive performance of BA. Here, we defined a 5-minute epoch as a “stage domain”, representing the predominant or most likely sleep stage within its duration, identified by the sleep stage occupying the largest area on the hypnodensity. The ability of each stage domain to estimate brain age was quantified individually without post-prediction.</p>
+          <p>We also investigated the association between specific populations or diseases and the calculated BAI, that is, OSA and psychiatric or neurological disorders on the test set. We used a threshold of 15 on the Apnea Hypopnea Index (AHI) to divide subjects into two groups: no to mild obstructive sleep apnea (NM-OSA), and moderate to severe obstructive sleep apnea (MS-OSA). Furthermore, we divided a portion of the test subjects into two groups: the psychiatric or neurological disorders (PSY) group and the healthy control (HC) group, based on publicly available medical records. This grouping was exclusively performed within the SHHS, CFS, MROS, and WSC cohorts, as only these cohorts provided individual medical records pertaining to neurological or psychiatric conditions. The PSY group consisted subjects with diagnosed Alzheimer’s disease, Parkinson’s disease, cerebrovascular disease, stroke, dementia, attention-deficit disorder, seizure-sleeping disorder, cerebrovascular disease, depression, anxiety, epilepsy, head trauma, or other psychiatric or neurologic disorders. The HC group consisted of subjects who did not report any neurological or psychiatric disorders.</p>
+        </sec>
+      </sec>
+    </sec>
+    <sec id="s0003">
+      <title>Results</title>
+      <sec id="s0003-s2001">
+        <title>Prediction Performance</title>
+        <p>The proposed model was optimized using 17,294 PSG records from 12,514 subjects and validated with 435 PSG records from 305 subjects. The mixed-cohort test set comprises 848 PSG records from 607 subjects, while the hold-out test set includes PSG records from 190 subjects.</p>
+        <p>In the mixed-cohort evaluation, the mean CA in training, validation, and test sets were 64.62 ± 16.12, 57.02 ± 21.47, and 57.77 ± 21.20 years, respectively. ANOVA revealed a significant difference in CA distribution among these sets (p &lt; 0.01), while pairwise t-tests between validation and test sets showed no significant difference (p = 0.55). The model attained a predictive performance of MAE = 4.19 years and R = 0.97 on the test set. <xref rid="f0004" ref-type="fig">Figure 4A</xref> shows the scatterplot of BA vs CA for the test sample on each cohort, along with the correlation within each cohort. According to the test results of a single cohort, the best MAE is for NCHSDB (2.25 years), the worst is for WSC (5.07 years), the best R is for CFS (0.95), and the worst is for NCHSDB (0.42).</p>
+        <p>In the hold-out test set, the mean CA was 46.04 ± 12.03, significantly different from that in the mixed-cohort test set (p &lt; 0.01, <italic toggle="yes">t</italic>-test). The model attained a predictive performance of MAE = 6.18 years and R = 0.78 on this test set. <xref rid="f0004" ref-type="fig">Figure 4B</xref> shows the scatterplot of BA vs CA for the test sample on each cohort, along with their correlation.</p>
+      </sec>
+      <sec id="s0003-s2002">
+        <title>Comparison with Existing Approaches</title>
+        <p>We conduct a comparison by evaluate the performance of our proposed model against recent sleep EEG analyzing approaches in the literature. To maintain fairness, we employ identical EEG channel configurations and input lengths across all models. For non-native brain age prediction frameworks, we utilize the Huber loss, following the methodology outlined in Ref<xref rid="cit0021" ref-type="bibr">21</xref> for model training. Optimization parameters are prioritized to those used in the public projects associated with these models, otherwise they are reconciled according to the hyperparameters used in the models presented in this study. To simplify the aggregation of overnight estimates from different approaches, we replace the post-prediction model with the estimated mean value of the overnight epoch.</p>
+        <p>As shown in <xref rid="t0002" ref-type="table">Table 2</xref>, the proposed method achieves a closer fit to the chronological age than other EEG analysis methods using the same inputs. It achieves the lowest MAE value and a high level of correlations between BA and CA.
+<table-wrap position="float" id="t0001"><label>Table 1</label><caption><p>Demographics and Profiles of Subjects Included from Each Cohort</p></caption><table frame="hsides" rules="groups"><thead><tr><th rowspan="1" colspan="1">Purpose</th><th rowspan="1" colspan="1">Cohort Name</th><th rowspan="1" colspan="1">Subject Num (Train/Valid/Test)</th><th rowspan="1" colspan="1">Subgroup or Visit</th><th rowspan="1" colspan="1">PSG Num</th><th rowspan="1" colspan="1">EEG Length (Minute)</th><th rowspan="1" colspan="1">CA (year)</th><th rowspan="1" colspan="1">Sex % (M/F)</th><th rowspan="1" colspan="1">BMI</th><th rowspan="1" colspan="1">AHI (Events/Hour)</th></tr></thead><tbody><tr><td rowspan="11" colspan="1">Train and evaluation</td><td rowspan="3" colspan="1">ABC</td><td rowspan="3" colspan="1">49 (37/5/7)</td><td rowspan="1" colspan="1">Baseline</td><td rowspan="1" colspan="1">49</td><td rowspan="1" colspan="1">508.5±20.9</td><td rowspan="1" colspan="1">48.8 ± 9.8</td><td rowspan="1" colspan="1">57/43</td><td rowspan="1" colspan="1">38.9±2.9</td><td rowspan="1" colspan="1">40.4±27.8</td></tr><tr><td rowspan="1" colspan="1">Month9</td><td rowspan="1" colspan="1">42</td><td rowspan="1" colspan="1">500.2±13.9</td><td rowspan="1" colspan="1">50.5±9.3</td><td rowspan="1" colspan="1">58/42</td><td rowspan="1" colspan="1">36.3±3.6</td><td rowspan="1" colspan="1">28.8±28.0</td></tr><tr><td rowspan="1" colspan="1">Month18</td><td rowspan="1" colspan="1">40</td><td rowspan="1" colspan="1">502.7±21.7</td><td rowspan="1" colspan="1">51.0±9.3</td><td rowspan="1" colspan="1">62/38</td><td rowspan="1" colspan="1">36.2±4.1</td><td rowspan="1" colspan="1">27.6±21.7</td></tr><tr><td rowspan="1" colspan="1">CFS</td><td rowspan="1" colspan="1">722 (572/50/100)</td><td rowspan="1" colspan="1">Visit5</td><td rowspan="1" colspan="1">722</td><td rowspan="1" colspan="1">593.1±53.6</td><td rowspan="1" colspan="1">41.4±19.4</td><td rowspan="1" colspan="1">45/55</td><td rowspan="1" colspan="1">32.3±9.4</td><td rowspan="1" colspan="1">12.5±17.0</td></tr><tr><td rowspan="1" colspan="1">MESA</td><td rowspan="1" colspan="1">2034 (1884/50/100)</td><td rowspan="1" colspan="1">–</td><td rowspan="1" colspan="1">2034</td><td rowspan="1" colspan="1">634.7±95.5</td><td rowspan="1" colspan="1">69.4±9.1</td><td rowspan="1" colspan="1">46/54</td><td rowspan="1" colspan="1">–</td><td rowspan="1" colspan="1">24.1±19.5</td></tr><tr><td rowspan="2" colspan="1">MROS</td><td rowspan="2" colspan="1">2885 (2735/50/100)</td><td rowspan="1" colspan="1">Visit1</td><td rowspan="1" colspan="1">2885</td><td rowspan="1" colspan="1">647.9±102.2</td><td rowspan="1" colspan="1">76.4±5.5</td><td rowspan="1" colspan="1">100/0</td><td rowspan="1" colspan="1">27.2±3.8</td><td rowspan="1" colspan="1">–</td></tr><tr><td rowspan="1" colspan="1">Visit2</td><td rowspan="1" colspan="1">1001</td><td rowspan="1" colspan="1">783.8±174.9</td><td rowspan="1" colspan="1">81.0±4.4</td><td rowspan="1" colspan="1">100/0</td><td rowspan="1" colspan="1">26.9±3.8</td><td rowspan="1" colspan="1">–</td></tr><tr><td rowspan="1" colspan="1">NCHSDB</td><td rowspan="1" colspan="1">907 (757/50/100)</td><td rowspan="1" colspan="1">Multiple</td><td rowspan="1" colspan="1">982</td><td rowspan="1" colspan="1">454.1±45.1</td><td rowspan="1" colspan="1">16.8±3.8</td><td rowspan="1" colspan="1">52/48</td><td rowspan="1" colspan="1">32.4±12.5</td><td rowspan="1" colspan="1">–</td></tr><tr><td rowspan="2" colspan="1">SHHS</td><td rowspan="2" colspan="1">5713 (5563/50/100)</td><td rowspan="1" colspan="1">Visit1</td><td rowspan="1" colspan="1">5667</td><td rowspan="1" colspan="1">506.0±37.5</td><td rowspan="1" colspan="1">63.1±11.2</td><td rowspan="1" colspan="1">48/52</td><td rowspan="1" colspan="1">28.2±5.1</td><td rowspan="1" colspan="1">18.0±16.1</td></tr><tr><td rowspan="1" colspan="1">Visit2</td><td rowspan="1" colspan="1">2621</td><td rowspan="1" colspan="1">602.0±68.2</td><td rowspan="1" colspan="1">67.6±10.4</td><td rowspan="1" colspan="1">81/19</td><td rowspan="1" colspan="1">28.3±5.0</td><td rowspan="1" colspan="1">18.4±16.3</td></tr><tr><td rowspan="1" colspan="1">WSC</td><td rowspan="1" colspan="1">1116 (966/50/100)</td><td rowspan="1" colspan="1">Multiple</td><td rowspan="1" colspan="1">2534</td><td rowspan="1" colspan="1">459.3±46.3</td><td rowspan="1" colspan="1">62.3±8.5</td><td rowspan="1" colspan="1">54/46</td><td rowspan="1" colspan="1">31.7±7.3</td><td rowspan="1" colspan="1">11.8±16.4</td></tr><tr><td rowspan="1" colspan="1">Hold-out evaluation</td><td rowspan="1" colspan="1">HPAP</td><td rowspan="1" colspan="1">190 (0/0/190)</td><td rowspan="1" colspan="1">Full-night</td><td rowspan="1" colspan="1">190</td><td rowspan="1" colspan="1">465.2±65.6</td><td rowspan="1" colspan="1">46.0±12.0</td><td rowspan="1" colspan="1">52/48</td><td rowspan="1" colspan="1">36.9±9.0</td><td rowspan="1" colspan="1">13.8±18.3</td></tr></tbody></table><table-wrap-foot><fn id="tfn0001"><p><bold>Notes</bold>: ABC, MROS, and SHHS are reported separately with multiple visits.</p></fn><fn id="tfn0002"><p><bold>Abbreviations</bold>: PSG, Polysomnography; CA, chronological age; BMI, Body Mass Index; AHI, Apnea–Hypopnea Index. ABC, the Apnea, Bariatric surgery, and CPAP; CFS, the Cleveland Family Study; MESA, the Multi-Ethnic Study of Atherosclerosis; MROS, the MrOS Sleep Study; NCHSDB, the NCH Sleep DataBank; SHHS, the Sleep Heart Health Study; WSC, the Wisconsin Sleep Cohort; HPAP, the Home Positive Airway Pressure.</p></fn></table-wrap-foot></table-wrap>
+<table-wrap position="float" id="t0002"><label>Table 2</label><caption><p>Comparison of Brain Age Estimates Between EEG Analysis Approaches</p></caption><table frame="hsides" rules="groups"><thead><tr><th rowspan="2" colspan="1">Network Model</th><th rowspan="2" colspan="1">Backbone</th><th colspan="2" rowspan="1">Mixed-Cohort test</th><th colspan="2" rowspan="1">Hold-Out test</th></tr><tr><th rowspan="1" colspan="1">MAE</th><th rowspan="1" colspan="1">R</th><th rowspan="1" colspan="1">MAE</th><th rowspan="1" colspan="1">R</th></tr></thead><tbody><tr><td rowspan="1" colspan="1">Zhang<xref rid="cit0033" ref-type="bibr">33</xref></td><td rowspan="1" colspan="1">ResAttNet</td><td rowspan="1" colspan="1">4.88±4.14</td><td rowspan="1" colspan="1">0.957</td><td rowspan="1" colspan="1">8.73±6.90</td><td rowspan="1" colspan="1">0.601</td></tr><tr><td rowspan="1" colspan="1">TinySleepNet<xref rid="cit0037" ref-type="bibr">37</xref></td><td rowspan="1" colspan="1">CNN+GRU</td><td rowspan="1" colspan="1">5.02±4.41</td><td rowspan="1" colspan="1">0.949</td><td rowspan="1" colspan="1">9.17±7.35</td><td rowspan="1" colspan="1">0.535</td></tr><tr><td rowspan="1" colspan="1">Brink-Kjaer<xref rid="cit0021" ref-type="bibr">21</xref></td><td rowspan="1" colspan="1">MobileNetV2+LSTM</td><td rowspan="1" colspan="1">4.82±3.92</td><td rowspan="1" colspan="1"><bold>0.958</bold></td><td rowspan="1" colspan="1">8.82±7.17</td><td rowspan="1" colspan="1"><bold>0.611</bold></td></tr><tr><td rowspan="1" colspan="1">Pradeepkumar<xref rid="cit0038" ref-type="bibr">38</xref></td><td rowspan="1" colspan="1">Transformer</td><td rowspan="1" colspan="1">5.90±5.61</td><td rowspan="1" colspan="1">0.926</td><td rowspan="1" colspan="1">12.16±8.54</td><td rowspan="1" colspan="1">0.443</td></tr><tr><td rowspan="1" colspan="1"><italic toggle="yes">Proposed</italic></td><td rowspan="1" colspan="1">Swin Transformer</td><td rowspan="1" colspan="1"><bold>4.76±3.94</bold></td><td rowspan="1" colspan="1"><bold>0.958</bold></td><td rowspan="1" colspan="1"><bold>8.51±6.72</bold></td><td rowspan="1" colspan="1">0.608</td></tr></tbody></table><table-wrap-foot><fn id="tfn0003"><p><bold>Note</bold>: Bolded values indicate the closest estimate.</p></fn><fn id="tfn0004"><p><bold>Abbreviation</bold>: MAE, mean absolute error.</p></fn></table-wrap-foot></table-wrap>
+<table-wrap position="float" id="t0003"><label>Table 3</label><caption><p>Comparison Results of Ablated Flow</p></caption><table frame="hsides" rules="groups"><thead><tr><th rowspan="2" colspan="1">Network Flow</th><th colspan="2" rowspan="1">Mixed-Cohort test</th><th colspan="2" rowspan="1">Hold-Out test</th></tr><tr><th rowspan="1" colspan="1">MAE</th><th rowspan="1" colspan="1">R</th><th rowspan="1" colspan="1">MAE</th><th rowspan="1" colspan="1">R</th></tr></thead><tbody><tr><td rowspan="1" colspan="1">EEG epoch only</td><td rowspan="1" colspan="1">4.76±3.94</td><td rowspan="1" colspan="1">0.958</td><td rowspan="1" colspan="1">8.51±6.72</td><td rowspan="1" colspan="1">0.608</td></tr><tr><td rowspan="1" colspan="1">Hypnodensity only</td><td rowspan="1" colspan="1">7.97±8.49</td><td rowspan="1" colspan="1">0.842</td><td rowspan="1" colspan="1">15.59±9.54</td><td rowspan="1" colspan="1">0.451</td></tr><tr><td rowspan="1" colspan="1"><italic toggle="yes">EEG epoch + Hypnodensity</italic></td><td rowspan="1" colspan="1"><bold>4.64±3.84</bold></td><td rowspan="1" colspan="1"><bold>0.960</bold></td><td rowspan="1" colspan="1"><bold>7.94±6.54</bold></td><td rowspan="1" colspan="1"><bold>0.641</bold></td></tr></tbody></table><table-wrap-foot><fn id="tfn0005"><p><bold>Notes</bold>: Bolded values indicate the closest estimate. <italic toggle="yes">Italics</italic> indicate proposed method in this study.</p></fn><fn id="tfn0006"><p><bold>Abbreviation</bold>: MAE, mean absolute error.</p></fn></table-wrap-foot></table-wrap>
+<table-wrap position="float" id="t0004"><label>Table 4</label><caption><p>Comparison Results for Different Loss Functions</p></caption><table frame="hsides" rules="groups"><thead><tr><th rowspan="2" colspan="1">Loss Function</th><th colspan="2" rowspan="1">Mixed-Cohort test</th><th colspan="2" rowspan="1">Hold-Out test</th></tr><tr><th rowspan="1" colspan="1">MAE</th><th rowspan="1" colspan="1">R</th><th rowspan="1" colspan="1">MAE</th><th rowspan="1" colspan="1">R</th></tr></thead><tbody><tr><td rowspan="1" colspan="1">MSE Loss</td><td rowspan="1" colspan="1">5.13±4.27</td><td rowspan="1" colspan="1">0.930</td><td rowspan="1" colspan="1">8.87±6.95</td><td rowspan="1" colspan="1">0.601</td></tr><tr><td rowspan="1" colspan="1">Huber Loss</td><td rowspan="1" colspan="1">5.26±4.44</td><td rowspan="1" colspan="1">0.935</td><td rowspan="1" colspan="1">9.18±7.69</td><td rowspan="1" colspan="1">0.598</td></tr><tr><td rowspan="1" colspan="1"><italic toggle="yes">DecadeCE Loss</italic></td><td rowspan="1" colspan="1"><bold>4.64±3.84</bold></td><td rowspan="1" colspan="1"><bold>0.960</bold></td><td rowspan="1" colspan="1"><bold>7.94±6.54</bold></td><td rowspan="1" colspan="1"><bold>0.641</bold></td></tr></tbody></table><table-wrap-foot><fn id="tfn0007"><p><bold>Notes</bold>: Bolded values indicate the closest estimate. <italic toggle="yes">Italics</italic> indicate proposed method in this study.</p></fn><fn id="tfn0008"><p><bold>Abbreviation</bold>: MAE, mean absolute error.</p></fn></table-wrap-foot></table-wrap>
+<table-wrap position="float" id="t0005"><label>Table 5</label><caption><p>Comparison Results for Different Post-Processing</p></caption><table frame="hsides" rules="groups"><thead><tr><th rowspan="2" colspan="1">Post-Processing</th><th colspan="3" rowspan="1">Mixed-Cohort test</th><th colspan="3" rowspan="1">Hold-Out test</th></tr><tr><th rowspan="1" colspan="1">N<sub>sample</sub></th><th rowspan="1" colspan="1">MAE</th><th rowspan="1" colspan="1">R</th><th rowspan="1" colspan="1">N<sub>sample</sub></th><th rowspan="1" colspan="1">MAE</th><th rowspan="1" colspan="1">R</th></tr></thead><tbody><tr><td rowspan="1" colspan="1">None (by-epoch)</td><td rowspan="1" colspan="1">183,086</td><td rowspan="1" colspan="1">5.50±5.21</td><td rowspan="1" colspan="1">0.933</td><td rowspan="1" colspan="1">35,050</td><td rowspan="1" colspan="1">9.94±8.60</td><td rowspan="1" colspan="1">0.499</td></tr><tr><td rowspan="1" colspan="1">Overnight average</td><td rowspan="1" colspan="1">848</td><td rowspan="1" colspan="1">4.64±3.84</td><td rowspan="1" colspan="1">0.960</td><td rowspan="1" colspan="1">190</td><td rowspan="1" colspan="1">7.94±6.54</td><td rowspan="1" colspan="1">0.641</td></tr><tr><td rowspan="1" colspan="1"><italic toggle="yes">Overnight NN</italic></td><td rowspan="1" colspan="1">848</td><td rowspan="1" colspan="1"><bold>4.19±3.57</bold></td><td rowspan="1" colspan="1"><bold>0.966</bold></td><td rowspan="1" colspan="1">190</td><td rowspan="1" colspan="1"><bold>6.18±5.32</bold></td><td rowspan="1" colspan="1"><bold>0.777</bold></td></tr></tbody></table><table-wrap-foot><fn id="tfn0009"><p><bold>Notes</bold>: Bolded values indicate the closest estimate. Italics indicate proposed method in this study.</p></fn><fn id="tfn0010"><p><bold>Abbreviations</bold>: NN, neural network; MAE, mean absolute error.</p></fn></table-wrap-foot></table-wrap>
+<fig position="float" id="f0001" fig-type="figure"><label>Figure 1</label><caption><p>Distribution of chronological age in the adopted dataset. The “All” row displays the number of individuals aged 1–100 years, grouped in 10-year intervals.</p></caption><graphic xlink:href="NSS-16-879-g0001" content-type="print-only" position="float"/></fig>
+<fig position="float" id="f0002" fig-type="figure"><label>Figure 2</label><caption><p>Neural network structures. (<bold>A</bold>) An overview architecture of the proposed brain age estimation model containing epoch-wise prediction and post-prediction. (<bold>B</bold>) Design of the CNN residual module for extracting sleep features. (<bold>C</bold>) Design of the residual Swin Transformer block for extracting EEG features. (<bold>D</bold>) Design of the attentional mechanism for gated feature fusion from two flows.</p></caption><graphic xlink:href="NSS-16-879-g0002" content-type="print-only" position="float"/></fig>
+<fig position="float" id="f0003" fig-type="figure"><label>Figure 3</label><caption><p>Schematic representation of the proposed DecadeCE Loss and the inferencing results. The regression problem for <italic toggle="yes">y</italic> is initially transformed into a 10-consecutive-category classification problem for the training and inferring of the neural network model. The 10 output categories are converted into the predicted output ŷ by the median probability method.</p></caption><graphic xlink:href="NSS-16-879-g0003" content-type="print-only" position="float"/></fig>
+<fig position="float" id="f0004" fig-type="figure"><label>Figure 4</label><caption><p>Scatterplots of the predicted brain age (BA) plotted against the chronological age (CA) for individual subjects. (<bold>A</bold>) is on a mixed-cohort test set, separated by each cohort. (<bold>B</bold>) is on a hold-out test cohort.</p></caption><graphic xlink:href="NSS-16-879-g0004" content-type="print-only" position="float"/></fig>
+<fig position="float" id="f0005" fig-type="figure"><label>Figure 5</label><caption><p>Longitudinal brain age estimates for three cohorts. (<bold>A-C</bold>) BA and CA comparisons at baseline and at two visits for the same subject. (<bold>D</bold>) Distribution of the increase in brain age from baseline at each visit.</p></caption><graphic xlink:href="NSS-16-879-g0005" content-type="print-only" position="float"/></fig>
+<fig position="float" id="f0006" fig-type="figure"><label>Figure 6</label><caption><p>Correlation of sleep stage domains with brain age estimates. The average overnight results for BA prediction by each sleep stage domain are summarized by subject. (<bold>A</bold>) A histogram and radar plot illustrate the performance of BA estimation using each sleep stage domain, indicating the MAE and correlation R values for BA vs CA. (<bold>B</bold>) A box plot illustrates the differences in predicted BAI for each sleep stage domain. (*: p&lt;0.05, ***: p&lt;0.001).</p></caption><graphic xlink:href="NSS-16-879-g0006" content-type="print-only" position="float"/></fig>
+<fig position="float" id="f0007" fig-type="figure"><label>Figure 7</label><caption><p>Density distributions of Brain Age Index (BAI) among different groups. (<bold>A</bold>) Comparison of individuals with no to mild obstructive sleep apnea (NM-OSA) and moderate to severe obstructive sleep apnea (MS-OSA), showing a non-significant trend in BAI distribution. (<bold>B</bold>) Comparison of individuals with psychiatric or neurological disorders (PSY) compared to healthy controls (HC) highlights significantly higher BAI in PSY subgroup.</p></caption><graphic xlink:href="NSS-16-879-g0007" content-type="print-only" position="float"/></fig></p>
+      </sec>
+      <sec id="s0003-s2003">
+        <title>Ablation Results</title>
+        <p><xref rid="t0003" ref-type="table">Table 3</xref> illustrates the ablation flow analysis results. It demonstrates that the unablated two-flow network performs the best. However, when relying solely on hypnodensity, there is a significant reduction in performance. Using only EEG epoch predictions results in only a slight decrease.</p>
+        <p><xref rid="t0004" ref-type="table">Table 4</xref> compares the loss functions. It shows that the regression results optimized using the proposed DecadeCE loss are stronger than those using the other two losses.</p>
+        <p><xref rid="t0005" ref-type="table">Table 5</xref> presents the results of the post-prediction investigation. Each night comprises approximately 200 samples of 5-minute EEG epochs. Predictions for these samples are made through overnight averaging, resulting in a 1–2 year MAE improvement in fitting performance. Additionally, using neural network-based ensembles instead of direct arithmetic averages significantly improves predictive results.</p>
+      </sec>
+      <sec id="s0003-s2004">
+        <title>Longitudinal Reliability of Brain Age Predicting</title>
+        <p>To assess the longitudinal reliability in estimated brain age, we computed the differences in BA and CA (ΔBA, ΔCA) across the two visits for each subject. Subsequently, we introduced brain age acceleration (BAA=ΔBA-ΔCA), a metric that quantifies the increase in brain age relative to chronological age. The longitudinal reliability results are shown in <xref rid="f0005" ref-type="fig">Figure 5</xref>.</p>
+        <p>For SHHS, 69 subjects on the validation and test sets have multiple visits. The mean chronological age difference ΔCA=CA2-CA1 is 5.57 years (SD=0.71), and the mean brain age difference ΔBA=BA2-BA1 is 5.20 years (SD=3.73). The average BAA is 0.37 years (SD=3.82), and the paired <italic toggle="yes">t</italic>-test shows the increments of BA and CA is not statistical significance (p=0.43).</p>
+        <p>For MROS, 56 subjects on the validation and test sets have multiple visits. The mean chronological age difference ΔCA=CA2-CA1 is 6.48 years (SD=0.86), and the mean brain age difference ΔBA=BA2-BA1 is 2.53 years (SD=2.38). The average BAA is −3.95 years (SD=2.70), indicating the increments of BA and CA have a statistical significance (p=0.43, paired <italic toggle="yes">t</italic>-test).</p>
+        <p>For ABC, 10 subjects on the validation and test sets have multiple visits. The ΔCA intervals between the two visits are both 0.8 years, with a brain age difference of ΔBA=BA2-BA1 of 3.47 years (SD=3.65) for the first interval, and a brain age difference of ΔBA=BA3-BA2 of 0.86 years (SD=3.05) for the second interval. The mean BAA for the two intervals of visits is 2.66 years (SD=3.82, p&lt;0.01 in paired <italic toggle="yes">t</italic>-test) and 0.08 years (SD=3.01, p=0.38 in paired <italic toggle="yes">t</italic>-test), respectively, demonstrating a significant difference between the increments of BA and CA for the first interval, but not for the second interval.</p>
+      </sec>
+      <sec id="s0003-s2005">
+        <title>Correlation Between Sleep Stage and Brain Age Index</title>
+        <p>We investigated the relationship between BA (BAI) and sleep stage domains. As shown in <xref rid="f0006" ref-type="fig">Figure 6A</xref>, compared to the overnight averaging, brain age estimation using only the N2 domain is closer to chronological age, whereas on the Wake and REM domains, the model exhibits a decrease in fitting ability.</p>
+        <p>Additionally, we conducted statistical analyses to investigate changes in BAI estimated by various sleep stages relative to baseline. As shown in <xref rid="f0006" ref-type="fig">Figure 6B</xref>, the Wake and light sleep domains provide accelerated aging estimates, and the deep sleep and REM domains provide decelerated aging estimates.</p>
+      </sec>
+      <sec id="s0003-s2006">
+        <title>Correlation Between Disease and Brain Age Index</title>
+        <p>We investigated the statistical differences between BAI in subgroups: NM-OSA (n = 401) vs MS-OSA (n = 201), and PSY (n = 246) vs HC (n = 370), where n represents the number of subjects in each subgroup. The results are presented in <xref rid="f0007" ref-type="fig">Figure 7</xref>.</p>
+        <p>The mean BAI of NM-OSA is 0.5 years higher than that of MS-OSA, no significant difference (P&gt;0.05, <italic toggle="yes">t</italic>-test). Furthermore, the model predicted a MAE of 4.41 years and a BA and CA correlation of 0.92 in the NM-OSA group, whereas in the MS-OSA group, the MAE was larger at 4.84 years and the correlation was smaller at 0.90.</p>
+        <p>The PSY group demonstrated the mean BAI that exceeded the HC group by 1.27 years (P&lt;0.001, <italic toggle="yes">t</italic>-test). Furthermore, Furthermore, the model predicted a MAE of 4.05 years and the correlation of 0.927 in the HC group, whereas in the PSY group, the MAE was larger at 4.87 years and the correlation was comparable at 0.928.</p>
+      </sec>
+    </sec>
+    <sec id="s0004">
+      <title>Discussion</title>
+      <sec id="s0004-s2001">
+        <title>Brain Age from Overnight EEG</title>
+        <p>This study presents an innovative deep learning-based method for estimating brain age using overnight EEG recordings, capturing changes in brain activity patterns during sleep. Extracting features from sleep EEG is a non-invasive, participant-friendly approach that offers several advantages over both neuroimaging-based and waking EEG-based methods.</p>
+        <p>Compared to brain age estimation methods developed with structural MRI data, EEG-based methods lack highly intuitive features such as cortical thickness and brain volume.<xref rid="cit0039" ref-type="bibr">39</xref> However, EEG-based brain age estimation has several unique advantages. Previous research, such as that by Muehlroth and Werkle-Bergner, has highlighted significant correlations between sleep characteristics (like slow wave power and spindle wave frequency) and age.<xref rid="cit0040" ref-type="bibr">40</xref> EEG-based approach has higher sensitivity compared to neuroimaging-based brain age measures and can provide timely feedback for interventions. Moreover, EEG is a more dynamic and cost-effective method that can be applied in various clinical and home monitoring settings.</p>
+        <p>Compared to using waking resting-state or task-state EEG to analyze brain age, sleep EEG has several distinct advantages: 1) Rich Information: Sleep and aging are closely related, and sleep EEG contains richer potential information revealing brain aging.<xref rid="cit0041" ref-type="bibr">41</xref> 2) Natural and Stable Reflection: Sleep EEG signals are acquired in the natural sleep state, providing a more realistic and stable reflection of brain activity.<xref rid="cit0042" ref-type="bibr">42</xref> 3) Extended Signal Duration: Sleep EEG typically provides a longer time range of signals, with a large number of EEG epochs helping to train more robust models.</p>
+        <p>In addition to sleep EEG, sleep structure information also contains indicators of accelerated brain aging. A recent study has accurately modeled sleep dynamics using 3-second mini-epochs and predicted brain aging using overnight sleep features.<xref rid="cit0043" ref-type="bibr">43</xref> Another study demonstrated the correlation between sleep structure and mortality.<xref rid="cit0041" ref-type="bibr">41</xref></p>
+        <p>In this work, we have innovatively utilized both sleep structure information and EEG segments for modeling. By leveraging the powerful representational capabilities of deep neural networks across multiple time scales and the enhanced effects of our multi-flow fusion algorithm, we have achieved a more accurate fit in brain age estimation.</p>
+      </sec>
+      <sec id="s0004-s2002">
+        <title>Performance of Proposed Model</title>
+        <p>The machine learning model proposed in this study is a deep artificial neural network using multi-flow learning, consisting of three key modules: sleep feature extraction module, EEG feature extraction module and fusion prediction module.</p>
+        <p>For the two feature extractors, which are the two flows of the model, they input data from two complementary modalities: 5-minute epoch information and sleep structure information. A previous study revealed a significantly greater contribution from EEG epoch information compared to sleep structure information (MAE=7.8 years vs MAE=23.3 years).<xref rid="cit0019" ref-type="bibr">19</xref> Our ablation experiments corroborated this observation, also validating the contribution of multimodality compared to unimodality to the performance of model assessment. The EEG features were extracted from 5-minute segments. This duration strikes a balance between capturing sufficient information and managing computational demands. It effectively captures both stable and transitional sleep states and is a commonly used configuration in deep learning-based EEG studies.<xref rid="cit0021" ref-type="bibr">21</xref>,<xref rid="cit0044" ref-type="bibr">44</xref>,<xref rid="cit0045" ref-type="bibr">45</xref></p>
+        <p>For the fusion module, we introduced the gated fusion method to allow sleep structure information to supervise and augment the EEG. We also implemented a two-phase optimization approach inspired by Ref.<xref rid="cit0021" ref-type="bibr">21</xref> This approach tackles the computational challenges arising from extensive parameterization in the end-to-end learning process of overnight recordings. The two phases involve epoch prediction, which estimates BA from 5-minute epochs, and post-prediction, which estimates BA from overnight deep features. An ablation experiment confirmed the enhancement of overnight-based post-prediction for brain age estimation.</p>
+        <p>The publicly available databases exhibit an uneven age distribution, with a noticeable vacancy in the 20–40 age range. This could introduce potential pitfalls in pattern recognition tasks, such as overfitting to oversampled age groups in regression or neglecting the vacancy range in classification. To address these challenges, we introduced the DecadeCE loss, which effectively mitigates these issues. For age vacancy, we applied a Gaussian-based soft cross-entropy loss. This approach enhances the influence of labels within the gap range and avoids the imbalance problem that can arise due to age vacancy undersampling. When converting classification probabilities into continuous brain age (BA) values, we utilized the median probability method. Compared to traditional methods based on maximum probability or weighted average probability, this approach maintains regression accuracy and is more robust in boundary cases. For instance, when there is a vacancy in the predicted ten classes, this method can output BA within the vacancy with a lower probability. In general, the proposed DecadeCE loss demonstrated superior performance compared to the MSE and Huber loss functions, as evidenced by the results of our ablation experiments.</p>
+        <p>Furthermore, our proposed method achieved compelling results across diverse cohorts. On a mixed cohort dataset, our model attained an MAE of 4.19 years and an R of 0.97, outperforming existing multi-cohort studies.<xref rid="cit0019" ref-type="bibr">19</xref>,<xref rid="cit0021" ref-type="bibr">21</xref> Notably, on the unseen HPAP cohort, our method achieved an MAE of 6.18 years and an R of 0.78, showcasing competitive performance compared to benchmarks (MAE=8.16, R=0.78) integrating additional physiological signals like electromyogram and electrocardiogram.<xref rid="cit0021" ref-type="bibr">21</xref> These outcomes underscore the adaptability and effectiveness of our approach in varied clinical settings.</p>
+      </sec>
+      <sec id="s0004-s2003">
+        <title>Estimated Brain Age</title>
+        <p>Our proposed model achieved the best predictive performance on mixed-cohorts, with an MAE of 4.19 years and a correlation coefficient of 0.97 for brain age and chronological age, as demonstrated through multiple model comparisons. Our brain age estimation outperformed other EEG-based studies, reducing errors by more than 1 year and reaching the level of neuroimaging accuracy.<xref rid="cit0010" ref-type="bibr">10</xref>,<xref rid="cit0046" ref-type="bibr">46</xref>,<xref rid="cit0047" ref-type="bibr">47</xref></p>
+        <p>In the longitudinal reliability assessment, our proposed model exhibited distinct trends across three cohorts. In the SHHS cohort, the mean ΔBA from two visits showed no statistically significant difference from ΔCA, indicating a comparable rate of brain aging to natural aging. This is consistent with similar findings from a previous study on brain age estimation using the SHHS with internal training.<xref rid="cit0019" ref-type="bibr">19</xref> Conversely, in the MROS cohort, although BA at the second visit showed a significant increase from baseline, ΔBA was significantly smaller than ΔCA. Given that MROS represents the oldest cohort with a concentrated age range, possible explanations include: 1) age boundary effects rendering the model insensitive to brain aging, 2) health status bias due to survivorship bias, or 3) treatment or other physiological factors. The ABC cohort was studied in a smaller sample with low statistical power, and its individuals had high correlations between BA and CA at three visits and excessive ΔBA at the first two visits.</p>
+        <p>Examining BA estimates across individual sleep stages, we observed that prediction accuracy solely based on N2 sleep outperformed the accuracy obtained from averaging overnight epochs. This discrepancy underscores the significance of the post-prediction based on neural network models. Stage N2, being a most prevalent sleep stage, extracts a wealth of information in brain age estimation from sleep electroencephalography. An interesting observation regarding the BAI is the association of deep sleep and REM sleep with decelerated aging, while Wake and light sleep correlate with accelerated aging. This aligns intuitively with sleep dynamics, as aging sleep exhibits fewer N3 and REM period EEG connections, while various diseases manifest in sleep fragmentation.<xref rid="cit0048" ref-type="bibr">48</xref>,<xref rid="cit0049" ref-type="bibr">49</xref></p>
+        <p>We also examined possible associations between sleep disorders and BAI, and between psychiatric or neurological disorders and BAI. As reported in a single cohort study, a mean BAI difference of +2.9 years was found in people with OSA compared to healthy sleepers.<xref rid="cit0020" ref-type="bibr">20</xref> However, this association was not found in our work and in another study on multiple cohorts, suggesting an association between AHI and CA and BA, but not BAI.<xref rid="cit0019" ref-type="bibr">19</xref></p>
+        <p>In accordance with previous reports, our study has demonstrated a positive correlation between psychiatric or neurological disorders and BAI.<xref rid="cit0002" ref-type="bibr">2</xref> Our results indicate that individuals in the PSY group exhibited an average of 1.27 years higher BAI than the HC group, a difference that reached statistical significance. Although this discrepancy was less than that observed in a comparable study (+4 years),<xref rid="cit0019" ref-type="bibr">19</xref> we attribute this variance to differences in the PSY inclusion criteria and the use of mixed-cohort datasets, which may have refined the model but mitigated this effect to some extent.</p>
+      </sec>
+    </sec>
+    <sec id="s0005">
+      <title>Limitations and Future Work</title>
+      <p>Although the proposed model achieved better BA predictive performance compared to similar studies in independent cohort evaluation, however, the variation between cohorts has a non-negligible impact on accurate BA estimation. To increase the robustness of the model, it is necessary to adopt more diverse PSG recordings from different populations, devices, and acquisition conditions. Furthermore, due to the constraints of utilizing public cohorts, this study lacked sufficient medical information to support a more nuanced brain disease-related assessment.</p>
+    </sec>
+    <sec id="s0006">
+      <title>Conclusion</title>
+      <p>This study introduces a novel artificial neural network model for predicting brain age using overnight sleep EEG. The model utilizes the one-dimensional Swin Transformer to enable efficient extraction of complex patterns at multiple time scales from sleep EEG signals. This multi-flow network can fuse hypnogram and EEG information to estimate brain age from multiple perspectives of sleep dynamics. To address the challenges posed by the inhomogeneous age distribution in the dataset, we propose the DecadeCE Loss function, which enhances the model’s ability to accurately predict brain age across a range of ages.</p>
+      <p>Trained and evaluated on more than 18,000 overnight PSG recordings, the proposed model demonstrates a robust measurement of brain age, achieving age prediction at the neuroimaging level. The study validates the model’s sensitivity to aging through a longitudinal investigation. The estimated BAI showed significant differences between psychiatric or neurological disorders and healthy individuals, demonstrating that diseased individuals have stronger brain aging effects. These achievements demonstrate the potential of EEG in predicting brain age, offering a non-invasive and accessible method for evaluating brain aging. The code for this work has been uploaded on <underline><ext-link xlink:href="https://github.com/dizhang-xdu/brain-age" ext-link-type="uri">https://github.com/dizhang-xdu/brain-age</ext-link></underline> and is publicly available.</p>
+    </sec>
+  </body>
+  <back>
+    <ack>
+      <title>Acknowledgments</title>
+      <p>We would like to thank the National Sleep Research Resources (<underline><ext-link xlink:href="https://www.sleepdata.org" ext-link-type="uri">https://www.sleepdata.org</ext-link></underline>) team for their work in collecting, organizing the PSG data. The National Sleep Research Resource was supported by the National Heart, Lung, and Blood Institute (R24 HL114473, 75N92019R002).</p>
+      <p>Regarding the data provider, the Apnea, Bariatric surgery, and CPAP study (ABC Study) was supported by National Institutes of Health grants R01HL106410 and K24HL127307. Philips Respironics donated the CPAP machines and supplies used in the perioperative period for patients undergoing bariatric surgery. The Cleveland Family Study (CFS) was supported by grants from the National Institutes of Health (HL46380, M01 RR00080-39, T32- HL07567, RO1-46380). The Home Positive Airway Pressure study (HomePAP) was supported by the American Sleep Medicine Foundation 38- PM-07 Grant: Portable Monitoring for the Diagnosis and Management of OSA. The Multi-Ethnic Study of Atherosclerosis (MESA) Sleep Ancillary study was funded by NIH-NHLBI Association of Sleep Disorders with Cardiovascular Health Across Ethnic Groups (RO1 HL098433). MESA is supported by NHLBI funded contracts HHSN268201500003I, N01-HC-95159, N01-HC-95160, N01-HC-95161, N01-HC-95162, N01-HC-95163, N01-HC-95164, N01-HC-95165, N01-HC-95166, N01-HC-95167, N01-HC-95168 and N01-HC-95169 from the National Heart, Lung, and Blood Institute, and by cooperative agreements UL1-TR-000040, UL1-TR-001079, and UL1-TR-001420 funded by NCATS. The National Heart, Lung, and Blood Institute provided funding for the ancillary MrOS Sleep Study, “Outcomes of Sleep Disorders in Older Men”, under the following grant numbers: R01 HL071194, R01 HL070848, R01 HL070847, R01 HL070842, R01 HL070841, R01 HL070837, R01 HL070838, and R01 HL070839. NCH Sleep DataBank was supported by the National Institute of Biomedical Imaging and Bioengineering of the National Institutes of Health under Award Number R01EB025018. The Sleep Heart Health Study (SHHS) was supported by National Heart, Lung, and Blood Institute cooperative agreements U01HL53916 (University of California, Davis), U01HL53931 (New York University), U01HL53934 (University of Minnesota), U01HL53937 and U01HL64360 (Johns Hopkins University), U01HL53938 (University of Arizona), U01HL53940 (University of Washington), U01HL53941 (Boston University), and U01HL63463 (Case Western Reserve University). This Wisconsin Sleep Cohort Study was supported by the US National Institutes of Health, National Heart, Lung, and Blood Institute (R01HL62252), National Institute on Aging (R01AG036838, R01AG058680), and the National Center for Research Resources (1UL1RR025011).</p>
+      <p>In accordance with Article 32, Paragraph 1 of the “Ethical Review Measures for Life Sciences and Medical Research Involving Human Beings”, as promulgated by the National Health Commission of the People’s Republic of China, research using lawfully obtained publicly available data may be exempt from ethical review. All data used in this study were obtained from publicly available data approved from the NSRR, thus exempting it from approval. Please refer to <underline><ext-link xlink:href="https://www.gov.cn/zhengce/zhengceku/2023-02/28/content_5743658.htm" ext-link-type="uri">https://www.gov.cn/zhengce/zhengceku/2023-02/28/content_5743658.htm</ext-link></underline> for more information.</p>
+    </ack>
+    <sec sec-type="COI-statement" id="s0007">
+      <title>Disclosure</title>
+      <p>The authors report no conflicts of interest in this work.</p>
+    </sec>
+    <ref-list>
+      <title>References</title>
+      <ref id="cit0001">
+        <label>1.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Cole</surname>
+<given-names>JH</given-names></string-name>, <string-name><surname>Leech</surname>
+<given-names>R</given-names></string-name>, <string-name><surname>Sharp</surname>
+<given-names>DJ</given-names></string-name>. <article-title>Prediction of brain age suggests accelerated atrophy after traumatic brain injury</article-title>. <source><italic toggle="yes">Ann Neurol</italic></source>. <year>2015</year>;<volume>77</volume>(<issue>4</issue>):<fpage>571</fpage>–<lpage>581</lpage>. doi:<pub-id pub-id-type="doi">10.1002/ana.24367</pub-id><pub-id pub-id-type="pmid">25623048</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0002">
+        <label>2.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Shahab</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Mulsant</surname>
+<given-names>BH</given-names></string-name>, <string-name><surname>Levesque</surname>
+<given-names>ML</given-names></string-name>, et al. <article-title>Brain structure, cognition, and brain age in schizophrenia, bipolar disorder, and healthy controls</article-title>. <source><italic toggle="yes">Neuropsychopharmacology</italic></source>. <year>2019</year>;<volume>44</volume>(<issue>5</issue>):<fpage>898</fpage>–<lpage>906</lpage>. doi:<pub-id pub-id-type="doi">10.1038/s41386-018-0298-z</pub-id><pub-id pub-id-type="pmid">30635616</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0003">
+        <label>3.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Tønnesen</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Kaufmann</surname>
+<given-names>T</given-names></string-name>, <string-name><surname>de Lange</surname>
+<given-names>AMG</given-names></string-name>, et al. <article-title>Brain Age Prediction Reveals Aberrant Brain White Matter in Schizophrenia and Bipolar Disorder: a Multisample Diffusion Tensor Imaging Study</article-title>. <source><italic toggle="yes">Biol Psychiatry Cogn Neurosci Neuroimaging</italic></source>. <year>2020</year>;<volume>5</volume>(<issue>12</issue>):<fpage>1095</fpage>–<lpage>1103</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.bpsc.2020.06.014</pub-id><pub-id pub-id-type="pmid">32859549</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0004">
+        <label>4.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Pardoe</surname>
+<given-names>HR</given-names></string-name>, <string-name><surname>Cole</surname>
+<given-names>JH</given-names></string-name>, <string-name><surname>Blackmon</surname>
+<given-names>K</given-names></string-name>, <string-name><surname>Thesen</surname>
+<given-names>T</given-names></string-name>, <string-name><surname>Kuzniecky</surname>
+<given-names>R</given-names></string-name>. <article-title>Structural brain changes in medically refractory focal epilepsy resemble premature brain aging</article-title>. <source><italic toggle="yes">Epilepsy Res</italic></source>. <year>2017</year>;<volume>133</volume>:<fpage>28</fpage>–<lpage>32</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.eplepsyres.2017.03.007</pub-id><pub-id pub-id-type="pmid">28410487</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0005">
+        <label>5.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Vanni</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Colini Baldeschi</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Zattoni</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Legname</surname>
+<given-names>G</given-names></string-name>. <article-title>Brain aging: a Ianus ‐faced player between health and neurodegeneration</article-title>. <source><italic toggle="yes">J Neurosci Res</italic></source>. <year>2020</year>;<volume>98</volume>(<issue>2</issue>):<fpage>299</fpage>–<lpage>311</lpage>. doi:<pub-id pub-id-type="doi">10.1002/jnr.24379</pub-id><pub-id pub-id-type="pmid">30632202</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0006">
+        <label>6.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Han</surname>
+<given-names>LKM</given-names></string-name>, <string-name><surname>Dinga</surname>
+<given-names>R</given-names></string-name>, <string-name><surname>Hahn</surname>
+<given-names>T</given-names></string-name>, et al. <article-title>Brain aging in major depressive disorder: results from the ENIGMA major depressive disorder working group</article-title>. <source><italic toggle="yes">Mol Psychiatry</italic></source>. <year>2020</year>. doi:<pub-id pub-id-type="doi">10.1038/s41380-020-0754-0</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0007">
+        <label>7.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Wu</surname>
+<given-names>W</given-names></string-name>, <string-name><surname>Zhang</surname>
+<given-names>Y</given-names></string-name>, <string-name><surname>Jiang</surname>
+<given-names>J</given-names></string-name>, et al. <article-title>An electroencephalographic signature predicts antidepressant response in major depression</article-title>. <source><italic toggle="yes">Nat Biotechnol</italic></source>. <year>2020</year>;<volume>38</volume>(<issue>4</issue>):<fpage>439</fpage>–<lpage>447</lpage>. doi:<pub-id pub-id-type="doi">10.1038/s41587-019-0397-3</pub-id><pub-id pub-id-type="pmid">32042166</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0008">
+        <label>8.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Ye</surname>
+<given-names>E</given-names></string-name>, <string-name><surname>Sun</surname>
+<given-names>H</given-names></string-name>, <string-name><surname>Leone</surname>
+<given-names>MJ</given-names></string-name>, et al. <article-title>Association of Sleep Electroencephalography-Based Brain Age Index With Dementia</article-title>. <source><italic toggle="yes">JAMA Network Open</italic></source>. <year>2020</year>;<volume>3</volume>(<issue>9</issue>):<fpage>e2017357</fpage>. doi:<pub-id pub-id-type="doi">10.1001/jamanetworkopen.2020.17357</pub-id><pub-id pub-id-type="pmid">32986106</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0009">
+        <label>9.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>de Lange</surname>
+<given-names>AMG</given-names></string-name>, <string-name><surname>Anatürk</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Rokicki</surname>
+<given-names>J</given-names></string-name>, et al. <article-title>Mind the gap: performance metric evaluation in brain-age prediction</article-title>. <source><italic toggle="yes">Hum Brain Mapp</italic></source>. <year>2022</year>;<volume>43</volume>(<issue>10</issue>):<fpage>3113</fpage>–<lpage>3129</lpage>. doi:<pub-id pub-id-type="doi">10.1002/hbm.25837</pub-id><pub-id pub-id-type="pmid">35312210</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0010">
+        <label>10.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Cole</surname>
+<given-names>JH</given-names></string-name>, <string-name><surname>Franke</surname>
+<given-names>K</given-names></string-name>. <article-title>Predicting Age Using Neuroimaging: innovative Brain Ageing Biomarkers</article-title>. <source><italic toggle="yes">Trends Neurosci</italic></source>. <year>2017</year>;<volume>40</volume>(<issue>12</issue>):<fpage>681</fpage>–<lpage>690</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.tins.2017.10.001</pub-id><pub-id pub-id-type="pmid">29074032</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0011">
+        <label>11.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Leone</surname>
+<given-names>MJ</given-names></string-name>, <string-name><surname>Sun</surname>
+<given-names>H</given-names></string-name>, <string-name><surname>Boutros</surname>
+<given-names>CL</given-names></string-name>, et al. <article-title>HIV increases sleep-based brain age despite antiretroviral therapy</article-title>. <source><italic toggle="yes">Sleep</italic></source>. <year>2021</year>;<volume>44</volume>(<issue>8</issue>):<fpage>1</fpage>–<lpage>32</lpage>. doi:<pub-id pub-id-type="doi">10.1093/sleep/zsab058</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0012">
+        <label>12.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Franke</surname>
+<given-names>K</given-names></string-name>, <string-name><surname>Ziegler</surname>
+<given-names>G</given-names></string-name>, <string-name><surname>Klöppel</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Gaser</surname>
+<given-names>C</given-names></string-name>. <article-title>Alzheimer’s Disease Neuroimaging Initiative. Estimating the age of healthy subjects from T1-weighted MRI scans using kernel methods: exploring the influence of various parameters</article-title>. <source><italic toggle="yes">Neuroimage</italic></source>. <year>2010</year>;<volume>50</volume>(<issue>3</issue>):<fpage>883</fpage>–<lpage>892</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.neuroimage.2010.01.005</pub-id><pub-id pub-id-type="pmid">20070949</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0013">
+        <label>13.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Wang</surname>
+<given-names>J</given-names></string-name>, <string-name><surname>Li</surname>
+<given-names>W</given-names></string-name>, <string-name><surname>Miao</surname>
+<given-names>W</given-names></string-name>, <string-name><surname>Dai</surname>
+<given-names>D</given-names></string-name>, <string-name><surname>Hua</surname>
+<given-names>J</given-names></string-name>, <string-name><surname>He</surname>
+<given-names>H</given-names></string-name>. <article-title>Age estimation using cortical surface pattern combining thickness with curvatures</article-title>. <source><italic toggle="yes">Med Biol Eng Comput</italic></source>. <year>2014</year>;<volume>52</volume>(<issue>4</issue>):<fpage>331</fpage>–<lpage>341</lpage>. doi:<pub-id pub-id-type="doi">10.1007/s11517-013-1131-9</pub-id><pub-id pub-id-type="pmid">24395657</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0014">
+        <label>14.</label>
+        <mixed-citation publication-type="confproc"><string-name><surname>Kondo</surname>
+<given-names>C</given-names></string-name>, <string-name><surname>Ito</surname>
+<given-names>K</given-names></string-name>, <string-name><surname>Wu</surname>
+<given-names>K</given-names></string-name>, et al. <article-title>An age estimation method using brain local features for T1-weighted images</article-title>. In: <conf-name>2015 37th Annual International Conference of the IEEE Engineering in Medicine and Biology Society (EMBC)</conf-name>. <publisher-name>IEEE</publisher-name>; <year>2015</year>:<fpage>666</fpage>–<lpage>669</lpage>. doi:<pub-id pub-id-type="doi">10.1109/EMBC.2015.7318450</pub-id>.</mixed-citation>
+      </ref>
+      <ref id="cit0015">
+        <label>15.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Jonsson</surname>
+<given-names>BA</given-names></string-name>, <string-name><surname>Bjornsdottir</surname>
+<given-names>G</given-names></string-name>, <string-name><surname>Thorgeirsson</surname>
+<given-names>TE</given-names></string-name>, et al. <article-title>Brain age prediction using deep learning uncovers associated sequence variants</article-title>. <source><italic toggle="yes">Nat Commun</italic></source>. <year>2019</year>;<volume>10</volume>(<issue>1</issue>):<fpage>1</fpage>–<lpage>10</lpage>. doi:<pub-id pub-id-type="doi">10.1038/s41467-019-13163-9</pub-id><pub-id pub-id-type="pmid">30602773</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0016">
+        <label>16.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Bashyam</surname>
+<given-names>VM</given-names></string-name>, <string-name><surname>Erus</surname>
+<given-names>G</given-names></string-name>, <string-name><surname>Doshi</surname>
+<given-names>J</given-names></string-name>, et al. <article-title>MRI signatures of brain age and disease over the lifespan based on a deep brain network and 14 468 individuals worldwide</article-title>. <source><italic toggle="yes">Brain</italic></source>. <year>2020</year>;<volume>143</volume>(<issue>7</issue>):<fpage>2312</fpage>–<lpage>2324</lpage>. doi:<pub-id pub-id-type="doi">10.1093/brain/awaa160</pub-id><pub-id pub-id-type="pmid">32591831</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0017">
+        <label>17.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Ning</surname>
+<given-names>K</given-names></string-name>, <string-name><surname>Duffy</surname>
+<given-names>BA</given-names></string-name>, <string-name><surname>Franklin</surname>
+<given-names>M</given-names></string-name>, et al. <article-title>Improving brain age estimates with deep learning leads to identification of novel genetic factors associated with brain aging</article-title>. <source><italic toggle="yes">Neurobiol Aging</italic></source>. <year>2021</year>;<volume>105</volume>:<fpage>199</fpage>–<lpage>204</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.neurobiolaging.2021.03.014</pub-id><pub-id pub-id-type="pmid">34098431</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0018">
+        <label>18.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Zoubi Al</surname>
+<given-names>O</given-names></string-name>, <string-name><surname>Wong</surname>
+<given-names>CK</given-names></string-name>, <string-name><surname>Kuplicki</surname>
+<given-names>RT</given-names></string-name>, et al. <article-title>Predicting age from brain EEG signals-a machine learning approach</article-title>. <source><italic toggle="yes">Front Aging Neurosci</italic></source>. <year>2018</year>;<volume>10</volume>(<issue>JUL</issue>):<fpage>1</fpage>–<lpage>12</lpage>. doi:<pub-id pub-id-type="doi">10.3389/fnagi.2018.00184</pub-id><pub-id pub-id-type="pmid">29403371</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0019">
+        <label>19.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Sun</surname>
+<given-names>H</given-names></string-name>, <string-name><surname>Paixao</surname>
+<given-names>L</given-names></string-name>, <string-name><surname>Oliva</surname>
+<given-names>JT</given-names></string-name>, et al. <article-title>Brain age from the electroencephalogram of sleep</article-title>. <source><italic toggle="yes">Neurobiol Aging</italic></source>. <year>2019</year>;<volume>74</volume>:<fpage>112</fpage>–<lpage>120</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.neurobiolaging.2018.10.016</pub-id><pub-id pub-id-type="pmid">30448611</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0020">
+        <label>20.</label>
+        <mixed-citation publication-type="confproc"><string-name><surname>Yook</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Miao</surname>
+<given-names>Y</given-names></string-name>, <string-name><surname>Park</surname>
+<given-names>C</given-names></string-name>, et al. <article-title>Predicting brain age based on sleep EEG and DenseNet</article-title>. <conf-name>Proc Annu Int Conf IEEE Eng Med Biol Soc EMBS</conf-name>. <year>2021</year>:<fpage>245</fpage>–<lpage>248</lpage>. doi:<pub-id pub-id-type="doi">10.1109/EMBC46164.2021.9631064</pub-id>.</mixed-citation>
+      </ref>
+      <ref id="cit0021">
+        <label>21.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Brink-Kjaer</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Leary</surname>
+<given-names>EB</given-names></string-name>, <string-name><surname>Sun</surname>
+<given-names>H</given-names></string-name>, et al. <article-title>Age estimation from sleep studies using deep learning predicts life expectancy</article-title>. <source><italic toggle="yes">Npj Digit Med</italic></source>. <year>2022</year>;<volume>5</volume>(<issue>1</issue>). doi:<pub-id pub-id-type="doi">10.1038/s41746-022-00630-9</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0022">
+        <label>22.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Bakker</surname>
+<given-names>JP</given-names></string-name>, <string-name><surname>Tavakkoli</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Rueschman</surname>
+<given-names>M</given-names></string-name>, et al. <article-title>Gastric Banding Surgery versus Continuous Positive Airway Pressure for Obstructive Sleep Apnea: a Randomized Controlled Trial</article-title>. <source><italic toggle="yes">Am J Respir Crit Care Med</italic></source>. <year>2018</year>;<volume>197</volume>(<issue>8</issue>):<fpage>1080</fpage>–<lpage>1083</lpage>. doi:<pub-id pub-id-type="doi">10.1164/rccm.201708-1637LE</pub-id><pub-id pub-id-type="pmid">29035093</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0023">
+        <label>23.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Redline</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Tishler</surname>
+<given-names>PV</given-names></string-name>, <string-name><surname>Tosteson</surname>
+<given-names>TD</given-names></string-name>, et al. <article-title>The Familial Aggregation of Obstructive Sleep Apnea</article-title>. <source><italic toggle="yes">Am J Respir Crit Care Med</italic></source>. <year>1995</year>;<volume>151</volume>(<issue>3_pt_1</issue>):<fpage>682</fpage>–<lpage>687</lpage>. doi:<pub-id pub-id-type="doi">10.1164/ajrccm/151.3_pt_1.682</pub-id><pub-id pub-id-type="pmid">7881656</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0024">
+        <label>24.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Rosen</surname>
+<given-names>CL</given-names></string-name>, <string-name><surname>Auckley</surname>
+<given-names>D</given-names></string-name>, <string-name><surname>Benca</surname>
+<given-names>R</given-names></string-name>, et al. <article-title>A Multisite Randomized Trial of Portable Sleep Studies and Positive Airway Pressure Autotitration Versus Laboratory-Based Polysomnography for the Diagnosis and Treatment of Obstructive Sleep Apnea: the HomePAP Study</article-title>. <source><italic toggle="yes">Sleep</italic></source>. <year>2012</year>;<volume>35</volume>(<issue>6</issue>):<fpage>757</fpage>–<lpage>767</lpage>. doi:<pub-id pub-id-type="doi">10.5665/sleep.1870</pub-id><pub-id pub-id-type="pmid">22654195</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0025">
+        <label>25.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Chen</surname>
+<given-names>X</given-names></string-name>, <string-name><surname>Wang</surname>
+<given-names>R</given-names></string-name>, <string-name><surname>Zee</surname>
+<given-names>P</given-names></string-name>, et al. <article-title>Racial/Ethnic Differences in Sleep Disturbances: the Multi-Ethnic Study of Atherosclerosis (Mesa)</article-title>. <source><italic toggle="yes">Sleep</italic></source>. <year>2015</year>. doi:<pub-id pub-id-type="doi">10.5665/sleep.4732</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0026">
+        <label>26.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Song</surname>
+<given-names>Y</given-names></string-name>, <string-name><surname>Blackwell</surname>
+<given-names>T</given-names></string-name>, <string-name><surname>Yaffe</surname>
+<given-names>K</given-names></string-name>, <string-name><surname>Ancoli-Israel</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Redline</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Stone</surname>
+<given-names>KL</given-names></string-name>. <article-title>Relationships Between Sleep Stages and Changes in Cognitive Function in Older Men: the MrOS Sleep Study</article-title>. <source><italic toggle="yes">Sleep</italic></source>. <year>2015</year>;<volume>38</volume>(<issue>3</issue>):<fpage>411</fpage>–<lpage>421</lpage>. doi:<pub-id pub-id-type="doi">10.5665/sleep.4500</pub-id><pub-id pub-id-type="pmid">25325465</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0027">
+        <label>27.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Lee</surname>
+<given-names>H</given-names></string-name>, <string-name><surname>Li</surname>
+<given-names>B</given-names></string-name>, <string-name><surname>DeForte</surname>
+<given-names>S</given-names></string-name>, et al. <article-title>A large collection of real-world pediatric sleep studies</article-title>. <source><italic toggle="yes">Sci Data</italic></source>. <year>2022</year>;<volume>9</volume>(<issue>1</issue>):<fpage>421</fpage>. doi:<pub-id pub-id-type="doi">10.1038/s41597-022-01545-6</pub-id><pub-id pub-id-type="pmid">35853958</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0028">
+        <label>28.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Quan</surname>
+<given-names>SF</given-names></string-name>, <string-name><surname>Howard</surname>
+<given-names>BV</given-names></string-name>, <string-name><surname>Iber</surname>
+<given-names>C</given-names></string-name>, et al. <article-title>The Sleep Heart Health Study: design, rationale, and methods</article-title>. <source><italic toggle="yes">Sleep</italic></source>. <year>1997</year>;<volume>20</volume>(<issue>12</issue>):<fpage>1077</fpage>–<lpage>1085</lpage>.<pub-id pub-id-type="pmid">9493915</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0029">
+        <label>29.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Moore</surname>
+<given-names>H</given-names></string-name>, <string-name><surname>Leary</surname>
+<given-names>E</given-names></string-name>, <string-name><surname>Lee</surname>
+<given-names>SY</given-names></string-name>, et al. <article-title>Design and Validation of a Periodic Leg Movement Detector</article-title>. <source><italic toggle="yes">PLoS One</italic></source>. <year>2014</year>;<volume>9</volume>(<issue>12</issue>):<fpage>e114565</fpage>. doi:<pub-id pub-id-type="doi">10.1371/journal.pone.0114565</pub-id><pub-id pub-id-type="pmid">25489744</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0030">
+        <label>30.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Young</surname>
+<given-names>T</given-names></string-name>, <string-name><surname>Palta</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Dempsey</surname>
+<given-names>J</given-names></string-name>, <string-name><surname>Peppard</surname>
+<given-names>PE</given-names></string-name>, <string-name><surname>Nieto</surname>
+<given-names>FJ</given-names></string-name>, <string-name><surname>Hla</surname>
+<given-names>KM</given-names></string-name>. <article-title>Burden of sleep apnea: rationale, design, and major findings of the Wisconsin Sleep Cohort study</article-title>. <source><italic toggle="yes">WMJ</italic></source>. <year>2009</year>;<volume>108</volume>(<issue>5</issue>):<fpage>246</fpage>–<lpage>249</lpage>.<pub-id pub-id-type="pmid">19743755</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0031">
+        <label>31.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Zhang</surname>
+<given-names>GQ</given-names></string-name>, <string-name><surname>Cui</surname>
+<given-names>L</given-names></string-name>, <string-name><surname>Mueller</surname>
+<given-names>R</given-names></string-name>, et al. <article-title>The National Sleep Research Resource: towards a sleep data commons</article-title>. <source><italic toggle="yes">J Am Med Inf Assoc</italic></source>. <year>2018</year>;<volume>25</volume>(<issue>10</issue>):<fpage>1351</fpage>–<lpage>1358</lpage>. doi:<pub-id pub-id-type="doi">10.1093/jamia/ocy064</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0032">
+        <label>32.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Perslev</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Darkner</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Kempfner</surname>
+<given-names>L</given-names></string-name>, <string-name><surname>Nikolic</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Jennum</surname>
+<given-names>PJ</given-names></string-name>, <string-name><surname>Igel</surname>
+<given-names>C</given-names></string-name>. <article-title>U-Sleep: resilient high-frequency sleep staging</article-title>. <source><italic toggle="yes">Npj Digit Med</italic></source>. <year>2021</year>;<volume>4</volume>(<issue>1</issue>):<fpage>72</fpage>. doi:<pub-id pub-id-type="doi">10.1038/s41746-021-00440-5</pub-id><pub-id pub-id-type="pmid">33859353</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0033">
+        <label>33.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Zhang</surname>
+<given-names>D</given-names></string-name>, <string-name><surname>Sun</surname>
+<given-names>J</given-names></string-name>, <string-name><surname>She</surname>
+<given-names>Y</given-names></string-name>, et al. <article-title>A two-branch trade-off neural network for balanced scoring sleep stages on multiple cohorts</article-title>. <source><italic toggle="yes">Front Neurosci</italic></source>. <year>2023</year>:<fpage>17</fpage>. doi:<pub-id pub-id-type="doi">10.3389/fnins.2023.1176551</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0034">
+        <label>34.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Stephansen</surname>
+<given-names>JB</given-names></string-name>, <string-name><surname>Olesen</surname>
+<given-names>AN</given-names></string-name>, <string-name><surname>Olsen</surname>
+<given-names>M</given-names></string-name>, et al. <article-title>Neural network analysis of sleep stages enables efficient diagnosis of narcolepsy</article-title>. <source><italic toggle="yes">Nat Commun</italic></source>. <year>2018</year>;<volume>9</volume>(<issue>1</issue>):<fpage>1</fpage>–<lpage>15</lpage>. doi:<pub-id pub-id-type="doi">10.1038/s41467-018-07229-3</pub-id><pub-id pub-id-type="pmid">29317637</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0035">
+        <label>35.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Kiela</surname>
+<given-names>D</given-names></string-name>, <string-name><surname>Grave</surname>
+<given-names>E</given-names></string-name>, <string-name><surname>Joulin</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Mikolov</surname>
+<given-names>T</given-names></string-name>. <article-title>Efficient Large-Scale Multi-Modal Classification</article-title>. <source><italic toggle="yes">Proc AAAI Conf Artif Intell</italic></source>. <year>2018</year>;<volume>32</volume>(<issue>1</issue>):<fpage>5198</fpage>–<lpage>5204</lpage>. doi:<pub-id pub-id-type="doi">10.1609/aaai.v32i1.11945</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0036">
+        <label>36.</label>
+        <mixed-citation publication-type="webpage"><string-name><surname>Loshchilov</surname>
+<given-names>I</given-names></string-name>, <string-name><surname>Hutter</surname>
+<given-names>F</given-names></string-name>
+<article-title>Decoupled Weight Decay Regularization</article-title>; <year>2017</year>. <comment>Available from:</comment>
+<ext-link xlink:href="http://arxiv.org/abs/1711.05101" ext-link-type="uri">http://arxiv.org/abs/1711.05101</ext-link>. <date-in-citation>Accessed <month>June</month>
+<day>26</day>, 2024</date-in-citation>.</mixed-citation>
+      </ref>
+      <ref id="cit0037">
+        <label>37.</label>
+        <mixed-citation publication-type="confproc"><string-name><surname>Supratak</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Guo</surname>
+<given-names>Y</given-names></string-name>. <article-title>TinySleepNet: an Efficient Deep Learning Model for Sleep Stage Scoring based on Raw Single-Channel EEG</article-title>. <conf-name>Proc Annu Int Conf IEEE Eng Med Biol Soc EMBS</conf-name>. <year>2020</year>:<fpage>641</fpage>–<lpage>644</lpage>. doi:<pub-id pub-id-type="doi">10.1109/EMBC44109.2020.9176741</pub-id>.</mixed-citation>
+      </ref>
+      <ref id="cit0038">
+        <label>38.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Pradeepkumar</surname>
+<given-names>J</given-names></string-name>, <string-name><surname>Anandakumar</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Kugathasan</surname>
+<given-names>V</given-names></string-name>, et al. <article-title>Towards Interpretable Sleep Stage Classification Using Cross-Modal Transformers</article-title>. <source><italic toggle="yes">arXiv preprint arXiv</italic></source>. <year>2022</year>;<fpage>1</fpage>–<lpage>12</lpage>.</mixed-citation>
+      </ref>
+      <ref id="cit0039">
+        <label>39.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Cole</surname>
+<given-names>JH</given-names></string-name>, <string-name><surname>Franke</surname>
+<given-names>K</given-names></string-name>, <string-name><surname>Cherbuin</surname>
+<given-names>N</given-names></string-name>. <article-title>Quantification of the Biological Age of the Brain Using Neuroimaging</article-title>. <source><italic toggle="yes">Biomarkers Human Aging</italic></source>. <year>2019</year>:<fpage>293</fpage>–<lpage>328</lpage>. doi:<pub-id pub-id-type="doi">10.1007/978-3-030-24970-0_19</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0040">
+        <label>40.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Muehlroth</surname>
+<given-names>BE</given-names></string-name>, <string-name><surname>Werkle‐Bergner</surname>
+<given-names>M</given-names></string-name>. <article-title>Understanding the interplay of sleep and aging: methodological challenges</article-title>. <source><italic toggle="yes">Psychophysiology</italic></source>. <year>2020</year>;<volume>57</volume>(<issue>3</issue>). doi:<pub-id pub-id-type="doi">10.1111/psyp.13523</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0041">
+        <label>41.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Shi</surname>
+<given-names>H</given-names></string-name>, <string-name><surname>Huang</surname>
+<given-names>T</given-names></string-name>, <string-name><surname>Ma</surname>
+<given-names>Y</given-names></string-name>, <string-name><surname>Eliassen</surname>
+<given-names>AH</given-names></string-name>, <string-name><surname>Sun</surname>
+<given-names>Q</given-names></string-name>, <string-name><surname>Wang</surname>
+<given-names>M</given-names></string-name>. <article-title>Sleep duration and snoring at midlife in relation to healthy aging in women 70 years of age or older</article-title>. <source><italic toggle="yes">Nat Sci Sleep</italic></source>. <year>2021</year>;<volume>13</volume>:<fpage>411</fpage>–<lpage>422</lpage>. doi:<pub-id pub-id-type="doi">10.2147/NSS.S302452</pub-id><pub-id pub-id-type="pmid">33762862</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0042">
+        <label>42.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Adra</surname>
+<given-names>N</given-names></string-name>, <string-name><surname>Dümmer</surname>
+<given-names>LW</given-names></string-name>, <string-name><surname>Paixao</surname>
+<given-names>L</given-names></string-name>, et al. <article-title>Decoding information about cognitive health from the brainwaves of sleep</article-title>. <source><italic toggle="yes">Sci Rep</italic></source>. <year>2023</year>;<volume>13</volume>(<issue>1</issue>):<fpage>11448</fpage>. doi:<pub-id pub-id-type="doi">10.1038/s41598-023-37128-7</pub-id><pub-id pub-id-type="pmid">37454163</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0043">
+        <label>43.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Cesari</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Stefani</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Mitterling</surname>
+<given-names>T</given-names></string-name>, <string-name><surname>Frauscher</surname>
+<given-names>B</given-names></string-name>, <string-name><surname>Schönwald</surname>
+<given-names>SV</given-names></string-name>, <string-name><surname>Högl</surname>
+<given-names>B</given-names></string-name>. <article-title>Sleep modelled as a continuous and dynamic process predicts healthy ageing better than traditional sleep scoring</article-title>. <source><italic toggle="yes">Sleep Med</italic></source>. <year>2021</year>;<volume>77</volume>:<fpage>136</fpage>–<lpage>146</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.sleep.2020.11.033</pub-id><pub-id pub-id-type="pmid">33360558</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0044">
+        <label>44.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Seo</surname>
+<given-names>H</given-names></string-name>, <string-name><surname>Back</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Lee</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Park</surname>
+<given-names>D</given-names></string-name>, <string-name><surname>Kim</surname>
+<given-names>T</given-names></string-name>, <string-name><surname>Lee</surname>
+<given-names>K</given-names></string-name>. <article-title>Intra- and inter-epoch temporal context network (IITNet) using sub-epoch features for automatic sleep scoring on raw single-channel EEG</article-title>. <source><italic toggle="yes">Biomed Signal Process Control</italic></source>. <year>2020</year>;<volume>61</volume>:<fpage>102037</fpage>. doi:<pub-id pub-id-type="doi">10.1016/j.bspc.2020.102037</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0045">
+        <label>45.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Olesen</surname>
+<given-names>AN</given-names></string-name>, <string-name><surname>Mignot</surname>
+<given-names>E</given-names></string-name>, <string-name><surname>Bjarup</surname>
+<given-names>H</given-names></string-name>, <string-name><surname>Sorensen</surname>
+<given-names>D</given-names></string-name>, <string-name><surname>Alto</surname>
+<given-names>P</given-names></string-name>, <string-name><surname>Olesen</surname>
+<given-names>AN</given-names></string-name>. <article-title>Automatic sleep stage classification with deep residual networks in a mixed-cohort setting</article-title>. <source><italic toggle="yes">Sleep</italic></source>. <year>2020</year>.</mixed-citation>
+      </ref>
+      <ref id="cit0046">
+        <label>46.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Marx</surname>
+<given-names>GA</given-names></string-name>, <string-name><surname>Kauffman</surname>
+<given-names>J</given-names></string-name>, <string-name><surname>McKenzie</surname>
+<given-names>AT</given-names></string-name>, et al. <article-title>Histopathologic brain age estimation via multiple instance learning</article-title>. <source><italic toggle="yes">Acta Neuropathol</italic></source>. <year>2023</year>;<volume>146</volume>(<issue>6</issue>):<fpage>785</fpage>–<lpage>802</lpage>. doi:<pub-id pub-id-type="doi">10.1007/s00401-023-02636-3</pub-id><pub-id pub-id-type="pmid">37815677</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0047">
+        <label>47.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Jusseaume</surname>
+<given-names>K</given-names></string-name>, <string-name><surname>Valova</surname>
+<given-names>I</given-names></string-name>. <article-title>Brain Age Prediction/Classification through Recurrent Deep Learning with Electroencephalogram Recordings of Seizure Subjects</article-title>. <source><italic toggle="yes">Sensors</italic></source>. <year>2022</year>;<volume>22</volume>(<issue>21</issue>). doi:<pub-id pub-id-type="doi">10.3390/s22218112</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0048">
+        <label>48.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Suzuki</surname>
+<given-names>Y</given-names></string-name>, <string-name><surname>Abe</surname>
+<given-names>T</given-names></string-name>, <string-name><surname>Kawana</surname>
+<given-names>F</given-names></string-name>. <article-title>Instability of scoring stage N1 is a factor that reduces repeatability of human sleep staging</article-title>. <source><italic toggle="yes">Sleep Med</italic></source>. <year>2019</year>;<volume>64</volume>:<fpage>S369</fpage>. doi:<pub-id pub-id-type="doi">10.1016/j.sleep.2019.11.1029</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0049">
+        <label>49.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Bouchard</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Lina</surname>
+<given-names>JM</given-names></string-name>, <string-name><surname>Gaudreault</surname>
+<given-names>PO</given-names></string-name>, <string-name><surname>Dubé</surname>
+<given-names>J</given-names></string-name>, <string-name><surname>Gosselin</surname>
+<given-names>N</given-names></string-name>, <string-name><surname>Carrier</surname>
+<given-names>J</given-names></string-name>. <article-title>EEG connectivity across sleep cycles and age</article-title>. <source><italic toggle="yes">Sleep</italic></source>. <year>2019</year>. doi:<pub-id pub-id-type="doi">10.1093/sleep/zsz236</pub-id></mixed-citation>
+      </ref>
+    </ref-list>
+  </back>
+</article>
+</pmc-articleset>

@@ -1,0 +1,632 @@
+<pmc-articleset><article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" dtd-version="1.3" xml:lang="en" article-type="review-article">
+  <?properties open_access?>
+  <processing-meta base-tagset="archiving" mathml-version="3.0" table-model="xhtml" tagset-family="jats">
+    <restricted-by>pmc</restricted-by>
+  </processing-meta>
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="nlm-ta">Nat Sci Sleep</journal-id>
+      <journal-id journal-id-type="iso-abbrev">Nat Sci Sleep</journal-id>
+      <journal-id journal-id-type="publisher-id">nss</journal-id>
+      <journal-title-group>
+        <journal-title>Nature and Science of Sleep</journal-title>
+      </journal-title-group>
+      <issn pub-type="epub">1179-1608</issn>
+      <publisher>
+        <publisher-name>Dove</publisher-name>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="pmid">36923968</article-id>
+      <article-id pub-id-type="pmc">10010122</article-id>
+      <article-id pub-id-type="publisher-id">400048</article-id>
+      <article-id pub-id-type="doi">10.2147/NSS.S400048</article-id>
+      <article-categories>
+        <subj-group subj-group-type="heading">
+          <subject>Review</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>New Metrics from Polysomnography: Precision Medicine for OSA Interventions</article-title>
+        <alt-title alt-title-type="running-authors">Guo and Xiao</alt-title>
+        <alt-title alt-title-type="running-title">Guo and Xiao</alt-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Guo</surname>
+            <given-names>Junwei</given-names>
+          </name>
+          <xref rid="aff0001" ref-type="aff">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Xiao</surname>
+            <given-names>Yi</given-names>
+          </name>
+          <xref rid="aff0001" ref-type="aff">1</xref>
+          <xref rid="an0001" ref-type="corresp"/>
+        </contrib>
+        <aff id="aff0001"><label>1</label><institution>Department of Respiratory and Critical Care Medicine, Peking Union Medical College Hospital, Chinese Academy of Medical Sciences &amp; Peking Union Medical College</institution>, <addr-line>Beijing</addr-line>, <country>People’s Republic of China</country></aff>
+      </contrib-group>
+      <author-notes>
+        <corresp id="an0001">Correspondence: Yi Xiao, <institution>Department of Respiratory and Critical Care Medicine, Peking Union Medical College Hospital, Chinese Academy of Medical Sciences &amp; Peking Union Medical College</institution>, <addr-line>No. 1 Shuaifuyuan Street, Dongcheng District</addr-line>, <addr-line>Beijing</addr-line>, <addr-line>100730</addr-line>, <country>People’s Republic of China</country>, <phone>Tel +86 010 69155037</phone>, Email xiaoyipumch@sina.com</corresp>
+      </author-notes>
+      <pub-date pub-type="epub">
+        <day>09</day>
+        <month>3</month>
+        <year>2023</year>
+      </pub-date>
+      <pub-date pub-type="collection">
+        <year>2023</year>
+      </pub-date>
+      <volume>15</volume>
+      <fpage>69</fpage>
+      <lpage>77</lpage>
+      <history>
+        <date date-type="received">
+          <day>02</day>
+          <month>12</month>
+          <year>2022</year>
+        </date>
+        <date date-type="accepted">
+          <day>20</day>
+          <month>2</month>
+          <year>2023</year>
+        </date>
+      </history>
+      <permissions>
+        <copyright-statement>© 2023 Guo and Xiao.</copyright-statement>
+        <copyright-year>2023</copyright-year>
+        <copyright-holder>Guo and Xiao.</copyright-holder>
+        <license>
+          <ali:license_ref xmlns:ali="http://www.niso.org/schemas/ali/1.0/" specific-use="textmining" content-type="ccbynclicense">https://creativecommons.org/licenses/by-nc/3.0/</ali:license_ref>
+          <license-p>This work is published and licensed by Dove Medical Press Limited. The full terms of this license are available at <ext-link ext-link-type="uri" xlink:href="https://www.dovepress.com/terms.php">https://www.dovepress.com/terms.php</ext-link> and incorporate the Creative Commons Attribution – Non Commercial (unported, v3.0) License (<ext-link ext-link-type="uri" xlink:href="https://creativecommons.org/licenses/by-nc/3.0/">http://creativecommons.org/licenses/by-nc/3.0/</ext-link>). By accessing the work you hereby accept the Terms. Non-commercial uses of the work are permitted without any further permission from Dove Medical Press Limited, provided the work is properly attributed. For permission for commercial use of this work, please see paragraphs 4.2 and 5 of our Terms (<ext-link ext-link-type="uri" xlink:href="https://www.dovepress.com/terms.php">https://www.dovepress.com/terms.php</ext-link>).</license-p>
+        </license>
+      </permissions>
+      <abstract>
+        <title>Abstract</title>
+        <p>Obstructive sleep apnea (OSA) is a highly preventable disease accompanied by multiple comorbid conditions. Despite the well-established cardiovascular and neurocognitive sequelae with OSA, the optimal metric for assessing the OSA severity and response to therapy remains controversial. Although overnight polysomnography (PSG) is the golden standard for OSA diagnosis, the abundant information is not fully exploited. With the development of deep learning and the era of big data, new metrics derived from PSG have been validated in some OSA consequences and personalized treatment. In this review, these metrics are introduced based on the pathophysiological mechanisms of OSA and new technologies. Emphasis is laid on the advantages and the prognostic value against apnea-hypopnea index. New classification criteria should be established based on these metrics and other clinical characters for precision medicine.</p>
+      </abstract>
+      <kwd-group kwd-group-type="author">
+        <title>Keywords</title>
+        <kwd>obstructive sleep apnea</kwd>
+        <kwd>precision medicine</kwd>
+        <kwd>polysomnography</kwd>
+        <kwd>metrics</kwd>
+      </kwd-group>
+      <funding-group>
+        <award-group>
+          <funding-source>
+<institution-wrap><institution>This study was supported by the</institution></institution-wrap>
+</funding-source>
+        </award-group>
+        <award-group>
+          <funding-source>
+<institution-wrap><institution>National Key Research and Development Projects of China</institution></institution-wrap>
+</funding-source>
+        </award-group>
+        <funding-statement>This study was supported by the National Key Research and Development Projects of China [No. 2013BAI09B10].</funding-statement>
+      </funding-group>
+      <counts>
+        <fig-count count="1"/>
+        <ref-count count="59"/>
+        <page-count count="9"/>
+      </counts>
+    </article-meta>
+  </front>
+  <body>
+    <sec sec-type="intro" id="s0001">
+      <title>Introduction</title>
+      <p>Obstructive sleep apnea (OSA) is a chronic disease affecting almost one billion people around the world.<xref rid="cit0001" ref-type="bibr">1</xref> It is characterized by partial or complete upper airway collapse during sleep, leading to sleep fragmentation and intermittent hypoxemia. The consequences brought by OSA include disturbance of sleep structure, daytime sleepiness, various complications and decreased quality of life. Studies have revealed that the economic burden of OSA is substantial.<xref rid="cit0002" ref-type="bibr">2</xref></p>
+      <p>The metric used for evaluating OSA severity is the apnea-hypopnea index (AHI), which mainly describes the frequency of respiratory events. Despite its convenience and wide acceptance, several defects remain which oversimplify the complexity of OSA and lead to the poor correlation with OSA consequences. First, the definition of AHI treats apnea and hypopnea equivalently. The severity of airway obstruction is associated with degree of desaturation and arousals. Studies have demonstrated that OSA patients with different respiratory patterns presented different disease severity.<xref rid="cit0003" ref-type="bibr">3</xref> The predominance of apnea or hypopnea could be a potential subtype correlated with certain OSA comorbidity. Second, the different rules for hypopnea definition in clinical practice may bring inconsistencies to the diagnosis and severity evaluation of OSA, leaving some asymptomatic OSA patients untreated.<xref rid="cit0004" ref-type="bibr">4</xref> The association of OSA with comorbidities using different criteria could be discrepant.<xref rid="cit0005" ref-type="bibr">5</xref> Another nonnegligible issue is that AHI does not directly reflect the pathogenesis of OSA. Other auxiliary metrics like lowest pulse oxygen saturation (LSpO<sub>2</sub>), percentage time below 90% oxygen saturation (T90) and oxygen desaturation index (ODI) evaluate event-related desaturation from a single aspect but have not been recommended as the diagnostic criteria. Degree, duration of desaturation, respiratory event duration, and intensity of arousals could all represent certain aspects of OSA pathophysiology, yet none of them are integrated in AHI. These defects could be the reasons for poor relationship between OSA and relevant comorbidities.<xref rid="cit0006" ref-type="bibr">6</xref>,<xref rid="cit0007" ref-type="bibr">7</xref> Furthermore, the adherence of continuous positive airway pressure (CPAP), the primary therapy, is relatively low. In some cases, CPAP showed an insignificant effect on OSA comorbidities while CPAP tends to be the one-size-fits-all therapy for OSA.<xref rid="cit0008" ref-type="bibr">8</xref>,<xref rid="cit0009" ref-type="bibr">9</xref></p>
+      <p>Since the term of polysomnography (PSG) was first created in 1974,<xref rid="cit0010" ref-type="bibr">10</xref> it has been applied as the golden standard diagnostic examination for OSA. A typical overnight PSG examination contains plenty of biological signals such as electroencephalogram (EEG), electrooculogram, nasal airflow, electromyogram, electrocardiogram (ECG), respiratory effort and blood oxygen. These simultaneously recorded signals can provide a great deal of information on patients’ sleeping, respiratory and cardiovascular status. Apart from the original signals, data generated by advanced technologies like machine learning can further identify certain subgroups of patients who may benefit from personalized treatment. Moreover, efforts have been made to establish large data sets for researchers. Online resources like the National Sleep Research Resource<xref rid="cit0011" ref-type="bibr">11</xref> and PhysioNet<xref rid="cit0012" ref-type="bibr">12</xref> have thousands of PSG recordings which offer the opportunity for data training and algorithm validation. While automated signal processing algorithms have been proposed for decades and some were verified by large samples, these algorithms have not been widely accepted or commercialized for clinical practice. The reality urges reformation in clinical evaluation and treatment of OSA.</p>
+      <p>This paper aims to review recent advances in PSG analysis. In particular, the prognostic value of novel metrics towards OSA comorbidities and personalized treatment is discussed (<xref rid="f0001" ref-type="fig">Figure 1</xref>). The review will be organized in the following way: (1) the pathophysiological association of OSA and each comorbidity; (2) the association of these comorbidities with new metrics that reflect certain pathophysiological mechanisms; (3) new metrics validated for personalized treatment; (4) limitations and future directions of these metrics for precision medicine. Importance is laid on the role of OSA pathophysiological mechanisms for discovering clinically oriented PSG metrics.
+<fig position="float" id="f0001" fig-type="figure"><label>Figure 1</label><caption><p>Summary of PSG physiological signals, new metrics and utilization of these metrics towards precision medicine.</p></caption><graphic xlink:href="NSS-15-69-g0001" content-type="print-only" position="float"/><attrib><bold>Abbreviations</bold>: ECG, electrocardiogram; EEG, electroencephalogram; OSA, obstructive sleep apnea; PSG, polysomnography.</attrib></fig></p>
+    </sec>
+    <sec id="s0002">
+      <title>Pathogenesis of OSA with Related Comorbidities</title>
+      <sec id="s0002-s2001">
+        <title>Cardiovascular Disease</title>
+        <p>Many clinic-based case control and longitudinal studies have demonstrated that OSA patients have a two- to five-fold increase in cardiovascular disease (CVD) risk after multivariate adjustment including body mass index.<xref rid="cit0013" ref-type="bibr">13</xref> Although exact causal association is still unclear, both animal and human studies suggest that sympathetic neurohormonal activation, oxidative stress and systemic inflammation induced by sleep fragmentation and intermittent hypoxemia, which is similar to reperfusion injury, may play an important pathophysiological role.<xref rid="cit0014" ref-type="bibr">14</xref> These molecular level changes lead to dysfunction of vascular endothelium, atherosclerosis and hypercoagulability, which are the fundamental reasons for hypertension, coronary artery disease and cerebrovascular disease. Apart from these common mechanisms, alteration in intrathoracic pressure also brings adverse outcomes to certain disease. For example, in atrial fibrillation, recurrent and abrupt negative changes in intrathoracic pressure during apnea may lead to structural and functional atrial remodeling and electrophysiological alterations. The same changes in intrathoracic pressure may also increase left ventricular transmural pressure and related afterload, causing reduced stroke volume and coronary blood supply. These mechanisms may precipitate myocardial ischemia and remodeling and lead to heart failure.</p>
+      </sec>
+      <sec id="s0002-s2002">
+        <title>Hyperglycemia and Type 2 Diabetes</title>
+        <p>Cross-sectional and retrospective studies proved bilateral relationship between OSA and type 2 diabetes.<xref rid="cit0015" ref-type="bibr">15</xref> Like cardiovascular diseases, intermittent hypoxemia and sleep fragmentation are also the cardinal pathways towards dysregulation of glucose metabolism and type 2 diabetes. Besides sympathetic activation, oxidative stress and systemic inflammation, these pathophysiological mechanisms also result in activation of hypothalamic–pituitary–adrenal axis and induction of adipocytokines. Such changes further precipitate attenuation of glucose-induced insulin secretion from pancreatic β cells and insulin resistance in peripheral tissues and organs.<xref rid="cit0016" ref-type="bibr">16</xref>,<xref rid="cit0017" ref-type="bibr">17</xref></p>
+      </sec>
+      <sec id="s0002-s2003">
+        <title>Cognitive Impairment and Alzheimer’s Disease</title>
+        <p>Considering the importance of sleep continuity, slow wave sleep and sleep spindles in neurogenesis, alertness, memory formation and consolidation, sleep fragmentation caused by repeated micro-arousals may continuously influence the sleep structure. Studies have found that long term OSA alters white matter integrity and aggregation of β-amyloid and tau pathology. Related pathophysiological changes include inflammation, oxidative stress, cerebral edema and endothelial dysfunction.<xref rid="cit0018" ref-type="bibr">18</xref> Moreover, negative intrathoracic pressure caused by OSA could influence hemodynamics and glymphatic system. The latter has been recognized as the key pathway for brain fluid clearance and waste removal via glia-supported perivascular channels which is more active during sleep.<xref rid="cit0019" ref-type="bibr">19</xref></p>
+        <p>Taken together, the primary mechanisms of OSA towards its related comorbidities include intermittent hypoxemia, sleep fragmentation and intrathoracic pressure oscillation. The corresponding changes such as oxidative stress, inflammation and sympathetic neurohormonal activation further cause alterations of the micro-environment and damage of target organs. Metrics representing these pathophysiological mechanisms could, in theory, have more prognostic value than AHI. Given the advantages of PSG mentioned above, it is time for clinicians and manufacturers to evaluate and promote proper PSG metrics for better clinical practice. New metrics that have been validated in clinical utility of OSA comorbidity and treatment are introduced in the next section.</p>
+      </sec>
+    </sec>
+    <sec id="s0003">
+      <title>Metrics for OSA Comorbidities</title>
+      <sec id="s0003-s2001">
+        <title>Arousal Intensity</title>
+        <p>Arousal index is routinely used to evaluate arousals in sleep. However, like AHI, the arousal index only captures frequency of arousals during sleep. The extent of each arousal varies a lot during a respiratory event which could lead to different degrees of autonomic activation. Azarbarzin et al created an automatic algorithm to assess the extent of arousal. Wavelet transform analysis was used to capture EEG signals’ time and frequency characteristics. A scale from zero (barely perceptible) to nine (most intense), named arousal intensity, was applied during the evaluation.<xref rid="cit0020" ref-type="bibr">20</xref> Despite its variability among subjects, arousal intensity has been proved to be reproducible<xref rid="cit0021" ref-type="bibr">21</xref> and heritable.<xref rid="cit0022" ref-type="bibr">22</xref> In a sample of 20 PSGs from patients receiving sleep monitoring, they found a strong relationship between arousal intensity and the heart rate change associated with respiratory events (average r: 0.95 ± 0.04). The latter was proved to be associated with an increased risk of both fatal (HR 1.68, 95% CI 1.22–2.30) and non-fatal (HR 1.60, 95% CI 1.28–2.00) cardiovascular disease events in the Sleep Heart Health Study (SHHS).<xref rid="cit0023" ref-type="bibr">23</xref> However, arousal intensity may not be the only factor which affects events related heart rate change.<xref rid="cit0024" ref-type="bibr">24</xref> No studies have been performed to evaluate the association of arousal intensity directly with OSA comorbid conditions.</p>
+      </sec>
+      <sec id="s0003-s2002">
+        <title>Odds Ratio Product</title>
+        <p>Conventionally, sleep stages are scored based on recommended criteria in each 30s epoch. This criterion has not been changed in the digital era. In fact, sleep state changes continuously rather than an intermittent 30s epoch. Details about variation of EEG signals indicating sleep depth or sleep quality could be neglected within sleep stages. An automated algorithm for estimating sleep depth was developed by Younes et al.<xref rid="cit0025" ref-type="bibr">25</xref> Fast Fourier transform was used for power spectrum analysis in each 3s EEG consecutive epochs. Odds ratio product (ORP) was calculated with a range from 0 to 2.5. In the validation test, an ORP less than 1.0 predicted sleep and an ORP larger than 2.0 predicted wakefulness in more than 95% of 30s epochs. This high consistency indicated an adequate measure of sleep depth. A recent study has found that the correlation between the right and left hemisphere ORP measures (interhemispheric sleep depth coherence) predicted occurrence of car accidents 2 years after the sleep study in patients with OSA. Higher sleep depth coherence was associated with lower risk of accidents after multivariate adjustments.<xref rid="cit0026" ref-type="bibr">26</xref> ORP could be a measure of susceptibility to adverse neurocognitive outcomes. However, no significance was observed between ORP and hypertension in the Multi-Ethnic Study of Atherosclerosis.<xref rid="cit0027" ref-type="bibr">27</xref> Associations with other metabolic outcomes remain untested.</p>
+        <p>The same EEG processing method was used by Mullins et al, EEG power spectra was obtained using fast Fourier transform. EEG slowing (a ratio of slow frequencies to fast frequencies) and sleep spindle density (spindle events per minute) were calculated. They found greater EEG slowing during REM and lower sleep spindle density during NREM were associated with worse psychomotor vigilance and simulated driving performance in OSA patients.<xref rid="cit0028" ref-type="bibr">28</xref> However, the results need to be interpreted cautiously due to the small sample of 8 patients and limited statistical power. Confirmation in a larger sample is required.</p>
+      </sec>
+      <sec id="s0003-s2003">
+        <title>Hypoxic Burden and Related Metrics</title>
+        <p>Since AHI cannot fully represent event related desaturation and other traditional metrics only capture certain aspects of hypoxemia, metrics with combined characteristics have been proposed in recent years. The most validated metric is hypoxic burden, which encapsulates the frequency, duration, and depth of the respiratory event related desaturation. The total hypoxic burden is defined as the sum of individual burdens divided by total sleep time. The prognostic value of hypoxic burden has been proved in many studies. Azarbarzin et al reported significant association between hypoxic burden and cardiovascular disease related mortality in the Osteoporotic Fractures in Men Study (MrOS) and the SHHS.<xref rid="cit0029" ref-type="bibr">29</xref> Patients with the highest hypoxic burden had increased risk of mortality after adjusting multiple factors including AHI, T90 and LSpO<sub>2</sub> (HR 2.73, 95% CI 1.71–4.36 in MrOS and HR 1.96, 95% CI 1.11–3.43 in SHHS). In contrast, AHI could not predict mortality risk in the MrOS. Similar results were found when considering the risk of incident heart failure. Increased hypoxic burden per 1 SD were associated with incident heart failure (HR 1.22, 95% CI 1.02–1.45 in MrOS and HR 1.18, 95% CI 1.02–1.37 in SHHS), while AHI was insignificant.<xref rid="cit0030" ref-type="bibr">30</xref> Other positive findings including hypertension,<xref rid="cit0027" ref-type="bibr">27</xref> stroke<xref rid="cit0031" ref-type="bibr">31</xref> and chronic kidney disease.<xref rid="cit0032" ref-type="bibr">32</xref> These significant results suggest that hypoxic burden is an important metric for OSA evaluation.</p>
+        <p>Similar to hypoxic burden, other studies combined information of event related desaturation in different ways and also found significant associations with OSA comorbidities. Cao et al invented a new metric named sleep breathing impairment index (SBII), which was the product of area under desaturation curve and respiratory event duration. In a cross-sectional study with 140 male OSA patients, higher SBII was associated with moderate-to-high Framingham CVD risk.<xref rid="cit0033" ref-type="bibr">33</xref> The incorporation of respiratory event duration may have advantages over hypoxic burden. Wang et al evaluated prognostic value of the change in the percentage of SpO<sub>2</sub> per second after obstructive apnea, expressed as oxygen desaturation rate (ODR). Participants with faster ODR demonstrated a stronger association with the elevation of both awake and sleep blood pressure (BP) levels and short-term BP variability.<xref rid="cit0034" ref-type="bibr">34</xref> ODR might be a marker for sympathetic activation.</p>
+      </sec>
+      <sec id="s0003-s2004">
+        <title>Photoplethysmography and Pulse Wave Amplitude Drops</title>
+        <p>Photoplethysmography (PPG) is another signal derived from pulse oximetry, which assesses the blood volume changes in the microcirculation of the fingertip. Various conditions like cardiovascular disease, hypertension, diabetes and mental health were proved to be effectively assessed by PPG in previous studies.<xref rid="cit0035" ref-type="bibr">35</xref> However, the relatively low accuracy with raw signals and inadequate validation limited its clinical application.</p>
+        <p>Pulse wave amplitude (PWA) drops are derived from the variance of PPG signal amplitude. PWA is calculated as the difference between the peak and nadir values of PPG waveform. PWA drops with an amplitude &gt;30% compared to baseline and a duration &gt;4 heartbeats are considered clinically significant. A former study showed that PWA drops reflect peripheral vasoconstriction resulting from sympathetic activation.<xref rid="cit0036" ref-type="bibr">36</xref> Respiratory events related PWA drops were associated with cortical activity and could serve as a marker of cerebral response to respiratory events.<xref rid="cit0037" ref-type="bibr">37</xref> Hirotsu et al found that certain PWA drop features (lower PWA-drop index, longer duration and greater area under the curve) increased odds of hypertension, diabetes, or CV event after multivariate adjustment. An independent association of PWA drops index with AHI and total arousal index was also found in this study.<xref rid="cit0038" ref-type="bibr">38</xref></p>
+      </sec>
+      <sec id="s0003-s2005">
+        <title>Pulse Arrival Time</title>
+        <p>Apart from creating new metrics with single signals, metrics generated from multi-signals may contain more pathophysiological information. Pulse arrival time (PAT) is such a composite metric acquired from ECG and oximeter. It is a widely accepted surrogate of pulse transit time, which correlates well with systolic BP and has been used in monitoring BP during sleep.<xref rid="cit0039" ref-type="bibr">39</xref> PAT is defined as the time interval between the EEG R wave and pulse arrival by PPG. Kwon et al evaluated prognostic value of PAT response to obstructive respiratory events, which was defined as the area under the PAT waveform following respiratory events. They found that PAT response was associated with key subclinical CVD markers (left ventricle mass, carotid plaque burden and coronary artery calcium) as well as with incident CVD (adjusted HR 1.18, 95% CI 0.99–1.40).<xref rid="cit0040" ref-type="bibr">40</xref> These findings suggested average PAT response to respiratory events, a reflection of dynamic sympathetic activity, could be valuable for risk stratification of patients with sleep apnea.</p>
+      </sec>
+      <sec id="s0003-s2006">
+        <title>Conventional Metrics with New Clinical Significance</title>
+        <p>Apart from the new metrics mentioned above, other traditional metrics, once neglected, were also evaluated in recent years. The prognostic value of fast sleep spindles (13–15 Hz) on Alzheimer’s disease (AD) and Mild Cognitive Impairment (MCI) was evaluated by Gorgoni et al. A significant parietal fast spindle density decrease was found in AD and MCI patients, positively correlated with Mini-mental State Examination scores (r = 0.33, p = 0.03).<xref rid="cit0041" ref-type="bibr">41</xref> The results showed that spindle density changes are specific for frequency and location in MCI and AD. Certain spindle changes are related to the severity of cognitive impairment and early onset of MCI. Butler et al tested whether apnea-hypopnea event duration predicted all-cause mortality in SHHS. They found that shorter respiratory event duration was associated with all-cause mortality (adjusted HR 1.31, 95% CI 1.11–1.54).<xref rid="cit0042" ref-type="bibr">42</xref> While it seems contradictory with the idea that longer event duration associates with heavier hypoxemia, shorter event duration may be a marker for low arousal threshold and autonomic nervous augmentation. Baumert et al measured mean nocturnal respiratory rate during sleep in the MrOS sleep study and the Study of Osteoporotic Fractures (SOF). After adjusting multiple covariates, patients with respiratory rate ≥16 breaths per minute were independently associated with CVD mortality (HR 1.57, 95% CI 1.14–2.15 in MrOS and HR 2.58, 95% CI 1.41–4.76 in SOF) and all-cause mortality (HR 1.18, 95% CI 1.04–1.32 in MrOS and HR 1.50, 95% CI 1.02–2.20 in SOF).<xref rid="cit0043" ref-type="bibr">43</xref> Elevated respiratory rate may reflect dysfunctional central respiratory control and lead to hypocapnia related electrolyte abnormalities.</p>
+      </sec>
+      <sec id="s0003-s2007">
+        <title>Cluster Analysis</title>
+        <p>Since OSA is recognized as a heterogeneous disease, efforts have been made to discriminate different subtypes for clinical practice. A widely applied method for OSA is cluster analysis. It is an unsupervised machine learning method with potential to find undiscovered patterns of diseases. Zinchuk et al used principal components-based cluster analysis to identify polysomnographic features. Based on OSA pathophysiological domains, seven clusters were identified in the US Veteran cohort. They further evaluated prognostic value of these PSG based subtypes. Patients labeled as certain OSA subtypes had significant risk of CVD outcomes and incident diabetes. The addition of these subtypes further improved diabetes risk prediction. Meanwhile, categorized AHI was not associated with increased CVD risk.<xref rid="cit0044" ref-type="bibr">44</xref>,<xref rid="cit0045" ref-type="bibr">45</xref> These subtypes may represent certain pathophysiological characteristics including hypoxemia and sympathetic activation and were superior in predicting OSA comorbidities comparing to AHI. The utility of unsupervised learning method with abundant PSG information could serve as an important clinical guidance towards OSA evaluation.</p>
+      </sec>
+    </sec>
+    <sec id="s0004">
+      <title>Endotypes for Personalized OSA Treatment</title>
+      <p>Despite the first line treatment recommended by the American Academy of Sleep Medicine, the effect and adherence of CPAP vary a lot in OSA patients. Other treatment options have been proved to have a modest improvement. This situation urges the need for personalized treatment. Endotypes based on OSA pathophysiology (PALM scale) were proposed, aiming at identifying subgroups of patients responding to specific OSA treatments.<xref rid="cit0046" ref-type="bibr">46</xref> However, this classification required invasive examinations like epiglottic pressure catheter which limited the clinical application. Novel approaches using PSG signals to determine OSA pathophysiology have been developed. Terrill et al quantified the loop gain, a part of ventilatory control, using PSG signals in 28 OSA patients. The method was compared with the standard procedure (CPAP drop method) and showed good agreement (r = 0.63, p &lt; 0.001). It further predicted reduction in loop gain with oxygen and acetazolamide therapy.<xref rid="cit0047" ref-type="bibr">47</xref> Similar to loop gain, other OSA endotypes including low arousal threshold, poor pharyngeal dilator muscle effectiveness was also identified by PSG monitoring.<xref rid="cit0048" ref-type="bibr">48</xref>,<xref rid="cit0049" ref-type="bibr">49</xref> These non-anatomical endotypes have also demonstrated the clinical value of guidance for non-CPAP treatment. Patients with less upper airway collapsibility and low loop gain could benefit from an oral appliance and upper airway surgery.<xref rid="cit0050" ref-type="bibr">50</xref> OSA due to poor muscle compensation could be improved from the upper airway muscle stimuli like desipramine.<xref rid="cit0051" ref-type="bibr">51</xref> Hypnotics may be effective in patients with low arousal threshold.<xref rid="cit0052" ref-type="bibr">52</xref>,<xref rid="cit0053" ref-type="bibr">53</xref> Details can be obtained from this former excellent review.<xref rid="cit0054" ref-type="bibr">54</xref> These brand-new algorithms provided insights into personalized treatment. Due to the limited study samples, single night PSG data and multiple potential confounders, these endotypes need more evidence for clinical utility.</p>
+      <p>Another possible solution to discriminate OSA endotypes is the application of supervised machine learning. Unlike unsupervised machine learning, supervised learning uses labeled data to predict patterns for unforeseen data. Edwards et al used regression models to find predictors for arousal threshold in 127 participants. An epiglottic pressure catheter was applied for the gold standard arousal threshold. Three PSG variables including AHI &lt; 30, oxygen saturation nadir &gt; 82.5%, and fraction of hypopneas &gt;58.3% were used to predict low arousal threshold with a sensitivity of 82.2% and specificity of 84.0%.<xref rid="cit0055" ref-type="bibr">55</xref> The algorithm was further applied to predict the effect of drugs for OSA treatment and CPAP adherence.<xref rid="cit0056" ref-type="bibr">56</xref>,<xref rid="cit0057" ref-type="bibr">57</xref></p>
+    </sec>
+    <sec id="s0005">
+      <title>Conclusions and Future Directions</title>
+      <p>Based on the pathogenesis of OSA and related comorbidities, this review discussed new metrics and methods aiming at OSA evaluation and treatment. Advantages of these metrics over AHI have been proved in some OSA comorbidities. PSG-oriented personalized treatments for specific OSA endotypes have been validated in some randomized control studies. This exciting scenario shows the great value of data-driven medicine. These new metrics excavated from abundant information in PSG will greatly enhance our ability to identify subtypes of OSA, explore disease pathogenesis towards certain comorbidities and discover better OSA treatment.</p>
+      <p>Despite these findings, more work is needed in future studies. First, metrics for OSA evaluation should be closely focused on pathophysiological mechanisms. For example, limitations exist in traditional indexes of hypoxemia. ODI with lowest oxygen saturation of more than 95% could be a physiological variation. Meanwhile, T90 does not consider the percentage oxygen saturation time between 90% to 95%. These defects might be contributors to negative results. Nasal flow or respiratory effort could represent the fluctuation of intrathoracic pressure yet few studies aiming at this important mechanism are carried out. Second, more validation tests towards clinical demands are required. With large cohort datasets available nowadays, PSG based new metrics could be validated easily across different ages, ethnicities and OSA comorbidities. However, most studies focus on the CVD and CVD related mortality. Associations of promising metrics like hypoxic burden with diabetes or cognitive impairment should be tested in future research. Other metrics related to certain pathophysiology of OSA like cardiopulmonary coupling<xref rid="cit0058" ref-type="bibr">58</xref> and cyclic alternating pattern<xref rid="cit0059" ref-type="bibr">59</xref> should also be taken into consideration. Third, due to the complex mechanisms of OSA and related comorbidities, assessing OSA severity by a single metric seems unrealistic. A scoring system combined with demographics, symptoms, genetics, molecular biomarkers and PSG signals may mostly satisfy the clinical practice. Such system could serve as the classification criteria for OSA subtypes and endotypes. This is particularly feasible with the development of big data and artificial intelligence. Last, new technologies like wearables could provide longitudinal data which is important for night-to-night, sleep stage or position related variability of these new metrics. Devices with new signals could also be introduced in OSA evaluation.</p>
+      <p>In conclusion, novel metrics derived from PSG could provide insights into OSA pathogenesis and instructions for disease assessment and treatment. More strict studies with high quality requirements for validation are needed in the future. These metrics, together with concepts of subtypes and endotypes, will facilitate better management of OSA and provide great help to the precision medicine.</p>
+    </sec>
+  </body>
+  <back>
+    <sec id="s0006">
+      <title>Abbreviations</title>
+      <p>AD, Alzheimer’s disease; AHI, apnea-hypopnea index; BP, blood pressure; CVD, cardiovascular disease; CPAP, continuous positive airway pressure; ECG, electrocardiogram; EEG, electroencephalogram; LSpO<sub>2</sub>, lowest pulse oxygen saturation; MCI, mild cognitive impairment; ODI, oxygen desaturation index; ODR, oxygen desaturation rate; ORP, odds ratio product; OSA, obstructive sleep apnea; PAT, pulse arrival time; PPG, photoplethysmography; PSG, polysomnography; PWA, pulse wave amplitude; SBII, sleep breathing impairment index; T90, percentage time below 90% oxygen saturation.</p>
+    </sec>
+    <sec sec-type="COI-statement" id="s0007">
+      <title>Disclosure</title>
+      <p>The authors report no conflicts of interest in this work.</p>
+    </sec>
+    <ref-list>
+      <title>References</title>
+      <ref id="cit0001">
+        <label>1.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Benjafield</surname>
+<given-names>AV</given-names></string-name>, <string-name><surname>Ayas</surname>
+<given-names>NT</given-names></string-name>, <string-name><surname>Eastwood</surname>
+<given-names>PR</given-names></string-name>, et al. <article-title>Estimation of the global prevalence and burden of obstructive sleep apnoea: a literature-based analysis</article-title>. <source><italic toggle="yes">Lancet Respir Med</italic></source>. <year>2019</year>;<volume>7</volume>:<fpage>687</fpage>–<lpage>698</lpage>. doi:<pub-id pub-id-type="doi">10.1016/S2213-2600(19)30198-5</pub-id><pub-id pub-id-type="pmid">31300334</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0002">
+        <label>2.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Lyons</surname>
+<given-names>MM</given-names></string-name>, <string-name><surname>Bhatt</surname>
+<given-names>NY</given-names></string-name>, <string-name><surname>Pack</surname>
+<given-names>AI</given-names></string-name>, <string-name><surname>Magalang</surname>
+<given-names>UJ</given-names></string-name>. <article-title>Global burden of sleep-disordered breathing and its implications</article-title>. <source><italic toggle="yes">Respirology</italic></source>. <year>2020</year>;<volume>25</volume>:<fpage>690</fpage>–<lpage>702</lpage>. doi:<pub-id pub-id-type="doi">10.1111/resp.13838</pub-id><pub-id pub-id-type="pmid">32436658</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0003">
+        <label>3.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Rha</surname>
+<given-names>MS</given-names></string-name>, <string-name><surname>Jeong</surname>
+<given-names>Y</given-names></string-name>, <string-name><surname>Alyahya</surname>
+<given-names>KA</given-names></string-name>, <string-name><surname>Yoon</surname>
+<given-names>JH</given-names></string-name>, <string-name><surname>Kim</surname>
+<given-names>CH</given-names></string-name>, <string-name><surname>Cho</surname>
+<given-names>HJ</given-names></string-name>. <article-title>Comparison of clinical features and surgical outcomes between hypopnea- and apnea-predominant obstructive sleep apnea</article-title>. <source><italic toggle="yes">Clin Otolaryngol</italic></source>. <year>2022</year>;<volume>2022</volume>:<fpage>1</fpage>.</mixed-citation>
+      </ref>
+      <ref id="cit0004">
+        <label>4.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Duce</surname>
+<given-names>B</given-names></string-name>, <string-name><surname>Milosavljevic</surname>
+<given-names>J</given-names></string-name>, <string-name><surname>Hukins</surname>
+<given-names>C</given-names></string-name>. <article-title>The 2012 AASM respiratory event criteria increase the incidence of hypopneas in an adult sleep center population</article-title>. <source><italic toggle="yes">J Clin Sleep Med</italic></source>. <year>2015</year>;<volume>11</volume>:<fpage>1425</fpage>–<lpage>1431</lpage>. doi:<pub-id pub-id-type="doi">10.5664/jcsm.5280</pub-id><pub-id pub-id-type="pmid">26285111</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0005">
+        <label>5.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Hirotsu</surname>
+<given-names>C</given-names></string-name>, <string-name><surname>Haba-Rubio</surname>
+<given-names>J</given-names></string-name>, <string-name><surname>Andries</surname>
+<given-names>D</given-names></string-name>, et al. <article-title>Effect of three hypopnea scoring criteria on OSA prevalence and associated comorbidities in the general population</article-title>. <source><italic toggle="yes">J Clin Sleep Med</italic></source>. <year>2019</year>;<volume>15</volume>:<fpage>183</fpage>–<lpage>194</lpage>. doi:<pub-id pub-id-type="doi">10.5664/jcsm.7612</pub-id><pub-id pub-id-type="pmid">30736872</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0006">
+        <label>6.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Labarca</surname>
+<given-names>G</given-names></string-name>, <string-name><surname>Campos</surname>
+<given-names>J</given-names></string-name>, <string-name><surname>Thibaut</surname>
+<given-names>K</given-names></string-name>, <string-name><surname>Dreyse</surname>
+<given-names>J</given-names></string-name>, <string-name><surname>Jorquera</surname>
+<given-names>J</given-names></string-name>. <article-title>Do T90 and SaO(2) nadir identify a different phenotype in obstructive sleep apnea?</article-title>
+<source><italic toggle="yes">Sleep Breath</italic></source>. <year>2019</year>;<volume>23</volume>:<fpage>1007</fpage>–<lpage>1010</lpage>. doi:<pub-id pub-id-type="doi">10.1007/s11325-019-01860-0</pub-id><pub-id pub-id-type="pmid">31081538</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0007">
+        <label>7.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Jorge</surname>
+<given-names>C</given-names></string-name>, <string-name><surname>Targa</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Benítez</surname>
+<given-names>ID</given-names></string-name>, et al. <article-title>Obstructive sleep apnoea and cognitive decline in mild-to-moderate Alzheimer’s disease</article-title>. <source><italic toggle="yes">Eur Respir J</italic></source>. <year>2020</year>;<volume>56</volume>:<fpage>1</fpage>.</mixed-citation>
+      </ref>
+      <ref id="cit0008">
+        <label>8.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Loffler</surname>
+<given-names>KA</given-names></string-name>, <string-name><surname>Heeley</surname>
+<given-names>E</given-names></string-name>, <string-name><surname>Freed</surname>
+<given-names>R</given-names></string-name>, et al. <article-title>Continuous positive airway pressure treatment, glycemia, and diabetes risk in obstructive sleep apnea and comorbid cardiovascular disease</article-title>. <source><italic toggle="yes">Diabetes Care</italic></source>. <year>2020</year>;<volume>43</volume>:<fpage>1859</fpage>–<lpage>1867</lpage>. doi:<pub-id pub-id-type="doi">10.2337/dc19-2006</pub-id><pub-id pub-id-type="pmid">32291275</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0009">
+        <label>9.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Sánchez-de-la-Torre</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Sánchez-de-la-Torre</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Bertran</surname>
+<given-names>S</given-names></string-name>, et al. <article-title>Effect of obstructive sleep apnoea and its treatment with continuous positive airway pressure on the prevalence of cardiovascular events in patients with acute coronary syndrome (ISAACC study): a randomised controlled trial</article-title>. <source><italic toggle="yes">Lancet Respir Med</italic></source>. <year>2020</year>;<volume>8</volume>:<fpage>359</fpage>–<lpage>367</lpage>. doi:<pub-id pub-id-type="doi">10.1016/S2213-2600(19)30271-1</pub-id><pub-id pub-id-type="pmid">31839558</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0010">
+        <label>10.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Deak</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Epstein</surname>
+<given-names>LJ</given-names></string-name>. <article-title>The History of Polysomnography</article-title>. <source><italic toggle="yes">Sleep Med Clin</italic></source>. <year>2009</year>;<volume>4</volume>:<fpage>313</fpage>–<lpage>321</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.jsmc.2009.04.001</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0011">
+        <label>11.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Dean</surname>
+<given-names>DA</given-names> 2nd</string-name>, <string-name><surname>Goldberger</surname>
+<given-names>AL</given-names></string-name>, <string-name><surname>Mueller</surname>
+<given-names>R</given-names></string-name>, et al. <article-title>Scaling up scientific discovery in sleep medicine: the national sleep research resource</article-title>. <source><italic toggle="yes">Sleep</italic></source>. <year>2016</year>;<volume>39</volume>:<fpage>1151</fpage>–<lpage>1164</lpage>. doi:<pub-id pub-id-type="doi">10.5665/sleep.5774</pub-id><pub-id pub-id-type="pmid">27070134</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0012">
+        <label>12.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Goldberger</surname>
+<given-names>AL</given-names></string-name>, <string-name><surname>Amaral</surname>
+<given-names>LA</given-names></string-name>, <string-name><surname>Glass</surname>
+<given-names>L</given-names></string-name>, et al. <article-title>PhysioBank, physiotoolkit, and physioNet: components of a new research resource for complex physiologic signals</article-title>. <source><italic toggle="yes">Circulation</italic></source>. <year>2000</year>;<volume>101</volume>:<fpage>E215</fpage>–<lpage>20</lpage>. doi:<pub-id pub-id-type="doi">10.1161/01.CIR.101.23.e215</pub-id><pub-id pub-id-type="pmid">10851218</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0013">
+        <label>13.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Salman</surname>
+<given-names>LA</given-names></string-name>, <string-name><surname>Shulman</surname>
+<given-names>R</given-names></string-name>, <string-name><surname>Cohen</surname>
+<given-names>JB</given-names></string-name>. <article-title>Obstructive sleep apnea, hypertension, and cardiovascular risk: epidemiology, pathophysiology, and management</article-title>. <source><italic toggle="yes">Curr Cardiol Rep</italic></source>. <year>2020</year>;<volume>22</volume>:<fpage>6</fpage>. doi:<pub-id pub-id-type="doi">10.1007/s11886-020-1257-y</pub-id><pub-id pub-id-type="pmid">31955254</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0014">
+        <label>14.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Yeghiazarians</surname>
+<given-names>Y</given-names></string-name>, <string-name><surname>Jneid</surname>
+<given-names>H</given-names></string-name>, <string-name><surname>Tietjens</surname>
+<given-names>JR</given-names></string-name>, et al. <article-title>Obstructive sleep apnea and cardiovascular disease: a scientific statement from the American Heart Association</article-title>. <source><italic toggle="yes">Circulation</italic></source>. <year>2021</year>;<volume>144</volume>:<fpage>e56</fpage>–<lpage>e67</lpage>. doi:<pub-id pub-id-type="doi">10.1161/CIR.0000000000000988</pub-id><pub-id pub-id-type="pmid">34148375</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0015">
+        <label>15.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Huang</surname>
+<given-names>T</given-names></string-name>, <string-name><surname>Lin</surname>
+<given-names>BM</given-names></string-name>, <string-name><surname>Stampfer</surname>
+<given-names>MJ</given-names></string-name>, <string-name><surname>Tworoger</surname>
+<given-names>SS</given-names></string-name>, <string-name><surname>Hu</surname>
+<given-names>FB</given-names></string-name>, <string-name><surname>Redline</surname>
+<given-names>S</given-names></string-name>. <article-title>A population-based study of the bidirectional association between obstructive sleep apnea and type 2 diabetes in three prospective U.S. cohorts</article-title>. <source><italic toggle="yes">Diabetes Care</italic></source>. <year>2018</year>;<volume>41</volume>:<fpage>2111</fpage>–<lpage>2119</lpage>. doi:<pub-id pub-id-type="doi">10.2337/dc18-0675</pub-id><pub-id pub-id-type="pmid">30072403</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0016">
+        <label>16.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Ota</surname>
+<given-names>H</given-names></string-name>, <string-name><surname>Fujita</surname>
+<given-names>Y</given-names></string-name>, <string-name><surname>Yamauchi</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Muro</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Kimura</surname>
+<given-names>H</given-names></string-name>, <string-name><surname>Takasawa</surname>
+<given-names>S</given-names></string-name>. <article-title>Relationship between intermittent hypoxia and type 2 diabetes in sleep apnea syndrome</article-title>. <source><italic toggle="yes">Int J Mol Sci</italic></source>. <year>2019</year>;<volume>20</volume>:<fpage>4</fpage>. doi:<pub-id pub-id-type="doi">10.3390/ijms20194756</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0017">
+        <label>17.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Reutrakul</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Van Cauter</surname>
+<given-names>E</given-names></string-name>. <article-title>Sleep influences on obesity, insulin resistance, and risk of type 2 diabetes</article-title>. <source><italic toggle="yes">Metabolism</italic></source>. <year>2018</year>;<volume>84</volume>:<fpage>56</fpage>–<lpage>66</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.metabol.2018.02.010</pub-id><pub-id pub-id-type="pmid">29510179</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0018">
+        <label>18.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Liguori</surname>
+<given-names>C</given-names></string-name>, <string-name><surname>Maestri</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Spanetta</surname>
+<given-names>M</given-names></string-name>, et al. <article-title>Sleep-disordered breathing and the risk of Alzheimer’s disease</article-title>. <source><italic toggle="yes">Sleep Med Rev</italic></source>. <year>2021</year>;<volume>55</volume>:<fpage>101375</fpage>. doi:<pub-id pub-id-type="doi">10.1016/j.smrv.2020.101375</pub-id><pub-id pub-id-type="pmid">33022476</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0019">
+        <label>19.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Reeves</surname>
+<given-names>BC</given-names></string-name>, <string-name><surname>Karimy</surname>
+<given-names>JK</given-names></string-name>, <string-name><surname>Kundishora</surname>
+<given-names>AJ</given-names></string-name>, et al. <article-title>Glymphatic system impairment in Alzheimer’s disease and idiopathic normal pressure hydrocephalus</article-title>. <source><italic toggle="yes">Trends Mol Med</italic></source>. <year>2020</year>;<volume>26</volume>:<fpage>285</fpage>–<lpage>295</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.molmed.2019.11.008</pub-id><pub-id pub-id-type="pmid">31959516</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0020">
+        <label>20.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Azarbarzin</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Ostrowski</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Hanly</surname>
+<given-names>P</given-names></string-name>, <string-name><surname>Younes</surname>
+<given-names>M</given-names></string-name>. <article-title>Relationship between arousal intensity and heart rate response to arousal</article-title>. <source><italic toggle="yes">Sleep</italic></source>. <year>2014</year>;<volume>37</volume>:<fpage>645</fpage>–<lpage>653</lpage>. doi:<pub-id pub-id-type="doi">10.5665/sleep.3560</pub-id><pub-id pub-id-type="pmid">24899756</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0021">
+        <label>21.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Azarbarzin</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Ostrowski</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Younes</surname>
+<given-names>M</given-names></string-name>, et al. <article-title>Arousal responses during overnight polysomnography and their reproducibility in healthy young adults</article-title>. <source><italic toggle="yes">Sleep</italic></source>. <year>2015</year>;<volume>38</volume>:<fpage>1313</fpage>–<lpage>1321</lpage>. doi:<pub-id pub-id-type="doi">10.5665/sleep.4916</pub-id><pub-id pub-id-type="pmid">25581917</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0022">
+        <label>22.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Gao</surname>
+<given-names>X</given-names></string-name>, <string-name><surname>Azarbarzin</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Keenan</surname>
+<given-names>BT</given-names></string-name>, et al. <article-title>Heritability of heart rate response to arousals in twins</article-title>. <source><italic toggle="yes">Sleep</italic></source>. <year>2017</year>;<volume>40</volume>. doi:<pub-id pub-id-type="doi">10.1093/sleep/zsx055</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0023">
+        <label>23.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Azarbarzin</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Sands</surname>
+<given-names>SA</given-names></string-name>, <string-name><surname>Younes</surname>
+<given-names>M</given-names></string-name>, et al. <article-title>The sleep apnea-specific pulse-rate response predicts cardiovascular morbidity and mortality</article-title>. <source><italic toggle="yes">Am J Respir Crit Care Med</italic></source> . <year>2021</year>;<volume>203</volume>:<fpage>1546</fpage>–<lpage>1555</lpage>. doi:<pub-id pub-id-type="doi">10.1164/rccm.202010-3900OC</pub-id><pub-id pub-id-type="pmid">33406013</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0024">
+        <label>24.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Azarbarzin</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Ostrowski</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Moussavi</surname>
+<given-names>Z</given-names></string-name>, <string-name><surname>Hanly</surname>
+<given-names>P</given-names></string-name>, <string-name><surname>Younes</surname>
+<given-names>M</given-names></string-name>. <article-title>Contribution of arousal from sleep to postevent tachycardia in patients with obstructive sleep apnea</article-title>. <source><italic toggle="yes">Sleep</italic></source>. <year>2013</year>;<volume>36</volume>:<fpage>881</fpage>–<lpage>889</lpage>. doi:<pub-id pub-id-type="doi">10.5665/sleep.2716</pub-id><pub-id pub-id-type="pmid">23729931</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0025">
+        <label>25.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Younes</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Ostrowski</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Soiferman</surname>
+<given-names>M</given-names></string-name>, et al. <article-title>Odds ratio product of sleep EEG as a continuous measure of sleep state</article-title>. <source><italic toggle="yes">Sleep</italic></source>. <year>2015</year>;<volume>38</volume>:<fpage>641</fpage>–<lpage>654</lpage>. doi:<pub-id pub-id-type="doi">10.5665/sleep.4588</pub-id><pub-id pub-id-type="pmid">25348125</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0026">
+        <label>26.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Azarbarzin</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Younes</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Sands</surname>
+<given-names>SA</given-names></string-name>, et al. <article-title>Interhemispheric sleep depth coherence predicts driving safety in sleep apnea</article-title>. <source><italic toggle="yes">J Sleep Res</italic></source>. <year>2021</year>;<volume>30</volume>:<fpage>e13092</fpage>. doi:<pub-id pub-id-type="doi">10.1111/jsr.13092</pub-id><pub-id pub-id-type="pmid">32441843</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0027">
+        <label>27.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Kim</surname>
+<given-names>JS</given-names></string-name>, <string-name><surname>Azarbarzin</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Wang</surname>
+<given-names>R</given-names></string-name>, et al. <article-title>Association of novel measures of sleep disturbances with blood pressure: the multi-ethnic study of atherosclerosis</article-title>. <source><italic toggle="yes">Thorax</italic></source>. <year>2020</year>;<volume>75</volume>:<fpage>57</fpage>–<lpage>63</lpage>. doi:<pub-id pub-id-type="doi">10.1136/thoraxjnl-2019-213533</pub-id><pub-id pub-id-type="pmid">31439722</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0028">
+        <label>28.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Mullins</surname>
+<given-names>AE</given-names></string-name>, <string-name><surname>Kim</surname>
+<given-names>JW</given-names></string-name>, <string-name><surname>Wong</surname>
+<given-names>KKH</given-names></string-name>, et al. <article-title>Sleep EEG microstructure is associated with neurobehavioural impairment after extended wakefulness in obstructive sleep apnea</article-title>. <source><italic toggle="yes">Sleep Breath</italic></source>. <year>2021</year>;<volume>25</volume>:<fpage>347</fpage>–<lpage>354</lpage>. doi:<pub-id pub-id-type="doi">10.1007/s11325-020-02066-5</pub-id><pub-id pub-id-type="pmid">32772308</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0029">
+        <label>29.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Azarbarzin</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Sands</surname>
+<given-names>SA</given-names></string-name>, <string-name><surname>Stone</surname>
+<given-names>KL</given-names></string-name>, et al. <article-title>The hypoxic burden of sleep apnoea predicts cardiovascular disease-related mortality: the osteoporotic fractures in men study and the sleep heart health study</article-title>. <source><italic toggle="yes">Eur Heart J</italic></source>. <year>2019</year>;<volume>40</volume>:<fpage>1149</fpage>–<lpage>1157</lpage>. doi:<pub-id pub-id-type="doi">10.1093/eurheartj/ehy624</pub-id><pub-id pub-id-type="pmid">30376054</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0030">
+        <label>30.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Azarbarzin</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Sands</surname>
+<given-names>SA</given-names></string-name>, <string-name><surname>Taranto-Montemurro</surname>
+<given-names>L</given-names></string-name>, et al. <article-title>The sleep apnea-specific hypoxic burden predicts incident heart failure</article-title>. <source><italic toggle="yes">Chest</italic></source>. <year>2020</year>;<volume>158</volume>:<fpage>739</fpage>–<lpage>750</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.chest.2020.03.053</pub-id><pub-id pub-id-type="pmid">32298733</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0031">
+        <label>31.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Blanchard</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Gervès-Pinquié</surname>
+<given-names>C</given-names></string-name>, <string-name><surname>Feuilloy</surname>
+<given-names>M</given-names></string-name>, et al. <article-title>Hypoxic burden and heart rate variability predict stroke incidence in sleep apnoea</article-title>. <source><italic toggle="yes">Eur Respir J</italic></source>. <year>2021</year>;<volume>57</volume>:<fpage>17</fpage>.</mixed-citation>
+      </ref>
+      <ref id="cit0032">
+        <label>32.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Jackson</surname>
+<given-names>CL</given-names></string-name>, <string-name><surname>Umesi</surname>
+<given-names>C</given-names></string-name>, <string-name><surname>Gaston</surname>
+<given-names>SA</given-names></string-name>, et al. <article-title>Multiple, objectively measured sleep dimensions including hypoxic burden and chronic kidney disease: findings from the multi-ethnic study of atherosclerosis</article-title>. <source><italic toggle="yes">Thorax</italic></source>. <year>2021</year>;<volume>76</volume>:<fpage>704</fpage>–<lpage>713</lpage>. doi:<pub-id pub-id-type="doi">10.1136/thoraxjnl-2020-214713</pub-id><pub-id pub-id-type="pmid">33277428</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0033">
+        <label>33.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Cao</surname>
+<given-names>W</given-names></string-name>, <string-name><surname>Luo</surname>
+<given-names>J</given-names></string-name>, <string-name><surname>Huang</surname>
+<given-names>R</given-names></string-name>, <string-name><surname>Xiao</surname>
+<given-names>Y</given-names></string-name>. <article-title>The association between sleep breathing impairment index and cardiovascular risk in male patients with obstructive sleep apnea</article-title>. <source><italic toggle="yes">Nat Sci Sleep</italic></source>. <year>2022</year>;<volume>14</volume>:<fpage>53</fpage>–<lpage>60</lpage>. doi:<pub-id pub-id-type="doi">10.2147/NSS.S343661</pub-id><pub-id pub-id-type="pmid">35046740</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0034">
+        <label>34.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Wang</surname>
+<given-names>N</given-names></string-name>, <string-name><surname>Meng</surname>
+<given-names>Z</given-names></string-name>, <string-name><surname>Ding</surname>
+<given-names>N</given-names></string-name>, et al. <article-title>Oxygen desaturation rate as a novel intermittent hypoxemia parameter in severe obstructive sleep apnea is strongly associated with hypertension</article-title>. <source><italic toggle="yes">J Clin Sleep Med</italic></source>. <year>2020</year>;<volume>16</volume>:<fpage>1055</fpage>–<lpage>1062</lpage>. doi:<pub-id pub-id-type="doi">10.5664/jcsm.8396</pub-id><pub-id pub-id-type="pmid">32105212</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0035">
+        <label>35.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Loh</surname>
+<given-names>HW</given-names></string-name>, <string-name><surname>Xu</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Faust</surname>
+<given-names>O</given-names></string-name>, et al. <article-title>Application of photoplethysmography signals for healthcare systems: an in-depth review</article-title>. <source><italic toggle="yes">Comput Method Prog Biomed</italic></source>. <year>2022</year>;<volume>216</volume>:<fpage>106677</fpage>. doi:<pub-id pub-id-type="doi">10.1016/j.cmpb.2022.106677</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0036">
+        <label>36.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Betta</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Handjaras</surname>
+<given-names>G</given-names></string-name>, <string-name><surname>Ricciardi</surname>
+<given-names>E</given-names></string-name>, et al. <article-title>Quantifying peripheral sympathetic activations during sleep by means of an automatic method for pulse wave amplitude drop detection</article-title>. <source><italic toggle="yes">Sleep Med</italic></source>. <year>2020</year>;<volume>69</volume>:<fpage>220</fpage>–<lpage>232</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.sleep.2019.12.030</pub-id><pub-id pub-id-type="pmid">32200309</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0037">
+        <label>37.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Bosi</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Milioli</surname>
+<given-names>G</given-names></string-name>, <string-name><surname>Riccardi</surname>
+<given-names>S</given-names></string-name>, et al. <article-title>Arousal responses to respiratory events during sleep: the role of pulse wave amplitude</article-title>. <source><italic toggle="yes">J Sleep Res</italic></source>. <year>2018</year>;<volume>27</volume>:<fpage>259</fpage>–<lpage>267</lpage>. doi:<pub-id pub-id-type="doi">10.1111/jsr.12593</pub-id><pub-id pub-id-type="pmid">28901049</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0038">
+        <label>38.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Hirotsu</surname>
+<given-names>C</given-names></string-name>, <string-name><surname>Betta</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Bernardi</surname>
+<given-names>G</given-names></string-name>, et al. <article-title>Pulse wave amplitude drops during sleep: clinical significance and characteristics in a general population sample</article-title>. <source><italic toggle="yes">Sleep</italic></source>. <year>2020</year>;<volume>43</volume>:<fpage>5</fpage>. doi:<pub-id pub-id-type="doi">10.1093/sleep/zsz322</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0039">
+        <label>39.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Finnegan</surname>
+<given-names>E</given-names></string-name>, <string-name><surname>Davidson</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Harford</surname>
+<given-names>M</given-names></string-name>, et al. <article-title>Pulse arrival time as a surrogate of blood pressure</article-title>. <source><italic toggle="yes">Sci Rep</italic></source>. <year>2021</year>;<volume>11</volume>:<fpage>22767</fpage>. doi:<pub-id pub-id-type="doi">10.1038/s41598-021-01358-4</pub-id><pub-id pub-id-type="pmid">34815419</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0040">
+        <label>40.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Kwon</surname>
+<given-names>Y</given-names></string-name>, <string-name><surname>Wiles</surname>
+<given-names>C</given-names></string-name>, <string-name><surname>Parker</surname>
+<given-names>BE</given-names></string-name>, et al. <article-title>Pulse arrival time, a novel sleep cardiovascular marker: the multi-ethnic study of atherosclerosis</article-title>. <source><italic toggle="yes">Thorax</italic></source>. <year>2021</year>;<volume>76</volume>:<fpage>1124</fpage>–<lpage>1130</lpage>. doi:<pub-id pub-id-type="doi">10.1136/thoraxjnl-2020-216399</pub-id><pub-id pub-id-type="pmid">33863828</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0041">
+        <label>41.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Gorgoni</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Lauri</surname>
+<given-names>G</given-names></string-name>, <string-name><surname>Truglia</surname>
+<given-names>I</given-names></string-name>, et al. <article-title>Parietal fast sleep spindle density decrease in Alzheimer’s disease and amnesic mild cognitive impairment</article-title>. <source><italic toggle="yes">Neural Plast</italic></source>. <year>2016</year>;<volume>2016</volume>:<fpage>8376108</fpage>. doi:<pub-id pub-id-type="doi">10.1155/2016/8376108</pub-id><pub-id pub-id-type="pmid">27066274</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0042">
+        <label>42.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Butler</surname>
+<given-names>MP</given-names></string-name>, <string-name><surname>Emch</surname>
+<given-names>JT</given-names></string-name>, <string-name><surname>Rueschman</surname>
+<given-names>M</given-names></string-name>, et al. <article-title>Apnea-hypopnea event duration predicts mortality in men and women in the sleep heart health study</article-title>. <source><italic toggle="yes">Am J Respir Crit Care Med</italic></source>. <year>2019</year>;<volume>199</volume>:<fpage>903</fpage>–<lpage>912</lpage>. doi:<pub-id pub-id-type="doi">10.1164/rccm.201804-0758OC</pub-id><pub-id pub-id-type="pmid">30336691</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0043">
+        <label>43.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Baumert</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Linz</surname>
+<given-names>D</given-names></string-name>, <string-name><surname>Stone</surname>
+<given-names>K</given-names></string-name>, et al. <article-title>Mean nocturnal respiratory rate predicts cardiovascular and all-cause mortality in community-dwelling older men and women</article-title>. <source><italic toggle="yes">Eur Respir J</italic></source>. <year>2019</year>;<volume>54</volume>:<fpage>55</fpage>. doi:<pub-id pub-id-type="doi">10.1183/13993003.02175-2018</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0044">
+        <label>44.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Zinchuk</surname>
+<given-names>AV</given-names></string-name>, <string-name><surname>Jeon</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Koo</surname>
+<given-names>BB</given-names></string-name>, et al. <article-title>Polysomnographic phenotypes and their cardiovascular implications in obstructive sleep apnoea</article-title>. <source><italic toggle="yes">Thorax</italic></source>. <year>2018</year>;<volume>73</volume>:<fpage>472</fpage>–<lpage>480</lpage>. doi:<pub-id pub-id-type="doi">10.1136/thoraxjnl-2017-210431</pub-id><pub-id pub-id-type="pmid">28935698</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0045">
+        <label>45.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Ding</surname>
+<given-names>Q</given-names></string-name>, <string-name><surname>Qin</surname>
+<given-names>L</given-names></string-name>, <string-name><surname>Wojeck</surname>
+<given-names>B</given-names></string-name>, et al. <article-title>Polysomnographic phenotypes of obstructive sleep apnea and incident type 2 diabetes: results from the DREAM study</article-title>. <source><italic toggle="yes">Ann Am Thoracic Soci</italic></source>. <year>2021</year>;<volume>18</volume>:<fpage>2067</fpage>–<lpage>2078</lpage>. doi:<pub-id pub-id-type="doi">10.1513/AnnalsATS.202012-1556OC</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0046">
+        <label>46.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Carberry</surname>
+<given-names>JC</given-names></string-name>, <string-name><surname>Amatoury</surname>
+<given-names>J</given-names></string-name>, <string-name><surname>Eckert</surname>
+<given-names>DJ</given-names></string-name>. <article-title>Personalized management approach for OSA</article-title>. <source><italic toggle="yes">Chest</italic></source>. <year>2018</year>;<volume>153</volume>:<fpage>744</fpage>–<lpage>755</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.chest.2017.06.011</pub-id><pub-id pub-id-type="pmid">28629917</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0047">
+        <label>47.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Terrill</surname>
+<given-names>PI</given-names></string-name>, <string-name><surname>Edwards</surname>
+<given-names>BA</given-names></string-name>, <string-name><surname>Nemati</surname>
+<given-names>S</given-names></string-name>, et al. <article-title>Quantifying the ventilatory control contribution to sleep apnoea using polysomnography</article-title>. <source><italic toggle="yes">Eur Respir J</italic></source>. <year>2015</year>;<volume>45</volume>:<fpage>408</fpage>–<lpage>418</lpage>. doi:<pub-id pub-id-type="doi">10.1183/09031936.00062914</pub-id><pub-id pub-id-type="pmid">25323235</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0048">
+        <label>48.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Sands</surname>
+<given-names>SA</given-names></string-name>, <string-name><surname>Terrill</surname>
+<given-names>PI</given-names></string-name>, <string-name><surname>Edwards</surname>
+<given-names>BA</given-names></string-name>, et al. <article-title>Quantifying the arousal threshold using polysomnography in obstructive sleep apnea</article-title>. <source><italic toggle="yes">Sleep</italic></source>. <year>2018</year>;<volume>41</volume>:<fpage>47</fpage>. doi:<pub-id pub-id-type="doi">10.1093/sleep/zsx183</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0049">
+        <label>49.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Sands</surname>
+<given-names>SA</given-names></string-name>, <string-name><surname>Edwards</surname>
+<given-names>BA</given-names></string-name>, <string-name><surname>Terrill</surname>
+<given-names>PI</given-names></string-name>, et al. <article-title>Phenotyping pharyngeal pathophysiology using polysomnography in patients with obstructive sleep apnea</article-title>. <source><italic toggle="yes">Am J Respir Crit Care Med</italic></source>. <year>2018</year>;<volume>197</volume>:<fpage>1187</fpage>–<lpage>1197</lpage>. doi:<pub-id pub-id-type="doi">10.1164/rccm.201707-1435OC</pub-id><pub-id pub-id-type="pmid">29327943</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0050">
+        <label>50.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Edwards</surname>
+<given-names>BA</given-names></string-name>, <string-name><surname>Andara</surname>
+<given-names>C</given-names></string-name>, <string-name><surname>Landry</surname>
+<given-names>S</given-names></string-name>, et al. <article-title>Upper-airway collapsibility and loop gain predict the response to oral appliance therapy in patients with obstructive sleep apnea</article-title>. <source><italic toggle="yes">Am J Respir Crit Care Med</italic></source>. <year>2016</year>;<volume>194</volume>:<fpage>1413</fpage>–<lpage>1422</lpage>. doi:<pub-id pub-id-type="doi">10.1164/rccm.201601-0099OC</pub-id><pub-id pub-id-type="pmid">27181367</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0051">
+        <label>51.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Taranto-Montemurro</surname>
+<given-names>L</given-names></string-name>, <string-name><surname>Sands</surname>
+<given-names>SA</given-names></string-name>, <string-name><surname>Edwards</surname>
+<given-names>BA</given-names></string-name>, et al. <article-title>Desipramine improves upper airway collapsibility and reduces OSA severity in patients with minimal muscle compensation</article-title>. <source><italic toggle="yes">Eur Respir J</italic></source>. <year>2016</year>;<volume>48</volume>:<fpage>1340</fpage>–<lpage>1350</lpage>. doi:<pub-id pub-id-type="doi">10.1183/13993003.00823-2016</pub-id><pub-id pub-id-type="pmid">27799387</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0052">
+        <label>52.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Eckert</surname>
+<given-names>DJ</given-names></string-name>, <string-name><surname>Owens</surname>
+<given-names>RL</given-names></string-name>, <string-name><surname>Kehlmann</surname>
+<given-names>GB</given-names></string-name>, et al. <article-title>Eszopiclone increases the respiratory arousal threshold and lowers the apnoea/hypopnoea index in obstructive sleep apnoea patients with a low arousal threshold</article-title>. <source><italic toggle="yes">Clin Sci</italic></source>. <year>2011</year>;<volume>2011</volume>:<fpage>505</fpage>–<lpage>514</lpage>. doi:<pub-id pub-id-type="doi">10.1042/CS20100588</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0053">
+        <label>53.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Smales</surname>
+<given-names>ET</given-names></string-name>, <string-name><surname>Edwards</surname>
+<given-names>BA</given-names></string-name>, <string-name><surname>Deyoung</surname>
+<given-names>PN</given-names></string-name>, et al. <article-title>Trazodone effects on obstructive sleep apnea and non-REM arousal threshold</article-title>. <source><italic toggle="yes">Ann Am Thoracic Soci</italic></source>. <year>2015</year>;<volume>12</volume>:<fpage>758</fpage>–<lpage>764</lpage>. doi:<pub-id pub-id-type="doi">10.1513/AnnalsATS.201408-399OC</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0054">
+        <label>54.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Edwards</surname>
+<given-names>BA</given-names></string-name>, <string-name><surname>Redline</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Sands</surname>
+<given-names>SA</given-names></string-name>, <string-name><surname>Owens</surname>
+<given-names>RL</given-names></string-name>. <article-title>More than the sum of the respiratory events: personalized medicine approaches for obstructive sleep apnea</article-title>. <source><italic toggle="yes">Am J Respir Crit Care Med</italic></source>. <year>2019</year>;<volume>200</volume>:<fpage>691</fpage>–<lpage>703</lpage>. doi:<pub-id pub-id-type="doi">10.1164/rccm.201901-0014TR</pub-id><pub-id pub-id-type="pmid">31022356</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0055">
+        <label>55.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Edwards</surname>
+<given-names>BA</given-names></string-name>, <string-name><surname>Eckert</surname>
+<given-names>DJ</given-names></string-name>, <string-name><surname>McSharry</surname>
+<given-names>DG</given-names></string-name>, et al. <article-title>Clinical predictors of the respiratory arousal threshold in patients with obstructive sleep apnea</article-title>. <source><italic toggle="yes">Am J Respir Crit Care Med</italic></source>. <year>2014</year>;<volume>190</volume>:<fpage>1293</fpage>–<lpage>1300</lpage>. doi:<pub-id pub-id-type="doi">10.1164/rccm.201404-0718OC</pub-id><pub-id pub-id-type="pmid">25321848</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0056">
+        <label>56.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Chen</surname>
+<given-names>CY</given-names></string-name>, <string-name><surname>Chen</surname>
+<given-names>CL</given-names></string-name>, <string-name><surname>Yu</surname>
+<given-names>CC</given-names></string-name>. <article-title>Trazodone improves obstructive sleep apnea after ischemic stroke: a randomized, double-blind, placebo-controlled, crossover pilot study</article-title>. <source><italic toggle="yes">J Neurol</italic></source>. <year>2021</year>;<volume>268</volume>:<fpage>2951</fpage>–<lpage>2960</lpage>. doi:<pub-id pub-id-type="doi">10.1007/s00415-021-10480-2</pub-id><pub-id pub-id-type="pmid">33625584</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0057">
+        <label>57.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Schmickl</surname>
+<given-names>CN</given-names></string-name>, <string-name><surname>Lettieri</surname>
+<given-names>CJ</given-names></string-name>, <string-name><surname>Orr</surname>
+<given-names>JE</given-names></string-name>, et al. <article-title>The arousal threshold as a drug target to improve continuous positive airway pressure adherence: secondary analysis of a randomized trial</article-title>. <source><italic toggle="yes">Am J Respir Crit Care Med</italic></source>. <year>2020</year>;<volume>202</volume>:<fpage>1592</fpage>–<lpage>1595</lpage>. doi:<pub-id pub-id-type="doi">10.1164/rccm.202003-0502LE</pub-id><pub-id pub-id-type="pmid">32673496</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0058">
+        <label>58.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Lu</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Penzel</surname>
+<given-names>T</given-names></string-name>, <string-name><surname>Thomas</surname>
+<given-names>RJ</given-names></string-name>. <article-title>Cardiopulmonary coupling</article-title>. <source><italic toggle="yes">Adv Exper Med Biol</italic></source>. <year>2022</year>;<volume>1384</volume>:<fpage>185</fpage>–<lpage>204</lpage>.<pub-id pub-id-type="pmid">36217085</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0059">
+        <label>59.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Gnoni</surname>
+<given-names>V</given-names></string-name>, <string-name><surname>Drakatos</surname>
+<given-names>P</given-names></string-name>, <string-name><surname>Higgins</surname>
+<given-names>S</given-names></string-name>, et al. <article-title>Cyclic alternating pattern in obstructive sleep apnea: a preliminary study</article-title>. <source><italic toggle="yes">J Sleep Res</italic></source>. <year>2021</year>;<volume>30</volume>:<fpage>e13350</fpage>. doi:<pub-id pub-id-type="doi">10.1111/jsr.13350</pub-id><pub-id pub-id-type="pmid">33939202</pub-id></mixed-citation>
+      </ref>
+    </ref-list>
+  </back>
+</article>
+</pmc-articleset>

@@ -1,0 +1,671 @@
+<pmc-articleset><article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="research-article">
+  <?properties open_access?>
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="nlm-ta">Nat Sci Sleep</journal-id>
+      <journal-id journal-id-type="iso-abbrev">Nat Sci Sleep</journal-id>
+      <journal-id journal-id-type="publisher-id">nss</journal-id>
+      <journal-id journal-id-type="pmc">nss</journal-id>
+      <journal-title-group>
+        <journal-title>Nature and Science of Sleep</journal-title>
+      </journal-title-group>
+      <issn pub-type="epub">1179-1608</issn>
+      <publisher>
+        <publisher-name>Dove</publisher-name>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="pmid">33737850</article-id>
+      <article-id pub-id-type="pmc">7966385</article-id>
+      <article-id pub-id-type="publisher-id">297856</article-id>
+      <article-id pub-id-type="doi">10.2147/NSS.S297856</article-id>
+      <article-categories>
+        <subj-group subj-group-type="heading">
+          <subject>Original Research</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>Deep Learning for Diagnosis and Classification of Obstructive Sleep Apnea: A Nasal Airflow-Based Multi-Resolution Residual Network</article-title>
+        <alt-title alt-title-type="running-authors">Yue et al</alt-title>
+        <alt-title alt-title-type="running-title">Yue et al</alt-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author" equal-contrib="yes">
+          <contrib-id contrib-id-type="orcid" authenticated="false">http://orcid.org/0000-0001-8826-9423</contrib-id>
+          <name>
+            <surname>Yue</surname>
+            <given-names>Huijun</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff0001">
+            <sup>1</sup>
+          </xref>
+          <xref ref-type="author-notes" rid="ft0001">*</xref>
+        </contrib>
+        <contrib contrib-type="author" equal-contrib="yes">
+          <name>
+            <surname>Lin</surname>
+            <given-names>Yu</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff0001">
+            <sup>1</sup>
+          </xref>
+          <xref ref-type="author-notes" rid="ft0001">*</xref>
+        </contrib>
+        <contrib contrib-type="author" equal-contrib="yes">
+          <name>
+            <surname>Wu</surname>
+            <given-names>Yitao</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff0002">
+            <sup>2</sup>
+          </xref>
+          <xref ref-type="author-notes" rid="ft0001">*</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Wang</surname>
+            <given-names>Yongquan</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff0001">
+            <sup>1</sup>
+          </xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Li</surname>
+            <given-names>Yun</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff0001">
+            <sup>1</sup>
+          </xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Guo</surname>
+            <given-names>Xueqin</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff0001">
+            <sup>1</sup>
+          </xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Huang</surname>
+            <given-names>Ying</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff0003">
+            <sup>3</sup>
+          </xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Wen</surname>
+            <given-names>Weiping</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff0001">
+            <sup>1</sup>
+          </xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Zhao</surname>
+            <given-names>Gansen</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff0002">
+            <sup>2</sup>
+          </xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Pang</surname>
+            <given-names>Xiongwen</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff0002">
+            <sup>2</sup>
+          </xref>
+          <xref ref-type="corresp" rid="an0002"/>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Lei</surname>
+            <given-names>Wenbin</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff0001">
+            <sup>1</sup>
+          </xref>
+          <xref ref-type="corresp" rid="an0001"/>
+        </contrib>
+        <aff id="aff0001"><label>1</label><institution>Otorhinolaryngology Hospital, The First Affiliated Hospital, Sun Yat-sen University</institution>, <addr-line>Guangzhou</addr-line>, <addr-line>510080</addr-line>, <country>People’s Republic of China</country></aff>
+        <aff id="aff0002"><label>2</label>School of Computer Science, <institution>South China Normal University</institution>, <addr-line>Guangzhou</addr-line>, <addr-line>510631</addr-line>, <country>People’s Republic of China</country></aff>
+        <aff id="aff0003"><label>3</label><institution>Guangdong Province Traditional Chinese Medical Hospital</institution>, <addr-line>Guangzhou</addr-line>, <addr-line>510000</addr-line>, <country>People’s Republic of China</country></aff>
+      </contrib-group>
+      <author-notes>
+        <corresp id="an0001">Correspondence: Wenbin Lei <institution>Otorhinolaryngology Hospital, The First Affiliated Hospital, Sun Yat-sen University</institution>, <addr-line>58 Zhongshan Road II</addr-line>, <addr-line>Guangzhou</addr-line>, <addr-line>Guangdong</addr-line>, <addr-line>510080</addr-line>, <country>People’s Republic of China</country><phone>Tel +86-13922113299</phone> Email leiwb@mail.sysu.edu.cn</corresp>
+        <corresp id="an0002">Xiongwen Pang <institution>School of Computer Science, South China Normal University</institution>, <addr-line>55 West Zhongshan Avenue</addr-line>, <addr-line>Guangzhou</addr-line>, <addr-line>Guangdong</addr-line>, <addr-line>510631</addr-line>, <country>People’s Republic of China</country><phone>Tel +86-18620638848</phone> Email augepang@scnu.edu.cn</corresp>
+        <fn id="ft0001">
+          <label>*</label>
+          <p>These authors contributed equally to this work</p>
+        </fn>
+      </author-notes>
+      <pub-date pub-type="epub">
+        <day>12</day>
+        <month>3</month>
+        <year>2021</year>
+      </pub-date>
+      <pub-date pub-type="collection">
+        <year>2021</year>
+      </pub-date>
+      <volume>13</volume>
+      <fpage>361</fpage>
+      <lpage>373</lpage>
+      <history>
+        <date date-type="received">
+          <day>22</day>
+          <month>12</month>
+          <year>2020</year>
+        </date>
+        <date date-type="accepted">
+          <day>19</day>
+          <month>2</month>
+          <year>2021</year>
+        </date>
+      </history>
+      <permissions>
+        <copyright-statement>© 2021 Yue et al.</copyright-statement>
+        <copyright-year>2021</copyright-year>
+        <copyright-holder>Yue et al.</copyright-holder>
+        <license license-type="open-access" xlink:href="http://creativecommons.org/licenses/by-nc/3.0/">
+          <license-p>This work is published and licensed by Dove Medical Press Limited. The full terms of this license are available at <ext-link ext-link-type="uri" xlink:href="https://www.dovepress.com/terms.php">https://www.dovepress.com/terms.php</ext-link> and incorporate the Creative Commons Attribution – Non Commercial (unported, v3.0) License (<ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by-nc/3.0/">http://creativecommons.org/licenses/by-nc/3.0/</ext-link>). By accessing the work you hereby accept the Terms. Non-commercial uses of the work are permitted without any further permission from Dove Medical Press Limited, provided the work is properly attributed. For permission for commercial use of this work, please see paragraphs 4.2 and 5 of our Terms (<ext-link ext-link-type="uri" xlink:href="https://www.dovepress.com/terms.php">https://www.dovepress.com/terms.php</ext-link>).</license-p>
+        </license>
+      </permissions>
+      <abstract>
+        <sec id="s2001">
+          <title>Purpose</title>
+          <p>This study evaluated a novel approach for diagnosis and classification of obstructive sleep apnea (OSA), called Obstructive Sleep Apnea Smart System (OSASS), using residual networks and single-channel nasal pressure airflow signals.</p>
+        </sec>
+        <sec id="s2002">
+          <title>Methods</title>
+          <p>Data were collected from the sleep center of the First Affiliated Hospital, Sun Yat-sen University, and the Integrative Department of Guangdong Province Traditional Chinese Medical Hospital. We developed a new model called the multi-resolution residual network (Mr-ResNet) based on a residual network to detect nasal pressure airflow signals recorded by polysomnography (PSG) automatically. The performance of the model was assessed by its sensitivity, specificity, accuracy, and F1-score. We built OSASS based on Mr-ResNet to estimate the apnea‒hypopnea index (AHI) and to classify the severity of OSA, and compared the agreement between OSASS output and the registered polysomnographic technologist (RPSGT) score, assessed by two technologists.</p>
+        </sec>
+        <sec id="s2003">
+          <title>Results</title>
+          <p>In the primary test set, the sensitivity, specificity, accuracy, and F1-score of Mr-ResNet were 90.8%, 90.5%, 91.2%, and 90.5%, respectively. In the independent test set, the Spearman correlation for AHI between OSASS and the RPSGT score determined by two technologists was 0.94 (<italic>p</italic> &lt; 0.001) and 0.96 (<italic>p</italic> &lt; 0.001), respectively. Cohen’s Kappa scores for classification between OSASS and the two technologists’ scores were 0.81 and 0.84, respectively.</p>
+        </sec>
+        <sec id="s2004">
+          <title>Conclusion</title>
+          <p>Our results indicated that OSASS can automatically diagnose and classify OSA using signals from a single-channel nasal pressure airflow, which is consistent with polysomnographic technologists’ findings. Thus, OSASS holds promise for clinical application.</p>
+        </sec>
+      </abstract>
+      <kwd-group kwd-group-type="author">
+        <title>Keywords</title>
+        <kwd>deep learning</kwd>
+        <kwd>nasal airflow</kwd>
+        <kwd>obstructive sleep apnea</kwd>
+        <kwd>residual network</kwd>
+      </kwd-group>
+      <funding-group>
+        <award-group>
+          <funding-source>
+            <institution-wrap>
+              <institution>the National Key R&amp;D Program of China</institution>
+            </institution-wrap>
+          </funding-source>
+        </award-group>
+        <award-group>
+          <funding-source>
+            <institution-wrap>
+              <institution>the Science and Technology Program of Guangzhou of China</institution>
+            </institution-wrap>
+          </funding-source>
+        </award-group>
+        <award-group>
+          <funding-source>
+            <institution-wrap>
+              <institution>the 5010 Clinical Research Program of Sun Yat-sen University</institution>
+            </institution-wrap>
+          </funding-source>
+        </award-group>
+        <award-group>
+          <funding-source>
+            <institution-wrap>
+              <institution>the National Natural Science Foundation of China</institution>
+            </institution-wrap>
+          </funding-source>
+        </award-group>
+        <funding-statement>This work was supported by the National Key R&amp;D Program of China (No. 2020YFC1316903, No. 2018YFB1404402), the Science and Technology Program of Guangzhou of China (No. 201704020092, No. 20180203004, No. 201804010314), the 5010 Clinical Research Program of Sun Yat-sen University (No. 2017004), the General Program of National Natural Science Foundation of China (No. 81972528), and the Major Program of National Social Science Fund of China (No. 19ZDA041).</funding-statement>
+      </funding-group>
+      <counts>
+        <fig-count count="5"/>
+        <table-count count="11"/>
+        <ref-count count="44"/>
+        <page-count count="13"/>
+      </counts>
+    </article-meta>
+  </front>
+  <body>
+    <sec sec-type="intro" id="s0001">
+      <title>Introduction</title>
+      <p>Undiagnosed and untreated obstructive sleep apnea (OSA) is a major health burden worldwide,<xref rid="cit0001" ref-type="bibr">1</xref>,<xref rid="cit0002" ref-type="bibr">2</xref> and is associated with several severe health consequences, such as cardiac arrhythmia, heart attacks, stroke, and even sudden death,<xref rid="cit0003" ref-type="bibr">3</xref>,<xref rid="cit0004" ref-type="bibr">4</xref> and can increase the risk of traffic accidents.<xref rid="cit0005" ref-type="bibr">5</xref> Polysomnography (PSG) is regarded as the gold standard for the accurate diagnosis of OSA, and is performed at a specialized sleep center or laboratory.<xref rid="cit0006" ref-type="bibr">6</xref> Multiple physiological signals pertaining to electroencephalogram (EEG), electrooculograms (EOG), electromyogram (EMG), electrocardiogram (ECG), respiration, and pulse oxygen saturation (SpO<sub>2</sub>) are recorded during overnight PSG.<xref rid="cit0007" ref-type="bibr">7</xref> The output requires manual scoring by sleep specialists, which is time-consuming, labor-intensive, and error-prone, making it a complex and expensive process, which markedly affects the availability and accessibility of OSA diagnostic resources.</p>
+      <p>Although unattended abbreviated testing for routine screening of OSA at home, based on a reduced number of physiological signals, has been encouraged during the last few years,<xref rid="cit0008" ref-type="bibr">8</xref> the accuracy of most analysis software has been shown to be relatively poor, underestimating the condition.<xref rid="cit0009" ref-type="bibr">9</xref>,<xref rid="cit0010" ref-type="bibr">10</xref> Therefore, there is a need for an intelligent OSA diagnostic system that uses fewer signals, analyzes more patients more rapidly, and eliminates the high intra- and inter-scorer variability.<xref rid="cit0011" ref-type="bibr">11</xref></p>
+      <p>Deep learning (DL)<xref rid="cit0012" ref-type="bibr">12</xref> has achieved some success in the field of automated OSA diagnosis using single-channel signals. A convolutional neural network (CNN) is a popular structure in DL.<xref rid="cit0012" ref-type="bibr">12</xref> Urtnasan et al<xref rid="cit0013" ref-type="bibr">13</xref> showed the performance of a six-layer CNN model for OSA detection from a single-lead ECG signal, with a sensitivity, specificity, and accuracy of 96% each. Jiang et al<xref rid="cit0014" ref-type="bibr">14</xref> proposed a multi-scale parallel CNN for automatic sleep apnea detection using single-channel EEG signals, with an accuracy of 89.1%. Haidar et al<xref rid="cit0015" ref-type="bibr">15</xref> compared two classification methods based on nasal airflow signals and proved that CNN (with an accuracy of 74.7%) was superior to a support vector machine (SVM), a traditional machine-learning algorithm (which had an accuracy of 72.0%). Van Steenkiste et al<xref rid="cit0016" ref-type="bibr">16</xref> identified sleep apnea from chest and abdominal breathing data using a long short-term memory network (LSTM),<xref rid="cit0017" ref-type="bibr">17</xref>,<xref rid="cit0018" ref-type="bibr">18</xref> another deep learning algorithm called a recurrent neural network (RNN),<xref rid="cit0012" ref-type="bibr">12</xref>,<xref rid="cit0018" ref-type="bibr">18</xref> with an average accuracy of 77.2% and 75.0%, respectively. However, most methods only classify apnea, ignoring hypopnea,<xref rid="cit0019" ref-type="bibr">19</xref> which is also important for individualized diagnosis<xref rid="cit0020" ref-type="bibr">20</xref>,<xref rid="cit0021" ref-type="bibr">21</xref> and treatment.<xref rid="cit0022" ref-type="bibr">22</xref>,<xref rid="cit0023" ref-type="bibr">23</xref></p>
+      <p>Using airflow signals to estimate the apnea‒hypopnea index (AHI) is a suitable method, as it is completely in accordance with the rules of manual scoring, but models based on one-channel respiratory signals exhibit inferior performance. The residual network (ResNet) approach<xref rid="cit0024" ref-type="bibr">24</xref> is an outstanding means of implementing a CNN and can accelerate the training of ultra-deep neural networks, yielding improved accuracy. To the best of our knowledge, there have been no reports using ResNet and airflow signals to detect OSA. In this study, we propose a DL architecture called multi-resolution ResNet (Mr-ResNet) based on ResNet, that uses only raw nasal pressure airflow signals to learn and extract relevant features automatically, and achieves high sensitivity (90.8%) and specificity (90.5%), with an accuracy of 91.2%. The architecture of Mr-ResNet was presented at 2020 International Conference on Neural Computing for Advanced Applications (Shenzhen, China).<xref rid="cit0025" ref-type="bibr">25</xref> Based on Mr-ResNet, we built an OSA Smart System (OSASS) to estimate AHI and classify OSA severity in a manner that was consistent with scoring by polysomnographic technologists in a real clinical setting. These results demonstrate that the novel concept has good prospects for clinical application, which can be widely used for large-scale OSA screening, rapid diagnosis, and remote diagnosis systems.</p>
+    </sec>
+    <sec id="s0002">
+      <title>Methods</title>
+      <sec id="s0002-s2001">
+        <title>Subjects and Database</title>
+        <p>The Clinical Research Ethics Committee of the First Affiliated Hospital, Sun Yat-sen University approved the research protocol (approval No. 2,019,119). Given the retrospective nature of the study and considering that we ensured participant privacy by confirming that the study was conducted in compliance with the Declaration of Helsinki, the Institutional Review Board approved our application for an exemption regarding the requirement to obtain written informed consent from the patients.</p>
+        <p>In this study, two datasets were used to develop and verify the model, including one database of adult patients with suspected OSA collected from the sleep center of the First Affiliated Hospital, Sun Yat-sen University (FAH database), and another one collected from the Integrative Department of Guangdong Province Traditional Chinese Medical Hospital (CMH database). The FAH database contains 405 PSG records, which were collected using an Embla device (Embla N7000, San Diego, CA, USA), which recorded seven EEGs, right and left EOGs, one chin muscle EMG, ECG, SpO<sub>2</sub>, nasal pressure airflow, thoracic and abdominal respiratory movements, body position, snoring sound, and video monitoring, between January 2018 and December 2019. The CMH database information was collected from 45 patients using the same device. All records were manually analyzed by RemLogic 3.4.1 software (Embla) using the 2012 American Academy of Sleep Medicine (AASM) scoring rules.<xref rid="cit0019" ref-type="bibr">19</xref> According to these rules, an obstructive apnea event was defined as a ≥ 90% drop in respiratory flow for at least 10 s, associated with breathing effort. A hypopnea event was defined as a ≥ 30% drop in respiratory flow for at least 10 s, associated with ≥ 3% oxygen desaturation or arousal; and the AHI was defined as the number of apneas and hypopneas per hour of total sleep time (TST).</p>
+        <p>Subjects who met the following criteria were excluded: patients (1) aged &lt; 18 years; (2) with TST &lt; 240 min; (3) with central sleep apnea events &gt; 50%; (4) with other coexisting sleep disorders; and (5) with pulmonary dysfunction (<xref ref-type="fig" rid="f0001">Figure 1</xref>). The subjects from the FAH database were divided into two groups to make up the training and primary test sets, by first sorting all patients based on their AHI and randomly selecting about 10% of every severity category for the primary test set. The CMH test set included a similar proportion of subjects for the primary test set. The demographic and polysomnographic characteristics of all subjects in the whole FAH dataset, training set, primary test set, and the CMH test set are presented in <xref rid="t0001" ref-type="table">Table 1</xref>.<table-wrap id="t0001" orientation="portrait" position="float"><label>Table 1</label><caption><p>Demographic and Polysomnographic Characteristics of Subjects</p></caption><table frame="hsides" rules="groups"><thead><tr><th rowspan="1" colspan="1"/><th rowspan="1" colspan="1">FAH Dataset</th><th rowspan="1" colspan="1">Training Set</th><th rowspan="1" colspan="1">Primary Test Set</th><th rowspan="1" colspan="1">CMH Test Set</th></tr></thead><tbody><tr><td rowspan="1" colspan="1"><bold>Subjects, n (%)</bold></td><td rowspan="1" colspan="1">405 (100)</td><td rowspan="1" colspan="1">360 (88.9)</td><td rowspan="1" colspan="1">45 (11.1)</td><td rowspan="1" colspan="1">45 (100)</td></tr><tr><td rowspan="1" colspan="1"><bold>Male, n (%)</bold></td><td rowspan="1" colspan="1">355 (87.7)</td><td rowspan="1" colspan="1">315 (87.5)</td><td rowspan="1" colspan="1">40 (88.9)</td><td rowspan="1" colspan="1">40 (88.9)</td></tr><tr><td rowspan="1" colspan="1"><bold>Age, years</bold></td><td rowspan="1" colspan="1">40.0 (31.0‒48.0)</td><td rowspan="1" colspan="1">40.0 (31.0‒48.0)</td><td rowspan="1" colspan="1">38.0 (30.0‒46.0)</td><td rowspan="1" colspan="1">39.0 (32.0‒48.0)</td></tr><tr><td rowspan="1" colspan="1"><bold>BMI, kg/m<sup>2</sup></bold></td><td rowspan="1" colspan="1">25.6 (23.4‒28.0)</td><td rowspan="1" colspan="1">25.6 (23.5‒28.0)</td><td rowspan="1" colspan="1">25.7 (22.1‒27.7)</td><td rowspan="1" colspan="1">24.7 (22.2‒27.3)</td></tr><tr><td rowspan="1" colspan="1"><bold>PSG Parameters</bold></td><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"/></tr><tr><td rowspan="1" colspan="1"> TST, min</td><td rowspan="1" colspan="1">467.3 (404.5‒524.7)</td><td rowspan="1" colspan="1">464.2 (404.1‒524.0)</td><td rowspan="1" colspan="1">481.3 (423.0‒550.1)</td><td rowspan="1" colspan="1">467.0 (411.5‒509.7)</td></tr><tr><td rowspan="1" colspan="1"> AHI, No./h</td><td rowspan="1" colspan="1">22.9 (7.9‒49.0)</td><td rowspan="1" colspan="1">23.0 (8.1‒49.2)</td><td rowspan="1" colspan="1">20.4 (7.0‒48.6)</td><td rowspan="1" colspan="1">20.8 (10.1‒39.6)</td></tr><tr><td rowspan="1" colspan="1"> AI, No./h</td><td rowspan="1" colspan="1">9.3 (1.9‒34.6)</td><td rowspan="1" colspan="1">9.4 (1.9‒35.1)</td><td rowspan="1" colspan="1">8.5 (1.3‒33.7)</td><td rowspan="1" colspan="1">8.6 (3.0‒27.7)</td></tr><tr><td rowspan="1" colspan="1"> HI, No./h</td><td rowspan="1" colspan="1">8.0 (4.3‒14.0)</td><td rowspan="1" colspan="1">8.2 (4.4‒13.9)</td><td rowspan="1" colspan="1">6.9 (4.2‒14.1)</td><td rowspan="1" colspan="1">6.4 (2.6‒13.6)</td></tr><tr><td rowspan="1" colspan="1"><bold>OSA Severity</bold></td><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"/></tr><tr><td rowspan="1" colspan="1"> No OSA, n (%)</td><td rowspan="1" colspan="1">47 (11.6)</td><td rowspan="1" colspan="1">41 (11.4)</td><td rowspan="1" colspan="1">6 (13.3)</td><td rowspan="1" colspan="1">6 (13.3)</td></tr><tr><td rowspan="1" colspan="1"> Mild, n (%)</td><td rowspan="1" colspan="1">106 (26.2)</td><td rowspan="1" colspan="1">95 (26.4)</td><td rowspan="1" colspan="1">11 (24.5)</td><td rowspan="1" colspan="1">11 (24.5)</td></tr><tr><td rowspan="1" colspan="1"> Moderate, n (%)</td><td rowspan="1" colspan="1">85 (21.0)</td><td rowspan="1" colspan="1">76 (21.1)</td><td rowspan="1" colspan="1">9 (20.0)</td><td rowspan="1" colspan="1">9 (20.0)</td></tr><tr><td rowspan="1" colspan="1"> Severe, n (%)</td><td rowspan="1" colspan="1">167 (41.2)</td><td rowspan="1" colspan="1">148 (41.1)</td><td rowspan="1" colspan="1">19 (42.2)</td><td rowspan="1" colspan="1">19 (42.2)</td></tr></tbody></table><table-wrap-foot><fn id="tfn0001"><p><bold>Note:</bold> Data are presented as n (%) or median (interquartile range).</p></fn><fn id="tfn0002"><p><bold>Abbreviations:</bold> FAH, First Affiliated Hospital; CMH, Chinese Medical Hospital; BMI, body mass index; PSG, polysomnography; TST, total sleep time; AHI, apnea‒hypopnea index; AI, apnea index; HI, hypopnea index; OSA, obstructive sleep apnea.</p></fn></table-wrap-foot></table-wrap>
+<fig id="f0001" fig-type="figure" orientation="portrait" position="float"><label>Figure 1</label><caption><p>Workflow diagram for the development and evaluation of OSASS.</p></caption><graphic content-type="print-only" xlink:href="NSS-13-361-g0001"/><attrib><bold>Abbreviations:</bold> PSG, polysomnography; TST, total sleep time; CSA, central sleep apnea; CMH, Chinese Medical Hospital; Mr-ResNet, multi-resolution residual network; OSASS, Obstructive Sleep Apnea Smart System; RPSGT, registered polysomnographic technologist; OSA, obstructive sleep apnea.</attrib></fig></p>
+      </sec>
+      <sec id="s0002-s2002">
+        <title>Preprocessing and Datasets</title>
+        <p>The database contained time-series and one-channel nasal pressure airflow signals obtained with a sampling frequency of 200 Hz. To take full advantage of classic neural networks, we needed to convert the original time series data into spectrograms. Therefore, the preprocessing procedures for the raw signal included signal segmentation, short-time Fourier transform (STFT),<xref rid="cit0026" ref-type="bibr">26</xref> and grayscale transform. The 6-h original airflow data of each subject was split into 30-s non-overlapping segments, and each segment had a corresponding label. We labeled a segment A or H if an apnea or hypopnea waveform lasted longer than 10 seconds, respectively, while other segments were labeled N. Following this rule, the numbers of A, H, and N events were obtained; the statistics of the event distribution are shown in <xref ref-type="fig" rid="f0001">Figure 1</xref>. Then, 30-s segments were converted into corresponding spectrograms by STFT to generate our datasets (<xref ref-type="fig" rid="f0002">Figure 2</xref>). The size of the sliding windows was 64 and the overlap of the windows was 32 for the STFT calculation in each 30-s non-overlapping segment.<fig id="f0002" fig-type="figure" orientation="portrait" position="float"><label>Figure 2</label><caption><p>Typical example of the input airflow signal and corresponding spectrograms.</p></caption><graphic content-type="print-only" xlink:href="NSS-13-361-g0002"/><attrib><bold>Notes:</bold> (<bold>A</bold>, <bold>D</bold>) Airflow waveform of sleep normal breathing and corresponding spectrogram. (<bold>B</bold>, <bold>E</bold>) Airflow waveform of sleep apnea and corresponding spectrogram. (<bold>C</bold>, <bold>F</bold>) Airflow waveform of sleep hypopnea and the corresponding spectrogram.</attrib></fig></p>
+      </sec>
+      <sec id="s0002-s2003">
+        <title>Deep Learning Algorithm</title>
+        <p>In this study, we proposed an intelligent system called OSASS for OSA diagnosis and classification. The core of OSASS is Mr-ResNet, a DL architecture based on ResNet. A schematic representation of the proposed approach is shown in <xref ref-type="fig" rid="f0003">Figure 3</xref>. First, Mr-ResNet was used to determine normal breathing, apnea, and hypopnea events from spectrograms. Next, post-processing was used to calculate the AHI. Finally, the estimated AHI values were used to classify subjects into the standard OSA severity categories: no OSA (AHI &lt; 5), mild (5 ≤ AHI &lt; 15), moderate (15 ≤ AHI &lt; 30), and severe OSA (30 ≤ AHI).<fig id="f0003" fig-type="figure" orientation="portrait" position="float"><label>Figure 3</label><caption><p>Block diagram of OSASS for OSA diagnosis and classification.</p></caption><graphic content-type="print-only" xlink:href="NSS-13-361-g0003"/><attrib><bold>Abbreviations:</bold> STFT, short-time Fourier transform; Mr-ResNet, multi-resolution residual network; AHI, apnea‒hypopnea index; AH, apnea‒hypopnea; TST, total sleep time; OSA, obstructive sleep apnea.</attrib></fig></p>
+        <p>We implemented the proposed Mr-ResNet using PyTorch, and trained it using the stochastic gradient descent algorithm with a learning rate of 0.0001, batch size of 64, and iterations of 20. All the training and validating work was performed on a CentOS 7 server with 2 Tesla K80 graphics cards each of whose running memory has 11,439 MiB.</p>
+      </sec>
+      <sec id="s0002-s2004">
+        <title>Statistical Analysis</title>
+        <p>All statistical analyses were performed using IBM SPSS version 25.0 (SPSS, Chicago, IL, USA) and R version 4.0.2 (R Foundation for Statistical Computing, Vienna, Austria). The performance of the Mr-ResNet model was quantified by several accepted measurements, including sensitivity, specificity, accuracy, and F1-score. PSG records of the CMH database were manually reanalyzed in accordance with the same standard of the 2012 AASM by two registered polysomnographic technologists (RPSGT). Spearman correlation coefficient and Bland‒Altman plots were evaluated to measure the agreement of OSASS and both manual RPSGT scores. A <italic>p</italic>-value &lt; 0.05 was considered statistically significant. Finally, to assess the OSA severity classification accuracy, confusion matrices and Cohen’s Kappa were calculated. The Kappa scores were interpreted as follows: values ≤ 0, indicated no agreement, values of 0.01‒0.20 indicated none to slight agreement, 0.21‒0.40 indicated fair agreement, 0.41‒0.60 indicated moderate agreement, 0.61‒0.80 indicated substantial agreement, and 0.81‒1.00 indicated almost perfect agreement.<xref rid="cit0027" ref-type="bibr">27</xref></p>
+      </sec>
+    </sec>
+    <sec id="s0003">
+      <title>Results</title>
+      <sec id="s0003-s2001">
+        <title>Performance of Mr-ResNet</title>
+        <p><xref rid="t0002" ref-type="table">Table 2</xref> shows the performance of the proposed Mr-ResNet model for the automated detection of OSA from a single-channel airflow signal in the primary test set. The overall sensitivity, specificity, accuracy, and F1-score were 90.8%, 90.5%, 91.2%, and 90.5%, respectively. While these values slightly decreased with increasing AHI, the performance did not significantly change among the different severity groups.<table-wrap id="t0002" orientation="portrait" position="float"><label>Table 2</label><caption><p>Performance of Mr-ResNet for OSA Detection in the Primary Test Set</p></caption><table frame="hsides" rules="groups"><thead><tr><th rowspan="1" colspan="1">Primary Test Set</th><th rowspan="1" colspan="1">N</th><th rowspan="1" colspan="1">Sen (%)</th><th rowspan="1" colspan="1">Spe (%)</th><th rowspan="1" colspan="1">Acc (%)</th><th rowspan="1" colspan="1">F1-Score (%)</th></tr></thead><tbody><tr><td rowspan="1" colspan="1">A/H/N</td><td rowspan="1" colspan="1">32,398</td><td rowspan="1" colspan="1">90.8</td><td rowspan="1" colspan="1">90.5</td><td rowspan="1" colspan="1">91.2</td><td rowspan="1" colspan="1">90.5</td></tr><tr><td rowspan="1" colspan="1"><bold>Events</bold></td><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"/></tr><tr><td rowspan="1" colspan="1"> Normal breathing</td><td rowspan="1" colspan="1">23,539</td><td rowspan="1" colspan="1">91.1</td><td rowspan="1" colspan="1">90.8</td><td rowspan="1" colspan="1">92.3</td><td rowspan="1" colspan="1">90.6</td></tr><tr><td rowspan="1" colspan="1"> Apnea</td><td rowspan="1" colspan="1">5914</td><td rowspan="1" colspan="1">92.2</td><td rowspan="1" colspan="1">91.3</td><td rowspan="1" colspan="1">93.0</td><td rowspan="1" colspan="1">90.0</td></tr><tr><td rowspan="1" colspan="1"> Hypopnea</td><td rowspan="1" colspan="1">2945</td><td rowspan="1" colspan="1">89.6</td><td rowspan="1" colspan="1">89.4</td><td rowspan="1" colspan="1">90.5</td><td rowspan="1" colspan="1">90.9</td></tr><tr><td rowspan="1" colspan="1"><bold>Severity</bold></td><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"/></tr><tr><td rowspan="1" colspan="1"> AHI &lt; 5</td><td rowspan="1" colspan="1">6</td><td rowspan="1" colspan="1">91.0</td><td rowspan="1" colspan="1">90.8</td><td rowspan="1" colspan="1">91.4</td><td rowspan="1" colspan="1">90.7</td></tr><tr><td rowspan="1" colspan="1"> 5 ≤ AHI &lt; 15</td><td rowspan="1" colspan="1">11</td><td rowspan="1" colspan="1">90.9</td><td rowspan="1" colspan="1">90.6</td><td rowspan="1" colspan="1">91.3</td><td rowspan="1" colspan="1">90.6</td></tr><tr><td rowspan="1" colspan="1"> 15 ≤ AHI &lt; 30</td><td rowspan="1" colspan="1">9</td><td rowspan="1" colspan="1">90.5</td><td rowspan="1" colspan="1">90.2</td><td rowspan="1" colspan="1">91.0</td><td rowspan="1" colspan="1">90.3</td></tr><tr><td rowspan="1" colspan="1"> AHI ≥ 30</td><td rowspan="1" colspan="1">19</td><td rowspan="1" colspan="1">90.1</td><td rowspan="1" colspan="1">90.0</td><td rowspan="1" colspan="1">90.8</td><td rowspan="1" colspan="1">90.0</td></tr></tbody></table><table-wrap-foot><fn id="tfn0003"><p><bold>Abbreviations:</bold> OSA, obstructive sleep apnea; Sen, sensitivity; Spe, specificity; Acc, accuracy; A, apnea; H, hypopnea; N, normal breathing; AHI, apnea‒hypopnea index.</p></fn></table-wrap-foot></table-wrap>
+</p>
+        <p>Additionally, we compared the performance of the proposed method with previous studies using single-channel signals. As shown in <xref rid="t0003" ref-type="table">Table 3</xref>, three conclusions can be drawn: the CNN model based on ECG signals performed better than other single-channel signal methods; the DL algorithm performed better than the machine-learning algorithm; the model for only apnea detection performed better than one using apnea and hypopnea detection. Choi et al<xref rid="cit0028" ref-type="bibr">28</xref> proposed estimating apnea‒hypopnea (AH) events using CNN from airflow signals, and achieved a satisfactory specificity (98.5%) and accuracy (96.6%) in detection, but not high sensitivity (81.1%). It is thus apparent that the foremost advantage of the Mr-ResNet model is that it can distinguish apnea and hypopnea events with high sensitivity (90.8%), while maintaining high specificity (90.5%) and accuracy (91.2%), which implies that our results provide more important guidance for diagnosing OSA, which is a complex and heterogeneous disorder.<xref rid="cit0029" ref-type="bibr">29</xref><table-wrap id="t0003" orientation="portrait" position="float"><label>Table 3</label><caption><p>Comparison with Previous Studies</p></caption><table frame="hsides" rules="groups"><thead><tr><th rowspan="1" colspan="1">Study</th><th rowspan="1" colspan="1">Signal</th><th rowspan="1" colspan="1">Dataset</th><th rowspan="1" colspan="1">Subjects</th><th rowspan="1" colspan="1">Model</th><th rowspan="1" colspan="1">Event</th><th rowspan="1" colspan="1">Sen (%)</th><th rowspan="1" colspan="1">Spe (%)</th><th rowspan="1" colspan="1">Acc (%)</th></tr></thead><tbody><tr><td rowspan="1" colspan="1">Dey et al<xref rid="cit0030" ref-type="bibr">30</xref></td><td rowspan="1" colspan="1">ECG</td><td rowspan="1" colspan="1">Apnea-ECG dataset</td><td rowspan="1" colspan="1">35</td><td rowspan="1" colspan="1">CNN</td><td rowspan="1" colspan="1">A/N</td><td rowspan="1" colspan="1">98.9</td><td rowspan="1" colspan="1">97.8</td><td rowspan="1" colspan="1">99.2</td></tr><tr><td rowspan="1" colspan="1">Jiang et al<xref rid="cit0014" ref-type="bibr">14</xref></td><td rowspan="1" colspan="1">EEG</td><td rowspan="1" colspan="1">MIT-BIH database</td><td rowspan="1" colspan="1">16</td><td rowspan="1" colspan="1">CNN</td><td rowspan="1" colspan="1">A/N</td><td rowspan="1" colspan="1">93.1</td><td rowspan="1" colspan="1">82.9</td><td rowspan="1" colspan="1">89.1</td></tr><tr><td rowspan="1" colspan="1">Vaquerizo‒Villar et al<xref rid="cit0031" ref-type="bibr">31</xref></td><td rowspan="1" colspan="1">SpO<sub>2</sub></td><td rowspan="1" colspan="1">CHAT-baseline dataset</td><td rowspan="1" colspan="1">453</td><td rowspan="1" colspan="1">CNN</td><td rowspan="1" colspan="1">AH/N</td><td rowspan="1" colspan="1">95.4</td><td rowspan="1" colspan="1">96.7</td><td rowspan="1" colspan="1">93.6</td></tr><tr><td rowspan="2" colspan="1">Álvarez et al<xref rid="cit0032" ref-type="bibr">32</xref></td><td rowspan="1" colspan="1">SpO<sub>2</sub></td><td rowspan="1" colspan="1">Own database</td><td rowspan="1" colspan="1">239</td><td rowspan="1" colspan="1">SVM</td><td rowspan="1" colspan="1">AH/N</td><td rowspan="1" colspan="1">97.8</td><td rowspan="1" colspan="1">16.7</td><td rowspan="1" colspan="1">92.7</td></tr><tr><td rowspan="1" colspan="1">AF</td><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1">239</td><td rowspan="1" colspan="1">SVM</td><td rowspan="1" colspan="1">AH/N</td><td rowspan="1" colspan="1">97.8</td><td rowspan="1" colspan="1">66.7</td><td rowspan="1" colspan="1">95.8</td></tr><tr><td rowspan="1" colspan="1">Gutiérrez‒Tobal et al<xref rid="cit0033" ref-type="bibr">33</xref></td><td rowspan="1" colspan="1">AF</td><td rowspan="1" colspan="1">Own database</td><td rowspan="1" colspan="1">317</td><td rowspan="1" colspan="1">AB-CART</td><td rowspan="1" colspan="1">AH/N</td><td rowspan="1" colspan="1">89.0</td><td rowspan="1" colspan="1">80.0</td><td rowspan="1" colspan="1">86.5</td></tr><tr><td rowspan="1" colspan="1">Haidar et al<xref rid="cit0015" ref-type="bibr">15</xref></td><td rowspan="1" colspan="1">AF</td><td rowspan="1" colspan="1">MESA dataset</td><td rowspan="1" colspan="1">100</td><td rowspan="1" colspan="1">CNN</td><td rowspan="1" colspan="1">A/N</td><td rowspan="1" colspan="1">74.7</td><td rowspan="1" colspan="1">–</td><td rowspan="1" colspan="1">74.7</td></tr><tr><td rowspan="1" colspan="1">Choi et al<xref rid="cit0028" ref-type="bibr">28</xref></td><td rowspan="1" colspan="1">AF</td><td rowspan="1" colspan="1">Own database + MESA dataset</td><td rowspan="1" colspan="1">179</td><td rowspan="1" colspan="1">CNN</td><td rowspan="1" colspan="1">AH/N</td><td rowspan="1" colspan="1">81.1</td><td rowspan="1" colspan="1">98.5</td><td rowspan="1" colspan="1">96.6</td></tr><tr><td rowspan="1" colspan="1">This study</td><td rowspan="1" colspan="1">AF</td><td rowspan="1" colspan="1">Own database</td><td rowspan="1" colspan="1">450</td><td rowspan="1" colspan="1">Mr-ResNet</td><td rowspan="1" colspan="1">A/H/N</td><td rowspan="1" colspan="1">90.8</td><td rowspan="1" colspan="1">90.5</td><td rowspan="1" colspan="1">91.2</td></tr></tbody></table><table-wrap-foot><fn id="tfn0004"><p><bold>Abbreviations:</bold> Sen, sensitivity; Spe, specificity; Acc, accuracy; ECG, electrocardiogram; EEG, electroencephalogram; SpO<sub>2</sub>, pulse oxygen saturation; AF, airflow; MIT-BIH, Massachusetts Institute of Technology-Beth Israel Hospital; CHAT, Childhood Adenotonsillectomy Trial; MESA, Multi-Ethnic Study of Atherosclerosis; CNN, convolutional neural network; SVM, support vector machine; AB‒CART, AdaBoost‒classification and regression trees; Mr-ResNet, multi-resolution residual network; A, apnea; N, normal breathing; H, hypopnea; AH, apnea‒hypopnea.</p></fn></table-wrap-foot></table-wrap>
+</p>
+      </sec>
+      <sec id="s0003-s2002">
+        <title>Estimation of AHI</title>
+        <p>The proposed OSASS performed well in the independent test set. The sleep respiratory events for all patients in the CMH test set were calculated by OSASS, and strong significant correlations were observed between OSASS and RPSGT scores. Spearman correlation coefficients for AI, HI, and AHI between OSASS and the scores of technologist 1 were 0.96, 0.71, and 0.94, respectively. Spearman correlation coefficients for AI, HI, and AHI between OSASS and scores of technologist 2 were 0.97, 0.59, and 0.96, respectively. The correlation and Bland‒Altman plots are shown in <xref ref-type="fig" rid="f0004">Figures 4</xref> and <xref ref-type="fig" rid="f0005">5</xref>. In the Bland–Altman plot, the x-axis depicts the mean values of AI, HI, and AHI measured with the OSASS and RPSGT and the y-axis depicts the difference between the estimated and reference values. The black dashed lines denote the bias and 95% upper and lower limits of agreement.<fig id="f0004" fig-type="figure" orientation="portrait" position="float"><label>Figure 4</label><caption><p>Correlation and Bland–Altman plots of AI, HI, and AHI between OSASS and technologist 1.</p></caption><graphic content-type="print-only" xlink:href="NSS-13-361-g0004"/><attrib><bold>Notes:</bold> Line with gray shades represents least square line with 95% confidence interval. (<bold>A</bold>, <bold>D</bold>) AI was assessed by Spearman’s rank correlation with 95% CI = (0.93, 0.98). (<bold>B</bold>, <bold>E</bold>) HI was assessed by Spearman’s rank correlation with 95% CI = (0.53, 0.83). (<bold>C</bold>, <bold>F</bold>) AHI was assessed by Spearman’s rank correlation with 95% CI = (0.90, 0.97).</attrib><attrib><bold>Abbreviations:</bold> AI, apnea index; HI, hypopnea index; AHI, apnea‒hypopnea index.</attrib></fig><fig id="f0005" fig-type="figure" orientation="portrait" position="float"><label>Figure 5</label><caption><p>Correlation and Bland–Altman plots of AI, HI, and AHI between OSASS and technologist 2.</p></caption><graphic content-type="print-only" xlink:href="NSS-13-361-g0005"/><attrib><bold>Notes:</bold> Line with gray shades represents least square line with 95% confidence interval. (<bold>A</bold>, <bold>D</bold>) AI was assessed by Spearman’s rank correlation with 95% CI = (0.95, 0.99). (<bold>B</bold>, <bold>E</bold>) HI was assessed by Spearman’s rank correlation with 95% CI = (0.36, 0.76). (<bold>C</bold>, <bold>F</bold>) AHI was assessed by Spearman’s rank correlation with 95% CI = (0.93, 0.98).</attrib><attrib><bold>Abbreviations:</bold> AI, apnea index; HI, hypopnea index; AHI, apnea‒hypopnea index.</attrib></fig></p>
+      </sec>
+      <sec id="s0003-s2003">
+        <title>Classification of OSA</title>
+        <p>The estimated AHI values were used to classify the subjects from the CMH test set into the standard OSA severity categories (no, mild, moderate, and severe OSA). <xref rid="t0004" ref-type="table">Table 4</xref> shows the confusion matrices for OSA severity classification for each technologist’s scores vs OSASS. The Kappa scores between OSASS and the individual technologist’s scores were both above 0.8 (<xref rid="t0005" ref-type="table">Table 5</xref>), which indicates almost perfect agreement (0.8 &lt; Kappa &lt; 1).<table-wrap id="t0004" orientation="portrait" position="float"><label>Table 4</label><caption><p>Confusion Matrices for OSA Classification in CMH Test Set</p></caption><table frame="hsides" rules="groups"><thead><tr><th rowspan="2" colspan="2"/><th colspan="4" rowspan="1">OSASS</th></tr><tr><th rowspan="1" colspan="1">No OSA</th><th rowspan="1" colspan="1">Mild</th><th rowspan="1" colspan="1">Moderate</th><th rowspan="1" colspan="1">Severe</th></tr></thead><tbody><tr><td rowspan="4" colspan="1">Technologist 1</td><td rowspan="1" colspan="1">No OSA</td><td rowspan="1" colspan="1"><bold>6</bold></td><td rowspan="1" colspan="1">0</td><td rowspan="1" colspan="1">0</td><td rowspan="1" colspan="1">0</td></tr><tr><td rowspan="1" colspan="1">Mild</td><td rowspan="1" colspan="1">1</td><td rowspan="1" colspan="1"><bold>9</bold></td><td rowspan="1" colspan="1">0</td><td rowspan="1" colspan="1">0</td></tr><tr><td rowspan="1" colspan="1">Moderate</td><td rowspan="1" colspan="1">0</td><td rowspan="1" colspan="1">2</td><td rowspan="1" colspan="1"><bold>7</bold></td><td rowspan="1" colspan="1">2</td></tr><tr><td rowspan="1" colspan="1">Severe</td><td rowspan="1" colspan="1">0</td><td rowspan="1" colspan="1">0</td><td rowspan="1" colspan="1">1</td><td rowspan="1" colspan="1"><bold>17</bold></td></tr><tr><td rowspan="4" colspan="1">Technologist 2</td><td rowspan="1" colspan="1">No OSA</td><td rowspan="1" colspan="1"><bold>6</bold></td><td rowspan="1" colspan="1">1</td><td rowspan="1" colspan="1">0</td><td rowspan="1" colspan="1">0</td></tr><tr><td rowspan="1" colspan="1">Mild</td><td rowspan="1" colspan="1">1</td><td rowspan="1" colspan="1"><bold>9</bold></td><td rowspan="1" colspan="1">0</td><td rowspan="1" colspan="1">0</td></tr><tr><td rowspan="1" colspan="1">Moderate</td><td rowspan="1" colspan="1">0</td><td rowspan="1" colspan="1">1</td><td rowspan="1" colspan="1"><bold>7</bold></td><td rowspan="1" colspan="1">1</td></tr><tr><td rowspan="1" colspan="1">Severe</td><td rowspan="1" colspan="1">0</td><td rowspan="1" colspan="1">0</td><td rowspan="1" colspan="1">1</td><td rowspan="1" colspan="1"><bold>18</bold></td></tr></tbody></table><table-wrap-foot><fn id="tfn0005"><p><bold>Note:</bold> Bold values represent the number of subjects classified into the same severity categories by OSASS and technologists.</p><p><bold>Abbreviations:</bold> OSA, obstructive sleep apnea; OSASS, Obstructive Sleep Apnea Smart System.</p></fn></table-wrap-foot></table-wrap>
+<table-wrap id="t0005" orientation="portrait" position="float"><label>Table 5</label><caption><p>Kappa Values for OSA Classification Among OSASS and Individual Technologists</p></caption><table frame="hsides" rules="groups"><thead><tr><th rowspan="1" colspan="1"/><th rowspan="1" colspan="1">OSASS</th><th rowspan="1" colspan="1">Technologist 1</th><th rowspan="1" colspan="1">Technologist 2</th></tr></thead><tbody><tr><td rowspan="1" colspan="1">OSASS</td><td rowspan="1" colspan="1">1</td><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"/></tr><tr><td rowspan="1" colspan="1">Technologist 1</td><td rowspan="1" colspan="1">0.81</td><td rowspan="1" colspan="1">1</td><td rowspan="1" colspan="1"/></tr><tr><td rowspan="1" colspan="1">Technologist 2</td><td rowspan="1" colspan="1">0.84</td><td rowspan="1" colspan="1">0.91</td><td rowspan="1" colspan="1">1</td></tr></tbody></table><table-wrap-foot><fn id="tfn0006"><p><bold>Abbreviation:</bold> OSASS, Obstructive Sleep Apnea Smart System.</p></fn></table-wrap-foot></table-wrap>
+</p>
+      </sec>
+    </sec>
+    <sec id="s0004">
+      <title>Discussion</title>
+      <p>In this study, we developed an intelligent OSA diagnosis and classification system for respiratory event detection using a DL algorithm based on nasal pressure airflow signals. The main findings of our work are as follows: (1) We improved a neural network from ResNet to capture multi-resolution imaging features of airflow signals without any handcrafted engineering to generate high-accuracy AH estimates, which has not been presented previously. (2) In comparison with other research, the proposed model offers competitive performance with only one-channel airflow signals, which can detect both apnea and hypopnea events overnight with a sensitivity of 90.8%, a specificity of 90.5%, an accuracy of 91.2%, and F1-score of 90.5%. (3) Our proposed method corresponds well with RPSGT scores for OSA diagnosis and classification, in which performance was validated using an independent hospital database.</p>
+      <p>Owing to the non-stationary and nonlinear characteristics of sleep data, traditional machine-learning methods require researchers to expend much energy on feature extraction, while neural networks can solve such problems well. Therefore, neural network technology is increasingly applied to automated OSA detection. As a popular structure in DL, the accuracy of a CNN increases with increasing network depth. However, when the network depth increases to a certain level, the accuracy decreases rapidly, as the deeper network becomes more difficult to optimize. ResNet solves this problem with a simple structure, and its short connection structure breaks the traditional layer-by-layer transmission of neural networks, which can accelerate the training of ultra-deep neural networks, yielding improved accuracy.<xref rid="cit0034" ref-type="bibr">34</xref> In this study, we proposed the DL architecture called MR-ResNet, based on ResNet, in which the 3 × 3 filters were replaced by a new block containing multi-level group convolution. The structure we used makes full use of group convolution and residual-like connections at both levels, to maximize feature extraction capabilities and reduce the number of network parameters, which greatly improves the training speed of our network.</p>
+      <p>To simplify the diagnostic technique, various alternative methods have been proposed to replace PSG and minimize the number of sensors required in recent decades, such as ECG,<xref rid="cit0013" ref-type="bibr">13</xref>,<xref rid="cit0030" ref-type="bibr">30</xref>,<xref rid="cit0035" ref-type="bibr">35</xref> EEG,<xref rid="cit0014" ref-type="bibr">14</xref>,<xref rid="cit0036" ref-type="bibr">36</xref> SpO<sub>2</sub>,<xref rid="cit0031" ref-type="bibr">31</xref>,<xref rid="cit0037" ref-type="bibr">37</xref> respiratory,<xref rid="cit0016" ref-type="bibr">16</xref>,<xref rid="cit0038" ref-type="bibr">38</xref> and snoring signals.<xref rid="cit0039" ref-type="bibr">39</xref>,<xref rid="cit0040" ref-type="bibr">40</xref> However, the most appropriate physiological signals for the development of simple and accurate screening tests for OSA remain unknown. Overall, single-channel systems have been reported, and the results were similar to those obtained with algorithms using multiple data channels. These approaches place fewer limitations on patient movement and can be more convenient for use in the ambulatory environment than systems employing multiple channels.</p>
+      <p>Previous single-channel studies for the automated detection of OSA were mostly based on ECG.<xref rid="cit0041" ref-type="bibr">41</xref>,<xref rid="cit0042" ref-type="bibr">42</xref> Dey et al<xref rid="cit0030" ref-type="bibr">30</xref> reported that their framework employing a CNN can achieve a very high degree of sensitivity, specificity, and accuracy using single-lead ECG signals, ie, 98.9%, 97.8%, and 99.2%, respectively. However, they did not classify hypopnea events. Yet, this information is important, because hypopnea is the main respiratory event in some OSA patients, which has significance for guiding individualized treatment.<xref rid="cit0019" ref-type="bibr">19</xref>,<xref rid="cit0022" ref-type="bibr">22</xref>,<xref rid="cit0023" ref-type="bibr">23</xref> According to the AASM criteria of sleep apnea and hypopnea, many studies also use airflow and SpO<sub>2</sub> signals to detect respiratory events. In the study of Álvarez et al,<xref rid="cit0032" ref-type="bibr">32</xref> airflow signals were analyzed based on the machine-learning algorithm, OSA detection with a sensitivity of more than 90%, but a specificity of less than 70%. Choi et al<xref rid="cit0028" ref-type="bibr">28</xref> proposed estimating AH events using CNN from airflow signals and achieved a satisfactory specificity (98.5%) and accuracy (96.6%) in detection, but the sensitivity was only 81.1%. Vaquerizo-Villar et al<xref rid="cit0031" ref-type="bibr">31</xref> proposed using CNN to detect AH events from SpO<sub>2</sub> raw data. The experiment achieved a classification sensitivity, specificity, and accuracy of 95.4%, 96.7%, and 93.6%, respectively, but only in pediatric patients. The above results show that the performance of the model based on a single-channel airflow signal can still be improved. This was due to the non-standard airflow waveforms, especially the hypopnea waveform, which challenged the learning algorithms. In this study, to solve this problem, we converted the original time series data into spectrograms by STFT and make full use of the advantage of Mr-ResNet to maximize feature extraction capabilities. Based on this approach, we were able to achieve high sensitivity (90.8%) and specificity (90.5%), with an accuracy of 91.2%.</p>
+      <p>Airflow signals have been used to estimate AHI and determine OSA severity categories.<xref rid="cit0015" ref-type="bibr">15</xref>,<xref rid="cit0028" ref-type="bibr">28</xref>,<xref rid="cit0033" ref-type="bibr">33</xref> However, these studies were applied to a limited number of segments and performance was not assessed on over-night data or on an OSA population. One novelty of this study is that the performance of OSASS in OSA diagnosis and classification was compared with the scores of two sleep specialists using an independent hospital database. Although the OSASS performed slightly worse in hypopnea index (HI) estimation (Spearman correlation coefficient for HI between OSASS and technologist 1, and technologist 2, was 0.71 and 0.59, respectively), the results are still impressive considering that the dataset was completely new and scored by different people. With our study design, the Bland–Altman plot, as a measure of agreement, was appropriate to perform within-subject comparisons for the two methods.<xref rid="cit0043" ref-type="bibr">43</xref> The Kappa agreement between OSASS and technologist 1 and technologist 2 was 0.81 and 0.84, respectively, which suggests that OSASS is capable of reasonably estimating OSA severity. These results show that OSASS generalizes reasonably well.</p>
+      <p>There were some limitations to this study. First, OSASS is likely to underestimate the severity of hypopnea when compared to a full PSG scoring, due to a lack of SpO<sub>2</sub> and EEG data; this is particularly true for OSA patients in whom hypopnea events are dominant. Second, OSASS only classifies obstructive apnea, hypopnea, and normal breathing, but not central and mixed sleep apnea, as this would require information about the breathing effort, which is not present in the airflow signal. Although central and mixed sleep apneas occur very rarely, it affects the results partly. Third, OSASS is not able to auto-extract TST. Yet, accurate estimation of sleeping time can increase the accuracy of the estimated AHI, particularly in individuals with low sleep efficiency.<xref rid="cit0044" ref-type="bibr">44</xref> Finally, a small population was investigated in this study, additional evidence on the effectiveness of OSASS for OSA screening in the presence of comorbidities, particularly cardiovascular and pulmonary diseases, is required. Thus, further studies should be conducted to address these limitations to increase the clinical usefulness of the present model.</p>
+    </sec>
+    <sec id="s0005">
+      <title>Conclusion</title>
+      <p>This paper proposed the Mr-ResNet framework for AHI estimation using only one-channel nasal pressure airflow signals, and validated the model against two datasets. Our findings imply that this new diagnosis and classification system of OSA demonstrated good feasibility for clinical application as well as scalability.</p>
+    </sec>
+  </body>
+  <back>
+    <ack>
+      <title>Acknowledgments</title>
+      <p>The authors thank their department for support and would like to thank Editage for the English language editing.</p>
+    </ack>
+    <sec id="s0006">
+      <title>Abbreviations</title>
+      <p>AASM, American Academy of Sleep Medicine; AB‒CART, AdaBoost‒classification and regression trees; AF, airflow; AH, apnea‒hypopnea; AHI, apnea‒hypopnea index; AI, apnea index; BMI, body mass index; CHAT, Childhood Adenotonsillectomy Trial; CMH, Chinese Medical Hospital; CNN, convolutional neural network; CSA, central sleep apnea; DL, deep learning; ECG, electrocardiogram; EEG, electroencephalogram; EMG, electromyogram; EOG, electrooculogram; FAH, First Affiliated Hospital; HI, hypopnea index; LSTM, long short-term memory network; MESA, Multi-Ethnic Study of Atherosclerosis; MIT-BIH, Massachusetts Institute of Technology-Beth Israel Hospital; Mr-ResNet, multi-resolution residual network; OSA, obstructive sleep apnea; OSASS, Obstructive Sleep Apnea Smart System; PSG, polysomnography; ResNet, residual network; RNN, recurrent neural network; RPSGT, registered polysomnographic technologist; SpO<sub>2</sub>, pulse oxygen saturation; STFT, short-time Fourier transform; SVM, support vector machine; TST, total sleep time.</p>
+    </sec>
+    <sec id="s0007">
+      <title>Data Sharing Statement</title>
+      <p>The code and corresponding model used during the current study are available from the corresponding author on reasonable request.</p>
+    </sec>
+    <sec id="s0008" sec-type="COI-statement">
+      <title>Disclosure</title>
+      <p>Dr. Huijun Yue, Professor Gansen Zhao, Professor Xiongwen Pang and Professor Wenbin Lei report a patent a processing method, system and storage media for sleep respiratory events detection pending. The authors report no other conflicts of interest in this work.</p>
+    </sec>
+    <ref-list>
+      <title>References</title>
+      <ref id="cit0001">
+        <label>1.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Lévy</surname>
+<given-names>P</given-names></string-name>, <string-name><surname>Kohler</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>McNicholas</surname>
+<given-names>WT</given-names></string-name>, et al. <article-title>Obstructive sleep apnoea syndrome</article-title>. <source><italic toggle="yes">Nat Rev Dis Primers</italic></source>. <year>2015</year>;<volume>1</volume>:<fpage>15015</fpage>. doi:<pub-id pub-id-type="doi">10.1038/nrdp.2015.15</pub-id><pub-id pub-id-type="pmid">27188535</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0002">
+        <label>2.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Jordan</surname>
+<given-names>AS</given-names></string-name>, <string-name><surname>McSharry</surname>
+<given-names>DG</given-names></string-name>, <string-name><surname>Malhotra</surname>
+<given-names>A</given-names></string-name>. <article-title>Adult obstructive sleep apnoea</article-title>. <source><italic toggle="yes">Lancet</italic></source>. <year>2014</year>;<volume>383</volume>(<issue>9918</issue>):<fpage>736</fpage>–<lpage>747</lpage>. doi:<pub-id pub-id-type="doi">10.1016/S0140-6736(13)60734-5</pub-id><pub-id pub-id-type="pmid">23910433</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0003">
+        <label>3.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Mokhlesi</surname>
+<given-names>B</given-names></string-name>, <string-name><surname>Varga</surname>
+<given-names>AW</given-names></string-name>. <article-title>Obstructive sleep apnea and cardiovascular disease. REM sleep matters!</article-title>
+<source><italic toggle="yes">Am J Respir Crit Care Med</italic></source>. <year>2018</year>;<volume>197</volume>(<issue>5</issue>):<fpage>554</fpage>–<lpage>556</lpage>. doi:<pub-id pub-id-type="doi">10.1164/rccm.201710-2147ED</pub-id><pub-id pub-id-type="pmid">29141154</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0004">
+        <label>4.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Zinchuk</surname>
+<given-names>AV</given-names></string-name>, <string-name><surname>Jeon</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Koo</surname>
+<given-names>BB</given-names></string-name>, et al. <article-title>Polysomnographic phenotypes and their cardiovascular implications in obstructive sleep apnoea</article-title>. <source><italic toggle="yes">Thorax</italic></source>. <year>2018</year>;<volume>73</volume>(<issue>5</issue>):<fpage>472</fpage>–<lpage>480</lpage>. doi:<pub-id pub-id-type="doi">10.1136/thoraxjnl-2017-210431</pub-id><pub-id pub-id-type="pmid">28935698</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0005">
+        <label>5.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Karimi</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Hedner</surname>
+<given-names>J</given-names></string-name>, <string-name><surname>Häbel</surname>
+<given-names>H</given-names></string-name>, <string-name><surname>Nerman</surname>
+<given-names>O</given-names></string-name>, <string-name><surname>Grote</surname>
+<given-names>L</given-names></string-name>. <article-title>Sleep apnea-related risk of motor vehicle accidents is reduced by continuous positive airway pressure: Swedish traffic accident registry data</article-title>. <source><italic toggle="yes">Sleep</italic></source>. <year>2015</year>;<volume>38</volume>(<issue>3</issue>):<fpage>341</fpage>–<lpage>349</lpage>. doi:<pub-id pub-id-type="doi">10.5665/sleep.4486</pub-id><pub-id pub-id-type="pmid">25325460</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0006">
+        <label>6.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>de Chazal</surname>
+<given-names>P</given-names></string-name>, <string-name><surname>Sutherland</surname>
+<given-names>K</given-names></string-name>, <string-name><surname>Cistulli</surname>
+<given-names>PA</given-names></string-name>. <article-title>Advanced polysomnographic analysis for OSA: a pathway to personalized management?</article-title>
+<source><italic toggle="yes">Respirology</italic></source>. <year>2020</year>;<volume>25</volume>(<issue>3</issue>):<fpage>251</fpage>–<lpage>258</lpage>. doi:<pub-id pub-id-type="doi">10.1111/resp.13564</pub-id><pub-id pub-id-type="pmid">31038827</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0007">
+        <label>7.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Hirshkowitz</surname>
+<given-names>M</given-names></string-name>. <article-title>Polysomnography challenges</article-title>. <source><italic toggle="yes">Sleep Med Clin</italic></source>. <year>2016</year>;<volume>11</volume>(<issue>4</issue>):<fpage>403</fpage>–<lpage>411</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.jsmc.2016.07.002</pub-id><pub-id pub-id-type="pmid">28118865</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0008">
+        <label>8.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Mendonça</surname>
+<given-names>F</given-names></string-name>, <string-name><surname>Mostafa</surname>
+<given-names>SS</given-names></string-name>, <string-name><surname>Ravelo-García</surname>
+<given-names>AG</given-names></string-name>, <string-name><surname>Morgado-Dias</surname>
+<given-names>F</given-names></string-name>, <string-name><surname>Penzel</surname>
+<given-names>T</given-names></string-name>. <article-title>Devices for home detection of obstructive sleep apnea: a review</article-title>. <source><italic toggle="yes">Sleep Med Rev</italic></source>. <year>2018</year>;<volume>41</volume>:<fpage>149</fpage>–<lpage>160</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.smrv.2018.02.004</pub-id><pub-id pub-id-type="pmid">30149930</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0009">
+        <label>9.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>BaHammam</surname>
+<given-names>AS</given-names></string-name>, <string-name><surname>Sharif</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Gacuan</surname>
+<given-names>DE</given-names></string-name>, <string-name><surname>George</surname>
+<given-names>S</given-names></string-name>. <article-title>Evaluation of the accuracy of manual and automatic scoring of a single airflow channel in patients with a high probability of obstructive sleep apnea</article-title>. <source><italic toggle="yes">Med Sci Monit</italic></source>. <year>2011</year>;<volume>17</volume>(<issue>2</issue>):<fpage>MT13</fpage>–<lpage>MT19</lpage>. doi:<pub-id pub-id-type="doi">10.12659/msm.881379</pub-id><pub-id pub-id-type="pmid">21278698</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0010">
+        <label>10.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Aurora</surname>
+<given-names>RN</given-names></string-name>, <string-name><surname>Swartz</surname>
+<given-names>R</given-names></string-name>, <string-name><surname>Punjabi</surname>
+<given-names>NM</given-names></string-name>. <article-title>Misclassification of OSA severity with automated scoring of home sleep recordings</article-title>. <source><italic toggle="yes">Chest</italic></source>. <year>2015</year>;<volume>147</volume>(<issue>3</issue>):<fpage>719</fpage>–<lpage>727</lpage>. doi:<pub-id pub-id-type="doi">10.1378/chest.14-0929</pub-id><pub-id pub-id-type="pmid">25411804</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0011">
+        <label>11.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Kuna</surname>
+<given-names>ST</given-names></string-name>, <string-name><surname>Benca</surname>
+<given-names>R</given-names></string-name>, <string-name><surname>Kushida</surname>
+<given-names>CA</given-names></string-name>, et al. <article-title>Agreement in computer-assisted manual scoring of polysomnograms across sleep centers</article-title>. <source><italic toggle="yes">Sleep</italic></source>. <year>2013</year>;<volume>36</volume>(<issue>4</issue>):<fpage>583</fpage>–<lpage>589</lpage>. doi:<pub-id pub-id-type="doi">10.5665/sleep.2550</pub-id><pub-id pub-id-type="pmid">23565004</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0012">
+        <label>12.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>LeCun</surname>
+<given-names>Y</given-names></string-name>, <string-name><surname>Bengio</surname>
+<given-names>Y</given-names></string-name>, <string-name><surname>Hinton</surname>
+<given-names>G</given-names></string-name>. <article-title>Deep learning</article-title>. <source><italic toggle="yes">Nature</italic></source>. <year>2015</year>;<volume>521</volume>(<issue>7553</issue>):<fpage>436</fpage>–<lpage>444</lpage>. doi:<pub-id pub-id-type="doi">10.1038/nature14539</pub-id><pub-id pub-id-type="pmid">26017442</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0013">
+        <label>13.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Urtnasan</surname>
+<given-names>E</given-names></string-name>, <string-name><surname>Park</surname>
+<given-names>JU</given-names></string-name>, <string-name><surname>Joo</surname>
+<given-names>EY</given-names></string-name>, <string-name><surname>Lee</surname>
+<given-names>KJ</given-names></string-name>. <article-title>Automated detection of obstructive sleep apnea events from a single-lead electrocardiogram using a convolutional neural network</article-title>. <source><italic toggle="yes">J Med Syst</italic></source>. <year>2018</year>;<volume>42</volume>(<issue>6</issue>):<fpage>104</fpage>. doi:<pub-id pub-id-type="doi">10.1007/s10916-018-0963-0</pub-id><pub-id pub-id-type="pmid">29687192</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0014">
+        <label>14.</label>
+        <mixed-citation publication-type="confproc"><string-name><surname>Jiang</surname>
+<given-names>D</given-names></string-name>, <string-name><surname>Ma</surname>
+<given-names>Y</given-names></string-name>, <string-name><surname>Wang</surname>
+<given-names>Y</given-names></string-name>. <article-title>A multi-scale parallel convolutional neural network for automatic sleep apnea detection using single-channel EEG signals</article-title>. <conf-name>11th International Congress on Image and Signal Processing, BioMedical Engineering and Informatics (CISP-BMEI); 2018 Oct 13–15; Beijing, China</conf-name>; <conf-loc>New Jersey</conf-loc>: <publisher-name>IEEE</publisher-name>; <year>2018</year>. doi:<pub-id pub-id-type="doi">10.1109/CISP-BMEI.2018.8633132</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0015">
+        <label>15.</label>
+        <mixed-citation publication-type="book"><string-name><surname>Haidar</surname>
+<given-names>R</given-names></string-name>, <string-name><surname>Koprinska</surname>
+<given-names>I</given-names></string-name>, <string-name><surname>Jeffries</surname>
+<given-names>B</given-names></string-name>. <chapter-title>Sleep apnea event detection from nasal airflow using convolutional neural networks</chapter-title>. In: <string-name><surname>Liu</surname>
+<given-names>D</given-names></string-name>, <string-name><surname>Xie</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Li</surname>
+<given-names>Y</given-names></string-name>, <string-name><surname>Zhao</surname>
+<given-names>D</given-names></string-name>, <string-name><surname>El-Alfy</surname>
+<given-names>ES</given-names></string-name>, editors. <source><italic toggle="yes">Neural Information Processing. ICONIP 2017. Lecture Notes in Computer Science</italic></source>. <publisher-loc>Cham</publisher-loc>: <publisher-name>Springer</publisher-name>; <year>2017</year>:<fpage>10638</fpage>. doi:<pub-id pub-id-type="doi">10.1007/978-3-319-70139-4_83</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0016">
+        <label>16.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Van Steenkiste</surname>
+<given-names>T</given-names></string-name>, <string-name><surname>Groenendaal</surname>
+<given-names>W</given-names></string-name>, <string-name><surname>Deschrijver</surname>
+<given-names>D</given-names></string-name>, <string-name><surname>Dhaene</surname>
+<given-names>T</given-names></string-name>. <article-title>Automated sleep apnea detection in raw respiratory signals using long short-term memory neural networks</article-title>. <source><italic toggle="yes">IEEE J Biomed Health Inform</italic></source>. <year>2019</year>;<volume>23</volume>(<issue>6</issue>):<fpage>2354</fpage>–<lpage>2364</lpage>. doi:<pub-id pub-id-type="doi">10.1109/JBHI.2018.2886064</pub-id><pub-id pub-id-type="pmid">30530344</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0017">
+        <label>17.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Hochreiter</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Schmidhuber</surname>
+<given-names>J</given-names></string-name>. <article-title>Long short-term memory</article-title>. <source><italic toggle="yes">Neural Comput</italic></source>. <year>1997</year>;<volume>9</volume>(<issue>8</issue>):<fpage>1735</fpage>–<lpage>1780</lpage>. doi:<pub-id pub-id-type="doi">10.1162/neco.1997.9.8.1735</pub-id><pub-id pub-id-type="pmid">9377276</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0018">
+        <label>18.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Yu</surname>
+<given-names>Y</given-names></string-name>, <string-name><surname>Si</surname>
+<given-names>X</given-names></string-name>, <string-name><surname>Hu</surname>
+<given-names>C</given-names></string-name>, <string-name><surname>Zhang</surname>
+<given-names>JA</given-names></string-name>. <article-title>A review of recurrent neural networks: LSTM cells and network architectures</article-title>. <source><italic toggle="yes">Neural Comput</italic></source>. <year>2019</year>;<volume>31</volume>(<issue>7</issue>):<fpage>1235</fpage>–<lpage>1270</lpage>. doi:<pub-id pub-id-type="doi">10.1162/neco_a_01199</pub-id><pub-id pub-id-type="pmid">31113301</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0019">
+        <label>19.</label>
+        <mixed-citation publication-type="book"><string-name><surname>Berry</surname>
+<given-names>RB</given-names></string-name>, <string-name><surname>Brooks</surname>
+<given-names>R</given-names></string-name>, <string-name><surname>Gamaldo</surname>
+<given-names>CE</given-names></string-name>, <string-name><surname>Harding</surname>
+<given-names>SM</given-names></string-name>, <string-name><surname>Marcus</surname>
+<given-names>C</given-names></string-name>, <string-name><surname>Vaughn</surname>
+<given-names>B</given-names></string-name>. <source><italic toggle="yes">The AASM Manual for the Scoring of Sleep and Associated Events. Rules, Terminology and Technical Specifications</italic></source>. <publisher-loc>Illinois, Darien</publisher-loc>: <publisher-name>American Academy of Sleep Medicine</publisher-name>; <year>2012</year>.</mixed-citation>
+      </ref>
+      <ref id="cit0020">
+        <label>20.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Duce</surname>
+<given-names>B</given-names></string-name>, <string-name><surname>Milosavljevic</surname>
+<given-names>J</given-names></string-name>, <string-name><surname>Hukins</surname>
+<given-names>C</given-names></string-name>. <article-title>The 2012 AASM respiratory event criteria increase the incidence of hypopneas in an adult sleep center population</article-title>. <source><italic toggle="yes">J Clin Sleep Med</italic></source>. <year>2015</year>;<volume>11</volume>(<issue>12</issue>):<fpage>1425</fpage>–<lpage>1431</lpage>. doi:<pub-id pub-id-type="doi">10.5664/jcsm.5280</pub-id><pub-id pub-id-type="pmid">26285111</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0021">
+        <label>21.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Casey</surname>
+<given-names>KR</given-names></string-name>, <string-name><surname>Tiwari</surname>
+<given-names>R</given-names></string-name>. <article-title>The (still) elusive definition of hypopnea</article-title>. <source><italic toggle="yes">J Clin Sleep Med</italic></source>. <year>2018</year>;<volume>14</volume>(<issue>12</issue>):<fpage>1971</fpage>–<lpage>1972</lpage>. doi:<pub-id pub-id-type="doi">10.5664/jcsm.7512</pub-id><pub-id pub-id-type="pmid">30518459</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0022">
+        <label>22.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Korotinsky</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Assefa</surname>
+<given-names>SZ</given-names></string-name>, <string-name><surname>Diaz-Abad</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Wickwire</surname>
+<given-names>EM</given-names></string-name>, <string-name><surname>Scharf</surname>
+<given-names>SM</given-names></string-name>. <article-title>Comparison of American Academy of Sleep Medicine (AASM) versus Center for Medicare and Medicaid Services (CMS) polysomnography (PSG) scoring rules on AHI and eligibility for continuous positive airway pressure (CPAP) treatment</article-title>. <source><italic toggle="yes">Sleep Breath</italic></source>. <year>2016</year>;<volume>20</volume>(<issue>4</issue>):<fpage>1169</fpage>–<lpage>1174</lpage>. doi:<pub-id pub-id-type="doi">10.1007/s11325-016-1327-y</pub-id><pub-id pub-id-type="pmid">26969658</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0023">
+        <label>23.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Arora</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Collen</surname>
+<given-names>JF</given-names></string-name>. <article-title>What are we missing? Hypertension and hypopneas</article-title>. <source><italic toggle="yes">J Clin Sleep Med</italic></source>. <year>2020</year>;<volume>16</volume>(<issue>10</issue>):<fpage>1653</fpage>–<lpage>1654</lpage>. doi:<pub-id pub-id-type="doi">10.5664/jcsm.8764</pub-id><pub-id pub-id-type="pmid">32844742</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0024">
+        <label>24.</label>
+        <mixed-citation publication-type="confproc"><string-name><surname>He</surname>
+<given-names>K</given-names></string-name>, <string-name><surname>Zhang</surname>
+<given-names>X</given-names></string-name>, <string-name><surname>Ren</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Sun</surname>
+<given-names>J</given-names></string-name>. <article-title>Deep residual learning for image recognition</article-title>. <conf-name>2016 IEEE Conference on Computer Vision and Pattern Recognition (CVPR); 2016 Jun 27–30</conf-name>; <conf-loc>Las Vegas, NV, USA. New Jersey</conf-loc>: <publisher-name>IEEE</publisher-name>; <year>2016</year>:<fpage>770</fpage>–<lpage>778</lpage>. doi:<pub-id pub-id-type="doi">10.1109/CVPR.2016.90</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0025">
+        <label>25.</label>
+        <mixed-citation publication-type="confproc"><string-name><surname>Chen</surname>
+<given-names>Q</given-names></string-name>, <string-name><surname>Yue</surname>
+<given-names>H</given-names></string-name>, <string-name><surname>Pang</surname>
+<given-names>X</given-names></string-name>, et al. <article-title>Mr-ResNeXt: a multi-resolution network architecture for detection of obstructive sleep Apnea</article-title>. <conf-name>Proceedings of the 2020 International Conference on Neural Computing for Advanced Applications; 2020 Jul 3–5</conf-name>; <conf-loc>Shenzhen, China. Cham</conf-loc>: <publisher-name>Springer</publisher-name>; <year>2020</year>:<fpage>420</fpage>–<lpage>432</lpage>. doi:<pub-id pub-id-type="doi">10.1007/978-981-15-7670-6_35</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0026">
+        <label>26.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Kiymik</surname>
+<given-names>MK</given-names></string-name>, <string-name><surname>Güler</surname>
+<given-names>I</given-names></string-name>, <string-name><surname>Dizibüyük</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Akin</surname>
+<given-names>M</given-names></string-name>. <article-title>Comparison of STFT and wavelet transform methods in determining epileptic seizure activity in EEG signals for real-time application</article-title>. <source><italic toggle="yes">Comput Biol Med</italic></source>. <year>2005</year>;<volume>35</volume>(<issue>7</issue>):<fpage>603</fpage>–<lpage>616</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.compbiomed.2004.05.001</pub-id><pub-id pub-id-type="pmid">15809098</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0027">
+        <label>27.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>McHugh</surname>
+<given-names>ML</given-names></string-name>. <article-title>Interrater reliability: the kappa statistic</article-title>. <source><italic toggle="yes">Biochem Med (Zagreb)</italic></source>. <year>2012</year>;<volume>22</volume>(<issue>3</issue>):<fpage>276</fpage>–<lpage>282</lpage>. doi:<pub-id pub-id-type="doi">10.11613/BM.2012.031</pub-id><pub-id pub-id-type="pmid">23092060</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0028">
+        <label>28.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Choi</surname>
+<given-names>SH</given-names></string-name>, <string-name><surname>Yoon</surname>
+<given-names>H</given-names></string-name>, <string-name><surname>Kim</surname>
+<given-names>HS</given-names></string-name>, et al. <article-title>Real-time apnea-hypopnea event detection during sleep by convolutional neural networks</article-title>. <source><italic toggle="yes">Comput Biol Med</italic></source>. <year>2018</year>;<volume>100</volume>:<fpage>123</fpage>–<lpage>131</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.compbiomed.2018.06.028</pub-id><pub-id pub-id-type="pmid">29990645</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0029">
+        <label>29.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Mazzotti</surname>
+<given-names>DR</given-names></string-name>, <string-name><surname>Lim</surname>
+<given-names>DC</given-names></string-name>, <string-name><surname>Sutherland</surname>
+<given-names>K</given-names></string-name>, et al. <article-title>Opportunities for utilizing polysomnography signals to characterize obstructive sleep apnea subtypes and severity</article-title>. <source><italic toggle="yes">Physiol Meas</italic></source>. <year>2018</year>;<volume>39</volume>(<issue>9</issue>):<fpage>09TR01</fpage>. doi:<pub-id pub-id-type="doi">10.1088/1361-6579/aad5fe</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0030">
+        <label>30.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Dey</surname>
+<given-names>D</given-names></string-name>, <string-name><surname>Chaudhuri</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Munshi</surname>
+<given-names>S</given-names></string-name>. <article-title>Obstructive sleep apnoea detection using convolutional neural network based deep learning framework</article-title>. <source><italic toggle="yes">Biomed Eng Lett</italic></source>. <year>2018</year>;<volume>8</volume>:<fpage>95</fpage>–<lpage>100</lpage>. doi:<pub-id pub-id-type="doi">10.1007/s13534-017-0055-y</pub-id><pub-id pub-id-type="pmid">30603194</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0031">
+        <label>31.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Vaquerizo-Villar</surname>
+<given-names>F</given-names></string-name>, <string-name><surname>Alvarez</surname>
+<given-names>D</given-names></string-name>, <string-name><surname>Kheirandish-Gozal</surname>
+<given-names>L</given-names></string-name>, et al. <article-title>Convolutional neural networks to detect pediatric apnea-hypopnea events from oximetry</article-title>. <source><italic toggle="yes">Annu Int Conf IEEE Eng Med Biol Soc</italic></source>. <year>2019</year>;<volume>2019</volume>:<fpage>3555</fpage>–<lpage>3558</lpage>. doi:<pub-id pub-id-type="doi">10.1109/EMBC.2019.8857934</pub-id><pub-id pub-id-type="pmid">31946646</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0032">
+        <label>32.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Álvarez</surname>
+<given-names>D</given-names></string-name>, <string-name><surname>Cerezo-Hernández</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Crespo</surname>
+<given-names>A</given-names></string-name>, et al. <article-title>A machine learning-based test for adult sleep apnoea screening at home using oximetry and airflow</article-title>. <source><italic toggle="yes">Sci Rep</italic></source>. <year>2020</year>;<volume>10</volume>(<issue>1</issue>):<fpage>5332</fpage>. doi:<pub-id pub-id-type="doi">10.1038/s41598-020-62223-4</pub-id><pub-id pub-id-type="pmid">32210294</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0033">
+        <label>33.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Gutiérrez-Tobal</surname>
+<given-names>GC</given-names></string-name>, <string-name><surname>Álvarez</surname>
+<given-names>D</given-names></string-name>, <string-name><surname>Del Campo</surname>
+<given-names>F</given-names></string-name>, <string-name><surname>Hornero</surname>
+<given-names>R</given-names></string-name>. <article-title>Utility of AdaBoost to detect sleep apnea-hypopnea syndrome from single-channel airflow</article-title>. <source><italic toggle="yes">IEEE Trans Biomed Eng</italic></source>. <year>2016</year>;<volume>63</volume>(<issue>3</issue>):<fpage>636</fpage>–<lpage>646</lpage>. doi:<pub-id pub-id-type="doi">10.1109/TBME.2015.2467188</pub-id><pub-id pub-id-type="pmid">26276985</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0034">
+        <label>34.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Miao</surname>
+<given-names>F</given-names></string-name>, <string-name><surname>Wen</surname>
+<given-names>B</given-names></string-name>, <string-name><surname>Hu</surname>
+<given-names>Z</given-names></string-name>, et al. <article-title>Continuous blood pressure measurement from one-channel electrocardiogram signal using deep-learning techniques</article-title>. <source><italic toggle="yes">Artif Intell Med</italic></source>. <year>2020</year>;<volume>108</volume>:<fpage>101919</fpage>. doi:<pub-id pub-id-type="doi">10.1016/j.artmed.2020.101919</pub-id><pub-id pub-id-type="pmid">32972654</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0035">
+        <label>35.</label>
+        <mixed-citation publication-type="confproc"><string-name><surname>Cheng</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Sori</surname>
+<given-names>WJ</given-names></string-name>, <string-name><surname>Jiang</surname>
+<given-names>F</given-names></string-name>, <string-name><surname>Khan</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Liu</surname>
+<given-names>S</given-names></string-name>. <article-title>Recurrent neural network based classification of ECG signal features for obstruction of sleep apnea detection</article-title>. <conf-name>2017 IEEE International Conference on Computational Science and Engineering (CSE) and IEEE International Conference on Embedded and Ubiquitous Computing (EUC); 2017 Jul 21–24</conf-name>; <conf-loc>Guangzhou, China. New Jersey</conf-loc>: <publisher-name>IEEE</publisher-name>; <year>2017</year>:<fpage>199</fpage>–<lpage>202</lpage>. doi:<pub-id pub-id-type="doi">10.1109/CSE-EUC.2017.220</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0036">
+        <label>36.</label>
+        <mixed-citation publication-type="confproc"><string-name><surname>Almuhammadi</surname>
+<given-names>WS</given-names></string-name>, <string-name><surname>Aboalayon</surname>
+<given-names>KAI</given-names></string-name>, <string-name><surname>Faezipour</surname>
+<given-names>M</given-names></string-name>. <article-title>Efficient obstructive sleep apnea classification based on EEG signals</article-title>. <conf-name>2015 Long Island Systems, Applications and Technology Conference; 2015 May 1</conf-name>; <conf-loc>Farmingdale, NY, USA. New Jersey</conf-loc>: <publisher-name>IEEE</publisher-name>; <year>2015</year>:<fpage>1</fpage>–<lpage>6</lpage>. doi:<pub-id pub-id-type="doi">10.1109/LISAT.2015.7160186</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0037">
+        <label>37.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Nikkonen</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Afara</surname>
+<given-names>IO</given-names></string-name>, <string-name><surname>Leppänen</surname>
+<given-names>T</given-names></string-name>, <string-name><surname>Töyräs</surname>
+<given-names>J</given-names></string-name>. <article-title>Artificial neural network analysis of the oxygen saturation signal enables accurate diagnostics of sleep apnea</article-title>. <source><italic toggle="yes">Sci Rep</italic></source>. <year>2019</year>;<volume>9</volume>(<issue>1</issue>):<fpage>13200</fpage>. doi:<pub-id pub-id-type="doi">10.1038/s41598-019-49330-7</pub-id><pub-id pub-id-type="pmid">31519927</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0038">
+        <label>38.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Hafezi</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Montazeri</surname>
+<given-names>N</given-names></string-name>, <string-name><surname>Zhu</surname>
+<given-names>K</given-names></string-name>, <string-name><surname>Alshaer</surname>
+<given-names>H</given-names></string-name>, <string-name><surname>Yadollahi</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Taati</surname>
+<given-names>B</given-names></string-name>. <article-title>Sleep apnea severity estimation from respiratory related movements using deep learning</article-title>. <source><italic toggle="yes">Annu Int Conf IEEE Eng Med Biol Soc</italic></source>. <year>2019</year>;<volume>2019</volume>:<fpage>1601</fpage>–<lpage>1604</lpage>. doi:<pub-id pub-id-type="doi">10.1109/EMBC.2019.8857524</pub-id><pub-id pub-id-type="pmid">31946202</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0039">
+        <label>39.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Solà-Soler</surname>
+<given-names>J</given-names></string-name>, <string-name><surname>Fiz</surname>
+<given-names>JA</given-names></string-name>, <string-name><surname>Morera</surname>
+<given-names>J</given-names></string-name>, <string-name><surname>Jané</surname>
+<given-names>R</given-names></string-name>. <article-title>Multiclass classification of subjects with sleep apnoea-hypopnoea syndrome through snoring analysis</article-title>. <source><italic toggle="yes">Med Eng Phys</italic></source>. <year>2012</year>;<volume>34</volume>(<issue>9</issue>):<fpage>1213</fpage>–<lpage>1220</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.medengphy.2011.12.008</pub-id><pub-id pub-id-type="pmid">22226588</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0040">
+        <label>40.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Perero-Codosero</surname>
+<given-names>JM</given-names></string-name>, <string-name><surname>Espinoza-Cuadros</surname>
+<given-names>F</given-names></string-name>, <string-name><surname>Antón-Martín</surname>
+<given-names>J</given-names></string-name>, <string-name><surname>Barbero-álvarez</surname>
+<given-names>MA</given-names></string-name>, <string-name><surname>Hernández-Gómez</surname>
+<given-names>LA</given-names></string-name>. <article-title>Modeling obstructive sleep apnea voices using deep neural network embeddings and domain-adversarial training</article-title>. <source><italic toggle="yes">IEEE J Sel Top Signal Process</italic></source>. <year>2020</year>;<volume>14</volume>(<issue>2</issue>):<fpage>240</fpage>–<lpage>250</lpage>. doi:<pub-id pub-id-type="doi">10.1109/JSTSP.2019.2957977</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0041">
+        <label>41.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Penzel</surname>
+<given-names>T</given-names></string-name>, <string-name><surname>McNames</surname>
+<given-names>J</given-names></string-name>, <string-name><surname>Murray</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>de Chazal</surname>
+<given-names>P</given-names></string-name>, <string-name><surname>Moody</surname>
+<given-names>G</given-names></string-name>, <string-name><surname>Raymond</surname>
+<given-names>B</given-names></string-name>. <article-title>Systematic comparison of different algorithms for apnoea detection based on electrocardiogram recordings</article-title>. <source><italic toggle="yes">Med Biol Eng Comput</italic></source>. <year>2002</year>;<volume>40</volume>(<issue>4</issue>):<fpage>402</fpage>–<lpage>407</lpage>. doi:<pub-id pub-id-type="doi">10.1007/BF02345072</pub-id><pub-id pub-id-type="pmid">12227626</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0042">
+        <label>42.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Erdenebayar</surname>
+<given-names>U</given-names></string-name>, <string-name><surname>Kim</surname>
+<given-names>YJ</given-names></string-name>, <string-name><surname>Park</surname>
+<given-names>JU</given-names></string-name>, <string-name><surname>Joo</surname>
+<given-names>EY</given-names></string-name>, <string-name><surname>Lee</surname>
+<given-names>KJ</given-names></string-name>. <article-title>Deep learning approaches for automatic detection of sleep apnea events from an electrocardiogram</article-title>. <source><italic toggle="yes">Comput Methods Programs Biomed</italic></source>. <year>2019</year>;<volume>180</volume>:<fpage>105001</fpage>. doi:<pub-id pub-id-type="doi">10.1016/j.cmpb.2019.105001</pub-id><pub-id pub-id-type="pmid">31421606</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0043">
+        <label>43.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Haghayegh</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Kang</surname>
+<given-names>HA</given-names></string-name>, <string-name><surname>Khoshnevis</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Smolensky</surname>
+<given-names>MH</given-names></string-name>, <string-name><surname>Diller</surname>
+<given-names>KR</given-names></string-name>. <article-title>A comprehensive guideline for bland-altman and intra class correlation calculations to properly compare two methods of measurement and interpret findings</article-title>. <source><italic toggle="yes">Physiol Meas</italic></source>. <year>2020</year>;<volume>41</volume>(<issue>5</issue>):<fpage>055012</fpage>. doi:<pub-id pub-id-type="doi">10.1088/1361-6579/ab86d6</pub-id><pub-id pub-id-type="pmid">32252039</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0044">
+        <label>44.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Montazeri Ghahjaverestan</surname>
+<given-names>N</given-names></string-name>, <string-name><surname>Akbarian</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Hafezi</surname>
+<given-names>M</given-names></string-name>, et al. <article-title>Sleep/wakefulness detection using tracheal sounds and movements</article-title>. <source><italic toggle="yes">Nat Sci Sleep</italic></source>. <year>2020</year>;<volume>12</volume>:<fpage>1009</fpage>–<lpage>1021</lpage>. doi:<pub-id pub-id-type="doi">10.2147/NSS.S276107</pub-id><pub-id pub-id-type="pmid">33235534</pub-id></mixed-citation>
+      </ref>
+    </ref-list>
+  </back>
+</article>
+</pmc-articleset>

@@ -1,0 +1,468 @@
+<pmc-articleset><article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" dtd-version="1.3" xml:lang="en" article-type="research-article">
+  <?properties open_access?>
+  <processing-meta base-tagset="archiving" mathml-version="3.0" table-model="xhtml" tagset-family="jats">
+    <restricted-by>pmc</restricted-by>
+  </processing-meta>
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="nlm-ta">Nat Sci Sleep</journal-id>
+      <journal-id journal-id-type="iso-abbrev">Nat Sci Sleep</journal-id>
+      <journal-id journal-id-type="publisher-id">nss</journal-id>
+      <journal-title-group>
+        <journal-title>Nature and Science of Sleep</journal-title>
+      </journal-title-group>
+      <issn pub-type="epub">1179-1608</issn>
+      <publisher>
+        <publisher-name>Dove</publisher-name>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="pmid">35800029</article-id>
+      <article-id pub-id-type="pmc">9255718</article-id>
+      <article-id pub-id-type="publisher-id">360970</article-id>
+      <article-id pub-id-type="doi">10.2147/NSS.S360970</article-id>
+      <article-categories>
+        <subj-group subj-group-type="heading">
+          <subject>Original Research</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>Respiratory Motion and Airflow Estimation During Sleep Using Tracheal Movement and Sound</article-title>
+        <alt-title alt-title-type="running-authors">Montazeri Ghahjaverestan et al</alt-title>
+        <alt-title alt-title-type="running-title">Montazeri Ghahjaverestan et al</alt-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0003-0960-9632</contrib-id>
+          <name>
+            <surname>Montazeri Ghahjaverestan</surname>
+            <given-names>Nasim</given-names>
+          </name>
+          <xref rid="aff0001" ref-type="aff">
+<sup>1</sup>
+</xref>
+          <xref rid="aff0002" ref-type="aff">
+<sup>2</sup>
+</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Fan</surname>
+            <given-names>Wei</given-names>
+          </name>
+          <xref rid="aff0003" ref-type="aff">
+<sup>3</sup>
+</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Aguiar</surname>
+            <given-names>Cristiano</given-names>
+          </name>
+          <xref rid="aff0003" ref-type="aff">
+<sup>3</sup>
+</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Yu</surname>
+            <given-names>Jackson</given-names>
+          </name>
+          <xref rid="aff0003" ref-type="aff">
+<sup>3</sup>
+</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Bradley</surname>
+            <given-names>T Douglas</given-names>
+          </name>
+          <xref rid="aff0001" ref-type="aff">
+<sup>1</sup>
+</xref>
+          <xref rid="aff0003" ref-type="aff">
+<sup>3</sup>
+</xref>
+          <xref rid="aff0004" ref-type="aff">
+<sup>4</sup>
+</xref>
+          <xref rid="aff0005" ref-type="aff">
+<sup>5</sup>
+</xref>
+          <xref rid="an0001" ref-type="corresp"/>
+        </contrib>
+        <aff id="aff0001"><label>1</label><institution>Sleep Research Laboratory of the University Health Network Toronto Rehabilitation Institute</institution>, <addr-line>Toronto</addr-line>, <addr-line>Ontario</addr-line>, <country>Canada</country></aff>
+        <aff id="aff0002"><label>2</label><institution>Institute of Biomedical Engineering, University of Toronto</institution>, <addr-line>Toronto</addr-line>, <addr-line>Ontario</addr-line>, <country>Canada</country></aff>
+        <aff id="aff0003"><label>3</label><institution>Bresotec Inc</institution>., <addr-line>Toronto</addr-line>, <addr-line>Ontario</addr-line>, <country>Canada</country></aff>
+        <aff id="aff0004"><label>4</label><institution>Department of Medicine of the University of Toronto</institution>, <addr-line>Toronto</addr-line>, <addr-line>Ontario</addr-line>, <country>Canada</country></aff>
+        <aff id="aff0005"><label>5</label><institution>Department of Medicine of the University Health Network Toronto General Hospital</institution>, <addr-line>Toronto</addr-line>, <addr-line>Ontario</addr-line>, <country>Canada</country></aff>
+      </contrib-group>
+      <author-notes>
+        <corresp id="an0001">Correspondence: T Douglas Bradley, <institution>Department of Medicine of the University Health Network Toronto General Hospital</institution>, <addr-line>Room 9N-943, 200 Elizabeth Street</addr-line>, <addr-line>Toronto</addr-line>, <addr-line>Ontario</addr-line>, <addr-line>M5G 2C4</addr-line>, <country>Canada</country>, <phone>Tel +1 416-340-4719</phone>, <fax>Fax +1 416-340-4197</fax>, Email douglas.bradley@utoronto.ca</corresp>
+      </author-notes>
+      <pub-date pub-type="epub">
+        <day>01</day>
+        <month>7</month>
+        <year>2022</year>
+      </pub-date>
+      <pub-date pub-type="collection">
+        <year>2022</year>
+      </pub-date>
+      <volume>14</volume>
+      <fpage>1213</fpage>
+      <lpage>1223</lpage>
+      <history>
+        <date date-type="received">
+          <day>11</day>
+          <month>2</month>
+          <year>2022</year>
+        </date>
+        <date date-type="accepted">
+          <day>07</day>
+          <month>6</month>
+          <year>2022</year>
+        </date>
+      </history>
+      <permissions>
+        <copyright-statement>© 2022 Montazeri Ghahjaverestan et al.</copyright-statement>
+        <copyright-year>2022</copyright-year>
+        <copyright-holder>Montazeri Ghahjaverestan et al.</copyright-holder>
+        <license>
+          <ali:license_ref xmlns:ali="http://www.niso.org/schemas/ali/1.0/" specific-use="textmining" content-type="ccbynclicense">https://creativecommons.org/licenses/by-nc/3.0/</ali:license_ref>
+          <license-p>This work is published and licensed by Dove Medical Press Limited. The full terms of this license are available at <ext-link ext-link-type="uri" xlink:href="https://www.dovepress.com/terms.php">https://www.dovepress.com/terms.php</ext-link> and incorporate the Creative Commons Attribution – Non Commercial (unported, v3.0) License (<ext-link ext-link-type="uri" xlink:href="https://creativecommons.org/licenses/by-nc/3.0/">http://creativecommons.org/licenses/by-nc/3.0/</ext-link>). By accessing the work you hereby accept the Terms. Non-commercial uses of the work are permitted without any further permission from Dove Medical Press Limited, provided the work is properly attributed. For permission for commercial use of this work, please see paragraphs 4.2 and 5 of our Terms (<ext-link ext-link-type="uri" xlink:href="https://www.dovepress.com/terms.php">https://www.dovepress.com/terms.php</ext-link>).</license-p>
+        </license>
+      </permissions>
+      <abstract>
+        <sec id="s2001">
+          <title>Purpose</title>
+          <p>Due to lack of access and high cost of polysomnography, portable sleep apnea testing has been developed to diagnose sleep apnea. Despite being less expensive, and having fewer sensors and reasonable accuracy in identifying sleep apnea, such devices can be less accurate than polysomnography in detecting apneas/hypopneas. To increase the accuracy of apnea/hypopnea detection, an accurate airflow estimation is required. However, current airflow measurement techniques employed in portable devices are inconvenient and subject to displacement during sleep. In this study, algorithms were developed to estimate respiratory motion and airflow using tracheo-sternal motion and tracheal sounds.</p>
+        </sec>
+        <sec id="s2002">
+          <title>Patients and Methods</title>
+          <p>Adults referred for polysomnography were included. Simultaneous to polysomnography, a patch device with an embedded 3-dimensional accelerometer and microphone was affixed to the suprasternal notch to record tracheo-sternal motion and tracheal sounds, respectively. Tracheo-sternal motion was used to train two mathematical models for estimating changes in respiratory motion and airflow compared to simultaneously measured thoracoabdominal motion and nasal pressure from polysomnography. The amplitude of the estimated airflow was then adjusted by the tracheal sound envelope in segments with unstable breathing.</p>
+        </sec>
+        <sec id="s2003">
+          <title>Results</title>
+          <p>Two hundred and fifty-two subjects participated in this study. Overall, the algorithms provided highly accurate estimates of changes in respiratory motion and airflow with mean square errors (MSE) of 3.58 ± 0.82% and 2.82 ± 0.71%, respectively, compared to polysomnographic signals. The estimated motion and airflow from the patch signals detected apneas and hypopneas scored on polysomnography in 63.9% and 88.3% of cases, respectively.</p>
+        </sec>
+        <sec id="s2004">
+          <title>Conclusion</title>
+          <p>This study presents algorithms to accurately estimate changes in respiratory motion and airflow, which provides the ability to detect respiratory events during sleep. Our study suggests that such a simple and convenient method could be used for portable monitoring to detect sleep apnea. Further studies will be required to test this possibility.</p>
+        </sec>
+      </abstract>
+      <kwd-group kwd-group-type="author">
+        <title>Keywords</title>
+        <kwd>respiratory airflow</kwd>
+        <kwd>sleep apnea</kwd>
+        <kwd>tracheal acoustics</kwd>
+      </kwd-group>
+      <counts>
+        <fig-count count="5"/>
+        <table-count count="6"/>
+        <ref-count count="30"/>
+        <page-count count="11"/>
+      </counts>
+    </article-meta>
+  </front>
+  <body>
+    <sec sec-type="intro" id="s0001">
+      <title>Introduction</title>
+      <p>Sleep apnea (SA) is characterized by intermittent reductions (hypopneas) or cessations (apneas) in airflow during sleep. Sleep apnea occurs due to partial or complete collapse of the upper airway (UA) (obstructive sleep apnea, OSA) or reduction or cessation in central neural stimulation of inspiratory muscles (central sleep apnea, CSA) during sleep. While SA is present in approximately 10% of the adult population,<xref rid="cit0001" ref-type="bibr">1</xref> it is more prevalent in individuals with certain medical conditions such as heart failure (47–81%<xref rid="cit0002" ref-type="bibr">2</xref>), hypertension (73–82%<xref rid="cit0003" ref-type="bibr">3</xref>,<xref rid="cit0004" ref-type="bibr">4</xref>), and stroke (71%<xref rid="cit0005" ref-type="bibr">5</xref>). Attended overnight polysomnography (PSG) in a sleep laboratory is the standard method to diagnose sleep apnea, but is inconvenient owing to its high expense and relative inaccessibility in many areas.<xref rid="cit0006" ref-type="bibr">6</xref> This helps to explain why approximately 85% of the people with sleep apnea remain undiagnosed.<xref rid="cit0007" ref-type="bibr">7</xref></p>
+      <p>To overcome the challenges of SA diagnosis, portable sleep apnea testing has been developed. Such testing devices have fewer sensors and are less expensive compared to PSG, while not requiring an overnight stay in a sleep laboratory. Despite having reasonable accuracy in identifying subjects with SA,<xref rid="cit0008" ref-type="bibr">8</xref> such devices can be less accurate in detecting apneas and hypopneas. To increase the accuracy of apnea/hypopnea detection, accurate estimation of respiratory signals is required.</p>
+      <p>Current portable devices generally use nasal pressure cannulae for measuring airflow and/or respiratory inductance plethysmography (RIP) for measuring respiratory motion. However, nasal cannulae only measures nasal airflow and will not detect airflow when subjects are mouth breathing.<xref rid="cit0009" ref-type="bibr">9</xref> In unattended sleep monitoring at home, nasal cannulae and RIP bands can be displaced during the night so that signals may either be inconsistent or lost.</p>
+      <p>Alternative means of measuring airflow and respiratory motion are via recording of tracheal motion and breath sounds by a 3-dimensional accelerometer and a microphone, respectively.<xref rid="cit0010" ref-type="bibr">10–16</xref> Such tracheal signals have been used in prototype portable devices to detect SA. Furthermore, tracheal breath sounds have been assessed to estimate airflow; however, such assessments were performed during wakefulness under carefully controlled conditions<xref rid="cit0010" ref-type="bibr">10</xref>,<xref rid="cit0011" ref-type="bibr">11</xref>,<xref rid="cit0013" ref-type="bibr">13</xref>,<xref rid="cit0015" ref-type="bibr">15</xref>,<xref rid="cit0016" ref-type="bibr">16</xref> or during brief segments of sleep.<xref rid="cit0010" ref-type="bibr">10</xref>,<xref rid="cit0017" ref-type="bibr">17</xref> A few studies also suggested the possibility that a combination of tracheal sounds and motion could be used to estimate airflow during overnight sleep studies.<xref rid="cit0012" ref-type="bibr">12</xref></p>
+      <p>Accordingly, in the present study, we employed a module, the patch, into which is embedded a 3-dimensional accelerometer and a microphone, that is affixed to the skin over the suprasternal notch and upper sternum for recording the craniocaudal motion of the trachea and posterior-anterior motion of the sternum, as well as tracheal breath sounds. The objective of the study was to develop algorithms to estimate respiratory motion and airflow using tracheo-sternal motion and tracheal sounds compared to simultaneously recorded reference signals from overnight PSG. This work has not been published elsewhere except as an abstract accepted for the American Thoracic Society Congress 2022.</p>
+    </sec>
+    <sec id="s0002">
+      <title>Materials and Methods</title>
+      <sec id="s0002-s2001">
+        <title>Study Participants</title>
+        <p>Eligibility criteria were men and women aged 18 years and above referred to the University Health Network sleep laboratories for overnight PSG. Exclusion criteria were in-hospital patients, those who self-reported neuromuscular disorders, obesity hypoventilation, severe lung diseases such as chronic obstructive pulmonary disease, and subjects who were not fluent in English. The study was approved by the Research Ethics Board of the University Health Network (IRB #: 17-6258 and 19-5601). All participants provided written informed consent prior to participation. Our study was conducted in accordance with the Declaration of Helsinki.</p>
+      </sec>
+      <sec id="s0002-s2002">
+        <title>Data Acquisition</title>
+        <p>Subjects underwent in-laboratory overnight PSG using a computerized system (Embla<sup>®</sup> N7000/S4500, Natus Medical Incorporated) and standard techniques and scoring criteria for sleep stages and arousals from sleep.<xref rid="cit0018" ref-type="bibr">18</xref> Airflow was assessed by a nasal cannula, thoracoabdominal movements by RIP, and arterial oxyhemoglobin saturation (SaO<sub>2</sub>) by a pulse oximeter. Apneas and hypopneas were scored according to the American Academy of Sleep Medicine (AASM) guidelines version 2.6.<xref rid="cit0021" ref-type="bibr">21</xref> Apnea was characterized by ≥90% reduction in the peak excursion of airflow signal lasting ≥10 seconds. Hypopnea was scored as a reduction in airflow by between 30% and 90% accompanied by ≥3% oxygen desaturation or ending with cortical arousal.</p>
+        <p>Following instrumentation for PSG, a module into which a 3-dimensional accelerometer and a microphone were embedded, the patch (BresoDX1, BresoTEC Inc., Toronto, Canada), was affixed over the suprasternal notch and upper sternum by adhesive tape (<xref rid="f0001" ref-type="fig">Figure 1</xref>) to record tracheo-sternal motion and tracheal sound. Prior to lights out, patch signals were recorded during wakefulness while subjects breathed normally for 5 minutes to establish a baseline level against which tracheo-sternal signals could be normalized after lights out during normal breathing, hypopneas and apneas. Motion and sound signals were recorded at 100 Hz and 8000 Hz, respectively. These signals were transmitted wirelessly from the patch module to a data collection unit placed on the subject’s night table. Signals were synchronized to the PSG recording via electronic pulses generated every 10 minutes.<fig position="float" id="f0001" fig-type="figure"><label>Figure 1</label><caption><p>An overview of data analysis. (<bold>A</bold>) Respiratory motion estimation. (<bold>B</bold>) Airflow estimation. Dashed arrows indicate the stream of training set. (<bold>C</bold>) The Patch is attached over the suprasternal notch and its data collection unit (hub) is placed on a bed-side table.</p></caption><graphic xlink:href="NSS-14-1213-g0001" content-type="print-only" position="float"/></fig></p>
+      </sec>
+      <sec id="s0002-s2003">
+        <title>Data Analysis</title>
+        <sec id="s0002-s2003-s3001">
+          <title>Data Preprocessing</title>
+          <p>Following completion of overnight studies, data were downloaded from the collection unit to a computer and analyzed using Python software. Data were divided into five-minute segments to appropriately use the computing capacity. <xref rid="f0001" ref-type="fig">Figure 1</xref> illustrates an overview of the data analysis.</p>
+          <p>For each segment of data, craniocaudal (X-axis) and posterior-anterior (Z-axis) motion from the accelerometer and sound signals from the microphone were extracted. To ensure tracheal motion signals were related to breathing in the frequency range from 0.2 to 0.33 Hz,<xref rid="cit0019" ref-type="bibr">19</xref> accelerometer signals were filtered using a five-order zero-phase bandpass Butterworth filter with a bandwidth of 0.2 to 5 Hz. Then, the filtered accelerometer signals were down-sampled to 10 Hz and deemed movement signals. We found 10 Hz sufficient to preserve the clear waveform of breathing. At this stage, each movement signal consisted of the breathing-related movements, which were superimposed on a baseline level which could rise or fall abruptly with changes in body position during sleep. Such shifts in the baseline were detected using the Pruned Exact Linear Time (PELT) technique.<xref rid="cit0020" ref-type="bibr">20</xref> The PELT algorithm used the root mean squared error as the cost function to optimally partition each movement signal into segments with different baselines. Each segment between two consecutive shifts in the signal baseline was normalized between its 2nd and 98th percentiles. The normalization unified the amplitude range of the movement signals and equalized the baseline at the zero level during different body postures. Subsequently, the normalized segments were temporally combined to generate the normalized movement signals (M<sub>X</sub> and M<sub>Z</sub>) in X and Z axes with unified range and zero-level baseline.</p>
+          <p>The sound signal was bandpass filtered using a nine-order zero-phase Butterworth filter (200–2000 Hz). This bandwidth preserved the breathing components while eliminating high-frequency noises (&gt;2000 Hz<xref rid="cit0021" ref-type="bibr">21</xref>), and diminishing heart sounds (20–500Hz<xref rid="cit0021" ref-type="bibr">21</xref>) and snoring sounds (20–1500 Hz<xref rid="cit0022" ref-type="bibr">22</xref>). To remove the remaining spectral content of heart sounds and snoring, the filtered sound was resampled at 10 Hz. The envelope of the resampled sound signal was extracted for each sample by finding the maximum value within a neighborhood of 10 seconds. The 10-second window ensured capturing the oscillation related to breathing with 0.2–5 second period. Subsequently, the logarithm of the extracted envelope (S<sub>E</sub>) was normalized based on the 5th and 95th percentile to remove spikes related to noise disturbances.</p>
+          <p>From the synchronized segment of PSG data, the corresponding electronic sum of thoracoabdominal movements (respiratory motion) and nasal pressure (airflow) were extracted and resampled at 10 Hz. Then, they were analyzed to find and remove shifts in their baseline, and then normalized based on 2nd and 98th percentiles. The processed respiratory motion (R<sub>m</sub>) and airflow (R<sub>F</sub>) from PSG were used as the reference signals in developing mathematical models.</p>
+          <p>Using the preprocessed signals, two mathematical models were developed for estimating respiratory motion and airflow. To develop the models, the dataset was divided into a training set (144 or 57% of subjects) and a test set (109 or 43% of subjects). The models were developed using the data in the training set. Then, the performance of the trained models were evaluated on the test set.</p>
+        </sec>
+        <sec id="s0002-s2003-s3002">
+          <title>Respiratory Motion Estimation</title>
+          <p>To develop a model for estimating respiratory motion, a linear regression model was trained using M<sub>X</sub> and M<sub>Z</sub> from the patch (predictors) and their corresponding R<sub>m</sub> (reference) from PSG, all of which were extracted from the training set. As there can be a few seconds misalignment between the patch and PSG due to drifts in the sampling rate of the device during data transmission, first, the predictors were temporally aligned with the reference. The length of the shift in time was determined by maximizing the cross-correlation, which was calculated iteratively for every second shift within a neighborhood of 5 seconds. This range limits the shift to be within the time frame of one typical breath cycle. Moreover, to suppress the effect of outliers presumably caused by motion artifacts, values 3 standard deviations away from the mean value of the signals were capped to the 3 standard deviations in the training process. Then, using R<sub>m</sub> (reference) and the aligned M<sub>X</sub> and M<sub>Z</sub> (predictors), the parameters of the linear regression model were derived. Since M<sub>X</sub> and M<sub>Z</sub> are highly correlated, a ridge-regression model was used to solve the collinearity issue.<xref rid="cit0023" ref-type="bibr">23</xref>,<xref rid="cit0024" ref-type="bibr">24</xref> Moreover, bootstrapping was employed to cope with the large number of samples in the overnight data.<xref rid="cit0025" ref-type="bibr">25</xref> Based on this technique, 15 models were trained using the data of 30 subjects randomly selected for each model from the training set. As occurrence of respiratory events affects the amplitude of signals and, thus, the training process, subjects were divided into four groups of healthy subjects (AHI &lt;5) and those with mild (AHI of 5 to &lt;15), moderate (AHI of 15 to &lt;30), and severe sleep apnea (AHI of ≥30). For each round of the bootstrapping model training, the same number of subjects was selected from each of the AHI severity groups, and aggregated to form the training set for that bootstrapping model.</p>
+          <p>To evaluate the performance of the model derived from the training set, M<sub>X</sub> and M<sub>Z</sub> of each data in the test set were fed into the trained bootstrapping models. The average value over the outputs of the models was reported as the estimated motion for each sample and compared to the reference motion (R<sub>m</sub>) extracted from PSG.</p>
+        </sec>
+        <sec id="s0002-s2003-s3003">
+          <title>Respiratory Airflow Estimation</title>
+          <p>A similar algorithm was implemented to develop linear regression models through Bootstrapping between airflow extracted from PSG (R<sub>F</sub>; reference) and M<sub>X</sub> and M<sub>Z</sub> from the Patch (predictors) in the training set. Then, using the trained models, airflow was estimated for any segment of M<sub>X</sub> and M<sub>Z</sub> from the test set.</p>
+          <p>As the sound envelope (S<sub>E</sub>) was related to the airflow amplitude, it was then used for modulating the amplitude of the estimated airflow in the test set. The modulation was performed only in segments where breathing was unstable (e.g., during apneas and hypopneas). These segments were marked as if 1 - the envelope of the estimated airflow was not flat, or 2 - its dominant frequency was out of the range of 0.17–0.33 Hz. This range of frequency was selected based on the normal rate of breathing.<xref rid="cit0019" ref-type="bibr">19</xref> The flatness of the envelope of the estimated airflow was defined as the ratio of geometric over arithmetic mean values.</p>
+        </sec>
+        <sec id="s0002-s2003-s3004">
+          <title>Statistical Analysis</title>
+          <p>Statistical analyses were performed in R (i386 3.4.1) software. The demographic characteristics of the participants in the training and test sets were compared using unpaired <italic toggle="yes">t</italic>-test except for sex, which was analyzed by Chi-square test.</p>
+          <p>To assess the performance of the algorithms derived from the training set on the test set, mean squared error (MSE) was calculated as the average value of the squared distance between the reference and estimated signals over the time intervals. The lower the MSE, the stronger the agreement between the reference and estimated signals. The values of MSE were reported for segments during normal breathing during wakefulness and sleep, as well as apneas, and hypopneas. Additionally, repeated measure correlation was used to assess the agreement between the estimated and reference signals from the subjects in the test set.<xref rid="cit0026" ref-type="bibr">26</xref>,<xref rid="cit0027" ref-type="bibr">27</xref> Repeated measure correlation is a statistical technique to relax the independence assumption of the convectional Pearson correlation allowing one to analyze multiple measurements from each of the subjects and estimate a common regression value, which reflected the shared agreement among subjects. We reported the repeated measurement correlation for apneas, hypopneas, and normal breathing during sleep and wakefulness, separately. For each one, the related segments were extracted from the overnight data of each of the subjects in the test set and, then, aggregated for the repeated measure analysis. Moreover, the average of the estimated signals during each of the PSG-annotated events was compared to that of its preceding baseline segment to verify any reduction in the estimated level. Events were marked as detected if there was a 30% or greater reduction in estimated motion or airflow for at least 10s, and were sub-classified into apneas and hypopneas if the reductions were ≥90% or from 30 - &lt;90%, respectively. The number of detected reductions were reported as the percentage of the detected apneas and hypopneas for the four AHI severity groups in the test set.</p>
+          <p>Furthermore, for each of the annotated respiratory events on the test set, the maximum level of the estimated signals in a 5-second window right before its onset (baseline level) and the minimum level within the event (event level) were extracted. Then, the extracted baseline and event levels for each subject in the test set were normalized to the level of the 5 minute period of normal breathing in the supine position during wakefulness prior to lights out. The average values of the normalized baseline and event levels were separately extracted for apneas and hypopneas, and compared using repeated measure one-way analysis of variance (ANOVA). If any significant difference was found, Tukey’s test was performed to analyze inter-group differences. Statistical significance was assumed as p ≤ 0.05.</p>
+        </sec>
+      </sec>
+    </sec>
+    <sec id="s0003">
+      <title>Results</title>
+      <sec id="s0003-s2001">
+        <title>Study Participants</title>
+        <p>Two-hundred and fifty two subjects participated in this study. <xref rid="t0001" ref-type="table">Table 1</xref> displays their characteristics. There were no significant differences in these variables between the training and test groups except that total recording time was longer in the training set (p &lt; 0.001). There were borderline significant differences between training and test sets in BMI (p = 0.05) and sex (p = 0.05). The following results were obtained using the test set.<table-wrap position="float" id="t0001"><label>Table 1</label><caption><p>Characteristics of the Participants</p></caption><table frame="hsides" rules="groups"><thead><tr><th rowspan="1" colspan="1">Characteristics</th><th rowspan="1" colspan="1">Total (N = 252)</th><th rowspan="1" colspan="1">Training Set (N=144)</th><th rowspan="1" colspan="1">Test Set (N=108)</th><th rowspan="1" colspan="1">P-value</th></tr></thead><tbody><tr><td rowspan="1" colspan="1">Male (Female)</td><td rowspan="1" colspan="1">123 (129)</td><td rowspan="1" colspan="1">64 (80)</td><td rowspan="1" colspan="1">59 (49)</td><td rowspan="1" colspan="1">0.05</td></tr><tr><td rowspan="1" colspan="1">Body mass index (kg/m<sup>2</sup>)</td><td rowspan="1" colspan="1">29.8 ± 6.6</td><td rowspan="1" colspan="1">30.8 ± 6.9</td><td rowspan="1" colspan="1">28.5 ± 6.0</td><td rowspan="1" colspan="1">0.05</td></tr><tr><td rowspan="1" colspan="1">Age (years)</td><td rowspan="1" colspan="1">50 ± 16</td><td rowspan="1" colspan="1">51 ± 16</td><td rowspan="1" colspan="1">50 ± 16</td><td rowspan="1" colspan="1">0.55</td></tr><tr><td rowspan="1" colspan="1">ESS</td><td rowspan="1" colspan="1">7 ± 5</td><td rowspan="1" colspan="1">7 ± 5</td><td rowspan="1" colspan="1">8 ± 5</td><td rowspan="1" colspan="1">0.38</td></tr><tr><td rowspan="1" colspan="1">AHI (events/hr)</td><td rowspan="1" colspan="1">11 (0–115.5)</td><td rowspan="1" colspan="1">13.2 (0.2–115.5)</td><td rowspan="1" colspan="1">9.0 (0–107)</td><td rowspan="1" colspan="1">0.29</td></tr><tr><td rowspan="1" colspan="1">TRT (minutes)</td><td rowspan="1" colspan="1">419 ± 44</td><td rowspan="1" colspan="1">420 ± 46</td><td rowspan="1" colspan="1">408 ± 42</td><td rowspan="1" colspan="1">&lt;0.001</td></tr><tr><td rowspan="1" colspan="1">TST (minutes)</td><td rowspan="1" colspan="1">304 ± 73</td><td rowspan="1" colspan="1">340 ± 76</td><td rowspan="1" colspan="1">344 ± 70</td><td rowspan="1" colspan="1">0.76</td></tr><tr><td rowspan="1" colspan="1">Total # events</td><td rowspan="1" colspan="1">54 (0–668)</td><td rowspan="1" colspan="1">65 (1–565)</td><td rowspan="1" colspan="1">47 (0–668)</td><td rowspan="1" colspan="1">0.07</td></tr><tr><td rowspan="1" colspan="1">Total # events</td><td rowspan="1" colspan="1">54 (0–668)</td><td rowspan="1" colspan="1">65 (1–565)</td><td rowspan="1" colspan="1">47 (0–668)</td><td rowspan="1" colspan="1">0.07</td></tr></tbody></table><table-wrap-foot><fn id="tfn0001"><p><bold>Notes</bold>: Data are presented as mean ± standard deviation or median (minimum value – maximum value). The reported p-values refer to comparisons between the training and test sets.</p></fn><fn id="tfn0002"><p><bold>Abbreviations</bold>: AHI, apnea-hypopnea index; TRT, total recording time; TST, total sleep time.</p></fn></table-wrap-foot></table-wrap>
+</p>
+      </sec>
+      <sec id="s0003-s2002">
+        <title>Respiratory Motion and Airflow Estimation from the Test Set</title>
+        <p><xref rid="f0002" ref-type="fig">Figure 2</xref> illustrates a segment of data recorded from a subject in the test set with severe sleep apnea (AHI = 60), and the related estimated respiratory motion and airflow signals during intermittent apneas. <xref rid="f0003" ref-type="fig">Figure 3</xref> demonstrates the MSE and repeated measure correlation value calculated for the estimated respiratory motion (<xref rid="f0003" ref-type="fig">Figure 3A and B</xref>) and airflow (<xref rid="f0003" ref-type="fig">Figure 3C and B</xref>). The MSE of normal breathing was significantly lower during sleep than during wakefulness. Moreover, the MSE was significantly lower during respiratory events compared to normal breathing during sleep (adjusted-p &lt; 0.001 for all comparisons). A marginally significant reduction in the MSE was found in segments related to apneas compared to hypopneas in the estimated motion signal (1.66 ± 1.46% vs 2.12 ± 0.87%, p = 0.05). For the estimated airflow, the MSE was significantly lower in apneas than hypopneas (0.9 ± 0.81% vs 1.44 ± 0.70%, p &lt; 0.001). Including all conditions, the algorithms estimated airflow and motion with an MSE of 2.82 ± 0.71% and 3.58 ± 0.82%, respectively, in the test set. Significant repeated measure correlation values were obtained for motion and airflow during apnea (motion: r = 0.68, airflow: r = 0.65), hypopnea (motion: r = 0.79, airflow: r = 0.73) and normal breathing during sleep (motion: r = 0.87, airflow: r = 0.83) and wakefulness (motion: r = 0.55, airflow: r = 0.53).<fig position="float" id="f0002" fig-type="figure"><label>Figure 2</label><caption><p>Representative traces of the predictors extracted from the tracheal signals and the estimated motion and airflow in comparison to the reference signals extracted from the PSG during segments with intermittent (<bold>A</bold>) obstructive and (<bold>B</bold>) central apneas. The shaded regions highlight the occurrence of apneas. In the estimated airflow panel, the thin black and thick grey lines demonstrate the estimated airflow with and without modulation by the sound envelope, respectively.</p></caption><graphic xlink:href="NSS-14-1213-g0002" content-type="print-only" position="float"/></fig><fig position="float" id="f0003" fig-type="figure"><label>Figure 3</label><caption><p>The average value of mean squared error (MSE,%) and the repeated measure correlation with related confidence interval calculated for the subjects in the test set to compare the estimated motion (<bold>A</bold> and <bold>B</bold>) and airflow (<bold>C</bold> and <bold>D</bold>) signals to the related reference signals during apneas, hypopneas and normal breathing during sleep and wakefulness. *p ≤ 0.001.</p></caption><graphic xlink:href="NSS-14-1213-g0003" content-type="print-only" position="float"/><attrib><bold>Abbreviation</bold>: NS, not significant.</attrib></fig></p>
+        <p>As marginally significant differences in BMI and sex were detected between training and test sets, the MSE is reported in <xref rid="f0004" ref-type="fig">Figure 4</xref> for subjects divided according to BMI and sex groups. No significant differences in MSE were observed between overweight (BMI ≥25) and non-overweight subjects (BMI &lt;25) and between males and females in the estimated motion and airflow.<fig position="float" id="f0004" fig-type="figure"><label>Figure 4</label><caption><p>The average value of mean squared error (MSE,%) between estimated and reference motion (<bold>A</bold> and <bold>C</bold>) and airflow (<bold>B</bold> and <bold>D</bold>) signals calculated for subjects in the test set for different sex and body mass index (BMI) (Overweight: BMI ≥25, Non-overweight: BMI &lt;25) categories, respectively.</p></caption><graphic xlink:href="NSS-14-1213-g0004" content-type="print-only" position="float"/><attrib><bold>Abbreviation</bold>: NS, not significant.</attrib></fig></p>
+        <p><xref rid="t0002" ref-type="table">Table 2</xref> presents the percentage of correctly detected PSG scored total apneas and hypopneas by the estimated patch motion and airflow signals. Finally, <xref rid="f0005" ref-type="fig">Figure 5</xref> compares the average normalized changes in levels of the estimated motion (<xref rid="f0005" ref-type="fig">Figure 5A</xref>) and airflow (<xref rid="f0005" ref-type="fig">Figure 5B</xref>) during normal breathing right before the onset of hypopneas, and apneas. There were significant reductions in the level from normal breathing to hypopnea (p &lt; 0.001) and apnea (p &lt; 0.001) in the estimated motion and airflow signals. The levels during hypopneas and apneas were significantly different in the estimated motion (0.51 ± 0.12 vs 0.37 ± 0.19, p &lt; 0.001), and in the estimated airflow (0.26 ± 0.13 vs 0.13 ± 0.13, p &lt; 0.001). <xref rid="f0005" ref-type="fig">Figure 5C</xref> demonstrates significantly lower levels of estimated motion for central compared to obstructive events.<table-wrap position="float" id="t0002"><label>Table 2</label><caption><p>The Absolute Number of Events (Apneas and Hypopneas) Scored on PSG According to AASM-Recommended Reductions in Airflow, and the Number of Events Identified by the Patch from Estimated Motion and Airflow</p></caption><table frame="hsides" rules="groups"><thead><tr><th rowspan="1" colspan="1">Subject Groups (N=Number of Subjects)</th><th rowspan="1" colspan="1">Total Number of Events Based on PSG</th><th rowspan="1" colspan="1">Absolute Number of Events in the Estimated Motion (% of Total PSG-Based Events)</th><th rowspan="1" colspan="1">Absolute Number of Events in the Estimated Airflow (% of Total PSG-Based Events)</th></tr></thead><tbody><tr><td rowspan="1" colspan="1">All subjects</td><td rowspan="1" colspan="1">8979</td><td rowspan="1" colspan="1">5734 (63.9)</td><td rowspan="1" colspan="1">7925 (88.3)</td></tr><tr><td rowspan="1" colspan="1">Healthy (AHI&lt;5, N=37)</td><td rowspan="1" colspan="1">397</td><td rowspan="1" colspan="1">253 (63.7)</td><td rowspan="1" colspan="1">359 (90.4)</td></tr><tr><td rowspan="1" colspan="1">Mild (5≤AHI≤15, N=32)</td><td rowspan="1" colspan="1">1442</td><td rowspan="1" colspan="1">799 (55.4)</td><td rowspan="1" colspan="1">1230 (85.3)</td></tr><tr><td rowspan="1" colspan="1">Moderate (15≤AHI≤30, N=23)</td><td rowspan="1" colspan="1">2522</td><td rowspan="1" colspan="1">1457 (57.8)</td><td rowspan="1" colspan="1">2190 (86.8)</td></tr><tr><td rowspan="1" colspan="1">Severe (AHI≤30, N=13)</td><td rowspan="1" colspan="1">4618</td><td rowspan="1" colspan="1">3225 (69.8)</td><td rowspan="1" colspan="1">4146 (89.8)</td></tr></tbody></table><table-wrap-foot><fn id="tfn0003"><p><bold>Note</bold>: N = the number of subjects in each subgroup.</p></fn><fn id="tfn0004"><p><bold>Abbreviations</bold>: AHI, apnea-hypopnea index; PSG, polysomnography.</p></fn></table-wrap-foot></table-wrap>
+<fig position="float" id="f0005" fig-type="figure"><label>Figure 5</label><caption><p>The average level of the estimated motion (<bold>A</bold>) and airflow (<bold>B</bold>) at baseline right before the onset of the events, and during hypopneas and apneas normalized as a percentage of the average value during a 5-minute period of normal breathing during wakefulness in the supine position prior to lights out. (<bold>C</bold>) For both apneas and hypopneas, there is a greater reduction in the average normalized level of estimated motion for central than for obstructive events. *Significant with p-value ≤0.001.</p></caption><graphic xlink:href="NSS-14-1213-g0005" content-type="print-only" position="float"/></fig></p>
+      </sec>
+    </sec>
+    <sec id="s0004">
+      <title>Discussion</title>
+      <p>In this study, we tested two algorithms to estimate respiratory airflow from recordings of tracheo-sternal motion and tracheal breath sounds during simultaneous PSG. The major findings are that: 1) models developed from these signals provided accurate estimates of changes in respiratory motion and airflow compared to simultaneous PSG signals with an average MSE of &lt;5% for the test set, 2) the models of motion and airflow reliably detected reductions in airflow during apneas and hypopneas compared to PSG in the test set, and 3) estimated motion and airflow from tracheo-sternal signals from the test set detected events in 63.9% and 88.3% of the airflow-based respiratory events from PSGs, respectively.</p>
+      <p>Unlike previous studies that estimated airflow from tracheal sound, we used a composite of tracheo-sternal motion and sound for this purpose. Airflow estimation using sound energy is challenging; first due to the difference between the polarity of airflow amplitude and sound energy in the respiratory phases. The amplitude of airflow is negative and positive during inspiration and expiration, respectively, while sound energy always has a positive amplitude. Therefore, the first step to estimate airflow using tracheal sound is to identify respiratory phases.<xref rid="cit0028" ref-type="bibr">28</xref> Hence, in segments with misidentified respiratory phases the accuracy of airflow estimation is compromised. Second, sound is affected by the presence of snoring, which is associated with an abrupt elevation in the level and change in the shape of the sound energy. Even when snoring is filtered out, the remaining shape of sound energy can be distorted, and only the rate of airflow rather than its shape can be estimated from overnight PSG data.<xref rid="cit0012" ref-type="bibr">12</xref> Additionally, there are other challenges related to the variability of the airflow-sound relationship for each individual<xref rid="cit0012" ref-type="bibr">12</xref>,<xref rid="cit0017" ref-type="bibr">17</xref> and the effects of background noise,<xref rid="cit0029" ref-type="bibr">29</xref> head and body position,<xref rid="cit0030" ref-type="bibr">30</xref> sleep stages,<xref rid="cit0017" ref-type="bibr">17</xref> and airflow rate.<xref rid="cit0010" ref-type="bibr">10</xref> Therefore, previous work was limited to estimating airflow shape either during wakefulness or brief segments of sleep.<xref rid="cit0010" ref-type="bibr">10</xref>,<xref rid="cit0011" ref-type="bibr">11</xref>,<xref rid="cit0013" ref-type="bibr">13</xref>,<xref rid="cit0015" ref-type="bibr">15–17</xref></p>
+      <p>In contrast, the patch accelerometer detected craniocaudal motion of the trachea and anterior-posterior respiratory motion of the sternum that are less affected by snoring and, similar to airflow signals, their polarity changes in accordance with respiratory phases. Consequently, we found that tracheo-sternal motion measured by the patch provided a better estimate of airflow than tracheal sounds alone. Nevertheless, we found that the accuracy of airflow estimates improved when the amplitude of the estimated airflow from tracheo-sternal motion was adjusted by the envelope of the tracheal sounds in segments with unstable breathing. Such improvement in the accuracy was presumably related to the well-established relationship between airflow and sound energy.<xref rid="cit0017" ref-type="bibr">17</xref> Furthermore, to remove the effect of sleep stages and body posture, we used PELT, which can detect the changes in the signal dynamic with time instant resolution. By employing the PELT technique and modulating the estimated airflow by the sound envelope, the amplitude of the estimated airflow was shown to be significantly lower during respiratory events (<xref rid="f0005" ref-type="fig">Figure 5</xref>).</p>
+      <p>In another study, a different approach was used in which a linear regression model was trained using tracheal motion and sound energy to estimate the range of the sum of thoracoabdominal motion.<xref rid="cit0012" ref-type="bibr">12</xref> The estimated range of movements was an index with values between 0 (for apnea) to 1 (for normal breathing). In contrast, in this study, the motion estimation model was trained using the sum of movements to capture the rising and falling patterns related to inspirations and expirations. This approach effectively increased the agreement between the estimated and reference motion quantified by repeated measure correlation compared to the previous study,<xref rid="cit0012" ref-type="bibr">12</xref> especially during hypopneas and normal breathing during sleep and wakefulness. The estimated motion demonstrated significant reductions in amplitude during respiratory events (<xref rid="f0005" ref-type="fig">Figure 5A</xref>).</p>
+      <p>Estimated motion was less sensitive at detecting respiratory events compared to the estimated airflow. This is presumably because most of the events were obstructive during which thoracoabdominal and tracheal movements continue during obstructed efforts. In some instances, this would have been misclassified as normal breathing. However, since tracheal breath sounds will diminish during obstructive events, it adds sensitivity to tracheal motion for detecting obstructive events. During central events, especially apneas, there is no or very little thoracoabdominal or tracheal motion. As a consequence, there is a greater reduction in tracheal motion during central than obstructive events as demonstrated in <xref rid="f0005" ref-type="fig">Figure 5C</xref>. Therefore, whereas estimated airflow can be used to detect respiratory events of all types, it might be possible to use estimated motion to differentiate central from obstructive events.</p>
+      <p><xref rid="f0002" ref-type="fig">Figure 2</xref> compares the estimated airflow and motion with nasal pressure and the sum of thoracoabdominal movements as reference signals from PSG. One interesting observation was that tracheo-sternal signals could sense and estimate airflow even at lower airflow rates where nasal pressure was not sensitive. This observation was previously reported<xref rid="cit0012" ref-type="bibr">12</xref> and is verified by the present findings.</p>
+      <p>Despite the random selection of subjects for training and test sets, there were marginal differences in sex and BMI. However, they had no impact on development of the models since similar adjusted MSE values were obtained for sex and BMI subgroups. For example, overall, the algorithms provided highly accurate estimates of airflow and motion in the test set with MSEs of 2.82 ± 0.71% and 3.58 ± 0.82%, respectively.</p>
+      <p>This study has some limitations. First, snoring can interfere with the analysis of airflow assessed by tracheal sound. Because we did not identify and quantify snoring, we did not specifically filter it out. However, we used several strategies to mitigate any potential adverse effect of snoring on our model of airflow estimation. These included use of tracheo-sternal movements as our main signal, which are less sensitive to snoring than tracheal sounds, filtering of the tracheal sounds in a range that would at least partially filter out snoring, and applying tracheal sound modulation to tracheo-sternal motion only during unstable breathing. Second, we were not able to clearly distinguish central from obstructive respiratory events from estimated motion and airflow signals. However, the observation that tracheo-sternal motion was lower during central than obstructive events suggests that algorithms can be developed to distinguish central from obstructive respiratory events in our future work. Third, since our study was designed primarily to assess accuracy of tracheo-sternal motion and sound in estimating respiratory airflow, we did not use oximetry in this study. Addition of oximetry to the patch signals will likely improve respiratory event detection, which will be addressed in future studies.</p>
+    </sec>
+    <sec id="s0005">
+      <title>Conclusion</title>
+      <p>To our knowledge, this is the first study to estimate respiratory motion and airflow from tracheo-sternal motion and sound recordings during complete overnight PSG. We demonstrated that use of such signals provides highly accurate and robust estimates of changes in airflow during wakefulness and sleep for both normal breathing, and for unstable breathing with apneas and hypopneas. Furthermore, our findings support the potential for tracheo-sternal motion and sound recordings to automatically detect respiratory events during sleep and classify them as obstructive or central. If so, the patch device could provide a novel, accurate, simple and easy-to-use means of portable sleep apnea testing. Finally, the patch provides excellent visual representation of respiratory motion and airflow. Therefore, technicians and physicians could inspect these signals to increase the accuracy of event detection and assessment of sleep apnea severity beyond automatic scoring.</p>
+    </sec>
+  </body>
+  <back>
+    <sec id="s0006">
+      <title>Abbreviations</title>
+      <p>SA, sleep apnea; UA, upper airway; OSA, obstructive sleep apnea; CSA, central sleep apnea; AHI, apnea/hypopnea index; PSG, polysomnography; BMI, body mass index; UHN, University Health Network; RIP, respiratory inductance plethysmography; SaO<sub>2</sub>, arterial oxyhemoglobin saturation; AASM, American Academy of Sleep Medicine; PELT, pruned exact linear time; MSE, mean square error; ANOVA, analysis of variance.</p>
+    </sec>
+    <sec sec-type="COI-statement" id="s0007">
+      <title>Disclosure</title>
+      <p>Dr. Nasim Montazeri Ghahjaverestan reports personal fees from Bresotec Inc., during the conduct of the study. Dr. Cristiano Aguiar reports a Provisional patent pending to Bresotec Inc. Mr Jackson Yu reports a Provisional patent pending to Bresotec Inc. Dr. T. Douglas Bradley reports personal fees from Bresotec Inc., during the conduct of the study.</p>
+    </sec>
+    <ref-list>
+      <title>References</title>
+      <ref id="cit0001">
+        <label>1.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Young</surname>
+<given-names>T</given-names></string-name>, <string-name><surname>Peppard</surname>
+<given-names>PE</given-names></string-name>, <string-name><surname>Gottlieb</surname>
+<given-names>DJ</given-names></string-name>. <article-title>Epidemiology of obstructive sleep apnea: a population health perspective</article-title>. <source><italic toggle="yes">Am J Respir Crit Care Med</italic></source>. <year>2002</year>;<volume>165</volume>(<issue>9</issue>):<fpage>1217</fpage>–<lpage>1239</lpage>. doi:<pub-id pub-id-type="doi">10.1164/rccm.2109080</pub-id><pub-id pub-id-type="pmid">11991871</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0002">
+        <label>2.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Kasai</surname>
+<given-names>T</given-names></string-name>, <string-name><surname>Bradley</surname>
+<given-names>TD</given-names></string-name>. <article-title>Obstructive sleep apnea and heart failure: pathophysiologic and therapeutic implications</article-title>. <source><italic toggle="yes">J Am Coll Cardiol</italic></source>. <year>2011</year>;<volume>57</volume>(<issue>2</issue>):<fpage>119</fpage>–<lpage>127</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.jacc.2010.08.627</pub-id><pub-id pub-id-type="pmid">21211682</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0003">
+        <label>3.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Muxfeldt</surname>
+<given-names>ES</given-names></string-name>, <string-name><surname>Margallo</surname>
+<given-names>VS</given-names></string-name>, <string-name><surname>Guimarães</surname>
+<given-names>GM</given-names></string-name>, <string-name><surname>Salles</surname>
+<given-names>GF</given-names></string-name>. <article-title>Prevalence and associated factors of obstructive sleep apnea in patients with resistant hypertension</article-title>. <source><italic toggle="yes">Am J Hypertens</italic></source>. <year>2014</year>;<volume>27</volume>(<issue>8</issue>):<fpage>1069</fpage>–<lpage>1078</lpage>. doi:<pub-id pub-id-type="doi">10.1093/ajh/hpu023</pub-id><pub-id pub-id-type="pmid">24705438</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0004">
+        <label>4.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Martínez-García</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Capote</surname>
+<given-names>F</given-names></string-name>, <string-name><surname>Campos-Rodríguez</surname>
+<given-names>F</given-names></string-name>, et al. <article-title>Effect of CPAP on blood pressure in patients with obstructive sleep apnea and resistant hypertension: the HIPARCO randomized clinical trial</article-title>. <source><italic toggle="yes">JAMA</italic></source>. <year>2013</year>;<volume>310</volume>(<issue>22</issue>):<fpage>2407</fpage>–<lpage>2415</lpage>. doi:<pub-id pub-id-type="doi">10.1001/jama.2013.281250</pub-id><pub-id pub-id-type="pmid">24327037</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0005">
+        <label>5.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Seiler</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Camilo</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Korostovtseva</surname>
+<given-names>L</given-names></string-name>, et al. <article-title>Prevalence of sleep-disordered breathing after stroke and TIA: a meta-analysis</article-title>. <source><italic toggle="yes">Neurology</italic></source>. <year>2019</year>;<volume>92</volume>(<issue>7</issue>):<fpage>e648</fpage>–<lpage>e654</lpage>. doi:<pub-id pub-id-type="doi">10.1212/WNL.0000000000006904</pub-id><pub-id pub-id-type="pmid">30635478</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0006">
+        <label>6.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Pack</surname>
+<given-names>AI</given-names></string-name>. <article-title>Sleep-disordered breathing: access is the issue</article-title>. <source><italic toggle="yes">Am J Respir Crit Care Med</italic></source>. <year>2004</year>;<volume>169</volume>(<issue>6</issue>):<fpage>666</fpage>–<lpage>667</lpage>. doi:<pub-id pub-id-type="doi">10.1164/rccm.2401008</pub-id><pub-id pub-id-type="pmid">15003949</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0007">
+        <label>7.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Kapur</surname>
+<given-names>V</given-names></string-name>, <string-name><surname>Strohl</surname>
+<given-names>KP</given-names></string-name>, <string-name><surname>Redline</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Iber</surname>
+<given-names>C</given-names></string-name>, <string-name><surname>O’connor</surname>
+<given-names>G</given-names></string-name>, <string-name><surname>Nieto</surname>
+<given-names>J</given-names></string-name>. <article-title>Underdiagnosis of sleep apnea syndrome in US communities</article-title>. <source><italic toggle="yes">Sleep Breath</italic></source>. <year>2002</year>;<volume>6</volume>(<issue>02</issue>):<fpage>49</fpage>. doi:<pub-id pub-id-type="doi">10.1055/s-2002-32318</pub-id><pub-id pub-id-type="pmid">12075479</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0008">
+        <label>8.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Malhotra</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Ayappa</surname>
+<given-names>I</given-names></string-name>, <string-name><surname>Ayas</surname>
+<given-names>N</given-names></string-name>, et al. <article-title>Metrics of sleep apnea severity: beyond the apnea-hypopnea index</article-title>. <source><italic toggle="yes">Sleep</italic></source>. <year>2021</year>;<volume>44</volume>(<issue>7</issue>):<fpage>zsab030</fpage>. doi:<pub-id pub-id-type="doi">10.1093/sleep/zsab030</pub-id><pub-id pub-id-type="pmid">33693939</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0009">
+        <label>9.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Dolfin</surname>
+<given-names>T</given-names></string-name>, <string-name><surname>Duffty</surname>
+<given-names>P</given-names></string-name>, <string-name><surname>Wilkes</surname>
+<given-names>D</given-names></string-name>, <string-name><surname>England</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Bryan</surname>
+<given-names>H</given-names></string-name>. <article-title>Effects of a face mask and pneumotachograph on breathing in sleeping infants</article-title>. <source><italic toggle="yes">Am Rev Respir Dis</italic></source>. <year>1983</year>;<volume>128</volume>(<issue>6</issue>):<fpage>977</fpage>–<lpage>979</lpage>. doi:<pub-id pub-id-type="doi">10.1164/arrd.1983.128.6.977</pub-id><pub-id pub-id-type="pmid">6650989</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0010">
+        <label>10.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Yadollahi</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Moussavi</surname>
+<given-names>ZM</given-names></string-name>. <article-title>A robust method for estimating respiratory flow using tracheal sounds entropy</article-title>. <source><italic toggle="yes">IEEE Trans Biomed Eng</italic></source>. <year>2006</year>;<volume>53</volume>(<issue>4</issue>):<fpage>662</fpage>–<lpage>668</lpage>. doi:<pub-id pub-id-type="doi">10.1109/TBME.2006.870231</pub-id><pub-id pub-id-type="pmid">16602572</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0011">
+        <label>11.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Sierra</surname>
+<given-names>G</given-names></string-name>, <string-name><surname>Telfort</surname>
+<given-names>V</given-names></string-name>, <string-name><surname>Popov</surname>
+<given-names>B</given-names></string-name>, <string-name><surname>Durand</surname>
+<given-names>LG</given-names></string-name>, <string-name><surname>Agarwal</surname>
+<given-names>R</given-names></string-name>, <string-name><surname>Lanzo</surname>
+<given-names>V</given-names></string-name>. <article-title>Monitoring respiratory rate based on tracheal sounds</article-title>. <source><italic toggle="yes">First Experiences</italic></source>. <year>2004</year>;<volume>1</volume>:<fpage>317</fpage>–<lpage>320</lpage>.</mixed-citation>
+      </ref>
+      <ref id="cit0012">
+        <label>12.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Montazeri Ghahjaverestan</surname>
+<given-names>N</given-names></string-name>, <string-name><surname>Kabir</surname>
+<given-names>MM</given-names></string-name>, <string-name><surname>Saha</surname>
+<given-names>S</given-names></string-name>, et al. <article-title>Relative tidal volume and respiratory airflow estimation using tracheal sound and movement during sleep</article-title>. <source><italic toggle="yes">J Sleep Res</italic></source>. <year>2021</year>;<volume>30</volume>(<issue>4</issue>):<fpage>e13279</fpage>. doi:<pub-id pub-id-type="doi">10.1111/jsr.13279</pub-id><pub-id pub-id-type="pmid">33538057</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0013">
+        <label>13.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Chen</surname>
+<given-names>G</given-names></string-name>, <string-name><surname>de la Cruz</surname>
+<given-names>I</given-names></string-name>, <string-name><surname>Rodriguez-Villegas</surname>
+<given-names>E</given-names></string-name>. <article-title>Automatic lung tidal volumes estimation from tracheal sounds</article-title>. <source><italic toggle="yes">Conf Proc IEEE Eng Med Biol Soc</italic></source>. <year>2014</year>:<fpage>1497</fpage>–<lpage>1500</lpage>. doi:<pub-id pub-id-type="doi">10.1109/EMBC.2014.6943885</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0014">
+        <label>14.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Yap</surname>
+<given-names>YL</given-names></string-name>, <string-name><surname>Moussavi</surname>
+<given-names>Z</given-names></string-name>. <article-title>Acoustic airflow estimation from tracheal sound power</article-title>. <source><italic toggle="yes">Can Conf Electr Comput Eng</italic></source>. <year>2002</year>;<volume>2</volume>:<fpage>1073</fpage>–<lpage>1076</lpage>.</mixed-citation>
+      </ref>
+      <ref id="cit0015">
+        <label>15.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Reljin</surname>
+<given-names>N</given-names></string-name>, <string-name><surname>Reyes</surname>
+<given-names>BA</given-names></string-name>, <string-name><surname>Chon</surname>
+<given-names>KH</given-names></string-name>. <article-title>Tidal volume estimation using the blanket fractal dimension of the tracheal sounds acquired by smartphone</article-title>. <source><italic toggle="yes">Sensors</italic></source>. <year>2015</year>;<volume>15</volume>(<issue>5</issue>):<fpage>9773</fpage>–<lpage>9790</lpage>. doi:<pub-id pub-id-type="doi">10.3390/s150509773</pub-id><pub-id pub-id-type="pmid">25923929</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0016">
+        <label>16.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Ciftci</surname>
+<given-names>K</given-names></string-name>, <string-name><surname>Kahya</surname>
+<given-names>YP</given-names></string-name>. <article-title>Respiratory airflow estimation by time varying autoregressive modeling</article-title>. <source><italic toggle="yes">Ann Conf IEEE Eng Med Biol Soc</italic></source>. <year>2008</year>;<volume>2008</volume>:<fpage>347</fpage>–<lpage>350</lpage>. doi:<pub-id pub-id-type="doi">10.1109/IEMBS.2008.4649161</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0017">
+        <label>17.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Yadollahi</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Montazeri</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Azarbarzin</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Moussavi</surname>
+<given-names>Z</given-names></string-name>. <article-title>Respiratory flow–sound relationship during both wakefulness and sleep and its variation in relation to sleep apnea</article-title>. <source><italic toggle="yes">Ann Biomed Eng</italic></source>. <year>2013</year>;<volume>41</volume>(<issue>3</issue>):<fpage>537</fpage>–<lpage>546</lpage>. doi:<pub-id pub-id-type="doi">10.1007/s10439-012-0692-3</pub-id><pub-id pub-id-type="pmid">23149903</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0018">
+        <label>18.</label>
+        <mixed-citation publication-type="book"><string-name><surname>Berry</surname>
+<given-names>RB</given-names></string-name>, <string-name><surname>Quan</surname>
+<given-names>SF</given-names></string-name>, <string-name><surname>Abreu</surname>
+<given-names>AR</given-names></string-name>, et al. <source><italic toggle="yes">The AASM Manual for the Scoring of Sleep and Associated Events: Rules, Terminology and Technical Specifications</italic></source>. <publisher-name>American Academy of Sleep Medicine</publisher-name>; <year>2020</year>.</mixed-citation>
+      </ref>
+      <ref id="cit0019">
+        <label>19.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Fang</surname>
+<given-names>Y</given-names></string-name>, <string-name><surname>Jiang</surname>
+<given-names>Z</given-names></string-name>, <string-name><surname>Wang</surname>
+<given-names>H</given-names></string-name>. <article-title>A novel sleep respiratory rate detection method for obstructive sleep apnea based on characteristic moment waveform</article-title>. <source><italic toggle="yes">J Healthc Eng</italic></source>. <year>2018</year>;<volume>2018</volume>:<fpage>1</fpage>–<lpage>10</lpage>. doi:<pub-id pub-id-type="doi">10.1155/2018/1902176</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0020">
+        <label>20.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Killick</surname>
+<given-names>R</given-names></string-name>, <string-name><surname>Fearnhead</surname>
+<given-names>P</given-names></string-name>, <string-name><surname>Eckley</surname>
+<given-names>IA</given-names></string-name>. <article-title>Optimal detection of changepoints with a linear computational cost</article-title>. <source><italic toggle="yes">J Am Stat Assoc</italic></source>. <year>2012</year>;<volume>107</volume>(<issue>500</issue>):<fpage>1590</fpage>–<lpage>1598</lpage>. doi:<pub-id pub-id-type="doi">10.1080/01621459.2012.737745</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0021">
+        <label>21.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Reichert</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Gass</surname>
+<given-names>R</given-names></string-name>, <string-name><surname>Brandt</surname>
+<given-names>C</given-names></string-name>, <string-name><surname>Andrès</surname>
+<given-names>E</given-names></string-name>. <article-title>Analysis of respiratory sounds: state of the art</article-title>. <source><italic toggle="yes">Clin Med Circ Respir Pulm Med</italic></source>. <year>2008</year>;<volume>2</volume>:<fpage>S530</fpage>. doi:<pub-id pub-id-type="doi">10.4137/CCRPM.S530</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0022">
+        <label>22.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Lee</surname>
+<given-names>G</given-names></string-name>, <string-name><surname>Lee</surname>
+<given-names>L</given-names></string-name>, <string-name><surname>Wang</surname>
+<given-names>C</given-names></string-name>, et al. <article-title>The frequency and energy of snoring sounds are associated with common carotid artery intima-media thickness in obstructive sleep apnea patients</article-title>. <source><italic toggle="yes">Sci Rep</italic></source>. <year>2016</year>;<volume>6</volume>(<issue>1</issue>):<fpage>1</fpage>–<lpage>11</lpage>. doi:<pub-id pub-id-type="doi">10.1038/s41598-016-0001-8</pub-id><pub-id pub-id-type="pmid">28442746</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0023">
+        <label>23.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>McDonald</surname>
+<given-names>GC</given-names></string-name>. <article-title>Ridge regression</article-title>. <source><italic toggle="yes">Wiley Interdiscip Rev Comput Stat</italic></source>. <year>2009</year>;<volume>1</volume>(<issue>1</issue>):<fpage>93</fpage>–<lpage>100</lpage>. doi:<pub-id pub-id-type="doi">10.1002/wics.14</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0024">
+        <label>24.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Hoerl</surname>
+<given-names>AE</given-names></string-name>, <string-name><surname>Kennard</surname>
+<given-names>RW</given-names></string-name>. <article-title>Ridge regression: applications to nonorthogonal problems</article-title>. <source><italic toggle="yes">Technometrics</italic></source>. <year>1970</year>;<volume>12</volume>(<issue>1</issue>):<fpage>69</fpage>–<lpage>82</lpage>. doi:<pub-id pub-id-type="doi">10.1080/00401706.1970.10488635</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0025">
+        <label>25.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Freedman</surname>
+<given-names>DA</given-names></string-name>. <article-title>Bootstrapping regression models</article-title>. <source><italic toggle="yes">Ann Stat</italic></source>. <year>1981</year>;<volume>9</volume>(<issue>6</issue>):<fpage>1218</fpage>–<lpage>1228</lpage>. doi:<pub-id pub-id-type="doi">10.1214/aos/1176345638</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0026">
+        <label>26.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Shan</surname>
+<given-names>G</given-names></string-name>, <string-name><surname>Zhang</surname>
+<given-names>H</given-names></string-name>, <string-name><surname>Jiang</surname>
+<given-names>T</given-names></string-name>. <article-title>Correlation coefficients for a study with repeated measures</article-title>. <source><italic toggle="yes">Comput Math Methods Med</italic></source>. <year>2020</year>;<volume>2020</volume>:<fpage>1</fpage>–<lpage>11</lpage>. doi:<pub-id pub-id-type="doi">10.1155/2020/7398324</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0027">
+        <label>27.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Bakdash</surname>
+<given-names>JZ</given-names></string-name>, <string-name><surname>Marusich</surname>
+<given-names>LR</given-names></string-name>. <article-title>Repeated measures correlation</article-title>. <source><italic toggle="yes">Front Psychol</italic></source>. <year>2017</year>;<volume>8</volume>:<fpage>456</fpage>. doi:<pub-id pub-id-type="doi">10.3389/fpsyg.2017.00456</pub-id><pub-id pub-id-type="pmid">28439244</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0028">
+        <label>28.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Montazeri Ghahjaverestan</surname>
+<given-names>N</given-names></string-name>, <string-name><surname>Kabir</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Saha</surname>
+<given-names>S</given-names></string-name>, et al. <article-title>Automatic respiratory phase identification using tracheal sounds and movements during sleep</article-title>. <source><italic toggle="yes">Ann Biomed Eng</italic></source>. <year>2021</year>;<volume>49</volume>(<issue>6</issue>):<fpage>1521</fpage>–<lpage>1533</lpage>. doi:<pub-id pub-id-type="doi">10.1007/s10439-020-02651-5</pub-id><pub-id pub-id-type="pmid">33403452</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0029">
+        <label>29.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Yadollahi</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Moussavi</surname>
+<given-names>ZM</given-names></string-name>. <article-title>The effect of anthropometric variations on acoustical flow estimation: proposing a novel approach for flow estimation without the need for individual calibration</article-title>. <source><italic toggle="yes">IEEE Trans Biomed Eng</italic></source>. <year>2011</year>;<volume>58</volume>(<issue>6</issue>):<fpage>1663</fpage>–<lpage>1670</lpage>. doi:<pub-id pub-id-type="doi">10.1109/TBME.2011.2109717</pub-id><pub-id pub-id-type="pmid">21292587</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0030">
+        <label>30.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Pasterkamp</surname>
+<given-names>H</given-names></string-name>, <string-name><surname>Schäfer</surname>
+<given-names>J</given-names></string-name>, <string-name><surname>Wodicka</surname>
+<given-names>GR</given-names></string-name>. <article-title>Posture-dependent change of tracheal sounds at standardized flows in patients with obstructive sleep apnea</article-title>. <source><italic toggle="yes">Chest</italic></source>. <year>1996</year>;<volume>110</volume>(<issue>6</issue>):<fpage>1493</fpage>–<lpage>1498</lpage>. doi:<pub-id pub-id-type="doi">10.1378/chest.110.6.1493</pub-id><pub-id pub-id-type="pmid">8989067</pub-id></mixed-citation>
+      </ref>
+    </ref-list>
+  </back>
+</article>
+</pmc-articleset>

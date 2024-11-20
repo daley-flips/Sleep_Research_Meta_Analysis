@@ -1,0 +1,1556 @@
+<pmc-articleset><article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="research-article">
+  <?properties open_access?>
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="nlm-ta">Nat Sci Sleep</journal-id>
+      <journal-id journal-id-type="iso-abbrev">Nat Sci Sleep</journal-id>
+      <journal-id journal-id-type="publisher-id">Nature and Science of Sleep</journal-id>
+      <journal-title-group>
+        <journal-title>Nature and Science of Sleep</journal-title>
+      </journal-title-group>
+      <issn pub-type="epub">1179-1608</issn>
+      <publisher>
+        <publisher-name>Dove Medical Press</publisher-name>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="pmid">30538592</article-id>
+      <article-id pub-id-type="pmc">6263294</article-id>
+      <article-id pub-id-type="doi">10.2147/NSS.S179588</article-id>
+      <article-id pub-id-type="publisher-id">nss-10-397</article-id>
+      <article-categories>
+        <subj-group subj-group-type="heading">
+          <subject>Original Research</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>A novel adhesive biosensor system for detecting respiration, cardiac, and limb movement signals during sleep: validation with polysomnography</article-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Jortberg</surname>
+            <given-names>Elise</given-names>
+          </name>
+          <xref ref-type="aff" rid="af1-nss-10-397">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Silva</surname>
+            <given-names>Ikaro</given-names>
+          </name>
+          <xref ref-type="aff" rid="af1-nss-10-397">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Bhatkar</surname>
+            <given-names>Viprali</given-names>
+          </name>
+          <xref ref-type="aff" rid="af1-nss-10-397">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>McGinnis</surname>
+            <given-names>Ryan S</given-names>
+          </name>
+          <xref ref-type="aff" rid="af2-nss-10-397">2</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Sen-Gupta</surname>
+            <given-names>Ellora</given-names>
+          </name>
+          <xref ref-type="aff" rid="af1-nss-10-397">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Morey</surname>
+            <given-names>Briana</given-names>
+          </name>
+          <xref ref-type="aff" rid="af1-nss-10-397">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Wright</surname>
+            <given-names>John A</given-names>
+            <suffix>Jr</suffix>
+          </name>
+          <xref ref-type="aff" rid="af1-nss-10-397">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Pindado</surname>
+            <given-names>Jesus</given-names>
+          </name>
+          <xref ref-type="aff" rid="af1-nss-10-397">1</xref>
+          <xref ref-type="corresp" rid="c1-nss-10-397"/>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Bianchi</surname>
+            <given-names>Matt T</given-names>
+          </name>
+          <xref ref-type="aff" rid="af3-nss-10-397">3</xref>
+        </contrib>
+      </contrib-group>
+      <aff id="af1-nss-10-397">
+<label>1</label>MC10, Inc., Lexington, MA 02421, USA, <email>jpindado@mc10inc.com</email></aff>
+      <aff id="af2-nss-10-397">
+<label>2</label>Department of Electrical and Biomedical Engineering, University of Vermont, Burlington, VT 05405, USA</aff>
+      <aff id="af3-nss-10-397">
+<label>3</label>Neurology Department, Massachusetts General Hospital, Boston, MA 02114, USA</aff>
+      <author-notes>
+        <corresp id="c1-nss-10-397">Correspondence: Jesus Pindado, MC10, Inc., 10 Maguire Road, Lexington, MA 02421, USA, Email <email>jpindado@mc10inc.com</email></corresp>
+      </author-notes>
+      <pub-date pub-type="collection">
+        <year>2018</year>
+      </pub-date>
+      <pub-date pub-type="epub">
+        <day>26</day>
+        <month>11</month>
+        <year>2018</year>
+      </pub-date>
+      <volume>10</volume>
+      <fpage>397</fpage>
+      <lpage>408</lpage>
+      <permissions>
+        <copyright-statement>© 2018 Jortberg et al. This work is published and licensed by Dove Medical Press Limited</copyright-statement>
+        <copyright-year>2018</copyright-year>
+        <license>
+          <license-p>The full terms of this license are available at <ext-link ext-link-type="uri" xlink:href="https://www.dovepress.com/terms.php">https://www.dovepress.com/terms.php</ext-link> and incorporate the Creative Commons Attribution – Non Commercial (unported, v3.0) License (<ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by-nc/3.0/">http://creativecommons.org/licenses/by-nc/3.0/</ext-link>). By accessing the work you hereby accept the Terms. Non-commercial uses of the work are permitted without any further permission from Dove Medical Press Limited, provided the work is properly attributed.</license-p>
+        </license>
+      </permissions>
+      <abstract>
+        <sec>
+          <title>Background</title>
+          <p>Although in-lab polysomnography (PSG) remains the gold standard for objective sleep monitoring, the use of at-home sensor systems has gained popularity in recent years. Two categories of monitoring, autonomic and limb movement physiology, are increasingly recognized as critical for sleep disorder phenotyping, yet at-home options remain limited outside of research protocols. The purpose of this study was to validate the BiostampRC<sup>®</sup> sensor system for respiration, electrocardiography (ECG), and leg electromyography (EMG) against gold standard PSG recordings.</p>
+        </sec>
+        <sec>
+          <title>Methods</title>
+          <p>We report analysis of cardiac and respiratory data from 15 patients and anterior tibialis (AT) data from 19 patients undergoing clinical PSG for any indication who simultaneously wore BiostampRC<sup>®</sup> sensors on the chest and the bilateral AT muscles. BiostampRC<sup>®</sup> is a flexible, adhesive, wireless sensor capable of capturing accelerometry, ECG, and EMG. We compared BiostampRC<sup>®</sup> data and feature extractions with those obtained from PSG.</p>
+        </sec>
+        <sec>
+          <title>Results</title>
+          <p>The heart rate extracted from BiostampRC<sup>®</sup> ECG showed strong agreement with the PSG (cohort root mean square error of 5 beats per minute). We found the thoracic BiostampRC<sup>®</sup> respiratory waveform, derived from its accelerometer, accurately calculated the respiratory rate (mean average error of 0.26 and root mean square error of 1.84 breaths per minute). The AT EMG signal supported periodic limb movement detection, with area under the curve of the receiver operating characteristic curve equaling 0.88. Upon completion, 88% of subjects indicated willingness to wear BiostampRC<sup>®</sup> at home on an exit survey.</p>
+        </sec>
+        <sec>
+          <title>Conclusion</title>
+          <p>The results demonstrate that BiostampRC<sup>®</sup> is a tolerable and accurate method for capturing respiration, ECG, and AT EMG time series signals during overnight sleep when compared with simultaneous PSG recordings. The signal quality sufficiently supports analytics of clinical relevance. Larger longitudinal in-home studies are required to support the role of BiostampRC<sup>®</sup> in clinical management of sleep disorders involving the autonomic nervous system and limb movements.</p>
+        </sec>
+      </abstract>
+      <kwd-group>
+        <title>Keywords</title>
+        <kwd>electrocardiography</kwd>
+        <kwd>electromyography</kwd>
+        <kwd>respiration</kwd>
+        <kwd>wearable</kwd>
+      </kwd-group>
+    </article-meta>
+  </front>
+  <body>
+    <sec sec-type="intro">
+      <title>Introduction</title>
+      <p>The objective recording of sleep physiology is required for certain sleep disorders such as sleep apnea and periodic limb movement disorder.<xref rid="b1-nss-10-397" ref-type="bibr">1</xref> The role of objective testing for other disorders such as insomnia, traditionally diagnosed and managed solely on clinical grounds, is gaining increasing attention.<xref rid="b2-nss-10-397" ref-type="bibr">2</xref>–<xref rid="b4-nss-10-397" ref-type="bibr">4</xref> Beyond the commonly accepted clinical phenotypes, advanced analytics of autonomic function in particular has an extensive evidence basis and shows promise for informing sleep quality and cardiovascular risk.<xref rid="b5-nss-10-397" ref-type="bibr">5</xref>–<xref rid="b7-nss-10-397" ref-type="bibr">7</xref> In parallel with this improved understanding of sleep pathophysiology, advances in at-home technology have facilitated “real-world” assessments that may mitigate certain limitations of in-lab polysomnography (PSG). For example, the first night effect<xref rid="b8-nss-10-397" ref-type="bibr">8</xref> is a reminder that in-lab PSG may disrupt the very process of sleep one intends to measure. In addition, at-home sensing allows tracking over time, which is critical for any process that exhibits night-to-night variability, whether stochastic or linked to waking behaviors or exposures that vary over time.<xref rid="b9-nss-10-397" ref-type="bibr">9</xref>–<xref rid="b12-nss-10-397" ref-type="bibr">12</xref> To date, the dominant form of at-home monitoring focuses on uncomplicated obstructive sleep apnea (OSA) detection,<xref rid="b13-nss-10-397" ref-type="bibr">13</xref> whereas at-home detection of periodic limb movements of sleep (PLMS) by accelerometry has shown only limited success and is not commonly used in practice.<xref rid="b14-nss-10-397" ref-type="bibr">14</xref> Given the proposed links between PLMS and vascular morbidity,<xref rid="b15-nss-10-397" ref-type="bibr">15</xref> coupled with the fact that at-home sleep monitors for OSA do not contain leg sensors,<xref rid="b16-nss-10-397" ref-type="bibr">16</xref> there is urgent clinical need specifically for PLMS-tracking solutions. In addition, tracking autonomic physiology through the windows of noninvasive cardiac and respiratory physiology may inform various aspects of sleep disturbance of potential clinical relevance,<xref rid="b17-nss-10-397" ref-type="bibr">17</xref>–<xref rid="b20-nss-10-397" ref-type="bibr">20</xref> in addition to tracking electrocardiography (ECG) for arrhythmia. Interestingly, single-channel respiration signals such as thoracic movement can support estimation of the apnea–hypopnea index (AHI),<xref rid="b21-nss-10-397" ref-type="bibr">21</xref> which may inform screening or be used to quantify the so-called apnea burden.<xref rid="b22-nss-10-397" ref-type="bibr">22</xref> The aim of the current work is to validate BiostampRC<sup>®</sup>, a small, wireless adhesive sensor system that is worn on the chest for ECG and respiration measurements, or on the leg for anterior tibialis electromyography (EMG) measurements.</p>
+    </sec>
+    <sec sec-type="methods">
+      <title>Methods</title>
+      <p>This study was approved by the Partners Institutional Review Board, and all participants provided signed informed consent. Adult patients undergoing PSG in the clinical laboratory for any reason were eligible to participate. PSG recordings were performed in accordance with the American Academy of Sleep Medicine (AASM) in this accredited laboratory, and scored by experienced technologists off-line. The analysis considers N=19 subjects (13 males/6 females) with an average age of age 54±12 years and average body mass index (BMI) of 29.31±4.9. See <xref rid="t1-nss-10-397" ref-type="table">Table 1</xref> for individual subject descriptors. Standard clinical PSG sensors were applied according to AASM practice standards, including surface electrodes on the left and right anterior tibialis (LAT and RAT, respectively) surface muscle. A BiostampRC<sup>®</sup> sensor was applied next to each clinical lead on the bilateral legs, and two BiostampRC<sup>®</sup> sensors were placed on the anterior chest for cardiac and respiration measurements.</p>
+      <sec>
+        <title>Respiration</title>
+        <p>The BiostampRC<sup>®</sup> contains a tri-axial accelerometer that can capture motion. When placed on the chest wall, the motion detected is associated with inhalation and exhalation. For validation, we compare the output of our respiratory rate algorithm on both the BiostampRC<sup>®</sup> respiratory waveform and the PSG system’s airflow waveform, as performed by Bates et al.<xref rid="b23-nss-10-397" ref-type="bibr">23</xref> The BiostampRC<sup>®</sup> accelerometer-derived respiration (ADR) waveform preprocessing consists of three steps: low-pass filtering (as described in 23), principal component analysis (PCA), and a resonator filter (<xref ref-type="supplementary-material" rid="SD1-nss-10-397">Figure S1</xref>). The low-pass filter removes high-frequency noise while still preserving the shape of the respiratory waveform. A PCA then linearly projects the three axes onto an orthogonal set that maximizes variance. We assume the respiration signal can be spread across multiple spatial axes. We then select the projection identified by PCA as the most variate and augment it as a fourth channel. A respiratory signal quality evaluation then selects the best of the four channels within a given 1-minute epoch. The algorithm assigns a signal quality index to each channel according to the signal power ratio of the waveform against the human respiration frequency band (0.05–0.5 Hz). Both the PSG airflow channel and BiostampRC<sup>®</sup> respiration channels were assigned a signal quality index value. For the respiration analysis, epochs where the PSG had low signal quality index are not analyzed, even if the BiostampRC<sup>®</sup> system reported an acceptable signal quality index.</p>
+        <p>The channel with the best quality provides the input for the resonator filter. In the case where all channel signal quality falls below a preset threshold (0.65), a respiration rate for that epoch is not reported, as the signal is likely corrupted by motion artifacts or other sources of noise.</p>
+        <p>The resonator filter tunes the signal to its central dominant frequency, selected as the most prominent power spectrum density peak from its Fast Fourier Transform. This filter smooths notches in the respiratory waveform that may bias the respiratory rate state machine. The resonator designs a tight bandpass filter, with dominant gain at the central frequency. The width (kernel) of the filter was empirically determined to be 1.5. The respiration rate state machine, originally described by Bates et al,<xref rid="b23-nss-10-397" ref-type="bibr">23</xref> compares this final ADR signal directly against the PSG airflow signal.</p>
+        <p>The state machine defines high (H), middle (M), and low (L) bands of the sinusoidal respiratory waveform. A scaling factor multiplied by the standard deviation of the epoch’s signal establishes the bounds about the mean of the ADR sinusoid for the high, middle, and low regions. A breath qualifies when the state machine sees that the signal passes through the bands in H–M–L–M–H order (or a permutation of that order). The algorithm stores the start and end time of each breath. This gives an instantaneous respiration rate according to each breath. Once all breaths within the minute window have been detected, the algorithm calculates the median of the instantaneous respiration rates from each detected breath. The median value is the reported respiration rate of that epoch. We limited the reporting of PSG and BiostampRC<sup>®</sup> respiration rates to between 2 and 60 beats per minute (bpm), under the assumption that rates outside of this range were nonphysiological.</p>
+      </sec>
+      <sec>
+        <title>Heart rate</title>
+        <p>The BiostampRC<sup>®</sup> system contains an analog front-end sensor capable of detecting electrophysiological signals (sampling frequency range between 125 and 1,000 Hz). Study participants wore two BiostampRC<sup>®</sup> devices on the upper torso to capture ECG activity, the first in a Lead I configuration (horizontal) and the second in a Lead II configuration (right shoulder to left hip direction, 30 degrees from vertical). A beat detection algorithm identifies the R peaks within the QRS complexes of the ECG signal.<xref rid="b24-nss-10-397" ref-type="bibr">24</xref> The median R–R interval for each minute determines the epoch’s heart rate (HR) in bpm for that specific lead configuration. The HR calculated from the BiostampRC<sup>®</sup> ECG signals (Lead I and II) are compared against the gold standard defined by the PSG pulse rate derived from a pulse oximeter worn on the subject’s finger.</p>
+        <p>The Pan Tompkins beat detection is a widely used and reliable R peak identifier, validated on the MIT/BIH and AHA databases.<xref rid="b24-nss-10-397" ref-type="bibr">24</xref> The algorithm consists of four transformations: digital bandpass filter, differentiation, signal rectification, and a moving window integration. The digital bandpass filter consists of both high- and low-pass filters designed to enhance signal components of human ECG frequency bands. The filtered signal undergoes differentiation to find the slope of the QRS complex. The algorithm then intensifies the slope of the frequency–response curve by squaring the differential. Rectification limits the prominence of T waves with high spectral energy and therefore reduces T wave detection as a false positive. Finally, the moving window integration creates a signal which contains both the slope and width parameters per QRS complex. A series of learned thresholds determines beats from this processed signal.</p>
+        <p>The algorithm determines dual thresholds for detection based on a series of learning phases. Learning Phase I informs the beat detection threshold, adjusting for the signal vs noise spectrum. Learning Phase II uses initial heart beats to initialize the R–R interval average and limit thresholds. If a beat of appropriate slope and width falls within these determined threshold, Pan-Tompkins assigns a pulse for the QRS complex. With each detection, the thresholds adapt to accommodate significant change in the R–R interval. A refractory period of 200 ms after each beat detection ensures a single beat will not be identified multiple times and introduce false positives.</p>
+        <p>We limited reporting of HR and validation statistics to when the incoming BiostampRC<sup>®</sup> ECG signal passes two signal quality requirements. The signal quality checks on the raw ECG waveform consist of two indices: a frequency power ratio and a contact quality index (CQI). The frequency power ratio calculates the ratio of power in a selected frequency band against the power of the rest of the spectrum. We consider the main signal frequency band of the QRS energy to be between 10 and 20 Hz.</p>
+        <p>The frequency power ratio was designed to identify artifacts (ie, 60 Hz interference, and some muscle activities). Another primary source of noise in the ECG signal is due to partial or poor electrode contact on the skin surface. This type of noise overlaps with the ECG frequency spectrum. To evaluate electrode contact, a temporal-based CQI was designed. The ECG signal is first median-filtered to give a cleaner estimate of the ECG signal. The median-filtered signal is subtracted from the original ECG signal resulting in an estimate of the background noise. The CQI equals the ratio of the power of the estimated noise to the power of the estimated ECG signal. During poor contact, the power of the noise will be significantly lower than the power of the median-filtered ECG signal. With good electrode contact, the noise statistics are more Gaussian and the CQI converges to one. To pass, both the frequency ratio and the CQI values have to be greater than the prespecified threshold of 0.5, or else the section of data is marked unreadable. The ANSI/AAMI 60601-2-47 standards outline reporting practices for ECG recordings.<xref rid="b25-nss-10-397" ref-type="bibr">25</xref> According to these standards, ECG recordings may be tagged into readable and unreadable sections when the ECG signal is lost to noise. For BiostampRC<sup>®</sup>, the readable or unreadable designation is done on 5 second, contiguous windows. Validation statistics comparing BiostampRC<sup>®</sup> to the gold standard PSG system was reported only when the signal quality deems the BiostampRC<sup>®</sup> ECG readable. The percent of the signal determined to be unreadable is reported in <xref rid="t1-nss-10-397" ref-type="table">Table 1</xref>.</p>
+      </sec>
+      <sec>
+        <title>Muscle EMG</title>
+        <p>BiostampRC<sup>®</sup> contains an analog front end (sampling frequency of 250 Hz) that can detect electrical signals from muscle activity present during muscle contractions. We aim to systematically compare the PSG and BiostampRC<sup>®</sup> signals by seeing if the same contractions (as annotated by clinicians on PSG signal) are visible in both data streams. The PSG and BiostampRC<sup>®</sup> signals were aligned using an instructed activity of leg contractions during clinical biocalibration at the start of the PSG recording. The EMG signals from the LAT and RAT were treated independently. The expert annotation files were analyzed and selected data followed the AASM scoring guidelines. Rarely, annotations of periodic leg movement (PLM) events longer than 10 seconds were noted, and presumed to be erroneous and thus were not included in the analysis. A total of 25.6 hours of data were selected, consisting of selections ranging in duration from 2 to 30 minutes.</p>
+        <p>The transformation of the BiostampRC’s<sup>®</sup> EMG signal followed standard practices of EMG analysis.<xref rid="b32-nss-10-397" ref-type="bibr">32</xref> The steps are as follows: filtering, rectification, and an envelope function. A bandpass filter cleans each EMG signal’s frequency content to eliminate interference outside of the 1–45 Hz range. A median filter with a small kernel (0.15 seconds) addresses spikes in the voltage signal such as may occur with gross movements. These artifact spikes can be of on the same order of magnitude of contractions (0.01–0.15 mV). In rectification, all amplitudes become positive by taking the absolute value of the filtered signal. Finally, a smoothing operation takes place to estimate the envelope of the rectified signal. Options to find the envelope include low-pass filter, moving average, and root mean square (RMS) calculation. The RMS method maintains signal power better than the moving average and does not have ringing artifacts that can occur in the low-pass filter method.<xref rid="b32-nss-10-397" ref-type="bibr">32</xref> RMS was selected for the BiostampRC<sup>®</sup> envelope calculation.</p>
+        <p>The PSG and BiostampRC<sup>®</sup> envelope signals were compared directly on a window-to-window basis (2 seconds) with the PSG data as the gold standard. Because we are performing a sensor-level validation, we focused on correlations in signal fluctuations rather than tech-scoring of PLMS events per se. The contraction positive class was determined when the PSG signal surpassed a threshold and lasted for at least 0.5 seconds. The envelope function caused an average reduction in power of 50% for the PSG signal, so the AASM threshold of 0.008 mV was halved to 0.004 mV above baseline noise for the contraction identifications threshold. To find the optimal BiostampRC<sup>®</sup> threshold to match the PSG system, the BiostampRC<sup>®</sup> contraction identification was performed using a grid search over all parameters. The parameters to determine the final threshold included a set mV value added to an estimate of the noise floor. In any given section of region of interest, we assume the signal contains a significant amount of noncontraction samples. A histogram of the considered section shows the range of amplitudes within the signal. The noise floor was then estimated from the low bin values of the histogram.</p>
+        <p>The quality of the PSG and BiostampRC<sup>®</sup> signals are dependent on both body physiology and electrode application as the electrodes require good conductance for a clear signal. The variability of each subject’s application requires a personalized set of parameters for signal-to-signal comparison. For this reason, each grid search was calculated individually rather than find a best fit for the cohort.</p>
+        <p>To minimize edge effects of slight differences in contraction shape, windows containing edges of the contraction are not considered in the final analysis. If either signal in the PLM series did not pass a signal-to-ratio requirement, that data were not considered. For the signal-to-signal analysis, the number of true negatives (TNs) greatly outweighs the number of true positives (TPs), which will impact accuracy calculations due to weighting by the performance in the dominant class. Examples of TN class were randomly chosen to balance the number of TP class events by patient.</p>
+      </sec>
+    </sec>
+    <sec sec-type="results">
+      <title>Results</title>
+      <sec>
+        <title>Respiration</title>
+        <p>The subject population consisted of 15 participants who were undergoing clinical PSG evaluation. The mean age was 52, the mean BMI was 28.0, and 10 were male (<xref rid="t2-nss-10-397" ref-type="table">Table 2</xref>).</p>
+        <p>The respiratory rate state machine calculated respiratory rate from the gold standard (PSG) airflow measurement and from the BiostampRC<sup>®</sup> ADR waveform, epoch by epoch. The respiration detected by the BiostampRC<sup>®</sup> vs that detected by PSG for an example subject is shown in <xref ref-type="fig" rid="f1-nss-10-397">Figure 1</xref>, including a calculated rate (panel A) and superimposed raw waveforms (panel B). We were able to calculate a respiration rate 74% of the time that the gold standard was able to calculate a rate. The root mean square error (RMSE), a common metric for reporting error, was 1.84 breaths/minute in the group. For individual subject results, see <xref rid="t2-nss-10-397" ref-type="table">Table 2</xref>. The mean absolute error across subjects was 0.26 bpm with a cohort relative error of 0.04%.</p>
+      </sec>
+      <sec>
+        <title>Heart rate</title>
+        <p><xref ref-type="fig" rid="f2-nss-10-397">Figure 2</xref> is a representative segment comparing the raw ECG signals of the PSG and BiostampRC<sup>®</sup> systems. The analysis of HR extracted from the BiostampRC<sup>®</sup> raw signals, per subject, is reported in <xref rid="t1-nss-10-397" ref-type="table">Table 1</xref>. The HR (in bpm) equals the median value of the instantaneous R–R intervals over 1 minute. This HR is compared with the HR reported by the PSG system from a pulse oximeter. We compared two body locations to evaluate HR: Lead I at the hypochondrium location and Lead II over the upper left chest. Across 17 subjects, the average RMSE for both Lead I and Lead II was 5 bpm. (One subject could not be reported for Lead II due to a low percentage of readable data.)</p>
+      </sec>
+      <sec>
+        <title>Leg movements</title>
+        <p>In the validation study for leg movements, we tested the surface EMG (sEMG) sensor system on the left and right anterior tibialis, adjacent to the gold standard PSG sensors. An image of a BiostampRC<sup>®</sup> in this position is given in <xref ref-type="supplementary-material" rid="SD2-nss-10-397">Figure S2</xref>. Examples of raw muscle activity signals are shown in <xref ref-type="supplementary-material" rid="SD3-nss-10-397">Figure S3</xref>. We considered the muscle contractions as the primary indicator for comparison of the BiostampRC<sup>®</sup> and the PSG EMG signals. To determine the threshold for identifying limb movement events, we conducted a parameter tuning over a grid search. The most influential parameter was the adaptive threshold above baseline noise, which was iteratively increased from 0.004 to 0.011 mV. BiostampRC’s<sup>®</sup> average threshold was 0.0085 mV. <xref ref-type="fig" rid="f3-nss-10-397">Figure 3</xref> shows an example of PSG and BiostampRC<sup>®</sup> EMG signals, annotated as to true/false positive/negative, based on this threshold approach.</p>
+        <p>Each parameter configuration provided a sensitivity and specificity, which were then plotted on a patient-specific ROC curve with false positive (FP) rate (1-specificity) on the x-axis and TP rate (sensitivity) on the y-axis (<xref ref-type="fig" rid="f4-nss-10-397">Figure 4</xref>). The final configuration chosen per subject was the point with the minimum distance from the [0, 1] point on the ROC curve. The overall resulting area under the curve for the ROC curve was 0.88. At the balance point of the ROC curve, sensitivity equals 0.87 with a specificity of 0.82.</p>
+      </sec>
+    </sec>
+    <sec sec-type="discussion">
+      <title>Discussion</title>
+      <p>Although in-lab PSG provides important data for clinical diagnostics, several limitations are well known: uncomfortable environment, high personnel and resource burden, regional variation in access to sleep laboratories, and the use of single-night snapshots for clinical decision-making. Thus, diagnostic testing has seen a transition of monitoring into the home, using limited sensors, mainly to detect OSA.<xref rid="b13-nss-10-397" ref-type="bibr">13</xref> However, these kits have their own limitations of comfort, usability, and accuracy—and most are designed for only one or two nights of recording. Because autonomic and EMG signals have use beyond that of OSA detection, the clinical need remains for improved at-home monitoring for clinical sleep evaluation and management.</p>
+      <p>This validation study demonstrates that the BiostampRC<sup>®</sup> system provides accurate sensing of HR, RR, and leg EMG, compared with gold standard equivalent sensor data during routine clinical PSG. As such, the system offers the opportunity for a more natural and less invasive approach to multi-night at-home cardiopulmonary monitoring during sleep. In total, 88% of subjects when surveyed upon study completion expressed willingness to wear the BiostampRC<sup>®</sup> system in the home.</p>
+      <p>For comparison of respiration rate performance, Bates et al reported RMSE=0.38, with maximum 3 breaths/minute on postoperative patients, in which 45% of the data were useable.<xref rid="b23-nss-10-397" ref-type="bibr">23</xref> In a subsequent study, 19 patients (age 53±26 years) who received opioid analgesia were monitored post-operatively.<xref rid="b26-nss-10-397" ref-type="bibr">26</xref> The study compared an accelerometry and nasal cannula-derived respiration rate at a 5-minute epoch using the algorithm described in a study.<xref rid="b23-nss-10-397" ref-type="bibr">23</xref> Their analysis found 62% of the accelerometer data to be usable for comparison to the nasal cannula as gold standard. They reported an absolute difference of 0.6 breaths per minute and average 87%±8% agreement within 3 breaths per minute on 67%±13% of matched breaths. Overall, the BiostampRC<sup>®</sup> system is comparable with other ADR rate methods, in terms of accuracy vs gold standard and usable data proportion of recording time. Here, the BiostampRC<sup>®</sup> and PSG were within an average of 0.26 breaths per minute and at 74% of the PSG total time. The degree of acceptable data loss will depend on the clinical goals of monitoring, with less tolerance in settings of unstable vital signs or alarm-based decision support.</p>
+      <p>The BiostampRC<sup>®</sup> system can couple HR and respiration, which have been used in algorithms designed to screen for sleep apnea,<xref rid="b27-nss-10-397" ref-type="bibr">27</xref> or to distinguish obstructive and central forms of sleep apnea.<xref rid="b28-nss-10-397" ref-type="bibr">28</xref> Future studies of our system in subjects with a range of sleep apnea severity and obstructive vs central phenotypes can test the hypothesis that the sensor data can support such algorithms, especially for at-home monitoring uses. Further studies are necessary to determine whether the system is feasible for respiration rate monitoring around-the-clock in patients warranting inpatient care and real-time information about respiratory status.</p>
+      <p>It is possible that a single BiostampRC<sup>®</sup> sensor could provide both cardiac and respiratory information. When placed at the Lead II location, one BiostampRC<sup>®</sup> sensor may be used to capture both respiratory rate and HR. In this study, respiration rate was derived from the accelerometer at the Lead II location. The ECG signal also includes respiratory information. As a person inhales and exhales, the electrical impedance of the body changes and modulates the QRS complexes. The modulation reflects the breathing pattern of the subject. The electrocardiogram-derived respiration (EDR) signal provides another respiratory estimation. Combining respiration rate measurements from multiple data streams as described in a study<xref rid="b29-nss-10-397" ref-type="bibr">29</xref> could improve the robustness of respiration rate estimation.</p>
+      <p>PLMS is not uncommon, and the main predictor is the presence of restless legs syndrome (RLS; or Willis–Ekbom disease), with most patients with RLS having elevated PLMS if studied using PSG. However, most individuals with elevated PLMS will not have RLS symptoms, and thus the occurrence of PLMS may remain occult unless PSG is performed. Given this clinical uncertainty at the diagnostic phase, there is an urgent need for PLMS-specific sensing that does not require PSG. Beyond the cross-sectional links with vascular morbidity, the link between elevated PLMS and non-refreshing sleep remains poorly understood: patients may remain asymptomatic, or have insomnia, or hypersomnia. The ideal path to diagnose elevated PLMS is unclear, as symptom prediction outside of clinical RLS is quite uncertain.<xref rid="b30-nss-10-397" ref-type="bibr">30</xref> Another major challenge in the diagnostic phenotyping of PLMS is night-to-night variability.<xref rid="b31-nss-10-397" ref-type="bibr">31</xref> At the management phase, assessing the impact of therapy depends on self-reported sleep symptoms, whether insomnia or hypersomnia or both. However, if therapy targeting PLMS does not improve sleep symptoms, it could be because the treatment did not sufficiently reduce the PLMS, or because the PLMS were not actually causing the symptoms. We cannot distinguish between these alternatives in practice without objective testing, which is not routinely available in the home or via PSG. Thus, a solution is needed that would allow for at-home objective PLMS monitoring, ideally over multiple nights, before and after therapy changes are initiated.</p>
+      <p>This study demonstrates that a simple adhesive wearable sensor system can detect and store muscle contraction activity with fidelity sufficiently high to support algorithm development relevant for detection and classification of PLMS. Quantifying PLMS is currently limited in practice, where their detection is often incidental during laboratory PSG performed for other reasons such as sleep apnea. Furthermore, given pressures to move objective sleep testing into the home, and the lack of limb leads on at-home kits designed for sleep apnea testing, PLMS measurement will remain limited. Our results suggest that PLMS measurement is feasible with a simple monitoring system. We suspect that EMG-based sensor systems will be more sensitive and specific, as they reproduce the gold standard PSG approach to PLMS, compared with accelerometry-based systems that require gross movement. The growing literature suggesting the importance of PLMS for vascular morbidity and the challenges in clinically predicting elevated PLMS outside of RLS<xref rid="b15-nss-10-397" ref-type="bibr">15</xref> are strong incentives to develop objective measurement options to enhance the diagnostic, management, and clinical research efforts in this important area.</p>
+      <sec>
+        <title>Limitations</title>
+        <p>This study has important limitations, which can be addressed in future work. First, larger studies can identify clinical factors that impact adhesive-based sensors (in the laboratory, or in a portable device), such as body habitus, medications, neurological conditions, and sweat, that could impact ECG, EMG, or even thoracic respiration movement sensing. Second, the sensors were applied by research staff; future work will assess whether unsupervised application in the patient’s home is also feasible and acceptable for patient experience. Third, electrode placement may impact accuracy, given the necessity for adjacent positioning between PSG leads and the BiostampRC<sup>®</sup>, which may introduce variance in muscle activity detection based on position (not physiology), or variance in ECG or respiration dynamics. Fourth, algorithmic work for auto-detection of sleep apnea or limb movements using an isolated EMG sensor on the leg is subject to clinical scoring conventions that require assessment of other sensors (electroencephalogram for sleep–wake distinction, and respiratory sensors for sleep apnea events). Without concurrent sensors in the home, for example, overestimation of leg movements could occur if sleep apnea were also present, or if protracted wake time with motor restlessness occurs. Training on larger datasets, annotated not just for PLMS but also for non-PLMS motor activity (such as gross body movements during arousals), will be helpful.</p>
+      </sec>
+    </sec>
+    <sec sec-type="supplementary-material">
+      <title>Supplementary materials</title>
+      <supplementary-material content-type="local-data" id="SD1-nss-10-397">
+        <label>Figure S1</label>
+        <caption>
+          <p>Schematic of signal processing of respiration signals.</p>
+          <p><bold>Abbreviations:</bold> AXL, accelerometer; BRC, BiostampRC<sup>®</sup> sensor system; LP, low pass; PCA, principle component analysis; RMSE, root mean square error; RR, respiration rate; x, y, z, axes of the accelerometer; SQI, signal quality index.</p>
+        </caption>
+        <media mimetype="image" mime-subtype="tif" xlink:href="nss-10-397s1.tif" xlink:type="simple" id="d35e581" position="anchor"/>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="SD2-nss-10-397">
+        <label>Figure S2</label>
+        <caption>
+          <p>BiostampRC<sup>®</sup> device.</p>
+          <p><bold>Note:</bold> Left, position on the lower leg; Right, close-up view of one device.</p>
+        </caption>
+        <media mimetype="image" mime-subtype="tif" xlink:href="nss-10-397s2.tif" xlink:type="simple" id="d35e595" position="anchor"/>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="SD3-nss-10-397">
+        <label>Figure S3</label>
+        <caption>
+          <p>The true positive (TP) rate (ie, sensitivity) is shown on the y-axis, and the FP rate (ie, 1-speciificity) is shown on the x-axis</p>
+          <p><bold>Abbreviations:</bold> AUC, area under the curve; EMG, electromyography; PSG, polysomnography; RMS, root mean square; TP, true positive.</p>
+        </caption>
+        <media mimetype="image" mime-subtype="tif" xlink:href="nss-10-397s3.tif" xlink:type="simple" id="d35e606" position="anchor"/>
+      </supplementary-material>
+    </sec>
+  </body>
+  <back>
+    <ack>
+      <title>Acknowledgments</title>
+      <p>MC10, Inc. funded this project.</p>
+    </ack>
+    <fn-group>
+      <fn fn-type="COI-statement">
+        <p>
+          <bold>Disclosure</bold>
+        </p>
+        <p>Dr Bianchi has received funding from the Department of Neurology (MGH), Milton Foundation, American Sleep Medicine Foundation, MGHMIT Grand Challenge, and the Center for Integration of Medicine and Innovative Technology; has research contracts with Insomnisolv, Inc.; has consulting agreements with McKesson Health, International Flavors and Fragrances, and Apple Inc.; has received payment for lectures from Oakstone Publishing; has served as a Medical Monitor for Pfizer, Inc; and has provided expert testimony in sleep medicine. These entities had no role in the current study. The authors report no other conflicts of interest in this work.</p>
+      </fn>
+    </fn-group>
+    <ref-list>
+      <title>References</title>
+      <ref id="b1-nss-10-397">
+        <label>1</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kushida</surname>
+              <given-names>CA</given-names>
+            </name>
+            <name>
+              <surname>Littner</surname>
+              <given-names>MR</given-names>
+            </name>
+            <name>
+              <surname>Morgenthaler</surname>
+              <given-names>T</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Practice parameters for the indications for polysomnography and related procedures: an update for 2005</article-title>
+          <source>Sleep</source>
+          <year>2005</year>
+          <volume>28</volume>
+          <issue>4</issue>
+          <fpage>499</fpage>
+          <lpage>523</lpage>
+          <pub-id pub-id-type="pmid">16171294</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b2-nss-10-397">
+        <label>2</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Vgontzas</surname>
+              <given-names>AN</given-names>
+            </name>
+            <name>
+              <surname>Fernandez-Mendoza</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Liao</surname>
+              <given-names>D</given-names>
+            </name>
+            <name>
+              <surname>Bixler</surname>
+              <given-names>EO</given-names>
+            </name>
+          </person-group>
+          <article-title>Insomnia with objective short sleep duration: the most biologically severe phenotype of the disorder</article-title>
+          <source>Sleep Med Rev</source>
+          <year>2013</year>
+          <volume>17</volume>
+          <issue>4</issue>
+          <fpage>241</fpage>
+          <lpage>254</lpage>
+          <pub-id pub-id-type="pmid">23419741</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b3-nss-10-397">
+        <label>3</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Lichstein</surname>
+              <given-names>KL</given-names>
+            </name>
+          </person-group>
+          <article-title>Insomnia identity</article-title>
+          <source>Behav Res Ther</source>
+          <year>2017</year>
+          <volume>97</volume>
+          <fpage>230</fpage>
+          <lpage>241</lpage>
+          <pub-id pub-id-type="pmid">28858698</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b4-nss-10-397">
+        <label>4</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Harvey</surname>
+              <given-names>AG</given-names>
+            </name>
+            <name>
+              <surname>Tang</surname>
+              <given-names>NK</given-names>
+            </name>
+          </person-group>
+          <article-title>Mis)perception of sleep in insomnia: a puzzle and a resolution</article-title>
+          <source>Psychol Bull</source>
+          <year>2012</year>
+          <volume>138</volume>
+          <issue>1</issue>
+          <fpage>77</fpage>
+          <lpage>101</lpage>
+          <pub-id pub-id-type="pmid">21967449</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b5-nss-10-397">
+        <label>5</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Thomas</surname>
+              <given-names>RJ</given-names>
+            </name>
+            <name>
+              <surname>Mietus</surname>
+              <given-names>JE</given-names>
+            </name>
+            <name>
+              <surname>Peng</surname>
+              <given-names>CK</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Relationship between delta power and the electrocardiogram-derived cardiopulmonary spectrogram: possible implications for assessing the effectiveness of sleep</article-title>
+          <source>Sleep Med</source>
+          <year>2014</year>
+          <volume>15</volume>
+          <issue>1</issue>
+          <fpage>125</fpage>
+          <lpage>131</lpage>
+          <pub-id pub-id-type="pmid">24269134</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b6-nss-10-397">
+        <label>6</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Bianchi</surname>
+              <given-names>MT</given-names>
+            </name>
+            <name>
+              <surname>Thomas</surname>
+              <given-names>RJ</given-names>
+            </name>
+          </person-group>
+          <article-title>Technical advances in the characterization of the complexity of sleep and sleep disorders</article-title>
+          <source>Prog Neuropsychopharmacol Biol Psychiatry</source>
+          <year>2013</year>
+          <volume>45</volume>
+          <fpage>277</fpage>
+          <lpage>286</lpage>
+          <pub-id pub-id-type="pmid">23174482</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b7-nss-10-397">
+        <label>7</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Tobaldini</surname>
+              <given-names>E</given-names>
+            </name>
+            <name>
+              <surname>Nobili</surname>
+              <given-names>L</given-names>
+            </name>
+            <name>
+              <surname>Strada</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Casali</surname>
+              <given-names>KR</given-names>
+            </name>
+            <name>
+              <surname>Braghiroli</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Montano</surname>
+              <given-names>N</given-names>
+            </name>
+          </person-group>
+          <article-title>Heart rate variability in normal and pathological sleep</article-title>
+          <source>Front Physiol</source>
+          <year>2013</year>
+          <volume>4</volume>
+          <fpage>294</fpage>
+          <pub-id pub-id-type="pmid">24137133</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b8-nss-10-397">
+        <label>8</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Agnew</surname>
+              <given-names>HW</given-names>
+            </name>
+            <name>
+              <surname>Webb</surname>
+              <given-names>WB</given-names>
+            </name>
+            <name>
+              <surname>Williams</surname>
+              <given-names>RL</given-names>
+            </name>
+          </person-group>
+          <article-title>The first night effect: an EEG study of sleep</article-title>
+          <source>Psychophysiology</source>
+          <year>1966</year>
+          <volume>2</volume>
+          <issue>3</issue>
+          <fpage>263</fpage>
+          <lpage>266</lpage>
+          <pub-id pub-id-type="pmid">5903579</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b9-nss-10-397">
+        <label>9</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Levendowski</surname>
+              <given-names>D</given-names>
+            </name>
+            <name>
+              <surname>Steward</surname>
+              <given-names>D</given-names>
+            </name>
+            <name>
+              <surname>Woodson</surname>
+              <given-names>BT</given-names>
+            </name>
+            <name>
+              <surname>Olmstead</surname>
+              <given-names>R</given-names>
+            </name>
+            <name>
+              <surname>Popovic</surname>
+              <given-names>D</given-names>
+            </name>
+            <name>
+              <surname>Westbrook</surname>
+              <given-names>P</given-names>
+            </name>
+          </person-group>
+          <article-title>The impact of obstructive sleep apnea variability measured in-lab versus in-home on sample size calculations</article-title>
+          <source>Int Arch Med</source>
+          <year>2009</year>
+          <volume>2</volume>
+          <issue>1</issue>
+          <fpage>2</fpage>
+          <pub-id pub-id-type="pmid">19121211</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b10-nss-10-397">
+        <label>10</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Sforza</surname>
+              <given-names>E</given-names>
+            </name>
+            <name>
+              <surname>Haba-Rubio</surname>
+              <given-names>J</given-names>
+            </name>
+          </person-group>
+          <article-title>Night-to-night variability in periodic leg movements in patients with restless legs syndrome</article-title>
+          <source>Sleep Med</source>
+          <year>2005</year>
+          <volume>6</volume>
+          <issue>3</issue>
+          <fpage>259</fpage>
+          <lpage>267</lpage>
+          <pub-id pub-id-type="pmid">15854857</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b11-nss-10-397">
+        <label>11</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Sánchez-Ortuño</surname>
+              <given-names>MM</given-names>
+            </name>
+            <name>
+              <surname>Edinger</surname>
+              <given-names>JD</given-names>
+            </name>
+          </person-group>
+          <article-title>Internight sleep variability: its clinical significance and responsiveness to treatment in primary and comorbid insomnia</article-title>
+          <source>J Sleep Res</source>
+          <year>2012</year>
+          <volume>21</volume>
+          <issue>5</issue>
+          <fpage>527</fpage>
+          <lpage>534</lpage>
+          <pub-id pub-id-type="pmid">22463493</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b12-nss-10-397">
+        <label>12</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Suh</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Nowakowski</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Bernert</surname>
+              <given-names>RA</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Clinical significance of night-to-night sleep variability in insomnia</article-title>
+          <source>Sleep Med</source>
+          <year>2012</year>
+          <volume>13</volume>
+          <issue>5</issue>
+          <fpage>469</fpage>
+          <lpage>475</lpage>
+          <pub-id pub-id-type="pmid">22357064</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b13-nss-10-397">
+        <label>13</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kapur</surname>
+              <given-names>VK</given-names>
+            </name>
+            <name>
+              <surname>Auckley</surname>
+              <given-names>DH</given-names>
+            </name>
+            <name>
+              <surname>Chowdhuri</surname>
+              <given-names>S</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Clinical Practice Guideline for Diagnostic Testing for Adult Obstructive Sleep Apnea: An American Academy of Sleep Medicine Clinical Practice Guideline</article-title>
+          <source>J Clin Sleep Med</source>
+          <year>2017</year>
+          <volume>13</volume>
+          <issue>3</issue>
+          <fpage>479</fpage>
+          <lpage>504</lpage>
+          <pub-id pub-id-type="pmid">28162150</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b14-nss-10-397">
+        <label>14</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Plante</surname>
+              <given-names>DT</given-names>
+            </name>
+          </person-group>
+          <article-title>Leg actigraphy to quantify periodic limb movements of sleep: a systematic review and meta-analysis</article-title>
+          <source>Sleep Med Rev</source>
+          <year>2014</year>
+          <volume>18</volume>
+          <issue>5</issue>
+          <fpage>425</fpage>
+          <lpage>434</lpage>
+          <pub-id pub-id-type="pmid">24726711</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b15-nss-10-397">
+        <label>15</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Walters</surname>
+              <given-names>AS</given-names>
+            </name>
+            <name>
+              <surname>Rye</surname>
+              <given-names>DB</given-names>
+            </name>
+          </person-group>
+          <article-title>Review of the relationship of restless legs syndrome and periodic limb movements in sleep to hypertension, heart disease, and stroke</article-title>
+          <source>Sleep</source>
+          <year>2009</year>
+          <volume>32</volume>
+          <issue>5</issue>
+          <fpage>589</fpage>
+          <lpage>597</lpage>
+          <pub-id pub-id-type="pmid">19480225</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b16-nss-10-397">
+        <label>16</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Collop</surname>
+              <given-names>NA</given-names>
+            </name>
+            <name>
+              <surname>Tracy</surname>
+              <given-names>SL</given-names>
+            </name>
+            <name>
+              <surname>Kapur</surname>
+              <given-names>V</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Obstructive sleep apnea devices for out-of-center (OOC) testing: technology evaluation</article-title>
+          <source>J Clin Sleep Med</source>
+          <year>2011</year>
+          <volume>7</volume>
+          <issue>5</issue>
+          <fpage>531</fpage>
+          <lpage>548</lpage>
+          <pub-id pub-id-type="pmid">22003351</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b17-nss-10-397">
+        <label>17</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Thomas</surname>
+              <given-names>RJ</given-names>
+            </name>
+          </person-group>
+          <article-title>Sleep fragmentation and arousals from sleep-time scales, associations, and implications</article-title>
+          <source>Clin Neurophysiol</source>
+          <year>2006</year>
+          <volume>117</volume>
+          <issue>4</issue>
+          <fpage>707</fpage>
+          <lpage>711</lpage>
+          <pub-id pub-id-type="pmid">16500146</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b18-nss-10-397">
+        <label>18</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Sforza</surname>
+              <given-names>E</given-names>
+            </name>
+            <name>
+              <surname>Pichot</surname>
+              <given-names>V</given-names>
+            </name>
+            <name>
+              <surname>Barthelemy</surname>
+              <given-names>JC</given-names>
+            </name>
+            <name>
+              <surname>Haba-Rubio</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Roche</surname>
+              <given-names>F</given-names>
+            </name>
+          </person-group>
+          <article-title>Cardiovascular variability during periodic leg movements: a spectral analysis approach</article-title>
+          <source>Clin Neurophysiol</source>
+          <year>2005</year>
+          <volume>116</volume>
+          <issue>5</issue>
+          <fpage>1096</fpage>
+          <lpage>1104</lpage>
+          <pub-id pub-id-type="pmid">15826850</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b19-nss-10-397">
+        <label>19</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Sforza</surname>
+              <given-names>E</given-names>
+            </name>
+            <name>
+              <surname>Nicolas</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Lavigne</surname>
+              <given-names>G</given-names>
+            </name>
+            <name>
+              <surname>Gosselin</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Petit</surname>
+              <given-names>D</given-names>
+            </name>
+            <name>
+              <surname>Montplaisir</surname>
+              <given-names>J</given-names>
+            </name>
+          </person-group>
+          <article-title>EEG and cardiac activation during periodic leg movements in sleep: support for a hierarchy of arousal responses</article-title>
+          <source>Neurology</source>
+          <year>1999</year>
+          <volume>52</volume>
+          <issue>4</issue>
+          <fpage>786</fpage>
+          <lpage>791</lpage>
+          <pub-id pub-id-type="pmid">10078729</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b20-nss-10-397">
+        <label>20</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Citi</surname>
+              <given-names>L</given-names>
+            </name>
+            <name>
+              <surname>Bianchi</surname>
+              <given-names>MT</given-names>
+            </name>
+            <name>
+              <surname>Klerman</surname>
+              <given-names>EB</given-names>
+            </name>
+            <name>
+              <surname>Barbieri</surname>
+              <given-names>R</given-names>
+            </name>
+          </person-group>
+          <article-title>Instantaneous monitoring of sleep fragmentation by point process heart rate variability and respiratory dynamics. Conference proceedings : Annual International Conference of the IEEE Engineering in Medicine and Biology Society</article-title>
+          <source>IEEE Engineering in Medicine and Biology Society. Conference</source>
+          <year>2011</year>
+          <volume>2011</volume>
+          <fpage>7735</fpage>
+          <lpage>7738</lpage>
+        </element-citation>
+      </ref>
+      <ref id="b21-nss-10-397">
+        <label>21</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Bianchi</surname>
+              <given-names>MT</given-names>
+            </name>
+            <name>
+              <surname>Lipoma</surname>
+              <given-names>T</given-names>
+            </name>
+            <name>
+              <surname>Darling</surname>
+              <given-names>C</given-names>
+            </name>
+            <name>
+              <surname>Alameddine</surname>
+              <given-names>Y</given-names>
+            </name>
+            <name>
+              <surname>Westover</surname>
+              <given-names>MB</given-names>
+            </name>
+          </person-group>
+          <article-title>Automated sleep apnea quantification based on respiratory movement</article-title>
+          <source>Int J Med Sci</source>
+          <year>2014</year>
+          <volume>11</volume>
+          <issue>8</issue>
+          <fpage>796</fpage>
+          <lpage>802</lpage>
+          <pub-id pub-id-type="pmid">24936142</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b22-nss-10-397">
+        <label>22</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Bianchi</surname>
+              <given-names>MT</given-names>
+            </name>
+            <name>
+              <surname>Alameddine</surname>
+              <given-names>Y</given-names>
+            </name>
+            <name>
+              <surname>Mojica</surname>
+              <given-names>J</given-names>
+            </name>
+          </person-group>
+          <article-title>Apnea burden: efficacy versus effectiveness in patients using positive airway pressure</article-title>
+          <source>Sleep Med</source>
+          <year>2014</year>
+          <volume>15</volume>
+          <issue>12</issue>
+          <fpage>1579</fpage>
+          <lpage>1581</lpage>
+          <pub-id pub-id-type="pmid">25441743</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b23-nss-10-397">
+        <label>23</label>
+        <element-citation publication-type="confproc">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Bates</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Ling</surname>
+              <given-names>MJ</given-names>
+            </name>
+            <name>
+              <surname>Mann</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Arvind</surname>
+              <given-names>DK</given-names>
+            </name>
+          </person-group>
+          <source>Respiratory Rate and Flow Waveform Estimation from Tri-axial Accelerometer Data</source>
+          <conf-name>Wearable and Implantable Body Sensor Networks, International Workshop on (BSN)</conf-name>
+          <conf-loc>Singapore, Singapore</conf-loc>
+          <conf-date>2010</conf-date>
+          <fpage>144</fpage>
+          <lpage>150</lpage>
+        </element-citation>
+      </ref>
+      <ref id="b24-nss-10-397">
+        <label>24</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Pan</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Tompkins</surname>
+              <given-names>WJ</given-names>
+            </name>
+          </person-group>
+          <article-title>A real-time QRS detection algorithm</article-title>
+          <source>IEEE Trans Biomed Eng</source>
+          <year>1985</year>
+          <volume>32</volume>
+          <issue>3</issue>
+          <fpage>230</fpage>
+          <lpage>236</lpage>
+          <pub-id pub-id-type="pmid">3997178</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b25-nss-10-397">
+        <label>25</label>
+        <note>
+          <p>Medical electrical equipment - Part 2-47: Particular requirements for the basic safety and essential performance of ambulatory electrocardiographic systems. Located at: ANSI/AAMI/IEC 60601-2-47/Ed.4.</p>
+        </note>
+      </ref>
+      <ref id="b26-nss-10-397">
+        <label>26</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Drummond</surname>
+              <given-names>GB</given-names>
+            </name>
+            <name>
+              <surname>Bates</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Mann</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Arvind</surname>
+              <given-names>DK</given-names>
+            </name>
+          </person-group>
+          <article-title>Validation of a new non-invasive automatic monitor of respiratory rate for postoperative subjects</article-title>
+          <source>Br J Anaesth</source>
+          <year>2011</year>
+          <volume>107</volume>
+          <issue>3</issue>
+          <fpage>462</fpage>
+          <lpage>469</lpage>
+          <pub-id pub-id-type="pmid">21685112</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b27-nss-10-397">
+        <label>27</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Babaeizadeh</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Zhou</surname>
+              <given-names>SH</given-names>
+            </name>
+            <name>
+              <surname>Pittman</surname>
+              <given-names>SD</given-names>
+            </name>
+            <name>
+              <surname>White</surname>
+              <given-names>DP</given-names>
+            </name>
+          </person-group>
+          <article-title>Electrocardiogram-derived respiration in screening of sleep-disordered breathing</article-title>
+          <source>J Electrocardiol</source>
+          <year>2011</year>
+          <volume>44</volume>
+          <issue>6</issue>
+          <fpage>700</fpage>
+          <lpage>706</lpage>
+          <pub-id pub-id-type="pmid">21908002</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b28-nss-10-397">
+        <label>28</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Thomas</surname>
+              <given-names>RJ</given-names>
+            </name>
+            <name>
+              <surname>Mietus</surname>
+              <given-names>JE</given-names>
+            </name>
+            <name>
+              <surname>Peng</surname>
+              <given-names>CK</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Differentiating obstructive from central and complex sleep apnea using an automated electrocardiogram-based method</article-title>
+          <source>Sleep</source>
+          <year>2007</year>
+          <volume>30</volume>
+          <issue>12</issue>
+          <fpage>1756</fpage>
+          <lpage>1769</lpage>
+          <pub-id pub-id-type="pmid">18246985</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b29-nss-10-397">
+        <label>29</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Nemati</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Malhotra</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Clifford</surname>
+              <given-names>GD</given-names>
+            </name>
+          </person-group>
+          <article-title>Data Fusion for Improved Respiration Rate Estimation</article-title>
+          <source>EURASIP J Adv Signal Process</source>
+          <year>2010</year>
+          <volume>2010</volume>
+          <fpage>926305</fpage>
+          <pub-id pub-id-type="pmid">20806056</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b30-nss-10-397">
+        <label>30</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Moro</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Goparaju</surname>
+              <given-names>B</given-names>
+            </name>
+            <name>
+              <surname>Castillo</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Alameddine</surname>
+              <given-names>Y</given-names>
+            </name>
+            <name>
+              <surname>Bianchi</surname>
+              <given-names>MT</given-names>
+            </name>
+          </person-group>
+          <article-title>Periodic limb movements of sleep: empirical and theoretical evidence supporting objective at-home monitoring</article-title>
+          <source>Nat Sci Sleep</source>
+          <year>2016</year>
+          <volume>8</volume>
+          <fpage>277</fpage>
+          <lpage>289</lpage>
+          <pub-id pub-id-type="pmid">27540316</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b31-nss-10-397">
+        <label>31</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kobayashi</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Namba</surname>
+              <given-names>K</given-names>
+            </name>
+            <name>
+              <surname>Ito</surname>
+              <given-names>E</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>The validity of the PAM-RL device for evaluating periodic limb movements in sleep and an investigation on night-to-night variability of periodic limb movements during sleep in patients with restless legs syndrome or periodic limb movement disorder using this system</article-title>
+          <source>Sleep Med</source>
+          <year>2014</year>
+          <volume>15</volume>
+          <issue>1</issue>
+          <fpage>138</fpage>
+          <lpage>143</lpage>
+          <pub-id pub-id-type="pmid">24269130</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b32-nss-10-397">
+        <label>32</label>
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Konrad</surname>
+              <given-names>P</given-names>
+            </name>
+          </person-group>
+          <source>The ABC of EMG: a Practical Introduction to Kinesiological Electromyography</source>
+          <publisher-loc>Scottsdale, AZ</publisher-loc>
+          <publisher-name>Noraxon Inc.</publisher-name>
+          <year>2014</year>
+        </element-citation>
+      </ref>
+    </ref-list>
+  </back>
+  <floats-group>
+    <fig id="f1-nss-10-397" position="float">
+      <label>Figure 1</label>
+      <caption>
+        <p>Respiration measurements.</p>
+        <p><bold>Notes:</bold> (<bold>A</bold>) Overlaid calculations of respiratory rate (RR) from the BiostampRC<sup>®</sup> system (red dots) and the PSG recording (blue dots) for a full night of recording in the lab. (<bold>B</bold>) Overlaid raw (blue) and filtered (green) signal of respiration from the BiostampRC<sup>®</sup>.</p>
+      </caption>
+      <graphic xlink:href="nss-10-397Fig1"/>
+    </fig>
+    <fig id="f2-nss-10-397" position="float">
+      <label>Figure 2</label>
+      <caption>
+        <p>Electrocardiogram measurements.</p>
+        <p><bold>Notes:</bold> Overlaid raw signals from the ECG of the PSG recording (blue) and the ECG measured by the BiostampRC<sup>®</sup> (red) placed at Lead II position on the chest.</p>
+      </caption>
+      <graphic xlink:href="nss-10-397Fig2"/>
+    </fig>
+    <fig id="f3-nss-10-397" position="float">
+      <label>Figure 3</label>
+      <caption>
+        <p>Limb movement detection example.</p>
+        <p><bold>Notes:</bold> The anterior tibialis EMG signals from the BiostampRC<sup>®</sup> (blue) and PSG system (red) are shown in <bold>A</bold>. The black bars in <bold>B</bold> and <bold>C</bold> represent identified contractions.</p>
+      </caption>
+      <graphic xlink:href="nss-10-397Fig3"/>
+    </fig>
+    <fig id="f4-nss-10-397" position="float">
+      <label>Figure 4</label>
+      <caption>
+        <p>ROC curve for PLMS detection.</p>
+        <p><bold>Notes:</bold> Each vertical bar is 2 seconds duration (the entire segment is just over 2 minutes of recording). The signals are color coded according to the legend in the top left. For example, the first upward deflection of the BiostampRC® (left side of tracing) was not seen by the PSG sensor, and thus is a false positive limb movement detection. The blue and red horizontal lines near the bottom of the plot are the thresholds (“limit” in the legend), relative to baseline noise, used by the algorithm for event detection. There are no false negatives in this image. Edges where signal falls below threshold adjacent to suprathreshold segments are shown for illustrative purposes only, but are not considered in the algorithm (see Methods section).</p>
+      </caption>
+      <graphic xlink:href="nss-10-397Fig4"/>
+    </fig>
+    <table-wrap id="t1-nss-10-397" position="float">
+      <label>Table 1</label>
+      <caption>
+        <p>Demographics and ECG analysis across individual subjects</p>
+      </caption>
+      <table frame="box" rules="all">
+        <thead>
+          <tr>
+            <th valign="top" align="left" rowspan="1" colspan="1">Subject</th>
+            <th valign="top" align="left" rowspan="1" colspan="1">Age (years)</th>
+            <th valign="top" align="left" rowspan="1" colspan="1">M/F</th>
+            <th valign="top" align="left" rowspan="1" colspan="1">BMI</th>
+            <th valign="top" align="left" rowspan="1" colspan="1">Lead I readable %</th>
+            <th valign="top" align="left" rowspan="1" colspan="1">Lead I RMSE (bpm)</th>
+            <th valign="top" align="left" rowspan="1" colspan="1">Lead II readable %</th>
+            <th valign="top" align="left" rowspan="1" colspan="1">Lead II RMSE (bpm)</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td valign="top" align="left" rowspan="1" colspan="1">19P0907</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">67</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">M</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">35.1</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">47</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">5</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">93</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">2</td>
+          </tr>
+          <tr>
+            <td valign="top" align="left" rowspan="1" colspan="1">18P0907</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">42</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">M</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">24.9</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">72</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">3</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">13</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">2</td>
+          </tr>
+          <tr>
+            <td valign="top" align="left" rowspan="1" colspan="1">20P0907</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">52</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">M</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">27.9</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">95</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">3</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">27</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">2</td>
+          </tr>
+          <tr>
+            <td valign="top" align="left" rowspan="1" colspan="1">34P0907</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">53</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">M</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">33.7</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">39</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">6</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">55</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">1</td>
+          </tr>
+          <tr>
+            <td valign="top" align="left" rowspan="1" colspan="1">24P0907</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">70</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">M</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">24.1</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">91</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">4</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">61</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">5</td>
+          </tr>
+          <tr>
+            <td valign="top" align="left" rowspan="1" colspan="1">23P0907</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">62</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">M</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">30.2</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">88</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">4</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">81</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">4</td>
+          </tr>
+          <tr>
+            <td valign="top" align="left" rowspan="1" colspan="1">28P0907</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">60</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">M</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">29.1</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">85</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">4</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">86</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">14</td>
+          </tr>
+          <tr>
+            <td valign="top" align="left" rowspan="1" colspan="1">31P0907</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">33</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">F</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">19.7</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">50</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">6</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">81</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">7</td>
+          </tr>
+          <tr>
+            <td valign="top" align="left" rowspan="1" colspan="1">30P0907</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">58</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">M</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">34.5</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">81</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">2</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">22</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">N/A</td>
+          </tr>
+          <tr>
+            <td valign="top" align="left" rowspan="1" colspan="1">29P0907</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">57</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">F</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">32.9</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">21</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">3</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">98</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">2</td>
+          </tr>
+          <tr>
+            <td valign="top" align="left" rowspan="1" colspan="1">17P0907</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">21</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">M</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">25.9</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">63</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">5</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">77</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">14</td>
+          </tr>
+          <tr>
+            <td valign="top" align="left" rowspan="1" colspan="1">32P0907</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">51</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">F</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">34.6</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">47</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">10</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">67</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">2</td>
+          </tr>
+          <tr>
+            <td valign="top" align="left" rowspan="1" colspan="1">33P0907</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">27</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">F</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">28.5</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">95</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">2</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">60</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">2</td>
+          </tr>
+          <tr>
+            <td valign="top" align="left" rowspan="1" colspan="1">27P0907</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">67</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">F</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">38.3</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">17</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">4</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">53</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">21</td>
+          </tr>
+          <tr>
+            <td valign="top" align="left" rowspan="1" colspan="1">26P0907</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">72</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">F</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">29.3</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">51</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">21</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">90</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">1</td>
+          </tr>
+          <tr>
+            <td valign="top" align="left" rowspan="1" colspan="1">25P0907</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">67</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">M</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">25.1</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">75</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">4</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">44</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">3</td>
+          </tr>
+          <tr>
+            <td valign="top" align="left" rowspan="1" colspan="1">21P0907</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">61</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">M</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">28.0</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">46</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">2</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">89</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">3</td>
+          </tr>
+          <tr>
+            <td valign="top" align="left" rowspan="1" colspan="1">
+              <bold>Cohort</bold>
+            </td>
+            <td valign="top" align="left" rowspan="1" colspan="1">
+              <bold>54.12</bold>
+            </td>
+            <td valign="top" align="left" rowspan="1" colspan="1">11M<bold>/</bold>6F</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">
+              <bold>29.5</bold>
+            </td>
+            <td valign="top" align="left" rowspan="1" colspan="1">
+              <bold>61</bold>
+            </td>
+            <td valign="top" align="left" rowspan="1" colspan="1">
+              <bold>5</bold>
+            </td>
+            <td valign="top" align="left" rowspan="1" colspan="1">
+              <bold>67</bold>
+            </td>
+            <td valign="top" align="left" rowspan="1" colspan="1">
+              <bold>5</bold>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <table-wrap-foot>
+        <fn id="tfn1-nss-10-397">
+          <p><bold>Abbreviations:</bold> ECG, electrocardiography; M, male; F, female; BMI, body mass index; RMSE, root mean square error; bpm, beats per minute; N/A, not applicable.</p>
+        </fn>
+      </table-wrap-foot>
+    </table-wrap>
+    <table-wrap id="t2-nss-10-397" position="float">
+      <label>Table 2</label>
+      <caption>
+        <p>Demographics and respiration analysis across individual subjects</p>
+      </caption>
+      <table frame="box" rules="all">
+        <thead>
+          <tr>
+            <th valign="top" align="left" rowspan="1" colspan="1">Subject</th>
+            <th valign="top" align="left" rowspan="1" colspan="1">Age (years)</th>
+            <th valign="top" align="left" rowspan="1" colspan="1">M/F</th>
+            <th valign="top" align="left" rowspan="1" colspan="1">BMI</th>
+            <th valign="top" align="left" rowspan="1" colspan="1">Readable (% record)</th>
+            <th valign="top" align="left" rowspan="1" colspan="1">RMSE (min−<xref rid="b1-nss-10-397" ref-type="bibr">1</xref>)</th>
+            <th valign="top" align="left" rowspan="1" colspan="1">MAE (min−<xref rid="b1-nss-10-397" ref-type="bibr">1</xref>)</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td valign="top" align="left" rowspan="1" colspan="1">17P0907</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">21</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">M</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">25.9</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">78</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">1.59</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">0.21</td>
+          </tr>
+          <tr>
+            <td valign="top" align="left" rowspan="1" colspan="1">18P0907</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">42</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">M</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">24.9</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">79</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">1.61</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">0.23</td>
+          </tr>
+          <tr>
+            <td valign="top" align="left" rowspan="1" colspan="1">19P0907</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">67</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">M</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">35.0</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">71</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">2.87</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">0.61</td>
+          </tr>
+          <tr>
+            <td valign="top" align="left" rowspan="1" colspan="1">20P0907</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">52</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">M</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">27.9</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">80</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">1.58</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">0.06</td>
+          </tr>
+          <tr>
+            <td valign="top" align="left" rowspan="1" colspan="1">21P0907</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">61</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">M</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">28.0</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">70</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">1.22</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">0.26</td>
+          </tr>
+          <tr>
+            <td valign="top" align="left" rowspan="1" colspan="1">22P0907</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">60</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">M</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">22.4</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">72</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">2.60</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">0.75</td>
+          </tr>
+          <tr>
+            <td valign="top" align="left" rowspan="1" colspan="1">23P0907</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">62</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">M</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">30.2</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">71</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">1.38</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">0.03</td>
+          </tr>
+          <tr>
+            <td valign="top" align="left" rowspan="1" colspan="1">24P0907</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">70</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">M</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">24.1</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">62</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">2.25</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">0.40</td>
+          </tr>
+          <tr>
+            <td valign="top" align="left" rowspan="1" colspan="1">25P0907</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">67</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">M</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">25.1</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">69</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">1.53</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">0.64</td>
+          </tr>
+          <tr>
+            <td valign="top" align="left" rowspan="1" colspan="1">27P0907</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">67</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">F</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">38.3</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">51</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">2.95</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">0.04</td>
+          </tr>
+          <tr>
+            <td valign="top" align="left" rowspan="1" colspan="1">31P0907</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">33</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">F</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">19.7</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">81</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">2.06</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">0.04</td>
+          </tr>
+          <tr>
+            <td valign="top" align="left" rowspan="1" colspan="1">33P0907</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">27</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">F</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">28.5</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">76</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">1.76</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">0.02</td>
+          </tr>
+          <tr>
+            <td valign="top" align="left" rowspan="1" colspan="1">38P0907</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">73</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">M</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">30.0</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">77</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">0.92</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">0.04</td>
+          </tr>
+          <tr>
+            <td valign="top" align="left" rowspan="1" colspan="1">42P0907</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">28</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">F</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">39.3</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">79</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">1.99</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">0.42</td>
+          </tr>
+          <tr>
+            <td valign="top" align="left" rowspan="1" colspan="1">45P0907</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">56</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">F</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">20.4</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">88</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">1.30</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">0.13</td>
+          </tr>
+          <tr>
+            <td valign="top" align="left" rowspan="1" colspan="1">
+              <bold>Cohort</bold>
+            </td>
+            <td valign="top" align="left" rowspan="1" colspan="1">
+              <bold>52</bold>
+            </td>
+            <td valign="top" align="left" rowspan="1" colspan="1">
+              <bold>10M/5F</bold>
+            </td>
+            <td valign="top" align="left" rowspan="1" colspan="1">
+              <bold>28.0</bold>
+            </td>
+            <td valign="top" align="left" rowspan="1" colspan="1">
+              <bold>74</bold>
+            </td>
+            <td valign="top" align="left" rowspan="1" colspan="1">
+              <bold>1.84</bold>
+            </td>
+            <td valign="top" align="left" rowspan="1" colspan="1">
+              <bold>0.26</bold>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <table-wrap-foot>
+        <fn id="tfn2-nss-10-397">
+          <p><bold>Abbreviations:</bold> M, male; F, female; BMI, body mass index; RMSE, root mean square error; MAE, mean average error.</p>
+        </fn>
+      </table-wrap-foot>
+    </table-wrap>
+  </floats-group>
+</article>
+</pmc-articleset>

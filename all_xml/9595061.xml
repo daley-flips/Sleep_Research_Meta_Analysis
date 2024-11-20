@@ -1,0 +1,750 @@
+<pmc-articleset><article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" dtd-version="1.3" xml:lang="en" article-type="research-article">
+  <?properties open_access?>
+  <processing-meta base-tagset="archiving" mathml-version="3.0" table-model="xhtml" tagset-family="jats">
+    <restricted-by>pmc</restricted-by>
+  </processing-meta>
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="nlm-ta">Nat Sci Sleep</journal-id>
+      <journal-id journal-id-type="iso-abbrev">Nat Sci Sleep</journal-id>
+      <journal-id journal-id-type="publisher-id">nss</journal-id>
+      <journal-title-group>
+        <journal-title>Nature and Science of Sleep</journal-title>
+      </journal-title-group>
+      <issn pub-type="epub">1179-1608</issn>
+      <publisher>
+        <publisher-name>Dove</publisher-name>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="pmid">36304418</article-id>
+      <article-id pub-id-type="pmc">9595061</article-id>
+      <article-id pub-id-type="publisher-id">379888</article-id>
+      <article-id pub-id-type="doi">10.2147/NSS.S379888</article-id>
+      <article-categories>
+        <subj-group subj-group-type="heading">
+          <subject>Original Research</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>Machine Learning Analyses Reveal Circadian Features Predictive of Risk for Sleep Disturbance</article-title>
+        <alt-title alt-title-type="running-authors">Overton et al</alt-title>
+        <alt-title alt-title-type="running-title">Overton et al</alt-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Overton</surname>
+            <given-names>Rebeccah</given-names>
+          </name>
+          <xref rid="aff0001" ref-type="aff">
+<sup>1</sup>
+</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Zafar</surname>
+            <given-names>Aziz</given-names>
+          </name>
+          <xref rid="aff0001" ref-type="aff">
+<sup>1</sup>
+</xref>
+          <xref rid="aff0002" ref-type="aff">
+<sup>2</sup>
+</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Attia</surname>
+            <given-names>Ziad</given-names>
+          </name>
+          <xref rid="aff0001" ref-type="aff">
+<sup>1</sup>
+</xref>
+          <xref rid="aff0003" ref-type="aff">
+<sup>3</sup>
+</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Ay</surname>
+            <given-names>Ahmet</given-names>
+          </name>
+          <xref rid="aff0001" ref-type="aff">
+<sup>1</sup>
+</xref>
+          <xref rid="aff0002" ref-type="aff">
+<sup>2</sup>
+</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0002-4512-1549</contrib-id>
+          <name>
+            <surname>Ingram</surname>
+            <given-names>Krista K</given-names>
+          </name>
+          <xref rid="aff0001" ref-type="aff">
+<sup>1</sup>
+</xref>
+          <xref rid="an0001" ref-type="corresp"/>
+        </contrib>
+        <aff id="aff0001"><label>1</label><institution>Department of Biology, Colgate University</institution>, <addr-line>Hamilton</addr-line>, <addr-line>NY</addr-line>, <country>USA</country></aff>
+        <aff id="aff0002"><label>2</label><institution>Department of Mathematics, Colgate University</institution>, <addr-line>Hamilton</addr-line>, <addr-line>NY</addr-line>, <country>USA</country></aff>
+        <aff id="aff0003"><label>3</label><institution>Department of Computer Science, Colgate University</institution>, <addr-line>Hamilton</addr-line>, <addr-line>NY</addr-line>, <country>USA</country></aff>
+      </contrib-group>
+      <author-notes>
+        <corresp id="an0001">Correspondence: Krista K Ingram, Email kingram@colgate.edu</corresp>
+      </author-notes>
+      <pub-date pub-type="epub">
+        <day>21</day>
+        <month>10</month>
+        <year>2022</year>
+      </pub-date>
+      <pub-date pub-type="collection">
+        <year>2022</year>
+      </pub-date>
+      <volume>14</volume>
+      <fpage>1887</fpage>
+      <lpage>1900</lpage>
+      <history>
+        <date date-type="received">
+          <day>08</day>
+          <month>7</month>
+          <year>2022</year>
+        </date>
+        <date date-type="accepted">
+          <day>21</day>
+          <month>9</month>
+          <year>2022</year>
+        </date>
+      </history>
+      <permissions>
+        <copyright-statement>© 2022 Overton et al.</copyright-statement>
+        <copyright-year>2022</copyright-year>
+        <copyright-holder>Overton et al.</copyright-holder>
+        <license>
+          <ali:license_ref xmlns:ali="http://www.niso.org/schemas/ali/1.0/" specific-use="textmining" content-type="ccbynclicense">https://creativecommons.org/licenses/by-nc/3.0/</ali:license_ref>
+          <license-p>This work is published and licensed by Dove Medical Press Limited. The full terms of this license are available at <ext-link ext-link-type="uri" xlink:href="https://www.dovepress.com/terms.php">https://www.dovepress.com/terms.php</ext-link> and incorporate the Creative Commons Attribution – Non Commercial (unported, v3.0) License (<ext-link ext-link-type="uri" xlink:href="https://creativecommons.org/licenses/by-nc/3.0/">http://creativecommons.org/licenses/by-nc/3.0/</ext-link>). By accessing the work you hereby accept the Terms. Non-commercial uses of the work are permitted without any further permission from Dove Medical Press Limited, provided the work is properly attributed. For permission for commercial use of this work, please see paragraphs 4.2 and 5 of our Terms (<ext-link ext-link-type="uri" xlink:href="https://www.dovepress.com/terms.php">https://www.dovepress.com/terms.php</ext-link>).</license-p>
+        </license>
+      </permissions>
+      <abstract>
+        <sec sec-type="intro" id="s2001">
+          <title>Introduction</title>
+          <p>Sleep disturbances often co-occur with mood disorders, with poor sleep quality affecting over a quarter of the global population. Recent advances in sleep and circadian biology suggest poor sleep quality is linked to disruptions in circadian rhythms, including significant associations between sleep features and circadian clock gene variants.</p>
+        </sec>
+        <sec id="s2002">
+          <title>Methods</title>
+          <p>Here, we employ machine learning techniques, combined with statistical approaches, in a deeply phenotyped population to explore associations between clock genotypes, circadian phenotypes (diurnal preference and circadian phase), and risk for sleep disturbance symptoms.</p>
+        </sec>
+        <sec id="s2003">
+          <title>Results</title>
+          <p>As found in previous studies, evening chronotypes report high levels of sleep disturbance symptoms. Using molecular chronotyping by measuring circadian phase, we extend these findings and show that individuals with a mismatch between circadian phase and diurnal preference report higher levels of sleep disturbance. We also report novel synergistic interactions in genotype combinations of <italic toggle="yes">Period 3, Clock</italic> and <italic toggle="yes">Cryptochrome</italic> variants (PER3B (rs17031614)/ CRY1 (rs228716) and CLOCK3111 (rs1801260)/ CRY2 (rs10838524)) that yield strong associations with sleep disturbance, particularly in males.</p>
+        </sec>
+        <sec id="s2004">
+          <title>Conclusion</title>
+          <p>Our results indicate that both direct and indirect mechanisms may impact sleep quality; sex-specific clock genotype combinations predictive of sleep disturbance may represent direct effects of clock gene function on downstream pathways involved in sleep physiology. In addition, the mediation of clock gene effects on sleep disturbance indicates circadian influences on the quality of sleep. Unraveling the complex molecular mechanisms at the intersection of circadian and sleep physiology is vital for understanding how genetic and behavioral factors influencing circadian phenotypes impact sleep quality. Such studies provide potential targets for further study and inform efforts to improve non-invasive therapeutics for sleep disorders.</p>
+        </sec>
+      </abstract>
+      <kwd-group kwd-group-type="author">
+        <title>Keywords</title>
+        <kwd>circadian clock</kwd>
+        <kwd>chronotype</kwd>
+        <kwd>sleep disturbance</kwd>
+        <kwd>sleep quality</kwd>
+        <kwd>machine learning</kwd>
+        <kwd>circadian misalignment</kwd>
+      </kwd-group>
+      <funding-group>
+        <award-group>
+          <funding-source>
+<institution-wrap><institution>Colgate University Research Council and Picker Interdisciplinary Science Institute grants to KKI</institution></institution-wrap>
+</funding-source>
+        </award-group>
+        <funding-statement>Funding was provided by Colgate University Research Council and Picker Interdisciplinary Science Institute grants to KKI.</funding-statement>
+      </funding-group>
+      <counts>
+        <fig-count count="8"/>
+        <table-count count="1"/>
+        <ref-count count="64"/>
+        <page-count count="14"/>
+      </counts>
+    </article-meta>
+  </front>
+  <body>
+    <sec sec-type="intro" id="s0001">
+      <title>Introduction</title>
+      <p>Adequate regulation of sleep is important to both mental and physical human health yet sleep disturbances plague nearly one-quarter of the world’s population.<xref rid="cit0001" ref-type="bibr">1</xref> Disruptions in sleep can negatively impact productivity, lowering motivation and job performance, as well as the quality of life, impacting healthy relationships and general happiness.<xref rid="cit0002" ref-type="bibr">2</xref> Individuals who experience sleep disturbance and poor sleep efficiency are also more likely to suffer from mental health disorders, particularly major depressive disorder. A better understanding of the mechanisms underlying sleep disturbances is vital to providing better treatments and outcomes for individuals experiencing sleep disruptions and associated mood disorders. A complex interplay of factors influence why some individuals experience sleep disturbance more frequently than others. Recent advances in circadian and sleep science underscore the influence of the inernal circadian clock on sleep processes and propose both direct and indirect mechanisms for how circadian factors may intersect with sleep physiology.</p>
+      <p>There are two primary drivers of sleep regulation, the sleep homeostat (Process S) and the circadian rhythm (Process C) (<xref rid="f0001" ref-type="fig">Figure 1</xref>).<xref rid="cit0003" ref-type="bibr">3</xref> These two processes involve distinct mechanisms that control different aspects of the sleep-wake cycle. The sleep homeostat is the body’s drive for sleep. The drive builds during the day as our time awake increases and get stronger the longer we are awake. After a full night of sleep, the drive reaches its lowest point when we have no more need for sleep. The circadian clock is an endogenous oscillator in the suprachiasmatic nuclei in the brain that influences the timing of the sleep-wake cycle. These two processes of sleep regulation are continuously interacting but are regulated independently.<xref rid="cit0003" ref-type="bibr">3</xref>,<xref rid="cit0004" ref-type="bibr">4</xref> Many of the negative effects of sleep disturbance and sleep deprivation may be attributed to the mismatch between these two processes.
+<fig position="float" id="f0001" fig-type="figure"><label>Figure 1</label><caption><p>Dual processes controlling the sleep-wake cycle and potential mechanisms by which circadian mutations may influence sleep disturbance and related outcomes. Process S describes the sleep homeostat; the body’s drive for sleep builds during the day as our time awake increases and energy is expended. Sleep drive gets stronger the longer we are awake. After a full night of sleep, the drive reaches its lowest point when we have no more need for sleep. Process C describes the circadian rhythm—a self-sustained oscillator that influences the timing of the sleep-wake cycle. These two processes of sleep regulation are continuously interacting but are guided by independent mechanisms.</p></caption><graphic xlink:href="NSS-14-1887-g0001" content-type="print-only" position="float"/></fig></p>
+      <p>One leading factor in sleep disturbance is circadian misalignment—a mismatch between an individual’s endogenous circadian rhythms and their lifestyle. Internal circadian rhythms in the brain operate on a 24-hour cycle and are entrained every day by environmental factors such as temperature and exposure to light. These molecular rhythms interact with the sleep homeostat to regulate the sleep-wake cycle via transcription-translation feedback loops in core clock genes which, in turn, regulate associated transcription factors that promote or reduce sleep tendencies.<xref rid="cit0005" ref-type="bibr">5–7</xref> In mammals, core clock genes include the transcription factors CLOCK and BMAL1, which regulate the transcription of <italic toggle="yes">Period</italic> (<italic toggle="yes">Per1, Per2</italic>, and <italic toggle="yes">Per3</italic>) and <italic toggle="yes">Cryptochrome</italic> (<italic toggle="yes">Cry1</italic> and <italic toggle="yes">Cry2</italic>) complexes. In the negative loop, the protein products, PER and CRY dimerize in the cytoplasm and reenter the nucleus to inhibit E-box activation of the CLOCK:BMAL1 dimer.<xref rid="cit0008" ref-type="bibr">8</xref> In the alternate loop, <italic toggle="yes">Ror</italic> and <italic toggle="yes">Rev-erbα</italic>, are also regulated by the E-box, and their protein products control the rate of <italic toggle="yes">Bmal1</italic> transcription; slower transcription when REV-ERB<italic toggle="yes">α</italic> is bound and accelerated transcription when ROR is bound. The interaction of these dual feedback loops stabilizes circadian gene oscillations as well as associated downstream, clock-controlled processes. In humans, the misalignment of the circadian clock with behavioral timing can disrupt downstream regulation of the sleep-wake cycle which can lead to circadian rhythm sleep disorders such as delayed sleep phase disorder (DSPD).<xref rid="cit0009" ref-type="bibr">9</xref></p>
+      <p>Previous research on the human circadian/sleep homeostat interface has identified circadian genes directly involved in sleep homeostasis.<xref rid="cit0004" ref-type="bibr">4</xref>,<xref rid="cit0010" ref-type="bibr">10</xref>,<xref rid="cit0011" ref-type="bibr">11</xref> For example, a variable number of tandem repeat (VNTR) region of PER3 is associated with variance in homeostatic sleep pressure and sleep architecture.<xref rid="cit0003" ref-type="bibr">3</xref> Direct changes in the sleep homeostat can also result from altered light sensitivity which can be mediated by the function of ipRGC’s. These changes can be treated by directly targeting the ipRGC response via light therapy or melatonin supplements.<xref rid="cit0012" ref-type="bibr">12</xref>,<xref rid="cit0013" ref-type="bibr">13</xref> The interactions between sleep drive changes and circadian rhythms have also been well studied in mice and other rodents.<xref rid="cit0014" ref-type="bibr">14–16</xref> For example, sleep deprivation in hamsters attenuates phase shifts induced by light, suggesting that an increase in sleep drive reduces the circadian clock response to a zeitgeber, in this case, light.<xref rid="cit0020" ref-type="bibr">20</xref> Interestingly, attenuated phase advances were also found after sleep restriction in humans.<xref rid="cit0017" ref-type="bibr">17</xref> However, sleep disturbance can also be modulated by behavioral chronotypes via indirect pathways involving phase changes in the circadian clock. For example, Russo et al (2017) found that sleep problems occurring more than once a week or frequent struggling to fall asleep were much higher in evening type adolescents than morning types.<xref rid="cit0018" ref-type="bibr">18</xref> Collectively, these studies underscore the multiple potential links between the circadian clockwork and the sleep homeostat.</p>
+      <p>Mutations in core clock genes could thus affect sleep quality via direct effects (eg, sex-specific transcriptional regulation of downstream pathways) or via indirect effects (eg, mediation via behavioral and physiological rhythms driven by phase changes in circadian rhythms and circadian misalignment.<xref rid="cit0019" ref-type="bibr">19</xref> To better inform therapeutic sleep technologies, we need to determine which circadian clock gene mutations affect sleep quality and to understand the mechanisms by which these mutations influence sleep. To test for direct and indirect circadian-related mechanisms influencing sleep disturbance, we performed deep phenotypic analysis using the PROMIS sleep disturbance survey,<xref rid="cit0020" ref-type="bibr">20</xref> a well-established measure of diurnal preference, the Horne-Ostberg Morningness-Eveningness Questionnaire (MEQ)<xref rid="cit0021" ref-type="bibr">21</xref> and molecular chronotyping (via in-vivo gene expression analyses based on the phase of clock gene oscillations). We analyzed genotype associations with sleep disturbance using machine learning and statistical approaches to identify the effects of single and multiple circadian mutations and clinical features on sleep disturbance scores.</p>
+    </sec>
+    <sec id="s0002">
+      <title>Methods</title>
+      <sec id="s0002-s2001">
+        <title>Experimental Data Collection</title>
+        <p>Study participants were recruited from Colgate University and the community residing in Madison County, NY, USA (n = 982; males = 318, females = 664, ages 17–79; median = 19). Participants were predominantly Caucasians of European descent with less than 8% of respondents indicating a socioeconomic status of lower middle class or poor. Participants gave written informed consent, and all procedures followed the principles of the Declaration of Helsinki. The Institutional Review Board at Colgate University authorized all consent forms and procedures (#FR-F13-07, #ER-F14-12, #F15-13, and #ER-F16-19). The study population and similar methodologies were used in a previous study focused on circadian influences on anxiety.</p>
+      </sec>
+      <sec id="s0002-s2002">
+        <title>Self-Report Surveys</title>
+        <p>Participants completed computer-based surveys, including the short form of the Patient Reported Outcomes Measurement Information System (PROMIS™) Sleep Disturbance<xref rid="cit0020" ref-type="bibr">20</xref> and the Horne Östberg Morningness-Eveningness Questionnaire (MEQ) survey.<xref rid="cit0021" ref-type="bibr">21</xref> PROMIS scores indicate self-reported assessments of sleep disturbance, ranging from 0 to 40, with scores of 0–25 indicating “no or low sleep disturbance”, and 25–40 indicating “high sleep disturbance.” Twenty three percent of the sample population (55 (17%) males and 174 (26%) females) scored 25 or above on the PROMIS scale, indicating high sleep disturbance. The MEQ survey measures diurnal preference, with scores of &lt;41 representing evening-type preferences and scores &gt;59 representing morning-type preferences.</p>
+      </sec>
+      <sec id="s0002-s2003">
+        <title>Genotyping</title>
+        <p>DNA samples were obtained from ten to twenty hair follicles from each participant. Follicles were digested with Proteinase K at 56°C for 24-hours and purified using the Qiagen DNAeasy Micro Kit. Genotyping of single nucleotide polymorphisms (SNPs) was completed using a TaqMan SNP Genotyping assay (Applied Biosystems, Foster City, CA) on an ABI QuantStudio real-time qPCR instrument. A fragment length analysis of the PER3 VNTR length polymorphism repeat region was conducted using GeneScan software on an ABI 3100 sequencer using PCR fluorescent primers. The forward primer fluorescently labeled with 6-FAM was used with the following PCR primers: forward, 5’-CAAAATTTTA TGACACTACCAGAATGGCTGAC-3’, and reverse, 5’-AACC TTGTACTTCCACATCAGTGCCTGG-3’.<xref rid="cit0022" ref-type="bibr">22</xref> The PCR cycling conditions were 3 min at 94°C, followed by 35 cycles of 45 s at 94°C, 45 s at 58°C, and 45 s at 72°C, with a final step at 72°C for 3 min. Capillary electrophoresis on an ABI 3100 sequencer was used to separate and size bands using ABI ROX standards. The genotype of each participant was identified as PER3 4/4, PER3 4/5, or PER3 5/5.</p>
+      </sec>
+      <sec id="s0002-s2004">
+        <title>Molecular Chronotyping via Circadian Gene Expression Analysis</title>
+        <p>Ten to twenty additional hair follicles were collected at four different time points: 8 a.m., 4 p.m., 5 p.m., and 8 p.m.<xref rid="cit0023" ref-type="bibr">23</xref> We optimized the estimation of clock phase from four time points and two genes using Stochastic Ranking Evolution Strategy (SRES) methods in previous publications (methods in <underline><ext-link xlink:href="https://www.dovepress.com/get_supplementary_file.php?f=379888.docx" ext-link-type="uri">Supplementary File</ext-link></underline>) 24. All follicle samples were stored in RNAlater solution at −80°C prior to analysis. RNA was extracted and purified from hair follicles using the RNeasy Micro purification kit according to the protocol provided by Qiagen. The purified RNA was converted to cDNA using rt-PCR (TaqMan Gold rt-PCR, ABI) and quantified using Nanodrop. Expression levels of clock genes, PER3 and NR1D2, and control genes, GUSB and 18S, were measured in triplicate using rt-qPCR on an ABI QuantStudio instrument (Applied Biosystems). Relative mRNA levels were determined using the standard curve method and converted into z-scores per individual. The trained curve was fitted to the four data points of each subject using the parameter estimation method, Stochastic Ranking Evolutionary Strategy (SRES).<xref rid="cit0024" ref-type="bibr">24</xref> For phase shift estimation, the training curve was obtained from known intermediate types (n = 20; individuals not included in the current study but included in previous studies).<xref rid="cit0023" ref-type="bibr">23</xref> The phase difference between each subject’s curve and the training curve estimates the circadian phase shift of the individual.</p>
+      </sec>
+      <sec id="s0002-s2005">
+        <title>Feature Generation and Selection</title>
+        <p>Similar methodologies to those described below were used in a previous study on circadian influences on anxiety; for more information, see Zafar et al, 2022.<xref rid="cit0025" ref-type="bibr">25</xref></p>
+        <sec id="s0002-s2005-s3001">
+          <title>Genotypic and Clinical Features</title>
+          <p>We used seven genotypic features: CLOCK3111 (rs1801260), CRY1 (rs228716), CRY2 (rs10838524), PER2 (rs10462023), PER3A (rs228697), PER3B (rs17031614), and PER3 VNTR (rs57875989), and four behavioral/clinical features: diurnal preference scores, age (≤22 or &gt;22), gender, and socioeconomic status (poor, lower-middle-class, upper-middle-class, affluent). The seven, single nucleotide polymorphisms (SNPs) are circadian clock polymorphisms that have been reported previously in associations with sleep homeostasis and/or circadian phenotypes (diurnal preference/chronotype). To reduce multicollinearity, we performed one-hot encoding for non-binary features, removing the most frequent variant (as the baseline condition). We created 2-way genotypic combinations using the seven genes and their respective variants, giving us 7C2 * 9 total features. The most frequent class was removed for each group of 9 combinations and treated as a reference category for a combined data set of 174 total features for analysis.</p>
+        </sec>
+        <sec id="s0002-s2005-s3002">
+          <title>Feature Selection</title>
+          <p>We used four feature selection methods (each method ten times with ten-fold cross-validation) to find epistatic combinations predictive of mood disorders: InfoGain (IG), ReliefF (ReF), Minimum Redundancy Maximum Relevance (MRMR) and Joint Mutual Information (JMI).<xref rid="cit0025" ref-type="bibr">25–28</xref> A subset of robust features was used for in-depth statistical analysis. A feature was considered robust if it appeared in 95% of the runs for a certain feature selection method and in at least three out of the four feature selection methods.</p>
+        </sec>
+        <sec id="s0002-s2005-s3003">
+          <title>Classifiers</title>
+          <p>We modeled the relationship between risk factors and sleep disturbance using three classifiers: Random Forests (RF), XGBoost (XGB), and Support Vector Machines (SVM).<xref rid="cit0029" ref-type="bibr">29–31</xref> We evaluated the performance of our classifiers using accuracy scores and the area under the receiver operating characteristic (AUROC) curves. We used preliminary testing to determine an appropriate range of hyperparameters for each classifier and employed grid searching to determine the optimal combination of hyperparameters for maximizing accuracy. We used stratified tenfold cross-validation to determine each model’s generalizability. We performed the k-nearest neighbors’ imputation to fill in missing values for each fold.<xref rid="cit0032" ref-type="bibr">32</xref> We repeated the cross-validation procedure ten times to ensure robust results, each time using a different random number generator seed.</p>
+        </sec>
+      </sec>
+      <sec id="s0002-s2006">
+        <title>SMOTE Analysis</title>
+        <p>We employed Synthetic Minority Oversampling (SMOTE) technique to increase model accuracy by balancing our unbalanced dataset (with k (nearest neighbor) = 5).<xref rid="cit0033" ref-type="bibr">33</xref> We performed our analysis with and without SMOTE and then reported the balanced dataset results.</p>
+      </sec>
+      <sec id="s0002-s2007">
+        <title>Statistical Analyses</title>
+        <p>All statistical analyses were performed using R.<xref rid="cit0034" ref-type="bibr">34</xref> We performed logistic regression analysis on each feature individually, keeping one-hot encoded features grouped together for the regression. We performed multivariate logistic regressions using Akaike Information Criterion (AIC) and Bayesian Information Criterion (BIC), employing a sequential replacement method to identify subsets of features with low multicollinearity and strong association with the target variable.<xref rid="cit0035" ref-type="bibr">35</xref> We adjust p-values from the regression analyses using the Benjamini–Hochberg method.<xref rid="cit0036" ref-type="bibr">36</xref> We used mediation analysis to determine whether MEQ scores were statistically significant mediators between genotypic and clinical factors and mood disorders using the R package mediate.<xref rid="cit0037" ref-type="bibr">37</xref> We created heatmaps illustrating patterns of association between diurnal preference and sleep disturbance using Fisher’s exact tests. To identify sex-specific differences in the average PROMIS Sleep Disturbance scores for different two-way gene combinations, we used the car library in R to conduct a Type-3 Sum of Squares two-way ANOVA.<xref rid="cit0038" ref-type="bibr">38</xref> Tukey’s follow-up tests on significant factors were performed using the emmeans library. The normality of data was assessed by Shapiro–Wilk’s test in R.</p>
+        <p>We performed association rule learning analysis using the arules package.<xref rid="cit0039" ref-type="bibr">39</xref> We limited our analysis to rules of size at most six, with at least 90% confidence. For each sex, we found rules that code for both categories of the target variable and then sorted them by their respective lift values. We visualized these relationships in sex-specific network plots, using the igraph library.<xref rid="cit0040" ref-type="bibr">40</xref></p>
+        <p>We used the Algorithm for the Reconstruction of Gene Regulatory Networks (ARACNE) to create gene networks of direct and indirect interactions between genes, clinical features, MEQ, and mood disorders using mutual information.<xref rid="cit0041" ref-type="bibr">41</xref> We used the minet package in R to create the network and then plotted it using Rgraphviz.<xref rid="cit0042" ref-type="bibr">42</xref> We employed bootstrapping to determine the frequency (ie, confidence level) with which each link in the network appears.</p>
+      </sec>
+    </sec>
+    <sec id="s0003">
+      <title>Results</title>
+      <sec id="s0003-s2001">
+        <title>Diurnal Preference (MEQ) and Misalignment are Strongly Associated with Sleep Disturbance</title>
+        <p>In this young adult population, we found an overall average sleep disturbance score of 20.68 (SD = 5.91), with 25% of individuals reporting sleep disturbance (n = 227). There was a significant difference in sleep disturbance scores between chronotypes (F(2856)=15.82, p = 0.004) with evening-types reporting higher sleep disturbance scores (Dunn post-hoc analysis, adj.p&lt;0.001). In addition, a heat map of significant Fisher exact tests reveals that evening-type individuals (low MEQ scores) have significantly higher high sleep disturbance scores relative to morning-type individuals (high MEQ scores) (<xref rid="f0002" ref-type="fig">Figure 2</xref>). Additionally, after further separation according to sex females with higher MEQ scores indicative of morning preference were strongly associated with low sleep disturbance scores (<underline><ext-link xlink:href="https://www.dovepress.com/get_supplementary_file.php?f=379888.docx" ext-link-type="uri">Supplementary Figure 1A</ext-link></underline>). While males with lower MEQ scores indicative of evening preference are associated with higher sleep disturbance scores (<underline><ext-link xlink:href="https://www.dovepress.com/get_supplementary_file.php?f=379888.docx" ext-link-type="uri">Supplementary Figure 1B</ext-link></underline>).
+<fig position="float" id="f0002" fig-type="figure"><label>Figure 2</label><caption><p>Heat Map of Sleep Disturbance Scores and Diurnal Preference (MEQ). Higher MEQ scores indicative of morning preferences are strongly associated with low sleep disturbance scores and lower MEQ scores indicative of evening preference are associated with higher sleep disturbance scores. The heatmaps were made using Fisher’s Exact Test at varying cutoff levels for both dependent and independent variables. Fisher’s Exact Test shows significant association between high sleep disturbance scores (25+) and evening type individuals (MEQ&lt;41). The p-values obtained from the analysis were log-transformed (base 10).</p></caption><graphic xlink:href="NSS-14-1887-g0002" content-type="print-only" position="float"/></fig></p>
+        <p>Using in-vivo expression analyses to estimate the phase of circadian rhythms (a proxy for misalignment), we found that the relative risk of sleep disturbance was 4.6 times higher if an individual had a delayed phase vs advanced phase, but this risk estimate was not significant (<xref rid="f0003" ref-type="fig">Figure 3</xref>; OR = 4.667 (0.5538–39.3242), p = 0.1566; RR = 4.6). Individuals with advanced phases and a morning chronotype had significantly lower sleep disturbance scores than individuals, on average (one sample T = 4.03; df = 15, p = 0.007).
+<fig position="float" id="f0003" fig-type="figure"><label>Figure 3</label><caption><p>Circadian misalignment predictive of sleep disturbance. Approximately 25% of our sample size reported sleep disturbance with average sleep disturbance score of 20.68 (SD=5.91, SE=0.195). Advanced-morning types have significantly lower sleep disturbance scores than the average (p=0.007). The odds of sleep disturbance tended to be approximately 4.7 times higher if an individual was delayed vs advanced in their chronotype (OR=4.667 (0.5538–39.3242), p=0.157). There was a significant difference in sleep disturbance scores between ET and MT groups for which we had molecular chronotypes (F(1,63)=4.63, p=0.035). Average PROMIS sleep disturbance scores for the population sample is denoted by the red dashed line.</p></caption><graphic xlink:href="NSS-14-1887-g0003" content-type="print-only" position="float"/></fig></p>
+        <p>Our network analysis using ARACNE depicting the interactions between genotypes, clinical features, and sleep disturbance shows that all features share information with diurnal preference (MEQ), which acts as a mediator (<xref rid="f0004" ref-type="fig">Figure 4</xref>).
+<fig position="float" id="f0004" fig-type="figure"><label>Figure 4</label><caption><p>MEQ acts as a mediator between genotypic and clinical characteristics and human sleep disturbance. The network is constructed using the ARACNE method in conjunction with the mi-empirical method and bootstrapping. All links with bootstrap support greater than 50% are shown. MEQ mediates all associations with sleep disturbance.</p></caption><graphic xlink:href="NSS-14-1887-g0004" content-type="print-only" position="float"/></fig></p>
+      </sec>
+      <sec id="s0003-s2002">
+        <title>Two Way-Genotypic Combinations Can Be Predictive or Protective of Sleep Disturbance</title>
+        <p>RF, SVM, and XGB classifiers predicted sleep disturbance symptoms with an accuracy of 61–71% using all or a subset of genotypic and clinical factors chosen by feature selection methods (<xref rid="f0005" ref-type="fig">Figure 5</xref>). The XGB method achieves the highest accuracy (71%) when all features are used. However, if sixty features selected using the JMI method are used, a similar accuracy level (69.9%) can also be obtained using XGB and RF classifiers. These accuracy levels are 19–21% more accurate than random chance in our balanced dataset, which has a baseline accuracy of 50%.
+<fig position="float" id="f0005" fig-type="figure"><label>Figure 5</label><caption><p>Heat map of prediction accuracy for feature selection and classifier methods. Our analyses yielded up to 19.9% higher prediction accuracy than baseline (50%) on a balanced data set using top features.</p></caption><graphic xlink:href="NSS-14-1887-g0005" content-type="print-only" position="float"/></fig></p>
+        <p>Multivariate logistic regression analysis of the top features revealed that two-genotype combinations predicted a more robust risk of sleep disturbance symptoms when compared to single gene variants (<xref rid="t0001" ref-type="table">Table 1</xref>). In the overall dataset, individuals with the <italic toggle="yes">CLOCK3111</italic>-TC and <italic toggle="yes">CRY2</italic>AG genotype had nearly three times the risk of sleep disturbance. Average sleep disturbance scores in <italic toggle="yes">CLOCK3111</italic>-TC/<italic toggle="yes">CRY2</italic>AG individuals were significantly higher than scores from individuals of other CLOCK/CRY2 genotypes (OR = 2.58 (1.38–4.88), p = 0.041). Average sleep disturbance scores for individuals with <italic toggle="yes">CLOCK3111</italic>_TC and <italic toggle="yes">CRY2</italic>_AG were higher for both males and females (males: 23.6 ± 1.4; females 24.5 ± 0.88) than for individuals with other genotypes (males: 20.0 ± 0.59; females 21.2 ± 0.35) (<xref rid="f0006" ref-type="fig">Figure 6</xref>; genotype F(1463) = 15.94, p &lt; 0.001; gender F(1463) = 1.30, p = 0.254; genotype by gender F(1463)=0.018, p &lt; 0.89). Females with the <italic toggle="yes">CLOCK3111</italic>_TC and <italic toggle="yes">CRY2</italic>_AG genotypes have significantly higher sleep disturbance scores than females with other genotypes (p = 0.002) and males with other genotypes (p &lt; 0.001). The combination of <italic toggle="yes">CLOCK3111</italic>_TT and <italic toggle="yes">CRY1</italic>_CC also significantly increased the odds of sleep disturbance symptoms (OR = 2.69 (1.29–5.69), p = 0.054).<table-wrap position="float" id="t0001"><label>Table 1</label><caption><p>Risk Factors for Sleep Disturbance Symptoms</p></caption><table frame="hsides" rules="groups"><thead><tr><th rowspan="1" colspan="1">Variable</th><th rowspan="1" colspan="1">Odds Ratio</th><th rowspan="1" colspan="1">95% CI</th><th rowspan="1" colspan="1">Adj. P</th></tr></thead><tbody><tr><td rowspan="1" colspan="1">CLOCK3111_TC/CRY2_AG</td><td rowspan="1" colspan="1">2.58</td><td rowspan="1" colspan="1">1.38–4.88</td><td rowspan="1" colspan="1">0.041*</td></tr><tr><td rowspan="1" colspan="1">CLOCK3111_TT/CRY1_CC</td><td rowspan="1" colspan="1">2.69</td><td rowspan="1" colspan="1">1.29–5.69</td><td rowspan="1" colspan="1">0.054</td></tr><tr><td rowspan="1" colspan="1">PER3B_AG/CRY1_CC</td><td rowspan="1" colspan="1">0.09</td><td rowspan="1" colspan="1">0.00–0.59</td><td align="center" rowspan="1" colspan="1">0.091<sup>†</sup></td></tr><tr><td rowspan="1" colspan="1">SOCIOSTATUS</td><td rowspan="1" colspan="1">0.26</td><td rowspan="1" colspan="1">0.36–0.94</td><td rowspan="1" colspan="1">0.091</td></tr></tbody></table><table-wrap-foot><fn id="tfn0001"><p><bold>Notes</bold>: *p-value &lt;0.05; <sup>†</sup>genotype combination has a significant interaction between gender and genotype (<xref rid="f0007" ref-type="fig">Figure 7</xref>; genotype F(1430)=2.123, p=0.146, genotype F(1430)=3.03, p=0.083 genotype by gender F(1430)=5.05, p=0.025). Results from a multivariate logistic regression model based on top-ranked selected features identify two-way gene combinations and one demographic feature, sociostatus, that are strongly associated with sleep disturbance symptoms.</p></fn></table-wrap-foot></table-wrap>
+<fig position="float" id="f0006" fig-type="figure"><label>Figure 6</label><caption><p>Genotype combination of CLOCK3111_TC and CRY2_AG predictive of sleep disturbance in humans. (<bold>A</bold>) Sleep disturbance scores (±SD), measured using the self-reported Patient Reported Outcomes Measurement Information System (PROMIS™) Sleep Disturbance instrument, for males and females with the <italic toggle="yes">CLOCK3111</italic>_TC and <italic toggle="yes">CRY2</italic>_AG genotype. Average sleep disturbance scores were higher for both males and females with <italic toggle="yes">CLOCK3111</italic>_TC and <italic toggle="yes">CRY2</italic>_AG (males: 23.6 ±1.4; females 24.5±0.88) than for individuals with other genotypes (males: 20.0 ±0.59; females 21.2±0.35; two-way ANOVA: genotype F(1463)=15.94, p&lt;0.001; gender F(1463)=1.30, p=0.254; genotype by gender F(1463)=0.018, p&lt;0.89)). (<bold>B</bold>) Females with the <italic toggle="yes">CLOCK3111</italic>_TC and <italic toggle="yes">CRY2</italic>_AG genotypes have significantly higher sleep disturbance scores than females with other genotypes (p=0.002) and males with other genotypes (p&lt;0.001).</p></caption><graphic xlink:href="NSS-14-1887-g0006" content-type="print-only" position="float"/></fig>
+<fig position="float" id="f0007" fig-type="figure"><label>Figure 7</label><caption><p>Genotype combination of PER3B_AG and CRY1_CG show significant interaction effect. (<bold>A</bold>) Sleep disturbance scores (±SD), measured using the self-reported Patient Reported Outcomes Measurement Information System (PROMIS™) Sleep Disturbance instrument, for males and females with a combination <italic toggle="yes">PER3B</italic>_AG and <italic toggle="yes">CRY1</italic>_CG genotype. Sleep disturbance scores reveal a significant gender-by-genotype interaction (genotype F(1430)=2.123, p=0.146; gender F(1430)=3.03, p=0.083; genotype by gender F(1430)=5.05, p=0.025). (<bold>B</bold>) The highest average sleep disturbance score was reported in males with the <italic toggle="yes">PER3B</italic>_AG and <italic toggle="yes">CRY1</italic>_CG genotypes (27.2±2.72), with a single male of genotype <italic toggle="yes">PER3B</italic>_AA/<italic toggle="yes">CRY1</italic>_CG recording the highest individual sleep disturbance score (34.2).</p></caption><graphic xlink:href="NSS-14-1887-g0007" content-type="print-only" position="float"/></fig></p>
+        <p>Individuals with the PER3B_AG and CRY1_CC genotypes are eleven times more protected from sleep disturbance. Average sleep disturbance scores in PER3B_AG/CRY1_CC individuals were significantly lower than scores from individuals of other PER3B/CRY1 genotypes (OR = 11.11 (0.00–0.591), p = 0.091; <xref rid="t0001" ref-type="table">Table 1</xref>). In the large data set, the highest sleep disturbance score was reported in males with the <italic toggle="yes">PER3B</italic>_AG and <italic toggle="yes">CRY1</italic>_CG genotypes (27.2 ± 2.72) with a significant interaction between the effects of gender and genotype on sleep disturbance (<xref rid="f0007" ref-type="fig">Figure 7</xref>; genotype F(1430) = 2.123, p = 0.146, genotype F(1430) = 3.03, p = 0.083 genotype by gender F(1430) = 5.05, p = 0.025).</p>
+        <p>The association rule learning results identified additional genotypes and clinical feature combinations that were predictors of sleep disturbance for males and females. For females, the most frequently appearing genotypes in the top predictors of sleep disturbance were <italic toggle="yes">PER3B</italic>-GG, <italic toggle="yes">CLOCK311</italic>-TC, <italic toggle="yes">CRY2</italic>-AG, <italic toggle="yes">PER2</italic>-AG, with age and MEQ being important clinical features (<xref rid="f0008" ref-type="fig">Figure 8A</xref>). <italic toggle="yes">CLOCK311</italic>-TC and <italic toggle="yes">CRY2</italic>-AG were frequently found together without mediation by MEQ. For males, several features were supported by significant lift and frequency values, with no robust co-occurrence of predictive features (<xref rid="f0008" ref-type="fig">Figure 8B</xref>).
+<fig position="float" id="f0008" fig-type="figure"><label>Figure 8</label><caption><p>Association rules networks for sleep disturbance. (<bold>A</bold>) In females, <italic toggle="yes">CLOCK311</italic>-TC and <italic toggle="yes">CRY2</italic>-AG co-occurred most frequently with no mediation via MEQ. <italic toggle="yes">PER3B</italic>-GG and age had the highest average lift (&gt;1.45) in the analysis. (<bold>B</bold>)) In males, no robust co-occurrence across genotypic and clinical features was found, although average lift values were higher for males than females.</p></caption><graphic xlink:href="NSS-14-1887-g0008" content-type="print-only" position="float"/></fig></p>
+      </sec>
+    </sec>
+    <sec id="s0004">
+      <title>Discussion</title>
+      <p>Growing evidence suggests that disruptions in circadian rhythms impact sleep quality and negatively affect both mental and physical health. Previous research on the role of circadian clock gene mutations on sleep disturbance have focused on GWAS or PheWAS studies that have the advantage of large sample sizes and statistical power, but such studies are limited due to weak phenotyping capabilities and the difficulty in analyzing two or more genotype combinations with large datasets. Using a machine learning approach to explore associations between circadian genes and sleep disturbance in a deeply phenotyped population sample, we report three findings: 1) chronotype and circadian misalignment are strong predictors of self-reported sleep disturbance, 2) synergistic interactions in genotype combinations of <italic toggle="yes">Period 3, Clock</italic> and <italic toggle="yes">Cryptochrome</italic> variants (PER3B (rs17031614)/ CRY1 (rs228716) and CLOCK3111 (rs1801260)/CRY2 (rs10838524)) yield strong associations with sleep disturbance, and 3) clock genotypes predictive of sleep disturbance risk tend to have sex-specific effects. Our results suggest that circadian clock gene variants may have both indirect (circadian clock-mediated) and direct (sex-specific mediated) effects on sleep disturbance.</p>
+      <sec id="s0004-s2001">
+        <title>Association of Sleep Disturbance with Diurnal Preference and Circadian Misalignment</title>
+        <p>Our results show that high levels of self-reported sleep disturbance are strongly associated with low MEQ scores and evening-type diurnal preferences. A potential explanation for the association between diurnal preference and sleep quality is the influence of circadian misalignment on physiological regulation of sleep drive. Individuals with extreme diurnal preference are more likely to encounter misalignment between their physiological circadian rhythms and their sleep-wake patterns. In the current study, the participants were primarily undergraduates encountering a college lifestyle; evening-type individuals may be inclined to stay up even later due to social and academic pressures but are also compelled to wake up early to attend classes or athletic training. To further test whether increased sleep disturbance and eveningness could result from circadian misalignment, we examined the circadian phase of a subset of participants and identified participants with a mismatch between their self-reported diurnal preference and their circadian phase. As expected, individuals with delayed phases and evening chronotypes were significantly more sleep disturbed than other individuals. Interestingly, evening-type individuals with advanced phases were significantly more sleep disturbed than individuals with advanced phases and morning chronotypes. Individuals with both an advanced phase and morning chronotype experienced significantly less sleep disturbance than other individuals. Overall, our results confirm that eveningness is strongly associated with sleep disturbance and suggest that circadian misalignment may be an additional contributing factor to sleep disruption.</p>
+        <p>In addition, our network analysis reveals that all effects of circadian mutations on sleep disturbance tested in this study (as well as clinical factors) are mediated via diurnal preference scores. Connections between diurnal preference or chronotype and circadian-related genes have been reported numerous times in the literature.<xref rid="cit0043" ref-type="bibr">43–47</xref> One of the most robust connections involves the circadian clock gene, <italic toggle="yes">Per3</italic>. Several studies have reported that the longer allele of the PER3 VNTR polymorphism (rs57875989) is associated with morning-types.<xref rid="cit0004" ref-type="bibr">4</xref>,<xref rid="cit0024" ref-type="bibr">24</xref>,<xref rid="cit0046" ref-type="bibr">46</xref>,<xref rid="cit0048" ref-type="bibr">48–52</xref> Archer et al (2003) also found that found that prevalence of DSPD in individuals with the 5-repeat allele was low.<xref rid="cit0043" ref-type="bibr">43</xref> In other studies, associations between PER3 VNTR variants and diurnal preference are less clear. For example, Turco et al (2017) found no significant association between the length polymorphism (rs57875989)<xref rid="cit0048" ref-type="bibr">48</xref> and diurnal preference. Overall, there is ample evidence that diurnal preferences in some populations are mediated by circadian gene mutations and these circadian phenotypes can be associated with sleep disturbance.</p>
+      </sec>
+      <sec id="s0004-s2002">
+        <title>Circadian Genotypes Predictive of Sleep Disturbance</title>
+        <p>Using feature selection methods, we identified multiple genotype combinations of two or more gene variants that provide robust predictions of sleep disturbance risk; the predictive value of these genotype combinations is higher than any predictive value for single variants (<xref rid="t0001" ref-type="table">Table 1</xref>). Using multivariate regression, we found that participants that were heterozygous for variants in CLOCK (TC) and CRY2 (AG) genes had nearly three times the risk of sleep disturbance relative to individuals of other CLOCK/CRY2 genotypes and double homozygous individuals with CLOCK (TT) and CRY1 (CC) genotypes have a similar risk of sleep disturbance, although this association is only significant at adjusted alpha level of 0.1. Our results suggest that that synergistic effects of multiple mutations in the molecular clockwork may directly or indirectly modulate physiological pathways associated with sleep disturbance.</p>
+        <p>In the primary circadian feedback loop, the CRY genes work in the retina as light-independent inhibitors of the CLOCK/BMAL heterodimers.<xref rid="cit0053" ref-type="bibr">53</xref> These genes feedback to inhibit CLOCK/BMAL activity to eventually suppress their own expression.<xref rid="cit0054" ref-type="bibr">54</xref> The CRY1 variant (rs2287161) SNP is located downstream from the CRY1 polyadenylation site, suggesting that other regulatory features are involved in the modulation of CRY1 gene expression. In previous studies, CRY1 has been linked to both depression and disruptions in sleep regulation.<xref rid="cit0055" ref-type="bibr">55–57</xref> Wisor et al (2002) found that mice without CRY1 or CRY2 exhibited high non-REM (eg, quiet, non-dreaming, quiescent state) sleep drive, suggesting cryptochrome genes influence the homeostatic regulation of sleep.<xref rid="cit0058" ref-type="bibr">58</xref> This condition was also associated with high mRNA levels of PER1 and PER2 which are normally inhibited by CRY1/CRY2 in the CLOCK/BMAL negative feedback loop.<xref rid="cit0058" ref-type="bibr">58</xref> In humans, Patke et al (2017) discovered a link between a familial delayed sleep phase disorder (DSPD) and a hereditary dominant, gain of function variant in CRY1. This mutation enhances the function of CRY1, causing reduced expression of specific transcriptional targets and a lengthening of the circadian period, leading to DSPD symptoms such as delayed sleep onset and offset times.<xref rid="cit0009" ref-type="bibr">9</xref></p>
+        <p>Previous studies of circadian influences on mental health reveal multiple associations of the CRY2 (rs10838524) polymorphism with mood disorders, including associations with dysthymia, winter depression and Type I bipolar disorder.<xref rid="cit0059" ref-type="bibr">59–61</xref> The diverse associations between a single CRY2 polymorphism and mood underscores the potential links between circadian clock genes and physiological pathways central to mental health. Because mood disorders are often co-morbid with sleep disorders, it is possible that CRY2 may play a role in mediating pathways affecting sleep disorders as well. Interestingly, a study of bipolar patients by Lavebratt and colleagues (2010) revealed marked differences in CRY2 mRNA levels in control participants relative to bipolar participants following one night of sleep deprivation.<xref rid="cit0060" ref-type="bibr">60</xref> These results suggest that dysregulation of CRY2 may be linked to physiological changes caused by sleep deprivation. Collectively, these findings suggest that cryptochrome genes play a role in both circadian and sleep regulation.</p>
+        <p>In our study, individuals with a PER3B (AG)/CRY1 (CC) genotype were 11 times more likely to be protected from sleep disturbance, although the association was only significant with an adjusted alpha value of 0.1. Interestingly, the negative association of PER3B (AG) and CRY1 (CC) with sleep disturbance in our study is driven by genotype–gender interactions in males and this effect is completely mediated by diurnal preference. This suggests that circadian features may indirectly influence sleep quality in males with the PER3B-CRY1 (AG-CC/CG) genotype. The PER3 gene has been implicated in sleep architecture and circadian rhythm disruptions in previous studies.<xref rid="cit0004" ref-type="bibr">4</xref>,<xref rid="cit0010" ref-type="bibr">10</xref>,<xref rid="cit0046" ref-type="bibr">46–49</xref> Most importantly, researchers have found that links between PER3 polymorphisms, diurnal preference, and mood provide evidence for the “phase-shift hypothesis” which supports that some depressive symptoms in humans can be linked to a misalignment of the circadian phase with the sleep-wake cycle.<xref rid="cit0047" ref-type="bibr">47</xref> A seminal study identified two missense variations in PER3 (PER3-P415A/H417R) in humans with familial advanced sleep phase disorder (FASPD) which are also associated with elevated Beck Depression Inventory (BDI) and seasonality scores indicative of seasonal affective disorder (SAD).<xref rid="cit0062" ref-type="bibr">62</xref> Additional experiments on these mutations in mice resulted in mice with delayed circadian phases in short photoperiods and longer durations of wheel-running activity in constant light. Further experiments suggested that the products of PER3-P415A/H417R variants effectively reduce the stabilization of PER1 and PER2, leading to the observed changes in phase and lengths of circadian rhythms.<xref rid="cit0062" ref-type="bibr">62</xref></p>
+        <p>The <italic toggle="yes">Per3</italic> gene has also been linked to sleep phenotypes, independently of circadian rhythms.<xref rid="cit0003" ref-type="bibr">3</xref> One interesting finding in our study is the lack of association between the PER3 variable number of tandem repeat region (VNTR; rs57875989) and measures of sleep disturbance. This length polymorphism has been associated with altered responses to sleep loss and gene expression in pathways involved in sleep homeostasis in mice,<xref rid="cit0060" ref-type="bibr">60</xref> as well as sleep architecture in humans.<xref rid="cit0004" ref-type="bibr">4</xref>,<xref rid="cit0010" ref-type="bibr">10</xref>,<xref rid="cit0022" ref-type="bibr">22</xref>,<xref rid="cit0043" ref-type="bibr">43</xref> For example, Lazar et al (2012) found morning preference, earlier wake time and bedtime, and reduced daytime sleepiness was associated with the longer VNTR allele (PER3<sup>5/5</sup>).<xref rid="cit0052" ref-type="bibr">52</xref> This length polymorphism has also been associated with both sleep duration and depressive symptoms, suggesting that PER3 may be involved in the regulation of both sleep homeostasis and mood pathways in humans.<xref rid="cit0011" ref-type="bibr">11</xref>,<xref rid="cit0043" ref-type="bibr">43</xref>,<xref rid="cit0047" ref-type="bibr">47</xref>,<xref rid="cit0048" ref-type="bibr">48</xref> In our study, we expected that we might find the PER3 VNTR polymorphism to be predictive of sleep disturbance values, but we did not uncover significant predictions of risk or protection from risk associated with PER3 VNTR genotypes. It is possible that larger sample sizes are required to identify effects of PER3 VNTR on sleep disturbance—or that sleep structure, but not necessarily sleep quality is affected by variants of this gene.</p>
+      </sec>
+      <sec id="s0004-s2003">
+        <title>Sex-Specific Circadian Genotype Associations with Sleep Quality</title>
+        <p>In addition to the significant genotype-by-gender interaction in the PER3B/CRY1 results, our network analyses showed clear differences between males and females in genotype risk factors for sleep disturbance. For females, the most frequently appearing genotypes in the top predictors of sleep disturbance were <italic toggle="yes">PER3B</italic>-GG, <italic toggle="yes">CLOCK3111</italic>-TC, <italic toggle="yes">CRY2</italic>-AG, and <italic toggle="yes">PER2</italic>-AG, with age and MEQ being important clinical features. Our multivariate regression analysis provided strong evidence that individuals with both <italic toggle="yes">CLOCK3111</italic>-TC and <italic toggle="yes">CRY2</italic>-AG genotypes were more likely to report sleep disturbance. For males, a number of features were supported by significant lift and frequency values, with no single predictive features stand out. Average lifts were higher for all of the top rules for males relative to females, but co-occurrence was more widely distributed across the genotypes and clinical characteristics. Previously, Shi et al (2016) revealed that some variants in circadian clock-related genes are associated with major depressive disorder (MDD) in a sex dependent manner.<xref rid="cit0063" ref-type="bibr">63</xref> After a sex-stratified analyses they identified two variants CLOCK (rs1801260) and NPAS2 (rs34705978) that were significantly associated with MDD in only one gender. The CLOCK polymorphism was significantly associated with MDD in males (P = 0.028) and not females.<xref rid="cit0063" ref-type="bibr">63</xref> In our study, the CLOCK genotype TC is significantly associated with sleep disturbance in the population when found in combination with the CRY2 AG genotype. However, our collective analyses reveal a stronger association for this genotypic combination with sleep disturbance in females. Thus, the effects of CLOCK mutations may be mediated through sex-dependent pathways in conjunction with or independent of core clock pathways. Further studies are needed to understand the sex-dependent effects of circadian clock genes on sleep architecture and features, to fully understand this difference.</p>
+      </sec>
+    </sec>
+    <sec id="s0005">
+      <title>Limitations</title>
+      <p>The limitations of the current study include the study of a large number of features in the machine learning analyses using a relatively limited sample size.<xref rid="cit0064" ref-type="bibr">64</xref> We did not study, and thus could not remove the confounding variables of environmentally induced sleep disturbance and alcohol and drug use, although we did remove individuals that use melatonin supplements from the population sample. Our population sample includes primarily young adult Caucasians of European descent, which limits the generalization of our findings to more diverse populations. In addition, the average sleep disturbance scores in the study indicate that many young adults in this sample do not experience severe sleep disturbance which may limit the generalization of the findings to older or younger populations. Future studies should assess the precision of our analyses, including our risk factor predictors and top features analyses, using an independent population. Our study is limited outcomes reporting associations between sleep disturbance and particular genotypes or circadian phenotypes; future studies should use this information to further understand causal connections between these variables and how potential therapeutic targets could alleviate sleep distress in humans.</p>
+    </sec>
+    <sec id="s0006">
+      <title>Conclusion</title>
+      <p>Using a machine learning approach to study the association between circadian clock genes, diurnal preference, and clinical factors with sleep disturbance, our study reveals both direct and indirect, via mediation by circadian phenotypes, effects of circadian clockwork on self-reported sleep quality. Our results support the conclusions that chronotype and circadian misalignment are strong predictors of self-reported sleep disturbance. In addition, we report novel synergistic interactions between clock gene variants that yield strong associations with sleep disturbance and these associations tend to be sex-specific. Our results show evidence for circadian influences on sleep quality, but the role of circadian genes in regulating sleep factors is at a nascent stage. Understanding how clock genes and circadian features influence sleep quality has the potential to reveal clinical targets and other forms of therapy that may help alleviate sleep disturbance.</p>
+    </sec>
+  </body>
+  <back>
+    <sec id="s0007">
+      <title>Data Sharing Statement</title>
+      <p>All data and coding software are available on Github: <underline><ext-link xlink:href="https://github.com/aziz-zafar/Mood-Disorder" ext-link-type="uri">https://github.com/aziz-zafar/Mood-Disorder</ext-link></underline>.</p>
+    </sec>
+    <sec sec-type="COI-statement" id="s0008">
+      <title>Disclosure</title>
+      <p>The authors declare no competing interests.</p>
+    </sec>
+    <ref-list>
+      <title>References</title>
+      <ref id="cit0001">
+        <label>1.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Fang</surname>
+<given-names>H</given-names></string-name>, <string-name><surname>Tu</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Sheng</surname>
+<given-names>J</given-names></string-name>, <string-name><surname>Shao</surname>
+<given-names>A</given-names></string-name>. <article-title>Depression in sleep disturbance: a review on a bidirectional relationship, mechanisms and treatment</article-title>. <source><italic toggle="yes">J Cell Mol Med</italic></source>. <year>2019</year>;<volume>23</volume>(<issue>4</issue>):<fpage>2324</fpage>–<lpage>2332</lpage>. doi:<pub-id pub-id-type="doi">10.1111/jcmm.14170</pub-id><pub-id pub-id-type="pmid">30734486</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0002">
+        <label>2.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Utge</surname>
+<given-names>SJ</given-names></string-name>, <string-name><surname>Soronen</surname>
+<given-names>P</given-names></string-name>, <string-name><surname>Loukola</surname>
+<given-names>A</given-names></string-name>, et al. <article-title>Systematic analysis of circadian genes in a population-based sample reveals association of TIMELESS with depression and sleep disturbance</article-title>. <source><italic toggle="yes">PLoS One</italic></source>. <year>2010</year>;<volume>5</volume>(<issue>2</issue>):<fpage>e9259</fpage>. doi:<pub-id pub-id-type="doi">10.1371/journal.pone.0009259</pub-id><pub-id pub-id-type="pmid">20174623</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0003">
+        <label>3.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Borbély</surname>
+<given-names>AA</given-names></string-name>, <string-name><surname>Daan</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Wirz-Justice</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Deboer</surname>
+<given-names>T</given-names></string-name>. <article-title>The two-process model of sleep regulation: a reappraisal</article-title>. <source><italic toggle="yes">J Sleep Res</italic></source>. <year>2016</year>;<volume>25</volume>(<issue>2</issue>):<fpage>131</fpage>–<lpage>143</lpage>. doi:<pub-id pub-id-type="doi">10.1111/jsr.12371</pub-id><pub-id pub-id-type="pmid">26762182</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0004">
+        <label>4.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Dijk</surname>
+<given-names>DJ</given-names></string-name>, <string-name><surname>Archer</surname>
+<given-names>SN</given-names></string-name>. <article-title>PERIOD3, circadian phenotypes, and sleep homeostasis</article-title>. <source><italic toggle="yes">Sleep Med Rev</italic></source>. <year>2010</year>;<volume>14</volume>(<issue>3</issue>):<fpage>151</fpage>–<lpage>160</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.smrv.2009.07.002</pub-id><pub-id pub-id-type="pmid">19716732</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0005">
+        <label>5.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Evans</surname>
+<given-names>JA</given-names></string-name>, <string-name><surname>Pan</surname>
+<given-names>H</given-names></string-name>, <string-name><surname>Liu</surname>
+<given-names>AC</given-names></string-name>, <string-name><surname>Welsh</surname>
+<given-names>DK</given-names></string-name>. <article-title>Cry1-/- circadian rhythmicity depends on SCN intercellular coupling</article-title>. <source><italic toggle="yes">J Biol Rhythms</italic></source>. <year>2012</year>;<volume>27</volume>(<issue>6</issue>):<fpage>443</fpage>–<lpage>452</lpage>. doi:<pub-id pub-id-type="doi">10.1177/0748730412461246</pub-id><pub-id pub-id-type="pmid">23223370</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0006">
+        <label>6.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Walker</surname>
+<given-names>WH</given-names></string-name>, <string-name><surname>Walton</surname>
+<given-names>JC</given-names></string-name>, <string-name><surname>DeVries</surname>
+<given-names>AC</given-names></string-name>, <string-name><surname>Nelson</surname>
+<given-names>RJ</given-names></string-name>. <article-title>Circadian rhythm disruption and mental health</article-title>. <source><italic toggle="yes">Transl Psychiatry</italic></source>. <year>2020</year>;<volume>10</volume>(<issue>1</issue>). doi:<pub-id pub-id-type="doi">10.1038/S41398-020-0694-0</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0007">
+        <label>7.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Jagannath</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Taylor</surname>
+<given-names>L</given-names></string-name>, <string-name><surname>Wakaf</surname>
+<given-names>Z</given-names></string-name>, <string-name><surname>Vasudevan</surname>
+<given-names>SR</given-names></string-name>, <string-name><surname>Foster</surname>
+<given-names>RG</given-names></string-name>. <article-title>The genetics of circadian rhythms, sleep and health</article-title>. <source><italic toggle="yes">Hum Mol Genet</italic></source>. <year>2017</year>;<volume>26</volume>(<issue>R2</issue>):<fpage>R128</fpage>–<lpage>R138</lpage>. doi:<pub-id pub-id-type="doi">10.1093/hmg/ddx240</pub-id><pub-id pub-id-type="pmid">28977444</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0008">
+        <label>8.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Reppert</surname>
+<given-names>SM</given-names></string-name>, <string-name><surname>Weaver</surname>
+<given-names>DR</given-names></string-name>. <article-title>Coordination of circadian timing in mammals</article-title>. <source><italic toggle="yes">Nature</italic></source>. <year>2002</year>;<volume>418</volume>(<issue>6901</issue>):<fpage>935</fpage>–<lpage>941</lpage>. doi:<pub-id pub-id-type="doi">10.1038/nature00965</pub-id><pub-id pub-id-type="pmid">12198538</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0009">
+        <label>9.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Patke</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Murphy</surname>
+<given-names>PJ</given-names></string-name>, <string-name><surname>Onat</surname>
+<given-names>OE</given-names></string-name>, et al. <article-title>Mutation of the Human Circadian Clock Gene CRY1 in Familial Delayed Sleep Phase Disorder</article-title>. <source><italic toggle="yes">Cell</italic></source>. <year>2017</year>;<volume>169</volume>(<issue>2</issue>):<fpage>203</fpage>–<lpage>215.e13</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.cell.2017.03.027</pub-id><pub-id pub-id-type="pmid">28388406</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0010">
+        <label>10.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Archer</surname>
+<given-names>SN</given-names></string-name>, <string-name><surname>Schmidt</surname>
+<given-names>C</given-names></string-name>, <string-name><surname>Vandewalle</surname>
+<given-names>G</given-names></string-name>, <string-name><surname>Dijk</surname>
+<given-names>DJ</given-names></string-name>. <article-title>Phenotyping of PER3 variants reveals widespread effects on circadian preference, sleep regulation, and health</article-title>. <source><italic toggle="yes">Sleep Med Rev</italic></source>. <year>2018</year>;<volume>40</volume>:<fpage>109</fpage>–<lpage>126</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.smrv.2017.10.008</pub-id><pub-id pub-id-type="pmid">29248294</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0011">
+        <label>11.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Weiss</surname>
+<given-names>C</given-names></string-name>, <string-name><surname>Woods</surname>
+<given-names>K</given-names></string-name>, <string-name><surname>Filipowicz</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Ingram</surname>
+<given-names>KK</given-names></string-name>. <article-title>Sleep Quality, Sleep Structure, and PER3 Genotype Mediate Chronotype Effects on Depressive Symptoms in Young Adults</article-title>. <source><italic toggle="yes">Front Psychol</italic></source>. <year>2020</year>;<volume>11</volume>(<issue>August</issue>):<fpage>1</fpage>–<lpage>11</lpage>. doi:<pub-id pub-id-type="doi">10.3389/fpsyg.2020.02028</pub-id><pub-id pub-id-type="pmid">32038435</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0012">
+        <label>12.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Duffy</surname>
+<given-names>JF</given-names></string-name>, <string-name><surname>Abbott</surname>
+<given-names>SM</given-names></string-name>, <string-name><surname>Burgess</surname>
+<given-names>HJ</given-names></string-name>, et al. <article-title>Circadian rhythm sleep-wake disorders: gaps and opportunities</article-title>. <source><italic toggle="yes">Sleep</italic></source>. <year>2021</year>;<volume>44</volume>(<issue>5</issue>):<fpage>1</fpage>–<lpage>15</lpage>. doi:<pub-id pub-id-type="doi">10.1093/sleep/zsaa281</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0013">
+        <label>13.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Chellappa</surname>
+<given-names>SL</given-names></string-name>. <article-title>Individual differences in light sensitivity affect sleep and circadian rhythms</article-title>. <source><italic toggle="yes">Sleep</italic></source>. <year>2021</year>;<volume>44</volume>(<issue>2</issue>):<fpage>1</fpage>–<lpage>10</lpage>. doi:<pub-id pub-id-type="doi">10.1093/sleep/zsaa214</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0014">
+        <label>14.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Challet</surname>
+<given-names>E</given-names></string-name>, <string-name><surname>Caldelas</surname>
+<given-names>I</given-names></string-name>, <string-name><surname>Graff</surname>
+<given-names>C</given-names></string-name>, <string-name><surname>Pévet</surname>
+<given-names>P</given-names></string-name>. <article-title>Regulation of Molecular Oscillations in Extra- SCN Brain and Peripheral Oscillators</article-title>. <source><italic toggle="yes">Acta Physiol</italic></source>. <year>2003</year>;<volume>384</volume>:<fpage>711</fpage>–<lpage>719</lpage>. doi:<pub-id pub-id-type="doi">10.1515/BC.2003.079</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0015">
+        <label>15.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Mistlberger</surname>
+<given-names>RE</given-names></string-name>, <string-name><surname>Landry</surname>
+<given-names>GJ</given-names></string-name>, <string-name><surname>Marchant</surname>
+<given-names>EG</given-names></string-name>. <article-title>Sleep deprivation can attenuate light-induced phase shifts of circadian rhythms in hamsters</article-title>. <source><italic toggle="yes">Neurosci Lett</italic></source>. <year>1997</year>;<volume>238</volume>(<issue>1–2</issue>):<fpage>5</fpage>–<lpage>8</lpage>. doi:<pub-id pub-id-type="doi">10.1016/s0304-3940(97)</pub-id><pub-id pub-id-type="pmid">9464641</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0016">
+        <label>16.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>van Diepen</surname>
+<given-names>HC</given-names></string-name>, <string-name><surname>Lucassen</surname>
+<given-names>EA</given-names></string-name>, <string-name><surname>Yasenkov</surname>
+<given-names>R</given-names></string-name>, et al. <article-title>Caffeine increases light responsiveness of the mouse circadian pacemaker</article-title>. <source><italic toggle="yes">Eur J Neurosci</italic></source>. <year>2014</year>;<volume>40</volume>(<issue>10</issue>):<fpage>3504</fpage>–<lpage>3511</lpage>. doi:<pub-id pub-id-type="doi">10.1111/ejn.12715</pub-id><pub-id pub-id-type="pmid">25196050</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0017">
+        <label>17.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Bottaro</surname>
+<given-names>LB</given-names></string-name>. <article-title>Partial sleep deprivation reduces phase advances to light in humans</article-title>. <source><italic toggle="yes">J Biol Rhythms</italic></source>. <year>2010</year>;<volume>25</volume>(<issue>6</issue>):<fpage>460</fpage>–<lpage>468</lpage>. doi:<pub-id pub-id-type="doi">10.1177/0748730410385544.Partial</pub-id><pub-id pub-id-type="pmid">21135162</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0018">
+        <label>18.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Russo</surname>
+<given-names>PM</given-names></string-name>, <string-name><surname>Biasi</surname>
+<given-names>V</given-names></string-name>, <string-name><surname>Cipolli</surname>
+<given-names>C</given-names></string-name>, <string-name><surname>Mallia</surname>
+<given-names>L</given-names></string-name>, <string-name><surname>Caponera</surname>
+<given-names>E</given-names></string-name>. <article-title>Sleep habits, circadian preference, and school performance in early adolescents</article-title>. <source><italic toggle="yes">Sleep Med</italic></source>. <year>2017</year>;<volume>29</volume>:<fpage>20</fpage>–<lpage>22</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.sleep.2016.09.019</pub-id><pub-id pub-id-type="pmid">28153210</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0019">
+        <label>19.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Albrecht</surname>
+<given-names>U</given-names></string-name>. <article-title>Molecular mechanisms in mood regulation involving the circadian clock</article-title>. <source><italic toggle="yes">Front Neurol</italic></source>. <year>2017</year>;<volume>8</volume>(<issue>FEB</issue>). doi:<pub-id pub-id-type="doi">10.3389/fneur.2017.00030</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0020">
+        <label>20.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Yu</surname>
+<given-names>L</given-names></string-name>, <string-name><surname>Buysse</surname>
+<given-names>DJ</given-names></string-name>, <string-name><surname>Germain</surname>
+<given-names>A</given-names></string-name>, et al. <article-title>Development of Short Forms From the PROMISTM Sleep Disturbance and Sleep-Related Impairment Item Banks</article-title>. <source><italic toggle="yes">Behav Sleep Med</italic></source>. <year>2012</year>;<volume>10</volume>(<issue>1</issue>):<fpage>6</fpage>–<lpage>24</lpage>. doi:<pub-id pub-id-type="doi">10.1080/15402002.2012.636266</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0021">
+        <label>21.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Horne</surname>
+<given-names>JA</given-names></string-name>, <string-name><surname>Ostberg</surname>
+<given-names>O</given-names></string-name>. <article-title>A self-assessment questionnaire to determine morningness-eveningness in human circadian rhythms</article-title>. <source><italic toggle="yes">Int J Chronobiol</italic></source>. <year>1976</year>;<volume>4</volume>(<issue>2</issue>):<fpage>97</fpage>–<lpage>110</lpage>.<pub-id pub-id-type="pmid">1027738</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0022">
+        <label>22.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Ebisawa</surname>
+<given-names>T</given-names></string-name>, <string-name><surname>Uchiyama</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Kajimura</surname>
+<given-names>N</given-names></string-name>, et al. <article-title>Association of structural polymorphisms in the human period3 gene with delayed sleep phase syndrome</article-title>. <source><italic toggle="yes">EMBO Rep</italic></source>. <year>2001</year>;<volume>2</volume>(<issue>4</issue>):<fpage>342</fpage>–<lpage>346</lpage>. doi:<pub-id pub-id-type="doi">10.1093/embo-reports/kve070</pub-id><pub-id pub-id-type="pmid">11306557</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0023">
+        <label>23.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Nguyen</surname>
+<given-names>C</given-names></string-name>, <string-name><surname>Murray</surname>
+<given-names>G</given-names></string-name>, <string-name><surname>Anderson</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Filipowicz</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Ingram</surname>
+<given-names>KK</given-names></string-name>. <article-title>In vivo molecular chronotyping, circadian misalignment, and high rates of depression in young adults</article-title>. <source><italic toggle="yes">J Affect Disord</italic></source>. <year>2019</year>;<volume>250</volume>:<fpage>425</fpage>–<lpage>431</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.jad.2019.03.050</pub-id><pub-id pub-id-type="pmid">30878655</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0024">
+        <label>24.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Liberman</surname>
+<given-names>AR</given-names></string-name>, <string-name><surname>Kwon</surname>
+<given-names>SB</given-names></string-name>, <string-name><surname>Vu</surname>
+<given-names>HT</given-names></string-name>, <string-name><surname>Filipowicz</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Ay</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Ingram</surname>
+<given-names>KK</given-names></string-name>. <article-title>Circadian Clock Model Supports Molecular Link between PER3 and Human Anxiety</article-title>. <source><italic toggle="yes">Sci Rep</italic></source>. <year>2017</year>;<volume>7</volume>(<issue>1</issue>):<fpage>1</fpage>–<lpage>10</lpage>. doi:<pub-id pub-id-type="doi">10.1038/s41598-017-07957-4</pub-id><pub-id pub-id-type="pmid">28127051</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0025">
+        <label>25.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Quinlan</surname>
+<given-names>JR</given-names></string-name>, <string-name><surname>Quinlan</surname>
+<given-names>JR</given-names></string-name>. <article-title>Induction of decision trees</article-title>. <source><italic toggle="yes">Mach Learn</italic></source>. <year>1986</year>;<volume>1</volume>:<fpage>81</fpage>–<lpage>106</lpage>. doi:<pub-id pub-id-type="doi">10.1007/BF00116251</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0026">
+        <label>26.</label>
+        <mixed-citation publication-type="confproc"><string-name><surname>Robnik-Sikonja</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Kononenko</surname>
+<given-names>I</given-names></string-name>
+<article-title>An Adaptation of Relief for Attribute Estimation in Regression</article-title>. In: <conf-name>Proceedings of the Fourteenth International Conference on Machine Learning. ICML ’97</conf-name>. <publisher-name>Morgan Kaufmann Publishers Inc</publisher-name>; <year>1997</year>:<fpage>296</fpage>–<lpage>304</lpage>.</mixed-citation>
+      </ref>
+      <ref id="cit0027">
+        <label>27.</label>
+        <mixed-citation publication-type="confproc"><string-name><surname>Ding</surname>
+<given-names>C</given-names></string-name>, <string-name><surname>Peng</surname>
+<given-names>H</given-names></string-name>
+<article-title>Minimum redundancy feature selection from microarray gene expression data</article-title>. In: <conf-name>Computational Systems Bioinformatics. CSB2003. Proceedings of the 2003 IEEE Bioinformatics Conference. CSB2003</conf-name>; <year>2003</year>: <fpage>523</fpage>–<lpage>528</lpage>. doi:<pub-id pub-id-type="doi">10.1109/CSB.2003.1227396</pub-id>.</mixed-citation>
+      </ref>
+      <ref id="cit0028">
+        <label>28.</label>
+        <mixed-citation publication-type="newspaper"><string-name><surname>Yang</surname>
+<given-names>HH</given-names></string-name>, <string-name><surname>Moody</surname>
+<given-names>JE</given-names></string-name>
+<source>Feature Selection Based on Joint Mutual Information</source>. <year>1999</year>.</mixed-citation>
+      </ref>
+      <ref id="cit0029">
+        <label>29.</label>
+        <mixed-citation publication-type="confproc"><string-name><surname>Boser</surname>
+<given-names>BE</given-names></string-name>, <string-name><surname>Guyon</surname>
+<given-names>I</given-names></string-name>, <string-name><surname>Vapnik</surname>
+<given-names>VN</given-names></string-name>
+<article-title>A training algorithm for optimal margin classifiers</article-title>. In: <conf-name>COLT ’92</conf-name>; <year>1992</year>.</mixed-citation>
+      </ref>
+      <ref id="cit0030">
+        <label>30.</label>
+        <mixed-citation publication-type="confproc"><string-name><surname>Chen</surname>
+<given-names>T</given-names></string-name>, <string-name><surname>Guestrin</surname>
+<given-names>C</given-names></string-name>
+<article-title>XGBoost: a Scalable Tree Boosting System</article-title>. In: <conf-name>Proceedings of the 22nd ACM SIGKDD International Conference on Knowledge Discovery and Data Mining. KDD ’16</conf-name>. <publisher-name>Association for Computing Machinery</publisher-name>; <year>2016</year>:<fpage>785</fpage>–<lpage>794</lpage>. doi:<pub-id pub-id-type="doi">10.1145/2939672.2939785</pub-id>.</mixed-citation>
+      </ref>
+      <ref id="cit0031">
+        <label>31.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Statistics</surname>
+<given-names>LB</given-names></string-name>, <string-name><surname>Breiman</surname>
+<given-names>L</given-names></string-name>. <article-title>Random Forests</article-title>. <source><italic toggle="yes">Mach Learn</italic></source>. <year>2001</year>;<volume>1</volume>;<fpage>5</fpage>–<lpage>32</lpage>.</mixed-citation>
+      </ref>
+      <ref id="cit0032">
+        <label>32.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Fukunaga</surname>
+<given-names>K</given-names></string-name>. <article-title>The Optimal Distance Measure for Nearest Neighbor Classification</article-title>. <source><italic toggle="yes">IEEE Trans Inf Theory</italic></source>. <year>1981</year>;<volume>27</volume>(<issue>5</issue>):<fpage>622</fpage>–<lpage>627</lpage>. doi:<pub-id pub-id-type="doi">10.1109/TIT.1981.1056403</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0033">
+        <label>33.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Chawla</surname>
+<given-names>N</given-names></string-name>, <string-name><surname>Bowyer</surname>
+<given-names>KW</given-names></string-name>, <string-name><surname>Hall</surname>
+<given-names>LO</given-names></string-name>, <string-name><surname>Kegelmeyer</surname>
+<given-names>WP</given-names></string-name>. <article-title>SMOTE: synthetic Minority over-Sampling Technique</article-title>. <source><italic toggle="yes">J Artif Int Res</italic></source>. <year>2002</year>;<volume>16</volume>(<issue>1</issue>):<fpage>321</fpage>–<lpage>357</lpage>.</mixed-citation>
+      </ref>
+      <ref id="cit0034">
+        <label>34.</label>
+        <mixed-citation publication-type="webpage"><collab>R Core Team</collab>. <article-title>R: a Language and Environment for Statistical Computing</article-title>; <year>2020</year>. <comment>Available from:</comment>
+<ext-link xlink:href="https://www.r-project.org/" ext-link-type="uri">https://www.r-project.org/</ext-link>. <date-in-citation>Accessed <month>October</month>
+<day>13</day>, 2022</date-in-citation>.</mixed-citation>
+      </ref>
+      <ref id="cit0035">
+        <label>35.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Bozdogan</surname>
+<given-names>H</given-names></string-name>. <article-title>Model selection and Akaike’s Information Criterion (AIC): the general theory and its analytical extensions</article-title>. <source><italic toggle="yes">Psychometrika</italic></source>. <year>1987</year>;<volume>52</volume>(<issue>3</issue>):<fpage>345</fpage>–<lpage>370</lpage>. doi:<pub-id pub-id-type="doi">10.1007/BF02294361</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0036">
+        <label>36.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Benjamini</surname>
+<given-names>Y</given-names></string-name>, <string-name><surname>Hochberg</surname>
+<given-names>Y</given-names></string-name>. <article-title>Controlling the false discovery rate: a practical and powerful approach to multiple testing</article-title>. <source><italic toggle="yes">J Royal Statistical Soc</italic></source>. <year>1995</year>;<volume>57</volume>(<issue>1</issue>):<fpage>289</fpage>–<lpage>300</lpage>. doi:<pub-id pub-id-type="doi">10.1111/J.2517-6161.1995.TB02031.X</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0037">
+        <label>37.</label>
+        <mixed-citation publication-type="book"><string-name><surname>Imai</surname>
+<given-names>K</given-names></string-name>, <string-name><surname>Keele</surname>
+<given-names>L</given-names></string-name>, <string-name><surname>Tingley</surname>
+<given-names>D</given-names></string-name>, <string-name><surname>Yamamoto</surname>
+<given-names>T</given-names></string-name>. <part-title>Causal Mediation Analysis Using R</part-title>. In: <string-name><surname>Vinod</surname>
+<given-names>HD</given-names></string-name>, editor. <source><italic toggle="yes">Advances in Social Science Research Using R</italic></source>. <publisher-name>Springer-Verlag</publisher-name>; <year>2010</year>.</mixed-citation>
+      </ref>
+      <ref id="cit0038">
+        <label>38.</label>
+        <mixed-citation publication-type="book"><string-name><surname>Fox</surname>
+<given-names>J</given-names></string-name>, <string-name><surname>Weisberg</surname>
+<given-names>S</given-names></string-name>
+<article-title>An {R} Companion to Applied Regression</article-title>. <publisher-name>Sage</publisher-name>; <year>2019</year>. <comment>Available from:</comment>
+<ext-link xlink:href="https://socialsciences.mcmaster.ca/jfox/Books/Companion/" ext-link-type="uri">https://socialsciences.mcmaster.ca/jfox/Books/Companion/</ext-link>. <date-in-citation>Accessed <month>October</month>
+<day>13</day>, 2022</date-in-citation>.</mixed-citation>
+      </ref>
+      <ref id="cit0039">
+        <label>39.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Hahsler</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Chelluboina</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Hornik</surname>
+<given-names>K</given-names></string-name>, <string-name><surname>Buchta</surname>
+<given-names>C</given-names></string-name>. <article-title>The arules R-Package Ecosystem: analyzing Interesting Patterns from Large Transaction Datasets</article-title>. <source><italic toggle="yes">J Mach Learn Res</italic></source>. <year>2011</year>;<volume>12</volume>:<fpage>1977</fpage>–<lpage>1981</lpage>.</mixed-citation>
+      </ref>
+      <ref id="cit0040">
+        <label>40.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Csardi</surname>
+<given-names>G</given-names></string-name>, <string-name><surname>Nepusz</surname>
+<given-names>T</given-names></string-name>. <article-title>The igraph software package for complex network research</article-title>. <source><italic toggle="yes">InterJournal</italic></source>. <year>2006</year>;<volume>1</volume>;<fpage>1695</fpage>.</mixed-citation>
+      </ref>
+      <ref id="cit0041">
+        <label>41.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Margolin</surname>
+<given-names>AA</given-names></string-name>, <string-name><surname>Nemenman</surname>
+<given-names>I</given-names></string-name>, <string-name><surname>Basso</surname>
+<given-names>K</given-names></string-name>, et al. <article-title>ARACNE: an Algorithm for the Reconstruction of Gene Regulatory Networks in a Mammalian Cellular Context</article-title>. <source><italic toggle="yes">BMC Bioinform</italic></source>. <year>2006</year>;<volume>7</volume>(<issue>1</issue>):<fpage>1</fpage>–<lpage>15</lpage>. doi:<pub-id pub-id-type="doi">10.1186/1471-2105-7-S1-S7</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0042">
+        <label>42.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Meyer</surname>
+<given-names>PE</given-names></string-name>, <string-name><surname>Lafitte</surname>
+<given-names>F</given-names></string-name>, <string-name><surname>Bontempi</surname>
+<given-names>G</given-names></string-name>. <article-title>MINET: an open source R/Bioconductor Package for Mutual Information based Network Inference</article-title>. <source><italic toggle="yes">BMC Bioinform</italic></source>. <year>2008</year>;<fpage>9</fpage>. doi:<pub-id pub-id-type="doi">10.1186/1471-2105-9-9</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0043">
+        <label>43.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Archer</surname>
+<given-names>SN</given-names></string-name>, <string-name><surname>Robilliard</surname>
+<given-names>DL</given-names></string-name>, <string-name><surname>Skene</surname>
+<given-names>DJ</given-names></string-name>, et al. <article-title>A length polymorphism in the circadian clock gene Per3 is linked to delayed sleep phase syndrome and extreme diurnal preference</article-title>. <source><italic toggle="yes">Sleep</italic></source>. <year>2003</year>;<volume>26</volume>(<issue>4</issue>):<fpage>413</fpage>–<lpage>415</lpage>. doi:<pub-id pub-id-type="doi">10.1093/sleep/26.4.413</pub-id><pub-id pub-id-type="pmid">12841365</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0044">
+        <label>44.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Partonen</surname>
+<given-names>T</given-names></string-name>, <string-name><surname>Treutlein</surname>
+<given-names>J</given-names></string-name>, <string-name><surname>Alpman</surname>
+<given-names>A</given-names></string-name>, et al. <article-title>Three circadian clock genes Per2, Arntl, and Npas2 contribute to winter depression</article-title>. <source><italic toggle="yes">Ann Med</italic></source>. <year>2007</year>;<volume>39</volume>(<issue>3</issue>):<fpage>229</fpage>–<lpage>238</lpage>. doi:<pub-id pub-id-type="doi">10.1080/07853890701278795</pub-id><pub-id pub-id-type="pmid">17457720</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0045">
+        <label>45.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Zhang</surname>
+<given-names>L</given-names></string-name>, <string-name><surname>Hirano</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Hsu</surname>
+<given-names>PK</given-names></string-name>, et al. <article-title>A PERIOD3 variant causes a circadian phenotype and is associated with a seasonal mood trait</article-title>. <source><italic toggle="yes">Proc Natl Acad Sci U S A</italic></source>. <year>2016</year>;<volume>113</volume>(<issue>11</issue>):<fpage>E1536</fpage>–<lpage>E1544</lpage>. doi:<pub-id pub-id-type="doi">10.1073/pnas.1600039113</pub-id><pub-id pub-id-type="pmid">26903630</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0046">
+        <label>46.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Hida</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Kitamura</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Katayose</surname>
+<given-names>Y</given-names></string-name>, et al. <article-title>Screening of clock gene polymorphisms demonstrates association of a PER3 polymorphism with morningness-eveningness preference and circadian rhythm sleep disorder</article-title>. <source><italic toggle="yes">Sci Rep</italic></source>. <year>2014</year>;<volume>4</volume>:<fpage>6309</fpage>. doi:<pub-id pub-id-type="doi">10.1038/srep06309</pub-id><pub-id pub-id-type="pmid">25201053</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0047">
+        <label>47.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Liberman</surname>
+<given-names>AR</given-names></string-name>, <string-name><surname>Halitjaha</surname>
+<given-names>L</given-names></string-name>, <string-name><surname>Ay</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Ingram</surname>
+<given-names>KK</given-names></string-name>. <article-title>Modeling Strengthens Molecular Link between Circadian Polymorphisms and Major Mood Disorders</article-title>. <source><italic toggle="yes">J Biol Rhythms</italic></source>. <year>2018</year>;<volume>33</volume>(<issue>3</issue>):<fpage>318</fpage>–<lpage>336</lpage>. doi:<pub-id pub-id-type="doi">10.1177/0748730418764540</pub-id><pub-id pub-id-type="pmid">29614896</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0048">
+        <label>48.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Turco</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Biscontin</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Corrias</surname>
+<given-names>M</given-names></string-name>, et al. <article-title>Diurnal preference, mood and the response to morning light in relation to polymorphisms in the human clock gene PER3</article-title>. <source><italic toggle="yes">Sci Rep</italic></source>. <year>2017</year>;<volume>7</volume>(<issue>1</issue>):<fpage>1</fpage>–<lpage>10</lpage>. doi:<pub-id pub-id-type="doi">10.1038/s41598-017-06769-w</pub-id><pub-id pub-id-type="pmid">28127051</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0049">
+        <label>49.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Archer</surname>
+<given-names>SN</given-names></string-name>, <string-name><surname>Oster</surname>
+<given-names>H</given-names></string-name>. <article-title>How sleep and wakefulness influence circadian rhythmicity: effects of insufficient and mistimed sleep on the animal and human transcriptome</article-title>. <source><italic toggle="yes">J Sleep Res</italic></source>. <year>2015</year>;<volume>24</volume>(<issue>5</issue>):<fpage>476</fpage>–<lpage>493</lpage>. doi:<pub-id pub-id-type="doi">10.1111/jsr.12307</pub-id><pub-id pub-id-type="pmid">26059855</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0050">
+        <label>50.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Fares</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Hermens</surname>
+<given-names>DF</given-names></string-name>, <string-name><surname>Naismith</surname>
+<given-names>SL</given-names></string-name>, <string-name><surname>White</surname>
+<given-names>D</given-names></string-name>, <string-name><surname>Hickie</surname>
+<given-names>IB</given-names></string-name>, <string-name><surname>Robillard</surname>
+<given-names>R</given-names></string-name>. <article-title>Clinical correlates of chronotypes in young persons with mental disorders</article-title>. <source><italic toggle="yes">Chronobiol Int</italic></source>. <year>2015</year>;<volume>32</volume>(<issue>9</issue>):<fpage>1183</fpage>–<lpage>1191</lpage>. doi:<pub-id pub-id-type="doi">10.3109/07420528.2015.1078346</pub-id><pub-id pub-id-type="pmid">26375049</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0051">
+        <label>51.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Levandovski</surname>
+<given-names>R</given-names></string-name>, <string-name><surname>Dantas</surname>
+<given-names>G</given-names></string-name>, <string-name><surname>Fernandes</surname>
+<given-names>LC</given-names></string-name>, et al. <article-title>Depression scores associate with chronotype and social jetlag in a rural population</article-title>. <source><italic toggle="yes">Chronobiol Int</italic></source>. <year>2011</year>;<volume>28</volume>(<issue>9</issue>):<fpage>771</fpage>–<lpage>778</lpage>. doi:<pub-id pub-id-type="doi">10.3109/07420528.2011.602445</pub-id><pub-id pub-id-type="pmid">21895489</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0052">
+        <label>52.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Lázár</surname>
+<given-names>AS</given-names></string-name>, <string-name><surname>Slak</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Lo</surname>
+<given-names>JCY</given-names></string-name>, et al. <article-title>Sleep, diurnal preference, health, and psychological well-being: a prospective single-allelic-variation study</article-title>. <source><italic toggle="yes">Chronobiol Int</italic></source>. <year>2012</year>;<volume>29</volume>(<issue>2</issue>):<fpage>131</fpage>–<lpage>146</lpage>. doi:<pub-id pub-id-type="doi">10.3109/07420528.2011.641193</pub-id><pub-id pub-id-type="pmid">22324552</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0053">
+        <label>53.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Vieira</surname>
+<given-names>J</given-names></string-name>, <string-name><surname>Jones</surname>
+<given-names>AR</given-names></string-name>, <string-name><surname>Danon</surname>
+<given-names>A</given-names></string-name>, et al. <article-title>Human Cryptochrome-1 Confers Light Independent Biological Activity in Transgenic Drosophila Correlated with Flavin Radical Stability</article-title>. <source><italic toggle="yes">PLoS One</italic></source>. <year>2012</year>;<volume>7</volume>(<issue>3</issue>):<fpage>e31867</fpage>. doi:<pub-id pub-id-type="doi">10.1371/journal.pone.0031867</pub-id><pub-id pub-id-type="pmid">22427812</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0054">
+        <label>54.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Dardente</surname>
+<given-names>H</given-names></string-name>, <string-name><surname>Fortier</surname>
+<given-names>EE</given-names></string-name>, <string-name><surname>Martineau</surname>
+<given-names>V</given-names></string-name>, <string-name><surname>Cermakian</surname>
+<given-names>N</given-names></string-name>. <article-title>Cryptochromes impair phosphorylation of transcriptional activators in the clock: a general mechanism for circadian repression</article-title>. <source><italic toggle="yes">Biochem J</italic></source>. <year>2007</year>;<volume>402</volume>:<fpage>525</fpage>–<lpage>536</lpage>. doi:<pub-id pub-id-type="doi">10.1042/BJ20060827</pub-id><pub-id pub-id-type="pmid">17115977</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0055">
+        <label>55.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Hua</surname>
+<given-names>P</given-names></string-name>, <string-name><surname>Liu</surname>
+<given-names>W</given-names></string-name>, <string-name><surname>Chen</surname>
+<given-names>D</given-names></string-name>, et al. <article-title>Cry1 and Tef gene polymorphisms are associated with major depressive disorder in the Chinese population</article-title>. <source><italic toggle="yes">J Affect Disord</italic></source>. <year>2014</year>;<volume>157</volume>:<fpage>100</fpage>–<lpage>103</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.jad.2013.11.019</pub-id><pub-id pub-id-type="pmid">24581835</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0056">
+        <label>56.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Buoli</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Serati</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Grassi</surname>
+<given-names>S</given-names></string-name>, et al. <article-title>The role of clock genes in the etiology of Major Depressive Disorder: special Section on “Translational and Neuroscience Studies in Affective Disorders”. Section Editor, Maria Nobile MD, PhD. This Section of JAD focuses on the relevance of translational a</article-title>. <source><italic toggle="yes">J Affect Disord</italic></source>. <year>2018</year>;<volume>234</volume>:<fpage>351</fpage>–<lpage>357</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.jad.2017.11.015</pub-id><pub-id pub-id-type="pmid">29128257</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0057">
+        <label>57.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Soria</surname>
+<given-names>V</given-names></string-name>, <string-name><surname>Martínez-Amorós</surname>
+<given-names>È</given-names></string-name>, <string-name><surname>Escaramís</surname>
+<given-names>G</given-names></string-name>, et al. <article-title>Differential association of circadian genes with mood disorders: CRY1 and NPAS2 are associated with unipolar major depression and clock and VIP with bipolar disorder</article-title>. <source><italic toggle="yes">Neuropsychopharmacology</italic></source>. <year>2010</year>;<volume>35</volume>(<issue>6</issue>):<fpage>1279</fpage>–<lpage>1289</lpage>. doi:<pub-id pub-id-type="doi">10.1038/npp.2009.230</pub-id><pub-id pub-id-type="pmid">20072116</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0058">
+        <label>58.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Wisor</surname>
+<given-names>JP</given-names></string-name>, <string-name><surname>O’Hara</surname>
+<given-names>BF</given-names></string-name>, <string-name><surname>Terao</surname>
+<given-names>A</given-names></string-name>, et al. <article-title>A role for cryptochromes in sleep regulation</article-title>. <source><italic toggle="yes">BMC Neurosci</italic></source>. <year>2002</year>;<volume>3</volume>:<fpage>20</fpage>. doi:<pub-id pub-id-type="doi">10.1186/1471-2202-3-20</pub-id><pub-id pub-id-type="pmid">12495442</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0059">
+        <label>59.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Partonen</surname>
+<given-names>T</given-names></string-name>. <article-title>Clock gene variants in mood and anxiety disorders</article-title>. <source><italic toggle="yes">J Neural Transm</italic></source>. <year>2012</year>;<volume>119</volume>(<issue>10</issue>):<fpage>1133</fpage>–<lpage>1145</lpage>. doi:<pub-id pub-id-type="doi">10.1007/s00702-012-0810-2</pub-id><pub-id pub-id-type="pmid">22538398</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0060">
+        <label>60.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Lavebratt</surname>
+<given-names>C</given-names></string-name>, <string-name><surname>Sjöholm</surname>
+<given-names>LK</given-names></string-name>. <article-title>CRY2 is associated with depression</article-title>. <source><italic toggle="yes">PLoS One</italic></source>. <year>2010</year>;<volume>5</volume>(<issue>2</issue>):<fpage>e9407</fpage>. doi:<pub-id pub-id-type="doi">10.1371/journal.pone.0009407</pub-id><pub-id pub-id-type="pmid">20195522</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0061">
+        <label>61.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Kovanen</surname>
+<given-names>L</given-names></string-name>, <string-name><surname>Kaunisto</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Donner</surname>
+<given-names>K</given-names></string-name>, <string-name><surname>Saarikoski</surname>
+<given-names>ST</given-names></string-name>, <string-name><surname>Partonen</surname>
+<given-names>T</given-names></string-name>. <article-title><italic toggle="yes">CRY2</italic> genetic variants associate with dysthymia</article-title>. <source><italic toggle="yes">PLoS One</italic></source>. <year>2013</year>;<volume>8</volume>(<issue>8</issue>):<fpage>e71450</fpage>. doi:<pub-id pub-id-type="doi">10.1371/journal.pone.0071450</pub-id><pub-id pub-id-type="pmid">23951166</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0062">
+        <label>62.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Zhang</surname>
+<given-names>L</given-names></string-name>, <string-name><surname>Hirano</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Hsu</surname>
+<given-names>PK</given-names></string-name>, et al. <article-title>A PERIOD3 variant causes a circadian phenotype and is associated with a seasonal mood trait</article-title>. <source><italic toggle="yes">Proc Natl Acad Sci U S A</italic></source>. <year>2016</year>;<volume>113</volume>(<issue>11</issue>):<fpage>E1536</fpage>. doi:<pub-id pub-id-type="doi">10.1073/pnas.1600039113</pub-id><pub-id pub-id-type="pmid">26903630</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0063">
+        <label>63.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Shi</surname>
+<given-names>SQ</given-names></string-name>, <string-name><surname>White</surname>
+<given-names>MJ</given-names></string-name>, <string-name><surname>Borsetti</surname>
+<given-names>HM</given-names></string-name>, et al. <article-title>Molecular analyses of circadian gene variants reveal sex-dependent links between depression and clocks</article-title>. <source><italic toggle="yes">Transl Psychiatry</italic></source>. <year>2016</year>;<volume>6</volume>(<issue>December</issue>):<fpage>2015</fpage>. doi:<pub-id pub-id-type="doi">10.1038/tp.2016.9</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0064">
+        <label>64.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Quinlan</surname>
+<given-names>JR</given-names></string-name>, <string-name><surname>Quinlan</surname>
+<given-names>JR</given-names></string-name>. <article-title>Induction of Decision Trees</article-title>. <source><italic toggle="yes">Mach Learn</italic></source>. <year>1986</year>;<volume>2</volume>(<issue>1</issue>):<fpage>81</fpage>–<lpage>106</lpage>.</mixed-citation>
+      </ref>
+    </ref-list>
+  </back>
+</article>
+</pmc-articleset>

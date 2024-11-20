@@ -1,0 +1,1653 @@
+<pmc-articleset><article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" dtd-version="1.3" xml:lang="en" article-type="research-article">
+  <?properties open_access?>
+  <processing-meta base-tagset="archiving" mathml-version="3.0" table-model="xhtml" tagset-family="jats">
+    <restricted-by>pmc</restricted-by>
+  </processing-meta>
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="nlm-ta">Nat Sci Sleep</journal-id>
+      <journal-id journal-id-type="iso-abbrev">Nat Sci Sleep</journal-id>
+      <journal-id journal-id-type="publisher-id">nss</journal-id>
+      <journal-title-group>
+        <journal-title>Nature and Science of Sleep</journal-title>
+      </journal-title-group>
+      <issn pub-type="epub">1179-1608</issn>
+      <publisher>
+        <publisher-name>Dove</publisher-name>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="pmid">35607445</article-id>
+      <article-id pub-id-type="pmc">9123935</article-id>
+      <article-id pub-id-type="publisher-id">355369</article-id>
+      <article-id pub-id-type="doi">10.2147/NSS.S355369</article-id>
+      <article-categories>
+        <subj-group subj-group-type="heading">
+          <subject>Original Research</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>Fusion of Whole Night Features and Desaturation Segments Combined with Feature Extraction for Event-Level Screening of Sleep-Disordered Breathing</article-title>
+        <alt-title alt-title-type="running-authors">Liu et al</alt-title>
+        <alt-title alt-title-type="running-title">Liu et al</alt-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author" equal-contrib="yes">
+          <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0002-0281-8039</contrib-id>
+          <name>
+            <surname>Liu</surname>
+            <given-names>Ruhan</given-names>
+          </name>
+          <xref rid="aff0001" ref-type="aff">
+<sup>1</sup>
+</xref>
+          <xref rid="aff0002" ref-type="aff">
+<sup>2</sup>
+</xref>
+          <xref rid="ft0001" ref-type="author-notes">*</xref>
+        </contrib>
+        <contrib contrib-type="author" equal-contrib="yes">
+          <name>
+            <surname>Li</surname>
+            <given-names>Chenyang</given-names>
+          </name>
+          <xref rid="aff0001" ref-type="aff">
+<sup>1</sup>
+</xref>
+          <xref rid="ft0001" ref-type="author-notes">*</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Xu</surname>
+            <given-names>Huajun</given-names>
+          </name>
+          <xref rid="aff0001" ref-type="aff">
+<sup>1</sup>
+</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Wu</surname>
+            <given-names>Kejia</given-names>
+          </name>
+          <xref rid="aff0001" ref-type="aff">
+<sup>1</sup>
+</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Li</surname>
+            <given-names>Xinyi</given-names>
+          </name>
+          <xref rid="aff0001" ref-type="aff">
+<sup>1</sup>
+</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0003-0865-4669</contrib-id>
+          <name>
+            <surname>Liu</surname>
+            <given-names>Yupu</given-names>
+          </name>
+          <xref rid="aff0001" ref-type="aff">
+<sup>1</sup>
+</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Yuan</surname>
+            <given-names>Jie</given-names>
+          </name>
+          <xref rid="aff0001" ref-type="aff">
+<sup>1</sup>
+</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Meng</surname>
+            <given-names>Lili</given-names>
+          </name>
+          <xref rid="aff0001" ref-type="aff">
+<sup>1</sup>
+</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Zou</surname>
+            <given-names>Jianyin</given-names>
+          </name>
+          <xref rid="aff0001" ref-type="aff">
+<sup>1</sup>
+</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0001-7256-812X</contrib-id>
+          <name>
+            <surname>Huang</surname>
+            <given-names>Weijun</given-names>
+          </name>
+          <xref rid="aff0001" ref-type="aff">
+<sup>1</sup>
+</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0002-1643-1433</contrib-id>
+          <name>
+            <surname>Yi</surname>
+            <given-names>Hongliang</given-names>
+          </name>
+          <xref rid="aff0001" ref-type="aff">
+<sup>1</sup>
+</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Sheng</surname>
+            <given-names>Bin</given-names>
+          </name>
+          <xref rid="aff0002" ref-type="aff">
+<sup>2</sup>
+</xref>
+          <xref rid="an0001" ref-type="corresp"/>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Guan</surname>
+            <given-names>Jian</given-names>
+          </name>
+          <xref rid="aff0001" ref-type="aff">
+<sup>1</sup>
+</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Yin</surname>
+            <given-names>Shankai</given-names>
+          </name>
+          <xref rid="aff0001" ref-type="aff">
+<sup>1</sup>
+</xref>
+        </contrib>
+        <aff id="aff0001"><label>1</label><institution>Department of Otolaryngology Head and Neck Surgery and Shanghai Key Laboratory of Sleep Disordered Breathing &amp; Otolaryngological Institute of Shanghai Jiao Tong University, Shanghai Jiao Tong University Affiliated Sixth People’s Hospital</institution>, <addr-line>Shanghai</addr-line>, <country>People’s Republic of China</country></aff>
+        <aff id="aff0002"><label>2</label><institution>Department of Computer Science and Engineering, Shanghai Jiao Tong University</institution>, <addr-line>Shanghai</addr-line>, <country>People’s Republic of China</country></aff>
+      </contrib-group>
+      <author-notes>
+        <corresp id="an0001">Correspondence: Bin Sheng; Jian Guan, <phone>Tel +86 13124853285</phone>, Email shengbin@sjtu.edu.cn; guanjian0606@sina.com</corresp>
+        <fn id="ft0001">
+          <label>*</label>
+          <p>These authors contributed equally to this work</p>
+        </fn>
+      </author-notes>
+      <pub-date pub-type="epub">
+        <day>17</day>
+        <month>5</month>
+        <year>2022</year>
+      </pub-date>
+      <pub-date pub-type="collection">
+        <year>2022</year>
+      </pub-date>
+      <volume>14</volume>
+      <fpage>927</fpage>
+      <lpage>940</lpage>
+      <history>
+        <date date-type="received">
+          <day>22</day>
+          <month>12</month>
+          <year>2021</year>
+        </date>
+        <date date-type="accepted">
+          <day>03</day>
+          <month>5</month>
+          <year>2022</year>
+        </date>
+      </history>
+      <permissions>
+        <copyright-statement>© 2022 Liu et al.</copyright-statement>
+        <copyright-year>2022</copyright-year>
+        <copyright-holder>Liu et al.</copyright-holder>
+        <license>
+          <ali:license_ref xmlns:ali="http://www.niso.org/schemas/ali/1.0/" specific-use="textmining" content-type="ccbynclicense">https://creativecommons.org/licenses/by-nc/3.0/</ali:license_ref>
+          <license-p>This work is published and licensed by Dove Medical Press Limited. The full terms of this license are available at <ext-link ext-link-type="uri" xlink:href="https://www.dovepress.com/terms.php">https://www.dovepress.com/terms.php</ext-link> and incorporate the Creative Commons Attribution – Non Commercial (unported, v3.0) License (<ext-link ext-link-type="uri" xlink:href="https://creativecommons.org/licenses/by-nc/3.0/">http://creativecommons.org/licenses/by-nc/3.0/</ext-link>). By accessing the work you hereby accept the Terms. Non-commercial uses of the work are permitted without any further permission from Dove Medical Press Limited, provided the work is properly attributed. For permission for commercial use of this work, please see paragraphs 4.2 and 5 of our Terms (<ext-link ext-link-type="uri" xlink:href="https://www.dovepress.com/terms.php">https://www.dovepress.com/terms.php</ext-link>).</license-p>
+        </license>
+      </permissions>
+      <abstract>
+        <sec id="s2001">
+          <title>Purpose</title>
+          <p>Misdiagnosis and missed diagnosis of sleep-disordered breathing (SDB) is common because polysomnography (PSG) is time-consuming, expensive, and uncomfortable. The use of recording methods based on the oxygen saturation (SpO2) signals detected by wearable devices is impractical and inaccurate for extracting signal features and detecting apnoeic events. We propose a method to automatically detect the apnoea-based SpO<sub>2</sub> signal segments and compute the apnoea–hypopnea index (AHI) for SDB screening and grading.</p>
+        </sec>
+        <sec id="s2002">
+          <title>Patients and Methods</title>
+          <p>First, apnoea-related desaturation segments in raw SpO<sub>2</sub> signals were detected; global features were extracted from whole night signals. Then, the SpO<sub>2</sub> signal segments and global features were fed into a bi-directional long short-term memory convolutional neural network model to identify apnoea-related and non-apnoea-related events. The apnoea-related segments were used to assess the AHI.</p>
+        </sec>
+        <sec id="s2003">
+          <title>Results</title>
+          <p>The model was trained on 500 individuals and tested on 8131 individuals from two public hospitals and one private centre. In the testing data, the classification accuracy for apnoea-related segments was 84.3%. Individuals with SDB (AHI <inline-formula id="ilm0001"><alternatives><inline-graphic xlink:href="NSS-14-927-e0001.jpg"/><tex-math id="Tex001">\documentclass[12pt]{minimal}
+\usepackage{wasysym}
+\usepackage[substack]{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage[mathscr]{eucal}
+\usepackage{mathrsfs}
+\DeclareFontFamily{T1}{linotext}{}
+\DeclareFontShape{T1}{linotext}{m}{n} {linotext }{}
+\DeclareSymbolFont{linotext}{T1}{linotext}{m}{n}
+\DeclareSymbolFontAlphabet{\mathLINOTEXT}{linotext}
+\begin{document}
+$$ \ge $$
+\end{document}</tex-math></alternatives></inline-formula> 15) were identified with a mean accuracy of 88.95%.</p>
+        </sec>
+        <sec id="s2004">
+          <title>Conclusion</title>
+          <p>Using automatic SDB detection based on SpO<sub>2</sub> signals can accurately screen for SDB.</p>
+        </sec>
+      </abstract>
+      <kwd-group kwd-group-type="author">
+        <title>Keywords</title>
+        <kwd>sleep apnea hypopnea syndrome</kwd>
+        <kwd>AHI</kwd>
+        <kwd>SDB severity classification</kwd>
+        <kwd>Bi-LSTM-CNN</kwd>
+        <kwd>desaturation events</kwd>
+      </kwd-group>
+      <funding-group>
+        <award-group>
+          <funding-source>
+<institution-wrap><institution>the Shanghai Municipal Commission of Science and Technology</institution></institution-wrap>
+</funding-source>
+        </award-group>
+        <award-group>
+          <funding-source>
+<institution-wrap><institution>Shanghai Shen-Kang Hospital Management Center Project</institution></institution-wrap>
+</funding-source>
+        </award-group>
+        <award-group>
+          <funding-source>
+<institution-wrap><institution>Shanghai Jiao Tong University Affiliated Sixth People’s Hospital College-level Project</institution></institution-wrap>
+</funding-source>
+        </award-group>
+        <funding-statement>The study received grants from the Shanghai Municipal Commission of Science and Technology (Grant No. 18DZ2260200), Shanghai Shen-Kang Hospital Management Center Project (Grant Nos. SHDC2020CR2044B, SHDC2020CR3056B), Shanghai Jiao Tong University Affiliated Sixth People’s Hospital College-level Project (X-2296).</funding-statement>
+      </funding-group>
+      <counts>
+        <fig-count count="8"/>
+        <table-count count="12"/>
+        <ref-count count="42"/>
+        <page-count count="14"/>
+      </counts>
+    </article-meta>
+  </front>
+  <body>
+    <sec sec-type="intro" id="s0001">
+      <title>Introduction</title>
+      <p>Sleep-disordered breathing (SDB) is characterized by multiple episodes of airflow reduction and cessation during sleep.<xref rid="cit0001" ref-type="bibr">1</xref>,<xref rid="cit0002" ref-type="bibr">2</xref> SDB is a common sleep disorder with estimated prevalences of 49.7% and 23.4% in men and women, respectively.<xref rid="cit0003" ref-type="bibr">3</xref> In the Wisconsin Sleep Cohort Study, the prevalences were 24% and 9% in men and women aged 30–60 years, respectively.<xref rid="cit0001" ref-type="bibr">1</xref> However, many patients with SDB, including severe SDB, remain undiagnosed. In the Wisconsin Sleep Cohort Study, 93% and 82% of women and men with moderate-to-severe sleep apnoea, respectively, had not been diagnosed.<xref rid="cit0002" ref-type="bibr">2</xref> In addition, according to a database study, over 90% of women and over 80% of men with SDB have not been diagnosed.<xref rid="cit0004" ref-type="bibr">4</xref></p>
+      <p>Polysomnography (PSG), the “gold standard” investigation for SDB, is expensive and time-consuming, which may delay the diagnosis of SDB. Thus, home-based portable devices for sleep studies are essential to diagnose SDB. Moreover, home monitoring systems using oxygen saturation (SpO<sub>2</sub>) to screen for SDB increase the testing capacity and simplify the interpretation of prolonged recordings. Thus, the use of a simple device may ensure timely and accurate diagnosis of SDB.</p>
+      <p>An ideal system would make an accurate diagnosis on the basis of a few easy-to-collect signals. Many studies have addressed these issues by using signals from audio recordings,<xref rid="cit0005" ref-type="bibr">5</xref> plethysmography,<xref rid="cit0006" ref-type="bibr">6</xref> respiratory movements,<xref rid="cit0007" ref-type="bibr">7</xref>,<xref rid="cit0008" ref-type="bibr">8</xref> oximetry,<xref rid="cit0009" ref-type="bibr">9–16</xref> electrocardiogram (ECG),<xref rid="cit0017" ref-type="bibr">17</xref> or a combination of such methods.<xref rid="cit0018" ref-type="bibr">18</xref>,<xref rid="cit0019" ref-type="bibr">19</xref> The SpO<sub>2</sub> signal can be easily collected, and a large number of wearable pulse oximetry devices are available in the market at a low cost.<xref rid="cit0020" ref-type="bibr">20–22</xref> The SpO<sub>2</sub> signal represents the oxyhaemoglobin concentration in blood. The apnoea–hypopnea index (AHI) score is associated with oxygen desaturation<xref rid="cit0023" ref-type="bibr">23</xref>; therefore, screening for SDB on the basis of the SpO<sub>2</sub> signal is convenient and accurate, and also diagnosis for SDB with automatic detection assistance is potential.</p>
+      <p>The aim of our study was to establish a novel apnoea-related desaturation segments generation method to achieve variable length proposal; an efficient fusion method for the classification of apnoea-related desaturation using a combination of whole night features and desaturation segments; and an automatic feature extraction method to select effective global whole night features. Compared to previous studies in terms of complexity of model construction, our study does not use complex manual feature extraction and utilizes sufficiently powerful deep learning for feature extraction to reduce the complexity of construction. In addition, compared to the current method of direct fragment analysis by deep networks, we designed the overall night features with reference to the clinical medical process to improve the accuracy of the model.</p>
+    </sec>
+    <sec id="s0002">
+      <title>Materials and Methods</title>
+      <p>The study was performed in accordance with the 1964 Helsinki declaration and its later amendments. Informed consent was obtained from all participants. The study protocol was approved by the Ethics Committee of Shanghai Jiao Tong University Affiliated Sixth People’s Hospital, China, under the identifier 2019-KY-050 (K).</p>
+      <sec id="s0002-s2001">
+        <title>PSG Assessment and SDB Classification</title>
+        <p>The physiological signals of PSG (eg, electroencephalogram, ECG, thoracic and abdominal movements, airflow, electrooculogram, electromyogram, and SpO<sub>2</sub>) were recorded to analyse the sleep architecture, duration, and quality during overnight PSG.<xref rid="cit0024" ref-type="bibr">24</xref> The 2012 American Academy of Sleep Medicine criteria were used to diagnose apnoea events:<xref rid="cit0025" ref-type="bibr">25</xref> peak signal excursion decrease by ≥90% of pre-event baseline using an oronasal thermal sensor (diagnostic study); and duration of drop in sensor signal ≥10s. Hypopnea was diagnosed if the peak signal excursions decreased by ≥30% of pre-event baseline using nasal pressure (diagnostic study); duration of drop in sensor signal ≥10s; and oxygen desaturation ≥3% from pre-event baseline or an arousal. The number of apnoea and hypopnea events in the whole night PSG was used to determine the SDB severity. The AHI score (total number of apnoea and hypopnea events divided by the hours asleep) was computed to classify the SDB severity into normal (0–5), mild (5–15), moderate (15–30), and severe (&gt;30).<xref rid="cit0026" ref-type="bibr">26</xref></p>
+      </sec>
+      <sec id="s0002-s2002">
+        <title>Data Source</title>
+        <p>Three datasets were used for algorithm development and validation: Apnoea-ECG dataset (Physionet),<xref rid="cit0027" ref-type="bibr">27</xref> SHHS,<xref rid="cit0028" ref-type="bibr">28</xref> and No. 6 People’s Hospital (Shanghai Jiao Tong University Affiliated Sixth People’s Hospital). The SHHS dataset contained two datasets, SHHS1 and SHHS2, which were used as the training and testing sets, respectively (<xref rid="t0001" ref-type="table">Table 1</xref>).<table-wrap position="float" id="t0001"><label>Table 1</label><caption><p>Patient Characteristics for the Different Datasets Age, BMI and AHI are Presented as Mean ± Standard Deviation, with the 25% and 75% Quantile Values Underneath</p></caption><table frame="hsides" rules="groups"><thead><tr><th rowspan="1" colspan="1">Dataset</th><th rowspan="1" colspan="1">Sub(Years)</th><th rowspan="1" colspan="1">Age(kg/m<sup>2</sup>)</th><th rowspan="1" colspan="1">BMI(e/hr)</th><th rowspan="1" colspan="1">AHI(e/hr)</th><th rowspan="1" colspan="1">AHI &gt;15%</th><th rowspan="1" colspan="1">Male</th></tr></thead><tbody><tr><td rowspan="1" colspan="1">SHHS1 train</td><td rowspan="1" colspan="1">500</td><td rowspan="1" colspan="1">64±10 (54, 73)</td><td rowspan="1" colspan="1">27±7 (23, 32)</td><td rowspan="1" colspan="1">21±20 (4, 31)</td><td rowspan="1" colspan="1">47%</td><td rowspan="1" colspan="1">50%</td></tr><tr><td rowspan="1" colspan="1">SHHS1 test</td><td rowspan="1" colspan="1">5293</td><td rowspan="1" colspan="1">63±11 (55, 71)</td><td rowspan="1" colspan="1">28±5 (25, 30)</td><td rowspan="1" colspan="1">18±15 (6, 23)</td><td rowspan="1" colspan="1">44%</td><td rowspan="1" colspan="1">53%</td></tr><tr><td rowspan="1" colspan="1">SHHS2</td><td rowspan="1" colspan="1">2651</td><td rowspan="1" colspan="1">67±10 (60, 76)</td><td rowspan="1" colspan="1">28±5 (25, 31)</td><td rowspan="1" colspan="1">18±16 (7, 25)</td><td rowspan="1" colspan="1">45%</td><td rowspan="1" colspan="1">54%</td></tr><tr><td rowspan="1" colspan="1">Physionet</td><td rowspan="1" colspan="1">8</td><td rowspan="1" colspan="1">43±8 (38, 52)</td><td rowspan="1" colspan="1">28±8 (22, 35)</td><td rowspan="1" colspan="1">32±36 (0, 70)</td><td rowspan="1" colspan="1">50%</td><td rowspan="1" colspan="1">88%</td></tr><tr><td rowspan="1" colspan="1">No. 6 People Hospital</td><td rowspan="1" colspan="1">179</td><td rowspan="1" colspan="1">55±1 (39, 66)</td><td rowspan="1" colspan="1">/</td><td rowspan="1" colspan="1">31±17 (11, 46)</td><td rowspan="1" colspan="1">53%</td><td rowspan="1" colspan="1">76%</td></tr></tbody></table><table-wrap-foot><fn id="tfn0001"><p><bold>Abbreviations</bold>: BMI, body mass index; AHI, apnea–hypopnea index.</p></fn></table-wrap-foot></table-wrap>
+</p>
+        <p>Apnoea-ECG (Physionet): The Apnoea-ECG (Physionet) database contains eight night-time records, including ECG, oxygen saturation levels, and three respiratory signals.<xref rid="cit0027" ref-type="bibr">27</xref> The SpO<sub>2</sub> sampling frequency was set at 100 Hz. The AHI scores and minute-level apnoea annotations are available for each 1-min interval. Four participants did not have SDB, whereas four participants had severe SDB.</p>
+        <p>SHHS (Sleep Heart Health Study): SHHS is a multi-centre cohort study of the cardiovascular and other consequences of SDB.<xref rid="cit0028" ref-type="bibr">28</xref> SHHS contains two datasets with PSG results: SHHS1 contains data from 5793 participants tested between 1995 and 1998, whereas SHHS2 contains data from 2651 participants tested between January 2001 and June 2003. The SpO<sub>2</sub> signal recording lengths were &gt; 3 h. The SpO<sub>2</sub> signals were recorded using Nonin XPOD 3011 sensor and sampled at 1 Hz. In accordance with the 2012 American Academy of Sleep Medicine guidelines, we rechecked the start and end times of apnoeic events in the SHHS training dataset.<xref rid="cit0025" ref-type="bibr">25</xref> The SHHS training dataset contains 500 records selected from SHHS1 for algorithm training. Because rechecking records is complex and time-consuming, only 500 records were used for training. The remaining SHHS1 records were included in the SHHS1 test dataset. The SHHS training dataset was constructed using patients who had been randomly selected from the SHHS1 dataset to maintain similar proportions of men and women in apnoea severity categories.</p>
+        <p>No. 6 People’s Hospital: No. 6 People’s Hospital dataset contained 179 PSGs: 11 were normal, while 72, 49, and 47 had mild, moderate, and severe SDB, respectively. The dataset was collected from Shanghai Jiao Tong University Affiliated Sixth People’s Hospital. The dataset was scored in accordance with the 2012 American Academy of Sleep Medicine guidelines by sleep specialists.<xref rid="cit0025" ref-type="bibr">25</xref> Alice 4, Alice 5, and Alice LE systems were used to score and store the SpO<sub>2</sub> signals at sampling rates of 10 and 100 Hz.</p>
+      </sec>
+      <sec id="s0002-s2003">
+        <title>Data Processing</title>
+        <p>The algorithm generated the apnoea-related SpO<sub>2</sub> segment proposals. Then, the whole night features of SpO<sub>2</sub> signals were extracted. The apnoea-related blood oxygen segments were classified using a bi-directional long short-term memory convolutional neural network (Bi-LSTM-CNN) model according to both whole night features and apnoea-related SpO<sub>2</sub> segment proposals. Furthermore, the algorithm used a linear regressor to simulate the relationship of the apparent number of apnoeic events in the whole night SpO<sub>2</sub> and the real number of apnoea events.</p>
+        <p>Before the preprocessing of the data, we took blood oxygen below 50% as artifacts for all data sets due to artifacts caused by the loss and interference of blood oxygen signals in the data set. Moreover, during processing, the signals at both ends of the artifacts were connected using linear interpolation to ensure the continuity of the signals.</p>
+        <sec id="s0002-s2003-s3001">
+          <title>Generation of SpO<sub>2</sub> Desaturation Segment Proposals</title>
+          <p>Apnoeic events are often associated with a decrease in blood oxygen level (ie, desaturation). The numbers of apnoeic events were calculated by identifying the desaturation segments and identifying the apnoea-related segments. This process required the identification of all desaturation segments.</p>
+          <p>However, the noise and sampling roughness of raw SpO<sub>2</sub> signals complicate the detection of desaturation segments. Therefore, a wavelet processing algorithm was selected for signal denoising and the identification of desaturation segments. First, denoising was performed by discarding the approximate coefficients of the wavelet Daubechies 8 decomposition. Then, threshold filtering and reconstruction were performed. Therefore, a 3-second moving average filter was applied as a smoothing method after signal denoising.<xref rid="cit0029" ref-type="bibr">29</xref> Moreover, high sampling rates were resampled at 1 Hz to ensure standardisation and speed computations.<xref rid="cit0029" ref-type="bibr">29</xref> Then, linear interpolations were used to replace the desaturation signals that decreased below 50% of the baseline. <xref rid="f0001" ref-type="fig">Figure 1</xref> shows the signal after preprocessing. Preprocessing generated a smooth signal and simplified the identification of desaturation events.<fig position="float" id="f0001" fig-type="figure"><label>Figure 1</label><caption><p>A portion of pluse oximetry signals under preprocesing. The four diagrams from top to bottom show four intermediate results of data preprocessing: Raw SpO<sub>2</sub> signal, Denoised signal under Daubechies 8 wavelet transform, smoothed signal based on 3-seconds MA filter, and resampled signal after resampling and linear interpolation for SpO<sub>2</sub> signal drop below 50%.</p></caption><graphic xlink:href="NSS-14-927-g0001" content-type="print-only" position="float"/></fig></p>
+          <p>After preprocessing, the signal data were used to generate the desaturation segments (<xref rid="f0002" ref-type="fig">Figure 2</xref>). First, the signal peaks and troughs were identified by derivative filtering to select the extremum points. To preserve the completeness of desaturation segments, successive desaturation segments were linked when the total length of the linked segments was &lt;30 s. Furthermore, the start and end point pairs of a desaturation segment were extracted.<xref rid="cit0012" ref-type="bibr">12</xref> Desaturation segments were identified by a decrease in SpO<sub>2</sub> of at least 1% from the beginning to the end of a segment with a total segment length &lt;120 s.<xref rid="cit0029" ref-type="bibr">29</xref>,<xref rid="cit0030" ref-type="bibr">30</xref> Then, segments were generated from raw data using the start and end points of the segment. All desaturation segments possibly related to apnoea were identified. The generation of desaturation segment proposals is shown in <xref rid="f0002" ref-type="fig">Figure 2</xref>.<fig position="float" id="f0002" fig-type="figure"><label>Figure 2</label><caption><p>Overview of generation for desaturations segments in the SpO<sub>2</sub> signal. (<bold>A</bold>). Graphical overview: on top the under preprocessing signal is plotted. Next, the peaks and troughs that are shown in dark blue dots of this handled signal is plotted. Moreover, the start and end point pairs is in red and blue colors relatively. On the bottom, the desaturation segments of the raw signal are detected. (<bold>B</bold>). Overview of desaturation segments generation procedures.</p></caption><graphic xlink:href="NSS-14-927-g0002" content-type="print-only" position="float"/></fig></p>
+        </sec>
+        <sec id="s0002-s2003-s3002">
+          <title>Whole Night Feature Extraction</title>
+          <p>The whole night SpO<sub>2</sub> signal can be characterised by specific features. Time and frequency domain features were extracted from the SpO<sub>2</sub> signal to determine the signal properties. <xref rid="t0002" ref-type="table">Table 2</xref> shows 16 features obtained from the SpO<sub>2</sub> signal that have been evaluated in previous studies of patients with obstructive sleep apnoea (OSA).<xref rid="cit0031" ref-type="bibr">31–35</xref><table-wrap position="float" id="t0002"><label>Table 2</label><caption><p>Time and Frequency Domain Feature Extracted from Whole Night <inline-formula id="ilm0002"><alternatives><inline-graphic xlink:href="NSS-14-927-e0002.jpg"/><tex-math id="Tex002">\documentclass[12pt]{minimal}
+\usepackage{wasysym}
+\usepackage[substack]{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage[mathscr]{eucal}
+\usepackage{mathrsfs}
+\DeclareFontFamily{T1}{linotext}{}
+\DeclareFontShape{T1}{linotext}{m}{n} {linotext }{}
+\DeclareSymbolFont{linotext}{T1}{linotext}{m}{n}
+\DeclareSymbolFontAlphabet{\mathLINOTEXT}{linotext}
+\begin{document}
+$${\rm{Sp}}{{\rm{O}}_2}$$
+\end{document}</tex-math></alternatives></inline-formula> Signal</p></caption><table frame="hsides" rules="groups"><thead><tr><th rowspan="1" colspan="1">Feature</th><th rowspan="1" colspan="1">Discription</th></tr></thead><tbody><tr><td rowspan="1" colspan="1">Time domain</td><td rowspan="1" colspan="1"/></tr><tr><td rowspan="1" colspan="1"><inline-formula id="ilm0003"><alternatives><inline-graphic xlink:href="NSS-14-927-e0003.jpg"/><tex-math id="Tex003">\documentclass[12pt]{minimal}
+\usepackage{wasysym}
+\usepackage[substack]{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage[mathscr]{eucal}
+\usepackage{mathrsfs}
+\DeclareFontFamily{T1}{linotext}{}
+\DeclareFontShape{T1}{linotext}{m}{n} {linotext }{}
+\DeclareSymbolFont{linotext}{T1}{linotext}{m}{n}
+\DeclareSymbolFontAlphabet{\mathLINOTEXT}{linotext}
+\begin{document}
+$${Q_L},{Q_M},{Q_H}$$
+\end{document}</tex-math></alternatives></inline-formula></td><td rowspan="1" colspan="1">Upper, middle, lower quartile of a series</td></tr><tr><td rowspan="1" colspan="1">CTM</td><td rowspan="1" colspan="1">Central tendency of the signal</td></tr><tr><td rowspan="1" colspan="1">LZC</td><td rowspan="1" colspan="1">Lempel–Ziv complexity</td></tr><tr><td rowspan="1" colspan="1">ODI1-ODI4</td><td rowspan="1" colspan="1">1–4% oxygen desaturation index</td></tr><tr><td rowspan="1" colspan="1">Frequency domain</td><td rowspan="1" colspan="1"/></tr><tr><td rowspan="1" colspan="1">MA, mA</td><td rowspan="1" colspan="1">Full-spectrum amplitude maximum and minimum</td></tr><tr><td rowspan="1" colspan="1">MF</td><td rowspan="1" colspan="1">Median frequency of the full spectrum</td></tr><tr><td rowspan="1" colspan="1">SpecEn</td><td rowspan="1" colspan="1">Spectral entropy to measure the full spectrum flatness</td></tr></tbody></table></table-wrap>
+</p>
+        </sec>
+        <sec id="s0002-s2003-s3003">
+          <title>Bi-LSTM-CNN for SpO<sub>2</sub> Segment Classification</title>
+          <p>To avoid complex manual feature extraction and ensure good performance of the classifier system, a state-of-the-art model, Convolutional Bidirectional Long Short-Term Memory (CBLSTM), was used for classification.<xref rid="cit0036" ref-type="bibr">36</xref> This model contains four parts: a temporal encoder (bi-directional long short-term memory [Bi-LSTM]), a local feature extractor (convolutional neural networks [CNNs]), whole night feature fusion, and a connector and linear regressor (<xref rid="f0003" ref-type="fig">Figure 3</xref>).<xref rid="cit0037" ref-type="bibr">37</xref><fig position="float" id="f0003" fig-type="figure"><label>Figure 3</label><caption><p>Framework of Bi-LSTM network for temporal information extraction.</p></caption><graphic xlink:href="NSS-14-927-g0003" content-type="print-only" position="float"/></fig></p>
+          <p>A Bi-LSTM network was used to manage the temporal information. Bi-LSTM network is an elegant solution to capture the bidirectional (ie, forward and backward) information.<xref rid="cit0012" ref-type="bibr">12</xref> This model can access complete, sequential information before and after each time step in a specific sequence. In the present study, a well-known Bi-LSTM framework was used (<xref rid="f0003" ref-type="fig">Figure 3</xref>). In Bi-LSTM, at each time step <inline-formula id="ilm0004"><alternatives><inline-graphic xlink:href="NSS-14-927-e0004.jpg"/><tex-math id="Tex004">\documentclass[12pt]{minimal}
+\usepackage{wasysym}
+\usepackage[substack]{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage[mathscr]{eucal}
+\usepackage{mathrsfs}
+\DeclareFontFamily{T1}{linotext}{}
+\DeclareFontShape{T1}{linotext}{m}{n} {linotext }{}
+\DeclareSymbolFont{linotext}{T1}{linotext}{m}{n}
+\DeclareSymbolFontAlphabet{\mathLINOTEXT}{linotext}
+\begin{document}
+$${\rm{t}}$$
+\end{document}</tex-math></alternatives></inline-formula>, forward hidden state <inline-formula id="ilm0005"><alternatives><inline-graphic xlink:href="NSS-14-927-e0005.jpg"/><tex-math id="Tex005">\documentclass[12pt]{minimal}
+\usepackage{wasysym}
+\usepackage[substack]{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage[mathscr]{eucal}
+\usepackage{mathrsfs}
+\DeclareFontFamily{T1}{linotext}{}
+\DeclareFontShape{T1}{linotext}{m}{n} {linotext }{}
+\DeclareSymbolFont{linotext}{T1}{linotext}{m}{n}
+\DeclareSymbolFontAlphabet{\mathLINOTEXT}{linotext}
+\begin{document}
+$${\rm{h}}_{\rm{f}}^{\rm{t}}$$
+\end{document}</tex-math></alternatives></inline-formula> and backward hidden state <inline-formula id="ilm0006"><alternatives><inline-graphic xlink:href="NSS-14-927-e0006.jpg"/><tex-math id="Tex006">\documentclass[12pt]{minimal}
+\usepackage{wasysym}
+\usepackage[substack]{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage[mathscr]{eucal}
+\usepackage{mathrsfs}
+\DeclareFontFamily{T1}{linotext}{}
+\DeclareFontShape{T1}{linotext}{m}{n} {linotext }{}
+\DeclareSymbolFont{linotext}{T1}{linotext}{m}{n}
+\DeclareSymbolFontAlphabet{\mathLINOTEXT}{linotext}
+\begin{document}
+$${\rm{h}}_{\rm{b}}^{\rm{t}}$$
+\end{document}</tex-math></alternatives></inline-formula> were updated using the current data <inline-formula id="ilm0007"><alternatives><inline-graphic xlink:href="NSS-14-927-e0007.jpg"/><tex-math id="Tex007">\documentclass[12pt]{minimal}
+\usepackage{wasysym}
+\usepackage[substack]{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage[mathscr]{eucal}
+\usepackage{mathrsfs}
+\DeclareFontFamily{T1}{linotext}{}
+\DeclareFontShape{T1}{linotext}{m}{n} {linotext }{}
+\DeclareSymbolFont{linotext}{T1}{linotext}{m}{n}
+\DeclareSymbolFontAlphabet{\mathLINOTEXT}{linotext}
+\begin{document}
+$${{\rm{x}}_{\rm{t}}}$$
+\end{document}</tex-math></alternatives></inline-formula> from the same time step <inline-formula id="ilm0008"><alternatives><inline-graphic xlink:href="NSS-14-927-e0008.jpg"/><tex-math id="Tex008">\documentclass[12pt]{minimal}
+\usepackage{wasysym}
+\usepackage[substack]{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage[mathscr]{eucal}
+\usepackage{mathrsfs}
+\DeclareFontFamily{T1}{linotext}{}
+\DeclareFontShape{T1}{linotext}{m}{n} {linotext }{}
+\DeclareSymbolFont{linotext}{T1}{linotext}{m}{n}
+\DeclareSymbolFontAlphabet{\mathLINOTEXT}{linotext}
+\begin{document}
+$${\rm{t}}$$
+\end{document}</tex-math></alternatives></inline-formula>, the hidden state at the previous time step <inline-formula id="ilm0009"><alternatives><inline-graphic xlink:href="NSS-14-927-e0009.jpg"/><tex-math id="Tex009">\documentclass[12pt]{minimal}
+\usepackage{wasysym}
+\usepackage[substack]{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage[mathscr]{eucal}
+\usepackage{mathrsfs}
+\DeclareFontFamily{T1}{linotext}{}
+\DeclareFontShape{T1}{linotext}{m}{n} {linotext }{}
+\DeclareSymbolFont{linotext}{T1}{linotext}{m}{n}
+\DeclareSymbolFontAlphabet{\mathLINOTEXT}{linotext}
+\begin{document}
+$${\rm{h}}_{\rm{f}}^{{\rm{t}} - 1}$$
+\end{document}</tex-math></alternatives></inline-formula> and <inline-formula id="ilm0010"><alternatives><inline-graphic xlink:href="NSS-14-927-e0010.jpg"/><tex-math id="Tex010">\documentclass[12pt]{minimal}
+\usepackage{wasysym}
+\usepackage[substack]{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage[mathscr]{eucal}
+\usepackage{mathrsfs}
+\DeclareFontFamily{T1}{linotext}{}
+\DeclareFontShape{T1}{linotext}{m}{n} {linotext }{}
+\DeclareSymbolFont{linotext}{T1}{linotext}{m}{n}
+\DeclareSymbolFontAlphabet{\mathLINOTEXT}{linotext}
+\begin{document}
+$${\rm{h}}_{\rm{b}}^{{\rm{t}} - 1}$$
+\end{document}</tex-math></alternatives></inline-formula>, the input gate <inline-formula id="ilm0011"><alternatives><inline-graphic xlink:href="NSS-14-927-e0011.jpg"/><tex-math id="Tex011">\documentclass[12pt]{minimal}
+\usepackage{wasysym}
+\usepackage[substack]{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage[mathscr]{eucal}
+\usepackage{mathrsfs}
+\DeclareFontFamily{T1}{linotext}{}
+\DeclareFontShape{T1}{linotext}{m}{n} {linotext }{}
+\DeclareSymbolFont{linotext}{T1}{linotext}{m}{n}
+\DeclareSymbolFontAlphabet{\mathLINOTEXT}{linotext}
+\begin{document}
+$${\rm{i}}_{\rm{f}}^{\rm{t}}$$
+\end{document}</tex-math></alternatives></inline-formula> and <inline-formula id="ilm0012"><alternatives><inline-graphic xlink:href="NSS-14-927-e0012.jpg"/><tex-math id="Tex012">\documentclass[12pt]{minimal}
+\usepackage{wasysym}
+\usepackage[substack]{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage[mathscr]{eucal}
+\usepackage{mathrsfs}
+\DeclareFontFamily{T1}{linotext}{}
+\DeclareFontShape{T1}{linotext}{m}{n} {linotext }{}
+\DeclareSymbolFont{linotext}{T1}{linotext}{m}{n}
+\DeclareSymbolFontAlphabet{\mathLINOTEXT}{linotext}
+\begin{document}
+$${\rm{i}}_{\rm{b}}^{\rm{t}}$$
+\end{document}</tex-math></alternatives></inline-formula>, the forget gate <inline-formula id="ilm0013"><alternatives><inline-graphic xlink:href="NSS-14-927-e0013.jpg"/><tex-math id="Tex013">\documentclass[12pt]{minimal}
+\usepackage{wasysym}
+\usepackage[substack]{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage[mathscr]{eucal}
+\usepackage{mathrsfs}
+\DeclareFontFamily{T1}{linotext}{}
+\DeclareFontShape{T1}{linotext}{m}{n} {linotext }{}
+\DeclareSymbolFont{linotext}{T1}{linotext}{m}{n}
+\DeclareSymbolFontAlphabet{\mathLINOTEXT}{linotext}
+\begin{document}
+$${\rm{f}}_{\rm{f}}^{\rm{t}}$$
+\end{document}</tex-math></alternatives></inline-formula> and <inline-formula id="ilm0014"><alternatives><inline-graphic xlink:href="NSS-14-927-e0014.jpg"/><tex-math id="Tex014">\documentclass[12pt]{minimal}
+\usepackage{wasysym}
+\usepackage[substack]{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage[mathscr]{eucal}
+\usepackage{mathrsfs}
+\DeclareFontFamily{T1}{linotext}{}
+\DeclareFontShape{T1}{linotext}{m}{n} {linotext }{}
+\DeclareSymbolFont{linotext}{T1}{linotext}{m}{n}
+\DeclareSymbolFontAlphabet{\mathLINOTEXT}{linotext}
+\begin{document}
+$${\rm{f}}_{\rm{b}}^{\rm{t}}$$
+\end{document}</tex-math></alternatives></inline-formula>, the output gate <inline-formula id="ilm0015"><alternatives><inline-graphic xlink:href="NSS-14-927-e0015.jpg"/><tex-math id="Tex015">\documentclass[12pt]{minimal}
+\usepackage{wasysym}
+\usepackage[substack]{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage[mathscr]{eucal}
+\usepackage{mathrsfs}
+\DeclareFontFamily{T1}{linotext}{}
+\DeclareFontShape{T1}{linotext}{m}{n} {linotext }{}
+\DeclareSymbolFont{linotext}{T1}{linotext}{m}{n}
+\DeclareSymbolFontAlphabet{\mathLINOTEXT}{linotext}
+\begin{document}
+$${\rm{o}}_{\rm{f}}^{\rm{t}}$$
+\end{document}</tex-math></alternatives></inline-formula> and <inline-formula id="ilm0016"><alternatives><inline-graphic xlink:href="NSS-14-927-e0016.jpg"/><tex-math id="Tex016">\documentclass[12pt]{minimal}
+\usepackage{wasysym}
+\usepackage[substack]{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage[mathscr]{eucal}
+\usepackage{mathrsfs}
+\DeclareFontFamily{T1}{linotext}{}
+\DeclareFontShape{T1}{linotext}{m}{n} {linotext }{}
+\DeclareSymbolFont{linotext}{T1}{linotext}{m}{n}
+\DeclareSymbolFontAlphabet{\mathLINOTEXT}{linotext}
+\begin{document}
+$${\rm{o}}_{\rm{b}}^{\rm{t}}$$
+\end{document}</tex-math></alternatives></inline-formula>, and a memory cell <inline-formula id="ilm0017"><alternatives><inline-graphic xlink:href="NSS-14-927-e0017.jpg"/><tex-math id="Tex017">\documentclass[12pt]{minimal}
+\usepackage{wasysym}
+\usepackage[substack]{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage[mathscr]{eucal}
+\usepackage{mathrsfs}
+\DeclareFontFamily{T1}{linotext}{}
+\DeclareFontShape{T1}{linotext}{m}{n} {linotext }{}
+\DeclareSymbolFont{linotext}{T1}{linotext}{m}{n}
+\DeclareSymbolFontAlphabet{\mathLINOTEXT}{linotext}
+\begin{document}
+$${\rm{c}}_{\rm{f}}^{\rm{t}}$$
+\end{document}</tex-math></alternatives></inline-formula> and <inline-formula id="ilm0018"><alternatives><inline-graphic xlink:href="NSS-14-927-e0018.jpg"/><tex-math id="Tex018">\documentclass[12pt]{minimal}
+\usepackage{wasysym}
+\usepackage[substack]{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage[mathscr]{eucal}
+\usepackage{mathrsfs}
+\DeclareFontFamily{T1}{linotext}{}
+\DeclareFontShape{T1}{linotext}{m}{n} {linotext }{}
+\DeclareSymbolFont{linotext}{T1}{linotext}{m}{n}
+\DeclareSymbolFontAlphabet{\mathLINOTEXT}{linotext}
+\begin{document}
+$${\rm{c}}_{\rm{b}}^{\rm{t}}$$
+\end{document}</tex-math></alternatives></inline-formula>. The following updating equations were used:
+<disp-formula-group><disp-formula id="m0001"><label>(1)</label><alternatives><graphic xlink:href="NSS-14-927-e0019.jpg" position="float"/><tex-math id="Tex019">\documentclass[12pt]{minimal}
+\usepackage{wasysym}
+\usepackage[substack]{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage[mathscr]{eucal}
+\usepackage{mathrsfs}
+\DeclareFontFamily{T1}{linotext}{}
+\DeclareFontShape{T1}{linotext}{m}{n} {linotext }{}
+\DeclareSymbolFont{linotext}{T1}{linotext}{m}{n}
+\DeclareSymbolFontAlphabet{\mathLINOTEXT}{linotext}
+\begin{document}
+$$\eqalign{ &amp; i_f^t = \sigma (W_f^i{x^t} + V_f^ih_f^{t - 1} + b_f^i) \cr &amp; i_b^t = \sigma (W_b^i{x^t} + V_b^ih_b^{t - 1} + b_b^i) \cr &amp; f_f^t = \sigma (W_f^f{x^t} + V_f^fh_f^{t - 1} + b_f^f) \cr &amp; f_b^t = \sigma (W_f^f{x^t} + V_f^fh_f^{t - 1} + b_f^f) \cr &amp; f_b^t = \sigma (W_b^f{x^t} + V_b^fh_b^{t - 1} + b_b^f) \cr &amp; o_f^t = \sigma (W_f^o{x^t} + V_b^oh_f^{t - 1} + b_f^o) \cr &amp; o_f^t = \sigma (W_b^o{x^t} + V_b^oh_f^{t - 1} + b_f^o) \cr &amp; h_f^t = o_f^t \odot tanh(c_f^t) \cr &amp; h_b^t = o_b^t \odot h_b^t \cr &amp; {y^t} = h_f^t \oplus h_b^t) \cr} $$
+\end{document}</tex-math></alternatives></disp-formula></disp-formula-group></p>
+          <p>where <inline-formula id="ilm0019"><alternatives><inline-graphic xlink:href="NSS-14-927-e0020.jpg"/><tex-math id="Tex020">\documentclass[12pt]{minimal}
+\usepackage{wasysym}
+\usepackage[substack]{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage[mathscr]{eucal}
+\usepackage{mathrsfs}
+\DeclareFontFamily{T1}{linotext}{}
+\DeclareFontShape{T1}{linotext}{m}{n} {linotext }{}
+\DeclareSymbolFont{linotext}{T1}{linotext}{m}{n}
+\DeclareSymbolFontAlphabet{\mathLINOTEXT}{linotext}
+\begin{document}
+$${\rm{W}} \in {{\rm{R}}^{{\rm{\omega }} \times {\rm{d}}}}$$
+\end{document}</tex-math></alternatives></inline-formula> and <inline-formula id="ilm0020"><alternatives><inline-graphic xlink:href="NSS-14-927-e0021.jpg"/><tex-math id="Tex021">\documentclass[12pt]{minimal}
+\usepackage{wasysym}
+\usepackage[substack]{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage[mathscr]{eucal}
+\usepackage{mathrsfs}
+\DeclareFontFamily{T1}{linotext}{}
+\DeclareFontShape{T1}{linotext}{m}{n} {linotext }{}
+\DeclareSymbolFont{linotext}{T1}{linotext}{m}{n}
+\DeclareSymbolFontAlphabet{\mathLINOTEXT}{linotext}
+\begin{document}
+$${\rm{V}} \in {{\rm{R}}^{{\rm{\omega }} \times {\rm{d}}}}$$
+\end{document}</tex-math></alternatives></inline-formula> are the weight matrices for different gates for input <inline-formula id="ilm0021"><alternatives><inline-graphic xlink:href="NSS-14-927-e0022.jpg"/><tex-math id="Tex022">\documentclass[12pt]{minimal}
+\usepackage{wasysym}
+\usepackage[substack]{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage[mathscr]{eucal}
+\usepackage{mathrsfs}
+\DeclareFontFamily{T1}{linotext}{}
+\DeclareFontShape{T1}{linotext}{m}{n} {linotext }{}
+\DeclareSymbolFont{linotext}{T1}{linotext}{m}{n}
+\DeclareSymbolFontAlphabet{\mathLINOTEXT}{linotext}
+\begin{document}
+$${{\rm{x}}^{\rm{t}}}$$
+\end{document}</tex-math></alternatives></inline-formula> and hidden state <inline-formula id="ilm0022"><alternatives><inline-graphic xlink:href="NSS-14-927-e0023.jpg"/><tex-math id="Tex023">\documentclass[12pt]{minimal}
+\usepackage{wasysym}
+\usepackage[substack]{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage[mathscr]{eucal}
+\usepackage{mathrsfs}
+\DeclareFontFamily{T1}{linotext}{}
+\DeclareFontShape{T1}{linotext}{m}{n} {linotext }{}
+\DeclareSymbolFont{linotext}{T1}{linotext}{m}{n}
+\DeclareSymbolFontAlphabet{\mathLINOTEXT}{linotext}
+\begin{document}
+$${\rm{h}}_{\rm{f}}^{{\rm{t}} - 1}$$
+\end{document}</tex-math></alternatives></inline-formula> and <inline-formula id="ilm0023"><alternatives><inline-graphic xlink:href="NSS-14-927-e0024.jpg"/><tex-math id="Tex024">\documentclass[12pt]{minimal}
+\usepackage{wasysym}
+\usepackage[substack]{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage[mathscr]{eucal}
+\usepackage{mathrsfs}
+\DeclareFontFamily{T1}{linotext}{}
+\DeclareFontShape{T1}{linotext}{m}{n} {linotext }{}
+\DeclareSymbolFont{linotext}{T1}{linotext}{m}{n}
+\DeclareSymbolFontAlphabet{\mathLINOTEXT}{linotext}
+\begin{document}
+$${\rm{h}}_{\rm{f}}^{{\rm{t}} - 1}$$
+\end{document}</tex-math></alternatives></inline-formula>, while * is the element-wise multiplication, <inline-formula id="ilm0024"><alternatives><inline-graphic xlink:href="NSS-14-927-e0025.jpg"/><tex-math id="Tex025">\documentclass[12pt]{minimal}
+\usepackage{wasysym}
+\usepackage[substack]{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage[mathscr]{eucal}
+\usepackage{mathrsfs}
+\DeclareFontFamily{T1}{linotext}{}
+\DeclareFontShape{T1}{linotext}{m}{n} {linotext }{}
+\DeclareSymbolFont{linotext}{T1}{linotext}{m}{n}
+\DeclareSymbolFontAlphabet{\mathLINOTEXT}{linotext}
+\begin{document}
+$${\rm{\sigma }}\left(\cdot \right)$$
+\end{document}</tex-math></alternatives></inline-formula> and <inline-formula id="ilm0025"><alternatives><inline-graphic xlink:href="NSS-14-927-e0026.jpg"/><tex-math id="Tex026">\documentclass[12pt]{minimal}
+\usepackage{wasysym}
+\usepackage[substack]{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage[mathscr]{eucal}
+\usepackage{mathrsfs}
+\DeclareFontFamily{T1}{linotext}{}
+\DeclareFontShape{T1}{linotext}{m}{n} {linotext }{}
+\DeclareSymbolFont{linotext}{T1}{linotext}{m}{n}
+\DeclareSymbolFontAlphabet{\mathLINOTEXT}{linotext}
+\begin{document}
+$${\rm{tanh}}\left(\cdot \right)$$
+\end{document}</tex-math></alternatives></inline-formula> are the element-wise activation functions, and <inline-formula id="ilm0026"><alternatives><inline-graphic xlink:href="NSS-14-927-e0027.jpg"/><tex-math id="Tex027">\documentclass[12pt]{minimal}
+\usepackage{wasysym}
+\usepackage[substack]{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage[mathscr]{eucal}
+\usepackage{mathrsfs}
+\DeclareFontFamily{T1}{linotext}{}
+\DeclareFontShape{T1}{linotext}{m}{n} {linotext }{}
+\DeclareSymbolFont{linotext}{T1}{linotext}{m}{n}
+\DeclareSymbolFontAlphabet{\mathLINOTEXT}{linotext}
+\begin{document}
+$${\rm{d}}$$
+\end{document}</tex-math></alternatives></inline-formula> can be the dimension of the word vector or the size of the hidden state in the lower layer. The framework of this network is shown in <xref rid="f0004" ref-type="fig">Figure 4</xref>.<fig position="float" id="f0004" fig-type="figure"><label>Figure 4</label><caption><p>The structure of local extractor: Convolutional neural network for 1-D signals.</p></caption><graphic xlink:href="NSS-14-927-g0004" content-type="print-only" position="float"/></fig></p>
+          <p>After Bi-LSTM network, the output of Bi-LSTM <inline-formula id="ilm0027"><alternatives><inline-graphic xlink:href="NSS-14-927-e0028.jpg"/><tex-math id="Tex028">\documentclass[12pt]{minimal}
+\usepackage{wasysym}
+\usepackage[substack]{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage[mathscr]{eucal}
+\usepackage{mathrsfs}
+\DeclareFontFamily{T1}{linotext}{}
+\DeclareFontShape{T1}{linotext}{m}{n} {linotext }{}
+\DeclareSymbolFont{linotext}{T1}{linotext}{m}{n}
+\DeclareSymbolFontAlphabet{\mathLINOTEXT}{linotext}
+\begin{document}
+$${{\rm{y}}_{{\rm{i}}:{\rm{i}} + {\rm{m}} - 1}}$$
+\end{document}</tex-math></alternatives></inline-formula>is given by
+<disp-formula-group><disp-formula id="m0002"><label>(2)</label><alternatives><graphic xlink:href="NSS-14-927-e0029.jpg" position="float"/><tex-math id="Tex029">\documentclass[12pt]{minimal}
+\usepackage{wasysym}
+\usepackage[substack]{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage[mathscr]{eucal}
+\usepackage{mathrsfs}
+\DeclareFontFamily{T1}{linotext}{}
+\DeclareFontShape{T1}{linotext}{m}{n} {linotext }{}
+\DeclareSymbolFont{linotext}{T1}{linotext}{m}{n}
+\DeclareSymbolFontAlphabet{\mathLINOTEXT}{linotext}
+\begin{document}
+$${{\rm{y}}_{{\rm{i}}:{\rm{i}} + {\rm{m}} - 1}} = {{\rm{y}}_{\rm{i}}} \oplus {{\rm{y}}_{{\rm{i}} + 1}} \oplus \ldots \oplus {{\rm{y}}_{{\rm{i}} + {\rm{m}} - 1}}$$
+\end{document}</tex-math></alternatives></disp-formula></disp-formula-group></p>
+          <p>where <inline-formula id="ilm0028"><alternatives><inline-graphic xlink:href="NSS-14-927-e0030.jpg"/><tex-math id="Tex030">\documentclass[12pt]{minimal}
+\usepackage{wasysym}
+\usepackage[substack]{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage[mathscr]{eucal}
+\usepackage{mathrsfs}
+\DeclareFontFamily{T1}{linotext}{}
+\DeclareFontShape{T1}{linotext}{m}{n} {linotext }{}
+\DeclareSymbolFont{linotext}{T1}{linotext}{m}{n}
+\DeclareSymbolFontAlphabet{\mathLINOTEXT}{linotext}
+\begin{document}
+$${{\rm{y}}_{{\rm{i}}:{\rm{i}} + {\rm{m}} - 1}}$$
+\end{document}</tex-math></alternatives></inline-formula> represents a window of m continuous time steps beginning from the <inline-formula id="ilm0029"><alternatives><inline-graphic xlink:href="NSS-14-927-e0031.jpg"/><tex-math id="Tex031">\documentclass[12pt]{minimal}
+\usepackage{wasysym}
+\usepackage[substack]{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage[mathscr]{eucal}
+\usepackage{mathrsfs}
+\DeclareFontFamily{T1}{linotext}{}
+\DeclareFontShape{T1}{linotext}{m}{n} {linotext }{}
+\DeclareSymbolFont{linotext}{T1}{linotext}{m}{n}
+\DeclareSymbolFontAlphabet{\mathLINOTEXT}{linotext}
+\begin{document}
+$${\rm{i}}$$
+\end{document}</tex-math></alternatives></inline-formula>th time step. The CNN feature extractor contains two layers: convolutional and max pooling layers. The convolutional layer slides the filters over the whole input sequence to generate feature maps. Each feature map can be regarded as the convolutional activation of the corresponding filter over the whole sequence. A convolutional filter <inline-formula id="ilm0030"><alternatives><inline-graphic xlink:href="NSS-14-927-e0032.jpg"/><tex-math id="Tex032">\documentclass[12pt]{minimal}
+\usepackage{wasysym}
+\usepackage[substack]{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage[mathscr]{eucal}
+\usepackage{mathrsfs}
+\DeclareFontFamily{T1}{linotext}{}
+\DeclareFontShape{T1}{linotext}{m}{n} {linotext }{}
+\DeclareSymbolFont{linotext}{T1}{linotext}{m}{n}
+\DeclareSymbolFontAlphabet{\mathLINOTEXT}{linotext}
+\begin{document}
+$${\rm{F}} \in {{\rm{R}}^{{\rm{m}} \times {\rm{d}}}}$$
+\end{document}</tex-math></alternatives></inline-formula> is used to obtain the feature map <inline-formula id="ilm0031"><alternatives><inline-graphic xlink:href="NSS-14-927-e0033.jpg"/><tex-math id="Tex033">\documentclass[12pt]{minimal}
+\usepackage{wasysym}
+\usepackage[substack]{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage[mathscr]{eucal}
+\usepackage{mathrsfs}
+\DeclareFontFamily{T1}{linotext}{}
+\DeclareFontShape{T1}{linotext}{m}{n} {linotext }{}
+\DeclareSymbolFont{linotext}{T1}{linotext}{m}{n}
+\DeclareSymbolFontAlphabet{\mathLINOTEXT}{linotext}
+\begin{document}
+$${\rm{Q}} \in {{\rm{R}}^{{\rm{n}} - {\rm{m}} + 1}}$$
+\end{document}</tex-math></alternatives></inline-formula>. The <inline-formula id="ilm0032"><alternatives><inline-graphic xlink:href="NSS-14-927-e0034.jpg"/><tex-math id="Tex034">\documentclass[12pt]{minimal}
+\usepackage{wasysym}
+\usepackage[substack]{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage[mathscr]{eucal}
+\usepackage{mathrsfs}
+\DeclareFontFamily{T1}{linotext}{}
+\DeclareFontShape{T1}{linotext}{m}{n} {linotext }{}
+\DeclareSymbolFont{linotext}{T1}{linotext}{m}{n}
+\DeclareSymbolFontAlphabet{\mathLINOTEXT}{linotext}
+\begin{document}
+$${\rm{i}}$$
+\end{document}</tex-math></alternatives></inline-formula>th element is calculated as
+<disp-formula-group><disp-formula id="m0003"><label>(3)</label><alternatives><graphic xlink:href="NSS-14-927-e0035.jpg" position="float"/><tex-math id="Tex035">\documentclass[12pt]{minimal}
+\usepackage{wasysym}
+\usepackage[substack]{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage[mathscr]{eucal}
+\usepackage{mathrsfs}
+\DeclareFontFamily{T1}{linotext}{}
+\DeclareFontShape{T1}{linotext}{m}{n} {linotext }{}
+\DeclareSymbolFont{linotext}{T1}{linotext}{m}{n}
+\DeclareSymbolFontAlphabet{\mathLINOTEXT}{linotext}
+\begin{document}
+$${{\rm{q}}_{\rm{i}}} = {\rm{f}}\left({{\rm{W}} \cdot {{\rm{y}}_{{\rm{i}}:{\rm{i}} + {\rm{m}} - 1}} + {\rm{b}}} \right)$$
+\end{document}</tex-math></alternatives></disp-formula></disp-formula-group></p>
+          <p>where <inline-formula id="ilm0033"><alternatives><inline-graphic xlink:href="NSS-14-927-e0036.jpg"/><tex-math id="Tex036">\documentclass[12pt]{minimal}
+\usepackage{wasysym}
+\usepackage[substack]{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage[mathscr]{eucal}
+\usepackage{mathrsfs}
+\DeclareFontFamily{T1}{linotext}{}
+\DeclareFontShape{T1}{linotext}{m}{n} {linotext }{}
+\DeclareSymbolFont{linotext}{T1}{linotext}{m}{n}
+\DeclareSymbolFontAlphabet{\mathLINOTEXT}{linotext}
+\begin{document}
+$${\rm{f}}$$
+\end{document}</tex-math></alternatives></inline-formula> is the <inline-formula id="ilm0034"><alternatives><inline-graphic xlink:href="NSS-14-927-e0037.jpg"/><tex-math id="Tex037">\documentclass[12pt]{minimal}
+\usepackage{wasysym}
+\usepackage[substack]{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage[mathscr]{eucal}
+\usepackage{mathrsfs}
+\DeclareFontFamily{T1}{linotext}{}
+\DeclareFontShape{T1}{linotext}{m}{n} {linotext }{}
+\DeclareSymbolFont{linotext}{T1}{linotext}{m}{n}
+\DeclareSymbolFontAlphabet{\mathLINOTEXT}{linotext}
+\begin{document}
+$${\rm{ReLu}}$$
+\end{document}</tex-math></alternatives></inline-formula> activation function, <inline-formula id="ilm0035"><alternatives><inline-graphic xlink:href="NSS-14-927-e0038.jpg"/><tex-math id="Tex038">\documentclass[12pt]{minimal}
+\usepackage{wasysym}
+\usepackage[substack]{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage[mathscr]{eucal}
+\usepackage{mathrsfs}
+\DeclareFontFamily{T1}{linotext}{}
+\DeclareFontShape{T1}{linotext}{m}{n} {linotext }{}
+\DeclareSymbolFont{linotext}{T1}{linotext}{m}{n}
+\DeclareSymbolFontAlphabet{\mathLINOTEXT}{linotext}
+\begin{document}
+$${\rm{W}}$$
+\end{document}</tex-math></alternatives></inline-formula> is the weight matrix of the convolution filter, is a bias, <inline-formula id="ilm0036"><alternatives><inline-graphic xlink:href="NSS-14-927-e0039.jpg"/><tex-math id="Tex039">\documentclass[12pt]{minimal}
+\usepackage{wasysym}
+\usepackage[substack]{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage[mathscr]{eucal}
+\usepackage{mathrsfs}
+\DeclareFontFamily{T1}{linotext}{}
+\DeclareFontShape{T1}{linotext}{m}{n} {linotext }{}
+\DeclareSymbolFont{linotext}{T1}{linotext}{m}{n}
+\DeclareSymbolFontAlphabet{\mathLINOTEXT}{linotext}
+\begin{document}
+$${\rm{m}}$$
+\end{document}</tex-math></alternatives></inline-formula> is the length of the filter, and <inline-formula id="ilm0037"><alternatives><inline-graphic xlink:href="NSS-14-927-e0040.jpg"/><tex-math id="Tex040">\documentclass[12pt]{minimal}
+\usepackage{wasysym}
+\usepackage[substack]{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage[mathscr]{eucal}
+\usepackage{mathrsfs}
+\DeclareFontFamily{T1}{linotext}{}
+\DeclareFontShape{T1}{linotext}{m}{n} {linotext }{}
+\DeclareSymbolFont{linotext}{T1}{linotext}{m}{n}
+\DeclareSymbolFontAlphabet{\mathLINOTEXT}{linotext}
+\begin{document}
+$${\rm{d}}$$
+\end{document}</tex-math></alternatives></inline-formula> is the dimension of the word vector. The convolutional layer uses multiple filters in parallel to obtain feature maps. It also can use convolutional filters of various lengths to extract feature information.</p>
+          <p>In addition, the pooling layer is applied to compress each generated feature map to produce significant features. The feature maps gained from the convolutional layer are shown below:
+<disp-formula-group><disp-formula id="m0004"><label>(4)</label><alternatives><graphic xlink:href="NSS-14-927-e0041.jpg" position="float"/><tex-math id="Tex041">\documentclass[12pt]{minimal}
+\usepackage{wasysym}
+\usepackage[substack]{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage[mathscr]{eucal}
+\usepackage{mathrsfs}
+\DeclareFontFamily{T1}{linotext}{}
+\DeclareFontShape{T1}{linotext}{m}{n} {linotext }{}
+\DeclareSymbolFont{linotext}{T1}{linotext}{m}{n}
+\DeclareSymbolFontAlphabet{\mathLINOTEXT}{linotext}
+\begin{document}
+$${{\rm{q}}_{\rm{i}}} = {\rm{f}}\left({{\rm{W}} \cdot {{\rm{y}}_{{\rm{i}}:{\rm{i}} + {\rm{m}} - 1}} + {\rm{b}}} \right)$$
+\end{document}</tex-math></alternatives></disp-formula></disp-formula-group></p>
+          <p>where index <inline-formula id="ilm0038"><alternatives><inline-graphic xlink:href="NSS-14-927-e0042.jpg"/><tex-math id="Tex042">\documentclass[12pt]{minimal}
+\usepackage{wasysym}
+\usepackage[substack]{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage[mathscr]{eucal}
+\usepackage{mathrsfs}
+\DeclareFontFamily{T1}{linotext}{}
+\DeclareFontShape{T1}{linotext}{m}{n} {linotext }{}
+\DeclareSymbolFont{linotext}{T1}{linotext}{m}{n}
+\DeclareSymbolFontAlphabet{\mathLINOTEXT}{linotext}
+\begin{document}
+$${\rm{j}}$$
+\end{document}</tex-math></alternatives></inline-formula> denotes the <inline-formula id="ilm0039"><alternatives><inline-graphic xlink:href="NSS-14-927-e0043.jpg"/><tex-math id="Tex043">\documentclass[12pt]{minimal}
+\usepackage{wasysym}
+\usepackage[substack]{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage[mathscr]{eucal}
+\usepackage{mathrsfs}
+\DeclareFontFamily{T1}{linotext}{}
+\DeclareFontShape{T1}{linotext}{m}{n} {linotext }{}
+\DeclareSymbolFont{linotext}{T1}{linotext}{m}{n}
+\DeclareSymbolFontAlphabet{\mathLINOTEXT}{linotext}
+\begin{document}
+$${\rm{j}}$$
+\end{document}</tex-math></alternatives></inline-formula>th filter; it corresponds to multi-windows as <inline-formula id="ilm0040"><alternatives><inline-graphic xlink:href="NSS-14-927-e0044.jpg"/><tex-math id="Tex044">\documentclass[12pt]{minimal}
+\usepackage{wasysym}
+\usepackage[substack]{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage[mathscr]{eucal}
+\usepackage{mathrsfs}
+\DeclareFontFamily{T1}{linotext}{}
+\DeclareFontShape{T1}{linotext}{m}{n} {linotext }{}
+\DeclareSymbolFont{linotext}{T1}{linotext}{m}{n}
+\DeclareSymbolFontAlphabet{\mathLINOTEXT}{linotext}
+\begin{document}
+$$\left\{ {{{\rm{y}}_{1:{\rm{m}}}},{{\rm{y}}_{2:{\rm{m}} + 1}}, \ldots ,{{\rm{y}}_{{\rm{s}} - {\rm{m}} + 1:{\rm{s}}}}} \right\}$$
+\end{document}</tex-math></alternatives></inline-formula>. These windows are fed into the max-pooling layer to obtain the compressed feature vector, which can be calculated as
+<disp-formula-group><disp-formula id="m0005"><label>(5)</label><alternatives><graphic xlink:href="NSS-14-927-e0045.jpg" position="float"/><tex-math id="Tex045">\documentclass[12pt]{minimal}
+\usepackage{wasysym}
+\usepackage[substack]{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage[mathscr]{eucal}
+\usepackage{mathrsfs}
+\DeclareFontFamily{T1}{linotext}{}
+\DeclareFontShape{T1}{linotext}{m}{n} {linotext }{}
+\DeclareSymbolFont{linotext}{T1}{linotext}{m}{n}
+\DeclareSymbolFontAlphabet{\mathLINOTEXT}{linotext}
+\begin{document}
+$${\rm{l}} = \left[{{{\rm{l}}_1},{{\rm{l}}_2}, \ldots ,{{\rm{l}}_{{{{\rm{s}} - {\rm{m}}} \over {\rm{k}}}}} + 1} \right]$$
+\end{document}</tex-math></alternatives></disp-formula></disp-formula-group></p>
+          <p>where <inline-formula id="ilm0041"><alternatives><inline-graphic xlink:href="NSS-14-927-e0046.jpg"/><tex-math id="Tex046">\documentclass[12pt]{minimal}
+\usepackage{wasysym}
+\usepackage[substack]{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage[mathscr]{eucal}
+\usepackage{mathrsfs}
+\DeclareFontFamily{T1}{linotext}{}
+\DeclareFontShape{T1}{linotext}{m}{n} {linotext }{}
+\DeclareSymbolFont{linotext}{T1}{linotext}{m}{n}
+\DeclareSymbolFontAlphabet{\mathLINOTEXT}{linotext}
+\begin{document}
+$${{\rm{l}}_{\rm{j}}} = {\rm{max}}\left({{{\rm{q}}_{\left({{\rm{j}} - 1} \right){\rm{k}}}},{{\rm{q}}_{\left({{\rm{j}} - 1} \right){\rm{k}} + 1}}, \ldots ,{{\rm{q}}_{{\rm{jk}} - 1}}} \right)$$
+\end{document}</tex-math></alternatives></inline-formula>. Multiple filters are applied with different initialised weights to derive the output of the CNN layer. The framework of the CNN is displayed in <xref rid="f0005" ref-type="fig">Figure 5</xref>.<fig position="float" id="f0005" fig-type="figure"><label>Figure 5</label><caption><p>Structure of whole night feature infusion and selection. (<bold>A</bold>). Layers structure of whole night feature infusion. (<bold>B</bold>). Procedures in selecting whole night features.</p></caption><graphic xlink:href="NSS-14-927-g0005" content-type="print-only" position="float"/></fig></p>
+          <p>The output representation <inline-formula id="ilm0042"><alternatives><inline-graphic xlink:href="NSS-14-927-e0047.jpg"/><tex-math id="Tex047">\documentclass[12pt]{minimal}
+\usepackage{wasysym}
+\usepackage[substack]{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage[mathscr]{eucal}
+\usepackage{mathrsfs}
+\DeclareFontFamily{T1}{linotext}{}
+\DeclareFontShape{T1}{linotext}{m}{n} {linotext }{}
+\DeclareSymbolFont{linotext}{T1}{linotext}{m}{n}
+\DeclareSymbolFontAlphabet{\mathLINOTEXT}{linotext}
+\begin{document}
+$${\rm{l}}$$
+\end{document}</tex-math></alternatives></inline-formula> of the local extractor represents related information concerning each desaturation segment. However, the severity of desaturation and disease may be helpful for the identification of desaturated fragments. Thus, <inline-formula id="ilm0043"><alternatives><inline-graphic xlink:href="NSS-14-927-e0048.jpg"/><tex-math id="Tex048">\documentclass[12pt]{minimal}
+\usepackage{wasysym}
+\usepackage[substack]{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage[mathscr]{eucal}
+\usepackage{mathrsfs}
+\DeclareFontFamily{T1}{linotext}{}
+\DeclareFontShape{T1}{linotext}{m}{n} {linotext }{}
+\DeclareSymbolFont{linotext}{T1}{linotext}{m}{n}
+\DeclareSymbolFontAlphabet{\mathLINOTEXT}{linotext}
+\begin{document}
+$${\rm{G}}$$
+\end{document}</tex-math></alternatives></inline-formula>, the whole night feature of <inline-formula id="ilm0044"><alternatives><inline-graphic xlink:href="NSS-14-927-e0049.jpg"/><tex-math id="Tex049">\documentclass[12pt]{minimal}
+\usepackage{wasysym}
+\usepackage[substack]{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage[mathscr]{eucal}
+\usepackage{mathrsfs}
+\DeclareFontFamily{T1}{linotext}{}
+\DeclareFontShape{T1}{linotext}{m}{n} {linotext }{}
+\DeclareSymbolFont{linotext}{T1}{linotext}{m}{n}
+\DeclareSymbolFontAlphabet{\mathLINOTEXT}{linotext}
+\begin{document}
+$${\rm{Sp}}{{\rm{O}}_2}$$
+\end{document}</tex-math></alternatives></inline-formula> extracted from full night PSG, is given as
+<disp-formula-group><disp-formula id="m0006"><label>(6)</label><alternatives><graphic xlink:href="NSS-14-927-e0050.jpg" position="float"/><tex-math id="Tex050">\documentclass[12pt]{minimal}
+\usepackage{wasysym}
+\usepackage[substack]{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage[mathscr]{eucal}
+\usepackage{mathrsfs}
+\DeclareFontFamily{T1}{linotext}{}
+\DeclareFontShape{T1}{linotext}{m}{n} {linotext }{}
+\DeclareSymbolFont{linotext}{T1}{linotext}{m}{n}
+\DeclareSymbolFontAlphabet{\mathLINOTEXT}{linotext}
+\begin{document}
+$${\rm{G}} = \left[{{{\rm{g}}_1},{{\rm{g}}_2},{{\rm{g}}_3},\ldots,{{\rm{g}}_{16}}} \right]$$
+\end{document}</tex-math></alternatives></disp-formula></disp-formula-group></p>
+          <p>where <inline-formula id="ilm0045"><alternatives><inline-graphic xlink:href="NSS-14-927-e0051.jpg"/><tex-math id="Tex051">\documentclass[12pt]{minimal}
+\usepackage{wasysym}
+\usepackage[substack]{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage[mathscr]{eucal}
+\usepackage{mathrsfs}
+\DeclareFontFamily{T1}{linotext}{}
+\DeclareFontShape{T1}{linotext}{m}{n} {linotext }{}
+\DeclareSymbolFont{linotext}{T1}{linotext}{m}{n}
+\DeclareSymbolFontAlphabet{\mathLINOTEXT}{linotext}
+\begin{document}
+$${{\rm{g}}_1}$$
+\end{document}</tex-math></alternatives></inline-formula>, <inline-formula id="ilm0046"><alternatives><inline-graphic xlink:href="NSS-14-927-e0052.jpg"/><tex-math id="Tex052">\documentclass[12pt]{minimal}
+\usepackage{wasysym}
+\usepackage[substack]{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage[mathscr]{eucal}
+\usepackage{mathrsfs}
+\DeclareFontFamily{T1}{linotext}{}
+\DeclareFontShape{T1}{linotext}{m}{n} {linotext }{}
+\DeclareSymbolFont{linotext}{T1}{linotext}{m}{n}
+\DeclareSymbolFontAlphabet{\mathLINOTEXT}{linotext}
+\begin{document}
+$${{\rm{g}}_2}$$
+\end{document}</tex-math></alternatives></inline-formula>, <inline-formula id="ilm0047"><alternatives><inline-graphic xlink:href="NSS-14-927-e0053.jpg"/><tex-math id="Tex053">\documentclass[12pt]{minimal}
+\usepackage{wasysym}
+\usepackage[substack]{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage[mathscr]{eucal}
+\usepackage{mathrsfs}
+\DeclareFontFamily{T1}{linotext}{}
+\DeclareFontShape{T1}{linotext}{m}{n} {linotext }{}
+\DeclareSymbolFont{linotext}{T1}{linotext}{m}{n}
+\DeclareSymbolFontAlphabet{\mathLINOTEXT}{linotext}
+\begin{document}
+$${{\rm{g}}_3}$$
+\end{document}</tex-math></alternatives></inline-formula>, …, <inline-formula id="ilm0048"><alternatives><inline-graphic xlink:href="NSS-14-927-e0054.jpg"/><tex-math id="Tex054">\documentclass[12pt]{minimal}
+\usepackage{wasysym}
+\usepackage[substack]{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage[mathscr]{eucal}
+\usepackage{mathrsfs}
+\DeclareFontFamily{T1}{linotext}{}
+\DeclareFontShape{T1}{linotext}{m}{n} {linotext }{}
+\DeclareSymbolFont{linotext}{T1}{linotext}{m}{n}
+\DeclareSymbolFontAlphabet{\mathLINOTEXT}{linotext}
+\begin{document}
+$${{\rm{g}}_{16}}$$
+\end{document}</tex-math></alternatives></inline-formula> are time and frequency domain features of whole night signal extracted in the previous step. The whole night fusion feature <inline-formula id="ilm0049"><alternatives><inline-graphic xlink:href="NSS-14-927-e0055.jpg"/><tex-math id="Tex055">\documentclass[12pt]{minimal}
+\usepackage{wasysym}
+\usepackage[substack]{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage[mathscr]{eucal}
+\usepackage{mathrsfs}
+\DeclareFontFamily{T1}{linotext}{}
+\DeclareFontShape{T1}{linotext}{m}{n} {linotext }{}
+\DeclareSymbolFont{linotext}{T1}{linotext}{m}{n}
+\DeclareSymbolFontAlphabet{\mathLINOTEXT}{linotext}
+\begin{document}
+$${{\rm{G}}_{\rm{f}}} = \left\{ {{\rm{l}} \oplus {\rm{G}}} \right\}$$
+\end{document}</tex-math></alternatives></inline-formula> combines features extracted from fragments and whole night features <inline-formula id="ilm0050"><alternatives><inline-graphic xlink:href="NSS-14-927-e0056.jpg"/><tex-math id="Tex056">\documentclass[12pt]{minimal}
+\usepackage{wasysym}
+\usepackage[substack]{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage[mathscr]{eucal}
+\usepackage{mathrsfs}
+\DeclareFontFamily{T1}{linotext}{}
+\DeclareFontShape{T1}{linotext}{m}{n} {linotext }{}
+\DeclareSymbolFont{linotext}{T1}{linotext}{m}{n}
+\DeclareSymbolFontAlphabet{\mathLINOTEXT}{linotext}
+\begin{document}
+$${\rm{G}}$$
+\end{document}</tex-math></alternatives></inline-formula> from overnight records. The feature <inline-formula id="ilm0051"><alternatives><inline-graphic xlink:href="NSS-14-927-e0057.jpg"/><tex-math id="Tex057">\documentclass[12pt]{minimal}
+\usepackage{wasysym}
+\usepackage[substack]{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage[mathscr]{eucal}
+\usepackage{mathrsfs}
+\DeclareFontFamily{T1}{linotext}{}
+\DeclareFontShape{T1}{linotext}{m}{n} {linotext }{}
+\DeclareSymbolFont{linotext}{T1}{linotext}{m}{n}
+\DeclareSymbolFontAlphabet{\mathLINOTEXT}{linotext}
+\begin{document}
+$${{\rm{G}}_{\rm{f}}}$$
+\end{document}</tex-math></alternatives></inline-formula> is fed into a two-layer full connection layer to gain the prediction of the whole model, as shown in the following equations:
+<disp-formula-group><disp-formula id="m0007"><label>(7)</label><alternatives><graphic xlink:href="NSS-14-927-e0058.jpg" position="float"/><tex-math id="Tex058">\documentclass[12pt]{minimal}
+\usepackage{wasysym}
+\usepackage[substack]{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage[mathscr]{eucal}
+\usepackage{mathrsfs}
+\DeclareFontFamily{T1}{linotext}{}
+\DeclareFontShape{T1}{linotext}{m}{n} {linotext }{}
+\DeclareSymbolFont{linotext}{T1}{linotext}{m}{n}
+\DeclareSymbolFontAlphabet{\mathLINOTEXT}{linotext}
+\begin{document}
+$$\matrix{ {{\rm{f}}{{\rm{c}}_1} = {\rm{F}}\left({{\rm{W}}_{\rm{G}}^{\rm{r}}{\rm{G}} + {\rm{W}}_{\rm{l}}^{\rm{r}}{\rm{l}}} \right) + {{\rm{B}}_{{\rm{f}}{{\rm{c}}_1}}}} \hfill \cr {{\rm{f}}{{\rm{c}}_1} = {\rm{F}}\left({{{\rm{W}}^{\rm{r}}}{{\rm{G}}_{\rm{f}}}} \right) + {{\rm{B}}_{{\rm{f}}{{\rm{c}}_1}}}} \hfill \cr {{\rm{f}}{{\rm{c}}_2} = {\rm{F}}\left({{{\rm{W}}^{\rm{t}}}{\rm{f}}{{\rm{c}}_1}} \right) + {{\rm{B}}_{{\rm{f}}{{\rm{c}}_2}}}} \hfill \cr {{\rm{o}} = {\rm{softmax}}\left({{\rm{f}}{{\rm{c}}_2}} \right)} \hfill \cr } $$
+\end{document}</tex-math></alternatives></disp-formula></disp-formula-group></p>
+          <p>where <inline-formula id="ilm0052"><alternatives><inline-graphic xlink:href="NSS-14-927-e0059.jpg"/><tex-math id="Tex059">\documentclass[12pt]{minimal}
+\usepackage{wasysym}
+\usepackage[substack]{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage[mathscr]{eucal}
+\usepackage{mathrsfs}
+\DeclareFontFamily{T1}{linotext}{}
+\DeclareFontShape{T1}{linotext}{m}{n} {linotext }{}
+\DeclareSymbolFont{linotext}{T1}{linotext}{m}{n}
+\DeclareSymbolFontAlphabet{\mathLINOTEXT}{linotext}
+\begin{document}
+$${{\rm{W}}^{\rm{r}}} = {\rm{W}}_{\rm{G}}^{\rm{r}} \oplus {\rm{W}}_{\rm{l}}^{\rm{r}}$$
+\end{document}</tex-math></alternatives></inline-formula>, <inline-formula id="ilm0053"><alternatives><inline-graphic xlink:href="NSS-14-927-e0060.jpg"/><tex-math id="Tex060">\documentclass[12pt]{minimal}
+\usepackage{wasysym}
+\usepackage[substack]{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage[mathscr]{eucal}
+\usepackage{mathrsfs}
+\DeclareFontFamily{T1}{linotext}{}
+\DeclareFontShape{T1}{linotext}{m}{n} {linotext }{}
+\DeclareSymbolFont{linotext}{T1}{linotext}{m}{n}
+\DeclareSymbolFontAlphabet{\mathLINOTEXT}{linotext}
+\begin{document}
+$${{\rm{W}}^{\rm{r}}} \in {{\rm{R}}^{{\rm{v}} \times {\rm{z}}}}$$
+\end{document}</tex-math></alternatives></inline-formula>, and <inline-formula id="ilm0054"><alternatives><inline-graphic xlink:href="NSS-14-927-e0061.jpg"/><tex-math id="Tex061">\documentclass[12pt]{minimal}
+\usepackage{wasysym}
+\usepackage[substack]{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage[mathscr]{eucal}
+\usepackage{mathrsfs}
+\DeclareFontFamily{T1}{linotext}{}
+\DeclareFontShape{T1}{linotext}{m}{n} {linotext }{}
+\DeclareSymbolFont{linotext}{T1}{linotext}{m}{n}
+\DeclareSymbolFontAlphabet{\mathLINOTEXT}{linotext}
+\begin{document}
+$${{\rm{W}}^{\rm{t}}} \in {{\rm{T}}^{{\rm{z}} \times {\rm{o}}}}$$
+\end{document}</tex-math></alternatives></inline-formula>. In addition, <inline-formula id="ilm0055"><alternatives><inline-graphic xlink:href="NSS-14-927-e0062.jpg"/><tex-math id="Tex062">\documentclass[12pt]{minimal}
+\usepackage{wasysym}
+\usepackage[substack]{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage[mathscr]{eucal}
+\usepackage{mathrsfs}
+\DeclareFontFamily{T1}{linotext}{}
+\DeclareFontShape{T1}{linotext}{m}{n} {linotext }{}
+\DeclareSymbolFont{linotext}{T1}{linotext}{m}{n}
+\DeclareSymbolFontAlphabet{\mathLINOTEXT}{linotext}
+\begin{document}
+$${\rm{z}}$$
+\end{document}</tex-math></alternatives></inline-formula> is the number of hidden states in the first layer of full connection layers and <inline-formula id="ilm0056"><alternatives><inline-graphic xlink:href="NSS-14-927-e0063.jpg"/><tex-math id="Tex063">\documentclass[12pt]{minimal}
+\usepackage{wasysym}
+\usepackage[substack]{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage[mathscr]{eucal}
+\usepackage{mathrsfs}
+\DeclareFontFamily{T1}{linotext}{}
+\DeclareFontShape{T1}{linotext}{m}{n} {linotext }{}
+\DeclareSymbolFont{linotext}{T1}{linotext}{m}{n}
+\DeclareSymbolFontAlphabet{\mathLINOTEXT}{linotext}
+\begin{document}
+$${\rm{o}}$$
+\end{document}</tex-math></alternatives></inline-formula> is the dimensionality of the output. Because the objective problem in our task is a bi-classification problem, <inline-formula id="ilm0057"><alternatives><inline-graphic xlink:href="NSS-14-927-e0064.jpg"/><tex-math id="Tex064">\documentclass[12pt]{minimal}
+\usepackage{wasysym}
+\usepackage[substack]{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage[mathscr]{eucal}
+\usepackage{mathrsfs}
+\DeclareFontFamily{T1}{linotext}{}
+\DeclareFontShape{T1}{linotext}{m}{n} {linotext }{}
+\DeclareSymbolFont{linotext}{T1}{linotext}{m}{n}
+\DeclareSymbolFontAlphabet{\mathLINOTEXT}{linotext}
+\begin{document}
+$${\rm{o}} = 2$$
+\end{document}</tex-math></alternatives></inline-formula>. The structures of the two-layer full connection and softmax layers are shown in <xref rid="f0005" ref-type="fig">Figure 5A</xref>.</p>
+          <p>In this study, focal loss is used as a model loss between the predicted classification results and real class labels because of the uneven distributions of the two types of data<xref rid="cit0038" ref-type="bibr">38</xref>,<xref rid="cit0039" ref-type="bibr">39</xref>:<disp-formula-group><disp-formula id="m0008"><label>(8)</label><alternatives><graphic xlink:href="NSS-14-927-e0065.jpg" position="float"/><tex-math id="Tex065">\documentclass[12pt]{minimal}
+\usepackage{wasysym}
+\usepackage[substack]{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage[mathscr]{eucal}
+\usepackage{mathrsfs}
+\DeclareFontFamily{T1}{linotext}{}
+\DeclareFontShape{T1}{linotext}{m}{n} {linotext }{}
+\DeclareSymbolFont{linotext}{T1}{linotext}{m}{n}
+\DeclareSymbolFontAlphabet{\mathLINOTEXT}{linotext}
+\begin{document}
+$$\eqalign{ &amp; FL\left({p,y} \right) = FL\left({{p_t}} \right) = - {\alpha _t}\left({1 - {p_t}} \right)\log \left({{p_t}} \right) \cr &amp; {p_t} = \left\{ \matrix{ p \hfill \cr 1 - potherwise \hfill \cr} \right. \cr} $$
+\end{document}</tex-math></alternatives></disp-formula></disp-formula-group></p>
+          <p>where <inline-formula id="ilm0058"><alternatives><inline-graphic xlink:href="NSS-14-927-e0066.jpg"/><tex-math id="Tex066">\documentclass[12pt]{minimal}
+\usepackage{wasysym}
+\usepackage[substack]{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage[mathscr]{eucal}
+\usepackage{mathrsfs}
+\DeclareFontFamily{T1}{linotext}{}
+\DeclareFontShape{T1}{linotext}{m}{n} {linotext }{}
+\DeclareSymbolFont{linotext}{T1}{linotext}{m}{n}
+\DeclareSymbolFontAlphabet{\mathLINOTEXT}{linotext}
+\begin{document}
+$${\rm{y}} \in \left\{ { \pm 1} \right\}$$
+\end{document}</tex-math></alternatives></inline-formula> represents the real class label and <inline-formula id="ilm0059"><alternatives><inline-graphic xlink:href="NSS-14-927-e0067.jpg"/><tex-math id="Tex067">\documentclass[12pt]{minimal}
+\usepackage{wasysym}
+\usepackage[substack]{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage[mathscr]{eucal}
+\usepackage{mathrsfs}
+\DeclareFontFamily{T1}{linotext}{}
+\DeclareFontShape{T1}{linotext}{m}{n} {linotext }{}
+\DeclareSymbolFont{linotext}{T1}{linotext}{m}{n}
+\DeclareSymbolFontAlphabet{\mathLINOTEXT}{linotext}
+\begin{document}
+$${\rm{p}} \in \left[{0,1} \right]$$
+\end{document}</tex-math></alternatives></inline-formula> represents the probability that the class of the output <inline-formula id="ilm0060"><alternatives><inline-graphic xlink:href="NSS-14-927-e0068.jpg"/><tex-math id="Tex068">\documentclass[12pt]{minimal}
+\usepackage{wasysym}
+\usepackage[substack]{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage[mathscr]{eucal}
+\usepackage{mathrsfs}
+\DeclareFontFamily{T1}{linotext}{}
+\DeclareFontShape{T1}{linotext}{m}{n} {linotext }{}
+\DeclareSymbolFont{linotext}{T1}{linotext}{m}{n}
+\DeclareSymbolFontAlphabet{\mathLINOTEXT}{linotext}
+\begin{document}
+$$\mathop {\rm{y}}\limits^ $$
+\end{document}</tex-math></alternatives></inline-formula> of the model is 1.</p>
+        </sec>
+        <sec id="s0002-s2003-s3004">
+          <title>Whole Night Feature Selection</title>
+          <p>The weights of the fusion full connection layer for the 16 whole night features were used for feature selection. The gradient-weighted class activation mapping (Grad-CAM) method was used to create a weight map with higher-value weights. Low-value weights were considered redundant.<xref rid="cit0040" ref-type="bibr">40</xref> The feature selection process is shown in <xref rid="f0005" ref-type="fig">Figure 5B</xref>.</p>
+        </sec>
+        <sec id="s0002-s2003-s3005">
+          <title>Statistical Analysis of Classification</title>
+          <p>Accuracy, sensitivity, specificity, positive predictive value, area under the receiver operating characteristic curve, and Cohen’s kappa were used to analyse the classification performance.</p>
+        </sec>
+        <sec id="s0002-s2003-s3006">
+          <title>AHI Estimation</title>
+          <p>The AHI was calculated using a linear regressor, which simulated the relationships between the predicted and real numbers of apnoea-related desaturation events. Moreover, the identified AHI was within the annotated range to avoid the influence of non-sleep time.</p>
+        </sec>
+        <sec id="s0002-s2003-s3007">
+          <title>Experimental Setup</title>
+          <p>The dataset included data from 500 individuals, which were used for model training because of the complexity and time-consuming nature of extensive review for additional data. The original apnoeic events recorded by PSG were based on the respiratory signals. The apnoea event markers from the SHHS training dataset were manually converted to desaturation event markers. We performed two major experiments as part of this study. First, we used our method to test well-known datasets and compared the findings to the results of other methods in terms of recognition accuracy. Second, we analysed the fusion method using whole night features and desaturation segments.</p>
+        </sec>
+      </sec>
+    </sec>
+    <sec id="s0003">
+      <title>Results</title>
+      <sec id="s0003-s2001">
+        <title>Comparison of Methods and Datasets</title>
+        <sec id="s0003-s2001-s3001">
+          <title>Segment Classification Performance</title>
+          <p><xref rid="t0003" ref-type="table">Table 3</xref> shows the mean performance of segment classification for each dataset. The mean performance was 84.3% for the test set. The model was validated on the Physionet dataset with an accuracy of 94.5%, an improvement over the previous study (93.0%).<xref rid="cit0040" ref-type="bibr">40</xref>
+<xref rid="t0004" ref-type="table">Table 4</xref> presents the performance indicators for the classification of desaturation events detected by the generation method using different classifiers. These indicators were averaged on all test datasets. As shown in <xref rid="t0004" ref-type="table">Table 4</xref>, the accuracy of the Bi-LSTM-CNN classifier was superior to the accuracies of other classifiers for the complete training dataset. Therefore, only the Bi-LSTM-CNN classifier was used for subsequent experiments.<table-wrap position="float" id="t0003"><label>Table 3</label><caption><p>Overview of the Averaged Classification Performance of Bi-LSTM-CNN Model on Each Set</p></caption><table frame="hsides" rules="groups"><thead><tr><th rowspan="1" colspan="1">Dataset</th><th rowspan="1" colspan="1">Acc</th><th rowspan="1" colspan="1">Se</th><th rowspan="1" colspan="1">Sp</th><th rowspan="1" colspan="1">PPV</th><th rowspan="1" colspan="1">AUC</th></tr></thead><tbody><tr><td rowspan="1" colspan="1">SHHS1 train</td><td rowspan="1" colspan="1">85.3</td><td rowspan="1" colspan="1">71.7</td><td rowspan="1" colspan="1">88.9</td><td rowspan="1" colspan="1">67.9</td><td rowspan="1" colspan="1">88.7</td></tr><tr><td rowspan="1" colspan="1">SHHS1 test</td><td rowspan="1" colspan="1">84.9</td><td rowspan="1" colspan="1">70.3</td><td rowspan="1" colspan="1">88.7</td><td rowspan="1" colspan="1">66.1</td><td rowspan="1" colspan="1">87.3</td></tr><tr><td rowspan="1" colspan="1">SHHS2</td><td rowspan="1" colspan="1">83.7</td><td rowspan="1" colspan="1">71.1</td><td rowspan="1" colspan="1">85.7</td><td rowspan="1" colspan="1">65.7</td><td rowspan="1" colspan="1">87.7</td></tr><tr><td rowspan="1" colspan="1">Physionet</td><td rowspan="1" colspan="1">94.5</td><td rowspan="1" colspan="1">98.7</td><td rowspan="1" colspan="1">88.1</td><td rowspan="1" colspan="1">83.0</td><td rowspan="1" colspan="1">96.5</td></tr><tr><td rowspan="1" colspan="1">No. 6 People Hospital</td><td rowspan="1" colspan="1">82.7</td><td rowspan="1" colspan="1">72.3</td><td rowspan="1" colspan="1">85.1</td><td rowspan="1" colspan="1">64.0</td><td rowspan="1" colspan="1">86.9</td></tr></tbody></table><table-wrap-foot><fn id="tfn0002"><p><bold>Abbreviations</bold>: Acc, accuracy; Se, sensitivity; Sp, specificity; PPV, positive predictive value; AUC, area under ROC curve.</p></fn></table-wrap-foot></table-wrap>
+<table-wrap position="float" id="t0004"><label>Table 4</label><caption><p>Overview of the Averaged Classification Performance of Different Method on the Validation Set</p></caption><table frame="hsides" rules="groups"><thead><tr><th rowspan="1" colspan="1">Classifier</th><th rowspan="1" colspan="1">Acc (%)</th><th rowspan="1" colspan="1">Se (%)</th><th rowspan="1" colspan="1">Sp (%)</th><th rowspan="1" colspan="1">PPV (%)</th><th rowspan="1" colspan="1">AUC (%)*</th></tr></thead><tbody><tr><td rowspan="1" colspan="1">SVM</td><td rowspan="1" colspan="1">79.1</td><td rowspan="1" colspan="1">75.3</td><td rowspan="1" colspan="1">81.0</td><td rowspan="1" colspan="1">54.2</td><td rowspan="1" colspan="1">85.1 (81.0, 89.2)</td></tr><tr><td rowspan="1" colspan="1">Random forest</td><td rowspan="1" colspan="1">82.9</td><td rowspan="1" colspan="1">68.3</td><td rowspan="1" colspan="1">87.2</td><td rowspan="1" colspan="1">64.1</td><td rowspan="1" colspan="1">85.6 (81.8, 89.4)</td></tr><tr><td rowspan="1" colspan="1">LSTM</td><td rowspan="1" colspan="1">79.9</td><td rowspan="1" colspan="1">71.1</td><td rowspan="1" colspan="1">81.8</td><td rowspan="1" colspan="1">52.7</td><td rowspan="1" colspan="1">85.0 (81.1, 88.9)</td></tr><tr><td rowspan="1" colspan="1">Bi-LSTM</td><td rowspan="1" colspan="1">81.2</td><td rowspan="1" colspan="1">73.2</td><td rowspan="1" colspan="1">82.7</td><td rowspan="1" colspan="1">55.2</td><td rowspan="1" colspan="1">84.7 (80.4, 89.0)</td></tr><tr><td rowspan="1" colspan="1">CNN</td><td rowspan="1" colspan="1">79.1</td><td rowspan="1" colspan="1">70.1</td><td rowspan="1" colspan="1">82.4</td><td rowspan="1" colspan="1">55.9</td><td rowspan="1" colspan="1">85.6 (81.7, 89.5)</td></tr><tr><td rowspan="1" colspan="1">Bi-LSTM-CNN</td><td rowspan="1" colspan="1">84.3</td><td rowspan="1" colspan="1">74.3</td><td rowspan="1" colspan="1">84.7</td><td rowspan="1" colspan="1">64.2</td><td rowspan="1" colspan="1">88.1 (85.3, 90.9)</td></tr></tbody></table><table-wrap-foot><fn id="tfn0003"><p><bold>Note</bold>:*P&lt;0.001.</p></fn><fn id="tfn0004"><p><bold>Abbreviations</bold>: Acc, accuracy; Se, sensitivity; Sp, specificity; PPV, positive predictive value; AUC, area under ROC curve.</p></fn></table-wrap-foot></table-wrap>
+</p>
+        </sec>
+        <sec id="s0003-s2001-s3002">
+          <title>AHI Estimation</title>
+          <p>Desaturation events were detected by the segment generation method using SpO<sub>2</sub> signals from full night PSG. The Bi-LSTM-CNN classifier model was used to divide the signals into apnoeic and non-apnoeic events. The AHI is computed as the number of desaturation events divided by the total recording time. <xref rid="f0006" ref-type="fig">Figure 6</xref> shows a comparison of the predicted and real AHIs for each dataset. The training set had greater variance than did the predictive AHI in the verification set for all datasets. For SHHS and No. 6 People’s Hospital datasets, this discrepancy was limited, but it was higher for AHI; thus, the discrepancy led to insufficient representation of SDB in the test set. In the Physionet dataset, desaturation was absent in only 5.3% of the apnoea-related time; therefore, the predicted AHI was closer to the real value. To ensure the independence of the test dataset, the SHHS1 train dataset was used as the training set, while SHHS1 test, SHHS2, Physionet, and No. 6 People’s Hospital datasets were used as validation sets. The desaturation events in the validation set were divided into apnoeic-related (77.8%) and non-apnoeic-related (22.2%) events. The R<sup>2</sup> coefficients of the predicted AHIs for the datasets were 0.87–0.94.<fig position="float" id="f0006" fig-type="figure"><label>Figure 6</label><caption><p>Scatter plot of the computed and annotated AHI for all data sets, <italic toggle="yes">R</italic><sup>2</sup> values are given. Regressions based on the training (SHHS1 train) and test data (SHHS1 test, SHHS2, No. 6 People Hospital, and Physionet) are also plotted.</p></caption><graphic xlink:href="NSS-14-927-g0006" content-type="print-only" position="float"/></fig></p>
+        </sec>
+        <sec id="s0003-s2001-s3003">
+          <title>OSA Screening and Grading</title>
+          <p>Based on the AHI, participants were divided into patients with (AHI ≥ 15) and without (AHI 15) OSA. Furthermore, participants were classified into patients without OSA and patients with normal, mild, moderate, and severe OSA. The results of the SDB classification (AHI &gt; 15) were compared with the results of other studies conducted on the SHHS2 dataset.<xref rid="cit0010" ref-type="bibr">10–12</xref>,<xref rid="cit0041" ref-type="bibr">41</xref>,<xref rid="cit0042" ref-type="bibr">42</xref>
+<xref rid="t0005" ref-type="table">Table 5</xref> shows the comparison of the results of a subset of 995 individuals. Our classification method was superior to the methods used in other studies, showing an accuracy of 88.95% and an area under the curve of 0.961. Because the SHHS2 dataset was not used to train the model, these results are meaningful.<table-wrap position="float" id="t0005"><label>Table 5</label><caption><p>Comparison of SDB Patient Screening Results for SHHS2 Dataset (AHI &gt;15)</p></caption><table frame="hsides" rules="groups"><thead><tr><th rowspan="1" colspan="1">Classifier</th><th rowspan="1" colspan="1">Acc</th><th rowspan="1" colspan="1">Se</th><th rowspan="1" colspan="1">Sp</th><th rowspan="1" colspan="1">AUC</th></tr></thead><tbody><tr><td rowspan="1" colspan="1">Our study</td><td rowspan="1" colspan="1">88.95</td><td rowspan="1" colspan="1">86.73</td><td rowspan="1" colspan="1">90.76</td><td rowspan="1" colspan="1">0.961</td></tr><tr><td rowspan="1" colspan="1">Deviaene et al<xref rid="cit0012" ref-type="bibr">12</xref></td><td rowspan="1" colspan="1">88.08</td><td rowspan="1" colspan="1">90.12</td><td rowspan="1" colspan="1">86.39</td><td rowspan="1" colspan="1">0.953</td></tr><tr><td rowspan="1" colspan="1">Morales et al<xref rid="cit0010" ref-type="bibr">10</xref></td><td rowspan="1" colspan="1">85.28</td><td rowspan="1" colspan="1">84.75</td><td rowspan="1" colspan="1">85.81</td><td rowspan="1" colspan="1">0.936</td></tr><tr><td rowspan="1" colspan="1">Rolon et al<xref rid="cit0011" ref-type="bibr">11</xref></td><td rowspan="1" colspan="1">85.78</td><td rowspan="1" colspan="1">85.65</td><td rowspan="1" colspan="1">85.92</td><td rowspan="1" colspan="1">0.937</td></tr><tr><td rowspan="1" colspan="1">Schlotthauer et al<xref rid="cit0041" ref-type="bibr">41</xref></td><td rowspan="1" colspan="1">84.17</td><td rowspan="1" colspan="1">84.11</td><td rowspan="1" colspan="1">85.94</td><td rowspan="1" colspan="1">0.922</td></tr><tr><td rowspan="1" colspan="1">Vazquez et al<xref rid="cit0042" ref-type="bibr">42</xref></td><td rowspan="1" colspan="1">77.15</td><td rowspan="1" colspan="1">80.84</td><td rowspan="1" colspan="1">87.50</td><td rowspan="1" colspan="1">0.909</td></tr></tbody></table><table-wrap-foot><fn id="tfn0005"><p><bold>Abbreviations</bold>: Acc, accuracy; Se, sensitivity; Sp, specificity; AUC, area under ROC curve.</p></fn></table-wrap-foot></table-wrap>
+</p>
+          <p><xref rid="f0007" ref-type="fig">Figure 7</xref> shows the SDB classification accuracy in each dataset. In the SHHS1 test dataset, the accuracy was significantly lower for normal individuals than for SDB patients, which may be explained by the difficulty in distinguishing between normal and mildly affected individuals. <xref rid="f0008" ref-type="fig">Figure 8</xref> shows that the accuracy and specificity of SDB classification decreased and sensitivity increased with increasing SDB severity. Only 17% of the patients in the SHHS1 and SHHS2 test datasets had severe SDB (AHI ≥ 30), leading to low sensitivity and high specificity. The confusion matrixes of the estimated and true class labels for the SHHS and No. 6 People’s Hospital datasets are shown in <xref rid="f0008" ref-type="fig">Figure 8</xref>. Outstanding classification performance was observed in the training set, such that 84.2% of the individuals were classified correctly and the remaining 13.8% of the individuals were classified in closely related classes. The classification accuracies were 4.2%, 67.1%, and 72.5% for the SHHS1 training, SHHS1 test, and SHHS2 sets. An AHI threshold of 15 is often used in SDB screening. Screening individuals for SDB based on an AHI threshold of 15 resulted in accuracy of 95.4% for the training set and accuracies of 88.4%, 88.9%, and 93.9% for the SHHS1 test, SHHS2, and No. 6 People’s Hospital datasets. In the Physionet dataset, SDB was accurately classified in 100 individuals with an accuracy of 100%.<fig position="float" id="f0007" fig-type="figure"><label>Figure 7</label><caption><p>The bar chart of the accuracy for each dataset in each class of severity of SDB.</p></caption><graphic xlink:href="NSS-14-927-g0007" content-type="print-only" position="float"/></fig><fig position="float" id="f0008" fig-type="figure"><label>Figure 8</label><caption><p>Confusion matrix for SDB severity classification based on computed AHI of four datasets (SHHS1 train, SHHS1 test, SHHS2 and No. 6 People Hospital).</p></caption><graphic xlink:href="NSS-14-927-g0008" content-type="print-only" position="float"/></fig></p>
+        </sec>
+      </sec>
+      <sec id="s0003-s2002">
+        <title>Whole Night Feature Infusion Experiment</title>
+        <p>We added whole night features to determine the performance accuracy for whole night PSG. Whole night feature infusion improved the accuracy by 1.6 (<xref rid="t0006" ref-type="table">Table 6</xref>). In the SHHS1 test and SHHS2 datasets, models with whole night features were more accurate (84.9% and 83.7%, respectively) than were models without whole night features (84.0% and 83.5%, respectively).<table-wrap position="float" id="t0006"><label>Table 6</label><caption><p>Overview of the Averaged Classification Performance of Method Using or Not Using Whole Night Feature on the Validation Set</p></caption><table frame="hsides" rules="groups"><thead><tr><th rowspan="1" colspan="1">Method</th><th rowspan="1" colspan="1">Acc</th><th rowspan="1" colspan="1">Se</th><th rowspan="1" colspan="1">Sp</th><th rowspan="1" colspan="1">PPV</th><th rowspan="1" colspan="1">AUC</th></tr></thead><tbody><tr><td rowspan="1" colspan="1">With whole night feature</td><td rowspan="1" colspan="1">84.3</td><td rowspan="1" colspan="1">74.3</td><td rowspan="1" colspan="1">84.6</td><td rowspan="1" colspan="1">64.2</td><td rowspan="1" colspan="1">88.1</td></tr><tr><td rowspan="1" colspan="1">Without whole night feature</td><td rowspan="1" colspan="1">82.7</td><td rowspan="1" colspan="1">73.5.</td><td rowspan="1" colspan="1">83.1</td><td rowspan="1" colspan="1">60.7</td><td rowspan="1" colspan="1">86.6</td></tr></tbody></table><table-wrap-foot><fn id="tfn0006"><p><bold>Abbreviations</bold>: Acc, accuracy; Se, sensitivity; Sp, specificity; PPV, positive predictive value; AUC, area under ROC curve.</p></fn></table-wrap-foot></table-wrap>
+</p>
+      </sec>
+    </sec>
+    <sec id="s0004">
+      <title>Discussion</title>
+      <p>The detection of respiratory events, particularly apnoea-related respiratory events, is tedious and time-consuming because it requires the clinician or sleep technologist to manually examine each event. Therefore, an automated system that can accurately assess individual respiratory events and provide an accurate diagnosis will be extremely useful. Based on the detection and classification of desaturation events associated with apnoea, a method is proposed for the automatic detection of respiratory events using SpO<sub>2</sub> signals and AHI data. Use of the Bi-LSTM-CNN classifier was associated with the best accuracy for desaturation classification.<xref rid="cit0001" ref-type="bibr">1</xref> The mean accuracy of independent test sets was 84.3%. AHI was calculated by dividing the number of events by the duration of the record. Estimated AHI was used to screen and grade SDB, based on an AHI threshold of 15. The accuracy of the screening method was 89% on the SHHS2 dataset, which is better than the accuracies of SpO<sub>2</sub>-based methods.</p>
+      <p>Currently available portable home monitoring systems based on SpO<sub>2</sub> signals include traditional methods that involve feature extraction,<xref rid="cit0011" ref-type="bibr">11</xref>,<xref rid="cit0012" ref-type="bibr">12</xref> as well as deep learning methods.<xref rid="cit0013" ref-type="bibr">13</xref>,<xref rid="cit0016" ref-type="bibr">16</xref> Some previous studies used traditional methods to manually extract the features from whole night records, then determine the presence and severity of SDB.<xref rid="cit0011" ref-type="bibr">11</xref> Compared to portable home monitoring, PSG can help better diagnose SDB by obtaining more accurate respiratory and sleep conditions through a full range of signal monitoring, but the convenience and ease of use of portable monitoring also provides an efficient means of mass screening for SDB on a large scale. The classification models based on whole night records, such as the work by Di Persia,<xref rid="cit0011" ref-type="bibr">11</xref> have good performance; however, they cannot recognise apnoeic events and are time-consuming to use for the extraction and selection of artificial features. In addition, detection models using desaturated fragments are well known, but the segment classification does not consider the impact of SDB severity.<xref rid="cit0012" ref-type="bibr">12</xref> The classification of desaturated fragments corresponding to undetermined apnoea only considers the signal characteristics of the specific fragment, instead of the overall disease severity. Other studies using deep learning methods, such as Recurrent Neural or Deep Brief Networks,<xref rid="cit0013" ref-type="bibr">13</xref>,<xref rid="cit0016" ref-type="bibr">16</xref> have demonstrated the potential usefulness of such methods. Although deep learning can determine whether apnoea has occurred in the segment, the events cannot be predicted and the exact number of apnoeic events cannot be determined if multiple apnoeic events occur in the segment. Thus, we propose a Bi-LSTM-CNN model to classify the event type and severity. This model uses a novel apnoea-related desaturation segment generation method to achieve variable length proposal. We introduced an efficient fusion method for the classification of apnoea-related desaturation events using the combination of whole night features and desaturation segments. We found that an automatic feature extraction method was most suitable for global whole night feature extraction.</p>
+      <p>Some practical considerations require further investigation. First, this study used suitable datasets for training and testing, including both public and private datasets. The public dataset may produce inadequate training results because of poor data quality. Future studies can improve the effectiveness of model performance validation by using larger private datasets. Second, the proposed Bi-LSTM-CNN classifier and its training process are complex; extensive data preprocessing is required. Data preprocessing significantly affects the performance of the model. In addition, the model integrates whole-night and fragment features using fully connected layers; significant differences between them may affect the final performance of the classifier. Third, annotation of the event-related respiratory events requires significant human resources. Therefore, further research concerning advanced enhancement techniques is needed to create better models, as well as a system that does not require large amounts of training data for the generation of reliable statistical models. In addition, the blood oxygen signal used for PSG during the training of this model may differ in the application of actual at-home portable devices, and a dataset of blood oxygen signals collected by portable devices may be a direction for further exploration of the study.</p>
+    </sec>
+    <sec id="s0005">
+      <title>Conclusions</title>
+      <p>Based on the detection and classification of desaturation events associated with apnoea, an automatic detection method (Bi-LSTM-CNN) of respiratory events using SpO<sub>2</sub> signals is proposed. The Bi-LSTM-CNN classifier was associated with the best accuracy for desaturation classification. The mean accuracy of different independent test sets was 84.3%. AHI was calculated via division of the number of events by the duration of the record. Estimated AHI was used to screen and grade SDB (AHI threshold: 15). The screening accuracy was 89% on the SHHS2 dataset, which is superior to the accuracies in previous studies conducted on the SHHS2 dataset. The current results support the effectiveness of a wearable SDB monitoring system based on SpO<sub>2</sub> signals.</p>
+    </sec>
+  </body>
+  <back>
+    <ack>
+      <title>Acknowledgments</title>
+      <p>The authors are grateful to the staff in our sleep center and all of the patients who participated.</p>
+    </ack>
+    <sec id="s0006">
+      <title>Data Sharing Statement</title>
+      <p>The datasets used and analyzed in this study are available from the corresponding author, on reasonable request.</p>
+    </sec>
+    <sec id="s0007">
+      <title>Ethics Approval and Statement of Informed Consent</title>
+      <p>All procedures performed in studies involving human participants were in accordance with the ethical standards of the institutional and/or national research committee and with the 1964 Helsinki declaration and its later amendments or comparable ethical standards and were approved by the Ethics Committee of Shanghai Jiao Tong University Affiliated Sixth People’s Hospital. Informed consent was obtained from all individual participants included in the study.</p>
+    </sec>
+    <sec id="s0008">
+      <title>Author Contributions</title>
+      <p>All authors made a significant contribution to the work reported, whether that is in the conception, study design, execution, acquisition of data, analysis and interpretation, or in all these areas; took part in drafting, revising or critically reviewing the article; gave final approval of the version to be published; have agreed on the journal to which the article has been submitted; and agree to be accountable for all aspects of the work.</p>
+    </sec>
+    <sec sec-type="COI-statement" id="s0009">
+      <title>Disclosure</title>
+      <p>The authors declare that the research was conducted in the absence of any commercial or financial relationships that could be construed as a potential conflict of interest.</p>
+    </sec>
+    <ref-list>
+      <title>References</title>
+      <ref id="cit0001">
+        <label>1.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Young</surname>
+<given-names>T</given-names></string-name>, <string-name><surname>Palta</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Dempsey</surname>
+<given-names>J</given-names></string-name>, et al. <article-title>The occurrence of sleep-disordered breathing among middle-aged adults</article-title>. <source><italic toggle="yes">N Engl J Med</italic></source>. <year>1993</year>;<volume>328</volume>(<issue>17</issue>):<fpage>1230</fpage>–<lpage>1235</lpage>. doi:<pub-id pub-id-type="doi">10.1056/NEJM199304293281704</pub-id><pub-id pub-id-type="pmid">8464434</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0002">
+        <label>2.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Flemons</surname>
+<given-names>WW</given-names></string-name>, <string-name><surname>Littner</surname>
+<given-names>MR</given-names></string-name>, <string-name><surname>Rowley</surname>
+<given-names>JA</given-names></string-name>, et al. <article-title>Home diagnosis of sleep apnea: a systematic review of the literature. An evidence review cosponsored by the American Academy of Sleep Medicine, the American College of Chest Physicians, and the American Thoracic Society</article-title>. <source><italic toggle="yes">Chest</italic></source>. <year>2003</year>;<volume>124</volume>(<issue>4</issue>):<fpage>1543</fpage>–<lpage>1579</lpage>. doi:<pub-id pub-id-type="doi">10.1378/chest.124.4.1543</pub-id><pub-id pub-id-type="pmid">14555592</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0003">
+        <label>3.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Heinzer</surname>
+<given-names>R</given-names></string-name>, <string-name><surname>Vat</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Marques-Vidal</surname>
+<given-names>P</given-names></string-name>, et al. <article-title>Prevalence of sleep-disordered breathing in the general population: the hypnolaus study</article-title>. <source><italic toggle="yes">Lancet Respir Med</italic></source>. <year>2015</year>;<volume>3</volume>(<issue>4</issue>):<fpage>310</fpage>–<lpage>318</lpage>. doi:<pub-id pub-id-type="doi">10.1016/S2213-2600(15)00043-0</pub-id><pub-id pub-id-type="pmid">25682233</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0004">
+        <label>4.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Namen</surname>
+<given-names>AM</given-names></string-name>, <string-name><surname>Chatterjee</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Huang</surname>
+<given-names>KE</given-names></string-name>, et al. <article-title>Recognition of sleep apnea is increasing. analysis of trends in two large, representative databases of outpatient practice</article-title>. <source><italic toggle="yes">Ann Am Thorac Soc</italic></source>. <year>2016</year>;<volume>13</volume>(<issue>11</issue>):<fpage>2027</fpage>–<lpage>2034</lpage>. doi:<pub-id pub-id-type="doi">10.1513/AnnalsATS.201603-152OC</pub-id><pub-id pub-id-type="pmid">27585409</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0005">
+        <label>5.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Hara</surname>
+<given-names>H</given-names></string-name>, <string-name><surname>Tsutsumi</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Tarumoto</surname>
+<given-names>S</given-names></string-name>, et al. <article-title>Validation of a new snoring detection device based on a hysteresis extraction algorithm</article-title>. <source><italic toggle="yes">Auris Nasus Larynx</italic></source>. <year>2017</year>;<volume>44</volume>(<issue>5</issue>):<fpage>576</fpage>–<lpage>582</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.anl.2016.12.009</pub-id><pub-id pub-id-type="pmid">28161244</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0006">
+        <label>6.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Lee</surname>
+<given-names>J</given-names></string-name>, <string-name><surname>Nam</surname>
+<given-names>Y</given-names></string-name>, <string-name><surname>Kim</surname>
+<given-names>Y</given-names></string-name>. <article-title>Sleep monitoring based on a tri-axial accelerometer and a pressure sensor</article-title>. <source><italic toggle="yes">Sensors</italic></source>. <year>2016</year>;<volume>16</volume>(<issue>5</issue>):<fpage>750</fpage>. doi:<pub-id pub-id-type="doi">10.3390/s16050750</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0007">
+        <label>7.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Sanchez-Sinencio</surname>
+<given-names>E</given-names></string-name>, <string-name><surname>Jin</surname>
+<given-names>J</given-names></string-name>. <article-title>A home sleep apnea screening device with time-domain signal processing and autonomous scoring capability</article-title>. <source><italic toggle="yes">IEEE Trans Biomed Circuits Syst</italic></source>. <year>2014</year>;<volume>9</volume>(<issue>1</issue>):<fpage>96</fpage>–<lpage>104</lpage>. doi:<pub-id pub-id-type="doi">10.1109/TBCAS.2014.2314301</pub-id><pub-id pub-id-type="pmid">25486649</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0008">
+        <label>8.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Rodriguez-Villegas</surname>
+<given-names>E</given-names></string-name>, <string-name><surname>Chen</surname>
+<given-names>G</given-names></string-name>, <string-name><surname>Radcliffe</surname>
+<given-names>J</given-names></string-name>, et al. <article-title>A pilot study of a wearable apnoea detection device</article-title>. <source><italic toggle="yes">BMJ Open</italic></source>. <year>2014</year>;<volume>4</volume>(<issue>10</issue>):<fpage>e005299</fpage>. doi:<pub-id pub-id-type="doi">10.1136/bmjopen-2014-005299</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0009">
+        <label>9.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Huang</surname>
+<given-names>SH</given-names></string-name>, <string-name><surname>Teng</surname>
+<given-names>NC</given-names></string-name>, <string-name><surname>Wang</surname>
+<given-names>KJ</given-names></string-name>, et al. <article-title>Use of oximetry as a screening tool for obstructive sleep apnea: a case study in Taiwan</article-title>. <source><italic toggle="yes">J Med Syst</italic></source>. <year>2015</year>;<volume>39</volume>(<issue>3</issue>):<fpage>29</fpage>. doi:<pub-id pub-id-type="doi">10.1007/s10916-015-0195-5</pub-id><pub-id pub-id-type="pmid">25677955</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0010">
+        <label>10.</label>
+        <mixed-citation publication-type="confproc"><string-name><surname>Morales</surname>
+<given-names>JF</given-names></string-name>, <string-name><surname>Varon</surname>
+<given-names>C</given-names></string-name>, <string-name><surname>Deviaene</surname>
+<given-names>M</given-names></string-name>, et al. <article-title>Sleep apnea hypopnea syndrome classification in SpO2 signals using wavelet decomposition and phase space reconstruction</article-title>. <conf-name>BSN’17: 2017 IEEE 14th Int. Conf. on Wearable and Implantable Body Sensor Networks</conf-name>. <publisher-loc>Eindhoven, Netherlands</publisher-loc>; <year>2017</year>: <fpage>43</fpage>–<lpage>46</lpage>.</mixed-citation>
+      </ref>
+      <ref id="cit0011">
+        <label>11.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Rolon</surname>
+<given-names>RE</given-names></string-name>, <string-name><surname>Larrateguy</surname>
+<given-names>LD</given-names></string-name>, <string-name><surname>Di Persia</surname>
+<given-names>LE</given-names></string-name>, et al. <article-title>Discriminative methods based on sparse representations of pulse oximetry signals for sleep apnea-hypopnea detection</article-title>. <source><italic toggle="yes">Biomed Signal Process Control</italic></source>. <year>2017</year>;<volume>3</volume>:<fpage>58</fpage>–<lpage>67</lpage>.</mixed-citation>
+      </ref>
+      <ref id="cit0012">
+        <label>12.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Deviaene</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Testelmans</surname>
+<given-names>D</given-names></string-name>, <string-name><surname>Buyse</surname>
+<given-names>B</given-names></string-name>, et al. <article-title>Automatic screening of sleep apnea patients based on the SpO2 signal</article-title>. <source><italic toggle="yes">IEEE J Biomed Health Inform</italic></source>. <year>2018</year>;<volume>23</volume>(<issue>2</issue>):<fpage>607</fpage>–<lpage>617</lpage>. doi:<pub-id pub-id-type="doi">10.1109/JBHI.2018.2817368</pub-id><pub-id pub-id-type="pmid">29993790</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0013">
+        <label>13.</label>
+        <mixed-citation publication-type="newspaper"><string-name><surname>Mostafa</surname>
+<given-names>SS</given-names></string-name>, <string-name><surname>Mendonca</surname>
+<given-names>F</given-names></string-name>, <string-name><surname>Morgado-Dias</surname>
+<given-names>F</given-names></string-name>, et al. <article-title>SpO2 based sleep apnea detection using (INES)</article-title>; <year>2017</year>: <fpage>000091</fpage>–<lpage>000096</lpage>.</mixed-citation>
+      </ref>
+      <ref id="cit0014">
+        <label>14.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Kulkas</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Duce</surname>
+<given-names>B</given-names></string-name>, <string-name><surname>Leppanen</surname>
+<given-names>T</given-names></string-name>, et al. <article-title>Severity of desaturation events differs between hypopnea and obstructive apnea events and is modulated by their duration in obstructive sleep apnea</article-title>. <source><italic toggle="yes">Sleep Breath</italic></source>. <year>2017</year>;<volume>4</volume>(<issue>4</issue>):<fpage>829</fpage>–<lpage>835</lpage>. doi:<pub-id pub-id-type="doi">10.1007/s11325-017-1513-6</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0015">
+        <label>15.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Sato</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Suzuki</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Suzuki</surname>
+<given-names>J</given-names></string-name>, et al. <article-title>Overweight patients with severe sleep apnea experience deeper oxygen desaturation at apneic events</article-title>. <source><italic toggle="yes">J Med Dent Sci</italic></source>. <year>2008</year>;<volume>1</volume>:<fpage>43</fpage>–<lpage>47</lpage>.</mixed-citation>
+      </ref>
+      <ref id="cit0016">
+        <label>16.</label>
+        <mixed-citation publication-type="confproc"><string-name><surname>Pathinarupothi</surname>
+<given-names>RK</given-names></string-name>, <string-name><surname>Rangan</surname>
+<given-names>ES</given-names></string-name>, <string-name><surname>Gopalakrishnan</surname>
+<given-names>EA</given-names></string-name>, et al. <article-title>Single sensor techniques for sleep apnea diagnosis using deep learning</article-title>. <conf-name>2017 IEEE International Conference on Healthcare Informatics (ICHI)</conf-name>; <year>2017</year>: <fpage>524</fpage>–<lpage>529</lpage>.</mixed-citation>
+      </ref>
+      <ref id="cit0017">
+        <label>17.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Li</surname>
+<given-names>K</given-names></string-name>, <string-name><surname>Pan</surname>
+<given-names>W</given-names></string-name>, <string-name><surname>Li</surname>
+<given-names>Y</given-names></string-name>, et al. <article-title>A method to detect sleep apnea based on deep neural network and hidden Markov model using single-lead ECG signal</article-title>. <source><italic toggle="yes">Neurocomputing</italic></source>. <year>2018</year>;<volume>294</volume>:<fpage>94</fpage>–<lpage>101</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.neucom.2018.03.011</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0018">
+        <label>18.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Punjabi</surname>
+<given-names>M</given-names></string-name>. <article-title>An ANN-based detection of obstructive sleep apnea from simultaneous ECG and SpO2 recordings</article-title>. <source><italic toggle="yes">Clin Neurophysiol</italic></source>. <year>2018</year>;<volume>30</volume>:<fpage>603613</fpage>.</mixed-citation>
+      </ref>
+      <ref id="cit0019">
+        <label>19.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Moret-Bonillo</surname>
+<given-names>V</given-names></string-name>, <string-name><surname>Alvarez-Estevez</surname>
+<given-names>D</given-names></string-name>, <string-name><surname>Fernandez-Leal</surname>
+<given-names>A</given-names></string-name>, et al. <article-title>Intelligent approach for analysis of respiratory signals and oxygen saturation in the sleep apnea/hypopnea syndrome</article-title>. <source><italic toggle="yes">Open Med Inform J</italic></source>. <year>2014</year>;<volume>1</volume>:<fpage>94</fpage>–<lpage>101</lpage>.</mixed-citation>
+      </ref>
+      <ref id="cit0020">
+        <label>20.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Collop</surname>
+<given-names>NA</given-names></string-name>, <string-name><surname>Tracy</surname>
+<given-names>SL</given-names></string-name>, <string-name><surname>Kapur</surname>
+<given-names>V</given-names></string-name>, et al. <article-title>Obstructive sleep apnea devices for out-of-center (OOC) testing: technology evaluation</article-title>. <source><italic toggle="yes">J Clin Sleep Med</italic></source>. <year>2011</year>;<volume>7</volume>(<issue>5</issue>):<fpage>531</fpage>–<lpage>548</lpage>. doi:<pub-id pub-id-type="doi">10.5664/JCSM.1328</pub-id><pub-id pub-id-type="pmid">22003351</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0021">
+        <label>21.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Krehel</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Wolf</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Boesel</surname>
+<given-names>LF</given-names></string-name>, et al. <article-title>Development of a luminous textile for reflective pulse oximetry measurements</article-title>. <source><italic toggle="yes">Biomed Opt Express</italic></source>. <year>2014</year>;<volume>5</volume>(<issue>8</issue>):<fpage>2537</fpage>–<lpage>2547</lpage>. doi:<pub-id pub-id-type="doi">10.1364/BOE.5.002537</pub-id><pub-id pub-id-type="pmid">25136484</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0022">
+        <label>22.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Coetzee</surname>
+<given-names>FM</given-names></string-name>, <string-name><surname>Elghazzawi</surname>
+<given-names>Z</given-names></string-name>. <article-title>Noise-resistant pulse oximetry using a synthetic reference signal</article-title>. <source><italic toggle="yes">IEEE Trans Biomed Eng</italic></source>. <year>2000</year>;<volume>47</volume>(<issue>8</issue>):<fpage>1018</fpage>–<lpage>1026</lpage>. doi:<pub-id pub-id-type="doi">10.1109/10.855928</pub-id><pub-id pub-id-type="pmid">10943049</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0023">
+        <label>23.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Sivam</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Yee</surname>
+<given-names>B</given-names></string-name>, <string-name><surname>Wong</surname>
+<given-names>K</given-names></string-name>, <string-name><surname>Wang</surname>
+<given-names>D</given-names></string-name>, <string-name><surname>Grunstein</surname>
+<given-names>R</given-names></string-name>, <string-name><surname>Piper</surname>
+<given-names>A</given-names></string-name>. <article-title>Obesity hypoventilation syndrome: early detection of nocturnal-only hypercapnia in an obese population</article-title>. <source><italic toggle="yes">J Clin Sleep Med</italic></source>. <year>2018</year>;<volume>14</volume>(<issue>9</issue>):<fpage>1477</fpage>–<lpage>1484</lpage>. doi:<pub-id pub-id-type="doi">10.5664/jcsm.7318</pub-id><pub-id pub-id-type="pmid">30176974</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0024">
+        <label>24.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Van de Water</surname>
+<given-names>AT</given-names></string-name>, <string-name><surname>Holmes</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Hurley</surname>
+<given-names>DA</given-names></string-name>. <article-title>Objective measurements of sleep for non-laboratory settings as alternatives to polysomnography–a systematic review</article-title>. <source><italic toggle="yes">J Sleep Res</italic></source>. <year>2011</year>;<volume>20</volume>(<issue>1 Pt 2</issue>):<fpage>183</fpage>–<lpage>200</lpage>. doi:<pub-id pub-id-type="doi">10.1111/j.1365-2869.2009.00814.x</pub-id><pub-id pub-id-type="pmid">20374444</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0025">
+        <label>25.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Berry</surname>
+<given-names>RB</given-names></string-name>, <string-name><surname>Budhiraja</surname>
+<given-names>R</given-names></string-name>, <string-name><surname>Gottlieb</surname>
+<given-names>D</given-names></string-name>, et al.; <collab>American Academy of Sleep Medicine</collab>. <article-title>Rules for scoring respiratory events in sleep: update of the 2007 AASM manual for the scoring of sleep and associated events. Deliberations of the sleep apnea definitions task force of the American Academy of Sleep Medicine</article-title>. <source><italic toggle="yes">J Clin Sleep Med</italic></source>. <year>2012</year>;<volume>8</volume>(<issue>5</issue>):<fpage>597</fpage>–<lpage>619</lpage>. doi:<pub-id pub-id-type="doi">10.5664/jcsm.2172</pub-id>.<pub-id pub-id-type="pmid">23066376</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0026">
+        <label>26.</label>
+        <mixed-citation publication-type="journal"><collab>American Academy of Sleep Medicine Task Force</collab>. <article-title>Sleep-related breathing disorders in adults: recommendations for syndrome definition and measurement techniques in clinical research. The Report of an American Academy of Sleep Medicine Task Force</article-title>. <source><italic toggle="yes">Sleep</italic></source>. <year>1999</year>;<volume>22</volume>(<issue>5</issue>):<fpage>667</fpage>–<lpage>689</lpage>. doi:<pub-id pub-id-type="doi">10.1093/sleep/22.5.667</pub-id><pub-id pub-id-type="pmid">10450601</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0027">
+        <label>27.</label>
+        <mixed-citation publication-type="newspaper"><string-name><surname>Mark</surname>
+<given-names>RG</given-names></string-name>, <string-name><surname>Penzel</surname>
+<given-names>T</given-names></string-name>, <string-name><surname>Moody</surname>
+<given-names>GB</given-names></string-name>, et al. <article-title>The Apnea-ECG database</article-title>. <source>Computers in Cardiology</source>; <year>2000</year>.</mixed-citation>
+      </ref>
+      <ref id="cit0028">
+        <label>28.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Young</surname>
+<given-names>T</given-names></string-name>, <string-name><surname>Shahar</surname>
+<given-names>E</given-names></string-name>, <string-name><surname>Nieto</surname>
+<given-names>FJ</given-names></string-name>, et al.; <collab>Sleep Heart Health Study Research Group</collab>. <article-title>Predictors of sleep-disordered breathing in community-dwelling adults: the Sleep Heart Health Study</article-title>. <source><italic toggle="yes">Arch Intern Med</italic></source>. <year>2002</year>;<volume>162</volume>(<issue>8</issue>):<fpage>893</fpage>–<lpage>900</lpage>. doi:<pub-id pub-id-type="doi">10.1001/archinte.162.8.893</pub-id><pub-id pub-id-type="pmid">11966340</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0029">
+        <label>29.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Koley</surname>
+<given-names>BL</given-names></string-name>, <string-name><surname>Dey</surname>
+<given-names>D</given-names></string-name>. <article-title>On-line detection of apnea/hypopnea events using SpO2 signal: a rule-based approach employing binary classifier models</article-title>. <source><italic toggle="yes">IEEE J Biomed Health Inform</italic></source>. <year>2014</year>;<volume>18</volume>(<issue>1</issue>):<fpage>231</fpage>–<lpage>239</lpage>. doi:<pub-id pub-id-type="doi">10.1109/JBHI.2013.2266279</pub-id><pub-id pub-id-type="pmid">24403421</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0030">
+        <label>30.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Kulkas</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Tiihonen</surname>
+<given-names>P</given-names></string-name>, <string-name><surname>Julkunen</surname>
+<given-names>P</given-names></string-name>, et al. <article-title>Novel parameters indicate significant differences in severity of obstructive sleep apnea with patients having similar apnea-hypopnea index</article-title>. <source><italic toggle="yes">Med Biol Eng Comput</italic></source>. <year>2013</year>;<volume>51</volume>(<issue>6</issue>):<fpage>697</fpage>–<lpage>708</lpage>. doi:<pub-id pub-id-type="doi">10.1007/s11517-013-1039-4</pub-id><pub-id pub-id-type="pmid">23417543</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0031">
+        <label>31.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Costa</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Goldberger</surname>
+<given-names>AL</given-names></string-name>, <string-name><surname>Peng</surname>
+<given-names>CK</given-names></string-name>. <article-title>Multiscale entropy analysis of biological signals</article-title>. <source><italic toggle="yes">Phys Rev E Stat Nonlin Soft Matter Phys</italic></source>. <year>2005</year>;<volume>71</volume>(<issue>2 Pt 1</issue>):<fpage>021906</fpage>. doi:<pub-id pub-id-type="doi">10.1103/PhysRevE.71.021906</pub-id><pub-id pub-id-type="pmid">15783351</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0032">
+        <label>32.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Alvarez</surname>
+<given-names>D</given-names></string-name>, <string-name><surname>Hornero</surname>
+<given-names>R</given-names></string-name>, <string-name><surname>Marcos</surname>
+<given-names>JV</given-names></string-name>, et al. <article-title>Assessment of feature selection and classification approaches to enhance information from overnight oximetry in the context of apnea diagnosis</article-title>. <source><italic toggle="yes">Int J Neural Syst</italic></source>. <year>2013</year>;<volume>23</volume>(<issue>5</issue>):<fpage>1350020</fpage>. doi:<pub-id pub-id-type="doi">10.1142/S0129065713500202</pub-id><pub-id pub-id-type="pmid">23924411</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0033">
+        <label>33.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Alvarez</surname>
+<given-names>D</given-names></string-name>, <string-name><surname>Hornero</surname>
+<given-names>R</given-names></string-name>, <string-name><surname>García</surname>
+<given-names>M</given-names></string-name>, et al. <article-title>Improving diagnostic ability of blood oxygen saturation from overnight pulse oximetry in obstructive sleep apnea detection by means of central tendency measure</article-title>. <source><italic toggle="yes">Artif Intell Med</italic></source>. <year>2007</year>;<volume>41</volume>(<issue>1</issue>):<fpage>13</fpage>–<lpage>24</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.artmed.2007.06.002</pub-id><pub-id pub-id-type="pmid">17643971</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0034">
+        <label>34.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Alvarez</surname>
+<given-names>D</given-names></string-name>, <string-name><surname>Gutierrez-Tobal</surname>
+<given-names>GC</given-names></string-name>, <string-name><surname>Hornero</surname>
+<given-names>R</given-names></string-name>, et al. <article-title>Linear and non linear analysis of airflflow recordings to help in sleep apnoea-hypopnoea syndrome diagnosis</article-title>. <source><italic toggle="yes">Phys Rev E Stat Nonlin Soft Matter Phys</italic></source>. <year>2012</year>;<volume>33</volume>:<fpage>1261</fpage>–<lpage>1275</lpage>.</mixed-citation>
+      </ref>
+      <ref id="cit0035">
+        <label>35.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Gutierrez-Tobal</surname>
+<given-names>GC</given-names></string-name>, <string-name><surname>Alvarez</surname>
+<given-names>D</given-names></string-name>, <string-name><surname>Alonso-Alvarez</surname>
+<given-names>ML</given-names></string-name>, et al. <article-title>Automated screening of children with obstructive sleep apnea using nocturnal oximetry: an alternative to respiratory polygraphy in unattended settings</article-title>. <source><italic toggle="yes">J Clin Sleep Med</italic></source>. <year>2017</year>;<volume>13</volume>(<issue>5</issue>):<fpage>693</fpage>–<lpage>702</lpage>. doi:<pub-id pub-id-type="doi">10.5664/jcsm.6586</pub-id><pub-id pub-id-type="pmid">28356177</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0036">
+        <label>36.</label>
+        <mixed-citation publication-type="confproc"><string-name><surname>Shuying</surname>
+<given-names>L</given-names></string-name>, <string-name><surname>Huosheng</surname>
+<given-names>X</given-names></string-name>, <string-name><surname>LiangChih</surname>
+<given-names>Y</given-names></string-name>, et al. <article-title>SENTINLP at IJCNLP-2017 Task 4: customer feedback analysis using a Bi-LSTM-CNN model</article-title>. <conf-name>2017 Conference on Empirical Methods in Natural Language Processing and 8th International Joint Conference on Natural Language Processing</conf-name>; <year>2017</year>.</mixed-citation>
+      </ref>
+      <ref id="cit0037">
+        <label>37.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Schuster</surname>
+<given-names>KK</given-names></string-name>, <string-name><surname>Paliwal</surname>
+<given-names>M</given-names></string-name>. <article-title>Bidirectional recurrent neural networks</article-title>. <source><italic toggle="yes">IEEE Trans Signal Process</italic></source>. <year>1997</year>;<volume>45</volume>(<issue>11</issue>):<fpage>2673</fpage>–<lpage>2681</lpage>. doi:<pub-id pub-id-type="doi">10.1109/78.650093</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0038">
+        <label>38.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Lin</surname>
+<given-names>TY</given-names></string-name>, <string-name><surname>Goyal</surname>
+<given-names>P</given-names></string-name>, <string-name><surname>Girshick</surname>
+<given-names>R</given-names></string-name>, <string-name><surname>He</surname>
+<given-names>K</given-names></string-name>, <string-name><surname>Dollar</surname>
+<given-names>P</given-names></string-name>. <article-title>Focal loss for dense object detection</article-title>. <source><italic toggle="yes">IEEE Trans Pattern Anal Mach Intell</italic></source>. <year>2020</year>;<volume>42</volume>(<issue>2</issue>):<fpage>318</fpage>–<lpage>327</lpage>. doi:<pub-id pub-id-type="doi">10.1109/TPAMI.2018.2858826</pub-id><pub-id pub-id-type="pmid">30040631</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0039">
+        <label>39.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Lin</surname>
+<given-names>TY</given-names></string-name>, <string-name><surname>Goyal</surname>
+<given-names>P</given-names></string-name>, <string-name><surname>Girshick</surname>
+<given-names>R</given-names></string-name>, et al. <article-title>Real-time detection of apneas on a PDA</article-title>. <source><italic toggle="yes">IEEE Trans Inf Technol Biomed</italic></source>. <year>2017</year>;<volume>14</volume>:<fpage>2999</fpage>–<lpage>3007</lpage>.</mixed-citation>
+      </ref>
+      <ref id="cit0040">
+        <label>40.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Das</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Selvaraju</surname>
+<given-names>RR</given-names></string-name>, <string-name><surname>Cogswell</surname>
+<given-names>M</given-names></string-name>, et al. <article-title>Grad-CAM: visual explanations from deep networks via gradient-based localization</article-title>. <source><italic toggle="yes">J Clin Sleep Med</italic></source>. <year>2016</year>:<fpage>618</fpage>–<lpage>626</lpage>. doi:<pub-id pub-id-type="doi">10.1109/ICCV.2017.74</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0041">
+        <label>41.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Schlotthauer</surname>
+<given-names>G</given-names></string-name>, <string-name><surname>Di Persia</surname>
+<given-names>LE</given-names></string-name>, <string-name><surname>Larrateguy</surname>
+<given-names>LD</given-names></string-name>, et al. <article-title>Screening of obstructive sleep apnea with empirical mode decomposition of pulse oximetry</article-title>. <source><italic toggle="yes">Med Eng Phys</italic></source>. <year>2014</year>;<volume>36</volume>(<issue>8</issue>):<fpage>1074</fpage>–<lpage>1080</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.medengphy.2014.05.008</pub-id><pub-id pub-id-type="pmid">24931493</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0042">
+        <label>42.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>vázquez</surname>
+<given-names>JC</given-names></string-name>, <string-name><surname>Tsai</surname>
+<given-names>WH</given-names></string-name>, <string-name><surname>Flemons</surname>
+<given-names>WW</given-names></string-name>, et al. <article-title>Automated analysis of digital oximetry in the diagnosis of obstructive sleep apnoea</article-title>. <source><italic toggle="yes">Thorax</italic></source>. <year>2000</year>;<volume>55</volume>(<issue>4</issue>):<fpage>302</fpage>–<lpage>307</lpage>. doi:<pub-id pub-id-type="doi">10.1136/thorax.55.4.302</pub-id><pub-id pub-id-type="pmid">10722770</pub-id></mixed-citation>
+      </ref>
+    </ref-list>
+  </back>
+</article>
+</pmc-articleset>

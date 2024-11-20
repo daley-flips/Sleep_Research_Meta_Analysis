@@ -1,0 +1,660 @@
+<pmc-articleset><article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" dtd-version="1.3" xml:lang="en" article-type="research-article">
+  <?properties open_access?>
+  <processing-meta base-tagset="archiving" mathml-version="3.0" table-model="xhtml" tagset-family="jats">
+    <restricted-by>pmc</restricted-by>
+  </processing-meta>
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="nlm-ta">Nat Sci Sleep</journal-id>
+      <journal-id journal-id-type="iso-abbrev">Nat Sci Sleep</journal-id>
+      <journal-id journal-id-type="publisher-id">nss</journal-id>
+      <journal-title-group>
+        <journal-title>Nature and Science of Sleep</journal-title>
+      </journal-title-group>
+      <issn pub-type="epub">1179-1608</issn>
+      <publisher>
+        <publisher-name>Dove</publisher-name>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="pmid">36394068</article-id>
+      <article-id pub-id-type="pmc">9653035</article-id>
+      <article-id pub-id-type="publisher-id">373367</article-id>
+      <article-id pub-id-type="doi">10.2147/NSS.S373367</article-id>
+      <article-categories>
+        <subj-group subj-group-type="heading">
+          <subject>Original Research</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>Obstructive Sleep Apnea Detection Based on Sleep Sounds via Deep Learning</article-title>
+        <alt-title alt-title-type="running-authors">Wang et al</alt-title>
+        <alt-title alt-title-type="running-title">Wang et al</alt-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author" equal-contrib="yes">
+          <name>
+            <surname>Wang</surname>
+            <given-names>Bochun</given-names>
+          </name>
+          <xref rid="aff0001" ref-type="aff">
+<sup>1</sup>
+</xref>
+          <xref rid="aff0002" ref-type="aff">
+<sup>2</sup>
+</xref>
+          <xref rid="ft0001" ref-type="author-notes">*</xref>
+        </contrib>
+        <contrib contrib-type="author" equal-contrib="yes">
+          <name>
+            <surname>Tang</surname>
+            <given-names>Xianwen</given-names>
+          </name>
+          <xref rid="aff0003" ref-type="aff">
+<sup>3</sup>
+</xref>
+          <xref rid="ft0001" ref-type="author-notes">*</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Ai</surname>
+            <given-names>Hao</given-names>
+          </name>
+          <xref rid="aff0003" ref-type="aff">
+<sup>3</sup>
+</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Li</surname>
+            <given-names>Yanru</given-names>
+          </name>
+          <xref rid="aff0001" ref-type="aff">
+<sup>1</sup>
+</xref>
+          <xref rid="aff0004" ref-type="aff">
+<sup>4</sup>
+</xref>
+          <xref rid="aff0005" ref-type="aff">
+<sup>5</sup>
+</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Xu</surname>
+            <given-names>Wen</given-names>
+          </name>
+          <xref rid="aff0001" ref-type="aff">
+<sup>1</sup>
+</xref>
+          <xref rid="aff0004" ref-type="aff">
+<sup>4</sup>
+</xref>
+          <xref rid="aff0005" ref-type="aff">
+<sup>5</sup>
+</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Wang</surname>
+            <given-names>Xingjun</given-names>
+          </name>
+          <xref rid="aff0003" ref-type="aff">
+<sup>3</sup>
+</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Han</surname>
+            <given-names>Demin</given-names>
+          </name>
+          <xref rid="aff0001" ref-type="aff">
+<sup>1</sup>
+</xref>
+          <xref rid="aff0004" ref-type="aff">
+<sup>4</sup>
+</xref>
+          <xref rid="aff0005" ref-type="aff">
+<sup>5</sup>
+</xref>
+          <xref rid="an0001" ref-type="corresp"/>
+        </contrib>
+        <aff id="aff0001"><label>1</label><institution>Department of Otolaryngology Head and Neck Surgery, Beijing Tongren Hospital, Capital Medical University</institution>, <addr-line>Beijing</addr-line>, <addr-line>100730</addr-line>, <country>People’s Republic of China</country></aff>
+        <aff id="aff0002"><label>2</label><institution>Department of Otolaryngology Head and Neck Surgery, Beijing Friendship Hospital, Capital Medical University</institution>, <addr-line>Beijing</addr-line>, <addr-line>100050</addr-line>, <country>People’s Republic of China</country></aff>
+        <aff id="aff0003"><label>3</label><institution>Department of Electronic Engineering, Tsinghua Shenzhen International Graduate School, Tsinghua University</institution>, <addr-line>Shenzhen</addr-line>, <country>People’s Republic of China</country></aff>
+        <aff id="aff0004"><label>4</label><institution>Obstructive Sleep Apnea-Hypopnea Syndrome Clinical Diagnosis and Therapy and Research Centre, Capital Medical University</institution>, <addr-line>Beijing</addr-line>, <addr-line>100730</addr-line>, <country>People’s Republic of China</country></aff>
+        <aff id="aff0005"><label>5</label><institution>Key Laboratory of Otolaryngology Head and Neck Surgery, Ministry of Education, Capital Medical University</institution>, <addr-line>Beijing</addr-line>, <addr-line>100730</addr-line>, <country>People’s Republic of China</country></aff>
+      </contrib-group>
+      <author-notes>
+        <corresp id="an0001">Correspondence: Demin Han; Xingjun Wang, Email deminhan_ent@hotmail.com; wangxingjun@tsinghua.edu.cn</corresp>
+        <fn id="ft0001">
+          <p>*These authors contributed equally to this work</p>
+        </fn>
+      </author-notes>
+      <pub-date pub-type="epub">
+        <day>08</day>
+        <month>11</month>
+        <year>2022</year>
+      </pub-date>
+      <pub-date pub-type="collection">
+        <year>2022</year>
+      </pub-date>
+      <volume>14</volume>
+      <fpage>2033</fpage>
+      <lpage>2045</lpage>
+      <history>
+        <date date-type="received">
+          <day>04</day>
+          <month>5</month>
+          <year>2022</year>
+        </date>
+        <date date-type="accepted">
+          <day>12</day>
+          <month>10</month>
+          <year>2022</year>
+        </date>
+      </history>
+      <permissions>
+        <copyright-statement>© 2022 Wang et al.</copyright-statement>
+        <copyright-year>2022</copyright-year>
+        <copyright-holder>Wang et al.</copyright-holder>
+        <license>
+          <ali:license_ref xmlns:ali="http://www.niso.org/schemas/ali/1.0/" specific-use="textmining" content-type="ccbynclicense">https://creativecommons.org/licenses/by-nc/3.0/</ali:license_ref>
+          <license-p>This work is published and licensed by Dove Medical Press Limited. The full terms of this license are available at <ext-link ext-link-type="uri" xlink:href="https://www.dovepress.com/terms.php">https://www.dovepress.com/terms.php</ext-link> and incorporate the Creative Commons Attribution – Non Commercial (unported, v3.0) License (<ext-link ext-link-type="uri" xlink:href="https://creativecommons.org/licenses/by-nc/3.0/">http://creativecommons.org/licenses/by-nc/3.0/</ext-link>). By accessing the work you hereby accept the Terms. Non-commercial uses of the work are permitted without any further permission from Dove Medical Press Limited, provided the work is properly attributed. For permission for commercial use of this work, please see paragraphs 4.2 and 5 of our Terms (<ext-link ext-link-type="uri" xlink:href="https://www.dovepress.com/terms.php">https://www.dovepress.com/terms.php</ext-link>).</license-p>
+        </license>
+      </permissions>
+      <abstract>
+        <sec id="s2001">
+          <title>Purpose</title>
+          <p>This study aimed to propose a novel deep-learning method for automatic sleep apneic event detection and thus to estimate the apnea hypopnea index (AHI) and identify obstructive sleep apnea (OSA) in an event-by-event manner solely based on sleep sounds obtained by a noncontact audio recorder.</p>
+        </sec>
+        <sec id="s2002">
+          <title>Methods</title>
+          <p>We conducted a cross-sectional study of participants with habitual snoring or heavy breathing sounds during sleep to train and test a deep convolutional neural network named OSAnet for the detection of OSA based on sleep sounds. Polysomnography (PSG) was conducted, and sleep sounds were recorded simultaneously in a regular room without noise attenuation. The study was conducted in two phases. In phase one, eligible participants were enrolled and randomly allocated into training and validation groups for deep learning algorithm development. In phase two, eligible patients were enrolled in a test group for algorithm assessment. Sensitivity, specificity, accuracy, unweighted Cohen kappa coefficient (κ) and the area under the curve (AUC) were calculated using PSG as the reference standard.</p>
+        </sec>
+        <sec id="s2003">
+          <title>Results</title>
+          <p>A total of 135 participants were randomly divided into a training group (n, 116) and a validation group (n, 19). An independent test group of 59 participants was subsequently enrolled. Our algorithm achieved a precision of 0.81 and sensitivity of 0.78 in the test group for overall sleep event detection. The algorithm exhibited robust diagnostic performance to identify severe cases with a sensitivity of 95.6% and specificity of 91.6%.</p>
+        </sec>
+        <sec id="s2004">
+          <title>Conclusion</title>
+          <p>Our results showed that a deep learning algorithm based on sleep sounds recorded by a noncontact voice recorder served as a feasible tool for apneic event detection and OSA identification. This technique may hold promise for OSA assessment in the community in a relatively comfortable and low-cost manner. Further studies to develop a tool based on a home-based setting are warranted.</p>
+        </sec>
+      </abstract>
+      <kwd-group kwd-group-type="author">
+        <title>Keywords</title>
+        <kwd>obstructive sleep apnea</kwd>
+        <kwd>sleep sounds</kwd>
+        <kwd>deep learning</kwd>
+      </kwd-group>
+      <funding-group>
+        <award-group>
+          <funding-source>
+<institution-wrap><institution>Shenzhen Municipal Natural Science Foundation and Shenzhen Science and Technology Innovation Committee</institution></institution-wrap>
+</funding-source>
+        </award-group>
+        <award-group>
+          <funding-source>
+<institution-wrap><institution>Shenzhen Municipal Natural Science Foundation</institution></institution-wrap>
+</funding-source>
+        </award-group>
+        <award-group>
+          <funding-source>
+<institution-wrap><institution>National Natural Science Foundation of China</institution><institution-id institution-id-type="open-funder-registry">10.13039/501100001809</institution-id></institution-wrap>
+</funding-source>
+        </award-group>
+        <funding-statement>This research was supported by Shenzhen Municipal Natural Science Foundation and Shenzhen Science and Technology Innovation Committee (KCXFZ202002011010487), Shenzhen Municipal Natural Science Foundation (WDZC20200818121348001), National Natural Science Foundation of China (81970866).</funding-statement>
+      </funding-group>
+      <counts>
+        <fig-count count="7"/>
+        <table-count count="3"/>
+        <ref-count count="38"/>
+        <page-count count="13"/>
+      </counts>
+    </article-meta>
+  </front>
+  <body>
+    <sec sec-type="intro" id="s0001">
+      <title>Introduction</title>
+      <p>As one of the most prevalent chronic sleep disorders, obstructive sleep apnea (OSA), resulting from repetitive episodes of partial or complete airflow restriction of the upper airway during sleep, causes repeated breathing pauses and leads to a spectrum of medical conditions such as metabolic syndromes,<xref rid="cit0001" ref-type="bibr">1</xref> hypertension,<xref rid="cit0002" ref-type="bibr">2</xref> neurovascular diseases<xref rid="cit0003" ref-type="bibr">3</xref> and cardiovascular diseases.<xref rid="cit0004" ref-type="bibr">4</xref> Research estimated that the number of patients with OSA reaches nearly 1 billion in adults aged 30–69 years, and 425 million of them suffer from moderate to severe OSA.<xref rid="cit0005" ref-type="bibr">5</xref></p>
+      <p>The current gold standard assessment for OSA is full-night polysomnography (PSG). The apnea hypopnea index (AHI) acquired from PSG, is used clinically to assess the severity of sleep apnea. Nevertheless, due to high costs and insufficient facilities, many cases remain undiagnosed,<xref rid="cit0006" ref-type="bibr">6</xref> and providing subjects at risk of OSA with proper examination at an opportune moment remains a challenge.<xref rid="cit0007" ref-type="bibr">7</xref> There is a need for the substitution of PSG with portable sleep apnea monitoring devices. To address this issue, many works have proposed using home sleep apnea tests (HSATs) with low-cost and readily available sensors to record a reduced number of signal channels and apply automated methods to assist sleep technicians.<xref rid="cit0008" ref-type="bibr">8</xref>,<xref rid="cit0009" ref-type="bibr">9</xref> These tests include several PSG related signals such as nasal airflow, oxygen saturation, actigraphy, heart rate variability and thoracoabdominal effort.<xref rid="cit0010" ref-type="bibr">10</xref> However, most signals are recorded from contact sensors, which may still cause inconvenience and attachment error in community-based populations.</p>
+      <p>Snoring originates from the vibration of soft tissues in the upper airway (eg, the tongue, soft palate and pharyngeal wall), which may collapse during respiratory events.<xref rid="cit0011" ref-type="bibr">11</xref> This characteristic suggests that sleep sounds, including snoring and respiratory sounds, may contain essential information on the upper airway.<xref rid="cit0012" ref-type="bibr">12</xref>,<xref rid="cit0013" ref-type="bibr">13</xref> Moreover, unlike other substitutes, sleep sound recording can be conducted conveniently in various types of devices, allowing the physiological demonstration of OSA occurrence without disturbing the process of sleep. Earlier studies have investigated several acoustic features to capture the characteristics of respiratory events in overnight sleep sounds and have adopted statistical models to predict the presence of OSA. Ben-Israel et al differentiated subjects with and without OSA for AHI thresholds of 10 and 20 events/h based on five acoustic features extracted from snoring signals.<xref rid="cit0014" ref-type="bibr">14</xref> Kim et al<xref rid="cit0015" ref-type="bibr">15</xref> explored an acoustic biomarker consisting of several audio features to predict the severity of OSA. These methods extracted a set of human-engineered acoustic features and manifested different diagnostic capacities. Nevertheless, the best combination of acoustic features remains to be exploited. In addition, some studies validated the performance by comparing the overall estimated AHI with the AHI from PSG, neglecting the detection of every individual respiratory events.</p>
+      <p>As one of the fundamental computer vision problems, object detection has provided valuable information for the semantic understanding of images and videos and has undergone an expansion of its application space in biomedical image processing.<xref rid="cit0016" ref-type="bibr">16</xref> The capability of locating targets is of great value not only in identifying lesions in CT or magnetic resonance imaging (MRI), but also in one-dimensional biological signal event detection. For example, if the onset and end of the respiratory event can be located in the sleep sound signal, estimating the AHI of patients will be more accurate and convenient.</p>
+      <p>In this work, we proposed a novel deep-learning method entitled OSAnet for automatic apneic event detection and thus identified OSA in an event-by-event manner solely based on ambient sleep sounds obtained by a noncontact audio recorder. The algorithm, which was derived from object detection, a popular deep-learning technique used in computer vision, proved to be a robust predictive tool for portable apneic event detection.</p>
+    </sec>
+    <sec id="s0002">
+      <title>Methods</title>
+      <sec id="s0002-s2001">
+        <title>Study Design</title>
+        <p>We conducted a cross-sectional study. Data were collected at the sleep center of Beijing Tongren Hospital. This study was approved by the institutional review board of Beijing Tongren Hospital (TRECKY2017–032).</p>
+      </sec>
+      <sec id="s0002-s2002">
+        <title>Study Setting</title>
+        <p>The study was conducted in two phases. In phase one, eligible participants were enrolled and partitioned randomly into training and validation groups for algorithm development. In phase two, eligible patients were consecutively enrolled in a test group.</p>
+      </sec>
+      <sec id="s0002-s2003">
+        <title>Participants</title>
+        <p>We consecutively recruited 194 participants &gt;18 years of age. Participants were referred for PSG due to a medical history suggestive of habitual snoring or heavy breathing sound during sleep with or without the following symptoms: restless sleep, pauses in breathing during sleep, morning headaches, excessive daytime sleepiness, cognitive impairment, or depression. Full-night polysomnography was conducted at the sleep center of Beijing Tongren Hospital. The PSG study was conducted in a regular room without any noise attenuation equipment to simulate a real-world situation in which participants recorded their own sleep sounds at home. The mean background noise level in the room was <italic toggle="yes">L</italic><sub>Aeq</sub>=35.1 dB(A), measured by a high accuracy class 2 digital sound pressure level meter (DT-8851, Ruby Electronics, Saratoga, CA), similar to those reported in the home environment.<xref rid="cit0017" ref-type="bibr">17</xref> The Epworth Sleepiness Scale (ESS) was used to evaluate daytime sleepiness.<xref rid="cit0018" ref-type="bibr">18</xref></p>
+      </sec>
+      <sec id="s0002-s2004">
+        <title>Data Collection</title>
+        <p>Polysomnography (Alice 6, Philips Respironics, USA) consisted of electroencephalography, two-channel electrooculography, bilateral anterior tibial and chin electromyography, electrocardiography, nasal pressure transducer, oronasal thermistor, thoracic and abdominal respiratory inductive plethysmography, and pulse oximetry. The American Academy of Sleep Medicine (AASM) 2012 scoring criteria were used for sleep staging and respiratory analyses<xref rid="cit0019" ref-type="bibr">19</xref> and each recording was scored by two technicians. The apnea hypopnea index (AHI) was calculated as the number of apneas and hypopneas per hour of sleep.</p>
+        <p>The overnight ambient sleep sounds were recorded simultaneously with PSG in a time-synchronization manner using a noncontact digital voice recorder (PCM- D10, Sony, Japan) with a sampling frequency of 44,100 Hz and 16-bit quantizing precision. The voice recorder was placed one meter away from the head of the participants.<xref rid="cit0020" ref-type="bibr">20</xref> The audio recordings were annotated with apnea and hypopnea labels according to the simultaneous PSG data. Each participant was asked to write down the time of sleep onset and sleep ending as estimated sleep time. The audio-derived AHI (AHI-audio) was calculated as the apneas and hypopneas divided by estimated sleep time.</p>
+      </sec>
+      <sec id="s0002-s2005">
+        <title>Development of the Model</title>
+        <p>In this study, the prediction model was based on the recorded ambient sleep sounds, which might include moaning, talking or background noises. The deep convolutional neural networks named OSAnet were constructed to train the algorithm for apneic event detection. A flow chart of our method is presented in <xref rid="f0001" ref-type="fig">Figure 1</xref>. Once the PSG and audio data of each subject were collected, the corresponding audio data was preprocessed and transformed into Mel spectrogram as the input. Then, the convolutional neural network, OSAnet was constructed (<underline><ext-link xlink:href="https://www.dovepress.com/get_supplementary_file.php?f=373367.docx" ext-link-type="uri">Supplementary Methods</ext-link></underline>, <underline><ext-link xlink:href="https://www.dovepress.com/get_supplementary_file.php?f=373367.docx" ext-link-type="uri">Table S1</ext-link></underline> and <underline><ext-link xlink:href="https://www.dovepress.com/get_supplementary_file.php?f=373367.docx" ext-link-type="uri">Figure S1</ext-link></underline>), in which numerous prior bounding boxes were generated for ground truth matching at the training stage (<underline><ext-link xlink:href="https://www.dovepress.com/get_supplementary_file.php?f=373367.docx" ext-link-type="uri">Supplementary Methods</ext-link></underline>, <underline><ext-link xlink:href="https://www.dovepress.com/get_supplementary_file.php?f=373367.docx" ext-link-type="uri">Figure S2</ext-link></underline>). The model was initially fit on the training group, and then the validation group provided an unbiased evaluation of the model fit on the training group while tuning the model’s hyperparameters. Finally, when performing inference, the Detecting while Slicing method was utilized before the model was assessed in a separate test group (<underline><ext-link xlink:href="https://www.dovepress.com/get_supplementary_file.php?f=373367.docx" ext-link-type="uri">Supplementary Methods</ext-link></underline>, <underline><ext-link xlink:href="https://www.dovepress.com/get_supplementary_file.php?f=373367.docx" ext-link-type="uri">Algorithm S1</ext-link></underline> and <underline><ext-link xlink:href="https://www.dovepress.com/get_supplementary_file.php?f=373367.docx" ext-link-type="uri">S2</ext-link></underline>). The prediction error was calculated by comparing audio-detected events with the PSG-detected events scored by the sleep technicians, and the parameters were adjusted accordingly to decrease the error. The model was trained using stochastic gradient descent (SGD) for 100 epochs with a base learning rate of 10<sup>−3</sup>, batch size 32, momentum 0.9, and weight decay 0.0005. The learning rate is multiplied by 0.1 after the 20th and 25th epochs.
+<fig position="float" id="f0001" fig-type="figure"><label>Figure 1</label><caption><p>Study flow chart. Flow chart of the proposed method.</p></caption><graphic xlink:href="NSS-14-2033-g0001" content-type="print-only" position="float"/><attrib><bold>Abbreviations</bold>: PSG, polysomnography; LEOG, left electrooculography; REOG, right electrooculography; EMG, chin electromyography; OT, oronasal thermistor; NPT, nasal pressure transducer; THO, ABO, thoracic and abdominal respiratory inductive plethysmography.</attrib></fig></p>
+      </sec>
+      <sec id="s0002-s2006">
+        <title>Evaluating the Models</title>
+        <p>As OSAnet identified apneic events with the concept of the object detection problem, true negative items did not exist. The overall performance of event detection was evaluated by sensitivity, precision and F1 score as
+<disp-formula-group><disp-formula id="um0001"><alternatives><graphic xlink:href="NSS-14-2033-e0001.jpg" position="float"/><tex-math id="Tex001">\documentclass[12pt]{minimal}
+\usepackage{wasysym}
+\usepackage[substack]{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage[mathscr]{eucal}
+\usepackage{mathrsfs}
+\DeclareFontFamily{T1}{linotext}{}
+\DeclareFontShape{T1}{linotext}{m}{n} {linotext }{}
+\DeclareSymbolFont{linotext}{T1}{linotext}{m}{n}
+\DeclareSymbolFontAlphabet{\mathLINOTEXT}{linotext}
+\begin{document}
+$$Precision = {{TP} \over {TP + FP}}$$
+\end{document}</tex-math></alternatives></disp-formula></disp-formula-group>
+<disp-formula-group><disp-formula id="um0002"><alternatives><graphic xlink:href="NSS-14-2033-e0002.jpg" position="float"/><tex-math id="Tex002">\documentclass[12pt]{minimal}
+\usepackage{wasysym}
+\usepackage[substack]{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage[mathscr]{eucal}
+\usepackage{mathrsfs}
+\DeclareFontFamily{T1}{linotext}{}
+\DeclareFontShape{T1}{linotext}{m}{n} {linotext }{}
+\DeclareSymbolFont{linotext}{T1}{linotext}{m}{n}
+\DeclareSymbolFontAlphabet{\mathLINOTEXT}{linotext}
+\begin{document}
+$$Sensitivity = {{TP} \over {TP + FN}}$$
+\end{document}</tex-math></alternatives></disp-formula></disp-formula-group>
+<disp-formula-group><disp-formula id="um0003"><alternatives><graphic xlink:href="NSS-14-2033-e0003.jpg" position="float"/><tex-math id="Tex003">\documentclass[12pt]{minimal}
+\usepackage{wasysym}
+\usepackage[substack]{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage[mathscr]{eucal}
+\usepackage{mathrsfs}
+\DeclareFontFamily{T1}{linotext}{}
+\DeclareFontShape{T1}{linotext}{m}{n} {linotext }{}
+\DeclareSymbolFont{linotext}{T1}{linotext}{m}{n}
+\DeclareSymbolFontAlphabet{\mathLINOTEXT}{linotext}
+\begin{document}
+$${F_1} score = {{2 \cdot P\cdot S} \over {P + S}}$$
+\end{document}</tex-math></alternatives></disp-formula></disp-formula-group></p>
+        <p>where true positive (TP) represents the number of events detected correctly by the algorithm (intersection over union between PSG-detected and audio-detected events greater than 0.5), false positive (FP) represents the number of segments without apneic events detected as apneic events and false negative (FN) represents the number of apneic events overlooked. Since OSAnet detected apneic events in an event-by-event manner, Bland‒Altman limits of agreement were also employed to assess the differences between the durations of audio-detected events and PSG-detected events. We assessed the correlation between the AHI-audio and the simultaneous AHI-PSG with Pearson correlation coefficient and evaluated the average error between them with Bland‒Altman limits of agreement.<xref rid="cit0021" ref-type="bibr">21</xref> The prediction performance of supine and non-supine events was assessed as well.</p>
+        <p>To assess the ability of our algorithm to distinguish between the presence and absence of OSA, we calculated sensitivity, specificity, positive predictive value (PPV), negative predictive value (NPV), accuracy, unweighted Cohen kappa coefficient (κ)<xref rid="cit0022" ref-type="bibr">22</xref> and the area under the curve (AUC) for receiver operating characteristics curves (ROC) according to various AHI diagnostic cutoffs of: ≥5, 10 and 15 events/h, which are the cutoffs that most jurisdictions use. For severe OSA detection, a higher cutoff of ≥30 events/h was also evaluated.</p>
+      </sec>
+      <sec id="s0002-s2007">
+        <title>Statistical Analysis</title>
+        <p>Data are presented as the mean ± standard deviation or median (interquartile range) where appropriate. The Mann–Whitney <italic toggle="yes">U</italic>-test was used to compare anthropometric, demographic and sleep studies between the training group against the validation group and between the training group against the test group. Exact 95% confidence intervals(CIs) were calculated for AUC. All comparisons were two-sided, with statistical significance defined as <italic toggle="yes">P</italic> &lt; 0.05. Analyses were calculated using IBM SPSS Statistics version 26 (IBM Corp.).</p>
+      </sec>
+    </sec>
+    <sec id="s0003">
+      <title>Results</title>
+      <sec id="s0003-s2001">
+        <title>Study Population</title>
+        <p>Between October 2018 and January 2020, 162 participants who met the criteria for inclusion were enrolled. Twenty-seven participants were excluded because they did not complete PSG, or the total sleep time was less than 5 hours. Among the remaining 135 participants, we randomly divided 116 into the training group and 19 into the validation group. The characteristics were similar in the two groups (<xref rid="t0001" ref-type="table">Table 1</xref>). Between February 2020 and December 2020, 59 participants with qualified PSG recordings were enrolled for inclusion in the test group. No significant differences between the training and test groups were noted in anthropometry, demographics and sleep architecture except for N3, which covered a higher proportion in the test group (<xref rid="t0001" ref-type="table">Table 1</xref>).<table-wrap position="float" id="t0001"><label>Table 1</label><caption><p>Participant Characteristics</p></caption><table frame="hsides" rules="groups"><thead><tr><th rowspan="1" colspan="1"/><th rowspan="1" colspan="1">Training Group, N, 116</th><th rowspan="1" colspan="1">Validation Group, N, 19</th><th rowspan="1" colspan="1"><italic toggle="yes">P</italic> value<sup>a</sup></th><th rowspan="1" colspan="1">Test group, N, 59</th><th rowspan="1" colspan="1"><italic toggle="yes">P</italic> value<sup>b</sup></th></tr></thead><tbody><tr><td rowspan="1" colspan="1">Demographics</td><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"/></tr><tr><td rowspan="1" colspan="1"> Age (years)</td><td rowspan="1" colspan="1">40.7±10.8</td><td rowspan="1" colspan="1">40.2±9.3</td><td rowspan="1" colspan="1">0.81</td><td rowspan="1" colspan="1">41.6±11.1</td><td rowspan="1" colspan="1">0.56</td></tr><tr><td rowspan="1" colspan="1"> Gender (M: F)</td><td rowspan="1" colspan="1">86:29</td><td rowspan="1" colspan="1">15:4</td><td rowspan="1" colspan="1">0.85</td><td rowspan="1" colspan="1">46:13</td><td rowspan="1" colspan="1">0.74</td></tr><tr><td rowspan="1" colspan="1">Anthropometrics</td><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"/></tr><tr><td rowspan="1" colspan="1"> BMI (kg/m<sup>2</sup>)</td><td rowspan="1" colspan="1">26.0±3.0</td><td rowspan="1" colspan="1">25.5±4.3</td><td rowspan="1" colspan="1">0.72</td><td rowspan="1" colspan="1">26.0±3.3</td><td rowspan="1" colspan="1">0.87</td></tr><tr><td rowspan="1" colspan="1"> Neck (cm)</td><td rowspan="1" colspan="1">39.2±3.5</td><td rowspan="1" colspan="1">38.9±4.3</td><td rowspan="1" colspan="1">0.98</td><td rowspan="1" colspan="1">38.5±3.8</td><td rowspan="1" colspan="1">0.20</td></tr><tr><td rowspan="1" colspan="1">Sleep architecture</td><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"/></tr><tr><td rowspan="1" colspan="1"> Sleep efficiency (%)</td><td rowspan="1" colspan="1">88.3(81.6–93.0)</td><td rowspan="1" colspan="1">90.1(82.4–95.5)</td><td rowspan="1" colspan="1">0.38</td><td rowspan="1" colspan="1">89.6(83.0–94.7)</td><td rowspan="1" colspan="1">0.25</td></tr><tr><td rowspan="1" colspan="1"> N1 (%)</td><td rowspan="1" colspan="1">11.2(7.1–19.5)</td><td rowspan="1" colspan="1">12.7(8.3–19.3)</td><td rowspan="1" colspan="1">0.64</td><td rowspan="1" colspan="1">11.8(6.5–16.1)</td><td rowspan="1" colspan="1">0.93</td></tr><tr><td rowspan="1" colspan="1"> N2 (%)</td><td rowspan="1" colspan="1">64.7(56.5–71.9)</td><td rowspan="1" colspan="1">65.9(58.6–69.5)</td><td rowspan="1" colspan="1">0.78</td><td rowspan="1" colspan="1">66.1(56.7–70.5)</td><td rowspan="1" colspan="1">0.20</td></tr><tr><td rowspan="1" colspan="1"> N3 (%)</td><td rowspan="1" colspan="1">0.0(0.0–5.8)</td><td rowspan="1" colspan="1">0.0(0.0–1.7)</td><td rowspan="1" colspan="1">0.22</td><td rowspan="1" colspan="1">0(0–8.6)</td><td rowspan="1" colspan="1">0.03</td></tr><tr><td rowspan="1" colspan="1"> REM (%)</td><td rowspan="1" colspan="1">18.2(14.8–21.2)</td><td rowspan="1" colspan="1">20.2(16.0–22.6)</td><td rowspan="1" colspan="1">0.21</td><td rowspan="1" colspan="1">19.4(15.9–21.9)</td><td rowspan="1" colspan="1">0.35</td></tr><tr><td rowspan="1" colspan="1">AHI and sleepiness</td><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"/></tr><tr><td rowspan="1" colspan="1"> ESS (score)</td><td rowspan="1" colspan="1">6.0(4.0–9.0)</td><td rowspan="1" colspan="1">6.0(3.0–8.0)</td><td rowspan="1" colspan="1">0.86</td><td rowspan="1" colspan="1">5.0(2.0–8.0)</td><td rowspan="1" colspan="1">0.12</td></tr><tr><td rowspan="1" colspan="1"> AHI (/hr)</td><td rowspan="1" colspan="1">27.6 (9.9–61.6)</td><td rowspan="1" colspan="1">18.9(5.9–62.1)</td><td rowspan="1" colspan="1">0.46</td><td rowspan="1" colspan="1">24.4(6.6–54.3)</td><td rowspan="1" colspan="1">0.41</td></tr></tbody></table><table-wrap-foot><fn id="tfn0001"><p><bold>Notes</bold>: Data are presented as the mean ± standard deviation or median (interquartile range). The Mann–Whitney <italic toggle="yes">U</italic>-test was used to compare demographic, anthropometric and sleep study between groups. <sup>a</sup><italic toggle="yes">P</italic> value was obtained by comparison of the training and validation groups. <sup>b</sup><italic toggle="yes">P</italic> value was obtained by comparison of the training and test groups.</p></fn><fn id="tfn0002"><p><bold>Abbreviations</bold>: BMI, body mass index; NC, neck circumference; ESS, Epworth Sleepiness Scale; AHI, apnea hypopnea index.</p></fn></table-wrap-foot></table-wrap></p>
+      </sec>
+      <sec id="s0003-s2002">
+        <title>Model Performance</title>
+        <p>The performance of the algorithm is presented in <xref rid="t0002" ref-type="table">Table 2</xref>. The model achieved a precision of 0.81 in the test group for sleep event detection when taking all events into consideration. These results corresponded to a sensitivity of 0.78. The model gained a precision of 0.83 and a sensitivity of 0.79 for supine event detection. In addition, OSAnet was able to calculate the durations of each event. Using the Bland‒Altman limits of agreement depicted in <xref rid="f0002" ref-type="fig">Figure 2</xref>, the differences between durations of audio-detected and PSG-detected events were 0.52±18.38 seconds, which indicated that the algorithm might overestimate the durations of apneic events. A linear regression analysis of the differences produced a positive slope of 0.06 (P&lt;0.0001). However, OSAnet was not able to distinguish between apneic and hypopneic events (data not shown), and both of them were regarded as apneic events in the study.<table-wrap position="float" id="t0002"><label>Table 2</label><caption><p>Performance of the Model for Detecting Sleep Apneic Events</p></caption><table frame="hsides" rules="groups"><thead><tr><th rowspan="1" colspan="1"/><th colspan="3" rowspan="1">Overall</th><th colspan="3" rowspan="1">Supine</th><th colspan="3" rowspan="1">Non-Supine</th></tr><tr><th rowspan="1" colspan="1"/><th rowspan="1" colspan="1">Precision</th><th rowspan="1" colspan="1">Sensitivity</th><th rowspan="1" colspan="1">F1 score</th><th rowspan="1" colspan="1">Precision</th><th rowspan="1" colspan="1">Sensitivity</th><th rowspan="1" colspan="1">F1 score</th><th rowspan="1" colspan="1">Precision</th><th rowspan="1" colspan="1">Sensitivity</th><th rowspan="1" colspan="1">F1 score</th></tr></thead><tbody><tr><td rowspan="1" colspan="1"><bold>Validation group</bold></td><td rowspan="1" colspan="1">0.79</td><td rowspan="1" colspan="1">0.79</td><td rowspan="1" colspan="1">0.79</td><td rowspan="1" colspan="1">0.78</td><td rowspan="1" colspan="1">0.79</td><td rowspan="1" colspan="1">0.79</td><td rowspan="1" colspan="1">0.79</td><td rowspan="1" colspan="1">0.79</td><td rowspan="1" colspan="1">0.79</td></tr><tr><td rowspan="1" colspan="1"><bold>Test group</bold></td><td rowspan="1" colspan="1">0.81</td><td rowspan="1" colspan="1">0.78</td><td rowspan="1" colspan="1">0.79</td><td rowspan="1" colspan="1">0.83</td><td rowspan="1" colspan="1">0.79</td><td rowspan="1" colspan="1">0.81</td><td rowspan="1" colspan="1">0.77</td><td rowspan="1" colspan="1">0.75</td><td rowspan="1" colspan="1">0.76</td></tr></tbody></table></table-wrap>
+<fig position="float" id="f0002" fig-type="figure"><label>Figure 2</label><caption><p>Bland‒Altman plots showing observations of the differences between durations of audio-detected and PSG-detected events.</p></caption><graphic xlink:href="NSS-14-2033-g0002" content-type="print-only" position="float"/><attrib><bold>Abbreviation</bold>: SD, standard deviation.</attrib></fig></p>
+      </sec>
+      <sec id="s0003-s2003">
+        <title>Agreement Between AHI-Audio and AHI-PSG</title>
+        <p>A strong correlation was identified between AHI-audio and AHI-PSG, with a rho of 0.99 in the validation group and 0.98 in the test group (<xref rid="f0003" ref-type="fig">Figure 3</xref>). The Bland‒Altman plots were calculated to assess agreement between AHI-PSG and AHI-audio (<xref rid="f0004" ref-type="fig">Figure 4</xref>). No consistent bias was found in the Bland‒Altman plot, and the bias and limits of agreement were 1.15±12.00 and −0.24±12.81 events/h in the validation and test groups, respectively. The scatter plots fit the lines well across the entire range of OSA severities for both groups. The comparison between AHI-audio and AHI-PSG in the test group is shown in <xref rid="f0005" ref-type="fig">Figure 5</xref>, which shows that most cases have been correctly classified into the corresponding severity group, and the detection performance proves better in subjects with more severe OSA. Moreover, the bias and limits of agreement were −3.03±12.62 and 0.47±15.88 events/h for supine AHI and non-supine AHI, respectively (<xref rid="f0006" ref-type="fig">Figure 6</xref>).
+<fig position="float" id="f0003" fig-type="figure"><label>Figure 3</label><caption><p>Correlation between AHI-PSG and AHI-audio. Scatter plots of AHI-PSG versus AHI-audio in the validation group (<bold>A</bold>) and test group (<bold>B</bold>). Magenta lines are fit with the two variables (<bold>A)</bold> rho, 0.99, <italic toggle="yes">P</italic> value&lt;0.01; (<bold>B</bold>), rho, 0.98, <italic toggle="yes">P</italic> value&lt;0.01).</p></caption><graphic xlink:href="NSS-14-2033-g0003" content-type="print-only" position="float"/></fig>
+<fig position="float" id="f0004" fig-type="figure"><label>Figure 4</label><caption><p>Bland‒Altman plots showing observations of the difference between AHI-audio and AHI-PSG falling within limits of agreement in the validation group (<bold>A</bold>) and the test group (<bold>B</bold>).</p></caption><graphic xlink:href="NSS-14-2033-g0004" content-type="print-only" position="float"/><attrib><bold>Abbreviations</bold>: SD, standard deviation.</attrib></fig>
+<fig position="float" id="f0005" fig-type="figure"><label>Figure 5</label><caption><p>Comparison between AHI-audio and AHI-PSG according to OSA severity in the test group. (<bold>A</bold>) AHI-audio versus AHI-PSG in non-OSA subjects; (<bold>B</bold>) AHI-audio versus AHI-PSG in mild OSA subjects; (<bold>C</bold>) AHI-audio versus AHI-PSG in moderate OSA subjects; (<bold>D</bold>) AHI-audio versus AHI-PSG in severe OSA subjects.</p></caption><graphic xlink:href="NSS-14-2033-g0005" content-type="print-only" position="float"/></fig>
+<fig position="float" id="f0006" fig-type="figure"><label>Figure 6</label><caption><p>Bland‒Altman plots showing observations of the differences in supine AHI (<bold>A</bold>) and non-supine AHI (<bold>B</bold>).</p></caption><graphic xlink:href="NSS-14-2033-g0006" content-type="print-only" position="float"/><attrib><bold>Abbreviation</bold>: SD, standard deviation.</attrib></fig></p>
+      </sec>
+      <sec id="s0003-s2004">
+        <title>Diagnostic Performance</title>
+        <p>OSA is diagnosed if the AHI exceeds a certain threshold, ranging between 5 and 15, depending on the criteria of certain medical organizations, jurisdictions, or the individual practitioner. The diagnostic performance was evaluated in the test group at the aforementioned cutoffs and a higher threshold (viz. 30 events/h) for severe case differentiation (<xref rid="t0003" ref-type="table">Table 3</xref>). The algorithm exhibited robust diagnostic performance to identify severe cases with a sensitivity of 95.6% and specificity of 91.6%. These results corresponded to a PPV of 88.0%, NPV of 97.0% and accuracy of 93.2%. The AUCs for ROCs of AHI-PSG ≥ 5, 10, 15, and 30 were 0.941 (95% CI, 0.877–1.000), 0.935 (95% CI, 0.873–0.997), 0.981 (95% CI, 0.955–1.00), and 0.987 (95% CI, 0.969–1.00), respectively (<xref rid="f0007" ref-type="fig">Figure 7</xref>). According to our criteria, a diagnosis of OSA is made if the AHI ≥ 5. Investigating the ROC of AHI-PSG ≥ 5, we obtained the optimum performance (accuracy) by setting the AHI-audio diagnostic threshold at 7 events/h, which yielded a sensitivity of 89.3% and specificity of 91.6%. To optimize sensitivity for screening, the cutoff point of AHI-audio, 4.5 was selected with a sensitivity of 95.7% and specificity of 83.3%.<table-wrap position="float" id="t0003"><label>Table 3</label><caption><p>Diagnostic Performance at Four Cutoffs</p></caption><table frame="hsides" rules="groups"><thead><tr><th rowspan="1" colspan="1">AHI Cutoff</th><th rowspan="1" colspan="1">Sensitivity</th><th rowspan="1" colspan="1">Specificity</th><th rowspan="1" colspan="1">PPV</th><th rowspan="1" colspan="1">NPV</th><th rowspan="1" colspan="1">Accuracy</th><th rowspan="1" colspan="1">K</th></tr></thead><tbody><tr><td rowspan="1" colspan="1"><bold>5</bold></td><td rowspan="1" colspan="1">93.6</td><td rowspan="1" colspan="1">83.3</td><td rowspan="1" colspan="1">95.6</td><td rowspan="1" colspan="1">76.9</td><td rowspan="1" colspan="1">91.5</td><td rowspan="1" colspan="1">0.746</td></tr><tr><td rowspan="1" colspan="1"><bold>10</bold></td><td rowspan="1" colspan="1">82.5</td><td rowspan="1" colspan="1">78.9</td><td rowspan="1" colspan="1">89.1</td><td rowspan="1" colspan="1">68.1</td><td rowspan="1" colspan="1">81.3</td><td rowspan="1" colspan="1">0.590</td></tr><tr><td rowspan="1" colspan="1"><bold>15</bold></td><td rowspan="1" colspan="1">88.5</td><td rowspan="1" colspan="1">95.8</td><td rowspan="1" colspan="1">96.8</td><td rowspan="1" colspan="1">85.1</td><td rowspan="1" colspan="1">91.5</td><td rowspan="1" colspan="1">0.828</td></tr><tr><td rowspan="1" colspan="1"><bold>30</bold></td><td rowspan="1" colspan="1">95.6</td><td rowspan="1" colspan="1">91.6</td><td rowspan="1" colspan="1">88.0</td><td rowspan="1" colspan="1">97.0</td><td rowspan="1" colspan="1">93.2</td><td rowspan="1" colspan="1">0.860</td></tr></tbody></table></table-wrap>
+<fig position="float" id="f0007" fig-type="figure"><label>Figure 7</label><caption><p>Receiver operating characteristic (ROC) curves depicting the diagnostic power of AHI-audio at four cutoffs: AHI-PSG ≥ 5, 10, 15 and 30.</p></caption><graphic xlink:href="NSS-14-2033-g0007" content-type="print-only" position="float"/></fig></p>
+      </sec>
+    </sec>
+    <sec id="s0004">
+      <title>Discussion</title>
+      <p>This study explored a novel approach to OSA detection solely based on sleep sounds by a noncontact voice recorder. The proposed algorithm originated from the object detection problem, a well-known method in the field of computer vision. The correlation between AHI-audio and AHI-PSG was strong, suggesting that the deep-learning proposal could address the needs of OSA screening and diagnosis in an event-by-event manner.</p>
+      <p>Prior studies have attempted to utilize snoring sound to diagnose OSA, but a standard framework to compare different techniques is lacking. Different studies selected various acoustic parameters for their proposal, such as pitch, formant frequencies, sound intensity, power spectrum, and Mel-frequency cepstral coefficients.<xref rid="cit0014" ref-type="bibr">14</xref>,<xref rid="cit0015" ref-type="bibr">15</xref>,<xref rid="cit0023" ref-type="bibr">23</xref>,<xref rid="cit0024" ref-type="bibr">24</xref> These human-engineered acoustic features showed dissimilar diagnostic capacity and the best combination of acoustic features was not fully exploited. Instead of extracting acoustic features, we permitted the neural networks to capture the characteristics of apneic events.</p>
+      <p>Deep learning has enabled many practical applications of machine learning in recent years, promoting reliable and valid analyses of image and speech data. The deep learning techniques utilized in OSA diagnosis included recurrent neural networks for ECG classification<xref rid="cit0025" ref-type="bibr">25</xref> and convolutional neural networks for EEG identification.<xref rid="cit0026" ref-type="bibr">26</xref> Due to its capacity to learn feature representations from raw data, convolutional neural networks were able to capture the characteristics of a large number of apneic events in the corresponding audio samples we created. Some studies enrolled a relatively small number of participants without including a separate test group for the validation study.<xref rid="cit0015" ref-type="bibr">15</xref>,<xref rid="cit0027" ref-type="bibr">27–29</xref> Since deep learning is often driven by big data, one of the merits of our study lies in the ability to estimate AHI across a wide range of OSA severities and the validation of the method in an independent test group using blind design, thus indicating reliability and validity of the algorithm. A meta-analysis study carried out by Jin illustrated that the AUC of the acoustic analysis of snoring in the diagnosis of OSA was 0.93.<xref rid="cit0030" ref-type="bibr">30</xref> However, a universal rule to compare different techniques is lacking. For example, one study enrolled validated the performance by comparing the overall estimated AHI with AHI from PSG, neglecting the detection of individual respiratory event.<xref rid="cit0014" ref-type="bibr">14</xref> Other research has adopted custom-built audio recording devices which might cause inconvenience and attachment error.<xref rid="cit0031" ref-type="bibr">31</xref></p>
+      <p>Moreover, the results indicated that OSAnet was comparable to several other HSAT devices using automated scoring. Zhang et al demonstrated that WatchPAT achieved an agreement of 2.5(−24.0 to 28.9) compared with PSG.<xref rid="cit0008" ref-type="bibr">8</xref> They achieved a sensitivity of 0.86 and specificity of 0.88 at the AHI-PSG cutoff of 30 events/h. Using input signals from peripheral blood oxygen saturation, thermistor airflow, nasal pressure airflow, and thorax respiratory effort, Nikkonen showed that AHI calculated from the automated scoring was close to the manually determined AHI with a mean absolute error of 3.0 events/hour.<xref rid="cit0009" ref-type="bibr">9</xref> In our study, the Bland‒Altman plot of OSAnet showed that the bias and limits of agreement were −0.24±12.81 in the test group, which implicated sleep sounds as promising in OSA screening.</p>
+      <p>We noticed that the algorithm illustrated stronger diagnostic power in participants with severe OSA (<xref rid="f0003" ref-type="fig">Figure 3</xref>). When setting the AHI threshold at 30 events/h, we obtained a sensitivity of 95.6%, specificity of 91.6%, and AUC of 0.987 (<xref rid="f0004" ref-type="fig">Figure 4</xref>), which outperformed any other proposal to date. The results suggest that the probability of severe OSA is high in individuals with an AHI-audio ≥ 30, and we highly recommend that they be referred for timely OSA assessment and proper treatment. We can speculate that the improvement in more severe cases may be associated with differences in the upper airway in terms of structure and function. Lee et al showed that the soft palate alone is the most common obstructed structure in mild OSA, and the combination of soft palate and tongue base obstruction is more frequent in severe OSA.<xref rid="cit0032" ref-type="bibr">32</xref> This difference warrants further study with anatomical stratification concerning different snoring sound excitation locations.</p>
+      <p>Some studies divided OSA detection into two steps: snore detection and OSA classification.<xref rid="cit0014" ref-type="bibr">14</xref>,<xref rid="cit0023" ref-type="bibr">23</xref>,<xref rid="cit0031" ref-type="bibr">31</xref>,<xref rid="cit0033" ref-type="bibr">33</xref> The former part was applied to isolate snore events and served as an important component of OSA detection. Nonetheless, a definition to permit an objectively measurable distinction between snoring and loud breathing has not been established.<xref rid="cit0034" ref-type="bibr">34</xref>,<xref rid="cit0035" ref-type="bibr">35</xref> As snore detection was inevitably trained using snore events manually labeled by the investigating authors themselves based on subjective judgement, the detection might have been biased by the human observer’s perception. Furthermore, the procedure was influenced by the number and diversity of snore events as well as the type of machine learning algorithm used. On the contrary, a one-step deep learning algorithm with straightforward process of sleep apnea detection was deployed in our study, where manually labeled apneic events according to AASM guidelines were more objective and robust compared with human-classified snore labels.</p>
+      <p>Body posture during sleep have effects on the acoustic characteristics of snores.<xref rid="cit0036" ref-type="bibr">36</xref> The position of recording devices relative to the mouth of the participant may change during trunk rotation, leading to alterations in any acoustic features with reference to snoring intensity, sound pressure level, and magnitude spectrum etc. To eliminate the interference of body posture, earlier studies adopted microphones attached to the body (neck or face) or matched pairs of microphones for data collection. Sowho et al conducted a study in a closed sound-attenuated laboratory with a digital sound pressure level meter and sound level calibrator.<xref rid="cit0037" ref-type="bibr">37</xref> They used regression models to determine the relationship between objective measure of snoring and OSA. However, these methods required the careful setup and calibration of the recording situation. Our approach has the advantage in that it proves plausible regardless of body posture. Unlike the common practice described in Xu et al<xref rid="cit0029" ref-type="bibr">29</xref> and Alshaer et al<xref rid="cit0028" ref-type="bibr">28</xref> a non-contact voice recorder placed beside the subjects at a distance of 1 m was used in our study, which approximates the real-world circumstance when subjects are able to conduct the sound recording at home by themselves without interfering with the sleep process. Such a recording setting is more convenient and less sensitive to unwanted background sound such as duvets, beds, and body movements (compared with body attached devices). This feature tends to yield more robust results when used in real life applications, where microphone positions and room conditions might not be precisely controllable. Furthermore, the Bland‒Altman plots illustrated that the differences in supine AHI and non-supine AHI predicted by OSAnet fell within limits of agreement, indicating that our model was robust to identify patients with OSA, irrespective of whether they possessed posture-dependent apneic events or not.</p>
+    </sec>
+    <sec id="s0005">
+      <title>Limitations</title>
+      <p>A few limitations should be noted when interpreting our results. First, our approach was dependent on sleep sounds. Although most OSA patients do snore or produce heavy breathing sound during sleep,<xref rid="cit0038" ref-type="bibr">38</xref> a very small percentage of patients with OSA produce breathing sound weaker than the background noise in the home environment,<xref rid="cit0027" ref-type="bibr">27</xref> making OSAnet unsuitable for them, since the latter might be a confounding factor. Second, night-to-night variability in sleep sounds may introduce inaccuracies in our model in a single night. Third, the study was conducted at one center. The algorithm requires further external validation based on community populations in a home-based setting to better meet the needs of real-world applications.</p>
+    </sec>
+    <sec id="s0006">
+      <title>Conclusions</title>
+      <p>In summary, sleep sounds recorded by a noncontact voice recorder served as a feasible tool for apneic event detection and OSA screening. With the assistance of the novel deep-learning technique entitled OSAnet, sleep sounds supported a potential step to pinpoint the location and procure the duration of each individual event. This effort could be useful for home-based assessments and OSA screening in the community, which may help to guide further diagnostic testing or medical visits.</p>
+    </sec>
+  </body>
+  <back>
+    <ack>
+      <title>Acknowledgments</title>
+      <p>The authors thank the technicians at the Sleep Medical Center in Beijing Tongren Hospital and the participants involved in the study.</p>
+    </ack>
+    <sec id="s0007">
+      <title>Data Sharing Statement</title>
+      <p>All data and code that support the findings of this study are available from the corresponding author upon reasonable request.</p>
+    </sec>
+    <sec id="s0008">
+      <title>Ethics Approval</title>
+      <p>All procedures performed in studies involving human participants were in accordance with the ethical standards of the institutional and/or national research committee and with the 1964 Helsinki declaration and its later amendments or comparable ethical standards.</p>
+    </sec>
+    <sec id="s0009">
+      <title>Consent to Participate</title>
+      <p>All participants provided written informed consent.</p>
+    </sec>
+    <sec sec-type="COI-statement" id="s0010">
+      <title>Disclosure</title>
+      <p>The authors declare that they have no conflicts of interest in this work.</p>
+    </sec>
+    <ref-list>
+      <title>References</title>
+      <ref id="cit0001">
+        <label>1.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Koo</surname>
+<given-names>DL</given-names></string-name>, <string-name><surname>Kim</surname>
+<given-names>H-R</given-names></string-name>, <string-name><surname>Nam</surname>
+<given-names>H</given-names></string-name>. <article-title>Moderate to severe obstructive sleep apnea during REM sleep as a predictor of metabolic syndrome in a Korean population</article-title>. <source><italic toggle="yes">Sleep Breath</italic></source>. <year>2020</year>;<volume>24</volume>:<fpage>1</fpage>–<lpage>8</lpage>.<pub-id pub-id-type="pmid">31240543</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0002">
+        <label>2.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Nieto</surname>
+<given-names>FJ</given-names></string-name>, <string-name><surname>Young</surname>
+<given-names>TB</given-names></string-name>, <string-name><surname>Lind</surname>
+<given-names>BK</given-names></string-name>, et al. <article-title>Association of sleep-disordered breathing, sleep apnea, and hypertension in a large community-based study</article-title>. <source><italic toggle="yes">SLEEP Heart Health Study Jama</italic></source>. <year>2000</year>;<volume>283</volume>:<fpage>1829</fpage>.<pub-id pub-id-type="pmid">10770144</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0003">
+        <label>3.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Arzt</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Young</surname>
+<given-names>T</given-names></string-name>, <string-name><surname>Finn</surname>
+<given-names>L</given-names></string-name>, <string-name><surname>Skatrud</surname>
+<given-names>JB</given-names></string-name>, <string-name><surname>Bradley</surname>
+<given-names>TD</given-names></string-name>. <article-title>Association of sleep-disordered breathing and the occurrence of stroke</article-title>. <source><italic toggle="yes">Am J Respir Crit Care Med</italic></source>. <year>2005</year>;<volume>172</volume>:<fpage>1447</fpage>–<lpage>1451</lpage>. doi:<pub-id pub-id-type="doi">10.1164/rccm.200505-702OC</pub-id><pub-id pub-id-type="pmid">16141444</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0004">
+        <label>4.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Tarasiuk</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Greenberg-Dotan</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Simon</surname>
+<given-names>T</given-names></string-name>, <string-name><surname>Tal</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Oksenberg</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Reuveni</surname>
+<given-names>H</given-names></string-name>. <article-title>Low socioeconomic status is a risk factor for cardiovascular disease among adult obstructive sleep apnea syndrome patients requiring treatment</article-title>. <source><italic toggle="yes">Chest</italic></source>. <year>2006</year>;<volume>130</volume>:<fpage>766</fpage>–<lpage>773</lpage>. doi:<pub-id pub-id-type="doi">10.1378/chest.130.3.766</pub-id><pub-id pub-id-type="pmid">16963673</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0005">
+        <label>5.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Benjafield</surname>
+<given-names>AV</given-names></string-name>, <string-name><surname>Ayas</surname>
+<given-names>NT</given-names></string-name>, <string-name><surname>Eastwood</surname>
+<given-names>PR</given-names></string-name>, et al. <article-title>Estimation of the global prevalence and burden of obstructive sleep apnoea: a literature-based analysis</article-title>. <source><italic toggle="yes">Lancet Respir Med</italic></source>. <year>2019</year>;<volume>7</volume>:<fpage>687</fpage>–<lpage>698</lpage>. doi:<pub-id pub-id-type="doi">10.1016/S2213-2600(19)30198-5</pub-id><pub-id pub-id-type="pmid">31300334</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0006">
+        <label>6.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Motamedi</surname>
+<given-names>KK</given-names></string-name>, <string-name><surname>McClary</surname>
+<given-names>AC</given-names></string-name>, <string-name><surname>Amedee</surname>
+<given-names>RG</given-names></string-name>. <article-title>Obstructive sleep apnea: a growing problem</article-title>. <source><italic toggle="yes">Ochsner J</italic></source>. <year>2009</year>;<volume>9</volume>:<fpage>149</fpage>–<lpage>153</lpage>.<pub-id pub-id-type="pmid">21603432</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0007">
+        <label>7.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Simpson</surname>
+<given-names>L</given-names></string-name>, <string-name><surname>Hillman</surname>
+<given-names>DR</given-names></string-name>, <string-name><surname>Cooper</surname>
+<given-names>MN</given-names></string-name>, et al. <article-title>High prevalence of undiagnosed obstructive sleep apnoea in the general population and methods for screening for representative controls</article-title>. <source><italic toggle="yes">Sleep Breath Schlaf Atmung</italic></source>. <year>2013</year>;<volume>17</volume>:<fpage>967</fpage>–<lpage>973</lpage>. doi:<pub-id pub-id-type="doi">10.1007/s11325-012-0785-0</pub-id><pub-id pub-id-type="pmid">23161476</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0008">
+        <label>8.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Zhang</surname>
+<given-names>ZG</given-names></string-name>, <string-name><surname>Sowho</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Otvos</surname>
+<given-names>T</given-names></string-name>, et al. <article-title>A comparison of automated and manual sleep staging and respiratory event recognition in a portable sleep diagnostic device with in-lab sleep study</article-title>. <source><italic toggle="yes">Clin Sleep Med</italic></source>. <year>2020</year>;<volume>16</volume>:<fpage>563</fpage>–<lpage>573</lpage>. doi:<pub-id pub-id-type="doi">10.5664/jcsm.8278</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0009">
+        <label>9.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Nikkonen</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Korkalainen</surname>
+<given-names>H</given-names></string-name>, <string-name><surname>Leino</surname>
+<given-names>A</given-names></string-name>, et al. <article-title>Automatic respiratory event scoring in obstructive sleep apnea using a long short-term memory neural network</article-title>. <source><italic toggle="yes">IEEE J Biomed Health Inform</italic></source>. <year>2021</year>;<volume>25</volume>:<fpage>2917</fpage>–<lpage>2927</lpage>. doi:<pub-id pub-id-type="doi">10.1109/JBHI.2021.3064694</pub-id><pub-id pub-id-type="pmid">33687851</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0010">
+        <label>10.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Roebuck</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Monasterio</surname>
+<given-names>V</given-names></string-name>, <string-name><surname>Gederi</surname>
+<given-names>E</given-names></string-name>, et al. <article-title>A review of signals used in sleep analysis</article-title>. <source><italic toggle="yes">Physiol Meas</italic></source>. <year>2014</year>;<volume>35</volume>:<fpage>R1</fpage>–<lpage>57</lpage>. doi:<pub-id pub-id-type="doi">10.1088/0967-3334/35/1/R1</pub-id><pub-id pub-id-type="pmid">24346125</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0011">
+        <label>11.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Dalmasso</surname>
+<given-names>F</given-names></string-name>, <string-name><surname>Prota</surname>
+<given-names>R</given-names></string-name>. <article-title>Snoring: analysis, measurement, clinical implications and applications</article-title>. <source><italic toggle="yes">Eur Respir J</italic></source>. <year>1996</year>;<volume>9</volume>:<fpage>146</fpage>–<lpage>159</lpage>. doi:<pub-id pub-id-type="doi">10.1183/09031936.96.09010146</pub-id><pub-id pub-id-type="pmid">8834348</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0012">
+        <label>12.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Qian</surname>
+<given-names>K</given-names></string-name>, <string-name><surname>Janott</surname>
+<given-names>C</given-names></string-name>, <string-name><surname>Pandit</surname>
+<given-names>V</given-names></string-name>, et al. <article-title>Classification of the excitation location of snore sounds in the upper airway by acoustic multifeature analysis</article-title>. <source><italic toggle="yes">IEEE Trans Biomed Eng</italic></source>. <year>2017</year>;<volume>64</volume>:<fpage>1731</fpage>–<lpage>1741</lpage>. doi:<pub-id pub-id-type="doi">10.1109/TBME.2016.2619675</pub-id><pub-id pub-id-type="pmid">28113249</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0013">
+        <label>13.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Sebastian</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Cistulli</surname>
+<given-names>PA</given-names></string-name>, <string-name><surname>Cohen</surname>
+<given-names>G</given-names></string-name>, <string-name><surname>de Chazal</surname>
+<given-names>P</given-names></string-name>. <article-title>Association of snoring characteristics with predominant site of collapse of upper airway in obstructive sleep apnea patients</article-title>. <source><italic toggle="yes">Sleep</italic></source>. <year>2021</year>;<volume>44</volume>. doi:<pub-id pub-id-type="doi">10.1093/sleep/zsab176</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0014">
+        <label>14.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Ben-Israel</surname>
+<given-names>N</given-names></string-name>, <string-name><surname>Tarasiuk</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Zigel</surname>
+<given-names>Y</given-names></string-name>. <article-title>Obstructive apnea hypopnea index estimation by analysis of nocturnal snoring signals in adults</article-title>. <source><italic toggle="yes">Sleep</italic></source>. <year>2012</year>;<volume>35</volume>:<fpage>1299</fpage>–<lpage>305c</lpage>. doi:<pub-id pub-id-type="doi">10.5665/sleep.2092</pub-id><pub-id pub-id-type="pmid">22942509</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0015">
+        <label>15.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Kim</surname>
+<given-names>T</given-names></string-name>, <string-name><surname>Kim</surname>
+<given-names>JW</given-names></string-name>, <string-name><surname>Lee</surname>
+<given-names>K</given-names></string-name>. <article-title>Detection of sleep disordered breathing severity using acoustic biomarker and machine learning techniques</article-title>. <source><italic toggle="yes">Biomed Eng Online</italic></source>. <year>2018</year>;<volume>17</volume>:<fpage>16</fpage>. doi:<pub-id pub-id-type="doi">10.1186/s12938-018-0448-x</pub-id><pub-id pub-id-type="pmid">29391025</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0016">
+        <label>16.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Zhao</surname>
+<given-names>Z-Q</given-names></string-name>, <string-name><surname>Zheng</surname>
+<given-names>P</given-names></string-name>, <string-name><surname>Xu</surname>
+<given-names>ST</given-names></string-name>, <string-name><surname>Wu</surname>
+<given-names>X</given-names></string-name>. <article-title>Object detection with deep learning: a review</article-title>. <source><italic toggle="yes">IEEE Trans Neural Netw Learn Syst</italic></source>. <year>2019</year>;<volume>30</volume>:<fpage>3212</fpage>–<lpage>3232</lpage>. doi:<pub-id pub-id-type="doi">10.1109/TNNLS.2018.2876865</pub-id><pub-id pub-id-type="pmid">30703038</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0017">
+        <label>17.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Doherty</surname>
+<given-names>R</given-names></string-name>, <string-name><surname>Salskov</surname>
+<given-names>E</given-names></string-name>, <string-name><surname>Corriveau</surname>
+<given-names>PJ</given-names></string-name>, <string-name><surname>Sorenson</surname>
+<given-names>P</given-names></string-name>, <string-name><surname>Gabel</surname>
+<given-names>D</given-names></string-name>, <string-name><surname>Beltman</surname>
+<given-names>WM</given-names></string-name>. <article-title>Background noise levels in PC home environments</article-title>. <source><italic toggle="yes">J Acoust Soc Am</italic></source>. <year>2005</year>;<volume>118</volume>:<fpage>1867</fpage>. doi:<pub-id pub-id-type="doi">10.1121/1.4779085</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0018">
+        <label>18.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Johns</surname>
+<given-names>MW</given-names></string-name>. <article-title>A new method for measuring daytime sleepiness: the Epworth sleepiness scale</article-title>. <source><italic toggle="yes">Sleep</italic></source>. <year>1991</year>;<volume>14</volume>:<fpage>540</fpage>. doi:<pub-id pub-id-type="doi">10.1093/sleep/14.6.540</pub-id><pub-id pub-id-type="pmid">1798888</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0019">
+        <label>19.</label>
+        <mixed-citation publication-type="book"><string-name><surname>Berry</surname>
+<given-names>RB</given-names></string-name>, <string-name><surname>Brooks</surname>
+<given-names>R</given-names></string-name>, <string-name><surname>Gamaldo</surname>
+<given-names>CE</given-names></string-name>, et al. <source><italic toggle="yes">The AASM Manual for the Scoring of Sleep and Associated Events: Rules, Terminology and Technical Specifications: Version 2.3</italic></source>. <publisher-name>American Academy of Sleep Medicine</publisher-name>; <year>2016</year>.</mixed-citation>
+      </ref>
+      <ref id="cit0020">
+        <label>20.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Chuang</surname>
+<given-names>HH</given-names></string-name>, <string-name><surname>Liu</surname>
+<given-names>CH</given-names></string-name>, <string-name><surname>Wang</surname>
+<given-names>CY</given-names></string-name>, et al. <article-title>Snoring sound characteristics are associated with common carotid artery profiles in patients with obstructive sleep apnea</article-title>. <source><italic toggle="yes">Nat Sci Sleep</italic></source>. <year>2021</year>;<volume>13</volume>:<fpage>1243</fpage>–<lpage>1255</lpage>. doi:<pub-id pub-id-type="doi">10.2147/NSS.S311125</pub-id><pub-id pub-id-type="pmid">34335064</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0021">
+        <label>21.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Bland</surname>
+<given-names>JM</given-names></string-name>, <string-name><surname>Altman</surname>
+<given-names>DG</given-names></string-name>. <article-title>Statistical methods for assessing agreement between two methods of clinical measurement</article-title>. <source><italic toggle="yes">Lancet</italic></source>. <year>1986</year>;<volume>1</volume>:<fpage>307</fpage>–<lpage>310</lpage>. doi:<pub-id pub-id-type="doi">10.1016/S0140-6736(86)90837-8</pub-id><pub-id pub-id-type="pmid">2868172</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0022">
+        <label>22.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Landis</surname>
+<given-names>JR</given-names></string-name>, <string-name><surname>Koch</surname>
+<given-names>GG</given-names></string-name>. <article-title>The measurement of observer agreement for categorical data</article-title>. <source><italic toggle="yes">Biometrics</italic></source>. <year>1977</year>;<volume>33</volume>:<fpage>159</fpage>–<lpage>174</lpage>. doi:<pub-id pub-id-type="doi">10.2307/2529310</pub-id><pub-id pub-id-type="pmid">843571</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0023">
+        <label>23.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Fiz</surname>
+<given-names>JA</given-names></string-name>, <string-name><surname>Jane</surname>
+<given-names>R</given-names></string-name>, <string-name><surname>Sola-Soler</surname>
+<given-names>J</given-names></string-name>, <string-name><surname>Abad</surname>
+<given-names>J</given-names></string-name>, <string-name><surname>Garcia</surname>
+<given-names>MA</given-names></string-name>, <string-name><surname>Morera</surname>
+<given-names>J</given-names></string-name>. <article-title>Continuous analysis and monitoring of snores and their relationship to the apnea-hypopnea index</article-title>. <source><italic toggle="yes">Laryngoscope</italic></source>. <year>2010</year>;<volume>120</volume>:<fpage>854</fpage>–<lpage>862</lpage>. doi:<pub-id pub-id-type="doi">10.1002/lary.20815</pub-id><pub-id pub-id-type="pmid">20222022</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0024">
+        <label>24.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Ng</surname>
+<given-names>AK</given-names></string-name>, <string-name><surname>Koh</surname>
+<given-names>TS</given-names></string-name>, <string-name><surname>Abeyratne</surname>
+<given-names>UR</given-names></string-name>, <string-name><surname>Puvanendran</surname>
+<given-names>K</given-names></string-name>. <article-title>Investigation of obstructive sleep apnea using nonlinear mode interactions in nonstationary snore signals</article-title>. <source><italic toggle="yes">Ann Biomed Eng</italic></source>. <year>2009</year>;<volume>37</volume>:<fpage>1796</fpage>. doi:<pub-id pub-id-type="doi">10.1007/s10439-009-9744-8</pub-id><pub-id pub-id-type="pmid">19551511</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0025">
+        <label>25.</label>
+        <mixed-citation publication-type="book"><string-name><surname>Cheng</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Sori</surname>
+<given-names>WJ</given-names></string-name>, <string-name><surname>Jiang</surname>
+<given-names>F</given-names></string-name>, <string-name><surname>Khan</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Liu</surname>
+<given-names>S</given-names></string-name>. <part-title>Recurrent Neural Network Based Classification of ECG Signal Features for Obstruction of Sleep Apnea Detection</part-title>. In: <source><italic toggle="yes">2017 IEEE International Conference on Computational Science and Engineering (CSE) and IEEE International Conference on Embedded and Ubiquitous Computing (EUC)</italic></source>. <publisher-name>IEEE</publisher-name>; <year>2017</year>:<fpage>199</fpage>–<lpage>202</lpage>.</mixed-citation>
+      </ref>
+      <ref id="cit0026">
+        <label>26.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Zhang</surname>
+<given-names>X</given-names></string-name>, <string-name><surname>Xu</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Li</surname>
+<given-names>Y</given-names></string-name>, et al. <article-title>Automated multi-model deep neural network for sleep stage scoring with unfiltered clinical data</article-title>. <source><italic toggle="yes">Sleep Breath Schlaf Atmung</italic></source>. <year>2020</year>;<volume>24</volume>:<fpage>581</fpage>–<lpage>590</lpage>. doi:<pub-id pub-id-type="doi">10.1007/s11325-019-02008-w</pub-id><pub-id pub-id-type="pmid">31938990</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0027">
+        <label>27.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Alshaer</surname>
+<given-names>H</given-names></string-name>, <string-name><surname>Fernie</surname>
+<given-names>GR</given-names></string-name>, <string-name><surname>Maki</surname>
+<given-names>E</given-names></string-name>, <string-name><surname>Bradley</surname>
+<given-names>TD</given-names></string-name>. <article-title>Validation of an automated algorithm for detecting apneas and hypopneas by acoustic analysis of breath sounds</article-title>. <source><italic toggle="yes">Sleep Med</italic></source>. <year>2013</year>;<volume>14</volume>:<fpage>562</fpage>–<lpage>571</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.sleep.2012.12.015</pub-id><pub-id pub-id-type="pmid">23453251</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0028">
+        <label>28.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Alshaer</surname>
+<given-names>H</given-names></string-name>, <string-name><surname>Fernie</surname>
+<given-names>GR</given-names></string-name>, <string-name><surname>Tseng</surname>
+<given-names>WH</given-names></string-name>, <string-name><surname>Bradley</surname>
+<given-names>TD</given-names></string-name>. <article-title>Comparison of in-laboratory and home diagnosis of sleep apnea using a cordless portable acoustic device</article-title>. <source><italic toggle="yes">Sleep Med</italic></source>. <year>2016</year>;<volume>22</volume>:<fpage>91</fpage>–<lpage>96</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.sleep.2015.11.003</pub-id><pub-id pub-id-type="pmid">26906396</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0029">
+        <label>29.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Xu</surname>
+<given-names>H</given-names></string-name>, <string-name><surname>Song</surname>
+<given-names>W</given-names></string-name>, <string-name><surname>Yi</surname>
+<given-names>H</given-names></string-name>, et al. <article-title>Nocturnal snoring sound analysis in the diagnosis of obstructive sleep apnea in the Chinese Han population</article-title>. <source><italic toggle="yes">Sleep Breath Schlaf Atmung</italic></source>. <year>2015</year>;<volume>19</volume>:<fpage>599</fpage>–<lpage>605</lpage>. doi:<pub-id pub-id-type="doi">10.1007/s11325-014-1055-0</pub-id><pub-id pub-id-type="pmid">25201558</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0030">
+        <label>30.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Jin</surname>
+<given-names>H</given-names></string-name>, <string-name><surname>Lee</surname>
+<given-names>LA</given-names></string-name>, <string-name><surname>Song</surname>
+<given-names>L</given-names></string-name>, et al. <article-title>Acoustic analysis of snoring in the diagnosis of obstructive sleep apnea syndrome: a call for more rigorous studies</article-title>. <source><italic toggle="yes">J Clin Sleep Med</italic></source>. <year>2015</year>;<volume>11</volume>:<fpage>765</fpage>–<lpage>771</lpage>. doi:<pub-id pub-id-type="doi">10.5664/jcsm.4856</pub-id><pub-id pub-id-type="pmid">25766705</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0031">
+        <label>31.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Nakano</surname>
+<given-names>H</given-names></string-name>, <string-name><surname>Hirayama</surname>
+<given-names>K</given-names></string-name>, <string-name><surname>Sadamitsu</surname>
+<given-names>Y</given-names></string-name>, et al. <article-title>Monitoring sound to quantify snoring and sleep apnea severity using a smartphone: proof of concept</article-title>. <source><italic toggle="yes">J Clin Sleep Med</italic></source>. <year>2014</year>;<volume>10</volume>:<fpage>73</fpage>–<lpage>78</lpage>. doi:<pub-id pub-id-type="doi">10.5664/jcsm.3364</pub-id><pub-id pub-id-type="pmid">24426823</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0032">
+        <label>32.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Lee</surname>
+<given-names>CH</given-names></string-name>, <string-name><surname>Hong</surname>
+<given-names>SL</given-names></string-name>, <string-name><surname>Rhee</surname>
+<given-names>CS</given-names></string-name>, <string-name><surname>Kim</surname>
+<given-names>SW</given-names></string-name>, <string-name><surname>Kim</surname>
+<given-names>JW</given-names></string-name>. <article-title>Analysis of upper airway obstruction by sleep videofluoroscopy in obstructive sleep apnea: a large population-based study</article-title>. <source><italic toggle="yes">Laryngoscope</italic></source>. <year>2012</year>;<volume>122</volume>:<fpage>237</fpage>–<lpage>241</lpage>. doi:<pub-id pub-id-type="doi">10.1002/lary.22344</pub-id><pub-id pub-id-type="pmid">21919011</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0033">
+        <label>33.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>de Silva</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Abeyratne</surname>
+<given-names>UR</given-names></string-name>, <string-name><surname>Hukins</surname>
+<given-names>C</given-names></string-name>. <article-title>A method to screen obstructive sleep apnea using multi-variable non-intrusive measurements</article-title>. <source><italic toggle="yes">Physiol Meas</italic></source>. <year>2011</year>;<volume>32</volume>:<fpage>445</fpage>–<lpage>465</lpage>. doi:<pub-id pub-id-type="doi">10.1088/0967-3334/32/4/006</pub-id><pub-id pub-id-type="pmid">21383492</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0034">
+        <label>34.</label>
+        <mixed-citation publication-type="book"><string-name><surname>Janott</surname>
+<given-names>C</given-names></string-name>, <string-name><surname>Rohrmeier</surname>
+<given-names>C</given-names></string-name>, <string-name><surname>Schmitt</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Hemmert</surname>
+<given-names>W</given-names></string-name>, <string-name><surname>Schuller</surname>
+<given-names>B</given-names></string-name>. <part-title>Snoring - An Acoustic Definition</part-title>. In: <source><italic toggle="yes">2019 41st Annual International Conference of the IEEE Engineering in Medicine and Biology Society (EMBC)</italic></source>. <publisher-name>IEEE</publisher-name>; <year>2019</year>:<fpage>3653</fpage>–<lpage>3657</lpage>.</mixed-citation>
+      </ref>
+      <ref id="cit0035">
+        <label>35.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Hoffstein</surname>
+<given-names>V</given-names></string-name>, <string-name><surname>Mateika</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Anderson</surname>
+<given-names>D</given-names></string-name>. <article-title>Snoring: is it in the ear of the beholder?</article-title>
+<source><italic toggle="yes">Sleep</italic></source>. <year>1994</year>;<volume>17</volume>:<fpage>522</fpage>–<lpage>526</lpage>. doi:<pub-id pub-id-type="doi">10.1093/sleep/17.6.522</pub-id><pub-id pub-id-type="pmid">7809565</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0036">
+        <label>36.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Oksenberg</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Silverberg</surname>
+<given-names>DS</given-names></string-name>. <article-title>The effect of body posture on sleep-related breathing disorders: facts and therapeutic implications</article-title>. <source><italic toggle="yes">Sleep Med Rev</italic></source>. <year>1998</year>;<volume>2</volume>:<fpage>139</fpage>–<lpage>162</lpage>. doi:<pub-id pub-id-type="doi">10.1016/S1087-0792(98)90018-1</pub-id><pub-id pub-id-type="pmid">15310498</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0037">
+        <label>37.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Sowho</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Sgambati</surname>
+<given-names>F</given-names></string-name>, <string-name><surname>Guzman</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Schneider</surname>
+<given-names>H</given-names></string-name>, <string-name><surname>Schwartz</surname>
+<given-names>A</given-names></string-name>. <article-title>Snoring: a source of noise pollution and sleep apnea predictor</article-title>. <source><italic toggle="yes">Sleep</italic></source>. <year>2019</year>;<volume>43</volume>(<issue>6</issue>):<fpage>zsz305</fpage>. doi:<pub-id pub-id-type="doi">10.1093/sleep/zsz305</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0038">
+        <label>38.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Kapur</surname>
+<given-names>VK</given-names></string-name>, <string-name><surname>Auckley</surname>
+<given-names>DH</given-names></string-name>, <string-name><surname>Chowdhuri</surname>
+<given-names>S</given-names></string-name>, et al. <article-title>Clinical practice guideline for diagnostic testing for adult obstructive sleep apnea: an American Academy of Sleep Medicine clinical practice guideline</article-title>. <source><italic toggle="yes">J Clin Sleep Med</italic></source>. <year>2017</year>;<volume>13</volume>:<fpage>479</fpage>–<lpage>504</lpage>. doi:<pub-id pub-id-type="doi">10.5664/jcsm.6506</pub-id><pub-id pub-id-type="pmid">28162150</pub-id></mixed-citation>
+      </ref>
+    </ref-list>
+  </back>
+</article>
+</pmc-articleset>

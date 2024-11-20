@@ -1,0 +1,534 @@
+<pmc-articleset><article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" dtd-version="1.3" xml:lang="en" article-type="research-article">
+  <?properties open_access?>
+  <processing-meta base-tagset="archiving" mathml-version="3.0" table-model="xhtml" tagset-family="jats">
+    <restricted-by>pmc</restricted-by>
+  </processing-meta>
+  <front><journal-meta><journal-id journal-id-type="nlm-ta">Nat Sci Sleep</journal-id><journal-id journal-id-type="iso-abbrev">Nat Sci Sleep</journal-id><journal-id journal-id-type="publisher-id">nss</journal-id><journal-title-group><journal-title>Nature and Science of Sleep</journal-title></journal-title-group><issn pub-type="epub">1179-1608</issn><publisher><publisher-name>Dove</publisher-name></publisher></journal-meta>
+<article-meta><article-id pub-id-type="pmid">39464513</article-id><article-id pub-id-type="pmc">11512557</article-id><article-id pub-id-type="publisher-id">477435</article-id><article-id pub-id-type="doi">10.2147/NSS.S477435</article-id><article-categories><subj-group subj-group-type="heading"><subject>Original Research</subject></subj-group></article-categories><title-group><article-title>Causal Relationship Between Childhood Obesity and Sleep Apnea Syndrome: Bidirectional Two-Sample Mendelian Randomization Analysis</article-title><alt-title alt-title-type="running-authors">Wang et al</alt-title><alt-title alt-title-type="running-title">Wang et al</alt-title></title-group><contrib-group><contrib contrib-type="author" equal-contrib="yes"><name><surname>Wang</surname><given-names>Ping</given-names></name><xref rid="aff0001" ref-type="aff">1</xref><xref rid="ft0001" ref-type="author-notes">*</xref></contrib><contrib contrib-type="author" equal-contrib="yes"><name><surname>Liu</surname><given-names>Shuli</given-names></name><xref rid="aff0001" ref-type="aff">1</xref><xref rid="ft0001" ref-type="author-notes">*</xref></contrib><contrib contrib-type="author"><name><surname>Kong</surname><given-names>Ling Min</given-names></name><xref rid="aff0001" ref-type="aff">1</xref></contrib><contrib contrib-type="author"><name><surname>Qi</surname><given-names>Nannan</given-names></name><xref rid="aff0001" ref-type="aff">1</xref><xref rid="an0001" ref-type="corresp"/></contrib><aff id="aff0001"><label>1</label><institution>Department of Pediatrics, The Second Affiliated Hospital of Shandong First Medical University</institution>, <addr-line>Taian</addr-line>, <addr-line>Shandong</addr-line>, <addr-line>271000</addr-line>, <country>People’s Republic of China</country></aff></contrib-group><author-notes><corresp id="an0001">Correspondence: Nannan Qi, <institution>Department of Pediatrics, The Second Affiliated Hospital of Shandong First Medical University</institution>, <addr-line>No. 366, Taishan Street</addr-line>, <addr-line>Taian</addr-line>, <addr-line>Shandong</addr-line>, <addr-line>271000</addr-line>, <country>People’s Republic of China</country>, Email 13953851791@163.com</corresp><fn id="ft0001"><label>*</label><p>These authors contributed equally to this work</p></fn></author-notes><pub-date pub-type="epub"><day>22</day><month>10</month><year>2024</year></pub-date><pub-date pub-type="collection"><year>2024</year></pub-date><volume>16</volume><fpage>1713</fpage><lpage>1723</lpage><history><date date-type="received"><day>08</day><month>5</month><year>2024</year></date><date date-type="accepted"><day>30</day><month>9</month><year>2024</year></date></history><permissions><copyright-statement>© 2024 Wang et al.</copyright-statement><copyright-year>2024</copyright-year><copyright-holder>Wang et al.</copyright-holder><license><ali:license_ref xmlns:ali="http://www.niso.org/schemas/ali/1.0/" specific-use="textmining" content-type="ccbynclicense">https://creativecommons.org/licenses/by-nc/3.0/</ali:license_ref><license-p>This work is published and licensed by Dove Medical Press Limited. The full terms of this license are available at <ext-link ext-link-type="uri" xlink:href="https://www.dovepress.com/terms.php">https://www.dovepress.com/terms.php</ext-link> and incorporate the Creative Commons Attribution – Non Commercial (unported, v3.0) License (<ext-link ext-link-type="uri" xlink:href="https://creativecommons.org/licenses/by-nc/3.0/">http://creativecommons.org/licenses/by-nc/3.0/</ext-link>). By accessing the work you hereby accept the Terms. Non-commercial uses of the work are permitted without any further permission from Dove Medical Press Limited, provided the work is properly attributed. For permission for commercial use of this work, please see paragraphs 4.2 and 5 of our Terms (<ext-link ext-link-type="uri" xlink:href="https://www.dovepress.com/terms.php">https://www.dovepress.com/terms.php</ext-link>).</license-p></license></permissions><abstract><sec><title>Background</title><p>Childhood obesity has become a global pandemic, leading to a range of diseases. Childhood obesity appears to be associated with an increased prevalence of sleep apnea syndrome. Sleep apnea is an inestimable risk factor for thrombosis, hypertension, cardiomyopathy and many other diseases. Therefore, exploring the relationship between childhood obesity and sleep apnea syndrome will help to understand the potential link between the two and provide research directions for future disease prevention and treatment. However, no studies have confirmed whether there is a causal relationship between childhood obesity and sleep apnea syndrome.</p></sec><sec><title>Methods</title><p>The IEU OpenGWAS project provided the GWAS-aggregated data for childhood obesity and sleep apnea syndrome. Inverse-variance weighted (IVW) was used as the main method to evaluate the causal relationship between childhood obesity and sleep apnea syndrome. Single nucleotide polymorphisms (SNPs) were regarded as instrumental variables, and the screening threshold was P &lt;5.0×10<sup>−6</sup>. Leave-one-out method was performed to confirm the robustness of the results.</p></sec><sec><title>Results</title><p>IVW analysis confirmed a causal relationship between genetic susceptibility to childhood obesity and an increased risk of sleep apnea syndrome [odds ratio (OR)=1.12, 95% confidence interval (CI): 1.02–1.23, P=0.016]. However, two-sample MR results also showed no causal relationship between genetic susceptibility to sleep apnea syndrome and an increased risk of childhood obesity (OR=1.50, 95% CI: 0.95–2.38, P=0.083). The intercept of MR-Egger regression was close to 0, which implies that there are no confounding factors in the analysis to affect the results of two-sample MR analysis. The leave-one-out results show that the bidirectional two-sample MR analysis results were robust.</p></sec><sec><title>Conclusion</title><p>There is a causal relationship between genetic susceptibility to childhood obesity and increased risk of sleep apnea syndrome. People with a history of childhood obesity should pay more attention to physical examination to early prevention and management of sleep apnea syndrome.</p></sec></abstract><kwd-group kwd-group-type="author"><title>Keywords</title><kwd>bidirectional two-sample Mendelian randomization</kwd><kwd>childhood obesity</kwd><kwd>sleep apnea syndrome</kwd><kwd>causal relationship</kwd><kwd>single nucleotide polymorphisms</kwd></kwd-group><funding-group><award-group><funding-source>
+<institution-wrap><institution>funding</institution></institution-wrap>
+</funding-source></award-group><funding-statement>There is no funding to report.</funding-statement></funding-group><counts><fig-count count="4"/><table-count count="3"/><ref-count count="55"/><page-count count="11"/></counts></article-meta></front>
+  <body>
+    <sec sec-type="intro" id="s0001">
+      <title>Introduction</title>
+      <p>Childhood obesity has become a global pandemic, leading to a range of diseases and increasing morbidity and mortality.<xref rid="cit0001" ref-type="bibr">1</xref>,<xref rid="cit0002" ref-type="bibr">2</xref> Risk factors for childhood obesity include poor diet, genetic factors, short sleep duration, lack of physical activity, and high stress levels.<xref rid="cit0003" ref-type="bibr">3</xref>,<xref rid="cit0004" ref-type="bibr">4</xref> Increasing daily physical exercise or optimizing diet are common measures to prevent obesity.<xref rid="cit0005" ref-type="bibr">5</xref> The global prevalence of childhood obesity has reached 5.6% for girls and 7.8% for boys.<xref rid="cit0006" ref-type="bibr">6</xref> Childhood obesity has the potential to continue into adulthood, which increases the incidence of diabetes, cancer, and cardiovascular disease.<xref rid="cit0007" ref-type="bibr">7</xref></p>
+      <p>Sleep apnea syndrome is a common respiratory system disorder that affects a wide range of people, including obstructive sleep apnea syndrome (OSAS), central sleep apnea syndrome (CSAS) and mixed sleep apnea syndrome.<xref rid="cit0008" ref-type="bibr">8</xref> OSAS is very common in terms of frequency, and it is often considered that sleep apnea syndrome=OSAS in throughout the world.<xref rid="cit0009" ref-type="bibr">9</xref> The characteristic of sleep apnea is the intermittent cessation or reduction of airflow during sleep, leading to a decrease in oxygen saturation in the blood.<xref rid="cit0010" ref-type="bibr">10</xref> Sleep apnea is an inestimable risk factor for thrombosis, embolism, hypertension, cardiomyopathy, gestational diabetes and many other diseases.<xref rid="cit0011" ref-type="bibr">11</xref>,<xref rid="cit0012" ref-type="bibr">12</xref></p>
+      <p>Obesity is a major preventable risk factor and disease modifier for some respiratory diseases.<xref rid="cit0013" ref-type="bibr">13</xref> Obesity is a major risk factor for sleep apnea syndrome. The prevalence of sleep apnea syndrome is particularly high in mass obesity and visceral obesity.<xref rid="cit0014" ref-type="bibr">14</xref> Adipose tissue deposition in the neck and pharyngeal areas can physically compress the airway, increasing the risk of airway obstruction during sleep.<xref rid="cit0015" ref-type="bibr">15</xref>,<xref rid="cit0016" ref-type="bibr">16</xref> Additionally, obesity is often associated with inflammation, which may contribute to airway inflammation and further exacerbate the risk of sleep apnea.<xref rid="cit0017" ref-type="bibr">17</xref> Previous studies have found a significant correlation between childhood obesity and sleep apnea syndrome.<xref rid="cit0018" ref-type="bibr">18–20</xref> The increasing prevalence of childhood obesity seems to be associated with an increased prevalence of sleep apnea syndrome. Moreover, the relief of OSAS is related to the decrease of low density lipoprotein and apolipoprotein B and the increase of high density lipoprotein.<xref rid="cit0017" ref-type="bibr">17</xref> Disrupted sleep can affect hormones such as leptin and ghrelin, which regulate appetite.<xref rid="cit0021" ref-type="bibr">21</xref> Reduced sleep quality and duration can also lead to decreased physical activity levels and changes in metabolism, which may contribute to weight gain.<xref rid="cit0022" ref-type="bibr">22</xref> However, no studies have confirmed whether there is a causal relationship between childhood obesity and sleep apnea syndrome. Based on previous studies, this study hypothesized that there may be a causal relationship between childhood obesity and sleep apnea syndrome, and validated it using bidirectional two-sample Mendelian randomization (MR) analysis. The results of this study clarify the causal relationship between childhood obesity and sleep apnea syndrome, which is helpful for the management of diseases in the future.</p>
+      <p>MR is a robust analysis method, which is suitable for using genetic variation to solve the causal problem of how modifiable exposure affects different outcomes.<xref rid="cit0023" ref-type="bibr">23</xref> Single nucleotide polymorphisms (SNPs) were used as instrumental variables (IVs) in MR analyses to infer causality for observed associations between modifiable exposures and clinically relevant outcomes.<xref rid="cit0024" ref-type="bibr">24</xref>,<xref rid="cit0025" ref-type="bibr">25</xref> During meiosis, alleles are randomly separated, so MR can reduce the bias caused by confounding factors.<xref rid="cit0026" ref-type="bibr">26</xref> Genome-wide association studies (GWAS) have identified thousands of variations associated with complex exposures, which has pushed the wide application of MR to a climax.<xref rid="cit0027" ref-type="bibr">27</xref>,<xref rid="cit0028" ref-type="bibr">28</xref> In this study, a two-sample MR analysis was performed to assess the causal relationship between childhood obesity and the risk of sleep apnea syndrome (<xref rid="f0001" ref-type="fig">Figure 1</xref>). In addition, reverse MR was also performed to observe the bidirectional causal effects of sleep apnea syndrome on childhood obesity. The aim of this study was to explore the causal relationship between childhood obesity and sleep apnea syndrome by using bidirectional two-sample Mendelian randomization (MR) analysis.
+<fig position="float" id="f0001" fig-type="figure"><label>Figure 1</label><caption><p>Mendelian randomization model of childhood obesity and sleep respiratory syndrome.</p></caption><graphic xlink:href="NSS-16-1713-g0001" content-type="print-only" position="float"/><attrib><bold>Abbreviation</bold>: SNPs, single nucleotide polymorphisms.</attrib></fig></p>
+    </sec>
+    <sec id="s0002">
+      <title>Materials and Methods</title>
+      <sec id="s0002-s2001">
+        <title>Data Sources</title>
+        <p>The IEU OpenGWAS project (<underline><ext-link xlink:href="https://gwas.mrcieu.ac.uk" ext-link-type="uri">https://gwas.mrcieu.ac.uk</ext-link></underline>) provided the GWAS-aggregated data for childhood obesity and sleep apnea syndrome (<underline><ext-link xlink:href="https://www.dovepress.com/get_supplementary_file.php?f=477435.docx" ext-link-type="uri">Supplementary Table 1</ext-link></underline>). The GWAS dataset for childhood obesity (GWAS ID: ieu-a-1096, <underline><ext-link xlink:href="https://gwas.mrcieu.ac.uk/datasets/ieu-a-1096/" ext-link-type="uri">https://gwas.mrcieu.ac.uk/datasets/ieu-a-1096/</ext-link></underline>) included 13848 samples of European ancestry and 2442739 SNPs.<xref rid="cit0029" ref-type="bibr">29</xref> This dataset summarizes 14 research cohorts. Total 5530 cases (≥95th percentile of body mass index achieved before the age of 18 years old) and 8318 controls (relatively conservatively defined as &lt;50th percentile of body mass index consistent throughout all measures during childhood). The GWAS dataset for sleep apnea syndrome (GWAS ID: ebi-a-GCST90018916, <underline><ext-link xlink:href="https://gwas.mrcieu.ac.uk/datasets/ebi-a-GCST90018916/" ext-link-type="uri">https://gwas.mrcieu.ac.uk/datasets/ebi-a-GCST90018916/</ext-link></underline>) included 476853 samples of European ancestry (13818 cases and 463035 controls) and 24183940 SNPs.<xref rid="cit0030" ref-type="bibr">30</xref> All statistical data were gathered from the descendants of Europeans, reducing the potential bias due to racial differences. Notably, no overlap was observed, given that samples of childhood obesity and sleep apnea syndrome originated from distinct study groups. The “mRnd” online analysis tool was used to evaluate the statistical power of MR estimates. The power was 0.74 when childhood obesity was the exposure factor and sleep apnea syndrome was the outcome variable. The power was 1 when sleep apnea syndrome was the exposure factor and childhood obesity was the outcome variable. The GWAS dataset of childhood obesity and sleep apnea syndrome used has a relatively large sample size, avoiding the insufficient statistical power caused by limited sample size. Therefore, it has higher reliability.</p>
+      </sec>
+      <sec id="s0002-s2002">
+        <title>Selection of IVs</title>
+        <p>During the initial screening of IVs, a threshold of P &lt;5.0×10<sup>−8</sup> was set to identify statistically significant SNPs. However, the number of SNPs identified at a threshold of P&lt;5×10<sup>−8</sup> was limited. To obtain more IVs, the threshold was set to P&lt;5×10<sup>−6</sup>.<xref rid="cit0031" ref-type="bibr">31</xref> Linkage disequilibrium (LD) is mainly measured using two parameters, r<sup>2</sup> and kb. In this study, LD with significant SNPs associated with exposure factors must meet r<sup>2</sup> &lt;0.001 and genetic distance of 10000 kb to avoid LD bias. Subsequently, we removed the palindromic SNPs (ie, AT or G/C) and the SNPs that were not available in the results. In the analysis of causal effects of childhood obesity on sleep apnea syndrome, childhood obesity was the exposure factor and sleep apnea syndrome was the outcome variable. A total of 14 SNPs were selected as IVs. In the analysis of causal effects of sleep apnea syndrome on childhood obesity, sleep apnea syndrome was the exposure factor and childhood obesity was the outcome variable. A total of 13 SNPs were selected as IVs. The strength of association between each IV and exposure factors is usually assessed using the F-statistic. F&gt;10 can effectively avoid the bias caused by weak IVs.<xref rid="cit0032" ref-type="bibr">32</xref></p>
+        <p>The calculation formula is:<xref rid="cit0033" ref-type="bibr">33</xref>
+<disp-formula-group><disp-formula id="um0001"><alternatives><graphic xlink:href="NSS-16-1713-e0001.jpg" position="float"/><tex-math id="Tex001">\documentclass[12pt]{minimal}
+\usepackage{wasysym}
+\usepackage[substack]{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage[mathscr]{eucal}
+\usepackage{mathrsfs}
+\DeclareFontFamily{T1}{linotext}{}
+\DeclareFontShape{T1}{linotext}{m}{n} {linotext }{}
+\DeclareSymbolFont{linotext}{T1}{linotext}{m}{n}
+\DeclareSymbolFontAlphabet{\mathLINOTEXT}{linotext}
+\begin{document}$$\mathrm{F={\left({{{{\beta_{exposure}}}\mathord{\left/{\vphantom{{{\beta_{exposure}}}{S{E_{exposure}}}}}\right.\kern-0.5mu}{S{E_{exposure}}}}}\right)^2}}$$\end{document}</tex-math></alternatives></disp-formula></disp-formula-group></p>
+        <p>(Note: β<sub>exposure</sub> and SE<sub>exposure</sub> represent standard error and effect size of exposure, respectively).</p>
+      </sec>
+      <sec id="s0002-s2003">
+        <title>Study Design</title>
+        <p>MR design was based on three assumptions: (1) IVs must be strongly associated with exposure factors; (2) IVs were not associated with other confounding factors; (3) IVs can affect outcome only through exposure and not through other pathways. The causal relationship between childhood obesity and sleep apnea syndrome was studied by using bidirectional two-sample MR.<xref rid="cit0034" ref-type="bibr">34</xref> The schematic overview of our study design is displayed in <xref rid="f0001" ref-type="fig">Figure 1</xref>.</p>
+      </sec>
+      <sec id="s0002-s2004">
+        <title>Statistical Analysis</title>
+        <p>Two-sample MR analysis was conducted using weighted median, simple mode, weighted mode, MR-Egger regression and inverse-variance weighted (IVW) methods. Among them, IVW was used as the main method to evaluate the causal relationship between childhood obesity and sleep apnea syndrome. This approach is particularly effective in scenarios devoid of horizontal pleiotropy, where genetic variants do not influence other factors, thus providing unbiased results. A causal effect was presumed to exist if a P&lt;0.05 was observed in statistics. The intercept of MR-Egger regression is an indicator of detection horizontal pleiotropy. If the intercept of MR-Egger regression is close to 0, it means that there is no horizontal pleiotropy in IVs. The Cochran’s Q (heterogeneity) test was used to analyze the differences between the IVs to quantify the heterogeneity. MR-pleiotropy residual sum and outlier (MR-PRESSO) test was used to detect and correct horizontal pleiotropy through removing the outliers. The leave-one-out sensitivity test was performed to determine whether a single SNP caused significant change in the results by removing the SNP one by one. The difference was considered statistically significant when the test level α was 0.05 (P &lt; 0.05). All of the data were analyzed using R (version 4.3.1) software.</p>
+      </sec>
+    </sec>
+    <sec id="s0003">
+      <title>Results</title>
+      <sec id="s0003-s2001">
+        <title>The Casual Effect of Childhood Obesity on Sleep Apnea Syndrome</title>
+        <p>In the analysis of causal effects of childhood obesity on sleep apnea syndrome, childhood obesity was the exposure factor and sleep apnea syndrome was the outcome variable. A total of 14 SNPs were selected as IVs. The F values of all IVs were greater than 10. The intercept of MR-Egger regression was close to 0 (Egger_intercept=−0.0494, P=0.2354) (<xref rid="t0001" ref-type="table">Table 1</xref>), which implies that there is no horizontal pleiotropy in IVs. Meanwhile, this also implies that there are no confounding factors in the analysis to affect the results of two-sample MR analysis.<table-wrap position="float" id="t0001"><label>Table 1</label><caption><p>Horizontal Pleiotropy Test</p></caption><table frame="hsides" rules="groups"><thead><tr><th rowspan="1" colspan="1">Outcome</th><th rowspan="1" colspan="1">Exposure</th><th rowspan="1" colspan="1">Egger_Intercept</th><th rowspan="1" colspan="1">Standard Error</th><th rowspan="1" colspan="1">P Value</th></tr></thead><tbody><tr><td rowspan="1" colspan="1">Sleep apnea syndrome||id:ebi-a-GCST90018916</td><td rowspan="1" colspan="1">Childhood obesity</td><td rowspan="1" colspan="1">−0.0494</td><td rowspan="1" colspan="1">0.0396</td><td rowspan="1" colspan="1">0.2354</td></tr><tr><td rowspan="1" colspan="1">Childhood obesity||id:ieu-a-1096</td><td rowspan="1" colspan="1">Sleep apnea syndrome</td><td rowspan="1" colspan="1">−0.0854</td><td rowspan="1" colspan="1">0.0936</td><td rowspan="1" colspan="1">0.3810</td></tr></tbody></table></table-wrap></p>
+        <p>The two-sample MR results showed a causal relationship between genetic susceptibility to childhood obesity and an increased risk of sleep apnea syndrome (<underline><ext-link xlink:href="https://www.dovepress.com/get_supplementary_file.php?f=477435.docx" ext-link-type="uri">Supplementary Table 2</ext-link></underline> and <xref rid="f0002" ref-type="fig">Figure 2</xref>). In the absence of horizontal pleiotropy of IVs, IVW was the primary method to estimate the causal relationship between genetic susceptibility to childhood obesity and increased risk of sleep apnea syndrome, and the result was the most reliable [odds ratio (OR)=1.12, 95% confidence interval (CI): 1.02–1.23, P=0.016]. The P of the IVW method was less than 0.05 (<underline><ext-link xlink:href="https://www.dovepress.com/get_supplementary_file.php?f=477435.docx" ext-link-type="uri">Supplementary Table 2</ext-link></underline>), indicating a causal relationship between childhood obesity and sleep apnea syndrome. The results of other MR analysis methods were shown in <underline><ext-link xlink:href="https://www.dovepress.com/get_supplementary_file.php?f=477435.docx" ext-link-type="uri">Supplementary Table 2</ext-link></underline>. Although the P of the other four methods were greater than 0.05, it was still considered that there was a causal relationship between childhood obesity and sleep respiratory syndrome, as the IVW result was decisive.
+<fig position="float" id="f0002" fig-type="figure"><label>Figure 2</label><caption><p>Forest and scatter plots of the impact of childhood obesity on sleep apnea syndrome. (<bold>A</bold>) Forest plot to visualize causal effect of each single SNP on the risk of sleep apnea syndrome; (<bold>B</bold>) Scatter plot to visualize causal effect of childhood obesity on the risk of sleep apnea syndrome.</p></caption><graphic xlink:href="NSS-16-1713-g0002" content-type="print-only" position="float"/><attrib><bold>Abbreviations</bold>: SNPs, single nucleotide polymorphisms; MR, Mendelian randomization.</attrib></fig></p>
+        <p>IVW and MR-Egger regression analyses were used for heterogeneity detection. Subsequently, Cochran’s <italic toggle="yes">Q</italic> test was used to quantify heterogeneity. The results of Cochran’s <italic toggle="yes">Q</italic> test showed that P&lt;0.05, indicating significant heterogeneity. If there was heterogeneity between IVs, the random effects IVW model was used to estimate causal effects.<xref rid="cit0034" ref-type="bibr">34</xref>,<xref rid="cit0035" ref-type="bibr">35</xref> The results of IVW (Cochran’s Q=55.15, P=3.80E-07) and MR-Egger regression (Cochran’s Q=48.81, P=2.26E-06) analyses indicated that there was heterogeneity between the IVs (<xref rid="t0002" ref-type="table">Table 2</xref> and <xref rid="f0003" ref-type="fig">Figure 3A</xref>). Therefore, the random effects IVW model was used to estimate the causal effects between genetic susceptibility to childhood obesity and increased risk of sleep respiratory syndrome (P=0.016). The presence of outlier SNPs was detected using MR-PRESSO, and the causal effect (P=0.043) was estimated after the outlier SNP (rs9941349) was excluded (<xref rid="t0003" ref-type="table">Table 3</xref>). This once again demonstrates a causal relationship between childhood obesity and the risk of sleep apnea syndrome. Sensitivity analysis was performed using the leave-one-out method to evaluate the reliability of MR results. The value of “All” is greater than 0 indicates that the result is reliable. Herein, the leave-one-out results show that the two-sample MR analysis results were robust (<xref rid="f0003" ref-type="fig">Figure 3B</xref>). Sensitivity analyses based on maximum likelihood and weighted median were also performed to validate the results, which also showed that the two-sample-MR was robust (<underline><ext-link xlink:href="https://www.dovepress.com/get_supplementary_file.php?f=477435.docx" ext-link-type="uri">Supplementary Figure 1</ext-link></underline>).<table-wrap position="float" id="t0002"><label>Table 2</label><caption><p>Heterogeneity Test</p></caption><table frame="hsides" rules="groups"><thead><tr><th rowspan="1" colspan="1">Outcome</th><th rowspan="1" colspan="1">Exposure</th><th rowspan="1" colspan="1">Method</th><th rowspan="1" colspan="1">Q</th><th rowspan="1" colspan="1">Q_df</th><th rowspan="1" colspan="1">Q_P Value</th></tr></thead><tbody><tr><td rowspan="1" colspan="1">Sleep apnea syndrome||id:ebi-a-GCST90018916</td><td rowspan="1" colspan="1">Childhood obesity</td><td rowspan="1" colspan="1">Inverse variance weighted</td><td rowspan="1" colspan="1">55.15307</td><td rowspan="1" colspan="1">13</td><td rowspan="1" colspan="1">3.80E-07</td></tr><tr><td rowspan="1" colspan="1">Sleep apnea syndrome||id:ebi-a-GCST90018916</td><td rowspan="1" colspan="1">Childhood obesity</td><td rowspan="1" colspan="1">MR Egger</td><td rowspan="1" colspan="1">48.80602</td><td rowspan="1" colspan="1">12</td><td rowspan="1" colspan="1">2.26E-06</td></tr></tbody></table><table-wrap-foot><fn id="tfn0001"><p><bold>Abbreviations</bold>: Q, Cochran’s <italic toggle="yes">Q</italic> test value; Q_df, degree of freedom of Q statistic; Q_P value, P value of Q statistic.</p></fn></table-wrap-foot></table-wrap>
+<table-wrap position="float" id="t0003"><label>Table 3</label><caption><p>MR-PRESSO Test of Causal Relationship Between Childhood Obesity and the Risk of Sleep Respiratory Syndrome</p></caption><table frame="hsides" rules="groups"><thead><tr><th rowspan="1" colspan="1">Main MR Results</th><th rowspan="1" colspan="1">P Value</th></tr></thead><tbody><tr><td rowspan="1" colspan="1">Causal estimate of raw</td><td rowspan="1" colspan="1">0.03222065</td></tr><tr><td rowspan="1" colspan="1">Causal estimate of outlier-corrected</td><td rowspan="1" colspan="1">0.04285058</td></tr></tbody></table><table-wrap-foot><fn id="tfn0002"><p><bold>Abbreviation</bold>: MR, Mendelian randomization.</p></fn></table-wrap-foot></table-wrap>
+<fig position="float" id="f0003" fig-type="figure"><label>Figure 3</label><caption><p>Funnel and leave-one-out plots of the impact of childhood obesity on sleep apnea syndrome. (<bold>A</bold>) Funnel plot to visualize overall heterogeneity of MR estimates for the effect of childhood obesity on the risk of sleep apnea syndrome; (<bold>B</bold>) Leave-one-out plot to visualize causal effect of childhood obesity on the risk of sleep apnea syndrome when leaving one SNP out.</p></caption><graphic xlink:href="NSS-16-1713-g0003" content-type="print-only" position="float"/><attrib><bold>Abbreviations</bold>: SNPs, single nucleotide polymorphisms; MR, Mendelian randomization.</attrib></fig></p>
+      </sec>
+      <sec id="s0003-s2002">
+        <title>The Causal Effect of Sleep Apnea Syndrome on Childhood Obesity (Reverse Two-Sample MR Analysis)</title>
+        <p>In the analysis of causal effects of sleep apnea syndrome on childhood obesity, sleep apnea syndrome was the exposure factor and childhood obesity was the outcome variable. A total of 13 SNPs were selected as IVs. The F values of all IVs were greater than 10. The intercept of MR-Egger regression was close to 0 (Egger_intercept=−0.0854, P=0.3810) (<xref rid="t0001" ref-type="table">Table 1</xref>), which implies that there is no horizontal pleiotropy in IVs.</p>
+        <p>Notably, the two-sample MR results showed no causal relationship between genetic susceptibility to sleep apnea syndrome and an increased risk of childhood obesity (OR=1.50, 95% CI: 0.95–2.38, P=0.083) (<underline><ext-link xlink:href="https://www.dovepress.com/get_supplementary_file.php?f=477435.docx" ext-link-type="uri">Supplementary Table 3</ext-link></underline> and <xref rid="f0004" ref-type="fig">Figure 4A</xref> and <xref rid="f0004" ref-type="fig">B</xref>). IVW and MR-Egger regression analyses are used for heterogeneity detection. The results of IVW (Cochran’s Q=55.15, P=1.70E-07) and MR-Egger regression (Cochran’s Q =51.26, P=3.70E-07) analyses indicated that there was heterogeneity between the IVs (<underline><ext-link xlink:href="https://www.dovepress.com/get_supplementary_file.php?f=477435.docx" ext-link-type="uri">Supplementary Table 4</ext-link></underline> and <xref rid="f0004" ref-type="fig">Figure 4C</xref>). Therefore, the random effects IVW model was used to estimate the causal effects between genetic susceptibility to sleep apnea syndrome and increased risk of childhood obesity (P = 0.08). The presence of outlier SNPs was detected using MR-PRESSO, and the causal effect (P=0.55) was estimated after the outlier SNP (rs11075985) was excluded (<underline><ext-link xlink:href="https://www.dovepress.com/get_supplementary_file.php?f=477435.docx" ext-link-type="uri">Supplementary Table 5</ext-link></underline>). This once again indicates that there is no causal relationship between sleep apnea syndrome and the risk of childhood obesity. Sensitivity analysis was performed using the leave-one-out method to evaluate the reliability of MR results. Herein, the leave-one-out results show that the two-sample MR analysis results were robust (<xref rid="f0004" ref-type="fig">Figure 4D</xref>).
+<fig position="float" id="f0004" fig-type="figure"><label>Figure 4</label><caption><p>Forest, scatter, funnel and leave-one-out plots of the impact of sleep apnea syndrome on childhood obesity. (<bold>A</bold>) Forest plot to visualize causal effect of each single SNP on the risk of childhood obesity; (<bold>B</bold>) Scatter plot to visualize causal effect of sleep apnea syndrome on the risk of childhood obesity; (<bold>C</bold>) Funnel plot to visualize overall heterogeneity of MR estimates for the effect of sleep apnea syndrome on the risk of childhood obesity; (<bold>D</bold>) Leave-one-out plot to visualize causal effect of effect of sleep apnea on the risk of childhood obesity when leaving one SNP out.</p></caption><graphic xlink:href="NSS-16-1713-g0004" content-type="print-only" position="float"/><attrib><bold>Abbreviations</bold>: SNPs, single nucleotide polymorphisms; MR, Mendelian randomization.</attrib></fig></p>
+      </sec>
+    </sec>
+    <sec id="s0004">
+      <title>Discussion</title>
+      <p>Based on the GWAS dataset, this study used the bidirectional two-sample MR to explore whether there is a bidirectional causal relationship between childhood obesity and sleep apnea syndrome in the European population. Power analysis showed that when childhood obesity was the exposure factor and sleep apnea syndrome was the outcome variable, power was 0.74. When sleep apnea syndrome was the exposure factor and childhood obesity was the outcome variable, power was 1. This avoids the insufficient statistical power caused by limited sample size. Therefore, it has higher reliability. All statistical data were gathered from the descendants of Europeans, reducing the potential bias due to racial differences. Notably, no overlap was observed, given that samples of childhood obesity and sleep apnea syndrome originated from distinct study groups. The analysis results in this study suggest a causal relationship between genetic susceptibility to childhood obesity and an increased risk of sleep apnea syndrome. However, it also suggests that there is no causal relationship between genetic susceptibility to sleep apnea syndrome and an increased risk of childhood obesity. Sensitivity analysis confirmed the robustness of the above results.</p>
+      <p>Obesity is associated with various diseases, including sleep apnea.<xref rid="cit0036" ref-type="bibr">36</xref> Meta-analyses of patients treated with intensive lifestyle interventions or bariatric surgery showed improvements in apnea hypopnea index after treatment.<xref rid="cit0037" ref-type="bibr">37</xref>,<xref rid="cit0038" ref-type="bibr">38</xref> Sleep disordered breathing, especially OSAS, is significantly related to overweight and obesity in children.<xref rid="cit0039" ref-type="bibr">39</xref>,<xref rid="cit0040" ref-type="bibr">40</xref> Previous report has shown that the occurrence of OSAS in obese children is 13–59%, while the occurrence of OSAS in normal weight children is 1–2%.<xref rid="cit0041" ref-type="bibr">41</xref> The incidence of adenotonsillar hypertrophy in obese children is alarming. From the perspective of anatomical factors, adenoid and tonsil hypertrophy is an important cause of OSAS in obese children.<xref rid="cit0042" ref-type="bibr">42–44</xref> In addition, altered ventilatory responses and chest wall mechanics, and defective upper airway function in obese children may contribute to their susceptibility to OSAS.<xref rid="cit0018" ref-type="bibr">18</xref> Excess weight and fat deposition in the neck and upper airway lead to high airway obstruction during sleep.<xref rid="cit0045" ref-type="bibr">45</xref> A MR analysis showed that obesity indicators body mass index, body fat percentage, and triglycerides were significantly associated with an increased risk of OSAS.<xref rid="cit0046" ref-type="bibr">46</xref> Herein, The IVW results showed a causal relationship between genetic susceptibility to childhood obesity and an increased risk of sleep apnea syndrome, which is consistent with previous findings. Moreover, the sensitivity analysis implies the robust of the two-sample MR analysis results. Our findings suggest that addressing childhood obesity may have a positive impact on reducing the risk of sleep apnea syndrome. This also implies the necessity of comprehensive screening and intervention plans in pediatric healthcare environments, providing potential exploration directions for the prevention and treatment of sleep apnea syndrome in clinical practice.</p>
+      <p>Leptin (a type of adipokine) is thought to be one of the reasons for the association between obesity and OSAS. It acts on central chemoreceptors, causing an increase in triggering ventilation, but this mechanism fails because obese patients are resistant to the effects of leptin.<xref rid="cit0047" ref-type="bibr">47</xref> Past research has indicated blood leptin levels are positively correlated with the severity of OSAS.<xref rid="cit0048" ref-type="bibr">48</xref>,<xref rid="cit0049" ref-type="bibr">49</xref> The relief of OSAS is also related to the decrease of low density lipoprotein and apolipoprotein B and the increase of high density lipoprotein.<xref rid="cit0017" ref-type="bibr">17</xref> A MR analysis showed that OSAS was associated with multiple obesity indicators, lipid levels and adipokines.<xref rid="cit0046" ref-type="bibr">46</xref> Prior studies have indicated a potential link between insulin sensitivity and OSAS in obese children. Correction of OSAS in obese children is related to improved measures of insulin sensitivity.<xref rid="cit0050" ref-type="bibr">50</xref>,<xref rid="cit0051" ref-type="bibr">51</xref> Reduced sleep quality and duration can also lead to decreased physical activity and metabolic changes that affect weight change.<xref rid="cit0022" ref-type="bibr">22</xref> Moreover, the interconnected impact of systemic inflammation, oxidative stress, metabolic disturbances, and gut microbiota contributes significantly to the development of obesity and OSAS. This complex relationship between obesity and OSAS underscores the intricate nature of their interaction.<xref rid="cit0052" ref-type="bibr">52</xref> There are some errors between the results of this study and the previous observational studies. In this study, the results of reverse two-sample MR analysis did not reveal a causal relationship between genetic susceptibility to sleep apnea syndrome and increased risk of childhood obesity. The leave-one-out method evaluated the reliability of the results, suggesting that the MR analysis results were robust. The reason for this result may be related to the choice of dataset, sample source, etc., and more research is needed in the future. This result also suggests that clinicians should avoid over-reliance on a single factor for diagnosis, and need to explore other possible causes more deeply. At the same time, it also suggests that more rigorous design and methods are needed in the clinical study of the relationship between sleep apnea syndrome and childhood obesity.</p>
+      <p>Due to the fact that genetic variation is usually unrelated to confounding factors, MR is more effective than traditional observational studies in avoiding reverse causal associations and confounding factors.<xref rid="cit0053" ref-type="bibr">53</xref>,<xref rid="cit0054" ref-type="bibr">54</xref> Moreover, due to the high accuracy of the measurement of genetic variation, the regression dilution bias caused by measurement errors can be avoided.<xref rid="cit0055" ref-type="bibr">55</xref> In this study, the bidirectional two-sample MR study comprehensively evaluated the causal relationship between childhood obesity and sleep apnea syndrome. MR analysis can provide important support for the causal relationship between childhood obesity and sleep apnea syndrome. In this study, the intercept of MR-Egger regression was close to 0, which implies that there is no horizontal pleiotropy in IVs. Meanwhile, this also implies that there are no confounding factors in the analysis to affect the results of two-sample MR analysis. The IVW results showed a causal relationship between genetic susceptibility to childhood obesity and an increased risk of sleep apnea syndrome. Cochran’s <italic toggle="yes">Q</italic> test showed that there was heterogeneity between the IVs. The presence of outlier SNPs was detected using MR-PRESSO, and the causal effect was estimated after the outlier SNP was excluded. This once again demonstrates a causal relationship between childhood obesity and the risk of sleep apnea syndrome. In addition, sensitivity analysis was performed using the leave-one-out method to evaluate the reliability of MR results. Herein, the leave-one-out results also showed that the bidirectional two-sample MR analysis results were robust.</p>
+      <p>As a health care provider, we should be proactive in the assessment and management of children with obesity. Obesity management includes diet, exercise, and behavioral changes and requires long-term follow-up. The goal of intervention therapy should be lifestyle intervention within the family. The management of overweight or obese children and adolescents should be coordinated with the individual and their families, and parents and guardians should be encouraged to aim primarily at lifestyle changes. Moreover, a support system should be developed with the goal of helping overweight and obese children and their families make lifestyle changes. Decisions about the care of overweight or obese children are made in conjunction with the child and his or her family, and individualized programs are tailored to select interventions that meet the needs of the child and his or her family and are easily accepted. Ensure that interventions that target the lifestyle of overweight or obese children are affordable to their families and society.</p>
+      <p>There are some limitations in this study. Firstly, this study focused primarily on European populations, and the inference of the results is limited. Therefore, the reliability of the causal associations should be validated in other populations. Secondly, due to the lack of sufficient datasets and sample size, the results of this study were not verified. Therefore, further clinical studies are still needed to confirm our results. Thirdly, stratified analysis, such as the subgroups based on sex, age, order of severity, could not be conducted with aggregated information from the GWAS. Fourthly, there is limited information on the potential differences between exposure and outcome GWAS in the study population. In light of these limitations, further studies with larger MR studies should be undertaken to better confirm the current results.</p>
+    </sec>
+    <sec id="s0005">
+      <title>Conclusion</title>
+      <p>The results of this study imply a causal relationship between genetic susceptibility to childhood obesity and increased risk of sleep apnea syndrome, but no causal relationship between genetic susceptibility to sleep apnea syndrome and increased risk of childhood obesity. The identification of a causal relationship between childhood obesity and sleep apnea syndrome provides a new basis for exploring potential treatment methods. In addition, people with a history of childhood obesity should pay more attention to physical examination to early prevention and management of sleep apnea syndrome. Moreover, the results of this study may also be valuable for clinical decision-making.</p>
+    </sec>
+  </body>
+  <back>
+    <sec id="s0006">
+      <title>Abbreviations</title>
+      <p>MR, Mendelian randomization; IVW, Inverse-variance weighted; SNPs, Single nucleotide polymorphisms; OR, odds ratio; CI, confidence interval; OSAS, obstructive sleep apnea syndrome; CSAS, central sleep apnea syndrome; IVs, instrumental variables; GWAS, Genome-wide association studies; LD, Linkage disequilibrium.</p>
+    </sec>
+    <sec sec-type="data-availability" id="s0007">
+      <title>Data Sharing Statement</title>
+      <p>All data generated or analyzed during this study are included in this published article.</p>
+    </sec>
+    <sec id="s0008">
+      <title>Ethical Statement</title>
+      <p>The present study was approved by the Ethics Committee of the Second Affiliated Hospital of Shandong First Medical University (2023-H-052). This study complied with the Declaration of Helsinki.</p>
+    </sec>
+    <sec sec-type="COI-statement" id="s0009">
+      <title>Disclosure</title>
+      <p>Ping Wang and Shuli Liu contributed equally to this paper, can be considered as co-first authors. The authors declare that they have no conflicts of interest.</p>
+    </sec>
+    <ref-list>
+      <title>References</title>
+      <ref id="cit0001">
+        <label>1.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Thomas-Eapen</surname>
+<given-names>N</given-names></string-name>. <article-title>Childhood Obesity</article-title>. <source><italic toggle="yes">Primary Care</italic></source>. <year>2021</year>;<volume>48</volume>(<issue>3</issue>):<fpage>505</fpage>–<lpage>515</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.pop.2021.04.002</pub-id><pub-id pub-id-type="pmid">34311854</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0002">
+        <label>2.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Smith</surname>
+<given-names>JD</given-names></string-name>, <string-name><surname>Fu</surname>
+<given-names>E</given-names></string-name>, <string-name><surname>Kobayashi</surname>
+<given-names>MA</given-names></string-name>. <article-title>Prevention and Management of Childhood Obesity and Its Psychological and Health Comorbidities</article-title>. <source><italic toggle="yes">Ann Rev Clini Psychol</italic></source>. <year>2020</year>;<volume>16</volume>(<issue>1</issue>):<fpage>351</fpage>–<lpage>378</lpage>. doi:<pub-id pub-id-type="doi">10.1146/annurev-clinpsy-100219-060201</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0003">
+        <label>3.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Weihrauch-Blüher</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Wiegand</surname>
+<given-names>S</given-names></string-name>. <article-title>Risk Factors and Implications of Childhood Obesity</article-title>. <source><italic toggle="yes">Curr Obes Rep</italic></source>. <year>2018</year>;<volume>7</volume>(<issue>4</issue>):<fpage>254</fpage>–<lpage>259</lpage>. doi:<pub-id pub-id-type="doi">10.1007/s13679-018-0320-0</pub-id><pub-id pub-id-type="pmid">30315490</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0004">
+        <label>4.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Brown</surname>
+<given-names>CL</given-names></string-name>, <string-name><surname>Halvorson</surname>
+<given-names>EE</given-names></string-name>, <string-name><surname>Cohen</surname>
+<given-names>GM</given-names></string-name>, <string-name><surname>Lazorick</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Skelton</surname>
+<given-names>JA</given-names></string-name>. <article-title>Addressing Childhood Obesity: opportunities for Prevention</article-title>. <source><italic toggle="yes">Pediatr Clin N Am</italic></source>. <year>2015</year>;<volume>62</volume>(<issue>5</issue>):<fpage>1241</fpage>–<lpage>1261</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.pcl.2015.05.013</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0005">
+        <label>5.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Dabas</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Seth</surname>
+<given-names>A</given-names></string-name>. <article-title>Prevention and Management of Childhood Obesity</article-title>. <source><italic toggle="yes">Indian J Pediatr</italic></source>. <year>2018</year>;<volume>85</volume>(<issue>7</issue>):<fpage>546</fpage>–<lpage>553</lpage>. doi:<pub-id pub-id-type="doi">10.1007/s12098-018-2636-x</pub-id><pub-id pub-id-type="pmid">29457204</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0006">
+        <label>6.</label>
+        <mixed-citation publication-type="journal"><string-name><given-names>L</given-names>
+<surname>Abarca-Gómez</surname></string-name>. <article-title>Worldwide trends in body-mass index, underweight, overweight, and obesity from 1975 to 2016: a pooled analysis of 2416 population-based measurement studies in 128·9 million children, adolescents, and adults</article-title>. <source><italic toggle="yes">Lancet</italic></source>. <year>2017</year>;<volume>390</volume>(<issue>10113</issue>):<fpage>2627</fpage>–<lpage>2642</lpage>. doi:<pub-id pub-id-type="doi">10.1016/S0140-6736(17)32129-3</pub-id><pub-id pub-id-type="pmid">29029897</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0007">
+        <label>7.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Horesh</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Tsur</surname>
+<given-names>AM</given-names></string-name>, <string-name><surname>Bardugo</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Twig</surname>
+<given-names>G</given-names></string-name>. <article-title>Adolescent and Childhood Obesity and Excess Morbidity and Mortality in Young Adulthood-a Systematic Review</article-title>. <source><italic toggle="yes">Current Obesity Reports</italic></source>. <year>2021</year>;<volume>10</volume>(<issue>3</issue>):<fpage>301</fpage>–<lpage>310</lpage>. doi:<pub-id pub-id-type="doi">10.1007/s13679-021-00439-9</pub-id><pub-id pub-id-type="pmid">33950400</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0008">
+        <label>8.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Sheng</surname>
+<given-names>W</given-names></string-name>, <string-name><surname>Ji</surname>
+<given-names>G</given-names></string-name>, <string-name><surname>Zhang</surname>
+<given-names>L</given-names></string-name>. <article-title>Management of non-alcoholic fatty liver disease patients with sleep apnea syndrome</article-title>. <source><italic toggle="yes">World J Gastroenterol</italic></source>. <year>2022</year>;<volume>28</volume>(<issue>43</issue>):<fpage>6099</fpage>–<lpage>6108</lpage>. doi:<pub-id pub-id-type="doi">10.3748/wjg.v28.i43.6099</pub-id><pub-id pub-id-type="pmid">36483151</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0009">
+        <label>9.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Akashiba</surname>
+<given-names>T</given-names></string-name>, <string-name><surname>Inoue</surname>
+<given-names>Y</given-names></string-name>, <string-name><surname>Uchimura</surname>
+<given-names>N</given-names></string-name>, et al. <article-title>Sleep Apnea Syndrome (SAS) Clinical Practice Guidelines 2020</article-title>. <source><italic toggle="yes">Resp Invest</italic></source>. <year>2022</year>;<volume>60</volume>(<issue>1</issue>):<fpage>3</fpage>–<lpage>32</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.resinv.2021.08.010</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0010">
+        <label>10.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Zhou</surname>
+<given-names>T</given-names></string-name>, <string-name><surname>Xie</surname>
+<given-names>J</given-names></string-name>, <string-name><surname>Wang</surname>
+<given-names>X</given-names></string-name>, et al. <article-title>Causal Association between Whole-Body Water Mass and Sleep Apnea: a Mendelian Randomization Study</article-title>. <source><italic toggle="yes">Ann Am Thoracic Soc</italic></source>. <year>2022</year>;<volume>19</volume>(<issue>11</issue>):<fpage>1913</fpage>–<lpage>1919</lpage>. doi:<pub-id pub-id-type="doi">10.1513/AnnalsATS.202112-1331OC</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0011">
+        <label>11.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Hein</surname>
+<given-names>H</given-names></string-name>. <article-title>Sleep Apnea as a Risk Factor</article-title>. <source><italic toggle="yes">Deutsches Arzteblatt International</italic></source>. <year>2022</year>;<volume>119</volume>(<issue>4</issue>):<fpage>57</fpage>. doi:<pub-id pub-id-type="doi">10.3238/arztebl.m2022.0032</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0012">
+        <label>12.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Culebras</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Anwar</surname>
+<given-names>S</given-names></string-name>. <article-title>Sleep Apnea Is a Risk Factor for Stroke and Vascular Dementia</article-title>. <source><italic toggle="yes">Curr Neurol Neurosci Rep</italic></source>. <year>2018</year>;<volume>18</volume>(<issue>8</issue>):<fpage>53</fpage>. doi:<pub-id pub-id-type="doi">10.1007/s11910-018-0855-1</pub-id><pub-id pub-id-type="pmid">29938308</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0013">
+        <label>13.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Di Palmo</surname>
+<given-names>E</given-names></string-name>, <string-name><surname>Filice</surname>
+<given-names>E</given-names></string-name>. <article-title>Childhood Obesity and Respiratory Diseases: which Link?</article-title>
+<source><italic toggle="yes">Children (Basel, Switzerland)</italic></source>. <year>2021</year>;<volume>8</volume>(<issue>3</issue>). doi:<pub-id pub-id-type="doi">10.3390/children8030177</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0014">
+        <label>14.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Laaban</surname>
+<given-names>JP</given-names></string-name>. <article-title>Sleep apnea syndrome and obesity</article-title>. <source><italic toggle="yes">Revue Pneumol Clin</italic></source>. <year>2002</year>;<volume>58</volume>(<issue>2</issue>):<fpage>91</fpage>–<lpage>98</lpage>.</mixed-citation>
+      </ref>
+      <ref id="cit0015">
+        <label>15.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Turnbull</surname>
+<given-names>CD</given-names></string-name>, <string-name><surname>Wang</surname>
+<given-names>SH</given-names></string-name>, <string-name><surname>Manuel</surname>
+<given-names>AR</given-names></string-name>, et al. <article-title>Relationships between MRI fat distributions and sleep apnea and obesity hypoventilation syndrome in very obese patients</article-title>. <source><italic toggle="yes">Sleep Breath</italic></source>. <year>2018</year>;<volume>22</volume>(<issue>3</issue>):<fpage>673</fpage>–<lpage>681</lpage>. doi:<pub-id pub-id-type="doi">10.1007/s11325-017-1599-x</pub-id><pub-id pub-id-type="pmid">29197986</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0016">
+        <label>16.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Whittle</surname>
+<given-names>AT</given-names></string-name>, <string-name><surname>Marshall</surname>
+<given-names>I</given-names></string-name>, <string-name><surname>Mortimore</surname>
+<given-names>IL</given-names></string-name>, <string-name><surname>Wraith</surname>
+<given-names>PK</given-names></string-name>, <string-name><surname>Sellar</surname>
+<given-names>RJ</given-names></string-name>, <string-name><surname>Douglas</surname>
+<given-names>NJ</given-names></string-name>. <article-title>Neck soft tissue and fat distribution: comparison between normal men and women by magnetic resonance imaging</article-title>. <source><italic toggle="yes">Thorax</italic></source>. <year>1999</year>;<volume>54</volume>(<issue>4</issue>):<fpage>323</fpage>–<lpage>328</lpage>. doi:<pub-id pub-id-type="doi">10.1136/thx.54.4.323</pub-id><pub-id pub-id-type="pmid">10092693</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0017">
+        <label>17.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Bhattacharjee</surname>
+<given-names>R</given-names></string-name>, <string-name><surname>Kim</surname>
+<given-names>J</given-names></string-name>, <string-name><surname>Kheirandish-Gozal</surname>
+<given-names>L</given-names></string-name>, <string-name><surname>Gozal</surname>
+<given-names>D</given-names></string-name>. <article-title>Obesity and obstructive sleep apnea syndrome in children: a tale of inflammatory cascades</article-title>. <source><italic toggle="yes">Pediatr Pulmonol</italic></source>. <year>2011</year>;<volume>46</volume>(<issue>4</issue>):<fpage>313</fpage>–<lpage>323</lpage>. doi:<pub-id pub-id-type="doi">10.1002/ppul.21370</pub-id><pub-id pub-id-type="pmid">20967842</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0018">
+        <label>18.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Arens</surname>
+<given-names>R</given-names></string-name>, <string-name><surname>Muzumdar</surname>
+<given-names>H</given-names></string-name>. <article-title>Childhood obesity and obstructive sleep apnea syndrome</article-title>. <source><italic toggle="yes">J Appl Physiol</italic></source>. <year>2010</year>;<volume>108</volume>(<issue>2</issue>):<fpage>436</fpage>–<lpage>444</lpage>. doi:<pub-id pub-id-type="doi">10.1152/japplphysiol.00689.2009</pub-id><pub-id pub-id-type="pmid">19875714</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0019">
+        <label>19.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Sánchez-López</surname>
+<given-names>AM</given-names></string-name>, <string-name><surname>Noack-Segovia</surname>
+<given-names>JP</given-names></string-name>, <string-name><surname>Núñez-Negrillo</surname>
+<given-names>AM</given-names></string-name>. <article-title>Childhood Obesity and its Influence on Sleep Disorders: kids-Play Study</article-title>. <source><italic toggle="yes">Int J Environ Res Public Health</italic></source>. <year>2020</year>;<volume>17</volume>(<issue>21</issue>):<fpage>7948</fpage>.<pub-id pub-id-type="pmid">33138179</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0020">
+        <label>20.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Kanney</surname>
+<given-names>ML</given-names></string-name>, <string-name><surname>Harford</surname>
+<given-names>KL</given-names></string-name>, <string-name><surname>Raol</surname>
+<given-names>N</given-names></string-name>, <string-name><surname>Leu</surname>
+<given-names>RM</given-names></string-name>. <article-title>Obstructive sleep apnea in pediatric obesity and the effects of sleeve gastrectomy</article-title>. <source><italic toggle="yes">Semin Pediatr Surg</italic></source>. <year>2020</year>;<volume>29</volume>(<issue>1</issue>):<fpage>150887</fpage>. doi:<pub-id pub-id-type="doi">10.1016/j.sempedsurg.2020.150887</pub-id><pub-id pub-id-type="pmid">32238281</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0021">
+        <label>21.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Shechter</surname>
+<given-names>A</given-names></string-name>. <article-title>Obstructive sleep apnea and energy balance regulation: a systematic review</article-title>. <source><italic toggle="yes">Sleep Med Rev</italic></source>. <year>2017</year>;<volume>34</volume>:<fpage>59</fpage>–<lpage>69</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.smrv.2016.07.001</pub-id><pub-id pub-id-type="pmid">27818084</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0022">
+        <label>22.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Papatriantafyllou</surname>
+<given-names>E</given-names></string-name>, <string-name><surname>Efthymiou</surname>
+<given-names>D</given-names></string-name>, <string-name><surname>Zoumbaneas</surname>
+<given-names>E</given-names></string-name>, <string-name><surname>Popescu</surname>
+<given-names>CA</given-names></string-name>. <article-title>Sleep Deprivation: effects on Weight Loss and Weight Loss Maintenance</article-title>. <source><italic toggle="yes">Nutrients</italic></source>. <year>2022</year>;<volume>14</volume>(<issue>8</issue>). doi:<pub-id pub-id-type="doi">10.3390/nu14081549</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0023">
+        <label>23.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Sanderson</surname>
+<given-names>E</given-names></string-name>, <string-name><surname>Glymour</surname>
+<given-names>MM</given-names></string-name>, <string-name><surname>Holmes</surname>
+<given-names>MV</given-names></string-name>, et al. <article-title>Mendelian randomization</article-title>. <source><italic toggle="yes">Nat Rev Method Prim</italic></source>. <year>2022</year>;<volume>2</volume>:<fpage>6</fpage>.</mixed-citation>
+      </ref>
+      <ref id="cit0024">
+        <label>24.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Holmes</surname>
+<given-names>MV</given-names></string-name>, <string-name><surname>Ala-Korpela</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Smith</surname>
+<given-names>GD</given-names></string-name>. <article-title>Mendelian randomization in cardiometabolic disease: challenges in evaluating causality</article-title>. <source><italic toggle="yes">Nat Rev Cardiol</italic></source>. <year>2017</year>;<volume>14</volume>(<issue>10</issue>):<fpage>577</fpage>–<lpage>590</lpage>. doi:<pub-id pub-id-type="doi">10.1038/nrcardio.2017.78</pub-id><pub-id pub-id-type="pmid">28569269</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0025">
+        <label>25.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Xu</surname>
+<given-names>J</given-names></string-name>, <string-name><surname>Zhang</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Tian</surname>
+<given-names>Y</given-names></string-name>, et al. <article-title>Genetic Causal Association between Iron Status and Osteoarthritis: a Two-Sample Mendelian Randomization</article-title>. <source><italic toggle="yes">Nutrients</italic></source>. <year>2022</year>;<volume>14</volume>(<issue>18</issue>):<fpage>3683</fpage>. doi:<pub-id pub-id-type="doi">10.3390/nu14183683</pub-id><pub-id pub-id-type="pmid">36145059</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0026">
+        <label>26.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Zheng</surname>
+<given-names>J</given-names></string-name>, <string-name><surname>Baird</surname>
+<given-names>D</given-names></string-name>, <string-name><surname>Borges</surname>
+<given-names>MC</given-names></string-name>, et al. <article-title>Recent Developments in Mendelian Randomization Studies</article-title>. <source><italic toggle="yes">Curr Epidemiol Rep</italic></source>. <year>2017</year>;<volume>4</volume>(<issue>4</issue>):<fpage>330</fpage>–<lpage>345</lpage>. doi:<pub-id pub-id-type="doi">10.1007/s40471-017-0128-6</pub-id><pub-id pub-id-type="pmid">29226067</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0027">
+        <label>27.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Zhao</surname>
+<given-names>Q</given-names></string-name>, <string-name><surname>Chen</surname>
+<given-names>Y</given-names></string-name>, <string-name><surname>Wang</surname>
+<given-names>J</given-names></string-name>, <string-name><surname>Small</surname>
+<given-names>DS</given-names></string-name>. <article-title>Powerful three-sample genome-wide design and robust statistical inference in summary-data Mendelian randomization</article-title>. <source><italic toggle="yes">Int J Epidemiol</italic></source>. <year>2019</year>;<volume>48</volume>(<issue>5</issue>):<fpage>1478</fpage>–<lpage>1492</lpage>. doi:<pub-id pub-id-type="doi">10.1093/ije/dyz142</pub-id><pub-id pub-id-type="pmid">31298269</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0028">
+        <label>28.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Porcu</surname>
+<given-names>E</given-names></string-name>, <string-name><surname>Rüeger</surname>
+<given-names>S</given-names></string-name>. <article-title>Mendelian randomization integrating GWAS and eQTL data reveals genetic determinants of complex and clinical traits</article-title>. <source><italic toggle="yes">Nature Communications</italic></source>. <year>2019</year>;<volume>10</volume>(<issue>1</issue>):<fpage>3300</fpage>. doi:<pub-id pub-id-type="doi">10.1038/s41467-019-10936-0</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0029">
+        <label>29.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Bradfield</surname>
+<given-names>JP</given-names></string-name>, <string-name><surname>Taal</surname>
+<given-names>HR</given-names></string-name>, <string-name><surname>Timpson</surname>
+<given-names>NJ</given-names></string-name>, et al. <article-title>A genome-wide association meta-analysis identifies new childhood obesity loci</article-title>. <source><italic toggle="yes">Nature Genet</italic></source>. <year>2012</year>;<volume>44</volume>(<issue>5</issue>):<fpage>526</fpage>–<lpage>531</lpage>.<pub-id pub-id-type="pmid">22484627</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0030">
+        <label>30.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Sakaue</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Kanai</surname>
+<given-names>M</given-names></string-name>. <article-title>A cross-population atlas of genetic associations for 220 human phenotypes</article-title>. <source><italic toggle="yes">Nature Genetics</italic></source>. <year>2021</year>;<volume>53</volume>(<issue>10</issue>):<fpage>1415</fpage>–<lpage>1424</lpage>. doi:<pub-id pub-id-type="doi">10.1038/s41588-021-00931-x</pub-id><pub-id pub-id-type="pmid">34594039</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0031">
+        <label>31.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Hu</surname>
+<given-names>B</given-names></string-name>, <string-name><surname>He</surname>
+<given-names>X</given-names></string-name>, <string-name><surname>Li</surname>
+<given-names>F</given-names></string-name>, <string-name><surname>Sun</surname>
+<given-names>Y</given-names></string-name>, <string-name><surname>Sun</surname>
+<given-names>J</given-names></string-name>, <string-name><surname>Feng</surname>
+<given-names>L</given-names></string-name>. <article-title>Childhood obesity and hypertension in pregnancy: a two-sample Mendelian randomization analysis</article-title>. <source><italic toggle="yes">J Hypertens</italic></source>. <year>2023</year>;<volume>41</volume>(<issue>7</issue>):<fpage>1152</fpage>–<lpage>1158</lpage>. doi:<pub-id pub-id-type="doi">10.1097/HJH.0000000000003442</pub-id><pub-id pub-id-type="pmid">37074353</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0032">
+        <label>32.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Pierce</surname>
+<given-names>BL</given-names></string-name>, <string-name><surname>Ahsan</surname>
+<given-names>H</given-names></string-name>, <string-name><surname>Vanderweele</surname>
+<given-names>TJ</given-names></string-name>. <article-title>Power and instrument strength requirements for Mendelian randomization studies using multiple genetic variants</article-title>. <source><italic toggle="yes">Int J Epidemiol</italic></source>. <year>2011</year>;<volume>40</volume>(<issue>3</issue>):<fpage>740</fpage>–<lpage>752</lpage>. doi:<pub-id pub-id-type="doi">10.1093/ije/dyq151</pub-id><pub-id pub-id-type="pmid">20813862</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0033">
+        <label>33.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Xie</surname>
+<given-names>J</given-names></string-name>, <string-name><surname>Huang</surname>
+<given-names>H</given-names></string-name>, <string-name><surname>Liu</surname>
+<given-names>Z</given-names></string-name>, <string-name><surname>Li</surname>
+<given-names>Y</given-names></string-name>, <string-name><surname>Yu</surname>
+<given-names>C</given-names></string-name>. <article-title>The associations between modifiable risk factors and nonalcoholic fatty liver disease: a comprehensive Mendelian randomization study</article-title>. <source><italic toggle="yes">Hepatology</italic></source>. <year>2023</year>;<volume>77</volume>(<issue>3</issue>):<fpage>949</fpage>–<lpage>964</lpage>. doi:<pub-id pub-id-type="doi">10.1002/hep.32728</pub-id><pub-id pub-id-type="pmid">35971878</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0034">
+        <label>34.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Guo</surname>
+<given-names>HY</given-names></string-name>, <string-name><surname>Wang</surname>
+<given-names>W</given-names></string-name>, <string-name><surname>Peng</surname>
+<given-names>H</given-names></string-name>, <string-name><surname>Yuan</surname>
+<given-names>H</given-names></string-name>. <article-title>Bidirectional two-sample Mendelian randomization study of causality between rheumatoid arthritis and myocardial infarction</article-title>. <source><italic toggle="yes">Front Immunol</italic></source>. <year>2022</year>;<volume>13</volume>:<fpage>1017444</fpage>. doi:<pub-id pub-id-type="doi">10.3389/fimmu.2022.1017444</pub-id><pub-id pub-id-type="pmid">36532051</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0035">
+        <label>35.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Zhang</surname>
+<given-names>K</given-names></string-name>, <string-name><surname>Jia</surname>
+<given-names>Y</given-names></string-name>, <string-name><surname>Wang</surname>
+<given-names>R</given-names></string-name>, et al. <article-title>Rheumatoid arthritis and the risk of major cardiometabolic diseases: a Mendelian randomization study</article-title>. <source><italic toggle="yes">Scand J Rheumatol</italic></source>. <year>2023</year>;<volume>52</volume>(<issue>4</issue>):<fpage>335</fpage>–<lpage>341</lpage>. doi:<pub-id pub-id-type="doi">10.1080/03009742.2022.2070988</pub-id><pub-id pub-id-type="pmid">35658786</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0036">
+        <label>36.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Fruh</surname>
+<given-names>SM</given-names></string-name>. <article-title>Obesity: risk factors, complications, and strategies for sustainable long-term weight management</article-title>. <source><italic toggle="yes">J Am Assoc Nurse Practition</italic></source>. <year>2017</year>;<volume>29</volume>(<issue>S1</issue>):<fpage>S3</fpage>–<lpage>S14</lpage>. doi:<pub-id pub-id-type="doi">10.1002/2327-6924.12510</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0037">
+        <label>37.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Araghi</surname>
+<given-names>MH</given-names></string-name>, <string-name><surname>Chen</surname>
+<given-names>YF</given-names></string-name>, <string-name><surname>Jagielski</surname>
+<given-names>A</given-names></string-name>, et al. <article-title>Effectiveness of lifestyle interventions on obstructive sleep apnea (OSA): systematic review and meta-analysis</article-title>. <source><italic toggle="yes">Sleep</italic></source>. <year>2013</year>;<volume>36</volume>(<issue>10</issue>):<fpage>1553</fpage>–<lpage>1562</lpage>. doi:<pub-id pub-id-type="doi">10.5665/sleep.3056</pub-id><pub-id pub-id-type="pmid">24082315</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0038">
+        <label>38.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Greenburg</surname>
+<given-names>DL</given-names></string-name>, <string-name><surname>Lettieri</surname>
+<given-names>CJ</given-names></string-name>, <string-name><surname>Eliasson</surname>
+<given-names>AH</given-names></string-name>. <article-title>Effects of surgical weight loss on measures of obstructive sleep apnea: a meta-analysis</article-title>. <source><italic toggle="yes">Am J Med</italic></source>. <year>2009</year>;<volume>122</volume>(<issue>6</issue>):<fpage>535</fpage>–<lpage>542</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.amjmed.2008.10.037</pub-id><pub-id pub-id-type="pmid">19486716</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0039">
+        <label>39.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Silvestri</surname>
+<given-names>JM</given-names></string-name>, <string-name><surname>Weese-Mayer</surname>
+<given-names>DE</given-names></string-name>, <string-name><surname>Bass</surname>
+<given-names>MT</given-names></string-name>, <string-name><surname>Kenny</surname>
+<given-names>AS</given-names></string-name>, <string-name><surname>Hauptman</surname>
+<given-names>SA</given-names></string-name>, <string-name><surname>Pearsall</surname>
+<given-names>SM</given-names></string-name>. <article-title>Polysomnography in obese children with a history of sleep-associated breathing disorders</article-title>. <source><italic toggle="yes">Pediatr Pulmonol</italic></source>. <year>1993</year>;<volume>16</volume>(<issue>2</issue>):<fpage>124</fpage>–<lpage>129</lpage>. doi:<pub-id pub-id-type="doi">10.1002/ppul.1950160208</pub-id><pub-id pub-id-type="pmid">8367218</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0040">
+        <label>40.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Bachrach</surname>
+<given-names>K</given-names></string-name>, <string-name><surname>Danis</surname>
+<given-names>DO</given-names></string-name>. <article-title>The Relationship Between Obstructive Sleep Apnea and Pediatric Obesity: a Nationwide Analysis</article-title>. <source><italic toggle="yes">The Annals of Otology, Rhinology, and Laryngology</italic></source>. <year>2022</year>;<volume>131</volume>(<issue>5</issue>):<fpage>520</fpage>–<lpage>526</lpage>. doi:<pub-id pub-id-type="doi">10.1177/00034894211028489</pub-id><pub-id pub-id-type="pmid">34192945</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0041">
+        <label>41.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Verhulst</surname>
+<given-names>SL</given-names></string-name>, <string-name><surname>Van Gaal</surname>
+<given-names>L</given-names></string-name>, <string-name><surname>De Backer</surname>
+<given-names>W</given-names></string-name>, <string-name><surname>Desager</surname>
+<given-names>K</given-names></string-name>. <article-title>The prevalence, anatomical correlates and treatment of sleep-disordered breathing in obese children and adolescents</article-title>. <source><italic toggle="yes">Sleep Med Rev</italic></source>. <year>2008</year>;<volume>12</volume>(<issue>5</issue>):<fpage>339</fpage>–<lpage>346</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.smrv.2007.11.002</pub-id><pub-id pub-id-type="pmid">18406637</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0042">
+        <label>42.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Spector</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Scheid</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Hassink</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Deutsch</surname>
+<given-names>ES</given-names></string-name>, <string-name><surname>Reilly</surname>
+<given-names>JS</given-names></string-name>, <string-name><surname>Cook</surname>
+<given-names>SP</given-names></string-name>. <article-title>Adenotonsillectomy in the morbidly obese child</article-title>. <source><italic toggle="yes">Int J Pediatr Otorhinol Yngo</italic></source>. <year>2003</year>;<volume>67</volume>(<issue>4</issue>):<fpage>359</fpage>–<lpage>364</lpage>. doi:<pub-id pub-id-type="doi">10.1016/S0165-5876(02)00401-9</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0043">
+        <label>43.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Verhulst</surname>
+<given-names>SL</given-names></string-name>, <string-name><surname>Schrauwen</surname>
+<given-names>N</given-names></string-name>, <string-name><surname>Haentjens</surname>
+<given-names>D</given-names></string-name>, et al. <article-title>Sleep-disordered breathing in overweight and obese children and adolescents: prevalence, characteristics and the role of fat distribution</article-title>. <source><italic toggle="yes">Arch Dischildhood</italic></source>. <year>2007</year>;<volume>92</volume>(<issue>3</issue>):<fpage>205</fpage>–<lpage>208</lpage>. doi:<pub-id pub-id-type="doi">10.1136/adc.2006.101089</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0044">
+        <label>44.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Gordon</surname>
+<given-names>JE</given-names></string-name>, <string-name><surname>Hughes</surname>
+<given-names>MS</given-names></string-name>, <string-name><surname>Shepherd</surname>
+<given-names>K</given-names></string-name>, et al. <article-title>Obstructive sleep apnoea syndrome in morbidly obese children with tibia vara</article-title>. <source><italic toggle="yes">J Bone Joint Surg</italic></source>. <year>2006</year>;<volume>88</volume>(<issue>1</issue>):<fpage>100</fpage>–<lpage>103</lpage>. doi:<pub-id pub-id-type="doi">10.1302/0301-620X.88B1.16918</pub-id><pub-id pub-id-type="pmid">16510804</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0045">
+        <label>45.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Cielo</surname>
+<given-names>CM</given-names></string-name>, <string-name><surname>Keenan</surname>
+<given-names>BT</given-names></string-name>. <article-title>Neck fat and obstructive sleep apnea in obese adolescents</article-title>. <source><italic toggle="yes">Sleep</italic></source>. <year>2021</year>;<volume>44</volume>(<issue>11</issue>):<fpage>zsab158</fpage>.<pub-id pub-id-type="pmid">34165571</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0046">
+        <label>46.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Zhang</surname>
+<given-names>Y</given-names></string-name>, <string-name><surname>Wang</surname>
+<given-names>H</given-names></string-name>, <string-name><surname>Yang</surname>
+<given-names>J</given-names></string-name>, <string-name><surname>Wang</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Tong</surname>
+<given-names>W</given-names></string-name>, <string-name><surname>Teng</surname>
+<given-names>B</given-names></string-name>. <article-title>Obstructive Sleep Apnea Syndrome and Obesity Indicators, Circulating Blood Lipid Levels, and Adipokines Levels: a Bidirectional Two-Sample Mendelian Randomization Study</article-title>. <source><italic toggle="yes">Nat Scie Sleep</italic></source>. <year>2024</year>;<volume>16</volume>:<fpage>573</fpage>–<lpage>583</lpage>.</mixed-citation>
+      </ref>
+      <ref id="cit0047">
+        <label>47.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Tauman</surname>
+<given-names>R</given-names></string-name>, <string-name><surname>Gozal</surname>
+<given-names>D</given-names></string-name>. <article-title>Obesity and obstructive sleep apnea in children</article-title>. <source><italic toggle="yes">Paediatr Respirat Rev</italic></source>. <year>2006</year>;<volume>7</volume>(<issue>4</issue>):<fpage>247</fpage>–<lpage>259</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.prrv.2006.08.003</pub-id><pub-id pub-id-type="pmid">17098639</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0048">
+        <label>48.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Imayama</surname>
+<given-names>I</given-names></string-name>, <string-name><surname>Prasad</surname>
+<given-names>B</given-names></string-name>. <article-title>Role of Leptin in Obstructive Sleep Apnea</article-title>. <source><italic toggle="yes">Ann Am Thoracic Soc</italic></source>. <year>2017</year>;<volume>14</volume>(<issue>11</issue>):<fpage>1607</fpage>–<lpage>1621</lpage>. doi:<pub-id pub-id-type="doi">10.1513/AnnalsATS.201702-181FR</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0049">
+        <label>49.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Ozturk</surname>
+<given-names>L</given-names></string-name>, <string-name><surname>Unal</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Tamer</surname>
+<given-names>L</given-names></string-name>, <string-name><surname>Celikoglu</surname>
+<given-names>F</given-names></string-name>. <article-title>The association of the severity of obstructive sleep apnea with plasma leptin levels</article-title>. <source><italic toggle="yes">Archiv Otolaryngol Head Nnec Surg</italic></source>. <year>2003</year>;<volume>129</volume>(<issue>5</issue>):<fpage>538</fpage>–<lpage>540</lpage>. doi:<pub-id pub-id-type="doi">10.1001/archotol.129.5.538</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0050">
+        <label>50.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Gozal</surname>
+<given-names>D</given-names></string-name>, <string-name><surname>Capdevila</surname>
+<given-names>OS</given-names></string-name>, <string-name><surname>Kheirandish-Gozal</surname>
+<given-names>L</given-names></string-name>. <article-title>Metabolic alterations and systemic inflammation in obstructive sleep apnea among nonobese and obese prepubertal children</article-title>. <source><italic toggle="yes">Am J Respir Crit Care Med</italic></source>. <year>2008</year>;<volume>177</volume>(<issue>10</issue>):<fpage>1142</fpage>–<lpage>1149</lpage>. doi:<pub-id pub-id-type="doi">10.1164/rccm.200711-1670OC</pub-id><pub-id pub-id-type="pmid">18276939</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0051">
+        <label>51.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Waters</surname>
+<given-names>KA</given-names></string-name>, <string-name><surname>Sitha</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>O’Brien</surname>
+<given-names>LM</given-names></string-name>, et al. <article-title>Follow-up on metabolic markers in children treated for obstructive sleep apnea</article-title>. <source><italic toggle="yes">Am J Respir Crit Care Med</italic></source>. <year>2006</year>;<volume>174</volume>(<issue>4</issue>):<fpage>455</fpage>–<lpage>460</lpage>. doi:<pub-id pub-id-type="doi">10.1164/rccm.200401-110OC</pub-id><pub-id pub-id-type="pmid">16709938</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0052">
+        <label>52.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Kuvat</surname>
+<given-names>N</given-names></string-name>, <string-name><surname>Tanriverdi</surname>
+<given-names>H</given-names></string-name>, <string-name><surname>Armutcu</surname>
+<given-names>F</given-names></string-name>. <article-title>The relationship between obstructive sleep apnea syndrome and obesity: a new perspective on the pathogenesis in terms of organ crosstalk</article-title>. <source><italic toggle="yes">Clin Rspirator J</italic></source>. <year>2020</year>;<volume>14</volume>(<issue>7</issue>):<fpage>595</fpage>–<lpage>604</lpage>.</mixed-citation>
+      </ref>
+      <ref id="cit0053">
+        <label>53.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Hu</surname>
+<given-names>Z</given-names></string-name>, <string-name><surname>Zhou</surname>
+<given-names>F</given-names></string-name>. <article-title>Circulating vitamin C and D concentrations and risk of dental caries and periodontitis: a Mendelian randomization study</article-title>. <source><italic toggle="yes">J Clin Periodontol</italic></source>. <year>2022</year>;<volume>49</volume>(<issue>4</issue>):<fpage>335</fpage>–<lpage>344</lpage>.<pub-id pub-id-type="pmid">35112385</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0054">
+        <label>54.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Luo</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Li</surname>
+<given-names>W</given-names></string-name>, <string-name><surname>Li</surname>
+<given-names>Q</given-names></string-name>, et al. <article-title>Causal effects of gut microbiota on the risk of periodontitis: a two-sample Mendelian randomization study</article-title>. <source><italic toggle="yes">Front Cell Infect Microbiol</italic></source>. <year>2023</year>;<volume>13</volume>:<fpage>1160993</fpage>. doi:<pub-id pub-id-type="doi">10.3389/fcimb.2023.1160993</pub-id><pub-id pub-id-type="pmid">37305424</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0055">
+        <label>55.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Larsson</surname>
+<given-names>SC</given-names></string-name>, <string-name><surname>Michaëlsson</surname>
+<given-names>K</given-names></string-name>, <string-name><surname>Burgess</surname>
+<given-names>S</given-names></string-name>. <article-title>Mendelian randomization in the bone field</article-title>. <source><italic toggle="yes">Bone</italic></source>. <year>2019</year>;<volume>126</volume>:<fpage>51</fpage>–<lpage>58</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.bone.2018.10.011</pub-id><pub-id pub-id-type="pmid">30321669</pub-id>
+</mixed-citation>
+      </ref>
+    </ref-list>
+  </back>
+</article>
+</pmc-articleset>

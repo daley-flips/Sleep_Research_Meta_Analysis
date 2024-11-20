@@ -1,0 +1,926 @@
+<pmc-articleset><article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" dtd-version="1.3" xml:lang="en" article-type="research-article">
+  <?properties open_access?>
+  <processing-meta base-tagset="archiving" mathml-version="3.0" table-model="xhtml" tagset-family="jats">
+    <restricted-by>pmc</restricted-by>
+  </processing-meta>
+  <front><journal-meta><journal-id journal-id-type="nlm-ta">Nat Sci Sleep</journal-id><journal-id journal-id-type="iso-abbrev">Nat Sci Sleep</journal-id><journal-id journal-id-type="publisher-id">nss</journal-id><journal-title-group><journal-title>Nature and Science of Sleep</journal-title></journal-title-group><issn pub-type="epub">1179-1608</issn><publisher><publisher-name>Dove</publisher-name></publisher></journal-meta>
+<article-meta><article-id pub-id-type="pmid">39380611</article-id><article-id pub-id-type="pmc">11460348</article-id><article-id pub-id-type="publisher-id">478359</article-id><article-id pub-id-type="doi">10.2147/NSS.S478359</article-id><article-categories><subj-group subj-group-type="heading"><subject>Original Research</subject></subj-group></article-categories><title-group><article-title>Videoconferencing During the COVID-19 Pandemic is Associated with Sleep Disruption in Young Adults</article-title><alt-title alt-title-type="running-authors">Onyper</alt-title><alt-title alt-title-type="running-title">Onyper</alt-title></title-group><contrib-group><contrib contrib-type="author"><contrib-id contrib-id-type="orcid">http://orcid.org/0000-0002-9407-6692</contrib-id><name><surname>Onyper</surname><given-names>Serge</given-names></name><xref rid="aff0001" ref-type="aff">1</xref><xref rid="an0001" ref-type="corresp"/></contrib><aff id="aff0001"><label>1</label><institution>Department of Psychology, St Lawrence University</institution>, <addr-line>Canton</addr-line>, <addr-line>NY</addr-line>, <country>USA</country></aff></contrib-group><author-notes><corresp id="an0001">Correspondence: Serge Onyper, Email sonyper@stlawu.edu</corresp></author-notes><pub-date pub-type="epub"><day>04</day><month>10</month><year>2024</year></pub-date><pub-date pub-type="collection"><year>2024</year></pub-date><volume>16</volume><fpage>1583</fpage><lpage>1599</lpage><history><date date-type="received"><day>15</day><month>5</month><year>2024</year></date><date date-type="accepted"><day>20</day><month>9</month><year>2024</year></date></history><permissions><copyright-statement>© 2024 Onyper.</copyright-statement><copyright-year>2024</copyright-year><copyright-holder>Onyper.</copyright-holder><license><ali:license_ref xmlns:ali="http://www.niso.org/schemas/ali/1.0/" specific-use="textmining" content-type="ccbynclicense">https://creativecommons.org/licenses/by-nc/3.0/</ali:license_ref><license-p>This work is published and licensed by Dove Medical Press Limited. The full terms of this license are available at <ext-link ext-link-type="uri" xlink:href="https://www.dovepress.com/terms.php">https://www.dovepress.com/terms.php</ext-link> and incorporate the Creative Commons Attribution – Non Commercial (unported, v3.0) License (<ext-link ext-link-type="uri" xlink:href="https://creativecommons.org/licenses/by-nc/3.0/">http://creativecommons.org/licenses/by-nc/3.0/</ext-link>). By accessing the work you hereby accept the Terms. Non-commercial uses of the work are permitted without any further permission from Dove Medical Press Limited, provided the work is properly attributed. For permission for commercial use of this work, please see paragraphs 4.2 and 5 of our Terms (<ext-link ext-link-type="uri" xlink:href="https://www.dovepress.com/terms.php">https://www.dovepress.com/terms.php</ext-link>).</license-p></license></permissions><abstract><sec><title>Purpose</title><p>The COVID-19 pandemic resulted in a shift to working and learning from home and a concomitant rise in the use of virtual communication technology, such as videoconferencing. The current study prospectively examined the association between videoconferencing and sleep in a sample of young adults attending a university during the pandemic. The effects of videoconferencing on health and wellness outcomes and academic performance were also evaluated.</p></sec><sec><title>Patients and Methods</title><p>Participants completed the core Consensus Sleep Diary and reported engagement in videoconferencing, the use of electronic devices, and physical activity daily for 8 consecutive days. They also completed baseline measures of sleep, communication technology use, physical activity, and mental distress, as well as released their end-of-term GPA. Results were evaluated via multilevel modeling and path analysis.</p></sec><sec><title>Results</title><p>Participants with a heavier videocall volume lost 17 m of sleep and suffered nearly a 1% reduction in sleep efficiency for each additional hour of videoconferencing compared to those with a lower call volume. They also tended to spend more time awake during the night, have earlier sleep midpoints, and report worse sleep, although those trends did not reach statistical significance. For everyone, including individuals with lower videocall volume, earlier sleep midpoints, lower sleep quality, somewhat shorter sleep, and higher fatigue were reported on days with a relatively high videocall load compared to days with a low videocall load. Increased academic engagement with videoconferencing predicted lower academic performance and higher psychological distress: Both relationships were mediated by sleep. Use of videoconferencing for personal reasons, however, was directly associated with a reduction in distress.</p></sec><sec><title>Conclusion</title><p>Videoconferencing is an important determinant of sleep and may impact health and wellness as well as academic outcomes in young adults. The effects of virtual communication on sleep and human behavior warrant further study in this and other populations.</p></sec></abstract><kwd-group kwd-group-type="author"><title>Keywords</title><kwd>videoconferencing</kwd><kwd>virtual communication</kwd><kwd>sleep</kwd><kwd>Zoom fatigue</kwd><kwd>screen time</kwd><kwd>COVID-19</kwd></kwd-group><funding-group><award-group><funding-source>
+<institution-wrap><institution>St. Lawrence University</institution><institution-id institution-id-type="open-funder-registry">10.13039/100009970</institution-id></institution-wrap>
+</funding-source></award-group><funding-statement>St. Lawrence University provided partial financial support for the data collection for this project.</funding-statement></funding-group><counts><fig-count count="2"/><table-count count="4"/><ref-count count="97"/><page-count count="17"/></counts></article-meta></front>
+  <body>
+    <sec sec-type="intro" id="s0001">
+      <title>Introduction</title>
+      <p>On March 11, 2020, the World Health Organization declared the outbreak of the novel coronavirus disease (COVID-19) a pandemic. By the end of the month, educational institutions in the United States and around the world switched to remote learning to mitigate the spread of COVID-19 just as millions of adults switched to working from home. In the fall of 2020, two thirds of colleges and universities in the US continued to offer courses either fully online or in hybrid form, and 96% reported at least some online instruction.<xref rid="cit0001" ref-type="bibr">1</xref> During the same period, almost 60% of workers in the US reported working remotely either sometimes or always.<xref rid="cit0002" ref-type="bibr">2</xref> While the majority of students and workers have returned to brick-and-mortar spaces as countries around the world gained control over the pandemic, according to a Gallup poll, in May of 2023, 29% of office workers continued to work exclusively remotely and 51% worked in hybrid settings.<xref rid="cit0003" ref-type="bibr">3</xref> It is likely that remote work will remain common in the future: According to a survey of over a thousand businesses, as much as 22% of the workforce is anticipated to be fully remote by 2025.<xref rid="cit0004" ref-type="bibr">4</xref></p>
+      <p>During the COVID-19 pandemic, the shift to remote work and remote learning ushered an upsurge in remote meetings via the virtual communication platforms, such as Zoom, Microsoft Teams, WebEx, Google Meet, and dozens of others. As a result of this shift, it became much easier for work-related communication to spill outside of the traditional 9-to-5 workweek. A 2020 report by a Microsoft workgroup suggests that during the pandemic-imposed social gathering restrictions, individuals were more likely to utilize virtual meetings for work-related purpose earlier in the morning, later in the evenings, and on weekends.<xref rid="cit0005" ref-type="bibr">5</xref> The consequences of these changes, such as “Zoom fatigue”, the colloquial expression to denote the feelings of exhaustion following a virtual meeting, are only now emerging as a topic of research.<xref rid="cit0006" ref-type="bibr">6</xref>,<xref rid="cit0007" ref-type="bibr">7</xref> To date, however, little published work has considered the relationship between the use of virtual communication platforms and sleep, which is the main goal of the current study.</p>
+      <p>Sleep is essential for health and well-being,<xref rid="cit0008" ref-type="bibr">8</xref>,<xref rid="cit0009" ref-type="bibr">9</xref> including mood regulation<xref rid="cit0010" ref-type="bibr">10</xref> and stress management.<xref rid="cit0011" ref-type="bibr">11</xref> However, virtual communication has the potential to disrupt sleep because it necessitates the use of electronic devices to access the relevant videoconferencing platform, as well as because of its interactive nature. It is well established that screen time, particularly when it occurs close to bedtime, can interfere with mechanisms that govern sleep timing and duration.<xref rid="cit0012" ref-type="bibr">12</xref>,<xref rid="cit0013" ref-type="bibr">13</xref> Evidence suggests that 9 out of 10 people in the United States use technology devices within an hour of bedtime.<xref rid="cit0014" ref-type="bibr">14</xref> The use of interactive devices in particular – such as cell phones, laptops, game consoles – is a robust predictor of sleep disturbances.<xref rid="cit0015" ref-type="bibr">15</xref>,<xref rid="cit0016" ref-type="bibr">16</xref> Numerous studies have shown that nighttime use of electronic devices is associated with difficulty falling asleep, reduced sleep duration, and poor sleep quality.<xref rid="cit0013" ref-type="bibr">13</xref>,<xref rid="cit0014" ref-type="bibr">14</xref>,<xref rid="cit0017" ref-type="bibr">17</xref> For instance, in a study of nearly 10,000 adolescents 16–19 years of age, both prolonged daytime use of electronic devices and screen time in the hour before bedtime predicted an increased likelihood of sleep onset latencies greater than 60 minutes and a sleep deficit of 2 hours of more.<xref rid="cit0017" ref-type="bibr">17</xref> Furthermore, evidence reveals a dose-response relationship between technology use and sleep disruption, with greater use increasing the odds of poor sleep.<xref rid="cit0017" ref-type="bibr">17</xref>,<xref rid="cit0018" ref-type="bibr">18</xref></p>
+      <p>There are several reasons why screen time is associated with disturbed sleep. Exposure to light emitted by devices such as cell phones and computers, particularly in the blue spectrum, disrupts the production of melatonin and increases alertness.<xref rid="cit0019" ref-type="bibr">19–21</xref> For example, evening exposure to a computer emitting short-wavelength light (blue light) reduced subjective sleepiness and suppressed melatonin secretion in a sample of young adult volunteers.<xref rid="cit0020" ref-type="bibr">20</xref> Additionally, in a randomized crossover trial, individuals with insomnia who wore lenses that blocked blue light for 2 hours prior to bedtime reported later rise times, longer total sleep time, and higher sleep quality.<xref rid="cit0019" ref-type="bibr">19</xref> Technology use can also displace sleep by delaying bedtimes.<xref rid="cit0013" ref-type="bibr">13</xref>,<xref rid="cit0021" ref-type="bibr">21</xref> Given the relative inflexibility of working or academic weekday schedules that often necessitate early rise times, such shift would result in truncated sleep. Finally, exposure to mentally stimulating interactive technology close to bedtime may also result in psychological or physiological arousal that disrupts the circadian mechanism of sleep regulation, leading to delayed bedtimes, longer sleep onset latencies, reduced sleep duration, and feeling unrefreshed upon awakening.<xref rid="cit0021" ref-type="bibr">21</xref>,<xref rid="cit0022" ref-type="bibr">22</xref> For these reasons, the use of videoconferencing would be expected to disrupt sleep.</p>
+      <p>It is also possible that the effects of videoconferencing on sleep extend beyond those associated with bedtime or daytime exposure to electronic technology. Virtual meetings pose unique challenges to social interaction because of a brief delay between movement of the lips in the video and audio, inability to maintain eye contact (especially in a conference call with more than one person), and difficulty in detecting and responding to nonverbal cues.<xref rid="cit0007" ref-type="bibr">7</xref> These factors increase cognitive load<xref rid="cit0007" ref-type="bibr">7</xref> and videoconferencing fatigue.<xref rid="cit0006" ref-type="bibr">6</xref> Evidence suggests that both cognitive load<xref rid="cit0023" ref-type="bibr">23</xref>,<xref rid="cit0024" ref-type="bibr">24</xref> and videoconferencing fatigue<xref rid="cit0025" ref-type="bibr">25</xref>,<xref rid="cit0026" ref-type="bibr">26</xref> can be associated with disturbed sleep, including difficulties falling asleep, waking up in the morning, or feeling refreshed.</p>
+      <p>While the use of various technological devices prior to bedtime occurs in all age groups, it is particularly prevalent in adolescents and young adults, who already get less than the recommended amount of sleep,<xref rid="cit0027" ref-type="bibr">27</xref> commonly report being tired upon awakening along with daytime sleepiness,<xref rid="cit0028" ref-type="bibr">28</xref> and are also at a high risk for sleep disorders, such as insomnia.<xref rid="cit0029" ref-type="bibr">29</xref> It is therefore of particular interest to determine how virtual communication may impact sleep in these demographics. Furthermore, examining the effects of virtual communication both during the day and in the evening is important because the impacts of technology on sleep are not limited to nighttime use: In at least one study, greater screen use during the day independent of any evening use also resulted in reductions in sleep duration and quality, as well as longer sleep onset latencies.<xref rid="cit0017" ref-type="bibr">17</xref></p>
+      <p>Videoconferencing may also impact sleep indirectly, by increasing the time spent indoors or encouraging sedentary behavior. Spending time indoors during the day is associated with decreased exposure to sunlight, which reduces nighttime melatonin secretion and makes it harder to fall asleep.<xref rid="cit0030" ref-type="bibr">30</xref> Because acute, as well as regular, physical activity is associated with longer sleep duration and reduced sleep disturbances,<xref rid="cit0031" ref-type="bibr">31</xref> an increase in sedentary behavior may reduce both sleep quality and sleep drive.<xref rid="cit0032" ref-type="bibr">32</xref>,<xref rid="cit0033" ref-type="bibr">33</xref></p>
+      <sec id="s0001-s2001">
+        <title>Current Study</title>
+        <p>In the current study, students attending a private residential university in the United States during the social gathering restrictions associated with the COVID-19 pandemic provided baseline measures of sleep, videoconferencing, physical activity level, technology use, and mental well-being, followed by completion of daily diaries that included sleep measures from the Consensus Sleep Diary (CSD)<xref rid="cit0034" ref-type="bibr">34</xref> and surveys on technology use before and after bedtime, videoconferencing engagement, and physical activity. Two main questions were of interest: How do individual differences in the overall amount of videoconferencing affect key indices of sleep as measured by CSD? And how are daily fluctuations in virtual communication technology use related to sleep within individuals? Additionally, baseline questionnaire responses were used to model the relationship between videoconferencing, sleep, and measures of academic performance and well-being, two important behavioral outcomes in this demographic. The connection between sleep and psychological distress is of particular interest, because young college-aged adults are vulnerable to both poor sleep<xref rid="cit0028" ref-type="bibr">28</xref>,<xref rid="cit0035" ref-type="bibr">35</xref> and high incidence of anxiety and depression,<xref rid="cit0034" ref-type="bibr">34</xref> and because the COVID-19 pandemic has contributed to a significant rise in both.<xref rid="cit0033" ref-type="bibr">33</xref>,<xref rid="cit0036" ref-type="bibr">36</xref> Furthermore, excessive technology use is associated with both sleep disturbances and negative wellness outcomes,<xref rid="cit0015" ref-type="bibr">15</xref> with problematic smartphone and social media use particularly relevant not only as predictors of increased anxiety and depression but also academic performance.<xref rid="cit0037" ref-type="bibr">37</xref>,<xref rid="cit0038" ref-type="bibr">38</xref> Evidence suggests that smartphone and social media use increased during the COVID-19 pandemic, with a concomitant increase in increased anxiety and depression,<xref rid="cit0039" ref-type="bibr">39</xref>,<xref rid="cit0040" ref-type="bibr">40</xref> as well as an increase in feeling burdened by the pandemic.<xref rid="cit0041" ref-type="bibr">41</xref> Therefore, if videoconferencing does affect sleep, these effects may extend beyond sleep to psychological well-being and academic outcomes.</p>
+      </sec>
+    </sec>
+    <sec id="s0002">
+      <title>Methods</title>
+      <sec id="s0002-s2001">
+        <title>Participants</title>
+        <p>One hundred forty-four university students met criteria for study participation. Participants were excluded if they reported experiencing or being diagnosed in the previous year with a sleep, psychiatric, or musculoskeletal/movement disorder, or taking more than 3 prescription medications (other than birth control). Out of 144 participants, 96 completed the 8-day longitudinal portion of the study (see <xref rid="t0001" ref-type="table">Table 1</xref> for participant demographics). Responses were collected in November 2020 and February-March 2021. All participants were full-time students during the study, and 93% (100% of those who participated in the longitudinal portion of the study) resided on campus. Nearly 85% of participants reported that on one or more days, they attended class in person, whereas 98% indicated having a day with at least one online class.<table-wrap position="float" id="t0001"><label>Table 1</label><caption><p>Descriptive Statistics for the Full Sample of Participants and for Those Who Completed the Longitudinal Portion of the Study</p></caption><table frame="hsides" rules="groups"><thead><tr><th rowspan="2" colspan="1">Characteristic</th><th align="center" rowspan="1" colspan="1">Full Sample (n = 144)</th><th align="center" rowspan="1" colspan="1">Longitudinal Sample (n = 96)</th></tr><tr><th align="center" rowspan="1" colspan="1"><italic toggle="yes">M</italic> (<italic toggle="yes">SD</italic>) or percentage</th><th align="center" rowspan="1" colspan="1"><italic toggle="yes">M</italic> (<italic toggle="yes">SD</italic>) or percentage</th></tr></thead><tbody><tr><td rowspan="1" colspan="1">Female</td><td rowspan="1" colspan="1">70%</td><td rowspan="1" colspan="1">76%</td></tr><tr><td rowspan="1" colspan="1">On-campus residence</td><td rowspan="1" colspan="1">93%</td><td rowspan="1" colspan="1">100%</td></tr><tr><td rowspan="1" colspan="1">First-year student</td><td rowspan="1" colspan="1">58%</td><td rowspan="1" colspan="1">57%</td></tr><tr><td rowspan="1" colspan="1">White/Caucasian</td><td rowspan="1" colspan="1">81%</td><td rowspan="1" colspan="1">80%</td></tr><tr><td rowspan="1" colspan="1">Domestic student</td><td rowspan="1" colspan="1">93%</td><td rowspan="1" colspan="1">92%</td></tr><tr><td rowspan="1" colspan="1">Age</td><td rowspan="1" colspan="1">19.3 (1.4)</td><td rowspan="1" colspan="1">19.2 (1.1)</td></tr><tr><td rowspan="1" colspan="1">Videoconferencing: Hours per day</td><td rowspan="1" colspan="1">-</td><td rowspan="1" colspan="1">1.3 (1.1)</td></tr><tr><td rowspan="1" colspan="1">In-person classes: Days per week</td><td rowspan="1" colspan="1">2.7 (1.7)</td><td rowspan="1" colspan="1">2.8 (1.6)</td></tr><tr><td rowspan="1" colspan="1">Online classes: Days per week</td><td rowspan="1" colspan="1">3.7 (1.2)</td><td rowspan="1" colspan="1">3.9 (1.2)</td></tr><tr><td rowspan="1" colspan="1">Days with Zoom/Teams calls (diary)</td><td rowspan="1" colspan="1">-</td><td rowspan="1" colspan="1">51%</td></tr><tr><td rowspan="1" colspan="1">Days with FaceTime/Social Media calls (diary)</td><td rowspan="1" colspan="1">-</td><td rowspan="1" colspan="1">30%</td></tr><tr><td rowspan="1" colspan="1">Days with video calls within 2 hrs of BT (diary)</td><td rowspan="1" colspan="1">-</td><td rowspan="1" colspan="1">2%</td></tr><tr><td rowspan="1" colspan="1">TST: Days with &lt; 6 hrs of sleep (diary)</td><td rowspan="1" colspan="1">-</td><td rowspan="1" colspan="1">11%</td></tr><tr><td rowspan="1" colspan="1">TST: Days with 6 to &lt; 7 hrs of sleep (diary)</td><td rowspan="1" colspan="1">-</td><td rowspan="1" colspan="1">16%</td></tr><tr><td rowspan="1" colspan="1">TST: Days with 10 to 11 hrs of sleep (diary)</td><td rowspan="1" colspan="1">-</td><td rowspan="1" colspan="1">6%</td></tr><tr><td rowspan="1" colspan="1">TST: Days with &gt; 11 hrs of sleep (diary)</td><td rowspan="1" colspan="1">-</td><td rowspan="1" colspan="1">3%</td></tr><tr><td rowspan="1" colspan="1">PSQI: Global score</td><td rowspan="1" colspan="1">6.5 (2.9)</td><td rowspan="1" colspan="1">6.5 (3.0)</td></tr><tr><td rowspan="1" colspan="1">PSQI: TST hours</td><td rowspan="1" colspan="1">7.4 (1.1)</td><td rowspan="1" colspan="1">7.4 (1.0)</td></tr><tr><td rowspan="1" colspan="1">DASS-21</td><td rowspan="1" colspan="1">13.3 (9.8)</td><td rowspan="1" colspan="1">12.7 (9.6)</td></tr><tr><td rowspan="1" colspan="1">IPAQ: METs</td><td rowspan="1" colspan="1">3340.6 (2665.5)</td><td rowspan="1" colspan="1">3161.0 (2658.9)</td></tr><tr><td rowspan="1" colspan="1">IPAQ: Sedentary hours per day</td><td rowspan="1" colspan="1">7.40 (3.1)</td><td rowspan="1" colspan="1">7.6 (2.9)</td></tr><tr><td rowspan="1" colspan="1">Owl-Lark: Morningness index</td><td rowspan="1" colspan="1">48.5 (7.8)</td><td rowspan="1" colspan="1">49.1 (7.6)</td></tr><tr><td rowspan="1" colspan="1">Semester GPA</td><td rowspan="1" colspan="1">3.5 (0.5)</td><td rowspan="1" colspan="1">3.5 (0.5)</td></tr><tr><td rowspan="1" colspan="1">Alcohol use: Once a month or less</td><td rowspan="1" colspan="1">48%</td><td rowspan="1" colspan="1">52%</td></tr><tr><td rowspan="1" colspan="1">Energy drinks: Once a month or less</td><td rowspan="1" colspan="1">93%</td><td rowspan="1" colspan="1">93%</td></tr><tr><td rowspan="1" colspan="1">Sleep aids: Once a month or less</td><td rowspan="1" colspan="1">88%</td><td rowspan="1" colspan="1">88%</td></tr><tr><td rowspan="1" colspan="1">Daily caffeine use</td><td rowspan="1" colspan="1">28%</td><td rowspan="1" colspan="1">27%</td></tr><tr><td rowspan="1" colspan="1">Self-reported health: Scale (1–6)</td><td rowspan="1" colspan="1">4.8 (0.9)</td><td rowspan="1" colspan="1">4.7 (0.8)</td></tr><tr><td rowspan="1" colspan="1">BMI</td><td rowspan="1" colspan="1"> </td><td rowspan="1" colspan="1">24.4 (4.7)</td></tr></tbody></table><table-wrap-foot><fn id="tfn0001"><p><bold>Abbreviations</bold>: n, number of participants; <italic toggle="yes">M</italic>, mean; <italic toggle="yes">SD</italic>, standard deviation; TST, total sleep time; PSQI, Pittsburgh Sleep Quality Inventory; DASS-21, Depression, Anxiety, Stress Scale (short version); IPAQ: International Physical Activity Questionnaire; METS, Multiples of the resting metabolic rate; GPA, grade point average; BMI, body mass index.</p></fn></table-wrap-foot></table-wrap></p>
+      </sec>
+      <sec id="s0002-s2002">
+        <title>Materials</title>
+        <sec id="s0002-s2002-s3001">
+          <title>Baseline Measures</title>
+          <p>All participants provided demographic information and completed several questionnaires, including the Pittsburgh Sleep Quality Index (PSQI),<xref rid="cit0042" ref-type="bibr">42</xref> which generates a global score made up of seven component scores to describe sleep quality, latency, duration, efficiency, disturbances, use of sleep medication, and daytime dysfunction. This self-report measure of sleep is widely used and has good reliability, as measured by Cronbach’s alpha (α = 0.83). Values of 0.70 and higher typically indicate satisfactory internal consistency.<xref rid="cit0043" ref-type="bibr">43</xref> Participants also completed the Owl-Lark scale,<xref rid="cit0044" ref-type="bibr">44</xref> in which preferred schedules of daily activities are identified (α = 0.81). Higher scores indicate greater morning preference. Physical activity was assessed with the International Physical Activity Questionnaire (IPAQ – short form), which asks for a self-report of the amount of time, in the last 7 days, that the individuals engaged in physical activity and sedentary behaviors (test–retest reliability, as measured by Spearman rho, was good, ρ = 0.76).<sup>45</sup> Mood was assessed with the short version of the Depression, Anxiety, and Stress Scale (DASS-21).<xref rid="cit0046" ref-type="bibr">46</xref> The reliability of the subscales ranges from α = 0.83 to 0.93.<sup>47</sup> Brief health and substance use questionnaire, which asked about missed classes, health center or doctor’s visits, and frequency of consuming substances such as alcohol and caffeine, was also administered.<xref rid="cit0048" ref-type="bibr">48</xref> Respondents also provided a detailed weekly schedule of classes and their typical format (such as in person, online, or hybrid). Finally, they completed the Maladaptive Technology Use scale,<xref rid="cit0049" ref-type="bibr">49</xref> which assessed problematic Internet and social media use (α = 0.74), and reported use of various technologies in the previous 2 weeks, including typical use of videoconferencing software (such as Zoom, Microsoft Teams, Skype, FaceTime, and other platforms or apps that allow video calls) for academic or work-related purposes, as well as for personal or leisure use.</p>
+        </sec>
+        <sec id="s0002-s2002-s3002">
+          <title>Daily Diary</title>
+          <p>Participants tracked their sleep using the core CSD,<xref rid="cit0034" ref-type="bibr">34</xref> which is validated for use in clinical and non-clinical populations.<xref rid="cit0050" ref-type="bibr">50</xref> They were trained to complete the diary for previous night’s sleep during an initial face-to-face session and then completed it daily for 7 additional days, which is sufficient for diagnostic or screening purposes.<xref rid="cit0051" ref-type="bibr">51</xref> Data collection took place on a university campus during the COVID-19 pandemic. The CSD allows to estimate the length and timing of the sleep cycle and calculate the following indices: Bedtime (BT: the time when one begins trying to fall asleep); SOL: time to fall asleep); rise time (RT: the time of the final awakening in the morning); wakefulness after initial sleep onset (WASO: duration of all nighttime awakenings prior to final awakening); time spent in bed after final awakening (TWASO, or terminal WASO); total time in bed (TIB: the time difference between getting out of bed and getting into bed, which may be different from the time of final awakening and the time when one started trying to fall asleep); total wake time (TWT: SOL + WASO + TWASO); total sleep time (TST, equal to TIB minus TWT); sleep efficiency (SE: ratio of TST to TIB expressed as a percentage); and sleep quality (from 1 = very poor to 5 = very good). The following additional questions were included: Total duration of naps, whether over-the-counter or prescription aids were used to facilitate sleep, whether the participants checked their phone or computer after they started trying to fall asleep, the location of their phone while they slept, and whether the calls/notifications were silenced for the night.</p>
+          <p>Several questions asked about the use of videoconferencing platforms for academic or work-related calls on the previous day. If such calls were made, participants were asked to estimate the frequency of the webcam use (as percent of total call time); engagement during calls (as percent of total call time talking, interacting with others, or paying attention to the speaker); number of breaks taken during calls; fatigue at the end of the last call; and the time when the last call of the day ended. Questions also queried the use of various electronic devices within 1 hour of bedtime. Participants indicated the amount of time they spent engaging in vigorous and moderate physical activity using two questions from the International Physical Activity Questionnaire (IPAQ).<xref rid="cit0045" ref-type="bibr">45</xref></p>
+        </sec>
+        <sec id="s0002-s2002-s3003">
+          <title>Procedure</title>
+          <p>All procedures were approved by the St. Lawrence University’s Institutional Review Board and accorded with the Declaration of Helsinki. Informed consent was obtained from all participants prior to data collection. Individuals who took part in the longitudinal portion of the study completed two in-person sessions one week apart. During the first session participants were guided through the completion of the sleep diary for the previous night’s sleep as well as the baseline questionnaire. They were also outfitted with a consumer-grade activity tracker (Xiaomi Mi Band 5) for an unrelated validation study and were asked to wear it continuously for the next week. They were told to expect a daily email with a brief questionnaire on previous night’s sleep and prior day’s technology use and physical activity and kept a hard copy of the sleep diary that explained each question. Participants were asked to complete the diaries ideally within 1 hour of getting out of bed over the next 7 days: 62% of diaries were completed within 1 hour (and 93% within 4 hours) of RT. The overall completion rate was 99%. The link to the electronic response form was emailed to participants at 06:00 daily, and a reminder was sent at noon to those who have not responded by that time. One week after the initial session, a second in-person session was conducted, during which participants completed the final daily diary, estimated their grade point average (GPA) and/or provided consent to retrieve GPA from the registrar’s office at the end of the current semester, returned the activity tracker, and were debriefed. Students who completed the cross-sectional portion of the study only responded to the baseline questionnaires online and provided consent to allow retrieval of their GPA from the registrar’s office at the end of the semester.</p>
+        </sec>
+        <sec id="s0002-s2002-s3004">
+          <title>Data Analysis</title>
+          <p>The effects of videoconferencing on sleep and ratings of fatigue were analyzed via multilevel modeling using the longitudinal sleep diary data. The daily videoconferencing duration was the key predictor of the following night’s sleep. The relationship between videoconferencing, sleep, mental well-being, and academic performance was modeled via path analysis using the data from the cross-sectional sample. The alpha level was set at 0.05.</p>
+        </sec>
+      </sec>
+      <sec id="s0002-s2003">
+        <title>Multilevel Regression</title>
+        <p>Multilevel models allow one to examine the relationship among variables in clustered data structures, where data points may be correlated at one level of measurement but independent at another.<xref rid="cit0052" ref-type="bibr">52</xref> In the present study, participants self-reported sleep and technology use, including videoconferencing, over 8 days. These observations are expected to be correlated within persons (at Level 1) but uncorrelated between participants (at Level 2). Thus, Level-1 longitudinal observations (daily diary reports) were nested within the Level-2 persons.</p>
+        <p>The effects of videoconferencing duration (in hours per day) on sleep-relevant variables were examined in separate linear mixed models for TST, TWT, sleep midpoint (the midpoint between BT and RT), SE, and sleep quality. These outcomes were selected because they are meaningful descriptors of sleep and because they represent a parsimonious way to combine multiple sleep diary measures into relatively few metrics, thus minimizing multiple comparisons. Videoconferencing was modeled both as a Level-2 predictor (differences between person-means) and a Level-1 predictor (daily variation around each person’s mean score) to examine its influence on sleep at both levels.<xref rid="cit0053" ref-type="bibr">53</xref>,<xref rid="cit0054" ref-type="bibr">54</xref> The Benjamini-Hochberg approach was used to control the false discovery rate (FDR) associated with multiple comparisons.<xref rid="cit0055" ref-type="bibr">55</xref></p>
+        <p>Multilevel regression models were adjusted by covariates: Time-varying (Level-1) covariates included screen time prior to bedtime, one’s course load for a given day, and whether sleep occurred on a weeknight or weekend night. Time-invariant (Level-2) covariates included gender, age, chronotype, as well as health-related visits (such as visiting a doctor, a hospital, or a campus health and counseling center) to control for the pandemic-related health impacts. Previous day’s value of the outcome variable was entered to account for autocorrelation. Level-2 covariates were group-mean-centered, whereas Level-1 covariates were person-mean-centered. Since no predictions were specified for any of the covariates and they were not of substantive interest to the study, they are not discussed further (supplemental materials include analysis summaries that report estimates for all covariates as well as details of model fitting).</p>
+      </sec>
+      <sec id="s0002-s2004">
+        <title>Path Analysis</title>
+        <p>Path analysis is a statistical technique that allows one to construct and test statistical causal models based on observed variables in correlational datasets.<xref rid="cit0056" ref-type="bibr">56</xref> Baseline session data were used to predict two key student outcomes – mental distress (DASS global score) and semester GPA – from estimates of videoconferencing for academic purposes and for personal use/leisure to gauge whether videoconferencing affects these outcomes indirectly via sleep. It is also reasonable to predict that videoconferencing is associated with increased sedentary behavior and decreased exercise, which might in turn influence mental wellness and academic performance.<xref rid="cit0057" ref-type="bibr">57</xref> Therefore, sleep problems (PSQI global score) and prevalence of physical activity and sedentary behaviors (from IPAQ) were added as potential mediators. The following control variables were also included: gender (female or not), ethnicity (white or not), and a score on the maladaptive use of technology scale.<xref rid="cit0049" ref-type="bibr">49</xref> The analyses were limited to respondents for whom GPA was available (n = 133).</p>
+      </sec>
+    </sec>
+    <sec id="s0003">
+      <title>Results</title>
+      <sec id="s0003-s2001">
+        <title>Multilevel Regression on the Daily Sleep Diaries: How Duration of Videoconferencing Calls Affects Sleep and Fatigue</title>
+        <p>The analysis of sleep and videocall data from the 8 daily diaries allows us to prospectively examine the effects of previous day’s videoconferencing (duration, in hours) on various indices of sleep captured by the CSD. Three observations were excluded from analyses of daily sleep diaries because the participants did not sleep that night, which precludes calculation of the majority of sleep indices; in addition, for some outcome variables, one or more observations were missing. The analyses reported below therefore included 662 to 665 observations from 96 participants. In interpreting the daily diary results, refer to <xref rid="t0002" ref-type="table">Table 2</xref> and <xref rid="f0001" ref-type="fig">Figure 1</xref>. <xref rid="t0002" ref-type="table">Table 2</xref> reports the coefficients for the between-person (Level 2) effect of videoconferencing (in hours per day) on each of 5 indices of sleep and the within-person effect that captures the influence of daily fluctuations in videoconferencing (Level 1 effect). <xref rid="f0001" ref-type="fig">Figure 1</xref> helps to visualize these effects by plotting estimated slopes for the high-videoconferencing individuals (1 SD above the group mean, corresponding to 2.4 h of calls per day) versus low-videoconferencing individuals (1 SD below the group mean, corresponding to 0.3 h of calls per day), in addition to the mean effect (1.3 h of calls per day).<table-wrap position="float" id="t0002"><label>Table 2</label><caption><p>Multilevel Regression Examining Hours of Videoconferencing as a Predictor of Sleep</p></caption><table frame="hsides" rules="groups"><thead><tr><th rowspan="1" colspan="1">Outcome</th><th rowspan="1" colspan="1">Predictor</th><th rowspan="1" colspan="1">b</th><th rowspan="1" colspan="1">β</th><th rowspan="1" colspan="1">95% CI</th></tr></thead><tbody><tr><td rowspan="1" colspan="1">Sleep duration</td><td rowspan="1" colspan="1"><bold>Between-person effect</bold></td><td rowspan="1" colspan="1"><bold>−0.286**</bold></td><td rowspan="1" colspan="1"><bold>−0.164</bold></td><td rowspan="1" colspan="1"><bold>(−0.458 to −0.113)</bold></td></tr><tr><td rowspan="1" colspan="1">(TST, hours)</td><td rowspan="1" colspan="1">Within-person effect</td><td rowspan="1" colspan="1">−0.068</td><td rowspan="1" colspan="1">−0.050</td><td rowspan="1" colspan="1">(−0.158 to 0.021)</td></tr><tr><td rowspan="1" colspan="1"> </td><td rowspan="1" colspan="1">ICC = 0.161</td><td colspan="2" rowspan="1">R<sup>2</sup><sub>conditional</sub> / R<sup>2</sup><sub>marginal</sub>:</td><td rowspan="1" colspan="1">0.211 / 0.060</td></tr><tr><td rowspan="1" colspan="1">Wake time</td><td rowspan="1" colspan="1">Between-person effect</td><td rowspan="1" colspan="1">0.042</td><td rowspan="1" colspan="1">0.058</td><td rowspan="1" colspan="1">(−0.028 to 0.111)</td></tr><tr><td rowspan="1" colspan="1">(TWT, hours)</td><td rowspan="1" colspan="1">Within-person effect</td><td rowspan="1" colspan="1">−0.013</td><td rowspan="1" colspan="1">−0.023</td><td rowspan="1" colspan="1">(−0.042 to 0.017)</td></tr><tr><td rowspan="1" colspan="1"> </td><td rowspan="1" colspan="1">ICC = 0.257</td><td colspan="2" rowspan="1">R<sup>2</sup><sub>conditional</sub> / R<sup>2</sup><sub>marginal</sub>:</td><td rowspan="1" colspan="1">0.294 / 0.049</td></tr><tr><td rowspan="1" colspan="1">Midpoint</td><td rowspan="1" colspan="1">Between-person effect</td><td rowspan="1" colspan="1">−0.094</td><td rowspan="1" colspan="1">−0.071</td><td rowspan="1" colspan="1">(−0.242 to 0.058)</td></tr><tr><td rowspan="1" colspan="1">Of sleep</td><td rowspan="1" colspan="1"><bold>Within-person effect</bold></td><td rowspan="1" colspan="1"><bold>−0.070**</bold></td><td rowspan="1" colspan="1"><bold>−0.067</bold></td><td rowspan="1" colspan="1"><bold>(−0.124 to −0.016)</bold></td></tr><tr><td rowspan="1" colspan="1">(Hours)</td><td rowspan="1" colspan="1">ICC = 0.378</td><td colspan="2" rowspan="1">R<sup>2</sup><sub>conditional</sub> / R<sup>2</sup><sub>marginal</sub>:</td><td rowspan="1" colspan="1">0.590 / 0.341</td></tr><tr><td rowspan="1" colspan="1">Sleep</td><td rowspan="1" colspan="1"><bold>Between-person effect</bold></td><td rowspan="1" colspan="1"><bold>−0.877*</bold></td><td rowspan="1" colspan="1"><bold>−0.102</bold></td><td rowspan="1" colspan="1"><bold>(−1.677 to −0.095)</bold></td></tr><tr><td rowspan="1" colspan="1">Efficiency</td><td rowspan="1" colspan="1">Within-person effect</td><td rowspan="1" colspan="1">−0.007</td><td rowspan="1" colspan="1">−0.001</td><td rowspan="1" colspan="1">(−0.343 to 0.338)</td></tr><tr><td rowspan="1" colspan="1">(Percent)</td><td rowspan="1" colspan="1">ICC = 0.253</td><td colspan="2" rowspan="1">R<sup>2</sup><sub>conditional</sub> / R<sup>2</sup><sub>marginal</sub>:</td><td rowspan="1" colspan="1">0.294 / 0.055</td></tr><tr><td rowspan="1" colspan="1">Sleep</td><td rowspan="1" colspan="1">Between-person effect</td><td rowspan="1" colspan="1">−0.090</td><td rowspan="1" colspan="1">−0.098</td><td rowspan="1" colspan="1">(−0.202 to 0.019)</td></tr><tr><td rowspan="1" colspan="1">Quality</td><td rowspan="1" colspan="1"><bold>Within-person effect</bold></td><td rowspan="1" colspan="1"><bold>−0.072**</bold></td><td rowspan="1" colspan="1"><bold>−0.097</bold></td><td rowspan="1" colspan="1"><bold>(−0.12 to −0.024)</bold></td></tr><tr><td rowspan="1" colspan="1">(5-point scale)</td><td rowspan="1" colspan="1">ICC = 0.233</td><td colspan="2" rowspan="1">R<sup>2</sup><sub>conditional</sub> / R<sup>2</sup><sub>marginal</sub>:</td><td rowspan="1" colspan="1">0.258 / 0.033</td></tr></tbody></table><table-wrap-foot><fn id="tfn0002"><p><bold>Notes</bold>: Between-person (Level 2) effects convey the change in the outcome across individuals for each hour of average daily videoconferencing. Within-person (Level 1) effects convey the change in the outcome within individuals for each hour of videoconferencing relative to the person-mean. robust 95% CI were generated using bootstrapping; conditional R<sup>2</sup> indicates the proportion of variance explained by fixed and random effects, whereas marginal R<sup>2</sup> indicates the proportion of variance explained by fixed effects only. The following covariates were entered in each model: Age, sex, morningness score, day’s class load, weekday/weekend status, technology use prior to bedtime, health provider visits, and previous day’s value of the dependent variable. Covariates that varied between persons only were grand-mean-centered. Covariates that varied within-persons were person-mean centered. *<italic toggle="yes">p</italic> &lt; 0.05; **<italic toggle="yes">p</italic> &lt; 0.01 (2-tailed). Bold = significant after the false discovery correction.</p></fn><fn id="tfn0003"><p><bold>Abbreviations</bold>: β, standardized regression coefficients; ICC, adjusted Intraclass Correlation Coefficient; TST, total sleep time; TWT, Total Wake Time; <italic toggle="yes">b</italic>, robust unstandardized regression coefficients; CI, confidence interval.</p></fn></table-wrap-foot></table-wrap>
+<fig position="float" id="f0001" fig-type="figure"><label>Figure 1</label><caption><p>Between-person and within-person effects of videoconferencing on sleep.</p></caption><graphic xlink:href="NSS-16-1583-g0001" content-type="print-only" position="float"/><attrib><bold>Notes</bold>: The y-intercept at the dotted vertical line identifies model-generated outcome values at the person-mean for participants with high (2.4 h of video calls per day; long-dash line), average (1.3 h of calls per day; solid line), and low (0.3 h of calls per day; short-dash line) typical daily video call load. Line slopes reflect the rate of change in the outcome variable as a function of within-person deviation from the typical call duration.</attrib><attrib><bold>Abbreviations</bold>: TST, Total Sleep Time; TWT, Total Wake Time; SE, Sleep Efficiency.</attrib></fig></p>
+        <sec id="s0003-s2001-s3001">
+          <title>Between-Person (Level 2) Effects</title>
+          <p>The Level 2 effect of videoconferencing for each outcome variable is captured by the variability of the y-intercepts at the person-mean in <xref rid="f0001" ref-type="fig">Figure 1</xref>. The effects on TST and SE reached statistical significance. A robust difference between the high- and low-videoconferencing individuals can be observed in the TST plot of <xref rid="f0001" ref-type="fig">Figure 1</xref> (top-left), with a nightly loss of about two thirds of an hour of TST by those with average videoconferencing amount of 1 SD above the mean compared to those 1 SD below the mean. The unstandardized coefficient (<italic toggle="yes">b</italic> = −0.29) indicates that 17 m of sleep was lost for each hour of videoconferencing in those with a higher volume of calls (see <xref rid="t0002" ref-type="table">Table 2</xref>, between-person effects). The coefficient for SE (<italic toggle="yes">b</italic> = −0.88) corresponds to a loss of slightly less than 1% in sleep efficiency with each additional hour of videoconferencing (middle-right plot in <xref rid="f0001" ref-type="fig">Figure 1</xref>).</p>
+          <p>The plots for TWT, sleep midpoint, and sleep quality indicate that individuals with higher-than-average videoconferencing spent more time awake, had earlier sleep midpoints, and reported lower sleep quality compared to those with lower-than-average videoconferencing, although these trends were modest and not statistically significant.</p>
+        </sec>
+        <sec id="s0003-s2001-s3002">
+          <title>Within-Person (Level 1) Effects</title>
+          <p>Participants could have made several videoconferencing calls on some days and none on others. Independently of any individual differences in the weekly call load, do daily fluctuations in videoconferencing affect sleep? <xref rid="f0001" ref-type="fig">Figure 1</xref> slopes capture these effects, with corresponding coefficients shown in <xref rid="t0002" ref-type="table">Table 2</xref> (refer to within-person effects). On days with longer videoconference duration participants reported significantly earlier sleep midpoints (&gt; 4 m for each hour of video calls): The advanced sleep midpoints point to increased sleep pressure/fatigue on days with a relatively high call load.<xref rid="cit0058" ref-type="bibr">58</xref> At the same time, a significant decrease in sleep quality was observed following days with a greater number of videoconference calls, and TST decreased by approximately 4 m with each additional hour of videoconference calls, although that effect failed to reach statistical significance. Neither TWT nor SE changed perceptibly as a result of variation in daily call volume.</p>
+        </sec>
+        <sec id="s0003-s2001-s3003">
+          <title>Videoconference Call Fatigue</title>
+          <p>Fatigue at the end of the last call of the day (on a scale from 1, very low, to 6, very high) was modeled as a function of duration of videocalls, as well as the following call characteristics: Number of academic/work-related calls on that day (one or greater); percent camera use during calls; percent engagement during a call; and proximity (hours) of the last call to bedtime. Videoconferencing duration was disaggregated into between- and within-person effects; the remaining predictors were grand-mean-centered to capture the overall variability and reduce model complexity (the data for this analysis came from 70 participants who provided 228 observations). The results are summarized in <xref rid="t0003" ref-type="table">Table 3</xref>. An increase in 1 h of videoconferencing over one’s typical daily average was associated with more than a third of a point increase in fatigue (<italic toggle="yes">b</italic> = 0.39, <italic toggle="yes">p</italic> &lt; 0.001, β = 0.28). Furthermore, lower engagement during calls predicted increased fatigue (<italic toggle="yes">b</italic> = −0.01, <italic toggle="yes">p</italic> = 0.02, β = −0.15). The proximity of the last video call to bedtime, the extent of the webcam use, and the number of calls were all associated with increased fatigue, although none reached statistical significance.<table-wrap position="float" id="t0003"><label>Table 3</label><caption><p>Multilevel Regression Predicting Fatigue at the End of the Last Video Call of the Day</p></caption><table frame="hsides" rules="groups"><thead><tr><th rowspan="1" colspan="1">Predictor</th><th rowspan="1" colspan="1"><italic toggle="yes">b</italic></th><th rowspan="1" colspan="1">β</th><th rowspan="1" colspan="1">95% CI</th></tr></thead><tbody><tr><td rowspan="1" colspan="1">Videoconferencing hours (between-person effect)</td><td rowspan="1" colspan="1">0.082</td><td rowspan="1" colspan="1">0.053</td><td rowspan="1" colspan="1">(−0.191 to 0.352)</td></tr><tr><td rowspan="1" colspan="1"><bold>Videoconferencing hours (within-person effect)</bold></td><td rowspan="1" colspan="1"><bold>0.383***</bold></td><td rowspan="1" colspan="1"><bold>0.278</bold></td><td rowspan="1" colspan="1"><bold>(0.172 to 0.592)</bold></td></tr><tr><td rowspan="1" colspan="1">Proximity of the last video call to bedtime</td><td rowspan="1" colspan="1">−0.034</td><td rowspan="1" colspan="1">−0.088</td><td rowspan="1" colspan="1">(−0.085 to 0.019)</td></tr><tr><td rowspan="1" colspan="1">Number of video calls</td><td rowspan="1" colspan="1">0.100</td><td rowspan="1" colspan="1">0.061</td><td rowspan="1" colspan="1">(−0.200 to 0.404)</td></tr><tr><td rowspan="1" colspan="1">Percentage of webcam use during calls</td><td rowspan="1" colspan="1">0.004</td><td rowspan="1" colspan="1">0.094</td><td rowspan="1" colspan="1">(−0.002 to 0.010)</td></tr><tr><td rowspan="1" colspan="1"><bold>Engagement during calls</bold></td><td rowspan="1" colspan="1"><bold>−0.009*</bold></td><td rowspan="1" colspan="1"><bold>−0.153</bold></td><td rowspan="1" colspan="1"><bold>(−0.017 to −0.002)</bold></td></tr><tr><td rowspan="1" colspan="1">ICC</td><td rowspan="1" colspan="1">0.235</td><td rowspan="1" colspan="1"> </td><td rowspan="1" colspan="1"> </td></tr><tr><td rowspan="1" colspan="1">R<sup>2</sup><sub>conditional</sub> / R<sup>2</sup><sub>marginal</sub></td><td rowspan="1" colspan="1">0.416 / 0.237</td><td rowspan="1" colspan="1"> </td><td rowspan="1" colspan="1"> </td></tr></tbody></table><table-wrap-foot><fn id="tfn0004"><p><bold>Notes</bold>: All predictors were grand-mean centered. Covariates (not shown) were also grand-mean centered and included course load, morningness, gender, age, weekday/weekend status, technology use prior to bedtime, and health provider visits. Observations from 70 participants who provided the detailed call characteristics data were used in the analysis. <italic toggle="yes">b</italic> = robust unstandardized regression coefficients; β = standardized regression coefficients; CI = confidence interval; robust 95% CI were generated using bootstrapping; ICC = adjusted Intraclass Correlation Coefficient; conditional R<sup>2</sup> indicates the proportion of variance explained by fixed and random effects, whereas marginal R<sup>2</sup> indicates the proportion of variance explained by fixed effects only. *<italic toggle="yes">p</italic> ≤ 0.05; ***<italic toggle="yes">p</italic> &lt; 0.001 (2-tailed). Bold = significant after the false discovery correction.</p></fn></table-wrap-foot></table-wrap></p>
+        </sec>
+      </sec>
+      <sec id="s0003-s2002">
+        <title>PSQI and Videoconferencing</title>
+        <p>Examination of PSQI scores offers a more global means to scrutinize the relationship between videoconferencing and sleep. The 96 longitudinal participants were divided into two groups by the typical daily videoconferencing load based on a median split, resulting in a high-load group, <italic toggle="yes">M</italic> = 2.0 hrs of videoconferencing per day (<italic toggle="yes">SD</italic> = 1.1), and a low-load group, <italic toggle="yes">M</italic> = 0.7 hrs per day (<italic toggle="yes">SD</italic> = 0.3). Among high users, 71% had a global PSQI score &gt; 5, a commonly used cutoff for clinically relevant poor sleep,<xref rid="cit0042" ref-type="bibr">42</xref>,<xref rid="cit0059" ref-type="bibr">59</xref>,<xref rid="cit0060" ref-type="bibr">60</xref> whereas only 46% of the low users had a score of &gt; 5, χ<sup>2</sup>(1) = 6.17, <italic toggle="yes">p</italic> = 0.013. Furthermore, those with a high video call load reported somewhat higher PSQI scores (<italic toggle="yes">M</italic> = 7.0, <italic toggle="yes">SD</italic> = 2.9) than those with a low load (<italic toggle="yes">M</italic> = 5.9, <italic toggle="yes">SD</italic> = 3.0), <italic toggle="yes">t</italic>(94) = 1.82, <italic toggle="yes">p</italic> = 0.072. These analyses are consistent with a conjecture that videoconferencing effects accumulate over time when comparing individuals with high versus low daily video call load. Notably, high-volume callers also reported higher sedentary behaviors, <italic toggle="yes">t</italic>(94) = 2.15, <italic toggle="yes">p</italic> = 0.034, but no significant differences were found between high- and low-volume callers in other key metrics that might suggest differences in pandemic-related factors other than videoconferencing between these two groups (Morningness, DASS, IPAQ, GPA, technology use, alcohol use, and overall health).</p>
+      </sec>
+      <sec id="s0003-s2003">
+        <title>Path Analysis</title>
+        <p>A path analysis was performed to map the relationship between baseline measures of videoconferencing, disaggregated into academic/work-related and personal videocalls, sleep, and physical activity/sedentary behavior with two outcomes of interest: Psychological distress measured by DASS and end-of-term student GPA. The variables of the final model shown in <xref rid="f0002" ref-type="fig">Figure 2</xref> explained 13% of variability in GPA and 44% of variability in DASS scores. The direct effects of predictors on each endogenous variable are shown in <xref rid="t0004" ref-type="table">Table 4</xref>. See <underline><ext-link xlink:href="https://www.dovepress.com/get_supplementary_file.php?f=478359.docx" ext-link-type="uri">Table S1</ext-link></underline> for the correlation matrix of the variables included in the final path model and <underline><ext-link xlink:href="https://www.dovepress.com/get_supplementary_file.php?f=478359.docx" ext-link-type="uri">Tables S2</ext-link></underline> and <underline><ext-link xlink:href="https://www.dovepress.com/get_supplementary_file.php?f=478359.docx" ext-link-type="uri">S3</ext-link></underline> for indirect and total effects, respectively.<table-wrap position="float" id="t0004"><label>Table 4</label><caption><p>Direct Effects on Endogenous Variables in the Final Path Model</p></caption><table frame="hsides" rules="groups"><thead><tr><th rowspan="2" colspan="1">Endogenous Variable</th><th rowspan="2" colspan="1"/><th rowspan="2" align="center" colspan="1">Predictor</th><th rowspan="2" align="center" colspan="1"><italic toggle="yes">b</italic></th><th align="center" colspan="2" rowspan="1">95% Confidence Intervals</th><th rowspan="2" align="center" colspan="1">P-Value</th><th rowspan="2" align="center" colspan="1">β</th></tr><tr><th rowspan="1" colspan="1">Lower Bound</th><th rowspan="1" colspan="1">Upper Bound</th></tr></thead><tbody><tr><td rowspan="1" colspan="1">Video calls (academic)</td><td rowspan="1" colspan="1">&lt;---</td><td rowspan="1" colspan="1">Female gender</td><td rowspan="1" colspan="1">2.552</td><td rowspan="1" colspan="1">1.449</td><td rowspan="1" colspan="1">3.708</td><td rowspan="1" colspan="1">&lt; 0.001</td><td rowspan="1" colspan="1">0.236</td></tr><tr><td rowspan="1" colspan="1"> </td><td rowspan="1" colspan="1"> </td><td rowspan="1" colspan="1"> </td><td rowspan="1" colspan="1"> </td><td rowspan="1" colspan="1"> </td><td rowspan="1" colspan="1"> </td><td rowspan="1" colspan="1"> </td><td rowspan="1" colspan="1"> </td></tr><tr><td rowspan="1" colspan="1">Video calls (personal)</td><td rowspan="1" colspan="1">&lt;---</td><td rowspan="1" colspan="1">Female gender</td><td rowspan="1" colspan="1">1.337</td><td rowspan="1" colspan="1">0.489</td><td rowspan="1" colspan="1">2.331</td><td rowspan="1" colspan="1">0.009</td><td rowspan="1" colspan="1">0.160</td></tr><tr><td rowspan="1" colspan="1"> </td><td rowspan="1" colspan="1"> </td><td rowspan="1" colspan="1"> </td><td rowspan="1" colspan="1"> </td><td rowspan="1" colspan="1"> </td><td rowspan="1" colspan="1"> </td><td rowspan="1" colspan="1"> </td><td rowspan="1" colspan="1"> </td></tr><tr><td rowspan="1" colspan="1">Sleep problems (PSQI)</td><td rowspan="1" colspan="1">&lt;---</td><td rowspan="1" colspan="1">Video calls (academic)</td><td rowspan="1" colspan="1">0.146</td><td rowspan="1" colspan="1">0.055</td><td rowspan="1" colspan="1">0.228</td><td rowspan="1" colspan="1">0.008</td><td rowspan="1" colspan="1">0.244</td></tr><tr><td rowspan="1" colspan="1"> </td><td rowspan="1" colspan="1"> </td><td rowspan="1" colspan="1">Maladaptive Technology Use</td><td rowspan="1" colspan="1">0.779</td><td rowspan="1" colspan="1">0.403</td><td rowspan="1" colspan="1">1.147</td><td rowspan="1" colspan="1">&lt; 0.001</td><td rowspan="1" colspan="1">0.261</td></tr><tr><td rowspan="1" colspan="1"> </td><td rowspan="1" colspan="1"> </td><td rowspan="1" colspan="1">Video calls (personal)</td><td rowspan="1" colspan="1">0.117</td><td rowspan="1" colspan="1">−0.007</td><td rowspan="1" colspan="1">0.268</td><td rowspan="1" colspan="1">0.117</td><td rowspan="1" colspan="1">0.151</td></tr><tr><td rowspan="1" colspan="1">Sedentary behavior</td><td rowspan="1" colspan="1">&lt;---</td><td rowspan="1" colspan="1">Video calls (academic)</td><td rowspan="1" colspan="1">0.112</td><td rowspan="1" colspan="1">0.019</td><td rowspan="1" colspan="1">0.227</td><td rowspan="1" colspan="1">0.048</td><td rowspan="1" colspan="1">0.174</td></tr><tr><td rowspan="1" colspan="1"> </td><td rowspan="1" colspan="1"> </td><td rowspan="1" colspan="1">White ethnicity</td><td rowspan="1" colspan="1">−2.575</td><td rowspan="1" colspan="1">−3.755</td><td rowspan="1" colspan="1">−1.436</td><td rowspan="1" colspan="1">&lt; 0.001</td><td rowspan="1" colspan="1">−0.334</td></tr><tr><td rowspan="1" colspan="1">Semester GPA</td><td rowspan="1" colspan="1">&lt;---</td><td rowspan="1" colspan="1">Video calls (personal)</td><td rowspan="1" colspan="1">−0.021</td><td rowspan="1" colspan="1">−0.048</td><td rowspan="1" colspan="1">−0.010</td><td rowspan="1" colspan="1">0.008</td><td rowspan="1" colspan="1">−0.168</td></tr><tr><td rowspan="1" colspan="1"> </td><td rowspan="1" colspan="1"> </td><td rowspan="1" colspan="1">Sleep problems (PSQI)</td><td rowspan="1" colspan="1">−0.031</td><td rowspan="1" colspan="1">−0.058</td><td rowspan="1" colspan="1">−0.006</td><td rowspan="1" colspan="1">0.004</td><td rowspan="1" colspan="1">−0.192</td></tr><tr><td rowspan="1" colspan="1"> </td><td rowspan="1" colspan="1"> </td><td rowspan="1" colspan="1">Female gender</td><td rowspan="1" colspan="1">0.306</td><td rowspan="1" colspan="1">0.127</td><td rowspan="1" colspan="1">0.487</td><td rowspan="1" colspan="1">0.004</td><td rowspan="1" colspan="1">0.290</td></tr><tr><td rowspan="1" colspan="1">Mental distress (DASS)</td><td rowspan="1" colspan="1">&lt;---</td><td rowspan="1" colspan="1">White ethnicity</td><td rowspan="1" colspan="1">3.342</td><td rowspan="1" colspan="1">0.956</td><td rowspan="1" colspan="1">5.579</td><td rowspan="1" colspan="1">0.025</td><td rowspan="1" colspan="1">0.143</td></tr><tr><td rowspan="1" colspan="1"> </td><td rowspan="1" colspan="1"> </td><td rowspan="1" colspan="1">Sedentary behavior</td><td rowspan="1" colspan="1">0.697</td><td rowspan="1" colspan="1">0.355</td><td rowspan="1" colspan="1">1.048</td><td rowspan="1" colspan="1">0.001</td><td rowspan="1" colspan="1">0.231</td></tr><tr><td rowspan="1" colspan="1"> </td><td rowspan="1" colspan="1"> </td><td rowspan="1" colspan="1">Sleep problems (PSQI)</td><td rowspan="1" colspan="1">1.530</td><td rowspan="1" colspan="1">1.129</td><td rowspan="1" colspan="1">1.916</td><td rowspan="1" colspan="1">&lt; 0.001</td><td rowspan="1" colspan="1">0.474</td></tr><tr><td rowspan="1" colspan="1"> </td><td rowspan="1" colspan="1"> </td><td rowspan="1" colspan="1">Video calls (personal)</td><td rowspan="1" colspan="1">−0.393</td><td rowspan="1" colspan="1">−0.722</td><td rowspan="1" colspan="1">−0.153</td><td rowspan="1" colspan="1">0.011</td><td rowspan="1" colspan="1">−0.157</td></tr><tr><td rowspan="1" colspan="1"> </td><td rowspan="1" colspan="1"> </td><td rowspan="1" colspan="1">Maladaptive Technology Use</td><td rowspan="1" colspan="1">2.329</td><td rowspan="1" colspan="1">1.065</td><td rowspan="1" colspan="1">3.548</td><td rowspan="1" colspan="1">0.002</td><td rowspan="1" colspan="1">0.242</td></tr><tr><td rowspan="1" colspan="1"> </td><td rowspan="1" colspan="1"> </td><td rowspan="1" colspan="1">Female gender</td><td rowspan="1" colspan="1">2.636</td><td rowspan="1" colspan="1">0.322</td><td rowspan="1" colspan="1">5.072</td><td rowspan="1" colspan="1">0.062</td><td rowspan="1" colspan="1">0.126</td></tr></tbody></table><table-wrap-foot><fn id="tfn0005"><p><bold>Notes</bold>: <italic toggle="yes">b</italic> = unstandardized effects; β = standardized effects; p-value is reported for the unstandardized effects. Bootstrapped 95% confidence intervals are presented.</p></fn></table-wrap-foot></table-wrap>
+<fig position="float" id="f0002" fig-type="figure"><label>Figure 2</label><caption><p>The relationship between videoconferencing and sleep, mental distress, and academic performance.</p></caption><graphic xlink:href="NSS-16-1583-g0002" content-type="print-only" position="float"/><attrib><bold>Notes</bold>: Significant coefficients (<italic toggle="yes">p</italic> ≤ 0.05) are denoted by black arrows and bold values; non-significant coefficients (<italic toggle="yes">p</italic> &gt; 0.05) are denoted by gray arrows and values. The coefficients shown are standardized beta weights. <italic toggle="yes">R</italic><sup>2</sup>, the proportion of variance explained, is listed next to all endogenous variables, which are marked with a disturbance term (e) to signify error variance.</attrib></fig></p>
+        <p>The results support three key observations. First, both academic videoconferencing (<italic toggle="yes">b</italic> = 0.15, <italic toggle="yes">p</italic> = 0.01, β = 0.24) and personal videoconferencing (<italic toggle="yes">b</italic> = 0.12, <italic toggle="yes">p</italic> = 0.12, β = 0.15) were directly associated with sleep difficulties as measured by PSQI, although the effect of personal videoconferencing did not reach statistical significance.</p>
+        <p>Second, academic videoconferencing was also associated with both lower semester GPA and higher mental distress, but the effects on these outcomes were indirect. The effect on GPA (<italic toggle="yes">b</italic> = −0.01, <italic toggle="yes">p</italic> = 0.018, β = −0.05), was mediated by an increase in the PSQI global score. The indirect effect on DASS (<italic toggle="yes">b</italic> = 0.30, <italic toggle="yes">p</italic> &lt; 0.001, β = 0.16) was both through the increased PSQI scores as well as an increase in sedentary behavior. In other words, sleep is indirectly responsible for the effects of academic videoconferencing on both end-of-term GPA and mental distress, whereas sedentary behavior is directly associated with greater mental distress.</p>
+        <p>Third, higher levels of personal videoconferencing were indirectly associated with lower GPA (<italic toggle="yes">b</italic> = −0.004, <italic toggle="yes">p</italic> = 0.081, β = −0.03) and higher mental distress, (<italic toggle="yes">b</italic> = 0.18, <italic toggle="yes">p</italic> = 0.105, β = 0.07), through increased sleep difficulties. This observation parallels the indirect effects of academic videoconferencing, although the effects are considerably weaker and neither one is statistically significant. Directly, however, personal video calls were significantly associated with both lower GPA (<italic toggle="yes">b</italic> = −0.021, <italic toggle="yes">p</italic> = 0.008, β = −0.17) and <italic toggle="yes">lower</italic> mental distress (<italic toggle="yes">b</italic> = −0.39, <italic toggle="yes">p</italic> = 0.011, β = −0.16). This pattern or results might suggest that students who are struggling, whether academically or socially, will have both lower grades and heightened tendency to contact family and friends. The increased contact would, in turn, buffer psychological distress.</p>
+      </sec>
+    </sec>
+    <sec id="s0004">
+      <title>Discussion</title>
+      <p>The current study is among the first to prospectively examine the effects of videoconferencing on various aspects of sleep in university students. To contextualize the study’s results, we can compare two hypothetical individuals whose behavioral patterns align with the intercepts of the two dashed lines in each panel of <xref rid="f0001" ref-type="fig">Figure 1</xref>. The high-volume caller (1 SD above the mean) will have spent over 16 hours per week in video calls compared to the 2 hours spent by the low-volume caller (1 SD below the mean; daily <italic toggle="yes">M</italic> = 1.34, <italic toggle="yes">SD</italic> = 1.06). The first individual will have lost approximately 40 minutes of sleep per night – a weekly loss of nearly 5 hours – and experienced a 2% reduction in sleep efficiency compared to the second individual, as well as reported a modest decline in sleep quality, a 6-minute increase in the time spent awake on a typical night, and a 15-minute advancement in the midpoint of the typical nightly sleep cycle. While no other studies to date have quantified the magnitude of sleep disruption as a result of videoconferencing, research that considered the broad impact of increased use of screen-based media devices during the COVID-19 pandemic has consistently revealed sleep loss, daytime sleepiness, and increased symptoms of insomnia in college-aged adults<xref rid="cit0025" ref-type="bibr">25</xref>,<xref rid="cit0061" ref-type="bibr">61</xref> as well as adults in the general population<xref rid="cit0061" ref-type="bibr">61</xref>,<xref rid="cit0062" ref-type="bibr">62</xref> as a result of that use. Given that more than 80% of adults used one or more videoconferencing platforms during the pandemic,<xref rid="cit0063" ref-type="bibr">63</xref> and that videoconferencing as a means to connect professionally, for education, or for socialization is here to stay,<xref rid="cit0064" ref-type="bibr">64</xref> our findings underscore the need to determine what effects videoconferencing – particularly is used extensively (eg, at least 2 hours per day) – might have on sleep and daytime functioning.</p>
+      <p>Our results also suggest that the impact of videoconferencing is not limited to high-volume callers: Examination of daily fluctuations in the video call load, conveyed by <xref rid="f0001" ref-type="fig">Figure 1</xref> slopes, reveals that on days with more calls, a typical individual would have reported earlier sleep midpoints (4.2 m for each hour of videoconferencing) and a 4-minute decline in TST for each additional hour of video calls relative to one’s daily average, as well as reduced sleep quality. On the one hand, this pattern is indicative of at least some recovery in sleep duration and quality on days with fewer calls. On the other hand, the analysis of global PSQI scores, which reflect the accumulating effect of sleep loss, suggests that any recovery that might occur is incomplete. The mean score in those with a high average call volume (<italic toggle="yes">M</italic> = 7) was significantly greater than 5, a cut-off to identify persons with clinically-relevant sleep disturbance like insomnia,<xref rid="cit0051" ref-type="bibr">51</xref>,<xref rid="cit0059" ref-type="bibr">59</xref> with 71% of the high-volume users reporting scores &gt; 5. Strikingly, the global PSQI score of low-volume callers was also higher than 5, albeit marginally (<italic toggle="yes">M</italic> = 5.9), with 46% of these individuals falling within the clinically meaningful range of PSQI. Moreover, these differences do not appear to be due to other pandemic-related or individual difference variables measured in the current study.</p>
+      <p>The study’s results also revealed that the effects of videoconferencing may extend beyond sleep. First, virtual communication platform use for academic purposes was associated with an increase in sedentary habits. These results accord with a recent finding that virtual platform use and videoconferencing fatigue were associated with irregular exercise in a sample of university students.<xref rid="cit0025" ref-type="bibr">25</xref> Given that technology use is strongly linked with sedentary behaviors and the trend for multiple demographics in the US to be more sedentary is increasing,<xref rid="cit0065" ref-type="bibr">65</xref> videoconferencing as a sedentary activity may result in important health consequences. Second, those who utilized videoconferencing to a greater extent in academic settings reported greater psychological distress and earned lower end-of-term grades. Previous research indicated that online learning, particularly when imposed by external circumstances such as the pandemic-related lockdowns, may contribute to declines in mental health of adolescent<xref rid="cit0066" ref-type="bibr">66</xref> and young adult learners,<xref rid="cit0067" ref-type="bibr">67</xref> although the findings on this topic are sparse and causal inferences difficult to draw.<xref rid="cit0068" ref-type="bibr">68</xref> Online learning during the pandemic has also led to a drop in academic performance in these populations.<xref rid="cit0067" ref-type="bibr">67</xref>,<xref rid="cit0069" ref-type="bibr">69</xref> Possible reasons that could explain these effects include increased isolation from peers, reduced social support and motivation to learn, and decreased access to mental health support services,<xref rid="cit0067" ref-type="bibr">67</xref> and the effects seem greater in individuals who are already at risk due to socioeconomic disparities.<xref rid="cit0069" ref-type="bibr">69</xref> What our results add to this literature is an observation that sleep disruptions mediate these effects. In fact, sleep problems, as measured by PSQI, were found to mediate the effects of videoconferencing for academic purposes on both psychological distress and academic performance. This outcome highlights the need to consider the factors that might impact the association between videoconferencing and academic settings broadly, but specifically, it suggests that finding ways to minimize the impact of videoconferencing on sleep could also improve variables susceptible to the effects of sleep disruption.</p>
+      <p>The direct and indirect negative effects of both academic and personal videoconferencing on academic achievement and psychological health are noteworthy not only because these constructs represent outcomes critical to student success, but also because they can generalize to non-academic contexts. Both prospective and experimental evidence has established that sleep sustains positive mood and affects a variety of cognitive functions, such as long-term memory, sustained attention, and executive functioning, which are required for optimal performance in academic and professional settings.<xref rid="cit0070" ref-type="bibr">70–73</xref> If videoconferencing indeed impacts sleep, reducing videoconferencing in favor of in-person meetings may be worthwhile. Interestingly, a moderating positive effect of <italic toggle="yes">personal</italic> videoconferencing on mental wellness was also identified in our findings. While caution should be exercised when implying directionality in correlational findings, staying in touch with family or friends often provides social support, which not only alleviates worry and lifts mood, but can buffer stress, improve coping skills, and diminish the negative psychological effects of life events.<xref rid="cit0074" ref-type="bibr">74</xref>,<xref rid="cit0075" ref-type="bibr">75</xref> It can also serve as a protective factor against depression and anxiety, particularly during the trying times like the COVID-19 pandemic.<xref rid="cit0076" ref-type="bibr">76</xref>,<xref rid="cit0077" ref-type="bibr">77</xref> The presence of a concomitant negative effect of personal videoconferencing on academic performance might imply that the individuals who engage in more social contact are already not doing well academically and, while social support improves their perceptions of stress, it is not sufficient to alter academic performance.</p>
+      <sec id="s0004-s2001">
+        <title>Why Might Videoconferencing Disrupt Sleep?</title>
+        <p>The observed sleep outcomes are characteristic of both a build-up of sleep pressure on days with a greater call volume and of disrupted sleep and inability to easily fall/stay asleep that one might find in those suffering from insomnia.<xref rid="cit0078" ref-type="bibr">78</xref> One likely cause of the increased sleep pressure is videoconference fatigue, also referred to as Zoom fatigue.<xref rid="cit0079" ref-type="bibr">79</xref> Fatigue is an important factor to exert pressure on the sleep drive.<xref rid="cit0080" ref-type="bibr">80</xref> Several recent studies explored the fatigue attributed to participation in virtual meetings. For instance, a study of remote employees demonstrated that participation in virtual meetings adds to the typical levels of fatigue experienced by workers throughout the day.<xref rid="cit0006" ref-type="bibr">6</xref> Research conducted by a Microsoft workgroup found that during video calls, fatigue begins to set as early as 30 minutes into the meeting, with markers of stress appearing earlier on days with a greater number of virtual meetings.<xref rid="cit0005" ref-type="bibr">5</xref> Indeed, in the current dataset, for participants who made one or more videocalls on a given day, the length of these calls was by far the strongest predictor of fatigue (<xref rid="t0003" ref-type="table">Table 3</xref>).</p>
+        <p>Fatigue as a result of participation in virtual meetings can arise both due to the increased processing demands,<xref rid="cit0070" ref-type="bibr">70</xref> but also when there is a lack of engagement and interest.<xref rid="cit0081" ref-type="bibr">81</xref> Videoconferencing can be demanding for several reasons. One is the need to pay continued attention to the screen<xref rid="cit0006" ref-type="bibr">6</xref> while faced with the difficulties videoconferencing poses to social interaction, such as inconsistent eye contact, inability to detect and respond to nonverbal cues, audio failures, and a mismatch between audio and the corresponding movement of the lips in the video – all factors that can exacerbate one’s cognitive load.<xref rid="cit0007" ref-type="bibr">7</xref>,<xref rid="cit0082" ref-type="bibr">82</xref> Additional cognitive demands are posed by external distractions in the individual’s immediate environment, as well as the readily available access to the Internet. Individuals may also feel “on display” because of the expectations to contribute to a group discussion or keep the camera turned on.<xref rid="cit0083" ref-type="bibr">83</xref>,<xref rid="cit0084" ref-type="bibr">84</xref> It is notable that, in the current study, greater ratings of fatigue were weakly associated with calls closer to bedtimes, a greater number of calls, and increased webcam usage. While webcam use was only a weak predictor of fatigue (β = 0.09, ns), it showed a positive association with videoconferencing, and further examination of its influence is warranted.</p>
+        <p>On the other hand, participating in a virtual meeting can result in increased alertness, particularly when one is deeply engaged in virtual meetings. A recent study illustrated that optimal levels of arousal often found during active engagement in the task can reduce virtual meeting fatigue.<xref rid="cit0081" ref-type="bibr">81</xref> Indeed, our findings confirmed that the degree of engagement predicted lower fatigue. It is also possible that if participants in a videocall are able reduce the attentional demands of the task – for instance, by muting one’s audio and video inputs – the cognitive load will also decrease, reducing fatigue<xref rid="cit0005" ref-type="bibr">5</xref>,<xref rid="cit0083" ref-type="bibr">83</xref>,<xref rid="cit0084" ref-type="bibr">84</xref> and ameliorating the buildup of sleep pressure.<xref rid="cit0080" ref-type="bibr">80</xref></p>
+        <p>The current study’s results are also consistent with the claim that the use of electronic devices, particularly close to bedtime, can disrupt sleep by exposing individuals to light, which can suppress melatonin release,<xref rid="cit0019" ref-type="bibr">19–21</xref> and by stimulating physiological and cognitive alertness.<xref rid="cit0021" ref-type="bibr">21</xref>,<xref rid="cit0022" ref-type="bibr">22</xref> Evidence indicates that nighttime electronics use has increased during the COVID-19 pandemic.<xref rid="cit0062" ref-type="bibr">62</xref> According to the diary data, however, only 2% of final videocalls of the day took place within 2 hours of bedtime (<xref rid="t0001" ref-type="table">Table 1</xref>), but this estimate refers to academic calls only. It is possible that non-academic calls, which were not tracked in daily diaries, occurred later in the evening and thus contributed to the observed effects. The PSQI data suggest that personal video calls were indeed associated with increased sleep problems, albeit to a lesser extent than academic calls (<xref rid="f0002" ref-type="fig">Figure 2</xref>).</p>
+        <p>Second, the amount of screen time during the day, rather than close to bedtime, may affect sleep.<xref rid="cit0012" ref-type="bibr">12</xref>,<xref rid="cit0017" ref-type="bibr">17</xref>,<xref rid="cit0085" ref-type="bibr">85</xref>,<xref rid="cit0086" ref-type="bibr">86</xref> While bedtime and nighttime use of technology has received a lot of research attention in adolescence<xref rid="cit0017" ref-type="bibr">17</xref>,<xref rid="cit0087" ref-type="bibr">87</xref> and young adulthood,<xref rid="cit0021" ref-type="bibr">21</xref>,<xref rid="cit0088" ref-type="bibr">88</xref> emerging evidence suggests that unmoderated daytime use can also have consequences for sleep. For instance, a study of adolescents in Australia demonstrated that daytime screen use over 2 hours in length was associated with extended SOL, reduced TST, and increased sleep deficit.<xref rid="cit0017" ref-type="bibr">17</xref> Other studies highlighted that only certain sleep outcomes, such as BT or TST, may be affected by daytime screen use,<xref rid="cit0012" ref-type="bibr">12</xref>,<xref rid="cit0086" ref-type="bibr">86</xref> or that a particular population, such as adolescents with an evening circadian preference, may be the ones who experience certain sleep deficits, such as delayed SOL, as a result of screen use.<xref rid="cit0085" ref-type="bibr">85</xref></p>
+        <p>Third, Internet technology use is psychologically stimulating and can lead to sleep disturbances and daytime sleepiness.<xref rid="cit0016" ref-type="bibr">16</xref>,<xref rid="cit0089" ref-type="bibr">89</xref> Both physical and cognitive arousal prior to sleep predict lower sleep quality, reduced SE, and a decreased likelihood to feel refreshed upon awakening.<xref rid="cit0090" ref-type="bibr">90</xref> For instance, highly arousing activities, such as playing videogames for more than 2 hours prior to bedtime, result in lower TST, SE, and increases SOL<xref rid="cit0091" ref-type="bibr">91</xref> – outcomes that parallel the sleep deficits observed in the high-videoconferencing sample in the present study. Even 50 minutes of game play can result in reduced sleepiness, longer SOL, as well as increased cognitive alertness.<xref rid="cit0092" ref-type="bibr">92</xref></p>
+        <p>Finally, it may also take longer to accomplish tasks when meeting remotely,<xref rid="cit0093" ref-type="bibr">93</xref> which could contribute to fatigue as well as require additional time to meet one’s academic or professional demands – time that might otherwise be occupied with non-work-related activities. Additionally, videoconferencing may displace time one would ordinarily use for sleep,<xref rid="cit0022" ref-type="bibr">22</xref>,<xref rid="cit0094" ref-type="bibr">94</xref> particularly in university students who are among the heaviest users of technology and whose bedrooms during the pandemic have turned into places from which they joined classes and connected with peers.</p>
+      </sec>
+      <sec id="s0004-s2002">
+        <title>Study Limitations</title>
+        <p>A key limitation of the current study is its reliance on a sample of students from a single university whose mobility and socialization were restricted due to COVID-19 safety protocols during the period of data collection. Many were taking multiple classes with synchronous virtual meeting requirements, which resulted in a heavy videoconferencing load unlike any they experienced in the past. It remains to be ascertained whether other populations, such as remote workers that engage in extensive videoconferencing outside of the pandemic restrictions, will experience similar sleep outcomes as the students. Preliminary evidence suggests that students experience greater levels of fatigue as a result of virtual meeting participation compared to individuals using videocalls for work.<xref rid="cit0095" ref-type="bibr">95</xref> The COVID-19 pandemic is also associated with a pronounced increase in reported stress, anxiety, and depression,<xref rid="cit0096" ref-type="bibr">96</xref> which would have a substantial impact on the quality of sleep both acutely and over time and may have contributed to the observed relationships. On the other hand, the homogeneity of the participants’ residential setting and academic and extracurricular activities may increase the internal validity of the findings.</p>
+        <p>The reverse causality is also a limitation of the current research design. While in the prospective portion of the study there is clear temporal precedence between videoconferencing during the day and the following night’s sleep, the same precedence cannot be demonstrated in the cross-sectional analysis of baseline questionnaires. Even though the directional flow established in the path analysis (eg, from sleep to GPA and mental distress) is supported by the literature, it is certainly possible that increased sleep difficulties could result from academic challenges or emotional turmoil. This concern is minimized somewhat for GPA, which was obtained at the end of the semester and should thus reflect the cumulative effects of videoconferencing and sleep, but it remains unaddressed for psychological distress, especially considering that disease outbreaks in particular can cause anxiety to spike.<xref rid="cit0033" ref-type="bibr">33</xref></p>
+        <p>The third limitation is reliance on self-report data for estimates of sleep and videoconferencing use. Whereas daily diaries that are at least one week long provide a reliable estimate of such parameters as BT, RT, SOL, TST, and WASO,<xref rid="cit0097" ref-type="bibr">97</xref> using more objective measures, such as actigraphy or polysomnography, may be desirable. Finally, while the majority of statistical analyses controlled for multiple covariates, including the value of the outcome variable from the previous night, the day’s course load, and pandemic impacts, other unaccounted influences on the dependent measures likely exist. For instance, consumption of substances such as caffeine or alcohol may be an important factor to influence the sleep regulatory processes. Furthermore, whereas videoconferencing for academic purposes is not likely to be under participant control when it comes to its timing and duration, out-of-class work that requires virtual collaboration can be more easily aligned with individual circadian rhythms and schedules.</p>
+      </sec>
+    </sec>
+    <sec id="s0005">
+      <title>Conclusion</title>
+      <p>The current study offers a glimpse of the relationship between videoconference calls and sleep in a sample of American university students during the COVID-19 pandemic. The findings suggest that those who regularly engage in a high volume of videocalls – 2 hours or more per day – are most at risk of increased fatigue and sleep disruption. Even individuals who make infrequent video calls experienced sleep decrements on days with longer calls compared to days with shorter or no calls. Lengthy video calls shift the sleep period to earlier in the night as well as decrease sleep duration, sleep efficiency, and sleep quality. Extensive videoconferencing in the context of online learning further comes at a cost to outcomes beyond sleep, such as academic performance and mental well-being.</p>
+      <p>Replacing virtual meetings with in-person meetings may alleviate these effects. If virtual meetings cannot be avoided, they should be brief and provide participants with an opportunity to actively engage in the discussion or activity that takes place during the meeting. On the other hand, videoconferencing to socialize and connect with family and friends is less disruptive to sleep and can have positive effects on one’s well-being. Those who schedule or participate in videoconferencing for academic purposes should note that Zoom fatigue and cognitive overload may limit the effectiveness of online learning. Therefore, research ought to identify strategies that can mitigate the negative effects of virtual communication in educational settings or ways to protect sleep in students who must use videoconferencing in their studies. Prioritizing sleep may also increase psychological well-being and academic achievement.</p>
+      <p>It is likely that videoconferencing will remain a key communication method in the workplace and academic settings in the future. For this reason, the influence of virtual communication on sleep, health, and behavior is an important public health arena that warrants further investigation.</p>
+    </sec>
+  </body>
+  <back>
+    <ack>
+      <title>Acknowledgments</title>
+      <p>The author acknowledges Lauren Turner, Shahrukh Hussain, and Alexandria Szabo for their assistance with data collection.</p>
+    </ack>
+    <sec sec-type="data-availability" id="s0006">
+      <title>Data Sharing Statement</title>
+      <p>Data and the R code used to analyze it may be available from the author upon reasonable request.</p>
+    </sec>
+    <sec sec-type="COI-statement" id="s0007">
+      <title>Disclosure</title>
+      <p>The author reports no conflicts of interest in this work.</p>
+    </sec>
+    <ref-list>
+      <title>References</title>
+      <ref id="cit0001">
+        <label>1.</label>
+        <mixed-citation publication-type="webpage"><string-name><surname>Hanson</surname>
+<given-names>M</given-names></string-name>. <article-title>Online Education Statistics</article-title>. <source>EducationData</source>. <date-in-citation><month>July</month>
+<day>10</day>, 2021</date-in-citation>. <date-in-citation>Accessed <month>July</month>
+<day>12</day>, 2021</date-in-citation>. <ext-link xlink:href="https://educationdata.org/online-education-statistics" ext-link-type="uri">https://educationdata.org/online-education-statistics</ext-link>.</mixed-citation>
+      </ref>
+      <ref id="cit0002">
+        <label>2.</label>
+        <mixed-citation publication-type="webpage"><string-name><surname>Brenan</surname>
+<given-names>M.</given-names></string-name>
+<article-title>COVID-19 and Remote Work: an Update</article-title>. <year>2020</year>. <date-in-citation>Accessed <month>July</month>
+<day>12</day>, 2021</date-in-citation>. <ext-link xlink:href="https://news.gallup.com/poll/321800/covid-remote-work-update.aspx" ext-link-type="uri">https://news.gallup.com/poll/321800/covid-remote-work-update.aspx</ext-link>.</mixed-citation>
+      </ref>
+      <ref id="cit0003">
+        <label>3.</label>
+        <mixed-citation publication-type="webpage"><string-name><surname>Wigert</surname>
+<given-names>B</given-names></string-name>, <string-name><surname>Harter</surname>
+<given-names>J</given-names></string-name>, <string-name><surname>Agrawal</surname>
+<given-names>S</given-names></string-name>. <article-title>The Future of the Office Has Arrived: it’s Hybrid</article-title>. <year>2023</year>. <date-in-citation>Accessed <month>September</month>
+<day>26</day>, 2024</date-in-citation>. <ext-link xlink:href="https://www.gallup.com/workplace/511994/future-office-arrived-hybrid.aspx" ext-link-type="uri">https://www.gallup.com/workplace/511994/future-office-arrived-hybrid.aspx</ext-link>.</mixed-citation>
+      </ref>
+      <ref id="cit0004">
+        <label>4.</label>
+        <mixed-citation publication-type="webpage"><article-title>Upwork Study Finds 22% of American Workforce Will Be Remote by 2025</article-title>. <year>2020</year>. <date-in-citation>Accessed <month>July</month>
+<day>12</day>, 2021</date-in-citation>. <ext-link xlink:href="https://www.upwork.com/press/releases/upwork-study-finds-22-of-american-workforce-will-be-remote-by-2025" ext-link-type="uri">https://www.upwork.com/press/releases/upwork-study-finds-22-of-american-workforce-will-be-remote-by-2025</ext-link>.</mixed-citation>
+      </ref>
+      <ref id="cit0005">
+        <label>5.</label>
+        <mixed-citation publication-type="webpage"><string-name><surname>Spataro</surname>
+<given-names>J.</given-names></string-name>
+<article-title>The future of work—the good, the challenging &amp; the unknown</article-title>. <month>July</month>
+<day>8</day>, <year>2020</year>. <ext-link xlink:href="https://www.microsoft.com/en-us/microsoft-365/blog/2020/07/08/future-work-good-challenging-unknown/" ext-link-type="uri">https://www.microsoft.com/en-us/microsoft-365/blog/2020/07/08/future-work-good-challenging-unknown/</ext-link>.</mixed-citation>
+      </ref>
+      <ref id="cit0006">
+        <label>6.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Bennett</surname>
+<given-names>AA</given-names></string-name>, <string-name><surname>Campion</surname>
+<given-names>ED</given-names></string-name>, <string-name><surname>Keeler</surname>
+<given-names>KR</given-names></string-name>, <string-name><surname>Keener</surname>
+<given-names>SK</given-names></string-name>. <article-title>Videoconference fatigue? Exploring changes in fatigue after videoconference meetings during COVID-19</article-title>. <source><italic toggle="yes">J Appl Psychol</italic></source>. <year>2021</year>;<volume>106</volume>(<issue>3</issue>):<fpage>330</fpage>. doi:<pub-id pub-id-type="doi">10.1037/apl0000906</pub-id><pub-id pub-id-type="pmid">33871270</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0007">
+        <label>7.</label>
+        <mixed-citation publication-type="webpage"><string-name><surname>Lee</surname>
+<given-names>J.</given-names></string-name>
+<article-title>A Neuropsychological Exploration of Zoom Fatigue</article-title>. <source><italic toggle="yes">Psychiatric Times</italic></source>, <year>2021</year>. <date-in-citation>Accessed <month>July</month>
+<day>12</day>, 2021</date-in-citation>. <ext-link xlink:href="https://www.psychiatrictimes.com/view/psychological-exploration-zoom-fatigue" ext-link-type="uri">https://www.psychiatrictimes.com/view/psychological-exploration-zoom-fatigue</ext-link>.</mixed-citation>
+      </ref>
+      <ref id="cit0008">
+        <label>8.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Ramar</surname>
+<given-names>K</given-names></string-name>, <string-name><surname>Malhotra</surname>
+<given-names>RK</given-names></string-name>, <string-name><surname>Carden</surname>
+<given-names>KA</given-names></string-name>, et al. <article-title>Sleep is essential to health: an American Academy of Sleep Medicine position statement</article-title>. <source><italic toggle="yes">J Clin Sleep Med</italic></source>. <year>2021</year>;<volume>17</volume>(<issue>10</issue>):<fpage>2115</fpage>–<lpage>2119</lpage>. doi:<pub-id pub-id-type="doi">10.5664/jcsm.9476</pub-id><pub-id pub-id-type="pmid">34170250</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0009">
+        <label>9.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Banks</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Dinges</surname>
+<given-names>DF</given-names></string-name>. <article-title>Behavioral and physiological consequences of sleep restriction</article-title>. <source><italic toggle="yes">J Clin Sleep Med JCSM off Publ Am Acad Sleep Med</italic></source>. <year>2007</year>;<volume>3</volume>(<issue>5</issue>):<fpage>519</fpage>–<lpage>528</lpage>.</mixed-citation>
+      </ref>
+      <ref id="cit0010">
+        <label>10.</label>
+        <mixed-citation publication-type="book"><string-name><surname>Fairholme</surname>
+<given-names>CP</given-names></string-name>, <string-name><surname>Manber</surname>
+<given-names>R</given-names></string-name>. <part-title>Chapter 3 - Sleep, Emotions, and Emotion Regulation: an Overview</part-title>. In: <string-name><surname>Babson</surname>
+<given-names>KA</given-names></string-name>, <string-name><surname>Feldner</surname>
+<given-names>MT</given-names></string-name>, editors. <source><italic toggle="yes">Sleep and Affect</italic></source>. <publisher-name>Academic Press</publisher-name>; <year>2015</year>:<fpage>45</fpage>–<lpage>61</lpage>. doi:<pub-id pub-id-type="doi">10.1016/B978-0-12-417188-6.00003-7</pub-id>.</mixed-citation>
+      </ref>
+      <ref id="cit0011">
+        <label>11.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Leggett</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Burgard</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Zivin</surname>
+<given-names>K</given-names></string-name>. <article-title>The impact of sleep disturbance on the association between stressful life events and depressive symptoms</article-title>. <source><italic toggle="yes">J Gerontol B Psychol Sci Soc Sci</italic></source>. <year>2016</year>;<volume>71</volume>(<issue>1</issue>):<fpage>118</fpage>–<lpage>128</lpage>. doi:<pub-id pub-id-type="doi">10.1093/geronb/gbv072</pub-id><pub-id pub-id-type="pmid">26329114</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0012">
+        <label>12.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Bartel</surname>
+<given-names>KA</given-names></string-name>, <string-name><surname>Gradisar</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Williamson</surname>
+<given-names>P</given-names></string-name>. <article-title>Protective and risk factors for adolescent sleep: a meta-analytic review</article-title>. <source><italic toggle="yes">Sleep Med Rev</italic></source>. <year>2015</year>;<volume>21</volume>:<fpage>72</fpage>–<lpage>85</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.smrv.2014.08.002</pub-id><pub-id pub-id-type="pmid">25444442</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0013">
+        <label>13.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Hale</surname>
+<given-names>L</given-names></string-name>, <string-name><surname>Guan</surname>
+<given-names>S</given-names></string-name>. <article-title>Screen time and sleep among school-aged children and adolescents: a systematic literature review</article-title>. <source><italic toggle="yes">Sleep Med Rev</italic></source>. <year>2015</year>;<volume>21</volume>:<fpage>50</fpage>–<lpage>58</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.smrv.2014.07.007</pub-id><pub-id pub-id-type="pmid">25193149</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0014">
+        <label>14.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Gradisar</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Wolfson</surname>
+<given-names>AR</given-names></string-name>, <string-name><surname>Harvey</surname>
+<given-names>AG</given-names></string-name>, <string-name><surname>Hale</surname>
+<given-names>L</given-names></string-name>, <string-name><surname>Rosenberg</surname>
+<given-names>R</given-names></string-name>, <string-name><surname>Czeisler</surname>
+<given-names>CA</given-names></string-name>. <article-title>The Sleep and Technology Use of Americans: findings from the National Sleep Foundation’s 2011 Sleep in America Poll</article-title>. <source><italic toggle="yes">J Clin Sleep Med</italic></source>. <year>2013</year>;<volume>09</volume>(<issue>12</issue>):<fpage>1291</fpage>–<lpage>1299</lpage>. doi:<pub-id pub-id-type="doi">10.5664/jcsm.3272</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0015">
+        <label>15.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Thomée</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Härenstam</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Hagberg</surname>
+<given-names>M</given-names></string-name>. <article-title>Computer use and stress, sleep disturbances, and symptoms of depression among young adults – a prospective cohort study</article-title>. <source><italic toggle="yes">BMC Psychiatry</italic></source>. <year>2012</year>;<volume>12</volume>(<issue>1</issue>):<fpage>176</fpage>. doi:<pub-id pub-id-type="doi">10.1186/1471-244X-12-176</pub-id><pub-id pub-id-type="pmid">23088719</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0016">
+        <label>16.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Levenson</surname>
+<given-names>JC</given-names></string-name>, <string-name><surname>Shensa</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Sidani</surname>
+<given-names>JE</given-names></string-name>, <string-name><surname>Colditz</surname>
+<given-names>JB</given-names></string-name>, <string-name><surname>Primack</surname>
+<given-names>BA</given-names></string-name>. <article-title>Social media use before bed and sleep disturbance among young adults in the United States: a nationally representative study</article-title>. <source><italic toggle="yes">Sleep</italic></source>. <year>2017</year>;<volume>40</volume>(<issue>9</issue>). doi:<pub-id pub-id-type="doi">10.1093/sleep/zsx113</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0017">
+        <label>17.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Hysing</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Pallesen</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Stormark</surname>
+<given-names>KM</given-names></string-name>, <string-name><surname>Jakobsen</surname>
+<given-names>R</given-names></string-name>, <string-name><surname>Lundervold</surname>
+<given-names>AJ</given-names></string-name>, <string-name><surname>Sivertsen</surname>
+<given-names>B</given-names></string-name>. <article-title>Sleep and use of electronic devices in adolescence: results from a large population-based study</article-title>. <source><italic toggle="yes">BMJ Open</italic></source>. <year>2015</year>;<volume>5</volume>(<issue>1</issue>):<fpage>e006748</fpage>. doi:<pub-id pub-id-type="doi">10.1136/bmjopen-2014-006748</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0018">
+        <label>18.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Gamble</surname>
+<given-names>AL</given-names></string-name>, <string-name><surname>D’Rozario</surname>
+<given-names>AL</given-names></string-name>, <string-name><surname>Bartlett</surname>
+<given-names>DJ</given-names></string-name>, et al. <article-title>Adolescent sleep patterns and night-time technology use: results of the Australian Broadcasting Corporation’s Big Sleep Survey</article-title>. <source><italic toggle="yes">PLoS One</italic></source>. <year>2014</year>;<volume>9</volume>(<issue>11</issue>):<fpage>e111700</fpage>. doi:<pub-id pub-id-type="doi">10.1371/journal.pone.0111700</pub-id><pub-id pub-id-type="pmid">25390034</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0019">
+        <label>19.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Shechter</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Kim</surname>
+<given-names>EW</given-names></string-name>, <string-name><surname>St-Onge</surname>
+<given-names>MP</given-names></string-name>, <string-name><surname>Westwood</surname>
+<given-names>AJ</given-names></string-name>. <article-title>Blocking nocturnal blue light for insomnia: a randomized controlled trial</article-title>. <source><italic toggle="yes">J Psychiatr Res</italic></source>. <year>2018</year>;<volume>96</volume>:<fpage>196</fpage>–<lpage>202</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.jpsychires.2017.10.015</pub-id><pub-id pub-id-type="pmid">29101797</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0020">
+        <label>20.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Cajochen</surname>
+<given-names>C</given-names></string-name>, <string-name><surname>Frey</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Anders</surname>
+<given-names>D</given-names></string-name>, et al. <article-title>Evening exposure to a light-emitting diodes (LED)-backlit computer screen affects circadian physiology and cognitive performance</article-title>. <source><italic toggle="yes">J Appl Physiol</italic></source>. <year>2011</year>;<volume>110</volume>(<issue>5</issue>):<fpage>1432</fpage>–<lpage>1438</lpage>. doi:<pub-id pub-id-type="doi">10.1152/japplphysiol.00165.2011</pub-id><pub-id pub-id-type="pmid">21415172</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0021">
+        <label>21.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Bauducco</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Pillion</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Bartel</surname>
+<given-names>K</given-names></string-name>, <string-name><surname>Reynolds</surname>
+<given-names>C</given-names></string-name>, <string-name><surname>Kahn</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Gradisar</surname>
+<given-names>M</given-names></string-name>. <article-title>A bidirectional model of sleep and technology use: a theoretical review of How much, for whom, and which mechanisms</article-title>. <source><italic toggle="yes">Sleep Med Rev</italic></source>. <year>2024</year>;<volume>76</volume>:<fpage>101933</fpage>. doi:<pub-id pub-id-type="doi">10.1016/j.smrv.2024.101933</pub-id><pub-id pub-id-type="pmid">38657359</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0022">
+        <label>22.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Cain</surname>
+<given-names>N</given-names></string-name>, <string-name><surname>Gradisar</surname>
+<given-names>M</given-names></string-name>. <article-title>Electronic media use and sleep in school-aged children and adolescents: a review</article-title>. <source><italic toggle="yes">Sleep Med</italic></source>. <year>2010</year>;<volume>11</volume>(<issue>8</issue>):<fpage>735</fpage>–<lpage>742</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.sleep.2010.02.006</pub-id><pub-id pub-id-type="pmid">20673649</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0023">
+        <label>23.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Akerstedt</surname>
+<given-names>T</given-names></string-name>, <string-name><surname>Knutsson</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Westerholm</surname>
+<given-names>P</given-names></string-name>, <string-name><surname>Theorell</surname>
+<given-names>T</given-names></string-name>, <string-name><surname>Alfredsson</surname>
+<given-names>L</given-names></string-name>, <string-name><surname>Kecklund</surname>
+<given-names>G</given-names></string-name>. <article-title>Sleep disturbances, work stress and work hours: a cross-sectional study</article-title>. <source><italic toggle="yes">J Psychosom Res</italic></source>. <year>2002</year>;<volume>53</volume>(<issue>3</issue>):<fpage>741</fpage>–<lpage>748</lpage>. doi:<pub-id pub-id-type="doi">10.1016/s0022-3999(02)00333-1</pub-id><pub-id pub-id-type="pmid">12217447</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0024">
+        <label>24.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Goel</surname>
+<given-names>N</given-names></string-name>, <string-name><surname>Abe</surname>
+<given-names>T</given-names></string-name>, <string-name><surname>Braun</surname>
+<given-names>ME</given-names></string-name>, <string-name><surname>Dinges</surname>
+<given-names>DF</given-names></string-name>. <article-title>Cognitive workload and sleep restriction interact to influence sleep homeostatic responses</article-title>. <source><italic toggle="yes">Sleep</italic></source>. <year>2014</year>;<volume>37</volume>(<issue>11</issue>):<fpage>1745</fpage>–<lpage>1756</lpage>. doi:<pub-id pub-id-type="doi">10.5665/sleep.4164</pub-id><pub-id pub-id-type="pmid">25364070</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0025">
+        <label>25.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Salim</surname>
+<given-names>J</given-names></string-name>, <string-name><surname>Tandy</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Arnindita</surname>
+<given-names>JN</given-names></string-name>, <string-name><surname>Wibisono</surname>
+<given-names>JJ</given-names></string-name>, <string-name><surname>Haryanto</surname>
+<given-names>MR</given-names></string-name>, <string-name><surname>Wibisono</surname>
+<given-names>MG</given-names></string-name>. <article-title>Zoom fatigue and its risk factors in online learning during the COVID-19 pandemic</article-title>. <source><italic toggle="yes">Med J Indones</italic></source>. <year>2022</year>;<volume>31</volume>(<issue>1</issue>):<fpage>13</fpage>–<lpage>19</lpage>. doi:<pub-id pub-id-type="doi">10.13181/mji.oa.225703</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0026">
+        <label>26.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Simbula</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Paganin</surname>
+<given-names>G</given-names></string-name>, <string-name><surname>Molino</surname>
+<given-names>M</given-names></string-name>. <article-title>Videoconference fatigue: validation of the Italian translated Zoom Exhaustion and Fatigue Scale (ZEFS)</article-title>. <source><italic toggle="yes">Fatigue Biomed Health Behav</italic></source>. <year>2024</year>;<volume>12</volume>(<issue>1</issue>):<fpage>43</fpage>–<lpage>57</lpage>. doi:<pub-id pub-id-type="doi">10.1080/21641846.2023.2290137</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0027">
+        <label>27.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Wheaton</surname>
+<given-names>AG</given-names></string-name>. <article-title>Sleep duration and injury-related risk behaviors among high school students — United States, 2007–2013</article-title>. <source><italic toggle="yes">MMWR Morb Mortal Wkly Rep</italic></source>. <year>2016</year>;<fpage>65</fpage>. doi:<pub-id pub-id-type="doi">10.15585/mmwr.mm6513a1</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0028">
+        <label>28.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Oginska</surname>
+<given-names>H</given-names></string-name>, <string-name><surname>Pokorski</surname>
+<given-names>J</given-names></string-name>. <article-title>Fatigue and mood correlates of sleep length in three age‐social groups: school children, students, and employees</article-title>. <source><italic toggle="yes">Chronobiol Int</italic></source>. <year>2006</year>;<volume>23</volume>(<issue>6</issue>):<fpage>1317</fpage>–<lpage>1328</lpage>. doi:<pub-id pub-id-type="doi">10.1080/07420520601089349</pub-id><pub-id pub-id-type="pmid">17190716</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0029">
+        <label>29.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Donskoy</surname>
+<given-names>I</given-names></string-name>, <string-name><surname>Loghmanee</surname>
+<given-names>D</given-names></string-name>. <article-title>Insomnia in adolescence</article-title>. <source><italic toggle="yes">Med Sci Basel Switz</italic></source>. <year>2018</year>;<volume>6</volume>(<issue>3</issue>):<fpage>E72</fpage>. doi:<pub-id pub-id-type="doi">10.3390/medsci6030072</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0030">
+        <label>30.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Mead</surname>
+<given-names>MN</given-names></string-name>. <article-title>Benefits of Sunlight: a bright spot for human health</article-title>. <source><italic toggle="yes">Environ Health Perspect</italic></source>. <year>2008</year>;<volume>116</volume>(<issue>4</issue>):<fpage>A160</fpage>–<lpage>A167</lpage>. doi:<pub-id pub-id-type="doi">10.1289/ehp.116-a160</pub-id><pub-id pub-id-type="pmid">18414615</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0031">
+        <label>31.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Kredlow</surname>
+<given-names>MA</given-names></string-name>, <string-name><surname>Capozzoli</surname>
+<given-names>MC</given-names></string-name>, <string-name><surname>Hearon</surname>
+<given-names>BA</given-names></string-name>, <string-name><surname>Calkins</surname>
+<given-names>AW</given-names></string-name>, <string-name><surname>Otto</surname>
+<given-names>MW</given-names></string-name>. <article-title>The effects of physical activity on sleep: a meta-analytic review</article-title>. <source><italic toggle="yes">J Behav Med</italic></source>. <year>2015</year>;<volume>38</volume>(<issue>3</issue>):<fpage>427</fpage>–<lpage>449</lpage>. doi:<pub-id pub-id-type="doi">10.1007/s10865-015-9617-6</pub-id><pub-id pub-id-type="pmid">25596964</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0032">
+        <label>32.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Memon</surname>
+<given-names>AR</given-names></string-name>, <string-name><surname>Gupta</surname>
+<given-names>CC</given-names></string-name>, <string-name><surname>Crowther</surname>
+<given-names>ME</given-names></string-name>, <string-name><surname>Ferguson</surname>
+<given-names>SA</given-names></string-name>, <string-name><surname>Tuckwell</surname>
+<given-names>GA</given-names></string-name>, <string-name><surname>Vincent</surname>
+<given-names>GE</given-names></string-name>. <article-title>Sleep and physical activity in university students: a systematic review and meta-analysis</article-title>. <source><italic toggle="yes">Sleep Med Rev</italic></source>. <year>2021</year>;<volume>58</volume>:<fpage>101482</fpage>. doi:<pub-id pub-id-type="doi">10.1016/j.smrv.2021.101482</pub-id><pub-id pub-id-type="pmid">33864990</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0033">
+        <label>33.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Kutana</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Lau</surname>
+<given-names>PH</given-names></string-name>. <article-title>The impact of the 2019 coronavirus disease (COVID-19) pandemic on sleep health</article-title>. <source><italic toggle="yes">Can Psychol Can</italic></source>. <year>2021</year>;<volume>62</volume>(<issue>1</issue>):<fpage>12</fpage>–<lpage>19</lpage>. doi:<pub-id pub-id-type="doi">10.1037/cap0000256</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0034">
+        <label>34.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Carney</surname>
+<given-names>CE</given-names></string-name>, <string-name><surname>Buysse</surname>
+<given-names>DJ</given-names></string-name>, <string-name><surname>Ancoli-Israel</surname>
+<given-names>S</given-names></string-name>, et al. <article-title>The Consensus Sleep Diary: standardizing prospective sleep self-monitoring</article-title>. <source><italic toggle="yes">Sleep</italic></source>. <year>2012</year>;<volume>35</volume>(<issue>2</issue>):<fpage>287</fpage>–<lpage>302</lpage>. doi:<pub-id pub-id-type="doi">10.5665/sleep.1642</pub-id><pub-id pub-id-type="pmid">22294820</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0035">
+        <label>35.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Peltzer</surname>
+<given-names>K</given-names></string-name>, <string-name><surname>Pengpid</surname>
+<given-names>S</given-names></string-name>. <article-title>Sleep duration and health correlates among university students in 26 countries</article-title>. <source><italic toggle="yes">Psychol Health Med</italic></source>. <year>2016</year>;<volume>21</volume>(<issue>2</issue>):<fpage>208</fpage>–<lpage>220</lpage>. doi:<pub-id pub-id-type="doi">10.1080/13548506.2014.998687</pub-id><pub-id pub-id-type="pmid">25564722</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0036">
+        <label>36.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Deng</surname>
+<given-names>J</given-names></string-name>, <string-name><surname>Zhou</surname>
+<given-names>F</given-names></string-name>, <string-name><surname>Hou</surname>
+<given-names>W</given-names></string-name>, et al. <article-title>The prevalence of depressive symptoms, anxiety symptoms and sleep disturbance in higher education students during the COVID-19 pandemic: a systematic review and meta-analysis</article-title>. <source><italic toggle="yes">Psychiatry Res</italic></source>. <year>2021</year>;<volume>301</volume>:<fpage>113863</fpage>. doi:<pub-id pub-id-type="doi">10.1016/j.psychres.2021.113863</pub-id><pub-id pub-id-type="pmid">33984824</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0037">
+        <label>37.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Yang</surname>
+<given-names>J</given-names></string-name>, <string-name><surname>Fu</surname>
+<given-names>X</given-names></string-name>, <string-name><surname>Liao</surname>
+<given-names>X</given-names></string-name>, <string-name><surname>Li</surname>
+<given-names>Y</given-names></string-name>. <article-title>Association of problematic smartphone use with poor sleep quality, depression, and anxiety: a systematic review and meta-analysis</article-title>. <source><italic toggle="yes">Psychiatry Res</italic></source>. <year>2020</year>;<volume>284</volume>:<fpage>112686</fpage>. doi:<pub-id pub-id-type="doi">10.1016/j.psychres.2019.112686</pub-id><pub-id pub-id-type="pmid">31757638</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0038">
+        <label>38.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Domoff</surname>
+<given-names>SE</given-names></string-name>, <string-name><surname>Foley</surname>
+<given-names>RP</given-names></string-name>, <string-name><surname>Ferkel</surname>
+<given-names>R</given-names></string-name>. <article-title>Addictive phone use and academic performance in adolescents</article-title>. <source><italic toggle="yes">Hum Behav Emerg Technol</italic></source>. <year>2020</year>;<volume>2</volume>(<issue>1</issue>):<fpage>33</fpage>–<lpage>38</lpage>. doi:<pub-id pub-id-type="doi">10.1002/hbe2.171</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0039">
+        <label>39.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Gao</surname>
+<given-names>J</given-names></string-name>, <string-name><surname>Zheng</surname>
+<given-names>P</given-names></string-name>, <string-name><surname>Jia</surname>
+<given-names>Y</given-names></string-name>, et al. <article-title>Mental health problems and social media exposure during COVID-19 outbreak</article-title>. <source><italic toggle="yes">PLoS One</italic></source>. <year>2020</year>;<volume>15</volume>(<issue>4</issue>):<fpage>e0231924</fpage>. doi:<pub-id pub-id-type="doi">10.1371/journal.pone.0231924</pub-id><pub-id pub-id-type="pmid">32298385</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0040">
+        <label>40.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Cho</surname>
+<given-names>H</given-names></string-name>, <string-name><surname>Li</surname>
+<given-names>P</given-names></string-name>, <string-name><surname>Ngien</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Tan</surname>
+<given-names>MG</given-names></string-name>, <string-name><surname>Chen</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Nekmat</surname>
+<given-names>E</given-names></string-name>. <article-title>The bright and dark sides of social media use during COVID-19 lockdown: contrasting social media effects through social liability vs. social support</article-title>. <source><italic toggle="yes">Comput Hum Behav</italic></source>. <year>2023</year>;<volume>146</volume>:<fpage>107795</fpage>. doi:<pub-id pub-id-type="doi">10.1016/j.chb.2023.107795</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0041">
+        <label>41.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Brailovskaia</surname>
+<given-names>J</given-names></string-name>, <string-name><surname>Miragall</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Margraf</surname>
+<given-names>J</given-names></string-name>, <string-name><surname>Herrero</surname>
+<given-names>R</given-names></string-name>, <string-name><surname>Baños</surname>
+<given-names>RM</given-names></string-name>. <article-title>The relationship between social media use, anxiety and burden caused by coronavirus (COVID-19) in Spain</article-title>. <source><italic toggle="yes">Curr Psychol N B Nj</italic></source>. <year>2022</year>;<volume>41</volume>(<issue>10</issue>):<fpage>7441</fpage>–<lpage>7447</lpage>. doi:<pub-id pub-id-type="doi">10.1007/s12144-021-01802-8</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0042">
+        <label>42.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Buysse</surname>
+<given-names>DJ</given-names></string-name>, <string-name><surname>Reynolds</surname>
+<given-names>CF</given-names></string-name>, <string-name><surname>Monk</surname>
+<given-names>TH</given-names></string-name>, <string-name><surname>Berman</surname>
+<given-names>SR</given-names></string-name>, <string-name><surname>Kupfer</surname>
+<given-names>DJ</given-names></string-name>. <article-title>The Pittsburgh Sleep Quality Index: a new instrument for psychiatric practice and research</article-title>. <source><italic toggle="yes">Psychiatry Res</italic></source>. <year>1989</year>;<volume>28</volume>(<issue>2</issue>):<fpage>193</fpage>–<lpage>213</lpage>. doi:<pub-id pub-id-type="doi">10.1016/0165-1781(89)90047-4</pub-id><pub-id pub-id-type="pmid">2748771</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0043">
+        <label>43.</label>
+        <mixed-citation publication-type="book"><string-name><surname>Nunnally</surname>
+<given-names>JC</given-names></string-name>. <source><italic toggle="yes">Psychometric Theory</italic></source>. <edition>2nd Edition</edition> ed. <publisher-name>McGraw-Hill Companies</publisher-name>; <year>1978</year>.</mixed-citation>
+      </ref>
+      <ref id="cit0044">
+        <label>44.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Horne</surname>
+<given-names>JA</given-names></string-name>, <string-name><surname>Ostberg</surname>
+<given-names>O</given-names></string-name>. <article-title>Individual differences in human circadian rhythms</article-title>. <source><italic toggle="yes">Biol Psychol</italic></source>. <year>1977</year>;<volume>5</volume>(<issue>3</issue>):<fpage>179</fpage>–<lpage>190</lpage>. doi:<pub-id pub-id-type="doi">10.1016/0301-0511(77)90001-1</pub-id><pub-id pub-id-type="pmid">922076</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0045">
+        <label>45.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Craig</surname>
+<given-names>CL</given-names></string-name>, <string-name><surname>Marshall</surname>
+<given-names>AL</given-names></string-name>, <string-name><surname>Sjöström</surname>
+<given-names>M</given-names></string-name>, et al. <article-title>International Physical Activity Questionnaire: 12-country reliability and validity</article-title>. <source><italic toggle="yes">Med Sci Sports Exerc</italic></source>. <year>2003</year>;<volume>35</volume>(<issue>8</issue>):<fpage>1381</fpage>–<lpage>1395</lpage>. doi:<pub-id pub-id-type="doi">10.1249/01.MSS.0000078924.61453.FB</pub-id><pub-id pub-id-type="pmid">12900694</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0046">
+        <label>46.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Lovibond</surname>
+<given-names>PF</given-names></string-name>, <string-name><surname>Lovibond</surname>
+<given-names>SH</given-names></string-name>. <article-title>The structure of negative emotional states: comparison of the Depression Anxiety Stress Scales (DASS) with the Beck Depression and Anxiety Inventories</article-title>. <source><italic toggle="yes">Behav Res Ther</italic></source>. <year>1995</year>;<volume>33</volume>(<issue>3</issue>):<fpage>335</fpage>–<lpage>343</lpage>. doi:<pub-id pub-id-type="doi">10.1016/0005-7967(94)00075-u</pub-id><pub-id pub-id-type="pmid">7726811</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0047">
+        <label>47.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Henry</surname>
+<given-names>JD</given-names></string-name>, <string-name><surname>Crawford</surname>
+<given-names>JR</given-names></string-name>. <article-title>The short-form version of the Depression Anxiety Stress Scales (DASS-21): construct validity and normative data in a large non-clinical sample</article-title>. <source><italic toggle="yes">Br J Clin Psychol</italic></source>. <year>2005</year>;<volume>44</volume>(<issue>Pt 2</issue>):<fpage>227</fpage>–<lpage>239</lpage>. doi:<pub-id pub-id-type="doi">10.1348/014466505X29657</pub-id><pub-id pub-id-type="pmid">16004657</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0048">
+        <label>48.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Onyper</surname>
+<given-names>SV</given-names></string-name>, <string-name><surname>Thacher</surname>
+<given-names>PV</given-names></string-name>, <string-name><surname>Gilbert</surname>
+<given-names>JW</given-names></string-name>, <string-name><surname>Gradess</surname>
+<given-names>SG</given-names></string-name>. <article-title>Class start times, sleep, and academic performance in college: a path analysis</article-title>. <source><italic toggle="yes">Chronobiol Int</italic></source>. <year>2012</year>;<volume>29</volume>(<issue>3</issue>):<fpage>318</fpage>–<lpage>335</lpage>. doi:<pub-id pub-id-type="doi">10.3109/07420528.2012.655868</pub-id><pub-id pub-id-type="pmid">22390245</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0049">
+        <label>49.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Hampshire</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Hellyer</surname>
+<given-names>PJ</given-names></string-name>, <string-name><surname>Soreq</surname>
+<given-names>E</given-names></string-name>, et al. <article-title>Associations between dimensions of behaviour, personality traits, and mental-health during the COVID-19 pandemic in the United Kingdom</article-title>. <source><italic toggle="yes">Nat Commun</italic></source>. <year>2021</year>;<volume>12</volume>(<issue>1</issue>):<fpage>4111</fpage>. doi:<pub-id pub-id-type="doi">10.1038/s41467-021-24365-5</pub-id><pub-id pub-id-type="pmid">34272365</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0050">
+        <label>50.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Maich</surname>
+<given-names>KHG</given-names></string-name>, <string-name><surname>Lachowski</surname>
+<given-names>AM</given-names></string-name>, <string-name><surname>Carney</surname>
+<given-names>CE</given-names></string-name>. <article-title>Psychometric properties of the consensus sleep diary in those with insomnia disorder</article-title>. <source><italic toggle="yes">Behav Sleep Med</italic></source>. <year>2018</year>;<volume>16</volume>(<issue>2</issue>):<fpage>117</fpage>–<lpage>134</lpage>. doi:<pub-id pub-id-type="doi">10.1080/15402002.2016.1173556</pub-id><pub-id pub-id-type="pmid">27231885</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0051">
+        <label>51.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Buysse</surname>
+<given-names>DJ</given-names></string-name>, <string-name><surname>Ancoli-Israel</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Edinger</surname>
+<given-names>JD</given-names></string-name>, <string-name><surname>Lichstein</surname>
+<given-names>KL</given-names></string-name>, <string-name><surname>Morin</surname>
+<given-names>CM</given-names></string-name>. <article-title>Recommendations for a standard research assessment of insomnia</article-title>. <source><italic toggle="yes">Sleep</italic></source>. <year>2006</year>;<volume>29</volume>(<issue>9</issue>):<fpage>1155</fpage>–<lpage>1173</lpage>. doi:<pub-id pub-id-type="doi">10.1093/sleep/29.9.1155</pub-id><pub-id pub-id-type="pmid">17040003</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0052">
+        <label>52.</label>
+        <mixed-citation publication-type="webpage"><string-name><surname>Hoffman</surname>
+<given-names>L</given-names></string-name>. <article-title>Longitudinal analysis: modeling within-person fluctuation and change</article-title>. <year>2015</year>. <comment>Available from</comment>: <ext-link xlink:href="https://www.routledge.com/Longitudinal-Analysis-Modeling-Within-Person-Fluctuation-and-Change/Hoffman/p/book/9780415876025" ext-link-type="uri">https://www.routledge.com/Longitudinal-Analysis-Modeling-Within-Person-Fluctuation-and-Change/Hoffman/p/book/9780415876025</ext-link>. <date-in-citation>Accessed <month>September</month>
+<day>25</day>, 2024</date-in-citation>.</mixed-citation>
+      </ref>
+      <ref id="cit0053">
+        <label>53.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Nezlek</surname>
+<given-names>JB</given-names></string-name>. <article-title>Multilevel random coefficient analyses of event- and interval-contingent data in social and personality psychology research</article-title>. <source><italic toggle="yes">Soc Psychol Bull</italic></source>. <year>2001</year>;<volume>27</volume>(<issue>7</issue>):<fpage>771</fpage>–<lpage>785</lpage>. doi:<pub-id pub-id-type="doi">10.1177/0146167201277001</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0054">
+        <label>54.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Enders</surname>
+<given-names>CK</given-names></string-name>, <string-name><surname>Tofighi</surname>
+<given-names>D</given-names></string-name>. <article-title>Centering predictor variables in cross-sectional multilevel models: a new look at an old issue</article-title>. <source><italic toggle="yes">Psychol Methods</italic></source>. <year>2007</year>;<volume>12</volume>(<issue>2</issue>):<fpage>121</fpage>–<lpage>138</lpage>. doi:<pub-id pub-id-type="doi">10.1037/1082-989X.12.2.121</pub-id><pub-id pub-id-type="pmid">17563168</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0055">
+        <label>55.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Pawitan</surname>
+<given-names>Y</given-names></string-name>, <string-name><surname>Michiels</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Koscielny</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Gusnanto</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Ploner</surname>
+<given-names>A</given-names></string-name>. <article-title>False discovery rate, sensitivity and sample size for microarray studies</article-title>. <source><italic toggle="yes">Bioinforma Oxf Engl</italic></source>. <year>2005</year>;<volume>21</volume>(<issue>13</issue>):<fpage>3017</fpage>–<lpage>3024</lpage>. doi:<pub-id pub-id-type="doi">10.1093/bioinformatics/bti448</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0056">
+        <label>56.</label>
+        <mixed-citation publication-type="book"><string-name><surname>Kline</surname>
+<given-names>RB</given-names></string-name>. <source><italic toggle="yes">Principles and Practice of Structural Equation Modeling</italic></source>. <edition>4th edn</edition> ed. <publisher-name>Guilford Press</publisher-name>; <year>2016</year>.</mixed-citation>
+      </ref>
+      <ref id="cit0057">
+        <label>57.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Huang</surname>
+<given-names>Y</given-names></string-name>, <string-name><surname>Li</surname>
+<given-names>L</given-names></string-name>, <string-name><surname>Gan</surname>
+<given-names>Y</given-names></string-name>, et al. <article-title>Sedentary behaviors and risk of depression: a meta-analysis of prospective studies</article-title>. <source><italic toggle="yes">Transl Psychiatry</italic></source>. <year>2020</year>;<volume>10</volume>(<issue>1</issue>):<fpage>1</fpage>–<lpage>10</lpage>. doi:<pub-id pub-id-type="doi">10.1038/s41398-020-0715-z</pub-id><pub-id pub-id-type="pmid">32066695</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0058">
+        <label>58.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Deboer</surname>
+<given-names>T</given-names></string-name>. <article-title>Sleep homeostasis and the circadian clock: do the circadian pacemaker and the sleep homeostat influence each other’s functioning?</article-title>
+<source><italic toggle="yes">Neurobiol Sleep Circadian Rhythms</italic></source>. <year>2018</year>;<volume>5</volume>:<fpage>68</fpage>–<lpage>77</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.nbscr.2018.02.003</pub-id><pub-id pub-id-type="pmid">31236513</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0059">
+        <label>59.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Backhaus</surname>
+<given-names>J</given-names></string-name>, <string-name><surname>Junghanns</surname>
+<given-names>K</given-names></string-name>, <string-name><surname>Broocks</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Riemann</surname>
+<given-names>D</given-names></string-name>, <string-name><surname>Hohagen</surname>
+<given-names>F</given-names></string-name>. <article-title>Test-retest reliability and validity of the Pittsburgh Sleep Quality Index in primary insomnia</article-title>. <source><italic toggle="yes">J Psychosom Res</italic></source>. <year>2002</year>;<volume>53</volume>(<issue>3</issue>):<fpage>737</fpage>–<lpage>740</lpage>. doi:<pub-id pub-id-type="doi">10.1016/s0022-3999(02)00330-6</pub-id><pub-id pub-id-type="pmid">12217446</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0060">
+        <label>60.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Grandner</surname>
+<given-names>MA</given-names></string-name>, <string-name><surname>Kripke</surname>
+<given-names>DF</given-names></string-name>, <string-name><surname>Yoon</surname>
+<given-names>IY</given-names></string-name>, <string-name><surname>Youngstedt</surname>
+<given-names>SD</given-names></string-name>. <article-title>Criterion validity of the Pittsburgh Sleep Quality Index: investigation in a non-clinical sample</article-title>. <source><italic toggle="yes">Sleep Biol Rhythms</italic></source>. <year>2006</year>;<volume>4</volume>(<issue>2</issue>):<fpage>129</fpage>–<lpage>139</lpage>. doi:<pub-id pub-id-type="doi">10.1111/j.1479-8425.2006.00207.x</pub-id><pub-id pub-id-type="pmid">22822303</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0061">
+        <label>61.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Majumdar</surname>
+<given-names>P</given-names></string-name>, <string-name><surname>Biswas</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Sahu</surname>
+<given-names>S</given-names></string-name>. <article-title>COVID-19 pandemic and lockdown: cause of sleep disruption, depression, somatic pain, and increased screen exposure of office workers and students of India</article-title>. <source><italic toggle="yes">Chronobiol Int</italic></source>. <year>2020</year>;<volume>37</volume>(<issue>8</issue>):<fpage>1191</fpage>–<lpage>1200</lpage>. doi:<pub-id pub-id-type="doi">10.1080/07420528.2020.1786107</pub-id><pub-id pub-id-type="pmid">32660352</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0062">
+        <label>62.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Salfi</surname>
+<given-names>F</given-names></string-name>, <string-name><surname>Amicucci</surname>
+<given-names>G</given-names></string-name>, <string-name><surname>Corigliano</surname>
+<given-names>D</given-names></string-name>, et al. <article-title>Changes of evening exposure to electronic devices during the COVID-19 lockdown affect the time course of sleep disturbances</article-title>. <source><italic toggle="yes">Sleep</italic></source>. <year>2021</year>;<volume>44</volume>(<issue>9</issue>):<fpage>zsab080</fpage>. doi:<pub-id pub-id-type="doi">10.1093/sleep/zsab080</pub-id><pub-id pub-id-type="pmid">34037792</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0063">
+        <label>63.</label>
+        <mixed-citation publication-type="webpage"><string-name><surname>McClain</surname>
+<given-names>C</given-names></string-name>, <string-name><surname>Vogels</surname>
+<given-names>EA</given-names></string-name>, <string-name><surname>Perrin</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Sechopoulos</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Rainie</surname>
+<given-names>L.</given-names></string-name>
+<article-title>How the internet and technology shaped Americans’ personal experiences amid COVID-19</article-title>. <source>Pew Research Center</source>. <year>2021</year>. <date-in-citation>Accessed <month>August</month>
+<day>23</day>, 2024</date-in-citation>. <ext-link xlink:href="https://www.pewresearch.org/internet/2021/09/01/how-The-internet-and-technology-shaped-americans-personal-experiences-amid-covid-19/" ext-link-type="uri">https://www.pewresearch.org/internet/2021/09/01/how-The-internet-and-technology-shaped-americans-personal-experiences-amid-covid-19/</ext-link>.</mixed-citation>
+      </ref>
+      <ref id="cit0064">
+        <label>64.</label>
+        <mixed-citation publication-type="newspaper"><string-name><surname>Beyea</surname>
+<given-names>DG</given-names></string-name>, <string-name><surname>Lim</surname>
+<given-names>C</given-names></string-name>, <string-name><surname>Lover</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Foxman</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Ratan (Robby)</surname>
+<given-names>R</given-names></string-name>, <string-name><surname>Leith</surname>
+<given-names>A.</given-names></string-name>
+<article-title>How bad is Zoom fatigue? A meta-analytical examination of research on the antecedents of videoconference fatigue</article-title>. <year>2024</year>. doi:<pub-id pub-id-type="doi">10.2139/ssrn.4758266</pub-id>.</mixed-citation>
+      </ref>
+      <ref id="cit0065">
+        <label>65.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Castro</surname>
+<given-names>O</given-names></string-name>, <string-name><surname>Bennie</surname>
+<given-names>J</given-names></string-name>, <string-name><surname>Vergeer</surname>
+<given-names>I</given-names></string-name>, <string-name><surname>Bosselut</surname>
+<given-names>G</given-names></string-name>, <string-name><surname>Biddle</surname>
+<given-names>SJH</given-names></string-name>. <article-title>How sedentary are university students? A systematic review and meta-analysis</article-title>. <source><italic toggle="yes">Prev Sci off J Soc Prev Res</italic></source>. <year>2020</year>;<volume>21</volume>(<issue>3</issue>):<fpage>332</fpage>–<lpage>343</lpage>. doi:<pub-id pub-id-type="doi">10.1007/s11121-020-01093-8</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0066">
+        <label>66.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Cingel</surname>
+<given-names>DP</given-names></string-name>, <string-name><surname>Lauricella</surname>
+<given-names>AR</given-names></string-name>, <string-name><surname>Taylor</surname>
+<given-names>LB</given-names></string-name>, <string-name><surname>Stevens</surname>
+<given-names>HR</given-names></string-name>, <string-name><surname>Coyne</surname>
+<given-names>SM</given-names></string-name>, <string-name><surname>Wartella</surname>
+<given-names>E</given-names></string-name>. <article-title>U.S. adolescents’ attitudes toward school, social connection, media use, and mental health during the COVID-19 pandemic: differences as a function of gender identity and school context</article-title>. <source><italic toggle="yes">PLoS One</italic></source>. <year>2022</year>;<volume>17</volume>(<issue>10</issue>):<fpage>e0276737</fpage>. doi:<pub-id pub-id-type="doi">10.1371/journal.pone.0276737</pub-id><pub-id pub-id-type="pmid">36301903</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0067">
+        <label>67.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Rutkowska</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Cieślik</surname>
+<given-names>B</given-names></string-name>, <string-name><surname>Tomaszczyk</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Szczepańska-Gieracha</surname>
+<given-names>J</given-names></string-name>. <article-title>Mental health conditions among e-learning students during the COVID-19 pandemic</article-title>. <source><italic toggle="yes">Front Public Health</italic></source>. <year>2022</year>;<fpage>10</fpage>. doi:<pub-id pub-id-type="doi">10.3389/fpubh.2022.871934</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0068">
+        <label>68.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Moore</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Veletsianos</surname>
+<given-names>G</given-names></string-name>, <string-name><surname>Barbour</surname>
+<given-names>M</given-names></string-name>. <article-title>A Synthesis of research on mental health and remote learning: how pandemic grief haunts claims of causality</article-title>. <source><italic toggle="yes">OpenTechnology Educ Soc Scholarsh Assoc J</italic></source>. <year>2022</year>;<volume>2</volume>(<issue>1</issue>):<fpage>1</fpage>–<lpage>19</lpage>. doi:<pub-id pub-id-type="doi">10.18357/otessaj.2022.1.1.36</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0069">
+        <label>69.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Colvin</surname>
+<given-names>MKM</given-names></string-name>, <string-name><surname>Reesman</surname>
+<given-names>J</given-names></string-name>, <string-name><surname>Glen</surname>
+<given-names>T</given-names></string-name>. <article-title>The impact of COVID-19 related educational disruption on children and adolescents: an interim data summary and commentary on ten considerations for neuropsychological practice</article-title>. <source><italic toggle="yes">Clin Neuropsychol</italic></source>. <year>2022</year>;<volume>36</volume>(<issue>1</issue>):<fpage>45</fpage>–<lpage>71</lpage>. doi:<pub-id pub-id-type="doi">10.1080/13854046.2021.1970230</pub-id><pub-id pub-id-type="pmid">34495815</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0070">
+        <label>70.</label>
+        <mixed-citation publication-type="book"><string-name><surname>Goel</surname>
+<given-names>N</given-names></string-name>, <string-name><surname>Basner</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Rao</surname>
+<given-names>H</given-names></string-name>, <string-name><surname>Dinges</surname>
+<given-names>DF</given-names></string-name>. <part-title>Chapter Seven - Circadian rhythms, sleep deprivation, and human performance</part-title>. In: <string-name><surname>Gillette</surname>
+<given-names>MU</given-names></string-name> editor. <source><italic toggle="yes">Progress in Molecular Biology and Translational Science. Vol 119. Chronobiology: Biological Timing in Health and Disease</italic></source>. <publisher-name>Academic Press</publisher-name>; <year>2013</year>:<fpage>155</fpage>–<lpage>190</lpage>. doi:<pub-id pub-id-type="doi">10.1016/B978-0-12-396971-2.00007-5</pub-id>.</mixed-citation>
+      </ref>
+      <ref id="cit0071">
+        <label>71.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Pilcher</surname>
+<given-names>JJ</given-names></string-name>, <string-name><surname>Huffcutt</surname>
+<given-names>AI</given-names></string-name>. <article-title>Effects of sleep deprivation on performance: a meta-analysis</article-title>. <source><italic toggle="yes">Sleep</italic></source>. <year>1996</year>;<volume>19</volume>(<issue>4</issue>):<fpage>318</fpage>–<lpage>326</lpage>. doi:<pub-id pub-id-type="doi">10.1093/sleep/19.4.318</pub-id><pub-id pub-id-type="pmid">8776790</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0072">
+        <label>72.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Konjarski</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Murray</surname>
+<given-names>G</given-names></string-name>, <string-name><surname>Lee</surname>
+<given-names>VV</given-names></string-name>, <string-name><surname>Jackson</surname>
+<given-names>ML</given-names></string-name>. <article-title>Reciprocal relationships between daily sleep and mood: a systematic review of naturalistic prospective studies</article-title>. <source><italic toggle="yes">Sleep Med Rev</italic></source>. <year>2018</year>;<volume>42</volume>:<fpage>47</fpage>–<lpage>58</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.smrv.2018.05.005</pub-id><pub-id pub-id-type="pmid">30404728</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0073">
+        <label>73.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Fang</surname>
+<given-names>Y</given-names></string-name>, <string-name><surname>Forger</surname>
+<given-names>DB</given-names></string-name>, <string-name><surname>Frank</surname>
+<given-names>E</given-names></string-name>, <string-name><surname>Sen</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Goldstein</surname>
+<given-names>C</given-names></string-name>. <article-title>Day-to-day variability in sleep parameters and depression risk: a prospective cohort study of training physicians</article-title>. <source><italic toggle="yes">Npj Digit Med</italic></source>. <year>2021</year>;<volume>4</volume>(<issue>1</issue>):<fpage>1</fpage>–<lpage>9</lpage>. doi:<pub-id pub-id-type="doi">10.1038/s41746-021-00400-z</pub-id><pub-id pub-id-type="pmid">33398041</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0074">
+        <label>74.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Cohen</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Wills</surname>
+<given-names>TA</given-names></string-name>. <article-title>Stress, social support, and the buffering hypothesis</article-title>. <source><italic toggle="yes">Psychol Bull</italic></source>. <year>1985</year>;<volume>98</volume>(<issue>2</issue>):<fpage>310</fpage>–<lpage>357</lpage>. doi:<pub-id pub-id-type="doi">10.1037/0033-2909.98.2.310</pub-id><pub-id pub-id-type="pmid">3901065</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0075">
+        <label>75.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Schwarzer</surname>
+<given-names>R</given-names></string-name>, <string-name><surname>Knoll</surname>
+<given-names>N</given-names></string-name>. <article-title>Functional roles of social support within the stress and coping process: a theoretical and empirical overview</article-title>. <source><italic toggle="yes">Int J Psychol</italic></source>. <year>2007</year>;<volume>42</volume>(<issue>4</issue>):<fpage>243</fpage>–<lpage>252</lpage>. doi:<pub-id pub-id-type="doi">10.1080/00207590701396641</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0076">
+        <label>76.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Liu</surname>
+<given-names>C</given-names></string-name>, <string-name><surname>Huang</surname>
+<given-names>N</given-names></string-name>, <string-name><surname>Fu</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Zhang</surname>
+<given-names>H</given-names></string-name>, <string-name><surname>Feng</surname>
+<given-names>XL</given-names></string-name>, <string-name><surname>Guo</surname>
+<given-names>J</given-names></string-name>. <article-title>Relationship between risk perception, social support, and mental health among general Chinese population during the COVID-19 pandemic</article-title>. <source><italic toggle="yes">Risk Manag Healthc Policy</italic></source>. <year>2021</year>;<volume>14</volume>:<fpage>1843</fpage>–<lpage>1853</lpage>. doi:<pub-id pub-id-type="doi">10.2147/RMHP.S302521</pub-id><pub-id pub-id-type="pmid">33994815</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0077">
+        <label>77.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Dour</surname>
+<given-names>HJ</given-names></string-name>, <string-name><surname>Wiley</surname>
+<given-names>JF</given-names></string-name>, <string-name><surname>Roy-Byrne</surname>
+<given-names>P</given-names></string-name>, et al. <article-title>Perceived social support mediates anxiety and depressive symptom changes following primary care intervention</article-title>. <source><italic toggle="yes">Depress Anxiety</italic></source>. <year>2014</year>;<volume>31</volume>(<issue>5</issue>):<fpage>436</fpage>–<lpage>442</lpage>. doi:<pub-id pub-id-type="doi">10.1002/da.22216</pub-id><pub-id pub-id-type="pmid">24338947</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0078">
+        <label>78.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Riemann</surname>
+<given-names>D</given-names></string-name>, <string-name><surname>Baglioni</surname>
+<given-names>C</given-names></string-name>, <string-name><surname>Bassetti</surname>
+<given-names>C</given-names></string-name>, et al. <article-title>European guideline for the diagnosis and treatment of insomnia</article-title>. <source><italic toggle="yes">J Sleep Res</italic></source>. <year>2017</year>;<volume>26</volume>(<issue>6</issue>):<fpage>675</fpage>–<lpage>700</lpage>. doi:<pub-id pub-id-type="doi">10.1111/jsr.12594</pub-id><pub-id pub-id-type="pmid">28875581</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0079">
+        <label>79.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Riedl</surname>
+<given-names>R</given-names></string-name>. <article-title>On the stress potential of videoconferencing: definition and root causes of Zoom fatigue</article-title>. <source><italic toggle="yes">Electron Mark</italic></source>. <year>2022</year>;<volume>32</volume>(<issue>1</issue>):<fpage>153</fpage>–<lpage>177</lpage>. doi:<pub-id pub-id-type="doi">10.1007/s12525-021-00501-3</pub-id><pub-id pub-id-type="pmid">35600914</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0080">
+        <label>80.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Kirszenblat</surname>
+<given-names>L</given-names></string-name>, <string-name><surname>van Swinderen</surname>
+<given-names>B</given-names></string-name>. <article-title>The yin and yang of sleep and attention</article-title>. <source><italic toggle="yes">Trends Neurosci</italic></source>. <year>2015</year>;<volume>38</volume>(<issue>12</issue>):<fpage>776</fpage>–<lpage>786</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.tins.2015.10.001</pub-id><pub-id pub-id-type="pmid">26602764</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0081">
+        <label>81.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Nurmi</surname>
+<given-names>N</given-names></string-name>, <string-name><surname>Pakarinen</surname>
+<given-names>S</given-names></string-name>. <article-title>Virtual meeting fatigue: exploring the impact of virtual meetings on cognitive performance and active versus passive fatigue</article-title>. <source><italic toggle="yes">J Occup Health Psychol</italic></source>. <year>2023</year>;<volume>28</volume>(<issue>6</issue>):<fpage>343</fpage>–<lpage>362</lpage>. doi:<pub-id pub-id-type="doi">10.1037/ocp0000362</pub-id><pub-id pub-id-type="pmid">37883023</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0082">
+        <label>82.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Dennis</surname>
+<given-names>AR</given-names></string-name>, <string-name><surname>Fuller</surname>
+<given-names>RM</given-names></string-name>, <string-name><surname>Valacich</surname>
+<given-names>JS</given-names></string-name>. <article-title>Media, tasks, and communication processes: a theory of media synchronicity</article-title>. <source><italic toggle="yes">MIS Q</italic></source>. <year>2008</year>;<volume>32</volume>(<issue>3</issue>):<fpage>575</fpage>–<lpage>600</lpage>. doi:<pub-id pub-id-type="doi">10.2307/25148857</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0083">
+        <label>83.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Bennett</surname>
+<given-names>AA</given-names></string-name>. <article-title>Videoconference fatigue? Exploring changes in fatigue after videoconference meetings during COVID-19</article-title>. <source><italic toggle="yes">J Appl Psychol</italic></source>. <year>2021</year>;<volume>106</volume>(<issue>3</issue>):<fpage>330</fpage>. doi:<pub-id pub-id-type="doi">10.1037/apl0000906</pub-id><pub-id pub-id-type="pmid">33871270</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0084">
+        <label>84.</label>
+        <mixed-citation publication-type="webpage"><string-name><surname>Lee</surname>
+<given-names>J</given-names></string-name>
+<article-title>A neuropsychological exploration of Zoom fatigue</article-title>. <source>Psychiatric Times</source>. <date-in-citation>Accessed <month>July</month>
+<day>12</day>, 2021</date-in-citation>. <ext-link xlink:href="https://www.psychiatrictimes.com/view/psychological-exploration-zoom-fatigue" ext-link-type="uri">https://www.psychiatrictimes.com/view/psychological-exploration-zoom-fatigue</ext-link>.</mixed-citation>
+      </ref>
+      <ref id="cit0085">
+        <label>85.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Gumport</surname>
+<given-names>NB</given-names></string-name>, <string-name><surname>Gasperetti</surname>
+<given-names>CE</given-names></string-name>, <string-name><surname>Silk</surname>
+<given-names>JS</given-names></string-name>, <string-name><surname>Harvey</surname>
+<given-names>AG</given-names></string-name>. <article-title>The impact of television, electronic games, and social technology use on sleep and health in adolescents with an evening circadian preference</article-title>. <source><italic toggle="yes">J Youth Adolesc</italic></source>. <year>2021</year>;<volume>50</volume>(<issue>12</issue>):<fpage>2351</fpage>–<lpage>2362</lpage>. doi:<pub-id pub-id-type="doi">10.1007/s10964-021-01429-9</pub-id><pub-id pub-id-type="pmid">33948831</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0086">
+        <label>86.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Twenge</surname>
+<given-names>JM</given-names></string-name>, <string-name><surname>Hisler</surname>
+<given-names>GC</given-names></string-name>, <string-name><surname>Krizan</surname>
+<given-names>Z</given-names></string-name>. <article-title>Associations between screen time and sleep duration are primarily driven by portable electronic devices: evidence from a population-based study of U.S. children ages 0–17</article-title>. <source><italic toggle="yes">Sleep Med</italic></source>. <year>2019</year>;<volume>56</volume>:<fpage>211</fpage>–<lpage>218</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.sleep.2018.11.009</pub-id><pub-id pub-id-type="pmid">30639033</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0087">
+        <label>87.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Johansson</surname>
+<given-names>AEE</given-names></string-name>, <string-name><surname>Petrisko</surname>
+<given-names>MA</given-names></string-name>, <string-name><surname>Chasens</surname>
+<given-names>ER</given-names></string-name>. <article-title>Adolescent sleep and the impact of technology use before sleep on daytime function</article-title>. <source><italic toggle="yes">J Pediatr Nurs</italic></source>. <year>2016</year>;<volume>31</volume>(<issue>5</issue>):<fpage>498</fpage>–<lpage>504</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.pedn.2016.04.004</pub-id><pub-id pub-id-type="pmid">27184356</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0088">
+        <label>88.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Brautsch</surname>
+<given-names>LAS</given-names></string-name>, <string-name><surname>Lund</surname>
+<given-names>L</given-names></string-name>, <string-name><surname>Andersen</surname>
+<given-names>MM</given-names></string-name>, <string-name><surname>Jennum</surname>
+<given-names>PJ</given-names></string-name>, <string-name><surname>Folker</surname>
+<given-names>AP</given-names></string-name>, <string-name><surname>Andersen</surname>
+<given-names>S</given-names></string-name>. <article-title>Digital media use and sleep in late adolescence and young adulthood: a systematic review</article-title>. <source><italic toggle="yes">Sleep Med Rev</italic></source>. <year>2023</year>;<volume>68</volume>:<fpage>101742</fpage>. doi:<pub-id pub-id-type="doi">10.1016/j.smrv.2022.101742</pub-id><pub-id pub-id-type="pmid">36638702</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0089">
+        <label>89.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Levenson</surname>
+<given-names>JC</given-names></string-name>, <string-name><surname>Shensa</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Sidani</surname>
+<given-names>JE</given-names></string-name>, <string-name><surname>Colditz</surname>
+<given-names>JB</given-names></string-name>, <string-name><surname>Primack</surname>
+<given-names>BA</given-names></string-name>. <article-title>The association between social media use and sleep disturbance among young adults</article-title>. <source><italic toggle="yes">Prev Med</italic></source>. <year>2016</year>;<volume>85</volume>:<fpage>36</fpage>–<lpage>41</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.ypmed.2016.01.001</pub-id><pub-id pub-id-type="pmid">26791323</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0090">
+        <label>90.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Russell</surname>
+<given-names>C</given-names></string-name>, <string-name><surname>Wearden</surname>
+<given-names>AJ</given-names></string-name>, <string-name><surname>Fairclough</surname>
+<given-names>G</given-names></string-name>, <string-name><surname>Emsley</surname>
+<given-names>RA</given-names></string-name>, <string-name><surname>Kyle</surname>
+<given-names>SD</given-names></string-name>. <article-title>Subjective but not actigraphy-defined sleep predicts next-day fatigue in chronic fatigue syndrome: a prospective daily diary study</article-title>. <source><italic toggle="yes">Sleep</italic></source>. <year>2016</year>;<volume>39</volume>(<issue>4</issue>):<fpage>937</fpage>–<lpage>944</lpage>. doi:<pub-id pub-id-type="doi">10.5665/sleep.5658</pub-id><pub-id pub-id-type="pmid">26715232</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0091">
+        <label>91.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>King</surname>
+<given-names>DL</given-names></string-name>, <string-name><surname>Gradisar</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Drummond</surname>
+<given-names>A</given-names></string-name>, et al. <article-title>The impact of prolonged violent video-gaming on adolescent sleep: an experimental study</article-title>. <source><italic toggle="yes">J Sleep Res</italic></source>. <year>2013</year>;<volume>22</volume>(<issue>2</issue>):<fpage>137</fpage>–<lpage>143</lpage>. doi:<pub-id pub-id-type="doi">10.1111/j.1365-2869.2012.01060.x</pub-id><pub-id pub-id-type="pmid">23137332</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0092">
+        <label>92.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Weaver</surname>
+<given-names>E</given-names></string-name>, <string-name><surname>Gradisar</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Dohnt</surname>
+<given-names>H</given-names></string-name>, <string-name><surname>Lovato</surname>
+<given-names>N</given-names></string-name>, <string-name><surname>Douglas</surname>
+<given-names>P</given-names></string-name>. <article-title>The effect of presleep video-game playing on adolescent sleep</article-title>. <source><italic toggle="yes">J Clin Sleep Med</italic></source>. <year>2010</year>;<volume>06</volume>(<issue>02</issue>):<fpage>184</fpage>–<lpage>189</lpage>. doi:<pub-id pub-id-type="doi">10.5664/jcsm.27769</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0093">
+        <label>93.</label>
+        <mixed-citation publication-type="webpage"><collab>NIH Center for Scientific Review</collab>. <source><italic toggle="yes">CSR Analysis of Zoom Format on CSR Review Meetings</italic>.</source>; <year>2020</year>. <date-in-citation>Accessed <month>July</month>
+<day>26</day>, 2021</date-in-citation>. <ext-link xlink:href="https://public.csr.nih.gov/sites/default/files/2020-10/CSR%2520Analysis%2520of%2520Zoom%2520in%2520Review%2520Oct%25202020.pdf" ext-link-type="uri">https://public.csr.nih.gov/sites/default/files/2020-10/CSR%20Analysis%20of%20Zoom%20in%20Review%20Oct%202020.pdf</ext-link>.</mixed-citation>
+      </ref>
+      <ref id="cit0094">
+        <label>94.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>LeBourgeois</surname>
+<given-names>MK</given-names></string-name>, <string-name><surname>Hale</surname>
+<given-names>L</given-names></string-name>, <string-name><surname>Chang</surname>
+<given-names>AM</given-names></string-name>, <string-name><surname>Akacem</surname>
+<given-names>LD</given-names></string-name>, <string-name><surname>Montgomery-Downs</surname>
+<given-names>HE</given-names></string-name>, <string-name><surname>Buxton</surname>
+<given-names>OM</given-names></string-name>. <article-title>Digital media and sleep in childhood and adolescence</article-title>. <source><italic toggle="yes">Pediatrics</italic></source>. <year>2017</year>;<volume>140</volume>(<issue>Supplement 2</issue>):<fpage>S92</fpage>–<lpage>S96</lpage>. doi:<pub-id pub-id-type="doi">10.1542/peds.2016-1758J</pub-id><pub-id pub-id-type="pmid">29093040</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0095">
+        <label>95.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Muller Queiroz</surname>
+<given-names>AC</given-names></string-name>, <string-name><surname>Nascimento</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Fauville</surname>
+<given-names>G</given-names></string-name>, et al. <article-title>Translation, validation and application of the ZEF scale to assess zoom fatigue in the Brazilian population</article-title>. <source><italic toggle="yes">SSRN Electron J</italic></source>. <year>2021</year>. doi:<pub-id pub-id-type="doi">10.2139/ssrn.3844219</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0096">
+        <label>96.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Czeisler</surname>
+<given-names>MÉ</given-names></string-name>. <article-title>Mental health, substance use, and suicidal ideation during the COVID-19 pandemic — United States, June 24–30, 2020</article-title>. <source><italic toggle="yes">MMWR Morb Mortal Wkly Rep</italic></source>. <year>2020</year>;<volume>69</volume>:<fpage>1</fpage>. doi:<pub-id pub-id-type="doi">10.15585/mmwr.mm6932a1</pub-id>.<pub-id pub-id-type="pmid">31917782</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0097">
+        <label>97.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Short</surname>
+<given-names>MA</given-names></string-name>, <string-name><surname>Arora</surname>
+<given-names>T</given-names></string-name>, <string-name><surname>Gradisar</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Taheri</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Carskadon</surname>
+<given-names>MA</given-names></string-name>. <article-title>How many sleep diary entries are needed to reliably estimate adolescent sleep?</article-title>
+<source><italic toggle="yes">Sleep</italic></source>. <year>2017</year>;<volume>40</volume>(<issue>3</issue>):<fpage>zsx006</fpage>. doi:<pub-id pub-id-type="doi">10.1093/sleep/zsx006</pub-id><pub-id pub-id-type="pmid">28199718</pub-id>
+</mixed-citation>
+      </ref>
+    </ref-list>
+  </back>
+</article>
+</pmc-articleset>

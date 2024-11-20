@@ -1,0 +1,820 @@
+<pmc-articleset><article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" dtd-version="1.3" xml:lang="en" article-type="research-article">
+  <?properties open_access?>
+  <processing-meta base-tagset="archiving" mathml-version="3.0" table-model="xhtml" tagset-family="jats">
+    <restricted-by>pmc</restricted-by>
+  </processing-meta>
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="nlm-ta">Nat Sci Sleep</journal-id>
+      <journal-id journal-id-type="iso-abbrev">Nat Sci Sleep</journal-id>
+      <journal-id journal-id-type="publisher-id">nss</journal-id>
+      <journal-title-group>
+        <journal-title>Nature and Science of Sleep</journal-title>
+      </journal-title-group>
+      <issn pub-type="epub">1179-1608</issn>
+      <publisher>
+        <publisher-name>Dove</publisher-name>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="pmid">34876865</article-id>
+      <article-id pub-id-type="pmc">8643215</article-id>
+      <article-id pub-id-type="publisher-id">336344</article-id>
+      <article-id pub-id-type="doi">10.2147/NSS.S336344</article-id>
+      <article-categories>
+        <subj-group subj-group-type="heading">
+          <subject>Original Research</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>Automatic Sleep Stage Classification of Children with Sleep-Disordered Breathing Using the Modularized Network</article-title>
+        <alt-title alt-title-type="running-authors">Wang et al</alt-title>
+        <alt-title alt-title-type="running-title">Wang et al</alt-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author" equal-contrib="yes">
+          <name>
+            <surname>Wang</surname>
+            <given-names>Huijun</given-names>
+          </name>
+          <xref rid="aff0001" ref-type="aff">
+<sup>1</sup>
+</xref>
+          <xref rid="aff0002" ref-type="aff">
+<sup>2</sup>
+</xref>
+          <xref rid="aff0003" ref-type="aff">
+<sup>3</sup>
+</xref>
+          <xref rid="ft0001" ref-type="author-notes">*</xref>
+        </contrib>
+        <contrib contrib-type="author" equal-contrib="yes">
+          <name>
+            <surname>Lin</surname>
+            <given-names>Guodong</given-names>
+          </name>
+          <xref rid="aff0004" ref-type="aff">
+<sup>4</sup>
+</xref>
+          <xref rid="ft0001" ref-type="author-notes">*</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Li</surname>
+            <given-names>Yanru</given-names>
+          </name>
+          <xref rid="aff0001" ref-type="aff">
+<sup>1</sup>
+</xref>
+          <xref rid="aff0002" ref-type="aff">
+<sup>2</sup>
+</xref>
+          <xref rid="aff0003" ref-type="aff">
+<sup>3</sup>
+</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Zhang</surname>
+            <given-names>Xiaoqing</given-names>
+          </name>
+          <xref rid="aff0001" ref-type="aff">
+<sup>1</sup>
+</xref>
+          <xref rid="aff0002" ref-type="aff">
+<sup>2</sup>
+</xref>
+          <xref rid="aff0003" ref-type="aff">
+<sup>3</sup>
+</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Xu</surname>
+            <given-names>Wen</given-names>
+          </name>
+          <xref rid="aff0001" ref-type="aff">
+<sup>1</sup>
+</xref>
+          <xref rid="aff0002" ref-type="aff">
+<sup>2</sup>
+</xref>
+          <xref rid="aff0003" ref-type="aff">
+<sup>3</sup>
+</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Wang</surname>
+            <given-names>Xingjun</given-names>
+          </name>
+          <xref rid="aff0004" ref-type="aff">
+<sup>4</sup>
+</xref>
+          <xref rid="an0002" ref-type="corresp"/>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Han</surname>
+            <given-names>Demin</given-names>
+          </name>
+          <xref rid="aff0001" ref-type="aff">
+<sup>1</sup>
+</xref>
+          <xref rid="aff0002" ref-type="aff">
+<sup>2</sup>
+</xref>
+          <xref rid="aff0003" ref-type="aff">
+<sup>3</sup>
+</xref>
+          <xref rid="an0001" ref-type="corresp"/>
+        </contrib>
+        <aff id="aff0001"><label>1</label><institution>Department of Otorhinolaryngology Head and Neck Surgery, Beijing Tongren Hospital, Capital Medical University</institution>, <addr-line>Beijing</addr-line>, <country>People’s Republic of China</country></aff>
+        <aff id="aff0002"><label>2</label><institution>Obstructive Sleep Apnea-Hypopnea Syndrome Clinical Diagnosis and Therapy and Research Centre, Capital Medical University</institution>, <addr-line>Beijing</addr-line>, <country>People’s Republic of China</country></aff>
+        <aff id="aff0003"><label>3</label><institution>Key Laboratory of Otolaryngology-Head and Neck Surgery, Ministry of Education, Capital Medical University</institution>, <addr-line>Beijing</addr-line>, <country>People’s Republic of China</country></aff>
+        <aff id="aff0004"><label>4</label><institution>Department of Electronic Engineering, Tsinghua Shenzhen International Graduate School, Tsinghua University</institution>, <addr-line>Shenzhen</addr-line>, <country>People’s Republic of China</country></aff>
+      </contrib-group>
+      <author-notes>
+        <corresp id="an0001">Correspondence: Demin Han, <institution>Beijing Tongren Hospital, Capital Medical University</institution>, <addr-line>No. 1 Dongjiaominxiang Street, Dongcheng District</addr-line>, <addr-line>Beijing</addr-line>, <addr-line>100730</addr-line>, <country>People’s Republic of China</country>
+<phone>Tel +86-010-58269335</phone>
+<fax>Fax +86-010-58269331</fax> Email deminhan_ent@hotmail.com</corresp>
+        <corresp id="an0002">Xingjun Wang <institution>Tsinghua Shenzhen International Graduate School, University Town of Shenzhen</institution>, <addr-line>Nanshan District</addr-line>, <addr-line>Shenzhen</addr-line>, <addr-line>518055</addr-line>, <country>People’s Republic of China</country>
+<phone>Tel +86-18038153071</phone> Email wangxingjun@tsinghua.edu.cn</corresp>
+        <fn id="ft0001">
+          <label>*</label>
+          <p>These authors contributed equally to this work</p>
+        </fn>
+      </author-notes>
+      <pub-date pub-type="epub">
+        <day>30</day>
+        <month>11</month>
+        <year>2021</year>
+      </pub-date>
+      <pub-date pub-type="collection">
+        <year>2021</year>
+      </pub-date>
+      <volume>13</volume>
+      <fpage>2101</fpage>
+      <lpage>2112</lpage>
+      <history>
+        <date date-type="received">
+          <day>27</day>
+          <month>8</month>
+          <year>2021</year>
+        </date>
+        <date date-type="accepted">
+          <day>12</day>
+          <month>10</month>
+          <year>2021</year>
+        </date>
+      </history>
+      <permissions>
+        <copyright-statement>© 2021 Wang et al.</copyright-statement>
+        <copyright-year>2021</copyright-year>
+        <copyright-holder>Wang et al.</copyright-holder>
+        <license>
+          <ali:license_ref xmlns:ali="http://www.niso.org/schemas/ali/1.0/" specific-use="textmining" content-type="ccbynclicense">https://creativecommons.org/licenses/by-nc/3.0/</ali:license_ref>
+          <license-p>This work is published and licensed by Dove Medical Press Limited. The full terms of this license are available at <ext-link ext-link-type="uri" xlink:href="https://www.dovepress.com/terms.php">https://www.dovepress.com/terms.php</ext-link> and incorporate the Creative Commons Attribution – Non Commercial (unported, v3.0) License (<ext-link ext-link-type="uri" xlink:href="https://creativecommons.org/licenses/by-nc/3.0/">http://creativecommons.org/licenses/by-nc/3.0/</ext-link>). By accessing the work you hereby accept the Terms. Non-commercial uses of the work are permitted without any further permission from Dove Medical Press Limited, provided the work is properly attributed. For permission for commercial use of this work, please see paragraphs 4.2 and 5 of our Terms (<ext-link ext-link-type="uri" xlink:href="https://www.dovepress.com/terms.php">https://www.dovepress.com/terms.php</ext-link>).</license-p>
+        </license>
+      </permissions>
+      <abstract>
+        <sec id="s2001">
+          <title>Purpose</title>
+          <p>To develop an automatic sleep stage analysis model for children and evaluate the effect of the model on the diagnosis of sleep-disordered breathing (SDB).</p>
+        </sec>
+        <sec id="s2002">
+          <title>Patients and Methods</title>
+          <p>Three hundred and forty-four SDB patients aged between 2 to 18 years who completed polysomnography (PSG) to assess the severity of the disease were enrolled in this study. We developed deep neural networks to stage sleep from electroencephalography (EEG), electrooculography (EOG) and electromyogram (EMG). The model performance was estimated by accuracy, precision, recall, F1-score, and Cohen’s Kappa coefficient (ĸ). And we compared the difference in calculation of sleep parameters among the technicians, the model ensemble, and the single-channel EEG model.</p>
+        </sec>
+        <sec id="s2003">
+          <title>Results</title>
+          <p>The numbers of raw data divided into training, validation, and testing were 240, 36, and 68, respectively. The best performance appeared in the model ensemble of which the accuracy was 83.36% (ĸ=0.7817) in 5-stages, and the accuracy was 96.76% (ĸ=0.8236) in 2-stages. The single-channel EEG model showed the classification satisfyingly as well. There was no significant difference in TST, SE, SOL, time in W, time in N1+N2, time in N3, and OAHI between technician and the model (P&gt;0.05). On the datasets from sleep-EDF-13 and sleep-EDF-18, the average classification accuracies achieved were 92.76% and 91.94% in 5-stages by using the proposed method, respectively.</p>
+        </sec>
+        <sec id="s2004">
+          <title>Conclusion</title>
+          <p>This research established the model for pediatric automatic sleep stage classification with satisfying reliability and generalizability. In addition, it could be applied for calculating quantitative sleep parameters and evaluating the severity of SDB.</p>
+        </sec>
+      </abstract>
+      <kwd-group kwd-group-type="author">
+        <title>Keywords</title>
+        <kwd>sleep-disordered breathing</kwd>
+        <kwd>SDB</kwd>
+        <kwd>deep learning</kwd>
+        <kwd>sleep stage</kwd>
+        <kwd>children</kwd>
+      </kwd-group>
+      <funding-group>
+        <award-group>
+          <funding-source>
+<institution-wrap><institution>Science and Technology Innovation Committee of Shenzhen</institution></institution-wrap>
+</funding-source>
+        </award-group>
+        <award-group>
+          <funding-source>
+<institution-wrap><institution>National Natural Science Foundation of China</institution><institution-id institution-id-type="open-funder-registry">10.13039/501100001809</institution-id></institution-wrap>
+</funding-source>
+        </award-group>
+        <award-group>
+          <funding-source>
+<institution-wrap><institution>Consulting research project of Chinese Academy of Engineering</institution></institution-wrap>
+</funding-source>
+        </award-group>
+        <award-group>
+          <funding-source>
+<institution-wrap><institution>Shenzhen Municipal Natural Science Foundation, and the Shenzhen Science and Technology Innovation Committee</institution></institution-wrap>
+</funding-source>
+        </award-group>
+        <funding-statement>This work was financially supported by the Science and Technology Innovation Committee of Shenzhen (WDZC20200818121348001), the National Natural Science Foundation of China (81970866, 81800894), the Consulting research project of Chinese Academy of Engineering (2019-XZ-29), Shenzhen Municipal Natural Science Foundation, and the Shenzhen Science and Technology Innovation Committee (KCXFZ202002011010487).</funding-statement>
+      </funding-group>
+      <counts>
+        <fig-count count="5"/>
+        <table-count count="15"/>
+        <ref-count count="43"/>
+        <page-count count="12"/>
+      </counts>
+    </article-meta>
+  </front>
+  <body>
+    <sec sec-type="intro" id="s0001">
+      <title>Introduction</title>
+      <p>Sleep-disordered breathing (SDB) represents a spectrum of breathing disorders ranging from primary snoring (PS) to obstructive sleep apnea (OSA) that disrupts nocturnal respiration and architecture of sleep, which is highly prevalent in children who are at the critical stage of growth and development.<xref rid="cit0001" ref-type="bibr">1</xref> It is meaningful for early diagnosis and intervention because SDB was verified to be associated with the functioning of various organs, including immune responses, cardiovascular function, and neurocognitive function.<xref rid="cit0002" ref-type="bibr">2</xref></p>
+      <p>The mobility of SDB in children who suffer from snoring, mouth breathing, or apnea ranged from 7.9 to 13.4% as measured according to the Pediatric Sleep Questionnaire (PSQ).<xref rid="cit0003" ref-type="bibr">3</xref>,<xref rid="cit0004" ref-type="bibr">4</xref> Based on guidelines provided by the American Academy of Paediatrics in 2012, the morbidity due to OSA in children is 1 to 5%.<xref rid="cit0005" ref-type="bibr">5</xref> Since overnight polysomnography (PSG) remains the gold standard for diagnosing the severity of SDB, diagnostic efficiency is largely dependent on the availability and accessibility of this technique.</p>
+      <p>Sleep stage classification is the first step for data analysis in PSG, according to the strict criteria proposed by the American Academy of Sleep Medicine (AASM).<xref rid="cit0006" ref-type="bibr">6</xref> It takes nearly 1 to 2 hours for technicians to identify sleep stages manually. However, intra-rater reliability (IRR) of classification is also known to be the subject of considerable variability. The SIESTA database arising from an EU-funded project found that the overall agreement for the AASM standard was 82.0% (ĸ = 0.76) based on an epoch-by-epoch comparison.<xref rid="cit0007" ref-type="bibr">7</xref> The accurate and user-friendly sleep staging system would assist sleep experts and provide critical clinical utility.</p>
+      <p>Because of time consuming nature and labor intensiveness of the manual method, several methods for automatic scoring of long-term sleep data have been researched in the past decades. The accuracy of the models mostly ranges from 78–90%.<xref rid="cit0008" ref-type="bibr">8–12</xref> Development and evaluation of software dedicated to automatic sleep staging (AS) face several issues, among which are: (1) EEG has a low signal-to-noise ratio (SNR), as the brain activity measured is often covered by multiple sources of environmental, physiological, and activity-specific noise called “artifacts”; (2) the generalization capabilities of models need to be further verified, for patients of different ages, pathophysiological, and treatment in the real world.<xref rid="cit0013" ref-type="bibr">13</xref>,<xref rid="cit0014" ref-type="bibr">14</xref></p>
+      <p>Behavioral and physiological characteristics of sleep in normal children vary significantly from sleep in adults.<xref rid="cit0001" ref-type="bibr">1</xref> There is a dynamic changing process in the frequency and amplitude of the characteristic waves in different ages. Considerable differences occur within and between individual children. How to classify the sleep stages in children of different ages correctly concerns the evaluation of sleep efficiency and management of pediatric sleep-related disorders.</p>
+      <p>An automated deep neural network which has achieved human-level annotation performance with an average accuracy of 81.81% was proposed by using a multi-model integration strategy with multiple signals in our laboratory.<xref rid="cit0008" ref-type="bibr">8</xref> Based on unfiltered EEG in a large sample of children with sleep-disordered breathing, our study was devoted to developing an automatic sleep stage analysis model with good generalizability in the clinical setting.</p>
+    </sec>
+    <sec id="s0002">
+      <title>Patients and Methods</title>
+      <sec id="s0002-s2001">
+        <title>Study Datasets</title>
+        <p>The study was conducted under the principles stated in the Declaration of Helsinki and approved by the Institutional Review Board (IRB) of the Beijing Tongren Hospital (TRECKY2017-032). Written informed consent was obtained from each parent of the children for inclusion in the study and the use of their medical records. According to the IRB’s decision, this study used public datasets of sleep-EDF for model verification without obtaining patients’ informed consent.</p>
+      </sec>
+      <sec id="s0002-s2002">
+        <title>Clinical Data</title>
+        <p>We recruited children in the Beijing Tongren Hospital between January 2017 and June 2021. The inclusion criteria were as follows: (1) 2 to 18 years old; (2) snoring more than 3 days every week; (3) total sleep time more than 6 hours; (4) children’s parents voluntarily participated in the study and signed informed consent forms. The exclusion criteria were as follows: (1) cannot cooperate to complete overnight polysomnography; (2) PSG recording integration failed; (3) PSG recordings could not be analyzed by technicians because of a large number of artifacts.</p>
+      </sec>
+      <sec id="s0002-s2003">
+        <title>Sleep-EDF Database</title>
+        <p>For validating the generalization of the model, we used expanded version of the sleep-EDF database in which PSG recordings lasting approximately 20 hours or 9 hours each were collected from healthy subjects and some who had mild difficulty falling asleep after temazepam intake but were otherwise healthy, including sleep-EDF-13 (61 PSG recordings) and sleep-EDF-18 (197 PSG recordings).<xref rid="cit0015" ref-type="bibr">15</xref> We combined the N3 and N4 according to the R&amp;K rule into N3 with the AASM guidelines. For comparison with other articles, we input the integral PSG data with long periods of wake and only included 30 minutes of the wake before and after sleep.</p>
+      </sec>
+      <sec id="s0002-s2004">
+        <title>Overnight Polysomnography (PSG)</title>
+        <p>The PSG was performed using the different computerized data collection systems of Compumedics S series (Compumedics Inc, Australia) and Alice 6 (Phillips Inc, America), including EEG(C3/A2, C4/A1), EOG (ROC, LOC), EMG, electrocardiogram (ECG), nasal and oral cannula pressure, recording of respiratory (thoracic and abdominal) movements, and pulse oximetry for oxygen saturation (SpO2).</p>
+        <p>The highly trained, experienced (more than 10 years) PSG technician scored sleep stages and respiratory events in a 30s epoch following the AASM guidelines (2012).<xref rid="cit0006" ref-type="bibr">6</xref> It is classified into one of the following five categories: (1) Wake (W), (2) Non-rapid eye movement stage 1 (N1), (3) Non-rapid eye movement stage 2 (N2), (4) Non-rapid eye movement stage 3 (N3) or (5) Rapid eye movement stage (REM). Sleep stages of N1 and N2 are also called shallow sleep, and N3 is called deep sleep. In our study, we additionally classified sleep stages into 4 stages (W vs shallow sleep vs deep sleep vs REM), 3 stages (W vs non-rapid eye movement stage vs REM), and 2 stages (W vs Sleep).</p>
+        <p>The obstructive apnea-hypopnea index (OAHI) was defined as the number of apnea and hypopnea events per hour of sleep and was used to indicate the severity of SDB: PS (OAHI&lt;1); mild OSA (1≤OAHI&lt;5); moderate OSA (5≤OAHI&lt;10); severe OSA (OAHI≥10).<xref rid="cit0016" ref-type="bibr">16</xref>,<xref rid="cit0017" ref-type="bibr">17</xref></p>
+      </sec>
+      <sec id="s0002-s2005">
+        <title>Data Processing</title>
+        <sec id="s0002-s2005-s3001">
+          <title>Signal Preprocessing</title>
+          <p>The frequency of the PSG data in the A6 dataset was 200 Hz while it is 256 Hz in the Compumedics dataset. To facilitate subsequent processing and retain necessary information of the signal at the same time, we filtered the signal at 50Hz and then downsampled it to 50 Hz. Based on this operation, we could eliminate high-frequency noise without spectral aliasing. Moreover, the amplitude of the signal was scaled to 100.</p>
+        </sec>
+        <sec id="s0002-s2005-s3002">
+          <title>Label Smoothing</title>
+          <p>In the multi-classification task, the neural network would output the degree of confidence of each category. The probability vector could be obtained after the softmax processing. The cross-entropy loss of the network was computed as:
+<disp-formula-group><disp-formula id="m0001"><label>(1)</label><alternatives><graphic xlink:href="NSS-13-2101-e0001.jpg" position="float"/><tex-math id="Tex001">\documentclass[12pt]{minimal}
+\usepackage{wasysym}
+\usepackage[substack]{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage[mathscr]{eucal}
+\usepackage{mathrsfs}
+\DeclareFontFamily{T1}{linotext}{}
+\DeclareFontShape{T1}{linotext}{m}{n} {linotext }{}
+\DeclareSymbolFont{linotext}{T1}{linotext}{m}{n}
+\DeclareSymbolFontAlphabet{\mathLINOTEXT}{linotext}
+\begin{document}
+$$l\left({p,q} \right) = - \mathop \sum \limits_{i = 1}^k {p_i}\log {q_i}$$
+\end{document}</tex-math></alternatives></disp-formula></disp-formula-group></p>
+          <p>Where p is the ground truth probability vector and q is the network predicted probability vector, and K is the total number of classes. When the ground truth probability vector is in the form of one-hot (hard label), pi=1 if i equals to the ground truth class c, otherwise pi = 0. In this way, it may induce overfitting. To solve this problem, label smoothing converts hard label to soft label:
+<disp-formula-group><disp-formula id="m0002"><label>(2)</label><alternatives><graphic xlink:href="NSS-13-2101-e0002.jpg" position="float"/><tex-math id="Tex002">\documentclass[12pt]{minimal}
+\usepackage{wasysym}
+\usepackage[substack]{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage[mathscr]{eucal}
+\usepackage{mathrsfs}
+\DeclareFontFamily{T1}{linotext}{}
+\DeclareFontShape{T1}{linotext}{m}{n} {linotext }{}
+\DeclareSymbolFont{linotext}{T1}{linotext}{m}{n}
+\DeclareSymbolFontAlphabet{\mathLINOTEXT}{linotext}
+\begin{document}
+$${P_i} = \left\{ \matrix{ {1 - \varepsilon\ \,\,if\,\,{\rm{ }}\varepsilon = c} \cr {{\varepsilon \over {k - 1}}\,\,if\,\,{\rm{ }}\varepsilon \ne c} \cr } {\rm{ }}$$
+\end{document}</tex-math></alternatives></disp-formula></disp-formula-group></p>
+          <p>Where ɛ is constant and 0&lt;ɛ&lt;1. Label smoothing can improve the generalization of neural networks and prevent the network from becoming over-confident and overfitting.</p>
+        </sec>
+        <sec id="s0002-s2005-s3003">
+          <title>One-to-Many Label</title>
+          <p>When doctors classify the sleep stage, it is not only based on the current epoch but also the adjacent ones. To make sure that the neural network can learn the features of the adjacent epoch, we used the one-to-many label, which means that the label of the current epoch corresponds to the signal of the current epoch and the adjacent ones. In our work, we took the signal of epoch before and after into consideration, which means that each label corresponded to a 90 seconds signal.</p>
+        </sec>
+        <sec id="s0002-s2005-s3004">
+          <title>Neural Network</title>
+          <p>In this work, we used the modularized network architecture which consists of convolution block and multi-branch convolution block. Modularized network architecture has been widely used in neural networks nowadays such as VGG-nets<xref rid="cit0018" ref-type="bibr">18</xref> and ResNets,<xref rid="cit0019" ref-type="bibr">19</xref> of which the effectiveness has been proven by a variety of tasks.<xref rid="cit0020" ref-type="bibr">20–23</xref> The neural network can become deeper without the limitation of the growing number of hyper-parameters by stacking blocks of the same structure.</p>
+        </sec>
+        <sec id="s0002-s2005-s3005">
+          <title>Convolution Block</title>
+          <p>The structure of the convolution block is shown in <xref rid="f0001" ref-type="fig">Figure 1</xref>. The convolution layers are used to perform channel number conversion and extract the feature’s potential mapping. The shortcut connection is used to concatenate the input and output of the second ReLU, which can make the network deeper without the problem of vanishing gradient and exploding gradient. The length of the feature is halved by the average pooling layer. Batch normalization (BN) and ReLU are used before and after the convolution layer respectively. BN normalizes the distribution of input and ensures the input of the convolution layer has the same distribution as far as possible, which can alleviate the problem of vanishing gradient in training and accelerate the training speech of the model.<fig position="float" id="f0001" fig-type="figure"><label>Figure 1</label><caption><p>An overview of convolution block.</p></caption><graphic xlink:href="NSS-13-2101-g0001" content-type="print-only" position="float"/><attrib><bold>Note:</bold> Batch normalization (BN) and ReLU were used before and after the convolution layer respectively.</attrib></fig></p>
+        </sec>
+        <sec id="s0002-s2005-s3006">
+          <title>Multi-Branch Convolution Block</title>
+          <p>The structure of the multi-branch convolution block is shown in <xref rid="f0002" ref-type="fig">Figure 2</xref>. Multi-branch architecture is widely used by the family of Inception models<xref rid="cit0024" ref-type="bibr">24–26</xref> and ResNeXt.<xref rid="cit0027" ref-type="bibr">27</xref> The first convolution layer is used to perform channel number conversion. The channel of feature is split into g group and as input of the convolution layer with a kernel size of 3×1 respectively, then concatenate them together. The third convolution layer with a kernel size of 1×1 guarantees that the number of channels is the same as the input. We also used the shortcut and average pooling as in convolution block. Multi-branch convolution block can reduce the number of parameters of the network and prevent the model from overfitting.<fig position="float" id="f0002" fig-type="figure"><label>Figure 2</label><caption><p>An overview of multi-branch convolution block.</p></caption><graphic xlink:href="NSS-13-2101-g0002" content-type="print-only" position="float"/><attrib><bold>Notes:</bold> The channel of feature was split into g group and as input of the convolution layer respectively, then we concatenated them together. The specific values of c and g are shown in <xref rid="f0003" ref-type="fig">Figure 3</xref>.</attrib></fig></p>
+        </sec>
+        <sec id="s0002-s2005-s3007">
+          <title>Overall Architecture and Training</title>
+          <p>The proposed overall network architecture is shown in <xref rid="f0003" ref-type="fig">Figure 3</xref>, which is mainly composed of convolution block and multi-branch convolution block. After the feature was extracted by the last multi-branch convolution block, we used the global average pooling layer to reduce the parameter amount of the model. Our model had great effectiveness even though it only had 0.16 million parameters, which is fewer parameters than most models. In other words, the model was easier to train and obtain higher training speed. The optimizer used in model training was Adabound<xref rid="cit0028" ref-type="bibr">28</xref> (learning rate=0.0001, beta1=0.9, beta2=0.999, gamma=0.001) and batch size was 32. Moreover, early stopping callback on the validation loss with the patience of 5 epochs. All experiments in this study were performed on an NVIDIA GeForce RTX 3090 GPU.<fig position="float" id="f0003" fig-type="figure"><label>Figure 3</label><caption><p>An overview of our overall network architecture based on convolution block and multi-branch convolution block.</p></caption><graphic xlink:href="NSS-13-2101-g0003" content-type="print-only" position="float"/></fig></p>
+        </sec>
+      </sec>
+      <sec id="s0002-s2006">
+        <title>Model Evaluation and Statistical Analysis</title>
+        <p>The performance of the neural network model was evaluated by the overall accuracy, precision, recall, weighted F1 score, and Cohen’s Kappa coefficient. Their calculation formula was as follows:
+<disp-formula-group><disp-formula id="m0003"><label>(3)</label><alternatives><graphic xlink:href="NSS-13-2101-e0003.jpg" position="float"/><tex-math id="Tex003">\documentclass[12pt]{minimal}
+\usepackage{wasysym}
+\usepackage[substack]{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage[mathscr]{eucal}
+\usepackage{mathrsfs}
+\DeclareFontFamily{T1}{linotext}{}
+\DeclareFontShape{T1}{linotext}{m}{n} {linotext }{}
+\DeclareSymbolFont{linotext}{T1}{linotext}{m}{n}
+\DeclareSymbolFontAlphabet{\mathLINOTEXT}{linotext}
+\begin{document}
+$$accuracy = {{TP + TN} \over {TP + TN + FP + FN}}{\rm{ }}$$
+\end{document}</tex-math></alternatives></disp-formula></disp-formula-group>
+<disp-formula-group><disp-formula id="m0004"><label>(4)</label><alternatives><graphic xlink:href="NSS-13-2101-e0004.jpg" position="float"/><tex-math id="Tex004">\documentclass[12pt]{minimal}
+\usepackage{wasysym}
+\usepackage[substack]{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage[mathscr]{eucal}
+\usepackage{mathrsfs}
+\DeclareFontFamily{T1}{linotext}{}
+\DeclareFontShape{T1}{linotext}{m}{n} {linotext }{}
+\DeclareSymbolFont{linotext}{T1}{linotext}{m}{n}
+\DeclareSymbolFontAlphabet{\mathLINOTEXT}{linotext}
+\begin{document}
+$$precision = {{TP} \over {TP + FP}}{\rm{ }}$$
+\end{document}</tex-math></alternatives></disp-formula></disp-formula-group>
+<disp-formula-group><disp-formula id="m0005"><label>(5)</label><alternatives><graphic xlink:href="NSS-13-2101-e0005.jpg" position="float"/><tex-math id="Tex005">\documentclass[12pt]{minimal}
+\usepackage{wasysym}
+\usepackage[substack]{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage[mathscr]{eucal}
+\usepackage{mathrsfs}
+\DeclareFontFamily{T1}{linotext}{}
+\DeclareFontShape{T1}{linotext}{m}{n} {linotext }{}
+\DeclareSymbolFont{linotext}{T1}{linotext}{m}{n}
+\DeclareSymbolFontAlphabet{\mathLINOTEXT}{linotext}
+\begin{document}
+$$r{\rm{e}}call\left({sensitivity} \right) = {{TP} \over {TP + FN}}{\rm{ }}$$
+\end{document}</tex-math></alternatives></disp-formula></disp-formula-group>
+<disp-formula-group><disp-formula id="m0006"><label>(6)</label><alternatives><graphic xlink:href="NSS-13-2101-e0006.jpg" position="float"/><tex-math id="Tex006">\documentclass[12pt]{minimal}
+\usepackage{wasysym}
+\usepackage[substack]{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage[mathscr]{eucal}
+\usepackage{mathrsfs}
+\DeclareFontFamily{T1}{linotext}{}
+\DeclareFontShape{T1}{linotext}{m}{n} {linotext }{}
+\DeclareSymbolFont{linotext}{T1}{linotext}{m}{n}
+\DeclareSymbolFontAlphabet{\mathLINOTEXT}{linotext}
+\begin{document}
+$${F_1} = {{2*precision*r{\rm{e}}call} \over {precision + r{\rm{e}}call}}{\rm{ }}$$
+\end{document}</tex-math></alternatives></disp-formula></disp-formula-group></p>
+        <p>where TP, TN, FP, and FN are the true positive, the true negative, the false positive, and the false negative, respectively.
+<disp-formula-group><disp-formula id="m0007"><label>(7)</label><alternatives><graphic xlink:href="NSS-13-2101-e0007.jpg" position="float"/><tex-math id="Tex007">\documentclass[12pt]{minimal}
+\usepackage{wasysym}
+\usepackage[substack]{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage[mathscr]{eucal}
+\usepackage{mathrsfs}
+\DeclareFontFamily{T1}{linotext}{}
+\DeclareFontShape{T1}{linotext}{m}{n} {linotext }{}
+\DeclareSymbolFont{linotext}{T1}{linotext}{m}{n}
+\DeclareSymbolFontAlphabet{\mathLINOTEXT}{linotext}
+\begin{document}
+$${\rm {_K}} = {{Pr{\rm{e}}\left(a \right) - Pr{\rm{e}}\left({\rm{e}} \right)} \over {1 - Pre{\rm{(e)}}$$
+\end{document}</tex-math></alternatives></disp-formula></disp-formula-group></p>
+        <p>where, <inline-formula id="ilm0001"><alternatives><inline-graphic xlink:href="NSS-13-2101-e0008.jpg"/><tex-math id="Tex008">\documentclass[12pt]{minimal}
+\usepackage{wasysym}
+\usepackage[substack]{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage[mathscr]{eucal}
+\usepackage{mathrsfs}
+\DeclareFontFamily{T1}{linotext}{}
+\DeclareFontShape{T1}{linotext}{m}{n} {linotext }{}
+\DeclareSymbolFont{linotext}{T1}{linotext}{m}{n}
+\DeclareSymbolFontAlphabet{\mathLINOTEXT}{linotext}
+\begin{document}
+$$Pr{\rm{e}}\left(a \right) = {{TP + TN} \over N}$$
+\end{document}</tex-math></alternatives></inline-formula>, <inline-formula id="ilm0002"><alternatives><inline-graphic xlink:href="NSS-13-2101-e0009.jpg"/><tex-math id="Tex009">\documentclass[12pt]{minimal}
+\usepackage{wasysym}
+\usepackage[substack]{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage[mathscr]{eucal}
+\usepackage{mathrsfs}
+\DeclareFontFamily{T1}{linotext}{}
+\DeclareFontShape{T1}{linotext}{m}{n} {linotext }{}
+\DeclareSymbolFont{linotext}{T1}{linotext}{m}{n}
+\DeclareSymbolFontAlphabet{\mathLINOTEXT}{linotext}
+\begin{document}
+$$Pr{\rm{e}}\left( {\rm{e}} \right) = {{TP + TN} \over N} \cdot {{TP + FP} \over N}$$
+\end{document}</tex-math></alternatives></inline-formula>
+<inline-formula id="ilm0003"><alternatives><inline-graphic xlink:href="NSS-13-2101-e0010.jpg"/><tex-math id="Tex010">\documentclass[12pt]{minimal}
+\usepackage{wasysym}
+\usepackage[substack]{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage[mathscr]{eucal}
+\usepackage{mathrsfs}
+\DeclareFontFamily{T1}{linotext}{}
+\DeclareFontShape{T1}{linotext}{m}{n} {linotext }{}
+\DeclareSymbolFont{linotext}{T1}{linotext}{m}{n}
+\DeclareSymbolFontAlphabet{\mathLINOTEXT}{linotext}
+\begin{document}
+$$ + \left( {1 - {{TP + FN} \over N}} \right) \cdot \left( {1 - {{TP + FP} \over N}} \right)$$
+\end{document}</tex-math></alternatives></inline-formula>, and <inline-formula id="ilm0004"><alternatives><inline-graphic xlink:href="NSS-13-2101-e0011.jpg"/><tex-math id="Tex011">\documentclass[12pt]{minimal}
+\usepackage{wasysym}
+\usepackage[substack]{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage[mathscr]{eucal}
+\usepackage{mathrsfs}
+\DeclareFontFamily{T1}{linotext}{}
+\DeclareFontShape{T1}{linotext}{m}{n} {linotext }{}
+\DeclareSymbolFont{linotext}{T1}{linotext}{m}{n}
+\DeclareSymbolFontAlphabet{\mathLINOTEXT}{linotext}
+\begin{document}
+$$N = TP + FP + TN + FN$$
+\end{document}</tex-math></alternatives></inline-formula></p>
+        <p>Statistical analysis was performed using SPSS 22 software (SPSS Inc., Chicago, IL). We used Shapiro–Wilk test for normal data distribution test. Data were presented as mean±standard deviation or median (P25, P75). Variables with normal distribution were analyzed by <italic toggle="yes">t</italic>-test. Variables with nonnormal distribution were analyzed by Wilcoxon rank-sum test. The limit of agreement between technicians and the models was also analyzed using Bland-Altman plots.</p>
+      </sec>
+    </sec>
+    <sec id="s0003">
+      <title>Results</title>
+      <sec id="s0003-s2001">
+        <title>Study Population</title>
+        <p>The numbers of raw data collected by Alice 6 and Compumedics S series were 201 and 143, respectively. All the epochs were randomly split into training, validation, and testing sets at a ratio of 7:1:2. There was no significant difference in the demographic and polysomnographic parameters among the different datasets (<xref rid="t0001" ref-type="table">Table 1</xref>). The distribution of W, N1, N2, N3, and REM was imbalanced at the radio of 1.74:1:7.33:3.94.<table-wrap position="float" id="t0001"><label>Table 1</label><caption><p>The Demographic and Polysomnographic Data of Children in Different Datasets</p></caption><table frame="hsides" rules="groups"><thead><tr><th rowspan="1" colspan="1">Number</th><th rowspan="1" colspan="1">Training (240)</th><th rowspan="1" colspan="1">Validation (36)</th><th rowspan="1" colspan="1">Testing (68)</th><th rowspan="1" colspan="1"><italic toggle="yes">P</italic> value</th></tr></thead><tbody><tr><td rowspan="1" colspan="1">Gender(male:female)</td><td rowspan="1" colspan="1">159:81</td><td rowspan="1" colspan="1">25:11</td><td rowspan="1" colspan="1">48:20</td><td rowspan="1" colspan="1">0.784</td></tr><tr><td rowspan="1" colspan="1">Age</td><td rowspan="1" colspan="1">6.74(5.07,9.31)</td><td rowspan="1" colspan="1">7.41(5.11,8.90)</td><td rowspan="1" colspan="1">7.08(5.13,10.52)</td><td rowspan="1" colspan="1">0.393</td></tr><tr><td rowspan="1" colspan="1">BMI z-score</td><td rowspan="1" colspan="1">0.44(−0.48,1.50)</td><td rowspan="1" colspan="1">0.91(−0.24,1.88)</td><td rowspan="1" colspan="1">0.55(−0.48,1.43)</td><td rowspan="1" colspan="1">0.474</td></tr><tr><td rowspan="1" colspan="1">TST(min)</td><td rowspan="1" colspan="1">479.75(429.35, 517.25)</td><td rowspan="1" colspan="1">472.35(433.15, 501.88)</td><td rowspan="1" colspan="1">464.41(434.88, 519.38)</td><td rowspan="1" colspan="1">0.799</td></tr><tr><td rowspan="1" colspan="1">SE(%)</td><td rowspan="1" colspan="1">91.51(83.69,95.64)</td><td rowspan="1" colspan="1">91.30(85.20,94.37)</td><td rowspan="1" colspan="1">92.78(88.57,95.16)</td><td rowspan="1" colspan="1">0.499</td></tr><tr><td rowspan="1" colspan="1">SOL(min)</td><td rowspan="1" colspan="1">4.00(1.00,10.30)</td><td rowspan="1" colspan="1">4.50(1.25,14.18)</td><td rowspan="1" colspan="1">4.75(2.13,12.13)</td><td rowspan="1" colspan="1">0.500</td></tr><tr><td rowspan="1" colspan="1">OAHI(/h)</td><td rowspan="1" colspan="1">0.58(0.13,2.93)</td><td rowspan="1" colspan="1">1.16(0.28,2.80)</td><td rowspan="1" colspan="1">0.52(0.13,2.38)</td><td rowspan="1" colspan="1">0.371</td></tr><tr><td rowspan="1" colspan="1">Sleep stage(epoch)</td><td rowspan="1" colspan="1">252,992</td><td rowspan="1" colspan="1">37,771</td><td rowspan="1" colspan="1">70,181</td><td rowspan="1" colspan="1"/></tr><tr><td rowspan="1" colspan="1">W(%)</td><td rowspan="1" colspan="1">29,009(11.47)</td><td rowspan="1" colspan="1">4260(11.28)</td><td rowspan="1" colspan="1">7100(10.12)</td><td rowspan="1" colspan="1"/></tr><tr><td rowspan="1" colspan="1">N1(%)</td><td rowspan="1" colspan="1">12,483(4.93)</td><td rowspan="1" colspan="1">1839(4.87)</td><td rowspan="1" colspan="1">4071(5.80)</td><td rowspan="1" colspan="1"/></tr><tr><td rowspan="1" colspan="1">N2(%)</td><td rowspan="1" colspan="1">106,549(42.12)</td><td rowspan="1" colspan="1">15,945(42.21)</td><td rowspan="1" colspan="1">29,827(42.50)</td><td rowspan="1" colspan="1"/></tr><tr><td rowspan="1" colspan="1">N3(%)</td><td rowspan="1" colspan="1">58,540(23.14)</td><td rowspan="1" colspan="1">9288(24.59)</td><td rowspan="1" colspan="1">16,030(22.84)</td><td rowspan="1" colspan="1"/></tr><tr><td rowspan="1" colspan="1">REM (%)</td><td rowspan="1" colspan="1">46411(18.34)</td><td rowspan="1" colspan="1">6439(17.05)</td><td rowspan="1" colspan="1">13,153(18.74)</td><td rowspan="1" colspan="1"/></tr><tr><td rowspan="1" colspan="1">Arousal index(/h)</td><td rowspan="1" colspan="1">3.30(1.50,5.88)</td><td rowspan="1" colspan="1">3.35(1.70,6.85)</td><td rowspan="1" colspan="1">3.65(2.00,6.50)</td><td rowspan="1" colspan="1">0.544</td></tr><tr><td rowspan="1" colspan="1">Minimum SpO<sub>2</sub>(%)</td><td rowspan="1" colspan="1">92.00(89.00,95.00)</td><td rowspan="1" colspan="1">91.50(86.25,94.00)</td><td rowspan="1" colspan="1">92.00(89.00,95.00)</td><td rowspan="1" colspan="1">0.632</td></tr><tr><td rowspan="1" colspan="1">ODI(/h)</td><td rowspan="1" colspan="1">0.60(0.10,2.55)</td><td rowspan="1" colspan="1">1.70(0.25,5.02)</td><td rowspan="1" colspan="1">0.55(0.10,2.67)</td><td rowspan="1" colspan="1">0.234</td></tr></tbody></table><table-wrap-foot><fn id="tfn0001"><p><bold>Note:</bold> Nonparametric distributed data were presented as median (P25, P75).</p></fn><fn id="tfn0002"><p><bold>Abbreviations:</bold> BMI, body mass index; TST, total sleep time; SE, sleep efficiency; SOL, sleep onset latency; OAHI, obstructive apnea-hypopnea index; W, wake stage; REM, rapid eye movement stage; SpO<sub>2</sub>, pulse oxygen saturation; ODI, oxygen desaturation index.</p></fn></table-wrap-foot></table-wrap>
+</p>
+      </sec>
+      <sec id="s0003-s2002">
+        <title>Model Performance</title>
+        <p>In <xref rid="t0002" ref-type="table">Table 2</xref>, we showed the accuracy and Cohen’s kappa of different models using channel combinations. The best performance with an average accuracy of 83.36% (ĸ=0.7817) in 5-stages appeared in the model ensemble which included the C3/A2+C4/A1+LOC+ROC+EMG, C3/A2, C4/A1, LOC, and ROC. And this model could also classify the stage of wake and sleep successfully with an average accuracy of 96.76% (ĸ=0.8236). In the single-channel EEG model, the performance of C3 was better than LOC and EMG. The confusion matrix for displaying the five sleep stage classification between the network prediction and technician was pictured in <xref rid="f0004" ref-type="fig">Figure 4</xref>. Except for single-channel EMG, N1 had precision (45.24–53.48%) and sensitivity (14.93–29.82%), which were lower than others. Most of them were classified as N2. We also compared the sleep stage classification performance of various ages of children, different data collection systems, and severities of OSA. The results were listed in the supplemental material (<underline><ext-link xlink:href="https://www.dovepress.com/get_supplementary_file.php?f=336344.zip" ext-link-type="uri">Table S1–S3</ext-link></underline>).<table-wrap position="float" id="t0002"><label>Table 2</label><caption><p>Comparison of Testing Performances Using Different Input Channels</p></caption><table frame="hsides" rules="groups"><thead><tr><th rowspan="2" colspan="1">Channel</th><th colspan="2" rowspan="1">5-Stages</th><th colspan="2" rowspan="1">4-Stages</th><th colspan="2" rowspan="1">3-Stages</th><th colspan="2" rowspan="1">2-Stages</th></tr><tr><th rowspan="1" colspan="1">Accuracy</th><th rowspan="1" colspan="1">Cohen’s Kappa</th><th rowspan="1" colspan="1">Accuracy</th><th rowspan="1" colspan="1">Cohen’s Kappa</th><th rowspan="1" colspan="1">Accuracy</th><th rowspan="1" colspan="1">Cohen’s Kappa</th><th rowspan="1" colspan="1">Accuracy</th><th rowspan="1" colspan="1">Cohen’s Kappa</th></tr></thead><tbody><tr><td rowspan="1" colspan="1">Model ensemble</td><td rowspan="1" colspan="1"><bold>0.8336</bold></td><td rowspan="1" colspan="1">0.7817</td><td rowspan="1" colspan="1">0.8645</td><td rowspan="1" colspan="1">0.7985</td><td rowspan="1" colspan="1">0.9201</td><td rowspan="1" colspan="1">0.8255</td><td rowspan="1" colspan="1"><bold>0.9676</bold></td><td rowspan="1" colspan="1">0.8236</td></tr><tr><td rowspan="1" colspan="1">EEG+EOG+EMG</td><td rowspan="1" colspan="1">0.8261</td><td rowspan="1" colspan="1">0.7562</td><td rowspan="1" colspan="1">0.8582</td><td rowspan="1" colspan="1">0.7889</td><td rowspan="1" colspan="1">0.9142</td><td rowspan="1" colspan="1">0.8117</td><td rowspan="1" colspan="1">0.9626</td><td rowspan="1" colspan="1">0.8019</td></tr><tr><td rowspan="1" colspan="1">EEG+EOG</td><td rowspan="1" colspan="1">0.8268</td><td rowspan="1" colspan="1">0.7562</td><td rowspan="1" colspan="1">0.8569</td><td rowspan="1" colspan="1">0.7869</td><td rowspan="1" colspan="1">0.9146</td><td rowspan="1" colspan="1">0.8138</td><td rowspan="1" colspan="1">0.9618</td><td rowspan="1" colspan="1">0.7996</td></tr><tr><td rowspan="1" colspan="1">EEG(C3/A2)</td><td rowspan="1" colspan="1"><bold>0.8104</bold></td><td rowspan="1" colspan="1">0.7322</td><td rowspan="1" colspan="1">0.8400</td><td rowspan="1" colspan="1">0.7626</td><td rowspan="1" colspan="1">0.8968</td><td rowspan="1" colspan="1">0.7751</td><td rowspan="1" colspan="1"><bold>0.9542</bold></td><td rowspan="1" colspan="1">0.7487</td></tr><tr><td rowspan="1" colspan="1">EOG(LOG)</td><td rowspan="1" colspan="1">0.7915</td><td rowspan="1" colspan="1">0.7066</td><td rowspan="1" colspan="1">0.8252</td><td rowspan="1" colspan="1">0.7404</td><td rowspan="1" colspan="1">0.8896</td><td rowspan="1" colspan="1">0.7605</td><td rowspan="1" colspan="1">0.9590</td><td rowspan="1" colspan="1">0.7747</td></tr><tr><td rowspan="1" colspan="1">EMG</td><td rowspan="1" colspan="1">0.5057</td><td rowspan="1" colspan="1">0.2327</td><td rowspan="1" colspan="1">0.5452</td><td rowspan="1" colspan="1">0.2462</td><td rowspan="1" colspan="1">0.7360</td><td rowspan="1" colspan="1">0.2806</td><td rowspan="1" colspan="1">0.9144</td><td rowspan="1" colspan="1">0.3955</td></tr></tbody></table><table-wrap-foot><fn id="tfn0003"><p><bold>Notes:</bold> Model ensemble: using the model combination, including C3+C4+LOC+ROC+EMG, C3, C4, LOC, and ROC; bold highlights the accuracy of the model ensemble and EEG(C3/A2) in 5-stages and 2-stages.</p></fn><fn id="tfn0004"><p><bold>Abbreviations:</bold> EEG, electroencephalography; EOG, electrooculography; LOG, left electrooculography; ROC, right electrooculography; EMG, electromyogram.</p></fn></table-wrap-foot></table-wrap>
+<fig position="float" id="f0004" fig-type="figure"><label>Figure 4</label><caption><p>The confusion matrix displaying the 5-stages classification between the network prediction and technician (true sleep stage).</p></caption><graphic xlink:href="NSS-13-2101-g0004" content-type="print-only" position="float"/><attrib><bold>Notes:</bold> (<bold>A</bold>) The performance of the model ensemble; (<bold>B</bold>) the performance of the model using the channels of EEG, EOG, and EMG; (<bold>C</bold>) the performance of the model using the channels of EEG and EOG; (<bold>D</bold>) the performance of the model using the channel of EEG(C3/A2); (<bold>E</bold>) the performance of the model using the channel of EOG(LOG); (<bold>F</bold>) the performance of the model using the channel of EMG.</attrib><attrib><bold>Abbreviations:</bold> Pre, precision; Sen, sensitivity; F1, F1-score.</attrib></fig></p>
+      </sec>
+      <sec id="s0003-s2003">
+        <title>Quantitative Sleep Parameters</title>
+        <p>There was no significant difference in total sleep time (TST), sleep efficiency (SE), sleep onset latency (SOL), time of wake, time of shallow sleep, and time of deep sleep between the network prediction using the model ensemble and technicians (<italic toggle="yes">P</italic>&gt;0.05). The model would overestimate the sleep time in REM (<italic toggle="yes">P</italic>&lt;0.001) by about 7.73min (<xref rid="f0005" ref-type="fig">Figure 5</xref>). Using the single-channel EEG model, we found that it underestimated SOL by about 1.63min (<underline><ext-link xlink:href="https://www.dovepress.com/get_supplementary_file.php?f=336344.zip" ext-link-type="uri">Supplemental Material</ext-link></underline>, <underline><ext-link xlink:href="https://www.dovepress.com/get_supplementary_file.php?f=336344.zip" ext-link-type="uri">Figure S1</ext-link></underline>).<fig position="float" id="f0005" fig-type="figure"><label>Figure 5</label><caption><p>Bland-Altman plots showing the agreement between technicians and model ensemble for TST, SOL, time in W, time in N1+N2 (shallow sleep), time in N3 (deep sleep), and time in REM.</p></caption><graphic xlink:href="NSS-13-2101-g0005" content-type="print-only" position="float"/><attrib><bold>Note:</bold> The solid horizontal lines indicate the upper and lower limits of agreement, and the dotted line indicates the mean bias for the model.</attrib><attrib><bold>Abbreviations:</bold> TST, total sleep time; SE, sleep efficiency; SOL, sleep onset latency; W, wake stage; N1+N2, shallow sleep; N3, deep sleep; REM, rapid eye movement stage; OAHI, obstructive apnea-hypopnea index.</attrib></fig></p>
+      </sec>
+      <sec id="s0003-s2004">
+        <title>Analysis of Respiratory Parameters</title>
+        <p>Using the stage classification of the model ensemble, we reviewed the analysis of respiratory events in the testing dataset. In <xref rid="t0003" ref-type="table">Table 3</xref>, there was good consistency between the model and technicians (<italic toggle="yes">P</italic>=0.303). And there was no mistake in the diagnosis of OSA severity between the two sleep stage analyses.<table-wrap position="float" id="t0003"><label>Table 3</label><caption><p>Comparison of the Sleep Parameters and Respiratory Parameters Between Network Prediction and Analysis of Technicians</p></caption><table frame="hsides" rules="groups"><thead><tr><th rowspan="1" colspan="1"/><th rowspan="1" colspan="1">Technicians</th><th rowspan="1" colspan="1">Model Ensemble</th><th rowspan="1" colspan="1">Single-Channel EEG(C3/A2)</th><th rowspan="1" colspan="1"><italic toggle="yes">P</italic> value<sup>a</sup></th><th rowspan="1" colspan="1"><italic toggle="yes">P</italic> value<sup>b</sup></th></tr></thead><tbody><tr><td rowspan="1" colspan="1">TST/min</td><td rowspan="1" colspan="1">472.00(434.88,518.88)</td><td rowspan="1" colspan="1">469.50(426.88,509.88)</td><td rowspan="1" colspan="1">474.50(422.63,513.88)</td><td rowspan="1" colspan="1">0.581</td><td rowspan="1" colspan="1">0.059</td></tr><tr><td rowspan="1" colspan="1">SE(%)</td><td rowspan="1" colspan="1">92.72(88.56,95.17)</td><td rowspan="1" colspan="1">94.43(86.32,95.93)</td><td rowspan="1" colspan="1">92.98(86.44,96.46)</td><td rowspan="1" colspan="1">0.613</td><td rowspan="1" colspan="1">0.064</td></tr><tr><td rowspan="1" colspan="1">SOL/min</td><td rowspan="1" colspan="1">5.00(2.50,12.38)</td><td rowspan="1" colspan="1">5.50(2.13,13.00)</td><td rowspan="1" colspan="1">3.25(0.63,9.75)</td><td rowspan="1" colspan="1">0.835</td><td rowspan="1" colspan="1">0.011*</td></tr><tr><td rowspan="1" colspan="1">W/min</td><td rowspan="1" colspan="1">27.00(18.13,46.63)</td><td rowspan="1" colspan="1">24.75(14.00,57.38)</td><td rowspan="1" colspan="1">25.75(10.75,58.13)</td><td rowspan="1" colspan="1">0.496</td><td rowspan="1" colspan="1">0.402</td></tr><tr><td rowspan="1" colspan="1">N1+N2/min</td><td rowspan="1" colspan="1">248.99±51.43</td><td rowspan="1" colspan="1">243.77±46.84</td><td rowspan="1" colspan="1">241.40±52.01</td><td rowspan="1" colspan="1">0.194</td><td rowspan="1" colspan="1">0.085</td></tr><tr><td rowspan="1" colspan="1">N3/min</td><td rowspan="1" colspan="1">117.87±44.13</td><td rowspan="1" colspan="1">114.35±32.31</td><td rowspan="1" colspan="1">115.38±33.68</td><td rowspan="1" colspan="1">0.343</td><td rowspan="1" colspan="1">0.507</td></tr><tr><td rowspan="1" colspan="1">REM/min</td><td rowspan="1" colspan="1">96.71±27.59</td><td rowspan="1" colspan="1">104.44±33.68</td><td rowspan="1" colspan="1">106.66±38.63</td><td rowspan="1" colspan="1">&lt;0.001*</td><td rowspan="1" colspan="1">0.001*</td></tr><tr><td rowspan="1" colspan="1">OAHI (/h)</td><td rowspan="1" colspan="1">0.52(0.13,2.38)</td><td rowspan="1" colspan="1">0.55(0.13,2.45)</td><td rowspan="1" colspan="1">0.54(0.13,2.40)</td><td rowspan="1" colspan="1">0.303</td><td rowspan="1" colspan="1">0.303</td></tr><tr><td rowspan="1" colspan="1">Primary snoring</td><td rowspan="1" colspan="1">43</td><td rowspan="1" colspan="1">43</td><td rowspan="1" colspan="1">43</td><td rowspan="1" colspan="1">1.000</td><td rowspan="1" colspan="1">1.000</td></tr><tr><td rowspan="1" colspan="1">Mild OSA</td><td rowspan="1" colspan="1">15</td><td rowspan="1" colspan="1">15</td><td rowspan="1" colspan="1">15</td><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"/></tr><tr><td rowspan="1" colspan="1">Moderate-severe OSA</td><td rowspan="1" colspan="1">10</td><td rowspan="1" colspan="1">10</td><td rowspan="1" colspan="1">10</td><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"/></tr></tbody></table><table-wrap-foot><fn id="tfn0005"><p><bold>Notes:</bold> Data were presented as mean ± standard deviation or median (P25, P75); variables were nonparametrically distributed and analyzed by Wilcoxon rank-sum test; variables were normally distributed and analyzed by <italic toggle="yes">t</italic>-test; <sup>a</sup>=analysis of technicians vs model ensemble; <sup>b</sup>=analysis of technicians vs single-channel EEG; *statistically significant at P &lt; 0.05.</p></fn><fn id="tfn0006"><p><bold>Abbreviations:</bold> TST, total sleep time; SE, sleep efficiency; SOL, sleep onset latency; OAHI, obstructive apnea-hypopnea index; W, wake stage; N1+N2, shallow sleep; N3, deep sleep; REM, rapid eye movement stage.</p></fn></table-wrap-foot></table-wrap>
+</p>
+      </sec>
+      <sec id="s0003-s2005">
+        <title>Comparative Experiment on the Public Dataset</title>
+        <p>We conducted 4-fold cross-validation to evaluate the performance of the model which used channels of Fpz-Cz, Pz-Oz, and EOG. For 5-stages, the testing achieved accuracy of 92.76%(ĸ=0.8778) and 91.94% (ĸ=0.8521) of sleep-EDF-13 and sleep-EDF-18 with integral data, respectively. When removing large amounts of stage of wake, model performance dropped with the accuracy of 85.75% (ĸ=0.8015) and 84.58% (ĸ=0.7862) of sleep-EDF-13 and sleep-EDF-18, respectively. The comparison of similar research was shown in <xref rid="t0004" ref-type="table">Table 4</xref>.<table-wrap position="float" id="t0004" orientation="landscape"><label>Table 4</label><caption><p>Performance Comparison of Various Research on the Public Dataset of Sleep-EDF</p></caption><table frame="hsides" rules="groups"><thead><tr><th rowspan="2" colspan="1">Authors</th><th rowspan="2" colspan="1">Datasets/subjects</th><th rowspan="2" colspan="1">PSG data</th><th rowspan="2" colspan="1">Epoch</th><th rowspan="2" colspan="1">Channels</th><th rowspan="2" colspan="1">Cross Validation</th><th colspan="4" rowspan="1">Overall Accuracy (%)</th></tr><tr><th rowspan="1" colspan="1">5-Stages</th><th rowspan="1" colspan="1">4-Stages</th><th rowspan="1" colspan="1">3-Stages</th><th rowspan="1" colspan="1">2-Stages</th></tr></thead><tbody><tr><td rowspan="2" colspan="1">Delimayanti M K et al.<xref rid="cit0029" ref-type="bibr">29</xref></td><td rowspan="1" colspan="1">Sleep-EDF-13/61</td><td rowspan="1" colspan="1">Integral</td><td rowspan="1" colspan="1">127,663</td><td rowspan="1" colspan="1">Pz-Oz+Fpz-Cz</td><td rowspan="1" colspan="1">5-fold</td><td rowspan="1" colspan="1">91.73</td><td rowspan="1" colspan="1">92.82</td><td rowspan="1" colspan="1">94.41</td><td rowspan="1" colspan="1">97.88</td></tr><tr><td rowspan="1" colspan="1">Sleep-EDF-18/197</td><td rowspan="1" colspan="1">Integral</td><td rowspan="1" colspan="1">-</td><td rowspan="1" colspan="1">Pz-Oz+Fpz-Cz</td><td rowspan="1" colspan="1">10-fold</td><td rowspan="1" colspan="1">87.84</td><td align="center" rowspan="1" colspan="1">-</td><td align="center" rowspan="1" colspan="1">-</td><td align="center" rowspan="1" colspan="1">-</td></tr><tr><td rowspan="1" colspan="1">Yildirim O et al.<xref rid="cit0030" ref-type="bibr">30</xref></td><td rowspan="1" colspan="1">Sleep-EDF-13/61</td><td rowspan="1" colspan="1">Integral</td><td rowspan="1" colspan="1">127,512</td><td rowspan="1" colspan="1">Fpz-Cz+EOG</td><td rowspan="1" colspan="1">-</td><td rowspan="1" colspan="1">90.98</td><td rowspan="1" colspan="1">92.33</td><td rowspan="1" colspan="1">94.34</td><td rowspan="1" colspan="1">97.62</td></tr><tr><td rowspan="1" colspan="1">da Silveira TL et al.<xref rid="cit0031" ref-type="bibr">31</xref></td><td rowspan="1" colspan="1">Sleep-EDF-13/20</td><td rowspan="1" colspan="1">Integral</td><td rowspan="1" colspan="1">106,376</td><td rowspan="1" colspan="1">Pz-Oz</td><td rowspan="1" colspan="1">-</td><td rowspan="1" colspan="1">91.50</td><td rowspan="1" colspan="1">92.30</td><td rowspan="1" colspan="1">93.90</td><td rowspan="1" colspan="1">97.30</td></tr><tr><td rowspan="1" colspan="1">Huang X et al.<xref rid="cit0010" ref-type="bibr">10</xref></td><td rowspan="1" colspan="1">Sleep-EDF-18/18</td><td rowspan="1" colspan="1">Integral</td><td rowspan="1" colspan="1">-</td><td rowspan="1" colspan="1">Fpz-Cz+Pz-Oz</td><td rowspan="1" colspan="1">5-fold</td><td rowspan="1" colspan="1">90.41</td><td rowspan="1" colspan="1">91.27</td><td rowspan="1" colspan="1">92.99</td><td align="center" rowspan="1" colspan="1">-</td></tr><tr><td rowspan="2" colspan="1"><bold>Proposed method-model ensemble</bold></td><td rowspan="1" colspan="1"><bold>Sleep-EDF-13/61</bold></td><td rowspan="1" colspan="1"><bold>Integral</bold></td><td rowspan="1" colspan="1"><bold>128,132</bold></td><td rowspan="1" colspan="1"><bold>Fpz-Cz+Pz-Oz+EOG</bold></td><td rowspan="1" colspan="1"><bold>4-fold</bold></td><td rowspan="1" colspan="1"><bold>92.76</bold></td><td rowspan="1" colspan="1"><bold>94.04</bold></td><td rowspan="1" colspan="1"><bold>96.12</bold></td><td rowspan="1" colspan="1"><bold>98.04</bold></td></tr><tr><td rowspan="1" colspan="1"><bold>Sleep-EDF-18/197</bold></td><td rowspan="1" colspan="1"><bold>Integral</bold></td><td rowspan="1" colspan="1"><bold>458,344</bold></td><td rowspan="1" colspan="1"><bold>Fpz-Cz+Pz-Oz+EOG</bold></td><td rowspan="1" colspan="1"><bold>4-fold</bold></td><td rowspan="1" colspan="1"><bold>91.94</bold></td><td rowspan="1" colspan="1"><bold>94.40</bold></td><td rowspan="1" colspan="1"><bold>96.00</bold></td><td rowspan="1" colspan="1"><bold>97.81</bold></td></tr><tr><td rowspan="1" colspan="1">Korkalainen H et al.<xref rid="cit0032" ref-type="bibr">32</xref></td><td rowspan="1" colspan="1">Sleep-EDF-18/153</td><td rowspan="1" colspan="1">Partial</td><td rowspan="1" colspan="1">195,183</td><td rowspan="1" colspan="1">Fpz-Cz+EOG</td><td rowspan="1" colspan="1">10-fold</td><td rowspan="1" colspan="1">83.9</td><td align="center" rowspan="1" colspan="1">-</td><td align="center" rowspan="1" colspan="1">-</td><td align="center" rowspan="1" colspan="1">-</td></tr><tr><td rowspan="2" colspan="1">Mousavi S et al.<xref rid="cit0033" ref-type="bibr">33</xref></td><td rowspan="1" colspan="1">Sleep-EDF-13/39</td><td rowspan="1" colspan="1">Partial</td><td rowspan="1" colspan="1">42,308</td><td rowspan="1" colspan="1">Fpz-Cz</td><td rowspan="1" colspan="1">20-fold</td><td rowspan="1" colspan="1">84.26</td><td align="center" rowspan="1" colspan="1">-</td><td align="center" rowspan="1" colspan="1">-</td><td align="center" rowspan="1" colspan="1">-</td></tr><tr><td rowspan="1" colspan="1">Sleep-EDF-18/153</td><td rowspan="1" colspan="1">Partial</td><td rowspan="1" colspan="1">222,479</td><td rowspan="1" colspan="1">Fpz-Cz</td><td rowspan="1" colspan="1">10-fold</td><td rowspan="1" colspan="1">80.03</td><td align="center" rowspan="1" colspan="1">-</td><td align="center" rowspan="1" colspan="1">-</td><td align="center" rowspan="1" colspan="1">-</td></tr><tr><td rowspan="2" colspan="1">Khalili E et al.<xref rid="cit0034" ref-type="bibr">34</xref></td><td rowspan="1" colspan="1">Sleep-EDF-18/39</td><td rowspan="1" colspan="1">Partial</td><td rowspan="1" colspan="1">41,950</td><td rowspan="1" colspan="1">Fpz-Cz</td><td rowspan="1" colspan="1">20-fold</td><td rowspan="1" colspan="1">85.39</td><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"/></tr><tr><td rowspan="1" colspan="1">Sleep-EDF-18/197</td><td rowspan="1" colspan="1">Partial</td><td rowspan="1" colspan="1">236,770</td><td rowspan="1" colspan="1">Fpz-Cz</td><td rowspan="1" colspan="1">10-fold</td><td rowspan="1" colspan="1">81.86</td><td align="center" rowspan="1" colspan="1">-</td><td align="center" rowspan="1" colspan="1">-</td><td align="center" rowspan="1" colspan="1">-</td></tr><tr><td rowspan="2" colspan="1"><bold>Proposed method-model ensemble</bold></td><td rowspan="1" colspan="1"><bold>Sleep-EDF-13/61</bold></td><td rowspan="1" colspan="1"><bold>Partial</bold></td><td rowspan="1" colspan="1"><bold>63,715</bold></td><td rowspan="1" colspan="1"><bold>Fpz-Cz+Pz-Oz+EOG</bold></td><td rowspan="1" colspan="1"><bold>4-fold</bold></td><td rowspan="1" colspan="1"><bold>85.75</bold></td><td rowspan="1" colspan="1"><bold>88.36</bold></td><td rowspan="1" colspan="1"><bold>92.51</bold></td><td rowspan="1" colspan="1"><bold>96.37</bold></td></tr><tr><td rowspan="1" colspan="1"><bold>Sleep-EDF-18/197</bold></td><td rowspan="1" colspan="1"><bold>Partial</bold></td><td rowspan="1" colspan="1"><bold>238,312</bold></td><td rowspan="1" colspan="1"><bold>Fpz-Cz+Pz-Oz+EOG</bold></td><td rowspan="1" colspan="1"><bold>4-fold</bold></td><td rowspan="1" colspan="1"><bold>84.58</bold></td><td rowspan="1" colspan="1"><bold>89.30</bold></td><td rowspan="1" colspan="1"><bold>92.40</bold></td><td rowspan="1" colspan="1"><bold>95.89</bold></td></tr></tbody></table><table-wrap-foot><fn id="tfn0007"><p><bold>Notes:</bold> “Integral” represents using all the epochs of sleep-EDF, “partial” represents that the epochs of sleep-EDF included the recordings between 30min before and after turn on/off time; for model ensemble, we combined the models, including Fpz-Cz+Pz-Oz+EOG, Fpz-Cz, and EOG; bold highlights the results of the proposed methods.</p></fn><fn id="tfn0008"><p><bold>Abbreviations:</bold> Sleep-EDF-13, expanded version of sleep-EDF in 2013; Sleep-EDF-18, expanded version of sleep-EDF in 2018.</p></fn></table-wrap-foot></table-wrap>
+</p>
+      </sec>
+    </sec>
+    <sec id="s0004">
+      <title>Discussion</title>
+      <p>This study was the first to use unfiltered raw data of PSG based on large clinical samples in children with SDB for sleep staging model training, and compared the quantitative sleep parameters under sleep stage classification by experts and the model, such as total sleep time, sleep efficiency, sleep onset latency, and the time of each sleep stage. We used the modularized network which had lower number of parameters to propose an automatic sleep stage analysis model for children. For the 5-stages, the accuracy was 83.36%, and the cohen’s Kappa coefficient was 0.7881. This model could accurately distinguish between wake and sleep stages and showed no significant difference in diagnosis of the severity of children with SDB. Compared with similar studies, using sleep-EDF for verification, this model performed well.</p>
+      <p>Previous studies have trained models based on public datasets (collected from healthy adults and insomnia patients without other diseases), which have achieved good accuracy (78–92%). However, the original PSG data may have electrodes falling off, unstable baseline, high impedance, etc., and the accuracy of the model is affected by factors such as sleep fragmentation and arousal.<xref rid="cit0008" ref-type="bibr">8</xref> Before this, other studies established sleep staging models based on pediatric PSG data,<xref rid="cit0010" ref-type="bibr">10</xref>,<xref rid="cit0011" ref-type="bibr">11</xref> but its sample size, using more channels, and larger model load might limit its clinical application. Due to the different EEG patterns of children of different ages, we used the 2–18 years old to train children’s PSG, and the model had better generalization. The accuracy of sleep staging for children aged 2–6, 7–13, and 14–18 were 82.68%, 83.86%, and 84.71%, respectively. Similar to other research, the accuracy decreased as the severity of SDB increased.<xref rid="cit0008" ref-type="bibr">8</xref>,<xref rid="cit0032" ref-type="bibr">32</xref> The testing set of this study included 10 children, whose AHI ranged from 5.03 to 39.42. The accuracy of automatic sleep stage classification was 82.74% in 5-stages, which was a little less than the performance in children with primary snoring and mild OSA. However, there was less influence on the calculation of classification in the severity of SDB.</p>
+      <p>Considering the clinical application of the automatic sleep staging model, we analyzed the performance of different channel combinations and single-channel EEG. Except for the single-channel EMG, all models had an accuracy of more than 95% for 2-stages, and the performance of 5-stages was equivalent to that of experienced sleep technicians. The lower accuracy of single-channel EEG model might be related to the smaller differences in different sleep stages. Affected by sweating and electrode shedding, many artifacts in EMG and small differences in EMG signals in N1, N2, and N3 phases were the explanation for the poor effect of the single-channel EMG model. Similar to other studies, the specificity and sensitivity of N1 stage classification were at a low level due to the small proportion of N1 in this database. A large number of N1 was divided into N2 and REM, which may be related to N1 which is mostly in the transition of sleep stage and the characteristics are not obvious. Some studies have performed separate data amplification for the N1-<xref rid="cit0035" ref-type="bibr">35</xref>-, which can increase the diagnostic efficiency of N1. We will use it in the optimization of the model in the future. The N3 stage has a higher proportion in children’s sleep, and the slow-wave has the characteristics of high amplitude. Compared with the adult EEG staging model,<xref rid="cit0008" ref-type="bibr">8</xref>,<xref rid="cit0036" ref-type="bibr">36</xref>,<xref rid="cit0037" ref-type="bibr">37</xref> the accuracy of the N3 in this study had been greatly improved.</p>
+      <p>Comparing the ability of sleep stage classification and quantitative sleep parameters illustrates the practicality of the neural network model. The difference between model ensemble and technician analysis was small. The model underestimated the total sleep time by 1.00min, time in slight sleep (N1+N2) by 5.21min, time in N3 by 3.52min, and overestimated sleep onset latency by 0.44min, time in W by 0.56min, and time in REM by 7.73min. This inconsistency is tolerable. Similarly, the single-channel EEG model obtained a similar performance. Others based on non-contact radar technology, wearable devices, electrocardiograms, and respiratory dynamics, etc., had lower accuracy in judging different sleep stages than the single-channel EEG model of this study.<xref rid="cit0038" ref-type="bibr">38–40</xref> Using the automated sleep stage, we re-analyzed the respiratory events, and the calculated OAHI was not different from the manual analysis. In the future, adding a single-channel EEG module to wearable devices and performing automatic sleep stage classification will be more efficient to screen children with sleep-disordered breathing.</p>
+      <p>As shown in <xref rid="t0004" ref-type="table">Table 4</xref>, a variety of deep learning networks achieved good performance.<xref rid="cit0010" ref-type="bibr">10</xref>,<xref rid="cit0029" ref-type="bibr">29–34</xref> With combined channels of EEG and EOG, our results were at a leading level. Recently, researchers have begun to consider how to design algorithms to be small, efficient, and robust. Based on previous research, we have improved data preprocessing and algorithms: (1) we filtered the signal at 50Hz, which would preserve EEG characteristics, remove high-frequency noise while reducing the amount of calculation. (2) Label smoothing mainly uses soft label, which modifies the weight of the real sample label category when calculating the loss function, and finally has the effect of suppressing overfitting. (3) Compared with other classifiers,<xref rid="cit0030" ref-type="bibr">30</xref>,<xref rid="cit0041" ref-type="bibr">41–43</xref> our model achieved a huge performance improvement, meanwhile the number of parameters (number of trainable parameters in a single model was 0.15 million) was much smaller than in other similar studies (<xref rid="t0005" ref-type="table">Table 5</xref>).<table-wrap position="float" id="t0005"><label>Table 5</label><caption><p>Overall Accuracy in 5-Stages and Training Model Number of Trainable Parameters of Similar Classifiers</p></caption><table frame="hsides" rules="groups"><thead><tr><th rowspan="1" colspan="1">Authors</th><th rowspan="1" colspan="1">Datasets</th><th rowspan="1" colspan="1">Channels</th><th rowspan="1" colspan="1">Overall 5-Stages Accuracy/%</th><th rowspan="1" colspan="1">Number of Trainable Parameters (Million)</th></tr></thead><tbody><tr><td rowspan="1" colspan="1">Supratak A et al<xref rid="cit0041" ref-type="bibr">41</xref></td><td rowspan="1" colspan="1">MASS</td><td rowspan="1" colspan="1">F4-EOG</td><td rowspan="1" colspan="1">86.2</td><td rowspan="1" colspan="1">8.66</td></tr><tr><td rowspan="1" colspan="1">Sors A et al<xref rid="cit0042" ref-type="bibr">42</xref></td><td rowspan="1" colspan="1">SHHS-1</td><td rowspan="1" colspan="1">C4-A1</td><td rowspan="1" colspan="1">87</td><td rowspan="1" colspan="1">1.93</td></tr><tr><td rowspan="1" colspan="1">Tsinalis O et al<xref rid="cit0043" ref-type="bibr">43</xref></td><td rowspan="1" colspan="1">Sleep-EDF-13</td><td rowspan="1" colspan="1">Fpz-Cz</td><td rowspan="1" colspan="1">78</td><td rowspan="1" colspan="1">1.11</td></tr><tr><td rowspan="1" colspan="1">Yildirim O et al<xref rid="cit0030" ref-type="bibr">30</xref></td><td rowspan="1" colspan="1">Sleep-EDF-13</td><td rowspan="1" colspan="1">Fpz-Cz+EOG</td><td rowspan="1" colspan="1">91.22</td><td rowspan="1" colspan="1">0.80</td></tr><tr><td rowspan="1" colspan="1"><bold>Proposed method-model ensemble</bold></td><td rowspan="1" colspan="1"><bold>Sleep-EDF-13</bold></td><td rowspan="1" colspan="1"><bold>Fpz-Cz+Pz-Oz+EOG</bold></td><td rowspan="1" colspan="1"><bold>92.76</bold></td><td rowspan="1" colspan="1"><bold>0.46</bold></td></tr><tr><td rowspan="1" colspan="1"><bold>Proposed method-single model</bold></td><td rowspan="1" colspan="1"><bold>Sleep-EDF-13</bold></td><td rowspan="1" colspan="1"><bold>Fpz-Cz+Pz-Oz+EOG</bold></td><td rowspan="1" colspan="1"><bold>91.64</bold></td><td rowspan="1" colspan="1"><bold>0.15</bold></td></tr></tbody></table><table-wrap-foot><fn id="tfn0009"><p><bold>Notes:</bold> For the model ensemble, we combined the models, including Fpz-Cz+Pz-Oz+EOG, Fpz-Cz, and EOG; bold highlights the results of the proposed methods.</p></fn><fn id="tfn0010"><p><bold>Abbreviations:</bold> MASS, Montreal Archive of Sleep Studies; SHHS-1, the Sleep Heart Health Study dataset; Sleep-EDF-13, expanded version of sleep-EDF in 2013.</p></fn></table-wrap-foot></table-wrap>
+</p>
+      <p>There are still several limitations in our study. Even though our study population involved children aged 2–18, there is still a lack of validation for children under 2 years of age. SDB patients have mainly primary snoring and mild OSA, and the proportion of N1 in the children’s clinical sample database was very small, which could affect its performance.</p>
+    </sec>
+    <sec id="s0005">
+      <title>Conclusion</title>
+      <p>In our study, we created an automatic sleep stage analysis model with the modularized network with satisfying reliability and generalizability, which could be applied to calculating quantitative sleep parameters and evaluating the severity of SDB.</p>
+    </sec>
+  </body>
+  <back>
+    <ack>
+      <title>Acknowledgments</title>
+      <p>This study could not have been conducted without the help of the study participants, technologists, and physicians at the Department of Otolaryngology-Head and Neck Surgery, Beijing Tongren Hospital and Department of Electronic Engineering, Tsinghua Shenzhen International Graduate School, Tsinghua University.</p>
+    </ack>
+    <sec sec-type="COI-statement" id="s0006">
+      <title>Disclosure</title>
+      <p>The authors report no conflicts of interest in this work.</p>
+    </sec>
+    <ref-list>
+      <title>References</title>
+      <ref id="cit0001">
+        <label>1.</label>
+        <mixed-citation publication-type="book"><string-name><surname>Sheldon</surname>
+<given-names>SH</given-names></string-name>, <string-name><surname>Ferber</surname>
+<given-names>R</given-names></string-name>, <string-name><surname>Kryger</surname>
+<given-names>MH</given-names></string-name>, <string-name><surname>Gozal</surname>
+<given-names>D</given-names></string-name>. <source><italic toggle="yes">Principles and Practice of Pediatric Sleep Medicine</italic></source>. <publisher-name>Elsevier Inc</publisher-name>; <year>2014</year>.</mixed-citation>
+      </ref>
+      <ref id="cit0002">
+        <label>2.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Zandieh</surname>
+<given-names>SO</given-names></string-name>, <string-name><surname>Cespedes</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Ciarleglio</surname>
+<given-names>A</given-names></string-name>, et al. <article-title>Asthma and subjective sleep disordered breathing in a large cohort of urban adolescents</article-title>. <source><italic toggle="yes">J Asthma</italic></source>. <year>2017</year>;<volume>54</volume>(<issue>1</issue>):<fpage>62</fpage>–<lpage>68</lpage>. doi:<pub-id pub-id-type="doi">10.1080/02770903.2016.1188942</pub-id><pub-id pub-id-type="pmid">27740900</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0003">
+        <label>3.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Abazi</surname>
+<given-names>Y</given-names></string-name>, <string-name><surname>Cenko</surname>
+<given-names>F</given-names></string-name>, <string-name><surname>Cardella</surname>
+<given-names>M</given-names></string-name>, et al. <article-title>Sleep Disordered Breathing: an Epidemiological Study among Albanian Children and Adolescents</article-title>. <source><italic toggle="yes">Int J Environ Res Public Health</italic></source>. <year>2020</year>;<volume>17</volume>(<issue>22</issue>):<fpage>8586</fpage>. doi:<pub-id pub-id-type="doi">10.3390/ijerph17228586</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0004">
+        <label>4.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Guo</surname>
+<given-names>Y</given-names></string-name>, <string-name><surname>Pan</surname>
+<given-names>Z</given-names></string-name>, <string-name><surname>Gao</surname>
+<given-names>F</given-names></string-name>, et al. <article-title>Characteristics and risk factors of children with sleep-disordered breathing in Wuxi, China</article-title>. <source><italic toggle="yes">BMC Pediatr</italic></source>. <year>2020</year>;<volume>20</volume>(<issue>1</issue>):<fpage>310</fpage>. doi:<pub-id pub-id-type="doi">10.1186/s12887-020-02207-5</pub-id><pub-id pub-id-type="pmid">32590970</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0005">
+        <label>5.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Marcus</surname>
+<given-names>CL</given-names></string-name>, <string-name><surname>Brooks</surname>
+<given-names>LJ</given-names></string-name>, <string-name><surname>Draper</surname>
+<given-names>KA</given-names></string-name>, et al. <article-title>Diagnosis and management of childhood obstructive sleep apnea syndrome</article-title>. <source><italic toggle="yes">Pediatrics</italic></source>. <year>2012</year>;<volume>130</volume>(<issue>3</issue>):<fpage>576</fpage>–<lpage>584</lpage>. doi:<pub-id pub-id-type="doi">10.1542/peds.2012-1671</pub-id><pub-id pub-id-type="pmid">22926173</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0006">
+        <label>6.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Berry</surname>
+<given-names>RB</given-names></string-name>, <string-name><surname>Budhiraja</surname>
+<given-names>R</given-names></string-name>, <string-name><surname>Gottlieb</surname>
+<given-names>DJ</given-names></string-name>, et al. <article-title>Rules for scoring respiratory events in sleep: update of the 2007 AASM Manual for the Scoring of Sleep and Associated Events. Deliberations of the Sleep Apnea Definitions Task Force of the American Academy of Sleep Medicine</article-title>. <source><italic toggle="yes">J Clin Sleep Med</italic></source>. <year>2012</year>;<volume>8</volume>(<issue>5</issue>):<fpage>597</fpage>–<lpage>619</lpage>. doi:<pub-id pub-id-type="doi">10.5664/jcsm.2172</pub-id><pub-id pub-id-type="pmid">23066376</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0007">
+        <label>7.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Danker-Hopfe</surname>
+<given-names>H</given-names></string-name>, <string-name><surname>Anderer</surname>
+<given-names>P</given-names></string-name>, <string-name><surname>Zeitlhofer</surname>
+<given-names>J</given-names></string-name>, et al. <article-title>Interrater reliability for sleep scoring according to the Rechtschaffen &amp; Kales and the new AASM standard</article-title>. <source><italic toggle="yes">J Sleep Res</italic></source>. <year>2009</year>;<volume>18</volume>(<issue>1</issue>):<fpage>74</fpage>–<lpage>84</lpage>. doi:<pub-id pub-id-type="doi">10.1111/j.1365-2869.2008.00700.x</pub-id><pub-id pub-id-type="pmid">19250176</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0008">
+        <label>8.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Zhang</surname>
+<given-names>X</given-names></string-name>, <string-name><surname>Xu</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Li</surname>
+<given-names>Y</given-names></string-name>, et al. <article-title>Automated multi-model deep neural network for sleep stage scoring with unfiltered clinical data</article-title>. <source><italic toggle="yes">Sleep Breath</italic></source>. <year>2020</year>;<volume>24</volume>(<issue>2</issue>):<fpage>581</fpage>–<lpage>590</lpage>. doi:<pub-id pub-id-type="doi">10.1007/s11325-019-02008-w</pub-id><pub-id pub-id-type="pmid">31938990</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0009">
+        <label>9.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Peter-Derex</surname>
+<given-names>L</given-names></string-name>, <string-name><surname>Berthomier</surname>
+<given-names>C</given-names></string-name>, <string-name><surname>Taillard</surname>
+<given-names>J</given-names></string-name>, et al. <article-title>Automatic analysis of single-channel sleep EEG in a large spectrum of sleep disorders</article-title>. <source><italic toggle="yes">J Clin Sleep Med</italic></source>. <year>2021</year>;<volume>17</volume>(<issue>3</issue>):<fpage>393</fpage>–<lpage>402</lpage>. doi:<pub-id pub-id-type="doi">10.5664/jcsm.8864</pub-id><pub-id pub-id-type="pmid">33089777</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0010">
+        <label>10.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Huang</surname>
+<given-names>X</given-names></string-name>, <string-name><surname>Shirahama</surname>
+<given-names>K</given-names></string-name>, <string-name><surname>Li</surname>
+<given-names>F</given-names></string-name>, et al. <article-title>Sleep stage classification for child patients using DeConvolutional Neural Network</article-title>. <source><italic toggle="yes">Artif Intell Med</italic></source>. <year>2020</year>;<volume>110</volume>:<fpage>101981</fpage>. doi:<pub-id pub-id-type="doi">10.1016/j.artmed.2020.101981</pub-id><pub-id pub-id-type="pmid">33250147</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0011">
+        <label>11.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Venkatesh</surname>
+<given-names>K</given-names></string-name>, <string-name><surname>Poonguzhali</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Mohanavelu</surname>
+<given-names>K</given-names></string-name>, et al. <article-title>Sleep Stages Classification Using Neural Network with Single Channel EEG</article-title>. <source><italic toggle="yes">IEEE Access</italic></source>. <year>2019</year>;<volume>7</volume>:<fpage>96495</fpage>–<lpage>96505</lpage>. doi:<pub-id pub-id-type="doi">10.1109/ACCESS.2019.2928129</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0012">
+        <label>12.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Sharma</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Tiwari</surname>
+<given-names>J</given-names></string-name>, <string-name><surname>Acharya</surname>
+<given-names>UR</given-names></string-name>. <article-title>Automatic Sleep-Stage Scoring in Healthy and Sleep Disorder Patients Using Optimal Wavelet Filter Bank Technique with EEG Signals</article-title>. <source><italic toggle="yes">Int J Environ Res Public Health</italic></source>. <year>2021</year>;<volume>18</volume>(<issue>6</issue>):<fpage>3087</fpage>. doi:<pub-id pub-id-type="doi">10.3390/ijerph18063087</pub-id><pub-id pub-id-type="pmid">33802799</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0013">
+        <label>13.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Younes</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Raneri</surname>
+<given-names>J</given-names></string-name>, <string-name><surname>Hanly</surname>
+<given-names>P</given-names></string-name>. <article-title>Staging Sleep in Polysomnograms: analysis of Inter-Scorer Variability</article-title>. <source><italic toggle="yes">J Clin Sleep Med</italic></source>. <year>2016</year>;<volume>12</volume>(<issue>6</issue>):<fpage>885</fpage>–<lpage>894</lpage>. doi:<pub-id pub-id-type="doi">10.5664/jcsm.5894</pub-id><pub-id pub-id-type="pmid">27070243</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0014">
+        <label>14.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Roy</surname>
+<given-names>Y</given-names></string-name>, <string-name><surname>Banville</surname>
+<given-names>H</given-names></string-name>, <string-name><surname>Albuquerque</surname>
+<given-names>I</given-names></string-name>, et al. <article-title>Deep learning-based electroencephalography analysis: a systematic review</article-title>. <source><italic toggle="yes">J Neural Eng</italic></source>. <year>2019</year>;<volume>16</volume>(<issue>5</issue>):<fpage>051001</fpage>. doi:<pub-id pub-id-type="doi">10.1088/1741-2552/ab260c</pub-id><pub-id pub-id-type="pmid">31151119</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0015">
+        <label>15.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Kemp</surname>
+<given-names>B</given-names></string-name>, <string-name><surname>Zwinderman</surname>
+<given-names>AH</given-names></string-name>, <string-name><surname>Tuk</surname>
+<given-names>B</given-names></string-name>, et al. <article-title>Analysis of a sleep-dependent neuronal feedback loop: the slow-wave microcontinuity of the EEG</article-title>. <source><italic toggle="yes">IEEE Trans Biomed Eng</italic></source>. <year>2000</year>;<volume>47</volume>(<issue>9</issue>):<fpage>1185</fpage>–<lpage>1194</lpage>. doi:<pub-id pub-id-type="doi">10.1109/10.867928</pub-id><pub-id pub-id-type="pmid">11008419</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0016">
+        <label>16.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Sateia</surname>
+<given-names>MJ</given-names></string-name>. <article-title>International classification of sleep disorders-third edition: highlights and modifications</article-title>. <source><italic toggle="yes">Chest</italic></source>. <year>2014</year>;<volume>146</volume>(<issue>5</issue>):<fpage>1387</fpage>–<lpage>1394</lpage>. doi:<pub-id pub-id-type="doi">10.1378/chest.14-0970</pub-id><pub-id pub-id-type="pmid">25367475</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0017">
+        <label>17.</label>
+        <mixed-citation publication-type="journal"><collab>Society of Pediatric Surgery CM</collab>. <article-title>Chinese guideline for the diagnosis and treatment of childhood obstructive sleep apnea (2020)</article-title>. <source><italic toggle="yes">Zhonghua Er Bi Yan Hou Tou Jing Wai Ke Za Zhi</italic></source>. <year>2020</year>;<volume>55</volume>(<issue>8</issue>):<fpage>729</fpage>–<lpage>747</lpage>.<pub-id pub-id-type="pmid">32791771</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0018">
+        <label>18.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Simonyan</surname>
+<given-names>K</given-names></string-name>, <string-name><surname>Zisserman</surname>
+<given-names>A</given-names></string-name>. <article-title>Very Deep Convolutional Networks for Large-Scale Image Recognition</article-title>. <source><italic toggle="yes">Computer Sci</italic></source>. <year>2014</year>.</mixed-citation>
+      </ref>
+      <ref id="cit0019">
+        <label>19.</label>
+        <mixed-citation publication-type="confproc"><string-name><surname>He</surname>
+<given-names>K</given-names></string-name>, <string-name><surname>Zhang</surname>
+<given-names>X</given-names></string-name>, <string-name><surname>Ren</surname>
+<given-names>S</given-names></string-name>, et al. <article-title>Deep Residual Learning for Image Recognition</article-title>. <conf-name>IEEE</conf-name>; <year>2016</year>.</mixed-citation>
+      </ref>
+      <ref id="cit0020">
+        <label>20.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Shelhamer</surname>
+<given-names>E</given-names></string-name>, <string-name><surname>Long</surname>
+<given-names>J</given-names></string-name>, <string-name><surname>Darrell</surname>
+<given-names>T</given-names></string-name>. <article-title>Fully Convolutional Networks for Semantic Segmentation</article-title>. <source><italic toggle="yes">IEEE Trans Pattern Anal Mach Intell</italic></source>. <year>2017</year>;<volume>39</volume>(<issue>4</issue>):<fpage>640</fpage>–<lpage>651</lpage>. doi:<pub-id pub-id-type="doi">10.1109/TPAMI.2016.2572683</pub-id><pub-id pub-id-type="pmid">27244717</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0021">
+        <label>21.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Oord</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Dieleman</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Zen</surname>
+<given-names>H</given-names></string-name>, et al. <article-title>WaveNet: a Generative Model for Raw Audio</article-title>. <source><italic toggle="yes">arXiv:1609.03499</italic></source>. <year>2016</year>.</mixed-citation>
+      </ref>
+      <ref id="cit0022">
+        <label>22.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Pinheiro</surname>
+<given-names>P</given-names></string-name>, <string-name><surname>Collobert</surname>
+<given-names>R</given-names></string-name>, <string-name><surname>Dollar</surname>
+<given-names>P</given-names></string-name>. <article-title>Learning to Segments Objects Candidates</article-title>. <source><italic toggle="yes">Adv Neural Inf Process Syst</italic></source>. <year>2015</year>;<volume>2</volume>:<fpage>1547</fpage>.</mixed-citation>
+      </ref>
+      <ref id="cit0023">
+        <label>23.</label>
+        <mixed-citation publication-type="confproc"><string-name><surname>Xiong</surname>
+<given-names>W</given-names></string-name>, <string-name><surname>Droppo</surname>
+<given-names>J</given-names></string-name>, <string-name><surname>Huang</surname>
+<given-names>X</given-names></string-name>, et al. <article-title>The Microsoft 2016 Conversational Speech Recognition System</article-title>. <conf-name>IEEE</conf-name>; <year>2016</year>.</mixed-citation>
+      </ref>
+      <ref id="cit0024">
+        <label>24.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Szegedy</surname>
+<given-names>C</given-names></string-name>, <string-name><surname>Liu</surname>
+<given-names>W</given-names></string-name>, <string-name><surname>Jia</surname>
+<given-names>Y</given-names></string-name>, et al. <article-title>Going Deeper with Convolutions</article-title>. <source><italic toggle="yes">IEEE Computer Soc</italic></source>. <year>2014</year>.</mixed-citation>
+      </ref>
+      <ref id="cit0025">
+        <label>25.</label>
+        <mixed-citation publication-type="confproc"><string-name><surname>Szegedy</surname>
+<given-names>C</given-names></string-name>, <string-name><surname>Vanhoucke</surname>
+<given-names>V</given-names></string-name>, <string-name><surname>Ioffe</surname>
+<given-names>S</given-names></string-name>, et al. <article-title>Rethinking the Inception Architecture for Computer Vision.2016 IEEE Conference on Computer Vision and Pattern Recognition (CVPR)</article-title>. <conf-name>IEEE</conf-name>; <year>2016</year>;<fpage>2818</fpage>–<lpage>2826</lpage>.</mixed-citation>
+      </ref>
+      <ref id="cit0026">
+        <label>26.</label>
+        <mixed-citation publication-type="confproc"><string-name><surname>Szegedy</surname>
+<given-names>C</given-names></string-name>, <string-name><surname>Ioffe</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Vanhoucke</surname>
+<given-names>V</given-names></string-name>, et al. <article-title>Inception-v4, Inception-ResNet and the Impact of Residual Connections on Learning</article-title>. <conf-name>ICLR Workshop</conf-name>; <year>2016</year>.</mixed-citation>
+      </ref>
+      <ref id="cit0027">
+        <label>27.</label>
+        <mixed-citation publication-type="confproc"><string-name><surname>Xie</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Girshick</surname>
+<given-names>R</given-names></string-name>, <string-name><surname>Dollár</surname>
+<given-names>P</given-names></string-name>, et al. <article-title>Aggregated Residual Transformations for Deep Neural Networks.2017 IEEE Conference on Computer Vision and Pattern Recognition (CVPR)</article-title>. <conf-name>IEEE</conf-name>; <year>2016</year>.</mixed-citation>
+      </ref>
+      <ref id="cit0028">
+        <label>28.</label>
+        <mixed-citation publication-type="confproc"><string-name><surname>Luo</surname>
+<given-names>L</given-names></string-name>, <string-name><surname>Xiong</surname>
+<given-names>Y</given-names></string-name>, <string-name><surname>Liu</surname>
+<given-names>Y</given-names></string-name>, et al. <article-title>Adaptive Gradient Methods with Dynamic Bound of Learning Rate</article-title>. <conf-name>ICLR Workshop</conf-name>; <year>2019</year>.</mixed-citation>
+      </ref>
+      <ref id="cit0029">
+        <label>29.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Delimayanti</surname>
+<given-names>MK</given-names></string-name>, <string-name><surname>Purnama</surname>
+<given-names>B</given-names></string-name>, <string-name><surname>Nguyen</surname>
+<given-names>NG</given-names></string-name>, et al. <article-title>Classification of Brainwaves for Sleep Stages by High-Dimensional FFT Features from EEG Signals</article-title>. <source><italic toggle="yes">Applied Sciences</italic></source>. <year>2020</year>;<volume>10</volume>:<fpage>5</fpage>. doi:<pub-id pub-id-type="doi">10.3390/app10051797</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0030">
+        <label>30.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Yildirim</surname>
+<given-names>O</given-names></string-name>, <string-name><surname>Baloglu</surname>
+<given-names>UB</given-names></string-name>, <string-name><surname>Acharya</surname>
+<given-names>UR</given-names></string-name>. <article-title>A Deep Learning Model for Automated Sleep Stages Classification Using PSG Signals</article-title>. <source><italic toggle="yes">Int J Environ Res Public Health</italic></source>. <year>2019</year>;<volume>16</volume>(<issue>4</issue>):<fpage>599</fpage>. doi:<pub-id pub-id-type="doi">10.3390/ijerph16040599</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0031">
+        <label>31.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>da Silveira</surname>
+<given-names>TLT</given-names></string-name>, <string-name><surname>Kozakevicius</surname>
+<given-names>AJ</given-names></string-name>, <string-name><surname>Rodrigues</surname>
+<given-names>CR</given-names></string-name>. <article-title>Single-channel EEG sleep stage classification based on a streamlined set of statistical features in wavelet domain</article-title>. <source><italic toggle="yes">Med Biol Eng Comput</italic></source>. <year>2017</year>;<volume>55</volume>(<issue>2</issue>):<fpage>343</fpage>–<lpage>352</lpage>. doi:<pub-id pub-id-type="doi">10.1007/s11517-016-1519-4</pub-id><pub-id pub-id-type="pmid">27193344</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0032">
+        <label>32.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Korkalainen</surname>
+<given-names>H</given-names></string-name>, <string-name><surname>Aakko</surname>
+<given-names>J</given-names></string-name>, <string-name><surname>Nikkonen</surname>
+<given-names>S</given-names></string-name>, et al. <article-title>Accurate Deep Learning-Based Sleep Staging in a Clinical Population With Suspected Obstructive Sleep Apnea</article-title>. <source><italic toggle="yes">IEEE J Biomed Health Inform</italic></source>. <year>2020</year>;<volume>24</volume>(<issue>7</issue>):<fpage>2073</fpage>–<lpage>2081</lpage>.<pub-id pub-id-type="pmid">31869808</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0033">
+        <label>33.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Mousavi</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Afghah</surname>
+<given-names>F</given-names></string-name>, <string-name><surname>Acharya</surname>
+<given-names>UR</given-names></string-name>. <article-title>SleepEEGNet: automated sleep stage scoring with sequence to sequence deep learning approach</article-title>. <source><italic toggle="yes">PLoS One</italic></source>. <year>2019</year>;<volume>14</volume>(<issue>5</issue>):<fpage>e0216456</fpage>. doi:<pub-id pub-id-type="doi">10.1371/journal.pone.0216456</pub-id><pub-id pub-id-type="pmid">31063501</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0034">
+        <label>34.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Khalili</surname>
+<given-names>E</given-names></string-name>, <string-name><surname>Mohammadzadeh Asl</surname>
+<given-names>B</given-names></string-name>. <article-title>Automatic Sleep Stage Classification Using Temporal Convolutional Neural Network and New Data Augmentation Technique from Raw Single-Channel EEG</article-title>. <source><italic toggle="yes">Comput Methods Programs Biomed</italic></source>. <year>2021</year>;<volume>204</volume>:<fpage>106063</fpage>. doi:<pub-id pub-id-type="doi">10.1016/j.cmpb.2021.106063</pub-id><pub-id pub-id-type="pmid">33823315</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0035">
+        <label>35.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Chriskos</surname>
+<given-names>P</given-names></string-name>, <string-name><surname>Frantzidis</surname>
+<given-names>CA</given-names></string-name>, <string-name><surname>Gkivogkli</surname>
+<given-names>PT</given-names></string-name>. <article-title>Automatic Sleep Staging Employing Convolutional Neural Networks and Cortical Connectivity Images</article-title>. <source><italic toggle="yes">IEEE Trans Neural Netw Learn Syst</italic></source>. <year>2020</year>;<volume>31</volume>(<issue>1</issue>):<fpage>113</fpage>–<lpage>123</lpage>. doi:<pub-id pub-id-type="doi">10.1109/TNNLS.2019.2899781</pub-id><pub-id pub-id-type="pmid">30892246</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0036">
+        <label>36.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Guillot</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Sauvet</surname>
+<given-names>F</given-names></string-name>, <string-name><surname>During</surname>
+<given-names>EH</given-names></string-name>, et al. <article-title>Dreem Open Datasets: multi-Scored Sleep Datasets to Compare Human and Automated Sleep Staging</article-title>. <source><italic toggle="yes">IEEE Trans Neural Syst Rehabil Eng</italic></source>. <year>2020</year>;<volume>28</volume>(<issue>9</issue>):<fpage>1955</fpage>–<lpage>1965</lpage>. doi:<pub-id pub-id-type="doi">10.1109/TNSRE.2020.3011181</pub-id><pub-id pub-id-type="pmid">32746326</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0037">
+        <label>37.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Hassan</surname>
+<given-names>AR</given-names></string-name>, <string-name><surname>Bhuiyan</surname>
+<given-names>MI</given-names></string-name>. <article-title>A decision support system for automatic sleep staging from EEG signals using tunable Q-factor wavelet transform and spectral features</article-title>. <source><italic toggle="yes">J Neurosci Methods</italic></source>. <year>2016</year>;<volume>271</volume>:<fpage>107</fpage>–<lpage>118</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.jneumeth.2016.07.012</pub-id><pub-id pub-id-type="pmid">27456762</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0038">
+        <label>38.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Scott</surname>
+<given-names>H</given-names></string-name>, <string-name><surname>Lovato</surname>
+<given-names>N</given-names></string-name>, <string-name><surname>Lack</surname>
+<given-names>L</given-names></string-name>. <article-title>The Development and Accuracy of the THIM Wearable Device for Estimating Sleep and Wakefulness</article-title>. <source><italic toggle="yes">Nat Sci Sleep</italic></source>. <year>2021</year>;<volume>13</volume>:<fpage>39</fpage>–<lpage>53</lpage>. doi:<pub-id pub-id-type="doi">10.2147/NSS.S287048</pub-id><pub-id pub-id-type="pmid">33469399</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0039">
+        <label>39.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Toften</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Pallesen</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Hrozanova</surname>
+<given-names>M</given-names></string-name>, et al. <article-title>Validation of sleep stage classification using non-contact radar technology and machine learning (Somnofy<sup>®</sup>)</article-title>. <source><italic toggle="yes">Sleep Med</italic></source>. <year>2020</year>;<volume>75</volume>:<fpage>54</fpage>–<lpage>61</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.sleep.2020.02.022</pub-id><pub-id pub-id-type="pmid">32853919</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0040">
+        <label>40.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Sun</surname>
+<given-names>H</given-names></string-name>, <string-name><surname>Ganglberger</surname>
+<given-names>W</given-names></string-name>, <string-name><surname>Panneerselvam</surname>
+<given-names>E</given-names></string-name>, et al. <article-title>Sleep staging from electrocardiography and respiration with deep learning</article-title>. <source><italic toggle="yes">Sleep</italic></source>. <year>2020</year>;<volume>43</volume>(<issue>7</issue>):<fpage>zsz306</fpage>. doi:<pub-id pub-id-type="doi">10.1093/sleep/zsz306</pub-id><pub-id pub-id-type="pmid">31863111</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0041">
+        <label>41.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Supratak</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Dong</surname>
+<given-names>H</given-names></string-name>, <string-name><surname>Wu</surname>
+<given-names>C</given-names></string-name>, et al. <article-title>DeepSleepNet: a Model for Automatic Sleep Stage Scoring Based on Raw Single-Channel EEG</article-title>. <source><italic toggle="yes">IEEE Trans Neural Syst Rehabil Eng</italic></source>. <year>2017</year>;<volume>25</volume>(<issue>11</issue>):<fpage>1998</fpage>–<lpage>2008</lpage>. doi:<pub-id pub-id-type="doi">10.1109/TNSRE.2017.2721116</pub-id><pub-id pub-id-type="pmid">28678710</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0042">
+        <label>42.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Sors</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Bonnet</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Mirek</surname>
+<given-names>S</given-names></string-name>, et al. <article-title>A convolutional neural network for sleep stage scoring from raw single-channel EEG</article-title>. <source><italic toggle="yes">Biomed Signal Process Control</italic></source>. <year>2018</year>;<volume>42</volume>:<fpage>107</fpage>–<lpage>114</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.bspc.2017.12.001</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0043">
+        <label>43.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Tsinalis</surname>
+<given-names>O</given-names></string-name>, <string-name><surname>Matthews</surname>
+<given-names>PM</given-names></string-name>, <string-name><surname>Guo</surname>
+<given-names>Y</given-names></string-name>. <article-title>Automatic Sleep Stage Scoring Using Time-Frequency Analysis and Stacked Sparse Autoencoders</article-title>. <source><italic toggle="yes">Ann Biomed Eng</italic></source>. <year>2016</year>;<volume>44</volume>(<issue>5</issue>):<fpage>1587</fpage>–<lpage>1597</lpage>. doi:<pub-id pub-id-type="doi">10.1007/s10439-015-1444-y</pub-id><pub-id pub-id-type="pmid">26464268</pub-id></mixed-citation>
+      </ref>
+    </ref-list>
+  </back>
+</article>
+</pmc-articleset>

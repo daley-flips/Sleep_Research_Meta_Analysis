@@ -1,0 +1,679 @@
+<pmc-articleset><article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" dtd-version="1.3" xml:lang="en" article-type="research-article">
+  <?properties open_access?>
+  <processing-meta base-tagset="archiving" mathml-version="3.0" table-model="xhtml" tagset-family="jats">
+    <restricted-by>pmc</restricted-by>
+  </processing-meta>
+  <front><journal-meta><journal-id journal-id-type="nlm-ta">Nat Sci Sleep</journal-id><journal-id journal-id-type="iso-abbrev">Nat Sci Sleep</journal-id><journal-id journal-id-type="publisher-id">nss</journal-id><journal-title-group><journal-title>Nature and Science of Sleep</journal-title></journal-title-group><issn pub-type="epub">1179-1608</issn><publisher><publisher-name>Dove</publisher-name></publisher></journal-meta>
+<article-meta><article-id pub-id-type="pmid">38699466</article-id><article-id pub-id-type="pmc">11063111</article-id><article-id pub-id-type="publisher-id">453794</article-id><article-id pub-id-type="doi">10.2147/NSS.S453794</article-id><article-categories><subj-group subj-group-type="heading"><subject>Original Research</subject></subj-group></article-categories><title-group><article-title>A Machine Learning Prediction Model of Adult Obstructive Sleep Apnea Based on Systematically Evaluated Common Clinical Biochemical Indicators</article-title><alt-title alt-title-type="running-authors">Huang et al</alt-title><alt-title alt-title-type="running-title">Huang et al</alt-title></title-group><contrib-group><contrib contrib-type="author"><contrib-id contrib-id-type="orcid">http://orcid.org/0000-0002-3152-6596</contrib-id><name><surname>Huang</surname><given-names>Jiewei</given-names></name><xref rid="aff0001" ref-type="aff">
+<sup>1</sup>
+</xref><xref rid="aff0002" ref-type="aff">
+<sup>2</sup>
+</xref></contrib><contrib contrib-type="author"><contrib-id contrib-id-type="orcid">http://orcid.org/0000-0001-7021-7852</contrib-id><name><surname>Zhuang</surname><given-names>Jiajing</given-names></name><xref rid="aff0002" ref-type="aff">
+<sup>2</sup>
+</xref><xref rid="aff0003" ref-type="aff">
+<sup>3</sup>
+</xref></contrib><contrib contrib-type="author"><contrib-id contrib-id-type="orcid">http://orcid.org/0000-0001-5310-8283</contrib-id><name><surname>Zheng</surname><given-names>Huaxian</given-names></name><xref rid="aff0004" ref-type="aff">
+<sup>4</sup>
+</xref></contrib><contrib contrib-type="author"><name><surname>Yao</surname><given-names>Ling</given-names></name><xref rid="aff0005" ref-type="aff">
+<sup>5</sup>
+</xref><xref rid="aff0006" ref-type="aff">
+<sup>6</sup>
+</xref></contrib><contrib contrib-type="author"><contrib-id contrib-id-type="orcid">http://orcid.org/0000-0001-9254-5849</contrib-id><name><surname>Chen</surname><given-names>Qingquan</given-names></name><xref rid="aff0007" ref-type="aff">
+<sup>7</sup>
+</xref><xref rid="aff0008" ref-type="aff">
+<sup>8</sup>
+</xref></contrib><contrib contrib-type="author"><name><surname>Wang</surname><given-names>Jiaqi</given-names></name><xref rid="aff0001" ref-type="aff">
+<sup>1</sup>
+</xref><xref rid="aff0002" ref-type="aff">
+<sup>2</sup>
+</xref></contrib><contrib contrib-type="author"><contrib-id contrib-id-type="orcid">http://orcid.org/0000-0002-7038-4623</contrib-id><name><surname>Fan</surname><given-names>Chunmei</given-names></name><xref rid="aff0001" ref-type="aff">
+<sup>1</sup>
+</xref><xref rid="an0001" ref-type="corresp"/></contrib><aff id="aff0001"><label>1</label><institution>The Clinical Laboratory Center of the Second Affiliated Hospital of Fujian Medical University</institution>, <addr-line>Quanzhou</addr-line>, <addr-line>Fujian Province</addr-line>, <addr-line>362018</addr-line>, <country>People’s Republic of China</country></aff><aff id="aff0002"><label>2</label><institution>The Graduate School of Fujian Medical University</institution>, <addr-line>Fuzhou</addr-line>, <addr-line>Fujian Province</addr-line>, <addr-line>350108</addr-line>, <country>People’s Republic of China</country></aff><aff id="aff0003"><label>3</label><institution>Department of Ultrasound, Fujian Medical University Union Hospital</institution>, <addr-line>Fuzhou</addr-line>, <addr-line>Fujian Province</addr-line>, <addr-line>350001</addr-line>, <country>People’s Republic of China</country></aff><aff id="aff0004"><label>4</label><institution>The School of Clinical Medicine, Fujian Medical University</institution>, <addr-line>Fuzhou</addr-line>, <addr-line>Fujian Province</addr-line>, <addr-line>350108</addr-line>, <country>People’s Republic of China</country></aff><aff id="aff0005"><label>5</label><institution>Fujian Maternity and Child Health Hospital, College of Clinical Medicine for Obstetrics &amp; Gynecology and Pediatrics, Fujian Medical University</institution>, <addr-line>Fuzhou</addr-line>, <addr-line>350000</addr-line>, <country>People’s Republic of China</country></aff><aff id="aff0006"><label>6</label><institution>Department of Nephrology, Rheumatology and Immunology, Fujian Children’s Hospital, College of Clinical Medicine for Obstetrics &amp; Gynecology and Pediatrics, Fujian Medical University</institution>, <addr-line>Fuzhou</addr-line>, <addr-line>350014</addr-line>, <country>People’s Republic of China</country></aff><aff id="aff0007"><label>7</label><institution>The Sleep Disorder Medicine Center of the Second Affiliated Hospital of Fujian Medical University</institution>, <addr-line>Quanzhou</addr-line>, <addr-line>Fujian Province</addr-line>, <addr-line>362018</addr-line>, <country>People’s Republic of China</country></aff><aff id="aff0008"><label>8</label><institution>The School of Public Health, Fujian Medical University</institution>, <addr-line>Fuzhou</addr-line>, <addr-line>Fujian Province</addr-line>, <addr-line>350108</addr-line>, <country>People’s Republic of China</country></aff></contrib-group><author-notes><corresp id="an0001">Correspondence: Chunmei Fan, The Clinical Laboratory Center of the Second Affiliated Hospital of Fujian Medical University, <addr-line>Quanzhou</addr-line>, <addr-line>Fujian Province</addr-line>, <addr-line>362018</addr-line>, <country>People’s Republic of China</country>, <phone content-type="general">Tel +86 15906069575</phone>, Email fanchunmei9575@163.com</corresp></author-notes><pub-date pub-type="epub"><day>24</day><month>4</month><year>2024</year></pub-date><pub-date pub-type="collection"><year>2024</year></pub-date><volume>16</volume><fpage>413</fpage><lpage>428</lpage><history><date date-type="received"><day>21</day><month>12</month><year>2023</year></date><date date-type="accepted"><day>10</day><month>4</month><year>2024</year></date></history><permissions><copyright-statement>© 2024 Huang et al.</copyright-statement><copyright-year>2024</copyright-year><copyright-holder>Huang et al.</copyright-holder><license><ali:license_ref xmlns:ali="http://www.niso.org/schemas/ali/1.0/" specific-use="textmining" content-type="ccbynclicense">https://creativecommons.org/licenses/by-nc/3.0/</ali:license_ref><license-p>This work is published and licensed by Dove Medical Press Limited. The full terms of this license are available at <ext-link ext-link-type="uri" xlink:href="https://www.dovepress.com/terms.php">https://www.dovepress.com/terms.php</ext-link> and incorporate the Creative Commons Attribution – Non Commercial (unported, v3.0) License (<ext-link ext-link-type="uri" xlink:href="https://creativecommons.org/licenses/by-nc/3.0/">http://creativecommons.org/licenses/by-nc/3.0/</ext-link>). By accessing the work you hereby accept the Terms. Non-commercial uses of the work are permitted without any further permission from Dove Medical Press Limited, provided the work is properly attributed. For permission for commercial use of this work, please see paragraphs 4.2 and 5 of our Terms (<ext-link ext-link-type="uri" xlink:href="https://www.dovepress.com/terms.php">https://www.dovepress.com/terms.php</ext-link>).</license-p></license></permissions><abstract><sec><title>Objective</title><p>Obstructive sleep apnea (OSA) is a common and potentially fatal sleep disorder. The purpose of this study was to construct an objective and easy-to-promote model based on common clinical biochemical indicators and demographic data for OSA screening.</p></sec><sec><title>Methods</title><p>The study collected the clinical data of patients who were referred to the Sleep Medicine Center of the Second Affiliated Hospital of Fujian Medical University from December 1, 2020, to July 31, 2023, including data for demographics, polysomnography (PSG), and 30 biochemical indicators. Univariate and multivariate analyses were performed to compare the differences between groups, and the Boruta method was used to analyze the importance of the predictors. We selected and compared 10 predictors using 4 machine learning algorithms which were “Gaussian Naive Bayes (GNB)”, “Support Vector Machine (SVM)”, “K Neighbors Classifier (KNN)”, and “Logistic Regression (LR)”. Finally, the optimal algorithm was selected to construct the final prediction model.</p></sec><sec><title>Results</title><p>Among all the predictors of OSA, body mass index (BMI) showed the best predictive efficacy with an area under the receiver operating characteristic curve (AUC) = 0.699; among the predictors of biochemical indicators, triglyceride-glucose (TyG) index represented the best predictive performance (AUC = 0.656). The LR algorithm outperformed the 4 established machine learning (ML) algorithms, with an AUC (F1 score) of 0.794 (0.841), 0.777 (0.827), and 0.732 (0.788) in the training, validation, and testing cohorts, respectively.</p></sec><sec><title>Conclusion</title><p>We have constructed an efficient OSA screening tool. The introduction of biochemical indicators in ML-based prediction models can provide a reference for clinicians in determining whether patients with suspected OSA need PSG.</p></sec></abstract><abstract abstract-type="graphical"><title>Graphical Abstract</title><p>
+<fig position="anchor" id="uf0001"><graphic xlink:href="NSS-16-413-g0001" content-type="print-only" position="float"/></fig>
+</p></abstract><kwd-group kwd-group-type="author"><title>Keywords</title><kwd>biochemical indicators</kwd><kwd>obstructive sleep apnea</kwd><kwd>machine learning</kwd><kwd>prediction model</kwd><kwd>triglyceride-glucose index</kwd></kwd-group><funding-group><award-group><funding-source>
+<institution-wrap><institution>Quanzhou City Science &amp; Technology Program of China</institution></institution-wrap>
+</funding-source></award-group><funding-statement>This research was financially supported by Quanzhou City Science &amp; Technology Program of China [grant numbers: 2021C061R].</funding-statement></funding-group><counts><fig-count count="6"/><table-count count="2"/><ref-count count="62"/><page-count count="16"/></counts></article-meta></front>
+  <body>
+    <sec sec-type="intro" id="s0001">
+      <title>Introduction</title>
+      <p>Obstructive sleep apnea (OSA) is a globally recognized medical disease. Patients with OSA may experience the upper airway collapsing during sleep, resulting in decreased oxygen saturation and sleep disruption, which is characterized by snoring, apnea, and lethargy. It is common among middle-aged and elderly people and is associated with the development of long-term adverse health consequences, such as cardiovascular disease, cerebrovascular disease, and neurocognitive defects.<xref rid="cit0001" ref-type="bibr">1–4</xref></p>
+      <p>In recent years, with the increasing obesity and the ageing population demographic, the overall prevalence of OSA is between 38% and 90%, with a higher prevalence among males.<xref rid="cit0005" ref-type="bibr">5</xref> China is the most affected country, followed by the United States, Brazil, and India. OSA places a huge burden on the economy and society and also leads to an increased risk of motor vehicle accidents, decreased work efficiency, and a reduced quality of life.<xref rid="cit0006" ref-type="bibr">6</xref> In 2015 alone, the cost of diagnosing and treating OSA in the United States was about USD 12.4 billion.<xref rid="cit0007" ref-type="bibr">7</xref></p>
+      <p>Due to a lack of public awareness of OSA and medical resources, most suspected OSA patients with obesity, hypertension, habitual snoring, and lethargy<xref rid="cit0008" ref-type="bibr">8</xref> have not been diagnosed or treated, even in developed countries with more resources and higher-quality education.<xref rid="cit0009" ref-type="bibr">9</xref> According to the research estimates,<xref rid="cit0009" ref-type="bibr">9</xref> 936 million adults aged 30-69 worldwide have mild-to-severe OSA, of which 425 million have moderate-to-severe OSA. Therefore, it is particularly important to realize the large-scale screening of OSA, especially in the high-risk groups, so as to improve the diagnosis and treatment level of OSA and promote the sleep health of people.</p>
+      <p>Polysomnography (PSG) is the most accurate method for diagnosing OSA at present, which can be used to determine the severity of sleep apnea and to evaluate patients’ response to treatment,<xref rid="cit0010" ref-type="bibr">10</xref> but it is difficult to popularize because of its cumbersome operation, patients’ non-compliance, and expensive medical expenses. Other PSG-based alternative methods are also difficult to complete for a large number of screening tasks due to economic reasons.<xref rid="cit0011" ref-type="bibr">11</xref> Therefore, questionnaires are generally used to screen populations, including the Epworth Sleepiness Scale (ESS), the Pittsburgh Sleep Quality Questionnaire (PSQI), and the Function Outcomes of Sleep Questionnaire (FOSQ). However, these questionnaires cannot fully meet the requirements of OSA screening and are accompanied by a high rate of missed diagnoses. This may be related to factors such as low generalization, a large amount of readings, sensitivity to problems, and strong subjectivity.<xref rid="cit0012" ref-type="bibr">12</xref> Machine learning algorithms have been widely used in the medical field.<xref rid="cit0013" ref-type="bibr">13–15</xref> Studies have applied basic demographic data, physical examination, clinical history, comorbidities and cointerventions as variables to predict OSA, such as body mass index (BMI), neck circumference, hypertension.<xref rid="cit0016" ref-type="bibr">16–18</xref> There are also many studies that utilize cephalometry, X-ray, computed tomography (CT), magnetic resonance imaging (MRI), ultrasound, and drug-induced sleep endoscopy to measure OSA-related data, including oral and maxillofacial anatomy measurements, the upper airway, respiratory muscles, subcutaneous adipose tissue (SAT), etc., to analyze the relationship between these data and the apnea-hypopnea index (AHI) and determine the upper airway collapsing, thus exploring their diagnostic efficacy for OSA.<xref rid="cit0019" ref-type="bibr">19–21</xref> In addition, 3D face features were further extracted in some studies to establish classification algorithms that facilitate the utilization of information regarding linear distances and angles.<xref rid="cit0022" ref-type="bibr">22</xref> Nevertheless, the application of these diagnostic methods in routine clinical settings is limited due to factors such as cost, human resources, and exposure to radiation.</p>
+      <p>In recent years, cell biology research on OSA has made great progress. Some biomarkers related to inflammation, oxidative stress, sympathetic activation, and metabolic activity have been shown to be associated with OSA, such as interleukin-6 (IL-6), nitric oxide (NO), cysteine, lipoprotein, etc.<xref rid="cit0023" ref-type="bibr">23</xref> Due to the hypoxia caused by OSA, the renin-angiotensin-aldosterone system, endothelium, and sympathetic nervous system are activated, causing changes in catechol-O-methyltransferase (COMT) activity, which plays a role in regulating the cardiovascular and metabolic risks in OSA patients.<xref rid="cit0024" ref-type="bibr">24</xref> What’s more, the level of biomarkers may be related to the severity of OSA. For example, it was found that patients with moderate-to-severe OSA had higher average glucose levels during sleep or waking periods compared to those of the patients with mild OSA,<xref rid="cit0025" ref-type="bibr">25</xref> and OSA was significantly associated with elevated blood lipid levels.<xref rid="cit0026" ref-type="bibr">26</xref> The application of these biomarkers may contribute to making the screening less subjective and enabling mass screening.<xref rid="cit0027" ref-type="bibr">27</xref></p>
+      <p>This study aims to find easy-to-measure, inexpensive biochemical indicators related to the severity of the disease, which may benefit large-scale OSA screening and further study on the pathophysiological mechanism of OSA. Furthermore, in order to increase the detection rate of OSA and achieve better social and economic benefits, this study aims to construct an OSA prediction model based on selected biochemical indicators, which can provide clinicians with decision reference on prompt referral of patients with suspected OSA and whether they need to undergo PSG. The statement of significance is highlighted in <xref rid="t0001" ref-type="table">Table 1</xref>.<table-wrap position="float" id="t0001"><label>Table 1</label><caption><p>Statement of Significance</p></caption><table frame="hsides" rules="groups"><tbody><tr><td rowspan="1" colspan="1">Problem or Issue</td><td rowspan="1" colspan="1">The potentially serious complications of obstructive sleep apnea warrant mass screening of high-risk populations. However, there is still a lack of a reliable and accurate tool for early screening and diagnosis of OSA.</td></tr><tr><td rowspan="1" colspan="1">What is Already Known</td><td rowspan="1" colspan="1">Factors such as age and BMI have been proved to be significantly related to OSA. At the same time, obstructive sleep apnea can cause hypoxia and induce systemic inflammatory response, thereby OSA patients can represent abnormal bleeding biochemical indicators. The application of machine learning method may provide an efficient tool for assisting in OSA diagnosis and treatment.</td></tr><tr><td rowspan="1" colspan="1">What this Paper Adds</td><td rowspan="1" colspan="1">This study systematically evaluate the relationship between the common clinical biochemical indicators and OSA for the first time, and develop a machine learning model incorporating biochemical indicators to enhance the diagnostic value of objective metrics for obstructive sleep apnea.</td></tr></tbody></table><table-wrap-foot><fn id="tfn0001"><p><bold>Abbreviations</bold>: OSA, obstructive sleep apnea; BMI, body mass index.</p></fn></table-wrap-foot></table-wrap></p>
+    </sec>
+    <sec id="s0002">
+      <title>Method</title>
+      <sec id="s0002-s2001">
+        <title>Study Population</title>
+        <p>This study is a retrospective study. The clinical data of 4124 patients who were referred by other clinical departments or actively visited the Sleep Medicine Center of the Second Affiliated Hospital of Fujian Medical University (Donghai Branch) or the Sleep Medicine Center of the Second Affiliated Hospital of Fujian Medical University (Licheng Branch) and underwent PSG examination from December 1, 2020 to July 31, 2023 were retrospectively collected.</p>
+        <p>Patients were excluded according to the following criteria: (a) having incomplete clinical data, such as missing BMI and biochemical data, etc.; (b) being aged &lt;18 years or ≥80 years; (c) having complicated with severe underlying diseases (such as acute heart failure, acute cerebral infarction, hypokalemia, respiratory failure, or patients who need oxygen due to other conditions), severe lung diseases, and nasopharyngeal and oral diseases.</p>
+        <p>After exclusion, the relevant clinical data of 892 patients were included, of which 695 patients were from the Donghai Branch, and 197 patients were from the Licheng Branch. The final model of this study selected Donghai Branch patients’ data as the training set and verification set, and Licheng Branch patients’ data as the testing set.</p>
+        <p>The flowchart of this study has been shown in <xref rid="f0001" ref-type="fig">Figure 1</xref>. This study was approved by the Ethics Review Committee of the Second Affiliated Hospital of Fujian Medical University, and this study complies with the Declaration of Helsinki.
+<fig position="float" id="f0001" fig-type="figure"><label>Figure 1</label><caption><p>The flowchart of preprocessing, dataset splitting, model selecting and final model training.</p></caption><graphic xlink:href="NSS-16-413-g0002" content-type="print-only" position="float"/><attrib><bold>Abbreviations</bold>: BMI, body mass index; OSA, obstructive sleep apnea; AHI, apnea-hypopnea index.</attrib></fig></p>
+      </sec>
+      <sec id="s0002-s2002">
+        <title>Data Collection</title>
+        <p>To avoid bias as much as possible, the PSG data and variable data of this study were extracted independently by two dedicated individuals who were unaware of the study background, and the data were analyzed after removing patient privacy information and setting dummy variables.</p>
+        <sec id="s0002-s2002-s3001">
+          <title>Data of PSG</title>
+          <p>According to the specialized medical database system of our sleep medicine center, we queried the patients’ PSG examination reports. Our data sources include two sleep medicine centers located in Donghai Branch and Licheng Branch.</p>
+          <p>The sleep breathing monitoring equipment in Donghai Branch includes the Australian Condi Grael high-definition polysomnography system and the Australian Condi Somte-PSG polysomnography system.</p>
+          <p>The sleep breathing detection equipment in Licheng Branch includes the German Snowman polysomnography monitoring system and Iceland Nox Medical’s NOX T3 sleep recorder.</p>
+          <p>The PSG detection operations in the two branches were performed by their respective nurses and were independent of each other. The interpretation of the PSG report was performed by their respective doctors.</p>
+          <p>The monitoring items included electroencephalogram, mandibular electromyography, electrooculogram, heat-sensitive and pressure-type oronasal airflow, chest and abdominal movement, oxygen saturation (SaO2), electrocardiogram, leg movement, and body position data. All the PSG data were manually evaluated according to the 2007 edition of the American Academy of Sleep Medicine.<xref rid="cit0028" ref-type="bibr">28</xref>,<xref rid="cit0029" ref-type="bibr">29</xref> According to diagnostic standards, AHI serves as the main basis for diagnosing the obstructive sleep apnea. The OSA can be diagnosed if the patient has reported symptoms and has 5 or more obstructive respiratory events (AHI ≥ 5 e / h) during sleep per hour in the PSG record. Patients with an AHI between 5-15 are diagnosed with mild OSA, an AHI between 15 and 30 was defined as moderate OSA, and an AHI between 30 and more indicated severe OSA.<xref rid="cit0030" ref-type="bibr">30</xref></p>
+        </sec>
+        <sec id="s0002-s2002-s3002">
+          <title>Basic Clinical Data</title>
+          <p>The clinical basic data of patients were queried using the electronic medical record system of our hospital. These mainly include gender, age, weight, and height. At the same time, the main clinical diagnosis of each patient was inquired. BMI was defined as kg / m<sup>2</sup>.</p>
+        </sec>
+        <sec id="s0002-s2002-s3003">
+          <title>Biochemical Indicators Data</title>
+          <p>The Donghai Branch used the automatic biochemical analyzer (model: Cobas C702; manufacturer: Germany Roche Diagnostics GmbH) to detect the biochemical indicators of patients during fasting.</p>
+          <p>The Licheng Branch used an automatic biochemical analyzer (model: AU5800; manufacturer: Beckman Coulter, Inc.) from the United States, which also tests the biochemical indicators of the patients during fasting.</p>
+          <p>Through the patient’s medical record number, the corresponding 30 biochemical indicators were queried using our hospital system.</p>
+          <p>The triglyceride-glucose (TyG) index was defined as (triglyceride [mg / dL] × glucose [mg / dL] / 2).<xref rid="cit0031" ref-type="bibr">31</xref> It is considered to be a biomarker of insulin resistance.</p>
+        </sec>
+      </sec>
+      <sec id="s0002-s2003">
+        <title>Statistical Method</title>
+        <p>The standard descriptive statistical method was used to analyze the data. The continuous variables are described as mean and standard deviations (SD), and the categorical variables are described by percentages. The Shapiro-Wilk test was used to determine whether variables conform to normal distribution. The normal distribution values were tested using an independent <italic toggle="yes">t</italic>-test, and the abnormal distribution values were tested using a Mann-Whitney <italic toggle="yes">U</italic>-test. The chi-square test was used to test the difference between the observed data and the expected data. P &lt; 0.05 was considered to be statistically significant. All statistical analyses were performed using R version 3.6.3 and python version 3.7.</p>
+      </sec>
+      <sec id="s0002-s2004">
+        <title>Machine Learning Modeling</title>
+        <sec id="s0002-s2004-s3001">
+          <title>Selection of Predictors</title>
+          <p>Collinearity analysis: Collinearity analysis was performed on factors with statistically significant differences between groups, and factors with variance inflation factor (VIF) &gt; 10 were excluded. Next, the rest of the factors were analyzed.</p>
+          <p>Univariate and multivariate logistic analysis: Univariate analysis and multivariate logistics were used to analyze the included predictors, and a corresponding odd ratio (OR) value forest map was drawn. Only statistically significant predictors were included in the subsequent analysis and considered as important (P &lt; 0.05).</p>
+          <p>Then, the receiver operating characteristic (ROC) curve of each predictor was used to evaluate the ability of each predictor to identify the OSA and non-OSA patients.</p>
+          <p>Impact factor importance analysis: Boruta was used to analyze the importance of the predictors. Boruta is a packaging algorithm that uses random forests to conduct feature selection. The Boruta function evaluates the importance of each variable in a circular manner. For each iteration, the importance of the original variable and the shadow variable is compared.</p>
+        </sec>
+        <sec id="s0002-s2004-s3002">
+          <title>Machine Learning Model Construction and Evaluation</title>
+          <p>The 695 patient data from Donghai Branch were randomly divided into a training cohort and validation cohort at a ratio of 7:3, while the 197 patient data from Licheng Branch were used as the testing cohort. Firstly, based on the data from the Donghai Branch, we tried to classify the OSA and non-OSA patients using four machine learning models: “Gaussian Naive Bayes (GNB)”, “Support Vector Machine (SVM)”, “K Neighbors Classifier (KNN)”, and “Logistic Regression (LR)”. The 10-fold cross-validation was applied to reduce the contingency caused by the single division of the training set and the validation set and improve the generalization ability of the prediction model.</p>
+          <p>Multiple evaluation indicators, including the AUC, sensitivity, specificity, positive predictive value, negative predictive value, and F1 score were used to comprehensively evaluate our machine learning models. Among them, the F1 Score is defined as <inline-formula id="ilm0001"><alternatives><inline-graphic xlink:href="NSS-16-413-e0001.jpg"/><tex-math id="Tex001">\documentclass[12pt]{minimal}
+\usepackage{wasysym}
+\usepackage[substack]{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage[mathscr]{eucal}
+\usepackage{mathrsfs}
+\DeclareFontFamily{T1}{linotext}{}
+\DeclareFontShape{T1}{linotext}{m}{n} {linotext }{}
+\DeclareSymbolFont{linotext}{T1}{linotext}{m}{n}
+\DeclareSymbolFontAlphabet{\mathLINOTEXT}{linotext}
+\begin{document}
+${{2P{\mathrm{recison}}*R{\mathrm{ecall}}} \over {{\mathrm{Precision}} + {\mathrm{Recall}}}}$\end{document}</tex-math></alternatives></inline-formula>, which reconciles the two metrics of precision and recall to provide a more comprehensive model evaluation, especially in a modelling process with imbalanced sample sizes. Its maximum value is 1, while the minimum value is 0. By comprehensively considering these indicators, the optimal one was chosen as the final independent model. The learning curve was plotted to evaluate the relationship between the performance of the predictive model and the size of the training set. The calibration curve was performed to evaluate the predictive accuracy of the classification model, which is the difference between the predicted results of the model and the actual observed results. Decision curve analysis was conducted to calculate the net benefit of the predictive model in a clinical situation.</p>
+          <p>On the basis of selecting the best prediction model, we created an online risk calculator<xref rid="cit0032" ref-type="bibr">32</xref> that can use new input patient data for OSA prediction.</p>
+        </sec>
+      </sec>
+    </sec>
+    <sec id="s0003">
+      <title>Result</title>
+      <sec id="s0003-s2001">
+        <title>Participant Characteristics</title>
+        <p>After screening, 892 eligible patients were included in the study, of which 695 patients’ data from Donghai Branch were used as the training and validation cohorts, and 197 patients’ data from Licheng Branch were used as the testing cohort. The characteristics of the variables of the patients in the two hospital areas are shown in <underline><ext-link xlink:href="https://www.dovepress.com/get_supplementary_file.php?f=453794.docx" ext-link-type="uri">Supplementary Table 1</ext-link></underline>.</p>
+        <p>Among the factors of the training cohort, a total of 18 variables were statistically significant in the difference between the OSA and non-OSA groups. In terms of demographic variables, there were significant differences in gender (P&lt;0.001), BMI (P&lt;0.001), and age (P=0.001) between the two groups. Regarding the biochemical indicators related to liver function injuries, the differences in aspartate aminotransferase (AST) (P=0.033), alanine aminotransferase (ALT) (P=0.005), and gamma-glutamyltransferase (GGT) (P&lt;0.001) between the two groups were statistically significant. Among the biochemical indicators related to lipid metabolism, there were statistically significant differences in triglyceride (TG) (P&lt;0.001), high density lipoprotein cholesterol (HDL-C) (P=0.017), apolipoprotein B (ApoB) (P=0.008), and apolipoprotein B/apolipoprotein A1 (ApoB/ApoA1) (P=0.016) between the two groups. Regarding the biochemical indicators related to renal function injuries, the differences in blood urea nitrogen (BUN) (P=0.024), serum creatinine (SCr) (P=0.021), uric acid (UA) (P=0.007), and anion gap (AG) (P=0.004) between the two groups were statistically significant. Among the biochemical indicators related to glucose metabolism, the difference in glucose (GLU) (P&lt;0.001) values between the two groups was statistically significant. In terms of the biochemical indicators related to myocardial injuries, the difference between lactate dehydrogenase (LDH) (P&lt;0.001) and creatine kinase (CK) (P=0.024) was statistically significant. The difference between the TyG indexes (P&lt;0.001) was also statistically significant. The VIF of 18 variables with differences between the groups was less than 10, and it was considered that these variables did not have serious collinearity problems (Details are seen in <underline><ext-link xlink:href="https://www.dovepress.com/get_supplementary_file.php?f=453794.docx" ext-link-type="uri">Supplementary Table 2</ext-link></underline>).</p>
+      </sec>
+      <sec id="s0003-s2002">
+        <title>Univariate and Multivariate Analysis</title>
+        <p>A binary logistics regression model was constructed for univariate analysis. A relationship between age, BMI, ALT, AST, GGT, TG, HDL-C, ApoB, ApoB/ApoA1, BUN, SCr, UA, GLU, LDH, CK, AG, TyG index, gender, and OSA grade was observed, and multivariate analysis was performed. The covariates of the multivariate model were complications, including cardiovascular, cerebrovascular diseases, and diabetes (Details are shown in <underline><ext-link xlink:href="https://www.dovepress.com/get_supplementary_file.php?f=453794.docx" ext-link-type="uri">Supplementary Table 3</ext-link></underline>; a corresponding OR value forest map is presented in <xref rid="f0002" ref-type="fig">Figure 2</xref>).
+<fig position="float" id="f0002" fig-type="figure"><label>Figure 2</label><caption><p>The OR value forest maps of the univariate and multivariate analysis. (<bold>A</bold>) The forest maps of OR values; (<bold>B</bold>) The forest maps of adjusted OR values.</p></caption><graphic xlink:href="NSS-16-413-g0003" content-type="print-only" position="float"/><attrib><bold>Abbreviations</bold>: OR, odds radio; CI, confidence interval; BMI, body mass index; ALT, alanine aminotransferase; AST, aspartate aminotransferase; GGT, gamma-glutamyltransferase; TG, triglyceride; HDL-C, high density lipoprotein cholesterol; ApoB, apolipoprotein B; ApoB/ApoA1, apolipoprotein B/apolipoprotein A1; BUN, blood urea nitrogen; SCr, serum creatinine; UA, uric acid; GLU, glucose; LDH, lactate dehydrogenase; CK, creatine kinase; AG, anion gap; TyG index, triglyceride-glucose index.</attrib></fig></p>
+        <p>The results showed that BMI, gender, age, GGT, TG, TyG index, LDH, ApoB, ApoB/ApoA1, AG, HDL-C, GLU, and UA were statistically significant in the univariate and multivariate analyses (P &lt; 0.05). Among them, HDL-C is a protective factor for OSA, and being male and other indicators are risk factors for OSA.</p>
+      </sec>
+      <sec id="s0003-s2003">
+        <title>The ROC Curves of Each Variable</title>
+        <p>The predictive factors generated according to the analysis results were used to identify the OSA and non-OSA groups, and a corresponding receiver operating characteristic curve (ROC curve) (<xref rid="f0003" ref-type="fig">Figure 3</xref>) was obtained, and the ROC-related parameters of each variable were calculated (<underline><ext-link xlink:href="https://www.dovepress.com/get_supplementary_file.php?f=453794.docx" ext-link-type="uri">Supplementary Table 4</ext-link></underline>). Among all the predictors, the AUC value of BMI was the highest, reaching 0.699. Among the predictors of biochemical indicators, the AUC value of TyG index was the highest, reaching 0.656.
+<fig position="float" id="f0003" fig-type="figure"><label>Figure 3</label><caption><p>The ROC curves of each variable. (<bold>A</bold>) The ROC curves of demographic variables. (<bold>B</bold>) The ROC curves of biochemical indicators.</p></caption><graphic xlink:href="NSS-16-413-g0004" content-type="print-only" position="float"/><attrib><bold>Abbreviations</bold>: BMI, body mass index; GGT, gamma-glutamyltransferase; TG, triglyceride; TyG index, triglyceride-glucose index; LDH, lactate dehydrogenase; ApoB, apolipoprotein B; ApoB/ApoA1, apolipoprotein B/apolipoprotein A1; AG, anion gap; HDL-C, high density lipoprotein cholesterol; GLU, glucose; UA, uric acid.</attrib></fig></p>
+      </sec>
+      <sec id="s0003-s2004">
+        <title>Feature Screening</title>
+        <p>Boruta was used to analyze the importance of the predictors (<xref rid="f0004" ref-type="fig">Figure 4</xref>). Finally, age, BMI, TyG index, TG, gender, ApoB, GGT, ApoB/ApoA1, LDH, and GLU were included as predictors of modeling.
+<fig position="float" id="f0004" fig-type="figure"><label>Figure 4</label><caption><p>The results of Boruta predictor importance analysis. In the figure, Tentative is yellow, Rejected is red, Accepted is green, and Shadow is blue.</p></caption><graphic xlink:href="NSS-16-413-g0005" content-type="print-only" position="float"/><attrib><bold>Abbreviations</bold>: AG, anion gap; UA, uric acid; HDL-C, high density lipoprotein cholesterol; GLU, glucose; LDH, lactate dehydrogenase; ApoB/ApoA1, apolipoprotein B/apolipoprotein A1; GGT, gamma-glutamyltransferase; ApoB, apolipoprotein B; TG, triglyceride; TyG index, triglyceride-glucose index; BMI, body mass index.</attrib></fig></p>
+      </sec>
+      <sec id="s0003-s2005">
+        <title>Four Machine Learning Models</title>
+        <p>The models were established using the training/verification mechanism of 10-fold cross-validation. The parameters and performance evaluation indexes of the four models are shown in <underline><ext-link xlink:href="https://www.dovepress.com/get_supplementary_file.php?f=453794.docx" ext-link-type="uri">Supplementary Tables 5</ext-link></underline>–<underline><ext-link xlink:href="https://www.dovepress.com/get_supplementary_file.php?f=453794.docx" ext-link-type="uri">7</ext-link></underline>. Ranked according to the AUC, the KNN performed best in the training set, and the LR model performed best in the validation set among all the models (<xref rid="f0005" ref-type="fig">Figure 5</xref>). The inconsistency between the two results may indicate that KNN over-fits, while the LR model may have relatively good stability. With the highest F1 score and the best performance shown in the calibration curve, the LR model was selected as the final model.
+<fig position="float" id="f0005" fig-type="figure"><label>Figure 5</label><caption><p>Results of four prediction models. (<bold>A</bold>) The ROC curves of four prediction models in the training set; (<bold>B</bold>) The ROC curves of four prediction models in the validation set; (<bold>C</bold>) The forest plots of AUCs in each model; (<bold>D</bold>) The calibration curves of four prediction models.</p></caption><graphic xlink:href="NSS-16-413-g0006" content-type="print-only" position="float"/><attrib><bold>Abbreviations</bold>: ROC, receiver operating characteristic; AUC, area under the receiver operating characteristic curve; SD, standard deviations; LR, Logistic Regression; GNB, Gaussian Naive Bayes; SVM, Support Vector Machine; KNN, K Neighbors Classifier.</attrib></fig></p>
+      </sec>
+      <sec id="s0003-s2006">
+        <title>Logistic Regression Prediction Model</title>
+        <p>The LR machine learning method was used to classify the OSA and non-OSA groups. The variables in the model included age, gender, BMI, ApoB/ApoA1, ApoB, LDH, GLU, TG, GGT, and TyG index.</p>
+        <p>The model parameters are: C (regularization factor): 1.0; max_iter (number of iterations): 100; penalty (regularization type): l2; Tol (convergence measure): 0.0001.</p>
+        <p>In this model, the patient data from Licheng were used as the testing cohort, N = 197 cases (22.09%), and the patient data from Donghai were used as the training cohort. Ten-fold cross-validation was performed, and an AUC = 0.777 ± 0.071 was obtained in the validation cohort. The final model had an AUC = 0.732 and accuracy = 0.701 in the testing cohort (<xref rid="t0002" ref-type="table">Table 2</xref>; <xref rid="f0006" ref-type="fig">Figure 6</xref>).<table-wrap position="float" id="t0002"><label>Table 2</label><caption><p>Model Performance and AUC of the LR Model</p></caption><table frame="hsides" rules="groups"><thead><tr><th rowspan="1" colspan="1">Data Summary</th><th rowspan="1" colspan="1">AUC(SD)</th><th rowspan="1" colspan="1">Cutoff(SD)</th><th rowspan="1" colspan="1">Accuracy (SD)</th><th rowspan="1" colspan="1">Sensitivity (SD)</th><th rowspan="1" colspan="1">Specificity (SD)</th><th rowspan="1" colspan="1">Positive Prediction value(SD)</th><th rowspan="1" colspan="1">Negative Prediction value(SD)</th><th rowspan="1" colspan="1">F1 Score(SD)</th></tr></thead><tbody><tr><td rowspan="1" colspan="1">Training cohort</td><td rowspan="1" colspan="1">0.794 (0.007)</td><td rowspan="1" colspan="1">0.822 (0.014)</td><td rowspan="1" colspan="1">0.753 (0.017)</td><td rowspan="1" colspan="1">0.766 (0.027)</td><td rowspan="1" colspan="1">0.693 (0.038)</td><td rowspan="1" colspan="1">0.932 (0.006)</td><td rowspan="1" colspan="1">0.350 (0.015)</td><td rowspan="1" colspan="1">0.841 (0.014)</td></tr><tr><td rowspan="1" colspan="1">Validation cohort</td><td rowspan="1" colspan="1">0.777 (0.070)</td><td rowspan="1" colspan="1">0.822 (0.014)</td><td rowspan="1" colspan="1">0.738 (0.051)</td><td rowspan="1" colspan="1">0.760 (0.137)</td><td rowspan="1" colspan="1">0.749 (0.183)</td><td rowspan="1" colspan="1">0.924 (0.028)</td><td rowspan="1" colspan="1">0.329 (0.050)</td><td rowspan="1" colspan="1">0.827 (0.083)</td></tr><tr><td rowspan="1" colspan="1">Testing cohort</td><td rowspan="1" colspan="1">0.732</td><td rowspan="1" colspan="1">0.85</td><td rowspan="1" colspan="1">0.701</td><td rowspan="1" colspan="1">0.693</td><td rowspan="1" colspan="1">0.706</td><td rowspan="1" colspan="1">0.913</td><td rowspan="1" colspan="1">0.324</td><td rowspan="1" colspan="1">0.788</td></tr></tbody></table><table-wrap-foot><fn id="tfn0002"><p><bold>Abbreviations</bold>: LR, Logistic Regression; AUC, area under the receiver operating characteristic curve; SD, standard deviations.</p></fn></table-wrap-foot></table-wrap>
+<fig position="float" id="f0006" fig-type="figure"><label>Figure 6</label><caption><p>Results of the LR prediction model. (<bold>A</bold>) The ROC curve of the LR model in the training set; (<bold>B</bold>) The ROC curve of the LR model in the validation set; (<bold>C</bold>) The ROC curve of the LR model in the test set; (<bold>D</bold>) The learning curve of the LR model; (<bold>E</bold>) The calibration curve of the LR model; (<bold>F</bold>) The clinical decision curve of the LR model.</p></caption><graphic xlink:href="NSS-16-413-g0007" content-type="print-only" position="float"/><attrib><bold>Abbreviations</bold>: ROC, the receiver operating characteristic; AUC, area under the receiver operating characteristic curve; SD, standard deviations; LR, Logistic Regression.</attrib></fig></p>
+        <p>The AUC difference between the validation and testing cohorts was less than 10%, which reflected successful fitting. The learning curve of the model (<xref rid="f0006" ref-type="fig">Figure 6</xref>) showed that the performance of the LR model in the training cohort and the validation cohort tended to be stable after 500 samples were acquired. Considering the sample imbalance in the data, the F1 score was a more reasonable model evaluation index than the accuracy rate. In the test set, the F1 score of the model reached 0.788, indicating that this model had a higher quality. In addition to the above indicators, the calibration and clinical decision curves of this LR model performed well (<xref rid="f0006" ref-type="fig">Figure 6</xref>) and had a practical clinical application value. Based on this model, an online risk calculator tool was built at <underline><ext-link xlink:href="http://psg.angelong.cn/" ext-link-type="uri">http://psg.angelong.cn/</ext-link></underline>.</p>
+      </sec>
+    </sec>
+    <sec id="s0004">
+      <title>Discussion</title>
+      <sec id="s0004-s2001">
+        <title>Principal Findings</title>
+        <p>OSA patients may have complications such as hypertension, coronary heart disease, stroke, and other serious consequences such as sudden death at night. Therefore, early screening and diagnosis of OSA are very important for the timely detection and treatment of related complications and the improvement of patients’ quality of life.</p>
+        <p>To our knowledge, this study was the first one to systematically evaluate the relationship between the common clinical biochemical indicators and OSA. Among the included demographic indicators and 30 biochemical indicators, 10 predictors were ultimately selected to discriminate OSA patients from non-OSA groups. The applied predictors included age, gender, BMI, ApoB/ApoA1, ApoB, LDH, GLU, TG, GGT, and TyG index.</p>
+        <p>Among the biochemical indicators, the TyG index achieved a highest AUC for differentiating the OSA and non-OSA groups, indicating that it may be a reliable predictor. This is consistent with the results of previous studies. It has been shown that OSA is independently associated with a higher TyG index, and the TyG index is associated with disease severity in non-obese and non-diabetic subjects.<xref rid="cit0031" ref-type="bibr">31</xref>,<xref rid="cit0033" ref-type="bibr">33</xref> The predictive ability of the TyG index may be related to insulin resistance (IR), which is caused by changes in lipid metabolism, glucose treatment, the gastrointestinal microbiota, and inflammation.<xref rid="cit0034" ref-type="bibr">34</xref> Due to the down-regulation of the insulin receptor in adipocytes and skeletal muscle,<xref rid="cit0035" ref-type="bibr">35</xref> β cell dysfunction, sympathetic nerve bursts,<xref rid="cit0036" ref-type="bibr">36</xref> and hormone changes, chronic intermittent hypoxia may lead to OSA-related IR,<xref rid="cit0037" ref-type="bibr">37–40</xref> while the TyG index is a marker of IR.<xref rid="cit0041" ref-type="bibr">41</xref></p>
+        <p>Elevated TG levels were found to increase the OSA risk, while there was a negative correlation between HDL-C and the risk of OSA, which was consistent with the results of Zheng et al’s study.<xref rid="cit0042" ref-type="bibr">42</xref> OSA is closely related to the lipoprotein and lipid metabolisms. Among them, triglyceride/HDL-C, total cholesterol (TC)/HDL-C, and the atherogenic index are more predictive of severe OSA than the other non-traditional lipid indicators.<xref rid="cit0043" ref-type="bibr">43</xref> For example, HDL-C can inhibit cytokine expression and has anti-inflammatory and anti-oxidative effects, while OSA patients have elevated levels of oxidative stress and systemic inflammatory response, which can lead to decreased HDL-C levels.<xref rid="cit0044" ref-type="bibr">44</xref>,<xref rid="cit0045" ref-type="bibr">45</xref> The AHI of non-rapid eye movement sleep (NREM) was independently associated with the maximum number of changes in the blood lipid profile, including TC, low density lipoprotein cholesterol (LDL-C), and ApoB.<xref rid="cit0046" ref-type="bibr">46</xref> This provides a new idea for the inclusion of predictors in subsequent research.</p>
+        <p>In addition, OSA is closely related to systemic damage, and our study also shows that OSA patients can have a number of abnormal blood biochemical indicators related to organ dysfunction.</p>
+        <p>OSA induces systemic inflammatory response and oxidative stress. Oxidative stress further activates the inflammatory pathway, leading to hepatocyte inflammation and various liver diseases of nonalcoholic steatohepatitis (NASH).<xref rid="cit0047" ref-type="bibr">47</xref> The risk of liver disease in OSA patients doubled, and there was a relationship between OSA and steatosis progression to steatohepatitis.<xref rid="cit0048" ref-type="bibr">48</xref>,<xref rid="cit0049" ref-type="bibr">49</xref> The OSA-related liver function damage is further reflected in abnormal blood biochemical indicators, such as GGT.</p>
+        <p>Abnormal indicators such as UA and AG suggests that OSA may be associated with renal function damage. It was reported that there may be a two-way relationship between OSA and chronic kidney disease (CKD), and the prevalence of CKD increases with the number of metabolic disease comorbidities.<xref rid="cit0050" ref-type="bibr">50</xref>,<xref rid="cit0051" ref-type="bibr">51</xref></p>
+        <p>We found that the ApoB/ApoA1 ratio increased with the severity of OSA, which is consistent with other studies.<xref rid="cit0052" ref-type="bibr">52</xref> OSA is considered to be a cardiovascular risk factor.<xref rid="cit0053" ref-type="bibr">53</xref> Intermittent hypoxia (IH), one of the characteristics of OSA, can directly or indirectly lead to myocardial cell death and myocardial injury by regulating a variety of biological processes.<xref rid="cit0054" ref-type="bibr">54</xref> This suggests that OSA may be associated with cardiovascular function damage, which is further reflected in abnormal blood biochemical indicators such as CK and LDH.</p>
+        <p>Considering the huge burden caused by the disease progress, OSA is still underdiagnosed in clinical settings. The developed questionnaire-based OSA prediction tools mostly face challenges such as strong subjectivity, a recall bias, the difficulty of observation, a large number of readings, and low-level accuracy.<xref rid="cit0012" ref-type="bibr">12</xref>,<xref rid="cit0055" ref-type="bibr">55</xref>,<xref rid="cit0056" ref-type="bibr">56</xref> With the increasing application of machine learning in the medical field, there have been studies on the construction of disease prediction models based on clinical biochemical indicators.<xref rid="cit0057" ref-type="bibr">57–59</xref> It is of great significance to construct an objective biochemical-indicator-based model combining common demographic and anthropometric indexes for distinguishing OSA patients, which has potential benefits in improving the diagnostic accuracy, avoiding a subjective bias, and reducing the observation difficulty.</p>
+        <p>The AUC of the model developed in this study reached 0.732 in the test set, which was similar to those of other studies. An OSA prediction model based on the BMI, gender, blood glucose, and age of obese patients achieved a predictive efficiency of 83%,<xref rid="cit0060" ref-type="bibr">60</xref> while another OSA prediction model based on general demographic characteristics, blood gas analysis data, and the TyG index reached an AUC of 0.688.<xref rid="cit0061" ref-type="bibr">61</xref> These studies indicate that the application of machine learning algorithms can improve the diagnostic value of biochemical metrics for OSA.</p>
+        <p>Considering that the clinical biochemical indicators applied in the model are all common and easy to obtain, with no additional cost and high equipment requirements, this model can be used to screen OSA in tertiary, secondary, and primary hospitals. All of these increase the generalization of the model.</p>
+        <p>When individuals at high risk of OSA undergo a physical examination or seek medical attention in other departments for complications, blood biochemical results can be utilized to generate predictive outcomes in the model. The online risk calculator tool can provide a numerical value of the probability of disease occurrence, when patients and doctors enter values for 10 predictors remotely on the website. For suspected OSA patients identified through the model, healthcare professionals can recommend a referral to a professional sleep medicine center for corresponding help, so as to enhance public awareness of OSA and improve the diagnosis and treatment rate of OSA. For patients with suspected OSA who have visited sleep medicine specialists, the model can assist doctors in making an early diagnosis and determining the necessity of polysomnography, considering its complexity and cost. In addition, the dynamic changes in blood biochemical indicators make this model a promising tool for continuous evaluation of the efficacy of OSA patients.</p>
+      </sec>
+      <sec id="s0004-s2002">
+        <title>Strengths and Limitations</title>
+        <p>Compared with previous studies, we employed commonly used clinical biochemical indicators to predict OSA for the first time and incorporated additional objective indicators such as demographic data as predictors. This may mitigate subjective and recall biases, thereby enhancing the accuracy of OSA diagnosis. What’s more, the sample size calculations were performed using an online interactive tool.<xref rid="cit0062" ref-type="bibr">62</xref> The findings indicated that a minimum sample size of 680 was required, in addition to the implementation of 10-fold cross validation, thereby demonstrating the adequacy of our sample size in ensuring the requisite statistical power for robust outcomes.</p>
+        <p>Despite the aforementioned advantages, our research still possesses certain limitations. Firstly, we only used age, BMI, gender, and common clinical biochemical indicators to establish the prediction models. However, it is important to acknowledge that OSA is also influenced by genetic factors, which we did not consider in this study. Secondly, both our internal and external validation were geographically limited and lacked validation across diverse ethnic groups and populations. Therefore, we intend to conduct external validation in other institutions to verify our prediction model. Thirdly, socio-economic factors are conducive to a more comprehensive understanding of OSA and its correlation. However, we were unable to collect socio-economic information due to the retrospective nature of our study. Lastly, the prevalence of OSA in our sleep center is higher than that in the general population, and our prediction model may be more suitable for guiding the referral of patients with suspected OSA.</p>
+      </sec>
+    </sec>
+    <sec id="s0005">
+      <title>Conclusions</title>
+      <p>Machine learning models have the potential to enhance the diagnostic value of biochemical metrics for obstructive sleep apnea. We have developed an efficient OSA screening tool, and incorporating biochemical indicators into machine learning-based prediction models holds promise in assisting clinicians to determine whether patients with suspected OSA require further diagnosis and treatment.</p>
+    </sec>
+  </body>
+  <back>
+    <sec id="s0006">
+      <title>Abbreviations</title>
+      <p>OSA, obstructive sleep apnea; PSG, polysomnography; GNB, gaussian naive bayes; SVM, support vector machine; KNN, K Neighbors Classifier; LR, Logistic Regression; BMI, body mass index; AUC, area under the receiver operating characteristic curve; TyG index, triglyceride-glucose index; ML, machine learning; ESS, Epworth Sleepiness Scale; PSQI, Pittsburgh Sleep Quality Questionnaire; FOSQ, Function Outcomes of Sleep Questionnaire; CT, computed tomography; MRI, magnetic resonance imaging; SAT, subcutaneous adipose tissue; AHI, apnea-hypopnea index; IL-6, interleukin-6; NO, nitric oxide; COMT, catechol-O-methyltransferase; SaO2, oxygen saturation; SD, standard deviations; VIF, variance inflation factor; OR, odd ratio; ROC, receiver operating characteristic; AST, aspartate aminotransferase; ALT, alanine aminotransferase; GGT, gamma-glutamyltransferase; TG, triglyceride; HDL-C, high density lipoprotein cholesterol; ApoB, apolipoprotein B; ApoB/ApoA1, apolipoprotein B/apolipoprotein A1; BUN, blood urea nitrogen; SCr, serum creatinine; UA, uric acid; AG, anion gap; GLU, glucose; LDH, lactate dehydrogenase; CK, creatine kinase; IR, insulin resistance; TC, total cholesterol; NREM, non-rapid eye movement sleep; LDL-C, low density lipoprotein cholesterol; NASH, nonalcoholic steatohepatitis; CKD, chronic kidney disease; IH, intermittent hypoxia.</p>
+    </sec>
+    <sec id="s0007">
+      <title>Institutional Review Board Statement</title>
+      <p>The ethical review number is [2023] The Second Affiliated Hospital of Fujian Medical University Ethical Review No. (324).</p>
+    </sec>
+    <sec id="s0008">
+      <title>Data Sharing Statement</title>
+      <p>The datasets used and/or analyzed during the current study are available from the corresponding author on reasonable request.</p>
+    </sec>
+    <sec id="s0009">
+      <title>Informed Consent Statement</title>
+      <p>Informed consent was obtained from all subjects involved in the study.</p>
+    </sec>
+    <sec id="s0010">
+      <title>Author Contributions</title>
+      <p>All authors made a significant contribution to the work reported, whether that is in the conception, study design, execution, acquisition of data, analysis and interpretation, or in all these areas; took part in drafting, revising or critically reviewing the article; gave final approval of the version to be published; have agreed on the journal to which the article has been submitted; and agree to be accountable for all aspects of the work.</p>
+    </sec>
+    <sec sec-type="COI-statement" id="s0011">
+      <title>Disclosure</title>
+      <p>The authors declare no conflicts of interest in this work.</p>
+    </sec>
+    <ref-list>
+      <title>References</title>
+      <ref id="cit0001">
+        <label>1.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Jordan</surname>
+<given-names>AS</given-names></string-name>, <string-name><surname>McSharry</surname>
+<given-names>DG</given-names></string-name>, <string-name><surname>Malhotra</surname>
+<given-names>A</given-names></string-name>. <article-title>Adult obstructive sleep apnoea</article-title>. <source><italic toggle="yes">Lancet</italic></source>. <year>2014</year>;<volume>383</volume>(<issue>9918</issue>):<fpage>736</fpage>–<lpage>747</lpage>. doi:<pub-id pub-id-type="doi">10.1016/S0140-6736(13)60734-5</pub-id><pub-id pub-id-type="pmid">23910433</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0002">
+        <label>2.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Yaggi</surname>
+<given-names>HK</given-names></string-name>, <string-name><surname>Strohl</surname>
+<given-names>KP</given-names></string-name>. <article-title>Adult obstructive sleep apnea/hypopnea syndrome: definitions, risk factors, and pathogenesis</article-title>. <source><italic toggle="yes">Clinics Chest Med</italic></source>. <year>2010</year>;<volume>31</volume>(<issue>2</issue>):<fpage>179</fpage>–<lpage>186</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.ccm.2010.02.011</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0003">
+        <label>3.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Chang</surname>
+<given-names>JL</given-names></string-name>, <string-name><surname>Goldberg</surname>
+<given-names>AN</given-names></string-name>, <string-name><surname>Alt</surname>
+<given-names>JA</given-names></string-name>, et al. <article-title>International consensus statement on obstructive sleep apnea</article-title>. <source><italic toggle="yes">Int Forum Allergy Rhinol</italic></source>. <year>2023</year>;<volume>13</volume>:<fpage>1061</fpage>–<lpage>1482</lpage>. doi:<pub-id pub-id-type="doi">10.1002/alr.23079</pub-id><pub-id pub-id-type="pmid">36068685</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0004">
+        <label>4.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Malec</surname>
+<given-names>SA</given-names></string-name>, <string-name><surname>Taneja</surname>
+<given-names>SB</given-names></string-name>, <string-name><surname>Albert</surname>
+<given-names>SM</given-names></string-name>, et al. <article-title>Causal feature selection using a knowledge graph combining structured knowledge from the biomedical literature and ontologies: a use case studying depression as a risk factor for Alzheimer’s disease</article-title>. <source><italic toggle="yes">J Biomed Informat</italic></source>. <year>2023</year>;<volume>142</volume>:<fpage>104368</fpage>. doi:<pub-id pub-id-type="doi">10.1016/j.jbi.2023.104368</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0005">
+        <label>5.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Senaratna</surname>
+<given-names>CV</given-names></string-name>, <string-name><surname>Perret</surname>
+<given-names>JL</given-names></string-name>, <string-name><surname>Lodge</surname>
+<given-names>CJ</given-names></string-name>, et al. <article-title>Prevalence of obstructive sleep apnea in the general population: a systematic review</article-title>. <source><italic toggle="yes">Sleep Med Rev</italic></source>. <year>2017</year>;<volume>34</volume>:<fpage>70</fpage>–<lpage>81</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.smrv.2016.07.002</pub-id><pub-id pub-id-type="pmid">27568340</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0006">
+        <label>6.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Léger</surname>
+<given-names>D</given-names></string-name>, <string-name><surname>Stepnowsky</surname>
+<given-names>C</given-names></string-name>. <article-title>The economic and societal burden of excessive daytime sleepiness in patients with obstructive sleep apnea</article-title>. <source><italic toggle="yes">Sleep Med Rev</italic></source>. <year>2020</year>;<volume>51</volume>:<fpage>101275</fpage>. doi:<pub-id pub-id-type="doi">10.1016/j.smrv.2020.101275</pub-id><pub-id pub-id-type="pmid">32169792</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0007">
+        <label>7.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Watson</surname>
+<given-names>NF</given-names></string-name>; <collab>Watson NF</collab>. <article-title>Health care savings: the economic value of diagnostic and therapeutic care for obstructive sleep apnea</article-title>. <source><italic toggle="yes">J Clin Sleep Med</italic></source>. <year>2016</year>;<volume>12</volume>(<issue>08</issue>):<fpage>1075</fpage>–<lpage>1077</lpage>. doi:<pub-id pub-id-type="doi">10.5664/jcsm.6034</pub-id><pub-id pub-id-type="pmid">27448424</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0008">
+        <label>8.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Ward</surname>
+<given-names>FW</given-names></string-name>. <article-title>Obstructive sleep apnea</article-title>. <source><italic toggle="yes">New Engl J Med</italic></source>. <year>2002</year>. doi:<pub-id pub-id-type="doi">10.1056/NEJMcp012849</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0009">
+        <label>9.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Benjafield</surname>
+<given-names>AV</given-names></string-name>, <string-name><surname>Ayas</surname>
+<given-names>NT</given-names></string-name>, <string-name><surname>Eastwood</surname>
+<given-names>PR</given-names></string-name>, et al. <article-title>Estimation of the global prevalence and burden of obstructive sleep apnoea: a literature-based analysis</article-title>. <source><italic toggle="yes">Lancet Respir Med</italic></source>. <year>2019</year>;<volume>7</volume>(<issue>8</issue>):<fpage>687</fpage>–<lpage>698</lpage>. doi:<pub-id pub-id-type="doi">10.1016/S2213-2600(19)30198-5</pub-id><pub-id pub-id-type="pmid">31300334</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0010">
+        <label>10.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Kushida</surname>
+<given-names>CA</given-names></string-name>, <string-name><surname>Littner</surname>
+<given-names>MR</given-names></string-name>, <string-name><surname>Morgenthaler</surname>
+<given-names>T</given-names></string-name>, et al. <article-title>Practice parameters for the indications for polysomnography and related procedures: an update for 2005</article-title>. <source><italic toggle="yes">Sleep</italic></source>. <year>2005</year>;<volume>28</volume>(<issue>4</issue>):<fpage>499</fpage>–<lpage>523</lpage>. doi:<pub-id pub-id-type="doi">10.1093/sleep/28.4.499</pub-id><pub-id pub-id-type="pmid">16171294</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0011">
+        <label>11.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Kapoor</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Greenough</surname>
+<given-names>G</given-names></string-name>. <article-title>Home sleep tests for Obstructive Sleep Apnea (OSA)</article-title>. <source><italic toggle="yes">J Am Board Family Med</italic></source>. <year>2015</year>;<volume>28</volume>(<issue>4</issue>):<fpage>504</fpage>–<lpage>509</lpage>. doi:<pub-id pub-id-type="doi">10.3122/jabfm.2015.04.140266</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0012">
+        <label>12.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Gamaldo</surname>
+<given-names>C</given-names></string-name>, <string-name><surname>Buenaver</surname>
+<given-names>L</given-names></string-name>, <string-name><surname>Chernyshev</surname>
+<given-names>O</given-names></string-name>, et al. <article-title>Evaluation of clinical tools to screen and assess for obstructive sleep apnea</article-title>. <source><italic toggle="yes">J Clin Sleep Med</italic></source>. <year>2018</year>;<volume>14</volume>(<issue>07</issue>):<fpage>1239</fpage>–<lpage>1244</lpage>. doi:<pub-id pub-id-type="doi">10.5664/jcsm.7232</pub-id><pub-id pub-id-type="pmid">29991434</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0013">
+        <label>13.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Yue</surname>
+<given-names>H</given-names></string-name>, <string-name><surname>Lin</surname>
+<given-names>Y</given-names></string-name>, <string-name><surname>Wu</surname>
+<given-names>Y</given-names></string-name>, et al. <article-title>Deep learning for diagnosis and classification of obstructive sleep apnea: a nasal airflow-based multi-resolution residual network</article-title>. <source><italic toggle="yes">Nat Sci Sleep</italic></source>. <year>2021</year>;<volume>13</volume>:<fpage>361</fpage>–<lpage>373</lpage>. doi:<pub-id pub-id-type="doi">10.2147/NSS.S297856</pub-id><pub-id pub-id-type="pmid">33737850</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0014">
+        <label>14.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Hu</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Duan</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Huang</surname>
+<given-names>Z</given-names></string-name>, et al. <article-title>Development and validation of a nomogram for predicting obstructive sleep apnea in patients with pulmonary arterial hypertension</article-title>. <source><italic toggle="yes">Nat Sci Sleep</italic></source>. <year>2022</year>;<volume>14</volume>:<fpage>1375</fpage>–<lpage>1386</lpage>. doi:<pub-id pub-id-type="doi">10.2147/NSS.S372447</pub-id><pub-id pub-id-type="pmid">35971464</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0015">
+        <label>15.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Benedetti</surname>
+<given-names>D</given-names></string-name>, <string-name><surname>Olcese</surname>
+<given-names>U</given-names></string-name>, <string-name><surname>Bruno</surname>
+<given-names>S</given-names></string-name>, et al. <article-title>Obstructive sleep apnoea syndrome screening through wrist-worn smartbands: a machine-learning approach</article-title>. <source><italic toggle="yes">NSS</italic></source>. <year>2022</year>;<volume>14</volume>:<fpage>941</fpage>–<lpage>956</lpage>. doi:<pub-id pub-id-type="doi">10.2147/NSS.S352335</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0016">
+        <label>16.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Ferreira-Santos</surname>
+<given-names>D</given-names></string-name>, <string-name><surname>Rodrigues</surname>
+<given-names>PP</given-names></string-name>. <article-title>Enhancing obstructive sleep apnea diagnosis with screening through disease phenotypes: algorithm development and validation</article-title>. <source><italic toggle="yes">JMIR Med Inform</italic></source>. <year>2021</year>;<volume>9</volume>(<issue>6</issue>):<fpage>e25124</fpage>. doi:<pub-id pub-id-type="doi">10.2196/25124</pub-id><pub-id pub-id-type="pmid">34156340</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0017">
+        <label>17.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Molnár</surname>
+<given-names>V</given-names></string-name>, <string-name><surname>Kunos</surname>
+<given-names>L</given-names></string-name>, <string-name><surname>Tamás</surname>
+<given-names>L</given-names></string-name>, <string-name><surname>Lakner</surname>
+<given-names>Z</given-names></string-name>. <article-title>Evaluation of the applicability of artificial intelligence for the prediction of obstructive sleep apnoea</article-title>. <source><italic toggle="yes">Appl Sci</italic></source>. <year>2023</year>;<volume>13</volume>(<issue>7</issue>):<fpage>4231</fpage>. doi:<pub-id pub-id-type="doi">10.3390/app13074231</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0018">
+        <label>18.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Yan</surname>
+<given-names>X</given-names></string-name>, <string-name><surname>Wang</surname>
+<given-names>L</given-names></string-name>, <string-name><surname>Liang</surname>
+<given-names>C</given-names></string-name>, et al. <article-title>Development and assessment of a risk prediction model for moderate-to-severe obstructive sleep apnea</article-title>. <source><italic toggle="yes">Front Neurosci</italic></source>. <year>2022</year>;<volume>16</volume>:<fpage>936946</fpage>. doi:<pub-id pub-id-type="doi">10.3389/fnins.2022.936946</pub-id><pub-id pub-id-type="pmid">35992917</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0019">
+        <label>19.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Molnár</surname>
+<given-names>V</given-names></string-name>, <string-name><surname>Lakner</surname>
+<given-names>Z</given-names></string-name>, <string-name><surname>Molnár</surname>
+<given-names>A</given-names></string-name>, et al. <article-title>The predictive role of subcutaneous adipose tissue in the pathogenesis of obstructive sleep apnoea</article-title>. <source><italic toggle="yes">Life</italic></source>. <year>2022</year>;<volume>12</volume>(<issue>10</issue>):<fpage>1504</fpage>. doi:<pub-id pub-id-type="doi">10.3390/life12101504</pub-id><pub-id pub-id-type="pmid">36294937</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0020">
+        <label>20.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Liu</surname>
+<given-names>SYC</given-names></string-name>, <string-name><surname>Bosschieter</surname>
+<given-names>PFN</given-names></string-name>, <string-name><surname>Abdelwahab</surname>
+<given-names>M</given-names></string-name>, et al. <article-title>Association of backscattered ultrasonographic imaging of the tongue with severity of obstructive sleep apnea in adults</article-title>. <source><italic toggle="yes">JAMA Otolaryngol Head Neck Surg</italic></source>. <year>2023</year>;<volume>149</volume>(<issue>7</issue>):<fpage>580</fpage>–<lpage>586</lpage>. doi:<pub-id pub-id-type="doi">10.1001/jamaoto.2023.0589</pub-id><pub-id pub-id-type="pmid">37166815</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0021">
+        <label>21.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Molnár</surname>
+<given-names>V</given-names></string-name>, <string-name><surname>Lakner</surname>
+<given-names>Z</given-names></string-name>, <string-name><surname>Molnár</surname>
+<given-names>A</given-names></string-name>, et al. <article-title>The predictive role of the upper-airway adipose tissue in the pathogenesis of obstructive sleep apnoea</article-title>. <source><italic toggle="yes">Life</italic></source>. <year>2022</year>;<volume>12</volume>(<issue>10</issue>):<fpage>1543</fpage>. doi:<pub-id pub-id-type="doi">10.3390/life12101543</pub-id><pub-id pub-id-type="pmid">36294978</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0022">
+        <label>22.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Eastwood</surname>
+<given-names>P</given-names></string-name>, <string-name><surname>Gilani</surname>
+<given-names>SZ</given-names></string-name>, <string-name><surname>McArdle</surname>
+<given-names>N</given-names></string-name>, et al. <article-title>Predicting sleep apnea from three-dimensional face photography</article-title>. <source><italic toggle="yes">J Clin Sleep Med</italic></source>. <year>2020</year>;<volume>16</volume>(<issue>4</issue>):<fpage>493</fpage>–<lpage>502</lpage>. doi:<pub-id pub-id-type="doi">10.5664/jcsm.8246</pub-id><pub-id pub-id-type="pmid">32003736</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0023">
+        <label>23.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Ramasamy</surname>
+<given-names>I</given-names></string-name>. <article-title>Recent advances in physiological lipoprotein metabolism</article-title>. <source><italic toggle="yes">Clin Chem Lab Med</italic></source>. <year>2014</year>;<volume>52</volume>(<issue>12</issue>):<fpage>1695</fpage>–<lpage>1727</lpage>. doi:<pub-id pub-id-type="doi">10.1515/cclm-2013-0358</pub-id><pub-id pub-id-type="pmid">23940067</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0024">
+        <label>24.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Bisogni</surname>
+<given-names>V</given-names></string-name>, <string-name><surname>Maiolino</surname>
+<given-names>G</given-names></string-name>, <string-name><surname>Ceolotto</surname>
+<given-names>G</given-names></string-name>, et al. <article-title>Design of a study to investigate the mechanisms of obstructive sleep apnoea by means of drug-induced sleep endoscopy</article-title>. <source><italic toggle="yes">Clin Chem Lab Med</italic></source>. <year>2019</year>;<volume>57</volume>(<issue>9</issue>):<fpage>1406</fpage>–<lpage>1413</lpage>. doi:<pub-id pub-id-type="doi">10.1515/cclm-2019-0113</pub-id><pub-id pub-id-type="pmid">31112503</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0025">
+        <label>25.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Aurora</surname>
+<given-names>RN</given-names></string-name>, <string-name><surname>Gaynanova</surname>
+<given-names>I</given-names></string-name>, <string-name><surname>Patel</surname>
+<given-names>P</given-names></string-name>, <string-name><surname>Punjabi</surname>
+<given-names>NM</given-names></string-name>. <article-title>Glucose profiles in obstructive sleep apnea and type 2 diabetes mellitus</article-title>. <source><italic toggle="yes">Sleep Med</italic></source>. <year>2022</year>;<volume>95</volume>:<fpage>105</fpage>–<lpage>111</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.sleep.2022.04.007</pub-id><pub-id pub-id-type="pmid">35569327</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0026">
+        <label>26.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Gündüz</surname>
+<given-names>C</given-names></string-name>, <string-name><surname>Basoglu</surname>
+<given-names>OK</given-names></string-name>, <string-name><surname>Hedner</surname>
+<given-names>J</given-names></string-name>, et al. <article-title>Obstructive sleep apnoea independently predicts lipid levels: data from the European Sleep Apnea Database</article-title>. <source><italic toggle="yes">Respirology</italic></source>. <year>2018</year>;<volume>23</volume>(<issue>12</issue>):<fpage>1180</fpage>–<lpage>1189</lpage>. doi:<pub-id pub-id-type="doi">10.1111/resp.13372</pub-id><pub-id pub-id-type="pmid">30133061</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0027">
+        <label>27.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Hauquiert</surname>
+<given-names>B</given-names></string-name>, <string-name><surname>Drion</surname>
+<given-names>E</given-names></string-name>, <string-name><surname>Deflandre</surname>
+<given-names>E</given-names></string-name>. <article-title>Place des biomarqueurs dans le dépistage du SAHOS. Une revue narrative de la littérature</article-title>. <source><italic toggle="yes">Revue des Maladies Respiratoires</italic></source>. <year>2021</year>;<volume>38</volume>(<issue>5</issue>):<fpage>455</fpage>–<lpage>465</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.rmr.2021.04.005</pub-id><pub-id pub-id-type="pmid">33958251</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0028">
+        <label>28.</label>
+        <mixed-citation publication-type="book"><string-name><surname>Iber</surname>
+<given-names>C</given-names></string-name>, <string-name><surname>Ancoli-Israel</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Chesson</surname>
+<given-names>AL</given-names></string-name>, <string-name><surname>Quan</surname>
+<given-names>S</given-names></string-name>. <source><italic toggle="yes">The AASM Manual for the Scoring of Sleep and Associated Events: Rules, Terminology and Technical Specifications</italic></source>. <publisher-loc>Westchester, IL</publisher-loc>: <publisher-name>American Academy of Sleep Medicine</publisher-name>; <year>2007</year>.</mixed-citation>
+      </ref>
+      <ref id="cit0029">
+        <label>29.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Berry</surname>
+<given-names>RB</given-names></string-name>, <string-name><surname>Budhiraja</surname>
+<given-names>R</given-names></string-name>, <string-name><surname>Gottlieb</surname>
+<given-names>DJ</given-names></string-name>, et al. <article-title>Rules for scoring respiratory events in sleep: update of the 2007 AASM Manual for the scoring of sleep and associated events: deliberations of the sleep apnea definitions task force of the American academy of sleep medicine</article-title>. <source><italic toggle="yes">J Clin Sleep Med</italic></source>. <year>2012</year>;<volume>08</volume>(<issue>05</issue>):<fpage>597</fpage>–<lpage>619</lpage>. doi:<pub-id pub-id-type="doi">10.5664/jcsm.2172</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0030">
+        <label>30.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Mendonca</surname>
+<given-names>F</given-names></string-name>, <string-name><surname>Mostafa</surname>
+<given-names>SS</given-names></string-name>, <string-name><surname>Ravelo-Garcia</surname>
+<given-names>AG</given-names></string-name>, et al. <article-title>A review of obstructive sleep apnea detection approaches</article-title>. <source><italic toggle="yes">IEEE J Biomed Health Inform</italic></source>. <year>2019</year>;<volume>23</volume>(<issue>2</issue>):<fpage>825</fpage>–<lpage>837</lpage>. doi:<pub-id pub-id-type="doi">10.1109/JBHI.2018.2823265</pub-id><pub-id pub-id-type="pmid">29993672</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0031">
+        <label>31.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Bikov</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Frent</surname>
+<given-names>SM</given-names></string-name>, <string-name><surname>Meszaros</surname>
+<given-names>M</given-names></string-name>, et al. <article-title>Triglyceride-Glucose Index in non-diabetic, non-obese patients with obstructive sleep apnoea</article-title>. <source><italic toggle="yes">JCM</italic></source>. <year>2021</year>;<volume>10</volume>(<issue>9</issue>):<fpage>1932</fpage>. doi:<pub-id pub-id-type="doi">10.3390/jcm10091932</pub-id><pub-id pub-id-type="pmid">33947164</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0032">
+        <label>32.</label>
+        <mixed-citation publication-type="webpage"><article-title>The logistic prediction model of adult obstructive sleep apnea based on common clinical biochemical indicators</article-title>. <comment>Available from</comment>: <ext-link xlink:href="http://psg.angelong.cn/" ext-link-type="uri">http://psg.angelong.cn/</ext-link>. <date-in-citation>Accessed <month>November</month>
+<day>11</day>, 2023</date-in-citation>.</mixed-citation>
+      </ref>
+      <ref id="cit0033">
+        <label>33.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Zou</surname>
+<given-names>J</given-names></string-name>, <string-name><surname>Wang</surname>
+<given-names>Y</given-names></string-name>, <string-name><surname>Xu</surname>
+<given-names>H</given-names></string-name>, et al. <article-title>The use of visceral adiposity variables in the prediction of obstructive sleep apnea: evidence from a large cross-sectional study</article-title>. <source><italic toggle="yes">Sleep Breath</italic></source>. <year>2020</year>;<volume>24</volume>(<issue>4</issue>):<fpage>1373</fpage>–<lpage>1382</lpage>. doi:<pub-id pub-id-type="doi">10.1007/s11325-019-01980-7</pub-id><pub-id pub-id-type="pmid">31832983</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0034">
+        <label>34.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Gasmi</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Noor</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Menzel</surname>
+<given-names>A</given-names></string-name>, et al. <article-title>Obesity and insulin resistance: associations with chronic inflammation, genetic and epigenetic factors</article-title>. <source><italic toggle="yes">CMC</italic></source>. <year>2021</year>;<volume>28</volume>(<issue>4</issue>):<fpage>800</fpage>–<lpage>826</lpage>. doi:<pub-id pub-id-type="doi">10.2174/0929867327666200824112056</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0035">
+        <label>35.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Sacramento</surname>
+<given-names>JF</given-names></string-name>, <string-name><surname>Ribeiro</surname>
+<given-names>MJ</given-names></string-name>, <string-name><surname>Rodrigues</surname>
+<given-names>T</given-names></string-name>, et al. <article-title>Insulin resistance is associated with tissue-specific regulation of HIF-1α and HIF-2α during mild chronic intermittent hypoxia</article-title>. <source><italic toggle="yes">Respir Physiol Neurobiol</italic></source>. <year>2016</year>;<volume>228</volume>:<fpage>30</fpage>–<lpage>38</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.resp.2016.03.007</pub-id><pub-id pub-id-type="pmid">26993367</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0036">
+        <label>36.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Song</surname>
+<given-names>SO</given-names></string-name>, <string-name><surname>He</surname>
+<given-names>K</given-names></string-name>, <string-name><surname>Narla</surname>
+<given-names>RR</given-names></string-name>, et al. <article-title>Metabolic consequences of obstructive sleep apnea especially pertaining to diabetes mellitus and insulin sensitivity</article-title>. <source><italic toggle="yes">Diabetes Metab J</italic></source>. <year>2019</year>;<volume>43</volume>(<issue>2</issue>):<fpage>144</fpage>. doi:<pub-id pub-id-type="doi">10.4093/dmj.2018.0256</pub-id><pub-id pub-id-type="pmid">30993938</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0037">
+        <label>37.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Lindberg</surname>
+<given-names>E</given-names></string-name>, <string-name><surname>Theorell-Haglöw</surname>
+<given-names>J</given-names></string-name>, <string-name><surname>Svensson</surname>
+<given-names>M</given-names></string-name>, et al. <article-title>Sleep apnea and glucose metabolism: a long-term follow-up in a community-based sample</article-title>. <source><italic toggle="yes">Chest</italic></source>. <year>2012</year>;<volume>142</volume>(<issue>4</issue>):<fpage>935</fpage>–<lpage>942</lpage>. doi:<pub-id pub-id-type="doi">10.1378/chest.11-1844</pub-id><pub-id pub-id-type="pmid">22499826</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0038">
+        <label>38.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Punjabi</surname>
+<given-names>NM</given-names></string-name>, <string-name><surname>Sorkin</surname>
+<given-names>JD</given-names></string-name>, <string-name><surname>Katzel</surname>
+<given-names>LI</given-names></string-name>, et al. <article-title>Sleep-disordered breathing and insulin resistance in middle-aged and overweight men</article-title>. <source><italic toggle="yes">Am J Respir Crit Care Med</italic></source>. <year>2002</year>;<volume>165</volume>(<issue>5</issue>):<fpage>677</fpage>–<lpage>682</lpage>. doi:<pub-id pub-id-type="doi">10.1164/ajrccm.165.5.2104087</pub-id><pub-id pub-id-type="pmid">11874813</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0039">
+        <label>39.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Meszaros</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Kunos</surname>
+<given-names>L</given-names></string-name>, <string-name><surname>Tarnoki</surname>
+<given-names>AD</given-names></string-name>, et al. <article-title>The role of soluble low-density lipoprotein receptor-related protein-1 in obstructive sleep apnoea</article-title>. <source><italic toggle="yes">J Clin Med</italic></source>. <year>2021</year>;<volume>10</volume>(<issue>7</issue>):<fpage>1494</fpage>. doi:<pub-id pub-id-type="doi">10.3390/jcm10071494</pub-id><pub-id pub-id-type="pmid">33916750</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0040">
+        <label>40.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Gabryelska</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Karuga</surname>
+<given-names>FF</given-names></string-name>, <string-name><surname>Szmyd</surname>
+<given-names>B</given-names></string-name>, <string-name><surname>Białasiewicz</surname>
+<given-names>P</given-names></string-name>. <article-title>HIF-1α as a mediator of insulin resistance, T2DM, and its complications: potential links with obstructive sleep apnea</article-title>. <source><italic toggle="yes">Front Physiol</italic></source>. <year>2020</year>;<volume>11</volume>:<fpage>1035</fpage>. doi:<pub-id pub-id-type="doi">10.3389/fphys.2020.01035</pub-id><pub-id pub-id-type="pmid">33013447</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0041">
+        <label>41.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Simental-Mendía</surname>
+<given-names>LE</given-names></string-name>, <string-name><surname>Rodríguez-Morán</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Guerrero-Romero</surname>
+<given-names>F</given-names></string-name>. <article-title>The product of fasting glucose and triglycerides as surrogate for identifying insulin resistance in apparently healthy subjects</article-title>. <source><italic toggle="yes">Metabol Syndr Relat Disord</italic></source>. <year>2008</year>;<volume>6</volume>(<issue>4</issue>):<fpage>299</fpage>–<lpage>304</lpage>. doi:<pub-id pub-id-type="doi">10.1089/met.2008.0034</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0042">
+        <label>42.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Zheng</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Duan</surname>
+<given-names>X</given-names></string-name>, <string-name><surname>Zhou</surname>
+<given-names>H</given-names></string-name>, et al. <article-title>Association between glycolipids and risk of obstructive sleep apnea: a population-based study</article-title>. <source><italic toggle="yes">Front Nutr</italic></source>. <year>2023</year>;<volume>10</volume>:<fpage>974801</fpage>. doi:<pub-id pub-id-type="doi">10.3389/fnut.2023.974801</pub-id><pub-id pub-id-type="pmid">37006942</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0043">
+        <label>43.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Fang</surname>
+<given-names>Y</given-names></string-name>, <string-name><surname>Su</surname>
+<given-names>J</given-names></string-name>, <string-name><surname>Zhao</surname>
+<given-names>C</given-names></string-name>, et al. <article-title>Association between nontraditional lipid profiles and the severity of obstructive sleep apnea: a retrospective study</article-title>. <source><italic toggle="yes">Clin LabAnal</italic></source>. <year>2022</year>:<fpage>e24499</fpage>. doi:<pub-id pub-id-type="doi">10.1002/jcla.24499</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0044">
+        <label>44.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Nadeem</surname>
+<given-names>R</given-names></string-name>, <string-name><surname>Singh</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Nida</surname>
+<given-names>M</given-names></string-name>, et al. <article-title>Effect of obstructive sleep apnea hypopnea syndrome on lipid profile: a meta-regression analysis</article-title>. <source><italic toggle="yes">J Clin Sleep Med</italic></source>. <year>2014</year>;<volume>10</volume>(<issue>05</issue>):<fpage>475</fpage>–<lpage>489</lpage>. doi:<pub-id pub-id-type="doi">10.5664/jcsm.3690</pub-id><pub-id pub-id-type="pmid">24910548</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0045">
+        <label>45.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Tan</surname>
+<given-names>KCB</given-names></string-name>, <string-name><surname>Chow</surname>
+<given-names>W-S</given-names></string-name>, <string-name><surname>Lam</surname>
+<given-names>JCM</given-names></string-name>, et al. <article-title>HDL dysfunction in obstructive sleep apnea</article-title>. <source><italic toggle="yes">Atherosclerosis</italic></source>. <year>2006</year>;<volume>184</volume>(<issue>2</issue>):<fpage>377</fpage>–<lpage>382</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.atherosclerosis.2005.04.024</pub-id><pub-id pub-id-type="pmid">15975582</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0046">
+        <label>46.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Xu</surname>
+<given-names>H</given-names></string-name>, <string-name><surname>Xia</surname>
+<given-names>Y</given-names></string-name>, <string-name><surname>Li</surname>
+<given-names>X</given-names></string-name>, et al. <article-title>Association between obstructive sleep apnea and lipid metabolism during REM and NREM sleep</article-title>. <source><italic toggle="yes">J Clin Sleep Med</italic></source>. <year>2020</year>;<volume>16</volume>(<issue>4</issue>):<fpage>475</fpage>–<lpage>482</lpage>. doi:<pub-id pub-id-type="doi">10.5664/jcsm.8242</pub-id><pub-id pub-id-type="pmid">32003732</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0047">
+        <label>47.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Jakubíková</surname>
+<given-names>J</given-names></string-name>, <string-name><surname>Kabátová</surname>
+<given-names>Z</given-names></string-name>, <string-name><surname>Pavlovčinová</surname>
+<given-names>G</given-names></string-name>, <string-name><surname>Profant</surname>
+<given-names>M</given-names></string-name>. <article-title>Newborn hearing screening and strategy for early detection of hearing loss in infants</article-title>. <source><italic toggle="yes">Int J Pediatr Otorhinolaryngol</italic></source>. <year>2009</year>;<volume>73</volume>(<issue>4</issue>):<fpage>607</fpage>–<lpage>612</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.ijporl.2008.12.006</pub-id><pub-id pub-id-type="pmid">19185924</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0048">
+        <label>48.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Musso</surname>
+<given-names>G</given-names></string-name>, <string-name><surname>Cassader</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Olivetti</surname>
+<given-names>C</given-names></string-name>, et al. <article-title>Association of obstructive sleep apnoea with the presence and severity of non-alcoholic fatty liver disease. A systematic review and meta-analysis: OSAS and NAFLD</article-title>. <source><italic toggle="yes">Obes Rev</italic></source>. <year>2013</year>;<volume>14</volume>(<issue>5</issue>):<fpage>417</fpage>–<lpage>431</lpage>. doi:<pub-id pub-id-type="doi">10.1111/obr.12020</pub-id><pub-id pub-id-type="pmid">23387384</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0049">
+        <label>49.</label>
+        <mixed-citation publication-type="journal"><collab>Chou T-C</collab>. <article-title>Obstructive sleep apnea is associated with liver disease: a population-based cohort study</article-title>. <source><italic toggle="yes">Sleep Med</italic></source>. <year>2015</year>. doi:<pub-id pub-id-type="doi">10.1016/j.sleep.2015.02.542</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0050">
+        <label>50.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Hui</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Li</surname>
+<given-names>Y</given-names></string-name>, <string-name><surname>Ye</surname>
+<given-names>J</given-names></string-name>, et al. <article-title>Obstructive sleep apnea-hypopnea syndrome (OSAHS) comorbid with diabetes rather than OSAHS alone serves an independent risk factor for chronic kidney disease (CKD)</article-title>. <source><italic toggle="yes">Ann Palliat Med</italic></source>. <year>2020</year>;<volume>9</volume>(<issue>3</issue>):<fpage>858</fpage>–<lpage>869</lpage>. doi:<pub-id pub-id-type="doi">10.21037/apm.2020.03.21</pub-id><pub-id pub-id-type="pmid">32279514</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0051">
+        <label>51.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Lin</surname>
+<given-names>C-H</given-names></string-name>, <string-name><surname>Lurie</surname>
+<given-names>RC</given-names></string-name>, <string-name><surname>Lyons</surname>
+<given-names>OD</given-names></string-name>. <article-title>Sleep Apnea and Chronic Kidney Disease</article-title>. <source><italic toggle="yes">Chest</italic></source>. <year>2020</year>;<volume>157</volume>(<issue>3</issue>):<fpage>673</fpage>–<lpage>685</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.chest.2019.09.004</pub-id><pub-id pub-id-type="pmid">31542452</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0052">
+        <label>52.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Cao</surname>
+<given-names>B</given-names></string-name>, <string-name><surname>Fan</surname>
+<given-names>Z</given-names></string-name>, <string-name><surname>Zhang</surname>
+<given-names>Y</given-names></string-name>, <string-name><surname>Li</surname>
+<given-names>T</given-names></string-name>. <article-title>Independent association of severity of obstructive sleep apnea with lipid metabolism of atherogenic index of plasma (AIP) and apoB/apoAI ratio</article-title>. <source><italic toggle="yes">Sleep Breath</italic></source>. <year>2020</year>;<volume>24</volume>(<issue>4</issue>):<fpage>1507</fpage>–<lpage>1513</lpage>. doi:<pub-id pub-id-type="doi">10.1007/s11325-020-02016-1</pub-id><pub-id pub-id-type="pmid">31981042</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0053">
+        <label>53.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Salari</surname>
+<given-names>N</given-names></string-name>, <string-name><surname>Khazaie</surname>
+<given-names>H</given-names></string-name>, <string-name><surname>Abolfathi</surname>
+<given-names>M</given-names></string-name>, et al. <article-title>The effect of obstructive sleep apnea on the increased risk of cardiovascular disease: a systematic review and meta-analysis</article-title>. <source><italic toggle="yes">Neurol Sci</italic></source>. <year>2022</year>;<volume>43</volume>(<issue>1</issue>):<fpage>219</fpage>–<lpage>231</lpage>. doi:<pub-id pub-id-type="doi">10.1007/s10072-021-05765-3</pub-id><pub-id pub-id-type="pmid">34797460</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0054">
+        <label>54.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Liu</surname>
+<given-names>W</given-names></string-name>, <string-name><surname>Zhu</surname>
+<given-names>Q</given-names></string-name>, <string-name><surname>Li</surname>
+<given-names>X</given-names></string-name>, et al. <article-title>Effects of obstructive sleep apnea on myocardial injury and dysfunction: a review focused on the molecular mechanisms of intermittent hypoxia</article-title>. <source><italic toggle="yes">Sleep Breathing</italic></source>. <year>2023</year>. doi:<pub-id pub-id-type="doi">10.1007/s11325-023-02893-2</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0055">
+        <label>55.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Chiu</surname>
+<given-names>H-Y</given-names></string-name>, <string-name><surname>Chen</surname>
+<given-names>P-Y</given-names></string-name>, <string-name><surname>Chuang</surname>
+<given-names>L-P</given-names></string-name>, et al. <article-title>Diagnostic accuracy of the Berlin questionnaire, STOP-BANG, STOP, and Epworth sleepiness scale in detecting obstructive sleep apnea: a bivariate meta-analysis</article-title>. <source><italic toggle="yes">Sleep Med Rev</italic></source>. <year>2017</year>;<volume>36</volume>:<fpage>57</fpage>–<lpage>70</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.smrv.2016.10.004</pub-id><pub-id pub-id-type="pmid">27919588</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0056">
+        <label>56.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Wang</surname>
+<given-names>D</given-names></string-name>, <string-name><surname>Ren</surname>
+<given-names>Y</given-names></string-name>, <string-name><surname>Chen</surname>
+<given-names>R</given-names></string-name>, et al. <article-title>Establishment and application evaluation of an improved obstructive sleep apnea screening questionnaire for Chinese Community: the CNCQ-OSA</article-title>. <source><italic toggle="yes">NSS</italic></source>. <year>2023</year>;<volume>15</volume>:<fpage>103</fpage>–<lpage>114</lpage>. doi:<pub-id pub-id-type="doi">10.2147/NSS.S396695</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0057">
+        <label>57.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Cabitza</surname>
+<given-names>F</given-names></string-name>, <string-name><surname>Campagner</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Ferrari</surname>
+<given-names>D</given-names></string-name>, et al. <article-title>Development, evaluation, and validation of machine learning models for COVID-19 detection based on routine blood tests</article-title>. <source><italic toggle="yes">Clin Chem Lab Med</italic></source>. <year>2021</year>;<volume>59</volume>(<issue>2</issue>):<fpage>421</fpage>–<lpage>431</lpage>. doi:<pub-id pub-id-type="doi">10.1515/cclm-2020-1294</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0058">
+        <label>58.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Hatami</surname>
+<given-names>B</given-names></string-name>, <string-name><surname>Asadi</surname>
+<given-names>F</given-names></string-name>, <string-name><surname>Bayani</surname>
+<given-names>A</given-names></string-name>, et al. <article-title>Machine learning-based system for prediction of ascites grades in patients with liver cirrhosis using laboratory and clinical data: design and implementation study</article-title>. <source><italic toggle="yes">Clin Chem Lab Med</italic></source>. <year>2022</year>;<volume>60</volume>(<issue>12</issue>):<fpage>1946</fpage>–<lpage>1954</lpage>. doi:<pub-id pub-id-type="doi">10.1515/cclm-2022-0454</pub-id><pub-id pub-id-type="pmid">35607284</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0059">
+        <label>59.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Fleming</surname>
+<given-names>WE</given-names></string-name>, <string-name><surname>Holty</surname>
+<given-names>J-EC</given-names></string-name>, <string-name><surname>Bogan</surname>
+<given-names>RK</given-names></string-name>, et al. <article-title>Use of blood biomarkers to screen for obstructive sleep apnea</article-title>. <source><italic toggle="yes">Nat Sci Sleep</italic></source>. <year>2018</year>;<volume>10</volume>:<fpage>159</fpage>–<lpage>167</lpage>. doi:<pub-id pub-id-type="doi">10.2147/NSS.S164488</pub-id><pub-id pub-id-type="pmid">29942168</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0060">
+        <label>60.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Ahlin</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Manco</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Panunzi</surname>
+<given-names>S</given-names></string-name>, et al. <article-title>A new sensitive and accurate model to predict moderate to severe obstructive sleep apnea in patients with obesity</article-title>. <source><italic toggle="yes">Medicine</italic></source>. <year>2019</year>;<volume>98</volume>(<issue>32</issue>):<fpage>e16687</fpage>. doi:<pub-id pub-id-type="doi">10.1097/MD.0000000000016687</pub-id><pub-id pub-id-type="pmid">31393370</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0061">
+        <label>61.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Kang</surname>
+<given-names>HH</given-names></string-name>, <string-name><surname>Kim</surname>
+<given-names>SW</given-names></string-name>, <string-name><surname>Lee</surname>
+<given-names>SH</given-names></string-name>. <article-title>Association between triglyceride glucose index and obstructive sleep apnea risk in Korean adults: a cross-sectional cohort study</article-title>. <source><italic toggle="yes">Lipids Health Dis</italic></source>. <year>2020</year>;<volume>19</volume>(<issue>1</issue>):<fpage>182</fpage>. doi:<pub-id pub-id-type="doi">10.1186/s12944-020-01358-9</pub-id><pub-id pub-id-type="pmid">32771021</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0062">
+        <label>62.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Riley</surname>
+<given-names>RD</given-names></string-name>, <string-name><surname>Ensor</surname>
+<given-names>J</given-names></string-name>, <string-name><surname>Snell</surname>
+<given-names>KIE</given-names></string-name>, et al. <article-title>Calculating the sample size required for developing a clinical prediction model</article-title>. <source><italic toggle="yes">BMJ</italic></source>. <year>2020</year>:<fpage>m441</fpage>. doi:<pub-id pub-id-type="doi">10.1136/bmj.m441</pub-id><pub-id pub-id-type="pmid">32188600</pub-id>
+</mixed-citation>
+      </ref>
+    </ref-list>
+  </back>
+</article>
+</pmc-articleset>

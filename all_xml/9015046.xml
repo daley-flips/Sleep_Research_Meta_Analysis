@@ -1,0 +1,734 @@
+<pmc-articleset><article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" dtd-version="1.3" xml:lang="en" article-type="research-article">
+  <?properties open_access?>
+  <processing-meta base-tagset="archiving" mathml-version="3.0" table-model="xhtml" tagset-family="jats">
+    <restricted-by>pmc</restricted-by>
+  </processing-meta>
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="nlm-ta">Nat Sci Sleep</journal-id>
+      <journal-id journal-id-type="iso-abbrev">Nat Sci Sleep</journal-id>
+      <journal-id journal-id-type="publisher-id">nss</journal-id>
+      <journal-title-group>
+        <journal-title>Nature and Science of Sleep</journal-title>
+      </journal-title-group>
+      <issn pub-type="epub">1179-1608</issn>
+      <publisher>
+        <publisher-name>Dove</publisher-name>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="pmid">35444483</article-id>
+      <article-id pub-id-type="pmc">9015046</article-id>
+      <article-id pub-id-type="publisher-id">359789</article-id>
+      <article-id pub-id-type="doi">10.2147/NSS.S359789</article-id>
+      <article-categories>
+        <subj-group subj-group-type="heading">
+          <subject>Original Research</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>Multi-Night at-Home Evaluation of Improved Sleep Detection and Classification with a Memory-Enhanced Consumer Sleep Tracker</article-title>
+        <alt-title alt-title-type="running-authors">Ghorbani et al</alt-title>
+        <alt-title alt-title-type="running-title">Ghorbani et al</alt-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author" equal-contrib="yes">
+          <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0002-4714-4349</contrib-id>
+          <name>
+            <surname>Ghorbani</surname>
+            <given-names>Shohreh</given-names>
+          </name>
+          <xref rid="aff0001" ref-type="aff">1</xref>
+          <xref rid="ft0001" ref-type="author-notes">*</xref>
+        </contrib>
+        <contrib contrib-type="author" equal-contrib="yes">
+          <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0002-9942-7949</contrib-id>
+          <name>
+            <surname>Golkashani</surname>
+            <given-names>Hosein Aghayan</given-names>
+          </name>
+          <xref rid="aff0001" ref-type="aff">1</xref>
+          <xref rid="ft0001" ref-type="author-notes">*</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0002-9598-4908</contrib-id>
+          <name>
+            <surname>Chee</surname>
+            <given-names>Nicholas I Y N</given-names>
+          </name>
+          <xref rid="aff0001" ref-type="aff">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0001-6642-8921</contrib-id>
+          <name>
+            <surname>Teo</surname>
+            <given-names>Teck Boon</given-names>
+          </name>
+          <xref rid="aff0001" ref-type="aff">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0002-7708-6880</contrib-id>
+          <name>
+            <surname>Dicom</surname>
+            <given-names>Andrew Roshan</given-names>
+          </name>
+          <xref rid="aff0001" ref-type="aff">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0002-4387-9276</contrib-id>
+          <name>
+            <surname>Yilmaz</surname>
+            <given-names>Gizem</given-names>
+          </name>
+          <xref rid="aff0001" ref-type="aff">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0001-5567-2152</contrib-id>
+          <name>
+            <surname>Leong</surname>
+            <given-names>Ruth L F</given-names>
+          </name>
+          <xref rid="aff0001" ref-type="aff">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0001-5115-4112</contrib-id>
+          <name>
+            <surname>Ong</surname>
+            <given-names>Ju Lynn</given-names>
+          </name>
+          <xref rid="aff0001" ref-type="aff">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0002-6087-0548</contrib-id>
+          <name>
+            <surname>Chee</surname>
+            <given-names>Michael W L</given-names>
+          </name>
+          <xref rid="aff0001" ref-type="aff">1</xref>
+          <xref rid="an0001" ref-type="corresp"/>
+        </contrib>
+        <aff id="aff0001"><label>1</label><institution>Centre for Sleep and Cognition, Yong Loo Lin School of Medicine, National University of Singapore</institution>, <country>Singapore</country></aff>
+      </contrib-group>
+      <author-notes>
+        <corresp id="an0001">Correspondence: Michael WL Chee, <institution>Centre for Sleep and Cognition, Yong Loo Lin School of Medicine, National University of Singapore</institution>, <addr-line>MD1 Level 13 Rm 05B</addr-line>, <addr-line>117549</addr-line>, <country>Singapore</country>, <phone>Tel +65 66013199</phone>, Email michael.chee@nus.edu.sg</corresp>
+        <fn id="ft0001">
+          <label>*</label>
+          <p>These authors contributed equally to this work</p>
+        </fn>
+      </author-notes>
+      <pub-date pub-type="epub">
+        <day>14</day>
+        <month>4</month>
+        <year>2022</year>
+      </pub-date>
+      <pub-date pub-type="collection">
+        <year>2022</year>
+      </pub-date>
+      <volume>14</volume>
+      <fpage>645</fpage>
+      <lpage>660</lpage>
+      <history>
+        <date date-type="received">
+          <day>02</day>
+          <month>2</month>
+          <year>2022</year>
+        </date>
+        <date date-type="accepted">
+          <day>31</day>
+          <month>3</month>
+          <year>2022</year>
+        </date>
+      </history>
+      <permissions>
+        <copyright-statement>© 2022 Ghorbani et al.</copyright-statement>
+        <copyright-year>2022</copyright-year>
+        <copyright-holder>Ghorbani et al.</copyright-holder>
+        <license>
+          <ali:license_ref xmlns:ali="http://www.niso.org/schemas/ali/1.0/" specific-use="textmining" content-type="ccbynclicense">https://creativecommons.org/licenses/by-nc/3.0/</ali:license_ref>
+          <license-p>This work is published and licensed by Dove Medical Press Limited. The full terms of this license are available at <ext-link ext-link-type="uri" xlink:href="https://www.dovepress.com/terms.php">https://www.dovepress.com/terms.php</ext-link> and incorporate the Creative Commons Attribution – Non Commercial (unported, v3.0) License (<ext-link ext-link-type="uri" xlink:href="https://creativecommons.org/licenses/by-nc/3.0/">http://creativecommons.org/licenses/by-nc/3.0/</ext-link>). By accessing the work you hereby accept the Terms. Non-commercial uses of the work are permitted without any further permission from Dove Medical Press Limited, provided the work is properly attributed. For permission for commercial use of this work, please see paragraphs 4.2 and 5 of our Terms (<ext-link ext-link-type="uri" xlink:href="https://www.dovepress.com/terms.php">https://www.dovepress.com/terms.php</ext-link>).</license-p>
+        </license>
+      </permissions>
+      <abstract>
+        <sec id="s2001">
+          <title>Purpose</title>
+          <p>To evaluate the benefits of applying an improved sleep detection and staging algorithm on minimally processed multi-sensor wearable data collected from older generation hardware.</p>
+        </sec>
+        <sec id="s2002">
+          <title>Patients and Methods</title>
+          <p>58 healthy, East Asian adults aged 23–69 years (M = 37.10, SD = 13.03, 32 males), each underwent 3 nights of PSG at home, wearing 2<sup>nd</sup> Generation Oura Rings equipped with additional memory to store raw data from accelerometer, infra-red photoplethysmography and temperature sensors. 2-stage and 4-stage sleep classifications using a new machine-learning algorithm (Gen3) trained on a diverse and independent dataset were compared to the existing consumer algorithm (Gen2) for whole-night and epoch-by-epoch metrics.</p>
+        </sec>
+        <sec id="s2003">
+          <title>Results</title>
+          <p>Gen 3 outperformed its predecessor with a mean (SD) accuracy of 92.6% (0.04), sensitivity of 94.9% (0.03), and specificity of 78.5% (0.11); corresponding to a 3%, 2.8% and 6.2% improvement from Gen2 across the three nights, with Cohen’s d values &gt;0.39, t values &gt;2.69, and p values &lt;0.01. Notably, Gen 3 showed robust performance comparable to PSG in its assessment of sleep latency, light sleep, rapid eye movement (REM), and wake after sleep onset (WASO) duration. Participants &lt;40 years of age benefited more from the upgrade with less measurement bias for total sleep time (TST), WASO, light sleep and sleep efficiency compared to those ≥40 years. Males showed greater improvements on TST and REM sleep measurement bias compared to females, while females benefitted more for deep sleep measures compared to males.</p>
+        </sec>
+        <sec id="s2004">
+          <title>Conclusion</title>
+          <p>These results affirm the benefits of applying machine learning and a diverse training dataset to improve sleep measurement of a consumer wearable device. Importantly, collecting raw data with appropriate hardware allows for future advancements in algorithm development or sleep physiology to be retrospectively applied to enhance the value of longitudinal sleep studies.</p>
+        </sec>
+      </abstract>
+      <kwd-group kwd-group-type="author">
+        <title>Keywords</title>
+        <kwd>consumer wearable</kwd>
+        <kwd>sleep tracking</kwd>
+        <kwd>validation</kwd>
+        <kwd>sleep staging</kwd>
+        <kwd>sleep detection</kwd>
+      </kwd-group>
+      <funding-group>
+        <award-group>
+          <funding-source>
+<institution-wrap><institution>Michael Chee from the National Medical Research Council Singapore</institution></institution-wrap>
+</funding-source>
+        </award-group>
+        <award-group>
+          <funding-source>
+<institution-wrap><institution>he Centre for Sleep and Cognition at the Yong Loo Lin School of Medicine, National University of Singapore</institution></institution-wrap>
+</funding-source>
+        </award-group>
+        <award-group>
+          <funding-source>
+<institution-wrap><institution>Oura Health</institution></institution-wrap>
+</funding-source>
+        </award-group>
+        <funding-statement>Oura Health provided the “memory” rings used for this research. This work was supported by a grant awarded to Michael Chee from the National Medical Research Council Singapore (STAR19may-0001), and support funds for the Centre for Sleep and Cognition at the Yong Loo Lin School of Medicine, National University of Singapore. Dr. Chee’s laboratory receives funding support from Oura Health for the testing of Oura devices and for co-development of new methods to measure sleep and sleep related physiology.</funding-statement>
+      </funding-group>
+      <counts>
+        <fig-count count="8"/>
+        <table-count count="14"/>
+        <ref-count count="56"/>
+        <page-count count="16"/>
+      </counts>
+    </article-meta>
+  </front>
+  <body>
+    <sec id="s0001">
+      <title>Plain Language Summary</title>
+      <p>Consumer grade sleep-tracking wearables have improved significantly only a few years after their introduction. Sensor technology is relatively mature so improvements in performance will necessarily emerge from new directions. We showcase a machine-learning improved algorithm trained on a large diverse dataset that yields superior sleep classification and staging performance when applied to retrospectively collected wearable data. We ascertain who benefits more from these improvements. Storing multi-modal sensor data in raw form will help future-proof investment in large-scale longitudinal population studies on sleep and could help redefine current thinking about sleep physiology and health.</p>
+    </sec>
+    <sec sec-type="intro" id="s0002">
+      <title>Introduction</title>
+      <p>Sleep is a modifiable health risk factor that a growing number of persons wish to measure objectively. The last few years have seen an explosive increase in the development and adoption of affordable wearable or bedside devices to measure sleep.<xref rid="cit0001" ref-type="bibr">1–4</xref> Daily reports of sleep behaviour when coupled with thoughtfully designed user interfaces, provide a valuable means of monitoring sleep across years, yielding information about weekly, monthly, seasonal, and yearly fluctuations that could contain useful diagnostic and predictive information.<xref rid="cit0005" ref-type="bibr">5–7</xref></p>
+      <p>The largest contributor to sleep detection in wearables was from accelerometer data.<xref rid="cit0008" ref-type="bibr">8</xref> This is a mature technology that has been evaluated using wrist actigraphy in a wide range of studies covering the entire age spectrum,<xref rid="cit0009" ref-type="bibr">9–11</xref> involving persons with both normal,<xref rid="cit0012" ref-type="bibr">12</xref>,<xref rid="cit0013" ref-type="bibr">13</xref> and disordered sleep.<xref rid="cit0014" ref-type="bibr">14–16</xref> Research actigraphs are generally more expensive and until recently, did not include wireless, cloud-based data management that is standard in consumer wearables. Additionally, actigraphy is limited in its ability to capture motionless wake which can lead to bias in actigraphic sleep-wake estimations. As such, additional information beyond that which is captured in traditional actigraphy is beneficial to improve estimation accuracy.</p>
+      <p>The transition from wake to sleep is accompanied by slower, shallower and more regular respiration,<xref rid="cit0017" ref-type="bibr">17</xref> decreased heart rate<xref rid="cit0018" ref-type="bibr">18</xref> together with an increase in heart rate variability,<xref rid="cit0019" ref-type="bibr">19</xref>,<xref rid="cit0020" ref-type="bibr">20</xref> as well as a rise in distal skin temperature.<xref rid="cit0021" ref-type="bibr">21</xref>,<xref rid="cit0022" ref-type="bibr">22</xref> Newer generation wearables measure heart rate and heart rate variability using photoplethysmography (PPG) and some also sense temperature. Combining these additional physiological signals with motion data has resulted in improved sleep-wake estimation and sleep stage classification ability.<xref rid="cit0003" ref-type="bibr">3</xref>,<xref rid="cit0007" ref-type="bibr">7</xref>,<xref rid="cit0023" ref-type="bibr">23</xref>,<xref rid="cit0024" ref-type="bibr">24</xref></p>
+      <p>Physicians are increasingly being asked about how to interpret data collected from wearables worn by their patients.<xref rid="cit0025" ref-type="bibr">25</xref> Earlier consumer wearables had relatively poor and variable performance, but newer devices have shown greater accuracy and consistency of sleep assessment which continue to improve.<xref rid="cit0002" ref-type="bibr">2</xref>,<xref rid="cit0005" ref-type="bibr">5</xref>,<xref rid="cit0026" ref-type="bibr">26</xref>,<xref rid="cit0027" ref-type="bibr">27</xref> To guide their own usage of collected data, most users, clinicians, and researchers, are interested in improvements of two major areas, the detection of sleep and wake, from which bedtime, waketime, wake after sleep onset, total sleep time and sleep efficiency are derived, and secondly, the accuracy and consistency of sleep staging, particularly of slow wave sleep and REM. Researchers intending to use consumer wearables are additionally concerned about whether their collected data can benefit from continued refinements to data collection or processing that may help “future-proof” legacy data.</p>
+      <p>In the current work, we report improvements using the third generation Oura Ring algorithm (Gen3) for sleep detection and staging. The updated algorithm arose from combined adjustments to raw sensor data usage, improved diversity of training data and improved machine learning.<xref rid="cit0028" ref-type="bibr">28</xref> These refinements were retrospectively applied to data collected from modified second generation hardware equipped with enhanced memory to collect raw sensor data. Both the detection (2-stage classification) and staging of sleep (4-stage classification) were evaluated using data collected over multiple nights in a home setting, from Asian adults (to establish generalizability over a different racial group) across a wide age range who were not involved in the training data used for algorithm development.</p>
+    </sec>
+    <sec id="s0003">
+      <title>Materials and Methods</title>
+      <sec id="s0003-s2001">
+        <title>Participants and Study Protocol</title>
+        <p>Sixty participants aged 23–69 years were recruited for the three-night protocol. Participants were screened and those who reported pre-existing sleep, neurological or psychiatric disorders, excessive daytime sleepiness (Epworth Sleepiness Scale<xref rid="cit0029" ref-type="bibr">29</xref> scores &gt; 10), on wake-promoting medications, and whose body mass index (BMI) &gt; 35 kg/m2 were excluded, resulting in a final sample of 58 (M = 37.10, SD = 13.03, 32 males). Informed consent was obtained before data collection. The Institutional Review Board of the National University of Singapore approved the protocol was in accordance with the principles in the Declaration of Helsinki.</p>
+        <p>Trained research assistants visited participants’ homes approximately 2 hours before each participant’s habitual bedtime to set up all sleep recording equipment before leaving. Data was typically collected over consecutive nights, but where data collection had to be repeated or rescheduled due to device issues/scheduling conflicts (~7% of records), replacement nights were conducted within a 1-month period. In total, data from 174 nights were collected. Due to technical issues, 17 PSG recordings and Oura Ring measurements were excluded from the final analyses. PSG recordings were excluded either due to early termination of recordings or insufficient data quality for sleep staging due to electrodes falling off during the night. Excluded Oura recordings were due to missing sleep stage data, likely as a result of poor ring fit or movement during the night that impeded PPG recording.</p>
+      </sec>
+      <sec id="s0003-s2002">
+        <title>Polysomnography</title>
+        <p>Polysomnography was collected across all three nights. Electroencephalography was recorded from two channels (C3 and C4) according to the international 10–20 system via the SOMNOtouch devices (SOMNOmedics GmbH, Randersacker, Germany) during overnight sleep. Channels were referenced to the contralateral mastoids. The common ground and reference electrodes were placed at Fpz and Cz, respectively. Electro-oculography (EOG; right and left outer canthi) and submental electromyography (EMG) were also recorded. Finger pulse oximetry and electrocardiogram measures were also obtained. EEG signals were sampled at 256 Hz and impedance was kept at less than 5KΩ for EEG and below 10KΩ for EOG and EMG channels. PSG signals were confined to the period between lights-off and lights-on based on bedtime and wake time reported by participants prior to scoring. Data was autoscored with the Z3Score algorithm (<underline><ext-link xlink:href="https://z3score.com" ext-link-type="uri">https://z3score.com</ext-link></underline>)<xref rid="cit0030" ref-type="bibr">30</xref> and visually inspected by trained technicians who did not have access to the Oura data. Scoring of sleep was performed based on standards set by the American Academy of Sleep Medicine (AASM). WASO, REM sleep, N1, N2 and N3 were calculated based on 30-second epochs according to the AASM manual criteria.<xref rid="cit0031" ref-type="bibr">31</xref></p>
+      </sec>
+      <sec id="s0003-s2003">
+        <title>Oura Ring</title>
+        <p>The Oura Ring (Oura Health Oy, Oulu, Finland) measures heart rate, body temperature, and movement via infrared photoplethysmography (PPG), a temperature sensor, and a 3-D accelerometer.<xref rid="cit0027" ref-type="bibr">27</xref> Heart rate variability and respiratory rate are inferred measures.</p>
+        <p>Two “memory” rings (2M) provided by Oura Health were worn on the right and left hands on the same finger that provided the best fit. These had the same sensors as the commercially available 2nd Generation Oura Ring, but had additional flash memory that enabled recording minimally processed sensor data for the retrospective application of the Gen 3 algorithm (hereafter referred to as “Gen 3”) to the collected data. It also allowed the comparison of these results with those obtained from Gen 2 algorithm. Gen 3 was developed using newer machine learning methods on accelerometer, temperature, heart rate, and HRV data collected across 3 diverse samples that varied in racial composition and age.<xref rid="cit0028" ref-type="bibr">28</xref></p>
+        <p>Thirty second epoch-by-epoch data was subsequently processed. Sleep epochs were classified into four categories: wake, light, deep, and REM sleep. TST in both Oura and PSG records were defined as total time spent in light sleep (PSG stages N1 and N2), deep sleep (PSG stage N3) and REM sleep. For both Oura and PSG, sleep onset latency (SOL) was defined as the duration between lights-off and the first instance of two consecutively staged sleep epochs, regardless of sleep stage. To ensure accurate PSG-device synchronization, all device time stamps were synchronized with an Internet Time Server. Lights-off and on times were based on the wake and bed-time timings logged by the participants each night and both PSG and Oura data were truncated to match this sleep period.</p>
+      </sec>
+      <sec id="s0003-s2004">
+        <title>Discrepancy Analyses</title>
+        <p>To visualise discrepancies between Gen2, Gen3 and PSG measurements, Bland–Altman plots were generated for each night based on a standardized framework.<xref rid="cit0032" ref-type="bibr">32</xref> A negative bias represents underestimation by the device compared to PSG. Furthermore, we examined whether bias changed as a function of measurement’s size and the homoscedasticity for each sleep stage. Bland–Altman plots demonstrating device setting-PSG biases for TST, WASO, and sleep-stage analyses are presented in <xref rid="f0001" ref-type="fig">Figures 1</xref> and <xref rid="f0002" ref-type="fig">2</xref>, respectively.<fig position="float" id="f0001" fig-type="figure"><label>Figure 1</label><caption><p>Bland–Altman plots for TST in Gen 2 Gen 3 algorithms. Solid red lines indicate bias. Solid grey lines indicate the 95% level of agreements. Dotted lines indicate 95% CIs. Black points are observations, and the density diagram to the right of each plot represents the distribution of the bias.</p></caption><graphic xlink:href="NSS-14-645-g0001" content-type="print-only" position="float"/></fig><fig-group position="float" id="f0002"><fig position="anchor" id="f0002a" fig-type="figure"><label>Figure 2</label><caption><p>Continue.</p></caption><graphic xlink:href="NSS-14-645-g0002" content-type="print-only" position="float"/></fig><fig position="anchor" id="f0002b" fig-type="figure"><label>Figure 2</label><caption><p>Bland–Altman Plots for (<bold>A</bold>) Light sleep, (<bold>B</bold>) Deep sleep, (<bold>C</bold>) REM, (<bold>D</bold>) WASO, (<bold>E</bold>) SOL in Gen2 and Gen3 algorithms. Solid red lines indicate bias. Solid grey lines indicate the 95% level of agreements. Dotted lines indicate 95% CIs. Black points are observations, and the density diagram to the right of each plot represents the distribution of the bias.</p></caption><graphic xlink:href="NSS-14-645-g0003" content-type="print-only" position="float"/></fig></fig-group></p>
+        <p>We also examined if improvements in sleep measurement differed by sex and age group (&lt;40y vs ≥40y). A linear mixed model analysis was employed for each sleep metric bias (Oura - PSG); with age (&lt;40y vs ≥40y), sex (male/female), BMI, hand (right, left), nights (night 1, night 2, night 3) and Oura algorithm (Gen2, Gen3) as fixed factors. Subjects were treated as a random factor, and PSG-assessed total sleep time was included as a covariate. Interactions of age, sex and BMI with Oura algorithm were also investigated. As we did not find a significant main effect of hand, F(1,510) &lt; 5.68, p &gt; 0.18, only results for the right hand are reported.</p>
+        <p>A significant main effect of night was observed for TST, REM, WASO and sleep efficiency measurements, F(1,513) &gt; 5.13, p &lt; 0.004, driven by lower measurement bias in the first night, potentially due to decreased TST and increased WASO which could be attributed to a first-night effect.<xref rid="cit0033" ref-type="bibr">33</xref>,<xref rid="cit0034" ref-type="bibr">34</xref> Each nightly record was thus reported separately. Analyses were performed with and without outliers (subjects with &gt; 3 SD TST bias) to verify that significant interactions were not driven by outliers. Linear mixed model analyses were followed by post-hoc paired t-tests for each sleep measurement bias on each night.</p>
+      </sec>
+      <sec id="s0003-s2005">
+        <title>Epoch by Epoch (EBE) Analysis</title>
+        <p>As 30s epoch-by-epoch data was also available from the Oura Ring, EBE analyses – the preferred approach to assess accuracy of binary (2-stage) and categorical (4-stage) classification<xref rid="cit0032" ref-type="bibr">32</xref> were performed. Commonly reported agreement metrics of sensitivity (ability of device to correctly identify “sleep”), specificity (ability of device to correctly identify “wake”) and overall accuracy were calculated per subject/night following the equations below, and then averaged across all subjects to obtain group values for each night.</p>
+        <p>Sensitivity: True Sleep/(False Wake + True Sleep)</p>
+        <p>Specificity: True Wake/(True Wake + False Sleep)</p>
+        <p>Accuracy: (True Sleep + True Wake)/Total Epochs</p>
+        <p>For 4-stage classification metrics, sensitivity (proportion of epochs correctly classified as a given sleep stage), specificity (proportion of epochs correctly not classified as a given sleep stage) as well as accuracy (proportion of correctly classified epochs for a given sleep stage over total epochs) were also computed in a similar manner.</p>
+        <p>In addition, for 4-stage classification we also inspected Cohen’s kappa coefficient which takes into account agreement metrics occurring by chance as well as the prevalence- and bias-adjusted kappa (PABAK) that adjusts for imbalances in the relative frequency of occurrence of the different sleep stage/wake epochs and bias between PSG and Oura metrics using the equations below:<xref rid="cit0035" ref-type="bibr">35</xref></p>
+        <p>Kappa=(Po-Pe)/(1-Pe)</p>
+        <p>Po: Probability of agreement</p>
+        <p>Pe: Probability of disagreement (chance)</p>
+        <p>PABAK=(2 Pe - 0.5)/(1-0.5)=2Po-1</p>
+        <p>Kappa values are usually interpreted as follows: ≤ 0 indicating no agreement, 0.01–0.20 as none to slight, 0.21–0.40 as fair, 0.41–0.60 as moderate, 0.61–0.80 as substantial, and 0.81–1.00 as almost perfect agreement.</p>
+        <p>Paired sample t-tests were performed to compare sensitivity, specificity, accuracy, kappa and PABAK scores between Gen2 and Gen3 algorithms. The Cohen’s D effect sizes, t and P values are presented as the minimal value for each of the 3 nights.</p>
+        <p>Finally, to inspect sources of misclassification, confusion matrices were constructed. These were first generated per subject/night, by dividing values in each cell with the corresponding marginal frequency of the reference PSG measure. Next, confusion matrices were averaged across all subjects to generate group level matrices for each night.</p>
+        <p>Statistical analyses and data processing were performed using SPSS 27.0 (IBM Corp., Armonk, New York), MATLAB version R2017b (The Math Works, Inc., Natick, MA) and R version 4.1.1 (2021-08-10).</p>
+      </sec>
+    </sec>
+    <sec id="s0004">
+      <title>Results</title>
+      <p>The final sample comprised 58 participants (32 males) aged 23–69 years (M = 37.10, SD = 13.03) with BMI ranging from 17.66–30.48 kg/m<sup>2</sup> (M = 22.73, SD = 2.88). PSG-derived sleep architecture for young, &lt;40y (N = 42) and mid-aged, ≥40y (N = 16) adults for each night are presented in <xref rid="t0001" ref-type="table">Table 1</xref>.<table-wrap position="float" id="t0001"><label>Table 1</label><caption><p>Polysomnography-Determined Sleep Architecture Across the Nights</p></caption><table frame="hsides" rules="groups"><thead><tr><th rowspan="1" colspan="1"/><th colspan="2" align="center" rowspan="1">Night 1</th><th colspan="2" align="center" rowspan="1">Night 2</th><th colspan="2" align="center" rowspan="1">Night 3</th></tr><tr><th rowspan="1" colspan="1"/><th rowspan="1" colspan="1">Young Adults</th><th rowspan="1" colspan="1">Mid-Age Adults</th><th rowspan="1" colspan="1">Young Adults</th><th rowspan="1" colspan="1">Mid-Age Adults</th><th rowspan="1" colspan="1">Young Adults</th><th rowspan="1" colspan="1">Mid-Age Adults</th></tr></thead><tbody><tr><td rowspan="1" colspan="1"><bold>TIB</bold></td><td rowspan="1" colspan="1">445(62.68)</td><td rowspan="1" colspan="1">474.91(67.51)</td><td rowspan="1" colspan="1">464.43(79.47)</td><td rowspan="1" colspan="1">476.59(61.01)</td><td rowspan="1" colspan="1">468.43(56.2)</td><td rowspan="1" colspan="1">468.75(72.53)</td></tr><tr><td rowspan="1" colspan="1"><bold>TST</bold></td><td rowspan="1" colspan="1">387.24(69.34)</td><td rowspan="1" colspan="1">398.5(52.97)</td><td rowspan="1" colspan="1">414.13(66.99)</td><td rowspan="1" colspan="1">398.88(65.55)</td><td rowspan="1" colspan="1">419.68(50.24)</td><td rowspan="1" colspan="1">389.94(53.72)</td></tr><tr><td rowspan="1" colspan="1"><bold>Deep sleep</bold></td><td rowspan="1" colspan="1">75.91(32.74)</td><td rowspan="1" colspan="1">45.94(33.59)</td><td rowspan="1" colspan="1">76.25(32.91)</td><td rowspan="1" colspan="1">47.47(35.02)</td><td rowspan="1" colspan="1">76.02(32.65)</td><td rowspan="1" colspan="1">40.28(31.71)</td></tr><tr><td rowspan="1" colspan="1"><bold>Light sleep</bold></td><td rowspan="1" colspan="1">227.95(46.75)</td><td rowspan="1" colspan="1">262.19(38.24)</td><td rowspan="1" colspan="1">243.94(52.25)</td><td rowspan="1" colspan="1">263.22(41.24)</td><td rowspan="1" colspan="1">244.89(44.11)</td><td rowspan="1" colspan="1">265.65(43.6)</td></tr><tr><td rowspan="1" colspan="1"><bold>REM</bold> <bold>sleep</bold></td><td rowspan="1" colspan="1">83.38(29.33)</td><td rowspan="1" colspan="1">90.38(26.24)</td><td rowspan="1" colspan="1">93.94(32.67)</td><td rowspan="1" colspan="1">88.19(31.02)</td><td rowspan="1" colspan="1">98.77(27.18)</td><td rowspan="1" colspan="1">84.00(24.4)</td></tr><tr><td rowspan="1" colspan="1"><bold>SOL</bold></td><td rowspan="1" colspan="1">24.07(20.54)</td><td rowspan="1" colspan="1">21.41(19.15)</td><td rowspan="1" colspan="1">21.76(28.13)</td><td rowspan="1" colspan="1">24.31(20.98)</td><td rowspan="1" colspan="1">25.40(27.56)</td><td rowspan="1" colspan="1">24.66(24.05)</td></tr><tr><td rowspan="1" colspan="1"><bold>WASO</bold></td><td rowspan="1" colspan="1">34.02(30.75)</td><td rowspan="1" colspan="1">55.34(32.51)</td><td rowspan="1" colspan="1">28.82(20.20)</td><td rowspan="1" colspan="1">53.63(32.67)</td><td rowspan="1" colspan="1">23.54(18.48)</td><td rowspan="1" colspan="1">54.41(44.95)</td></tr><tr><td rowspan="1" colspan="1"><bold>SE</bold></td><td rowspan="1" colspan="1">86.97(9.32)</td><td rowspan="1" colspan="1">84.28(7.58)</td><td rowspan="1" colspan="1">89.53(6.78)</td><td rowspan="1" colspan="1">83.68(8.13)</td><td rowspan="1" colspan="1">89.80 (6.58)</td><td rowspan="1" colspan="1">83.90(10.16)</td></tr></tbody></table><table-wrap-foot><fn id="tfn0001"><p><bold>Note</bold>: Data presented as mean (standard deviation) in minutes unless otherwise indicated.</p></fn><fn id="tfn0002"><p><bold>Abbreviations</bold>: REM, rapid eye movement; TIB, time in bed; TST, total sleep time; WASO, wake after sleep onset; SE, sleep efficiency.</p></fn></table-wrap-foot></table-wrap>
+</p>
+      <sec id="s0004-s2001">
+        <title>2-Stage Classification Performance</title>
+        <p>Gen3 showed significantly improved 2-stage sleep-wake classification with a mean (SD) accuracy of 92.6% (0.04) compared with 89.6% (0.05) accuracy of Gen2 across the three nights, with d values &gt; 0.49, t values &gt; 3.70, and p values &lt; 0.001. Additionally, sensitivity and specificity improved by 2.8% to increase the mean from 92.1% (0.05), and 6.2% from 72.3 (0.11), respectively, ds &gt; 0.39, ts &gt; 2.69, ps ≤ 0.01 (<xref rid="t0002" ref-type="table">Table 2</xref>). TST bias also decreased significantly across the nights by a minimum duration of 10 minutes, ds &gt; 0.43, ts &gt; 3.13, ps &lt; 0.01 (<xref rid="t0003" ref-type="table">Table 3</xref>, <xref rid="f0001" ref-type="fig">Figure 1</xref>).<table-wrap position="float" id="t0002"><label>Table 2</label><caption><p>Epoch by Epoch Agreement Metrics, for Oura Ring Gen2 and Gen3 Algorithms Referenced to PSG</p></caption><table frame="hsides" rules="groups"><thead><tr><th rowspan="1" colspan="1"/><th rowspan="1" colspan="1"/><th rowspan="1" colspan="1">Gen2</th><th rowspan="1" colspan="1">Gen3</th><th rowspan="1" colspan="1">P value</th></tr></thead><tbody><tr><td rowspan="3" colspan="1">Night 1</td><td rowspan="1" colspan="1">Sleep-wake accuracy</td><td rowspan="1" colspan="1">0.89(0.07)</td><td rowspan="1" colspan="1">0.92(0.06)</td><td rowspan="1" colspan="1">&lt;0.001</td></tr><tr><td rowspan="1" colspan="1">Specificity</td><td rowspan="1" colspan="1">0.70(0.21)</td><td rowspan="1" colspan="1">0.77(0.18)</td><td rowspan="1" colspan="1">0.01</td></tr><tr><td rowspan="1" colspan="1">Sensitivity</td><td rowspan="1" colspan="1">0.92(0.06)</td><td rowspan="1" colspan="1">0.96(0.03)</td><td rowspan="1" colspan="1">&lt;0.001</td></tr><tr><td rowspan="3" colspan="1">Night 2</td><td rowspan="1" colspan="1">Sleep-wake accuracy</td><td rowspan="1" colspan="1">0.90(0.05)</td><td rowspan="1" colspan="1">0.92(0.05)</td><td rowspan="1" colspan="1">&lt;0.001</td></tr><tr><td rowspan="1" colspan="1">Specificity</td><td rowspan="1" colspan="1">0.71(0.17)</td><td rowspan="1" colspan="1">0.78(0.15)</td><td rowspan="1" colspan="1">&lt;0.01</td></tr><tr><td rowspan="1" colspan="1">Sensitivity</td><td rowspan="1" colspan="1">0.92(0.05)</td><td rowspan="1" colspan="1">0.94(0.05)</td><td rowspan="1" colspan="1">0.007</td></tr><tr><td rowspan="3" colspan="1">Night 3</td><td rowspan="1" colspan="1">Sleep-wake accuracy</td><td rowspan="1" colspan="1">0.90(0.06)</td><td rowspan="1" colspan="1">0.93(0.05)</td><td rowspan="1" colspan="1">&lt;0.001</td></tr><tr><td rowspan="1" colspan="1">Specificity</td><td rowspan="1" colspan="1">0.75(0.18)</td><td rowspan="1" colspan="1">0.80(0.14)</td><td rowspan="1" colspan="1">0.007</td></tr><tr><td rowspan="1" colspan="1">Sensitivity</td><td rowspan="1" colspan="1">0.92(0.06)</td><td rowspan="1" colspan="1">0.95(0.04)</td><td rowspan="1" colspan="1">&lt;0.001</td></tr></tbody></table><table-wrap-foot><fn id="tfn0003"><p><bold>Notes</bold>: Data presented as mean (standard deviation). Paired sample T-tests for sleep sensitivities, wake specificities and sleep-wake accuracies.</p></fn></table-wrap-foot></table-wrap>
+<table-wrap position="float" id="t0003"><label>Table 3</label><caption><p>Biases from PSG for Oura Ring Gen2 and Gen3 Algorithms Across 3 Nights</p></caption><table frame="hsides" rules="groups"><thead><tr><th rowspan="1" colspan="1"/><th rowspan="1" colspan="1">Gen2</th><th rowspan="1" colspan="1">Gen3</th><th rowspan="1" colspan="1">p value</th></tr></thead><tbody><tr><td colspan="4" rowspan="1"><bold>Night 1 (N=44)</bold></td></tr><tr><td rowspan="1" colspan="1">TST</td><td rowspan="1" colspan="1">−15.5 (27.5)***</td><td rowspan="1" colspan="1">−1.3 (20.0)</td><td rowspan="1" colspan="1">&lt;0.001</td></tr><tr><td rowspan="1" colspan="1">Light sleep</td><td rowspan="1" colspan="1">−42.7 (46.4)***</td><td rowspan="1" colspan="1">1.6 (30.7)</td><td rowspan="1" colspan="1">&lt;0.001</td></tr><tr><td rowspan="1" colspan="1">Deep sleep</td><td rowspan="1" colspan="1">40.8 (44.6) ***</td><td rowspan="1" colspan="1">−14.6 (29.1)**</td><td rowspan="1" colspan="1">&lt;0.001</td></tr><tr><td rowspan="1" colspan="1">REM sleep</td><td rowspan="1" colspan="1">−13.6 (36.0) *</td><td rowspan="1" colspan="1">11.7 (22.6)**</td><td rowspan="1" colspan="1">&lt;0.001</td></tr><tr><td rowspan="1" colspan="1">WASO</td><td rowspan="1" colspan="1">14.0 (28.1) **</td><td rowspan="1" colspan="1">0.9 (19.5)</td><td rowspan="1" colspan="1">&lt;0.001</td></tr><tr><td rowspan="1" colspan="1">Sleep efficiency</td><td rowspan="1" colspan="1">−3.3 (5.7) ***</td><td rowspan="1" colspan="1">−0.3 (4.2)</td><td rowspan="1" colspan="1">&lt;0.001</td></tr><tr><td rowspan="1" colspan="1">Sleep Onset Latency</td><td rowspan="1" colspan="1">1.6 (8.1)</td><td rowspan="1" colspan="1">0.4 (10.6)</td><td rowspan="1" colspan="1">0.51</td></tr><tr><td colspan="4" rowspan="1"><bold>Night 2 (N=52)</bold></td></tr><tr><td rowspan="1" colspan="1">TST</td><td rowspan="1" colspan="1">−18.2 (22.8) ***</td><td rowspan="1" colspan="1">−6.0 (20.2)*</td><td rowspan="1" colspan="1">&lt;0.001</td></tr><tr><td rowspan="1" colspan="1">Light sleep</td><td rowspan="1" colspan="1">−48.0 (44.9) ***</td><td rowspan="1" colspan="1">5.5 (29.3)</td><td rowspan="1" colspan="1">&lt;0.001</td></tr><tr><td rowspan="1" colspan="1">Deep sleep</td><td rowspan="1" colspan="1">46.0 (54.8) ***</td><td rowspan="1" colspan="1">−13.8 (30.2)**</td><td rowspan="1" colspan="1">&lt;0.001</td></tr><tr><td rowspan="1" colspan="1">REM sleep</td><td rowspan="1" colspan="1">−16.3 (39.7) **</td><td rowspan="1" colspan="1">2.4 (31.6)</td><td rowspan="1" colspan="1">&lt;0.001</td></tr><tr><td rowspan="1" colspan="1">WASO</td><td rowspan="1" colspan="1">16.3 (22.0) ***</td><td rowspan="1" colspan="1">4.3 (18.2)</td><td rowspan="1" colspan="1">&lt;0.001</td></tr><tr><td rowspan="1" colspan="1">Sleep efficiency</td><td rowspan="1" colspan="1">−4.1 (4.9) ***</td><td rowspan="1" colspan="1">−1.4 (4.1)*</td><td rowspan="1" colspan="1">&lt;0.001</td></tr><tr><td rowspan="1" colspan="1">Sleep Onset Latency</td><td rowspan="1" colspan="1">2.1 (11.7)</td><td rowspan="1" colspan="1">1.7 (8.2)</td><td rowspan="1" colspan="1">0.77</td></tr><tr><td colspan="4" rowspan="1"><bold>Night 3 (N=52)</bold></td></tr><tr><td rowspan="1" colspan="1">TST</td><td rowspan="1" colspan="1">−18.1 (23.4) ***</td><td rowspan="1" colspan="1">−7.9 (18.47)**</td><td rowspan="1" colspan="1">0.003</td></tr><tr><td rowspan="1" colspan="1">Light sleep</td><td rowspan="1" colspan="1">−46.9 (42.2) ***</td><td rowspan="1" colspan="1">−0.6 (34.62)</td><td rowspan="1" colspan="1">&lt;0.001</td></tr><tr><td rowspan="1" colspan="1">Deep sleep</td><td rowspan="1" colspan="1">49.9 (47.4) ***</td><td rowspan="1" colspan="1">−8.1 (29.91)</td><td rowspan="1" colspan="1">&lt;0.001</td></tr><tr><td rowspan="1" colspan="1">REM sleep</td><td rowspan="1" colspan="1">−21.1 (37.6) **</td><td rowspan="1" colspan="1">0.8 (27.61)</td><td rowspan="1" colspan="1">&lt;0.001</td></tr><tr><td rowspan="1" colspan="1">WASO</td><td rowspan="1" colspan="1">16.7 (25.25) ***</td><td rowspan="1" colspan="1">7.8 (22.87)**</td><td rowspan="1" colspan="1">0.012</td></tr><tr><td rowspan="1" colspan="1">Sleep efficiency</td><td rowspan="1" colspan="1">−3.9 (5.1) ***</td><td rowspan="1" colspan="1">−1.6 (3.69)**</td><td rowspan="1" colspan="1">0.001</td></tr><tr><td rowspan="1" colspan="1">Sleep Onset Latency</td><td rowspan="1" colspan="1">1.6 (8.3)</td><td rowspan="1" colspan="1">0.8 (14.9)</td><td rowspan="1" colspan="1">0.47</td></tr></tbody></table><table-wrap-foot><fn id="tfn0004"><p><bold>Notes</bold>: Data presented as mean (standard deviation) in minutes. Biases were tested using one-sample <italic toggle="yes">t</italic>-test against zero. P &lt; 0.01, *; P &lt; 0.05,** P &lt; 0.001 ***. Paired t-tests were conducted between Gen2 and Gen3 algorithms. Negative values represent underestimations. Individual biases were determined from differences between Gen2 and Gen3 with PSG before being collapsed into an average.</p></fn><fn id="tfn0005"><p><bold>Abbreviations</bold>: REM, rapid eye movement; TIB, time in bed; TST, total sleep time; WASO, wake after sleep onset.</p></fn></table-wrap-foot></table-wrap>
+</p>
+      </sec>
+      <sec id="s0004-s2002">
+        <title>4-Stage Sleep Classification Performance</title>
+        <p>Gen3 significantly outperformed Gen2 for all sleep measures, except for SOL, across all 3 nights, ds &gt; 0.36, ts &gt; 2.61, ps &lt; 0.01 (<xref rid="t0003" ref-type="table">Table 3</xref>). Notably, Gen3 performed on par with PSG for light sleep and SOL across all nights, ts &lt; 1.47, ps &gt; 0.14 (<xref rid="t0003" ref-type="table">Table 3</xref>), and for REM sleep and WASO on 2 nights, ts &lt; 1.70, ps &gt; 0.09. While deep sleep was significantly overestimated by Gen2 across all nights (40.8–49.9 minutes), ds &gt; 0.84, ts &gt; 6.05, ps &lt; 0.001; it was significantly underestimated by Gen3 – although to a lesser extent (13.8–14.6 minutes) on 2 nights, ds &gt; 0.46, ts &gt; 3.29, ps &lt; 0.01. Bland-Altman plots for sleep stages are illustrated in <xref rid="f0002" ref-type="fig">Figure 2A–E</xref>), and an example hypnogram from one participant is shown in <xref rid="f0003" ref-type="fig">Figure 3</xref> for sleep stages derived using the PSG, Gen2 and Gen3 algorithms.<fig position="float" id="f0003" fig-type="figure"><label>Figure 3</label><caption><p>Illustrative hypnogram from a single participant showing agreement of PSG, Oura Gen2 and Gen3 sleep staging.</p></caption><graphic xlink:href="NSS-14-645-g0004" content-type="print-only" position="float"/><attrib><bold>Abbreviation</bold>: REM, rapid eye movement sleep.</attrib></fig></p>
+        <p>Gen3 showed significantly improved 4-stage classification with 4-stage mean (SD) accuracy of 76.4% (0.06) over Gen 2ʹs 62.3% (0.07) accuracy, ds &gt; 1.48, ts &gt; 10.95, ps &lt; 0.001. Gen3 algorithm also significantly outperformed Gen2 for all sleep accuracy measures (ds &gt; 0.67, ts &gt; 5.05, ps &lt; 0.001, <xref rid="t0004" ref-type="table">Table 4</xref>), kappa (ds &gt; 0.97, ts &gt; 6.22, ps &lt; 0.001, <xref rid="t0005" ref-type="table">Table 5</xref>) and PABAK values (ds &gt; 0.67, ts &gt; 5.06, ps &lt; 0.001, <xref rid="t0005" ref-type="table">Table 5</xref>) – with moderate to ceiling levels of agreement values (0.56–0.85) shown for Gen3. Epoch by epoch sensitivity and specificity of sleep stages are illustrated in <underline><ext-link xlink:href="https://www.dovepress.com/get_supplementary_file.php?f=359789.docx" ext-link-type="uri">Supplementary Figures S1</ext-link></underline> and <underline><ext-link xlink:href="https://www.dovepress.com/get_supplementary_file.php?f=359789.docx" ext-link-type="uri">S2</ext-link></underline>.<table-wrap position="float" id="t0004"><label>Table 4</label><caption><p>Sleep Stages Accuracy Metrics, Referenced to PSG for Gen2 and Gen3 Algorithms</p></caption><table frame="hsides" rules="groups"><thead><tr><th rowspan="1" colspan="1"/><th rowspan="1" colspan="1"/><th rowspan="1" colspan="1">Gen2</th><th rowspan="1" colspan="1">Gen3</th><th rowspan="1" colspan="1">P value</th></tr></thead><tbody><tr><td rowspan="5" colspan="1">Night1</td><td rowspan="1" colspan="1">Light sleep accuracy</td><td rowspan="1" colspan="1">67.68 (6.45)</td><td rowspan="1" colspan="1">77.99 (7.38)</td><td rowspan="1" colspan="1">&lt;0.001</td></tr><tr><td rowspan="1" colspan="1">Deep sleep accuracy</td><td rowspan="1" colspan="1">83.06 (6.21)</td><td rowspan="1" colspan="1">91.25 (4.64)</td><td rowspan="1" colspan="1">&lt;0.001</td></tr><tr><td rowspan="1" colspan="1">REM sleep accuracy</td><td rowspan="1" colspan="1">85.9 (5.60)</td><td rowspan="1" colspan="1">90.51 (3.32)</td><td rowspan="1" colspan="1">&lt;0.001</td></tr><tr><td rowspan="1" colspan="1">Wake accuracy</td><td rowspan="1" colspan="1">88.86 (6.89)</td><td rowspan="1" colspan="1">92.47 (6.50)</td><td rowspan="1" colspan="1">&lt;0.001</td></tr><tr><td rowspan="1" colspan="1">4-Stage Accuracy</td><td rowspan="1" colspan="1">62.75 (7.63)</td><td rowspan="1" colspan="1">76.11 (7.75)</td><td rowspan="1" colspan="1">&lt;0.001</td></tr><tr><td rowspan="5" colspan="1">Night2</td><td rowspan="1" colspan="1">Light sleep accuracy</td><td rowspan="1" colspan="1">67.69 (5.32)</td><td rowspan="1" colspan="1">78.54 (4.76)</td><td rowspan="1" colspan="1">&lt;0.001</td></tr><tr><td rowspan="1" colspan="1">Deep sleep accuracy</td><td rowspan="1" colspan="1">83.32 (4.99)</td><td rowspan="1" colspan="1">91.9 (3.50)</td><td rowspan="1" colspan="1">&lt;0.001</td></tr><tr><td rowspan="1" colspan="1">REM sleep accuracy</td><td rowspan="1" colspan="1">85.04 (4.28)</td><td rowspan="1" colspan="1">89.89 (2.84)</td><td rowspan="1" colspan="1">&lt;0.001</td></tr><tr><td rowspan="1" colspan="1">Wake accuracy</td><td rowspan="1" colspan="1">89.14 (4.41)</td><td rowspan="1" colspan="1">92.04 (3.57)</td><td rowspan="1" colspan="1">&lt;0.001</td></tr><tr><td rowspan="1" colspan="1">4-Stage Accuracy</td><td rowspan="1" colspan="1">62.50 (7.58)</td><td rowspan="1" colspan="1">76.19 (7.07)</td><td rowspan="1" colspan="1">&lt;0.001</td></tr><tr><td rowspan="5" colspan="1">Night3</td><td rowspan="1" colspan="1">Light sleep accuracy</td><td rowspan="1" colspan="1">67.38 (4.68)</td><td rowspan="1" colspan="1">78.86 (3.66)</td><td rowspan="1" colspan="1">&lt;0.001</td></tr><tr><td rowspan="1" colspan="1">Deep sleep accuracy</td><td rowspan="1" colspan="1">83.26 (4.17)</td><td rowspan="1" colspan="1">91.93 (2.61)</td><td rowspan="1" colspan="1">&lt;0.001</td></tr><tr><td rowspan="1" colspan="1">REM sleep accuracy</td><td rowspan="1" colspan="1">84.9 (3.71)</td><td rowspan="1" colspan="1">90.06 (2.34)</td><td rowspan="1" colspan="1">&lt;0.001</td></tr><tr><td rowspan="1" colspan="1">Wake accuracy</td><td rowspan="1" colspan="1">89.24 (3.81)</td><td rowspan="1" colspan="1">92.40 (3.57)</td><td rowspan="1" colspan="1">&lt;0.001</td></tr><tr><td rowspan="1" colspan="1">4-Stage Accuracy</td><td rowspan="1" colspan="1">62.63 (9.01)</td><td rowspan="1" colspan="1">77.59 (6.62)</td><td rowspan="1" colspan="1">&lt;0.001</td></tr></tbody></table><table-wrap-foot><fn id="tfn0006"><p><bold>Note</bold>: Data presented as mean (standard deviation). Paired sample t-tests for wake, light, deep, REM sleep and 4-stage accuracies.</p></fn><fn id="tfn0007"><p><bold>Abbreviation</bold>: REM, rapid eye movement.</p></fn></table-wrap-foot></table-wrap>
+<table-wrap position="float" id="t0005"><label>Table 5</label><caption><p>Kappa and PABAK for 4-Stage Sleep Classification</p></caption><table frame="hsides" rules="groups"><thead><tr><th rowspan="1" colspan="1">Stage</th><th rowspan="1" colspan="1">Kappa Gen2</th><th rowspan="1" colspan="1">Kappa Gen3</th><th rowspan="1" colspan="1">P-value</th><th rowspan="1" colspan="1">PABAK Gen2</th><th rowspan="1" colspan="1">PABAK Gen3</th><th rowspan="1" colspan="1">P-value</th></tr></thead><tbody><tr><td rowspan="1" colspan="1">Wake Nt1</td><td rowspan="1" colspan="1">0.55 (0.18)</td><td rowspan="1" colspan="1">0.68 (0.16)</td><td rowspan="1" colspan="1">&lt;0.001</td><td rowspan="1" colspan="1">0.78 (0.14)</td><td rowspan="1" colspan="1">0.85 (0.13)</td><td rowspan="1" colspan="1">&lt;0.001</td></tr><tr><td rowspan="1" colspan="1">Wake Nt2</td><td rowspan="1" colspan="1">0.53 (0.13)</td><td rowspan="1" colspan="1">0.64 (0.14)</td><td rowspan="1" colspan="1">&lt;0.001</td><td rowspan="1" colspan="1">0.78 (0.09)</td><td rowspan="1" colspan="1">0.84 (0.10)</td><td rowspan="1" colspan="1">&lt;0.001</td></tr><tr><td rowspan="1" colspan="1">Wake Nt3</td><td rowspan="1" colspan="1">0.55 (0.11)</td><td rowspan="1" colspan="1">0.66 (0.11)</td><td rowspan="1" colspan="1">&lt;0.001</td><td rowspan="1" colspan="1">0.79 (0.08)</td><td rowspan="1" colspan="1">0.85 (0.07)</td><td rowspan="1" colspan="1">&lt;0.001</td></tr><tr><td rowspan="1" colspan="1">Light Nt1</td><td rowspan="1" colspan="1">0.36 (0.12)</td><td rowspan="1" colspan="1">0.56 (0.14)</td><td rowspan="1" colspan="1">&lt;0.001</td><td rowspan="1" colspan="1">0.35 (0.13)</td><td rowspan="1" colspan="1">0.56 (0.15)</td><td rowspan="1" colspan="1">&lt;0.001</td></tr><tr><td rowspan="1" colspan="1">Light Nt2</td><td rowspan="1" colspan="1">0.36 (0.10)</td><td rowspan="1" colspan="1">0.57 (0.09)</td><td rowspan="1" colspan="1">&lt;0.001</td><td rowspan="1" colspan="1">0.35 (0.11)</td><td rowspan="1" colspan="1">0.57 (0.10)</td><td rowspan="1" colspan="1">&lt;0.001</td></tr><tr><td rowspan="1" colspan="1">Light Nt3</td><td rowspan="1" colspan="1">0.35 (0.09)</td><td rowspan="1" colspan="1">0.57 (0.07)</td><td rowspan="1" colspan="1">&lt;0.001</td><td rowspan="1" colspan="1">0.35 (0.09)</td><td rowspan="1" colspan="1">0.58 (0.07)</td><td rowspan="1" colspan="1">&lt;0.001</td></tr><tr><td rowspan="1" colspan="1">Deep Nt1</td><td rowspan="1" colspan="1">0.43 (0.17)</td><td rowspan="1" colspan="1">0.58 (0.20)</td><td rowspan="1" colspan="1">&lt;0.001</td><td rowspan="1" colspan="1">0.66 (0.12)</td><td rowspan="1" colspan="1">0.82 (0.09)</td><td rowspan="1" colspan="1">&lt;0.001</td></tr><tr><td rowspan="1" colspan="1">Deep Nt2</td><td rowspan="1" colspan="1">0.46 (0.12)</td><td rowspan="1" colspan="1">0.64 (0.13)</td><td rowspan="1" colspan="1">&lt;0.001</td><td rowspan="1" colspan="1">0.67 (0.10)</td><td rowspan="1" colspan="1">0.84 (0.07)</td><td rowspan="1" colspan="1">&lt;0.001</td></tr><tr><td rowspan="1" colspan="1">Deep Nt3</td><td rowspan="1" colspan="1">0.47 (0.09)</td><td rowspan="1" colspan="1">0.64 (0.09)</td><td rowspan="1" colspan="1">&lt;0.001</td><td rowspan="1" colspan="1">0.67 (0.08)</td><td rowspan="1" colspan="1">0.84 (0.05)</td><td rowspan="1" colspan="1">&lt;0.001</td></tr><tr><td rowspan="1" colspan="1">REM Nt1</td><td rowspan="1" colspan="1">0.49 (0.21)</td><td rowspan="1" colspan="1">0.69 (0.15)</td><td rowspan="1" colspan="1">&lt;0.001</td><td rowspan="1" colspan="1">0.72 (0.11)</td><td rowspan="1" colspan="1">0.81 (0.07)</td><td rowspan="1" colspan="1">&lt;0.001</td></tr><tr><td rowspan="1" colspan="1">REM Nt2</td><td rowspan="1" colspan="1">0.49 (0.14)</td><td rowspan="1" colspan="1">0.67 (0.12)</td><td rowspan="1" colspan="1">&lt;0.001</td><td rowspan="1" colspan="1">0.70 (0.09)</td><td rowspan="1" colspan="1">0.80 (0.06)</td><td rowspan="1" colspan="1">&lt;0.001</td></tr><tr><td rowspan="1" colspan="1">REM Nt3</td><td rowspan="1" colspan="1">0.49 (0.12)</td><td rowspan="1" colspan="1">0.69 (0.08)</td><td rowspan="1" colspan="1">&lt;0.001</td><td rowspan="1" colspan="1">0.70 (0.07)</td><td rowspan="1" colspan="1">0.80 (0.05)</td><td rowspan="1" colspan="1">&lt;0.001</td></tr></tbody></table><table-wrap-foot><fn id="tfn0008"><p><bold>Notes</bold>: Mean (standard deviation) of kappa score and Prevalence adjusted, Bias adjusted kappa score of 4-stage sleep classification. T-tests were conducted between Gen2 and Gen3 algorithms.</p></fn><fn id="tfn0009"><p><bold>Abbreviations</bold>: REM, rapid eye movement; Nt, night; PABAK, Prevalence adjusted Bias adjusted kappa.</p></fn></table-wrap-foot></table-wrap>
+</p>
+        <p>When inspecting confusion matrices, it is apparent that both Gen2 and Gen3 algorithms tended to misclassify deep sleep as light sleep (<underline><ext-link xlink:href="https://www.dovepress.com/get_supplementary_file.php?f=359789.docx" ext-link-type="uri">Tables S1</ext-link></underline> and <underline><ext-link xlink:href="https://www.dovepress.com/get_supplementary_file.php?f=359789.docx" ext-link-type="uri">S2</ext-link></underline>). This occurred 19–28% of the time for Gen2, compared with 34–38% of the time in Gen3. However, although Gen2 classified deep sleep more accurately than Gen3, this came at the cost of poorer classification in wake, light, and REM sleep, resulting in poorer overall performance of the Gen2.</p>
+      </sec>
+      <sec id="s0004-s2003">
+        <title>Age and Sex Influences on Sleep Staging Accuracy</title>
+        <p>Linear mixed model analyses on biases for TST and sleep efficiency showed a significant age group by algorithm interaction (F(1,508) &gt; 10.13, p &lt; 0.002); as well as a significant sex by algorithm interaction (F(1,508) &gt; 4.32, p &lt; 0.04), whereby the Gen3 algorithm outperformed Gen2 in males and in younger participants (<xref rid="f0004" ref-type="fig">Figure 4</xref>). For biases of WASO and light sleep, significant interactions of age and algorithm were observed (F(1,510) &gt; 5.68, p &lt; 0.02) wherein younger subjects had higher gains in performance with the Gen3 algorithm (<xref rid="f0005" ref-type="fig">Figure 5</xref>). For biases of REM and deep sleep, significant interactions of sex and algorithm (F(1,509) &gt; 5.68, p &lt; 0.03) were driven by better performance of the Gen3 algorithm in males for REM sleep measurement and females for deep sleep (<xref rid="f0006" ref-type="fig">Figure 6</xref>). LMM analyses for biases of light and deep sleep also revealed a significant interaction of BMI and algorithm (F(1,510) &gt; 4.08, p &lt; 0.04). However, this effect size was too small to be of clinical significance, and thus not further discussed.<fig position="float" id="f0004" fig-type="figure"><label>Figure 4</label><caption><p>Estimated marginal means of (<bold>A</bold>) total sleep time and (<bold>B</bold>) sleep efficiency bias (PSG-Oura) by age group and sex. P &lt; 0.001 ***.</p></caption><graphic xlink:href="NSS-14-645-g0005" content-type="print-only" position="float"/><attrib><bold>Abbreviation:</bold> TST, Total sleep time.</attrib></fig><fig position="float" id="f0005" fig-type="figure"><label>Figure 5</label><caption><p>Light sleep and WASO measurement bias in young and old participants. P &lt; 0.01 *; P &lt; 0.001 ***.</p></caption><graphic xlink:href="NSS-14-645-g0006" content-type="print-only" position="float"/><attrib><bold>Abbreviation</bold>: WASO, Wake after sleep onset.</attrib></fig><fig position="float" id="f0006" fig-type="figure"><label>Figure 6</label><caption><p>REM sleep and deep sleep measurement bias in males and females. P &lt; 0.05 **; P &lt; 0.001 ***.</p></caption><graphic xlink:href="NSS-14-645-g0007" content-type="print-only" position="float"/><attrib><bold>Abbreviation</bold>: REM, rapid eye movement sleep.</attrib></fig></p>
+      </sec>
+    </sec>
+    <sec id="s0005">
+      <title>Discussion</title>
+      <p>The present study demonstrates how methodological improvements to sleep classification inferred from movement, heart rate and temperature data acquired through a memory-enhanced consumer sleep tracking device boosted the accuracy of detection and staging of sleep, across a range of ages and over 3 nights of in-home recording. The retrospectively applied algorithm significantly outperformed its predecessor in almost all sleep measurements and was comparable to PSG in its assessment of sleep onset latency, light sleep duration, WASO and REM sleep. Young participants (&lt;40 years) benefited more from the update, with significantly less measurement bias for TST, WASO, light sleep and sleep efficiency compared to those ≥40 years. Males showed greater improvements on TST and REM sleep measurement bias compared to females, while females benefitted more for deep sleep measures compared to males.</p>
+      <p>Illustrating the rapid improvement in consumer sleep trackers, the Oura Ring has gone through 3 major hardware and algorithm upgrades since its introduction in 2018. The performance of Gen3 reported here in field settings is superior to the reported sensitivity, specificity, and 4-stage classification accuracy of several current generation (as of mid 2021) consumer wearable devices that use PPG and accelerometry.<xref rid="cit0036" ref-type="bibr">36–39</xref> Improvements from the larger manufacturers are made possible by the application of machine learning to increasingly larger, more diverse and representative datasets.<xref rid="cit0040" ref-type="bibr">40</xref>,<xref rid="cit0041" ref-type="bibr">41</xref></p>
+      <p>In particular, the Gen3 algorithm was developed with machine learning using features derived from accelerometry, PPG-derived heart rate variability, temperature, combined with sensor-independent circadian features of sleep that model endogenous circadian rhythms and homeostatic sleep drive.<xref rid="cit0028" ref-type="bibr">28</xref> Due to large inter-individual differences in physiological measurements, normalization of these features on a per night basis also allowed for better discrimination of sleep stages within an individual. Finally, a large and diverse dataset was used to develop the Gen3 algorithm – utilizing training data from 3400 hours of sleep across 106 persons ranging in age from adolescents to adults ranging from 15–73 years of age from USA, Finland and Singapore.<xref rid="cit0028" ref-type="bibr">28</xref></p>
+      <p>In general, improvements in the Gen3 algorithm were greater for younger participants under 40 years old. Younger persons may move more while sleeping compared to mid-age persons, giving rise to an overestimation of WASO and underestimation of total sleep time.<xref rid="cit0042" ref-type="bibr">42</xref>,<xref rid="cit0043" ref-type="bibr">43</xref> Sex differences in sleep identification could be also related to greater motor activity during sleep observed in males.<xref rid="cit0042" ref-type="bibr">42</xref>,<xref rid="cit0044" ref-type="bibr">44</xref> Adjusting sensitivity to motion has been shown to improve accelerometry-based sleep-wake classification.<xref rid="cit0044" ref-type="bibr">44</xref> Interestingly, we did not find a difference between ring metrics worn on either hand, suggesting that hand placement may not matter for sleep assessment - unlike activity trackers that typically show increased step counts when worn on the dominant hand.<xref rid="cit0045" ref-type="bibr">45</xref></p>
+      <p>Despite improvements in N2 and REM sleep staging accuracy, classification of N3 sleep remains a challenge particularly for mid-age adults and older. This difficulty is tied to existing limitations in PSG sleep staging rules for groups exhibiting heterogeneous age-related changes in sleep physiology. For example, approximately 50% of older adults manifest slow waves that morphologically resemble those in younger persons but which do not meet AASM voltage criteria of 75 µV, making scoring ambiguous and inconsistent.<xref rid="cit0046" ref-type="bibr">46</xref> Overall, even the gold-standard PSG is subject to classification errors and inter-scorer differences. There is an average agreement of 80% between human scorers of PSG, and the labels of N3 and N1 in particular tend to demonstrate lower agreement than N2, and REM. This is particularly an issue for N1 for which inter-rater agreement is in the 50% range, and sleep latency is often computed to onset of N2.<xref rid="cit0047" ref-type="bibr">47–49</xref></p>
+      <p>To deal with fundamental issues in measurement of slow wave sleep in older persons, some groups have suggested the use of slow-wave activity (SWA) quantification which would preserve the measurement of slow waves by eliminating the current separation of NREM sleep into N2 and N3. Treating NREM sleep as a continuum instead of discrete stages has been advocated<xref rid="cit0046" ref-type="bibr">46</xref> and tested out in a recent clinical trial.<xref rid="cit0050" ref-type="bibr">50</xref> This approach has also been used in studies involving acoustic stimulation to boost slow oscillations.<xref rid="cit0051" ref-type="bibr">51</xref> Recent observations concerning heart rate changes in response to slow oscillations and sigma activity (in the frequency of sleep spindles) also motivate removal of the artificial boundary in NREM sleep classification.<xref rid="cit0052" ref-type="bibr">52</xref>,<xref rid="cit0053" ref-type="bibr">53</xref> Remapping sleep measurement using autonomic features to microarchitectural features represents an opportunity to advance sleep physiology. A further consideration is the decline in autonomic function in older adults,<xref rid="cit0054" ref-type="bibr">54</xref> particularly vagal influences during sleep<xref rid="cit0055" ref-type="bibr">55</xref> that could affect HRV measures used to discriminate NREM and REM sleep.<xref rid="cit0056" ref-type="bibr">56</xref></p>
+      <p>While sleep detection and staging improvements are progressive and desirable, they also present a concern with regard to data harmonization in longitudinal population health studies spanning several years or even decades. The initial investment in data collection can be protected by collecting and storing minimally processed sensor data at a temporal resolution that is a good trade-off between data quality, power consumption and speed of wireless data transmission for storage and analysis afforded by the technology of the day. The improved results obtained here were based on applying an updated analysis package to previously collected data and were made possible because the hardware had significantly more on-board memory. This approach should be carefully considered by all groups interested in long-term, population health studies.</p>
+    </sec>
+    <sec id="s0006">
+      <title>Limitations and Future Directions</title>
+      <p>Additional refinements in sleep/wake identification and sleep staging relative to PSG may be achieved by including age and sex in future models. Additionally, as participants involved in the training dataset<xref rid="cit0028" ref-type="bibr">28</xref> as well as the present study were pre-selected to be healthy, generalizability of our results to persons with medical conditions, particularly those with sleep or cardiovascular disorders needs to be systematically evaluated. Moreover, only C3 and C4 electrodes were used in this study, which may have limited the detection of slow waves in elderly subjects.</p>
+      <p>As of the time of writing, Oura has not finalized the “Gen 3” methodology for sleep stage classification in its commercial product and results of the finally released version may differ from those reported here. If anything, this underscores our points that methodology is still improving and it is valuable to collect data in a manner that allows retrospective applications of such constant developments.</p>
+    </sec>
+    <sec id="s0007">
+      <title>Conclusion</title>
+      <p>We provided a multi-night, in-field demonstration of the benefits of applying machine learning on large and diverse training data to refine sleep/wake detection and sleep staging in previously collected, minimally processed data. These findings provide clear evidence for the potential of consumer grade tools to collect data on sleep in population health studies that can be upgraded over time as our understanding of sleep physiology and its correlation with health and wellbeing evolve.</p>
+    </sec>
+  </body>
+  <back>
+    <ack>
+      <title>Acknowledgments</title>
+      <p>We would like to thank Hannu Kinnunen, for his thoughtful comments and discussions. We also thank Shamsul Azrin Bin Jamaludin, Chua Xin Yu, Nicole Yu, Christina Chen, Lau Te Yang, Kian Wong, Zhenghao Pu, Alyssa Ng and Centre for Sleep and Cognition research staff for their help in data collection and sleep scoring.</p>
+    </ack>
+    <sec id="s0008">
+      <title>Data Sharing Statement</title>
+      <p>Anonymized data are available from the authors (Dr. Ong Ju Lynn <email xlink:href="mailto:julynn.ong@nus.edu.sg">julynn.ong@nus.edu.sg</email>, and Dr. Golkashani <email xlink:href="mailto:E0153325@u.nus.edu">E0153325@u.nus.edu</email>) upon reasonable request, subject to review by an ethics committee.</p>
+    </sec>
+    <sec sec-type="COI-statement" id="s0009">
+      <title>Disclosure</title>
+      <p>Michael Chee and Ju Lynn Ong have a patent for the Z3-score framework. The authors report other conflicts of interest in this work.</p>
+    </sec>
+    <ref-list>
+      <title>References</title>
+      <ref id="cit0001">
+        <label>1.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Liang</surname>
+<given-names>J</given-names></string-name>, <string-name><surname>Xian</surname>
+<given-names>D</given-names></string-name>, <string-name><surname>Liu</surname>
+<given-names>X</given-names></string-name>, et al. <article-title>Usability study of mainstream wearable fitness devices: feature analysis and system usability scale evaluation</article-title>. <source><italic toggle="yes">JMIR mhealth uhealth</italic></source>. <year>2018</year>;<volume>6</volume>(<issue>11</issue>):<fpage>e11066</fpage>. doi:<pub-id pub-id-type="doi">10.2196/11066</pub-id><pub-id pub-id-type="pmid">30409767</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0002">
+        <label>2.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Kwon</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Kim</surname>
+<given-names>H</given-names></string-name>, <string-name><surname>Yeo</surname>
+<given-names>WH</given-names></string-name>. <article-title>Recent advances in wearable sensors and portable electronics for sleep monitoring</article-title>. <source><italic toggle="yes">iScience</italic></source>. <year>2021</year>;<volume>24</volume>(<issue>5</issue>):<fpage>102461</fpage>. doi:<pub-id pub-id-type="doi">10.1016/j.isci.2021.102461</pub-id><pub-id pub-id-type="pmid">34013173</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0003">
+        <label>3.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>de Zambotti</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Cellini</surname>
+<given-names>N</given-names></string-name>, <string-name><surname>Goldstone</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Colrain</surname>
+<given-names>IM</given-names></string-name>, <string-name><surname>Baker</surname>
+<given-names>FC</given-names></string-name>. <article-title>Wearable sleep technology in clinical and research settings</article-title>. <source><italic toggle="yes">Med Sci Sports Exerc</italic></source>. <year>2019</year>;<volume>51</volume>(<issue>7</issue>):<fpage>1538</fpage>–<lpage>1557</lpage>. doi:<pub-id pub-id-type="doi">10.1249/MSS.0000000000001947</pub-id><pub-id pub-id-type="pmid">30789439</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0004">
+        <label>4.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Chong</surname>
+<given-names>KPL</given-names></string-name>, <string-name><surname>Guo</surname>
+<given-names>JZ</given-names></string-name>, <string-name><surname>Deng</surname>
+<given-names>X</given-names></string-name>, <string-name><surname>Woo</surname>
+<given-names>BKP</given-names></string-name>. <article-title>Consumer perceptions of wearable technology devices: retrospective review and analysis</article-title>. <source><italic toggle="yes">JMIR mhealth uhealth</italic></source>. <year>2020</year>;<volume>8</volume>(<issue>4</issue>):<fpage>e17544</fpage>. doi:<pub-id pub-id-type="doi">10.2196/17544</pub-id><pub-id pub-id-type="pmid">32310148</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0005">
+        <label>5.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Perez-Pozuelo</surname>
+<given-names>I</given-names></string-name>, <string-name><surname>Zhai</surname>
+<given-names>B</given-names></string-name>, <string-name><surname>Palotti</surname>
+<given-names>J</given-names></string-name>, et al. <article-title>The future of sleep health: a data-driven revolution in sleep science and medicine</article-title>. <source><italic toggle="yes">NPJ Digit Med</italic></source>. <year>2020</year>;<volume>3</volume>(<issue>1</issue>):<fpage>42</fpage>. doi:<pub-id pub-id-type="doi">10.1038/s41746-020-0244-4</pub-id><pub-id pub-id-type="pmid">32219183</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0006">
+        <label>6.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Grandner</surname>
+<given-names>MA</given-names></string-name>, <string-name><surname>Lujan</surname>
+<given-names>MR</given-names></string-name>, <string-name><surname>Ghani</surname>
+<given-names>SB</given-names></string-name>. <article-title>Sleep-tracking technology in scientific research: looking to the future</article-title>. <source><italic toggle="yes">Sleep</italic></source>. <year>2021</year>;<volume>44</volume>(<issue>5</issue>). doi:<pub-id pub-id-type="doi">10.1093/sleep/zsab071</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0007">
+        <label>7.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>de Zambotti</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Cellini</surname>
+<given-names>N</given-names></string-name>, <string-name><surname>Menghini</surname>
+<given-names>L</given-names></string-name>, <string-name><surname>Sarlo</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Baker</surname>
+<given-names>FC</given-names></string-name>. <article-title>Sensors capabilities, performance, and use of consumer sleep technology</article-title>. <source><italic toggle="yes">Sleep Med Clin</italic></source>. <year>2020</year>;<volume>15</volume>(<issue>1</issue>):<fpage>1</fpage>–<lpage>30</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.jsmc.2019.11.003</pub-id><pub-id pub-id-type="pmid">32005346</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0008">
+        <label>8.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Van de Water</surname>
+<given-names>ALEXANDERTM</given-names></string-name>, <string-name><surname>Holmes</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Hurley</surname>
+<given-names>DA</given-names></string-name>. <article-title>Objective measurements of sleep for non-laboratory settings as alternatives to polysomnography - A systematic review</article-title>. <source><italic toggle="yes">J Sleep Res</italic></source>. <year>2011</year>;<volume>20</volume>(<issue>1pt2</issue>):<fpage>183</fpage>–<lpage>200</lpage>. doi:<pub-id pub-id-type="doi">10.1111/j.1365-2869.2009.00814.x</pub-id><pub-id pub-id-type="pmid">20374444</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0009">
+        <label>9.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Meltzer</surname>
+<given-names>LJ</given-names></string-name>, <string-name><surname>Hiruma</surname>
+<given-names>LS</given-names></string-name>, <string-name><surname>Avis</surname>
+<given-names>K</given-names></string-name>, <string-name><surname>Montgomery-Downs</surname>
+<given-names>H</given-names></string-name>, <string-name><surname>Valentin</surname>
+<given-names>J</given-names></string-name>. <article-title>Comparison of a commercial accelerometer with polysomnography and actigraphy in children and adolescents</article-title>. <source><italic toggle="yes">Sleep</italic></source>. <year>2015</year>;<volume>38</volume>(<issue>8</issue>):<fpage>1323</fpage>–<lpage>1330</lpage>. doi:<pub-id pub-id-type="doi">10.5665/sleep.4918</pub-id><pub-id pub-id-type="pmid">26118555</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0010">
+        <label>10.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Schoch</surname>
+<given-names>SF</given-names></string-name>, <string-name><surname>Kurth</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Werner</surname>
+<given-names>H</given-names></string-name>. <article-title>Actigraphy in sleep research with infants and young children: current practices and future benefits of standardized reporting</article-title>. <source><italic toggle="yes">J Sleep Res</italic></source>. <year>2021</year>;<volume>30</volume>(<issue>3</issue>):<fpage>e13134</fpage>. doi:<pub-id pub-id-type="doi">10.1111/jsr.13134</pub-id><pub-id pub-id-type="pmid">32638500</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0011">
+        <label>11.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Neikrug</surname>
+<given-names>AB</given-names></string-name>, <string-name><surname>Chen</surname>
+<given-names>IY</given-names></string-name>, <string-name><surname>Palmer</surname>
+<given-names>JR</given-names></string-name>, et al. <article-title>Characterizing behavioral activity rhythms in older adults using actigraphy</article-title>. <source><italic toggle="yes">Sensors</italic></source>. <year>2020</year>;<volume>20</volume>(<issue>2</issue>):<fpage>549</fpage>. doi:<pub-id pub-id-type="doi">10.3390/s20020549</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0012">
+        <label>12.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Ancoli-Israel</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Cole</surname>
+<given-names>R</given-names></string-name>, <string-name><surname>Alessi</surname>
+<given-names>C</given-names></string-name>, <string-name><surname>Chambers</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Moorcroft</surname>
+<given-names>W</given-names></string-name>, <string-name><surname>Pollak</surname>
+<given-names>CP</given-names></string-name>. <article-title>The role of actigraphy in the study of sleep and circadian rhythms</article-title>. <source><italic toggle="yes">Sleep</italic></source>. <year>2003</year>;<volume>26</volume>(<issue>3</issue>):<fpage>342</fpage>–<lpage>392</lpage>. doi:<pub-id pub-id-type="doi">10.1093/sleep/26.3.342</pub-id><pub-id pub-id-type="pmid">12749557</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0013">
+        <label>13.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Sadeh</surname>
+<given-names>A</given-names></string-name>. <article-title>The role and validity of actigraphy in sleep medicine: an update</article-title>. <source><italic toggle="yes">Sleep Med Rev</italic></source>. <year>2011</year>;<volume>15</volume>(<issue>4</issue>):<fpage>259</fpage>–<lpage>267</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.smrv.2010.10.001</pub-id><pub-id pub-id-type="pmid">21237680</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0014">
+        <label>14.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Smith</surname>
+<given-names>MT</given-names></string-name>, <string-name><surname>McCrae</surname>
+<given-names>CS</given-names></string-name>, <string-name><surname>Cheung</surname>
+<given-names>J</given-names></string-name>, et al. <article-title>Use of actigraphy for the evaluation of sleep disorders and circadian rhythm sleep-wake disorders: an American academy of sleep medicine systematic review, meta-analysis, and GRADE assessment</article-title>. <source><italic toggle="yes">J Clin Sleep Med</italic></source>. <year>2018</year>;<volume>14</volume>(<issue>7</issue>):<fpage>1209</fpage>–<lpage>1230</lpage>. doi:<pub-id pub-id-type="doi">10.5664/jcsm.7228</pub-id><pub-id pub-id-type="pmid">29991438</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0015">
+        <label>15.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Lewis</surname>
+<given-names>C</given-names></string-name>, <string-name><surname>Lewis</surname>
+<given-names>K</given-names></string-name>, <string-name><surname>Kitchiner</surname>
+<given-names>N</given-names></string-name>, <string-name><surname>Isaac</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Jones</surname>
+<given-names>I</given-names></string-name>, <string-name><surname>Bisson</surname>
+<given-names>JI</given-names></string-name>. <article-title>Sleep disturbance in post-traumatic stress disorder (PTSD): a systematic review and meta-analysis of actigraphy studies</article-title>. <source><italic toggle="yes">Eur J Psychotraumatol</italic></source>. <year>2020</year>;<volume>11</volume>(<issue>1</issue>):<fpage>1767349</fpage>. doi:<pub-id pub-id-type="doi">10.1080/20008198.2020.1767349</pub-id><pub-id pub-id-type="pmid">33029311</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0016">
+        <label>16.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>De Crescenzo</surname>
+<given-names>F</given-names></string-name>, <string-name><surname>Licchelli</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Ciabattini</surname>
+<given-names>M</given-names></string-name>, et al. <article-title>The use of actigraphy in the monitoring of sleep and activity in ADHD: a meta-analysis</article-title>. <source><italic toggle="yes">Sleep Med Rev</italic></source>. <year>2016</year>;<volume>26</volume>:<fpage>9</fpage>–<lpage>20</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.smrv.2015.04.002</pub-id><pub-id pub-id-type="pmid">26163053</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0017">
+        <label>17.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Colrain</surname>
+<given-names>IM</given-names></string-name>, <string-name><surname>Trinder</surname>
+<given-names>J</given-names></string-name>, <string-name><surname>Fraser</surname>
+<given-names>G</given-names></string-name>, <string-name><surname>Wilson</surname>
+<given-names>GV</given-names></string-name>. <article-title>Ventilation during sleep onset</article-title>. <source><italic toggle="yes">J Appl Physiol</italic></source>. <year>1987</year>;<volume>63</volume>(<issue>5</issue>):<fpage>2067</fpage>–<lpage>2074</lpage>. doi:<pub-id pub-id-type="doi">10.1152/jappl.1987.63.5.2067</pub-id><pub-id pub-id-type="pmid">3693239</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0018">
+        <label>18.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Burgess</surname>
+<given-names>HJ</given-names></string-name>, <string-name><surname>Kleiman</surname>
+<given-names>J</given-names></string-name>, <string-name><surname>Trinder</surname>
+<given-names>J</given-names></string-name>. <article-title>Cardiac activity during sleep onset</article-title>. <source><italic toggle="yes">Psychophysiology</italic></source>. <year>1999</year>;<volume>36</volume>(<issue>3</issue>):<fpage>298</fpage>–<lpage>306</lpage>. doi:<pub-id pub-id-type="doi">10.1017/s0048577299980198</pub-id><pub-id pub-id-type="pmid">10352553</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0019">
+        <label>19.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Toscani</surname>
+<given-names>L</given-names></string-name>, <string-name><surname>Gangemi</surname>
+<given-names>PF</given-names></string-name>, <string-name><surname>Parigi</surname>
+<given-names>A</given-names></string-name>, et al. <article-title>Human heart rate variability and sleep stages</article-title>. <source><italic toggle="yes">Ital J Neurol Sci</italic></source>. <year>1996</year>;<volume>17</volume>(<issue>6</issue>):<fpage>437</fpage>–<lpage>439</lpage>. doi:<pub-id pub-id-type="doi">10.1007/BF01997720</pub-id><pub-id pub-id-type="pmid">8978452</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0020">
+        <label>20.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Xiao</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Yan</surname>
+<given-names>H</given-names></string-name>, <string-name><surname>Song</surname>
+<given-names>J</given-names></string-name>, <string-name><surname>Yang</surname>
+<given-names>Y</given-names></string-name>, <string-name><surname>Yang</surname>
+<given-names>X</given-names></string-name>. <article-title>Sleep stages classification based on heart rate variability and random forest</article-title>. <source><italic toggle="yes">Biomed Signal Process Control</italic></source>. <year>2013</year>;<volume>8</volume>(<issue>6</issue>):<fpage>624</fpage>–<lpage>633</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.bspc.2013.06.001</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0021">
+        <label>21.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Raymann</surname>
+<given-names>RJ</given-names></string-name>, <string-name><surname>Swaab</surname>
+<given-names>DF</given-names></string-name>, <string-name><surname>Van Someren</surname>
+<given-names>EJ</given-names></string-name>. <article-title>Skin temperature and sleep-onset latency: changes with age and insomnia</article-title>. <source><italic toggle="yes">Physiol Behav</italic></source>. <year>2007</year>;<volume>90</volume>(<issue>2–3</issue>):<fpage>257</fpage>–<lpage>266</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.physbeh.2006.09.008</pub-id><pub-id pub-id-type="pmid">17070562</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0022">
+        <label>22.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Cuesta</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Boudreau</surname>
+<given-names>P</given-names></string-name>, <string-name><surname>Cermakian</surname>
+<given-names>N</given-names></string-name>, <string-name><surname>Boivin</surname>
+<given-names>DB</given-names></string-name>. <article-title>Skin temperature rhythms in humans respond to changes in the timing of sleep and light</article-title>. <source><italic toggle="yes">J Biol Rhythms</italic></source>. <year>2017</year>;<volume>32</volume>(<issue>3</issue>):<fpage>257</fpage>–<lpage>273</lpage>. doi:<pub-id pub-id-type="doi">10.1177/0748730417702974</pub-id><pub-id pub-id-type="pmid">28569119</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0023">
+        <label>23.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Beattie</surname>
+<given-names>Z</given-names></string-name>, <string-name><surname>Oyang</surname>
+<given-names>Y</given-names></string-name>, <string-name><surname>Statan</surname>
+<given-names>A</given-names></string-name>, et al. <article-title>Estimation of sleep stages in a healthy adult population from optical plethysmography and accelerometer signals</article-title>. <source><italic toggle="yes">Physiol Meas</italic></source>. <year>2017</year>;<volume>38</volume>(<issue>11</issue>):<fpage>1968</fpage>–<lpage>1979</lpage>. doi:<pub-id pub-id-type="doi">10.1088/1361-6579/aa9047</pub-id><pub-id pub-id-type="pmid">29087960</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0024">
+        <label>24.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Rentz</surname>
+<given-names>LE</given-names></string-name>, <string-name><surname>Ulman</surname>
+<given-names>HK</given-names></string-name>, <string-name><surname>Galster</surname>
+<given-names>SM</given-names></string-name>. <article-title>Deconstructing commercial wearable technology: contributions toward accurate and free-living monitoring of sleep</article-title>. <source><italic toggle="yes">Sensors</italic></source>. <year>2021</year>;<volume>21</volume>(<issue>15</issue>):<fpage>5071</fpage>. doi:<pub-id pub-id-type="doi">10.3390/s21155071</pub-id><pub-id pub-id-type="pmid">34372308</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0025">
+        <label>25.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Khosla</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Deak</surname>
+<given-names>MC</given-names></string-name>, <string-name><surname>Gault</surname>
+<given-names>D</given-names></string-name>, et al. <article-title>Consumer sleep technology: an American academy of sleep medicine position statement</article-title>. <source><italic toggle="yes">J Clin Sleep Med</italic></source>. <year>2018</year>;<volume>14</volume>(<issue>5</issue>):<fpage>877</fpage>–<lpage>880</lpage>. doi:<pub-id pub-id-type="doi">10.5664/jcsm.7128</pub-id><pub-id pub-id-type="pmid">29734997</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0026">
+        <label>26.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Chinoy</surname>
+<given-names>ED</given-names></string-name>, <string-name><surname>Cuellar</surname>
+<given-names>JA</given-names></string-name>, <string-name><surname>Huwa</surname>
+<given-names>KE</given-names></string-name>, et al. <article-title>Performance of seven consumer sleep-tracking devices compared with polysomnography</article-title>. <source><italic toggle="yes">Sleep</italic></source>. <year>2021</year>;<volume>44</volume>(<issue>5</issue>). doi:<pub-id pub-id-type="doi">10.1093/sleep/zsaa291</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0027">
+        <label>27.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Roberts</surname>
+<given-names>DM</given-names></string-name>, <string-name><surname>Schade</surname>
+<given-names>MM</given-names></string-name>, <string-name><surname>Mathew</surname>
+<given-names>GM</given-names></string-name>, <string-name><surname>Gartenberg</surname>
+<given-names>D</given-names></string-name>, <string-name><surname>Buxton</surname>
+<given-names>OM</given-names></string-name>. <article-title>Detecting sleep using heart rate and motion data from multisensor consumer-grade wearables, relative to wrist actigraphy and polysomnography</article-title>. <source><italic toggle="yes">Sleep</italic></source>. <year>2020</year>;<volume>43</volume>(<issue>7</issue>). doi:<pub-id pub-id-type="doi">10.1093/sleep/zsaa045</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0028">
+        <label>28.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Altini</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Kinnunen</surname>
+<given-names>H</given-names></string-name>. <article-title>The promise of sleep: a multi-sensor approach for accurate sleep stage detection using the Oura Ring</article-title>. <source><italic toggle="yes">Sensors</italic></source>. <year>2021</year>;<volume>21</volume>(<issue>13</issue>). doi:<pub-id pub-id-type="doi">10.3390/s21134302</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0029">
+        <label>29.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Johns</surname>
+<given-names>MW</given-names></string-name>. <article-title>A new method for measuring daytime sleepiness: the Epworth sleepiness scale</article-title>. <source><italic toggle="yes">sleep</italic></source>. <year>1991</year>;<volume>14</volume>(<issue>6</issue>):<fpage>540</fpage>–<lpage>545</lpage>. doi:<pub-id pub-id-type="doi">10.1093/sleep/14.6.540</pub-id><pub-id pub-id-type="pmid">1798888</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0030">
+        <label>30.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Patanaik</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Ong</surname>
+<given-names>JL</given-names></string-name>, <string-name><surname>Gooley</surname>
+<given-names>JJ</given-names></string-name>, <string-name><surname>Ancoli-Israel</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Chee</surname>
+<given-names>MWL</given-names></string-name>. <article-title>An end-to-end framework for real-time automatic sleep stage classification</article-title>. <source><italic toggle="yes">Sleep</italic></source>. <year>2018</year>;<volume>41</volume>(<issue>5</issue>). doi:<pub-id pub-id-type="doi">10.1093/sleep/zsy041</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0031">
+        <label>31.</label>
+        <mixed-citation publication-type="book"><string-name><surname>Ibert</surname>
+<given-names>C</given-names></string-name>, <string-name><surname>Ancoli-Israel</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Chesson</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>The</surname>
+<given-names>QS</given-names></string-name>. <source><italic toggle="yes">AASM Manual for the Scoring of Sleep and Associated Events: Rules, Terminology and Technical Specification</italic></source>. <publisher-loc>Westchester</publisher-loc>: <publisher-name>American Academy of Sleep Medicine</publisher-name>; <year>2007</year>.</mixed-citation>
+      </ref>
+      <ref id="cit0032">
+        <label>32.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Menghini</surname>
+<given-names>L</given-names></string-name>, <string-name><surname>Cellini</surname>
+<given-names>N</given-names></string-name>, <string-name><surname>Goldstone</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Baker</surname>
+<given-names>FC</given-names></string-name>, <string-name><surname>de Zambotti</surname>
+<given-names>M</given-names></string-name>. <article-title>A standardized framework for testing the performance of sleep-tracking technology: step-by-step guidelines and open-source code</article-title>. <source><italic toggle="yes">Sleep</italic></source>. <year>2021</year>;<volume>44</volume>(<issue>2</issue>). doi:<pub-id pub-id-type="doi">10.1093/sleep/zsaa170</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0033">
+        <label>33.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Lorenzo</surname>
+<given-names>JL</given-names></string-name>, <string-name><surname>Barbanoj</surname>
+<given-names>MJ</given-names></string-name>. <article-title>Variability of sleep parameters across multiple laboratory sessions in healthy young subjects: the “very first night effect”</article-title>. <source><italic toggle="yes">Psychophysiology</italic></source>. <year>2002</year>;<volume>39</volume>(<issue>4</issue>):<fpage>409</fpage>–<lpage>413</lpage>. doi:<pub-id pub-id-type="doi">10.1111/1469-8986.3940409</pub-id><pub-id pub-id-type="pmid">12212632</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0034">
+        <label>34.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Tamaki</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Nittono</surname>
+<given-names>H</given-names></string-name>, <string-name><surname>Hayashi</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Hori</surname>
+<given-names>T</given-names></string-name>. <article-title>Examination of the first-night effect during the sleep-onset period</article-title>. <source><italic toggle="yes">Sleep</italic></source>. <year>2005</year>;<volume>28</volume>(<issue>2</issue>):<fpage>195</fpage>–<lpage>202</lpage>. doi:<pub-id pub-id-type="doi">10.1093/sleep/28.2.195</pub-id><pub-id pub-id-type="pmid">16171243</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0035">
+        <label>35.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Byrt</surname>
+<given-names>T</given-names></string-name>, <string-name><surname>Bishop</surname>
+<given-names>J</given-names></string-name>, <string-name><surname>Carlin</surname>
+<given-names>JB</given-names></string-name>. <article-title>Bias, prevalence and kappa</article-title>. <source><italic toggle="yes">J Clin Epidemiol</italic></source>. <year>1993</year>;<volume>46</volume>(<issue>5</issue>):<fpage>423</fpage>–<lpage>429</lpage>. doi:<pub-id pub-id-type="doi">10.1016/0895-4356(93)90018-v</pub-id><pub-id pub-id-type="pmid">8501467</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0036">
+        <label>36.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Haghayegh</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Khoshnevis</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Smolensky</surname>
+<given-names>MH</given-names></string-name>, <string-name><surname>Diller</surname>
+<given-names>KR</given-names></string-name>, <string-name><surname>Castriotta</surname>
+<given-names>RJ</given-names></string-name>. <article-title>Accuracy of wristband fitbit models in assessing sleep: systematic review and meta-analysis</article-title>. <source><italic toggle="yes">J Med Internet Res</italic></source>. <year>2019</year>;<volume>21</volume>(<issue>11</issue>):<fpage>e16273</fpage>. doi:<pub-id pub-id-type="doi">10.2196/16273</pub-id><pub-id pub-id-type="pmid">31778122</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0037">
+        <label>37.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Miller</surname>
+<given-names>DJ</given-names></string-name>, <string-name><surname>Lastella</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Scanlan</surname>
+<given-names>AT</given-names></string-name>, et al. <article-title>A validation study of the WHOOP strap against polysomnography to assess sleep</article-title>. <source><italic toggle="yes">J Sports Sci</italic></source>. <year>2020</year>;<volume>38</volume>(<issue>22</issue>):<fpage>2631</fpage>–<lpage>2636</lpage>. doi:<pub-id pub-id-type="doi">10.1080/02640414.2020.1797448</pub-id><pub-id pub-id-type="pmid">32713257</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0038">
+        <label>38.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Walch</surname>
+<given-names>O</given-names></string-name>, <string-name><surname>Huang</surname>
+<given-names>Y</given-names></string-name>, <string-name><surname>Forger</surname>
+<given-names>D</given-names></string-name>, <string-name><surname>Goldstein</surname>
+<given-names>C</given-names></string-name>. <article-title>Sleep stage prediction with raw acceleration and photoplethysmography heart rate data derived from a consumer wearable device</article-title>. <source><italic toggle="yes">Sleep</italic></source>. <year>2019</year>;<volume>42</volume>(<issue>12</issue>). doi:<pub-id pub-id-type="doi">10.1093/sleep/zsz180</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0039">
+        <label>39.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Stone</surname>
+<given-names>JD</given-names></string-name>, <string-name><surname>Rentz</surname>
+<given-names>LE</given-names></string-name>, <string-name><surname>Forsey</surname>
+<given-names>J</given-names></string-name>, et al. <article-title>Evaluations of commercial sleep technologies for objective monitoring during routine sleeping conditions</article-title>. <source><italic toggle="yes">Nat Sci Sleep</italic></source>. <year>2020</year>;<volume>12</volume>:<fpage>821</fpage>–<lpage>842</lpage>. doi:<pub-id pub-id-type="doi">10.2147/NSS.S270705</pub-id><pub-id pub-id-type="pmid">33149712</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0040">
+        <label>40.</label>
+        <mixed-citation publication-type="newspaper"><string-name><surname>Liang</surname>
+<given-names>Z</given-names></string-name>, <string-name><surname>Martell</surname>
+<given-names>MAC</given-names></string-name>. <article-title>Achieving accurate ubiquitous sleep sensing with consumer wearable activity wristbands using multi-class imbalanced classification</article-title>. <source>IEEE</source>; <year>2019</year>:<fpage>768</fpage>–<lpage>775</lpage>.</mixed-citation>
+      </ref>
+      <ref id="cit0041">
+        <label>41.</label>
+        <mixed-citation publication-type="newspaper"><string-name><surname>Liang</surname>
+<given-names>Z</given-names></string-name>, <string-name><surname>Chapa-Martell</surname>
+<given-names>MA</given-names></string-name>. <article-title>Combining resampling and machine learning to improve sleep-wake detection of Fitbit wristbands</article-title>. <source>IEEE</source>; <year>2019</year>:<fpage>1</fpage>–<lpage>3</lpage>.</mixed-citation>
+      </ref>
+      <ref id="cit0042">
+        <label>42.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Meltzer</surname>
+<given-names>LJ</given-names></string-name>, <string-name><surname>Short</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Booster</surname>
+<given-names>GD</given-names></string-name>, et al. <article-title>Pediatric motor activity during sleep as measured by actigraphy</article-title>. <source><italic toggle="yes">Sleep</italic></source>. <year>2019</year>;<volume>42</volume>(<issue>1</issue>). doi:<pub-id pub-id-type="doi">10.1093/sleep/zsy196</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0043">
+        <label>43.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Short</surname>
+<given-names>MA</given-names></string-name>, <string-name><surname>Gradisar</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Lack</surname>
+<given-names>LC</given-names></string-name>, <string-name><surname>Wright</surname>
+<given-names>H</given-names></string-name>, <string-name><surname>Carskadon</surname>
+<given-names>MA</given-names></string-name>. <article-title>The discrepancy between actigraphic and sleep diary measures of sleep in adolescents</article-title>. <source><italic toggle="yes">Sleep Med</italic></source>. <year>2012</year>;<volume>13</volume>(<issue>4</issue>):<fpage>378</fpage>–<lpage>384</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.sleep.2011.11.005</pub-id><pub-id pub-id-type="pmid">22437142</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0044">
+        <label>44.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Lee</surname>
+<given-names>XK</given-names></string-name>, <string-name><surname>Chee</surname>
+<given-names>N</given-names></string-name>, <string-name><surname>Ong</surname>
+<given-names>JL</given-names></string-name>, et al. <article-title>Validation of a consumer sleep wearable device with actigraphy and polysomnography in adolescents across sleep opportunity manipulations</article-title>. <source><italic toggle="yes">J Clin Sleep Med</italic></source>. <year>2019</year>;<volume>15</volume>(<issue>9</issue>):<fpage>1337</fpage>–<lpage>1346</lpage>. doi:<pub-id pub-id-type="doi">10.5664/jcsm.7932</pub-id><pub-id pub-id-type="pmid">31538605</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0045">
+        <label>45.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Park</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Toth</surname>
+<given-names>LP</given-names></string-name>, <string-name><surname>Hibbing</surname>
+<given-names>PR</given-names></string-name>, et al. <article-title>Dominant vs. non-dominant wrist placement of activity monitors: impact on steps per day</article-title>. <source><italic toggle="yes">JMPB</italic></source>. <year>2019</year>;<volume>2</volume>(<issue>2</issue>):<fpage>118</fpage>–<lpage>123</lpage>. doi:<pub-id pub-id-type="doi">10.1123/jmpb.2018-0060</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0046">
+        <label>46.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Muehlroth</surname>
+<given-names>BE</given-names></string-name>, <string-name><surname>Werkle-Bergner</surname>
+<given-names>M</given-names></string-name>. <article-title>Understanding the interplay of sleep and aging: methodological challenges</article-title>. <source><italic toggle="yes">Psychophysiology</italic></source>. <year>2020</year>;<volume>57</volume>(<issue>3</issue>):<fpage>e13523</fpage>. doi:<pub-id pub-id-type="doi">10.1111/psyp.13523</pub-id><pub-id pub-id-type="pmid">31930523</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0047">
+        <label>47.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Basner</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Griefahn</surname>
+<given-names>B</given-names></string-name>, <string-name><surname>Penzel</surname>
+<given-names>T</given-names></string-name>. <article-title>Inter-rater agreement in sleep stage classification between centers with different backgrounds</article-title>. <source><italic toggle="yes">Somnologie</italic></source>. <year>2008</year>;<volume>12</volume>(<issue>1</issue>):<fpage>75</fpage>–<lpage>84</lpage>. doi:<pub-id pub-id-type="doi">10.1007/s11818-008-0327-y</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0048">
+        <label>48.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Rosenberg</surname>
+<given-names>RS</given-names></string-name>, <string-name><surname>Van Hout</surname>
+<given-names>S</given-names></string-name>. <article-title>The American academy of sleep medicine inter-scorer reliability program: sleep stage scoring</article-title>. <source><italic toggle="yes">J Clin Sleep Med</italic></source>. <year>2013</year>;<volume>9</volume>(<issue>1</issue>):<fpage>81</fpage>–<lpage>87</lpage>. doi:<pub-id pub-id-type="doi">10.5664/jcsm.2350</pub-id><pub-id pub-id-type="pmid">23319910</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0049">
+        <label>49.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Danker‐Hopfe</surname>
+<given-names>H</given-names></string-name>, <string-name><surname>Kunz</surname>
+<given-names>D</given-names></string-name>, <string-name><surname>Gruber</surname>
+<given-names>G</given-names></string-name>, et al. <article-title>Interrater reliability between scorers from eight European sleep laboratories in subjects with different sleep disorders</article-title>. <source><italic toggle="yes">J Sleep Res</italic></source>. <year>2004</year>;<volume>13</volume>(<issue>1</issue>):<fpage>63</fpage>–<lpage>69</lpage>. doi:<pub-id pub-id-type="doi">10.1046/j.1365-2869.2003.00375.x</pub-id><pub-id pub-id-type="pmid">14996037</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0050">
+        <label>50.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Lucey</surname>
+<given-names>BP</given-names></string-name>, <string-name><surname>Wisch</surname>
+<given-names>J</given-names></string-name>, <string-name><surname>Boerwinkle</surname>
+<given-names>AH</given-names></string-name>, et al. <article-title>Sleep and longitudinal cognitive performance in preclinical and early symptomatic Alzheimer’s disease</article-title>. <source><italic toggle="yes">Brain</italic></source>. <year>2021</year>;<volume>144</volume>(<issue>9</issue>):<fpage>2852</fpage>–<lpage>2862</lpage>. doi:<pub-id pub-id-type="doi">10.1093/brain/awab272</pub-id><pub-id pub-id-type="pmid">34668959</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0051">
+        <label>51.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Papalambros</surname>
+<given-names>NA</given-names></string-name>, <string-name><surname>Santostasi</surname>
+<given-names>G</given-names></string-name>, <string-name><surname>Malkani</surname>
+<given-names>RG</given-names></string-name>, et al. <article-title>Acoustic enhancement of sleep slow oscillations and concomitant memory improvement in older adults</article-title>. <source><italic toggle="yes">Front Hum Neurosci</italic></source>. <year>2017</year>;<volume>11</volume>:<fpage>109</fpage>. doi:<pub-id pub-id-type="doi">10.3389/fnhum.2017.00109</pub-id><pub-id pub-id-type="pmid">28337134</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0052">
+        <label>52.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Mikutta</surname>
+<given-names>C</given-names></string-name>, <string-name><surname>Wenke</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Spiegelhalder</surname>
+<given-names>K</given-names></string-name>, et al. <article-title>Co-ordination of brain and heart oscillations during non-rapid eye movement sleep</article-title>. <source><italic toggle="yes">J Sleep Res</italic></source>. <year>2021</year>;<volume>31</volume>(<issue>2</issue>):<fpage>e13466</fpage>. doi:<pub-id pub-id-type="doi">10.1111/jsr.13466</pub-id><pub-id pub-id-type="pmid">34467582</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0053">
+        <label>53.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Naji</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Krishnan</surname>
+<given-names>GP</given-names></string-name>, <string-name><surname>McDevitt</surname>
+<given-names>EA</given-names></string-name>, <string-name><surname>Bazhenov</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Mednick</surname>
+<given-names>SC</given-names></string-name>. <article-title>Coupling of autonomic and central events during sleep benefits declarative memory consolidation</article-title>. <source><italic toggle="yes">Neurobiol Learn Mem</italic></source>. <year>2019</year>;<volume>157</volume>:<fpage>139</fpage>–<lpage>150</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.nlm.2018.12.008</pub-id><pub-id pub-id-type="pmid">30562589</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0054">
+        <label>54.</label>
+        <mixed-citation publication-type="book"><string-name><surname>Lipsitz</surname>
+<given-names>LA</given-names></string-name>, <string-name><surname>Novak</surname>
+<given-names>V</given-names></string-name>. <part-title>Aging and the autonomic nervous system</part-title>. In: <source><italic toggle="yes">Primer on the Autonomic Nervous System</italic></source>. <publisher-name>Elsevier</publisher-name>; <year>2012</year>:<fpage>271</fpage>–<lpage>273</lpage>.</mixed-citation>
+      </ref>
+      <ref id="cit0055">
+        <label>55.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Chen</surname>
+<given-names>PC</given-names></string-name>, <string-name><surname>Sattari</surname>
+<given-names>N</given-names></string-name>, <string-name><surname>Whitehurst</surname>
+<given-names>LN</given-names></string-name>, <string-name><surname>Mednick</surname>
+<given-names>SC</given-names></string-name>. <article-title>Age-related losses in cardiac autonomic activity during a daytime nap</article-title>. <source><italic toggle="yes">Psychophysiology</italic></source>. <year>2021</year>;<volume>58</volume>(<issue>7</issue>):<fpage>e13701</fpage>. doi:<pub-id pub-id-type="doi">10.1111/psyp.13701</pub-id><pub-id pub-id-type="pmid">33048396</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0056">
+        <label>56.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>de Zambotti</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Trinder</surname>
+<given-names>J</given-names></string-name>, <string-name><surname>Silvani</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Colrain</surname>
+<given-names>IM</given-names></string-name>, <string-name><surname>Baker</surname>
+<given-names>FC</given-names></string-name>. <article-title>Dynamic coupling between the central and autonomic nervous systems during sleep: a review</article-title>. <source><italic toggle="yes">Neurosci Biobehav Rev</italic></source>. <year>2018</year>;<volume>90</volume>:<fpage>84</fpage>–<lpage>103</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.neubiorev.2018.03.027</pub-id><pub-id pub-id-type="pmid">29608990</pub-id></mixed-citation>
+      </ref>
+    </ref-list>
+  </back>
+</article>
+</pmc-articleset>
