@@ -1,0 +1,752 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<pmc-articleset><article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" dtd-version="1.3" xml:lang="en" article-type="research-article">
+  <?properties open_access?>
+  <processing-meta base-tagset="archiving" mathml-version="3.0" table-model="xhtml" tagset-family="jats">
+    <restricted-by>pmc</restricted-by>
+  </processing-meta>
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="nlm-ta">Nat Sci Sleep</journal-id>
+      <journal-id journal-id-type="iso-abbrev">Nat Sci Sleep</journal-id>
+      <journal-id journal-id-type="publisher-id">nss</journal-id>
+      <journal-title-group>
+        <journal-title>Nature and Science of Sleep</journal-title>
+      </journal-title-group>
+      <issn pub-type="epub">1179-1608</issn>
+      <publisher>
+        <publisher-name>Dove</publisher-name>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="pmid">35645584</article-id>
+      <article-id pub-id-type="pmc">9133431</article-id>
+      <article-id pub-id-type="publisher-id">363437</article-id>
+      <article-id pub-id-type="doi">10.2147/NSS.S363437</article-id>
+      <article-categories>
+        <subj-group subj-group-type="heading">
+          <subject>Original Research</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>Simulated Night-Shift Schedule Disrupts the Plasma Lipidome and Reveals Early Markers of Cardiovascular Disease Risk</article-title>
+        <alt-title alt-title-type="running-authors">Kyle et al</alt-title>
+        <alt-title alt-title-type="running-title">Kyle et al</alt-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0002-9282-9005</contrib-id>
+          <name>
+            <surname>Kyle</surname>
+            <given-names>Jennifer E</given-names>
+          </name>
+          <xref rid="aff0001" ref-type="aff">
+<sup>1</sup>
+</xref>
+          <xref rid="an0001" ref-type="corresp"/>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Bramer</surname>
+            <given-names>Lisa M</given-names>
+          </name>
+          <xref rid="aff0001" ref-type="aff">
+<sup>1</sup>
+</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Claborne</surname>
+            <given-names>Daniel</given-names>
+          </name>
+          <xref rid="aff0002" ref-type="aff">
+<sup>2</sup>
+</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Stratton</surname>
+            <given-names>Kelly G</given-names>
+          </name>
+          <xref rid="aff0001" ref-type="aff">
+<sup>1</sup>
+</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Bloodsworth</surname>
+            <given-names>Kent J</given-names>
+          </name>
+          <xref rid="aff0001" ref-type="aff">
+<sup>1</sup>
+</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Teeguarden</surname>
+            <given-names>Justin G</given-names>
+          </name>
+          <xref rid="aff0001" ref-type="aff">
+<sup>1</sup>
+</xref>
+          <xref rid="aff0003" ref-type="aff">
+<sup>3</sup>
+</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Gaddameedhi</surname>
+            <given-names>Shobhan</given-names>
+          </name>
+          <xref rid="aff0004" ref-type="aff">
+<sup>4</sup>
+</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0001-6049-3968</contrib-id>
+          <name>
+            <surname>Metz</surname>
+            <given-names>Thomas O</given-names>
+          </name>
+          <xref rid="aff0001" ref-type="aff">
+<sup>1</sup>
+</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0002-4678-2971</contrib-id>
+          <name>
+            <surname>Van Dongen</surname>
+            <given-names>Hans P A</given-names>
+          </name>
+          <xref rid="aff0005" ref-type="aff">
+<sup>5</sup>
+</xref>
+          <xref rid="aff0006" ref-type="aff">
+<sup>6</sup>
+</xref>
+        </contrib>
+        <aff id="aff0001"><label>1</label><institution>Biological Sciences Division, Earth and Biological Sciences Directorate, Pacific Northwest National Laboratory (PNNL)</institution>, <addr-line>Richland</addr-line>, <addr-line>WA</addr-line>, <addr-line>99352</addr-line>, <country>USA</country></aff>
+        <aff id="aff0002"><label>2</label><institution>Computing and Analytics Division, National Security Directorate, PNNL</institution>, <addr-line>Richland</addr-line>, <addr-line>WA</addr-line>, <addr-line>99352</addr-line>, <country>USA</country></aff>
+        <aff id="aff0003"><label>3</label><institution>Department of Environmental and Molecular Toxicology, Oregon State University</institution>, <addr-line>Corvallis</addr-line>, <addr-line>OR</addr-line>, <addr-line>97331</addr-line>, <country>USA</country></aff>
+        <aff id="aff0004"><label>4</label><institution>Department of Biological Sciences and Center for Human Health and the Environment, North Carolina State University</institution>, <addr-line>Raleigh</addr-line>, <addr-line>NC</addr-line>, <addr-line>27695</addr-line>, <country>USA</country></aff>
+        <aff id="aff0005"><label>5</label><institution>Sleep and Performance Research Center, Washington State University</institution>, <addr-line>Spokane</addr-line>, <addr-line>WA</addr-line>, <addr-line>99202</addr-line>, <country>USA</country></aff>
+        <aff id="aff0006"><label>6</label><institution>Elson S. Floyd College of Medicine, Washington State University</institution>, <addr-line>Spokane</addr-line>, <addr-line>WA</addr-line>, <addr-line>99202</addr-line>, <country>USA</country></aff>
+      </contrib-group>
+      <author-notes>
+        <corresp id="an0001">Correspondence: Jennifer E Kyle, <institution>Pacific Northwest National Laboratory</institution>, <addr-line>PO Box 999, MSIN: K8-98</addr-line>, <addr-line>Richland</addr-line>, <addr-line>WA</addr-line>, <addr-line>99352</addr-line>, <country>USA</country>, <phone>Tel +1-509-375-3679</phone>, <fax>Fax +1-509-371-6564</fax>, Email jennifer.kyle@pnnl.gov</corresp>
+      </author-notes>
+      <pub-date pub-type="epub">
+        <day>21</day>
+        <month>5</month>
+        <year>2022</year>
+      </pub-date>
+      <pub-date pub-type="collection">
+        <year>2022</year>
+      </pub-date>
+      <volume>14</volume>
+      <fpage>981</fpage>
+      <lpage>994</lpage>
+      <history>
+        <date date-type="received">
+          <day>21</day>
+          <month>2</month>
+          <year>2022</year>
+        </date>
+        <date date-type="accepted">
+          <day>28</day>
+          <month>4</month>
+          <year>2022</year>
+        </date>
+      </history>
+      <permissions>
+        <copyright-statement>© 2022 Kyle et al.</copyright-statement>
+        <copyright-year>2022</copyright-year>
+        <copyright-holder>Kyle et al.</copyright-holder>
+        <license>
+          <ali:license_ref xmlns:ali="http://www.niso.org/schemas/ali/1.0/" specific-use="textmining" content-type="ccbynclicense">https://creativecommons.org/licenses/by-nc/3.0/</ali:license_ref>
+          <license-p>This work is published and licensed by Dove Medical Press Limited. The full terms of this license are available at <ext-link ext-link-type="uri" xlink:href="https://www.dovepress.com/terms.php">https://www.dovepress.com/terms.php</ext-link> and incorporate the Creative Commons Attribution – Non Commercial (unported, v3.0) License (<ext-link ext-link-type="uri" xlink:href="https://creativecommons.org/licenses/by-nc/3.0/">http://creativecommons.org/licenses/by-nc/3.0/</ext-link>). By accessing the work you hereby accept the Terms. Non-commercial uses of the work are permitted without any further permission from Dove Medical Press Limited, provided the work is properly attributed. For permission for commercial use of this work, please see paragraphs 4.2 and 5 of our Terms (<ext-link ext-link-type="uri" xlink:href="https://www.dovepress.com/terms.php">https://www.dovepress.com/terms.php</ext-link>).</license-p>
+        </license>
+      </permissions>
+      <abstract>
+        <sec sec-type="intro" id="s2001">
+          <title>Introduction</title>
+          <p><citation_analysis attribute="positive">The circadian system coordinates daily rhythms in lipid metabolism, storage and utilization. Disruptions of internal circadian rhythms due to altered sleep/wake schedules, such as in night-shift work, have been implicated in increased risk of cardiovascular disease and metabolic disorders. To determine the impact of a night-shift schedule on the human blood plasma lipidome, an in-laboratory simulated shift work study was conducted.</citation_analysis></p>
+        </sec>
+        <sec id="s2002">
+          <title>Methods</title>
+          <p><citation_analysis attribute="neither">Fourteen healthy young adults were assigned to 3 days of either a simulated day or night-shift schedule, followed by a 24-h constant routine protocol with fixed environmental conditions, hourly isocaloric snacks, and constant wakefulness to investigate endogenous circadian rhythms. Blood plasma samples collected at 3-h intervals were subjected to untargeted lipidomics analysis.</citation_analysis></p>
+        </sec>
+        <sec id="s2003">
+          <title>Results</title>
+          <p><citation_analysis attribute="neither">More than 400 lipids were identified and quantified across 21 subclasses. Focusing on lipids with low between-subject variation per shift condition, alterations in the circulating plasma lipidome revealed generally increased mean triglyceride levels and decreased mean phospholipid levels after night-shift relative to day-shift. The circadian rhythms of triglycerides containing odd chain fatty acids peaked earlier during constant routine after night-shift. Regardless of shift condition, triglycerides tended to either peak or be depleted at 16:30 h, with chain-specific differences associated with the direction of change.</citation_analysis></p>
+        </sec>
+        <sec id="s2004">
+          <title>Discussion</title>
+          <p><citation_analysis attribute="negative">The simulated night-shift schedule was associated with altered temporal patterns in the lipidome. This may be premorbid to the elevated cardiovascular risk that has been found epidemiologically in night-shift workers.</citation_analysis></p>
+        </sec>
+      </abstract>
+      <kwd-group kwd-group-type="author">
+        <title>Keywords</title>
+        <kwd>lipidomics</kwd>
+        <kwd>mass spectrometry</kwd>
+        <kwd>circadian disruption</kwd>
+        <kwd>working time arrangements</kwd>
+        <kwd>cardiovascular health</kwd>
+        <kwd>triglycerides</kwd>
+      </kwd-group>
+      <counts>
+        <fig-count count="6"/>
+        <table-count count="2"/>
+        <ref-count count="60"/>
+        <page-count count="14"/>
+      </counts>
+    </article-meta>
+  </front>
+  <body>
+    <sec sec-type="intro" id="s0001">
+      <title>Introduction</title>
+      <p><citation_analysis attribute="neither">Circadian control at the system level coordinates behavioral patterns such as sleep-wake and feeding-fasting cycles.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0001" ref-type="bibr">1</xref></citation_analysis><citation_analysis attribute="neither"> The mammalian circadian clock originates from the central pacemaker in the hypothalamic suprachiasmatic nuclei (SCN), where it receives light signals from the environment synchronizing it to 24 h light/dark cycles.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0002" ref-type="bibr">2</xref></citation_analysis><citation_analysis attribute="neither"> The SCN send signals via neural and hormonal cues to peripheral clocks throughout the body that regulate physiologic processes. These peripheral clocks are tightly linked to metabolism, enabling physiological adjustments of metabolic needs.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0003" ref-type="bibr">3</xref></citation_analysis><citation_analysis attribute="negative"> Challenges to this interplay due to altered behavioral cycles, such as in night-shift work, can cause circadian disruption resulting in metabolic misalignment and increased risk of multiple metabolic diseases including cardiovascular disease (CVD).</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0004" ref-type="bibr">4</xref></citation_analysis><citation_analysis attribute="neither">,</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0005" ref-type="bibr">5</xref></citation_analysis><citation_analysis attribute="positive"> Research has shown that negative health impacts of circadian disruption can occur years after altered behavioral cycles.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0006" ref-type="bibr">6</xref></citation_analysis><citation_analysis attribute="negative"> As such, long-term night-shift workers are at elevated risk of developing several of the most common chronic diseases.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0007" ref-type="bibr">7</xref></citation_analysis></p>
+      <p><citation_analysis attribute="positive">Lipids are important biomolecules implicated as contributing factors in many diseases, including those associated with circadian disruption. Studies have demonstrated that regardless of the type of external stressor to circadian rhythms (eg, light/dark, fed/fasted), triglyceride (TG) metabolism is commonly altered.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0008" ref-type="bibr">8–12</xref></citation_analysis><citation_analysis attribute="neither"> Specific to studies examining shift work as inducer of altered circadian rhythms, lipidomics analyses have identified changes to various additional types of lipids, including phosphatidylcholine (PC) and ether-based phospholipids, as well as differences in the fatty acid compositions of TGs and phospholipids.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0009" ref-type="bibr">9</xref></citation_analysis><citation_analysis attribute="neither">,</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0010" ref-type="bibr">10</xref></citation_analysis><citation_analysis attribute="neither">,</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0013" ref-type="bibr">13</xref></citation_analysis><citation_analysis attribute="neither">,</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0014" ref-type="bibr">14</xref></citation_analysis></p>
+      <p><citation_analysis attribute="neither">In a recent simulated shift work study, Skene and colleagues used a limited, targeted panel of 184 molecules (including 145 lipids) to examine changes in the metabolome and lipidome induced by a 12-h shifted sleep/wake and feeding/fasting cycle in individuals subjected to 3 days of a simulated day- or night-shift schedule.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0014" ref-type="bibr">14</xref></citation_analysis><citation_analysis attribute="neither"> During a subsequent 24-h constant routine protocol designed to investigate endogenous circadian rhythms in the absence of any externally imposed rhythms,</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0015" ref-type="bibr">15</xref></citation_analysis><citation_analysis attribute="negative"> many of the metabolites and lipids reversed (43%) or lost (14%) their rhythm after the night-shift schedule, or only showed rhythmicity after the night-shift schedule but not after the day-shift schedule (14%) – even though the timing of the central SCN pacemaker, as measured by dim light melatonin onset (DLMO), was not significantly different between the two conditions at baseline, remained stable after the 3 days of day-shift schedule, and was merely delayed by less than 2 h after the 3 days of night-shift schedule.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0014" ref-type="bibr">14</xref></citation_analysis><citation_analysis attribute="neither">,</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0016" ref-type="bibr">16</xref></citation_analysis></p>
+      <p><citation_analysis attribute="neither">Building on the observations by Skene and colleagues,</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0014" ref-type="bibr">14</xref></citation_analysis><citation_analysis attribute="positive"> we performed comprehensive lipidomics analyses of the same cohort to more broadly investigate the effects of simulated shift work on the lipidome and to also quantify detailed changes in the lipid acyl compositions, which have known roles in metabolic diseases.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0017" ref-type="bibr">17–19</xref></citation_analysis><citation_analysis attribute="positive"> Here, we report an in-depth analysis of the plasma lipidome from individuals measured under constant routine – 24 h of constant environmental conditions, hourly isocaloric snacks, and sustained wakefulness, under strictly controlled circumstances – after undergoing a simulated night- or day-shift schedule. We show that just 3 days of the simulated night-shift schedule resulted in endogenous molecular profiles consistent with elevated CVD risk.</citation_analysis></p>
+    </sec>
+    <sec id="s0002">
+      <title>Materials and Methods</title>
+      <sec id="s0002-s2001">
+        <title>Subjects</title>
+        <p><citation_analysis attribute="neither">N=14 healthy volunteers (ages 22–34 y, BMI 25.7 ± 3.2 kg/m</citation_analysis><citation_analysis attribute="positive"><sup>2</sup></citation_analysis><citation_analysis attribute="neither">) participated in this study (see </citation_analysis><citation_analysis attribute="positive"><xref rid="t0001" ref-type="table">Table 1</xref></citation_analysis><citation_analysis attribute="positive">), as previously reported by Skene and colleagues.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0014" ref-type="bibr">14</xref></citation_analysis><citation_analysis attribute="positive"><table-wrap position="float" id="t0001"><label>Table 1</label><caption><p><citation_analysis attribute="neither">Subject Demographics</citation_analysis></p></caption><table frame="hsides" rules="groups"><thead><tr><th rowspan="1" colspan="1">Subject ID</th><th rowspan="1" colspan="1">Shift Condition</th><th rowspan="1" colspan="1">Age</th><th rowspan="1" colspan="1">Sex</th><th rowspan="1" colspan="1">Race</th><th rowspan="1" colspan="1">Weight (lbs)</th><th rowspan="1" colspan="1">Height (in)</th><th rowspan="1" colspan="1">BMI (kg/m<sup>2</sup>)*</th></tr></thead><tbody><tr><td rowspan="1" colspan="1">E023</td><td rowspan="1" colspan="1">Day</td><td rowspan="1" colspan="1">22</td><td rowspan="1" colspan="1">M</td><td rowspan="1" colspan="1">White</td><td rowspan="1" colspan="1">189</td><td rowspan="1" colspan="1">68.25</td><td rowspan="1" colspan="1">28.5</td></tr><tr><td rowspan="1" colspan="1">E059</td><td rowspan="1" colspan="1">Day</td><td rowspan="1" colspan="1">23</td><td rowspan="1" colspan="1">F</td><td rowspan="1" colspan="1">Black</td><td rowspan="1" colspan="1">187</td><td rowspan="1" colspan="1">69</td><td rowspan="1" colspan="1">27.6</td></tr><tr><td rowspan="1" colspan="1">E072</td><td rowspan="1" colspan="1">Day</td><td rowspan="1" colspan="1">25</td><td rowspan="1" colspan="1">F</td><td rowspan="1" colspan="1">White</td><td rowspan="1" colspan="1">130</td><td rowspan="1" colspan="1">67</td><td rowspan="1" colspan="1">20.4</td></tr><tr><td rowspan="1" colspan="1">E078</td><td rowspan="1" colspan="1">Day</td><td rowspan="1" colspan="1">23</td><td rowspan="1" colspan="1">M</td><td rowspan="1" colspan="1">White</td><td rowspan="1" colspan="1">177</td><td rowspan="1" colspan="1">74</td><td rowspan="1" colspan="1">22.7</td></tr><tr><td rowspan="1" colspan="1">E081</td><td rowspan="1" colspan="1">Day</td><td rowspan="1" colspan="1">25</td><td rowspan="1" colspan="1">M</td><td rowspan="1" colspan="1">White</td><td rowspan="1" colspan="1">190</td><td rowspan="1" colspan="1">73</td><td rowspan="1" colspan="1">25.1</td></tr><tr><td rowspan="1" colspan="1">E109</td><td rowspan="1" colspan="1">Day</td><td rowspan="1" colspan="1">28</td><td rowspan="1" colspan="1">M</td><td rowspan="1" colspan="1">White</td><td rowspan="1" colspan="1">216</td><td rowspan="1" colspan="1">71</td><td rowspan="1" colspan="1">30.1</td></tr><tr><td rowspan="1" colspan="1">E115</td><td rowspan="1" colspan="1">Day</td><td rowspan="1" colspan="1">22</td><td rowspan="1" colspan="1">F</td><td rowspan="1" colspan="1">White</td><td rowspan="1" colspan="1">160</td><td rowspan="1" colspan="1">65</td><td rowspan="1" colspan="1">26.6</td></tr><tr><td rowspan="1" colspan="1">E027</td><td rowspan="1" colspan="1">Night</td><td rowspan="1" colspan="1">34</td><td rowspan="1" colspan="1">F</td><td rowspan="1" colspan="1">White</td><td rowspan="1" colspan="1">138</td><td rowspan="1" colspan="1">65.5</td><td rowspan="1" colspan="1">22.6</td></tr><tr><td rowspan="1" colspan="1">E038</td><td rowspan="1" colspan="1">Night</td><td rowspan="1" colspan="1">29</td><td rowspan="1" colspan="1">M</td><td rowspan="1" colspan="1">White</td><td rowspan="1" colspan="1">230</td><td rowspan="1" colspan="1">75</td><td rowspan="1" colspan="1">28.7</td></tr><tr><td rowspan="1" colspan="1">E066</td><td rowspan="1" colspan="1">Night</td><td rowspan="1" colspan="1">26</td><td rowspan="1" colspan="1">M</td><td rowspan="1" colspan="1">White</td><td rowspan="1" colspan="1">232</td><td rowspan="1" colspan="1">80.5</td><td rowspan="1" colspan="1">25.1</td></tr><tr><td rowspan="1" colspan="1">E068</td><td rowspan="1" colspan="1">Night</td><td rowspan="1" colspan="1">27</td><td rowspan="1" colspan="1">M</td><td rowspan="1" colspan="1">White</td><td rowspan="1" colspan="1">230</td><td rowspan="1" colspan="1">75</td><td rowspan="1" colspan="1">28.7</td></tr><tr><td rowspan="1" colspan="1">E084</td><td rowspan="1" colspan="1">Night</td><td rowspan="1" colspan="1">26</td><td rowspan="1" colspan="1">M</td><td rowspan="1" colspan="1">White</td><td rowspan="1" colspan="1">180</td><td rowspan="1" colspan="1">72.5</td><td rowspan="1" colspan="1">24.1</td></tr><tr><td rowspan="1" colspan="1">E114</td><td rowspan="1" colspan="1">Night</td><td rowspan="1" colspan="1">27</td><td rowspan="1" colspan="1">M</td><td rowspan="1" colspan="1">White</td><td rowspan="1" colspan="1">149</td><td rowspan="1" colspan="1">71</td><td rowspan="1" colspan="1">20.8</td></tr><tr><td rowspan="1" colspan="1">E137</td><td rowspan="1" colspan="1">Night</td><td rowspan="1" colspan="1">24</td><td rowspan="1" colspan="1">M</td><td rowspan="1" colspan="1">White</td><td rowspan="1" colspan="1">239</td><td rowspan="1" colspan="1">76</td><td rowspan="1" colspan="1">29.1</td></tr></tbody></table><table-wrap-foot><fn id="tfn0001"><p><citation_analysis attribute="positive"><bold>Abbreviation</bold></citation_analysis><citation_analysis attribute="neither">: *BMI, body mass index.</citation_analysis></p></fn></table-wrap-foot></table-wrap></citation_analysis><citation_analysis attribute="positive">
+</citation_analysis></p>
+        <p><citation_analysis attribute="positive">Subjects were screened to be physically and psychologically healthy with no medical or drug treatment, as verified by physical examination, blood chemistry, urinalysis, and questionnaires.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0014" ref-type="bibr">14</xref></citation_analysis><citation_analysis attribute="positive"> They reported good habitual sleep, between 6 and 10 h in duration and habitually getting up between 06:00 h and 09:00 h, and were no extreme morning- or evening-types as assessed by questionnaire (Composite Scale of Morningness). They showed no evidence of any sleep or circadian disorders as assessed by nocturnal polysomnography and validated questionnaires. They had no history of drug or alcohol abuse, were free of traces of alcohol and drugs as assessed by drug screen and breathalyzer and did not smoke. They were not involved in shift work within three months of entering the study and did not travel across time zones within one month of entering the study. Women were not pregnant as assessed by blood-based assay.</citation_analysis></p>
+        <p><citation_analysis attribute="neither">Participants maintained a regular sleep/wake schedule in the week prior to the in-laboratory experiment, with bedtimes and wake times within 30 min from their self-reported habitual schedule.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0020" ref-type="bibr">20</xref></citation_analysis><citation_analysis attribute="neither"> In the week prior to the study, participants were requested to abstain from alcohol and caffeine.</citation_analysis></p>
+        <p><citation_analysis attribute="neither">The study was conducted in compliance with the Declaration of Helsinki and approved by the Institutional Review Boards of Washington State University and Pacific Northwest National Laboratory. Participants gave written informed consent. They had to meet defined inclusion criteria to participate in the study.</citation_analysis></p>
+      </sec>
+      <sec id="s0002-s2002">
+        <title>In-Laboratory Experiment and Sample Collection</title>
+        <p><citation_analysis attribute="neither">The 7-d in-laboratory experiment (</citation_analysis><citation_analysis attribute="positive"><xref rid="f0001" ref-type="fig">Figure 1</xref></citation_analysis><citation_analysis attribute="neither">) was conducted under controlled conditions (constant ambient temperature of 21 ± 1 °C, constant light level of less than 50 lx during all scheduled wakefulness periods) in the Sleep and Performance Research Center at Washington State University Health Sciences Spokane. The study consisted of a baseline day and night followed by randomization to either a 3-d simulated day-shift schedule (sleep opportunity: 22:00–06:00 h) or, after a transition nap (sleep opportunity: 14:00–18:00 h), to a 3-d simulated night-shift schedule (sleep opportunity: 10:00–18:00 h). During the simulated shift days, breakfast, lunch, and dinner were provided at 1.5, 7.0, and 13.5 h of scheduled wakefulness, respectively.</citation_analysis><citation_analysis attribute="positive"><fig position="float" id="f0001" fig-type="figure"><label>Figure 1</label><caption><p><citation_analysis attribute="neither">Study design. Participants were on a simulated day-shift (top) or night-shift (bottom) schedule for 3 days (yellow = scheduled wake, black = sleep opportunity), then underwent a 24-h period of wakefulness under constant routine conditions (red), during which blood plasma was collected every 3 h. Clock time is indicated above.</citation_analysis></p></caption><graphic xlink:href="NSS-14-981-g0001" content-type="print-only" position="float"/><attrib><bold>Abbreviation</bold>: M, meal.</attrib></fig></citation_analysis></p>
+        <p><citation_analysis attribute="neither">Importantly, in both conditions, the 3-d simulated shift schedule was followed by a 24-h constant routine protocol involving controlled environmental conditions with fixed semi recumbent posture, hourly isocaloric snacks (Snack ingredients, option 1: peanuts, caramel [dried can syrup, tapioca syrup, water, fractionated palm kernel oil, nonfat milk, whey protein concentrate, glycerin, butter (cream, salt) natural flavor, sunflower lecithin, salt, sodium citrate, carrageenan], rolled oats, almonds, flaxseed, cashews, dates, tapioca syrup, natural flavor, chicory root fiber, sea salt, water, sunflower oil; option 2: peanuts, brown rice syrup, almonds, rolled oats, dried cranberries, pineapple juice syrup, raisins, tapioca syrup, dried cane syrup, dried blueberries, chicory root fiber, apple juice concentrate, coconut oil, hemp seeds, flaxseeds, salt, water, natural flavor, sunflower oil, pineapple juice concentrate), and sustained wakefulness to investigate rhythms free of exogenous factors. During the 24-h constant routine protocol, blood was drawn at 3-h intervals to measure plasma lipid profiles. The study concluded with a recovery day. The study design was previously published.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0014" ref-type="bibr">14</xref></citation_analysis></p>
+      </sec>
+      <sec id="s0002-s2003">
+        <title>Total Lipid Extraction</title>
+        <p><citation_analysis attribute="neither">Total lipid extracts (TLEs) were generated from 50 μL of plasma from the blood samples collected during the 24-h constant routine protocol. Prior to extraction, 10 μL of internal standards (SPLASH™ Lipidomix</citation_analysis><citation_analysis attribute="positive"><sup>®</sup></citation_analysis><citation_analysis attribute="positive">, Avanti Polar Lipids, Inc.) was added to each sample. Lipids were extracted using a modified Folch extraction MPLEx.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0021" ref-type="bibr">21</xref></citation_analysis><citation_analysis attribute="neither">,</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0022" ref-type="bibr">22</xref></citation_analysis><citation_analysis attribute="neither"> Briefly, cold (−20°C) chloroform/methanol (2:1, v/v) was added in a 4-fold excess to the sample volume. Samples were vortexed for 10s, incubated on ice for 5 min, and then vortexed again for 10s. The samples were then centrifuged to facilitate separation of hydrophilic and hydrophobic layers and protein pellets, and the bottom hydrophobic layers containing lipids were transferred into glass autosampler vials, evaporated to dryness in vacuo, and stored at −20°C in 500 μL of chloroform/methanol (2:1, v/v) until analysis.</citation_analysis></p>
+        <p><citation_analysis attribute="neither">NIST SRM 1950 plasma was used as a quality control (QC) sample and processed along with the study participants’ samples.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0023" ref-type="bibr">23</xref></citation_analysis><citation_analysis attribute="neither"> Randomization orders were created for both sample processing and mass spectrometry analysis (Dataset 1). Samples were randomized based on ethnicity, age, sex, shift condition, and sample collection time.</citation_analysis></p>
+      </sec>
+      <sec id="s0002-s2004">
+        <title>Mass Spectrometry Analysis</title>
+        <p><citation_analysis attribute="neither">Stored plasma TLEs were again dried in vacuo and reconstituted in 10 μL chloroform and brought to 200 μL with methanol containing post-extraction internal standards (PE(17:0/14:1) and PI(17:0/14:1) at a final amount of 0.05 μg and 0.01 μg, respectively). TLEs were analyzed as previously described.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0024" ref-type="bibr">24</xref></citation_analysis><citation_analysis attribute="positive"> Briefly, a Waters Acquity UPLC H class system interfaced with a Velos-ETD Orbitrap mass spectrometer was used for liquid chromatography tandem mass spectrometry (LC-MS/MS) analyses. 10 μL of reconstituted sample was injected onto a Waters CSH column (3.0 mm × 150 mm × 1.7 μm particle size) and separated over a 34-min gradient (mobile phase A: ACN/H2O (40:60) containing 10 mM ammonium acetate; mobile phase B: ACN/IPA (10:90) containing 10 mM ammonium acetate) at a flow rate of 250 μL/min. Samples were randomized prior to MS run analysis (Dataset 1). TLEs were analyzed in both positive and negative electrospray ionization modes, and lipids were fragmented using alternating higher-energy collision dissociation (HCD) and collision-induced dissociation (CID). Lipids were identified using LIQUID (Lipid Quantification and Identification), where each lipid was identified by matching experimental tandem mass (MS/MS) spectra to predicted values along with evaluating the precursor mass ppm error, isotopic profile, and retention time.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0024" ref-type="bibr">24</xref></citation_analysis></p>
+      </sec>
+      <sec id="s0002-s2005">
+        <title>Lipid Identification</title>
+        <p><citation_analysis attribute="positive">Lipids were identified using LIQUID.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0024" ref-type="bibr">24</xref></citation_analysis><citation_analysis attribute="positive"> Confident identifications were made by manually evaluating the MS/MS spectra for fragment ions characteristic of the classes and acyl chain compositions of the identified lipids. In addition, the precursor ion isotopic profile, extracted ion chromatogram, and mass measurement error along with the elution time were evaluated. A reference library of confident lipid identifications was generated using data from 7 individuals plus the QC sample. The 7 individuals selected varied per collection time (each time point represented), shift condition (3 night shift, 4 day shift), and sex (5 males, 2 females). All LC-MS/MS data were aligned and gap-filled to this target library for feature identification using MZmine 2,</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0025" ref-type="bibr">25</xref></citation_analysis><citation_analysis attribute="neither"> based on the identified lipid name, observed </citation_analysis><citation_analysis attribute="positive"><italic toggle="yes">m</italic></citation_analysis><citation_analysis attribute="neither">/</citation_analysis><citation_analysis attribute="positive"><italic toggle="yes">z</italic></citation_analysis><citation_analysis attribute="positive">, and retention time. Data from each ionization mode were aligned and gap-filled separately. Aligned features were manually verified and peak apex intensity values were exported for statistical analysis.</citation_analysis></p>
+      </sec>
+      <sec id="s0002-s2006">
+        <title>Data Preprocessing</title>
+        <p><citation_analysis attribute="positive">LC-MS/MS-based lipidomics data were generated for the 14 participants at each of the 8 time points, for a total of 112 analyses. Negative and positive mode data were preprocessed separately as follows. All observed abundances were first transformed to log</citation_analysis><citation_analysis attribute="positive"><sub>2</sub></citation_analysis><citation_analysis attribute="neither"> scale. A robust Mahalanobis distance analysis was then performed, based on lipid abundance vectors,</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0026" ref-type="bibr">26</xref></citation_analysis><citation_analysis attribute="neither"> in order to identify outliers. Two samples were then identified as outliers (p&lt;0.0001) and removed from the dataset. Finally, median normalization was applied to the data.</citation_analysis></p>
+      </sec>
+      <sec id="s0002-s2007">
+        <title>Statistical Analysis</title>
+        <p><citation_analysis attribute="neither">Cosinor analysis</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0027" ref-type="bibr">27</xref></citation_analysis><citation_analysis attribute="neither"> was applied to all samples collected during the 24-h constant routine protocol to investigate 24-h rhythmicity for each lipid. A mixed-effects regression model of normalized log</citation_analysis><citation_analysis attribute="positive"><sub>2</sub></citation_analysis><citation_analysis attribute="neither"> lipid abundance was implemented in R.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0028" ref-type="bibr">28</xref></citation_analysis><citation_analysis attribute="positive"> Shift condition, sinusoid time components with 24-h fundamental period, 12-h first harmonic, and 8-h second harmonic, and the interactions of shift condition with the sinusoid time components were included as fixed effects in the model; a random effect over individuals was placed on the intercept. For fitting purposes, the linear equivalent (exact transformation) of the model was used, as previously described.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0029" ref-type="bibr">29</xref></citation_analysis></p>
+        <p><citation_analysis attribute="neither">The 24-h rhythm was of primary concern for this study, and estimates for mesor (mean normalized log</citation_analysis><citation_analysis attribute="positive"><sub>2</sub></citation_analysis><citation_analysis attribute="positive"> abundance), rhythm amplitude, and acrophase (peak timing) of the 24-h sinusoid were of particular interest. Statistical significance of rhythmicity was evaluated with one-sided </citation_analysis><citation_analysis attribute="positive"><italic toggle="yes">t</italic></citation_analysis><citation_analysis attribute="positive">-test of the amplitude of the 24-h sinusoid with a Benjamini–Hochberg procedure applied for multiple test correction. To evaluate the consistency of abundance patterns across individuals, for each lipid the log of the signal-to-noise ratio, logSNR, was calculated based on the variance explained by the regression model and the error variance,</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0030" ref-type="bibr">30</xref></citation_analysis><citation_analysis attribute="neither"> for each study condition separately as well as across the two conditions combined.</citation_analysis></p>
+        <p><citation_analysis attribute="positive">A lipid with logSNR&gt;0 was deemed to have a consistent temporal pattern across individuals (</citation_analysis><citation_analysis attribute="positive"><xref rid="f0002" ref-type="fig">Figure 2</xref></citation_analysis><citation_analysis attribute="neither">).</citation_analysis><citation_analysis attribute="positive"><fig position="float" id="f0002" fig-type="figure"><label>Figure 2</label><caption><p><citation_analysis attribute="positive">Illustration of logSNR values differentiating 3 example lipids in the simulated night-shift condition. Each curve corresponds to one individual’s data plotted over the 24 h of the sample collection period. Left: Cer(d18:1_24:0) has an inconsistent pattern between individuals, as reflected in logSNR&lt;0. Middle and right: CE(18:2) and especially PC(0:0_18:1)_B have more consistent patterns between individuals, with higher logSNR&gt;0. Break in curves indicates where the constant routine began/ended.</citation_analysis></p></caption><graphic xlink:href="NSS-14-981-g0002" content-type="print-only" position="float"/><attrib><bold>Abbreviations</bold>: Cer, ceramide; CE, cholesterol ester; LPC, monoacylglycerophosphocholine.</attrib></fig></citation_analysis></p>
+        <p><citation_analysis attribute="neither">To detect any non-specific effect of time awake independent of study condition, the regression analysis was repeated with the addition of a fixed regression term linear in time awake. The regression coefficient for this linear component was tested against zero with two-sided </citation_analysis><citation_analysis attribute="positive"><italic toggle="yes">t</italic></citation_analysis><citation_analysis attribute="positive">-test using Benjamini–Hochberg adjusted p-value.</citation_analysis></p>
+        <p><citation_analysis attribute="positive">To determine the enrichment of statistically significant lipids, an EASE score</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0031" ref-type="bibr">31</xref></citation_analysis><citation_analysis attribute="positive"> enrichment test was conducted using Lipid Mini-On.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0032" ref-type="bibr">32</xref></citation_analysis><citation_analysis attribute="positive"> Lipid Mini-On performs enrichment analyses of lipidomics data using a text-mining process that bins individual lipid names into multiple lipid ontology groups based on the classification and other characteristics, such as chain length and number of double bonds. Enrichment analysis was conducted separately for lipids that increased and decreased per circadian metric (ie, mesor, amplitude). The “universe” for this analysis consisted of all lipids identified (see Dataset 2).</citation_analysis></p>
+      </sec>
+    </sec>
+    <sec id="s0003">
+      <title>Results</title>
+      <p><citation_analysis attribute="positive">In a between-groups, in-laboratory study, we characterized the circadian rhythms of lipids in human blood plasma after behaviorally induced rhythms were experimentally misaligned (night-shift condition) or aligned (day-shift condition) relative to the central pacemaker in the SCN. Subjects were assigned to a 3-day simulated night-shift schedule or day-shift (ie, control) schedule (</citation_analysis><citation_analysis attribute="positive"><xref rid="t0001" ref-type="table">Table 1</xref></citation_analysis><citation_analysis attribute="neither">). In each condition, this was followed by a 24-h constant routine protocol, during which blood was drawn at 3-h intervals to measure plasma lipid profiles (</citation_analysis><citation_analysis attribute="positive"><xref rid="f0001" ref-type="fig">Figure 1</xref></citation_analysis><citation_analysis attribute="neither">). Using LC-MS/MS, a total of 405 lipids were identified and quantified over 374 LC-MS/MS features, covering 21 subclasses (Dataset 2).</citation_analysis></p>
+      <p><citation_analysis attribute="neither">Investigation of the circadian rhythm in each lipid by means of cosinor-based regression analysis (</citation_analysis><citation_analysis attribute="positive"><xref rid="f0003" ref-type="fig">Figure 3A</xref></citation_analysis><citation_analysis attribute="positive">) revealed that many of the lipids showed high levels of between-subject variation. We focused on the subset of lipids that had relatively consistent patterns of abundance across individuals based on the log of the signal-to-noise ratio (logSNR), using the cut-off logSNR&gt;0 (ie, at least as much signal as noise in the regression model) (</citation_analysis><citation_analysis attribute="positive"><xref rid="f0002" ref-type="fig">Figure 2</xref></citation_analysis><citation_analysis attribute="neither">). Of the 374 lipids thus identified, 92 (24.5%) had logSNR&gt;0 in the day-shift condition, 126 (33.7%) in the night-shift condition, and 79 (21.1%) in both conditions (</citation_analysis><citation_analysis attribute="positive"><xref rid="f0003" ref-type="fig">Figure 3B</xref></citation_analysis><citation_analysis attribute="neither">).</citation_analysis><citation_analysis attribute="positive"><fig position="float" id="f0003" fig-type="figure"><label>Figure 3</label><caption><p><citation_analysis attribute="neither">Overview of circadian rhythm metrics and analyses for the simulated shift work lipidome. (</citation_analysis><citation_analysis attribute="positive"><bold>A</bold></citation_analysis><citation_analysis attribute="neither">) Illustration of 24-h rhythm in our cosinor-based regression analysis and the variables used to describe the circadian rhythm. (</citation_analysis><citation_analysis attribute="positive"><bold>B</bold></citation_analysis><citation_analysis attribute="positive">) Overview of the number of lipids with a statistically significant difference (p&lt;0.05) in mesor for the night-shift condition relative to the day-shift condition; and with significant circadian rhythmicity (amplitude greater than zero, p&lt;0.05) in the day-shift only, night-shift only, and both day- and night-shift conditions. Only lipids with logSNR&gt;0 were considered.</citation_analysis></p></caption><graphic xlink:href="NSS-14-981-g0003" content-type="print-only" position="float"/></fig></citation_analysis></p>
+      <p><citation_analysis attribute="neither">The 79 lipids with logSNR&gt;0 in both the day- and night-shift conditions comprised primarily TGs but also monoacylglycerophospholipids (LPLs), mostly LPCs with an 18 carbon chain, as well as lipids containing monounsaturated fatty acids (MUFAs), in particular 18:1 (likely oleic acid). Lipids that had logSNR&gt;0 only in the day-shift condition were dominated by LPCs and TGs (13 lipids); whereas those with logSNR&gt;0 only in the night-shift condition contained lipids with 18:2 (likely linoleic acid), mostly associated with PCs, TGs with 18:3 (likely linolenic acid), sphingomyelin (SM), and some ether linked phosphatidylcholines (PCO) (Dataset 3).</citation_analysis></p>
+      <p><citation_analysis attribute="positive">We report effects of the simulated night-shift schedule, as compared to the simulated day-shift schedule, in the context of three quantitative characteristics of circadian rhythmicity derived from the 24-h sinusoid in our regression analysis: mesor (midline of rhythm, or mean abundance across the 24-h cycle), acrophase (clock time of rhythm peak), and amplitude (difference between peak and mean abundance) (</citation_analysis><citation_analysis attribute="positive"><xref rid="f0003" ref-type="fig">Figure 3A</xref></citation_analysis><citation_analysis attribute="positive">). Because the blood samples were taken during the 24-h constant routine protocol immediately after the 3 days on the simulated night- or day-shift schedule, the observed effects reflect night-shift schedule-induced changes in the </citation_analysis><citation_analysis attribute="positive"><italic toggle="yes">endogenous</italic></citation_analysis><citation_analysis attribute="positive"> circadian rhythmicity of the human lipidome. To account for effects of time awake independent of shift condition, we performed additional analysis with inclusion of a linear regression term for the time a participant was awake. A majority of lipid model fits (94.7%) were not improved by the inclusion of the time awake variable (Dataset 4); thus, time awake was not included in the final lipid models.</citation_analysis></p>
+      <sec id="s0003-s2001">
+        <title>Alterations in Mean Abundance Induced by the Simulated Night-Shift Schedule</title>
+        <p><citation_analysis attribute="positive">Of the 79 lipids with logSNR&gt;0 in both the day- and night-shift conditions, 45 also had a statistically significant difference between the night-shift and the day-shift in mean abundance (mesor) across the circadian cycle. The mesor was significantly lower (adjusted p&lt;0.05) after the night-shift condition, compared to the day-shift condition, for 32 (71%) out of 45 lipids, and significantly higher for 13 (29%) (</citation_analysis><citation_analysis attribute="positive"><xref rid="f0003" ref-type="fig">Figures 3B</xref></citation_analysis><citation_analysis attribute="neither"> and </citation_analysis><citation_analysis attribute="positive"><xref rid="f0004" ref-type="fig">4A</xref></citation_analysis><citation_analysis attribute="neither">).</citation_analysis><citation_analysis attribute="positive"><fig position="float" id="f0004" fig-type="figure"><label>Figure 4</label><caption><p><citation_analysis attribute="neither">Changes in circadian rhythmicity in the plasma lipidome due to a simulated night-shift schedule. (</citation_analysis><citation_analysis attribute="positive"><bold>A</bold></citation_analysis><citation_analysis attribute="neither">) Difference in mesor after night-shift compared to day-shift by lipid. Within each subclass, lipids are organized by increasing number of total chain carbons, then by double bonds. Lipids that have greater mean abundance after the night-shift compared to the day-shift are color coded pink, and lipids that have less mean abundance after the night-shift are color coded green. Asterisks indicate statistical significance (p&lt;0.05). Diff = difference as night-shift minus night-shift day-shift. Scale bar, pink = +1, white = 0, green = −1, with values representing difference in log</citation_analysis><citation_analysis attribute="positive"><sub>2</sub></citation_analysis><citation_analysis attribute="neither"> normalized abundances. (</citation_analysis><citation_analysis attribute="positive"><bold>B</bold></citation_analysis><citation_analysis attribute="positive">) Statistically significant (p&lt;0.05) difference in amplitude after night-shift compared to day-shift by lipid. Lipids that are more rhythmic have a higher value of the difference (Diff) value, where Diff = difference as night-shift minus day-shift. Color scale, pink = more rhythmic after night-shift, green = less rhythmic after night-shift, with values representing difference in log</citation_analysis><citation_analysis attribute="positive"><sub>2</sub></citation_analysis><citation_analysis attribute="neither"> normalized abundances. (</citation_analysis><citation_analysis attribute="positive"><bold>C</bold></citation_analysis><citation_analysis attribute="neither">) Lipids that were significantly phase advanced or delayed after simulated night-shift compared to simulated day-shift. TGs containing an odd chained fatty acid almost exclusively advanced.</citation_analysis></p></caption><graphic xlink:href="NSS-14-981-g0004" content-type="print-only" position="float"/><attrib><bold>Abbreviations</bold>: CE, cholesterol ester; DG, diacylglyceride; PC, glycerophosphocholine (mono- and di-acyl; O-ether linked); PE, glycerophosphoethanolamine (mono- and di-acyl); PI, diacylglycerophosphoinositol; TG, triacylglyceride.</attrib></fig></citation_analysis></p>
+        <p><citation_analysis attribute="positive">To determine the enrichment of lipids with statistically significant mesor, an EASE score enrichment test</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0031" ref-type="bibr">31</xref></citation_analysis><citation_analysis attribute="positive"> was conducted using Lipid Mini-On.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0032" ref-type="bibr">32</xref></citation_analysis><citation_analysis attribute="positive"> Lipid Mini-On performs enrichment analyses of lipidomics data using a text-mining process that bins individual lipid names into multiple lipid ontology groups based on the classification and other characteristics, such as chain length and number of double bonds. Lipids with decreased abundance after night-shift were enriched in phospholipids (27 out of 32, p=0.013), in particular LPC (19 total, p=0.007), as well as lipids containing the fatty acid 18:2 (likely linoleic acid; p=0.014) and 18:1 (likely oleic acid; p=0.001) (Dataset 5). Lipids containing fatty acid 18:1 were commonly associated with PE lipids (p=0.011). Lipids with increased abundance after the night-shift were all glycerolipids and enriched in TGs (11 out of 13; p&lt;0.001), many of which contained odd chained fatty acids (Dataset 5). Although not statistically significantly enriched, TGs containing 22:6 fatty acids (likely docosahexaenoic acid; DHA) had increased abundance after the night-shift schedule (p=0.052).</citation_analysis></p>
+      </sec>
+      <sec id="s0003-s2002">
+        <title>Alterations in Circadian Amplitude Induced by the Simulated Night-Shift Schedule</title>
+        <p><citation_analysis attribute="positive">Almost all lipids with consistent temporal patterns of abundance (logSNR&gt;0 in both day- and night-shift conditions) were significantly rhythmic based on the amplitude of the 24-h rhythm in the regression model (adjusted p&lt;0.05) (</citation_analysis><citation_analysis attribute="positive"><xref rid="f0003" ref-type="fig">Figure 3B</xref></citation_analysis><citation_analysis attribute="positive">). Of the 79 lipids with consistent temporal patterns of abundance in both conditions (Dataset 3), 77 had significant circadian amplitude after both simulated shift schedules and 2 after the night-shift schedule only. An additional 13 lipids had consistent temporal patterns and significant circadian amplitude after the day-shift schedule only (Dataset 6), and an additional 49 after the night-shift schedule only (Dataset 7). Twenty-five lipids had significantly different amplitude between the two conditions (Dataset 8), with 19 showing increased amplitude and 6 showing decreased amplitude after the night-shift (</citation_analysis><citation_analysis attribute="positive"><xref rid="f0004" ref-type="fig">Figure 4B</xref></citation_analysis><citation_analysis attribute="neither">).</citation_analysis></p>
+        <p><citation_analysis attribute="neither">Distinct changes were noted in the 24-h rhythm amplitude of lipid rhythmicity, with TGs strongly affected. Twenty-two TGs displayed significantly different amplitude after night-shift compared to day-shift (</citation_analysis><citation_analysis attribute="positive"><xref rid="f0004" ref-type="fig">Figure 4B</xref></citation_analysis><citation_analysis attribute="neither">, Dataset 8). Lipids that had greater amplitude after the day-shift were saturated TGs, specifically TGs containing 16:0 fatty acids (ie, palmitic acid); whereas lipids that had greater amplitude after the night-shift were TGs that contained 22:0 fatty acids, as well as MUFAs, such as 18:1 (Datasets 6, 7, 9).</citation_analysis></p>
+        <p><citation_analysis attribute="neither">Examining all lipids (regardless of direction of change) that were significantly rhythmic after day-shift with the EASE score enrichment test, lipids containing long chain fatty acids (LCFAs; defined as chain length of 13–21 carbons) were enriched, in particular lipids with 14:0 and 16:0 fatty acids. Lipids that were significantly rhythmic after night-shift were enriched in 18:2 fatty acids and the glycerophospholipids PC and PE (both mono- and diacyl) containing 18:1 (Datasets 6, 9). Lipids that were significantly rhythmic only after the night-shift schedule were enriched in PCs with 18:2 fatty acids and TGs containing 18:3 fatty acids (Datasets 7, 9).</citation_analysis></p>
+      </sec>
+      <sec id="s0003-s2003">
+        <title>Alterations in Acrophase Induced by the Simulated Night-Shift Schedule</title>
+        <p><citation_analysis attribute="neither">Twenty-five of the 77 lipids that were identified as significantly rhythmic in both day- and night-shift conditions had alterations in the acrophase (timing of peak abundance) of the 24-h rhythm after the simulated night schedule, as compared to after the simulated day schedule (</citation_analysis><citation_analysis attribute="positive"><xref rid="f0004" ref-type="fig">Figure 4C</xref></citation_analysis><citation_analysis attribute="neither">, Dataset 10). All of 14 TGs peaked in the middle of the day in both conditions, but 13 showed a phase advance after the night-shift schedule (ie, peaked earlier in time compared to after the day-shift), with 8 out of these 13 containing an odd chained fatty acid (</citation_analysis><citation_analysis attribute="positive"><xref rid="f0004" ref-type="fig">Figure 4C</xref></citation_analysis><citation_analysis attribute="neither">, Dataset 10). LPCs were also phase advanced after the night-shift schedule. One similar type of lipid, known as lyso-PAF (platelet activating factor), PC(O-18:1_0:0) was almost completely reversed.</citation_analysis></p>
+      </sec>
+      <sec id="s0003-s2004">
+        <title>Triglyceride Dynamics at 16:30 h Independent of Simulated Shift Schedule</title>
+        <p><citation_analysis attribute="neither">TGs tended to peak or dip (ie, be depleted) at 16:30 h regardless of the preceding simulated shift schedule (</citation_analysis><citation_analysis attribute="positive"><xref rid="f0005" ref-type="fig">Figure 5</xref></citation_analysis><citation_analysis attribute="neither">). Those that peaked were significantly enriched in saturated fatty acids (p=0.001), including 16:0 (p=0.001). Those that dipped were not significantly enriched in any lipid classifiers, but many of these lipids contained VLCFAs and 18:1 fatty acids.</citation_analysis><citation_analysis attribute="positive"><fig position="float" id="f0005" fig-type="figure"><label>Figure 5</label><caption><p><citation_analysis attribute="neither">Example time series of TGs that peaked or dipped at 16:30 h regardless of shift condition. Plots on the left are from the day-shift, and plots on the right are from the night-shift. Each curve corresponds to an individual’s data plotted against clock time. TGs that were elevated at 16:30 h consisted of saturated fatty acids, 16:0 in particular (top). TGs that were depleted at 16:30 h tended to contain VLCFAs and 18:1 (bottom). Break in curve indicates where the constant routine began/ended.</citation_analysis></p></caption><graphic xlink:href="NSS-14-981-g0005" content-type="print-only" position="float"/></fig></citation_analysis></p>
+      </sec>
+    </sec>
+    <sec id="s0004">
+      <title>Discussion</title>
+      <p><citation_analysis attribute="neither">Circadian disruption is linked to dysregulation of lipid metabolism and homeostasis.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0009" ref-type="bibr">9–11</xref></citation_analysis><citation_analysis attribute="neither">,</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0014" ref-type="bibr">14</xref></citation_analysis><citation_analysis attribute="neither"> With our lipidome analysis, we gained insights into how the temporal dynamics of lipids are influenced by night-shift work. We also expanded upon the lipidomics/metabolomics analysis of the same samples and study population as in Skene et al (2018).</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0014" ref-type="bibr">14</xref></citation_analysis><citation_analysis attribute="neither"> While our results cannot be directly compared to those of Skene and colleagues because of the expanded coverage of the lipidome (ie, Skene et al used a targeted lipid panel consisting of choline-containing lipid and fatty acids), we found general agreement in the misalignment and disruptions of circadian rhythmicity of the LPC subclass due to the simulated night shift schedule.</citation_analysis></p>
+      <p><citation_analysis attribute="neither">In the current study, despite high inter-individual variability, which has also been observed in other studies,</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0010" ref-type="bibr">10</xref></citation_analysis><citation_analysis attribute="neither">,</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0013" ref-type="bibr">13</xref></citation_analysis><citation_analysis attribute="positive"> we identified lipid signatures consistent with increased CVD risk after just 3 days on a simulated night-shift schedule. Our study revealed profound disturbances in the circadian rhythmicity of the human lipidome that persisted after exposure to a simulated night-shift schedule, indicating that the observed effects were not mere responses to the altered timing of behavioral cycles but rather indicative of dysregulation of the endogenous rhythms of the biological processes in which these lipids are involved and the cells and organs that produce them. Our discovery of very early alterations in lipids known to be associated with long-term health effects of shift work that typically manifest clinically only months to years later</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0006" ref-type="bibr">6</xref></citation_analysis><citation_analysis attribute="neither">,</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0033" ref-type="bibr">33</xref></citation_analysis><citation_analysis attribute="neither"> creates opportunities for early diagnosis, development of biomarkers, and early intervention to reduce health impacts.</citation_analysis></p>
+      <p><citation_analysis attribute="positive">Our simulated shift work study was limited in that it had a between-subjects study design and a relatively small sample size for which the distribution of males and females was not balanced between groups. This may have constrained our ability to detect and interpret group differences in overall abundance levels of the lipidome. Owing to the use of powerful mixed-effects regression techniques, though, sample size was not a major limitation with regard to the detection of group differences in temporal dynamics. It is noteworthy that we found widespread group differences in the lipidome after just 3 days on a simulated night- versus day-shift schedule, indicating fast reactivity of lipid metabolism to circadian disturbance. However, our study was not designed to reveal any adaptive or maladaptive mechanisms that may cause further change in the lipidome after long-term exposure to a night-shift schedule. Furthermore, workers in actual night-shift operations, as compared to day-shift operations, are exposed to various other factors that may affect lipid metabolism, including changes in the environment (eg, light exposure) and behavior (eg, food intake). In our study, such factors were standardized, but they would be expected to play a noticeable role with regard to the impact of shift work schedules in real-world settings. This may also include differential effects of shift work on other aspects of metabolism and downstream consequences thereof, such as increased prevalence of obesity and diabetes and a variety of other medical conditions,</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0034" ref-type="bibr">34–40</xref></citation_analysis><citation_analysis attribute="neither"> which may interact with the lipidome and contribute further to CVD risk.</citation_analysis></p>
+      <p><citation_analysis attribute="positive">Our study did not measure CVD outcomes or evaluate long-term CVD risk. Nonetheless, there are specific connections of our observations with CVD and CVD risk (</citation_analysis><citation_analysis attribute="positive"><xref rid="f0006" ref-type="fig">Figure 6</xref></citation_analysis><citation_analysis attribute="neither">). Saturated fatty acids, in particular 12:0 (lauric acid), 14:0 (myristic acid) and 16:0 (palmitic acid), are known to be associated with elevated CVD risk, as these fatty acids raise low-density lipoprotein cholesterol (LDL-C) levels.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0041" ref-type="bibr">41</xref></citation_analysis><citation_analysis attribute="neither"> In our study, TGs containing saturated fatty acids, including 16:0 and 14:0, showed dampened circadian rhythms after the night-shift condition as compared to the day-shift condition. The rhythmic regulation of these fatty acids may be important for cardiovascular function, and a dampening of their rhythms due to night-shift work may ultimately have consequences for human health.</citation_analysis><citation_analysis attribute="positive"><fig position="float" id="f0006" fig-type="figure"><label>Figure 6</label><caption><p><citation_analysis attribute="positive">Summary of changes in the endogenous circadian profiles of the lipidome induced by a simulated night-shift schedule. The arrows indicate direction of change for specific lipids, with additional specificity noted at the end of the arrow, if applicable. Asterisks (*) indicate lipid changes consistent with CVD and/or CVD risk.</citation_analysis></p></caption><graphic xlink:href="NSS-14-981-g0006" content-type="print-only" position="float"/></fig></citation_analysis></p>
+      <p><citation_analysis attribute="positive">Further, blood plasma lipidomic profiles have recently been shown to be predictive of cardiovascular events. It has been reported that LPCs have a negative association with cardiovascular death, as do TGs containing 18:2.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0042" ref-type="bibr">42</xref></citation_analysis><citation_analysis attribute="neither"> In our study, we found that in addition to TGs, 18:2 associated lipids decreased (ie, significantly lower mesor) in multiple lipid subclasses after the simulated night-shift condition (</citation_analysis><citation_analysis attribute="positive"><xref rid="f0004" ref-type="fig">Figures 4A</xref></citation_analysis><citation_analysis attribute="neither"> and </citation_analysis><citation_analysis attribute="positive"><xref rid="f0006" ref-type="fig">6</xref></citation_analysis><citation_analysis attribute="neither">), suggesting a connection with CVD risk. The decrease in abundance of 18:2 lipids could be due to several factors, one of which is related to diet – 18:2, as linoleic acid, is the most common PUFA in the human diet.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0043" ref-type="bibr">43</xref></citation_analysis><citation_analysis attribute="neither"> However, given that food intake was standardized (hourly isocaloric snacks) during the 24-h constant routine protocol when the blood samples used for lipidomics were taken, and dietary options were limited during the preceding simulated shift days, we would expect no substantive difference in 18:2 consumption between the shift conditions. LPCs were also statistically decreased (</citation_analysis><citation_analysis attribute="positive"><xref rid="f0004" ref-type="fig">Figures 4A</xref></citation_analysis><citation_analysis attribute="neither"> and </citation_analysis><citation_analysis attribute="positive"><xref rid="f0006" ref-type="fig">6</xref></citation_analysis><citation_analysis attribute="positive">); however, these lipids have been shown to have mixed associations with CVD.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0044" ref-type="bibr">44</xref></citation_analysis></p>
+      <p><citation_analysis attribute="positive">It has also been reported that DG and TG lipids containing saturated fatty acids and MUFA have either no association or a positive association with cardiovascular death, except for DG(16:1/16:1) and TG(16:1/16:1/16:1), both of which have a negative association.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0042" ref-type="bibr">42</xref></citation_analysis><citation_analysis attribute="neither"> The exception of DG(16:1/16:1) and TG(16:1/16:1/16:1) may be caused by downregulation of stearoyl-CoA desaturase 1 (</citation_analysis><citation_analysis attribute="positive"><italic toggle="yes">SCD1</italic></citation_analysis><citation_analysis attribute="neither">), resulting in associated cardiovascular death, as palmitoleic acid (16:1n-7) is a major product of </citation_analysis><citation_analysis attribute="positive"><italic toggle="yes">SCD1</italic></citation_analysis><citation_analysis attribute="positive">. Although we did not observe any significant differences in enrichment with 16:1 containing lipids in our comparisons between day- and night-shift schedules (Datasets S4-S9), 18:1 was significantly decreased in multiple lipid subclasses after the night-shift schedule (Datasets S6, S8). As </citation_analysis><citation_analysis attribute="positive"><italic toggle="yes">SCD1</italic></citation_analysis><citation_analysis attribute="positive"> also converts 18:0 (stearic acid) to 18:1 (likely oleic acid), and 18:1 decreased in multiple lipid subclasses after night-shift in our study, this is consistent with downregulation of </citation_analysis><citation_analysis attribute="positive"><italic toggle="yes">SCD1</italic></citation_analysis><citation_analysis attribute="neither">.</citation_analysis></p>
+      <p><citation_analysis attribute="neither">In addition to the roles of </citation_analysis><citation_analysis attribute="positive"><italic toggle="yes">SCD1</italic></citation_analysis><citation_analysis attribute="neither"> in desaturating palmitic acid and stearic acid, </citation_analysis><citation_analysis attribute="positive"><italic toggle="yes">SCD1</italic></citation_analysis><citation_analysis attribute="positive"> has recently been shown to desaturate odd chained fatty acids (OCFAs).</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0045" ref-type="bibr">45</xref></citation_analysis><citation_analysis attribute="neither"> In our study, OCFAs containing TGs (eg, 15:0 and 17:0) were phase advanced after simulated night-shift, with many also increasing in abundance. The OCFA-containing TGs (OCFA-TGs) identified in our study could be linear fatty acid chains (eg, 17:0) and/or branched chained fatty acids (BCFAs) (ie, a linear C16 chain with a methyl branch, eg, iso-17:0), as they have the same mass to charge fragments in the mass spectrometer. OCFAs have recently been found to be positively associated with the development of CVD,</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0042" ref-type="bibr">42</xref></citation_analysis><citation_analysis attribute="positive"> and have been reported to be a predictor of developing type 2 diabetes (T2D) when the OCFAs 19:1 and 17:0 were associated with PC lipids;</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0046" ref-type="bibr">46</xref></citation_analysis><citation_analysis attribute="neither"> T2D commonly coincides with CVD.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0047" ref-type="bibr">47</xref></citation_analysis><citation_analysis attribute="neither"> Why the OCFAs would be almost exclusively advanced after simulated night-shift is unclear, and we do not know the source of the OCFAs in our study. They could be coming from diet (eg, milk products in the isocaloric snacks consumed hourly during the constant routine; see </citation_analysis><citation_analysis attribute="positive"><underline><ext-link xlink:href="https://www.dovepress.com/get_supplementary_file.php?f=363437.xls" ext-link-type="uri">Supplementary Information</ext-link></underline></citation_analysis><citation_analysis attribute="neither">), remnants from the previous days’ meals,</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0048" ref-type="bibr">48</xref></citation_analysis><citation_analysis attribute="neither">,</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0049" ref-type="bibr">49</xref></citation_analysis><citation_analysis attribute="neither"> generated de novo from BCAAs</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0050" ref-type="bibr">50</xref></citation_analysis><citation_analysis attribute="neither">,</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0051" ref-type="bibr">51</xref></citation_analysis><citation_analysis attribute="neither"> as identified previously,</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0014" ref-type="bibr">14</xref></citation_analysis><citation_analysis attribute="neither"> formed from the elongation or desaturation of other fatty acids,</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0045" ref-type="bibr">45</xref></citation_analysis><citation_analysis attribute="neither">,</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0052" ref-type="bibr">52</xref></citation_analysis><citation_analysis attribute="neither"> or possibly from the human microbiome.</citation_analysis></p>
+      <p><citation_analysis attribute="neither">Investigation of the fatty acid composition of TGs also revealed an unexpected finding: saturated TGs, including those with 16:0, increased in the 16:30 h sample in the blood plasma, regardless of the prior simulated shift condition and the number of hours awake during the constant routine. Likewise, TGs with VLCFAs and 18:1 decreased precipitously at that same time of day, regardless of experimental condition or time awake (</citation_analysis><citation_analysis attribute="positive"><xref rid="f0005" ref-type="fig">Figure 5</xref></citation_analysis><citation_analysis attribute="neither">). The only reasonable explanation for this finding, given the many controls of the study, is that this effect may be mediated by the central pacemaker in the SCN, which was only delayed by about 1.5 h after the night-shift condition compared to the day-shift condition.</citation_analysis></p>
+      <p><citation_analysis attribute="positive">Previous research has shown that total TGs increase around 16:30 h</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0053" ref-type="bibr">53</xref></citation_analysis><citation_analysis attribute="neither">,</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0054" ref-type="bibr">54</xref></citation_analysis><citation_analysis attribute="neither"> and can be impacted by circadian regulation.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0055" ref-type="bibr">55</xref></citation_analysis><citation_analysis attribute="neither">,</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0056" ref-type="bibr">56</xref></citation_analysis><citation_analysis attribute="positive"> However, the opposing change in abundance based on TG fatty acid composition has not been reported previously and the biological meaning is unclear. The literature does not readily reveal why, as many studies are based on free fatty acids or fatty acids that are shorter chained (eg, C14, C16, C18) or examine total TG abundance. Given TGs are packaged in lipoproteins, one possible explanation for these opposing TG abundances is that the TGs are from different lipoproteins. TGs transported in the blood are packed into chylomicrons (CM) produced from the intestine (and reflecting dietary lipid consumption) and very low-density lipoproteins (VLDL) produced from the liver. Most CM are released into the blood stream about 3–4 h postprandial and VLDLs are released 4–6 h postprandial.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0048" ref-type="bibr">48</xref></citation_analysis><citation_analysis attribute="neither"> Given that participants were on a similar diet, but time-shifted by 12 h depending on study condition for 3 days, and blood was collected subsequently during constant routine with hourly, small isocaloric snacks, postprandial TGs cannot explain this difference. As such, we hypothesize that the increase in TGs at 16:30 h may be more reflective of TGs in VLDL from the liver. Previous work has found that TG and VLDL abundance is under circadian regulation</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0056" ref-type="bibr">56</xref></citation_analysis><citation_analysis attribute="positive"> and that TG and liver proteins show endogenous circadian rhythms that shift in response to combined light and food stimuli.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0057" ref-type="bibr">57</xref></citation_analysis><citation_analysis attribute="neither"> Identifying the mechanism controlling the divergent pattern at 16:30 h is beyond the scope of this study, but circadian regulation of genes or proteins associated with lipid metabolism within the liver may be responsible.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0055" ref-type="bibr">55</xref></citation_analysis><citation_analysis attribute="neither">,</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0058" ref-type="bibr">58</xref></citation_analysis><citation_analysis attribute="neither">,</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0059" ref-type="bibr">59</xref></citation_analysis></p>
+      <p><citation_analysis attribute="positive">By expanding lipid profiling significantly beyond more common total TG abundance, we demonstrated that deep lipidome coverage can improve the identification of clinically predictive markers of CVD risk, in particular by accounting for the detailed fatty acid chemistries of individual TG lipids. For example, based on a clinical blood lipid panel, it has been reported</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0053" ref-type="bibr">53</xref></citation_analysis><citation_analysis attribute="negative"> that the temporal dynamics of total TGs within a 24-h cycle influence cardiovascular risk assessment. This finding is of particular importance due to single-point sample collection and measurement that is commonly conducted in clinical labs. Our study similarly highlights how circadian disruption within a 24-h altered sleep cycles can alter TG dynamics beyond that of total TG abundance, showing that individual TGs with different fatty acid compositions display distinct and contrasting circadian dynamics (</citation_analysis><citation_analysis attribute="positive"><xref rid="f0004 f0005 f0006" ref-type="fig">Figures 4–6</xref></citation_analysis><citation_analysis attribute="positive">). Future studies that can combine and connect the information obtained from lipidomics analyses with clinical lipid-based lipoprotein panel results will accelerate our power to discover biomarkers and the mechanisms associated with the short- and long-term health impacts of shift work.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0060" ref-type="bibr">60</xref></citation_analysis></p>
+    </sec>
+    <sec id="s0005">
+      <title>Conclusion</title>
+      <p><citation_analysis attribute="positive">The findings of this simulated shift work study suggest that blood plasma lipid signatures of CVD risk occur within just 3 days on a night-shift schedule. In addition, our findings provide evidence that TG metabolism is not solely determined by external environmental factors or behaviors. Our lipidomics approach included the examination of multiple metrics to evaluate rhythm characteristics, including mesor, amplitude, and acrophase, which revealed several connections with known lipid-based CVD risk signatures. Our findings highlight that as TGs with different fatty acid compositions (eg, containing 16:0 fatty acids or OCFAs) exhibit different circadian dynamics, a more comprehensive TG clinical profiling that can identify the cause of altered TG dynamics may improve CVD risk assessment.</citation_analysis></p>
+    </sec>
+  </body>
+  <back>
+    <ack>
+      <title>Acknowledgments</title>
+      <p><citation_analysis attribute="neither">We thank the staff of the Sleep and Performance Research Center at Washington State University Health Sciences Spokane for their help conducting the clinical study. The in-laboratory study, blood sample collection, and data analyses were supported in part by start-up funds from the College of Pharmacy and Pharmaceutical Sciences at Washington State University; Congressionally Directed Medical Research Program grant W81XWH-16-1-0319 and US Army Medical Research and Development Command grant W81XWH-18-1-0100; and National Institutes of Health grants R00ES022640, R01ES030113 and R01MD014035. This work was supported by the Pacific Northwest National Laboratory (PNNL), Laboratory Directed Research and Development program, and is a contribution of the Biomedical Resilience &amp; Readiness in Adverse Operating Environments (BRAVE) Agile project. Lipidomics analyses were performed in the Environmental Molecular Sciences Laboratory, a national scientific user facility sponsored by the Department of Energy (DOE) Office of Biological and Environmental Research located at PNNL. PNNL is a multiprogram national laboratory operated by Battelle for the DOE under Contract DE-AC05-76RLO 1830.</citation_analysis></p>
+    </ack>
+    <sec id="s0006">
+      <title>Data Sharing Statement</title>
+      <p><citation_analysis attribute="neither">All mass spectrometry datasets have been deposited in the Mass Spectrometry Interactive Virtual Environment (MassIVE; </citation_analysis><citation_analysis attribute="positive"><underline><ext-link xlink:href="https://massive.ucsd.edu/ProteoSAFe/static/massive.jsp" ext-link-type="uri">https://massive.ucsd.edu/ProteoSAFe/static/massive.jsp</ext-link></underline></citation_analysis><citation_analysis attribute="neither">) under the ID code MSV000086152.</citation_analysis></p>
+    </sec>
+    <sec sec-type="COI-statement" id="s0007">
+      <title>Disclosure</title>
+      <p><citation_analysis attribute="neither">The authors report no conflicts of interest in this work.</citation_analysis></p>
+    </sec>
+    <ref-list>
+      <title>References</title>
+      <ref id="cit0001">
+        <label>1.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Potter</surname>
+<given-names>GD</given-names></string-name>, <string-name><surname>Skene</surname>
+<given-names>DJ</given-names></string-name>, <string-name><surname>Arendt</surname>
+<given-names>J</given-names></string-name>, <string-name><surname>Cade</surname>
+<given-names>JE</given-names></string-name>, <string-name><surname>Grant</surname>
+<given-names>PJ</given-names></string-name>, <string-name><surname>Hardie</surname>
+<given-names>LJ</given-names></string-name>. <article-title>Circadian Rhythm and Sleep Disruption: causes, Metabolic Consequences, and Countermeasures</article-title>. <source><italic toggle="yes">Endocr Rev</italic></source>. <year>2016</year>;<volume>37</volume>(<issue>6</issue>):<fpage>584</fpage>–<lpage>608</lpage>. doi:<pub-id pub-id-type="doi">10.1210/er.2016-1083</pub-id><pub-id pub-id-type="pmid">27763782</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0002">
+        <label>2.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Astiz</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Heyde</surname>
+<given-names>I</given-names></string-name>, <string-name><surname>Oster</surname>
+<given-names>H</given-names></string-name>. <article-title>Mechanisms of Communication in the Mammalian Circadian Timing System</article-title>. <source><italic toggle="yes">Int J Mol Sci</italic></source>. <year>2019</year>;<volume>20</volume>(<issue>2</issue>):<fpage>65</fpage>. doi:<pub-id pub-id-type="doi">10.3390/ijms20020343</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0003">
+        <label>3.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Reinke</surname>
+<given-names>H</given-names></string-name>, <string-name><surname>Asher</surname>
+<given-names>G</given-names></string-name>. <article-title>Crosstalk between metabolism and circadian clocks</article-title>. <source><italic toggle="yes">Nat Rev Mol Cell Biol</italic></source>. <year>2019</year>;<volume>20</volume>(<issue>4</issue>):<fpage>227</fpage>–<lpage>241</lpage>. doi:<pub-id pub-id-type="doi">10.1038/s41580-018-0096-9</pub-id><pub-id pub-id-type="pmid">30635659</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0004">
+        <label>4.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Crnko</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Du Pré</surname>
+<given-names>BC</given-names></string-name>, <string-name><surname>Sluijter</surname>
+<given-names>JPG</given-names></string-name>, <string-name><surname>Van Laake</surname>
+<given-names>LW</given-names></string-name>. <article-title>Circadian rhythms and the molecular clock in cardiovascular biology and disease</article-title>. <source><italic toggle="yes">Nat Rev Cardiol</italic></source>. <year>2019</year>;<volume>16</volume>(<issue>7</issue>):<fpage>437</fpage>–<lpage>447</lpage>. doi:<pub-id pub-id-type="doi">10.1038/s41569-019-0167-4</pub-id><pub-id pub-id-type="pmid">30796369</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0005">
+        <label>5.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Hayter</surname>
+<given-names>EA</given-names></string-name>, <string-name><surname>Wehrens</surname>
+<given-names>SMT</given-names></string-name>, <string-name><surname>Van Dongen</surname>
+<given-names>HPA</given-names></string-name>, et al. <article-title>Distinct circadian mechanisms govern cardiac rhythms and susceptibility to arrhythmia</article-title>. <source><italic toggle="yes">Nat Commun</italic></source>. <year>2021</year>;<volume>12</volume>(<issue>1</issue>):<fpage>2472</fpage>. doi:<pub-id pub-id-type="doi">10.1038/s41467-021-22788-8</pub-id><pub-id pub-id-type="pmid">33931651</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0006">
+        <label>6.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Costa</surname>
+<given-names>G</given-names></string-name>. <article-title>Shift work and health: current problems and preventive actions</article-title>. <source><italic toggle="yes">Saf Health Work</italic></source>. <year>2010</year>;<volume>1</volume>(<issue>2</issue>):<fpage>112</fpage>–<lpage>123</lpage>. doi:<pub-id pub-id-type="doi">10.5491/shaw.2010.1.2.112</pub-id><pub-id pub-id-type="pmid">22953171</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0007">
+        <label>7.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>James</surname>
+<given-names>SM</given-names></string-name>, <string-name><surname>Honn</surname>
+<given-names>KA</given-names></string-name>, <string-name><surname>Gaddameedhi</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Van Dongen</surname>
+<given-names>HPA</given-names></string-name>. <article-title>Shift Work: disrupted Circadian Rhythms and Sleep-Implications for Health and Well-Being</article-title>. <source><italic toggle="yes">Curr Sleep Med Rep</italic></source>. <year>2017</year>;<volume>3</volume>(<issue>2</issue>):<fpage>104</fpage>–<lpage>112</lpage>. doi:<pub-id pub-id-type="doi">10.1007/s40675-017-0071-6</pub-id><pub-id pub-id-type="pmid">29057204</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0008">
+        <label>8.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Adamovich</surname>
+<given-names>Y</given-names></string-name>, <string-name><surname>Rousso-Noori</surname>
+<given-names>L</given-names></string-name>, <string-name><surname>Zwighaft</surname>
+<given-names>Z</given-names></string-name>, et al. <article-title>Circadian clocks and feeding time regulate the oscillations and levels of hepatic triglycerides</article-title>. <source><italic toggle="yes">Cell Metab</italic></source>. <year>2014</year>;<volume>19</volume>(<issue>2</issue>):<fpage>319</fpage>–<lpage>330</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.cmet.2013.12.016</pub-id><pub-id pub-id-type="pmid">24506873</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0009">
+        <label>9.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Chua</surname>
+<given-names>EC</given-names></string-name>, <string-name><surname>Shui</surname>
+<given-names>G</given-names></string-name>, <string-name><surname>Cazenave-Gassiot</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Wenk</surname>
+<given-names>MR</given-names></string-name>, <string-name><surname>Gooley</surname>
+<given-names>JJ</given-names></string-name>. <article-title>Changes in Plasma Lipids during Exposure to Total Sleep Deprivation</article-title>. <source><italic toggle="yes">Sleep</italic></source>. <year>2015</year>;<volume>38</volume>(<issue>11</issue>):<fpage>1683</fpage>–<lpage>1691</lpage>. doi:<pub-id pub-id-type="doi">10.5665/sleep.5142</pub-id><pub-id pub-id-type="pmid">26194579</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0010">
+        <label>10.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Chua</surname>
+<given-names>EC</given-names></string-name>, <string-name><surname>Shui</surname>
+<given-names>G</given-names></string-name>, <string-name><surname>Lee</surname>
+<given-names>IT-G</given-names></string-name>, et al. <article-title>Extensive diversity in circadian regulation of plasma lipids and evidence for different circadian metabolic phenotypes in humans</article-title>. <source><italic toggle="yes">Proce National Acad Sci</italic></source>. <year>2013</year>;<volume>110</volume>(<issue>35</issue>):<fpage>14468</fpage>–<lpage>14473</lpage>. doi:<pub-id pub-id-type="doi">10.1073/pnas.1222647110</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0011">
+        <label>11.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Loizides-Mangold</surname>
+<given-names>U</given-names></string-name>, <string-name><surname>Perrin</surname>
+<given-names>L</given-names></string-name>, <string-name><surname>Vandereycken</surname>
+<given-names>B</given-names></string-name>, et al. <article-title>Lipidomics reveals diurnal lipid oscillations in human skeletal muscle persisting in cellular myotubes cultured in vitro</article-title>. <source><italic toggle="yes">Proc Natl Acad Sci U S A</italic></source>. <year>2017</year>;<volume>114</volume>(<issue>41</issue>):<fpage>E8565</fpage>–<lpage>e8574</lpage>. doi:<pub-id pub-id-type="doi">10.1073/pnas.1705821114</pub-id><pub-id pub-id-type="pmid">28973848</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0012">
+        <label>12.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Wehrens</surname>
+<given-names>SM</given-names></string-name>, <string-name><surname>Hampton</surname>
+<given-names>SM</given-names></string-name>, <string-name><surname>Finn</surname>
+<given-names>RE</given-names></string-name>, <string-name><surname>Skene</surname>
+<given-names>DJ</given-names></string-name>. <article-title>Effect of total sleep deprivation on postprandial metabolic and insulin responses in shift workers and non-shift workers</article-title>. <source><italic toggle="yes">J Endocrinol</italic></source>. <year>2010</year>;<volume>206</volume>(<issue>2</issue>):<fpage>205</fpage>–<lpage>215</lpage>. doi:<pub-id pub-id-type="doi">10.1677/joe-10-0077</pub-id><pub-id pub-id-type="pmid">20479040</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0013">
+        <label>13.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Kervezee</surname>
+<given-names>L</given-names></string-name>, <string-name><surname>Cermakian</surname>
+<given-names>N</given-names></string-name>, <string-name><surname>Boivin</surname>
+<given-names>DB</given-names></string-name>. <article-title>Individual metabolomic signatures of circadian misalignment during simulated night shifts in humans</article-title>. <source><italic toggle="yes">PLoS Biol</italic></source>. <year>2019</year>;<volume>17</volume>(<issue>6</issue>):<fpage>e3000303</fpage>. doi:<pub-id pub-id-type="doi">10.1371/journal.pbio.3000303</pub-id><pub-id pub-id-type="pmid">31211770</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0014">
+        <label>14.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Skene</surname>
+<given-names>DJ</given-names></string-name>, <string-name><surname>Skornyakov</surname>
+<given-names>E</given-names></string-name>, <string-name><surname>Chowdhury</surname>
+<given-names>NR</given-names></string-name>, et al. <article-title>Separation of circadian- and behavior-driven metabolite rhythms in humans provides a window on peripheral oscillators and metabolism</article-title>. <source><italic toggle="yes">Proc Natl Acad Sci U S A</italic></source>. <year>2018</year>;<volume>115</volume>(<issue>30</issue>):<fpage>7825</fpage>–<lpage>7830</lpage>. doi:<pub-id pub-id-type="doi">10.1073/pnas.1801183115</pub-id><pub-id pub-id-type="pmid">29991600</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0015">
+        <label>15.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Duffy</surname>
+<given-names>JF</given-names></string-name>, <string-name><surname>Dijk</surname>
+<given-names>DJ</given-names></string-name>. <article-title>Getting through to circadian oscillators: why use constant routines?</article-title>
+<source><italic toggle="yes">J Biol Rhythms</italic></source>. <year>2002</year>;<volume>17</volume>(<issue>1</issue>):<fpage>4</fpage>–<lpage>13</lpage>. doi:<pub-id pub-id-type="doi">10.1177/074873002129002294</pub-id><pub-id pub-id-type="pmid">11837947</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0016">
+        <label>16.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Khalyfa</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Gaddameedhi</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Crooks</surname>
+<given-names>E</given-names></string-name>, et al. <article-title>Circulating Exosomal miRNAs Signal Circadian Misalignment to Peripheral Metabolic Tissues</article-title>. <source><italic toggle="yes">Int J Mol Sci</italic></source>. <year>2020</year>;<volume>21</volume>(<issue>17</issue>):<fpage>65</fpage>. doi:<pub-id pub-id-type="doi">10.3390/ijms21176396</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0017">
+        <label>17.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Fretts</surname>
+<given-names>AM</given-names></string-name>, <string-name><surname>Jensen</surname>
+<given-names>PN</given-names></string-name>, <string-name><surname>Hoofnagle</surname>
+<given-names>A</given-names></string-name>, et al. <article-title>Plasma Ceramide Species Are Associated with Diabetes Risk in Participants of the Strong Heart Study</article-title>. <source><italic toggle="yes">J Nutr</italic></source>. <year>2019</year>;<volume>150</volume>(<issue>5</issue>):<fpage>1214</fpage>–<lpage>1222</lpage>. doi:<pub-id pub-id-type="doi">10.1093/jn/nxz259</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0018">
+        <label>18.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Havulinna</surname>
+<given-names>AS</given-names></string-name>, <string-name><surname>Sysi-Aho</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Hilvo</surname>
+<given-names>M</given-names></string-name>, et al. <article-title>Circulating Ceramides Predict Cardiovascular Outcomes in the Population-Based FINRISK 2002 Cohort</article-title>. <source><italic toggle="yes">Arterioscler Thromb Vasc Biol</italic></source>. <year>2016</year>;<volume>36</volume>(<issue>12</issue>):<fpage>2424</fpage>–<lpage>2430</lpage>. doi:<pub-id pub-id-type="doi">10.1161/atvbaha.116.307497</pub-id><pub-id pub-id-type="pmid">27765765</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0019">
+        <label>19.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Miller</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Stone</surname>
+<given-names>NJ</given-names></string-name>, <string-name><surname>Ballantyne</surname>
+<given-names>C</given-names></string-name>, et al. <article-title>Triglycerides and cardiovascular disease: a scientific statement from the American Heart Association</article-title>. <source><italic toggle="yes">Circulation</italic></source>. <year>2011</year>;<volume>123</volume>(<issue>20</issue>):<fpage>2292</fpage>–<lpage>2333</lpage>. doi:<pub-id pub-id-type="doi">10.1161/CIR.0b013e3182160726</pub-id><pub-id pub-id-type="pmid">21502576</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0020">
+        <label>20.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>McMahon</surname>
+<given-names>WR</given-names></string-name>, <string-name><surname>Ftouni</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Phillips</surname>
+<given-names>AJK</given-names></string-name>, et al. <article-title>The impact of structured sleep schedules prior to an in-laboratory study: individual differences in sleep and circadian timing</article-title>. <source><italic toggle="yes">PLoS One</italic></source>. <year>2020</year>;<volume>15</volume>(<issue>8</issue>):<fpage>e0236566</fpage>. doi:<pub-id pub-id-type="doi">10.1371/journal.pone.0236566</pub-id><pub-id pub-id-type="pmid">32785281</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0021">
+        <label>21.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Folch</surname>
+<given-names>J</given-names></string-name>, <string-name><surname>Lees</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Sloane stanley</surname>
+<given-names>GH</given-names></string-name>. <article-title>A simple method for the isolation and purification of total lipides from animal tissues</article-title>. <source><italic toggle="yes">J Biol Chem</italic></source>. <year>1957</year>;<volume>226</volume>(<issue>1</issue>):<fpage>497</fpage>–<lpage>509</lpage>.<pub-id pub-id-type="pmid">13428781</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0022">
+        <label>22.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Nakayasu</surname>
+<given-names>ES</given-names></string-name>, <string-name><surname>Nicora</surname>
+<given-names>CD</given-names></string-name>, <string-name><surname>Sims</surname>
+<given-names>AC</given-names></string-name>, et al. <article-title>MPLEx: a Robust and Universal Protocol for Single-Sample Integrative Proteomic, Metabolomic, and Lipidomic Analyses</article-title>. <source><italic toggle="yes">mSystems</italic></source>. <year>2016</year>;<volume>1</volume>(<issue>3</issue>):<fpage>315</fpage>. doi:<pub-id pub-id-type="doi">10.1128/mSystems.00043-16</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0023">
+        <label>23.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Bowden</surname>
+<given-names>JA</given-names></string-name>, <string-name><surname>Heckert</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Ulmer</surname>
+<given-names>CZ</given-names></string-name>, et al. <article-title>Harmonizing lipidomics: NIST interlaboratory comparison exercise for lipidomics using SRM 1950-Metabolites in Frozen Human Plasma</article-title>. <source><italic toggle="yes">J Lipid Res</italic></source>. <year>2017</year>;<volume>58</volume>(<issue>12</issue>):<fpage>2275</fpage>–<lpage>2288</lpage>. doi:<pub-id pub-id-type="doi">10.1194/jlr.M079012</pub-id><pub-id pub-id-type="pmid">28986437</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0024">
+        <label>24.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Kyle</surname>
+<given-names>JE</given-names></string-name>, <string-name><surname>Crowell</surname>
+<given-names>KL</given-names></string-name>, <string-name><surname>Casey</surname>
+<given-names>CP</given-names></string-name>, et al. <article-title>LIQUID: an-open source software for identifying lipids in LC-MS/MS-based lipidomics data</article-title>. <source><italic toggle="yes">Bioinformatics</italic></source>. <year>2017</year>;<volume>33</volume>(<issue>11</issue>):<fpage>1744</fpage>–<lpage>1746</lpage>. doi:<pub-id pub-id-type="doi">10.1093/bioinformatics/btx046</pub-id><pub-id pub-id-type="pmid">28158427</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0025">
+        <label>25.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Pluskal</surname>
+<given-names>T</given-names></string-name>, <string-name><surname>Castillo</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Villar-Briones</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Oresic</surname>
+<given-names>M</given-names></string-name>. <article-title>MZmine 2: modular framework for processing, visualizing, and analyzing mass spectrometry-based molecular profile data</article-title>. <source><italic toggle="yes">BMC Bioinform</italic></source>. <year>2010</year>;<volume>11</volume>:<fpage>395</fpage>. doi:<pub-id pub-id-type="doi">10.1186/1471-2105-11-395</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0026">
+        <label>26.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Matzke</surname>
+<given-names>MM</given-names></string-name>, <string-name><surname>Waters</surname>
+<given-names>KM</given-names></string-name>, <string-name><surname>Metz</surname>
+<given-names>TO</given-names></string-name>, et al. <article-title>Improved quality control processing of peptide-centric LC-MS proteomics data</article-title>. <source><italic toggle="yes">Bioinformatics</italic></source>. <year>2011</year>;<volume>27</volume>(<issue>20</issue>):<fpage>2866</fpage>–<lpage>2872</lpage>. doi:<pub-id pub-id-type="doi">10.1093/bioinformatics/btr479</pub-id><pub-id pub-id-type="pmid">21852304</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0027">
+        <label>27.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Cornelissen</surname>
+<given-names>G</given-names></string-name>. <article-title>Cosinor-based rhythmometry</article-title>. <source><italic toggle="yes">Theor Biol Med Model</italic></source>. <year>2014</year>;<volume>11</volume>:<fpage>16</fpage>. doi:<pub-id pub-id-type="doi">10.1186/1742-4682-11-16</pub-id><pub-id pub-id-type="pmid">24725531</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0028">
+        <label>28.</label>
+        <mixed-citation publication-type="book"><collab>Team RDC</collab>. <source><italic toggle="yes">R: A Language and Environment for Statistical Computing</italic></source>. <publisher-name>R Foundation for Statistical Computing</publisher-name>; <year>2019</year>.</mixed-citation>
+      </ref>
+      <ref id="cit0029">
+        <label>29.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Mikulich</surname>
+<given-names>SK</given-names></string-name>, <string-name><surname>Zerbe</surname>
+<given-names>GO</given-names></string-name>, <string-name><surname>Jones</surname>
+<given-names>RH</given-names></string-name>, <string-name><surname>Crowley</surname>
+<given-names>TJ</given-names></string-name>. <article-title>Comparing linear and nonlinear mixed model approaches to cosinor analysis</article-title>. <source><italic toggle="yes">Stat Med</italic></source>. <year>2003</year>;<volume>22</volume>(<issue>20</issue>):<fpage>3195</fpage>–<lpage>3211</lpage>. doi:<pub-id pub-id-type="doi">10.1002/sim.1560</pub-id><pub-id pub-id-type="pmid">14518023</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0030">
+        <label>30.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Scargle</surname>
+<given-names>JD</given-names></string-name>. <article-title>Studies in astronomical time series analysis. II. Statistical aspects of spectral analysis of unevenly spaced data</article-title>. <source><italic toggle="yes">Astrophys J</italic></source>. <year>1982</year>;<volume>263</volume>:<fpage>835</fpage>–<lpage>853</lpage>. doi:<pub-id pub-id-type="doi">10.1086/160554</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0031">
+        <label>31.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Hosack</surname>
+<given-names>DA</given-names></string-name>, <string-name><surname>Dennis</surname>
+<given-names>G</given-names></string-name>, <string-name><surname>Sherman</surname>
+<given-names>BT</given-names></string-name>, <string-name><surname>Lane</surname>
+<given-names>HC</given-names></string-name>, <string-name><surname>Lempicki</surname>
+<given-names>RA</given-names></string-name>. <article-title>Identifying biological themes within lists of genes with EASE</article-title>. <source><italic toggle="yes">Genome Biol</italic></source>. <year>2003</year>;<volume>4</volume>(<issue>10</issue>):<fpage>R70</fpage>. doi:<pub-id pub-id-type="doi">10.1186/gb-2003-4-10-r70</pub-id><pub-id pub-id-type="pmid">14519205</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0032">
+        <label>32.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Clair</surname>
+<given-names>G</given-names></string-name>, <string-name><surname>Reehl</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Stratton</surname>
+<given-names>KG</given-names></string-name>, et al. <article-title>Lipid Mini-On: mining and ontology tool for enrichment analysis of lipidomic data</article-title>. <source><italic toggle="yes">Bioinformatics</italic></source>. <year>2019</year>;<volume>35</volume>(<issue>21</issue>):<fpage>4507</fpage>–<lpage>4508</lpage>. doi:<pub-id pub-id-type="doi">10.1093/bioinformatics/btz250</pub-id><pub-id pub-id-type="pmid">30977807</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0033">
+        <label>33.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Figueiro</surname>
+<given-names>MG</given-names></string-name>, <string-name><surname>White</surname>
+<given-names>RD</given-names></string-name>. <article-title>Health consequences of shift work and implications for structural design</article-title>. <source><italic toggle="yes">J Perinatol</italic></source>. <year>2013</year>;<volume>33</volume>(<issue>1</issue>):<fpage>S17</fpage>–<lpage>S23</lpage>. doi:<pub-id pub-id-type="doi">10.1038/jp.2013.7</pub-id><pub-id pub-id-type="pmid">23536025</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0034">
+        <label>34.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Antunes</surname>
+<given-names>LC</given-names></string-name>, <string-name><surname>Levandovski</surname>
+<given-names>R</given-names></string-name>, <string-name><surname>Dantas</surname>
+<given-names>G</given-names></string-name>, <string-name><surname>Caumo</surname>
+<given-names>W</given-names></string-name>, <string-name><surname>Hidalgo</surname>
+<given-names>MP</given-names></string-name>. <article-title>Obesity and shift work: chronobiological aspects</article-title>. <source><italic toggle="yes">Nutr Res Rev</italic></source>. <year>2010</year>;<volume>23</volume>(<issue>1</issue>):<fpage>155</fpage>–<lpage>168</lpage>. doi:<pub-id pub-id-type="doi">10.1017/s0954422410000016</pub-id><pub-id pub-id-type="pmid">20122305</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0035">
+        <label>35.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>De Bacquer</surname>
+<given-names>D</given-names></string-name>, <string-name><surname>Van Risseghem</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Clays</surname>
+<given-names>E</given-names></string-name>, <string-name><surname>Kittel</surname>
+<given-names>F</given-names></string-name>, <string-name><surname>De Backer</surname>
+<given-names>G</given-names></string-name>, <string-name><surname>Braeckman</surname>
+<given-names>L</given-names></string-name>. <article-title>Rotating shift work and the metabolic syndrome: a prospective study</article-title>. <source><italic toggle="yes">Int J Epidemiol</italic></source>. <year>2009</year>;<volume>38</volume>(<issue>3</issue>):<fpage>848</fpage>–<lpage>854</lpage>. doi:<pub-id pub-id-type="doi">10.1093/ije/dyn360</pub-id><pub-id pub-id-type="pmid">19129266</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0036">
+        <label>36.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Knutsson</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Kempe</surname>
+<given-names>A</given-names></string-name>. <article-title>Shift work and diabetes–a systematic review</article-title>. <source><italic toggle="yes">Chronobiol Int</italic></source>. <year>2014</year>;<volume>31</volume>(<issue>10</issue>):<fpage>1146</fpage>–<lpage>1151</lpage>. doi:<pub-id pub-id-type="doi">10.3109/07420528.2014.957308</pub-id><pub-id pub-id-type="pmid">25290038</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0037">
+        <label>37.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Nojkov</surname>
+<given-names>B</given-names></string-name>, <string-name><surname>Rubenstein</surname>
+<given-names>JH</given-names></string-name>, <string-name><surname>Chey</surname>
+<given-names>WD</given-names></string-name>, <string-name><surname>Hoogerwerf</surname>
+<given-names>WA</given-names></string-name>. <article-title>The impact of rotating shift work on the prevalence of irritable bowel syndrome in nurses</article-title>. <source><italic toggle="yes">Am J Gastroenterol</italic></source>. <year>2010</year>;<volume>105</volume>(<issue>4</issue>):<fpage>842</fpage>–<lpage>847</lpage>. doi:<pub-id pub-id-type="doi">10.1038/ajg.2010.48</pub-id><pub-id pub-id-type="pmid">20160712</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0038">
+        <label>38.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Haupt</surname>
+<given-names>CM</given-names></string-name>, <string-name><surname>Alte</surname>
+<given-names>D</given-names></string-name>, <string-name><surname>Dörr</surname>
+<given-names>M</given-names></string-name>, et al. <article-title>The relation of exposure to shift work with atherosclerosis and myocardial infarction in a general population</article-title>. <source><italic toggle="yes">Atherosclerosis</italic></source>. <year>2008</year>;<volume>201</volume>(<issue>1</issue>):<fpage>205</fpage>–<lpage>211</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.atherosclerosis.2007.12.059</pub-id><pub-id pub-id-type="pmid">18321520</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0039">
+        <label>39.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Rizza</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Neri</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Capanna</surname>
+<given-names>A</given-names></string-name>, et al. <article-title>Night Shift Working Is Associated With an Increased Risk of Thyroid Nodules</article-title>. <source><italic toggle="yes">J Occup Environ Med</italic></source>. <year>2020</year>;<volume>62</volume>(<issue>1</issue>):<fpage>1</fpage>–<lpage>3</lpage>. doi:<pub-id pub-id-type="doi">10.1097/jom.0000000000001711</pub-id><pub-id pub-id-type="pmid">31626062</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0040">
+        <label>40.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Straif</surname>
+<given-names>K</given-names></string-name>, <string-name><surname>Baan</surname>
+<given-names>R</given-names></string-name>, <string-name><surname>Grosse</surname>
+<given-names>Y</given-names></string-name>, et al. <article-title>Carcinogenicity of shift-work, painting, and fire-fighting</article-title>. <source><italic toggle="yes">Lancet Oncol</italic></source>. <year>2007</year>;<volume>8</volume>(<issue>12</issue>):<fpage>1065</fpage>–<lpage>1066</lpage>. doi:<pub-id pub-id-type="doi">10.1016/s1470-2045(07</pub-id><pub-id pub-id-type="pmid">19271347</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0041">
+        <label>41.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Jacobson</surname>
+<given-names>TA</given-names></string-name>, <string-name><surname>Ito</surname>
+<given-names>MK</given-names></string-name>, <string-name><surname>Maki</surname>
+<given-names>KC</given-names></string-name>, et al. <article-title>National Lipid Association recommendations for patient-centered management of dyslipidemia: part 1 - executive summary</article-title>. <source><italic toggle="yes">J Clin Lipidol</italic></source>. <year>2014</year>;<volume>8</volume>(<issue>5</issue>):<fpage>473</fpage>–<lpage>488</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.jacl.2014.07.007</pub-id><pub-id pub-id-type="pmid">25234560</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0042">
+        <label>42.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Mundra</surname>
+<given-names>PA</given-names></string-name>, <string-name><surname>Barlow</surname>
+<given-names>CK</given-names></string-name>, <string-name><surname>Nestel</surname>
+<given-names>PJ</given-names></string-name>, et al. <article-title>Large-scale plasma lipidomic profiling identifies lipids that predict cardiovascular events in secondary prevention</article-title>. <source><italic toggle="yes">JCI Insight</italic></source>. <year>2018</year>;<volume>3</volume>(<issue>17</issue>):<fpage>555</fpage>. doi:<pub-id pub-id-type="doi">10.1172/jci.insight.121326</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0043">
+        <label>43.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Calder</surname>
+<given-names>PC</given-names></string-name>. <article-title>Functional Roles of Fatty Acids and Their Effects on Human Health</article-title>. <source><italic toggle="yes">JPEN J Parenter Enteral Nutr</italic></source>. <year>2015</year>;<volume>39</volume>(<issue>1Suppl</issue>):<fpage>18s</fpage>–<lpage>32s</lpage>. doi:<pub-id pub-id-type="doi">10.1177/0148607115595980</pub-id><pub-id pub-id-type="pmid">26177664</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0044">
+        <label>44.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Ding</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Rexrode</surname>
+<given-names>KM</given-names></string-name>. <article-title>A Review of Lipidomics of Cardiovascular Disease Highlights the Importance of Isolating Lipoproteins</article-title>. <source><italic toggle="yes">Metabolites</italic></source>. <year>2020</year>;<volume>10</volume>(<issue>4</issue>):<fpage>5149</fpage>. doi:<pub-id pub-id-type="doi">10.3390/metabo10040163</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0045">
+        <label>45.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Wang</surname>
+<given-names>Z</given-names></string-name>, <string-name><surname>Park</surname>
+<given-names>HG</given-names></string-name>, <string-name><surname>Wang</surname>
+<given-names>DH</given-names></string-name>, <string-name><surname>Kitano</surname>
+<given-names>R</given-names></string-name>, <string-name><surname>Kothapalli</surname>
+<given-names>KSD</given-names></string-name>, <string-name><surname>Brenna</surname>
+<given-names>JT</given-names></string-name>. <article-title>Fatty acid desaturase 2 (FADS2) but not FADS1 desaturates branched chain and odd chain saturated fatty acids</article-title>. <source><italic toggle="yes">Biochim Biophys Acta Mol Cell Biol Lipids</italic></source>. <year>2020</year>;<volume>1865</volume>(<issue>3</issue>):<fpage>158572</fpage>. doi:<pub-id pub-id-type="doi">10.1016/j.bbalip.2019.158572</pub-id><pub-id pub-id-type="pmid">31751799</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0046">
+        <label>46.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Shi</surname>
+<given-names>L</given-names></string-name>, <string-name><surname>Brunius</surname>
+<given-names>C</given-names></string-name>, <string-name><surname>Lehtonen</surname>
+<given-names>M</given-names></string-name>, et al. <article-title>Plasma metabolites associated with type 2 diabetes in a Swedish population: a case-control study nested in a prospective cohort</article-title>. <source><italic toggle="yes">Diabetologia</italic></source>. <year>2018</year>;<volume>61</volume>(<issue>4</issue>):<fpage>849</fpage>–<lpage>861</lpage>. doi:<pub-id pub-id-type="doi">10.1007/s00125-017-4521-y</pub-id><pub-id pub-id-type="pmid">29349498</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0047">
+        <label>47.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Martín-Timón</surname>
+<given-names>I</given-names></string-name>, <string-name><surname>Sevillano-Collantes</surname>
+<given-names>C</given-names></string-name>, <string-name><surname>Segura-Galindo</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Del Cañizo-Gómez</surname>
+<given-names>FJ</given-names></string-name>. <article-title>Type 2 diabetes and cardiovascular disease: have all risk factors the same strength?</article-title>
+<source><italic toggle="yes">World J Diabetes</italic></source>. <year>2014</year>;<volume>5</volume>(<issue>4</issue>):<fpage>444</fpage>–<lpage>470</lpage>. doi:<pub-id pub-id-type="doi">10.4239/wjd.v5.i4.444</pub-id><pub-id pub-id-type="pmid">25126392</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0048">
+        <label>48.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Lambert</surname>
+<given-names>JE</given-names></string-name>, <string-name><surname>Parks</surname>
+<given-names>EJ</given-names></string-name>. <article-title>Postprandial metabolism of meal triglyceride in humans</article-title>. <source><italic toggle="yes">Biochim Biophys Acta</italic></source>. <year>2012</year>;<volume>1821</volume>(<issue>5</issue>):<fpage>721</fpage>–<lpage>726</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.bbalip.2012.01.006</pub-id><pub-id pub-id-type="pmid">22281699</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0049">
+        <label>49.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Jenkins</surname>
+<given-names>B</given-names></string-name>, <string-name><surname>West</surname>
+<given-names>JA</given-names></string-name>, <string-name><surname>Koulman</surname>
+<given-names>A</given-names></string-name>. <article-title>A review of odd-chain fatty acid metabolism and the role of pentadecanoic Acid (c15:0) and heptadecanoic Acid (c17:0) in health and disease</article-title>. <source><italic toggle="yes">Molecules</italic></source>. <year>2015</year>;<volume>20</volume>(<issue>2</issue>):<fpage>2425</fpage>–<lpage>2444</lpage>. doi:<pub-id pub-id-type="doi">10.3390/molecules20022425</pub-id><pub-id pub-id-type="pmid">25647578</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0050">
+        <label>50.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Herman</surname>
+<given-names>MA</given-names></string-name>, <string-name><surname>She</surname>
+<given-names>P</given-names></string-name>, <string-name><surname>Peroni</surname>
+<given-names>OD</given-names></string-name>, <string-name><surname>Lynch</surname>
+<given-names>CJ</given-names></string-name>, <string-name><surname>Kahn</surname>
+<given-names>BB</given-names></string-name>. <article-title>Adipose tissue branched chain amino acid (BCAA) metabolism modulates circulating BCAA levels</article-title>. <source><italic toggle="yes">J Biol Chem</italic></source>. <year>2010</year>;<volume>285</volume>(<issue>15</issue>):<fpage>11348</fpage>–<lpage>11356</lpage>. doi:<pub-id pub-id-type="doi">10.1074/jbc.M109.075184</pub-id><pub-id pub-id-type="pmid">20093359</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0051">
+        <label>51.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Suryawan</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Hawes</surname>
+<given-names>JW</given-names></string-name>, <string-name><surname>Harris</surname>
+<given-names>RA</given-names></string-name>, <string-name><surname>Shimomura</surname>
+<given-names>Y</given-names></string-name>, <string-name><surname>Jenkins</surname>
+<given-names>AE</given-names></string-name>, <string-name><surname>Hutson</surname>
+<given-names>SM</given-names></string-name>. <article-title>A molecular model of human branched-chain amino acid metabolism</article-title>. <source><italic toggle="yes">Am J Clin Nutr</italic></source>. <year>1998</year>;<volume>68</volume>(<issue>1</issue>):<fpage>72</fpage>–<lpage>81</lpage>. doi:<pub-id pub-id-type="doi">10.1093/ajcn/68.1.72</pub-id><pub-id pub-id-type="pmid">9665099</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0052">
+        <label>52.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Wang</surname>
+<given-names>Z</given-names></string-name>, <string-name><surname>Wang</surname>
+<given-names>DH</given-names></string-name>, <string-name><surname>Goykhman</surname>
+<given-names>Y</given-names></string-name>, et al. <article-title>The elongation of very long-chain fatty acid 6 gene product catalyses elongation of n-13: 0 and n-15: 0 odd-chain SFA in human cells</article-title>. <source><italic toggle="yes">Br J Nutr</italic></source>. <year>2019</year>;<volume>1</volume>:<fpage>1</fpage>–<lpage>8</lpage>. doi:<pub-id pub-id-type="doi">10.1017/s0007114518003185</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0053">
+        <label>53.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Grant</surname>
+<given-names>AD</given-names></string-name>, <string-name><surname>Wolf</surname>
+<given-names>GI</given-names></string-name>. <article-title>Free-Living Humans Cross Cardiovascular Disease Risk Categories Due to Daily Rhythms in Cholesterol and Triglycerides</article-title>. <source><italic toggle="yes">J Circadian Rhythms</italic></source>. <year>2019</year>;<volume>17</volume>:<fpage>3</fpage>. doi:<pub-id pub-id-type="doi">10.5334/jcr.178</pub-id><pub-id pub-id-type="pmid">31065289</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0054">
+        <label>54.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Isherwood</surname>
+<given-names>CM</given-names></string-name>, <string-name><surname>Van der Veen</surname>
+<given-names>DR</given-names></string-name>, <string-name><surname>Johnston</surname>
+<given-names>JD</given-names></string-name>, <string-name><surname>Skene</surname>
+<given-names>DJ</given-names></string-name>. <article-title>Twenty-four-hour rhythmicity of circulating metabolites: effect of body mass and type 2 diabetes</article-title>. <source><italic toggle="yes">FASEB j</italic></source>. <year>2017</year>;<volume>31</volume>(<issue>12</issue>):<fpage>5557</fpage>–<lpage>5567</lpage>. doi:<pub-id pub-id-type="doi">10.1096/fj.201700323R</pub-id><pub-id pub-id-type="pmid">28821636</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0055">
+        <label>55.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Grant</surname>
+<given-names>LK</given-names></string-name>, <string-name><surname>Czeisler</surname>
+<given-names>CA</given-names></string-name>, <string-name><surname>Lockley</surname>
+<given-names>SW</given-names></string-name>, <string-name><surname>Rahman</surname>
+<given-names>SA</given-names></string-name>. <article-title>Time-of-day and Meal Size Effects on Clinical Lipid Markers</article-title>. <source><italic toggle="yes">J Clin Endocrinol Metab</italic></source>. <year>2021</year>;<volume>106</volume>(<issue>3</issue>):<fpage>e1373</fpage>–<lpage>e1379</lpage>. doi:<pub-id pub-id-type="doi">10.1210/clinem/dgaa739</pub-id><pub-id pub-id-type="pmid">33051649</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0056">
+        <label>56.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Grant</surname>
+<given-names>LK</given-names></string-name>, <string-name><surname>St Hilaire</surname>
+<given-names>MA</given-names></string-name>, <string-name><surname>Brainard</surname>
+<given-names>GC</given-names></string-name>, <string-name><surname>Czeisler</surname>
+<given-names>CA</given-names></string-name>, <string-name><surname>Lockley</surname>
+<given-names>SW</given-names></string-name>, <string-name><surname>Rahman</surname>
+<given-names>SA</given-names></string-name>. <article-title>Endogenous circadian regulation and phase resetting of clinical metabolic biomarkers</article-title>. <source><italic toggle="yes">J Pineal Res</italic></source>. <year>2021</year>;<volume>1</volume>:<fpage>e12752</fpage>. doi:<pub-id pub-id-type="doi">10.1111/jpi.12752</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0057">
+        <label>57.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Kent</surname>
+<given-names>BA</given-names></string-name>, <string-name><surname>Rahman</surname>
+<given-names>SA</given-names></string-name>, <string-name><surname>St. Hilaire</surname>
+<given-names>MA</given-names></string-name>, et al. <article-title>Circadian lipid and hepatic protein rhythms shift with a phase response curve different than melatonin</article-title>. <source><italic toggle="yes">Nat Commun</italic></source>. <year>2022</year>;<volume>13</volume>(<issue>1</issue>):<fpage>681</fpage>. doi:<pub-id pub-id-type="doi">10.1038/s41467-022-28308-6</pub-id><pub-id pub-id-type="pmid">35115537</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0058">
+        <label>58.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Kuang</surname>
+<given-names>J</given-names></string-name>, <string-name><surname>Chen</surname>
+<given-names>L</given-names></string-name>, <string-name><surname>Tang</surname>
+<given-names>Q</given-names></string-name>, <string-name><surname>Zhang</surname>
+<given-names>J</given-names></string-name>, <string-name><surname>Li</surname>
+<given-names>Y</given-names></string-name>, <string-name><surname>He</surname>
+<given-names>J</given-names></string-name>. <article-title>The Role of Sirt6 in Obesity and Diabetes</article-title>. <source><italic toggle="yes">Front Physiol</italic></source>. <year>2018</year>;<volume>9</volume>:<fpage>135</fpage>. doi:<pub-id pub-id-type="doi">10.3389/fphys.2018.00135</pub-id><pub-id pub-id-type="pmid">29535637</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0059">
+        <label>59.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Masri</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Rigor</surname>
+<given-names>P</given-names></string-name>, <string-name><surname>Cervantes</surname>
+<given-names>M</given-names></string-name>, et al. <article-title>Partitioning circadian transcription by SIRT6 leads to segregated control of cellular metabolism</article-title>. <source><italic toggle="yes">Cell</italic></source>. <year>2014</year>;<volume>158</volume>(<issue>3</issue>):<fpage>659</fpage>–<lpage>672</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.cell.2014.06.050</pub-id><pub-id pub-id-type="pmid">25083875</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0060">
+        <label>60.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Kyle</surname>
+<given-names>JE</given-names></string-name>. <article-title>How lipidomics can transform our understanding of virus infections</article-title>. <source><italic toggle="yes">Expert Rev Proteomics</italic></source>. <year>2021</year>;<volume>18</volume>(<issue>5</issue>):<fpage>329</fpage>–<lpage>332</lpage>. doi:<pub-id pub-id-type="doi">10.1080/14789450.2021.1929177</pub-id><pub-id pub-id-type="pmid">34030561</pub-id></mixed-citation>
+      </ref>
+    </ref-list>
+  </back>
+</article>
+</pmc-articleset>

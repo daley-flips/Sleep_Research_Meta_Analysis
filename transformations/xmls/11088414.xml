@@ -1,0 +1,598 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<pmc-articleset><article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" dtd-version="1.3" xml:lang="en" article-type="research-article">
+  <?properties open_access?>
+  <processing-meta base-tagset="archiving" mathml-version="3.0" table-model="xhtml" tagset-family="jats">
+    <restricted-by>pmc</restricted-by>
+  </processing-meta>
+  <front><journal-meta><journal-id journal-id-type="nlm-ta">Nat Sci Sleep</journal-id><journal-id journal-id-type="iso-abbrev">Nat Sci Sleep</journal-id><journal-id journal-id-type="publisher-id">nss</journal-id><journal-title-group><journal-title>Nature and Science of Sleep</journal-title></journal-title-group><issn pub-type="epub">1179-1608</issn><publisher><publisher-name>Dove</publisher-name></publisher></journal-meta>
+<article-meta><article-id pub-id-type="pmid">38737460</article-id><article-id pub-id-type="pmc">11088414</article-id><article-id pub-id-type="publisher-id">461010</article-id><article-id pub-id-type="doi">10.2147/NSS.S461010</article-id><article-categories><subj-group subj-group-type="heading"><subject>Original Research</subject></subj-group></article-categories><title-group><article-title>Association Between Sleep Apnea Syndrome and Osteoarthritis: Insights from Bidirectional Mendelian Randomization and Bioinformatics Analysis</article-title><alt-title alt-title-type="running-authors">Weng et al</alt-title><alt-title alt-title-type="running-title">Weng et al</alt-title></title-group><contrib-group><contrib contrib-type="author" equal-contrib="yes"><name><surname>Weng</surname><given-names>Lian</given-names></name><xref rid="aff0001" ref-type="aff">
+<sup>1</sup>
+</xref><xref rid="aff0002" ref-type="aff">
+<sup>2</sup>
+</xref><xref rid="aff0003" ref-type="aff">
+<sup>3</sup>
+</xref><xref rid="ft0001" ref-type="author-notes">*</xref></contrib><contrib contrib-type="author" equal-contrib="yes"><name><surname>Luo</surname><given-names>Xiongjunjie</given-names></name><xref rid="aff0001" ref-type="aff">
+<sup>1</sup>
+</xref><xref rid="aff0002" ref-type="aff">
+<sup>2</sup>
+</xref><xref rid="aff0003" ref-type="aff">
+<sup>3</sup>
+</xref><xref rid="ft0001" ref-type="author-notes">*</xref></contrib><contrib contrib-type="author"><name><surname>Luo</surname><given-names>Yuxi</given-names></name><xref rid="aff0001" ref-type="aff">
+<sup>1</sup>
+</xref><xref rid="aff0002" ref-type="aff">
+<sup>2</sup>
+</xref><xref rid="aff0003" ref-type="aff">
+<sup>3</sup>
+</xref></contrib><contrib contrib-type="author"><name><surname>Zhang</surname><given-names>Qian</given-names></name><xref rid="aff0001" ref-type="aff">
+<sup>1</sup>
+</xref><xref rid="aff0002" ref-type="aff">
+<sup>2</sup>
+</xref><xref rid="aff0003" ref-type="aff">
+<sup>3</sup>
+</xref></contrib><contrib contrib-type="author"><name><surname>Yao</surname><given-names>Kaitao</given-names></name><xref rid="aff0001" ref-type="aff">
+<sup>1</sup>
+</xref><xref rid="aff0002" ref-type="aff">
+<sup>2</sup>
+</xref><xref rid="aff0003" ref-type="aff">
+<sup>3</sup>
+</xref></contrib><contrib contrib-type="author"><name><surname>Tan</surname><given-names>Junjie</given-names></name><xref rid="aff0001" ref-type="aff">
+<sup>1</sup>
+</xref><xref rid="aff0002" ref-type="aff">
+<sup>2</sup>
+</xref><xref rid="aff0003" ref-type="aff">
+<sup>3</sup>
+</xref></contrib><contrib contrib-type="author"><name><surname>Yin</surname><given-names>Yiran</given-names></name><xref rid="aff0001" ref-type="aff">
+<sup>1</sup>
+</xref><xref rid="aff0002" ref-type="aff">
+<sup>2</sup>
+</xref><xref rid="aff0003" ref-type="aff">
+<sup>3</sup>
+</xref><xref rid="an0001" ref-type="corresp"/></contrib><aff id="aff0001"><label>1</label><institution>Department of orthopedics, the Affiliated Hospital of Southwest Medical University</institution>, <addr-line>Luzhou</addr-line>, <addr-line>Sichuan Province</addr-line>, <addr-line>646000</addr-line>, <country>People’s Republic of China</country></aff><aff id="aff0002"><label>2</label><institution>Sichuan Provincial Laboratory of Orthopedic Engineering</institution>, <addr-line>Luzhou</addr-line>, <addr-line>Sichuan Province</addr-line>, <addr-line>646000</addr-line>, <country>People’s Republic of China</country></aff><aff id="aff0003"><label>3</label><institution>Department of Clinical Medicine, Southwest Medical University</institution>, <addr-line>Luzhou</addr-line>, <addr-line>646000</addr-line>, <country>People’s Republic of China</country></aff></contrib-group><author-notes><corresp id="an0001">Correspondence: Yiran Yin, Department of Orthopaedics, The Affiliated Hospital of Southwest Medical University, <addr-line>No. 25 Tai Ping Street, Jiang Yang District</addr-line>, <addr-line>Luzhou</addr-line>, <addr-line>Sichuan Province</addr-line>, <addr-line>646000</addr-line>, <country>People’s Republic of China</country>, <phone content-type="general">Tel +13982457750</phone>, Email yiranyin@swmu.edu.cn</corresp><fn id="ft0001"><label>*</label><p><citation_analysis attribute="neither">These authors contributed equally to this work</citation_analysis></p></fn></author-notes><pub-date pub-type="epub"><day>07</day><month>5</month><year>2024</year></pub-date><pub-date pub-type="collection"><year>2024</year></pub-date><volume>16</volume><fpage>473</fpage><lpage>487</lpage><history><date date-type="received"><day>23</day><month>1</month><year>2024</year></date><date date-type="accepted"><day>26</day><month>4</month><year>2024</year></date></history><permissions><copyright-statement>© 2024 Weng et al.</copyright-statement><copyright-year>2024</copyright-year><copyright-holder>Weng et al.</copyright-holder><license><ali:license_ref xmlns:ali="http://www.niso.org/schemas/ali/1.0/" specific-use="textmining" content-type="ccbynclicense">https://creativecommons.org/licenses/by-nc/3.0/</ali:license_ref><license-p>This work is published and licensed by Dove Medical Press Limited. The full terms of this license are available at <ext-link ext-link-type="uri" xlink:href="https://www.dovepress.com/terms.php">https://www.dovepress.com/terms.php</ext-link> and incorporate the Creative Commons Attribution – Non Commercial (unported, v3.0) License (<ext-link ext-link-type="uri" xlink:href="https://creativecommons.org/licenses/by-nc/3.0/">http://creativecommons.org/licenses/by-nc/3.0/</ext-link>). By accessing the work you hereby accept the Terms. Non-commercial uses of the work are permitted without any further permission from Dove Medical Press Limited, provided the work is properly attributed. For permission for commercial use of this work, please see paragraphs 4.2 and 5 of our Terms (<ext-link ext-link-type="uri" xlink:href="https://www.dovepress.com/terms.php">https://www.dovepress.com/terms.php</ext-link>).</license-p></license></permissions><abstract><sec><title>Background</title><p><citation_analysis attribute="neither">Sleep apnea syndrome(SAS) and osteoarthritis (OA) are two prevalent diseases that often coexist, but the causal relationship between them remains unclear. In light of this, our team utilizes Mendelian Randomization and bioinformatics analysis methods to investigate the potential association between the two diseases.</citation_analysis></p></sec><sec><title>Methods</title><p><citation_analysis attribute="neither">In this study, we utilized GWAS data pertaining to SAS and OA to assess the causal relationship between the two diseases through Mendelian randomization (MR) analysis. We then employed transcriptomic data to perform differential gene identification, WGCNA, shared gene determination, functional enrichment analysis, and colocalization analysis, all designed to further elucidate the mechanisms underlying the association between the two diseases. In the end, we utilized Mendelian randomization (MR) analysis again to delve deeper into the relationship between the two diseases and immune cells.</citation_analysis></p></sec><sec><title>Results</title><p><citation_analysis attribute="positive">Our research findings indicate that SAS is a risk factor for OA (p = 0.000004), knee OA (p = 0.0000001) and hip OA(p = 0.001). Furthermore, OA (p = 0.000195), knee OA (p = 0.001) are significant risk factors for SAS. However, there is no clear evidence that hip OA (p = 0.892) is a risk factor for SAS. Interestingly, the genes shared between OA and SAS are significantly enriched in leukocyte migration, leukocyte chemotaxis. Moreover, colocalization analysis suggests that the genes JUNB, COL8A1, FOSB, and IER2 may be key genes associated with both diseases. Furthermore, 57 immune cell phenotypes are associated with SAS, 95 with OA, and 6 shared between both diseases.</citation_analysis></p></sec><sec><title>Conclusion</title><p><citation_analysis attribute="neither">This research confirmed the bidirectional causal relationship between SAS and OA. Notably, the 4 genes (JUNB, COL8A1, FOSB, IER2) and 6 immune phenotypes are crucial for both diseases, these provide hopeful targets for future interventions against these two diseases.</citation_analysis></p></sec></abstract><kwd-group kwd-group-type="author"><title>Keywords</title><kwd>sleep apnea syndrome</kwd><kwd>osteoarthritis</kwd><kwd>Mendelian randomization</kwd><kwd>bioinformatics</kwd></kwd-group><funding-group><award-group><funding-source>
+<institution-wrap><institution>the Key R &amp; D Project for Social Development in Sichuan</institution></institution-wrap>
+</funding-source></award-group><funding-statement>This research was supported by the Key R &amp; D Project for Social Development in Sichuan (2020YFS0455).</funding-statement></funding-group><counts><fig-count count="6"/><ref-count count="49"/><page-count count="15"/></counts></article-meta></front>
+  <body>
+    <sec sec-type="intro" id="s0001">
+      <title>Introduction</title>
+      <p><citation_analysis attribute="neither">Sleep apnea syndrome (SAS) is characterized by the partial or complete collapse of the throat during sleep, leading to apnea and hypoventilation.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0001" ref-type="bibr">1</xref></citation_analysis><citation_analysis attribute="neither"> This intermittent hypoventilation causes the body to experience intermittent hypoxia, exposing all body cells to a cycle of deoxygenation-reoxygenation. This process leads to oxidative stress and systemic inflammation, thereby damaging other organs.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0002" ref-type="bibr">2</xref></citation_analysis><citation_analysis attribute="neither"> If this type of injury occurs in the articular cartilage, it may lead to the development of osteoarthritis(OA).</citation_analysis></p>
+      <p><citation_analysis attribute="neither">SAS prevalence is notably elevated in individuals with OA. Shannon Stark Taylor and others have noted a 66% incidence rate of SAS among OA patients.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0003" ref-type="bibr">3</xref></citation_analysis><citation_analysis attribute="negative"> The two conditions share many similarities, including aging and metabolic disorders as common risk factors, as well as cardiovascular diseases and neurodegenerative diseases being common comorbidities.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0004" ref-type="bibr">4</xref></citation_analysis><citation_analysis attribute="neither"> However, there’s no consensus on the mutual relationship between SAS and OA. Kanbay Asiye et al found a strong correlation between SAS and OA.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0005" ref-type="bibr">5</xref></citation_analysis><citation_analysis attribute="neither"> Conversely, Diaz et al found in a retrospective cohort study that OA is not related to chronic SAS.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0006" ref-type="bibr">6</xref></citation_analysis><citation_analysis attribute="neither"> This highlights that observational studies are easily influenced by confounding factors, making it difficult to establish a precise causal relationship between SAS and OA.</citation_analysis></p>
+      <p><citation_analysis attribute="positive">To further elucidate the causal relationship between them, our study employed a bidirectional two-sample Mendelian Randomization (MR) approach. MR analysis, leveraging the principles of Mendel’s Second Law, effectively manages confounding bias and reverses causality dilemmas in observational epidemiology, thus presenting a novel method for ascertaining causality. In this study, exposure-related single nucleotide polymorphisms (SNPs) were chosen as instrumental variables (IVs), thereby utilizing genetic variations to deduce the causal link between exposure and outcomes.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0007" ref-type="bibr">7–9</xref></citation_analysis></p>
+      <p><citation_analysis attribute="neither">The results of the Mendelian randomization analysis suggest a potentially bidirectional causal relationship between SAS and OA. To further explore the connection between the two, this study employs bioinformatics to investigate the mechanisms underlying this relationship. Bioinformatics combines multiple disciplines, such as statistics and computer science, to manage, analyze, and interpret vast and complex biological data. With the continuous development of high-throughput sequencing and chip-based sequencing technologies, it has become increasingly easy to obtain transcriptome data on SAS and OA from public databases (such as the GEO database) and subsequently use bioinformatics to analyze the data to find the comorbidity mechanisms of the two. This approach aims to provide some guidance for the prevention and treatment of both diseases.</citation_analysis></p>
+    </sec>
+    <sec id="s0002">
+      <title>Material</title>
+      <sec id="s0002-s2001">
+        <title>Data Sources</title>
+        <p><citation_analysis attribute="neither">Data for the Mendelian randomization study were sourced from extensive genome-wide association studies (GWAS). The GWAS data for SAS, OA and its subtypes (hip and knee OA), and colorectal cancer were obtained from the Finnish database (</citation_analysis><citation_analysis attribute="positive"><underline><ext-link xlink:href="https://www.finngen.fi/en/access_results" ext-link-type="uri">https://www.finngen.fi/en/access_results</ext-link></underline></citation_analysis><citation_analysis attribute="positive">). The dataset for SAS includes 375,657 samples from the European population, with 38,998 in the disease group and 336,659 in the control group. OA samples, also from Europeans, included 22,254 in the disease group and 240,862 in the control group. The knee OA group included 44,688 European samples, with 240,862 in the control group. The hip OA group included 22,254 European samples, with 240,862 in the control group. Colorectal cancer samples, also from Europeans, included 6509 cases and 287,137 controls. The GWAS data for immune cells are from the GWAS Catalog (</citation_analysis><citation_analysis attribute="positive"><underline><ext-link xlink:href="https://www.ebi.ac.uk/gwas/downloads/summary-statistics" ext-link-type="uri">https://www.ebi.ac.uk/gwas/downloads/summary-statistics</ext-link></underline></citation_analysis><citation_analysis attribute="neither">), with IDs from GCST0001391 to GCST0002121,</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0010" ref-type="bibr">10</xref></citation_analysis><citation_analysis attribute="positive"> including a total of 731 immune phenotypes. These comprised Absolute Cell Count (AC) (118 instances), Median Fluorescence Intensity for surface antigen levels (MFI) (389 instances), Morphological Parameters (MP) (32 instances), and Relative Cell Count (RC) (192 instances). MFI, AC, and RC features included combinations of B cells, CDCs, mature T cells, monocytes, myeloid cells, TBNK (T cells, B cells, natural killer cells), and Treg, while MP features included combinations of CDC and TBNK.</citation_analysis></p>
+        <p><citation_analysis attribute="neither">Transcriptome data for OA and SAS were obtained from the GEO database (</citation_analysis><citation_analysis attribute="positive"><underline><ext-link xlink:href="https://www.ncbi.nlm.nih.gov/geo/" ext-link-type="uri">https://www.ncbi.nlm.nih.gov/geo/</ext-link></underline></citation_analysis><citation_analysis attribute="positive">). Datasets GSE12021, GSE55235, and GSE55457 all originated from platform GPL96 and included samples of OA and normal samples, OA is diagnosed according to the criteria for OA;</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0011" ref-type="bibr">11</xref></citation_analysis><citation_analysis attribute="positive"> GSE32317 was from platform GPL570 and did not include normal samples but included early-stage OA samples (cartilage degeneration without the presence of full-thickness cartilage loss, and a Kellgren-Lawrence score of ≤2) and late-stage OA samples (full-thickness cartilage loss, with a Kellgren-Lawrence score of &gt;2). GSE135917 originates from platform GPL6244 and includes both normal samples and samples of sleep apnea syndrome. GSE75097 (GPL10904) focuses exclusively on sleep apnea syndrome, presenting samples at different stages (based on the Apnea-Hypopnea Index (AHI)): primary snoring (PS, AHI&lt;5), moderate to severe sleep apnea (MSO, 15&lt;AHI≦50), very severe sleep apnea (VSO, AHI&gt;50), along with very severe sleep apnea patients undergoing long-term continuous positive airway pressure therapy (CPAP) (VSOC, regular CPAP use: &gt;4 hours/night, &gt;1 year), this project has selected the first three categories of GSE75097 for analysis. The datasets are freely available to the public, and each GWAS and GEO dataset has received ethical approval from its respective institution. </citation_analysis><citation_analysis attribute="positive"><underline><ext-link xlink:href="https://www.dovepress.com/get_supplementary_file.php?f=461010.docx" ext-link-type="uri">Table S1</ext-link></underline></citation_analysis><citation_analysis attribute="neither"> shows detailed information about the GWAS and GEO datasets analyzed in this study.</citation_analysis></p>
+      </sec>
+      <sec id="s0002-s2002">
+        <title>Selection of Instrumental Variables</title>
+        <p><citation_analysis attribute="positive">During the initial screening of instrumental variables, a threshold of p&lt;5×10−8 was set to identify statistically significant single nucleotide polymorphisms (SNPs). However, when selecting instrumental variables for immune cells, the number of SNPs identified at a threshold of p&lt;5×10−8 was limited. To obtain more instrumental variables, the threshold was set to p&lt;1×10−5. This study utilized local Plink software to test for linkage disequilibrium between SNPs, setting the allele imbalance coefficient r</citation_analysis><citation_analysis attribute="positive"><sup>2</sup></citation_analysis><citation_analysis attribute="neither"> to 0.001 and the region width to 10,000kb to minimize the impact of genetic pleiotropy on the results. The explanatory variance R</citation_analysis><citation_analysis attribute="positive"><sup>2</sup></citation_analysis><citation_analysis attribute="positive"> of the genetic instruments used in the study was calculated using </citation_analysis><citation_analysis attribute="positive"><xref rid="m0001" ref-type="disp-formula">Equation (1</xref></citation_analysis><citation_analysis attribute="neither">) </citation_analysis><citation_analysis attribute="positive"><xref rid="cit0012" ref-type="bibr">12</xref></citation_analysis><citation_analysis attribute="neither">:
+</citation_analysis><citation_analysis attribute="positive"><disp-formula-group><disp-formula id="m0001"><label>(1)</label><alternatives><graphic xlink:href="NSS-16-473-e0001.jpg" position="float"/><tex-math id="Tex001">\documentclass[12pt]{minimal}
+\usepackage{wasysym}
+\usepackage[substack]{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage[mathscr]{eucal}
+\usepackage{mathrsfs}
+\DeclareFontFamily{T1}{linotext}{}
+\DeclareFontShape{T1}{linotext}{m}{n} {linotext }{}
+\DeclareSymbolFont{linotext}{T1}{linotext}{m}{n}
+\DeclareSymbolFontAlphabet{\mathLINOTEXT}{linotext}
+\begin{document}
+$${{\mathrm{R}}^{\mathrm{2}}}{\mathrm{=2\times\ EAF\times}}\left({{\mathrm{1-EAF}}}\right){\mathrm{\times\ bet}}{{\mathrm{a}}^{\mathrm{2}}}$$
+\end{document}</tex-math></alternatives></disp-formula></disp-formula-group></citation_analysis></p>
+        <p><citation_analysis attribute="positive">where EAF is the allele frequency and beta is the effect size of a specific SNP. Next, the F-statistic for each SNP was calculated using </citation_analysis><citation_analysis attribute="positive"><xref rid="m0002" ref-type="disp-formula">Equation (2</xref></citation_analysis><citation_analysis attribute="neither">) to assess its strength</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0013" ref-type="bibr">13</xref></citation_analysis><citation_analysis attribute="neither">:
+</citation_analysis><citation_analysis attribute="positive"><disp-formula-group><disp-formula id="m0002"><label>(2)</label><alternatives><graphic xlink:href="NSS-16-473-e0002.jpg" position="float"/><tex-math id="Tex002">\documentclass[12pt]{minimal}
+\usepackage{wasysym}
+\usepackage[substack]{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage[mathscr]{eucal}
+\usepackage{mathrsfs}
+\DeclareFontFamily{T1}{linotext}{}
+\DeclareFontShape{T1}{linotext}{m}{n} {linotext }{}
+\DeclareSymbolFont{linotext}{T1}{linotext}{m}{n}
+\DeclareSymbolFontAlphabet{\mathLINOTEXT}{linotext}
+\begin{document}
+$${\mathrm{F=}}{{\mathrm{R}}^{\mathrm{2}}}\left({{\mathrm{N-2}}} \right){\mathrm{/(1-}}{{\mathrm{R}}^{\mathrm{2}}}{\mathrm{)}}$$
+\end{document}</tex-math></alternatives></disp-formula></disp-formula-group></citation_analysis></p>
+        <p><citation_analysis attribute="neither">where R</citation_analysis><citation_analysis attribute="positive"><sup>2</sup></citation_analysis><citation_analysis attribute="positive"> is the variance in the exposure factor explained by a specific SNP, N is the sample size of the exposure data in the GWAS study, and an F-value greater than 10 is sufficient to eliminate bias.</citation_analysis></p>
+      </sec>
+      <sec id="s0002-s2003">
+        <title>Mendelian Randomization Analysis and Sensitivity Test</title>
+        <p><citation_analysis attribute="neither">Inverse variance weighting (IVW)</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0014" ref-type="bibr">14</xref></citation_analysis><citation_analysis attribute="positive"> is used as a key MR analysis method to estimate the causal effect of SAS on OA and its subtypes. Its basic principle can be simply understood as follows: first, a weight is assigned to the effect of each exposure variant on the outcome variation, which is inversely proportional to the variance of the study results, meaning that results with smaller variance receive greater weight. Therefore, inverse variance is used to represent the reciprocal of variance, with the larger the inverse variance, the greater the weight. Then, in estimating the overall effect, a weighted average based on the weight of each result is used to enhance the influence of more reliable (less error-prone) results, thus making the estimates more reflective of actual conditions.</citation_analysis></p>
+        <p><citation_analysis attribute="neither">Additionally, this study employs four other methods as supplements to IVW. The MR Egger method treats the intercept term as part of the analysis, allowing it to vary freely during the estimation process. By estimating this non-zero intercept, the MR-Egger method can identify and correct for bias, thus providing a more robust estimate of causal effects;</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0014" ref-type="bibr">14</xref></citation_analysis></p>
+        <p><citation_analysis attribute="neither">The Weighted Median method involves ranking each SNP’s effect estimate and calculating the weighted median as the estimate of causal effect. This method can provide a robust estimate of the causal effect, even if up to 50% of the instrumental variables are invalid.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0015" ref-type="bibr">15</xref></citation_analysis></p>
+        <p><citation_analysis attribute="positive">The Simple mode method selects one or a few highly correlated SNPs as instrumental variables, using the effect values of these instruments to estimate the causal effect of exposure on outcomes. The Weighted mode method is based on providing a weighted average estimate using valid instrumental variables, with each instrument weighted according to its predictive power for exposure or other relevance. This weighting strategy can improve the accuracy of the overall estimate.</citation_analysis></p>
+        <p><citation_analysis attribute="neither">This study uses the Egger intercept for pleiotropy testing to ensure the effect of horizontal pleiotropy. If the intercept shows statistical significance, the MR-PRESSO (Mendelian Randomization-Pleiotropy Residual Sum and Outlier) method is used to remove outlier SNPs. The MR-PRESSO method involves three steps:</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0016" ref-type="bibr">16</xref></citation_analysis><citation_analysis attribute="positive"> i) detecting horizontal pleiotropy; ii) correcting for pleiotropy by excluding genetic variants exhibiting horizontal pleiotropy; iii) comparing differences in causal association before and after correction, and re-testing for pleiotropy. Additionally, this study calculates Cochran’s Q value to quantify the heterogeneity of individual causal effects. If the p-value of Cochran’s Q is less than 0.05, heterogeneity is considered to exist, and a random-effects IVW model is adopted; otherwise, a fixed-effect IVW model is used. All statistical analyses were performed using the “TwoSampleMR” and “MR-PRESSO” packages in R software.</citation_analysis></p>
+      </sec>
+      <sec id="s0002-s2004">
+        <title>Expression Difference Analysis</title>
+        <p><citation_analysis attribute="neither">Datasets GSE12021, GSE55235, and GSE55457, originating from platform GPL96 and comprising synovial tissue samples, were combined, followed by batch correction and normalization of the merged data. After preparing the data for each disease, the “Limma” package in R software was used to compare the SAS and OA datasets, obtaining differentially expressed genes (DEGs) between disease and control groups with a selection threshold set at p-value &lt;0.05 and |log2FC| &gt;0.5. Volcano plots were utilized to display the differential analysis results for each group, where green represents downregulated differential genes and red represents upregulated differential genes.</citation_analysis></p>
+      </sec>
+      <sec id="s0002-s2005">
+        <title>Weighted Gene Co-Expression Network Analysis (WGCNA)</title>
+        <p><citation_analysis attribute="neither">WGCNA is utilized to discover relationships among genes and between genes and clinical traits. Genes highly correlated in expression are often involved in specific biological processes or pathways and thus are grouped into a module. Additionally, the WGCNA method can associate gene sets with clinical traits, thus identifying modules related to clinical features, thereby helping to unveil potential biological mechanisms. When performing WGCNA, standardized mRNA expression data (using the “Limma” package) are used as input files to enable the exploration of correlations between genes, and between gene modules and clinical traits (such as SAS and OA).</citation_analysis></p>
+        <p><citation_analysis attribute="positive">To conduct WGCNA effectively, (1) perform hierarchical clustering analysis using the R package “gplots” to identify potential outlier samples; (2) then use the “pickSoftThreshold” function to choose an appropriate soft-thresholding “power” parameter, typically ranging from 1 to 20; (3) subsequently, convert the correlation matrix into an adjacency matrix, and further into a topological overlap matrix (TOM), to reflect the topological similarity among genes; (4) following that, construct a hierarchical clustering tree of genes based on average linkage, and identify different gene modules using the dynamic tree cutting algorithm (minModuleSize=30). Finally, merge similar modules within each group by adjusting the cut height; (5) Lastly, conduct correlation analysis between gene modules and clinical phenotypes (such as SAS and OA) using the Pearson correlation coefficient.</citation_analysis></p>
+      </sec>
+      <sec id="s0002-s2006">
+        <title>Identification of Shared Genes and Functional Enrichment Analysis</title>
+        <p><citation_analysis attribute="positive">By integrating DEGs and module genes identified by WGCNA, shared genes for SAS and OA are obtained. This integration facilitates the identification of common molecular mechanisms between these diseases. The process then uses the Venn package to draw Venn diagrams for visualization, providing a clear depiction of the overlap between different gene sets. The “clusterProfiler” package is used for enrichment analysis of shared genes in Gene Ontology (GO) and Kyoto Encyclopedia of Genes and Genomes (KEGG) pathways, enabling the identification of where significant enrichment in biological functions and signaling pathways occurs. Finally, bar graphs show the results of significant enrichment when the p-value is less than 0.05, thus offering a quantitative understanding of the enrichment levels.</citation_analysis></p>
+      </sec>
+      <sec id="s0002-s2007">
+        <title>Colocalization Analysis</title>
+        <p><citation_analysis attribute="positive">Colocalization analysis is used to identify genetic variant loci associated with related traits or phenotypes and to determine whether there are shared causal variants in a given genomic region. This study conducted a colocalization analysis between SAS GWAS and OA GWAS. Colocalization analysis involves five hypotheses: H0: There is no significant association between phenotype 1 and phenotype 2 across all SNP loci in a genomic region; H1/H2: Either phenotype 1 or phenotype 2 shows significant association across all SNP loci in a genomic region; H3: There is a significant association between phenotype 1 and phenotype 2 across all SNP loci in a genomic region, but it is driven by different causal variant loci; H4: There is a significant association between phenotype 1 and phenotype 2 across all SNP loci in a genomic region, and it is driven by the same causal variant locus. These hypotheses are crucial as they fundamentally test the posterior probabilities of these five hypotheses. The posterior probability values of hypothesis H4 range from 0% to 100%, and typically, loci with an H4 posterior probability greater than 0.75 are considered colocalized loci. To operationalize this analysis, this study employs the “coloc” package for colocalization analysis, which is utilized to calculate SNPs within approximately 1MB of the shared genetic region, and subsequently, visualizes the results using the “locuscomparer” package.</citation_analysis></p>
+      </sec>
+      <sec id="s0002-s2008">
+        <title>Immune Microenvironment Immune Score</title>
+        <p><citation_analysis attribute="positive">The “estimate” package was used to analyze the status of immune cells in OA and SAS samples, assessing the proportion of immune cells. By conducting this analysis, the “estimate” package can be utilized to acquire the immune score. The immune score reflects the number of immune cells in each sample, a higher score denotes greater quantities of immune cells. Furthermore, the “ggpubr” package is used to draw violin plots to visualize the score differences between the disease group and the normal group, as well as among different stages of the disease group. A p-value less than 0.05 is considered to indicate a statistically significant difference between the two groups.</citation_analysis></p>
+      </sec>
+    </sec>
+    <sec id="s0003">
+      <title>Results</title>
+      <sec id="s0003-s2001">
+        <title>Bidirectional Mendelian Randomization of Two Samples of Sleep Apnea and OA</title>
+        <p><citation_analysis attribute="neither">We employ MR analysis to examine the association between SAS and OA, as well as OA subtypes (hip OA, knee OA). Subsequently, we reversed the direction of the MR analysis. Through a rigorous selection process, we identified SNPs strongly associated with both SAS and OA, with each instrumental variable having a P-value&lt; 5×10-8.</citation_analysis></p>
+        <p><citation_analysis attribute="positive">The results primarily relied on the IVW model, while other methods were used for supplementary analysis. Firstly, the MR-Egger intercept test did not find significant horizontal pleiotropy (</citation_analysis><citation_analysis attribute="positive"><underline><ext-link xlink:href="https://www.dovepress.com/get_supplementary_file.php?f=461010.docx" ext-link-type="uri">Table S2</ext-link></underline></citation_analysis><citation_analysis attribute="neither">). Then combined with the heterogeneous analysis results (</citation_analysis><citation_analysis attribute="positive"><underline><ext-link xlink:href="https://www.dovepress.com/get_supplementary_file.php?f=461010.docx" ext-link-type="uri">Table S3</ext-link></underline></citation_analysis><citation_analysis attribute="neither">). If heterogeneity existed, the random-effects IVW model was adopted; Otherwise, the fixed-effects IVW model was employed.</citation_analysis></p>
+        <p><citation_analysis attribute="positive">The causal effects of SAS on OA were reported in the form of odds ratios (OR) and forest plots in the MR analysis (</citation_analysis><citation_analysis attribute="positive"><xref rid="f0001" ref-type="fig">Figure 1</xref></citation_analysis><citation_analysis attribute="negative">). SAS was a risk factor for OA (IVW OR = 1.33, 95% CI = 1.18–1.50, p = 0.000004), knee OA (IVW OR = 1.48, 95% CI = 1.28–1.72, p = 0.0000001), and hip OA (IVW OR = 1.35, 95% CI = 1.13–1.60, p = 0.001) (</citation_analysis><citation_analysis attribute="positive"><underline><ext-link xlink:href="https://www.dovepress.com/get_supplementary_file.php?f=461010.docx" ext-link-type="uri">Table S4</ext-link></underline></citation_analysis><citation_analysis attribute="positive">). Consistent results were also observed using MR-Egger and Weighted Median methods.
+</citation_analysis><citation_analysis attribute="positive"><fig position="float" id="f0001" fig-type="figure"><label>Figure 1</label><caption><p><citation_analysis attribute="neither">Results of Mendelian randomization of OA and SAS.</citation_analysis></p></caption><graphic xlink:href="NSS-16-473-g0001" content-type="print-only" position="float"/></fig></citation_analysis></p>
+        <p><citation_analysis attribute="positive">Subsequently, we performed a reverse analysis by swapping the exposure and outcome variables. OA (IVW OR = 1.22, 95% CI = 1.10–1.36, p = 0.000195) and knee OA (IVW OR = 1.15, 95% CI = 1.05–1.24, p = 0.001) were identified as significant risk factors for SAS (</citation_analysis><citation_analysis attribute="positive"><xref rid="f0001" ref-type="fig">Figure 1</xref></citation_analysis><citation_analysis attribute="neither">, </citation_analysis><citation_analysis attribute="positive"><underline><ext-link xlink:href="https://www.dovepress.com/get_supplementary_file.php?f=461010.docx" ext-link-type="uri">Table S4</ext-link></underline></citation_analysis><citation_analysis attribute="positive">). MR-Egger and Weighted Median analyses also yielded consistent results. However, no significant association was found between SAS and hip OA (IVW OR = 0.99, 95% CI = 0.91–1.08, p = 0.892) (</citation_analysis><citation_analysis attribute="positive"><xref rid="f0001" ref-type="fig">Figure 1</xref></citation_analysis><citation_analysis attribute="neither">, </citation_analysis><citation_analysis attribute="positive"><underline><ext-link xlink:href="https://www.dovepress.com/get_supplementary_file.php?f=461010.docx" ext-link-type="uri">Table S4</ext-link></underline></citation_analysis><citation_analysis attribute="positive">). The results of the five methods were not statistically significant (p&gt;0.05).</citation_analysis></p>
+      </sec>
+      <sec id="s0003-s2002">
+        <title>Identification of Differentially Expressed Genes and Screening of Key Modules by WGCNA</title>
+        <p><citation_analysis attribute="positive">Firstly, we performed differential expression analysis on the OA combined dataset. A total of 2170 differentially expressed genes were identified using the filtering criteria of LogFC &gt; 0.5 and P &lt; 0.05. Among them, 1081 genes were downregulated and 1089 genes were upregulated. The results were visually represented in a volcano plot (</citation_analysis><citation_analysis attribute="positive"><xref rid="f0002" ref-type="fig">Figure 2A</xref></citation_analysis><citation_analysis attribute="positive">). Similarly, differential expression analysis was also conducted on the SAS dataset using the same filtering criteria. A total of 2069 genes met the criteria, with 264 genes upregulated and 1805 genes downregulated. The results were visualized in a volcano plot as well (</citation_analysis><citation_analysis attribute="positive"><xref rid="f0002" ref-type="fig">Figure 2B</xref></citation_analysis><citation_analysis attribute="neither">).
+</citation_analysis><citation_analysis attribute="positive"><fig position="float" id="f0002" fig-type="figure"><label>Figure 2</label><caption><p><citation_analysis attribute="neither">Volcano plot and WGCNA for SAS and OA: (</citation_analysis><citation_analysis attribute="positive"><bold>A</bold></citation_analysis><citation_analysis attribute="neither">) Volcano plot of OA (</citation_analysis><citation_analysis attribute="positive"><bold>B</bold></citation_analysis><citation_analysis attribute="neither">) Volcano plot of SAS (</citation_analysis><citation_analysis attribute="positive"><bold>C</bold></citation_analysis><citation_analysis attribute="neither">) Determination of soft threshold power for OA (</citation_analysis><citation_analysis attribute="positive"><bold>D</bold></citation_analysis><citation_analysis attribute="neither">) Determination of soft threshold power for SAS (</citation_analysis><citation_analysis attribute="positive"><bold>E</bold></citation_analysis><citation_analysis attribute="neither">) Cluster tree of highly connected genes in key modules of OA.(</citation_analysis><citation_analysis attribute="positive"><bold>F</bold></citation_analysis><citation_analysis attribute="neither">) Cluster tree of highly connected genes in key modules of SAS (</citation_analysis><citation_analysis attribute="positive"><bold>G</bold></citation_analysis><citation_analysis attribute="neither">) The relationship between modules and traits of OA, Each cell contains a correlation and a p-value (</citation_analysis><citation_analysis attribute="positive"><bold>H</bold></citation_analysis><citation_analysis attribute="neither">) Modular-feature relationship in SAS. Each cell contains a correlation and a p-value.</citation_analysis></p></caption><graphic xlink:href="NSS-16-473-g0002" content-type="print-only" position="float"/></fig></citation_analysis></p>
+        <p><citation_analysis attribute="positive">In addition, we also performed WGCNA. Using the soft thresholding approach, a co-expression network was constructed in this study. The parameter “power” is crucial for maintaining scale-free topology in a co-expression network, as gene expression data is likely to exhibit scale-free characteristics. Therefore, a fitting index greater than 0.85 was considered indicative of scale-free topology in the OA group, and a power value of 8 was set accordingly (</citation_analysis><citation_analysis attribute="positive"><xref rid="f0002" ref-type="fig">Figure 2C</xref></citation_analysis><citation_analysis attribute="neither">). Similarly, WGCNA was also applied to the SAS group, with a power value of 13 identified as the optimal soft threshold (</citation_analysis><citation_analysis attribute="positive"><xref rid="f0002" ref-type="fig">Figure 2D</xref></citation_analysis><citation_analysis attribute="positive">). An adjacency matrix was generated using the adjacency function, and a hierarchical clustering was performed based on the TOM dissimilarity measurement, as shown in </citation_analysis><citation_analysis attribute="positive"><xref rid="f0002" ref-type="fig">Figure 2E</xref></citation_analysis><citation_analysis attribute="neither"> and </citation_analysis><citation_analysis attribute="positive"><xref rid="f0002" ref-type="fig">F</xref></citation_analysis><citation_analysis attribute="positive">. In OA group, a total of 8 co-expression modules were identified, with modules showing P &lt; 0.05 considered as key modules. As shown in </citation_analysis><citation_analysis attribute="positive"><xref rid="f0002" ref-type="fig">Figure 2G</xref></citation_analysis><citation_analysis attribute="positive">, the MEbrown and MEturquoise modules exhibited significant correlation and contained 1185 genes. In SAS group, a total of 13 modules were identified, with the MEblue, MEgreenyellow, MEtan, and MEturquoise modules showing significant correlation with the disease (</citation_analysis><citation_analysis attribute="positive"><xref rid="f0002" ref-type="fig">Figure 2H</xref></citation_analysis><citation_analysis attribute="neither">), including 1636 genes.</citation_analysis></p>
+      </sec>
+      <sec id="s0003-s2003">
+        <title>Enrichment Analysis of Shared Genes and Pathway Mendelian Randomization</title>
+        <p><citation_analysis attribute="neither">We intersected the genes screened by DEGs and WGCNA to obtain shared genes between the two diseases, and performed enrichment analysis on the shared genes to explore the functional pathways of the two diseases. </citation_analysis><citation_analysis attribute="positive"><xref rid="f0003" ref-type="fig">Figure 3A</xref></citation_analysis><citation_analysis attribute="neither"> illustrates the overlap between the DEGs and WGCNA genes related to SAS and OA, consisting of a total of 78 genes. We speculate that these 78 genes may be associated with the pathogenesis of both SAS and OA, indicating a shared relationship between the two conditions. Through functional annotation and enrichment analysis of these genes (</citation_analysis><citation_analysis attribute="positive"><xref rid="f0003" ref-type="fig">Figure 3B</xref></citation_analysis><citation_analysis attribute="neither"> and </citation_analysis><citation_analysis attribute="positive"><xref rid="f0003" ref-type="fig">C</xref></citation_analysis><citation_analysis attribute="neither">), we aimed to investigate potential biological changes between the two diseases.
+</citation_analysis><citation_analysis attribute="positive"><fig position="float" id="f0003" fig-type="figure"><label>Figure 3</label><caption><p><citation_analysis attribute="neither">Analysis of shared gene enrichment and pathway MR in SAS and OA: (</citation_analysis><citation_analysis attribute="positive"><bold>A</bold></citation_analysis><citation_analysis attribute="neither">) Venn diagram of SAS, OA and shared genes (</citation_analysis><citation_analysis attribute="positive"><bold>B</bold></citation_analysis><citation_analysis attribute="neither">) GO enrichment analysis of shared genes. (</citation_analysis><citation_analysis attribute="positive"><bold>C</bold></citation_analysis><citation_analysis attribute="neither">) KEGG enrichment analysis of shared genes. (</citation_analysis><citation_analysis attribute="positive"><bold>D</bold></citation_analysis><citation_analysis attribute="neither">) Results of MR of pathways in colorectal cancer and SAS and OA.</citation_analysis></p></caption><graphic xlink:href="NSS-16-473-g0003" content-type="print-only" position="float"/></fig></citation_analysis></p>
+        <p><citation_analysis attribute="neither">Gene Ontology (GO) analysis revealed that these shared genes are significantly enriched in biological processes such as leukocyte migration, leukocyte chemotaxis, response to corticosteroids, and response to glucocorticoids. This suggests that the migration and chemotaxis of immune cells may play an important role in the common mechanisms of SAS and OA.</citation_analysis></p>
+        <p><citation_analysis attribute="positive">Additionally, KEGG enrichment analysis showed significant involvement of TNF signaling pathway, IL-17 signaling pathway, colorectal cancer, lipid and atherosclerosis. We noticed that the association of inflammatory factors and lipid metabolism with both diseases is in line with previous research. However, the relationship between colorectal cancer and both SAS and OA has not been reported before. Therefore, we conducted Mendelian randomization analysis on the pathway of colorectal cancer in relation to SAS and OA (</citation_analysis><citation_analysis attribute="positive"><xref rid="f0003" ref-type="fig">Figure 3D</xref></citation_analysis><citation_analysis attribute="neither">, </citation_analysis><citation_analysis attribute="positive"><underline><ext-link xlink:href="https://www.dovepress.com/get_supplementary_file.php?f=461010.docx" ext-link-type="uri">Table S5</ext-link></underline></citation_analysis><citation_analysis attribute="positive">). The colorectal cancer pathway was found to be a protective factor for SAS (IVW OR = 0.96, 95% CI = 0.93–0.99, p = 0.025). However, for OA (IVW OR = 1.04, 95% CI = 1.00–1.08, p = 0.036) and hip OA (IVW OR = 1.07, 95% CI = 1.01–1.14, p = 0.028), it was identified as a risk factor. There was no evidence supporting the relationship between this pathway and knee OA (IVW OR = 1.04, 95% CI = 0.99–1.10, p = 0.13)(</citation_analysis><citation_analysis attribute="positive"><underline><ext-link xlink:href="https://www.dovepress.com/get_supplementary_file.php?f=461010.docx" ext-link-type="uri">Table S5</ext-link></underline></citation_analysis><citation_analysis attribute="positive">). The MR-Egger intercept test did not detect significant levels of pleiotropy (</citation_analysis><citation_analysis attribute="positive"><underline><ext-link xlink:href="https://www.dovepress.com/get_supplementary_file.php?f=461010.docx" ext-link-type="uri">Table S6</ext-link></underline></citation_analysis><citation_analysis attribute="positive">). The results of heterogeneity tests are shown in </citation_analysis><citation_analysis attribute="positive"><underline><ext-link xlink:href="https://www.dovepress.com/get_supplementary_file.php?f=461010.docx" ext-link-type="uri">Table S7</ext-link></underline></citation_analysis></p>
+      </sec>
+      <sec id="s0003-s2004">
+        <title>Colocalization Analysis of Shared Genes</title>
+        <p><citation_analysis attribute="neither">To further screen the key genes of the two diseases from 78 shared genes, we conduct colocalization analysis. The results indicated that SAS and OA may share a causative variant within the JUNB (PP.H4=0.812), COL8A1 (PP.H4=0.973), FOSB (PP.H4=0.935), and IER2 (PP.H4=0.811) loci (</citation_analysis><citation_analysis attribute="positive"><xref rid="f0004" ref-type="fig">Figure 4A–D</xref></citation_analysis><citation_analysis attribute="neither">, </citation_analysis><citation_analysis attribute="positive"><underline><ext-link xlink:href="https://www.dovepress.com/get_supplementary_file.php?f=461010.docx" ext-link-type="uri">Table S8</ext-link></underline></citation_analysis><citation_analysis attribute="positive">). Based on the co-localization analysis, we identified four potential genes that could potentially play a role in the relationship between SAS and OA, with evidence suggesting a common genetic effect between SAS and OA.
+</citation_analysis><citation_analysis attribute="positive"><fig position="float" id="f0004" fig-type="figure"><label>Figure 4</label><caption><p><citation_analysis attribute="neither">Results of JUNB(</citation_analysis><citation_analysis attribute="positive"><bold>A</bold></citation_analysis><citation_analysis attribute="neither">), COL8A1(</citation_analysis><citation_analysis attribute="positive"><bold>B</bold></citation_analysis><citation_analysis attribute="neither">), FOSB(</citation_analysis><citation_analysis attribute="positive"><bold>C</bold></citation_analysis><citation_analysis attribute="neither">), and IER2(</citation_analysis><citation_analysis attribute="positive"><bold>D</bold></citation_analysis><citation_analysis attribute="neither">) colocalization analysis.</citation_analysis></p></caption><graphic xlink:href="NSS-16-473-g0004" content-type="print-only" position="float"/></fig></citation_analysis></p>
+      </sec>
+      <sec id="s0003-s2005">
+        <title>Immune Microenvironment Immune Score</title>
+        <p><citation_analysis attribute="positive">Enrichment analysis suggests that SAS and OA are associated with immunity and immune cells, which we further confirm with immune microenvironment scoring. We utilized an immunomicroenvironment analysis method to score the immune responses in OA and normal individuals, as well as different stages of OA and SAS. Statistically significant differences in immune scores were observed between the normal and OA groups, as well as between early-stage and moderate-severe stage SAS, and between early-stage and severe stage SAS. However, there were no significant differences in immune scores between early and late stages of OA, or between SAS and normal individuals. (</citation_analysis><citation_analysis attribute="positive"><xref rid="f0005" ref-type="fig">Figure 5</xref></citation_analysis><citation_analysis attribute="neither">).
+</citation_analysis><citation_analysis attribute="positive"><fig position="float" id="f0005" fig-type="figure"><label>Figure 5</label><caption><p><citation_analysis attribute="neither">Violin plot of immune score (</citation_analysis><citation_analysis attribute="positive"><bold>A</bold></citation_analysis><citation_analysis attribute="neither">) OA group and control group (</citation_analysis><citation_analysis attribute="positive"><bold>B</bold></citation_analysis><citation_analysis attribute="neither">) early OA group and end OA group (</citation_analysis><citation_analysis attribute="positive"><bold>C</bold></citation_analysis><citation_analysis attribute="neither">) SAS group and control group (</citation_analysis><citation_analysis attribute="positive"><bold>D</bold></citation_analysis><citation_analysis attribute="neither">) violin plot of SAS at different stages (“**”:P&lt;0.01, “*”: P&lt;0.05, “ns”: P&gt;0.05, PS: primary snoring, MSO: moderate to severe obstructive sleep apnea, VSO: very severe obstructive sleep apnea).</citation_analysis></p></caption><graphic xlink:href="NSS-16-473-g0005" content-type="print-only" position="float"/></fig></citation_analysis></p>
+      </sec>
+      <sec id="s0003-s2006">
+        <title>Mendelian Randomization Analysis of Immune Cells and Sleep Apnea and Osteoarthritis</title>
+        <p><citation_analysis attribute="negative">Analysis of the immune microenvironment suggests that the content of immune cells differs between the OA group and the control group, as well as across different stages of SAS, indicating that immune cells may be related to both diseases. To further screen immune cell phenotypes, we conducted Mendelian randomization analysis of 731 immune cell phenotypes with both. Using 731 immune cell types as exposure factors and SAS and OA as outcomes, a Mendelian randomization analysis was conducted with IVW as the primary analytical method. In the presence of heterogeneity, a random-effects IVW model was used; otherwise, a fixed-effect IVW model was applied. In total, 57 immune phenotypes were related to SAS, of which 31 immune phenotypes were protective factors for SAS, 26 immune phenotypes were risk factors for SAS (</citation_analysis><citation_analysis attribute="positive"><underline><ext-link xlink:href="https://www.dovepress.com/get_supplementary_file.php?f=461010.docx" ext-link-type="uri">Table S9</ext-link></underline></citation_analysis><citation_analysis attribute="neither">, </citation_analysis><citation_analysis attribute="positive"><xref rid="f0006" ref-type="fig">Figure 6A</xref></citation_analysis><citation_analysis attribute="neither"> and </citation_analysis><citation_analysis attribute="positive"><xref rid="f0006" ref-type="fig">B</xref></citation_analysis><citation_analysis attribute="neither">), and the MR Egger intercept indicated no pleiotropy (</citation_analysis><citation_analysis attribute="positive"><underline><ext-link xlink:href="https://www.dovepress.com/get_supplementary_file.php?f=461010.docx" ext-link-type="uri">Table S10</ext-link></underline></citation_analysis><citation_analysis attribute="neither">). There were 95 immune phenotypes associated with OA, of which 43 served as protective factors for OA, 52 immune phenotypes were detrimental to OA (</citation_analysis><citation_analysis attribute="positive"><underline><ext-link xlink:href="https://www.dovepress.com/get_supplementary_file.php?f=461010.docx" ext-link-type="uri">Table S11</ext-link></underline></citation_analysis><citation_analysis attribute="neither">, </citation_analysis><citation_analysis attribute="positive"><xref rid="f0006" ref-type="fig">Figure 6A</xref></citation_analysis><citation_analysis attribute="neither"> and </citation_analysis><citation_analysis attribute="positive"><xref rid="f0006" ref-type="fig">B</xref></citation_analysis><citation_analysis attribute="positive">), with the MR-Egger intercept indicating no evidence of horizontal pleiotropy (</citation_analysis><citation_analysis attribute="positive"><underline><ext-link xlink:href="https://www.dovepress.com/get_supplementary_file.php?f=461010.docx" ext-link-type="uri">Table S12</ext-link></underline></citation_analysis><citation_analysis attribute="negative">). There are 6 immune phenotypes influencing both OA and SAS, of which 2 are protective factors and 4 are risk factors (</citation_analysis><citation_analysis attribute="positive"><xref rid="f0006" ref-type="fig">Figure 6A–C</xref></citation_analysis><citation_analysis attribute="neither">).
+</citation_analysis><citation_analysis attribute="positive"><fig position="float" id="f0006" fig-type="figure"><label>Figure 6</label><caption><p><citation_analysis attribute="neither">Results of Mendelian randomization of immune cell phenotypes and SAS and OA. (</citation_analysis><citation_analysis attribute="positive"><bold>A</bold></citation_analysis><citation_analysis attribute="neither">) Venn diagram of immunophenotypes that protect against OA and immunophenotypes that protect against SAS. (</citation_analysis><citation_analysis attribute="positive"><bold>B</bold></citation_analysis><citation_analysis attribute="neither">)Venn diagram of immunophenotypes that promote OA and immunophenotypes that promote SAS. (</citation_analysis><citation_analysis attribute="positive"><bold>C</bold></citation_analysis><citation_analysis attribute="neither">)Forest plots of immunophenotypes that can affect both OA and SAS.</citation_analysis></p></caption><graphic xlink:href="NSS-16-473-g0006" content-type="print-only" position="float"/></fig></citation_analysis></p>
+        <p><citation_analysis attribute="neither">CD4 on CD39+ resting Treg cells offer protection against OA (IVW OR=0.946, 95% CI: 0.913–0.980, p=0.0024) and SAS (IVW OR=0.937, 95% CI: 0.901–0.975, p=0.0012). CD4 on HLA DR+ CD4+ cells also confer protection against OA (IVW OR=0.97, 95% CI: 0.941–0.999, p=0.041) and SAS (IVW OR=0.972, 95% CI: 0.946–0.9985, p=0.039).(</citation_analysis><citation_analysis attribute="positive"><underline><ext-link xlink:href="https://www.dovepress.com/get_supplementary_file.php?f=461010.docx" ext-link-type="uri">Table S13</ext-link></underline></citation_analysis><citation_analysis attribute="neither">)</citation_analysis></p>
+        <p><citation_analysis attribute="negative">However, IgD on IgD+ CD24+ has an adverse effect on both OA (IVW OR=1.024, 95% CI:1.0015–1.048, p=0.0366) and SAS (IVW OR=1.024, 95% CI:1.004–1.043, p=0.0158). CD33 on CD33br HLA DR+ is a common risk factor for both OA (IVW OR=1.011, 95% CI:1.002–1.01996, p=0.014) and SAS (IVW OR=1.013, 95% CI:1.0022–1.0235, p=0.018). CD33 on CD33br HLA DR+ CD14- is also detrimental to both OA (IVW OR=1.012, 95% CI:1.003–1.021, p=0.01003) and SAS (IVW OR=1.012, 95% CI:1.001–1.023, p=0.026). CD64 on CD14- CD16- is a common risk factor for OA (IVW OR=1.048, 95% CI:1.0199–1.078, p=0.0008) and SAS (IVW OR=1.033, 95% CI:1.0003–1.067, p=0.048).(</citation_analysis><citation_analysis attribute="positive"><underline><ext-link xlink:href="https://www.dovepress.com/get_supplementary_file.php?f=461010.docx" ext-link-type="uri">Table S13</ext-link></underline></citation_analysis><citation_analysis attribute="neither">)</citation_analysis></p>
+      </sec>
+    </sec>
+    <sec id="s0004">
+      <title>Discussion</title>
+      <p><citation_analysis attribute="neither">The MR method uses SNPs strongly associated with SAS and OA as instrumental variables, excluding potential confounding factors that might affect experimental outcomes, hence the conclusions are more reliable than observational studies. Additionally, by employing bioinformatics methods to deeply investigate the mechanisms of both diseases, it offers strategies for future treatment and prevention of these diseases.</citation_analysis></p>
+      <p><citation_analysis attribute="neither">SAS is a causative factor in OA, especially in knee OA. Silva Andressa et al found a strong correlation between the severity of SAS and the grading of OA.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0017" ref-type="bibr">17</xref></citation_analysis></p>
+      <p><citation_analysis attribute="neither">SAS can lead to intermittent hypoxia and inflammation, thereby inducing cellular damage.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0018" ref-type="bibr">18</xref></citation_analysis><citation_analysis attribute="neither"> Patients experience oxidative stress due to intermittent hypoxia during sleep, leading to mitochondrial DNA damage and dysfunction.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0019" ref-type="bibr">19</xref></citation_analysis><citation_analysis attribute="neither">,</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0020" ref-type="bibr">20</xref></citation_analysis><citation_analysis attribute="neither"> Intermittent hypoxia leads to the production of reactive oxygen species, TNF, inflammatory cytokines (IL-2, IL-4, IL-6), lipid peroxidation, and extracellular DNA damage, further promoting the generation and progression of inflammation.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0021" ref-type="bibr">21</xref></citation_analysis><citation_analysis attribute="neither"> Inflammation leads to the degradation of components of the extracellular matrix of cartilage cells, metabolic disorder of chondrocytes, and promotes oxidative stress and cartilage damage.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0022" ref-type="bibr">22</xref></citation_analysis><citation_analysis attribute="neither"> The inflammatory environment can disrupt the synthetic metabolic balance of cartilage cells, promote the production of tissue degrading enzymes (especially MMP-13 and ADAMTS-5), and mediate the degradation of the cartilage matrix.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0023" ref-type="bibr">23</xref></citation_analysis><citation_analysis attribute="neither"> Resulting in damage to the structure of joints and the emergence of joint pain.</citation_analysis></p>
+      <p><citation_analysis attribute="neither">Body weight and metabolic disorder may play a role in both diseases. Obesity is a fundamental factor in the occurrence of SAS.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0024" ref-type="bibr">24</xref></citation_analysis><citation_analysis attribute="neither"> Obesity and metabolic abnormalities can damage joint tissues.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0025" ref-type="bibr">25</xref></citation_analysis><citation_analysis attribute="neither"> Adipose tissue releases fatty factors, increasing pro-inflammatory mediators, a phenomenon known as “metabolic inflammation”, which is a mechanism by which obesity damages joint tissues.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0026" ref-type="bibr">26</xref></citation_analysis></p>
+      <p><citation_analysis attribute="neither">SAS is a detrimental factor for OA, possibly due to factors such as hypoxia, inflammation, and metabolic disorder caused by SAS. Further research on these mechanisms will help to better prevent and treat SAS and OA.</citation_analysis></p>
+      <p><citation_analysis attribute="positive">This study also found that knee OA is a risk factor for SAS, a finding not yet reported in the literature, with most studies typically considering SAS as the cause and OA as the outcome. Knee OA can exacerbate obesity, with Liao, J and others finding a higher incidence of obesity among patients with bilateral knee OA than among those with unilateral knee OA.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0027" ref-type="bibr">27</xref></citation_analysis><citation_analysis attribute="negative"> Obesity is a risk factor for SAS, with literature reporting that an increase in Body Mass Index (BMI) and neck circumference raises the incidence of SAS.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0028" ref-type="bibr">28</xref></citation_analysis><citation_analysis attribute="positive"> Thus, knee OA may lead to SAS by promoting obesity. However, there is insufficient evidence on the impact of hip arthritis on SAS, and large-scale clinical randomized controlled trials are needed in the future to study the relationship between hip arthritis and SAS.</citation_analysis></p>
+      <p><citation_analysis attribute="neither">Shared genes between the two diseases are significantly enriched in the TNF pathway, IL-17 pathway, lipid metabolism pathway, and colorectal cancer pathway. Fiedorczuk et al found that the plasma TNF concentrations in patients with SAS positively correlate with the severity of the disease.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0029" ref-type="bibr">29</xref></citation_analysis><citation_analysis attribute="positive"> Meta-analysis shows that continuous positive airway pressure (CPAP) treatment for SAS can reduce TNF-α levels in patients.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0030" ref-type="bibr">30</xref></citation_analysis><citation_analysis attribute="positive"> TNF-α is implicated in the early development of OA, with research showing elevated expression of TNF-α in the joint cartilage of mild OA cases.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0031" ref-type="bibr">31</xref></citation_analysis><citation_analysis attribute="neither"> Stannus et al found that serum TNF-α levels in the elderly are associated with the loss of knee joint cartilage.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0032" ref-type="bibr">32</xref></citation_analysis><citation_analysis attribute="positive"> Hussein M R et al reported that levels of IL-17 and TNF-α in the serum and synovial fluid of arthritis patients are higher than those in the healthy control group.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0033" ref-type="bibr">33</xref></citation_analysis></p>
+      <p><citation_analysis attribute="positive">IL-17 also plays a significant role in both diseases. Plasma IL-17 levels are elevated in patients with SAS.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0034" ref-type="bibr">34</xref></citation_analysis><citation_analysis attribute="neither"> IL-17 is a cytokine associated with Th17, potentially regulating the function of helper T cells.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0035" ref-type="bibr">35</xref></citation_analysis><citation_analysis attribute="neither"> Th17 is involved in the occurrence and development of SAS, with studies finding an imbalance in the Th17/Treg cell ratio in patients with SAS.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0036" ref-type="bibr">36</xref></citation_analysis><citation_analysis attribute="positive"> This indicates the significant role of IL-17 and Th17 in SAS. IL-17 can also cause OA by stimulating human OA synovial fibroblasts to increase production of VCAM-1, thereby enhancing monocyte adhesion and leading to the onset of OA.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0037" ref-type="bibr">37</xref></citation_analysis></p>
+      <p><citation_analysis attribute="neither">There is a close relationship between lipid metabolism and SAS. Research indicates that all non-traditional lipid indicators positively correlate with the severity of SAS.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0038" ref-type="bibr">38</xref></citation_analysis><citation_analysis attribute="neither"> Chronic hypoxia in SAS leads to the production of a large amount of reactive oxygen species (ROS), activating the JNK/SREBP/ACC pathway in neurons and glial cells, ACC catalyzes the carboxylation of acetyl-CoA to malonyl-CoA, thereby leading to an increase in fatty acid synthesis and abnormal accumulation.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0039" ref-type="bibr">39</xref></citation_analysis><citation_analysis attribute="positive"> In OA, changes in lipid metabolism may be a cause of the disease, studies have observed lipid deposition in joints before histological changes occur, proteomic analysis has revealed significant connections between OA and lipid metabolism, with adipokines identified as key regulatory factors in the pathogenesis of OA.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0040" ref-type="bibr">40</xref></citation_analysis></p>
+      <p><citation_analysis attribute="neither">In-depth future research into TNF, IL-17, and lipid metabolism pathways could offer a valuable theoretical foundation for treating the comorbidity of OA and SAS.</citation_analysis></p>
+      <p><citation_analysis attribute="positive">In GO enrichment analysis, shared genes are significantly enriched in biological processes related to leukocyte migration, chemotaxis, and immune response. The possible association of both conditions with immune cells is confirmed by the analysis of the immune microenvironment. Intermittent hypoxia due to SAS leads to significant deposition and adhesion of leukocytes on endothelial cells, resulting in vascular damage.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0041" ref-type="bibr">41</xref></citation_analysis><citation_analysis attribute="neither"> Damage to blood vessels can aggravate injuries to organs, including the respiratory tract. Research has identified a correlation between imbalances in T lymphocyte immunity and SAS.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0042" ref-type="bibr">42</xref></citation_analysis><citation_analysis attribute="neither"> T cells contribute to airway inflammation and increased reactivity by recruiting neutrophils and inducing contractions in the airway smooth muscles.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0043" ref-type="bibr">43</xref></citation_analysis><citation_analysis attribute="neither"> Airway constriction leading to impaired ventilation is one of the pathogenic mechanisms of SAS. Immune cells also play an important role in OA. These cells can secrete various cytokines, among which Th17 cells produce IL-17, which in turn activates other immune cells (such as fibroblasts and macrophages), promoting the release of IL-6, TNF-α, and other chemokines.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0044" ref-type="bibr">44</xref></citation_analysis><citation_analysis attribute="neither"> These inflammatory factors can further amplify the inflammation process of OA, ultimately exacerbating the condition.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0045" ref-type="bibr">45</xref></citation_analysis><citation_analysis attribute="positive"> This study conducted Mendelian randomization analysis using 731 immune cell subtypes as exposures, with OA and SAS as outcomes, finding that 57 immune cell phenotypes are associated with SAS, and 95 with OA. In the future, immune cells may represent a direction for the treatment of both diseases.</citation_analysis></p>
+      <p><citation_analysis attribute="positive">SAS and OA share genetic variations at the JUNB, COL8A1, FOSB, and IER2 gene loci, and these four genes may play a significant role in the relationship between SAS and OA. Previous studies have shown that JUNB is highly expressed in Th17 cells and regulates the expression of Th17 hallmark genes.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0046" ref-type="bibr">46</xref></citation_analysis><citation_analysis attribute="neither"> JUNB is also crucial for the development of Th17 cells.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0046" ref-type="bibr">46</xref></citation_analysis><citation_analysis attribute="positive"> Th17 cells play a significant role in both OA and SAS. Lin et al proposed a mechanism involving the JUNB/FBXO21/ERK axis, which regulates autophagy and promotes the progression of cartilage degeneration in OA.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0047" ref-type="bibr">47</xref></citation_analysis><citation_analysis attribute="neither"> COL8A1 may be involved in stabilizing the extracellular matrix of chondrocytes, and silencing COL8A1 inhibits the expression of the COL2A1 gene, exacerbating OA.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0048" ref-type="bibr">48</xref></citation_analysis><citation_analysis attribute="neither"> COL8A1 may also be involved in the onset and progression of SAS by affecting smooth muscle function. As part of the extracellular matrix, COL8A1 can facilitate the proliferation of smooth muscle cells.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0049" ref-type="bibr">49</xref></citation_analysis><citation_analysis attribute="neither"> Smooth muscle plays a crucial role in maintaining airway patency, and when smooth muscle is damaged, it leads to airway constriction.</citation_analysis></p>
+      <p><citation_analysis attribute="positive">This study has several limitations. Firstly, the lack of individual information in GWAS data means differences among individuals could lead to biased results. Secondly, our choice of GWAS data from European populations may introduce certain errors if the research results are generalized to other populations. Thirdly, the limited number of GEO datasets for SAS could result in bias due to limited sample sizes. Finally, this study lacks fundamental experiments in exploring the impact of immune cells on SAS and OA. Future studies may need to conduct specific experiments to explore the effects of the aforementioned immune cell subtypes on SAS and OA.</citation_analysis></p>
+      <p><citation_analysis attribute="positive">This research establishes SAS as a novel risk factor for OA and identifies knee OA as a risk factor for SAS. Patients suffering from both OA and SAS require prompt SAS intervention, which holds significant importance for treating OA. Additionally, JUNB, COL8A1, FOSB, and IER2 might serve as future research directions for understanding the comorbidity between these two diseases. Finally, this study highlights the important roles of 6 immune cell phenotypes in these two diseases, offering new insights for the development of related therapeutic approaches.</citation_analysis></p>
+    </sec>
+    <sec id="s0005">
+      <title>Conclusion</title>
+      <p><citation_analysis attribute="neither">A bidirectional causal link exists between SAS and OA, necessitating the proactive management of SAS simultaneously with OA treatment. Notably, the 4 genes (JUNB, COL8A1, FOSB, IER2) and 6 immune phenotypes are crucial for both diseases, these provide hopeful targets for future interventions against these two diseases.</citation_analysis></p>
+    </sec>
+  </body>
+  <back>
+    <sec id="s0006">
+      <title>Ethics Approval</title>
+      <p><citation_analysis attribute="neither">The Ethics Committee of the affiliated hospital of Southwest Medical University strictly adheres to the Declaration of Helsinki and the International Ethical Guidelines for Health-related Research Involving Humans, performing independent ethical review responsibilities. This study uses legally obtained publicly available data, meeting the conditions for exemption from review as stated in the Ethical Review Methods for Life Sciences and Medical Research Involving Humans.</citation_analysis></p>
+    </sec>
+    <sec id="s0007">
+      <title>Author Contributions</title>
+      <p><citation_analysis attribute="positive">All authors made significant contributions to the conception, study design, execution, data acquisition, analysis, and interpretation. All authors have written the article and made substantial revisions and critical reviews of it. All authors have agreed on the journal to which the article will be submitted. All authors have reviewed and agreed on all versions of the article at each stage, and have given approval for the final version to be published. All authors agree to take responsibility and be accountable for the contents of the article.</citation_analysis></p>
+    </sec>
+    <sec sec-type="COI-statement" id="s0008">
+      <title>Disclosure</title>
+      <p><citation_analysis attribute="neither">The authors report no conflicts of interest in this work.</citation_analysis></p>
+    </sec>
+    <ref-list>
+      <title>References</title>
+      <ref id="cit0001">
+        <label>1.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Benjafield</surname>
+<given-names>AV</given-names></string-name>, <string-name><surname>Ayas</surname>
+<given-names>NT</given-names></string-name>, <string-name><surname>Eastwood</surname>
+<given-names>PR</given-names></string-name>. et al. <article-title>Estimation of the global prevalence and burden of obstructive sleep apnoea: a literature-based analysis</article-title>. <source><italic toggle="yes">Lancet Respir Med</italic></source>. <year>2019</year>;<volume>7</volume>(<issue>8</issue>):<fpage>687</fpage>–<lpage>698</lpage>. doi:<pub-id pub-id-type="doi">10.1016/S2213-2600(19)30198-5</pub-id><pub-id pub-id-type="pmid">31300334</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0002">
+        <label>2.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Shobatake</surname>
+<given-names>R</given-names></string-name>, <string-name><surname>Ota</surname>
+<given-names>H</given-names></string-name>, <string-name><surname>Takahashi</surname>
+<given-names>N</given-names></string-name>, et al. <article-title>The impact of intermittent hypoxia on metabolism and cognition</article-title>. <source><italic toggle="yes">Int J Mol Sci</italic></source>. <year>2022</year>;<volume>23</volume>(<issue>21</issue>):<fpage>1</fpage>. doi:<pub-id pub-id-type="doi">10.3390/ijms232112957</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0003">
+        <label>3.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Taylor</surname>
+<given-names>SS</given-names></string-name>, <string-name><surname>Hughes</surname>
+<given-names>JM</given-names></string-name>, <string-name><surname>Coffman</surname>
+<given-names>CJ</given-names></string-name>, et al. <article-title>Prevalence of and characteristics associated with insomnia and obstructive sleep apnea among veterans with knee and Hip osteoarthritis</article-title>. <source><italic toggle="yes">BMC Musculoskelet Disord</italic></source>. <year>2018</year>;<volume>19</volume>(<issue>1</issue>):<fpage>79</fpage>. doi:<pub-id pub-id-type="doi">10.1186/s12891-018-1993-y</pub-id><pub-id pub-id-type="pmid">29523117</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0004">
+        <label>4.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Gaspar</surname>
+<given-names>LS</given-names></string-name>, <string-name><surname>Sousa</surname>
+<given-names>C</given-names></string-name>, <string-name><surname>Alvaro</surname>
+<given-names>AR</given-names></string-name>, et al. <article-title>Common risk factors and therapeutic targets in obstructive sleep apnea and osteoarthritis: an unexpectable link?</article-title>
+<source><italic toggle="yes">Pharmacol Res</italic></source>. <year>2021</year>;<volume>164</volume>:<fpage>105369</fpage>. doi:<pub-id pub-id-type="doi">10.1016/j.phrs.2020.105369</pub-id><pub-id pub-id-type="pmid">33352231</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0005">
+        <label>5.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Kanbay</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Kokturk</surname>
+<given-names>O</given-names></string-name>, <string-name><surname>Pihtili</surname>
+<given-names>A</given-names></string-name>, et al. <article-title>Obstructive sleep apnea is a risk factor for osteoarthritis</article-title>. <source><italic toggle="yes">Tuberk Toraks</italic></source>. <year>2018</year>;<volume>66</volume>:<fpage>304</fpage>–<lpage>311</lpage>. doi:<pub-id pub-id-type="doi">10.5578/tt.57403</pub-id><pub-id pub-id-type="pmid">30683025</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0006">
+        <label>6.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Diaz</surname>
+<given-names>K</given-names></string-name>, <string-name><surname>Faverio</surname>
+<given-names>P</given-names></string-name>, <string-name><surname>Hospenthal</surname>
+<given-names>A</given-names></string-name>, et al. <article-title>Obstructive sleep apnea is associated with higher healthcare utilization in elderly patients</article-title>. <source><italic toggle="yes">Ann Thorac Med</italic></source>. <year>2014</year>;<volume>9</volume>(<issue>2</issue>):<fpage>92</fpage>–<lpage>98</lpage>. doi:<pub-id pub-id-type="doi">10.4103/1817-1737.128854</pub-id><pub-id pub-id-type="pmid">24791172</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0007">
+        <label>7.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Davey Smith</surname>
+<given-names>G</given-names></string-name>, <string-name><surname>Hemani</surname>
+<given-names>G</given-names></string-name>. <article-title>Mendelian randomization: genetic anchors for causal inference in epidemiological studies</article-title>. <source><italic toggle="yes">Hum Mol Genet</italic></source>. <year>2014</year>; <volume>23</volume>:<fpage>R89</fpage>–<lpage>98</lpage>.<pub-id pub-id-type="pmid">25064373</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0008">
+        <label>8.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Richmond</surname>
+<given-names>RC</given-names></string-name>, <string-name><surname>Davey Smith</surname>
+<given-names>G</given-names></string-name>. <article-title>Mendelian randomization: concepts and scope</article-title>. <source><italic toggle="yes">Cold Spring Harb Perspect Med</italic></source>. <year>2022</year>;<volume>12</volume>(<issue>1</issue>):<fpage>1</fpage>. doi:<pub-id pub-id-type="doi">10.1101/cshperspect.a040501</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0009">
+        <label>9.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Emdin</surname>
+<given-names>CA</given-names></string-name>, <string-name><surname>Khera</surname>
+<given-names>AV</given-names></string-name>, <string-name><surname>Kathiresan</surname>
+<given-names>S</given-names></string-name>. <article-title>Mendelian Randomization</article-title>. <source><italic toggle="yes">JAMA</italic></source>. <year>2017</year>;<volume>318</volume>(<issue>19</issue>):<fpage>1925</fpage>–<lpage>1926</lpage>. doi:<pub-id pub-id-type="doi">10.1001/jama.2017.17219</pub-id><pub-id pub-id-type="pmid">29164242</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0010">
+        <label>10.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Orru</surname>
+<given-names>V</given-names></string-name>, <string-name><surname>Steri</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Sidore</surname>
+<given-names>C</given-names></string-name>, et al. <article-title>Complex genetic signatures in immune cells underlie autoimmunity and inform therapy</article-title>. <source><italic toggle="yes">Nat Genet</italic></source>. <year>2020</year>;<volume>52</volume>(<issue>10</issue>):<fpage>1036</fpage>–<lpage>1045</lpage>. doi:<pub-id pub-id-type="doi">10.1038/s41588-020-0684-4</pub-id><pub-id pub-id-type="pmid">32929287</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0011">
+        <label>11.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Altman</surname>
+<given-names>R</given-names></string-name>, <string-name><surname>Asch</surname>
+<given-names>E</given-names></string-name>, <string-name><surname>Bloch</surname>
+<given-names>D</given-names></string-name>, et al. <article-title>Development of criteria for the classification and reporting of osteoarthritis. Classification of osteoarthritis of the knee. Diagnostic and Therapeutic Criteria Committee of the American Rheumatism Association</article-title>. <source><italic toggle="yes">Arthritis Rheum</italic></source>. <year>1986</year>;<volume>29</volume>(<issue>8</issue>):<fpage>1039</fpage>–<lpage>1049</lpage>. doi:<pub-id pub-id-type="doi">10.1002/art.1780290816</pub-id><pub-id pub-id-type="pmid">3741515</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0012">
+        <label>12.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Codd</surname>
+<given-names>V</given-names></string-name>, <string-name><surname>Nelson</surname>
+<given-names>CP</given-names></string-name>, <string-name><surname>Albrecht</surname>
+<given-names>E</given-names></string-name>, et al. <article-title>Identification of seven loci affecting mean telomere length and their association with disease</article-title>. <source><italic toggle="yes">Nat Genet</italic></source>. <year>2013</year>;<volume>45</volume>(<issue>4</issue>):<fpage>422–427, 427e421</fpage>–<lpage>e422</lpage>. doi:<pub-id pub-id-type="doi">10.1038/ng.2528</pub-id><pub-id pub-id-type="pmid">23535734</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0013">
+        <label>13.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Palmer</surname>
+<given-names>TM</given-names></string-name>, <string-name><surname>Lawlor</surname>
+<given-names>DA</given-names></string-name>, <string-name><surname>Harbord</surname>
+<given-names>RM</given-names></string-name>, et al. <article-title>Using multiple genetic variants as instrumental variables for modifiable risk factors</article-title>. <source><italic toggle="yes">Stat Methods Med Res</italic></source>. <year>2012</year>;<volume>21</volume>(<issue>3</issue>):<fpage>223</fpage>–<lpage>242</lpage>. doi:<pub-id pub-id-type="doi">10.1177/0962280210394459</pub-id><pub-id pub-id-type="pmid">21216802</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0014">
+        <label>14.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Burgess</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Thompson</surname>
+<given-names>SG</given-names></string-name>. <article-title>Interpreting findings from Mendelian randomization using the MR-Egger method</article-title>. <source><italic toggle="yes">Eur J Epidemiol</italic></source>. <year>2017</year>;<volume>32</volume>(<issue>5</issue>):<fpage>377</fpage>–<lpage>389</lpage>. doi:<pub-id pub-id-type="doi">10.1007/s10654-017-0255-x</pub-id><pub-id pub-id-type="pmid">28527048</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0015">
+        <label>15.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Bowden</surname>
+<given-names>J</given-names></string-name>, <string-name><surname>Davey Smith</surname>
+<given-names>G</given-names></string-name>, <string-name><surname>Haycock</surname>
+<given-names>PC</given-names></string-name>, et al. <article-title>Consistent estimation in Mendelian randomization with some invalid instruments using a weighted median estimator</article-title>. <source><italic toggle="yes">Genet Epidemiol</italic></source>. <year>2016</year>;<volume>40</volume>(<issue>4</issue>):<fpage>304</fpage>–<lpage>314</lpage>. doi:<pub-id pub-id-type="doi">10.1002/gepi.21965</pub-id><pub-id pub-id-type="pmid">27061298</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0016">
+        <label>16.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Verbanck</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Chen</surname>
+<given-names>CY</given-names></string-name>, <string-name><surname>Neale</surname>
+<given-names>B</given-names></string-name>, et al. <article-title>Detection of widespread horizontal pleiotropy in causal relationships inferred from Mendelian randomization between complex traits and diseases</article-title>. <source><italic toggle="yes">Nat Genet</italic></source>. <year>2018</year>;<volume>50</volume>(<issue>5</issue>):<fpage>693</fpage>–<lpage>698</lpage>. doi:<pub-id pub-id-type="doi">10.1038/s41588-018-0099-7</pub-id><pub-id pub-id-type="pmid">29686387</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0017">
+        <label>17.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Silva</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Mello</surname>
+<given-names>MT</given-names></string-name>, <string-name><surname>Serrao</surname>
+<given-names>PR</given-names></string-name>, et al. <article-title>Influence of obstructive sleep apnea in the functional aspects of patients with osteoarthritis</article-title>. <source><italic toggle="yes">J Clin Sleep Med</italic></source>. <year>2018</year>;<volume>14</volume>(<issue>02</issue>):<fpage>265</fpage>–<lpage>270</lpage>. doi:<pub-id pub-id-type="doi">10.5664/jcsm.6950</pub-id><pub-id pub-id-type="pmid">29351822</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0018">
+        <label>18.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Mukandala</surname>
+<given-names>G</given-names></string-name>, <string-name><surname>Tynan</surname>
+<given-names>R</given-names></string-name>, <string-name><surname>Lanigan</surname>
+<given-names>S</given-names></string-name>, et al. <article-title>The effects of hypoxia and inflammation on synaptic signaling in the CNS</article-title>. <source><italic toggle="yes">Brain Sci</italic></source>. <year>2016</year>;<volume>6</volume>(<issue>1</issue>):<fpage>1</fpage>. doi:<pub-id pub-id-type="doi">10.3390/brainsci6010006</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0019">
+        <label>19.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Seixas</surname>
+<given-names>AA</given-names></string-name>, <string-name><surname>Gyamfi</surname>
+<given-names>L</given-names></string-name>, <string-name><surname>Newsome</surname>
+<given-names>V</given-names></string-name>, et al. <article-title>Moderating effects of sleep duration on diabetes risk among cancer survivors: analysis of the national health interview survey in the USA</article-title>. <source><italic toggle="yes">Cancer Manag Res</italic></source>. <year>2018</year>;<volume>10</volume>:<fpage>4575</fpage>–<lpage>4580</lpage>. doi:<pub-id pub-id-type="doi">10.2147/CMAR.S177428</pub-id><pub-id pub-id-type="pmid">30349388</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0020">
+        <label>20.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Zychowski</surname>
+<given-names>KE</given-names></string-name>, <string-name><surname>Sanchez</surname>
+<given-names>B</given-names></string-name>, <string-name><surname>Pedrosa</surname>
+<given-names>RP</given-names></string-name>, et al. <article-title>Serum from obstructive sleep apnea patients induces inflammatory responses in coronary artery endothelial cells</article-title>. <source><italic toggle="yes">Atherosclerosis</italic></source>. <year>2016</year>;<volume>254</volume>:<fpage>59</fpage>–<lpage>66</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.atherosclerosis.2016.09.017</pub-id><pub-id pub-id-type="pmid">27693879</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0021">
+        <label>21.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Maniaci</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Iannella</surname>
+<given-names>G</given-names></string-name>, <string-name><surname>Cocuzza</surname>
+<given-names>S</given-names></string-name>, et al. <article-title>Oxidative stress and inflammation biomarker expression in obstructive sleep apnea patients</article-title>. <source><italic toggle="yes">J Clin Med</italic></source>. <year>2021</year>;<volume>10</volume>(<issue>2</issue>):<fpage>1</fpage>. doi:<pub-id pub-id-type="doi">10.3390/jcm10020277</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0022">
+        <label>22.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Alsharif</surname>
+<given-names>IA</given-names></string-name>, <string-name><surname>Abd-Elsalam</surname>
+<given-names>RM</given-names></string-name>, <string-name><surname>Amer</surname>
+<given-names>MS</given-names></string-name>, et al. <article-title>Crataegus sinaica defatted methanolic extract ameliorated monosodium iodoacetate-induced oxidative stress andinhibited inflammation in a rat model of osteoarthritis</article-title>. <source><italic toggle="yes">Res Pharm Sci</italic></source>. <year>2022</year>;<volume>17</volume>(<issue>5</issue>):<fpage>493</fpage>–<lpage>507</lpage>. doi:<pub-id pub-id-type="doi">10.4103/1735-5362.355209</pub-id><pub-id pub-id-type="pmid">36386489</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0023">
+        <label>23.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Zhao</surname>
+<given-names>Y</given-names></string-name>, <string-name><surname>Yang</surname>
+<given-names>X</given-names></string-name>, <string-name><surname>Li</surname>
+<given-names>S</given-names></string-name>, et al. <article-title>sTNFRII-Fc modification protects human UC-MSCs against apoptosis/autophagy induced by TNF-alpha and enhances their efficacy in alleviating inflammatory arthritis</article-title>. <source><italic toggle="yes">Stem Cell Res Ther</italic></source>. <year>2021</year>;<volume>12</volume>(<issue>1</issue>):<fpage>535</fpage>. doi:<pub-id pub-id-type="doi">10.1186/s13287-021-02602-4</pub-id><pub-id pub-id-type="pmid">34627365</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0024">
+        <label>24.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Schenker</surname>
+<given-names>N</given-names></string-name>, <string-name><surname>Chung</surname>
+<given-names>DU</given-names></string-name>, <string-name><surname>Burger</surname>
+<given-names>H</given-names></string-name>, et al. <article-title>Safety and efficacy of excimer laser powered lead extractions in obese patients: a GALLERY subgroup analysis</article-title>. <source><italic toggle="yes">J Clin Med</italic></source>. <year>2023</year>;<volume>12</volume>(<issue>12</issue>):<fpage>2</fpage>. doi:<pub-id pub-id-type="doi">10.3390/jcm12124096</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0025">
+        <label>25.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Guo</surname>
+<given-names>Q</given-names></string-name>, <string-name><surname>Chen</surname>
+<given-names>X</given-names></string-name>, <string-name><surname>Chen</surname>
+<given-names>J</given-names></string-name>, et al. <article-title>STING promotes senescence, apoptosis, and extracellular matrix degradation in osteoarthritis via the NF-kappaB signaling pathway</article-title>. <source><italic toggle="yes">Cell Death Dis</italic></source>. <year>2021</year>;<volume>12</volume>(<issue>1</issue>):<fpage>13</fpage>. doi:<pub-id pub-id-type="doi">10.1038/s41419-020-03341-9</pub-id><pub-id pub-id-type="pmid">33414452</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0026">
+        <label>26.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Giesler</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Mukherjee</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Radford</surname>
+<given-names>K</given-names></string-name>, et al. <article-title>Modulation of human airway smooth muscle biology by human adipocytes</article-title>. <source><italic toggle="yes">Respir Res</italic></source>. <year>2018</year>;<volume>19</volume>(<issue>1</issue>):<fpage>33</fpage>. doi:<pub-id pub-id-type="doi">10.1186/s12931-018-0741-z</pub-id><pub-id pub-id-type="pmid">29486749</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0027">
+        <label>27.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Liao</surname>
+<given-names>J</given-names></string-name>, <string-name><surname>Chen</surname>
+<given-names>J</given-names></string-name>, <string-name><surname>Xu</surname>
+<given-names>W</given-names></string-name>, et al. <article-title>Prevalence and associations of sarcopenia, obesity and sarcopenic obesity in end-stage knee osteoarthritis patients</article-title>. <source><italic toggle="yes">J Health Popul Nutr</italic></source>. <year>2023</year>;<volume>42</volume>(<issue>1</issue>):<fpage>108</fpage>. doi:<pub-id pub-id-type="doi">10.1186/s41043-023-00438-7</pub-id><pub-id pub-id-type="pmid">37833797</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0028">
+        <label>28.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>da Silva</surname>
+<given-names>NC</given-names></string-name>, <string-name><surname>da Silva</surname>
+<given-names>G</given-names></string-name>, <string-name><surname>Onofri</surname>
+<given-names>SMM</given-names></string-name>, et al. <article-title>Obstructive sleep apnea and orofacial myofunctional aspects in obesity</article-title>. <source><italic toggle="yes">Sleep Breath</italic></source>. <year>2023</year>;<volume>27</volume>(<issue>4</issue>):<fpage>1351</fpage>–<lpage>1358</lpage>. doi:<pub-id pub-id-type="doi">10.1007/s11325-022-02738-4</pub-id><pub-id pub-id-type="pmid">36369414</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0029">
+        <label>29.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Fiedorczuk</surname>
+<given-names>P</given-names></string-name>, <string-name><surname>Olszewska</surname>
+<given-names>E</given-names></string-name>, <string-name><surname>Polecka</surname>
+<given-names>A</given-names></string-name>, et al. <article-title>Investigating the role of serum and plasma IL-6, IL-8, IL-10, TNF-alpha, CRP, and S100B concentrations in obstructive sleep apnea diagnosis</article-title>. <source><italic toggle="yes">Int J Mol Sci</italic></source>. <year>2023</year>;<volume>24</volume>(<issue>18</issue>):<fpage>13875</fpage>. doi:<pub-id pub-id-type="doi">10.3390/ijms241813875</pub-id><pub-id pub-id-type="pmid">37762178</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0030">
+        <label>30.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Luo</surname>
+<given-names>Y</given-names></string-name>, <string-name><surname>Zhang</surname>
+<given-names>FR</given-names></string-name>, <string-name><surname>Wu</surname>
+<given-names>JL</given-names></string-name>, et al. <article-title>Efficacy of continuous positive airway pressure on TNF-alpha in obstructive sleep apnea patients: a meta-analysis</article-title>. <source><italic toggle="yes">PLoS One</italic></source>. <year>2023</year>;<volume>18</volume>:<fpage>e0282172</fpage>.<pub-id pub-id-type="pmid">36952521</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0031">
+        <label>31.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Kammermann</surname>
+<given-names>JR</given-names></string-name>, <string-name><surname>Kincaid</surname>
+<given-names>SA</given-names></string-name>, <string-name><surname>Rumph</surname>
+<given-names>PF</given-names></string-name>, et al. <article-title>Tumor necrosis factor-alpha (TNF-alpha) in canine osteoarthritis: immunolocalization of TNF-alpha, stromelysin and TNF receptors in canine osteoarthritic cartilage</article-title>. <source><italic toggle="yes">Osteoarthritis Cartilage</italic></source>. <year>1996</year>;<volume>4</volume>(<issue>1</issue>):<fpage>23</fpage>–<lpage>34</lpage>. doi:<pub-id pub-id-type="doi">10.1016/S1063-4584(96)80004-5</pub-id><pub-id pub-id-type="pmid">8731393</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0032">
+        <label>32.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Stannus</surname>
+<given-names>O</given-names></string-name>, <string-name><surname>Jones</surname>
+<given-names>G</given-names></string-name>, <string-name><surname>Cicuttini</surname>
+<given-names>F</given-names></string-name>, et al. <article-title>Circulating levels of IL-6 and TNF-alpha are associated with knee radiographic osteoarthritis and knee cartilage loss in older adults</article-title>. <source><italic toggle="yes">Osteoarthritis Cartilage</italic></source>. <year>2010</year>;<volume>18</volume>(<issue>11</issue>):<fpage>1441</fpage>–<lpage>1447</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.joca.2010.08.016</pub-id><pub-id pub-id-type="pmid">20816981</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0033">
+        <label>33.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Hussein</surname>
+<given-names>MR</given-names></string-name>, <string-name><surname>Fathi</surname>
+<given-names>NA</given-names></string-name>, <string-name><surname>El-Din</surname>
+<given-names>AM</given-names></string-name>, et al. <article-title>Alterations of the CD4(+), CD8 (+) T cell subsets, interleukins-1beta, IL-10, IL-17, tumor necrosis factor-alpha and soluble intercellular adhesion molecule-1 in rheumatoid arthritis and osteoarthritis: preliminary observations</article-title>. <source><italic toggle="yes">Pathol Oncol Res</italic></source>. <year>2008</year>;<volume>14</volume>(<issue>3</issue>):<fpage>321</fpage>–<lpage>328</lpage>. doi:<pub-id pub-id-type="doi">10.1007/s12253-008-9016-1</pub-id><pub-id pub-id-type="pmid">18392953</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0034">
+        <label>34.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Yi</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Zhao</surname>
+<given-names>W</given-names></string-name>, <string-name><surname>Fei</surname>
+<given-names>Q</given-names></string-name>, et al. <article-title>Causal analysis between altered levels of interleukins and obstructive sleep apnea</article-title>. <source><italic toggle="yes">Front Immunol</italic></source>. <year>2022</year>;<volume>13</volume>:<fpage>888644</fpage>. doi:<pub-id pub-id-type="doi">10.3389/fimmu.2022.888644</pub-id><pub-id pub-id-type="pmid">35967324</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0035">
+        <label>35.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Huang</surname>
+<given-names>YS</given-names></string-name>, <string-name><surname>Guilleminault</surname>
+<given-names>C</given-names></string-name>, <string-name><surname>Hwang</surname>
+<given-names>FM</given-names></string-name>, et al. <article-title>Inflammatory cytokines in pediatric obstructive sleep apnea</article-title>. <source><italic toggle="yes">Medicine</italic></source>. <year>2016</year>;<volume>95</volume>(<issue>41</issue>):<fpage>e4944</fpage>. doi:<pub-id pub-id-type="doi">10.1097/MD.0000000000004944</pub-id><pub-id pub-id-type="pmid">27741107</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0036">
+        <label>36.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Ni</surname>
+<given-names>K</given-names></string-name>, <string-name><surname>Zhao</surname>
+<given-names>L</given-names></string-name>, <string-name><surname>Wu</surname>
+<given-names>J</given-names></string-name>, et al. <article-title>Th17/Treg balance in children with obstructive sleep apnea syndrome and the relationship with allergic rhinitis</article-title>. <source><italic toggle="yes">Int J Pediatr Otorhinolaryngol</italic></source>. <year>2015</year>;<volume>79</volume>(<issue>9</issue>):<fpage>1448</fpage>–<lpage>1454</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.ijporl.2015.06.026</pub-id><pub-id pub-id-type="pmid">26166452</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0037">
+        <label>37.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Wu</surname>
+<given-names>TJ</given-names></string-name>, <string-name><surname>Chang</surname>
+<given-names>SL</given-names></string-name>, <string-name><surname>Lin</surname>
+<given-names>CY</given-names></string-name>, et al. <article-title>IL-17 facilitates VCAM-1 production and monocyte adhesion in osteoarthritis synovial fibroblasts by suppressing miR-5701 synthesis</article-title>. <source><italic toggle="yes">Int J Mol Sci</italic></source>. <year>2022</year>;<volume>23</volume>(<issue>12</issue>). doi:<pub-id pub-id-type="doi">10.3390/ijms23126804</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0038">
+        <label>38.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Fang</surname>
+<given-names>Y</given-names></string-name>, <string-name><surname>Su</surname>
+<given-names>J</given-names></string-name>, <string-name><surname>Zhao</surname>
+<given-names>C</given-names></string-name>, et al. <article-title>Association between nontraditional lipid profiles and the severity of obstructive sleep apnea: a retrospective study</article-title>. <source><italic toggle="yes">J Clin Lab Anal</italic></source>. <year>2023</year>;<volume>37</volume>:<fpage>e24499</fpage>.<pub-id pub-id-type="pmid">35576500</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0039">
+        <label>39.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Li</surname>
+<given-names>D</given-names></string-name>, <string-name><surname>Xu</surname>
+<given-names>N</given-names></string-name>, <string-name><surname>Hou</surname>
+<given-names>Y</given-names></string-name>, et al. <article-title>Abnormal lipid droplets accumulation induced cognitive deficits in obstructive sleep apnea syndrome mice via JNK/SREBP/ACC pathway but not through PDP1/PDC pathway</article-title>. <source><italic toggle="yes">Mol Med</italic></source>. <year>2022</year>;<volume>28</volume>(<issue>1</issue>):<fpage>3</fpage>. doi:<pub-id pub-id-type="doi">10.1186/s10020-021-00427-8</pub-id><pub-id pub-id-type="pmid">35030992</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0040">
+        <label>40.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Gkretsi</surname>
+<given-names>V</given-names></string-name>, <string-name><surname>Simopoulou</surname>
+<given-names>T</given-names></string-name>, <string-name><surname>Tsezou</surname>
+<given-names>A</given-names></string-name>. <article-title>Lipid metabolism and osteoarthritis: lessons from atherosclerosis</article-title>. <source><italic toggle="yes">Prog Lipid Res</italic></source>. <year>2011</year>;<volume>50</volume>(<issue>2</issue>):<fpage>133</fpage>–<lpage>140</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.plipres.2010.11.001</pub-id><pub-id pub-id-type="pmid">21115041</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0041">
+        <label>41.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Kasasbeh</surname>
+<given-names>E</given-names></string-name>, <string-name><surname>Chi</surname>
+<given-names>DS</given-names></string-name>, <string-name><surname>Krishnaswamy</surname>
+<given-names>G</given-names></string-name>. <article-title>Inflammatory aspects of sleep apnea and their cardiovascular consequences</article-title>. <source><italic toggle="yes">South Med J</italic></source>. <year>2006</year>;<volume>99</volume>(<issue>1</issue>):<fpage>58–67; quiz 68</fpage>–<lpage>59, 81</lpage>. doi:<pub-id pub-id-type="doi">10.1097/01.smj.0000197705.99639.50</pub-id><pub-id pub-id-type="pmid">16466124</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0042">
+        <label>42.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Su</surname>
+<given-names>MS</given-names></string-name>, <string-name><surname>Xu</surname>
+<given-names>L</given-names></string-name>, <string-name><surname>Xu</surname>
+<given-names>K</given-names></string-name>, et al. <article-title>Association of T lymphocyte immune imbalance and IL-10 gene polymorphism with the risk of obstructive sleep apnea in children with obesity</article-title>. <source><italic toggle="yes">Sleep Breath</italic></source>. <year>2017</year>;<volume>21</volume>(<issue>4</issue>):<fpage>929</fpage>–<lpage>937</lpage>. doi:<pub-id pub-id-type="doi">10.1007/s11325-017-1504-7</pub-id><pub-id pub-id-type="pmid">28500380</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0043">
+        <label>43.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Yang</surname>
+<given-names>J</given-names></string-name>, <string-name><surname>Wang</surname>
+<given-names>HX</given-names></string-name>, <string-name><surname>Xie</surname>
+<given-names>J</given-names></string-name>, et al. <article-title>DGK alpha and zeta activities control T(H)1 and T(H)17 cell differentiation</article-title>. <source><italic toggle="yes">Front Immunol</italic></source>. <year>2019</year>;<volume>10</volume>:<fpage>3048</fpage>. doi:<pub-id pub-id-type="doi">10.3389/fimmu.2019.03048</pub-id><pub-id pub-id-type="pmid">32010133</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0044">
+        <label>44.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Jaskiewicz</surname>
+<given-names>L</given-names></string-name>, <string-name><surname>Chmielewski</surname>
+<given-names>G</given-names></string-name>, <string-name><surname>Kuna</surname>
+<given-names>J</given-names></string-name>, et al. <article-title>The role of sclerostin in rheumatic diseases: a review</article-title>. <source><italic toggle="yes">J Clin Med</italic></source>. <year>2023</year>;<volume>12</volume>(<issue>19</issue>):<fpage>6248</fpage>. doi:<pub-id pub-id-type="doi">10.3390/jcm12196248</pub-id><pub-id pub-id-type="pmid">37834893</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0045">
+        <label>45.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Chow</surname>
+<given-names>YY</given-names></string-name>, <string-name><surname>Chin</surname>
+<given-names>KY</given-names></string-name>. <article-title>The role of inflammation in the pathogenesis of osteoarthritis</article-title>. <source><italic toggle="yes">Mediators Inflamm</italic></source>. <year>2020</year>;<volume>2020</volume>:<fpage>8293921</fpage>. doi:<pub-id pub-id-type="doi">10.1155/2020/8293921</pub-id><pub-id pub-id-type="pmid">32189997</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0046">
+        <label>46.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Yamazaki</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Tanaka</surname>
+<given-names>Y</given-names></string-name>, <string-name><surname>Araki</surname>
+<given-names>H</given-names></string-name>, et al. <article-title>The AP-1 transcription factor JunB is required for Th17 cell differentiation</article-title>. <source><italic toggle="yes">Sci Rep</italic></source>. <year>2017</year>;<volume>7</volume>(<issue>1</issue>):<fpage>17402</fpage>. doi:<pub-id pub-id-type="doi">10.1038/s41598-017-17597-3</pub-id><pub-id pub-id-type="pmid">29234109</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0047">
+        <label>47.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Lin</surname>
+<given-names>Z</given-names></string-name>, <string-name><surname>Miao</surname>
+<given-names>J</given-names></string-name>, <string-name><surname>Zhang</surname>
+<given-names>T</given-names></string-name>, et al. <article-title>JUNB-FBXO21-ERK axis promotes cartilage degeneration in osteoarthritis by inhibiting autophagy</article-title>. <source><italic toggle="yes">Aging Cell</italic></source>. <year>2021</year>;<volume>20</volume>(<issue>2</issue>):<fpage>e13306</fpage>. doi:<pub-id pub-id-type="doi">10.1111/acel.13306</pub-id><pub-id pub-id-type="pmid">33450132</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0048">
+        <label>48.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Collins</surname>
+<given-names>JA</given-names></string-name>, <string-name><surname>Kim</surname>
+<given-names>CJ</given-names></string-name>, <string-name><surname>Coleman</surname>
+<given-names>A</given-names></string-name>, et al. <article-title>Cartilage-specific Sirt6 deficiency represses IGF-1 and enhances osteoarthritis severity in mice</article-title>. <source><italic toggle="yes">Ann Rheum Dis</italic></source>. <year>2023</year>;<volume>82</volume>(<issue>11</issue>):<fpage>1464</fpage>–<lpage>1473</lpage>. doi:<pub-id pub-id-type="doi">10.1136/ard-2023-224385</pub-id><pub-id pub-id-type="pmid">37550003</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0049">
+        <label>49.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Li</surname>
+<given-names>X</given-names></string-name>, <string-name><surname>Wang</surname>
+<given-names>Z</given-names></string-name>, <string-name><surname>Tong</surname>
+<given-names>H</given-names></string-name>, et al. <article-title>Effects of COL8A1 on the proliferation of muscle-derived satellite cells</article-title>. <source><italic toggle="yes">Cell Biol Int</italic></source>. <year>2018</year>;<volume>42</volume>(<issue>9</issue>):<fpage>1132</fpage>–<lpage>1140</lpage>. doi:<pub-id pub-id-type="doi">10.1002/cbin.10979</pub-id><pub-id pub-id-type="pmid">29696735</pub-id>
+</mixed-citation>
+      </ref>
+    </ref-list>
+  </back>
+</article>
+</pmc-articleset>

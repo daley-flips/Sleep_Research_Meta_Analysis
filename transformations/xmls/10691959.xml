@@ -1,0 +1,722 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<pmc-articleset><article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" dtd-version="1.3" xml:lang="en" article-type="research-article">
+  <?properties open_access?>
+  <processing-meta base-tagset="archiving" mathml-version="3.0" table-model="xhtml" tagset-family="jats">
+    <restricted-by>pmc</restricted-by>
+  </processing-meta>
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="nlm-ta">Nat Sci Sleep</journal-id>
+      <journal-id journal-id-type="iso-abbrev">Nat Sci Sleep</journal-id>
+      <journal-id journal-id-type="publisher-id">nss</journal-id>
+      <journal-title-group>
+        <journal-title>Nature and Science of Sleep</journal-title>
+      </journal-title-group>
+      <issn pub-type="epub">1179-1608</issn>
+      <publisher>
+        <publisher-name>Dove</publisher-name>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="pmid">38046177</article-id>
+      <article-id pub-id-type="pmc">10691959</article-id>
+      <article-id pub-id-type="publisher-id">433820</article-id>
+      <article-id pub-id-type="doi">10.2147/NSS.S433820</article-id>
+      <article-categories>
+        <subj-group subj-group-type="heading">
+          <subject>Original Research</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>EEG Power Spectral Density in NREM Sleep is Associated with the Degree of Hypoxia in Patients with Obstructive Sleep Apnea</article-title>
+        <alt-title alt-title-type="running-authors">Zhang et al</alt-title>
+        <alt-title alt-title-type="running-title">Zhang et al</alt-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author" equal-contrib="yes">
+          <name>
+            <surname>Zhang</surname>
+            <given-names>Chan</given-names>
+          </name>
+          <xref rid="aff0001" ref-type="aff">
+<sup>1</sup>
+</xref>
+          <xref rid="aff0002" ref-type="aff">
+<sup>2</sup>
+</xref>
+          <xref rid="ft0001" ref-type="author-notes">*</xref>
+        </contrib>
+        <contrib contrib-type="author" equal-contrib="yes">
+          <name>
+            <surname>Wang</surname>
+            <given-names>Yanhui</given-names>
+          </name>
+          <xref rid="aff0001" ref-type="aff">
+<sup>1</sup>
+</xref>
+          <xref rid="aff0004" ref-type="aff">
+<sup>4</sup>
+</xref>
+          <xref rid="ft0001" ref-type="author-notes">*</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Li</surname>
+            <given-names>Dongxiao</given-names>
+          </name>
+          <xref rid="aff0003" ref-type="aff">
+<sup>3</sup>
+</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Li</surname>
+            <given-names>Mengjie</given-names>
+          </name>
+          <xref rid="aff0001" ref-type="aff">
+<sup>1</sup>
+</xref>
+          <xref rid="aff0004" ref-type="aff">
+<sup>4</sup>
+</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Zhang</surname>
+            <given-names>Xiaofeng</given-names>
+          </name>
+          <xref rid="aff0001" ref-type="aff">
+<sup>1</sup>
+</xref>
+          <xref rid="aff0002" ref-type="aff">
+<sup>2</sup>
+</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Rong</surname>
+            <given-names>Wenzheng</given-names>
+          </name>
+          <xref rid="aff0001" ref-type="aff">
+<sup>1</sup>
+</xref>
+          <xref rid="aff0002" ref-type="aff">
+<sup>2</sup>
+</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Wang</surname>
+            <given-names>Pu</given-names>
+          </name>
+          <xref rid="aff0001" ref-type="aff">
+<sup>1</sup>
+</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0001-7660-3500</contrib-id>
+          <name>
+            <surname>Li</surname>
+            <given-names>Lanjun</given-names>
+          </name>
+          <xref rid="aff0001" ref-type="aff">
+<sup>1</sup>
+</xref>
+          <xref rid="aff0002" ref-type="aff">
+<sup>2</sup>
+</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>He</surname>
+            <given-names>Shujing</given-names>
+          </name>
+          <xref rid="aff0001" ref-type="aff">
+<sup>1</sup>
+</xref>
+          <xref rid="aff0002" ref-type="aff">
+<sup>2</sup>
+</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0003-2689-9897</contrib-id>
+          <name>
+            <surname>Xu</surname>
+            <given-names>Yuming</given-names>
+          </name>
+          <xref rid="aff0001" ref-type="aff">
+<sup>1</sup>
+</xref>
+          <xref rid="aff0002" ref-type="aff">
+<sup>2</sup>
+</xref>
+          <xref rid="an0001" ref-type="corresp"/>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Li</surname>
+            <given-names>Yusheng</given-names>
+          </name>
+          <xref rid="aff0001" ref-type="aff">
+<sup>1</sup>
+</xref>
+          <xref rid="aff0002" ref-type="aff">
+<sup>2</sup>
+</xref>
+        </contrib>
+        <aff id="aff0001"><label>1</label><institution>Department of Neurology, The First Affiliated Hospital of Zhengzhou University, Zhengzhou University</institution>, <addr-line>Zhengzhou</addr-line>, <addr-line>Henan</addr-line>, <addr-line>450000</addr-line>, <country>People’s Republic of China</country></aff>
+        <aff id="aff0002"><label>2</label><institution>NHC Key Laboratory of Prevention and Treatment of Cerebrovascular Diseases</institution>, <addr-line>Zhengzhou</addr-line>, <addr-line>Henan</addr-line>, <country>People’s Republic of China</country></aff>
+        <aff id="aff0003"><label>3</label><institution>Henan Neurodevelopment Engineering Research Center for Children, Henan Key Laboratory of Children’s Genetics and Metabolic Diseases, Children’s Hospital Affiliated to Zhengzhou University</institution>, <addr-line>Zhengzhou</addr-line>, <addr-line>Henan</addr-line>, <addr-line>450018</addr-line>, <country>People’s Republic of China</country></aff>
+        <aff id="aff0004"><label>4</label><institution>The Academy of Medical Sciences of Zhengzhou University, Zhengzhou University</institution>, <addr-line>Zhengzhou</addr-line>, <addr-line>Henan</addr-line>, <country>People’s Republic of China</country></aff>
+      </contrib-group>
+      <author-notes>
+        <corresp id="an0001">Correspondence: Yuming Xu; Yusheng Li, <institution>Department of Neurology, the First Affiliated Hospital of Zhengzhou University, Zhengzhou University</institution>, <addr-line>Zhengzhou</addr-line>, <addr-line>Henan</addr-line>, <addr-line>450000</addr-line>, <country>People’s Republic of China</country>, <phone>Tel +86-18236145799</phone>, <fax>Fax +86-371-66862134</fax>, Email xuyuming@zzu.edu.cn; fccliyusheng@zzu.edu.cn</corresp>
+        <fn id="ft0001">
+          <label>*</label>
+          <p><citation_analysis attribute="neither">These authors contributed equally to this work</citation_analysis></p>
+        </fn>
+      </author-notes>
+      <pub-date pub-type="epub">
+        <day>27</day>
+        <month>11</month>
+        <year>2023</year>
+      </pub-date>
+      <pub-date pub-type="collection">
+        <year>2023</year>
+      </pub-date>
+      <volume>15</volume>
+      <fpage>979</fpage>
+      <lpage>992</lpage>
+      <history>
+        <date date-type="received">
+          <day>03</day>
+          <month>8</month>
+          <year>2023</year>
+        </date>
+        <date date-type="accepted">
+          <day>17</day>
+          <month>11</month>
+          <year>2023</year>
+        </date>
+      </history>
+      <permissions>
+        <copyright-statement>© 2023 Zhang et al.</copyright-statement>
+        <copyright-year>2023</copyright-year>
+        <copyright-holder>Zhang et al.</copyright-holder>
+        <license>
+          <ali:license_ref xmlns:ali="http://www.niso.org/schemas/ali/1.0/" specific-use="textmining" content-type="ccbynclicense">https://creativecommons.org/licenses/by-nc/3.0/</ali:license_ref>
+          <license-p>This work is published and licensed by Dove Medical Press Limited. The full terms of this license are available at <ext-link ext-link-type="uri" xlink:href="https://www.dovepress.com/terms.php">https://www.dovepress.com/terms.php</ext-link> and incorporate the Creative Commons Attribution – Non Commercial (unported, v3.0) License (<ext-link ext-link-type="uri" xlink:href="https://creativecommons.org/licenses/by-nc/3.0/">http://creativecommons.org/licenses/by-nc/3.0/</ext-link>). By accessing the work you hereby accept the Terms. Non-commercial uses of the work are permitted without any further permission from Dove Medical Press Limited, provided the work is properly attributed. For permission for commercial use of this work, please see paragraphs 4.2 and 5 of our Terms (<ext-link ext-link-type="uri" xlink:href="https://www.dovepress.com/terms.php">https://www.dovepress.com/terms.php</ext-link>).</license-p>
+        </license>
+      </permissions>
+      <abstract>
+        <sec id="s2001">
+          <title>Purpose</title>
+          <p><citation_analysis attribute="positive">Obstructive sleep apnea (OSA) is a prevalent sleep-related breathing disorder. Research conducted on patients with OSA using electroencephalography (EEG) has revealed a noticeable shift in the overnight polysomnography (PSG) power spectrum. To better quantify the effects of OSA on brain function and to identify the most reliable predictors of pathological cortical activation, this study quantified the PSG power and its association with the degree of hypoxia in OSA patients.</citation_analysis></p>
+        </sec>
+        <sec id="s2002">
+          <title>Patients and Methods</title>
+          <p><citation_analysis attribute="neither">This retrospective study recruited 93 patients with OSA. OSA patients were divided into three groups based on their apnea-hypopnea index (AHI) scores. The clinical characteristics and sleep macrostructure of these patients were examined, followed by an analysis of PSG signals. Power spectral density (PSD) in five frequency bands was analyzed during nonrapid eye movement (NREM) sleep, rapid eye movement (REM) sleep, and wakefulness. Finally, correlation analysis was conducted to assess the relationships among PSD, PSG parameters, and serum levels of S100β and uric acid.</citation_analysis></p>
+        </sec>
+        <sec id="s2003">
+          <title>Results</title>
+          <p><citation_analysis attribute="positive">Obstructive sleep apnea occurred during both the NREM and REM sleep phases. Except for a decrease in the duration of N2 sleep and an increase in the microarousal index, there were no significant differences in sleep architecture based on disease severity. Compared to the mild OSA group, the theta and alpha band PSD in the frontal and occipital regions during NREM sleep and wakefulness were significantly decreased in the moderate and severe OSA groups. Correlation analysis revealed that theta PSD in N1 and N3 stages were negatively correlated the AHI, oxygen desaturation index, SaO2&lt;90% and microarousal index.</citation_analysis></p>
+        </sec>
+        <sec id="s2004">
+          <title>Conclusion</title>
+          <p><citation_analysis attribute="positive">These findings imply that patients with more severe OSA exhibited considerable NREM hypoxia and abnormal brain activity in the frontal and occipital regions. Therefore, sleep EEG oscillation may be a useful neurophysiological indicator for assessing brain function and disease severity in patients with OSA.</citation_analysis></p>
+        </sec>
+      </abstract>
+      <kwd-group kwd-group-type="author">
+        <title>Keywords</title>
+        <kwd>obstructive sleep apnea</kwd>
+        <kwd>OSA</kwd>
+        <kwd>quantitative EEG</kwd>
+        <kwd>polysomnography</kwd>
+        <kwd>power spectral density</kwd>
+        <kwd>nonrapid eye movement sleep</kwd>
+        <kwd>serum markers</kwd>
+      </kwd-group>
+      <counts>
+        <fig-count count="6"/>
+        <table-count count="3"/>
+        <ref-count count="49"/>
+        <page-count count="14"/>
+      </counts>
+    </article-meta>
+  </front>
+  <body>
+    <sec sec-type="intro" id="s0002">
+      <title>Introduction</title>
+      <p><citation_analysis attribute="neither">Obstructive sleep apnea (OSA) is a prevalent sleep-related breathing disorder that affects many individuals.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0001" ref-type="bibr">1</xref></citation_analysis><citation_analysis attribute="neither">,</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0002" ref-type="bibr">2</xref></citation_analysis><citation_analysis attribute="neither"> It is characterized by recurrent episodes of complete or partial upper airway obstruction (apnea) during sleep, leading to sleep fragmentation,</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0003" ref-type="bibr">3</xref></citation_analysis><citation_analysis attribute="neither">,</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0004" ref-type="bibr">4</xref></citation_analysis><citation_analysis attribute="neither"> intermittent hypoxia, snoring, daytime sleepiness,</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0005" ref-type="bibr">5</xref></citation_analysis><citation_analysis attribute="neither">,</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0006" ref-type="bibr">6</xref></citation_analysis><citation_analysis attribute="neither"> inattention, memory loss, and behavioral abnormalities.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0007" ref-type="bibr">7–9</xref></citation_analysis><citation_analysis attribute="neither"> Chronic hypoxia associated with OSA may adversely affect nervous system function, increasing the likelihood of structural and functional brain abnormalities</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0010" ref-type="bibr">10–12</xref></citation_analysis><citation_analysis attribute="neither"> and of impaired cognition.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0008" ref-type="bibr">8</xref></citation_analysis><citation_analysis attribute="neither">,</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0013" ref-type="bibr">13–16</xref></citation_analysis><citation_analysis attribute="negative"> However, despite numerous studies, the consequences of chronic hypoxia during sleep on brain function and the related underlying mechanisms remain unclear. The apnea-hypopnea index (AHI) and oxygen desaturation index (ODI), two common clinical indicators of OSA disease severity, are not consistently or strongly correlated with functional capacity, making it challenging for clinicians to determine which patients are at risk of neurobehavioral dysfunction and require additional treatment.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0008" ref-type="bibr">8</xref></citation_analysis><citation_analysis attribute="neither">,</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0016" ref-type="bibr">16</xref></citation_analysis><citation_analysis attribute="positive"> The potential value of quantitative electroencephalography (EEG) analysis as a biomarker of neurobehavioral function has been widely demonstrated in various neuropsychiatric disorders. Sleep-related neural activity provides important information for understanding brain function.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0017" ref-type="bibr">17–19</xref></citation_analysis><citation_analysis attribute="neither"> Our study hypothesized about the underlying changes in sleep architecture and used quantitative EEG measurements to identify the most reliable predictors of aberrant cortical activity in patients with OSA.</citation_analysis></p>
+      <p><citation_analysis attribute="positive">Numerous studies have investigated the EEG power spectrum in patients with OSA. However, we noticed that the research findings regarding power spectral density (PSD) are currently inconsistent, and the underlying neurophysiological mechanisms are still unclear. Previous studies have discovered that the delta power of N2 sleep was higher in the severe OSA group compared to the simple snoring group and was associated with high AHI levels, while the power spectrum in other frequency bands decreased.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0018" ref-type="bibr">18</xref></citation_analysis><citation_analysis attribute="neither"> In another study on OSA with various severity levels, the beta-band power spectrum of the severe OSA group during the NREM phase was higher than that of the mild OSA group, whereas the sigma-band power spectrum shrank.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0020" ref-type="bibr">20</xref></citation_analysis><citation_analysis attribute="neither"> Significantly reduced slow-wave activity, an indicator of homeostatic sleep demand and depth, has been observed in OSA patients when compared to controls in some studies of NREM sleep, but not in all of them.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0021" ref-type="bibr">21</xref></citation_analysis><citation_analysis attribute="negative"> In addition, only few studies have examined the pattern of EEG frequency variations across the entire sleep (NREM, REM, and waking) in individuals with varying degrees of apnea severity. Therefore, our research aimed to provide further insight into the relationship between hypoxia and EEG characteristics in different sleep stages of OSA patients with varying degrees of disease severity.</citation_analysis></p>
+      <p><citation_analysis attribute="neither">Clinically, OSA is a widespread condition linked to alterations in the brain structure, and serological indicators can be used as biomarkers to reflect aberrant brain function in patients with OSA. This could provide a new direction for analyzing the correlation between serum markers and PSD. S100β (released by astrocytes) activates the advanced glycation end product (RAGE) receptor, causing neuronal survival or death, activating astrocytes, and ultimately promoting an inflammatory response.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0022" ref-type="bibr">22</xref></citation_analysis><citation_analysis attribute="neither">,</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0023" ref-type="bibr">23</xref></citation_analysis><citation_analysis attribute="neither"> In a meta-analysis, elevated serum S100β levels were observed in patients with OSA, suggesting that S100β could be used as a peripheral indicator of brain damage in these patients.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0024" ref-type="bibr">24</xref></citation_analysis><citation_analysis attribute="neither"> In another clinical trial, S100β levels were found to be significantly correlated with AHI.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0025" ref-type="bibr">25</xref></citation_analysis><citation_analysis attribute="neither"> However, correlation studies between S100β and EEG signals in OSA patients are relatively lacking and need to be further explored. This study aimed to fill this gap.</citation_analysis></p>
+      <p><citation_analysis attribute="positive">Prevention of oxidative stress is the primary reason for the neuroprotective effects of uric acid. As an antioxidant, uric acid can scavenge free oxygen radicals, thereby reducing oxidative stress levels, protecting endothelial cell function, reducing Ca2+ overload, and playing neuroprotective roles in various central nervous system diseases. A previous study reported that appropriate concentrations of uric acid significantly improved cell viability and apoptosis during oxygen-glucose deprivation (OGD)/reoxygenation and reduced production of reactive oxygen species (ROS).</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0026" ref-type="bibr">26</xref></citation_analysis><citation_analysis attribute="neither"> Elevated uric acid levels were associated with OSA severity in a retrospective study,</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0027" ref-type="bibr">27</xref></citation_analysis><citation_analysis attribute="neither"> but no correlation was found with PSD.</citation_analysis></p>
+      <p><citation_analysis attribute="positive">Uric acid has been associated with systemic inflammation, and recent studies have suggested that it may play a neuroprotective role in certain contexts. Uric acid is the end product of purine catabolism in humans and is considered the primary endogenous antioxidant in the bloodstream. It plays a crucial role in protecting against oxidative stress by interacting with reactive oxygen species (ROS) and converting non-enzymatically to allantoin.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0028" ref-type="bibr">28–30</xref></citation_analysis><citation_analysis attribute="negative"> Oxidative stress is one of the major mechanisms involved in the pathophysiology of central nervous system inflammation and neurodegenerative diseases. In some studies, higher levels of uric acid have been associated with a reduced risk of neurodegenerative diseases such as Parkinson’s and Alzheimer’s.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0031" ref-type="bibr">31</xref></citation_analysis><citation_analysis attribute="neither"> The protective effect of UA was also observed during CNS inflammation. In adult rat models of pneumococcal meningitis, pretreatment with UA alleviated meningeal inflammation in a dose-dependent manner, with the severity of inflammation decreasing as a function of UA concentration as UA levels increased to levels close to those found in humans.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0031" ref-type="bibr">31</xref></citation_analysis><citation_analysis attribute="neither"> After the establishment of middle cerebral artery occlusion in male rats by a suture method, the injury and increase of ROS in brain tissue were observed, and the degree of brain injury and ROS production were reduced after the addition of appropriate concentration of uric acid. However, some research found that UA had a pro-inflammatory effect, triggering interleukin-3β-mediated inflammation by activating inflammasome, and its activation appears to play a central role in many pathologic inflammatory conditions.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0031" ref-type="bibr">31</xref></citation_analysis><citation_analysis attribute="neither"> Hence the role of uric acid in disease is complex and need further research.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0026" ref-type="bibr">26</xref></citation_analysis></p>
+      <p><citation_analysis attribute="neither">Therefore, this study aimed to analyze the relationship between the power spectrum of polysomnography (PSG) and serum markers in OSA patients with varying degrees of disease severity. We hypothesized that the severity of OSA, especially during NREM sleep, is associated with the power spectrum characteristics of overnight sleep EEG.</citation_analysis></p>
+    </sec>
+    <sec id="s0003">
+      <title>Materials and Methods</title>
+      <sec id="s0003-s2001">
+        <title>Study Population</title>
+        <p><citation_analysis attribute="neither">In this retrospective study, 444 patients who complained of snoring and had a clinical suspicion of OSA at the Neurology Department of the First Affiliated Hospital of Zhengzhou University, Zhengzhou, China, between 2020 and 2022 were enrolled. Individuals with other sleep disorders (eg, central sleep apnea, rapid eye movement sleep behavioral disorder, restless legs syndrome, narcoleptic spectral disorder, and periodic limb movement disorder) or those taking medications within the last month known to affect sleep status (eg, hypnotics, benzodiazepines) were excluded. Individuals with apparent artifacts in the EEG signal, and those with serious lung, kidney, liver, or brain diseases, cardiovascular disease, other complications of OSA (eg, hyperlipidemia, metabolic syndrome, osteoporosis) were excluded (</citation_analysis><citation_analysis attribute="positive"><xref rid="f0001" ref-type="fig">Figure 1</xref></citation_analysis><citation_analysis attribute="neither">). Clinical data and PSG studies from 93 subjects were eventually selected and divided into three groups, according to the standards recommended by the Chinese Medical Association: mild OSA group (5≤AHI&lt;15 events/h, N=27), moderate OSA group (15≤AHI&lt;30 events/h, N=26), and severe OSA group (30≤AHI events/h, N=40) (</citation_analysis><citation_analysis attribute="positive"><xref rid="f0001" ref-type="fig">Figure 1</xref></citation_analysis><citation_analysis attribute="neither">, </citation_analysis><citation_analysis attribute="positive"><xref rid="t0001" ref-type="table">Table 1</xref></citation_analysis><citation_analysis attribute="positive">). The study was conducted in accordance with the 1964 Helsinki Declaration and its later amendments or comparable ethical standards. The study protocol was approved by the Ethics Committee of the First Affiliated Hospital of Zhengzhou University, and informed consent was waived by our Institutional Review Board because of the retrospective nature of our study (ethics approval no. 2022 [101]). We pledge to strictly adhere to patient data confidentiality and take all necessary measures to protect patient privacy.</citation_analysis><citation_analysis attribute="positive"><table-wrap position="float" id="t0001"><label>Table 1</label><caption><p><citation_analysis attribute="neither">Characteristics of the Population (N = 93) Categorized by OSA Severity</citation_analysis></p></caption><table frame="hsides" rules="groups"><thead><tr><th rowspan="1" colspan="1">Parameter</th><th rowspan="1" colspan="1">Mild OSA (N=270)</th><th rowspan="1" colspan="1">Moderate OSA (N=260)</th><th rowspan="1" colspan="1">Severe OSA (N=400)</th><th rowspan="1" colspan="1">Statistics (F)</th><th rowspan="1" colspan="1">P value</th></tr></thead><tbody><tr><td colspan="6" rowspan="1">Demographics</td></tr><tr><td rowspan="1" colspan="1">Age, years</td><td rowspan="1" colspan="1">53.67±12.67</td><td rowspan="1" colspan="1">57.69±11.67</td><td rowspan="1" colspan="1">54.88±11.22</td><td rowspan="1" colspan="1">0.8215</td><td rowspan="1" colspan="1">0.443</td></tr><tr><td rowspan="1" colspan="1">Sex, male</td><td rowspan="1" colspan="1">14(51.9%)</td><td rowspan="1" colspan="1">21(80.8%)</td><td rowspan="1" colspan="1">35(87.5%)</td><td rowspan="1" colspan="1">6.407</td><td rowspan="1" colspan="1">0.0025 **</td></tr><tr><td rowspan="1" colspan="1">Body mass index, kg/m2</td><td rowspan="1" colspan="1">25.85±3.835</td><td rowspan="1" colspan="1">25.74±3.533</td><td rowspan="1" colspan="1">29.72±6.940</td><td rowspan="1" colspan="1">5.076</td><td rowspan="1" colspan="1">0.0087**</td></tr><tr><td colspan="6" rowspan="1">Polysomnographic data</td></tr><tr><td rowspan="1" colspan="1">AHI, /hr</td><td rowspan="1" colspan="1">8.459±2.569</td><td rowspan="1" colspan="1">20.13±3.997</td><td rowspan="1" colspan="1">45.8±13.02</td><td rowspan="1" colspan="1">154</td><td rowspan="1" colspan="1">0.0001****</td></tr><tr><td rowspan="1" colspan="1">AHI NREM, /hr</td><td rowspan="1" colspan="1">7.733±3.218</td><td rowspan="1" colspan="1">19.62±4.771</td><td rowspan="1" colspan="1">46.06±14.19</td><td rowspan="1" colspan="1">134.4</td><td rowspan="1" colspan="1">0.0001****</td></tr><tr><td rowspan="1" colspan="1">AHI REM, /hr</td><td rowspan="1" colspan="1">14.39±11.41</td><td rowspan="1" colspan="1">20.06±16.73</td><td rowspan="1" colspan="1">43.35±17.94</td><td rowspan="1" colspan="1">31.5</td><td rowspan="1" colspan="1">0.0001****</td></tr><tr><td rowspan="1" colspan="1">Total of AHE</td><td rowspan="1" colspan="1">53.48±22.71</td><td rowspan="1" colspan="1">120.7±45.68</td><td rowspan="1" colspan="1">287.5±146.8</td><td rowspan="1" colspan="1">48.76</td><td rowspan="1" colspan="1">0.0001****</td></tr><tr><td rowspan="1" colspan="1">Total of AHE NREM</td><td rowspan="1" colspan="1">41.7±21.61</td><td rowspan="1" colspan="1">97.88±40.02</td><td rowspan="1" colspan="1">241.4±124.3</td><td rowspan="1" colspan="1">49.28</td><td rowspan="1" colspan="1">0.0001****</td></tr><tr><td rowspan="1" colspan="1">Total of AHE REM</td><td rowspan="1" colspan="1">11.78±9.677</td><td rowspan="1" colspan="1">22.77±20.69</td><td rowspan="1" colspan="1">46.18±35.96</td><td rowspan="1" colspan="1">14.71</td><td rowspan="1" colspan="1">0.0001****</td></tr><tr><td rowspan="1" colspan="1">MAI, /hr</td><td rowspan="1" colspan="1">2.778±2.423</td><td rowspan="1" colspan="1">3.692±2.619</td><td rowspan="1" colspan="1">9.075±7.515</td><td rowspan="1" colspan="1">14.08</td><td rowspan="1" colspan="1">0.0001****</td></tr><tr><td rowspan="1" colspan="1">MAI NREM, /hr</td><td rowspan="1" colspan="1">2.333±2.075</td><td rowspan="1" colspan="1">3.154±2.344</td><td rowspan="1" colspan="1">7.675±6.731</td><td rowspan="1" colspan="1">12.61</td><td rowspan="1" colspan="1">0.0001****</td></tr><tr><td rowspan="1" colspan="1">MAI REM, /hr</td><td rowspan="1" colspan="1">0.4444±0.5774</td><td rowspan="1" colspan="1">0.5±0.6481</td><td rowspan="1" colspan="1">1.275±1.569</td><td rowspan="1" colspan="1">5.765</td><td rowspan="1" colspan="1">0.0044**</td></tr><tr><td rowspan="1" colspan="1">ODI, /hr</td><td rowspan="1" colspan="1">6.133±3.617</td><td rowspan="1" colspan="1">15.48±8.83</td><td rowspan="1" colspan="1">31.21±15.99</td><td rowspan="1" colspan="1">39.37</td><td rowspan="1" colspan="1">0.0001****</td></tr><tr><td rowspan="1" colspan="1">SaO2&lt;90%, %</td><td rowspan="1" colspan="1">6.107±12.74</td><td rowspan="1" colspan="1">9.658±11.41</td><td rowspan="1" colspan="1">24.58±17.68</td><td rowspan="1" colspan="1">14.97</td><td rowspan="1" colspan="1">0.0001****</td></tr><tr><td rowspan="1" colspan="1">Time in bed, min</td><td rowspan="1" colspan="1">542.2±57.81</td><td rowspan="1" colspan="1">513.2±77.33</td><td rowspan="1" colspan="1">542.9±70.46</td><td rowspan="1" colspan="1">1.696</td><td rowspan="1" colspan="1">0.1893</td></tr><tr><td rowspan="1" colspan="1">Total sleep time, min</td><td rowspan="1" colspan="1">376.4±87.91</td><td rowspan="1" colspan="1">356.9±107.1</td><td rowspan="1" colspan="1">367.1±109.6</td><td rowspan="1" colspan="1">0.2364</td><td rowspan="1" colspan="1">0.7899</td></tr><tr><td rowspan="1" colspan="1">Sleep latency, min</td><td rowspan="1" colspan="1">35.06±31.91</td><td rowspan="1" colspan="1">23.51±25.92</td><td rowspan="1" colspan="1">33.36±41.05</td><td rowspan="1" colspan="1">0.8771</td><td rowspan="1" colspan="1">0.4195</td></tr><tr><td rowspan="1" colspan="1">REM sleep latency, min</td><td rowspan="1" colspan="1">126.9±116.5</td><td rowspan="1" colspan="1">96.85±80.73</td><td rowspan="1" colspan="1">98.96±74.11</td><td rowspan="1" colspan="1">0.9836</td><td rowspan="1" colspan="1">0.3779</td></tr><tr><td rowspan="1" colspan="1">Sleep efficiency, %</td><td rowspan="1" colspan="1">74.51±15.89</td><td rowspan="1" colspan="1">72.74±17.74</td><td rowspan="1" colspan="1">72.15±17.33</td><td rowspan="1" colspan="1">0.1589</td><td rowspan="1" colspan="1">0.8534</td></tr><tr><td rowspan="1" colspan="1">WASO, min</td><td rowspan="1" colspan="1">130.8±84.85</td><td rowspan="1" colspan="1">132.8±85.2</td><td rowspan="1" colspan="1">142.4±95.35</td><td rowspan="1" colspan="1">0.1628</td><td rowspan="1" colspan="1">0.85</td></tr><tr><td rowspan="1" colspan="1">NREM 1%</td><td rowspan="1" colspan="1">22.28±9.395</td><td rowspan="1" colspan="1">23.92±16.26</td><td rowspan="1" colspan="1">24.47±11.19</td><td rowspan="1" colspan="1">0.2583</td><td rowspan="1" colspan="1">0.773</td></tr><tr><td rowspan="1" colspan="1">NREM 2%</td><td rowspan="1" colspan="1">37.49±10.42</td><td rowspan="1" colspan="1">35.18±12.06</td><td rowspan="1" colspan="1">29.08±11.68</td><td rowspan="1" colspan="1">4.876</td><td rowspan="1" colspan="1">0.0098**</td></tr><tr><td rowspan="1" colspan="1">NREM 3%</td><td rowspan="1" colspan="1">25.76±8.881</td><td rowspan="1" colspan="1">24.92±14.28</td><td rowspan="1" colspan="1">30.15±14.88</td><td rowspan="1" colspan="1">1.529</td><td rowspan="1" colspan="1">0.2223</td></tr><tr><td rowspan="1" colspan="1">REM %</td><td rowspan="1" colspan="1">14.48±6.239</td><td rowspan="1" colspan="1">15.97±7.805</td><td rowspan="1" colspan="1">17.3±7.716</td><td rowspan="1" colspan="1">1.189</td><td rowspan="1" colspan="1">0.3094</td></tr><tr><td colspan="6" rowspan="1">Laboratory data</td></tr><tr><td rowspan="1" colspan="1">S100β, pg/mL</td><td rowspan="1" colspan="1">79.28±26.22</td><td rowspan="1" colspan="1">85.20±8.277</td><td rowspan="1" colspan="1">181.3±195.1</td><td rowspan="1" colspan="1">3.098</td><td rowspan="1" colspan="1">0.0594</td></tr><tr><td rowspan="1" colspan="1">Uric acid, μmol/L</td><td rowspan="1" colspan="1">309±82.89</td><td rowspan="1" colspan="1">327.4±61.99</td><td rowspan="1" colspan="1">309.1±77.66</td><td rowspan="1" colspan="1">0.5239</td><td rowspan="1" colspan="1">0.5942</td></tr></tbody></table><table-wrap-foot><fn id="tfn0001"><p><citation_analysis attribute="positive"><bold>Notes</bold></citation_analysis><citation_analysis attribute="neither">: Data are mean ± standard deviation or n (%) values. The P values represent the difference between the mild OSA group and the severe OSA group. Star symbols represent statistical significance levels: “****” represents p &lt; 0.0001, “**” represents p &lt; 0.01, no stars represent p &gt; 0.05.</citation_analysis></p></fn><fn id="tfn0002"><p><citation_analysis attribute="positive"><bold>Abbreviations</bold></citation_analysis><citation_analysis attribute="neither">: BMI, body mass index; AHI, apnea-hypopnea index; AHE, apnoea and hypopnoea event; ODI, oxygenation desaturation index; MAI, microarousal index; SaO2&lt;90%. The percentage of oxygen saturation less than 90%; WASO, wake time after sleep onset; REM, rapid eye movement; NREM, nonrapid eye movement.</citation_analysis></p></fn></table-wrap-foot></table-wrap></citation_analysis><citation_analysis attribute="positive">
+</citation_analysis><citation_analysis attribute="positive"><fig position="float" id="f0001" fig-type="figure"><label>Figure 1</label><caption><p><citation_analysis attribute="neither">Flow chart of patient recruitment and grouping, clinical data collection, sleep EEG processing and data analysis.</citation_analysis></p></caption><graphic xlink:href="NSS-15-979-g0001" content-type="print-only" position="float"/></fig></citation_analysis></p>
+      </sec>
+      <sec id="s0003-s2002">
+        <title>Overnight PSG</title>
+        <p><citation_analysis attribute="neither">Sleep apnea was confirmed by an overnight PSG.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0032" ref-type="bibr">32</xref></citation_analysis><citation_analysis attribute="neither"> Six EEG signals (F3-M2, F4-M1, C1-M2, C2-M1, O1-M2, and O2-M1), two channels of electrooculography (EOG) signals (E1-M2, E2-M2), chin EMG (EMG1-EMG2, EMG1-EMG3), electrocardiography (ECG), respiration (nasal pressure, airflow), oxygen saturation (SpO2), abdominal and chest movement, and leg movements were recorded.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0033" ref-type="bibr">33</xref></citation_analysis><citation_analysis attribute="neither"> Due to limitations associated with our collection equipment and technology, we were unable to include the central channel in our analysis.</citation_analysis></p>
+        <p><citation_analysis attribute="positive">Sleep stages and respiratory events were analyzed according to the Chinese Medical Association guidelines. The sleep stages were divided into the NREM (N1, N2, and N3) sleep, rapid eye movement (REM) sleep, and wake stages. Sleep-related parameters such as time in bed, total sleep time (TST), sleep latency (SL), sleep efficiency (SE), wake time after sleep onset (WASO), and the proportion of each sleep period in total sleep (N1/TST, N2/TST, and N3/TST) were calculated and reported in the PSG study report (</citation_analysis><citation_analysis attribute="positive"><xref rid="t0001" ref-type="table">Table 1</xref></citation_analysis><citation_analysis attribute="neither">).</citation_analysis></p>
+        <p><citation_analysis attribute="neither">For apnea-hypopnea index (AHI), we calculated the number of apnea and hypopnea events per hour of sleep. For apnea-hypopnea events (AHE), it was calculated according to the total number of apnea and hypopnea event during sleep. Oxygen desaturation index (ODI) is the number of oxygen desaturation events that occur per hour during sleep, below a specific threshold; Micro-awakening index (MAI) refers to the number of micro-awakening per hour, including breath-related micro-awakening, leg motion-related micro-awakening, spontaneous micro-awakening, and periodic leg motion-related micro-awakening. A higher MAI value indicates poorer sleep continuity and lower sleep quality.</citation_analysis></p>
+      </sec>
+      <sec id="s0003-s2003">
+        <title>Spectral and Topographical Analysis of PSG EEG Signals</title>
+        <p><citation_analysis attribute="positive">We used non-invasive electrodes to record scalp EEG signals from sleeping participants, as described in the overnight PSG method. All EEG signals were recorded at a sampling rate greater than or equal to 200 Hz, and were stored in the EDF format. The MATLAB software (MATLAB 2013a) was used for EEG preprocessing. A band-pass filter of 0.5–45.0 Hz was applied to the original signals in the EEGLab software. Signals from four channels (F3-M2, F4-M1, O1-M2, and O2-M1) were analyzed. Subsequently, data were processed using artifact removal and independent component analysis (ICA) (</citation_analysis><citation_analysis attribute="positive"><xref rid="f0001" ref-type="fig">Figure 1</xref></citation_analysis><citation_analysis attribute="positive">, step 3). We first estimated the power spectrum in 5 frequency bands (delta,1.0–4.0 Hz; theta, 4.0–8.0 Hz; alpha, 8.0–13.0 Hz; beta,13.0–30.0 Hz; gamma, 30.0–45.0 Hz) for each 4 ± 1 min segment using the Welch method.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0018" ref-type="bibr">18</xref></citation_analysis><citation_analysis attribute="neither"> This is a modification of the periodogram method that produces more reliable power spectrum estimates by applying windows, overlaps, and correlation analyses (see </citation_analysis><citation_analysis attribute="positive"><xref rid="f0001" ref-type="fig">Figure 1</xref></citation_analysis><citation_analysis attribute="neither">, Step 4 for a flow chart). The topographical PSD variation in the three OSA groups over the five frequency bands was also examined.</citation_analysis></p>
+      </sec>
+      <sec id="s0003-s2004">
+        <title>Measurement of Serum S100β and Uric Acid</title>
+        <p><citation_analysis attribute="neither">Three milliliters of elbow venous blood were extracted from fasting patients early in the morning before the PSG study. An enzyme-linked immunosorbent assay (ELISA) was used to test the expression levels of serum S100β protein according to manufacturer instructions. Blood samples were collected in test tubes without gel inhibitors and centrifuged at 3500 rpm at 4 °C for 15 min immediately, and then the precipitation-free liquid components were stored at −70 °C for assay. As a result, S100B protein was programmed by commercially available ELISA kit (S100B Human ELISA Kit, Abnova, Germany).</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0034" ref-type="bibr">34</xref></citation_analysis><citation_analysis attribute="neither"> Details of the S100B ELISA can be found in the supplementary online method (</citation_analysis><citation_analysis attribute="positive"><underline><ext-link xlink:href="http://www.abnova.com/" ext-link-type="uri">http://www.abnova.com/</ext-link></underline></citation_analysis><citation_analysis attribute="neither">). Normal ranges for S100b &lt;105 pg/mL.</citation_analysis></p>
+        <p><citation_analysis attribute="neither">Blood uric acid was measured by the Olympus Au400 automatic biochemical analyzer. Elbow venous blood was centrifuged at 4000 r/min for 10 min. The kit used for the analysis was purchased from Shanghai Kehua-Dongling Diagnostic Products Co., LTD., and the procedure was strictly followed according to the kit instructions. Normal ranges for uric acid are 120~430 μmol/L.</citation_analysis></p>
+      </sec>
+      <sec id="s0003-s2005">
+        <title>Statistical Methods</title>
+        <p><citation_analysis attribute="positive">Statistical analyses were performed using the GraphPad Prism (version 8.3.0) and SPSS (version 26.0) software. The measured data are presented as mean ± standard deviation if normally distributed, or otherwise as median with interquartile range in brackets. Normally distributed variables were compared using a one-way analysis of variance. ANCOVA was performed to compare the powers of each spectral bandwidth among the groups after controlling for potential confounders, including age and sex. The significance of the comparison of the spectral powers of the groups during total sleep was defined as P&lt; 0.05 after Tukey multiple comparisons. To identify the relevant independent EEG indices related to the severity of OSA, multiple regression analysis was used.</citation_analysis></p>
+      </sec>
+    </sec>
+    <sec id="s0004">
+      <title>Results</title>
+      <sec id="s0004-s2001">
+        <title>Demographic and PSG Characteristics of OSA Patients</title>
+        <p><citation_analysis attribute="neither">The demographic and PSG features of the three OSA severity groups are summarized in </citation_analysis><citation_analysis attribute="positive"><xref rid="t0001" ref-type="table">Table 1</xref></citation_analysis><citation_analysis attribute="positive">. The median patient age was 55 years. Severe OSA symptoms were more likely to occur in male patients. Demographically, we observed a difference in body mass index (BMI) between the severe OSA group and the other two groups (F (2, 72) = 5.076, P = 0.0087), which is consistent with previous reports. The AHI (NREM: F (2, 90) = 134.4, P &lt; 0.0001; REM: F (2, 90) = 31.50, P &lt; 0.0001), the total of apnea and hypopnea (NREM: F (2, 90) = 49.28, P &lt; 0.0001; REM: F (2, 90) =14.71, P &lt; 0.0001), and microarousal index during NREM and REM sleep (NREM: F (2, 90) = 12.61, P &lt; 0.0001; REM: F (2, 90) = 5.765, P = 0.004) were significantly higher in the severe OSA group compared to the mild and moderate groups (</citation_analysis><citation_analysis attribute="positive"><xref rid="t0001" ref-type="table">Table 1</xref></citation_analysis><citation_analysis attribute="neither">, </citation_analysis><citation_analysis attribute="positive"><xref rid="f0002" ref-type="fig">Figure 2D-F</xref></citation_analysis><citation_analysis attribute="neither">). The ODI index (F (2, 90) = 39.37, P &lt; 0.0001) and SaO2&lt;90% (F (2, 90) = 14.97, P &lt; 0.0001) were also increased in patients with severe OSA (</citation_analysis><citation_analysis attribute="positive"><xref rid="t0001" ref-type="table">Table 1</xref></citation_analysis><citation_analysis attribute="neither">, </citation_analysis><citation_analysis attribute="positive"><xref rid="f0002" ref-type="fig">Figure 2A</xref></citation_analysis><citation_analysis attribute="neither"> and </citation_analysis><citation_analysis attribute="positive"><xref rid="f0002" ref-type="fig">B</xref></citation_analysis><citation_analysis attribute="neither">). Sleep-related parameters such as time in bed, total sleep time, REM sleep latency, sleep efficiency, and WASO did not vary significantly between groups (</citation_analysis><citation_analysis attribute="positive"><xref rid="t0001" ref-type="table">Table 1</xref></citation_analysis><citation_analysis attribute="neither">). Moreover, except for a reduction in N2 sleep duration in patients with severe OSA (F (2, 90) = 4.876, P = 0.0098; </citation_analysis><citation_analysis attribute="positive"><xref rid="f0002" ref-type="fig">Figure 2C</xref></citation_analysis><citation_analysis attribute="neither">), there was no change in sleep duration.</citation_analysis><citation_analysis attribute="positive"><fig position="float" id="f0002" fig-type="figure"><label>Figure 2</label><caption><p><citation_analysis attribute="neither">Polysomnographic characteristics in the mild OSA group, moderate OSA group, and severe OSA group. (</citation_analysis><citation_analysis attribute="positive"><bold>A</bold></citation_analysis><citation_analysis attribute="neither">) The statistical results of ODI in OSA patients with different severity. (</citation_analysis><citation_analysis attribute="positive"><bold>B</bold></citation_analysis><citation_analysis attribute="neither">) The SaO2&lt;90% statistical results in OSA patients with different severity. (</citation_analysis><citation_analysis attribute="positive"><bold>C</bold></citation_analysis><citation_analysis attribute="neither">) The percentage of time spent in different sleep periods. (</citation_analysis><citation_analysis attribute="positive"><bold>D</bold></citation_analysis><citation_analysis attribute="neither">) The apnea hypopnea index (AHI) of OSA patients with different severity during NREM and REM periods. (</citation_analysis><citation_analysis attribute="positive"><bold>E</bold></citation_analysis><citation_analysis attribute="neither">) The total sleep apnea hypopnea of OSA patients with different severity during NREM and REM periods. (</citation_analysis><citation_analysis attribute="positive"><bold>F</bold></citation_analysis><citation_analysis attribute="neither">) The microarousal index of OSA patients with different severity during NREM and REM periods. Star symbols represent statistical significance levels: “****” represents p &lt; 0.0001, “***” represents p &lt; 0.001, “**” represents p &lt; 0.01, “*” represents p &lt; 0.05, no stars represent p &gt; 0.05.</citation_analysis></p></caption><graphic xlink:href="NSS-15-979-g0002" content-type="print-only" position="float"/></fig></citation_analysis></p>
+      </sec>
+      <sec id="s0004-s2002">
+        <title>Comparison of Spectral EEG Powers and Topographical Analysis</title>
+        <p><citation_analysis attribute="positive">The absolute PSD of the five bands in the mild, moderate, and severe OSA groups are shown in </citation_analysis><citation_analysis attribute="positive"><xref rid="f0003" ref-type="fig">Figure 3</xref></citation_analysis><citation_analysis attribute="neither">. In NREM sleep, reduced theta and alpha bands PSD were observed in the moderate and severe OSA groups compared to the mild group except for the N2 sleep phase (</citation_analysis><citation_analysis attribute="positive"><xref rid="f0003" ref-type="fig">Figure 3B</xref></citation_analysis><citation_analysis attribute="neither">). The comparative results during N1 and N3 sleep are presented in </citation_analysis><citation_analysis attribute="positive"><xref rid="f0003" ref-type="fig">Figure 3</xref></citation_analysis><citation_analysis attribute="neither">. In N1 sleep, reduced theta, alpha and beta band PSD was observed in the frontal region and occipital region in the moderate and severe OSA group compared to the mild group (theta: F3: F (2, 89) = 30.697, P = 0.032; F4: F (2, 89) = 30.793, P = 0.026; O1: F (2, 89) = 288.602, P = 0.003; alpha: O1: F (2, 89) = 201.349, P=0.005; beta: F3: F (2, 89) = 70.368, P = 0.014, </citation_analysis><citation_analysis attribute="positive"><xref rid="f0003" ref-type="fig">Figure 3A</xref></citation_analysis><citation_analysis attribute="neither">). In N3 sleep, theta (F3: F (2, 88) = 23.043, P = 0.042; O1: F (2, 88) = 20.541, P = 0.046; O2: F (2, 88) = 459.514, P = 0.002) and alpha bands PSD (O1: F (2, 88) = 35.358, P = 0.028, O2: F (2, 88) = 93.35, P = 0.011, </citation_analysis><citation_analysis attribute="positive"><xref rid="f0003" ref-type="fig">Figure 3C</xref></citation_analysis><citation_analysis attribute="neither">) in the frontal and occipital region were significantly decreased in the severe OSA group compared to the mild and moderate groups. During the wake period, we also observed a same trend in alpha power over the frontal and occipital regions in the moderate and severe OSA group (F3: F (2, 90) = 21.952, P = 0.044; O1: F (2, 90) = 19.408, P = 0.049, </citation_analysis><citation_analysis attribute="positive"><xref rid="f0003" ref-type="fig">Figure 3D</xref></citation_analysis><citation_analysis attribute="positive">). PSD in the REM sleep have no different changes in the three groups and data did not show here. </citation_analysis><citation_analysis attribute="positive"><xref rid="f0004" ref-type="fig">Figure 4</xref></citation_analysis><citation_analysis attribute="neither"> shows the topographic distribution of the absolute EEG power in the five frequency bands for the three OSA groups. By analyzing the EEG power spectral density in the N1, N2, N3, REM sleep and wake stages of OSA patients with different disease severities, combined with the results of hypoxic events in the PSG, we found that both changes in brain activity and hypoxic events in OSA patients mainly occurred during the NREM phase, suggesting a possible causal relationship between them.</citation_analysis><citation_analysis attribute="positive"><fig position="float" id="f0003" fig-type="figure"><label>Figure 3</label><caption><p><citation_analysis attribute="neither">Comparisons of the absolute power spectral densities (PSD) in the mild OSA group, moderate OSA group, and severe OSA group during the whole sleep stages. The PSD of F3/F4 and O1/O2 channels in five frequency bands in OSA patients during N1 (</citation_analysis><citation_analysis attribute="positive"><bold>A</bold></citation_analysis><citation_analysis attribute="neither">), N2(</citation_analysis><citation_analysis attribute="positive"><bold>B</bold></citation_analysis><citation_analysis attribute="neither">), N3 sleep (</citation_analysis><citation_analysis attribute="positive"><bold>C</bold></citation_analysis><citation_analysis attribute="neither">) and wakefulness (</citation_analysis><citation_analysis attribute="positive"><bold>D</bold></citation_analysis><citation_analysis attribute="neither">). Star symbols represent statistical significance levels: “**” represents p &lt; 0.01, “*” represents p &lt; 0.05, no stars represent p &gt; 0.05.</citation_analysis></p></caption><graphic xlink:href="NSS-15-979-g0003" content-type="print-only" position="float"/></fig></citation_analysis><citation_analysis attribute="positive"><fig position="float" id="f0004" fig-type="figure"><label>Figure 4</label><caption><p><citation_analysis attribute="neither">The topographic map results in the mild OSA group, moderate OSA group, and severe OSA group in each frequency band during N1, N2, N3 and wakefulness.</citation_analysis></p></caption><graphic xlink:href="NSS-15-979-g0004" content-type="print-only" position="float"/></fig></citation_analysis></p>
+      </sec>
+      <sec id="s0004-s2003">
+        <title>Correlation Analysis Among PSD, OSA Symptom Severity, and Serum Indexes</title>
+        <p><citation_analysis attribute="neither">The AHI showed a negative correlation with the theta band power of F3/4 channels in N1 sleep (AHI, F3 channel: r = −0.3168, P = 0.0021; F4 channel: r = −0.2770, P = 0.0075; </citation_analysis><citation_analysis attribute="positive"><xref rid="f0005" ref-type="fig">Figure 5</xref></citation_analysis><citation_analysis attribute="neither">A and </citation_analysis><citation_analysis attribute="positive"><xref rid="f0005" ref-type="fig">B</xref></citation_analysis><citation_analysis attribute="neither">). The theta PSD of F3/4 channels in N1 sleep showed a negative correlation with ODI and SaO2&lt;90% (ODI, F3 channel: r = −0.2712, P = 0.0089, F4 channel: r = −0.2623, P = 0.0115; SaO2&lt;90%, F3 channel: r = −0.2757, P = 0.0078) (</citation_analysis><citation_analysis attribute="positive"><xref rid="f0005" ref-type="fig">Figure 5C-E</xref></citation_analysis><citation_analysis attribute="positive">). Correspondingly, the theta PSD in the N3 sleep of O1/2 channels demonstrated a similar pattern to that of AHI </citation_analysis><citation_analysis attribute="positive"><xref rid="f0005" ref-type="fig">Figure 5</xref></citation_analysis><citation_analysis attribute="neither">F and </citation_analysis><citation_analysis attribute="positive"><xref rid="f0005" ref-type="fig">G</xref></citation_analysis><citation_analysis attribute="neither">). The microarousal index (MAI) showed a negative correlation with theta PSD in the N3 sleep of O1/O2 channels (</citation_analysis><citation_analysis attribute="positive"><xref rid="f0005" ref-type="fig">Figure 5</xref></citation_analysis><citation_analysis attribute="neither">H and </citation_analysis><citation_analysis attribute="positive"><xref rid="f0005" ref-type="fig">I</xref></citation_analysis><citation_analysis attribute="neither">). The beta band power during N1 sleep had no relationship with OSA-related indices. </citation_analysis><citation_analysis attribute="positive"><xref rid="f0006" ref-type="fig">Figure 6</xref></citation_analysis><citation_analysis attribute="neither"> presents Pearson correlation coefficients, indicating negatively correlation between AHI with theta PSD in N1/3 sleep. Additionally, ODI and SaO2&lt;90% was negatively correlated with theta PSD in N1 sleep. Furthermore, it is interesting to note that MAI demonstrates negative correlation with theta PSD in N3 sleep but not in N1 sleep. These results suggest that severe OSA may alter the microstructure of the brain and may damage the central nervous system. Other power spectrum correlation analysis results were in the </citation_analysis><citation_analysis attribute="positive"><underline><ext-link xlink:href="https://www.dovepress.com/get_supplementary_file.php?f=433820.xlsx" ext-link-type="uri">Supplementary Table</ext-link></underline></citation_analysis><citation_analysis attribute="neither">.</citation_analysis><citation_analysis attribute="positive"><fig position="float" id="f0005" fig-type="figure"><label>Figure 5</label><caption><p><citation_analysis attribute="positive">Correlation analysis between theta band power spectral density (PSD) in NREM sleep and severity of OSA symptom. The theta band power of F3/4 channels in N1 sleep was shown negatively correlated with AHI (</citation_analysis><citation_analysis attribute="positive"><bold>A</bold></citation_analysis><citation_analysis attribute="neither"> and </citation_analysis><citation_analysis attribute="positive"><bold>B</bold></citation_analysis><citation_analysis attribute="neither">) (F3 channel: r=−0.3168, P=0.0021, F4 channel: r=−0.2770, P=0.0075), AHI during NREM (F3 channel: r=−0.3346, P=0.0011, F4 channel: r=−0.2962, P=0.0041), ODI (</citation_analysis><citation_analysis attribute="positive"><bold>C</bold></citation_analysis><citation_analysis attribute="neither"> and </citation_analysis><citation_analysis attribute="positive"><bold>D</bold></citation_analysis><citation_analysis attribute="neither">) (F3 channel: r=−0.2712, P=0.0089, F4 channel: r=−0.2623, P=0.0115), SaO2&lt;90% (</citation_analysis><citation_analysis attribute="positive"><bold>E</bold></citation_analysis><citation_analysis attribute="neither">) (F3 channel: r=−0.2757, P=0.0078). The theta PSD of O1/2 channels in N3 sleep was negatively correlated with AHI (</citation_analysis><citation_analysis attribute="positive"><bold>F</bold></citation_analysis><citation_analysis attribute="neither"> and </citation_analysis><citation_analysis attribute="positive"><bold>G</bold></citation_analysis><citation_analysis attribute="neither">) (O1 channel: r=−0.2138, P=0.0419; O2 channel: r=0.2421, P=0.0208) and Microarousal index (</citation_analysis><citation_analysis attribute="positive"><bold>H</bold></citation_analysis><citation_analysis attribute="neither"> and </citation_analysis><citation_analysis attribute="positive"><bold>I</bold></citation_analysis><citation_analysis attribute="neither">) (O1 channel: r=−0.2616, P=0.0123, O2 channel: r=−0.3052, P=0.0033).</citation_analysis></p></caption><graphic xlink:href="NSS-15-979-g0005" content-type="print-only" position="float"/></fig></citation_analysis><citation_analysis attribute="positive"><fig position="float" id="f0006" fig-type="figure"><label>Figure 6</label><caption><p><citation_analysis attribute="positive">Matrix of Pearson’s correlation coefficients among demographics, power spectral density, OSA symptom severity and serum indexes. A color-coded correlation scale is presented on the right of the plot. Based upon the scale, blue ones stand for negative correlations and red ellipses stand for positive correlations, ns illustrate insignificant correlations of a given variable with itself. Star symbols represent statistical significance levels: “***” represents p &lt; 0.001, “**” represents p &lt; 0.01, “*” represents p &lt; 0.05, no stars represent p &gt; 0.05.</citation_analysis></p></caption><graphic xlink:href="NSS-15-979-g0006" content-type="print-only" position="float"/><attrib><bold>Abbreviation</bold>: MAI, Microarousal index.</attrib></fig></citation_analysis></p>
+        <p><citation_analysis attribute="positive">In addition, we found that S100β had positive correlations with AHI (</citation_analysis><citation_analysis attribute="positive"><xref rid="f0006" ref-type="fig">Figure 6</xref></citation_analysis><citation_analysis attribute="neither">, r = 0.401, P = 0.018), MAI (</citation_analysis><citation_analysis attribute="positive"><xref rid="f0006" ref-type="fig">Figure 6</xref></citation_analysis><citation_analysis attribute="neither">, r = 0.453, P = 0.007) and WASO (</citation_analysis><citation_analysis attribute="positive"><underline><ext-link xlink:href="https://www.dovepress.com/get_supplementary_file.php?f=433820.xlsx" ext-link-type="uri">Supplementary table</ext-link></underline></citation_analysis><citation_analysis attribute="neither">, r = 0.449, P = 0.008), but negative correlations with theta power in the N1 stage (</citation_analysis><citation_analysis attribute="positive"><xref rid="f0006" ref-type="fig">Figure 6</xref></citation_analysis><citation_analysis attribute="neither">, F3: r = −0.424, P = 0.013) and sleep efficiency (</citation_analysis><citation_analysis attribute="positive"><underline><ext-link xlink:href="https://www.dovepress.com/get_supplementary_file.php?f=433820.xlsx" ext-link-type="uri">Supplementary table</ext-link></underline></citation_analysis><citation_analysis attribute="positive">, r = −0.368, P = 0.032). Uric acid was negatively correlated with age (data did not shown), but had no significant correlation with the PSD of each of the five frequency bands (</citation_analysis><citation_analysis attribute="positive"><xref rid="f0006" ref-type="fig">Figure 6</xref></citation_analysis><citation_analysis attribute="neither">).</citation_analysis></p>
+      </sec>
+    </sec>
+    <sec id="s0005">
+      <title>Discussion</title>
+      <p><citation_analysis attribute="positive">This study aimed to analyze the power spectrum of PSG EEG and its correlation with PSG parameters and serum markers in patients with OSA of varying degrees of severity. We initially assessed whether OSA could alter sleep architecture patterns. Except for a decrease in the duration of N2 sleep and an increase in the microarousal index, there were no significant differences in sleep architecture based on disease severity, although hypoxic events were observed throughout the sleep stages and were more prevalent in the NREM phase. In addition, we demonstrated that NREM theta and alpha powers over the frontal and occipital regions in N1 and N3 sleep were lower in the moderate and severe OSA groups compared to the mild OSA group. Also, a lower NREM theta power band was negatively correlated with the severity of OSA symptoms. This suggests that EEG oscillations may be a potential index or biomarker of OSA severity.</citation_analysis></p>
+      <p><citation_analysis attribute="positive">In a retrospective study, elevated S100b and uric acid levels were associated with OSA severity. However, no correlation was found between EEG PSD and these serum markers. Therefore, we aimed to analyze the relationship between the power spectrum and serum markers in patients with varying degrees of OSA severity. Indeed, our findings indicated a relationship between S100β and OSA. Instead, uric acid levels did not differ significantly among the three OSA groups, suggesting that uric acid may not be a sensitive indicator of OSA severity.</citation_analysis></p>
+      <sec id="s0005-s2001">
+        <title>Little Group Differences in Sleep Architecture</title>
+        <p><citation_analysis attribute="neither">Different PSG-derived OSA diagnostic modalities have been used for several years. Patients with OSA may experience most of their respiratory events during either REM or NREM sleep. Often, OSA is more severe during REM sleep than during NREM sleep; however, the underlying mechanisms remain unclear. Moreover, previous studies have found that REM-predominant OSA and NREM-predominant OSA have different physiological conditions based on common polysomnographic patterns,</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0018" ref-type="bibr">18</xref></citation_analysis><citation_analysis attribute="neither">,</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0035" ref-type="bibr">35–39</xref></citation_analysis><citation_analysis attribute="positive"> and a marked reduction in OSA severity in slow-wave sleep. In this study, we investigated the evolution of respiration-related hypoxia during the entire sleep period. Our findings on sleep architecture in patients with OSA showed that the AHI, ODI, and SaO2&lt;90% in the moderate and severe OSA groups were significantly higher than those in the mild OSA group. NREM sleep and slow-wave sleep are considered to be closely associated with cognition and memory. Therefore, chronic hypoxia occurring mainly in the NREM/N3 phase may cause cognitive impairment in patients with OSA. Based on our findings, it is possible to better assist clinical staff in predicting and preventing cognitive impairment in OSA patients through improved evaluation and treatment of hypoxia during N3 sleep. For example, administering high-flow oxygen during N3 sleep may help prevent or mitigate cognitive impairment. The disruption of sleep structure in individuals with OSA has been extensively studied and documented. Previous research has shown significant alterations in sleep architecture, particularly in individuals over the age of 40 with chronic insomnia. These alterations often include a reduction in slow-wave (N3) and REM sleep, alongside an increase in light sleep (N1) and frequent awakenings during the night.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0020" ref-type="bibr">20</xref></citation_analysis><citation_analysis attribute="neither">,</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0040" ref-type="bibr">40</xref></citation_analysis><citation_analysis attribute="positive"> However, it is worth noting that some studies focusing on male patients with OSA have found no significant differences in PSG parameters such as sleep efficiency, sleep latency, and REM sleep, except for higher duration in N1 and lower duration in N3.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0018" ref-type="bibr">18</xref></citation_analysis><citation_analysis attribute="neither"> Recently, a study conducted by Wulterkens et al has revealed notable differences in the sleep structure of patients with comorbid insomnia and sleep apnea (COMISA) compared to patients with OSA and insomnia.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0041" ref-type="bibr">41</xref></citation_analysis><citation_analysis attribute="positive"> In our study, we found no significant differences in sleep structure between patients with mild, moderate, and severe OSA, aside from the duration of N2 sleep and microarousal index. However, it is important to acknowledge that these discrepant results regarding sleep macrostructure may be influenced by factors such as inadequate statistical power and variations in the subjects being studied.</citation_analysis></p>
+      </sec>
+      <sec id="s0005-s2002">
+        <title>Reduced NREM Theta and Alpha Power in OSA Patients</title>
+        <p><citation_analysis attribute="negative">In this study, we found that compared to the mild OSA group, the theta and alpha band PSD in the frontal and occipital regions during NREM sleep and wakefulness were significantly decreased in the moderate and severe OSA groups. Several alterations in resting-state EEG spectral domains have been identified in OSA, which could be reflected in specific EEG biomarkers of the brain. However, previous EEG studies of OSA have yielded inconsistent results. Chronic intermittent hypoxia during sleep results in several alterations in resting-state EEG spectral domains, which could reflect various brain activities in real time. Jiang et al found that in a cohort of patients with OSA, the quantitative EEG power of the beta band was higher than that in the non-OSA group, and the delta power spectrum was lower.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0020" ref-type="bibr">20</xref></citation_analysis><citation_analysis attribute="neither"> However, another study on OSA came to a different conclusion, reporting that in the severe OSA group low-frequency delta power was increased, and other bands were decreased in both NREM and REM sleep.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0018" ref-type="bibr">18</xref></citation_analysis><citation_analysis attribute="neither"> A topographic analysis of high-density EEG data revealed a broadband reduction in EEG power in OSA subjects.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0017" ref-type="bibr">17</xref></citation_analysis><citation_analysis attribute="positive"> These discrepant results in EEG data are likely due to differences in the methodology and patients employed across studies.</citation_analysis></p>
+        <p><citation_analysis attribute="neither">Few studies have analyzed the pattern of changes in EEG frequencies during the entire sleep period (NREM, REM, and wakefulness) in patients with different levels of apnea severity. By analyzing the EEG PSD in the N1, N2, and N3 sleep stages, we identified same results in theta and alpha powers, specifically in the frontal and occipital areas during N1 sleep. During N1 sleep, which is characterized as a transitional stage from wakefulness to sleep, a decrease in theta power was observed in the frontal region. Theta oscillations (4–7 Hz) are commonly associated with relaxed mental states and meditation.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0042" ref-type="bibr">42</xref></citation_analysis><citation_analysis attribute="positive"> Additionally, the frontal cortex is involved in various cognitive processes, including attention, working memory, and decision making. Thus, the decrease in theta power in the frontal area during N1 sleep may reflect a reduction in cognitive processing and the initiation of sleep-related processes. This may indicate that in patients with OSA, there are abnormal changes in frontal lobe neural activity during the transition from wakefulness to sleep. Our findings indicate potential neurophysiological changes or underlying mechanisms associated with sleep fragmentation in patients with OSA. This provides valuable insights for further evaluating sleep quality and exploring potential treatment options. For example, transcranial magnetic stimulation (TMS) targeting the frontal theta waves emerges as a promising physical therapy for future interventions.</citation_analysis></p>
+        <p><citation_analysis attribute="neither">Our study showed a decrease in both theta and alpha powers in the frontal and occipital area during N3 sleep. Occipital theta/alpha oscillations (4–13 Hz) are associated with visual processing and attention. This reduction in the visual area may reflect a downregulation of sensory input, further indicating a shift towards deeper sleep stages characterized by reduced responsiveness to external stimuli. Moreover, sleep-related processes such as memory consolidation, synaptic pruning, and neural regeneration may contribute to the stage-specific modulation of theta and alpha/spindle power. One possible explanation for this difference in stage-specific distribution may be related to the synchronization of neural networks. Different cortical regions may exhibit varying degrees of synchronization during specific sleep stages, resulting in differences in EEG power distribution. Another potential explanation could be the generation and modulation of neurotransmitters that play a role in sleep regulation. Changes in theta power distribution during sleep stages can be influenced by neurotransmitter release and receptor activity.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0043" ref-type="bibr">43</xref></citation_analysis><citation_analysis attribute="neither"> Future studies investigating the specific contributions of neurotransmitters such as serotonin, acetylcholine, and norepinephrine may provide insights into these stage-specific distribution differences.</citation_analysis></p>
+      </sec>
+      <sec id="s0005-s2003">
+        <title>OSA is Negatively Associated with Reduced NREM Theta Power</title>
+        <p><citation_analysis attribute="neither">It is not known whether the sleep periods of severe hypoxia are accompanied by differences in electrical activity. Therefore, we further analyzed the correlation between brain electrical activity and hypoxic events during different sleep stages.</citation_analysis></p>
+        <p><citation_analysis attribute="positive">We found that reduced theta band PSD in N1, and N3 were negatively correlated with AHI, ODI and microarousal index, indicating that abnormal EEG activity in the frontal and occipital regions may be a potential indicator of OSA severity. Moreover, decreased theta and alpha bands EEG activity during NREM sleep may also reflect an increased OSA severity. Our findings provide objective neurophysiological evidence of pathological cortical activity during NREM sleep that may be associated with different levels of OSA severity.</citation_analysis></p>
+        <p><citation_analysis attribute="neither">OSA is closely associated with the development of several cardiovascular and metabolic diseases, including hypertension, diabetes, and obesity. In addition, untreated OSA leads to neurobehavioral dysfunctions such as cognitive impairment and daytime sleepiness, to which EEG activity is related.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0044" ref-type="bibr">44</xref></citation_analysis><citation_analysis attribute="neither"> Reduced theta activity during NREM sleep in healthy subjects predicts sleepiness, while reductions in sleep spindle density and sigma band power in older adults are related to the weakening of learning and memory processes during aging.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0045" ref-type="bibr">45</xref></citation_analysis><citation_analysis attribute="positive"> Although the mechanisms underlying the slowing of sleep EEG activity in patients with OSA are unclear, imaging and EEG studies have shown that hypercapnia results in altered brain activity and in a reduction in functional connectivity magnetic resonance imaging indices.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0046" ref-type="bibr">46</xref></citation_analysis><citation_analysis attribute="neither"> Thus, further investigation into the relationship and mechanisms between EEG spectral power and sleep apnea symptoms in OSA is necessary.</citation_analysis></p>
+      </sec>
+    </sec>
+    <sec id="s0006">
+      <title>Limitations</title>
+      <p><citation_analysis attribute="positive">Our study has several limitations that should be acknowledged. First, it relied on a relatively small sample size of 93 participants, which may have led to an increased likelihood of type two statistical errors. However, there was little difference in sample size among the three OSA groups, and the obtained results were significant (</citation_analysis><citation_analysis attribute="positive"><xref rid="t0001" ref-type="table">Table 1</xref></citation_analysis><citation_analysis attribute="neither">, </citation_analysis><citation_analysis attribute="positive"><xref rid="f0003" ref-type="fig">Figure 3</xref></citation_analysis><citation_analysis attribute="neither">). In the future, we plan to collaborate with other clinical centers to include more patients and further improve our study.</citation_analysis></p>
+      <p><citation_analysis attribute="neither">Owing to limitations associated with our collection equipment and technology, we could only use frontal and occipital EEG electrodes, which may fail to detect more regional brain activity in detail. Multichannel EEG recordings may provide more spatial information and more accurate topographical maps. Therefore, future studies employing high-density EEG recordings are required.</citation_analysis></p>
+      <p><citation_analysis attribute="positive">It is also important to recognize that this study only demonstrated associations between sleep-breathing conditions and PSG parameters with EEG PSD, and these data do not prove causality. However, EEG oscillations have been used as an important indicator to assess brain activity. Previous studies have shown that sleep EEG abnormalities and cognitive performance in OSA were reversible after 6 months of continuous positive airway pressure treatment.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0012" ref-type="bibr">12</xref></citation_analysis><citation_analysis attribute="neither">,</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0014" ref-type="bibr">14</xref></citation_analysis><citation_analysis attribute="neither">,</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0033" ref-type="bibr">33</xref></citation_analysis><citation_analysis attribute="neither">,</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0047" ref-type="bibr">47–49</xref></citation_analysis><citation_analysis attribute="neither"> Thus, the decrease in PSD observed in our study may have been caused by brain tissue damage due to chronic hypoxia. Designing interventions that directly target EEG biomarkers associated with OSA and/or specific symptom dimensions to improve clinical outcomes is a promising approach.</citation_analysis></p>
+      <p><citation_analysis attribute="neither">Furthermore, it is important to consider the potential changes in PSD throughout the night, as sleep organization and the brain circuits involved vary from the initial sleep cycles to the later sleep periods. For example, Heinzer et al showed that N3 power in patients with OSA was decreased in the first and second NREM episodes and positively correlated with sleep latency in the multiple sleep latency test.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0041" ref-type="bibr">41</xref></citation_analysis><citation_analysis attribute="neither"> Further research in this area may provide valuable insights into the dynamics of sleep and its impact on brain activity.</citation_analysis></p>
+    </sec>
+    <sec id="s0007">
+      <title>Conclusion</title>
+      <p><citation_analysis attribute="positive">In summary, hypoxic events were observed throughout the sleep stages in patients with OSA. Except for a decrease in the duration of N2 sleep and an increase in the microarousal index, there were no significant differences in sleep architecture based on disease severity. Reduced frontal and occipital theta band power during NREM sleep correlated closely with the degree of hypoxia in patients with OSA, may reflect pathological cortical activation, and could be a potential neurophysiological predictor of disease severity in patients with OSA.</citation_analysis></p>
+    </sec>
+  </body>
+  <back>
+    <ack>
+      <title>Acknowledgments</title>
+      <p><citation_analysis attribute="neither">Chan Zhang and Yanhui Wang are co-first authors for this study. This work was supported by National Natural Science Foundation of China (NSFC 81801110 and NSFC 82000850) and Medical Science and Technology project of Henan Province (SBGJ 202002060and SBGJ 202101016).</citation_analysis></p>
+    </ack>
+    <sec sec-type="data-availability" id="s0008">
+      <title>Data Sharing Statement</title>
+      <p><citation_analysis attribute="neither">The data on which this manuscript are open to researchers upon appropriate request.</citation_analysis></p>
+    </sec>
+    <sec sec-type="COI-statement" id="s0009">
+      <title>Disclosure</title>
+      <p><citation_analysis attribute="neither">The authors report no conflicts of interest for this work.</citation_analysis></p>
+    </sec>
+    <ref-list>
+      <title>References</title>
+      <ref id="cit0001">
+        <label>1.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Levy</surname>
+<given-names>P</given-names></string-name>, <string-name><surname>Kohler</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>McNicholas</surname>
+<given-names>WT</given-names></string-name>, et al. <article-title>Obstructive sleep apnoea syndrome</article-title>. <source><italic toggle="yes">Nat Rev Dis Primers</italic></source>. <year>2015</year>;<volume>1</volume>:<fpage>15015</fpage>. doi:<pub-id pub-id-type="doi">10.1038/nrdp.2015.15</pub-id><pub-id pub-id-type="pmid">27188535</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0002">
+        <label>2.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Jordan</surname>
+<given-names>AS</given-names></string-name>, <string-name><surname>McSharry</surname>
+<given-names>DG</given-names></string-name>, <string-name><surname>Malhotra</surname>
+<given-names>A</given-names></string-name>. <article-title>Adult obstructive sleep apnoea</article-title>. <source><italic toggle="yes">Lancet</italic></source>. <year>2014</year>;<volume>383</volume>(<issue>9918</issue>):<fpage>736</fpage>–<lpage>747</lpage>. doi:<pub-id pub-id-type="doi">10.1016/S0140-6736(13)60734-5</pub-id><pub-id pub-id-type="pmid">23910433</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0003">
+        <label>3.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Wan</surname>
+<given-names>XY</given-names></string-name>, <string-name><surname>Zhao</surname>
+<given-names>WR</given-names></string-name>, <string-name><surname>Wu</surname>
+<given-names>XR</given-names></string-name>, <string-name><surname>Chen</surname>
+<given-names>XY</given-names></string-name>, <string-name><surname>Lei</surname>
+<given-names>X</given-names></string-name>. <article-title>The brain imaging studies of obstructive sleep apnea: evidence from resting-state EEG and fMRI</article-title>. <source><italic toggle="yes">Sheng Li Xue Bao</italic></source>. <year>2019</year>;<volume>71</volume>(<issue>5</issue>):<fpage>760</fpage>–<lpage>768</lpage>.<pub-id pub-id-type="pmid">31646330</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0004">
+        <label>4.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Puskas</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Kozak</surname>
+<given-names>N</given-names></string-name>, <string-name><surname>Sulina</surname>
+<given-names>D</given-names></string-name>, <string-name><surname>Csiba</surname>
+<given-names>L</given-names></string-name>, <string-name><surname>Magyar</surname>
+<given-names>MT</given-names></string-name>. <article-title>Quantitative EEG in obstructive sleep apnea syndrome: a review of the literature</article-title>. <source><italic toggle="yes">Rev Neurosci</italic></source>. <year>2017</year>;<volume>28</volume>(<issue>3</issue>):<fpage>265</fpage>–<lpage>270</lpage>. doi:<pub-id pub-id-type="doi">10.1515/revneuro-2016-0064</pub-id><pub-id pub-id-type="pmid">28099139</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0005">
+        <label>5.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Zhang</surname>
+<given-names>F</given-names></string-name>, <string-name><surname>Wu</surname>
+<given-names>X</given-names></string-name>, <string-name><surname>Duan</surname>
+<given-names>W</given-names></string-name>, <string-name><surname>Wang</surname>
+<given-names>F</given-names></string-name>, <string-name><surname>Huang</surname>
+<given-names>T</given-names></string-name>, <string-name><surname>Xiang</surname>
+<given-names>M</given-names></string-name>. <article-title>Influencing factors of daytime sleepiness in patients with obstructive sleep apnea hypopnea syndrome and its correlation with pulse oxygen decline rate</article-title>. <source><italic toggle="yes">Evid Based Complement Alternat Med</italic></source>. <year>2021</year>;<volume>2021</volume>:<fpage>6345734</fpage>. doi:<pub-id pub-id-type="doi">10.1155/2021/6345734</pub-id><pub-id pub-id-type="pmid">34552652</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0006">
+        <label>6.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Guilleminault</surname>
+<given-names>C</given-names></string-name>, <string-name><surname>Do Kim</surname>
+<given-names>Y</given-names></string-name>, <string-name><surname>Chowdhuri</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Horita</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Ohayon</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Kushida</surname>
+<given-names>C</given-names></string-name>. <article-title>Sleep and daytime sleepiness in upper airway resistance syndrome compared to obstructive sleep apnoea syndrome</article-title>. <source><italic toggle="yes">Eur Respir J</italic></source>. <year>2001</year>;<volume>17</volume>(<issue>5</issue>):<fpage>838</fpage>–<lpage>847</lpage>. doi:<pub-id pub-id-type="doi">10.1183/09031936.01.17508380</pub-id><pub-id pub-id-type="pmid">11488314</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0007">
+        <label>7.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Maspero</surname>
+<given-names>C</given-names></string-name>, <string-name><surname>Giannini</surname>
+<given-names>L</given-names></string-name>, <string-name><surname>Galbiati</surname>
+<given-names>G</given-names></string-name>, <string-name><surname>Rosso</surname>
+<given-names>G</given-names></string-name>, <string-name><surname>Farronato</surname>
+<given-names>G</given-names></string-name>. <article-title>Obstructive sleep apnea syndrome: a literature review</article-title>. <source><italic toggle="yes">Minerva Stomatol</italic></source>. <year>2015</year>;<volume>64</volume>(<issue>2</issue>):<fpage>97</fpage>–<lpage>109</lpage>.<pub-id pub-id-type="pmid">25747430</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0008">
+        <label>8.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>D’Rozario</surname>
+<given-names>AL</given-names></string-name>, <string-name><surname>Cross</surname>
+<given-names>NE</given-names></string-name>, <string-name><surname>Vakulin</surname>
+<given-names>A</given-names></string-name>, et al. <article-title>Quantitative electroencephalogram measures in adult obstructive sleep apnea - Potential biomarkers of neurobehavioural functioning</article-title>. <source><italic toggle="yes">Sleep Med Rev</italic></source>. <year>2017</year>;<volume>36</volume>:<fpage>29</fpage>–<lpage>42</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.smrv.2016.10.003</pub-id><pub-id pub-id-type="pmid">28385478</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0009">
+        <label>9.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Gottlieb</surname>
+<given-names>DJ</given-names></string-name>, <string-name><surname>Punjabi</surname>
+<given-names>NM</given-names></string-name>. <article-title>Diagnosis and management of obstructive sleep apnea: a review</article-title>. <source><italic toggle="yes">JAMA</italic></source>. <year>2020</year>;<volume>323</volume>(<issue>14</issue>):<fpage>1389</fpage>–<lpage>1400</lpage>. doi:<pub-id pub-id-type="doi">10.1001/jama.2020.3514</pub-id><pub-id pub-id-type="pmid">32286648</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0010">
+        <label>10.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Harper</surname>
+<given-names>RM</given-names></string-name>, <string-name><surname>Kumar</surname>
+<given-names>R</given-names></string-name>, <string-name><surname>Ogren</surname>
+<given-names>JA</given-names></string-name>, <string-name><surname>Macey</surname>
+<given-names>PM</given-names></string-name>. <article-title>Sleep-disordered breathing: effects on brain structure and function</article-title>. <source><italic toggle="yes">Respir Physiol Neurobiol</italic></source>. <year>2013</year>;<volume>188</volume>(<issue>3</issue>):<fpage>383</fpage>–<lpage>391</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.resp.2013.04.021</pub-id><pub-id pub-id-type="pmid">23643610</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0011">
+        <label>11.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Duan</surname>
+<given-names>W</given-names></string-name>, <string-name><surname>Liu</surname>
+<given-names>X</given-names></string-name>, <string-name><surname>Ping</surname>
+<given-names>L</given-names></string-name>, et al. <article-title>Distinct functional brain abnormalities in insomnia disorder and obstructive sleep apnea</article-title>. <source><italic toggle="yes">Eur Arch Psychiatry Clin Neurosci</italic></source>. <year>2022</year>;<volume>273</volume>(<issue>2</issue>):<fpage>493</fpage>–<lpage>509</lpage>. doi:<pub-id pub-id-type="doi">10.1007/s00406-022-01485-7</pub-id><pub-id pub-id-type="pmid">36094570</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0012">
+        <label>12.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Xiromeritis</surname>
+<given-names>AG</given-names></string-name>, <string-name><surname>Hatziefthimiou</surname>
+<given-names>AA</given-names></string-name>, <string-name><surname>Hadjigeorgiou</surname>
+<given-names>GM</given-names></string-name>, <string-name><surname>Gourgoulianis</surname>
+<given-names>KI</given-names></string-name>, <string-name><surname>Anagnostopo Ulou</surname>
+<given-names>DN</given-names></string-name>, <string-name><surname>Angelopoulos</surname>
+<given-names>NV</given-names></string-name>. <article-title>Quantitative spectral analysis of vigilance EEG in patients with obstructive sleep apnoea syndrome: EEG mapping in OSAS patients</article-title>. <source><italic toggle="yes">Sleep Breath</italic></source>. <year>2011</year>;<volume>15</volume>(<issue>1</issue>):<fpage>121</fpage>–<lpage>128</lpage>. doi:<pub-id pub-id-type="doi">10.1007/s11325-010-0335-6</pub-id><pub-id pub-id-type="pmid">20174876</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0013">
+        <label>13.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Saunamaki</surname>
+<given-names>T</given-names></string-name>, <string-name><surname>Jehkonen</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Huupponen</surname>
+<given-names>E</given-names></string-name>, <string-name><surname>Polo</surname>
+<given-names>O</given-names></string-name>, <string-name><surname>Himanen</surname>
+<given-names>SL</given-names></string-name>. <article-title>Visual dysfunction and computational sleep depth changes in obstructive sleep apnea syndrome</article-title>. <source><italic toggle="yes">Clin EEG Neurosci</italic></source>. <year>2009</year>;<volume>40</volume>(<issue>3</issue>):<fpage>162</fpage>–<lpage>167</lpage>. doi:<pub-id pub-id-type="doi">10.1177/155005940904000308</pub-id><pub-id pub-id-type="pmid">19715178</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0014">
+        <label>14.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Wang</surname>
+<given-names>G</given-names></string-name>, <string-name><surname>Goebel</surname>
+<given-names>JR</given-names></string-name>, <string-name><surname>Li</surname>
+<given-names>C</given-names></string-name>, <string-name><surname>Hallman</surname>
+<given-names>HG</given-names></string-name>, <string-name><surname>Gilford</surname>
+<given-names>TM</given-names></string-name>, <string-name><surname>Li</surname>
+<given-names>W</given-names></string-name>. <article-title>Therapeutic effects of CPAP on cognitive impairments associated with OSA</article-title>. <source><italic toggle="yes">J Neurol</italic></source>. <year>2020</year>;<volume>267</volume>(<issue>10</issue>):<fpage>2823</fpage>–<lpage>2828</lpage>. doi:<pub-id pub-id-type="doi">10.1007/s00415-019-09381-2</pub-id><pub-id pub-id-type="pmid">31111204</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0015">
+        <label>15.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Vanek</surname>
+<given-names>J</given-names></string-name>, <string-name><surname>Prasko</surname>
+<given-names>J</given-names></string-name>, <string-name><surname>Genzor</surname>
+<given-names>S</given-names></string-name>, et al. <article-title>Obstructive sleep apnea, depression and cognitive impairment</article-title>. <source><italic toggle="yes">Sleep Med</italic></source>. <year>2020</year>;<volume>72</volume>:<fpage>50</fpage>–<lpage>58</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.sleep.2020.03.017</pub-id><pub-id pub-id-type="pmid">32544796</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0016">
+        <label>16.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Quan</surname>
+<given-names>SF</given-names></string-name>, <string-name><surname>Chan</surname>
+<given-names>CS</given-names></string-name>, <string-name><surname>Dement</surname>
+<given-names>WC</given-names></string-name>, et al. <article-title>The association between obstructive sleep apnea and neurocognitive performance--The Apnea Positive Pressure Long-term Efficacy Study (APPLES)</article-title>. <source><italic toggle="yes">Sleep</italic></source>. <year>2011</year>;<volume>34</volume>(<issue>3</issue>):<fpage>303</fpage>–<lpage>314B</lpage>. doi:<pub-id pub-id-type="doi">10.1093/sleep/34.3.303</pub-id><pub-id pub-id-type="pmid">21358847</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0017">
+        <label>17.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Jones</surname>
+<given-names>SG</given-names></string-name>, <string-name><surname>Riedner</surname>
+<given-names>BA</given-names></string-name>, <string-name><surname>Smith</surname>
+<given-names>RF</given-names></string-name>, et al. <article-title>Regional reductions in sleep electroencep halography power in obstructive sleep apnea: a high-density EEG study</article-title>. <source><italic toggle="yes">Sleep</italic></source>. <year>2014</year>;<volume>37</volume>(<issue>2</issue>):<fpage>399</fpage>–<lpage>407</lpage>. doi:<pub-id pub-id-type="doi">10.5665/sleep.3424</pub-id><pub-id pub-id-type="pmid">24497668</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0018">
+        <label>18.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Liu</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Shen</surname>
+<given-names>J</given-names></string-name>, <string-name><surname>Li</surname>
+<given-names>Y</given-names></string-name>, et al. <article-title>EEG power spectral analysis of abnormal cortical activations during REM/NREM sleep in obstructive sleep apnea</article-title>. <source><italic toggle="yes">Front Neurol</italic></source>. <year>2021</year>;<volume>12</volume>:<fpage>643855</fpage>. doi:<pub-id pub-id-type="doi">10.3389/fneur.2021.643855</pub-id><pub-id pub-id-type="pmid">33716946</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0019">
+        <label>19.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Morisson</surname>
+<given-names>F</given-names></string-name>, <string-name><surname>Decary</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Petit</surname>
+<given-names>D</given-names></string-name>, <string-name><surname>Lavigne</surname>
+<given-names>G</given-names></string-name>, <string-name><surname>Malo</surname>
+<given-names>J</given-names></string-name>, <string-name><surname>Montplaisir</surname>
+<given-names>J</given-names></string-name>. <article-title>Daytime sleepiness and EEG spectral analysis in apneic patients before and after treatment with continuous positive airway pressure</article-title>. <source><italic toggle="yes">Chest</italic></source>. <year>2001</year>;<volume>119</volume>(<issue>1</issue>):<fpage>45</fpage>–<lpage>52</lpage>. doi:<pub-id pub-id-type="doi">10.1378/chest.119.1.45</pub-id><pub-id pub-id-type="pmid">11157583</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0020">
+        <label>20.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Kang</surname>
+<given-names>JM</given-names></string-name>, <string-name><surname>Cho</surname>
+<given-names>SE</given-names></string-name>, <string-name><surname>Na</surname>
+<given-names>KS</given-names></string-name>, <string-name><surname>Kang</surname>
+<given-names>SG</given-names></string-name>. <article-title>Spectral power analysis of sleep electroencephalograph y in subjects with different severities of obstructive sleep apnea and healthy controls</article-title>. <source><italic toggle="yes">Nat Sci Sleep</italic></source>. <year>2021</year>;<volume>13</volume>:<fpage>477</fpage>–<lpage>486</lpage>. doi:<pub-id pub-id-type="doi">10.2147/NSS.S295742</pub-id><pub-id pub-id-type="pmid">33833600</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0021">
+        <label>21.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Kang</surname>
+<given-names>JM</given-names></string-name>, <string-name><surname>Kim</surname>
+<given-names>ST</given-names></string-name>, <string-name><surname>Mariani</surname>
+<given-names>S</given-names></string-name>, et al. <article-title>Difference in spectral power density of sleep EEG between patients with simple snoring and those with obstructive sleep apnoea</article-title>. <source><italic toggle="yes">Sci Rep</italic></source>. <year>2020</year>;<volume>10</volume>(<issue>1</issue>):<fpage>6135</fpage>. doi:<pub-id pub-id-type="doi">10.1038/s41598-020-62915-x</pub-id><pub-id pub-id-type="pmid">32273528</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0022">
+        <label>22.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Angelo</surname>
+<given-names>MF</given-names></string-name>, <string-name><surname>Aguirre</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Aviles Reyes</surname>
+<given-names>RX</given-names></string-name>, et al. <article-title>The proinflammatory RAGE/NF-kappaB pathway is involved in neuronal damage and reactive gliosis in a model of sleep apnea by intermittent hypoxia</article-title>. <source><italic toggle="yes">PLoS One</italic></source>. <year>2014</year>;<volume>9</volume>(<issue>9</issue>):<fpage>e107901</fpage>. doi:<pub-id pub-id-type="doi">10.1371/journal.pone.0107901</pub-id><pub-id pub-id-type="pmid">25265561</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0023">
+        <label>23.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Langeh</surname>
+<given-names>U</given-names></string-name>, <string-name><surname>Singh</surname>
+<given-names>S</given-names></string-name>. <article-title>Targeting S100B protein as a surrogate biomarker and its role in various neurological disorders</article-title>. <source><italic toggle="yes">Curr Neuropharmacol</italic></source>. <year>2021</year>;<volume>19</volume>(<issue>2</issue>):<fpage>265</fpage>–<lpage>277</lpage>. doi:<pub-id pub-id-type="doi">10.2174/18756190MTA44NjEs3</pub-id><pub-id pub-id-type="pmid">32727332</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0024">
+        <label>24.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Rezaei</surname>
+<given-names>F</given-names></string-name>, <string-name><surname>Abbasi</surname>
+<given-names>H</given-names></string-name>, <string-name><surname>Sadeghi</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Imani</surname>
+<given-names>MM</given-names></string-name>. <article-title>The effect of obstructive sleep apnea syndrome on serum S100B and NSE levels: a systematic review and meta-analysis of observational studies</article-title>. <source><italic toggle="yes">BMC Pulm Med</italic></source>. <year>2020</year>;<volume>20</volume>(<issue>1</issue>):<fpage>31</fpage>. doi:<pub-id pub-id-type="doi">10.1186/s12890-020-1063-8</pub-id><pub-id pub-id-type="pmid">32024492</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0025">
+        <label>25.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Demirci Saglam</surname>
+<given-names>G</given-names></string-name>, <string-name><surname>Zamani</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Yosunkaya</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Kilinc</surname>
+<given-names>I</given-names></string-name>. <article-title>Serum S100A12 and S100B proteins are independent predictors of the presence and severity of obstructive sleep apnea</article-title>. <source><italic toggle="yes">Turk J Med Sci</italic></source>. <year>2019</year>;<volume>49</volume>(<issue>3</issue>):<fpage>746</fpage>–<lpage>754</lpage>. doi:<pub-id pub-id-type="doi">10.3906/sag-1806-147</pub-id><pub-id pub-id-type="pmid">31035738</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0026">
+        <label>26.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Zhang</surname>
+<given-names>B</given-names></string-name>, <string-name><surname>Yang</surname>
+<given-names>N</given-names></string-name>, <string-name><surname>Lin</surname>
+<given-names>SP</given-names></string-name>, <string-name><surname>Zhang</surname>
+<given-names>F</given-names></string-name>. <article-title>Suitable concentrations of uric acid can reduce cell death in models of OGD and cerebral ischemia-reperfusion injury</article-title>. <source><italic toggle="yes">Cell Mol Neurobiol</italic></source>. <year>2017</year>;<volume>37</volume>(<issue>5</issue>):<fpage>931</fpage>–<lpage>939</lpage>. doi:<pub-id pub-id-type="doi">10.1007/s10571-016-0430-8</pub-id><pub-id pub-id-type="pmid">27709309</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0027">
+        <label>27.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Sunnetcioglu</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Gunbatar</surname>
+<given-names>H</given-names></string-name>, <string-name><surname>Yildiz</surname>
+<given-names>H</given-names></string-name>. <article-title>Red cell distribution width and uric acid in patients with obstructive sleep apnea</article-title>. <source><italic toggle="yes">Clin Respir J</italic></source>. <year>2018</year>;<volume>12</volume>(<issue>3</issue>):<fpage>1046</fpage>–<lpage>1052</lpage>. doi:<pub-id pub-id-type="doi">10.1111/crj.12626</pub-id><pub-id pub-id-type="pmid">28296212</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0028">
+        <label>28.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Mikami</surname>
+<given-names>T</given-names></string-name>, <string-name><surname>Sorimachi</surname>
+<given-names>M</given-names></string-name>. <article-title>Uric acid contributes greatly to hepatic antioxidant capacity besides protein</article-title>. <source><italic toggle="yes">Physiol Res</italic></source>. <year>2017</year>;<volume>66</volume>(<issue>6</issue>):<fpage>1001</fpage>–<lpage>1007</lpage>. doi:<pub-id pub-id-type="doi">10.33549/physiolres.933555</pub-id><pub-id pub-id-type="pmid">28937257</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0029">
+        <label>29.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Aerqin</surname>
+<given-names>Q</given-names></string-name>, <string-name><surname>Jia</surname>
+<given-names>SS</given-names></string-name>, <string-name><surname>Shen</surname>
+<given-names>XN</given-names></string-name>, et al. <article-title>Serum uric acid levels in neurodegenerative disorders: a cross-sectional study</article-title>. <source><italic toggle="yes">J Alzheimers Dis</italic></source>. <year>2022</year>;<volume>90</volume>(<issue>2</issue>):<fpage>761</fpage>–<lpage>773</lpage>. doi:<pub-id pub-id-type="doi">10.3233/JAD-220432</pub-id><pub-id pub-id-type="pmid">36189590</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0030">
+        <label>30.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Llull</surname>
+<given-names>L</given-names></string-name>, <string-name><surname>Amaro</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Chamorro</surname>
+<given-names>A</given-names></string-name>. <article-title>Administration of uric acid in the emergency treatment of acute ischemic stroke</article-title>. <source><italic toggle="yes">Curr Neurol Neurosci Rep</italic></source>. <year>2016</year>;<volume>16</volume>(<issue>1</issue>):<fpage>4</fpage>. doi:<pub-id pub-id-type="doi">10.1007/s11910-015-0604-7</pub-id><pub-id pub-id-type="pmid">26711273</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0031">
+        <label>31.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Mijailovic</surname>
+<given-names>NR</given-names></string-name>, <string-name><surname>Vesic</surname>
+<given-names>K</given-names></string-name>, <string-name><surname>Borovcanin</surname>
+<given-names>MM</given-names></string-name>. <article-title>The influence of serum uric acid on the brain and cognitive dysfunction</article-title>. <source><italic toggle="yes">Front Psychiatry</italic></source>. <year>2022</year>;<volume>13</volume>:<fpage>828476</fpage>. doi:<pub-id pub-id-type="doi">10.3389/fpsyt.2022.828476</pub-id><pub-id pub-id-type="pmid">35530021</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0032">
+        <label>32.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Gerstenslager</surname>
+<given-names>B</given-names></string-name>, <string-name><surname>Slowik</surname>
+<given-names>JM</given-names></string-name>. <article-title>Sleep study</article-title>. <source><italic toggle="yes">Statpearls, Treasure Island</italic></source>. <year>2022</year>.</mixed-citation>
+      </ref>
+      <ref id="cit0033">
+        <label>33.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Wang</surname>
+<given-names>J</given-names></string-name>, <string-name><surname>Xu</surname>
+<given-names>J</given-names></string-name>, <string-name><surname>Liu</surname>
+<given-names>S</given-names></string-name>, et al. <article-title>Electroencephalographic activity and cognitive function in middle-aged patients with obstructive sleep apnea before and after continuous positive airway pressure treatment</article-title>. <source><italic toggle="yes">Nat Sci Sleep</italic></source>. <year>2021</year>;<volume>13</volume>:<fpage>1495</fpage>–<lpage>1506</lpage>. doi:<pub-id pub-id-type="doi">10.2147/NSS.S322426</pub-id><pub-id pub-id-type="pmid">34475793</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0034">
+        <label>34.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Chen</surname>
+<given-names>L</given-names></string-name>, <string-name><surname>Hu</surname>
+<given-names>X</given-names></string-name>, <string-name><surname>Wu</surname>
+<given-names>H</given-names></string-name>, et al. <article-title>Over-expression of S100B protein as a serum marker of brain metastasis in non-small cell lung cancer and its prognostic value</article-title>. <source><italic toggle="yes">Pathol Res Pract</italic></source>. <year>2019</year>;<volume>215</volume>(<issue>3</issue>):<fpage>427</fpage>–<lpage>432</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.prp.2018.11.011</pub-id><pub-id pub-id-type="pmid">30455129</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0035">
+        <label>35.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Joosten</surname>
+<given-names>SA</given-names></string-name>, <string-name><surname>Landry</surname>
+<given-names>SA</given-names></string-name>, <string-name><surname>Wong</surname>
+<given-names>AM</given-names></string-name>, et al. <article-title>Assessing the physiologic endotypes responsible for REM- and NREM-based OSA</article-title>. <source><italic toggle="yes">Chest</italic></source>. <year>2021</year>;<volume>159</volume>(<issue>5</issue>):<fpage>1998</fpage>–<lpage>2007</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.chest.2020.10.080</pub-id><pub-id pub-id-type="pmid">33197399</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0036">
+        <label>36.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Rissanen</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Oksenberg</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Toyras</surname>
+<given-names>J</given-names></string-name>, <string-name><surname>Myllymaa</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Leppanen</surname>
+<given-names>T</given-names></string-name>. <article-title>Total durations of respiratory events are modulated within REM and NREM sleep by sleeping position and obesity in OSA patients</article-title>. <source><italic toggle="yes">Sleep Med</italic></source>. <year>2021</year>;<volume>81</volume>:<fpage>394</fpage>–<lpage>400</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.sleep.2021.02.020</pub-id><pub-id pub-id-type="pmid">33819842</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0037">
+        <label>37.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Al Oweidat</surname>
+<given-names>K</given-names></string-name>, <string-name><surname>AlRyalat</surname>
+<given-names>SA</given-names></string-name>, <string-name><surname>Al-Essa</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Obeidat</surname>
+<given-names>N</given-names></string-name>. <article-title>Comparing REM- and NREM-related obstructive sleep apnea in Jordan: a cross-sectional study</article-title>. <source><italic toggle="yes">Can Respir J</italic></source>. <year>2018</year>;<volume>2018</volume>:<fpage>9270329</fpage>. doi:<pub-id pub-id-type="doi">10.1155/2018/9270329</pub-id><pub-id pub-id-type="pmid">30159105</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0038">
+        <label>38.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Akhter</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Abeyratne</surname>
+<given-names>UR</given-names></string-name>, <string-name><surname>Swarnker</surname>
+<given-names>V</given-names></string-name>. <article-title>Characterizing the NREM/REM sleep specific obstructive sleep apnea severity using snore sounds</article-title>. <source><italic toggle="yes">Annu Int Conf IEEE Eng Med Biol Soc</italic></source>. <year>2017</year>;<volume>2017</volume>:<fpage>2826</fpage>–<lpage>2829</lpage>. doi:<pub-id pub-id-type="doi">10.1109/EMBC.2017.8037445</pub-id><pub-id pub-id-type="pmid">29060486</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0039">
+        <label>39.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Liu</surname>
+<given-names>Y</given-names></string-name>, <string-name><surname>Su</surname>
+<given-names>C</given-names></string-name>, <string-name><surname>Liu</surname>
+<given-names>R</given-names></string-name>, et al. <article-title>NREM-AHI greater than REM-AHI versus REM-AHI greater than NREM-AHI in patients with obstructive sleep apnea: clinical and polysomnographic features</article-title>. <source><italic toggle="yes">Sleep Breath</italic></source>. <year>2011</year>;<volume>15</volume>(<issue>3</issue>):<fpage>463</fpage>–<lpage>470</lpage>. doi:<pub-id pub-id-type="doi">10.1007/s11325-010-0358-z</pub-id><pub-id pub-id-type="pmid">20443068</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0040">
+        <label>40.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Vakulin</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>D’Rozario</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Kim</surname>
+<given-names>JW</given-names></string-name>, et al. <article-title>Quantitative sleep EEG and polysomnographic predictors of driving simulator performance in obstructive sleep apnea</article-title>. <source><italic toggle="yes">Clin Neurophysiol</italic></source>. <year>2016</year>;<volume>127</volume>(<issue>2</issue>):<fpage>1428</fpage>–<lpage>1435</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.clinph.2015.09.004</pub-id><pub-id pub-id-type="pmid">26480833</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0041">
+        <label>41.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Wulterkens</surname>
+<given-names>BM</given-names></string-name>, <string-name><surname>Hermans</surname>
+<given-names>LWA</given-names></string-name>, <string-name><surname>Fonseca</surname>
+<given-names>P</given-names></string-name>, et al. <article-title>Sleep structure in patients with COMISA compared to OSA and insomnia</article-title>. <source><italic toggle="yes">J Clin Sleep Med</italic></source>. <year>2023</year>;<volume>19</volume>(<issue>6</issue>):<fpage>1051</fpage>–<lpage>1059</lpage>. doi:<pub-id pub-id-type="doi">10.5664/jcsm.10500</pub-id><pub-id pub-id-type="pmid">36740913</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0042">
+        <label>42.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Lomas</surname>
+<given-names>T</given-names></string-name>, <string-name><surname>Ivtzan</surname>
+<given-names>I</given-names></string-name>, <string-name><surname>Fu</surname>
+<given-names>CH</given-names></string-name>. <article-title>A systematic review of the neurophysiology of mindfulness on EEG oscillations</article-title>. <source><italic toggle="yes">Neurosci Biobehav Rev</italic></source>. <year>2015</year>;<volume>57</volume>:<fpage>401</fpage>–<lpage>410</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.neubiorev.2015.09.018</pub-id><pub-id pub-id-type="pmid">26441373</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0043">
+        <label>43.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Flint</surname>
+<given-names>RR</given-names></string-name>, <string-name><surname>Chang</surname>
+<given-names>T</given-names></string-name>, <string-name><surname>Lydic</surname>
+<given-names>R</given-names></string-name>, <string-name><surname>Baghdoyan</surname>
+<given-names>HA</given-names></string-name>. <article-title>GABA(A) receptors in the pontine reticular formation of C57BL/6J mouse modulate neurochemical, electrographic, and behavioral phenotypes of wakefulness</article-title>. <source><italic toggle="yes">J Neurosci</italic></source>. <year>2010</year>;<volume>30</volume>(<issue>37</issue>):<fpage>12301</fpage>–<lpage>12309</lpage>. doi:<pub-id pub-id-type="doi">10.1523/JNEUROSCI.1119-10.2010</pub-id><pub-id pub-id-type="pmid">20844126</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0044">
+        <label>44.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Wichniak</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Geisler</surname>
+<given-names>P</given-names></string-name>, <string-name><surname>Brunner</surname>
+<given-names>H</given-names></string-name>, et al. <article-title>Spectral composition of NREM sleep in healthy subjects with moderately increased daytime sleepiness</article-title>. <source><italic toggle="yes">Clin Neurophysiol</italic></source>. <year>2003</year>;<volume>114</volume>(<issue>8</issue>):<fpage>1549</fpage>–<lpage>1555</lpage>. doi:<pub-id pub-id-type="doi">10.1016/S1388-2457(03)00158-5</pub-id><pub-id pub-id-type="pmid">12888039</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0045">
+        <label>45.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Pace-Schott</surname>
+<given-names>EF</given-names></string-name>, <string-name><surname>Spencer</surname>
+<given-names>RM</given-names></string-name>. <article-title>Age-related changes in the cognitive function of sleep</article-title>. <source><italic toggle="yes">Prog Brain Res</italic></source>. <year>2011</year>;<volume>191</volume>:<fpage>75</fpage>–<lpage>89</lpage>.<pub-id pub-id-type="pmid">21741545</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0046">
+        <label>46.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Xu</surname>
+<given-names>F</given-names></string-name>, <string-name><surname>Uh</surname>
+<given-names>J</given-names></string-name>, <string-name><surname>Brier</surname>
+<given-names>MR</given-names></string-name>, et al. <article-title>The influence of carbon dioxide on brain activity and metabolism in conscious humans</article-title>. <source><italic toggle="yes">J Cereb Blood Flow Metab</italic></source>. <year>2011</year>;<volume>31</volume>(<issue>1</issue>):<fpage>58</fpage>–<lpage>67</lpage>. doi:<pub-id pub-id-type="doi">10.1038/jcbfm.2010.153</pub-id><pub-id pub-id-type="pmid">20842164</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0047">
+        <label>47.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>D’Rozario</surname>
+<given-names>AL</given-names></string-name>, <string-name><surname>Hoyos</surname>
+<given-names>CM</given-names></string-name>, <string-name><surname>Wong</surname>
+<given-names>KKH</given-names></string-name>, et al. <article-title>Improvements in cognitive function and quantitative sleep electroencephalogram in obstructive sleep apnea after six months of continuous positive airway pressure treatment</article-title>. <source><italic toggle="yes">Sleep</italic></source>. <year>2022</year>;<volume>45</volume>(<issue>6</issue>). doi:<pub-id pub-id-type="doi">10.1093/sleep/zsac013</pub-id>.</mixed-citation>
+      </ref>
+      <ref id="cit0048">
+        <label>48.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Kylstra</surname>
+<given-names>WA</given-names></string-name>, <string-name><surname>Aaronson</surname>
+<given-names>JA</given-names></string-name>, <string-name><surname>Hofman</surname>
+<given-names>WF</given-names></string-name>, <string-name><surname>Schmand</surname>
+<given-names>BA</given-names></string-name>. <article-title>Neuropsychological functioning after CPAP treatment in obstructive sleep apnea: a meta-analysis</article-title>. <source><italic toggle="yes">Sleep Med Rev</italic></source>. <year>2013</year>;<volume>17</volume>(<issue>5</issue>):<fpage>341</fpage>–<lpage>347</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.smrv.2012.09.002</pub-id><pub-id pub-id-type="pmid">23063416</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0049">
+        <label>49.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Heinzer</surname>
+<given-names>R</given-names></string-name>, <string-name><surname>Gaudreau</surname>
+<given-names>H</given-names></string-name>, <string-name><surname>Decary</surname>
+<given-names>A</given-names></string-name>, et al. <article-title>Slow-wave activity in sleep apnea patients before and after continuous positive airway pressure treatment: contribution to daytime sleepiness</article-title>. <source><italic toggle="yes">Chest</italic></source>. <year>2001</year>;<volume>119</volume>(<issue>6</issue>):<fpage>1807</fpage>–<lpage>1813</lpage>. doi:<pub-id pub-id-type="doi">10.1378/chest.119.6.1807</pub-id><pub-id pub-id-type="pmid">11399708</pub-id></mixed-citation>
+      </ref>
+    </ref-list>
+  </back>
+</article>
+</pmc-articleset>

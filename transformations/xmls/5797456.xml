@@ -1,0 +1,3035 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<pmc-articleset><article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="review-article">
+  <?properties open_access?>
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="nlm-ta">Nat Sci Sleep</journal-id>
+      <journal-id journal-id-type="iso-abbrev">Nat Sci Sleep</journal-id>
+      <journal-id journal-id-type="publisher-id">Nature and Science of Sleep</journal-id>
+      <journal-title-group>
+        <journal-title>Nature and Science of Sleep</journal-title>
+      </journal-title-group>
+      <issn pub-type="epub">1179-1608</issn>
+      <publisher>
+        <publisher-name>Dove Medical Press</publisher-name>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="pmid">29430200</article-id>
+      <article-id pub-id-type="pmc">5797456</article-id>
+      <article-id pub-id-type="doi">10.2147/NSS.S125839</article-id>
+      <article-id pub-id-type="publisher-id">nss-10-035</article-id>
+      <article-categories>
+        <subj-group subj-group-type="heading">
+          <subject>Review</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>Exploring sleep disorders in patients with chronic kidney disease</article-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author" corresp="yes">
+          <name>
+            <surname>Nigam</surname>
+            <given-names>Gaurav</given-names>
+          </name>
+          <xref ref-type="aff" rid="af1-nss-10-035">1</xref>
+          <xref ref-type="corresp" rid="c1-nss-10-035"/>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Camacho</surname>
+            <given-names>Macario</given-names>
+          </name>
+          <xref ref-type="aff" rid="af2-nss-10-035">2</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Chang</surname>
+            <given-names>Edward T</given-names>
+          </name>
+          <xref ref-type="aff" rid="af2-nss-10-035">2</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Riaz</surname>
+            <given-names>Muhammad</given-names>
+          </name>
+          <xref ref-type="aff" rid="af3-nss-10-035">3</xref>
+        </contrib>
+      </contrib-group>
+      <aff id="af1-nss-10-035">
+<label>1</label>Division of Sleep Medicine, Clay County Hospital, Flora, IL</aff>
+      <aff id="af2-nss-10-035">
+<label>2</label>Division of Otolaryngology, Sleep Surgery and Sleep Medicine, Tripler Army Medical Center, Honolulu, HI</aff>
+      <aff id="af3-nss-10-035">
+<label>3</label>Division of Sleep Medicine, Astria Health Center, Grandview, WA, USA</aff>
+      <author-notes>
+        <corresp id="c1-nss-10-035">Correspondence: Gaurav Nigam, Division of Sleep Medicine, Clay County Hospital, 911 Stacy Burk Drive, Flora, IL 62839, USA, Tel +1 618 662 2131, Email <email>dr.nigamgaurav@gmail.com</email></corresp>
+      </author-notes>
+      <pub-date pub-type="collection">
+        <year>2018</year>
+      </pub-date>
+      <pub-date pub-type="epub">
+        <day>31</day>
+        <month>1</month>
+        <year>2018</year>
+      </pub-date>
+      <volume>10</volume>
+      <fpage>35</fpage>
+      <lpage>43</lpage>
+      <permissions>
+        <copyright-statement>© 2018 Nigam et al. This work is published and licensed by Dove Medical Press Limited</copyright-statement>
+        <copyright-year>2018</copyright-year>
+        <license>
+          <license-p>The full terms of this license are available at <ext-link ext-link-type="uri" xlink:href="https://www.dovepress.com/terms.php">https://www.dovepress.com/terms.php</ext-link> and incorporate the Creative Commons Attribution – Non Commercial (unported, v3.0) License (<ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by-nc/3.0/">http://creativecommons.org/licenses/by-nc/3.0/</ext-link>). By accessing the work you hereby accept the Terms. Non-commercial uses of the work are permitted without any further permission from Dove Medical Press Limited, provided the work is properly attributed.</license-p>
+        </license>
+      </permissions>
+      <abstract>
+        <p><citation_analysis attribute="negative">Kidney disorders have been associated with a variety of sleep-related disorders. Therefore, researchers are placing greater emphasis on finding the role of chronic kidney disease (CKD) in the development of obstructive sleep apnea and restless legs syndrome. Unfortunately, the presence of other sleep-related disorders with CKDs and non-CKDs has not been investigated with the same clinical rigor. Recent studies have revealed that myriad of sleep disorders are associated with CKDs. Furthermore, there are a few non-CKD-related disorders that are associated with sleep disorders. In this narrative review, we provide a balanced view of the spectrum of sleep disorders (as identified in International Classification of Sleep disorders-3) related to different types of renal disorders prominently including but not exclusively limited to CKD.</citation_analysis></p>
+      </abstract>
+      <kwd-group>
+        <title>Keywords</title>
+        <kwd>kidney disease</kwd>
+        <kwd>sleep disorders</kwd>
+        <kwd>obstructive sleep apnea</kwd>
+        <kwd>parasomnias</kwd>
+        <kwd>restless legs syndrome</kwd>
+        <kwd>chronic kidney disease</kwd>
+        <kwd>insomnia</kwd>
+      </kwd-group>
+    </article-meta>
+  </front>
+  <body>
+    <sec sec-type="intro">
+      <title>Introduction</title>
+      <p><citation_analysis attribute="neither">Patients with kidney disorders are afflicted with various types of sleep disorders. At times, primary care providers may fail to identify the type of sleep disorder unless they are aware of the common co-existing sleep-related comorbidities to look for in patients with kidney disorders. In this narrative review, we will discuss the most common sleep disorders seen in patients with various kidney disorders with a primary focus on chronic kidney disease (CKD). The Kidney Disease Improving Global Outcomes (KDIGO) Work Group defines CKD as the presence of any prominent marker of kidney damage (such as albuminuria) or the glomerular filtration rate of less than 60 mL/min/1.73 m</citation_analysis><citation_analysis attribute="positive"><sup>2</sup></citation_analysis><citation_analysis attribute="neither"> for a duration lasting 3 months or longer.</citation_analysis><citation_analysis attribute="positive"><xref rid="b1-nss-10-035" ref-type="bibr">1</xref></citation_analysis><citation_analysis attribute="neither"> Classically, restless legs syndrome (RLS) and obstructive sleep apnea (OSA) have been associated with CKD with little mention of other sleep disorders.</citation_analysis><citation_analysis attribute="positive"><xref rid="b2-nss-10-035" ref-type="bibr">2</xref></citation_analysis><citation_analysis attribute="neither">,</citation_analysis><citation_analysis attribute="positive"><xref rid="b3-nss-10-035" ref-type="bibr">3</xref></citation_analysis><citation_analysis attribute="neither"> However, patients with CKD appear to experience a myriad of sleep disorders including but not limited to RLS and OSA.</citation_analysis><citation_analysis attribute="positive"><xref rid="b4-nss-10-035" ref-type="bibr">4</xref></citation_analysis><citation_analysis attribute="neither"> In addition, non-CKD-related renal disorders could be associated with some sleep disorders. We define non-CKD-related renal disorders as any renal disorder (either of renal parenchyma or collecting system) that falls out of the KDIGO definition for CKD. In the next sections, we categorically discuss the most common sleep disorders as classified by the International Classification of Sleep Disorders 3 (ICSD-3) related to kidney disorders.</citation_analysis></p>
+      <sec>
+        <title>Insomnia</title>
+        <p><citation_analysis attribute="neither">ICSD-3 defines insomnia as “a repeated difficulty with sleep initiation, duration, consolidation, or quality that occurs despite adequate opportunity and circumstances for sleep, and results in some form of daytime impairment”.</citation_analysis><citation_analysis attribute="positive"><xref rid="b5-nss-10-035" ref-type="bibr">5</xref></citation_analysis><citation_analysis attribute="neither"> Patients with insomnia typically experience difficulty falling asleep, staying asleep, and/or undesired sustained periods of wakefulness during normal sleep periods.</citation_analysis><citation_analysis attribute="positive"><xref rid="b6-nss-10-035" ref-type="bibr">6</xref></citation_analysis><citation_analysis attribute="neither">,</citation_analysis><citation_analysis attribute="positive"><xref rid="b7-nss-10-035" ref-type="bibr">7</xref></citation_analysis><citation_analysis attribute="negative"> Previous studies have identified both cognitive and physiological risk factors of insomnia.</citation_analysis><citation_analysis attribute="positive"><xref rid="b7-nss-10-035" ref-type="bibr">7</xref></citation_analysis><citation_analysis attribute="positive"> Among the physiological risk factors, kidney dysfunction likely leads to an imbalance of various metabolites influencing sleep, which might cause abnormalities in sleep.</citation_analysis><citation_analysis attribute="positive"><xref rid="b8-nss-10-035" ref-type="bibr">8</xref></citation_analysis><citation_analysis attribute="neither">–</citation_analysis><citation_analysis attribute="positive"><xref rid="b10-nss-10-035" ref-type="bibr">10</xref></citation_analysis></p>
+        <p><citation_analysis attribute="neither">In patients with kidney disease, progression to CKD or end stage renal disease (ESRD) appears to be correlated with the development of various sleep disorders.</citation_analysis><citation_analysis attribute="positive"><xref rid="b9-nss-10-035" ref-type="bibr">9</xref></citation_analysis><citation_analysis attribute="neither">,</citation_analysis><citation_analysis attribute="positive"><xref rid="b10-nss-10-035" ref-type="bibr">10</xref></citation_analysis><citation_analysis attribute="positive"> Several studies have evaluated the effects of kidney disease on sleep disturbances and sleep disorders upon escalating to CKD or ESRD status.</citation_analysis><citation_analysis attribute="positive"><xref rid="b9-nss-10-035" ref-type="bibr">9</xref></citation_analysis><citation_analysis attribute="neither">–</citation_analysis><citation_analysis attribute="positive"><xref rid="b15-nss-10-035" ref-type="bibr">15</xref></citation_analysis><citation_analysis attribute="positive"> Though the reported data from these studies fluctuated widely in type (i.e. subjective vs. objective) of the parameter described, these studies mostly concurred that a direct linear relationship (correlation) exists between CKD or ESRD and insomnia. Specifically, worsening CKD or ESRD correlated directly with worsening insomnia as defined by the full gamut of the sleep cycle to include but not limited to sleep onset and duration of sleep.</citation_analysis><citation_analysis attribute="positive"><xref rid="b9-nss-10-035" ref-type="bibr">9</xref></citation_analysis><citation_analysis attribute="neither">–</citation_analysis><citation_analysis attribute="positive"><xref rid="b15-nss-10-035" ref-type="bibr">15</xref></citation_analysis></p>
+        <p><citation_analysis attribute="positive">Kidney dysfunction might be associated with profound effects on physiological functions.</citation_analysis><citation_analysis attribute="positive"><xref rid="b12-nss-10-035" ref-type="bibr">12</xref></citation_analysis><citation_analysis attribute="neither">–</citation_analysis><citation_analysis attribute="positive"><xref rid="b15-nss-10-035" ref-type="bibr">15</xref></citation_analysis><citation_analysis attribute="positive"> It leads to the development of CKD or ESRD which in turn causes disturbances in normal homeostasis affecting sleep. Several studies evaluating efficacy of dialysis in patients with CKD or ESRD reported findings that appear to strengthen the association between kidney dysfunction and sleep disorders.</citation_analysis><citation_analysis attribute="positive"><xref rid="b16-nss-10-035" ref-type="bibr">16</xref></citation_analysis><citation_analysis attribute="neither">–</citation_analysis><citation_analysis attribute="positive"><xref rid="b22-nss-10-035" ref-type="bibr">22</xref></citation_analysis><citation_analysis attribute="positive"> Another study evaluated different types of dialysis and their effects on sleep disorders.</citation_analysis><citation_analysis attribute="positive"><xref rid="b23-nss-10-035" ref-type="bibr">23</xref></citation_analysis><citation_analysis attribute="neither"> Furthermore, some studies suggest that dialysis is associated with worsening parameters of normal sleep.</citation_analysis><citation_analysis attribute="positive"><xref rid="b17-nss-10-035" ref-type="bibr">17</xref></citation_analysis><citation_analysis attribute="neither">–</citation_analysis><citation_analysis attribute="positive"><xref rid="b20-nss-10-035" ref-type="bibr">20</xref></citation_analysis><citation_analysis attribute="neither"> These studies also identified and confirmed the direct physiological correlation between CKD or ESRD and insomnia. A comprehensive review by Parker defined this relationship between insomnia and kidney disease in addition to other diseases within the spectrum of sleep disorders.</citation_analysis><citation_analysis attribute="positive"><xref rid="b16-nss-10-035" ref-type="bibr">16</xref></citation_analysis><citation_analysis attribute="neither"> Ineffective glomerular filtration leads to an inability to maintain homeostasis with respect to various metabolic products including vital bioelements and proteins.</citation_analysis><citation_analysis attribute="positive"><xref rid="b24-nss-10-035" ref-type="bibr">24</xref></citation_analysis><citation_analysis attribute="neither"> This dysregulation in homeostasis might impact sleep in various ways.</citation_analysis><citation_analysis attribute="positive"><xref rid="b18-nss-10-035" ref-type="bibr">18</xref></citation_analysis><citation_analysis attribute="neither">–</citation_analysis><citation_analysis attribute="positive"><xref rid="b24-nss-10-035" ref-type="bibr">24</xref></citation_analysis></p>
+        <p><citation_analysis attribute="neither">To further delineate the specific etiology, we discuss two etiologies, namely, elevated levels of orexins and hypercalcemia, as they are related to insomnia. Rayner</citation_analysis><citation_analysis attribute="positive"><xref rid="b25-nss-10-035" ref-type="bibr">25</xref></citation_analysis><citation_analysis attribute="neither"> proposed a direct link between orexin or hypocretin levels and insomnia. Orexin has been linked to arousal, wakefulness, and appetite.</citation_analysis><citation_analysis attribute="positive"><xref rid="b26-nss-10-035" ref-type="bibr">26</xref></citation_analysis><citation_analysis attribute="negative"> A lack of orexin (hypocretin) leads to a disorder of diminished wakefulness, narcolepsy.</citation_analysis><citation_analysis attribute="positive"><xref rid="b27-nss-10-035" ref-type="bibr">27</xref></citation_analysis><citation_analysis attribute="neither"> Rayner proposed that in patients with CKD or ESRD, the body’s physiological levels of orexin reaches abnormal levels leading to increased periods of wakefulness that can be associated with insomnia.</citation_analysis><citation_analysis attribute="positive"><xref rid="b25-nss-10-035" ref-type="bibr">25</xref></citation_analysis><citation_analysis attribute="neither"> Similarly, according to Virga et al, hypercalcemia, which is typically associated with CKD or ESRD, can cause insomnia.</citation_analysis><citation_analysis attribute="positive"><xref rid="b28-nss-10-035" ref-type="bibr">28</xref></citation_analysis><citation_analysis attribute="neither"> Moreover, kidney dysfunction leads to hypercalcemia which in turn leads to psychiatric overtones typically associated with hypercalcemia such as anxiety, depression, psychosis, and insomnia.</citation_analysis><citation_analysis attribute="positive"><xref rid="b29-nss-10-035" ref-type="bibr">29</xref></citation_analysis></p>
+        <p><citation_analysis attribute="positive">In addition, calcium mediates a variety of known and unknown signaling pathways in humans. It serves as a co-factor and facilitates normal physiological processes to maintain homeostasis. In patients with CKD who have severe hyperparathyroidism, treatment of hypercalcemia (via parathyroidectomy) appears likely to alleviate insomnia.</citation_analysis><citation_analysis attribute="positive"><xref rid="b30-nss-10-035" ref-type="bibr">30</xref></citation_analysis><citation_analysis attribute="neither"> In addition, calcium and orexin might be correlated as well.</citation_analysis><citation_analysis attribute="positive"><xref rid="b31-nss-10-035" ref-type="bibr">31</xref></citation_analysis><citation_analysis attribute="neither"> Scientists hypothesize that the increased levels of calcium is indirectly involved in a number of signaling pathways that affect sleep including the orexin (hypocretin) signaling pathway rather than considering a direct link between calcium and sleep cycle. Further studies are highly warranted to accurately identify the role of calcium and orexin with respect to sleep and to identify any correlation between the two.</citation_analysis></p>
+      </sec>
+      <sec>
+        <title>Sleep-related breathing disorders</title>
+        <sec>
+          <title>Obstructive sleep apnea</title>
+          <p><citation_analysis attribute="positive">OSA is a sleep disorder in which apneas (complete or near complete cessation of airflow), hypopneas (partial airway obstruction), or respiratory effort-related arousals (RERAs—limited airway obstruction with an associated arousal) are seen. Kidney disease has been found to have an association with OSA. It has been demonstrated that in critically ill patients, the subset of patients with OSA had a higher risk of incidence of acute kidney injury compared to those who were critically ill but did not have a diagnosis of OSA (57% vs. 41%).</citation_analysis><citation_analysis attribute="positive"><xref rid="b32-nss-10-035" ref-type="bibr">32</xref></citation_analysis><citation_analysis attribute="neither"> OSA is estimated to be present in approximately 20% of the male and 10% of the female patients with ESRD.</citation_analysis><citation_analysis attribute="positive"><xref rid="b33-nss-10-035" ref-type="bibr">33</xref></citation_analysis><citation_analysis attribute="neither"> Mild CKD has been found to be associated with arousals during sleep as well as with severe OSA.</citation_analysis><citation_analysis attribute="positive"><xref rid="b34-nss-10-035" ref-type="bibr">34</xref></citation_analysis><citation_analysis attribute="neither"> According to a study, the change in position in patients with OSA from upright to supine can narrow the upper airway volume by about 33%.</citation_analysis><citation_analysis attribute="positive"><xref rid="b35-nss-10-035" ref-type="bibr">35</xref></citation_analysis><citation_analysis attribute="positive"> Therefore, anything that additionally narrows the upper airway can predispose patients to a worsening of their preexisting OSA. Patients with kidney disease can have significant accumulation of fluid throughout their body, and when they lie down to sleep, they may have migration of the fluid to their upper airway, in a phenomenon known as rostral overnight fluid shifting.</citation_analysis><citation_analysis attribute="positive"><xref rid="b36-nss-10-035" ref-type="bibr">36</xref></citation_analysis><citation_analysis attribute="positive"> As CKD worsens and there is more and more fluid accumulation, the apnea–hypopnea index (AHI) can increase. Methods that can reduce the accumulated fluid can help to improve OSA, as demonstrated by hemodialysis (HD) on responders showing an improvement in AHI value of 42.5–7.3 events/hour; however, in non-responders, the value changed minimally from 37.1 to 38.1 events/hour).</citation_analysis><citation_analysis attribute="positive"><xref rid="b37-nss-10-035" ref-type="bibr">37</xref></citation_analysis><citation_analysis attribute="neither"> As an example of improvement in AHI after kidney transplantation, in 8 responders, the AHI value improved from 21 to 4.5 events/hour, whereas in non-responders, it remained unchanged (from 22 to 20 events/hour).</citation_analysis><citation_analysis attribute="positive"><xref rid="b38-nss-10-035" ref-type="bibr">38</xref></citation_analysis><citation_analysis attribute="positive"> Similar to patients with CKD, those with nephrotic syndrome can have nocturnal rostral fluid shifting, which can improve with treatment. Tang et al demonstrated that in patients treated with steroids for primary nephrotic syndrome and lower limb edema, there was a decrease in AHI value from 17.3 to 8.7 events/hour.</citation_analysis><citation_analysis attribute="positive"><xref rid="b39-nss-10-035" ref-type="bibr">39</xref></citation_analysis></p>
+        </sec>
+      </sec>
+      <sec>
+        <title>Hypoventilation</title>
+        <p><citation_analysis attribute="neither">There is a very intimate relationship between the kidneys and the lungs. For adults, sleep hypoventilation is scored when the arterial PCO2 (or surrogate) is &gt;55 mm Hg for ≥10 minutes or there is an increase in the arterial PCO2 (or surrogate) ≥10 mm Hg (in comparison to an awake supine value) to a value exceeding 50 mm Hg for ≥10 minutes.</citation_analysis><citation_analysis attribute="positive"><xref rid="b40-nss-10-035" ref-type="bibr">40</xref></citation_analysis><citation_analysis attribute="positive"> Hypoventilation can occur in patients with kidney disease. Acid–base disturbances are corrected and compensated by both the lungs and the kidneys, as calculated by the Henderson–Hasselbalch equation (pH = pK +log (base concentration/acid concentration)).</citation_analysis><citation_analysis attribute="positive"><xref rid="b41-nss-10-035" ref-type="bibr">41</xref></citation_analysis><citation_analysis attribute="neither"> The lungs regulate PaCO</citation_analysis><citation_analysis attribute="positive"><sub>2</sub></citation_analysis><citation_analysis attribute="neither"> and the kidneys regulate HCO</citation_analysis><citation_analysis attribute="positive"><sub>3</sub></citation_analysis><citation_analysis attribute="neither">−.</citation_analysis><citation_analysis attribute="positive"><xref rid="b42-nss-10-035" ref-type="bibr">42</xref></citation_analysis><citation_analysis attribute="positive"> Therefore, when a patient has both hypoventilation and kidney disease, there can be acid–base disturbances beyond what would be expected in a patient without kidney disease. A recent case report could be indicative of the relationship between hypoventilation and kidney function in a patient with focal segmental glomerulosclerosis (FSG). In this particular patient with OSA, the FSG resolved with bi-level positive airway pressure therapy even though his weight did not change (i.e. he continued to display morbid obesity).</citation_analysis><citation_analysis attribute="positive"><xref rid="b43-nss-10-035" ref-type="bibr">43</xref></citation_analysis></p>
+      </sec>
+      <sec>
+        <title>Central sleep apnea</title>
+        <p><citation_analysis attribute="negative">Central sleep apnea (CSA) is broadly defined as the occurrence of ≥5 episodes of airflow obstruction due to central apnea and/or central hypopnea per hour of sleep; it is characterized by &gt;50% of the episodes of central apneas and/or central hypopneas of the total observed apneas and hypopneas along with subjective symptoms of sleep apnea (such as sleepiness, awakening with shortness of breath, snoring, witnessed apneas, or insomnia).</citation_analysis><citation_analysis attribute="positive"><xref rid="b5-nss-10-035" ref-type="bibr">5</xref></citation_analysis><citation_analysis attribute="positive"> Several pathophysiological pathways contribute to the development of central apneas in patients with CKD. Some of the reported mechanisms include (but are not limited to) the development of interstitial pulmonary edema, chronic metabolic acidosis, and compromised clearance of uremic toxins.</citation_analysis><citation_analysis attribute="positive"><xref rid="b44-nss-10-035" ref-type="bibr">44</xref></citation_analysis></p>
+        <p><citation_analysis attribute="positive">A recent systematic review reported an aggregate point prevalence of CSA in patients with CKD of about 9.6%, although the estimated range was highly variable between 0 and 75%.</citation_analysis><citation_analysis attribute="positive"><xref rid="b45-nss-10-035" ref-type="bibr">45</xref></citation_analysis><citation_analysis attribute="positive"> Could this estimated prevalence be an underestimation? Inclusion of central hypopnea indices helps to identify the prevalence of CSA more accurately. The aggregate point prevalence of CSA in CKD when selecting only those studies that reported total CSA index (i.e. including both central apnea and central hypopnea indices) shoots up to 33.3%, a numeric value that is substantially higher than the conservative aggregate point prevalence of 9.6% (arrived at by including studies that do and do not include central hypopnea index).</citation_analysis><citation_analysis attribute="positive"><xref rid="b45-nss-10-035" ref-type="bibr">45</xref></citation_analysis><citation_analysis attribute="neither">,</citation_analysis><citation_analysis attribute="positive"><xref rid="b46-nss-10-035" ref-type="bibr">46</xref></citation_analysis><citation_analysis attribute="positive"> CKD is increasingly appearing as an independent risk factor for CSA. Limited evidence suggests that even after adjustment for cardiovascular comorbidities, CKD could be independently associated with CSA.</citation_analysis><citation_analysis attribute="positive"><xref rid="b47-nss-10-035" ref-type="bibr">47</xref></citation_analysis><citation_analysis attribute="neither"> In studies that recruited patients with both congestive heart failure (CHF) and CKD, the prevalence of CSA varied between 22 and 27%.</citation_analysis><citation_analysis attribute="positive"><xref rid="b47-nss-10-035" ref-type="bibr">47</xref></citation_analysis><citation_analysis attribute="neither">–</citation_analysis><citation_analysis attribute="positive"><xref rid="b49-nss-10-035" ref-type="bibr">49</xref></citation_analysis><citation_analysis attribute="negative"> Unfortunately, these studies did not disclose what proportion of patients with CHF had systolic or diastolic heart failure. In patients with CKD, after adjustment for non-modifiable risk factors (such as age and gender) and modifiable risk factors (such as basal metabolic index, hypertension, diabetes mellitus, and smoking status), CKD stage III and New York Heart Association class ≥III were found to be predictive of CSA index.</citation_analysis><citation_analysis attribute="positive"><xref rid="b47-nss-10-035" ref-type="bibr">47</xref></citation_analysis><citation_analysis attribute="negative"> In a non-dialyzed population, CKD was found to be associated with CSA and severe sleep disordered breathing (SDB). The prevalence of CSA in patients with CKD might be as high as 2.9 times after adjustment for modifiable risk factors such as age, sex, and obesity.</citation_analysis><citation_analysis attribute="positive"><xref rid="b50-nss-10-035" ref-type="bibr">50</xref></citation_analysis><citation_analysis attribute="negative"> CSA was found to be an independent risk factor for all-cause mortality, and SDB conferred greater risk of mortality in patients with CKD compared to patients without CKD.</citation_analysis><citation_analysis attribute="positive"><xref rid="b50-nss-10-035" ref-type="bibr">50</xref></citation_analysis><citation_analysis attribute="neither"> CSA may contribute to rapid worsening of renal function in patients with CKD, which might be one of the major reasons for the increase in all-cause mortality. Nocturnal HD and renal transplantation appear to be reasonable treatment options for treatment of CSA in patients with CKD depending on disease severity and patient acceptability.</citation_analysis><citation_analysis attribute="positive"><xref rid="b51-nss-10-035" ref-type="bibr">51</xref></citation_analysis></p>
+      </sec>
+      <sec>
+        <title>Central disorders of hypersomnolence</title>
+        <p><citation_analysis attribute="neither">The etiology of hypersomnia in renal disease is multi-factorial, which is contributed by many factors including high prevalence of SDB, RLS, and Parkinson’s disease or its treatment side-effects, uremic encephalopathy, non-adherence to immunosuppressive therapy in renal transplant patients, rapid fluid shift and pH changes, electrolyte imbalance, and inflammatory cytokines associated with dialysis.</citation_analysis><citation_analysis attribute="positive"><xref rid="b52-nss-10-035" ref-type="bibr">52</xref></citation_analysis><citation_analysis attribute="neither">,</citation_analysis><citation_analysis attribute="positive"><xref rid="b53-nss-10-035" ref-type="bibr">53</xref></citation_analysis><citation_analysis attribute="positive"> Prevalence of central disorders of hypersomnia is not well reported in patients with renal disease. Studies are scarce on the determination of association between renal disease and disorders of central hypersomnolence such as narcolepsy, idiopathic hypersomnia, or Klein Levin syndrome. Ezzat and Mohab reported a prevalence of narcolepsy in dialysis-dependent patients with CKD of about 1.4% and 1% in patients with non-dialysis CKD which is much higher than that of general population.</citation_analysis><citation_analysis attribute="positive"><xref rid="b14-nss-10-035" ref-type="bibr">14</xref></citation_analysis><citation_analysis attribute="neither"> Inflammatory cytokine levels are usually high in patients with CKD, and tumor necrosis factor alpha (TNF-alpha) has been associated with narcolepsy.</citation_analysis><citation_analysis attribute="positive"><xref rid="b54-nss-10-035" ref-type="bibr">54</xref></citation_analysis><citation_analysis attribute="neither">,</citation_analysis><citation_analysis attribute="positive"><xref rid="b55-nss-10-035" ref-type="bibr">55</xref></citation_analysis><citation_analysis attribute="positive"> However, the role of TNF-alpha in renal disease has not been well studied. Therefore, further research is needed to confirm this which could provide useful information regarding CKD and narcolepsy. Given the relative rarity of central disorders of hypersomnolence and the lack of studies delineating their prevalence, excessive daytime sleepiness (EDS) remained the most common manifestation of hypersomnia in patients with renal disease. In addition, SDB is the most common cause of EDS in patients with renal disease with prevalence observed as high as 50% in some studies. This high prevalence can be primarily attributed to unstable ventilatory control and upper airway blockage aggravated by fluid shifts during sleep.</citation_analysis><citation_analysis attribute="positive"><xref rid="b10-nss-10-035" ref-type="bibr">10</xref></citation_analysis><citation_analysis attribute="neither">,</citation_analysis><citation_analysis attribute="positive"><xref rid="b56-nss-10-035" ref-type="bibr">56</xref></citation_analysis><citation_analysis attribute="neither">,</citation_analysis><citation_analysis attribute="positive"><xref rid="b57-nss-10-035" ref-type="bibr">57</xref></citation_analysis><citation_analysis attribute="neither"> Although only some patients experience EDS due to SDB, the prevalence of EDS in renal disease is even higher which suggests that other etiologies of sleepiness are involved besides SDB.</citation_analysis><citation_analysis attribute="positive"><xref rid="b9-nss-10-035" ref-type="bibr">9</xref></citation_analysis><citation_analysis attribute="neither">,</citation_analysis><citation_analysis attribute="positive"><xref rid="b52-nss-10-035" ref-type="bibr">52</xref></citation_analysis><citation_analysis attribute="neither"> According to some studies, the prevalence of EDS in patients with CKD, in patients undergoing dialysis, and those who underwent renal transplantation varies between 44 and 67%.</citation_analysis><citation_analysis attribute="positive"><xref rid="b57-nss-10-035" ref-type="bibr">57</xref></citation_analysis><citation_analysis attribute="neither">–</citation_analysis><citation_analysis attribute="positive"><xref rid="b60-nss-10-035" ref-type="bibr">60</xref></citation_analysis><citation_analysis attribute="neither"> Patients undergoing HD are even more somnolent due to many reasons including ventilatory instability, decreased sleep efficiency, less slow wave sleep, and rapid eye movement (REM) sleep.</citation_analysis><citation_analysis attribute="positive"><xref rid="b61-nss-10-035" ref-type="bibr">61</xref></citation_analysis><citation_analysis attribute="positive"> This might lead to poor sleep quality at night time and consequently the patients experience increased daytime sleepiness independent of SDB. Parker et al studied a group of patients undergoing HD for objective sleepiness using multiple sleep latency test (MSLT).</citation_analysis><citation_analysis attribute="positive"><xref rid="b62-nss-10-035" ref-type="bibr">62</xref></citation_analysis><citation_analysis attribute="positive"> They found that 13% of the patients had pathologic hypersomnolence with an MSLT score of &gt;5 minutes. A significant number of patients were found to have REM sleep on at least one nap, and only 11% variance in sleepiness measures correlated with respiratory disturbance index (RDI) suggesting that other causes of sleepiness are involved besides SBD.</citation_analysis><citation_analysis attribute="positive"><xref rid="b62-nss-10-035" ref-type="bibr">62</xref></citation_analysis><citation_analysis attribute="positive"> It appears that EDS is not exclusively confined to adults; almost 60% of the children undergoing dialysis in the age group of 6–20 years also reported EDS as their main sleep-related complaint.</citation_analysis><citation_analysis attribute="positive"><xref rid="b63-nss-10-035" ref-type="bibr">63</xref></citation_analysis><citation_analysis attribute="positive"> It is imperative to identify sleepiness in patients with CKD, particularly in those who are undergoing HD as one study reported a correlation between the degree of sleepiness and survival.</citation_analysis><citation_analysis attribute="positive"><xref rid="b64-nss-10-035" ref-type="bibr">64</xref></citation_analysis><citation_analysis attribute="neither"> Other comorbid psychiatric disorders with high prevalence in renal disease such as depression and polypharmacy should be screened as these can also contribute to sleepiness independent of sleep-related disorders.</citation_analysis><citation_analysis attribute="positive"><xref rid="b65-nss-10-035" ref-type="bibr">65</xref></citation_analysis><citation_analysis attribute="neither">,</citation_analysis><citation_analysis attribute="positive"><xref rid="b66-nss-10-035" ref-type="bibr">66</xref></citation_analysis><citation_analysis attribute="positive"> As the treatment for excessive sleepiness depends on the underlying etiology, comprehensive sleep evaluation including detailed medical history, physical exam, and polysomnography should be performed and sleepiness questionnaire must be evaluated to identify such patients. Successful treatment of sleepiness can lead to overall improvement in quality of life and prevent significant morbidity.</citation_analysis></p>
+      </sec>
+      <sec>
+        <title>Circadian rhythm sleep–wake disorders</title>
+        <p><citation_analysis attribute="neither">The word “circadian” is derived from the Latin words circa, meaning “around” and diēm, meaning “day”. The term “circadian” alludes to vital biological processes that occur continuously with an approximate 24-hour periodicity. Circadian rhythms in renal physiology have been studied for over 150 years. Edward Smith has been credited to have described the existence of circadian rhythmicity in renal excretion of urea and water.</citation_analysis><citation_analysis attribute="positive"><xref rid="b67-nss-10-035" ref-type="bibr">67</xref></citation_analysis><citation_analysis attribute="neither"> One of the pioneering works in the field of “kidney clocks” was conducted by Mills and Stanbury. They selected five subjects between the ages of 20 and 36 years with no preexisting renal disorders. The subjects spent a total of 48 hours doing identical routine activities comprising short periods of eating, sleeping, and analytical activities during illumination that was recurring every 12 hours. A persistent 24-hour rhythm was detected in the urinary output of water, sodium, potassium, chloride, and urinary pH.</citation_analysis><citation_analysis attribute="positive"><xref rid="b68-nss-10-035" ref-type="bibr">68</xref></citation_analysis><citation_analysis attribute="neither"> When the preexisting light/dark cycle and the feeding/fasting schedule was reversed, the expression of clock genes in animal kidney models undergo a prominent phase shift.</citation_analysis><citation_analysis attribute="positive"><xref rid="b69-nss-10-035" ref-type="bibr">69</xref></citation_analysis></p>
+        <p><citation_analysis attribute="neither">Melatonin is one of the most extensively studied markers of the circadian sleep–wake cycle. It is generated by pineal gland at night, a phenomenon called as dim light melatonin onset (DLMO). Exposure to bright light suppresses the production of melatonin. DLMO cannot be reliably used as a marker of circadian rhythm in patients with renal transplant due to the exceeding low baseline values in a substantial proportion of such patients.</citation_analysis><citation_analysis attribute="positive"><xref rid="b70-nss-10-035" ref-type="bibr">70</xref></citation_analysis><citation_analysis attribute="neither"> The circulating levels of melatonin gradually decreases with age, but the circadian rhythm with its nocturnal increase is preserved with age. The baseline amplitude of circadian rhythm decreases with deteriorating renal function.</citation_analysis><citation_analysis attribute="positive"><xref rid="b71-nss-10-035" ref-type="bibr">71</xref></citation_analysis><citation_analysis attribute="neither"> Consequently, the nocturnal surge in melatonin is absent in patients suffering from ESRD undergoing HD.</citation_analysis><citation_analysis attribute="positive"><xref rid="b72-nss-10-035" ref-type="bibr">72</xref></citation_analysis><citation_analysis attribute="neither"> While melatonin rhythm may be absent in ambulatory peritoneal dialysis and conventional daytime patients with HD it re-establishes itself in nocturnal patients with HD,</citation_analysis><citation_analysis attribute="positive"><xref rid="b73-nss-10-035" ref-type="bibr">73</xref></citation_analysis><citation_analysis attribute="neither"> at least partially.</citation_analysis><citation_analysis attribute="positive"><xref rid="b74-nss-10-035" ref-type="bibr">74</xref></citation_analysis><citation_analysis attribute="neither"> It remains unclear if the re-establishment of sleep–wake circadian pattern and restoration of melatonin rhythm stems from improved effectiveness of dialysis (resulting from better clearance of pharmaceutical agents and toxins) during night-time or the inherent circadian effect of that particular time on the 24-hour clock for dialysis treatment.</citation_analysis></p>
+        <p><citation_analysis attribute="positive">Patients with CKD have a pathological non-dipping blood pressure pattern. They often have poor renal tubular concentrating ability, which may result in nocturia. More than 30% of the non-dippers with type 2 diabetes treated with melatonin were restored to the normal circadian rhythm of blood pressure.</citation_analysis><citation_analysis attribute="positive"><xref rid="b75-nss-10-035" ref-type="bibr">75</xref></citation_analysis><citation_analysis attribute="neither"> Chronotherapy, the timed administration of pharmaceutical agents with respect to an individual’s circadian rhythms, is emerging as a promising branch of applied circadian pharmacology. By capturing this cyclical pattern of urinary metabolites, chronotherapy enhances the therapeutic effectiveness and mitigates dose-related adverse effects.</citation_analysis></p>
+        <p><citation_analysis attribute="negative">Metabolic syndromes such as hypertension and diabetes, and to a lesser extent obesity are classical risk factors of CKD.</citation_analysis><citation_analysis attribute="positive"><xref rid="b76-nss-10-035" ref-type="bibr">76</xref></citation_analysis><citation_analysis attribute="positive"> An earlier systematic review cited insufficient evidence linking shift-based work to the subsequent development of metabolic syndrome.</citation_analysis><citation_analysis attribute="positive"><xref rid="b77-nss-10-035" ref-type="bibr">77</xref></citation_analysis><citation_analysis attribute="positive"> However, few recent studies claim incontrovertible evidence linking shift-based work to metabolic syndromes.</citation_analysis><citation_analysis attribute="positive"><xref rid="b78-nss-10-035" ref-type="bibr">78</xref></citation_analysis><citation_analysis attribute="neither">–</citation_analysis><citation_analysis attribute="positive"><xref rid="b80-nss-10-035" ref-type="bibr">80</xref></citation_analysis><citation_analysis attribute="positive"> Of note, one meta-analysis suggested that night shift work is significantly associated with the risk of metabolic syndrome, particularly with longer shift durations.</citation_analysis><citation_analysis attribute="positive"><xref rid="b81-nss-10-035" ref-type="bibr">81</xref></citation_analysis></p>
+      </sec>
+      <sec>
+        <title>Parasomnias</title>
+        <p><citation_analysis attribute="neither">Parasomnias are unwanted behaviors during sleep or during transitions between different stages of sleep or during sleep–wake transitions. While the definitive etiologies could include genetic and familial predispositions and in some cases localized lesions of brain stem, a common factor appears to be malfunctioning in case of arousal mechanisms during sleep, which leads to the genesis of parasomnias.</citation_analysis><citation_analysis attribute="positive"><xref rid="b82-nss-10-035" ref-type="bibr">82</xref></citation_analysis><citation_analysis attribute="neither">–</citation_analysis><citation_analysis attribute="positive"><xref rid="b84-nss-10-035" ref-type="bibr">84</xref></citation_analysis><citation_analysis attribute="neither"> This “myoencephalographic dissociation” alludes to activation of the motor component of the awake state while demonstrating electroencephalography electrical activity (i.e., dissociated state) of sleep stages. These parasomnias can be categorized as simple or complex. Simple parasomnias only involve one body area and are usually restricted to singular movements. Complex parasomnias are more bizarre behaviors, which can be disruptive of sleep and have the potential of harm to self or bed partner. Complex parasomnias have been divided into three main categories: REM sleep-related, non- REM sleep-related, and other parasomnias.</citation_analysis><citation_analysis attribute="positive"><xref rid="b85-nss-10-035" ref-type="bibr">85</xref></citation_analysis><citation_analysis attribute="positive"> Prevalence of parasomnias are not well studied; however, some studies have reported prevalence of some non-REM parasomnias between 2 and 4.2% (night terrors: 2.2%, sleep walking: 2%, confusional arousals: 4.2%) and REM parasomnias between 0.38 and 1.34%.</citation_analysis><citation_analysis attribute="positive"><xref rid="b85-nss-10-035" ref-type="bibr">85</xref></citation_analysis><citation_analysis attribute="neither">,</citation_analysis><citation_analysis attribute="positive"><xref rid="b86-nss-10-035" ref-type="bibr">86</xref></citation_analysis><citation_analysis attribute="positive"> The prevalence of parasomnia in renal disease has also been studied. Of the simple parasomnias, only nocturnal leg cramps have been reported in patients with CKD. Simple leg cramps in sleep are usually due to the electrolyte imbalances as well as osmotic shift in dialysis disequilibrium syndrome in patients undergoing dialysis.</citation_analysis><citation_analysis attribute="positive"><xref rid="b87-nss-10-035" ref-type="bibr">87</xref></citation_analysis><citation_analysis attribute="positive"> The prevalence of complex parasomnias in patients with CKD has been reported by Ezzat and Mohab.</citation_analysis><citation_analysis attribute="positive"><xref rid="b14-nss-10-035" ref-type="bibr">14</xref></citation_analysis><citation_analysis attribute="neither"> According to them, 2% of the patients with HD were found to have sleepwalking, 13% had nightmares, and 2% had REM sleep behavior disorder (RBD). Similarly, 4% of the patients with CKD had sleepwalking, 3% had RBD, and 15% had nightmares.</citation_analysis><citation_analysis attribute="positive"><xref rid="b14-nss-10-035" ref-type="bibr">14</xref></citation_analysis><citation_analysis attribute="neither"> Most of the non-REM parasomnias were found to be common in children, which diminish with age. However, REM parasomnias usually happen with advancing age. It is hard to estimate the true prevalence of these parasomnias in patients with renal disease as studies are highly variable and nested to only one group of patients. Nevertheless, looking at the study by Trotti, the prevalence of RBD appears slightly more than that of general population which is about 0.4–0.5%.</citation_analysis><citation_analysis attribute="positive"><xref rid="b88-nss-10-035" ref-type="bibr">88</xref></citation_analysis><citation_analysis attribute="positive"> This is likely because of the smaller cohort and ethnic variability along with other possible confounding factors such as comorbid neurological disorders where the prevalence of RBD is high. RBD is one of the most complex parasomnias, which has serious potential for injury as well as commonly associated with alpha synucleiopathies including Parkinson’s disease.</citation_analysis><citation_analysis attribute="positive"><xref rid="b89-nss-10-035" ref-type="bibr">89</xref></citation_analysis><citation_analysis attribute="positive"> Similar to general population, high clinical suspicion is required for the identification of RBD in patients with CKD. Clinicians should also look for any other cause of sleep disturbance related to abnormal behaviors during sleep other than what has been well reported. Sleep disturbance related to uremic pruritus have been well reported and as many as 50–90% of the patients undergoing HD were found to have pruritus.</citation_analysis><citation_analysis attribute="positive"><xref rid="b90-nss-10-035" ref-type="bibr">90</xref></citation_analysis><citation_analysis attribute="neither">–</citation_analysis><citation_analysis attribute="positive"><xref rid="b92-nss-10-035" ref-type="bibr">92</xref></citation_analysis><citation_analysis attribute="positive"> Recently, Nigam et al have suggested that in the absence of definitive dermatological disorders, patients could still have isolated episodes of itching and scratching during sleep. This has been called “sleep-related scratching” and could represent a distinct parasomnia in itself.</citation_analysis><citation_analysis attribute="positive"><xref rid="b93-nss-10-035" ref-type="bibr">93</xref></citation_analysis><citation_analysis attribute="neither"> It remains unclear if renal disorders and so-called “kidney clocks” have any insidious role to play in its genesis. Diligent attention should be paid while obtaining a thorough medical history in such patients who only have sleep-related pruritus without wakefulness daytime pruritus.</citation_analysis></p>
+      </sec>
+      <sec>
+        <title>Sleep-related movement disorders</title>
+        <sec>
+          <title>Restless legs syndrome</title>
+          <p><citation_analysis attribute="neither">Within the spectrum of sleep disorders, RLS causes a disturbance in sleep through an inexplicable desire to move one’s legs.</citation_analysis><citation_analysis attribute="positive"><xref rid="b94-nss-10-035" ref-type="bibr">94</xref></citation_analysis><citation_analysis attribute="neither">,</citation_analysis><citation_analysis attribute="positive"><xref rid="b95-nss-10-035" ref-type="bibr">95</xref></citation_analysis><citation_analysis attribute="neither"> Possible etiologies in the development of RLS include but are not limited to low levels of iron, Parkinson’s dementia, autoimmune disorders, hypothyroidism, peripheral neuropathy, and folate deficiency.</citation_analysis><citation_analysis attribute="positive"><xref rid="b94-nss-10-035" ref-type="bibr">94</xref></citation_analysis><citation_analysis attribute="neither"> In patients with CKD or ESRD, the correlation to an etiology of RLS appears to be related to iron deficiency.</citation_analysis><citation_analysis attribute="positive"><xref rid="b94-nss-10-035" ref-type="bibr">94</xref></citation_analysis><citation_analysis attribute="neither">–</citation_analysis><citation_analysis attribute="positive"><xref rid="b97-nss-10-035" ref-type="bibr">97</xref></citation_analysis><citation_analysis attribute="neither"> The need for dialysis could further exacerbate the iron deficiency thereby worsening RLS.</citation_analysis><citation_analysis attribute="positive"><xref rid="b98-nss-10-035" ref-type="bibr">98</xref></citation_analysis></p>
+          <p><citation_analysis attribute="neither">As a consequence of CKD or ESRD and dialysis, the patient often develops an imbalance in various metabolites and bioelements. In addition, the patient also develops anemia due to various reasons including blood loss directly from the dialysis, frequent blood tests, and a decrease in the levels of erythropoietin.</citation_analysis><citation_analysis attribute="positive"><xref rid="b99-nss-10-035" ref-type="bibr">99</xref></citation_analysis><citation_analysis attribute="neither">–</citation_analysis><citation_analysis attribute="positive"><xref rid="b102-nss-10-035" ref-type="bibr">102</xref></citation_analysis><citation_analysis attribute="neither"> Because iron is bound to hemoglobin, a decrease in the count of red blood cells leads to a decrease in hemoglobin levels thereby causing a decrease in the levels of iron.</citation_analysis><citation_analysis attribute="positive"><xref rid="b100-nss-10-035" ref-type="bibr">100</xref></citation_analysis><citation_analysis attribute="positive"> Low levels of iron have been implicated as the primary cause of RLS and is directly linked to CKD and dialysis.</citation_analysis><citation_analysis attribute="positive"><xref rid="b8-nss-10-035" ref-type="bibr">8</xref></citation_analysis><citation_analysis attribute="neither">,</citation_analysis><citation_analysis attribute="positive"><xref rid="b16-nss-10-035" ref-type="bibr">16</xref></citation_analysis><citation_analysis attribute="positive"> A measurement of serum ferritin provides a definitive diagnosis as it relates to the levels of serum iron and has been implicated in anemia in case of chronic disease.</citation_analysis><citation_analysis attribute="positive"><xref rid="b94-nss-10-035" ref-type="bibr">94</xref></citation_analysis><citation_analysis attribute="neither">,</citation_analysis><citation_analysis attribute="positive"><xref rid="b95-nss-10-035" ref-type="bibr">95</xref></citation_analysis></p>
+          <p><citation_analysis attribute="neither">Recently, several authors have studied the correlation between sleep disorders and CKD or ESRD.</citation_analysis><citation_analysis attribute="positive"><xref rid="b8-nss-10-035" ref-type="bibr">8</xref></citation_analysis><citation_analysis attribute="neither">–</citation_analysis><citation_analysis attribute="positive"><xref rid="b15-nss-10-035" ref-type="bibr">15</xref></citation_analysis><citation_analysis attribute="positive"> Within the spectrum of sleep disorders, RLS remains a prominent abnormality that develops as a result of CKD.</citation_analysis><citation_analysis attribute="positive"><xref rid="b8-nss-10-035" ref-type="bibr">8</xref></citation_analysis><citation_analysis attribute="neither">,</citation_analysis><citation_analysis attribute="positive"><xref rid="b9-nss-10-035" ref-type="bibr">9</xref></citation_analysis><citation_analysis attribute="positive"> Most researchers concur that dialysis most likely worsens iron deficiency and probably is one of the primary reasons for the development of RLS.</citation_analysis><citation_analysis attribute="positive"><xref rid="b16-nss-10-035" ref-type="bibr">16</xref></citation_analysis><citation_analysis attribute="neither">,</citation_analysis><citation_analysis attribute="positive"><xref rid="b94-nss-10-035" ref-type="bibr">94</xref></citation_analysis><citation_analysis attribute="neither">,</citation_analysis><citation_analysis attribute="positive"><xref rid="b95-nss-10-035" ref-type="bibr">95</xref></citation_analysis><citation_analysis attribute="neither">,</citation_analysis><citation_analysis attribute="positive"><xref rid="b100-nss-10-035" ref-type="bibr">100</xref></citation_analysis><citation_analysis attribute="neither">,</citation_analysis><citation_analysis attribute="positive"><xref rid="b101-nss-10-035" ref-type="bibr">101</xref></citation_analysis></p>
+          <p><citation_analysis attribute="positive">Typically, definitive treatment of any disease requires resolution of the cause. By the time that a patient requires dialysis, normal kidney function is unlikely to be restored medically and therefore sometimes may require kidney transplantation (as a result of hemodynamic and metabolic abnormalities, along with worsening RLS in patients with ESRD). A temporary treatment until transplantation involves use of dopamine agonists, but this often fails to fully resolve RLS.</citation_analysis><citation_analysis attribute="positive"><xref rid="b94-nss-10-035" ref-type="bibr">94</xref></citation_analysis><citation_analysis attribute="neither">,</citation_analysis><citation_analysis attribute="positive"><xref rid="b95-nss-10-035" ref-type="bibr">95</xref></citation_analysis><citation_analysis attribute="neither"> One study suggests that parathyroidectomy as the treatment of hypercalcemia in primary hyperparathyroidism could be a feasible technique to effectively manage and resolve RLS.</citation_analysis><citation_analysis attribute="positive"><xref rid="b102-nss-10-035" ref-type="bibr">102</xref></citation_analysis><citation_analysis attribute="neither"> Mortazavi et al provided data promoting aerobic exercise to manage RLS in patients with CKD on dialysis.</citation_analysis><citation_analysis attribute="positive"><xref rid="b103-nss-10-035" ref-type="bibr">103</xref></citation_analysis></p>
+        </sec>
+      </sec>
+    </sec>
+    <sec>
+      <title>Conclusion</title>
+      <p><citation_analysis attribute="positive">Sleep disorders are intricately linked with both CKD and non-CKD-related renal disorders. Kidney disorders permeate the world of sleep medicine beyond the run-of-the-mill suspects such as OSA and RLS. In the past few years, many new definitive associations have been established between kidney diseases and sleep disorders. Obtaining a diligent history and prompt referral to a sleep medicine provider for further investigation is warranted at the earliest suspicion of an insidious sleep disorder. This appears to be a reasonable approach that can be followed by primary care providers when working with patients with kidney disorders.</citation_analysis></p>
+    </sec>
+  </body>
+  <back>
+    <fn-group>
+      <fn>
+        <p><citation_analysis attribute="positive">
+          </citation_analysis><citation_analysis attribute="positive"><bold>Author contributions</bold></citation_analysis><citation_analysis attribute="positive">
+        </citation_analysis></p>
+        <p><citation_analysis attribute="neither">All authors contributed toward data analysis, drafting and critically revising the paper and agree to be accountable for all aspects of the work. The views expressed in this abstract/manuscript are those of the author(s) and do not reflect the official policy or position of the Department of the Army, Department of Defense, or the US Government.</citation_analysis></p>
+      </fn>
+      <fn fn-type="COI-statement">
+        <p><citation_analysis attribute="positive">
+          </citation_analysis><citation_analysis attribute="positive"><bold>Disclosure</bold></citation_analysis><citation_analysis attribute="positive">
+        </citation_analysis></p>
+        <p><citation_analysis attribute="neither">This study was not supported by the industry. The views expressed herein are solely of the authors. The authors report no conflicts of interest in this work.</citation_analysis></p>
+      </fn>
+    </fn-group>
+    <ref-list>
+      <title>References</title>
+      <ref id="b1-nss-10-035">
+        <label>1</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Stevens</surname>
+              <given-names>PE</given-names>
+            </name>
+            <name>
+              <surname>Levin</surname>
+              <given-names>A</given-names>
+            </name>
+            <collab>Kidney Disease: Improving Global Outcomes Chronic Kidney Disease Guideline Development Work Group Members</collab>
+          </person-group>
+          <article-title>Evaluation and management of chronic kidney disease: synopsis of the kidney disease: improving global outcomes 2012 clinical practice guideline</article-title>
+          <source>Ann Intern Med</source>
+          <year>2013</year>
+          <volume>158</volume>
+          <issue>11</issue>
+          <fpage>825</fpage>
+          <lpage>830</lpage>
+          <pub-id pub-id-type="pmid">23732715</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b2-nss-10-035">
+        <label>2</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Aritake-Okada</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Nakao</surname>
+              <given-names>T</given-names>
+            </name>
+            <name>
+              <surname>Komada</surname>
+              <given-names>Y</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Prevalence and clinical characteristics of restless legs syndrome in chronic kidney disease patients</article-title>
+          <source>Sleep Med</source>
+          <year>2011</year>
+          <volume>12</volume>
+          <issue>10</issue>
+          <fpage>1031</fpage>
+          <lpage>1033</lpage>
+          <pub-id pub-id-type="pmid">22036105</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b3-nss-10-035">
+        <label>3</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Adeseun</surname>
+              <given-names>GA</given-names>
+            </name>
+            <name>
+              <surname>Rosas</surname>
+              <given-names>SE</given-names>
+            </name>
+          </person-group>
+          <article-title>The impact of obstructive sleep apnea on chronic kidney disease</article-title>
+          <source>Curr Hypertens Rep</source>
+          <year>2010</year>
+          <volume>12</volume>
+          <issue>5</issue>
+          <fpage>378</fpage>
+          <lpage>383</lpage>
+          <pub-id pub-id-type="pmid">20676805</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b4-nss-10-035">
+        <label>4</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Plantinga</surname>
+              <given-names>L</given-names>
+            </name>
+            <name>
+              <surname>Lee</surname>
+              <given-names>K</given-names>
+            </name>
+            <name>
+              <surname>Inker</surname>
+              <given-names>LA</given-names>
+            </name>
+            <etal/>
+            <collab>CDC CKD Surveillance Team</collab>
+          </person-group>
+          <article-title>Association of sleep-related problems with CKD in the United States, 2005–2008</article-title>
+          <source>Am J Kidney Dis</source>
+          <year>2011</year>
+          <volume>58</volume>
+          <issue>4</issue>
+          <fpage>554</fpage>
+          <lpage>564</lpage>
+          <pub-id pub-id-type="pmid">21816524</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b5-nss-10-035">
+        <label>5</label>
+        <element-citation publication-type="book">
+          <source>ICSD-3 Online Version – American Academy of Sleep Medicine (AASM)</source>
+          <year>2016</year>
+          <publisher-name>National sleep medicine course bundle</publisher-name>
+          <comment>Available from: <ext-link ext-link-type="uri" xlink:href="http://www.aasmnet.org/store/product.aspx?pid=849">http://www.aasmnet.org/store/product.aspx?pid=849</ext-link></comment>
+          <date-in-citation>Accessed March 30, 2015</date-in-citation>
+        </element-citation>
+      </ref>
+      <ref id="b6-nss-10-035">
+        <label>6</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Roth</surname>
+              <given-names>T</given-names>
+            </name>
+          </person-group>
+          <article-title>Insomnia: definition, prevalence, etiology, and consequences</article-title>
+          <source>J Clin Sleep Med</source>
+          <year>2007</year>
+          <volume>3</volume>
+          <issue>5 Suppl</issue>
+          <fpage>S7</fpage>
+          <lpage>S10</lpage>
+          <pub-id pub-id-type="pmid">17824495</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b7-nss-10-035">
+        <label>7</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Bonnet</surname>
+              <given-names>MH</given-names>
+            </name>
+          </person-group>
+          <article-title>Evidence for the pathophysiology of insomnia</article-title>
+          <source>Sleep</source>
+          <year>2009</year>
+          <volume>32</volume>
+          <issue>4</issue>
+          <fpage>441</fpage>
+          <lpage>442</lpage>
+          <pub-id pub-id-type="pmid">19413138</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b8-nss-10-035">
+        <label>8</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>De Santo</surname>
+              <given-names>RM</given-names>
+            </name>
+            <name>
+              <surname>Bartiromo</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Cesare</surname>
+              <given-names>MC</given-names>
+            </name>
+            <name>
+              <surname>Di Iorio</surname>
+              <given-names>BR</given-names>
+            </name>
+          </person-group>
+          <article-title>Sleeping disorders in early chronic kidney disease</article-title>
+          <source>Semin Nephrol</source>
+          <year>2006</year>
+          <volume>26</volume>
+          <issue>1</issue>
+          <fpage>64</fpage>
+          <lpage>67</lpage>
+          <pub-id pub-id-type="pmid">16412830</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b9-nss-10-035">
+        <label>9</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Maung</surname>
+              <given-names>SC</given-names>
+            </name>
+            <name>
+              <surname>El Sara</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Chapman</surname>
+              <given-names>C</given-names>
+            </name>
+            <name>
+              <surname>Cohen</surname>
+              <given-names>D</given-names>
+            </name>
+            <name>
+              <surname>Cukor</surname>
+              <given-names>D</given-names>
+            </name>
+          </person-group>
+          <article-title>Sleep disorders and chronic kidney disease</article-title>
+          <source>World J Nephrol</source>
+          <year>2016</year>
+          <volume>5</volume>
+          <issue>3</issue>
+          <fpage>224</fpage>
+          <lpage>232</lpage>
+          <pub-id pub-id-type="pmid">27152260</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b10-nss-10-035">
+        <label>10</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Pierratos</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Hanly</surname>
+              <given-names>PJ</given-names>
+            </name>
+          </person-group>
+          <article-title>Sleep disorders over the full range of chronic kidney disease</article-title>
+          <source>Blood Purif</source>
+          <year>2011</year>
+          <volume>31</volume>
+          <issue>1–3</issue>
+          <fpage>146</fpage>
+          <lpage>150</lpage>
+          <pub-id pub-id-type="pmid">21228583</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b11-nss-10-035">
+        <label>11</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Lin</surname>
+              <given-names>HY</given-names>
+            </name>
+            <name>
+              <surname>Hung</surname>
+              <given-names>CC</given-names>
+            </name>
+            <name>
+              <surname>Chang</surname>
+              <given-names>YH</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Nonapnea sleep disorders in patients younger than 65 years are significantly associated with CKD: a nationwide population-based study</article-title>
+          <source>PLoS One</source>
+          <year>2015</year>
+          <volume>10</volume>
+          <issue>10</issue>
+          <fpage>e0140401</fpage>
+          <pub-id pub-id-type="pmid">26466096</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b12-nss-10-035">
+        <label>12</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Hanly</surname>
+              <given-names>P</given-names>
+            </name>
+          </person-group>
+          <article-title>Sleep disorders and end-stage renal disease</article-title>
+          <source>Curr Opin Pulm Med</source>
+          <year>2008</year>
+          <volume>14</volume>
+          <issue>6</issue>
+          <fpage>543</fpage>
+          <lpage>550</lpage>
+          <pub-id pub-id-type="pmid">18812831</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b13-nss-10-035">
+        <label>13</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>De Santo</surname>
+              <given-names>RM</given-names>
+            </name>
+            <name>
+              <surname>Perna</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Di Iorio</surname>
+              <given-names>BR</given-names>
+            </name>
+            <name>
+              <surname>Cirillo</surname>
+              <given-names>M</given-names>
+            </name>
+          </person-group>
+          <article-title>Sleep disorders in kidney disease</article-title>
+          <source>Minerva Urol Nefrol</source>
+          <year>2010</year>
+          <volume>62</volume>
+          <issue>1</issue>
+          <fpage>111</fpage>
+          <lpage>128</lpage>
+          <pub-id pub-id-type="pmid">20424573</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b14-nss-10-035">
+        <label>14</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Ezzat</surname>
+              <given-names>H</given-names>
+            </name>
+            <name>
+              <surname>Mohab</surname>
+              <given-names>A</given-names>
+            </name>
+          </person-group>
+          <article-title>Prevalence of sleep disorders among ESRD patients</article-title>
+          <source>Ren Fail</source>
+          <year>2015</year>
+          <volume>37</volume>
+          <issue>6</issue>
+          <fpage>1013</fpage>
+          <lpage>1019</lpage>
+          <pub-id pub-id-type="pmid">25959021</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b15-nss-10-035">
+        <label>15</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Ibrahim</surname>
+              <given-names>JM</given-names>
+            </name>
+            <name>
+              <surname>Wegdan</surname>
+              <given-names>OM</given-names>
+            </name>
+          </person-group>
+          <article-title>Epidemiology of sleep disorders in patients with chronic renal disease in Cairo, Egypt</article-title>
+          <source>J Egypt Public Health Assoc</source>
+          <year>2011</year>
+          <volume>86</volume>
+          <issue>3–4</issue>
+          <fpage>68</fpage>
+          <lpage>72</lpage>
+          <pub-id pub-id-type="pmid">21844762</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b16-nss-10-035">
+        <label>16</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Parker</surname>
+              <given-names>KP</given-names>
+            </name>
+          </person-group>
+          <article-title>Sleep and dialysis: a research-based review of the literature</article-title>
+          <source>Anna J</source>
+          <year>1997</year>
+          <volume>24</volume>
+          <issue>6</issue>
+          <fpage>626</fpage>
+          <lpage>639</lpage>
+          <comment>quiz 640–641</comment>
+          <pub-id pub-id-type="pmid">9444103</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b17-nss-10-035">
+        <label>17</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Pai</surname>
+              <given-names>MF</given-names>
+            </name>
+            <name>
+              <surname>Hsu</surname>
+              <given-names>SP</given-names>
+            </name>
+            <name>
+              <surname>Yang</surname>
+              <given-names>SY</given-names>
+            </name>
+            <name>
+              <surname>Ho</surname>
+              <given-names>TI</given-names>
+            </name>
+            <name>
+              <surname>Lai</surname>
+              <given-names>CF</given-names>
+            </name>
+            <name>
+              <surname>Peng</surname>
+              <given-names>YS</given-names>
+            </name>
+          </person-group>
+          <article-title>Sleep disturbance in chronic hemodialysis patients: the impact of depression and anemia</article-title>
+          <source>Ren Fail</source>
+          <year>2007</year>
+          <volume>29</volume>
+          <issue>6</issue>
+          <fpage>673</fpage>
+          <lpage>677</lpage>
+          <pub-id pub-id-type="pmid">17763161</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b18-nss-10-035">
+        <label>18</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Merlino</surname>
+              <given-names>G</given-names>
+            </name>
+            <name>
+              <surname>Gigli</surname>
+              <given-names>GL</given-names>
+            </name>
+            <name>
+              <surname>Valente</surname>
+              <given-names>M</given-names>
+            </name>
+          </person-group>
+          <article-title>Sleep disturbances in dialysis patients</article-title>
+          <source>J Nephrol</source>
+          <year>2008</year>
+          <issue>21 Suppl</issue>
+          <volume>13</volume>
+          <fpage>S66</fpage>
+          <lpage>S70</lpage>
+        </element-citation>
+      </ref>
+      <ref id="b19-nss-10-035">
+        <label>19</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kosmadakis</surname>
+              <given-names>GC</given-names>
+            </name>
+            <name>
+              <surname>Medcalf</surname>
+              <given-names>JF</given-names>
+            </name>
+          </person-group>
+          <article-title>Sleep disorders in dialysis patients</article-title>
+          <source>Int J Artif Organs</source>
+          <year>2008</year>
+          <volume>31</volume>
+          <issue>11</issue>
+          <fpage>919</fpage>
+          <lpage>927</lpage>
+          <pub-id pub-id-type="pmid">19089793</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b20-nss-10-035">
+        <label>20</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Novak</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Shapiro</surname>
+              <given-names>CM</given-names>
+            </name>
+            <name>
+              <surname>Mendelssohn</surname>
+              <given-names>D</given-names>
+            </name>
+            <name>
+              <surname>Mucsi</surname>
+              <given-names>I</given-names>
+            </name>
+          </person-group>
+          <article-title>Reviews: Diagnosis and management of insomnia in dialysis patients</article-title>
+          <source>Semin Dial</source>
+          <year>2006</year>
+          <volume>19</volume>
+          <issue>1</issue>
+          <fpage>25</fpage>
+          <lpage>31</lpage>
+          <pub-id pub-id-type="pmid">16423179</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b21-nss-10-035">
+        <label>21</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Merlino</surname>
+              <given-names>G</given-names>
+            </name>
+            <name>
+              <surname>Piani</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Dolso</surname>
+              <given-names>P</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Sleep disorders in patients with end-stage renal disease undergoing dialysis therapy</article-title>
+          <source>Nephrol Dial Transplant</source>
+          <year>2006</year>
+          <volume>21</volume>
+          <issue>1</issue>
+          <fpage>184</fpage>
+          <lpage>190</lpage>
+          <pub-id pub-id-type="pmid">16144846</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b22-nss-10-035">
+        <label>22</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Perl</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Unruh</surname>
+              <given-names>ML</given-names>
+            </name>
+            <name>
+              <surname>Chan</surname>
+              <given-names>CT</given-names>
+            </name>
+          </person-group>
+          <article-title>Sleep disorders in end-stage renal disease: ‘Markers of inadequate dialysis?’</article-title>
+          <source>Kidney Int</source>
+          <year>2006</year>
+          <volume>70</volume>
+          <issue>10</issue>
+          <fpage>1687</fpage>
+          <lpage>1693</lpage>
+          <pub-id pub-id-type="pmid">16969388</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b23-nss-10-035">
+        <label>23</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Losso</surname>
+              <given-names>RL</given-names>
+            </name>
+            <name>
+              <surname>Minhoto</surname>
+              <given-names>GR</given-names>
+            </name>
+            <name>
+              <surname>Riella</surname>
+              <given-names>MC</given-names>
+            </name>
+          </person-group>
+          <article-title>Sleep disorders in patients with end-stage renal disease undergoing dialysis: comparison between hemodialysis, continuous ambulatory peritoneal dialysis and automated peritoneal dialysis</article-title>
+          <source>Int Urol Nephrol</source>
+          <year>2015</year>
+          <volume>47</volume>
+          <issue>2</issue>
+          <fpage>369</fpage>
+          <lpage>375</lpage>
+          <pub-id pub-id-type="pmid">25358390</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b24-nss-10-035">
+        <label>24</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Knezevic</surname>
+              <given-names>MZ</given-names>
+            </name>
+            <name>
+              <surname>Djordjevic</surname>
+              <given-names>VV</given-names>
+            </name>
+            <name>
+              <surname>Jankovic</surname>
+              <given-names>SM</given-names>
+            </name>
+            <name>
+              <surname>Djordjevic</surname>
+              <given-names>VM</given-names>
+            </name>
+          </person-group>
+          <article-title>Influence of dialysis modality and membrane flux on insomnia severity in haemodialysis patients</article-title>
+          <source>Nephrology (Carlton)</source>
+          <year>2013</year>
+          <volume>18</volume>
+          <issue>11</issue>
+          <fpage>706</fpage>
+          <lpage>711</lpage>
+          <pub-id pub-id-type="pmid">23848433</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b25-nss-10-035">
+        <label>25</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Rayner</surname>
+              <given-names>HC</given-names>
+            </name>
+          </person-group>
+          <article-title>Orexin as a possible cause of insomnia in dialysis patients</article-title>
+          <source>Am J Kidney Dis</source>
+          <year>2003</year>
+          <volume>41</volume>
+          <issue>6</issue>
+          <fpage>1335</fpage>
+          <lpage>1336</lpage>
+          <comment>author reply 1336</comment>
+        </element-citation>
+      </ref>
+      <ref id="b26-nss-10-035">
+        <label>26</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Sutcliffe</surname>
+              <given-names>JG</given-names>
+            </name>
+            <name>
+              <surname>de Lecea</surname>
+              <given-names>L</given-names>
+            </name>
+          </person-group>
+          <article-title>The hypocretins: excitatory neuromodulatory peptides for multiple homeostatic systems, including sleep and feeding</article-title>
+          <source>J Neurosci Res</source>
+          <year>2000</year>
+          <volume>62</volume>
+          <issue>2</issue>
+          <fpage>161</fpage>
+          <lpage>168</lpage>
+          <pub-id pub-id-type="pmid">11020209</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b27-nss-10-035">
+        <label>27</label>
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Marcus</surname>
+              <given-names>JN</given-names>
+            </name>
+            <name>
+              <surname>Elmquist</surname>
+              <given-names>JK</given-names>
+            </name>
+          </person-group>
+          <article-title>Orexin projections and localization of orexin receptors</article-title>
+          <person-group person-group-type="editor">
+            <name>
+              <surname>Nishino</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Sakurai</surname>
+              <given-names>T</given-names>
+            </name>
+          </person-group>
+          <source>The Orexin/Hypocretin System</source>
+          <publisher-loc>Totowa, NJ</publisher-loc>
+          <publisher-name>Humana Press Inc</publisher-name>
+          <year>2006</year>
+        </element-citation>
+      </ref>
+      <ref id="b28-nss-10-035">
+        <label>28</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Virga</surname>
+              <given-names>G</given-names>
+            </name>
+            <name>
+              <surname>Stanic</surname>
+              <given-names>L</given-names>
+            </name>
+            <name>
+              <surname>Mastrosimone</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Gastaldon</surname>
+              <given-names>F</given-names>
+            </name>
+            <name>
+              <surname>da Porto</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Bonadonna</surname>
+              <given-names>A</given-names>
+            </name>
+          </person-group>
+          <article-title>Hypercalcemia and insomnia in hemodialysis patients</article-title>
+          <source>Nephron</source>
+          <year>2000</year>
+          <volume>85</volume>
+          <issue>1</issue>
+          <fpage>94</fpage>
+          <lpage>95</lpage>
+          <pub-id pub-id-type="pmid">10773764</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b29-nss-10-035">
+        <label>29</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Minisola</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Pepe</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Piemonte</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Cipriani</surname>
+              <given-names>C</given-names>
+            </name>
+          </person-group>
+          <article-title>The diagnosis and management of hypercalcaemia</article-title>
+          <source>BMJ</source>
+          <year>2015</year>
+          <volume>350</volume>
+          <fpage>h2723</fpage>
+          <pub-id pub-id-type="pmid">26037642</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b30-nss-10-035">
+        <label>30</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Esposito</surname>
+              <given-names>MG</given-names>
+            </name>
+            <name>
+              <surname>Cesare</surname>
+              <given-names>CM</given-names>
+            </name>
+            <name>
+              <surname>De Santo</surname>
+              <given-names>RM</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Parathyroidectomy improves the quality of sleep in maintenance hemodialysis patients with severe hyperparathyroidism</article-title>
+          <source>J Nephrol</source>
+          <year>2008</year>
+          <volume>21</volume>
+          <issue>Suppl 13</issue>
+          <fpage>S92</fpage>
+          <lpage>S96</lpage>
+          <pub-id pub-id-type="pmid">18446739</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b31-nss-10-035">
+        <label>31</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Ohno</surname>
+              <given-names>K</given-names>
+            </name>
+            <name>
+              <surname>Sakurai</surname>
+              <given-names>T</given-names>
+            </name>
+          </person-group>
+          <article-title>Orexin neuronal circuitry: role in the regulation of sleep and wakefulness</article-title>
+          <source>Front Neuroendocrinol</source>
+          <year>2008</year>
+          <volume>29</volume>
+          <issue>1</issue>
+          <fpage>70</fpage>
+          <lpage>87</lpage>
+          <pub-id pub-id-type="pmid">17910982</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b32-nss-10-035">
+        <label>32</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Dou</surname>
+              <given-names>L</given-names>
+            </name>
+            <name>
+              <surname>Lan</surname>
+              <given-names>H</given-names>
+            </name>
+            <name>
+              <surname>Reynolds</surname>
+              <given-names>DJ</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Association between obstructive sleep apnea and acute kidney injury in critically ill patients: a propensity-matched study</article-title>
+          <source>Nephron</source>
+          <year>2017</year>
+          <volume>135</volume>
+          <issue>2</issue>
+          <fpage>137</fpage>
+          <lpage>146</lpage>
+          <pub-id pub-id-type="pmid">27951537</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b33-nss-10-035">
+        <label>33</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kuhlmann</surname>
+              <given-names>U</given-names>
+            </name>
+            <name>
+              <surname>Becker</surname>
+              <given-names>HF</given-names>
+            </name>
+            <name>
+              <surname>Birkhahn</surname>
+              <given-names>M</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Sleep-apnea in patients with end-stage renal disease and objective results</article-title>
+          <source>Clin Nephrol</source>
+          <year>2000</year>
+          <volume>53</volume>
+          <issue>6</issue>
+          <fpage>460</fpage>
+          <lpage>466</lpage>
+          <pub-id pub-id-type="pmid">10879666</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b34-nss-10-035">
+        <label>34</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Adams</surname>
+              <given-names>RJ</given-names>
+            </name>
+            <name>
+              <surname>Appleton</surname>
+              <given-names>SL</given-names>
+            </name>
+            <name>
+              <surname>Vakulin</surname>
+              <given-names>A</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Chronic kidney disease and sleep apnea association of kidney disease with obstructive sleep apnea in a population study of men</article-title>
+          <source>Sleep</source>
+          <year>2017</year>
+          <volume>40</volume>
+          <issue>1</issue>
+        </element-citation>
+      </ref>
+      <ref id="b35-nss-10-035">
+        <label>35</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Camacho</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Capasso</surname>
+              <given-names>R</given-names>
+            </name>
+            <name>
+              <surname>Schendel</surname>
+              <given-names>S</given-names>
+            </name>
+          </person-group>
+          <article-title>Airway changes in obstructive sleep apnoea patients associated with a supine versus an upright position examined using cone beam computed tomography</article-title>
+          <source>J Laryngol Otol</source>
+          <year>2014</year>
+          <volume>128</volume>
+          <issue>9</issue>
+          <fpage>824</fpage>
+          <lpage>830</lpage>
+          <pub-id pub-id-type="pmid">25160687</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b36-nss-10-035">
+        <label>36</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Elias</surname>
+              <given-names>RM</given-names>
+            </name>
+            <name>
+              <surname>Bradley</surname>
+              <given-names>TD</given-names>
+            </name>
+            <name>
+              <surname>Kasai</surname>
+              <given-names>T</given-names>
+            </name>
+            <name>
+              <surname>Motwani</surname>
+              <given-names>SS</given-names>
+            </name>
+            <name>
+              <surname>Chan</surname>
+              <given-names>CT</given-names>
+            </name>
+          </person-group>
+          <article-title>Rostral overnight fluid shift in end-stage renal disease: relationship with obstructive sleep apnea</article-title>
+          <source>Nephrol Dial Transplant</source>
+          <year>2012</year>
+          <volume>27</volume>
+          <issue>4</issue>
+          <fpage>1569</fpage>
+          <lpage>1573</lpage>
+          <pub-id pub-id-type="pmid">22058175</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b37-nss-10-035">
+        <label>37</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Beecroft</surname>
+              <given-names>JM</given-names>
+            </name>
+            <name>
+              <surname>Hoffstein</surname>
+              <given-names>V</given-names>
+            </name>
+            <name>
+              <surname>Pierratos</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Chan</surname>
+              <given-names>CT</given-names>
+            </name>
+            <name>
+              <surname>McFarlane</surname>
+              <given-names>P</given-names>
+            </name>
+            <name>
+              <surname>Hanly</surname>
+              <given-names>PJ</given-names>
+            </name>
+          </person-group>
+          <article-title>Nocturnal haemodialysis increases pharyngeal size in patients with sleep apnoea and end-stage renal disease</article-title>
+          <source>Nephrol Dial Transplant</source>
+          <year>2008</year>
+          <volume>23</volume>
+          <issue>2</issue>
+          <fpage>673</fpage>
+          <lpage>679</lpage>
+          <pub-id pub-id-type="pmid">17890744</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b38-nss-10-035">
+        <label>38</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Lee</surname>
+              <given-names>JJ</given-names>
+            </name>
+            <name>
+              <surname>Kim</surname>
+              <given-names>GS</given-names>
+            </name>
+            <name>
+              <surname>Kim</surname>
+              <given-names>JA</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Improvement of sleep-related breathing disorder in patients with end-stage renal disease after kidney transplantation</article-title>
+          <source>Clin Transplant</source>
+          <year>2011</year>
+          <volume>25</volume>
+          <issue>1</issue>
+          <fpage>126</fpage>
+          <lpage>130</lpage>
+          <pub-id pub-id-type="pmid">20030682</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b39-nss-10-035">
+        <label>39</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Tang</surname>
+              <given-names>SC</given-names>
+            </name>
+            <name>
+              <surname>Lam</surname>
+              <given-names>B</given-names>
+            </name>
+            <name>
+              <surname>Lam</surname>
+              <given-names>JC</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Impact of nephrotic edema of the lower limbs on obstructive sleep apnea: gathering a unifying concept for the pathogenetic role of nocturnal rostral fluid shift</article-title>
+          <source>Nephrol Dial Transplant</source>
+          <year>2012</year>
+          <volume>27</volume>
+          <issue>7</issue>
+          <fpage>2788</fpage>
+          <lpage>2794</lpage>
+          <pub-id pub-id-type="pmid">22248509</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b40-nss-10-035">
+        <label>40</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Berry</surname>
+              <given-names>RB</given-names>
+            </name>
+            <name>
+              <surname>Budhiraja</surname>
+              <given-names>R</given-names>
+            </name>
+            <name>
+              <surname>Gottlieb</surname>
+              <given-names>DJ</given-names>
+            </name>
+            <etal/>
+            <collab>American Academy of Sleep Medicine</collab>
+          </person-group>
+          <article-title>Rules for scoring respiratory events in sleep: update of the 2007 AASM manual for the scoring of sleep and associated events: deliberations of the sleep apnea definitions task force of the American Academy of Sleep Medicine</article-title>
+          <source>J Clin Sleep Med</source>
+          <year>2012</year>
+          <volume>8</volume>
+          <issue>5</issue>
+          <fpage>597</fpage>
+          <lpage>619</lpage>
+          <pub-id pub-id-type="pmid">23066376</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b41-nss-10-035">
+        <label>41</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Adrogué</surname>
+              <given-names>HE</given-names>
+            </name>
+            <name>
+              <surname>Adrogué</surname>
+              <given-names>HJ</given-names>
+            </name>
+          </person-group>
+          <article-title>Acid-base physiology</article-title>
+          <source>Respir Care</source>
+          <year>2001</year>
+          <volume>46</volume>
+          <issue>4</issue>
+          <fpage>328</fpage>
+          <lpage>341</lpage>
+          <pub-id pub-id-type="pmid">11345941</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b42-nss-10-035">
+        <label>42</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Böing</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Randerath</surname>
+              <given-names>WJ</given-names>
+            </name>
+          </person-group>
+          <article-title>Chronic hypoventilation syndromes and sleep-related hypoventilation</article-title>
+          <source>J Thorac Dis</source>
+          <year>2015</year>
+          <volume>7</volume>
+          <issue>8</issue>
+          <fpage>1273</fpage>
+          <lpage>1285</lpage>
+          <pub-id pub-id-type="pmid">26380756</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b43-nss-10-035">
+        <label>43</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Hall</surname>
+              <given-names>IE</given-names>
+            </name>
+            <name>
+              <surname>Kashgarian</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Moeckel</surname>
+              <given-names>GW</given-names>
+            </name>
+            <name>
+              <surname>Dahl</surname>
+              <given-names>NK</given-names>
+            </name>
+          </person-group>
+          <article-title>Resolution of proteinuria in a patient with focal segmental glomerulosclerosis following BiPAP initiation for obesity hypoventilation syndrome</article-title>
+          <source>Clin Nephrol</source>
+          <year>2012</year>
+          <volume>77</volume>
+          <issue>1</issue>
+          <fpage>62</fpage>
+          <lpage>65</lpage>
+          <pub-id pub-id-type="pmid">22185970</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b44-nss-10-035">
+        <label>44</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Nigam</surname>
+              <given-names>G</given-names>
+            </name>
+            <name>
+              <surname>Riaz</surname>
+              <given-names>M</given-names>
+            </name>
+          </person-group>
+          <article-title>Pathophysiology of central sleep apnea in chronic kidney disease</article-title>
+          <source>Saudi J Kidney Dis Transpl</source>
+          <year>2016</year>
+          <volume>27</volume>
+          <issue>5</issue>
+          <fpage>1068</fpage>
+          <lpage>1070</lpage>
+          <pub-id pub-id-type="pmid">27752026</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b45-nss-10-035">
+        <label>45</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Nigam</surname>
+              <given-names>G</given-names>
+            </name>
+            <name>
+              <surname>Pathak</surname>
+              <given-names>C</given-names>
+            </name>
+            <name>
+              <surname>Riaz</surname>
+              <given-names>M</given-names>
+            </name>
+          </person-group>
+          <article-title>A systematic review of central sleep apnea in adult patients with chronic kidney disease</article-title>
+          <source>Sleep Breath</source>
+          <year>2016</year>
+          <volume>20</volume>
+          <issue>3</issue>
+          <fpage>957</fpage>
+          <lpage>964</lpage>
+          <pub-id pub-id-type="pmid">26815045</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b46-nss-10-035">
+        <label>46</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Nigam</surname>
+              <given-names>G</given-names>
+            </name>
+            <name>
+              <surname>Riaz</surname>
+              <given-names>M</given-names>
+            </name>
+          </person-group>
+          <article-title>Probing the prevalence of central sleep apnea in patients with chronic kidney disease</article-title>
+          <source>Sleep Breath</source>
+          <year>2016</year>
+          <volume>20</volume>
+          <issue>4</issue>
+          <fpage>1275</fpage>
+          <lpage>1276</lpage>
+          <pub-id pub-id-type="pmid">27638724</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b47-nss-10-035">
+        <label>47</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Fleischmann</surname>
+              <given-names>G</given-names>
+            </name>
+            <name>
+              <surname>Fillafer</surname>
+              <given-names>G</given-names>
+            </name>
+            <name>
+              <surname>Matterer</surname>
+              <given-names>H</given-names>
+            </name>
+            <name>
+              <surname>Skrabal</surname>
+              <given-names>F</given-names>
+            </name>
+            <name>
+              <surname>Kotanko</surname>
+              <given-names>P</given-names>
+            </name>
+          </person-group>
+          <article-title>Prevalence of chronic kidney disease in patients with suspected sleep apnoea</article-title>
+          <source>Nephrol Dial Transplant</source>
+          <year>2010</year>
+          <volume>25</volume>
+          <issue>1</issue>
+          <fpage>181</fpage>
+          <lpage>186</lpage>
+          <pub-id pub-id-type="pmid">19675059</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b48-nss-10-035">
+        <label>48</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Tada</surname>
+              <given-names>T</given-names>
+            </name>
+            <name>
+              <surname>Kusano</surname>
+              <given-names>KF</given-names>
+            </name>
+            <name>
+              <surname>Ogawa</surname>
+              <given-names>A</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>The predictors of central and obstructive sleep apnoea in haemodialysis patients</article-title>
+          <source>Nephrol Dial Transplant</source>
+          <year>2007</year>
+          <volume>22</volume>
+          <issue>4</issue>
+          <fpage>1190</fpage>
+          <lpage>1197</lpage>
+          <pub-id pub-id-type="pmid">17277346</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b49-nss-10-035">
+        <label>49</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kimmel</surname>
+              <given-names>PL</given-names>
+            </name>
+            <name>
+              <surname>Miller</surname>
+              <given-names>G</given-names>
+            </name>
+            <name>
+              <surname>Mendelson</surname>
+              <given-names>WB</given-names>
+            </name>
+          </person-group>
+          <article-title>Sleep apnea syndrome in chronic renal disease</article-title>
+          <source>Am J Med</source>
+          <year>1989</year>
+          <volume>86</volume>
+          <issue>3</issue>
+          <fpage>308</fpage>
+          <lpage>314</lpage>
+          <pub-id pub-id-type="pmid">2919612</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b50-nss-10-035">
+        <label>50</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Xu</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Yoon</surname>
+              <given-names>IY</given-names>
+            </name>
+            <name>
+              <surname>Chin</surname>
+              <given-names>HJ</given-names>
+            </name>
+          </person-group>
+          <article-title>The effect of sleep apnea on all-cause mortality in nondialyzed chronic kidney disease patients</article-title>
+          <source>Sleep Med</source>
+          <year>2016</year>
+          <volume>27–28</volume>
+          <fpage>32</fpage>
+          <lpage>38</lpage>
+        </element-citation>
+      </ref>
+      <ref id="b51-nss-10-035">
+        <label>51</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Hanly</surname>
+              <given-names>PJ</given-names>
+            </name>
+            <name>
+              <surname>Pierratos</surname>
+              <given-names>A</given-names>
+            </name>
+          </person-group>
+          <article-title>Improvement of sleep apnea in patients with chronic renal failure who undergo nocturnal hemodialysis</article-title>
+          <source>N Engl J Med</source>
+          <year>2001</year>
+          <volume>344</volume>
+          <issue>2</issue>
+          <fpage>102</fpage>
+          <lpage>107</lpage>
+          <pub-id pub-id-type="pmid">11150360</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b52-nss-10-035">
+        <label>52</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Burkhalter</surname>
+              <given-names>H</given-names>
+            </name>
+            <name>
+              <surname>Wirz-Justice</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Cajochen</surname>
+              <given-names>C</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Daytime sleepiness in renal transplant recipients is associated with immunosuppressive non-adherence: a cross-sectional, multi-center study</article-title>
+          <source>Clin Transplant</source>
+          <year>2014</year>
+          <volume>28</volume>
+          <issue>1</issue>
+          <fpage>58</fpage>
+          <lpage>66</lpage>
+          <pub-id pub-id-type="pmid">24325281</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b53-nss-10-035">
+        <label>53</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Baba</surname>
+              <given-names>Y</given-names>
+            </name>
+            <name>
+              <surname>Higuchi</surname>
+              <given-names>MA</given-names>
+            </name>
+            <name>
+              <surname>Fukuyama</surname>
+              <given-names>K</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Effect of chronic kidney disease on excessive daytime sleepiness in Parkinson disease</article-title>
+          <source>Eur J Neurol</source>
+          <year>2011</year>
+          <volume>18</volume>
+          <issue>11</issue>
+          <fpage>1299</fpage>
+          <lpage>1303</lpage>
+          <pub-id pub-id-type="pmid">21435111</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b54-nss-10-035">
+        <label>54</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Tanaka</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Honda</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Toyoda</surname>
+              <given-names>H</given-names>
+            </name>
+            <name>
+              <surname>Kodama</surname>
+              <given-names>T</given-names>
+            </name>
+          </person-group>
+          <article-title>Increased plasma IL-6, IL-8, TNF-alpha, and G-CSF in Japanese narcolepsy</article-title>
+          <source>Hum Immunol</source>
+          <year>2014</year>
+          <volume>75</volume>
+          <issue>8</issue>
+          <fpage>940</fpage>
+          <lpage>944</lpage>
+          <pub-id pub-id-type="pmid">24994458</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b55-nss-10-035">
+        <label>55</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Gohda</surname>
+              <given-names>T</given-names>
+            </name>
+            <name>
+              <surname>Maruyama</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Kamei</surname>
+              <given-names>N</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Circulating TNF receptors 1 and 2 predict mortality in patients with end-stage renal disease undergoing dialysis</article-title>
+          <source>Sci Rep</source>
+          <year>2017</year>
+          <volume>7</volume>
+          <fpage>43520</fpage>
+          <pub-id pub-id-type="pmid">28256549</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b56-nss-10-035">
+        <label>56</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Unruh</surname>
+              <given-names>ML</given-names>
+            </name>
+            <name>
+              <surname>Sanders</surname>
+              <given-names>MH</given-names>
+            </name>
+            <name>
+              <surname>Redline</surname>
+              <given-names>S</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Sleep apnea in patients on conventional thrice-weekly hemodialysis: comparison with matched controls from the Sleep Heart Health Study</article-title>
+          <source>J Am Soc Nephrol</source>
+          <year>2006</year>
+          <volume>17</volume>
+          <issue>12</issue>
+          <fpage>3503</fpage>
+          <lpage>3509</lpage>
+          <pub-id pub-id-type="pmid">17082238</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b57-nss-10-035">
+        <label>57</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Walker</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Fine</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Kryger</surname>
+              <given-names>MH</given-names>
+            </name>
+          </person-group>
+          <article-title>Sleep complaints are common in a dialysis unit</article-title>
+          <source>Am J Kidney Dis</source>
+          <year>1995</year>
+          <volume>26</volume>
+          <issue>5</issue>
+          <fpage>751</fpage>
+          <lpage>756</lpage>
+          <pub-id pub-id-type="pmid">7485127</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b58-nss-10-035">
+        <label>58</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Al-Jahdali</surname>
+              <given-names>H</given-names>
+            </name>
+          </person-group>
+          <article-title>Prevalence of sleep apnea and excessive day time sleepiness in patients with end-stage renal disease on dialysis</article-title>
+          <source>Saudi J Kidney Dis Transpl</source>
+          <year>2012</year>
+          <volume>23</volume>
+          <issue>2</issue>
+          <fpage>251</fpage>
+          <lpage>261</lpage>
+          <pub-id pub-id-type="pmid">22382215</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b59-nss-10-035">
+        <label>59</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Burkhalter</surname>
+              <given-names>H</given-names>
+            </name>
+            <name>
+              <surname>Wirz-Justice</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Cajochen</surname>
+              <given-names>C</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Validation of a single item to assess daytime sleepiness for the Swiss Transplant Cohort Study</article-title>
+          <source>Prog Transplant</source>
+          <year>2013</year>
+          <volume>23</volume>
+          <issue>3</issue>
+          <fpage>220</fpage>
+          <lpage>228</lpage>
+          <pub-id pub-id-type="pmid">23996941</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b60-nss-10-035">
+        <label>60</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Hanly</surname>
+              <given-names>PJ</given-names>
+            </name>
+            <name>
+              <surname>Gabor</surname>
+              <given-names>JY</given-names>
+            </name>
+            <name>
+              <surname>Chan</surname>
+              <given-names>C</given-names>
+            </name>
+            <name>
+              <surname>Pierratos</surname>
+              <given-names>A</given-names>
+            </name>
+          </person-group>
+          <article-title>Daytime sleepiness in patients with CRF: impact of nocturnal hemodialysis</article-title>
+          <source>Am J Kidney Dis</source>
+          <year>2003</year>
+          <volume>41</volume>
+          <issue>2</issue>
+          <fpage>403</fpage>
+          <lpage>410</lpage>
+          <pub-id pub-id-type="pmid">12552503</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b61-nss-10-035">
+        <label>61</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Jurado-Gamez</surname>
+              <given-names>B</given-names>
+            </name>
+            <name>
+              <surname>Martin-Malo</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Alvarez-Lara</surname>
+              <given-names>MA</given-names>
+            </name>
+            <name>
+              <surname>Muñoz</surname>
+              <given-names>L</given-names>
+            </name>
+            <name>
+              <surname>Cosano</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Aljama</surname>
+              <given-names>P</given-names>
+            </name>
+          </person-group>
+          <article-title>Sleep disorders are underdiagnosed in patients on maintenance hemodialysis</article-title>
+          <source>Nephron Clin Pract</source>
+          <year>2007</year>
+          <volume>105</volume>
+          <issue>1</issue>
+          <fpage>c35</fpage>
+          <lpage>c42</lpage>
+          <pub-id pub-id-type="pmid">17114901</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b62-nss-10-035">
+        <label>62</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Parker</surname>
+              <given-names>KP</given-names>
+            </name>
+            <name>
+              <surname>Bliwise</surname>
+              <given-names>DL</given-names>
+            </name>
+            <name>
+              <surname>Bailey</surname>
+              <given-names>JL</given-names>
+            </name>
+            <name>
+              <surname>Rye</surname>
+              <given-names>DB</given-names>
+            </name>
+          </person-group>
+          <article-title>Daytime sleepiness in stable hemodialysis patients</article-title>
+          <source>Am J Kidney Dis</source>
+          <year>2003</year>
+          <volume>41</volume>
+          <issue>2</issue>
+          <fpage>394</fpage>
+          <lpage>402</lpage>
+          <pub-id pub-id-type="pmid">12552502</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b63-nss-10-035">
+        <label>63</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Davis</surname>
+              <given-names>ID</given-names>
+            </name>
+            <name>
+              <surname>Baron</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>O’riordan</surname>
+              <given-names>MA</given-names>
+            </name>
+            <name>
+              <surname>Rosen</surname>
+              <given-names>CL</given-names>
+            </name>
+          </person-group>
+          <article-title>Sleep disturbances in pediatric dialysis patients</article-title>
+          <source>Pediatr Nephrol</source>
+          <year>2005</year>
+          <volume>20</volume>
+          <issue>1</issue>
+          <fpage>69</fpage>
+          <lpage>75</lpage>
+          <pub-id pub-id-type="pmid">15565279</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b64-nss-10-035">
+        <label>64</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Iseki</surname>
+              <given-names>K</given-names>
+            </name>
+            <name>
+              <surname>Tsuruya</surname>
+              <given-names>K</given-names>
+            </name>
+            <name>
+              <surname>Kanda</surname>
+              <given-names>E</given-names>
+            </name>
+            <name>
+              <surname>Nomura</surname>
+              <given-names>T</given-names>
+            </name>
+            <name>
+              <surname>Hirakata</surname>
+              <given-names>H</given-names>
+            </name>
+          </person-group>
+          <article-title>Effects of sleepiness on survival in Japanese hemodialysis patients: J-DOPPS study</article-title>
+          <source>Nephron Clin Pract</source>
+          <year>2014</year>
+          <volume>128</volume>
+          <issue>3–4</issue>
+          <fpage>333</fpage>
+          <lpage>340</lpage>
+          <pub-id pub-id-type="pmid">25572670</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b65-nss-10-035">
+        <label>65</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Gul</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Aoun</surname>
+              <given-names>N</given-names>
+            </name>
+            <name>
+              <surname>Trayner</surname>
+              <given-names>EM</given-names>
+              <suffix>Jr</suffix>
+            </name>
+          </person-group>
+          <article-title>Why do patients sleep on dialysis?</article-title>
+          <source>Semin Dial</source>
+          <year>2006</year>
+          <volume>19</volume>
+          <issue>2</issue>
+          <fpage>152</fpage>
+          <lpage>157</lpage>
+          <pub-id pub-id-type="pmid">16551294</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b66-nss-10-035">
+        <label>66</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Teles</surname>
+              <given-names>F</given-names>
+            </name>
+            <name>
+              <surname>Azevedo</surname>
+              <given-names>VF</given-names>
+            </name>
+            <name>
+              <surname>Miranda</surname>
+              <given-names>CT</given-names>
+            </name>
+            <name>
+              <surname>Miranda</surname>
+              <given-names>MP</given-names>
+            </name>
+            <name>
+              <surname>Teixeira Mdo</surname>
+              <given-names>C</given-names>
+            </name>
+            <name>
+              <surname>Elias</surname>
+              <given-names>RM</given-names>
+            </name>
+          </person-group>
+          <article-title>Depression in hemodialysis patients: the role of dialysis shift</article-title>
+          <source>Clinics (Sao Paulo)</source>
+          <year>2014</year>
+          <volume>69</volume>
+          <issue>3</issue>
+          <fpage>198</fpage>
+          <lpage>202</lpage>
+          <pub-id pub-id-type="pmid">24626947</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b67-nss-10-035">
+        <label>67</label>
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Smith</surname>
+              <given-names>E</given-names>
+            </name>
+          </person-group>
+          <source>Health and Disease, as Influenced by the Daily, Seasonal, and other Cyclical Changes in the Human System</source>
+          <publisher-loc>London</publisher-loc>
+          <publisher-name>Walton and Maberly</publisher-name>
+          <year>1861</year>
+        </element-citation>
+      </ref>
+      <ref id="b68-nss-10-035">
+        <label>68</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Mills</surname>
+              <given-names>JN</given-names>
+            </name>
+            <name>
+              <surname>Stanbury</surname>
+              <given-names>SW</given-names>
+            </name>
+          </person-group>
+          <article-title>Persistent 24-hour renal excretory rhythm on a 12-hour cycle of activity</article-title>
+          <source>J Physiol</source>
+          <year>1952</year>
+          <volume>117</volume>
+          <issue>1</issue>
+          <fpage>22</fpage>
+          <lpage>37</lpage>
+          <pub-id pub-id-type="pmid">14946727</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b69-nss-10-035">
+        <label>69</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Wu</surname>
+              <given-names>T</given-names>
+            </name>
+            <name>
+              <surname>Ni</surname>
+              <given-names>Y</given-names>
+            </name>
+            <name>
+              <surname>Dong</surname>
+              <given-names>Y</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Regulation of circadian gene expression in the kidney by light and food cues in rats</article-title>
+          <source>Am J Physiol Regul Integr Comp Physiol</source>
+          <year>2010</year>
+          <volume>298</volume>
+          <issue>3</issue>
+          <fpage>R635</fpage>
+          <lpage>R641</lpage>
+          <pub-id pub-id-type="pmid">20053963</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b70-nss-10-035">
+        <label>70</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Burkhalter</surname>
+              <given-names>H</given-names>
+            </name>
+            <name>
+              <surname>De Geest</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Wirz-Justice</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Cajochen</surname>
+              <given-names>C</given-names>
+            </name>
+          </person-group>
+          <article-title>Melatonin rhythms in renal transplant recipients with sleep-wake disturbances</article-title>
+          <source>Chronobiol Int</source>
+          <year>2016</year>
+          <volume>33</volume>
+          <issue>7</issue>
+          <fpage>810</fpage>
+          <lpage>820</lpage>
+          <pub-id pub-id-type="pmid">27101434</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b71-nss-10-035">
+        <label>71</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Koch</surname>
+              <given-names>BC</given-names>
+            </name>
+            <name>
+              <surname>van der Putten</surname>
+              <given-names>K</given-names>
+            </name>
+            <name>
+              <surname>Van Someren</surname>
+              <given-names>EJ</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Impairment of endogenous melatonin rhythm is related to the degree of chronic kidney disease (CREAM study)</article-title>
+          <source>Nephrol Dial Transplant</source>
+          <year>2010</year>
+          <volume>25</volume>
+          <issue>2</issue>
+          <fpage>513</fpage>
+          <lpage>519</lpage>
+          <pub-id pub-id-type="pmid">19767630</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b72-nss-10-035">
+        <label>72</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Viljoen</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Steyn</surname>
+              <given-names>ME</given-names>
+            </name>
+            <name>
+              <surname>van Rensburg</surname>
+              <given-names>BW</given-names>
+            </name>
+            <name>
+              <surname>Reinach</surname>
+              <given-names>SG</given-names>
+            </name>
+          </person-group>
+          <article-title>Melatonin in chronic renal failure</article-title>
+          <source>Nephron</source>
+          <year>1992</year>
+          <volume>60</volume>
+          <issue>2</issue>
+          <fpage>138</fpage>
+          <lpage>143</lpage>
+          <pub-id pub-id-type="pmid">1552997</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b73-nss-10-035">
+        <label>73</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Koch</surname>
+              <given-names>BC</given-names>
+            </name>
+            <name>
+              <surname>Nagtegaal</surname>
+              <given-names>JE</given-names>
+            </name>
+            <name>
+              <surname>Hagen</surname>
+              <given-names>EC</given-names>
+            </name>
+            <name>
+              <surname>Wee</surname>
+              <given-names>PM</given-names>
+            </name>
+            <name>
+              <surname>Kerkhof</surname>
+              <given-names>GA</given-names>
+            </name>
+          </person-group>
+          <article-title>Different melatonin rhythms and sleep–wake rhythms in patients on peritoneal dialysis, daytime hemodialysis and nocturnal hemodialysis</article-title>
+          <source>Sleep Med</source>
+          <year>2010</year>
+          <volume>11</volume>
+          <issue>3</issue>
+          <fpage>242</fpage>
+          <lpage>246</lpage>
+          <pub-id pub-id-type="pmid">19596605</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b74-nss-10-035">
+        <label>74</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Koch</surname>
+              <given-names>BC</given-names>
+            </name>
+            <name>
+              <surname>Hagen</surname>
+              <given-names>EC</given-names>
+            </name>
+            <name>
+              <surname>Nagtegaal</surname>
+              <given-names>JE</given-names>
+            </name>
+            <name>
+              <surname>Boringa</surname>
+              <given-names>JB</given-names>
+            </name>
+            <name>
+              <surname>Kerkhof</surname>
+              <given-names>GA</given-names>
+            </name>
+            <name>
+              <surname>Ter Wee</surname>
+              <given-names>PM</given-names>
+            </name>
+          </person-group>
+          <article-title>Effects of nocturnal hemodialysis on melatonin rhythm and sleep-wake behavior: an uncontrolled trial</article-title>
+          <source>Am J Kidney Dis</source>
+          <year>2009</year>
+          <volume>53</volume>
+          <issue>4</issue>
+          <fpage>658</fpage>
+          <lpage>664</lpage>
+          <pub-id pub-id-type="pmid">18950916</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b75-nss-10-035">
+        <label>75</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Możdżan</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Możdżan</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Chałubiński</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Wojdan</surname>
+              <given-names>K</given-names>
+            </name>
+            <name>
+              <surname>Broncel</surname>
+              <given-names>M</given-names>
+            </name>
+          </person-group>
+          <article-title>The effect of melatonin on circadian blood pressure in patients with type 2 diabetes and essential hypertension</article-title>
+          <source>Arch Med Sci</source>
+          <year>2014</year>
+          <volume>10</volume>
+          <issue>4</issue>
+          <fpage>669</fpage>
+          <lpage>675</lpage>
+          <pub-id pub-id-type="pmid">25276149</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b76-nss-10-035">
+        <label>76</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Levey</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Atkins</surname>
+              <given-names>R</given-names>
+            </name>
+            <name>
+              <surname>Coresh</surname>
+              <given-names>J</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Chronic kidney disease as a global public health problem: approaches and initiatives–a position statement from Kidney Disease Improving Global Outcomes</article-title>
+          <source>Kidney Int</source>
+          <year>2007</year>
+          <volume>72</volume>
+          <issue>3</issue>
+          <fpage>247</fpage>
+          <lpage>259</lpage>
+          <pub-id pub-id-type="pmid">17568785</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b77-nss-10-035">
+        <label>77</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Canuto</surname>
+              <given-names>R</given-names>
+            </name>
+            <name>
+              <surname>Garcez</surname>
+              <given-names>AS</given-names>
+            </name>
+            <name>
+              <surname>Olinto</surname>
+              <given-names>MT</given-names>
+            </name>
+          </person-group>
+          <article-title>Metabolic syndrome and shift work: a systematic review</article-title>
+          <source>Sleep Med Rev</source>
+          <year>2013</year>
+          <volume>17</volume>
+          <issue>6</issue>
+          <fpage>425</fpage>
+          <lpage>431</lpage>
+          <pub-id pub-id-type="pmid">23531362</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b78-nss-10-035">
+        <label>78</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Yu</surname>
+              <given-names>KH</given-names>
+            </name>
+            <name>
+              <surname>Yi</surname>
+              <given-names>YH</given-names>
+            </name>
+            <name>
+              <surname>Kim</surname>
+              <given-names>YJ</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Shift work is associated with metabolic syndrome in young female Korean workers</article-title>
+          <source>Korean J Fam Med</source>
+          <year>2017</year>
+          <volume>38</volume>
+          <issue>2</issue>
+          <fpage>51</fpage>
+          <lpage>56</lpage>
+          <pub-id pub-id-type="pmid">28360979</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b79-nss-10-035">
+        <label>79</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Guo</surname>
+              <given-names>Y</given-names>
+            </name>
+            <name>
+              <surname>Rong</surname>
+              <given-names>Y</given-names>
+            </name>
+            <name>
+              <surname>Huang</surname>
+              <given-names>X</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Shift work and the relationship with metabolic syndrome in Chinese aged workers</article-title>
+          <source>PLoS One</source>
+          <year>2015</year>
+          <volume>10</volume>
+          <issue>3</issue>
+          <fpage>e0120632</fpage>
+          <pub-id pub-id-type="pmid">25761114</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b80-nss-10-035">
+        <label>80</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kawabe</surname>
+              <given-names>Y</given-names>
+            </name>
+            <name>
+              <surname>Nakamura</surname>
+              <given-names>Y</given-names>
+            </name>
+            <name>
+              <surname>Kikuchi</surname>
+              <given-names>S</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Relationship between shift work and clustering of the metabolic syndrome diagnostic components</article-title>
+          <source>J Atheroscler Thromb</source>
+          <year>2014</year>
+          <volume>21</volume>
+          <issue>7</issue>
+          <fpage>703</fpage>
+          <lpage>711</lpage>
+          <pub-id pub-id-type="pmid">24599169</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b81-nss-10-035">
+        <label>81</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Wang</surname>
+              <given-names>F</given-names>
+            </name>
+            <name>
+              <surname>Zhang</surname>
+              <given-names>L</given-names>
+            </name>
+            <name>
+              <surname>Zhang</surname>
+              <given-names>Y</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>0147 meta-analysis on night shift work and risk of metabolic syndrome</article-title>
+          <source>Occup Environ Med</source>
+          <year>2014</year>
+          <volume>71</volume>
+          <issue>Suppl 1</issue>
+          <fpage>A78</fpage>
+        </element-citation>
+      </ref>
+      <ref id="b82-nss-10-035">
+        <label>82</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Mahowald</surname>
+              <given-names>MW</given-names>
+            </name>
+            <name>
+              <surname>Schenck</surname>
+              <given-names>CH</given-names>
+            </name>
+          </person-group>
+          <article-title>Insights from studying human sleep disorders</article-title>
+          <source>Nature</source>
+          <year>2005</year>
+          <volume>437</volume>
+          <issue>7063</issue>
+          <fpage>1279</fpage>
+          <lpage>1285</lpage>
+          <pub-id pub-id-type="pmid">16251953</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b83-nss-10-035">
+        <label>83</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Hublin</surname>
+              <given-names>C</given-names>
+            </name>
+            <name>
+              <surname>Kaprio</surname>
+              <given-names>J</given-names>
+            </name>
+          </person-group>
+          <article-title>Genetic aspects and genetic epidemiology of parasomnias</article-title>
+          <source>Sleep Med Rev</source>
+          <year>2003</year>
+          <volume>7</volume>
+          <issue>5</issue>
+          <fpage>413</fpage>
+          <lpage>421</lpage>
+          <pub-id pub-id-type="pmid">14573377</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b84-nss-10-035">
+        <label>84</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Oswald</surname>
+              <given-names>I</given-names>
+            </name>
+          </person-group>
+          <article-title>Sleep mechanisms: recent advances</article-title>
+          <source>Proc R Soc Med</source>
+          <year>1962</year>
+          <volume>55</volume>
+          <fpage>910</fpage>
+          <lpage>912</lpage>
+          <pub-id pub-id-type="pmid">13940626</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b85-nss-10-035">
+        <label>85</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Howell</surname>
+              <given-names>MJ</given-names>
+            </name>
+          </person-group>
+          <article-title>Parasomnias: an updated review</article-title>
+          <source>Neurotherapeutics</source>
+          <year>2012</year>
+          <volume>9</volume>
+          <issue>4</issue>
+          <fpage>753</fpage>
+          <lpage>775</lpage>
+          <pub-id pub-id-type="pmid">22965264</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b86-nss-10-035">
+        <label>86</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Ohayon</surname>
+              <given-names>MM</given-names>
+            </name>
+            <name>
+              <surname>Guilleminault</surname>
+              <given-names>C</given-names>
+            </name>
+            <name>
+              <surname>Priest</surname>
+              <given-names>RG</given-names>
+            </name>
+          </person-group>
+          <article-title>Night terrors, sleepwalking, and confusional arousals in the general population: their frequency and relationship to other sleep and mental disorders</article-title>
+          <source>J Clin Psychiatry</source>
+          <year>1999</year>
+          <volume>60</volume>
+          <issue>4</issue>
+          <fpage>268</fpage>
+          <lpage>276</lpage>
+          <comment>quiz 277</comment>
+          <pub-id pub-id-type="pmid">10221293</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b87-nss-10-035">
+        <label>87</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Silver</surname>
+              <given-names>SM</given-names>
+            </name>
+            <name>
+              <surname>Sterns</surname>
+              <given-names>RH</given-names>
+            </name>
+            <name>
+              <surname>Halperin</surname>
+              <given-names>ML</given-names>
+            </name>
+          </person-group>
+          <article-title>Brain swelling after dialysis: old urea or new osmoles?</article-title>
+          <source>Am J Kidney Dis</source>
+          <year>1996</year>
+          <volume>28</volume>
+          <issue>1</issue>
+          <fpage>1</fpage>
+          <lpage>13</lpage>
+          <pub-id pub-id-type="pmid">8712203</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b88-nss-10-035">
+        <label>88</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Trotti</surname>
+              <given-names>LM</given-names>
+            </name>
+          </person-group>
+          <article-title>REM sleep behaviour disorder in older individuals: epidemiology, pathophysiology and management</article-title>
+          <source>Drugs Aging</source>
+          <year>2010</year>
+          <volume>27</volume>
+          <issue>6</issue>
+          <fpage>457</fpage>
+          <lpage>470</lpage>
+          <pub-id pub-id-type="pmid">20524706</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b89-nss-10-035">
+        <label>89</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Schenck</surname>
+              <given-names>CH</given-names>
+            </name>
+            <name>
+              <surname>Boeve</surname>
+              <given-names>BF</given-names>
+            </name>
+            <name>
+              <surname>Mahowald</surname>
+              <given-names>MW</given-names>
+            </name>
+          </person-group>
+          <article-title>Delayed emergence of a parkinsonian disorder or dementia in 81% of older men initially diagnosed with idiopathic rapid eye movement sleep behavior disorder: a 16-year update on a previously reported series</article-title>
+          <source>Sleep Med</source>
+          <year>2013</year>
+          <volume>14</volume>
+          <issue>8</issue>
+          <fpage>744</fpage>
+          <lpage>748</lpage>
+          <pub-id pub-id-type="pmid">23347909</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b90-nss-10-035">
+        <label>90</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Suseł</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Batycka-Baran</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Reich</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Szepietowski</surname>
+              <given-names>JC</given-names>
+            </name>
+          </person-group>
+          <article-title>Uraemic pruritus markedly affects the quality of life and depressive symptoms in haemodialysis patients with end-stage renal disease</article-title>
+          <source>Acta Derm Venereol</source>
+          <year>2014</year>
+          <volume>94</volume>
+          <issue>3</issue>
+          <fpage>276</fpage>
+          <lpage>281</lpage>
+          <pub-id pub-id-type="pmid">24217858</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b91-nss-10-035">
+        <label>91</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Lugon</surname>
+              <given-names>JR</given-names>
+            </name>
+          </person-group>
+          <article-title>Uremic pruritus: a review</article-title>
+          <source>Hemodial Int</source>
+          <year>2005</year>
+          <volume>9</volume>
+          <issue>2</issue>
+          <fpage>180</fpage>
+          <lpage>188</lpage>
+          <pub-id pub-id-type="pmid">16191067</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b92-nss-10-035">
+        <label>92</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Jaiswal</surname>
+              <given-names>D</given-names>
+            </name>
+            <name>
+              <surname>Uzans</surname>
+              <given-names>D</given-names>
+            </name>
+            <name>
+              <surname>Hayden</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Kiberd</surname>
+              <given-names>BA</given-names>
+            </name>
+            <name>
+              <surname>Tennankore</surname>
+              <given-names>KK</given-names>
+            </name>
+          </person-group>
+          <article-title>Targeting the opioid pathway for uremic pruritus: a systematic review and meta-analysis</article-title>
+          <source>Can J Kidney Health Dis</source>
+          <year>2016</year>
+          <volume>3</volume>
+          <comment>2054358116675345</comment>
+        </element-citation>
+      </ref>
+      <ref id="b93-nss-10-035">
+        <label>93</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Nigam</surname>
+              <given-names>G</given-names>
+            </name>
+            <name>
+              <surname>Riaz</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Hershner</surname>
+              <given-names>SD</given-names>
+            </name>
+            <name>
+              <surname>Goldstein</surname>
+              <given-names>CA</given-names>
+            </name>
+            <name>
+              <surname>Chervin</surname>
+              <given-names>RD</given-names>
+            </name>
+          </person-group>
+          <article-title>Sleep related scratching: a distinct parasomnia?</article-title>
+          <source>J Clin Sleep Med</source>
+          <year>2016</year>
+          <volume>12</volume>
+          <issue>1</issue>
+          <fpage>139</fpage>
+          <lpage>142</lpage>
+          <pub-id pub-id-type="pmid">26285112</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b94-nss-10-035">
+        <label>94</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Allen</surname>
+              <given-names>RP</given-names>
+            </name>
+            <name>
+              <surname>Picchietti</surname>
+              <given-names>D</given-names>
+            </name>
+            <name>
+              <surname>Hening</surname>
+              <given-names>WA</given-names>
+            </name>
+            <name>
+              <surname>Trenkwalder</surname>
+              <given-names>C</given-names>
+            </name>
+            <name>
+              <surname>Walters</surname>
+              <given-names>AS</given-names>
+            </name>
+            <name>
+              <surname>Montplaisi</surname>
+              <given-names>J</given-names>
+            </name>
+            <collab>Restless Legs Syndrome Diagnosis and Epidemiology workshop at the National Institutes of Health</collab>
+            <collab>International Restless Legs Syndrome Study Group</collab>
+          </person-group>
+          <article-title>Restless legs syndrome: diagnostic criteria, special considerations, and epidemiology. A report from the restless legs syndrome diagnosis and epidemiology workshop at the National Institutes of Health</article-title>
+          <source>Sleep Med</source>
+          <year>2003</year>
+          <volume>4</volume>
+          <issue>2</issue>
+          <fpage>101</fpage>
+          <lpage>119</lpage>
+          <pub-id pub-id-type="pmid">14592341</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b95-nss-10-035">
+        <label>95</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Yücel</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Akgün</surname>
+              <given-names>H</given-names>
+            </name>
+            <name>
+              <surname>Oz</surname>
+              <given-names>O</given-names>
+            </name>
+            <name>
+              <surname>Demirkaya</surname>
+              <given-names>S</given-names>
+            </name>
+          </person-group>
+          <article-title>Migraine and restless leg syndrome co-morbidity may be due to iron deficiency</article-title>
+          <source>Ann Indian Acad Neurol</source>
+          <year>2013</year>
+          <volume>16</volume>
+          <issue>3</issue>
+          <fpage>461</fpage>
+          <pub-id pub-id-type="pmid">24101854</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b96-nss-10-035">
+        <label>96</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Gigli</surname>
+              <given-names>GL</given-names>
+            </name>
+            <name>
+              <surname>Adorati</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Dolso</surname>
+              <given-names>P</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Restless legs syndrome in end-stage renal disease</article-title>
+          <source>Sleep Med</source>
+          <year>2004</year>
+          <volume>5</volume>
+          <issue>3</issue>
+          <fpage>309</fpage>
+          <lpage>315</lpage>
+          <pub-id pub-id-type="pmid">15165541</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b97-nss-10-035">
+        <label>97</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Lee</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Nicholl</surname>
+              <given-names>DD</given-names>
+            </name>
+            <name>
+              <surname>Ahmed</surname>
+              <given-names>SB</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>The prevalence of restless legs syndrome across the full spectrum of kidney disease</article-title>
+          <source>J Clin Sleep Med</source>
+          <year>2013</year>
+          <volume>9</volume>
+          <issue>5</issue>
+          <fpage>455</fpage>
+          <lpage>459</lpage>
+          <pub-id pub-id-type="pmid">23674936</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b98-nss-10-035">
+        <label>98</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kavanagh</surname>
+              <given-names>D</given-names>
+            </name>
+            <name>
+              <surname>Siddiqui</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Geddes</surname>
+              <given-names>CC</given-names>
+            </name>
+          </person-group>
+          <article-title>Restless legs syndrome in patients on dialysis</article-title>
+          <source>Am J Kidney Dis</source>
+          <year>2004</year>
+          <volume>43</volume>
+          <issue>5</issue>
+          <fpage>763</fpage>
+          <lpage>771</lpage>
+          <pub-id pub-id-type="pmid">15112166</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b99-nss-10-035">
+        <label>99</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Fonseca</surname>
+              <given-names>NT</given-names>
+            </name>
+            <name>
+              <surname>Urbano</surname>
+              <given-names>JJ</given-names>
+            </name>
+            <name>
+              <surname>Nacif</surname>
+              <given-names>SR</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>A systematic review of sleep disorders in patients with chronic kidney disease undergoing hemodialysis</article-title>
+          <source>J Phys Ther Sci</source>
+          <year>2016</year>
+          <volume>28</volume>
+          <issue>7</issue>
+          <fpage>2164</fpage>
+          <lpage>2170</lpage>
+          <pub-id pub-id-type="pmid">27512289</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b100-nss-10-035">
+        <label>100</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Beladi-Mousavi</surname>
+              <given-names>SS</given-names>
+            </name>
+            <name>
+              <surname>Jafarizade</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Shayanpour</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Bahadoram</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Moosavian</surname>
+              <given-names>SM</given-names>
+            </name>
+            <name>
+              <surname>Houshmand</surname>
+              <given-names>G</given-names>
+            </name>
+          </person-group>
+          <article-title>Restless legs syndrome: associated risk factors in hemodialysis patients</article-title>
+          <source>Nephrourol Mon</source>
+          <year>2015</year>
+          <volume>7</volume>
+          <issue>6</issue>
+          <fpage>e31967</fpage>
+          <pub-id pub-id-type="pmid">26866010</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b101-nss-10-035">
+        <label>101</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Siddiqui</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Kavanagh</surname>
+              <given-names>D</given-names>
+            </name>
+            <name>
+              <surname>Traynor</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Mak</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Deighan</surname>
+              <given-names>C</given-names>
+            </name>
+            <name>
+              <surname>Geddes</surname>
+              <given-names>C</given-names>
+            </name>
+          </person-group>
+          <article-title>Risk factors for restless legs syndrome in dialysis patients</article-title>
+          <source>Nephron Clin Pract</source>
+          <year>2005</year>
+          <volume>101</volume>
+          <issue>3</issue>
+          <fpage>c155</fpage>
+          <lpage>c160</lpage>
+          <pub-id pub-id-type="pmid">16020954</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b102-nss-10-035">
+        <label>102</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Santos</surname>
+              <given-names>RS</given-names>
+            </name>
+            <name>
+              <surname>Coelho</surname>
+              <given-names>FM</given-names>
+            </name>
+            <name>
+              <surname>Silva</surname>
+              <given-names>BC</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Parathyroidectomy improves restless leg syndrome in patients on hemodialysis</article-title>
+          <source>PLoS One</source>
+          <year>2016</year>
+          <volume>11</volume>
+          <issue>5</issue>
+          <fpage>e0155835</fpage>
+          <pub-id pub-id-type="pmid">27196740</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b103-nss-10-035">
+        <label>103</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Mortazavi</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Vahdatpour</surname>
+              <given-names>B</given-names>
+            </name>
+            <name>
+              <surname>Ghasempour</surname>
+              <given-names>A</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Aerobic exercise improves signs of restless leg syndrome in end stage renal disease patients suffering chronic hemodialysis</article-title>
+          <source>Scientific World Journal</source>
+          <year>2013</year>
+          <volume>2013</volume>
+          <fpage>628142</fpage>
+          <pub-id pub-id-type="pmid">24307876</pub-id>
+        </element-citation>
+      </ref>
+    </ref-list>
+  </back>
+</article>
+</pmc-articleset>

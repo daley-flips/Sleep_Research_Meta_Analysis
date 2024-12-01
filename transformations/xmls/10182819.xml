@@ -1,0 +1,579 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<pmc-articleset><article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" dtd-version="1.3" xml:lang="en" article-type="research-article">
+  <?properties open_access?>
+  <processing-meta base-tagset="archiving" mathml-version="3.0" table-model="xhtml" tagset-family="jats">
+    <restricted-by>pmc</restricted-by>
+  </processing-meta>
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="nlm-ta">Nat Sci Sleep</journal-id>
+      <journal-id journal-id-type="iso-abbrev">Nat Sci Sleep</journal-id>
+      <journal-id journal-id-type="publisher-id">nss</journal-id>
+      <journal-title-group>
+        <journal-title>Nature and Science of Sleep</journal-title>
+      </journal-title-group>
+      <issn pub-type="epub">1179-1608</issn>
+      <publisher>
+        <publisher-name>Dove</publisher-name>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="pmid">37193215</article-id>
+      <article-id pub-id-type="pmc">10182819</article-id>
+      <article-id pub-id-type="publisher-id">406359</article-id>
+      <article-id pub-id-type="doi">10.2147/NSS.S406359</article-id>
+      <article-categories>
+        <subj-group subj-group-type="heading">
+          <subject>Original Research</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>Measuring Sleep Stages and Screening for Obstructive Sleep Apnea with a Wearable Multi-Sensor System in Comparison to Polysomnography</article-title>
+        <alt-title alt-title-type="running-authors">Zhou et al</alt-title>
+        <alt-title alt-title-type="running-title">Zhou et al</alt-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author" equal-contrib="yes">
+          <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0001-9913-8074</contrib-id>
+          <name>
+            <surname>Zhou</surname>
+            <given-names>Shuang-Jiang</given-names>
+          </name>
+          <xref rid="aff0001" ref-type="aff">
+<sup>1</sup>
+</xref>
+          <xref rid="ft0001" ref-type="author-notes">*</xref>
+        </contrib>
+        <contrib contrib-type="author" equal-contrib="yes">
+          <name>
+            <surname>Yang</surname>
+            <given-names>Rui</given-names>
+          </name>
+          <xref rid="aff0002" ref-type="aff">
+<sup>2</sup>
+</xref>
+          <xref rid="ft0001" ref-type="author-notes">*</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Wang</surname>
+            <given-names>Lei-Lei</given-names>
+          </name>
+          <xref rid="aff0001" ref-type="aff">
+<sup>1</sup>
+</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Qi</surname>
+            <given-names>Meng</given-names>
+          </name>
+          <xref rid="aff0001" ref-type="aff">
+<sup>1</sup>
+</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Yuan</surname>
+            <given-names>Xiao-Fei</given-names>
+          </name>
+          <xref rid="aff0002" ref-type="aff">
+<sup>2</sup>
+</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0002-0918-5078</contrib-id>
+          <name>
+            <surname>Wang</surname>
+            <given-names>Ting-Ting</given-names>
+          </name>
+          <xref rid="aff0003" ref-type="aff">
+<sup>3</sup>
+</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Song</surname>
+            <given-names>Tian-He</given-names>
+          </name>
+          <xref rid="aff0004" ref-type="aff">
+<sup>4</sup>
+</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0001-6492-733X</contrib-id>
+          <name>
+            <surname>Zhuang</surname>
+            <given-names>Yun-Yue</given-names>
+          </name>
+          <xref rid="aff0004" ref-type="aff">
+<sup>4</sup>
+</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Li</surname>
+            <given-names>Hong-Juan</given-names>
+          </name>
+          <xref rid="aff0001" ref-type="aff">
+<sup>1</sup>
+</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Tan</surname>
+            <given-names>Yun-Long</given-names>
+          </name>
+          <xref rid="aff0001" ref-type="aff">
+<sup>1</sup>
+</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Wang</surname>
+            <given-names>Xue</given-names>
+          </name>
+          <xref rid="aff0002" ref-type="aff">
+<sup>2</sup>
+</xref>
+          <xref rid="an0001" ref-type="corresp"/>
+        </contrib>
+        <contrib contrib-type="author">
+          <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0003-2395-6120</contrib-id>
+          <name>
+            <surname>Chen</surname>
+            <given-names>Jing-Xu</given-names>
+          </name>
+          <xref rid="aff0001" ref-type="aff">
+<sup>1</sup>
+</xref>
+          <xref rid="an0002" ref-type="corresp"/>
+        </contrib>
+        <aff id="aff0001"><label>1</label><institution>Sleep Medicine Center, Beijing HuiLongGuan Hospital, Peking University HuiLongGuan Clinical Medical School</institution>, <addr-line>Beijing</addr-line>, <country>People’s Republic of China</country></aff>
+        <aff id="aff0002"><label>2</label><institution>Beijing Anding Hospital, Capital Medical University</institution>, <addr-line>Beijing</addr-line>, <country>People’s Republic of China</country></aff>
+        <aff id="aff0003"><label>3</label><institution>School of Mental Health, Bengbu Medical College</institution>, <addr-line>Bengbu</addr-line>, <country>People’s Republic of China</country></aff>
+        <aff id="aff0004"><label>4</label><institution>Department of Psychology, Chengde Medical University</institution>, <addr-line>Chengde</addr-line>, <country>People’s Republic of China</country></aff>
+      </contrib-group>
+      <author-notes>
+        <corresp id="an0001">Correspondence: Xue Wang, <institution>Beijing Anding Hospital, Capital Medical University</institution>, <addr-line>Beijing</addr-line>, <addr-line>100088</addr-line>, <country>People’s Republic of China</country>, <phone>Tel +86-10-58303034</phone>, Email xuew37@ccmu.edu.cn</corresp>
+        <corresp id="an0002">Jing-Xu Chen, <institution>Beijing HuiLongGuan Hospital, Peking University HuiLongGuan Clinical Medical School</institution>, <addr-line>Beijing</addr-line>, <addr-line>100096</addr-line>, <country>People’s Republic of China</country>, <phone>Tel +86-10-83024278</phone>, Email chenjx1110@163.com</corresp>
+        <fn id="ft0001">
+          <label>*</label>
+          <p><citation_analysis attribute="neither">These authors contributed equally to this work</citation_analysis></p>
+        </fn>
+      </author-notes>
+      <pub-date pub-type="epub">
+        <day>09</day>
+        <month>5</month>
+        <year>2023</year>
+      </pub-date>
+      <pub-date pub-type="collection">
+        <year>2023</year>
+      </pub-date>
+      <volume>15</volume>
+      <fpage>353</fpage>
+      <lpage>362</lpage>
+      <history>
+        <date date-type="received">
+          <day>01</day>
+          <month>2</month>
+          <year>2023</year>
+        </date>
+        <date date-type="accepted">
+          <day>04</day>
+          <month>5</month>
+          <year>2023</year>
+        </date>
+      </history>
+      <permissions>
+        <copyright-statement>© 2023 Zhou et al.</copyright-statement>
+        <copyright-year>2023</copyright-year>
+        <copyright-holder>Zhou et al.</copyright-holder>
+        <license>
+          <ali:license_ref xmlns:ali="http://www.niso.org/schemas/ali/1.0/" specific-use="textmining" content-type="ccbynclicense">https://creativecommons.org/licenses/by-nc/3.0/</ali:license_ref>
+          <license-p>This work is published and licensed by Dove Medical Press Limited. The full terms of this license are available at <ext-link ext-link-type="uri" xlink:href="https://www.dovepress.com/terms.php">https://www.dovepress.com/terms.php</ext-link> and incorporate the Creative Commons Attribution – Non Commercial (unported, v3.0) License (<ext-link ext-link-type="uri" xlink:href="https://creativecommons.org/licenses/by-nc/3.0/">http://creativecommons.org/licenses/by-nc/3.0/</ext-link>). By accessing the work you hereby accept the Terms. Non-commercial uses of the work are permitted without any further permission from Dove Medical Press Limited, provided the work is properly attributed. For permission for commercial use of this work, please see paragraphs 4.2 and 5 of our Terms (<ext-link ext-link-type="uri" xlink:href="https://www.dovepress.com/terms.php">https://www.dovepress.com/terms.php</ext-link>).</license-p>
+        </license>
+      </permissions>
+      <abstract>
+        <sec id="s2001">
+          <title>Objective</title>
+          <p><citation_analysis attribute="neither">To assess the performance of a wearable multi-sensor system (SensEcho) in comparison to polysomnography (PSG) in measuring sleep stages and searching for obstructive sleep apnea (OSA).</citation_analysis></p>
+        </sec>
+        <sec id="s2002">
+          <title>Methods</title>
+          <p><citation_analysis attribute="positive">Participants underwent overnight simultaneous monitoring using SensEcho and PSG in a sleep laboratory. SensEcho analyzed the recordings spontaneously, and PSG was assessed as per standard guidelines. The degree of snoring was evaluated according to the guidelines for the diagnosis and treatment of OSA hypopnea syndrome (2011 revision). The Epworth Sleepiness Scale (ESS) was used to assess general daytime sleepiness.</citation_analysis></p>
+        </sec>
+        <sec id="s2003">
+          <title>Results</title>
+          <p><citation_analysis attribute="positive">This study included 103 Han Chinese, 91 of whom (age 39.02 ± 13.84 years, body mass index 27.28 ± 5.12 kg/m2, 61.54% male) completed the assessments. The measures of total sleep time (P = 0.198); total wake time (P = 0.182); shallow sleep (P = 0.297), deep sleep (P = 0.422), rapid eye movement sleep (P = 0.570), and awake (P = 0.336) proportions were similar between SensEcho and PSG. Using an apnea-hypopnea index (AHI) cutoff of ≥ 5 events/h, the SensEcho had 82.69% sensitivity and 89.74% specificity. Almost the same results were obtained at an AHI threshold of ≥ 15 events/h. Although the specificity increased to 94.67%, it decreased to 43.75% at an AHI cutoff of ≥ 30 events/h.</citation_analysis></p>
+        </sec>
+        <sec id="s2004">
+          <title>Conclusion</title>
+          <p><citation_analysis attribute="positive">This study demonstrated that SensEcho can be used to evaluate sleep status and screen for OSA. Nevertheless, improving the accuracy of its assessment of severe OSA and further testing its effectiveness in community and home environments is necessary.</citation_analysis></p>
+        </sec>
+      </abstract>
+      <kwd-group kwd-group-type="author">
+        <title>Keywords</title>
+        <kwd>wearable multi-sensor system</kwd>
+        <kwd>polysomnography</kwd>
+        <kwd>sleep stages</kwd>
+        <kwd>obstructive sleep apnea</kwd>
+      </kwd-group>
+      <funding-group>
+        <award-group>
+          <funding-source>
+<institution-wrap><institution>the National Key Research and Development Program of China</institution></institution-wrap>
+</funding-source>
+        </award-group>
+        <funding-statement>This research was supported by the National Key Research and Development Program of China (2021YFC2501504).</funding-statement>
+      </funding-group>
+      <counts>
+        <fig-count count="4"/>
+        <table-count count="8"/>
+        <ref-count count="33"/>
+        <page-count count="10"/>
+      </counts>
+    </article-meta>
+  </front>
+  <body>
+    <sec sec-type="intro" id="s0001">
+      <title>Introduction</title>
+      <p><citation_analysis attribute="positive">Sleep disorders are an important public health problem with significant adverse consequences to individual health and are a significant economic burden for society;</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0001" ref-type="bibr">1</xref></citation_analysis><citation_analysis attribute="neither">,</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0002" ref-type="bibr">2</xref></citation_analysis><citation_analysis attribute="positive"> therefore, they have attracted widespread attention. Sleep disorders comprise a wide range of diseases, and the diagnosis of many of their subtypes requires the help of objective indicators.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0003" ref-type="bibr">3</xref></citation_analysis><citation_analysis attribute="neither"> Currently, polysomnography (PSG) is an acknowledged tool for measurement of sleep.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0004" ref-type="bibr">4</xref></citation_analysis><citation_analysis attribute="neither">,</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0005" ref-type="bibr">5</xref></citation_analysis><citation_analysis attribute="neither"> This technique uses collection of many electrodes attached to the surface of the body, each of which measures physiological parameters of sleep, including of the brain, eye, muscle, heart, respiratory activity, and oxygen saturation, throughout the night.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0005" ref-type="bibr">5</xref></citation_analysis><citation_analysis attribute="neither">,</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0006" ref-type="bibr">6</xref></citation_analysis></p>
+      <p><citation_analysis attribute="neither">However, with the increase in its use and in-depth research, the limitations of PSG have gradually been recognized. First, the procedure is complicated and time consuming. Second, professional sleep technicians are required to monitor and interpret the data. Third, the body is covered with many electrodes and sensors, which causes obvious discomfort to patients, and finally the discomfort in monitoring sleep in a strange environment, given the need to monitor patients in a specific sleep laboratory. These interfere with the normal sleep of patients and cannot reflect the sleep situation in real life.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0006" ref-type="bibr">6–8</xref></citation_analysis><citation_analysis attribute="neither"> Therefore, a convenient, comfortable, and interference-free sleep monitoring method is essential in this field.</citation_analysis></p>
+      <p><citation_analysis attribute="positive">In recent years, clinicians and researchers have been trying to measure sleep or waking states using wrist actigraphy.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0009" ref-type="bibr">9–13</xref></citation_analysis><citation_analysis attribute="neither"> This technique measures wrist movement to evaluate sleep or wakefulness, that is accomplished by the accelerometer in the worn device.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0014" ref-type="bibr">14</xref></citation_analysis><citation_analysis attribute="neither"> Compared to PSG, this method supports sleep research on a larger scale and promotes cheap and uninterrupted sleep measurements without causing disturbance. This technique can also be conveniently used in a wide range of environments and locations.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0015" ref-type="bibr">15–18</xref></citation_analysis><citation_analysis attribute="negative"> The opportunities for extensive participation rates could enhance the universality of the results, and makes longitudinal and repeated measurement designs more possible. However, there is limited validation with actigraphy compared to the gold standard of PSG; for instance, most actigraphy devices lack respiratory parameters.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0019" ref-type="bibr">19</xref></citation_analysis><citation_analysis attribute="neither">,</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0020" ref-type="bibr">20</xref></citation_analysis><citation_analysis attribute="neither"> Compared with PSG, it is well known that actigraphy overestimates sleep and underestimates wake-up time,</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0013" ref-type="bibr">13</xref></citation_analysis><citation_analysis attribute="neither">,</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0021" ref-type="bibr">21</xref></citation_analysis><citation_analysis attribute="neither"> and the evaluation of sleep stage is often inaccurate.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0014" ref-type="bibr">14</xref></citation_analysis><citation_analysis attribute="neither"> As sleep research continues to receive increasing attention, researchers require a series of effective technologies beyond PSG.</citation_analysis></p>
+      <p><citation_analysis attribute="positive">A new wearable multi-sensor system (SensEcho; SensEcho-5A, Beijing SensEcho Sci &amp; Tech Co., Ltd., Beijing, China) was designed to assess sleep stages and respiratory events during sleep. The objective of this research was to assess the correspondence between SensEcho and PSG in the discrimination of sleep stages and searching for obstructive sleep apnea (OSA). In our study, the accuracy, sensitivity, and specificity were analyzed and compared between SensEcho and PSG.</citation_analysis></p>
+    </sec>
+    <sec id="s0002">
+      <title>Materials and Methods</title>
+      <sec id="s0002-s2001">
+        <title>Study Population and Design</title>
+        <p><citation_analysis attribute="positive">This is a prospective study. Subjects with suspicious OSA, who had never been diagnosed or treated for their sleep problems, were recruited at the Sleep Medicine Center from Beijing HuiLongGuan Hospital, Beijing, China. One hundred and three adults aged 18–65 years participated in this study from August 1, 2021 to February 28, 2022. After removing missing data from polysomnography (PSG) or SensEcho measurements, 91 subjects were included in the analysis. Individuals were excluded if they met one or more of the following conditions: (1) serious arrhythmia, wearing auxiliary electronic products such as cardiac pacemakers, (2) respiratory failure and other related diseases, (3) unstable medical condition or psychiatric disorder, (4) incomplete fingers rendering them unable to be monitored by percutaneous oxygen saturation (SpO</citation_analysis><citation_analysis attribute="positive"><sub>2</sub></citation_analysis><citation_analysis attribute="neither">), (5) inability to independently cooperate with the test operation, and (6) other situations that the researcher believes make an individual unsuitable to participate in this clinical trial.</citation_analysis></p>
+        <p><citation_analysis attribute="neither">Participants slept in a sleep ward with a wearable multi-sensor system (SensEcho; SensEcho-5A, Beijing SensEcho Sci &amp; Tech Co., Ltd., Beijing, China) and PSG (SOMNOscreen</citation_analysis><citation_analysis attribute="positive"><sup>TM</sup></citation_analysis><citation_analysis attribute="positive"> plus, Somnomedics GmbH, Randersacker, Germany) for one night. All devices were worn simultaneously during all sleep episodes. During the falling-asleep stage, the light is turned off in the room where the subjects are located (the specific time of lights-off is adjusted according to the subjects’ sleep habits) and the subjects were required to turn off their mobile phones during the entire sleep period to prevent it from affecting sleep and the monitoring quality. During the monitoring period, the sensitivity of devices was confirmed using the monitoring software to ensure the normal collection of data. The next day, after the subjects got up, they turned on the light, and turned off and removed the collection equipment. There was no outside interference while collecting data, and participants were not allowed to use medications for their sleep.</citation_analysis></p>
+        <p><citation_analysis attribute="positive">The research has been approved by the Ethics Committee of Beijing HuiLongGuan Hospital, and informed consent was signed by each participant. This study was conducted in accordance with the Declaration of Helsinki.</citation_analysis></p>
+      </sec>
+      <sec id="s0002-s2002">
+        <title>SensEcho Measures</title>
+        <p><citation_analysis attribute="neither">We used a wearable vest multi-sensor system (SensEcho) to capture single-lead electrocardiogram (ECG) signals and thoracoabdominal movement signals. A 3-axis accelerometer and a finger pulse oximeter were integrated into the system to capture posture and blood oxygen levels. A bidirectional long short-term memory (BLSTM) network was used to classify the four sleep stages. The Sleep Heart Health Study (SHHS) was used for model training.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0022" ref-type="bibr">22</xref></citation_analysis><citation_analysis attribute="neither">,</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0023" ref-type="bibr">23</xref></citation_analysis></p>
+        <p><citation_analysis attribute="neither">Two 16 units-BLSTM layers and a well-connected layer, which represent the transition of the four sleep-stage classes, constituted the network architecture. A total of 152 features were recorded from the single-lead ECG and respiratory signals and were further fed into the BLSTM. SensEcho synchronously recorded the participants’ data on single-lead ECG, respiration, posture, and SpO</citation_analysis><citation_analysis attribute="positive"><sub>2</sub></citation_analysis><citation_analysis attribute="neither"> during the monitoring period. Subsequently, 30-second epoch sleep stages (wake, shallow sleep, deep sleep, and rapid eye movement [REM] sleep), sleep-disordered breathing events, apnea-hypopnea index (AHI), etc. were obtained by analyzing the physiological data from the SensEcho software (</citation_analysis><citation_analysis attribute="positive"><xref rid="f0001" ref-type="fig">Figure 1</xref></citation_analysis><citation_analysis attribute="neither">).</citation_analysis><citation_analysis attribute="positive"><fig position="float" id="f0001" fig-type="figure"><label>Figure 1</label><caption><p><citation_analysis attribute="neither">Example of wearable vest multi-sensor system and schematic diagram of sleep stages and respiratory events detection algorithm.</citation_analysis></p></caption><graphic xlink:href="NSS-15-353-g0001" content-type="print-only" position="float"/><attrib><bold>Abbreviations</bold>: ECG, electrocardiogram; SPO<sub>2</sub>, percutaneous oxygen saturation; LSTM, long short-term memory; REM, rapid eye movement.</attrib></fig></citation_analysis></p>
+      </sec>
+      <sec id="s0002-s2003">
+        <title>PSG Measures</title>
+        <p><citation_analysis attribute="neither">PSG is a method used for detecting and recording physiological changes during sleep. According to the standards of the American Academy of Sleep Medicine (AASM), PSG records the following indicators: electroencephalogram (EEG), electrooculogram (EOG), chin electromyogram, leg electromyogram, ECG, pressure (flow and snore), flow thermistor, effort (thorax/abdomen), SpO</citation_analysis><citation_analysis attribute="positive"><sub>2</sub></citation_analysis><citation_analysis attribute="positive">, pulse rate, body position, and movement (sleep/wake determination). The sampling rate was 512 Hz with a 16-bit resolution. PSG recordings were evaluated by the same registered polysomnographic technologist (RPSGT) using software in accordance with the AASM scoring criteria.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0024" ref-type="bibr">24</xref></citation_analysis></p>
+      </sec>
+      <sec id="s0002-s2004">
+        <title>Snoring Severity</title>
+        <p><citation_analysis attribute="positive">The degree of snoring was evaluated according to the guidelines for the diagnosis and treatment of obstructive sleep apnea hypopnea syndrome (2011 revision) formulated by the Sleep Respiratory Disease Group of the Chinese Thoracic Society in 2011.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0025" ref-type="bibr">25</xref></citation_analysis><citation_analysis attribute="neither"> Never snoring: 0 points; mild snoring: the breathing sound is heavier than that of normal people, 1 point will be recorded; moderate snoring: the loud degree of snoring is greater than the voice of ordinary people, 2 points; severe snoring: snoring is so loud that people in the same room cannot sleep, 3 points will be recorded.</citation_analysis></p>
+      </sec>
+      <sec id="s0002-s2005">
+        <title>Daytime Sleepiness</title>
+        <p><citation_analysis attribute="positive">General sleepiness during the day was assessed using the Epworth Sleepiness Scale (ESS). The ESS is a self-evaluated scale that asks about the likelihood of falling asleep in various situations.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0026" ref-type="bibr">26</xref></citation_analysis><citation_analysis attribute="neither">,</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0027" ref-type="bibr">27</xref></citation_analysis><citation_analysis attribute="neither"> The total ESS score ranges from 0–24. Higher scores indicate higher risks of falling asleep. If the ESS score was &gt; 10 points, it was rated as excessive sleepiness.</citation_analysis></p>
+      </sec>
+      <sec id="s0002-s2006">
+        <title>Statistical Analyses</title>
+        <p><citation_analysis attribute="neither">The Statistical Package for the Social Sciences (SPSS) 26.0 and GraphPad Prism 8.0 were used for statistical analyses. Normally distributed continuous variables are expressed as mean ± standard deviation (M ± SD), and categorical variables are expressed as counts and percentages. Pearson’s correlation analysis was used to analyze the correlation between PSG and SensEcho by monitoring AHI and sleep-related indicators. Paired </citation_analysis><citation_analysis attribute="positive"><italic toggle="yes">t</italic></citation_analysis><citation_analysis attribute="positive">-tests and Bland-Altman plots were used to analyze the consistency between PSG and SensEcho while monitoring AHI and sleep-related indicators. Sensitivity, specificity, positive/negative predictive value of the SensEcho AHI for the diagnostic characteristics of OSA were calculated using PSG AHI thresholds of ≥ 5, ≥ 15, and ≥ 30 (events/h) as the cut-off value. Sensitivity and specificity were further analyzed using ROC curve analysis. The Youden index was calculated to determine the optimal cutoff value of SensEcho for the diagnosis of mild, moderate, and severe OSA. Sensitivity, specificity, positive/negative predictive value of SensEcho AHI were also calculated at the optimal cut-off value for mild, moderate, and severe OSA.</citation_analysis></p>
+      </sec>
+    </sec>
+    <sec id="s0003">
+      <title>Results</title>
+      <p><citation_analysis attribute="neither">Out of the 103 adults recruited for the study, 91 of whom (aged 39.02 ± 13.84 and with a mean body mass index of 27.28 ± 5.12 kg/m</citation_analysis><citation_analysis attribute="positive"><sup>2</sup></citation_analysis><citation_analysis attribute="positive">) fulfilled the study inclusion criteria and completed the assessments were considered for analysis. Of these, 56 (61.54%) were male and 58 (63.74%) reported at least a moderate level of snoring. Subjects had an average ESS score of 7.30 ± 4.98. Demographic data of the subjects are presented in </citation_analysis><citation_analysis attribute="positive"><xref rid="t0001" ref-type="table">Table 1</xref></citation_analysis><citation_analysis attribute="neither">.</citation_analysis><citation_analysis attribute="positive"><table-wrap position="float" id="t0001"><label>Table 1</label><caption><p><citation_analysis attribute="neither">The General Demographic Characteristics, Snoring, and Sleepiness of Participants</citation_analysis></p></caption><table frame="hsides" rules="groups"><thead><tr><th rowspan="1" colspan="1">Variables</th><th rowspan="1" colspan="1">n (%)/ M ± SD</th></tr></thead><tbody><tr><td rowspan="1" colspan="1">Gender</td><td rowspan="1" colspan="1"/></tr><tr><td rowspan="1" colspan="1"> Male</td><td rowspan="1" colspan="1">56 (61.54%)</td></tr><tr><td rowspan="1" colspan="1"> Female</td><td rowspan="1" colspan="1">35 (38.46%)</td></tr><tr><td rowspan="1" colspan="1">Age (year)</td><td rowspan="1" colspan="1">39.02 ± 13.84</td></tr><tr><td rowspan="1" colspan="1"> &lt; 40</td><td rowspan="1" colspan="1">53 (58.24%)</td></tr><tr><td rowspan="1" colspan="1"> 40–59</td><td rowspan="1" colspan="1">29 (31.87%)</td></tr><tr><td rowspan="1" colspan="1"> ≥ 60</td><td rowspan="1" colspan="1">9 (9.89%)</td></tr><tr><td rowspan="1" colspan="1">Height (cm)</td><td rowspan="1" colspan="1">168.22 ± 7.45</td></tr><tr><td rowspan="1" colspan="1">Weight (kg)</td><td rowspan="1" colspan="1">77.83 ± 18.09</td></tr><tr><td rowspan="1" colspan="1">BMI (kg/m<sup>2</sup>)</td><td rowspan="1" colspan="1">27.28 ± 5.12</td></tr><tr><td rowspan="1" colspan="1"> &lt; 20</td><td rowspan="1" colspan="1">12 (13.19%)</td></tr><tr><td rowspan="1" colspan="1"> 20–24.9</td><td rowspan="1" colspan="1">14 (15.38%)</td></tr><tr><td rowspan="1" colspan="1"> 25–29.9</td><td rowspan="1" colspan="1">37 (40.66%)</td></tr><tr><td rowspan="1" colspan="1"> ≥ 30</td><td rowspan="1" colspan="1">28 (30.77%)</td></tr><tr><td rowspan="1" colspan="1">Snoring</td><td rowspan="1" colspan="1"/></tr><tr><td rowspan="1" colspan="1"> None/Mild</td><td rowspan="1" colspan="1">33 (36.26%)</td></tr><tr><td rowspan="1" colspan="1"> Moderate</td><td rowspan="1" colspan="1">33 (36.26%)</td></tr><tr><td rowspan="1" colspan="1"> Severe</td><td rowspan="1" colspan="1">25 (27.47%)</td></tr><tr><td rowspan="1" colspan="1">ESS</td><td rowspan="1" colspan="1">7.30 ± 4.98</td></tr></tbody></table><table-wrap-foot><fn id="tfn0001"><p><citation_analysis attribute="positive"><bold>Abbreviations</bold></citation_analysis><citation_analysis attribute="neither">: BMI, body mass index; ESS, Epworth Sleepiness Scale.</citation_analysis></p></fn></table-wrap-foot></table-wrap></citation_analysis><citation_analysis attribute="positive">
+</citation_analysis></p>
+      <p><citation_analysis attribute="neither">Time in bed, sleeping time, awake time, sleep efficiency, wake, shallow sleep (non-REM stage 1 [N1] + non-REM stage 2 [N2]), deep sleep (non-REM stage 3 [N3]), REM sleep stage, AHI, and SPO</citation_analysis><citation_analysis attribute="positive"><sub>2</sub></citation_analysis><citation_analysis attribute="positive"> measured using SensEcho were compared to those from PSG (</citation_analysis><citation_analysis attribute="positive"><xref rid="t0002" ref-type="table">Table 2</xref></citation_analysis><citation_analysis attribute="neither"> and </citation_analysis><citation_analysis attribute="positive"><underline><ext-link xlink:href="https://www.dovepress.com/get_supplementary_file.php?f=406359.docx" ext-link-type="uri">Table S1</ext-link></underline></citation_analysis><citation_analysis attribute="positive">). There was no difference between the SensEcho and PSG in the time spent in bed (8.15 ± 1.06 versus [vs] 8.15 ± 1.07; P = 0.859), total sleep time (6.34 ± 1.40 vs 6.42 ± 1.28; P = 0.198), total wake time (1.73 ± 1.29 vs 1.82 ± 1.53; P = 0.182), and sleep efficiency (79.38 ± 14.39 vs 78.63 ± 16.56; P = 0.315). Results revealed that the wake (20.62 ± 14.39 vs 21.34 ± 16.54; P = 0.336), shallow sleep (69.96 ± 11.87 vs 69.09 ± 12.60; P = 0.297), deep sleep (16.12 ± 12.66 vs 16.62 ± 13.10; P = 0.422), and REM sleep (14.06 ± 7.33 vs 14.28 ± 7.74; P = 0.570) proportions of the participants have no difference between the measurements by SensEcho and those by PSG. A significant difference between the SensEcho and PSG in AHI &gt; 30 (33.70 ± 18.91 vs 47.21 ± 15.59; P = 0.000), but when 5 ≤ AHI ≤ 30, there was no difference between them. Whereas there were no significant differences in Mean SpO</citation_analysis><citation_analysis attribute="positive"><sub>2</sub></citation_analysis><citation_analysis attribute="neither">, Minimum SpO</citation_analysis><citation_analysis attribute="positive"><sub>2</sub></citation_analysis><citation_analysis attribute="neither">, and SpO</citation_analysis><citation_analysis attribute="positive"><sub>2</sub></citation_analysis><citation_analysis attribute="neither"> &lt; 90% between SensEcho and PSG.</citation_analysis><citation_analysis attribute="positive"><table-wrap position="float" id="t0002"><label>Table 2</label><caption><p><citation_analysis attribute="neither">Comparison of Sleep Stages and Respiratory Parameters Observed Using SensEcho and PSG</citation_analysis></p></caption><table frame="hsides" rules="groups"><thead><tr><th rowspan="1" colspan="1">Variables</th><th rowspan="1" colspan="1">SensEcho</th><th rowspan="1" colspan="1">PSG</th><th rowspan="1" colspan="1"><inline-formula id="ilm0001"><alternatives><inline-graphic xlink:href="NSS-15-353-e0001.jpg"/><tex-math id="Tex001">\documentclass[12pt]{minimal}
+\usepackage{wasysym}
+\usepackage[substack]{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage[mathscr]{eucal}
+\usepackage{mathrsfs}
+\DeclareFontFamily{T1}{linotext}{}
+\DeclareFontShape{T1}{linotext}{m}{n} {linotext }{}
+\DeclareSymbolFont{linotext}{T1}{linotext}{m}{n}
+\DeclareSymbolFontAlphabet{\mathLINOTEXT}{linotext}
+\begin{document}
+$\overline d\pm Sd$\end{document}</tex-math></alternatives></inline-formula></th><th rowspan="1" colspan="1">t</th><th rowspan="1" colspan="1"><italic toggle="yes">P</italic></th><th rowspan="1" colspan="1">Cohen’s D</th></tr></thead><tbody><tr><td rowspan="1" colspan="1">Time in bed (h)</td><td rowspan="1" colspan="1">8.15 ± 1.06</td><td rowspan="1" colspan="1">8.15 ± 1.07</td><td rowspan="1" colspan="1">–0.002 ± 0.08</td><td rowspan="1" colspan="1">–0.178</td><td rowspan="1" colspan="1">0.859</td><td rowspan="1" colspan="1">0.03</td></tr><tr><td rowspan="1" colspan="1">Total sleep time (h)</td><td rowspan="1" colspan="1">6.34 ± 1.40</td><td rowspan="1" colspan="1">6.42 ± 1.28</td><td rowspan="1" colspan="1">0.08 ± 0.61</td><td rowspan="1" colspan="1">1.298</td><td rowspan="1" colspan="1">0.198</td><td rowspan="1" colspan="1">0.13</td></tr><tr><td rowspan="1" colspan="1">Total wake time (h)</td><td rowspan="1" colspan="1">1.73 ± 1.29</td><td rowspan="1" colspan="1">1.82 ± 1.53</td><td rowspan="1" colspan="1">–0.08 ± 0.60</td><td rowspan="1" colspan="1">–1.345</td><td rowspan="1" colspan="1">0.182</td><td rowspan="1" colspan="1">0.13</td></tr><tr><td rowspan="1" colspan="1">Sleep efficiency (%)</td><td rowspan="1" colspan="1">79.38 ± 14.39</td><td rowspan="1" colspan="1">78.63 ± 16.56</td><td rowspan="1" colspan="1">0.75 ± 7.11</td><td rowspan="1" colspan="1">1.011</td><td rowspan="1" colspan="1">0.315</td><td rowspan="1" colspan="1">0.11</td></tr><tr><td rowspan="1" colspan="1">Wake (%)</td><td rowspan="1" colspan="1">20.62 ±14.39</td><td rowspan="1" colspan="1">21.34 ± 16.54</td><td rowspan="1" colspan="1">–0.72 ± 7.12</td><td rowspan="1" colspan="1">–0.967</td><td rowspan="1" colspan="1">0.336</td><td rowspan="1" colspan="1">0.10</td></tr><tr><td rowspan="1" colspan="1">Shallow sleep (%)</td><td rowspan="1" colspan="1">69.96 ± 11.87</td><td rowspan="1" colspan="1">69.09 ± 12.60</td><td rowspan="1" colspan="1">0.87 ± 7.92</td><td rowspan="1" colspan="1">1.048</td><td rowspan="1" colspan="1">0.297</td><td rowspan="1" colspan="1">0.11</td></tr><tr><td rowspan="1" colspan="1">Deep sleep (%)</td><td rowspan="1" colspan="1">16.12 ± 12.66</td><td rowspan="1" colspan="1">16.62 ± 13.10</td><td rowspan="1" colspan="1">–0.50 ± 5.93</td><td rowspan="1" colspan="1">–0.806</td><td rowspan="1" colspan="1">0.422</td><td rowspan="1" colspan="1">0.08</td></tr><tr><td rowspan="1" colspan="1">REM sleep (%)</td><td rowspan="1" colspan="1">14.06 ± 7.33</td><td rowspan="1" colspan="1">14.28 ± 7.74</td><td rowspan="1" colspan="1">–0.22 ± 3.66</td><td rowspan="1" colspan="1">–0.570</td><td rowspan="1" colspan="1">0.570</td><td rowspan="1" colspan="1">0.06</td></tr><tr><td rowspan="1" colspan="1">AHI (events/h)</td><td rowspan="1" colspan="1">12.05 ± 15.11</td><td rowspan="1" colspan="1">14.51 ± 17.87</td><td rowspan="1" colspan="1">–2.46 ± 8.29</td><td rowspan="1" colspan="1">–2.830</td><td rowspan="1" colspan="1">0.006</td><td rowspan="1" colspan="1">0.30</td></tr><tr><td rowspan="1" colspan="1"> 5–15</td><td rowspan="1" colspan="1">8.05 ± 6.12</td><td rowspan="1" colspan="1">8.16 ± 2.08</td><td rowspan="1" colspan="1">–0.11 ± 6.74</td><td rowspan="1" colspan="1">–0.075</td><td rowspan="1" colspan="1">0.941</td><td rowspan="1" colspan="1">0.02</td></tr><tr><td rowspan="1" colspan="1"> &gt; 15–30</td><td rowspan="1" colspan="1">19.32 ± 11.42</td><td rowspan="1" colspan="1">21.09 ± 3.86</td><td rowspan="1" colspan="1">–1.77 ± 9.21</td><td rowspan="1" colspan="1">–0.746</td><td rowspan="1" colspan="1">0.468</td><td rowspan="1" colspan="1">0.19</td></tr><tr><td rowspan="1" colspan="1"> &gt; 30</td><td rowspan="1" colspan="1">33.70 ± 18.91</td><td rowspan="1" colspan="1">47.21 ± 15.59</td><td rowspan="1" colspan="1">–13.51 ± 9.33</td><td rowspan="1" colspan="1">–5.789</td><td rowspan="1" colspan="1">0.000</td><td rowspan="1" colspan="1">1.45</td></tr><tr><td rowspan="1" colspan="1">Obstructive respiratory events</td><td rowspan="1" colspan="1">57.78 ± 64.00</td><td rowspan="1" colspan="1">29.05 ± 65.32</td><td rowspan="1" colspan="1">28.73 ± 48.29</td><td rowspan="1" colspan="1">5.675</td><td rowspan="1" colspan="1">&lt;0.001</td><td rowspan="1" colspan="1">0.59</td></tr><tr><td rowspan="1" colspan="1">Hypopnea count</td><td rowspan="1" colspan="1">14.02 ± 36.05</td><td rowspan="1" colspan="1">51.37 ± 58.75</td><td rowspan="1" colspan="1">–37.35 ± 54.50</td><td rowspan="1" colspan="1">–6.538</td><td rowspan="1" colspan="1">&lt;0.001</td><td rowspan="1" colspan="1">0.69</td></tr><tr><td rowspan="1" colspan="1">Total respiratory events</td><td rowspan="1" colspan="1">71.68 ± 87.62</td><td rowspan="1" colspan="1">83.90 ± 107.73</td><td rowspan="1" colspan="1">–12.22 ± 53.29</td><td rowspan="1" colspan="1">–2.188</td><td rowspan="1" colspan="1">0.031</td><td rowspan="1" colspan="1">0.23</td></tr><tr><td rowspan="1" colspan="1">Longest apnea time (s)</td><td rowspan="1" colspan="1">75.73 ± 43.44</td><td rowspan="1" colspan="1">51.93 ± 29.80</td><td rowspan="1" colspan="1">23.81 ± 41.41</td><td rowspan="1" colspan="1">5.484</td><td rowspan="1" colspan="1">&lt;0.001</td><td rowspan="1" colspan="1">0.57</td></tr><tr><td rowspan="1" colspan="1">Mean SpO<sub>2</sub> (%)</td><td rowspan="1" colspan="1">95.53 ± 1.58</td><td rowspan="1" colspan="1">95.68± 1.58</td><td rowspan="1" colspan="1">–0.53 ± 3.84</td><td rowspan="1" colspan="1">–1.310</td><td rowspan="1" colspan="1">0.194</td><td rowspan="1" colspan="1">0.14</td></tr><tr><td rowspan="1" colspan="1">Minimum SpO<sub>2</sub> (%)</td><td rowspan="1" colspan="1">85.73 ± 6.62</td><td rowspan="1" colspan="1">86.25 ± 7.38</td><td rowspan="1" colspan="1">–0.09 ± 1.27</td><td rowspan="1" colspan="1">–0.660</td><td rowspan="1" colspan="1">0.511</td><td rowspan="1" colspan="1">0.07</td></tr><tr><td rowspan="1" colspan="1">SpO<sub>2</sub> &lt; 90% (min)</td><td rowspan="1" colspan="1">11.55 ± 26.88</td><td rowspan="1" colspan="1">11.43 ± 24.42</td><td rowspan="1" colspan="1">0.12 ± 18.19</td><td rowspan="1" colspan="1">0.063</td><td rowspan="1" colspan="1">0.950</td><td rowspan="1" colspan="1">0.01</td></tr></tbody></table><table-wrap-foot><fn id="tfn0002"><p><citation_analysis attribute="positive"><bold>Abbreviations</bold></citation_analysis><citation_analysis attribute="neither">: REM, rapid eye movement; AHI, apnea-hypopnea index; PSG, polysomnography; SpO</citation_analysis><citation_analysis attribute="positive"><sub>2</sub></citation_analysis><citation_analysis attribute="neither">, percutaneous oxygen saturation; h, hour; min, minute; s, second; %, percentage.</citation_analysis></p></fn></table-wrap-foot></table-wrap></citation_analysis><citation_analysis attribute="positive">
+</citation_analysis></p>
+      <p><citation_analysis attribute="positive">As shown in </citation_analysis><citation_analysis attribute="positive"><xref rid="f0002" ref-type="fig">Figure 2</xref></citation_analysis><citation_analysis attribute="neither">, a high degree of correlation between the recordings from SensEcho and PSG was found for the following measures: sleep efficiency (r = 0.917; P &lt; 0.001); wake (r = 0.917; P &lt; 0.001), shallow sleep (r = 0.792; P &lt; 0.001), deep sleep (r = 0.895; P &lt; 0.001), and REM sleep (r = 0.883; P &lt; 0.001) proportions; and AHI (r = 0.887; P &lt; 0.001). Bland-Altman analysis showed a mean difference of –0.01 (95% confidence interval, –0.14 to 0.12; </citation_analysis><citation_analysis attribute="positive"><xref rid="f0003" ref-type="fig">Figure 3A</xref></citation_analysis><citation_analysis attribute="neither">) for sleep efficiency, 0.01 (95% confidence interval, –0.12 to 0.13; </citation_analysis><citation_analysis attribute="positive"><xref rid="f0003" ref-type="fig">Figure 3B</xref></citation_analysis><citation_analysis attribute="neither">) for wake, –0.01 (95% confidence interval, –0.016 to 0.15; </citation_analysis><citation_analysis attribute="positive"><xref rid="f0003" ref-type="fig">Figure 3C</xref></citation_analysis><citation_analysis attribute="neither">) for shallow sleep, 0.01 (95% confidence interval, –0.11 to 0.12; </citation_analysis><citation_analysis attribute="positive"><xref rid="f0003" ref-type="fig">Figure 3D</xref></citation_analysis><citation_analysis attribute="neither">) for deep sleep, 0.002 (95% confidence interval, –0.07 to 0.07; </citation_analysis><citation_analysis attribute="positive"><xref rid="f0003" ref-type="fig">Figure 3E</xref></citation_analysis><citation_analysis attribute="neither">) for REM sleep, and 2.46 (95% confidence interval, –13.79 to 18.71; </citation_analysis><citation_analysis attribute="positive"><xref rid="f0003" ref-type="fig">Figure 3F</xref></citation_analysis><citation_analysis attribute="neither">) for AHI, between recordings from SensEcho and PSG. Respectively, after the calculations, 95.6%, 95.6%, 95.6%, 96.7%, and 98.9% points were settled in the limits of coincidence and its 95% confidence interval, which indicated a high level of coincidence between SensEcho and PSG measures for overall sleep efficiency, wake, shallow sleep, deep sleep, and REM sleep, except for AHI (93.4%).</citation_analysis><citation_analysis attribute="positive"><fig position="float" id="f0002" fig-type="figure"><label>Figure 2</label><caption><p><citation_analysis attribute="neither">Compare the relevance between manually edited parameters on SensEcho recording and PSG. ((</citation_analysis><citation_analysis attribute="positive"><bold>A</bold></citation_analysis><citation_analysis attribute="neither">) Scatterplot of sleep efficiency on SensEcho compared to PSG; (</citation_analysis><citation_analysis attribute="positive"><bold>B</bold></citation_analysis><citation_analysis attribute="neither">) Scatterplot of wake on SensEcho compared to PSG; (</citation_analysis><citation_analysis attribute="positive"><bold>C</bold></citation_analysis><citation_analysis attribute="neither">) Scatterplot of shallow sleep on SensEcho compared to PSG; (</citation_analysis><citation_analysis attribute="positive"><bold>D</bold></citation_analysis><citation_analysis attribute="neither">) Scatterplot of deep sleep on SensEcho compared to PSG; (</citation_analysis><citation_analysis attribute="positive"><bold>E</bold></citation_analysis><citation_analysis attribute="neither">) Scatterplot of REM sleep on SensEcho compared to PSG; (</citation_analysis><citation_analysis attribute="positive"><bold>F</bold></citation_analysis><citation_analysis attribute="neither">) Scatterplot of AHI on SensEcho compared to PSG).</citation_analysis></p></caption><graphic xlink:href="NSS-15-353-g0002" content-type="print-only" position="float"/><attrib><bold>Abbreviations</bold>: PSG, polysomnography; REM, rapid eye movement; AHI, apnea-hypopnea index.</attrib></fig></citation_analysis><citation_analysis attribute="positive"><fig position="float" id="f0003" fig-type="figure"><label>Figure 3</label><caption><p><citation_analysis attribute="neither">Compare the coherence between manually edited parameters on SensEcho recording and PSG. ((</citation_analysis><citation_analysis attribute="positive"><bold>A</bold></citation_analysis><citation_analysis attribute="neither">) Bland-Altman plot of sleep efficiency on SensEcho compared to PSG; (</citation_analysis><citation_analysis attribute="positive"><bold>B</bold></citation_analysis><citation_analysis attribute="neither">) Bland-Altman plot of wake on SensEcho compared to PSG; (</citation_analysis><citation_analysis attribute="positive"><bold>C</bold></citation_analysis><citation_analysis attribute="neither">) Bland-Altman plot of shallow sleep on SensEcho compared to PSG; (</citation_analysis><citation_analysis attribute="positive"><bold>D</bold></citation_analysis><citation_analysis attribute="neither">) Bland-Altman plot of deep sleep on SensEcho compared to PSG; (</citation_analysis><citation_analysis attribute="positive"><bold>E</bold></citation_analysis><citation_analysis attribute="neither">) Bland-Altman plot of REM sleep on SensEcho compared to PSG; (</citation_analysis><citation_analysis attribute="positive"><bold>F</bold></citation_analysis><citation_analysis attribute="neither">) Bland-Altman plot of AHI on SensEcho compared to PSG).</citation_analysis></p></caption><graphic xlink:href="NSS-15-353-g0003" content-type="print-only" position="float"/><attrib><bold>Abbreviations</bold>: PSG, polysomnography; AHI, apnea-hypopnea index; SD, standard deviation.</attrib></fig></citation_analysis></p>
+      <p><citation_analysis attribute="positive"><xref rid="t0003" ref-type="table">Table 3</xref></citation_analysis><citation_analysis attribute="neither"> shows the comparisons of the diagnostic characteristics of SensEcho AHI based on the cutoff value of PSG AHI with variable severity criteria at 5, 15, and 30 events/h. </citation_analysis><citation_analysis attribute="positive"><xref rid="f0004" ref-type="fig">Figure 4</xref></citation_analysis><citation_analysis attribute="positive"> shows the corresponding ROC curves. With an AHI cutoff of ≥ 5 events/h, SensEcho recording had 82.69% sensitivity, 89.74% specificity, and an AUC of 0.922. Almost the same results were obtained at an AHI threshold of ≥ 15 events/h. Although the specificity increased to 94.67% and the AUC increased to 0.936, the specificity decreased to 43.75% at an AHI cut-off of ≥ 30 events/h. According to the PSG diagnostic criterion of AHI &gt; 5 events/h, the appropriate diagnostic cutoff value of SensEcho was 4.8 events/h, whose sensitivity is 84.62% and specificity is 89.75%. For moderate to severe OSA (AHI &gt; 15 events/h), the SensEcho cut-off was 11.2 events/h, sensitivity was 87.10%, and specificity was 88.34%, as shown in </citation_analysis><citation_analysis attribute="positive"><xref rid="t0004" ref-type="table">Table 4</xref></citation_analysis><citation_analysis attribute="neither">.</citation_analysis><citation_analysis attribute="positive"><table-wrap position="float" id="t0003"><label>Table 3</label><caption><p><citation_analysis attribute="neither">Prevalence, Sensitivity, Specificity, PPV, and NPV for Different Cutoff of the SensEcho Recording vs PSG</citation_analysis></p></caption><table frame="hsides" rules="groups"><thead><tr><th rowspan="2" colspan="1">AHI (Events/h)</th><th rowspan="2" colspan="1">Prevalence (%)</th><th rowspan="2" colspan="1">Sensitivity (%)</th><th colspan="2" rowspan="1">Exact 95% CI</th><th rowspan="2" colspan="1">Specificity (%)</th><th colspan="2" rowspan="1">Exact 95% CI</th><th rowspan="2" colspan="1">PPV (%)</th><th rowspan="2" colspan="1">NPV (%)</th></tr><tr><th rowspan="1" colspan="1">LB</th><th rowspan="1" colspan="1">UB</th><th rowspan="1" colspan="1">LB</th><th rowspan="1" colspan="1">UB</th></tr></thead><tbody><tr><td rowspan="1" colspan="1">≥ 5</td><td rowspan="1" colspan="1">57.14</td><td rowspan="1" colspan="1">82.69</td><td rowspan="1" colspan="1">69.18</td><td rowspan="1" colspan="1">91.31</td><td rowspan="1" colspan="1">89.74</td><td rowspan="1" colspan="1">74.84</td><td rowspan="1" colspan="1">96.66</td><td rowspan="1" colspan="1">91.48</td><td rowspan="1" colspan="1">79.54</td></tr><tr><td rowspan="1" colspan="1">≥ 15</td><td rowspan="1" colspan="1">31.87</td><td rowspan="1" colspan="1">79.31</td><td rowspan="1" colspan="1">59.74</td><td rowspan="1" colspan="1">91.29</td><td rowspan="1" colspan="1">87.10</td><td rowspan="1" colspan="1">75.60</td><td rowspan="1" colspan="1">93.87</td><td rowspan="1" colspan="1">74.19</td><td rowspan="1" colspan="1">90.00</td></tr><tr><td rowspan="1" colspan="1">≥ 30</td><td rowspan="1" colspan="1">17.58</td><td rowspan="1" colspan="1">43.75</td><td rowspan="1" colspan="1">20.75</td><td rowspan="1" colspan="1">69.45</td><td rowspan="1" colspan="1">94.67</td><td rowspan="1" colspan="1">86.19</td><td rowspan="1" colspan="1">98.28</td><td rowspan="1" colspan="1">63.64</td><td rowspan="1" colspan="1">88.75</td></tr></tbody></table><table-wrap-foot><fn id="tfn0003"><p><citation_analysis attribute="positive"><bold>Abbreviations</bold></citation_analysis><citation_analysis attribute="positive">: AHI, apnea-hypopnea index; CI, confidence interval; LB, lower bound; UB, upper bound; PPV, positive predictive value; NPV, negative predictive value.</citation_analysis></p></fn></table-wrap-foot></table-wrap></citation_analysis><citation_analysis attribute="positive">
+</citation_analysis><citation_analysis attribute="positive"><table-wrap position="float" id="t0004"><label>Table 4</label><caption><p><citation_analysis attribute="neither">Best Cutoffs for Different OSA Severity</citation_analysis></p></caption><table frame="hsides" rules="groups"><thead><tr><th rowspan="1" colspan="1">AHI (Events/h)</th><th rowspan="1" colspan="1">SensEcho Cutoff (Events/h)</th><th rowspan="1" colspan="1">AUC</th><th rowspan="1" colspan="1">Sensitivity (%)</th><th rowspan="1" colspan="1">Specificity (%)</th><th rowspan="1" colspan="1">PPV (%)</th><th rowspan="1" colspan="1">NPV (%)</th></tr></thead><tbody><tr><td rowspan="1" colspan="1">≥ 5</td><td rowspan="1" colspan="1">4.8</td><td rowspan="1" colspan="1">0.922</td><td rowspan="1" colspan="1">84.62</td><td rowspan="1" colspan="1">89.75</td><td rowspan="1" colspan="1">84.62</td><td rowspan="1" colspan="1">89.74</td></tr><tr><td rowspan="1" colspan="1">≥ 15</td><td rowspan="1" colspan="1">11.2</td><td rowspan="1" colspan="1">0.949</td><td rowspan="1" colspan="1">87.10</td><td rowspan="1" colspan="1">88.34</td><td rowspan="1" colspan="1">86.67</td><td rowspan="1" colspan="1">86.89</td></tr><tr><td rowspan="1" colspan="1">≥ 30</td><td rowspan="1" colspan="1">17.7</td><td rowspan="1" colspan="1">0.936</td><td rowspan="1" colspan="1">87.50</td><td rowspan="1" colspan="1">89.34</td><td rowspan="1" colspan="1">87.50</td><td rowspan="1" colspan="1">87.67</td></tr></tbody></table><table-wrap-foot><fn id="tfn0004"><p><citation_analysis attribute="positive"><bold>Abbreviations</bold></citation_analysis><citation_analysis attribute="positive">: AHI, apnea-hypopnea index; AUC, area under the curve; PPV, positive predictive value; NPV, negative predictive value.</citation_analysis></p></fn></table-wrap-foot></table-wrap></citation_analysis><citation_analysis attribute="positive">
+</citation_analysis><citation_analysis attribute="positive"><fig position="float" id="f0004" fig-type="figure"><label>Figure 4</label><caption><p><citation_analysis attribute="neither">Receiver operating characteristic curves for the SensEcho estimated AHI vs PSG AHI.</citation_analysis></p></caption><graphic xlink:href="NSS-15-353-g0004" content-type="print-only" position="float"/><attrib><bold>Abbreviations</bold>: AHI, apnea-hypopnea index; AUC, area under the curve.</attrib></fig></citation_analysis></p>
+    </sec>
+    <sec id="s0004">
+      <title>Discussion</title>
+      <p><citation_analysis attribute="positive">This study is a clinical validation study for measuring the sleep stages and presence of obstructive events using a wearable vest multi-sensor system, SensEcho, which compared the data to simultaneously obtained PSG information. In the present study, specific variations in the accuracy, sensitivity, and specificity values were characterized. Overall, SensEcho has good accuracy in distinguishing sleep or wakefulness and for monitoring sleep stages. The total sleeping time, total awake time, shallow sleep, deep sleep, REM sleep, and wakefulness were consistent with the manual mapping of the PSG. Although SensEcho had a good correlation with PSG in the diagnosis of AHI, the consistency was unsatisfactory. SensEcho has high specificity for OSA screening. When AHI was ≥ 5 and ≥ 15, the sensitivity was good. When AHI was ≥ 30, the sensitivity was poor. SensEcho has a relatively good negative predictive value (NPV) for OSA but a poor positive predictive value (PPV), especially when AHI ≥ 30. This may be due to the fact that the proportion of health testers in the training set is more than that of patients with severe OSA, so the accuracy for AHI scores greater than 30 decreases. According to this study, the AHI correction thresholds for screening OSA using SensEcho were mild OSA, ≥ 4.8; moderate OSA, ≥ 11.2; and severe OSA, ≥ 17.7.</citation_analysis></p>
+      <p><citation_analysis attribute="neither">The SensEcho was designed to detect participants’ ECG, respiratory movement, SpO</citation_analysis><citation_analysis attribute="positive"><sub>2</sub></citation_analysis><citation_analysis attribute="positive">, body motion, and posture, as well as to use a specific algorithm to obtain the sleep status and sleep-related respiratory indicators of the subjects. In terms of sleep staging, the SensEcho used in this study had better results than similar devices used in most previous studies. For example, the partial-PSG system used in previous studies included Zeo (Newton, MA, USA).</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0028" ref-type="bibr">28</xref></citation_analysis><citation_analysis attribute="neither">,</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0029" ref-type="bibr">29</xref></citation_analysis><citation_analysis attribute="neither"> The Zeo system can provide convincing sleep scoring for REM sleep and light and deep sleep. However, the system could not correctly detect the wake periods. In another study conducted with non-contact radar technology, Somnofy (VitalThings AS, Norway) found the sensitivity was 0.97 and specificity was 0.72, respectively. Sleeping stage differentiation for Somnofy was 0.75 for N1/N2, 0.74 for N3, and 0.78 for REM.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0030" ref-type="bibr">30</xref></citation_analysis><citation_analysis attribute="neither"> Wrist actigraphy cannot distinguish sleep stages but can simply distinguish between sleep and wakefulness.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0004" ref-type="bibr">4</xref></citation_analysis><citation_analysis attribute="negative"> Therefore, SensEcho has greater advantage over wrist actigraphy due to its ability to differentiate sleep stages. However, it should be noted that SensEcho training model has extracted features from ECG and respiratory signals, a large part of which was heart rate variability (HRV), and the HRV characteristic parameters of patients with severe arrhythmia were relatively different from normal people, and there were many statistical deviations. Our model training set is mainly composed of non-arrhythmia testers, so sleep staging is less effective for patients with severe arrhythmias. In terms of respiratory monitoring, SensEcho is slightly inferior to other portable devices that can monitor respiratory function, such as OrbSense (Megahealth Medical, Inc., Zhejiang, China). Central sleep apnea (CSA) mainly manifests as repeated interruptions or weakening of respiratory airflow and ventilation during sleep, often related to other medical problems, especially heart failure, stroke, and the use of opioid drugs. SensEcho uses chest and abdominal breathing signals to estimate respiratory airflow, but there is little confidence in the judgment of CSA. Therefore, SensEcho currently can not detect CSA precisely. This monitoring equipment also has good sensitivity and specificity when AHI is ≥ 30.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0031" ref-type="bibr">31</xref></citation_analysis><citation_analysis attribute="neither"> SensEcho is superior to wrist actigraphy in terms of respiration; as wrist actigraphy has no blood oxygen and respiratory indicators, it is unable to screen for OSA.</citation_analysis></p>
+      <p><citation_analysis attribute="neither">One advantage of the SensEcho is its design as a sleeping monitoring vest, without head and leg electrodes and nasal airflow tubes connected to the patient. This factor greatly reduces the impact on patients’ sleep and may allow for relatively natural sleep than in the traditional setup. In addition, it needs fewer settings, so it is possible to easily test sleep-related breathing disorders at home, which helps in outpatient diagnosis and expands the diagnostic capabilities. Once again, SensEcho is unobtrusive and can be worn throughout the day for over a week. This makes SensEcho more conducive to the long-term monitoring of patterns in sleeping rhythm.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0032" ref-type="bibr">32</xref></citation_analysis><citation_analysis attribute="neither">,</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0033" ref-type="bibr">33</xref></citation_analysis></p>
+      <p><citation_analysis attribute="negative">This study has a few limitations. First of all, it was performed in a laboratory rather than in a home environment. There are some chances for SensEcho to behave differently in the home environment. Second, the current research focuses on ethnically Han patients with a low body mass index; therefore, the current research results are limited with regards to other populations. Finally, the overall AHI of the participants was low, and the recognition rate of SensEcho in patients with AHI ≥ 30 was poor. Therefore, in the future, it will be helpful to employ machine learning techniques to the database to improve the recognition rate of AHI equipment.</citation_analysis></p>
+    </sec>
+    <sec id="s0005">
+      <title>Conclusions</title>
+      <p><citation_analysis attribute="positive">This study demonstrated the application of SensEcho as a portable monitoring device in the laboratory to evaluate sleep staging and detect sleep apnea in patients with suspicious OSA. The system may help with evaluating sleep status and screen for OSA in different settings. However, it is necessary to further improve the accuracy of its assessment of severe OSA and test its effectiveness in community and home environments.</citation_analysis></p>
+    </sec>
+  </body>
+  <back>
+    <ack>
+      <title>Acknowledgments</title>
+      <p><citation_analysis attribute="neither">We would like to thank Editage (</citation_analysis><citation_analysis attribute="positive"><underline><ext-link xlink:href="http://www.editage.cn" ext-link-type="uri">www.editage.cn</ext-link></underline></citation_analysis><citation_analysis attribute="neither">) for English language editing.</citation_analysis></p>
+    </ack>
+    <sec sec-type="data-availability" id="s0006">
+      <title>Data Sharing Statement</title>
+      <p><citation_analysis attribute="positive">The data that support the findings of this study are available from the corresponding author upon reasonable request.</citation_analysis></p>
+    </sec>
+    <sec id="s0007">
+      <title>Ethics Approval and Consent to Participate</title>
+      <p><citation_analysis attribute="neither">This study was approved by the Ethics Committee of Beijing Huilongguan Hospital and we made sure that each participant had signed written informed consent.</citation_analysis></p>
+    </sec>
+    <sec sec-type="COI-statement" id="s0008">
+      <title>Disclosure</title>
+      <p><citation_analysis attribute="neither">The authors report no conflicts of interest in this work.</citation_analysis></p>
+    </sec>
+    <ref-list>
+      <title>References</title>
+      <ref id="cit0001">
+        <label>1.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Abad</surname>
+<given-names>VC</given-names></string-name>, <string-name><surname>Guilleminault</surname>
+<given-names>C</given-names></string-name>. <article-title>Diagnosis and treatment of sleep disorders: a brief review for clinicians</article-title>. <source><italic toggle="yes">Dialogues Clin Neurosci</italic></source>. <year>2003</year>;<volume>5</volume>(<issue>4</issue>):<fpage>371</fpage>–<lpage>388</lpage>. doi:<pub-id pub-id-type="doi">10.31887/DCNS.2003.5.4/vabad</pub-id><pub-id pub-id-type="pmid">22033666</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0002">
+        <label>2.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Zhou</surname>
+<given-names>SJ</given-names></string-name>, <string-name><surname>Wang</surname>
+<given-names>LL</given-names></string-name>, <string-name><surname>Yang</surname>
+<given-names>R</given-names></string-name>, et al. <article-title>Sleep problems among Chinese adolescents and young adults during the coronavirus-2019 pandemic</article-title>. <source><italic toggle="yes">Sleep Med</italic></source>. <year>2020</year>;<volume>74</volume>:<fpage>39</fpage>–<lpage>47</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.sleep.2020.06.001</pub-id><pub-id pub-id-type="pmid">32836185</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0003">
+        <label>3.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Smith</surname>
+<given-names>MT</given-names></string-name>, <string-name><surname>McCrae</surname>
+<given-names>CS</given-names></string-name>, <string-name><surname>Cheung</surname>
+<given-names>J</given-names></string-name>, et al. <article-title>Use of actigraphy for the evaluation of sleep disorders and circadian rhythm sleep-wake disorders: an American academy of sleep medicine systematic review, meta-analysis, and GRADE assessment</article-title>. <source><italic toggle="yes">JCSM</italic></source>. <year>2018</year>;<volume>14</volume>(<issue>7</issue>):<fpage>1209</fpage>–<lpage>1230</lpage>. doi:<pub-id pub-id-type="doi">10.5664/jcsm.7228</pub-id><pub-id pub-id-type="pmid">29991438</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0004">
+        <label>4.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Marino</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Li</surname>
+<given-names>Y</given-names></string-name>, <string-name><surname>Rueschman</surname>
+<given-names>MN</given-names></string-name>, et al. <article-title>Measuring sleep: accuracy, sensitivity, and specificity of wrist actigraphy compared to polysomnography</article-title>. <source><italic toggle="yes">Sleep</italic></source>. <year>2013</year>;<volume>36</volume>(<issue>11</issue>):<fpage>1747</fpage>–<lpage>1755</lpage>. doi:<pub-id pub-id-type="doi">10.5665/sleep.3142</pub-id><pub-id pub-id-type="pmid">24179309</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0005">
+        <label>5.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Rundo</surname>
+<given-names>JV</given-names></string-name>, <string-name><surname>Downey</surname>
+<given-names>R</given-names>
+<suffix>3rd</suffix></string-name>. <article-title>Polysomnography</article-title>. <source><italic toggle="yes">Handb Clin Neurol</italic></source>. <year>2019</year>;<volume>160</volume>:<fpage>381</fpage>–<lpage>392</lpage>. doi:<pub-id pub-id-type="doi">10.1016/b978-0-444-64032-1.00025-4</pub-id><pub-id pub-id-type="pmid">31277862</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0006">
+        <label>6.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Hirshkowitz</surname>
+<given-names>M</given-names></string-name>. <article-title>Polysomnography challenges</article-title>. <source><italic toggle="yes">Sleep Med Clin</italic></source>. <year>2016</year>;<volume>11</volume>(<issue>4</issue>):<fpage>403</fpage>–<lpage>411</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.jsmc.2016.07.002</pub-id><pub-id pub-id-type="pmid">28118865</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0007">
+        <label>7.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Thomas</surname>
+<given-names>RJ</given-names></string-name>, <string-name><surname>Mietus</surname>
+<given-names>JE</given-names></string-name>, <string-name><surname>Peng</surname>
+<given-names>CK</given-names></string-name>, <string-name><surname>Goldberger</surname>
+<given-names>AL</given-names></string-name>. <article-title>An electrocardiogram-based technique to assess cardiopulmonary coupling during sleep</article-title>. <source><italic toggle="yes">Sleep</italic></source>. <year>2005</year>;<volume>28</volume>(<issue>9</issue>):<fpage>1151</fpage>–<lpage>1161</lpage>. doi:<pub-id pub-id-type="doi">10.1093/sleep/28.9.1151</pub-id><pub-id pub-id-type="pmid">16268385</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0008">
+        <label>8.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Sun</surname>
+<given-names>BB</given-names></string-name>, <string-name><surname>Cao</surname>
+<given-names>F</given-names></string-name>, <string-name><surname>Wang</surname>
+<given-names>Z</given-names></string-name>, <string-name><surname>Xi</surname>
+<given-names>F</given-names></string-name>, <string-name><surname>Yan</surname>
+<given-names>XW</given-names></string-name>, <string-name><surname>Ma</surname>
+<given-names>LJ</given-names></string-name>. <article-title>Application of bracelet oximetry in the diagnosis of obstructive sleep apnea hypopnea syndrome</article-title>. <source><italic toggle="yes">J Chin Pract Diag Ther</italic></source>. <year>2017</year>;<volume>31</volume>(<issue>10</issue>):<fpage>975</fpage>–<lpage>978</lpage>.</mixed-citation>
+      </ref>
+      <ref id="cit0009">
+        <label>9.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Camargos</surname>
+<given-names>EF</given-names></string-name>, <string-name><surname>Louzada</surname>
+<given-names>FM</given-names></string-name>, <string-name><surname>Nóbrega</surname>
+<given-names>OT</given-names></string-name>. <article-title>Wrist actigraphy for measuring sleep in intervention studies with Alzheimer’s disease patients: application, usefulness, and challenges</article-title>. <source><italic toggle="yes">Sleep Med Rev</italic></source>. <year>2013</year>;<volume>17</volume>(<issue>6</issue>):<fpage>475</fpage>–<lpage>488</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.smrv.2013.01.006</pub-id><pub-id pub-id-type="pmid">23669093</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0010">
+        <label>10.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Widome</surname>
+<given-names>R</given-names></string-name>, <string-name><surname>Berger</surname>
+<given-names>AT</given-names></string-name>, <string-name><surname>Iber</surname>
+<given-names>C</given-names></string-name>, et al. <article-title>Association of delaying school start time with sleep duration, timing, and quality among adolescents</article-title>. <source><italic toggle="yes">JAMA Pediatr</italic></source>. <year>2020</year>;<volume>174</volume>(<issue>7</issue>):<fpage>697</fpage>–<lpage>704</lpage>. doi:<pub-id pub-id-type="doi">10.1001/jamapediatrics.2020.0344</pub-id><pub-id pub-id-type="pmid">32338727</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0011">
+        <label>11.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Qazi</surname>
+<given-names>T</given-names></string-name>, <string-name><surname>Smith</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Alexander</surname>
+<given-names>M</given-names></string-name>, et al. <article-title>Disparities in objective sleep quality as assessed through wrist actigraphy in minority patients with inflammatory bowel disease</article-title>. <source><italic toggle="yes">Inflamm Bowel Dis</italic></source>. <year>2021</year>;<volume>27</volume>(<issue>3</issue>):<fpage>371</fpage>–<lpage>378</lpage>. doi:<pub-id pub-id-type="doi">10.1093/ibd/izaa106</pub-id><pub-id pub-id-type="pmid">32448906</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0012">
+        <label>12.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Teti</surname>
+<given-names>DM</given-names></string-name>, <string-name><surname>Whitesell</surname>
+<given-names>CJ</given-names></string-name>, <string-name><surname>Mogle</surname>
+<given-names>JA</given-names></string-name>, et al. <article-title>Sleep duration and kindergarten adjustment</article-title>. <source><italic toggle="yes">Pediatrics</italic></source>. <year>2022</year>;<volume>150</volume>(<issue>2</issue>). doi:<pub-id pub-id-type="doi">10.1542/peds.2021-054362</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0013">
+        <label>13.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Quante</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Kaplan</surname>
+<given-names>ER</given-names></string-name>, <string-name><surname>Cailler</surname>
+<given-names>M</given-names></string-name>, et al. <article-title>Actigraphy-based sleep estimation in adolescents and adults: a comparison with polysomnography using two scoring algorithms</article-title>. <source><italic toggle="yes">Nat Sci Sleep</italic></source>. <year>2018</year>;<volume>10</volume>:<fpage>13</fpage>–<lpage>20</lpage>. doi:<pub-id pub-id-type="doi">10.2147/nss.S151085</pub-id><pub-id pub-id-type="pmid">29403321</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0014">
+        <label>14.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Martin</surname>
+<given-names>JL</given-names></string-name>, <string-name><surname>Hakim</surname>
+<given-names>AD</given-names></string-name>. <article-title>Wrist actigraphy</article-title>. <source><italic toggle="yes">Chest</italic></source>. <year>2011</year>;<volume>139</volume>(<issue>6</issue>):<fpage>1514</fpage>–<lpage>1527</lpage>. doi:<pub-id pub-id-type="doi">10.1378/chest.10-1872</pub-id><pub-id pub-id-type="pmid">21652563</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0015">
+        <label>15.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Arora</surname>
+<given-names>T</given-names></string-name>, <string-name><surname>Omar</surname>
+<given-names>OM</given-names></string-name>, <string-name><surname>Taheri</surname>
+<given-names>S</given-names></string-name>. <article-title>Assessment for the possibility of a first night effect for wrist actigraphy in adolescents</article-title>. <source><italic toggle="yes">BMJ open</italic></source>. <year>2016</year>;<volume>6</volume>(<issue>10</issue>):<fpage>e012172</fpage>. doi:<pub-id pub-id-type="doi">10.1136/bmjopen-2016-012172</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0016">
+        <label>16.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Wang</surname>
+<given-names>H</given-names></string-name>, <string-name><surname>He</surname>
+<given-names>L</given-names></string-name>, <string-name><surname>Gao</surname>
+<given-names>Y</given-names></string-name>, <string-name><surname>Gao</surname>
+<given-names>X</given-names></string-name>, <string-name><surname>Lei</surname>
+<given-names>X</given-names></string-name>. <article-title>Effects of physical activity and sleep quality on well-being: a wrist actigraphy study during the pandemic</article-title>. <source><italic toggle="yes">Appl Psychol Health Well Being</italic></source>. <year>2021</year>;<volume>13</volume>(<issue>2</issue>):<fpage>394</fpage>–<lpage>405</lpage>. doi:<pub-id pub-id-type="doi">10.1111/aphw.12255</pub-id><pub-id pub-id-type="pmid">33615735</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0017">
+        <label>17.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Cheng</surname>
+<given-names>P</given-names></string-name>, <string-name><surname>Walch</surname>
+<given-names>O</given-names></string-name>, <string-name><surname>Huang</surname>
+<given-names>Y</given-names></string-name>, et al. <article-title>Predicting circadian misalignment with wearable technology: validation of wrist-worn actigraphy and photometry in night shift workers</article-title>. <source><italic toggle="yes">Sleep</italic></source>. <year>2021</year>;<volume>44</volume>(<issue>2</issue>). doi:<pub-id pub-id-type="doi">10.1093/sleep/zsaa180</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0018">
+        <label>18.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Bliwise</surname>
+<given-names>DL</given-names></string-name>, <string-name><surname>Chapple</surname>
+<given-names>C</given-names></string-name>, <string-name><surname>Maislisch</surname>
+<given-names>L</given-names></string-name>, <string-name><surname>Roitmann</surname>
+<given-names>E</given-names></string-name>, <string-name><surname>Burtea</surname>
+<given-names>T</given-names></string-name>. <article-title>A multitrait, multimethod matrix approach for a consumer-grade wrist-worn watch measuring sleep duration and continuity</article-title>. <source><italic toggle="yes">Sleep</italic></source>. <year>2021</year>;<volume>44</volume>(<issue>1</issue>). doi:<pub-id pub-id-type="doi">10.1093/sleep/zsaa141</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0019">
+        <label>19.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Sadeh</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Hauri</surname>
+<given-names>PJ</given-names></string-name>, <string-name><surname>Kripke</surname>
+<given-names>DF</given-names></string-name>, <string-name><surname>Lavie</surname>
+<given-names>P</given-names></string-name>. <article-title>The role of actigraphy in the evaluation of sleep disorders</article-title>. <source><italic toggle="yes">Sleep</italic></source>. <year>1995</year>;<volume>18</volume>(<issue>4</issue>):<fpage>288</fpage>–<lpage>302</lpage>. doi:<pub-id pub-id-type="doi">10.1093/sleep/18.4.288</pub-id><pub-id pub-id-type="pmid">7618029</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0020">
+        <label>20.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Middelkoop</surname>
+<given-names>HA</given-names></string-name>, <string-name><surname>Knuistingh Neven</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>van Hilten</surname>
+<given-names>JJ</given-names></string-name>, <string-name><surname>Ruwhof</surname>
+<given-names>CW</given-names></string-name>, <string-name><surname>Kamphuisen</surname>
+<given-names>HA</given-names></string-name>. <article-title>Wrist actigraphic assessment of sleep in 116 community based subjects suspected of obstructive sleep apnoea syndrome</article-title>. <source><italic toggle="yes">Thorax</italic></source>. <year>1995</year>;<volume>50</volume>(<issue>3</issue>):<fpage>284</fpage>–<lpage>289</lpage>. doi:<pub-id pub-id-type="doi">10.1136/thx.50.3.284</pub-id><pub-id pub-id-type="pmid">7660344</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0021">
+        <label>21.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Ancoli-Israel</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Cole</surname>
+<given-names>R</given-names></string-name>, <string-name><surname>Alessi</surname>
+<given-names>C</given-names></string-name>, <string-name><surname>Chambers</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Moorcroft</surname>
+<given-names>W</given-names></string-name>, <string-name><surname>Pollak</surname>
+<given-names>CP</given-names></string-name>. <article-title>The role of actigraphy in the study of sleep and circadian rhythms</article-title>. <source><italic toggle="yes">Sleep</italic></source>. <year>2003</year>;<volume>26</volume>(<issue>3</issue>):<fpage>342</fpage>–<lpage>392</lpage>. doi:<pub-id pub-id-type="doi">10.1093/sleep/26.3.342</pub-id><pub-id pub-id-type="pmid">12749557</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0022">
+        <label>22.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Quan</surname>
+<given-names>SF</given-names></string-name>, <string-name><surname>Howard</surname>
+<given-names>BV</given-names></string-name>, <string-name><surname>Iber</surname>
+<given-names>C</given-names></string-name>, et al. <article-title>The sleep heart health study: design, rationale, and methods</article-title>. <source><italic toggle="yes">Sleep</italic></source>. <year>1997</year>;<volume>20</volume>(<issue>12</issue>):<fpage>1077</fpage>–<lpage>1085</lpage>.<pub-id pub-id-type="pmid">9493915</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0023">
+        <label>23.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Zhang</surname>
+<given-names>GQ</given-names></string-name>, <string-name><surname>Cui</surname>
+<given-names>L</given-names></string-name>, <string-name><surname>Mueller</surname>
+<given-names>R</given-names></string-name>, et al. <article-title>The national sleep research resource: towards a sleep data commons</article-title>. <source><italic toggle="yes">JAMIA</italic></source>. <year>2018</year>;<volume>25</volume>(<issue>10</issue>):<fpage>1351</fpage>–<lpage>1358</lpage>. doi:<pub-id pub-id-type="doi">10.1093/jamia/ocy064</pub-id><pub-id pub-id-type="pmid">29860441</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0024">
+        <label>24.</label>
+        <mixed-citation publication-type="book"><string-name><surname>Berry</surname>
+<given-names>RB</given-names></string-name>, <string-name><surname>Quan</surname>
+<given-names>SF</given-names></string-name>, <string-name><surname>Abreu</surname>
+<given-names>AR</given-names></string-name>; <collab>Medicine eaftAAoS</collab>. <article-title>The AASM manual for the scoring of sleep and associated events: rules, terminology and technical specifications. version 2.6</article-title>. <publisher-loc>Darien, Illinois</publisher-loc>: <publisher-name>American Academy of Sleep Medicine</publisher-name>; <year>2020</year>.</mixed-citation>
+      </ref>
+      <ref id="cit0025">
+        <label>25.</label>
+        <mixed-citation publication-type="journal"><collab>Society CT</collab>. <article-title>Guidelines for diagnosis and treatment of obstructive sleep apnea hypopnea syndrome (2011 Revision)</article-title>. <source><italic toggle="yes">Chin J Tubercul Respir Dis</italic></source>. <year>2012</year>;<volume>35</volume>(<issue>1</issue>):<fpage>9</fpage>–<lpage>12</lpage>.</mixed-citation>
+      </ref>
+      <ref id="cit0026">
+        <label>26.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Johns</surname>
+<given-names>MW</given-names></string-name>. <article-title>A new method for measuring daytime sleepiness: the Epworth sleepiness scale</article-title>. <source><italic toggle="yes">Sleep</italic></source>. <year>1991</year>;<volume>14</volume>(<issue>6</issue>):<fpage>540</fpage>–<lpage>545</lpage>. doi:<pub-id pub-id-type="doi">10.1093/sleep/14.6.540</pub-id><pub-id pub-id-type="pmid">1798888</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0027">
+        <label>27.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Walker</surname>
+<given-names>NA</given-names></string-name>, <string-name><surname>Sunderram</surname>
+<given-names>J</given-names></string-name>, <string-name><surname>Zhang</surname>
+<given-names>P</given-names></string-name>, <string-name><surname>Lu</surname>
+<given-names>SE</given-names></string-name>, <string-name><surname>Scharf</surname>
+<given-names>MT</given-names></string-name>. <article-title>Clinical utility of the Epworth sleepiness scale</article-title>. <source><italic toggle="yes">Sleep Breath</italic></source>. <year>2020</year>;<volume>24</volume>(<issue>4</issue>):<fpage>1759</fpage>–<lpage>1765</lpage>. doi:<pub-id pub-id-type="doi">10.1007/s11325-020-02015-2</pub-id><pub-id pub-id-type="pmid">31938991</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0028">
+        <label>28.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Griessenberger</surname>
+<given-names>H</given-names></string-name>, <string-name><surname>Heib</surname>
+<given-names>DP</given-names></string-name>, <string-name><surname>Kunz</surname>
+<given-names>AB</given-names></string-name>, <string-name><surname>Hoedlmoser</surname>
+<given-names>K</given-names></string-name>, <string-name><surname>Schabus</surname>
+<given-names>M</given-names></string-name>. <article-title>Assessment of a wireless headband for automatic sleep scoring</article-title>. <source><italic toggle="yes">Sleep Breath</italic></source>. <year>2013</year>;<volume>17</volume>(<issue>2</issue>):<fpage>747</fpage>–<lpage>752</lpage>. doi:<pub-id pub-id-type="doi">10.1007/s11325-012-0757-4</pub-id><pub-id pub-id-type="pmid">22996794</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0029">
+        <label>29.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Kosmadopoulos</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Sargent</surname>
+<given-names>C</given-names></string-name>, <string-name><surname>Darwent</surname>
+<given-names>D</given-names></string-name>, <string-name><surname>Zhou</surname>
+<given-names>X</given-names></string-name>, <string-name><surname>Roach</surname>
+<given-names>GD</given-names></string-name>. <article-title>Alternatives to polysomnography (PSG): a validation of wrist actigraphy and a partial-PSG system</article-title>. <source><italic toggle="yes">Behav Res Methods</italic></source>. <year>2014</year>;<volume>46</volume>(<issue>4</issue>):<fpage>1032</fpage>–<lpage>1041</lpage>. doi:<pub-id pub-id-type="doi">10.3758/s13428-013-0438-7</pub-id><pub-id pub-id-type="pmid">24442593</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0030">
+        <label>30.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Toften</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Pallesen</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Hrozanova</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Moen</surname>
+<given-names>F</given-names></string-name>, <string-name><surname>Grønli</surname>
+<given-names>J</given-names></string-name>. <article-title>Validation of sleep stage classification using non-contact radar technology and machine learning (Somnofy<sup>®</sup>)</article-title>. <source><italic toggle="yes">Sleep Med</italic></source>. <year>2020</year>;<volume>75</volume>:<fpage>54</fpage>–<lpage>61</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.sleep.2020.02.022</pub-id><pub-id pub-id-type="pmid">32853919</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0031">
+        <label>31.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Zhao</surname>
+<given-names>R</given-names></string-name>, <string-name><surname>Xue</surname>
+<given-names>J</given-names></string-name>, <string-name><surname>Dong</surname>
+<given-names>XS</given-names></string-name>, et al. <article-title>Screening for obstructive sleep apnea using a contact-free system compared with polysomnography</article-title>. <source><italic toggle="yes">J Clin Sleep Med</italic></source>. <year>2021</year>;<volume>17</volume>(<issue>5</issue>):<fpage>1075</fpage>–<lpage>1082</lpage>. doi:<pub-id pub-id-type="doi">10.5664/jcsm.9138</pub-id><pub-id pub-id-type="pmid">33576734</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0032">
+        <label>32.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Roach</surname>
+<given-names>GD</given-names></string-name>, <string-name><surname>Petrilli</surname>
+<given-names>RMA</given-names></string-name>, <string-name><surname>Dawson</surname>
+<given-names>D</given-names></string-name>, <string-name><surname>Lamond</surname>
+<given-names>N</given-names></string-name>. <article-title>Impact of layover length on sleep, subjective fatigue levels, and sustained attention of long-haul airline pilots</article-title>. <source><italic toggle="yes">Chronobiol Int</italic></source>. <year>2012</year>;<volume>29</volume>(<issue>5</issue>):<fpage>580</fpage>–<lpage>586</lpage>. doi:<pub-id pub-id-type="doi">10.3109/07420528.2012.675222</pub-id><pub-id pub-id-type="pmid">22621354</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0033">
+        <label>33.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Sargent</surname>
+<given-names>C</given-names></string-name>, <string-name><surname>Halson</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Roach</surname>
+<given-names>GD</given-names></string-name>. <article-title>Sleep or swim? Early-morning training severely restricts the amount of sleep obtained by elite swimmers</article-title>. <source><italic toggle="yes">Eur J Sport Sci</italic></source>. <year>2014</year>;<volume>14</volume>(<issue>Suppl 1</issue>):<fpage>S310</fpage>–<lpage>S315</lpage>. doi:<pub-id pub-id-type="doi">10.1080/17461391.2012.696711</pub-id><pub-id pub-id-type="pmid">24444223</pub-id></mixed-citation>
+      </ref>
+    </ref-list>
+  </back>
+</article>
+</pmc-articleset>

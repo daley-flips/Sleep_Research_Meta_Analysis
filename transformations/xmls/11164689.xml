@@ -1,0 +1,525 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<pmc-articleset><article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" dtd-version="1.3" xml:lang="en" article-type="research-article">
+  <?properties open_access?>
+  <processing-meta base-tagset="archiving" mathml-version="3.0" table-model="xhtml" tagset-family="jats">
+    <restricted-by>pmc</restricted-by>
+  </processing-meta>
+  <front><journal-meta><journal-id journal-id-type="nlm-ta">Nat Sci Sleep</journal-id><journal-id journal-id-type="iso-abbrev">Nat Sci Sleep</journal-id><journal-id journal-id-type="publisher-id">nss</journal-id><journal-title-group><journal-title>Nature and Science of Sleep</journal-title></journal-title-group><issn pub-type="epub">1179-1608</issn><publisher><publisher-name>Dove</publisher-name></publisher></journal-meta>
+<article-meta><article-id pub-id-type="pmid">38863481</article-id><article-id pub-id-type="pmc">11164689</article-id><article-id pub-id-type="publisher-id">452799</article-id><article-id pub-id-type="doi">10.2147/NSS.S452799</article-id><article-categories><subj-group subj-group-type="heading"><subject>Original Research</subject></subj-group></article-categories><title-group><article-title>A Machine Learning Model for Predicting Sleep and Wakefulness Based on Accelerometry, Skin Temperature and Contextual Information</article-title><alt-title alt-title-type="running-authors">Logacjov et al</alt-title><alt-title alt-title-type="running-title">Logacjov et al</alt-title></title-group><contrib-group><contrib contrib-type="author"><contrib-id contrib-id-type="orcid">http://orcid.org/0000-0002-8834-1744</contrib-id><name><surname>Logacjov</surname><given-names>Aleksej</given-names></name><xref rid="aff0001" ref-type="aff">
+<sup>1</sup>
+</xref><xref rid="an0001" ref-type="corresp"/></contrib><contrib contrib-type="author"><contrib-id contrib-id-type="orcid">http://orcid.org/0000-0002-4135-0408</contrib-id><name><surname>Skarpsno</surname><given-names>Eivind Schjelderup</given-names></name><xref rid="aff0002" ref-type="aff">
+<sup>2</sup>
+</xref><xref rid="aff0003" ref-type="aff">
+<sup>3</sup>
+</xref></contrib><contrib contrib-type="author"><name><surname>Kongsvold</surname><given-names>Atle</given-names></name><xref rid="aff0002" ref-type="aff">
+<sup>2</sup>
+</xref></contrib><contrib contrib-type="author"><contrib-id contrib-id-type="orcid">http://orcid.org/0000-0002-4256-7676</contrib-id><name><surname>Bach</surname><given-names>Kerstin</given-names></name><xref rid="aff0001" ref-type="aff">
+<sup>1</sup>
+</xref></contrib><contrib contrib-type="author"><contrib-id contrib-id-type="orcid">http://orcid.org/0000-0003-3355-2680</contrib-id><name><surname>Mork</surname><given-names>Paul Jarle</given-names></name><xref rid="aff0002" ref-type="aff">
+<sup>2</sup>
+</xref></contrib><aff id="aff0001"><label>1</label><institution>Department of Computer Science, Norwegian University of Science and Technology</institution>, <addr-line>Trondheim</addr-line>, <country>Norway</country></aff><aff id="aff0002"><label>2</label><institution>Department of Public Health and Nursing, Norwegian University of Science and Technology</institution>, <addr-line>Trondheim</addr-line>, <country>Norway</country></aff><aff id="aff0003"><label>3</label><institution>Department of Neurology and Clinical Neurophysiology, St. Olavs Hospital</institution>, <addr-line>Trondheim</addr-line>, <country>Norway</country></aff></contrib-group><author-notes><corresp id="an0001">Correspondence: Aleksej Logacjov, Department of Computer Science, Faculty of Information Technology and Electrical Engineering, Norwegian University of Science and Technology, <addr-line>Trondheim</addr-line>, <addr-line>7034</addr-line>, <country>Norway</country>, Email aleksej.logacjov@ntnu.no</corresp></author-notes><pub-date pub-type="epub"><day>06</day><month>6</month><year>2024</year></pub-date><pub-date pub-type="collection"><year>2024</year></pub-date><volume>16</volume><fpage>699</fpage><lpage>710</lpage><history><date date-type="received"><day>15</day><month>12</month><year>2023</year></date><date date-type="accepted"><day>02</day><month>5</month><year>2024</year></date></history><permissions><copyright-statement>© 2024 Logacjov et al.</copyright-statement><copyright-year>2024</copyright-year><copyright-holder>Logacjov et al.</copyright-holder><license><ali:license_ref xmlns:ali="http://www.niso.org/schemas/ali/1.0/" specific-use="textmining" content-type="ccbynclicense">https://creativecommons.org/licenses/by-nc/3.0/</ali:license_ref><license-p>This work is published and licensed by Dove Medical Press Limited. The full terms of this license are available at <ext-link ext-link-type="uri" xlink:href="https://www.dovepress.com/terms.php">https://www.dovepress.com/terms.php</ext-link> and incorporate the Creative Commons Attribution – Non Commercial (unported, v3.0) License (<ext-link ext-link-type="uri" xlink:href="https://creativecommons.org/licenses/by-nc/3.0/">http://creativecommons.org/licenses/by-nc/3.0/</ext-link>). By accessing the work you hereby accept the Terms. Non-commercial uses of the work are permitted without any further permission from Dove Medical Press Limited, provided the work is properly attributed. For permission for commercial use of this work, please see paragraphs 4.2 and 5 of our Terms (<ext-link ext-link-type="uri" xlink:href="https://www.dovepress.com/terms.php">https://www.dovepress.com/terms.php</ext-link>).</license-p></license></permissions><abstract><sec><title>Purpose</title><p><citation_analysis attribute="neither">Body-worn accelerometers are commonly used to estimate sleep duration in population-based studies. However, since accelerometry-based sleep/wake-scoring relies on detecting body movements, the prediction of sleep duration remains a challenge. The aim was to develop and evaluate the performance of a machine learning (ML) model to predict accelerometry-based sleep duration and to explore if this prediction can be improved by adding skin temperature data, circadian rhythm based on the estimated midpoint of sleep, and cyclic time features to the model.</citation_analysis></p></sec><sec><title>Patients and Methods</title><p><citation_analysis attribute="neither">Twenty-nine adults (17 females), mean (SD) age 40.2 (15.0) years (range 17–70) participated in the study. Overnight polysomnography (PSG) was recorded in a sleep laboratory or at home along with body movement by two accelerometers with an embedded skin temperature sensor (AX3, Axivity, UK) positioned at the low back and thigh. The PSG scoring of sleep/wake was used as ground truth for training the ML model.</citation_analysis></p></sec><sec><title>Results</title><p><citation_analysis attribute="neither">Based on pure accelerometer data input to the ML model, the specificity and sensitivity for predicting sleep/wake was 0.52 (SD 0.24) and 0.95 (SD 0.03), respectively. Adding skin temperature data and contextual information to the ML model improved the specificity to 0.72 (SD 0.20), while sensitivity remained unchanged at 0.95 (SD 0.05). Correspondingly, sleep overestimation was reduced from 54 min (228 min, limits of agreement range [LoAR]) to 19 min (154 min LoAR).</citation_analysis></p></sec><sec><title>Conclusion</title><p><citation_analysis attribute="neither">An ML model can predict sleep/wake periods with excellent sensitivity and moderate specificity based on a dual-accelerometer set-up when adding skin temperature data and contextual information to the model.</citation_analysis></p></sec></abstract><kwd-group kwd-group-type="author"><title>Keywords</title><kwd>actigraphy</kwd><kwd>epidemiology</kwd><kwd>sedentary behaviors</kwd><kwd>sleep quality</kwd><kwd>supervised machine learning</kwd><kwd>support vector machines</kwd></kwd-group><counts><fig-count count="4"/><table-count count="2"/><ref-count count="37"/><page-count count="12"/></counts></article-meta></front>
+  <body>
+    <sec sec-type="intro" id="s0001">
+      <title>Introduction</title>
+      <p><citation_analysis attribute="neither">Polysomnography (PSG) is the gold standard for sleep measurements but is impractical to implement in large out-of-lab studies.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0001" ref-type="bibr">1</xref></citation_analysis><citation_analysis attribute="neither"> As an alternative, body-worn accelerometers are commonly used to estimate sleep duration in population-based studies.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0002" ref-type="bibr">2–5</xref></citation_analysis><citation_analysis attribute="neither"> However, since accelerometry-based sleep/wake-scoring relies on detecting body movements, the prediction of sleep duration remains a challenge.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0006" ref-type="bibr">6–11</xref></citation_analysis></p>
+      <p><citation_analysis attribute="neither">A possible approach to improve accelerometry-based prediction of sleep duration is to utilize information from other modalities related to the sleep/wake states, such as body temperature and sensor-independent features as circadian rhythm and cyclic time features.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0009" ref-type="bibr">9</xref></citation_analysis><citation_analysis attribute="neither">,</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0012" ref-type="bibr">12</xref></citation_analysis><citation_analysis attribute="neither">,</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0013" ref-type="bibr">13</xref></citation_analysis><citation_analysis attribute="neither"> Core body temperature decreases during sleep accompanied by an increase in distal skin temperature.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0014" ref-type="bibr">14</xref></citation_analysis><citation_analysis attribute="neither">,</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0015" ref-type="bibr">15</xref></citation_analysis><citation_analysis attribute="positive"> Although changes in skin temperature are likely influenced by a range of other factors (eg, room temperature, bed linens, etc.), recordings of skin temperature at different body areas may provide additional information relevant for predicting sleep and wakefulness. Furthermore, utilizing the information embedded in the diurnal cyclic nature of sleep</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0016" ref-type="bibr">16</xref></citation_analysis><citation_analysis attribute="neither"> and seasonal changes in sleep behavior related to daylight variations</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0017" ref-type="bibr">17</xref></citation_analysis><citation_analysis attribute="neither"> may improve the prediction of sleep and wakefulness.</citation_analysis></p>
+      <p><citation_analysis attribute="positive">Recent studies have shown that accelerometry recorded on the thigh and low back can be used to accurately predict key daily physical activities and postures using a machine learning (ML) approach.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0018" ref-type="bibr">18</xref></citation_analysis><citation_analysis attribute="neither">,</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0019" ref-type="bibr">19</xref></citation_analysis><citation_analysis attribute="neither"> The aim of the current study was to develop and evaluate the performance of an ML model for predicting sleep/wake periods based on the dual-accelerometer set-up (ie, thigh and low back), and to explore if the prediction of sleep duration can be improved by adding skin temperature data and contextual information to the ML training dataset. To evaluate the performance of the ML model, the predicted sleep/wake scores were compared to sleep/wake scores derived from PSG.</citation_analysis></p>
+    </sec>
+    <sec id="s0002">
+      <title>Materials and Methods</title>
+      <sec id="s0002-s2001">
+        <title>Participants and Study Design</title>
+        <p><citation_analysis attribute="positive">The study included 29 participants (12 males, 17 females) with mean (SD) age of 40.2 (15) years (range 17–70 years). Eleven of these were referred to the sleep clinic at St. Olavs University Hospital, Trondheim, Norway, by their general practitioner/medical specialist to undergo a diagnostic evaluation for a possible sleep disorder (ie, obstructive sleep apnea, hypersomnia, or insomnia). The remaining 18 participants were recruited among academic staff/researchers by word of mouth. The study protocol was approved by the Regional Committee for Medical and Health research ethics (reference no. 2015/1748/REK midt), and all participants signed a written informed consent before being enrolled in the study. The study was carried out according to the Declaration of Helsinki.</citation_analysis></p>
+        <p><citation_analysis attribute="positive">All overnight PSG and accelerometer recordings were performed in a sleep laboratory for the 18 participants without known sleep disorders, whereas the eleven participants with a possible sleep disorder underwent an at-home test. The participants were allowed to sleep based on their habitual sleep time and could use an alarm clock if desired. Upon arrival in the laboratory or at the clinic, the participants were informed about the study protocol. After signing the written informed consent, the participants were equipped with the PSG sensors, including electroencephalography (EEG), right and left electrooculography (EOG), surface electromyography (EMG) on the anterior tibialis, electrocardiography (ECG), airflow (thermistor flow sensor and thoracic and abdominal strain sensors), body position sensor, and oxygen saturation (oximeter attached to the finger), as well as the two three-axial AX3 accelerometers (Axivity Ltd., Newcastle, UK). The accelerometers were attached to the skin at the participants’ lower back, approximately at the third lumbar vertebra, and the upper right thigh, approximately 10 cm above the upper border of the patella. To attach the accelerometer, a 5 × 7 cm moisture permeable film (Opsite Flexifix; Smith &amp; Nephew, Watford, UK) was attached to the skin. The accelerometer was then positioned on top of the film using double-sided tape and covered with a second film layer of 10 × 8 cm. Body accelerations were recorded with a sampling rate of 100 Hz and later downsampled to 50 Hz using the Fourier method.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0020" ref-type="bibr">20</xref></citation_analysis><citation_analysis attribute="neither"> The accelerometer and PSG data were synchronized by aligning the PSG movement sensor signal and the accelerometer signals. The PSG recordings were visually scored in 30s epochs by trained personnel following the American Academy of Sleep Medicine (AASM) Manual for the Scoring of Sleep and Associated Events.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0021" ref-type="bibr">21</xref></citation_analysis><citation_analysis attribute="positive"> An example of PSG-derived sleep/wake scoring for one participant is shown in </citation_analysis><citation_analysis attribute="positive"><xref rid="f0001" ref-type="fig">Figure 1C</xref></citation_analysis><citation_analysis attribute="positive"> along with the accelerometer recordings (M-R). PSG was recorded using SOMNOscreen plus (SOMNOmedics, Germany) and Somnomedics Somno HD (Somnomedics, Germany).
+</citation_analysis><citation_analysis attribute="positive"><fig position="float" id="f0001" fig-type="figure"><label>Figure 1</label><caption><p><citation_analysis attribute="neither">Example from one participant of the predicted sleep/wake based on the full model (</citation_analysis><citation_analysis attribute="positive"><bold>A</bold></citation_analysis><citation_analysis attribute="neither">), the predicted sleep/wake based on accelerometry alone (</citation_analysis><citation_analysis attribute="positive"><bold>B</bold></citation_analysis><citation_analysis attribute="neither">), the scoring of sleep/wake based on polysomnography (</citation_analysis><citation_analysis attribute="positive"><bold>C</bold></citation_analysis><citation_analysis attribute="neither">), the cyclic time features (</citation_analysis><citation_analysis attribute="positive"><bold>D-I</bold></citation_analysis><citation_analysis attribute="neither">), the fitted circadian rhythm curve based on the estimated mid-point of sleep (</citation_analysis><citation_analysis attribute="positive"><bold>J</bold></citation_analysis><citation_analysis attribute="neither">), the skin temperature (</citation_analysis><citation_analysis attribute="positive"><bold>K</bold></citation_analysis><citation_analysis attribute="neither"> and </citation_analysis><citation_analysis attribute="positive"><bold>L</bold></citation_analysis><citation_analysis attribute="neither">), and the overnight recording of accelerometry (</citation_analysis><citation_analysis attribute="positive"><bold>M-R</bold></citation_analysis><citation_analysis attribute="neither">).</citation_analysis></p></caption><graphic xlink:href="NSS-16-699-g0001" content-type="print-only" position="float"/></fig></citation_analysis></p>
+        <p><citation_analysis attribute="positive">Time in bed (TIB) was used as surrogate measure for lights on/lights off and to define the start and the end of the recording period. TIB was defined as the time between the start of the first and the end of the last 10-min period the participant was continuously lying down. These periods were detected using an ML model described in a previous publication.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0019" ref-type="bibr">19</xref></citation_analysis><citation_analysis attribute="positive"> The reported sleep duration is therefore the total amount of sleep during TIB, while sleep efficiency was calculated as the percentage being asleep during TIB. We did not provide any specific instructions for the pre-sleep TIB.</citation_analysis></p>
+      </sec>
+      <sec id="s0002-s2002">
+        <title>Methods to Improve Prediction of Sleep/Wake</title>
+        <p><citation_analysis attribute="neither">In addition to the accelerometer data, we explored additional feature input to the ML model to improve the prediction of sleep/wake, including 1) skin temperature, 2) cyclic time features, and 3) the fitted circadian rhythm curve based on the estimated mid-point of sleep (MoS). Although MoS is not a measure of circadian clock, it is closely correlated to chronotype and circadian rhythm in people with regular sleep.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0022" ref-type="bibr">22</xref></citation_analysis><citation_analysis attribute="neither">,</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0023" ref-type="bibr">23</xref></citation_analysis><citation_analysis attribute="positive">
+</citation_analysis><citation_analysis attribute="positive"><xref rid="f0001" ref-type="fig">Figure 1</xref></citation_analysis><citation_analysis attribute="neither"> shows an example of the sleep/wake prediction based on all features (A) and accelerometry only (B).</citation_analysis></p>
+        <p><citation_analysis attribute="neither">In addition to the accelerometer, the AX3 includes an embedded temperature sensor that can record temperatures from 0 to 40°C with a resolution of 0.3°C and a sampling frequency of 1.2 Hz. This allowed us to record skin temperature at the position of the two accelerometers at the lower back and thigh. </citation_analysis><citation_analysis attribute="positive"><xref rid="f0001" ref-type="fig">Figure 1K</xref></citation_analysis><citation_analysis attribute="neither"> and </citation_analysis><citation_analysis attribute="positive"><xref rid="f0001" ref-type="fig">L</xref></citation_analysis><citation_analysis attribute="neither"> shows the skin temperature recordings for one participant.</citation_analysis></p>
+        <p><citation_analysis attribute="neither">The AX3 stores the date and time of each recorded sample. Based on this information, we created trigonometric representations of a 24 h day to use diurnal time as additional ML model input. A day is therefore represented with a sine and cosine wave, both having a wavelength of 24 h. The sine wave was computed using: </citation_analysis><citation_analysis attribute="positive"><inline-formula id="ilm0001"><alternatives><inline-graphic xlink:href="NSS-16-699-e0001.jpg"/><tex-math id="Tex001">\documentclass[12pt]{minimal}
+\usepackage{wasysym}
+\usepackage[substack]{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage[mathscr]{eucal}
+\usepackage{mathrsfs}
+\DeclareFontFamily{T1}{linotext}{}
+\DeclareFontShape{T1}{linotext}{m}{n} {linotext }{}
+\DeclareSymbolFont{linotext}{T1}{linotext}{m}{n}
+\DeclareSymbolFontAlphabet{\mathLINOTEXT}{linotext}
+\begin{document}
+$hour\sin \left(t \right) = \sin \left({{{2\pi } \over {24}} \cdot \left({{t_h} + {{{t_m}} \over {60}}} \right)} \right)$\end{document}</tex-math></alternatives></inline-formula></citation_analysis><citation_analysis attribute="neither">, with t</citation_analysis><citation_analysis attribute="positive"><sub>h</sub></citation_analysis><citation_analysis attribute="neither"> being the hour of the time stamp </citation_analysis><citation_analysis attribute="positive"><italic toggle="yes">t</italic></citation_analysis><citation_analysis attribute="neither"> and t</citation_analysis><citation_analysis attribute="positive"><sub>m</sub></citation_analysis><citation_analysis attribute="neither">the minute. The corresponding cosine wave was computed using: </citation_analysis><citation_analysis attribute="positive"><inline-formula id="ilm0002"><alternatives><inline-graphic xlink:href="NSS-16-699-e0002.jpg"/><tex-math id="Tex002">\documentclass[12pt]{minimal}
+\usepackage{wasysym}
+\usepackage[substack]{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage[mathscr]{eucal}
+\usepackage{mathrsfs}
+\DeclareFontFamily{T1}{linotext}{}
+\DeclareFontShape{T1}{linotext}{m}{n} {linotext }{}
+\DeclareSymbolFont{linotext}{T1}{linotext}{m}{n}
+\DeclareSymbolFontAlphabet{\mathLINOTEXT}{linotext}
+\begin{document}
+$hour\cos \left(t \right) = \cos \left({{{2\pi } \over {24}} \cdot \left({{t_h} + {{{t_m}} \over {60}}} \right)} \right)$\end{document}</tex-math></alternatives></inline-formula></citation_analysis><citation_analysis attribute="positive">. Both waves have an amplitude -1 to 1 and 1-min time resolution. In addition to the diurnal time, we considered the day of the week represented with a sine and cosine wave, both with a wavelength of seven days. We computed the waves using the two equations: </citation_analysis><citation_analysis attribute="positive"><inline-formula id="ilm0003"><alternatives><inline-graphic xlink:href="NSS-16-699-e0003.jpg"/><tex-math id="Tex003">\documentclass[12pt]{minimal}
+\usepackage{wasysym}
+\usepackage[substack]{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage[mathscr]{eucal}
+\usepackage{mathrsfs}
+\DeclareFontFamily{T1}{linotext}{}
+\DeclareFontShape{T1}{linotext}{m}{n} {linotext }{}
+\DeclareSymbolFont{linotext}{T1}{linotext}{m}{n}
+\DeclareSymbolFontAlphabet{\mathLINOTEXT}{linotext}
+\begin{document}
+$day\sin \left(t \right) = \sin \left({{{2\pi } \over 7} \cdot \left({{t_d} + {{{t_h}} \over {24}}} \right)} \right)$\end{document}</tex-math></alternatives></inline-formula></citation_analysis><citation_analysis attribute="neither">, </citation_analysis><citation_analysis attribute="positive"><inline-formula id="ilm0004"><alternatives><inline-graphic xlink:href="NSS-16-699-e0004.jpg"/><tex-math id="Tex004">\documentclass[12pt]{minimal}
+\usepackage{wasysym}
+\usepackage[substack]{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage[mathscr]{eucal}
+\usepackage{mathrsfs}
+\DeclareFontFamily{T1}{linotext}{}
+\DeclareFontShape{T1}{linotext}{m}{n} {linotext }{}
+\DeclareSymbolFont{linotext}{T1}{linotext}{m}{n}
+\DeclareSymbolFontAlphabet{\mathLINOTEXT}{linotext}
+\begin{document}
+$day\cos \left(t \right) = \cos \left({{{2\pi } \over 7} \cdot \left({{t_d} + {{{t_h}} \over {24}}} \right)} \right)$\end{document}</tex-math></alternatives></inline-formula></citation_analysis><citation_analysis attribute="neither">, with t</citation_analysis><citation_analysis attribute="positive"><sub>d</sub></citation_analysis><citation_analysis attribute="neither"> representing the day and </citation_analysis><citation_analysis attribute="positive"><italic toggle="yes">t<sub>h</sub></italic></citation_analysis><citation_analysis attribute="positive"> the hour. Both waves have a 1-h time resolution and amplitude -1 to 1. Finally, we included 12-month trigonometric features as model input by computing a sine and cosine wave, both with a wavelength of one year using: </citation_analysis><citation_analysis attribute="positive"><inline-formula id="ilm0005"><alternatives><inline-graphic xlink:href="NSS-16-699-e0005.jpg"/><tex-math id="Tex005">\documentclass[12pt]{minimal}
+\usepackage{wasysym}
+\usepackage[substack]{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage[mathscr]{eucal}
+\usepackage{mathrsfs}
+\DeclareFontFamily{T1}{linotext}{}
+\DeclareFontShape{T1}{linotext}{m}{n} {linotext }{}
+\DeclareSymbolFont{linotext}{T1}{linotext}{m}{n}
+\DeclareSymbolFontAlphabet{\mathLINOTEXT}{linotext}
+\begin{document}
+$month\sin \left(t \right) = \sin \left({{{2\pi } \over {12}} \cdot \left({{t_M} + {{{t_d}} \over {30}}} \right)} \right)$\end{document}</tex-math></alternatives></inline-formula></citation_analysis><citation_analysis attribute="neither">, </citation_analysis><citation_analysis attribute="positive"><inline-formula id="ilm0006"><alternatives><inline-graphic xlink:href="NSS-16-699-e0006.jpg"/><tex-math id="Tex006">\documentclass[12pt]{minimal}
+\usepackage{wasysym}
+\usepackage[substack]{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage[mathscr]{eucal}
+\usepackage{mathrsfs}
+\DeclareFontFamily{T1}{linotext}{}
+\DeclareFontShape{T1}{linotext}{m}{n} {linotext }{}
+\DeclareSymbolFont{linotext}{T1}{linotext}{m}{n}
+\DeclareSymbolFontAlphabet{\mathLINOTEXT}{linotext}
+\begin{document}
+$month\cos \left(t \right) = \cos \left({{{2\pi } \over {12}} \cdot \left({{t_M} + {{{t_d}} \over {30}}} \right)} \right)$\end{document}</tex-math></alternatives></inline-formula></citation_analysis><citation_analysis attribute="neither">, with t</citation_analysis><citation_analysis attribute="positive"><sub>M</sub></citation_analysis><citation_analysis attribute="neither"> representing the month and t</citation_analysis><citation_analysis attribute="positive"><sub>d</sub></citation_analysis><citation_analysis attribute="neither"> the day of the month. The trigonometric representations of cyclic time for on participant are illustrated in </citation_analysis><citation_analysis attribute="positive"><xref rid="f0001" ref-type="fig">Figure 1D-I</xref></citation_analysis><citation_analysis attribute="neither">.</citation_analysis></p>
+        <p><citation_analysis attribute="neither">The MoS was estimated based on an initial sleep/wake scoring ML model and thereafter aligning a cosine function with a wavelength of 24 h such that the maximum value of 1 corresponds to the MoS.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0022" ref-type="bibr">22</xref></citation_analysis><citation_analysis attribute="neither"> The equation for the estimated circadian rhythm cosine function is </citation_analysis><citation_analysis attribute="positive"><inline-formula id="ilm0007"><alternatives><inline-graphic xlink:href="NSS-16-699-e0007.jpg"/><tex-math id="Tex007">\documentclass[12pt]{minimal}
+\usepackage{wasysym}
+\usepackage[substack]{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage[mathscr]{eucal}
+\usepackage{mathrsfs}
+\DeclareFontFamily{T1}{linotext}{}
+\DeclareFontShape{T1}{linotext}{m}{n} {linotext }{}
+\DeclareSymbolFont{linotext}{T1}{linotext}{m}{n}
+\DeclareSymbolFontAlphabet{\mathLINOTEXT}{linotext}
+\begin{document}
+$circ\left(t \right) = \cos \left({{{2\pi } \over {24}} \cdot \left({{t_h} - {\mu _h} + {{{t_m} - {\mu _m}} \over {60}}} \right)} \right)$\end{document}</tex-math></alternatives></inline-formula></citation_analysis><citation_analysis attribute="neither">, with the current time stamp t, hour of the current time stamp t</citation_analysis><citation_analysis attribute="positive"><sub>h</sub></citation_analysis><citation_analysis attribute="neither">, minute of the current time stamp t</citation_analysis><citation_analysis attribute="positive"><sub>m</sub></citation_analysis><citation_analysis attribute="neither">, estimated MoS μ, hour of the estimated MoS μ</citation_analysis><citation_analysis attribute="positive"><sub>h</sub></citation_analysis><citation_analysis attribute="neither">, and minute of the estimated MoS μ</citation_analysis><citation_analysis attribute="positive"><sub>m</sub></citation_analysis><citation_analysis attribute="neither">. </citation_analysis><citation_analysis attribute="positive"><xref rid="f0001" ref-type="fig">Figure 1J</xref></citation_analysis><citation_analysis attribute="positive"> shows the estimated MoS and circadian rhythm curve for one participant. To estimate the MoS, we used the sleep/wake predictions of the initial ML model not trained on the estimated circadian rhythm data to determine the sleep-onset and sleep-offset for each participant (see details in section 2.4). A slightly modified version of the definition suggested by Fekedulegn and collegues</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0024" ref-type="bibr">24</xref></citation_analysis><citation_analysis attribute="neither"> was used to compute sleep-onset and sleep-offset, ie, sleep-onset was defined as the time point of the first continuous period of at least 20 min of sleep with no more than 1 min of sleep interruption, while sleep-offset was defined as the last minute scored as sleep before a period of at least 2 h of wakefulness. MoS was defined as the midpoint in time between sleep-onset and sleep-offset, ie, computed as </citation_analysis><citation_analysis attribute="positive"><inline-formula id="ilm0008"><alternatives><inline-graphic xlink:href="NSS-16-699-e0008.jpg"/><tex-math id="Tex008">\documentclass[12pt]{minimal}
+\usepackage{wasysym}
+\usepackage[substack]{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage[mathscr]{eucal}
+\usepackage{mathrsfs}
+\DeclareFontFamily{T1}{linotext}{}
+\DeclareFontShape{T1}{linotext}{m}{n} {linotext }{}
+\DeclareSymbolFont{linotext}{T1}{linotext}{m}{n}
+\DeclareSymbolFontAlphabet{\mathLINOTEXT}{linotext}
+\begin{document}
+$\mu = {1 \over 2}\left({{\sigma _{on}} + {\sigma _{off}}} \right)$\end{document}</tex-math></alternatives></inline-formula></citation_analysis><citation_analysis attribute="neither">, with μ being the MoS, σ</citation_analysis><citation_analysis attribute="positive"><sub>on</sub></citation_analysis><citation_analysis attribute="neither"> the sleep-onset, and σ</citation_analysis><citation_analysis attribute="positive"><sub>off</sub></citation_analysis><citation_analysis attribute="neither"> the sleep-offset.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0025" ref-type="bibr">25</xref></citation_analysis></p>
+      </sec>
+      <sec id="s0002-s2003">
+        <title>Machine Learning Classifier</title>
+        <p><citation_analysis attribute="neither">A Support Vector Machine (SVM) classifier was used for the classification task of sleep/wake.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0026" ref-type="bibr">26</xref></citation_analysis><citation_analysis attribute="neither"> For a binary classification task like this, the SVM creates a hyperplane in the given d-dimensional feature space that separates training samples according to their class. In doing so, it maximizes the distance between the hyperplane and the nearest samples of each class to ensure generalizability. In case the training data are not linearly separable, the training samples can be transformed into a higher dimensional space (D </citation_analysis><citation_analysis attribute="positive"><italic toggle="yes">&gt; d</italic></citation_analysis><citation_analysis attribute="neither">) in which the data might become linearly separable. However, since such a transformation is computationally demanding, the SVM uses a kernel function. This kernel function describes the dot-product of data samples in the D-dimensional space, which can be used to find an optimal hyperplane that separates the training samples in that higher-dimensional space.</citation_analysis></p>
+      </sec>
+      <sec id="s0002-s2004">
+        <title>Training Procedure</title>
+        <p><citation_analysis attribute="neither">The procedure for training the ML model is illustrated in </citation_analysis><citation_analysis attribute="positive"><xref rid="f0002" ref-type="fig">Figure 2</xref></citation_analysis><citation_analysis attribute="neither">. The procedure was performed in three steps. The first step was executed when the model was trained without the estimated circadian rhythm curve (</citation_analysis><citation_analysis attribute="positive"><xref rid="f0002" ref-type="fig">Figure 2A</xref></citation_analysis><citation_analysis attribute="neither">). First, the six accelerometer signals, the two temperature signals, the six cyclic time feature signals, and the corresponding training data labels (ie, sleep/wake) were split into non-overlapping 60s windows. For the labels, we computed the majority for each 60s window. Based on the accelerometer signals, a total of 161 statistical features were computed for each 60s window. These include time- and frequency-domain features described in detail in a previous publication.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0019" ref-type="bibr">19</xref></citation_analysis><citation_analysis attribute="positive"> For the skin temperature recordings as the low back and thigh, we computed 17 features for each of the two signals separately for each 60s window (ie, mean, coefficient of variation, standard deviation, minimum, maximum, median, 25th percentile, 75th percentile, skew, kurtosis, signal energy, frequency-domain mean, frequency-domain standard deviation, dominant frequency, dominant frequency’s magnitude, total signal power, and spectral centroid). Furthermore, we computed the correlation and mean across the two sensors. This resulted in a total of 36 temperature signal features. No features were computed for the cyclic time features since they were not defined for smaller intervals than 60s. Including the six cyclic time features, the total number of computed features was 203 (ie, 161 accelerometer features + 36 temperature features + 6 cyclic time features). Additionally, we scaled the training data using standardization, such that each feature had a mean of zero and a variance of one. The resulting data was used to train the SVM classifier on the binary classification task of sleep/wake-scoring. These initial predictions of sleep/wake were used to estimate sleep-onset and sleep-offset, and next, to compute the MoS (</citation_analysis><citation_analysis attribute="positive"><xref rid="f0002" ref-type="fig">Figure 2B</xref></citation_analysis><citation_analysis attribute="neither">). In the last step, the fitted circadian rhythm curve was added to the model along with the other features (</citation_analysis><citation_analysis attribute="positive"><xref rid="f0002" ref-type="fig">Figure 2C</xref></citation_analysis><citation_analysis attribute="negative">). Again, a 60s non-overlapping segmentation was applied to each signal. The same feature extraction as in the initial part was applied, resulting in 204 features for each 60s window when the circadian rhythm approximation was added (indicated by the blue vector values in </citation_analysis><citation_analysis attribute="positive"><xref rid="f0002" ref-type="fig">Figure 2C</xref></citation_analysis><citation_analysis attribute="neither">). Again, the training data was standardized before training the SVM classifier.
+</citation_analysis><citation_analysis attribute="positive"><fig position="float" id="f0002" fig-type="figure"><label>Figure 2</label><caption><p><citation_analysis attribute="neither">The three panels (</citation_analysis><citation_analysis attribute="positive"><bold>A-C</bold></citation_analysis><citation_analysis attribute="neither">) illustrate the stepwise procedure used to train the machine learning (ML) model. In the first step (</citation_analysis><citation_analysis attribute="positive"><bold>A</bold></citation_analysis><citation_analysis attribute="positive">), the ML model was trained using features derived from accelerometry (</citation_analysis><citation_analysis attribute="positive"><bold>A</bold></citation_analysis><citation_analysis attribute="neither">), skin temperature data (T), and cyclic time (Cy). In the second step (</citation_analysis><citation_analysis attribute="positive"><bold>B</bold></citation_analysis><citation_analysis attribute="positive">), the initial ML model trained in the first step was used to predict sleep/wake and determine the mid-point of sleep (MoS). A cosine wave with 24 h wavelength and maximum value at the MoS was used for the circadian rhythm curve approximation. In the third step (lower panel), the ML model was trained using all feature input (ie, A, T, Cy, and Ci).</citation_analysis></p></caption><graphic xlink:href="NSS-16-699-g0002" content-type="print-only" position="float"/></fig></citation_analysis></p>
+      </sec>
+      <sec id="s0002-s2005">
+        <title>Performance Testing of the Machine Learning Model</title>
+        <p><citation_analysis attribute="positive">The performance of the model was assessed separately for the full dataset (29 participants), the 18 participants without sleep disorders, and the 11 participants with a possible sleep disorder. Furthermore, we explored eight different input strategies, where the SVM received:
+</citation_analysis><citation_analysis attribute="positive"><list list-type="bullet"><list-item><p><citation_analysis attribute="neither">The 161 accelerometer-derived features (A)</citation_analysis></p></list-item><list-item><p><citation_analysis attribute="neither">A and the 36 temperature features (T)</citation_analysis></p></list-item><list-item><p><citation_analysis attribute="neither">A and the six cyclic time features (Cy)</citation_analysis></p></list-item><list-item><p><citation_analysis attribute="neither">A and the circadian rhythm estimation (Ci)</citation_analysis></p></list-item><list-item><p><citation_analysis attribute="neither">A, T, and Cy</citation_analysis></p></list-item><list-item><p><citation_analysis attribute="neither">A, T, and Ci</citation_analysis></p></list-item><list-item><p><citation_analysis attribute="neither">A, Cy, and Ci</citation_analysis></p></list-item><list-item><p><citation_analysis attribute="neither">A, T, Cy, and Ci (ie, all features)</citation_analysis></p></list-item></list></citation_analysis></p>
+        <p><citation_analysis attribute="neither">We used a grid search with four-fold cross-validation for hyperparameter optimization to find good hyperparameters for each input strategy. The macro F1-score is used as the primary metric to determine the best hyperparameters, defined as </citation_analysis><citation_analysis attribute="positive"><inline-formula id="ilm0009"><alternatives><inline-graphic xlink:href="NSS-16-699-e0009.jpg"/><tex-math id="Tex009">\documentclass[12pt]{minimal}
+\usepackage{wasysym}
+\usepackage[substack]{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage[mathscr]{eucal}
+\usepackage{mathrsfs}
+\DeclareFontFamily{T1}{linotext}{}
+\DeclareFontShape{T1}{linotext}{m}{n} {linotext }{}
+\DeclareSymbolFont{linotext}{T1}{linotext}{m}{n}
+\DeclareSymbolFontAlphabet{\mathLINOTEXT}{linotext}
+\begin{document}
+$F1 = 2 \cdot {{precision \cdot sensitivity} \over {precision + sensitivity}}$\end{document}</tex-math></alternatives></inline-formula></citation_analysis><citation_analysis attribute="positive">. In contrast to accuracy, the F1-score is more robust against class imbalances in the dataset (ie, the much greater number of sleep epochs as compared to wake). After the hyperparameter optimization, a leave-one-subject-out (LOSO) cross-validation was performed for each input strategy, using the best hyperparameters of the grid searches. In an LOSO cross-validation, the classifier is trained on the data from all participants except one (</citation_analysis><citation_analysis attribute="positive"><italic toggle="yes">N</italic></citation_analysis><citation_analysis attribute="neither">-1) which is kept out and used as the test data. This is repeated </citation_analysis><citation_analysis attribute="positive"><italic toggle="yes">N</italic></citation_analysis><citation_analysis attribute="positive"> times so that each participant is used as a test participant once. The average specificity (true negative rate), average sensitivity (true positive rate), and average F1-score across the </citation_analysis><citation_analysis attribute="positive"><italic toggle="yes">N</italic></citation_analysis><citation_analysis attribute="positive"> different runs of each LOSO cross-validation are reported to indicate the overall performance of the ML model.</citation_analysis></p>
+        <p><citation_analysis attribute="negative">In addition to the overall performance, we investigated which approach to improve the prediction of sleep/wake was most useful for our ML model by performing permutation importance tests. For this, we considered the model incorporating all feature inputs (ie, A, T, Cy, and Ci) as the baseline model. We repeated the LOSO cross-validation three times, each time removing a different modality from the input. Hence, for each of the three LOSOs, we remove one of the modalities: the skin temperature (T), the cyclic time features (Cy), or the circadian rhythm approximation (Ci). We then computed the difference between the resulting performance metric scores and the baseline model scores to measure the influence of each modality on performance. Further, we repeated the three LOSO cross-validations 30 times and present the average change in performance score across these 30 runs. Hence, for the permutation feature importance tests, we performed 120 LOSO cross-validations (30 repetitions × [3 permutations + 1 baseline model]).</citation_analysis></p>
+        <p><citation_analysis attribute="neither">We also calculated the individual differences between sleep duration and sleep efficiency derived from PSG versus the predictions from the ML model. The upper and lower 95% limits of agreement were calculated by taking the mean difference ±1.96 ⋅ SD of the differences. These results are presented in Bland-Altman plots</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0027" ref-type="bibr">27</xref></citation_analysis><citation_analysis attribute="positive"> using sleep duration and sleep efficiency derived from PSG as the reference method.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0028" ref-type="bibr">28</xref></citation_analysis></p>
+      </sec>
+    </sec>
+    <sec id="s0003">
+      <title>Results</title>
+      <p><citation_analysis attribute="neither">The PSG-derived sleep time (11,909 min) and wake time (3173 min) across participants were used as training data to develop the ML model. The average TIB was 520 min (SD 69), while average PSG-derived sleep time, wake time, and sleep efficiency were 411 min (SD 62), 109 min (SD 69), and 79.5% (SD 11.6), respectively.</citation_analysis></p>
+      <p><citation_analysis attribute="positive"><xref rid="t0001" ref-type="table">Table 1</xref></citation_analysis><citation_analysis attribute="neither"> shows the absolute difference between the MoS derived from PSG and the MoS predicted by the ML model. Based on only accelerometer data, the absolute difference was 22.5 min (SD 32.9) for the full dataset. This improved to 11.1 min (SD 11.0) when the temperature features and the cyclic time features were added simultaneously as input to the ML model.</citation_analysis><citation_analysis attribute="positive"><table-wrap position="float" id="t0001"><label>Table 1</label><caption><p><citation_analysis attribute="neither">Absolute Difference (Min) Between the Midpoint of Sleep (MoS) Derived from Polysomnography and the MoS Predicted by the Machine Learning Model Receiving Different Combinations of Feature Input. Values are Mean (SD)</citation_analysis></p></caption><table frame="hsides" rules="groups"><thead><tr><th rowspan="1" colspan="1">Combinations of Feature Input</th><th rowspan="1" colspan="1">All Participants (n=29)</th><th rowspan="1" colspan="1">Without Sleep Disorder (n=18)</th><th rowspan="1" colspan="1">With Possible Sleep Disorder (n=11)</th></tr></thead><tbody><tr><td rowspan="1" colspan="1">Accelerometer (A)</td><td rowspan="1" colspan="1">22.5 (32.9)</td><td rowspan="1" colspan="1">17.1 (22.9)</td><td rowspan="1" colspan="1">31.4 (44.3)</td></tr><tr><td rowspan="1" colspan="1">A+temperature (T)</td><td rowspan="1" colspan="1">16.1 (15.7)</td><td rowspan="1" colspan="1">12.3 (13.0)</td><td rowspan="1" colspan="1">13.6 (14.0)</td></tr><tr><td rowspan="1" colspan="1">A+cyclic time features (Cy)</td><td rowspan="1" colspan="1">16.9 (24.1)</td><td rowspan="1" colspan="1">13.4 (11.7)</td><td rowspan="1" colspan="1">15.9 (10.4)</td></tr><tr><td rowspan="1" colspan="1">A+T+Cy</td><td rowspan="1" colspan="1">11.1 (11.0)</td><td rowspan="1" colspan="1">12.3 (12.3)</td><td rowspan="1" colspan="1">16.1 (16.7)</td></tr></tbody></table></table-wrap></citation_analysis></p>
+      <p><citation_analysis attribute="positive"><xref rid="t0002" ref-type="table">Table 2</xref></citation_analysis><citation_analysis attribute="neither"> shows the performance of the ML model in predicting sleep/wake periods based on the different combinations of feature input. The sensitivity was high for all feature combinations (eg, 93% or above for the full dataset). In contrast, the specificity increased substantially when features were added to the ML model, eg, for the full dataset the specificity was 52% (SD 24) when only accelerometer data was used as input, increasing to 72% (SD 20) when all features were added as input. Overall, the SDs were considerably higher for specificity than sensitivity across all feature combinations, indicating a considerable inter-individual variation in the predictions of wakefulness. Moreover, the specificity was somewhat higher and the related SDs lower for the participants with a possible sleep disorder compared to the participants without a sleep disorder.</citation_analysis><citation_analysis attribute="positive"><table-wrap position="float" id="t0002"><label>Table 2</label><caption><p><citation_analysis attribute="neither">The Specificity, Sensitivity, and F1-Score of the Leave-One-Subject-Out Cross-Validations When Using Different Feature Combinations as Input to the Machine Learning Model</citation_analysis></p></caption><table frame="hsides" rules="groups"><thead><tr><th rowspan="2" colspan="1">Combinations of Feature Input</th><th align="center" colspan="3" rowspan="1">All Participants (n=29)</th><th align="center" colspan="3" rowspan="1">Without Sleep Disorder (n=18)</th><th align="center" colspan="3" rowspan="1">With Possible Sleep Disorder (n=11)</th></tr><tr><th rowspan="1" colspan="1">Specificity</th><th rowspan="1" colspan="1">Sensitivity</th><th rowspan="1" colspan="1">F1-score</th><th rowspan="1" colspan="1">Specificity</th><th rowspan="1" colspan="1">Sensitivity</th><th rowspan="1" colspan="1">F1-Score</th><th rowspan="1" colspan="1">Specificity</th><th rowspan="1" colspan="1">Sensitivity</th><th rowspan="1" colspan="1">F1-Score</th></tr></thead><tbody><tr><td rowspan="1" colspan="1">A</td><td rowspan="1" colspan="1">0.52 (0.24)</td><td rowspan="1" colspan="1">0.95 (0.03)</td><td rowspan="1" colspan="1">0.74 (0.11)</td><td rowspan="1" colspan="1">0.50 (0.19)</td><td rowspan="1" colspan="1">0.93 (0.05)</td><td rowspan="1" colspan="1">0.72 (0.09)</td><td rowspan="1" colspan="1">0.71 (0.12)</td><td rowspan="1" colspan="1">0.92 (0.05)</td><td rowspan="1" colspan="1">0.82 (0.07)</td></tr><tr><td rowspan="1" colspan="1">A+T</td><td rowspan="1" colspan="1">0.65 (0.21)</td><td rowspan="1" colspan="1">0.93 (0.06)</td><td rowspan="1" colspan="1">0.80 (0.10)</td><td rowspan="1" colspan="1">0.57 (0.23)</td><td rowspan="1" colspan="1">0.93 (0.05)</td><td rowspan="1" colspan="1">0.75 (0.10)</td><td rowspan="1" colspan="1">0.76 (0.16)</td><td rowspan="1" colspan="1">0.90 (0.10)</td><td rowspan="1" colspan="1">0.82 (0.09)</td></tr><tr><td rowspan="1" colspan="1">A+Cy</td><td rowspan="1" colspan="1">0.69 (0.18)</td><td rowspan="1" colspan="1">0.94 (0.06)</td><td rowspan="1" colspan="1">0.82 (0.10)</td><td rowspan="1" colspan="1">0.61 (0.20)</td><td rowspan="1" colspan="1">0.94 (0.04)</td><td rowspan="1" colspan="1">0.78 (0.10)</td><td rowspan="1" colspan="1">0.79 (0.12)</td><td rowspan="1" colspan="1">0.91 (0.10)</td><td rowspan="1" colspan="1">0.84 (0.06)</td></tr><tr><td rowspan="1" colspan="1">A+Ci</td><td rowspan="1" colspan="1">0.67 (0.19)</td><td rowspan="1" colspan="1">0.93 (0.05)</td><td rowspan="1" colspan="1">0.80 (0.10)</td><td rowspan="1" colspan="1">0.65 (0.19)</td><td rowspan="1" colspan="1">0.94 (0.04)</td><td rowspan="1" colspan="1">0.80 (0.09)</td><td rowspan="1" colspan="1">0.76 (0.10)</td><td rowspan="1" colspan="1">0.90 (0.09)</td><td rowspan="1" colspan="1">0.82 (0.08)</td></tr><tr><td rowspan="1" colspan="1">A+T+Cy</td><td rowspan="1" colspan="1">0.69 (0.20)</td><td rowspan="1" colspan="1">0.95 (0.05)</td><td rowspan="1" colspan="1">0.82 (0.10)</td><td rowspan="1" colspan="1">0.65 (0.22)</td><td rowspan="1" colspan="1">0.94 (0.04)</td><td rowspan="1" colspan="1">0.80 (0.09)</td><td rowspan="1" colspan="1">0.79 (0.17)</td><td rowspan="1" colspan="1">0.91 (0.10)</td><td rowspan="1" colspan="1">0.84 (0.08)</td></tr><tr><td rowspan="1" colspan="1">A+T+Ci</td><td rowspan="1" colspan="1">0.72 (0.20)</td><td rowspan="1" colspan="1">0.93 (0.06)</td><td rowspan="1" colspan="1">0.83 (0.09)</td><td rowspan="1" colspan="1">0.67 (0.21)</td><td rowspan="1" colspan="1">0.95 (0.03)</td><td rowspan="1" colspan="1">0.81 (0.09)</td><td rowspan="1" colspan="1">0.82 (0.13)</td><td rowspan="1" colspan="1">0.91 (0.09)</td><td rowspan="1" colspan="1">0.85 (0.08)</td></tr><tr><td rowspan="1" colspan="1">A+Cy+Ci</td><td rowspan="1" colspan="1">0.70 (0.18)</td><td rowspan="1" colspan="1">0.94 (0.06)</td><td rowspan="1" colspan="1">0.82 (0.11)</td><td rowspan="1" colspan="1">0.65 (0.22)</td><td rowspan="1" colspan="1">0.95 (0.04)</td><td rowspan="1" colspan="1">0.81 (0.11)</td><td rowspan="1" colspan="1">0.81 (0.09)</td><td rowspan="1" colspan="1">0.91 (0.09)</td><td rowspan="1" colspan="1">0.85 (0.06)</td></tr><tr><td rowspan="1" colspan="1">A+T+Cy+Ci</td><td rowspan="1" colspan="1">0.72 (0.20)</td><td rowspan="1" colspan="1">0.95 (0.05)</td><td rowspan="1" colspan="1">0.84 (0.10)</td><td rowspan="1" colspan="1">0.67 (0.22)</td><td rowspan="1" colspan="1">0.94 (0.04)</td><td rowspan="1" colspan="1">0.81 (0.10)</td><td rowspan="1" colspan="1">0.82 (0.16)</td><td rowspan="1" colspan="1">0.91 (0.08)</td><td rowspan="1" colspan="1">0.85 (0.07)</td></tr></tbody></table><table-wrap-foot><fn id="tfn0001"><p><citation_analysis attribute="positive"><bold>Note</bold></citation_analysis><citation_analysis attribute="neither">: Values are Mean (SD).</citation_analysis></p></fn><fn id="tfn0002"><p><citation_analysis attribute="positive"><bold>Abbreviations</bold></citation_analysis><citation_analysis attribute="neither">: A, accelerometer; T, skin temperature; Cy, cyclic time; Ci, circadian rhythm.</citation_analysis></p></fn></table-wrap-foot></table-wrap></citation_analysis></p>
+      <p><citation_analysis attribute="positive"><xref rid="f0003" ref-type="fig">Figure 3</xref></citation_analysis><citation_analysis attribute="neither"> shows the change in performance metrics when removing different feature inputs to the ML model. Removing the circadian rhythm feature caused a reduction of 3.0% in the specificity and 1.1% in the F1-score, respectively. Removing the skin temperature features or cyclic time features had minor influence the performance metrics (ie, 0.7% change or less for any of the performance metrics).
+</citation_analysis><citation_analysis attribute="positive"><fig position="float" id="f0003" fig-type="figure"><label>Figure 3</label><caption><p><citation_analysis attribute="neither">Change in performance metrics when removing different feature modalities (ie, estimated circadian rhythm, skin temperature, or cyclic time) as input to the machine learning model compared to the model receiving all feature inputs. The bars are mean values and the error bars SD.</citation_analysis></p></caption><graphic xlink:href="NSS-16-699-g0003" content-type="print-only" position="float"/></fig></citation_analysis></p>
+      <p><citation_analysis attribute="positive"><xref rid="f0004" ref-type="fig">Figure 4</xref></citation_analysis><citation_analysis attribute="positive"> shows Bland-Altman plots, displaying the individual differences between sleep duration and sleep efficiency derived from PSG versus predicted by the ML model, using accelerometry-derived features (A and C) versus all features (B and D) as input to the ML model. For the accelerometry-based ML model, the average sleep time, wake time and sleep efficiency were 465 (SD 61), 55 (SD 33), and 89.5% (SD 5.6), respectively. The corresponding numbers for the full ML model were 430 (SD 45), 90 (SD 68), and 83.6% (SD 10.1), respectively.
+</citation_analysis><citation_analysis attribute="positive"><fig position="float" id="f0004" fig-type="figure"><label>Figure 4</label><caption><p><citation_analysis attribute="neither">Bland-Altman plots indicating the difference in total sleep time (</citation_analysis><citation_analysis attribute="positive"><bold>A</bold></citation_analysis><citation_analysis attribute="neither"> and </citation_analysis><citation_analysis attribute="positive"><bold>B</bold></citation_analysis><citation_analysis attribute="neither">) and sleep efficiency (</citation_analysis><citation_analysis attribute="positive"><bold>C</bold></citation_analysis><citation_analysis attribute="neither"> and </citation_analysis><citation_analysis attribute="positive"><bold>D</bold></citation_analysis><citation_analysis attribute="neither">) predicted by the machine learning model when including accelerometry-derived features (</citation_analysis><citation_analysis attribute="positive"><bold>A</bold></citation_analysis><citation_analysis attribute="neither"> and </citation_analysis><citation_analysis attribute="positive"><bold>C</bold></citation_analysis><citation_analysis attribute="neither">) and all features (</citation_analysis><citation_analysis attribute="positive"><bold>B</bold></citation_analysis><citation_analysis attribute="neither"> and </citation_analysis><citation_analysis attribute="positive"><bold>D</bold></citation_analysis><citation_analysis attribute="neither">) versus the PSG-scored sleep time. The upper and lower dashed lines indicate the 95% limits of agreement and middle solid line the mean difference. The dotted horizontal line indicates zero (ie, line of equality). The regression line is indicated by the short, dotted line. The error bars on the right side indicate the 95% confidence interval for the limits of agreement and the mean difference.</citation_analysis></p></caption><graphic xlink:href="NSS-16-699-g0004" content-type="print-only" position="float"/></fig></citation_analysis></p>
+      <p><citation_analysis attribute="neither">The mean difference between the PSG-derived and predicted sleep duration was 54 min for the accelerometry-based model (A) with limits of agreement range 228 min (−60 min to 168 min). Including all features in the ML model (B) reduced the mean difference between the PSG-derived and predicted sleep duration to 19 min with limits of agreement range 154 min (−58 to 96 min). Correspondingly, the correlation between PSG-scored sleep duration and predicted sleep duration improved from 0.56 to 0.78, respectively. For sleep efficiency, the mean difference was 10% and range of limits of agreement 42% for the accelerometry-based model (C), improving to a mean difference of 4% and range of limits of agreement 32% for the full model (D). The corresponding correlations between PSG-scored sleep efficiency and predicted sleep efficiency were 0.41 for the accelerometry-based model and 0.72 for the full model.</citation_analysis></p>
+      <p><citation_analysis attribute="positive">Although the disagreement between the PSG-derived and predicted sleep was reduced in the full model, a significant systematic bias remained between the methods as indicated by the 95% confidence intervals (CIs) of the mean differences (ie, line of equality not included in the CIs). Moreover, the regression lines indicate that the bias between measurement is proportional, ie, the bias tends to be larger for participants with shorter sleep duration and lower sleep efficiency.</citation_analysis></p>
+      <p><citation_analysis attribute="neither">Bland-Altman plots, displaying the individual differences between sleep duration and sleep efficiency derived from PSG versus the predictions based on the single thigh or back accelerometer, are presented in </citation_analysis><citation_analysis attribute="positive"><underline><ext-link xlink:href="https://www.dovepress.com/get_supplementary_file.php?f=452799.docx" ext-link-type="uri">Supplementary Figure 1</ext-link></underline></citation_analysis><citation_analysis attribute="neither"> (sleep duration) and </citation_analysis><citation_analysis attribute="positive"><underline><ext-link xlink:href="https://www.dovepress.com/get_supplementary_file.php?f=452799.docx" ext-link-type="uri">Supplementary Figure 2</ext-link></underline></citation_analysis><citation_analysis attribute="positive"> (sleep efficiency). The limits of agreement range were somewhat larger when predictions were based on a single accelerometer set-up as compared to a dual accelerometer set-up, both for the accelerometry-based model and the full model. Overall, the performance metrics were similar or somewhat lower when using the single accelerometer set-ups (</citation_analysis><citation_analysis attribute="positive"><underline><ext-link xlink:href="https://www.dovepress.com/get_supplementary_file.php?f=452799.docx" ext-link-type="uri">Supplementary Table 1</ext-link></underline></citation_analysis><citation_analysis attribute="neither">). For the analysis based on the single thigh accelerometer, the correlations between PSG-scored and predicted sleep duration were 0.50 for the accelerometry-based model and 0.73 for the full model, while for sleep efficiency the correlations were 0.39 and 0.71, respectively. For the analysis based on the single back accelerometer, the corresponding correlations were 0.54 and 0.74 for sleep duration, and 0.36 and 0.64 for sleep efficiency.</citation_analysis></p>
+    </sec>
+    <sec id="s0004">
+      <title>Discussion</title>
+      <p><citation_analysis attribute="positive">The current study indicates that an ML model can be trained to predict sleep/wake periods with excellent sensitivity and moderate specificity based on a composite set of features derived from accelerometry on the thigh and low back, skin temperature recordings, and contextual information. Specifically, adding features derived from the skin temperature recordings, cyclic time features, and the fitted circadian rhythm curve, based on the estimated MoS, improved the prediction of wakefulness compared to using only accelerometry-derived features. The improved prediction of wakefulness reduces the common problem of sleep overestimation when relying solely on accelerometry to predict sleep/wake periods. Future studies aiming to improve the assessment of sleep duration based on accelerometry may consider a similar approach as described in the current study. Notably, the training data used to develop and evaluate the current ML model as well as the model itself is publicly available at </citation_analysis><citation_analysis attribute="positive"><underline><ext-link xlink:href="https://github.com/ntnu-ai-lab/harth-ml-experiments" ext-link-type="uri">https://github.com/ntnu-ai-lab/harth-ml-experiments</ext-link></underline></citation_analysis><citation_analysis attribute="neither">.</citation_analysis></p>
+      <p><citation_analysis attribute="positive">Compared to sleep duration predictions derived from PSG, estimates of sleep duration in healthy adults using thigh-, hip-, or trunk-worn accelerometers have exhibited both underestimation (mean values across studies ranging from −32 min to −81 min), as well as overestimation (mean values across studies ranging from 40 min to 54 min).</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0029" ref-type="bibr">29–32</xref></citation_analysis><citation_analysis attribute="neither"> Moreover, the range of limits of agreement in these studies varied from 180 min to 297 min. In comparison, we found that our ML model overestimated sleep duration by 54 min when including accelerometry-derived features only, which was reduced to 19 min when adding features derived from the skin temperature recordings, cyclic time features, and the fitted circadian rhythm curve as input to the ML model. The corresponding range of limits of agreement was reduced from 228 min (−60 min to 168 min) to 154 min (−58 to 96 min) but as indicated in </citation_analysis><citation_analysis attribute="positive"><xref rid="f0004" ref-type="fig">Figure 4</xref></citation_analysis><citation_analysis attribute="positive">, a significant systematic bias remained between the two methods. Moreover, as indicated by the regression lines in </citation_analysis><citation_analysis attribute="positive"><xref rid="f0004" ref-type="fig">Figure 4</xref></citation_analysis><citation_analysis attribute="neither">, the ML-based predictions were more biased for participants with shorter sleep duration and lower sleep efficiency.</citation_analysis></p>
+      <p><citation_analysis attribute="positive">The smaller mean difference and range of limits of agreement in the current study compared to previous studies using accelerometry to predict sleep duration is likely explained by our ML approach and the utilization of additional features as input to the ML model. The latter has been suggested to enhance the performance of ML models for sleep/wake-scoring.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0033" ref-type="bibr">33</xref></citation_analysis><citation_analysis attribute="positive"> A recent study demonstrated the advantage of an ML approach, showing that a random forest classifier performed consistently better in predicting sleep/wake based on wrist-worn accelerometry compared to commonly used count- or rule-based algorithms.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0034" ref-type="bibr">34</xref></citation_analysis><citation_analysis attribute="neither"> Furthermore, the observed F1-score was identical to the F1-score in the current study (ie, 74%) when the sleep/wake prediction was based on accelerometry alone. However, our F1-score increased to 84% when adding the features derived from the skin temperature recordings, cyclic time, and fitted circadian rhythm curve as input to the ML model. Thus, our dual-accelerometer set-up provides comparable results to wrist-worn accelerometry, which is the most common approach for accelerometer-based sleep recordings. Importantly, key daily physical activity types and postures cannot be delineated based on wrist-worn accelerometry. Recently, there has been an increasing focus on the necessity of understanding the inherent interdependence between daily physical activity, sedentary behavior, and sleep across 24 hours.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0035" ref-type="bibr">35</xref></citation_analysis><citation_analysis attribute="neither"> Importantly, the dual-accelerometer set-up allows accurate measurement of key physical activity types and postures, such as sitting, lying down, standing, walking, running, and bicycling.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0018" ref-type="bibr">18</xref></citation_analysis><citation_analysis attribute="neither">,</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0019" ref-type="bibr">19</xref></citation_analysis><citation_analysis attribute="neither"> Along with the measurement of sleep, as illustrated in the current study, such data can potentially open new research avenues for understanding how daily physical activity, sedentary behavior, and sleep interact to influence health.</citation_analysis></p>
+      <p><citation_analysis attribute="neither">In contrast to a previous systematic review on wrist-worn accelerometry,</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0036" ref-type="bibr">36</xref></citation_analysis><citation_analysis attribute="positive"> we observed that the sensitivity was similar for the participants without any sleep disorder compared to the participants with a possible sleep disorder. This finding was consistent across all combinations of feature input to the ML model. Moreover, the specificity was somewhat higher among the participants with a possible sleep disorder and the SDs smaller compared to the participants without a sleep disorder. Although speculative, this may indicate that the participants with a possible sleep disorder exhibited increased body movements during awake periods, which are detected by the accelerometers, leading to less overestimation of sleep.</citation_analysis></p>
+      <p><citation_analysis attribute="positive">A recent study comparing sleep duration predicted by thigh-worn accelerometry with PSG-derived sleep duration found good sensitivity (0.84) and moderate specificity (0.55). These performance scores were similar to the mean sensitivity (0.89) and specificity (0.53) reported in a systematic review, assessing the agreement between wrist-worn accelerometry and PSG-derived sleep duration.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0036" ref-type="bibr">36</xref></citation_analysis><citation_analysis attribute="neither"> In comparison, the sensitivity and specificity scores of our ML model were 0.95 and 0.52, respectively, when including accelerometry-derived features only. When including all feature inputs to the ML model, the sensitivity remained unchanged at 0.95, while specificity improved to 0.72. Thus, the reduced overestimation of sleep and the smaller limits of agreement range for the full model showed in the Bland-Altman plots (</citation_analysis><citation_analysis attribute="positive"><xref rid="f0004" ref-type="fig">Figure 4</xref></citation_analysis><citation_analysis attribute="positive">) is mainly explained by the improved specificity (ie, improved prediction of wakefulness). Notably, excluding skin temperature features as input to the ML model, but including the estimated circadian rhythm and cyclic time features, resulted in specificity of 0.70 and sensitivity 0.94 (</citation_analysis><citation_analysis attribute="positive"><xref rid="t0002" ref-type="table">Table 2</xref></citation_analysis><citation_analysis attribute="positive">). This is relevant since cyclic time and circadian rhythm approximation can be computed based on information readily available in most studies. However, it should be noted that the estimation of MoS as compared to the PSG-derived MoS improved substantially when adding both the cyclic time features and skin temperature as input to the initial ML model. Specifically, the absolute deviation was 16.9 min when including the cyclic time features in addition to accelerometry-derived features as input to the ML model. This was reduced to 11.1 min when skin temperature was included as input to the ML model.</citation_analysis></p>
+      <p><citation_analysis attribute="positive">There are several strengths to the current study, including the use of an ML approach and the size and diversity of the training dataset in terms of age range of the participants and presence of sleep problems. However, some limitations should be considered when interpreting the results. First, although the age range of the participants is a strength in terms of creating diversity of the training dataset, it also implies that the data are less likely to be representative for all age categories included. Second, although the sub-sample with a possible sleep disorder contributed to increase the diversity of the training dataset, they do not represent a clinical sample with a confirmed diagnosis. While our results indicate that the ML model performed equally well in predicting sleep/wake periods among the participants with a possible sleep disorder, further investigation is required to evaluate the ML model performance in a representative sample with confirmed diagnosis of a sleep disorder. Third, TIB was used as surrogate measure for the period the participants intended to sleep, commonly indicated by “lights off” and “lights on”. Since TIB may include non-sleep-related activity (eg, reading, texting etc.) our estimates of sleep efficiency could be underestimated.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0037" ref-type="bibr">37</xref></citation_analysis><citation_analysis attribute="neither"> Fourth, it may be hypothesized that other ML models can perform better than the SVM used in the current study. In the initial analysis, we explored several ML approaches including k-nearest neighbors, random forest, extreme gradient boost, multi-layer perceptron, and transformer encoder. However, the SVM consistently outperformed the other ML approaches, and we therefore chose to only present the results for the SVM. Finally, all participants had a single well-defined period of sleep and the inclusion of cyclic time features and estimated circadian rhythm improved the performance of our ML model. However, the influence of including these features to predict accelerometry-derived sleep duration among people with less predictable sleep times and/or erratic sleep patterns is unknown and requires further investigation.</citation_analysis></p>
+    </sec>
+    <sec id="s0005">
+      <title>Conclusion</title>
+      <p><citation_analysis attribute="neither">An ML model can predict sleep/wake periods with excellent sensitivity and moderate specificity based on a composite set of features derived from accelerometry on the thigh and low back, skin temperature recordings and contextual information. The training data used to develop and evaluate the ML model is publicly available, and the approach outlined in this study may be adopted by future studies aiming to assess sleep duration and sleep efficiency based on accelerometry.</citation_analysis></p>
+    </sec>
+  </body>
+  <back>
+    <ack>
+      <title>Acknowledgments</title>
+      <p><citation_analysis attribute="neither">This study was funded by NTNU Health, Norwegian University of Science and Technology (grant no. 81771516). Eivind Schjelderup Skarpsno is supported by a grant from the Liaison Committee between the Central Norway Regional Health Authority (RHA) and the Norwegian University of Science and Technology (NTNU).</citation_analysis></p>
+    </ack>
+    <sec sec-type="COI-statement" id="s0006">
+      <title>Disclosure</title>
+      <p><citation_analysis attribute="neither">The authors report no conflicts of interest in this work.</citation_analysis></p>
+    </sec>
+    <ref-list>
+      <title>References</title>
+      <ref id="cit0001">
+        <label>1.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Van de Water</surname>
+<given-names>AT</given-names></string-name>, <string-name><surname>Holmes</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Hurley</surname>
+<given-names>DA</given-names></string-name>. <article-title>Objective measurements of sleep for non-laboratory settings as alternatives to polysomnography: a systematic review</article-title>. <source><italic toggle="yes">J Sleep Res</italic></source>. <year>2011</year>;<volume>20</volume>(<issue>1 Pt 2</issue>):<fpage>183</fpage>–<lpage>200</lpage>. doi:<pub-id pub-id-type="doi">10.1111/j.1365-2869.2009.00814.x</pub-id><pub-id pub-id-type="pmid">20374444</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0002">
+        <label>2.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Willetts</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Hollowell</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Aslett</surname>
+<given-names>L</given-names></string-name>, <string-name><surname>Holmes</surname>
+<given-names>C</given-names></string-name>, <string-name><surname>Doherty</surname>
+<given-names>A</given-names></string-name>. <article-title>Statistical machine learning of sleep and physical activity phenotypes from sensor data in 96,220 UK Biobank participants</article-title>. <source><italic toggle="yes">Sci Rep</italic></source>. <year>2018</year>;<volume>8</volume>(<issue>1</issue>):<fpage>7961</fpage>. doi:<pub-id pub-id-type="doi">10.1038/s41598-018-26174-1</pub-id><pub-id pub-id-type="pmid">29784928</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0003">
+        <label>3.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Su</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Li</surname>
+<given-names>X</given-names></string-name>, <string-name><surname>Xu</surname>
+<given-names>Y</given-names></string-name>, <string-name><surname>McCall</surname>
+<given-names>WV</given-names></string-name>, <string-name><surname>Wang</surname>
+<given-names>X</given-names></string-name>. <article-title>Epidemiology of accelerometer-based sleep parameters in US school-aged children and adults: NHANES 2011-2014</article-title>. <source><italic toggle="yes">Sci Rep</italic></source>. <year>2022</year>;<volume>12</volume>(<issue>1</issue>):<fpage>7680</fpage>. doi:<pub-id pub-id-type="doi">10.1038/s41598-022-11848-8</pub-id><pub-id pub-id-type="pmid">35538108</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0004">
+        <label>4.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Albers</surname>
+<given-names>JD</given-names></string-name>, <string-name><surname>Meertens</surname>
+<given-names>RM</given-names></string-name>, <string-name><surname>Savelberg</surname>
+<given-names>H</given-names></string-name>, et al. <article-title>Both short and long sleep durations are associated with type 2 diabetes, independent from traditional lifestyle risk factors-The Maastricht Study</article-title>. <source><italic toggle="yes">Sleep Health</italic></source>. <year>2023</year>;<volume>9</volume>(<issue>5</issue>):<fpage>733</fpage>–<lpage>741</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.sleh.2023.06.009</pub-id><pub-id pub-id-type="pmid">37573207</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0005">
+        <label>5.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>de Paula</surname>
+<given-names>D</given-names></string-name>, <string-name><surname>Crochemore-Silva</surname>
+<given-names>I</given-names></string-name>, <string-name><surname>Griep</surname>
+<given-names>RH</given-names></string-name>, <string-name><surname>Duncan</surname>
+<given-names>BB</given-names></string-name>, <string-name><surname>Schmidt</surname>
+<given-names>MI</given-names></string-name>. <article-title>Accelerometry measured movement behaviors in middle-aged and older adults: cross-sectional analysis of the ELSA-Brasil Study</article-title>. <source><italic toggle="yes">J Phys Act Health</italic></source>. <year>2023</year>;<fpage>1</fpage>–<lpage>10</lpage>. doi:<pub-id pub-id-type="doi">10.1123/jpah.2023-0106</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0006">
+        <label>6.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Sansom</surname>
+<given-names>K</given-names></string-name>, <string-name><surname>Reynolds</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>McVeigh</surname>
+<given-names>J</given-names></string-name>, et al. <article-title>Estimating sleep duration: performance of open-source processing of actigraphy compared to in-laboratory polysomnography in the community</article-title>. <source><italic toggle="yes">SLEEP Adv</italic></source>. <year>2023</year>;<volume>4</volume>(<issue>1</issue>):<fpage>zpad028</fpage>. doi:<pub-id pub-id-type="doi">10.1093/sleepadvances/zpad028</pub-id><pub-id pub-id-type="pmid">37485312</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0007">
+        <label>7.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Plekhanova</surname>
+<given-names>T</given-names></string-name>, <string-name><surname>Rowlands</surname>
+<given-names>AV</given-names></string-name>, <string-name><surname>Davies</surname>
+<given-names>MJ</given-names></string-name>, <string-name><surname>Hall</surname>
+<given-names>AP</given-names></string-name>, <string-name><surname>Yates</surname>
+<given-names>T</given-names></string-name>, <string-name><surname>Edwardson</surname>
+<given-names>CL</given-names></string-name>. <article-title>Validation of an automated sleep detection algorithm using data from multiple accelerometer brands</article-title>. <source><italic toggle="yes">J Sleep Res</italic></source>. <year>2023</year>;<volume>32</volume>(<issue>3</issue>):<fpage>e13760</fpage>. doi:<pub-id pub-id-type="doi">10.1111/jsr.13760</pub-id><pub-id pub-id-type="pmid">36317222</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0008">
+        <label>8.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Chase</surname>
+<given-names>JD</given-names></string-name>, <string-name><surname>Busa</surname>
+<given-names>MA</given-names></string-name>, <string-name><surname>Staudenmayer</surname>
+<given-names>JW</given-names></string-name>, <string-name><surname>Sirard</surname>
+<given-names>JR</given-names></string-name>. <article-title>Sleep measurement using wrist-worn accelerometer data compared with polysomnography</article-title>. <source><italic toggle="yes">Sensors</italic></source>. <year>2022</year>;<volume>22</volume>(<issue>13</issue>):<fpage>5041</fpage>. doi:<pub-id pub-id-type="doi">10.3390/s22135041</pub-id><pub-id pub-id-type="pmid">35808535</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0009">
+        <label>9.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Walch</surname>
+<given-names>O</given-names></string-name>, <string-name><surname>Huang</surname>
+<given-names>Y</given-names></string-name>, <string-name><surname>Forger</surname>
+<given-names>D</given-names></string-name>, <string-name><surname>Goldstein</surname>
+<given-names>C</given-names></string-name>. <article-title>Sleep stage prediction with raw acceleration and photoplethysmography heart rate data derived from a consumer wearable device</article-title>. <source><italic toggle="yes">Sleep</italic></source>. <year>2019</year>;<volume>42</volume>(<issue>12</issue>):<fpage>zsz180</fpage>. doi:<pub-id pub-id-type="doi">10.1093/sleep/zsz180</pub-id><pub-id pub-id-type="pmid">31579900</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0010">
+        <label>10.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Haghayegh</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Khoshnevis</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Smolensky</surname>
+<given-names>MH</given-names></string-name>, <string-name><surname>Diller</surname>
+<given-names>KR</given-names></string-name>, <string-name><surname>Castriotta</surname>
+<given-names>RJ</given-names></string-name>. <article-title>Performance comparison of different interpretative algorithms utilized to derive sleep parameters from wrist actigraphy data</article-title>. <source><italic toggle="yes">Chronobiol. Int.</italic></source>
+<year>2019</year>;<volume>36</volume>(<issue>12</issue>):<fpage>1752</fpage>–<lpage>1760</lpage>. doi:<pub-id pub-id-type="doi">10.1080/07420528.2019.1679826</pub-id><pub-id pub-id-type="pmid">31658822</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0011">
+        <label>11.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Yuan</surname>
+<given-names>H</given-names></string-name>, <string-name><surname>Plekhanova</surname>
+<given-names>T</given-names></string-name>, <string-name><surname>Walmsley</surname>
+<given-names>R</given-names></string-name>, et al. <article-title>Self-supervised learning of accelerometer data provides new insights for sleep and its association with mortality</article-title>. <source><italic toggle="yes">medRxiv</italic></source>. <year>2023</year>. doi:<pub-id pub-id-type="doi">10.1101/2023.07.07.23292251</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0012">
+        <label>12.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Altini</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Kinnunen</surname>
+<given-names>H</given-names></string-name>. <article-title>The promise of sleep: a multi-sensor approach for accurate sleep stage detection using the Oura ring</article-title>. <source><italic toggle="yes">Sensors</italic></source>. <year>2021</year>;<volume>21</volume>(<issue>13</issue>):<fpage>4302</fpage>. doi:<pub-id pub-id-type="doi">10.3390/s21134302</pub-id><pub-id pub-id-type="pmid">34201861</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0013">
+        <label>13.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Raymann</surname>
+<given-names>RJ</given-names></string-name>, <string-name><surname>Swaab</surname>
+<given-names>DF</given-names></string-name>, <string-name><surname>Van Someren</surname>
+<given-names>EJ</given-names></string-name>. <article-title>Skin temperature and sleep-onset latency: changes with age and insomnia</article-title>. <source><italic toggle="yes">Physiol Behav</italic></source>. <year>2007</year>;<volume>90</volume>(<issue>2–3</issue>):<fpage>257</fpage>–<lpage>266</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.physbeh.2006.09.008</pub-id><pub-id pub-id-type="pmid">17070562</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0014">
+        <label>14.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Szymusiak</surname>
+<given-names>R</given-names></string-name>. <article-title>Body temperature and sleep</article-title>. <source><italic toggle="yes">Handbook Clin Neurol</italic></source>. <year>2018</year>;<volume>156</volume>:<fpage>341</fpage>–<lpage>351</lpage>. doi:<pub-id pub-id-type="doi">10.1016/b978-0-444-63912-7.00020-5</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0015">
+        <label>15.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Kräuchi</surname>
+<given-names>K</given-names></string-name>, <string-name><surname>Cajochen</surname>
+<given-names>C</given-names></string-name>, <string-name><surname>Werth</surname>
+<given-names>E</given-names></string-name>, <string-name><surname>Wirz-Justice</surname>
+<given-names>A</given-names></string-name>. <article-title>Functional link between distal vasodilation and sleep-onset latency?</article-title>
+<source><italic toggle="yes">Am J Physiol Regul Integr Comp Physiol</italic></source>. <year>2000</year>;<volume>278</volume>(<issue>3</issue>):<fpage>R741</fpage>–<lpage>8</lpage>. doi:<pub-id pub-id-type="doi">10.1152/ajpregu.2000.278.3.R741</pub-id><pub-id pub-id-type="pmid">10712296</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0016">
+        <label>16.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Kelly</surname>
+<given-names>RM</given-names></string-name>, <string-name><surname>McDermott</surname>
+<given-names>JH</given-names></string-name>, <string-name><surname>Coogan</surname>
+<given-names>AN</given-names></string-name>. <article-title>Differences in sleep offset timing between weekdays and weekends in 79,161 adult participants in the UK Biobank</article-title>. <source><italic toggle="yes">Clocks &amp; Sleep</italic></source>. <year>2022</year>;<volume>4</volume>(<issue>4</issue>):<fpage>658</fpage>–<lpage>674</lpage>. doi:<pub-id pub-id-type="doi">10.3390/clockssleep4040050</pub-id><pub-id pub-id-type="pmid">36547101</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0017">
+        <label>17.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Mattingly</surname>
+<given-names>SM</given-names></string-name>, <string-name><surname>Grover</surname>
+<given-names>T</given-names></string-name>, <string-name><surname>Martinez</surname>
+<given-names>GJ</given-names></string-name>, et al. <article-title>The effects of seasons and weather on sleep patterns measured through longitudinal multimodal sensing</article-title>. <source><italic toggle="yes">NJP Digit Med</italic></source>. <year>2021</year>;<volume>4</volume>(<issue>1</issue>):<fpage>76</fpage>. doi:<pub-id pub-id-type="doi">10.1038/s41746-021-00435-2</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0018">
+        <label>18.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Bach</surname>
+<given-names>K</given-names></string-name>, <string-name><surname>Kongsvold</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Bårdstu</surname>
+<given-names>HB</given-names></string-name>, et al. <article-title>A machine learning classifier for detection of physical activity types and postures during free-living</article-title>. <source><italic toggle="yes">J Meas Phys Behav</italic></source>. <year>2022</year>;<volume>5</volume>:<fpage>24</fpage>–<lpage>31</lpage>. doi:<pub-id pub-id-type="doi">10.1123/jmpb.2021-0015</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0019">
+        <label>19.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Logacjov</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Bach</surname>
+<given-names>K</given-names></string-name>, <string-name><surname>Kongsvold</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Bårdstu</surname>
+<given-names>HB</given-names></string-name>, <string-name><surname>Mork</surname>
+<given-names>PJ</given-names></string-name>. <article-title>HARTH: a human activity recognition dataset for machine learning</article-title>. <source><italic toggle="yes">Sensors</italic></source>. <year>2021</year>;<volume>21</volume>(<issue>23</issue>):<fpage>7853</fpage>. doi:<pub-id pub-id-type="doi">10.3390/s21237853</pub-id><pub-id pub-id-type="pmid">34883863</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0020">
+        <label>20.</label>
+        <mixed-citation publication-type="book"><string-name><surname>Oppenheim</surname>
+<given-names>AV</given-names></string-name>, <string-name><surname>Schafer</surname>
+<given-names>RW</given-names></string-name>, <string-name><surname>Buck</surname>
+<given-names>JR</given-names></string-name>, <string-name><surname>Buck</surname>
+<given-names>JR</given-names></string-name>, <string-name><surname>Schafer</surname>
+<given-names>RW</given-names></string-name>. <part-title>Discrete-time signal processing</part-title>. In: <source><italic toggle="yes">Prentice-Hall Signal Processing Series</italic></source>. <edition>2nd</edition> ed. <publisher-name>Prentice Hall</publisher-name>; <year>1999</year>.</mixed-citation>
+      </ref>
+      <ref id="cit0021">
+        <label>21.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Berry</surname>
+<given-names>RB</given-names></string-name>, <string-name><surname>Brooks</surname>
+<given-names>R</given-names></string-name>, <string-name><surname>Gamaldo</surname>
+<given-names>C</given-names></string-name>, et al. <article-title>AASM Scoring Manual Updates for 2017 (Version 2.4)</article-title>. <source><italic toggle="yes">J Clin Sleep Med</italic></source>. <year>2017</year>;<volume>13</volume>(<issue>5</issue>):<fpage>665</fpage>–<lpage>666</lpage>. doi:<pub-id pub-id-type="doi">10.5664/jcsm.6576</pub-id><pub-id pub-id-type="pmid">28416048</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0022">
+        <label>22.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Wang</surname>
+<given-names>H</given-names></string-name>, <string-name><surname>Wang</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Yu</surname>
+<given-names>W</given-names></string-name>, <string-name><surname>Lei</surname>
+<given-names>X</given-names></string-name>. <article-title>Consistency of chronotype measurements is affected by sleep quality, gender, longitude, and latitude</article-title>. <source><italic toggle="yes">Chronobiol Int</italic></source>. <year>2023</year>;<volume>40</volume>(<issue>7</issue>):<fpage>952</fpage>–<lpage>960</lpage>. doi:<pub-id pub-id-type="doi">10.1080/07420528.2023.2237118</pub-id><pub-id pub-id-type="pmid">37491913</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0023">
+        <label>23.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Zhai</surname>
+<given-names>Z</given-names></string-name>, <string-name><surname>Liu</surname>
+<given-names>X</given-names></string-name>, <string-name><surname>Zhang</surname>
+<given-names>H</given-names></string-name>, et al. <article-title>Associations of midpoint of sleep and night sleep duration with type 2 diabetes mellitus in Chinese rural population: the Henan rural cohort study</article-title>. <source><italic toggle="yes">BMC Public Health</italic></source>. <year>2021</year>;<volume>21</volume>(<issue>1</issue>):<fpage>879</fpage>. doi:<pub-id pub-id-type="doi">10.1186/s12889-021-10833-6</pub-id><pub-id pub-id-type="pmid">33962597</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0024">
+        <label>24.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Fekedulegn</surname>
+<given-names>D</given-names></string-name>, <string-name><surname>Andrew</surname>
+<given-names>ME</given-names></string-name>, <string-name><surname>Shi</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Violanti</surname>
+<given-names>JM</given-names></string-name>, <string-name><surname>Knox</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Innes</surname>
+<given-names>KE</given-names></string-name>. <article-title>Actigraphy-based assessment of sleep parameters</article-title>. <source><italic toggle="yes">Ann. Work Exposures Health</italic></source>. <year>2020</year>;<volume>64</volume>(<issue>4</issue>):<fpage>350</fpage>–<lpage>367</lpage>. doi:<pub-id pub-id-type="doi">10.1093/annweh/wxaa007</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0025">
+        <label>25.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Refinetti</surname>
+<given-names>R</given-names></string-name>. <article-title>Chronotype variability and patterns of light exposure of a large cohort of United States residents</article-title>. <source><italic toggle="yes">Yale J Biol Med</italic></source>. <year>2019</year>;<volume>92</volume>(<issue>2</issue>):<fpage>179</fpage>–<lpage>186</lpage>.<pub-id pub-id-type="pmid">31249478</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0026">
+        <label>26.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Cortes</surname>
+<given-names>C</given-names></string-name>, <string-name><surname>Vapnik</surname>
+<given-names>V</given-names></string-name>. <article-title>Support-vector networks</article-title>. <source><italic toggle="yes">Machine Learning</italic></source>. <year>1995</year>;<volume>20</volume>(<issue>3</issue>):<fpage>273</fpage>–<lpage>297</lpage>. doi:<pub-id pub-id-type="doi">10.1007/BF00994018</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0027">
+        <label>27.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Bland</surname>
+<given-names>JM</given-names></string-name>, <string-name><surname>Altman</surname>
+<given-names>DG</given-names></string-name>. <article-title>Measuring agreement in method comparison studies</article-title>. <source><italic toggle="yes">Statistical Methods Med Res</italic></source>. <year>1999</year>;<volume>8</volume>(<issue>2</issue>):<fpage>135</fpage>–<lpage>160</lpage>. doi:<pub-id pub-id-type="doi">10.1177/096228029900800204</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0028">
+        <label>28.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Krouwer</surname>
+<given-names>JS</given-names></string-name>. <article-title>Why Bland-Altman plots should use X, not (Y+X)/2 when X is a reference method</article-title>. <source><italic toggle="yes">Stat Med</italic></source>. <year>2008</year>;<volume>27</volume>(<issue>5</issue>):<fpage>778</fpage>–<lpage>780</lpage>. doi:<pub-id pub-id-type="doi">10.1002/sim.3086</pub-id><pub-id pub-id-type="pmid">17907247</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0029">
+        <label>29.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Johansson</surname>
+<given-names>PJ</given-names></string-name>, <string-name><surname>Crowley</surname>
+<given-names>P</given-names></string-name>, <string-name><surname>Axelsson</surname>
+<given-names>J</given-names></string-name>, et al. <article-title>Development and performance of a sleep estimation algorithm using a single accelerometer placed on the thigh: an evaluation against polysomnography</article-title>. <source><italic toggle="yes">J Sleep Res</italic></source>. <year>2023</year>;<volume>32</volume>(<issue>2</issue>):<fpage>e13725</fpage>. doi:<pub-id pub-id-type="doi">10.1111/jsr.13725</pub-id><pub-id pub-id-type="pmid">36167935</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0030">
+        <label>30.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Zinkhan</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Berger</surname>
+<given-names>K</given-names></string-name>, <string-name><surname>Hense</surname>
+<given-names>S</given-names></string-name>, et al. <article-title>Agreement of different methods for assessing sleep characteristics: a comparison of two actigraphs, wrist and Hip placement, and self-report with polysomnography</article-title>. <source><italic toggle="yes">Sleep Medicine</italic></source>. <year>2014</year>;<volume>15</volume>(<issue>9</issue>):<fpage>1107</fpage>–<lpage>1114</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.sleep.2014.04.015</pub-id><pub-id pub-id-type="pmid">25018025</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0031">
+        <label>31.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Slater</surname>
+<given-names>JA</given-names></string-name>, <string-name><surname>Botsis</surname>
+<given-names>T</given-names></string-name>, <string-name><surname>Walsh</surname>
+<given-names>J</given-names></string-name>, <string-name><surname>King</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Straker</surname>
+<given-names>LM</given-names></string-name>, <string-name><surname>Eastwood</surname>
+<given-names>PR</given-names></string-name>. <article-title>Assessing sleep using Hip and wrist actigraphy</article-title>. <source><italic toggle="yes">Sleep Biol Rhythms</italic></source>. <year>2015</year>;<volume>13</volume>(<issue>2</issue>):<fpage>172</fpage>–<lpage>180</lpage>. doi:<pub-id pub-id-type="doi">10.1111/sbr.12103</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0032">
+        <label>32.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Matsuo</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Masuda</surname>
+<given-names>F</given-names></string-name>, <string-name><surname>Sumi</surname>
+<given-names>Y</given-names></string-name>, et al. <article-title>Comparisons of portable sleep monitors of different modalities: potential as naturalistic sleep recorders</article-title>. <source><italic toggle="yes">Technol Rep Front Neurol</italic></source>. <year>2016</year>;<volume>7</volume>:<fpage>110</fpage>. doi:<pub-id pub-id-type="doi">10.3389/fneur.2016.00110</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0033">
+        <label>33.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Chao</surname>
+<given-names>K</given-names></string-name>, <string-name><surname>Fry</surname>
+<given-names>B</given-names></string-name>, <string-name><surname>Rajput</surname>
+<given-names>KS</given-names></string-name>, <string-name><surname>Selvaraj</surname>
+<given-names>N</given-names></string-name>. <article-title>Influence of study composition on the efficacy of sleep detection using actigraphy</article-title>. <source><italic toggle="yes">Annu Int Conf IEEE Eng Med Biol Soc</italic></source>. <year>2021</year>;<volume>2021</volume>:<fpage>7530</fpage>–<lpage>7534</lpage>. doi:<pub-id pub-id-type="doi">10.1109/embc46164.2021.9630977</pub-id><pub-id pub-id-type="pmid">34892834</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0034">
+        <label>34.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Sundararajan</surname>
+<given-names>K</given-names></string-name>, <string-name><surname>Georgievska</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Te Lindert</surname>
+<given-names>BHW</given-names></string-name>, et al. <article-title>Sleep classification from wrist-worn accelerometer data using random forests</article-title>. <source><italic toggle="yes">Sci Rep</italic></source>. <year>2021</year>;<volume>11</volume>(<issue>1</issue>):<fpage>24</fpage>. doi:<pub-id pub-id-type="doi">10.1038/s41598-020-79217-x</pub-id><pub-id pub-id-type="pmid">33420133</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0035">
+        <label>35.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Rosenberger</surname>
+<given-names>ME</given-names></string-name>, <string-name><surname>Fulton</surname>
+<given-names>JE</given-names></string-name>, <string-name><surname>Buman</surname>
+<given-names>MP</given-names></string-name>, et al. <article-title>The 24-hour activity cycle: a new paradigm for physical activity</article-title>. <source><italic toggle="yes">Med Sci Sports Exerc</italic></source>. <year>2019</year>;<volume>51</volume>(<issue>3</issue>):<fpage>454</fpage>–<lpage>464</lpage>. doi:<pub-id pub-id-type="doi">10.1249/mss.0000000000001811</pub-id><pub-id pub-id-type="pmid">30339658</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0036">
+        <label>36.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Conley</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Knies</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Batten</surname>
+<given-names>J</given-names></string-name>, et al. <article-title>Agreement between actigraphic and polysomnographic measures of sleep in adults with and without chronic conditions: a systematic review and meta-analysis</article-title>. <source><italic toggle="yes">Sleep Med Rev</italic></source>. <year>2019</year>;<volume>46</volume>:<fpage>151</fpage>–<lpage>160</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.smrv.2019.05.001</pub-id><pub-id pub-id-type="pmid">31154154</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0037">
+        <label>37.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Reed</surname>
+<given-names>DL</given-names></string-name>, <string-name><surname>Sacco</surname>
+<given-names>WP</given-names></string-name>. <article-title>Measuring sleep efficiency: what should the denominator be?</article-title>
+<source><italic toggle="yes">J Clin Sleep Med</italic></source>. <year>2016</year>;<volume>12</volume>(<issue>2</issue>):<fpage>263</fpage>–<lpage>266</lpage>. doi:<pub-id pub-id-type="doi">10.5664/jcsm.5498</pub-id><pub-id pub-id-type="pmid">26194727</pub-id>
+</mixed-citation>
+      </ref>
+    </ref-list>
+  </back>
+</article>
+</pmc-articleset>

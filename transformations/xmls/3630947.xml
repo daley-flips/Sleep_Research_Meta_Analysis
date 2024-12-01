@@ -1,0 +1,2548 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<pmc-articleset><article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="review-article">
+  <?properties open_access?>
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="nlm-ta">Nat Sci Sleep</journal-id>
+      <journal-id journal-id-type="iso-abbrev">Nat Sci Sleep</journal-id>
+      <journal-title-group>
+        <journal-title>Nature and Science of Sleep</journal-title>
+      </journal-title-group>
+      <issn pub-type="epub">1179-1608</issn>
+      <publisher>
+        <publisher-name>Dove Medical Press</publisher-name>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="pmid">23616709</article-id>
+      <article-id pub-id-type="pmc">3630947</article-id>
+      <article-id pub-id-type="doi">10.2147/NSS.S6683</article-id>
+      <article-id pub-id-type="publisher-id">nss-2-187</article-id>
+      <article-categories>
+        <subj-group subj-group-type="heading">
+          <subject>Review</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>Jet lag syndrome: circadian organization, pathophysiology, and management strategies</article-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Vosko</surname>
+            <given-names>Andrew M</given-names>
+          </name>
+          <xref ref-type="aff" rid="af1-nss-2-187">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Colwell</surname>
+            <given-names>Christopher S</given-names>
+          </name>
+          <xref ref-type="aff" rid="af1-nss-2-187">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Avidan</surname>
+            <given-names>Alon Y</given-names>
+          </name>
+          <xref ref-type="aff" rid="af2-nss-2-187">2</xref>
+          <xref ref-type="aff" rid="af3-nss-2-187">3</xref>
+          <xref ref-type="corresp" rid="c1-nss-2-187"/>
+        </contrib>
+      </contrib-group>
+      <aff id="af1-nss-2-187"><label>1</label>Department of Psychiatry and Biobehavioral Sciences, University of California, Los Angeles, CA, USA</aff>
+      <aff id="af2-nss-2-187"><label>2</label>UCLA Sleep Disorders Center, University of California, Los Angeles, CA, USA</aff>
+      <aff id="af3-nss-2-187"><label>3</label>Department of Neurology, University of California, Los Angeles, CA, USA</aff>
+      <author-notes>
+        <corresp id="c1-nss-2-187">Correspondence: Alon Y Avidan, Department of Neurology, UCLA Neurology Clinic, Sleep Disorders Center, 710 Westwood Blvd, Room 1-169/RNRC, Los Angeles, CA 90095-1769, USA Tel +1310-825-0703 Fax +1310-825-6956 email <email>avidan@mednet.ucla.edu</email></corresp>
+      </author-notes>
+      <pub-date pub-type="collection">
+        <year>2010</year>
+      </pub-date>
+      <pub-date pub-type="epub">
+        <day>19</day>
+        <month>8</month>
+        <year>2010</year>
+      </pub-date>
+      <volume>2</volume>
+      <fpage>187</fpage>
+      <lpage>198</lpage>
+      <permissions>
+        <copyright-statement>© 2010 Vosko et al, publisher and licensee Dove Medical Press Ltd</copyright-statement>
+        <copyright-year>2010</copyright-year>
+        <license>
+          <license-p>This is an Open Access article which permits unrestricted noncommercial use, provided the original work is properly cited.</license-p>
+        </license>
+      </permissions>
+      <abstract>
+        <p><citation_analysis attribute="positive">The circadian system regulates the cyclical occurrence of wakefulness and sleep through a series of oscillatory networks that comprise two different theoretical processes. The suprachiasmatic nucleus (SCN) of the hypothalamus contains the master oscillatory network necessary for coordinating these daily rhythms, and in addition to its ability to robustly generate rhythms, it can also synchronize to environmental light cues. During jet lag, abrupt shifts in the environmental light–dark cycle temporarily desynchronize the SCN and downstream oscillatory networks from each other, resulting in increased sleepiness and impaired daytime functioning. Polysomnographic data show that not only does jet lag result in changes of sleep–wake timing, but also in different aspects of sleep architecture. This type of circadian misalignment can further lead to a cluster of symptoms including major metabolic, cardiovascular, psychiatric, and neurological impairments. There are a number of treatment options for jet lag involving bright light exposure, melatonin, and use of hypnotics, but their efficacy greatly depends on their time of use, the length of time in the new time zone, and the specific circadian disturbance involved. The aim of this review is to provide mechanistic links between the fields of sleep and circadian rhythms to understand the biological basis of jet lag and to apply this information to clinical management strategies.</citation_analysis></p>
+      </abstract>
+      <kwd-group>
+        <title>Keywords</title>
+        <kwd>circadian rhythms</kwd>
+        <kwd>sleep</kwd>
+        <kwd>sleep disturbances</kwd>
+        <kwd>jet lag</kwd>
+      </kwd-group>
+    </article-meta>
+  </front>
+  <body>
+    <sec>
+      <title>Introduction</title>
+      <p><citation_analysis attribute="neither">Anyone who has ever suffered jet lag knows firsthand that our bodies are persistent in how they keep track of time. This timekeeping system structures the different physiological processes to work together over the course of the day in synchrony with the physical world. The master network coordinating this timing system is based in the suprachiasmatic nucleus (SCN) of the hypothalamus, where neurons exhibit </citation_analysis><citation_analysis attribute="positive"><italic>circadian</italic></citation_analysis><citation_analysis attribute="neither"> (lit. “about a day”) rhythms in their electrical activity and are driven by cell-autonomous molecular feedback loops.</citation_analysis><citation_analysis attribute="positive"><xref ref-type="bibr" rid="b1-nss-2-187">1</xref></citation_analysis><citation_analysis attribute="neither"> These neural activity rhythms are critical for circadian output and are reciprocally required for the sustained generation of their own internal molecular oscillations. Output from this SCN clock regulates oscillatory sleep and arousal control centers, leading downstream to the organization of our daily sleep–wake behavior (</citation_analysis><citation_analysis attribute="positive"><xref ref-type="fig" rid="f1-nss-2-187">Figure 1</xref></citation_analysis><citation_analysis attribute="negative">). During jet lag, a rapid shift in the sleep–wake cycle transiently disrupts this coordinated regulation, and (1) the clock network loses synchrony with the external environment and (2) the many oscillators within our bodies become desynchronized with each other. Temporary circadian desynchronization has many effects, but the most obvious are impaired sleep at night and excessive daytime sleepiness during the day, which bring patients to the attention of the sleep clinician. This article provides a framework for understanding the biological basis of jet lag and for recommending management strategies. Understanding jet lag can help us address the broader problem of circadian misalignment, which has increasingly been associated with increased risk for cancer, metabolic disease, cardiovascular dysfunction, mood disorders, and cognitive decline.</citation_analysis><citation_analysis attribute="positive"><xref ref-type="bibr" rid="b2-nss-2-187">2</xref></citation_analysis><citation_analysis attribute="neither">–</citation_analysis><citation_analysis attribute="positive"><xref ref-type="bibr" rid="b4-nss-2-187">4</xref></citation_analysis></p>
+    </sec>
+    <sec>
+      <title>Control of sleep–wake cycles: a two-process model</title>
+      <p><citation_analysis attribute="neither">Although there have been a number of attempts to model the processes that regulate the sleep–wake cycle, the two-process model of sleep regulation has had the most widespread acceptance across the chronobiological community (</citation_analysis><citation_analysis attribute="positive"><xref ref-type="fig" rid="f2-nss-2-187">Figure 2</xref></citation_analysis><citation_analysis attribute="neither">). In the simplest terms, this model proposes that sleep propensity is governed by two predominant, sometimes competing processes: one being a homeostatic load accumulated of sleep need based on time since last sleep episode, termed “Process S”, and another being a circadian-controlled rhythm in wakefulness or sleep, termed “Process C”.</citation_analysis><citation_analysis attribute="positive"><xref ref-type="bibr" rid="b5-nss-2-187">5</xref></citation_analysis><citation_analysis attribute="neither">–</citation_analysis><citation_analysis attribute="positive"><xref ref-type="bibr" rid="b7-nss-2-187">7</xref></citation_analysis></p>
+      <p><citation_analysis attribute="positive">The two major processes governing basal sleep organization keep track of time but can be thought of very differently: the circadian component, Process C, is an oscillator that runs indefinitely and consistently to dictate the time at which events occur, whereas the process regulating homeostatic sleep (Process S) operates like an hourglass which tells intervals of time. Sleep and wake behaviors are the sum result of several oscillatory and hourglass processes acting together in concert with external signals that regulate their precise initiation, termination, and duration, but for the sake of modeling, their regulatory components have been simplified and reduced to Process S and Process C.</citation_analysis><citation_analysis attribute="positive"><xref ref-type="bibr" rid="b8-nss-2-187">8</xref></citation_analysis><citation_analysis attribute="neither">,</citation_analysis><citation_analysis attribute="positive"><xref ref-type="bibr" rid="b9-nss-2-187">9</xref></citation_analysis></p>
+    </sec>
+    <sec>
+      <title>Temporal control of sleep architecture</title>
+      <p><citation_analysis attribute="neither">Although sleep itself is a behavior, in humans and some animal models, we can quantify different properties of sleep by measuring cortical activity with the electroencephalogram (EEG). EEG recordings have been useful in parsing levels of arousal and sleep, such as rapid eye movement (REM) and nonrapid eye movement (NREM), and also in relating certain electrophysiological correlates with other parameters related to sleep and wake states. Evidence suggests that delta power or slow-wave activity (SWA) during NREM sleep can be used to estimate Process S, as delta power increases logarithmically as waking is prolonged.</citation_analysis><citation_analysis attribute="positive"><xref ref-type="bibr" rid="b5-nss-2-187">5</xref></citation_analysis><citation_analysis attribute="neither">,</citation_analysis><citation_analysis attribute="positive"><xref ref-type="bibr" rid="b6-nss-2-187">6</xref></citation_analysis><citation_analysis attribute="neither"> Conversely, core body temperature is often used as a measure of Process C, as it is relatively free from masking by movement artifacts and itself is a robust rhythm. Sleep propensity is greatest during the falling limb of the circadian body temperature rhythm and decreases on the rising limb.</citation_analysis><citation_analysis attribute="positive"><xref ref-type="bibr" rid="b10-nss-2-187">10</xref></citation_analysis></p>
+      <p><citation_analysis attribute="neither">There have been different hypotheses presented as to how specifically the circadian pacemaker dictates sleep–wake behavior at a physiological level.</citation_analysis><citation_analysis attribute="positive"><xref ref-type="bibr" rid="b11-nss-2-187">11</xref></citation_analysis><citation_analysis attribute="neither">–</citation_analysis><citation_analysis attribute="positive"><xref ref-type="bibr" rid="b13-nss-2-187">13</xref></citation_analysis><citation_analysis attribute="neither"> Although there is no definitive consensus, data support a model by which Process C actively promotes different aspects of each behavioral state rather than passively gating state transitions.</citation_analysis><citation_analysis attribute="positive"><xref ref-type="bibr" rid="b14-nss-2-187">14</xref></citation_analysis><citation_analysis attribute="neither"> At an additional level of temporal regulation, Kleitman</citation_analysis><citation_analysis attribute="positive"><xref ref-type="bibr" rid="b15-nss-2-187">15</xref></citation_analysis><citation_analysis attribute="positive"> proposed that humans followed a basic rest activity cycle (BRAC) that exhibits an ultradian rhythm. This was based on observations of an ultradian rhythm in NREM–REM sleep cycles through the course of the night, and ultradian rhythms in alertness during the course of the day with a similar period. One possible structure of the sleep–wake rhythm could be a series of thresholds set by ultradian variations coupled to circadian variations. Thus during certain times of the day, the circadian system promotes cycling levels of arousal, whereas during other times, it promotes cycling through different stages of sleep. Interestingly, there are certain aspects of sleep that appear to be strongly regulated by the circadian system that incorporate this organization. Both human and animal studies have shown that there are circadian rhythms regulating arousal and REM sleep, but NREM sleep appears to be more strongly under the control of a sleep homeostatic drive.</citation_analysis><citation_analysis attribute="positive"><xref ref-type="bibr" rid="b9-nss-2-187">9</xref></citation_analysis><citation_analysis attribute="neither">,</citation_analysis><citation_analysis attribute="positive"><xref ref-type="bibr" rid="b14-nss-2-187">14</xref></citation_analysis></p>
+      <p><citation_analysis attribute="positive">In understanding how the circadian system influences sleep and wake, it is important to remember that Process C is one of many oscillatory processes, distinguishable from other oscillatory processes in the circadian system, but sharing a common point of origin. Jet lag and other disruptions in Process C may be the result of perturbations in the circadian input pathway, the master oscillatory network in the SCN of the hypothalamus that organizes the body’s clocks, or in the specific outputs along the sleep–wake control axis.</citation_analysis></p>
+    </sec>
+    <sec>
+      <title>Circadian organization</title>
+      <p><citation_analysis attribute="positive">In mammals, the part of the nervous system responsible for the organization of circadian behavior lies in a paired structure in the hypothalamus known as the SCN. Although other cells in the body show oscillatory properties, the clock within the SCN is considered the master oscillator that coordinates daily rhythms.</citation_analysis><citation_analysis attribute="positive"><xref ref-type="bibr" rid="b1-nss-2-187">1</xref></citation_analysis><citation_analysis attribute="neither"> The SCN is a bilaterally paired nucleus made up of tightly compacted, small-diameter neurons just lateral to the third ventricle atop the optic chiasm. Subcortical light information is transmitted directly to the SCN via the retinohypothalamic tract (</citation_analysis><citation_analysis attribute="positive"><xref ref-type="fig" rid="f1-nss-2-187">Figure 1</xref></citation_analysis><citation_analysis attribute="neither">), whereas thalamic and midbrain inputs modulate light information and transmit nonphotic signals.</citation_analysis><citation_analysis attribute="positive"><xref ref-type="bibr" rid="b16-nss-2-187">16</xref></citation_analysis><citation_analysis attribute="neither"> The SCN integrates this environmental information and modifies the oscillatory activity of its neurons to create coherent, robust, neural, and humoral signals to the rest of the brain and periphery.</citation_analysis><citation_analysis attribute="positive"><xref ref-type="bibr" rid="b17-nss-2-187">17</xref></citation_analysis><citation_analysis attribute="neither"> The neural outputs of the SCN largely travel to other hypothalamic regions including the subparaventricular zone and the dorsomedial nucleus.</citation_analysis><citation_analysis attribute="positive"><xref ref-type="bibr" rid="b18-nss-2-187">18</xref></citation_analysis><citation_analysis attribute="neither">–</citation_analysis><citation_analysis attribute="positive"><xref ref-type="bibr" rid="b20-nss-2-187">20</xref></citation_analysis><citation_analysis attribute="neither"> These hypothalamic relay nuclei send projections throughout the central nervous system and endocrine system, providing multiple pathways by which the SCN can convey temporal information to a diffuse network of sleep and arousal-promoting centers.</citation_analysis><citation_analysis attribute="positive"><xref ref-type="bibr" rid="b21-nss-2-187">21</xref></citation_analysis><citation_analysis attribute="neither">,</citation_analysis><citation_analysis attribute="positive"><xref ref-type="bibr" rid="b22-nss-2-187">22</xref></citation_analysis><citation_analysis attribute="neither"> Interestingly, this communication appears to be bidirectional, as sleep state information is communicated back to the SCN as well.</citation_analysis><citation_analysis attribute="positive"><xref ref-type="bibr" rid="b23-nss-2-187">23</xref></citation_analysis></p>
+      <p><citation_analysis attribute="neither">The expression of behavioral rhythms involves a far more complex route than a linear pathway from a single SCN neuron to sleep–wake activity. For instance, the SCN is heterogeneous, both structurally and functionally. Animal studies have indicated that part of the SCN is primarily involved in spontaneous rhythm generation, whereas the other part is primarily involved in conveying environmental resetting signals back to the rhythm generating neurons.</citation_analysis><citation_analysis attribute="positive"><xref ref-type="bibr" rid="b24-nss-2-187">24</xref></citation_analysis><citation_analysis attribute="positive"> Downstream of the SCN, structures receiving temporal cues from the SCN have to incorporate this temporal information among a vast network of other inputs. To make matters more complex, other neurons and cells throughout the body show endogenous oscillations themselves in transcriptional activity of clock genes.</citation_analysis><citation_analysis attribute="positive"><xref ref-type="bibr" rid="b4-nss-2-187">4</xref></citation_analysis><citation_analysis attribute="neither"> Thus, the SCN exerts its actions on other clock-like systems throughout the body rather than just by amplifying its own timekeeping signal as the body’s only rhythm. In sleep, the SCN signal is integrated across sleep and wake-control centers, and activity specific to this pathway generates the rhythms observed in Process C. Under certain experimental conditions, Process C can be uncoupled from other oscillations that utilize separate neural pathways.</citation_analysis><citation_analysis attribute="positive"><xref ref-type="bibr" rid="b18-nss-2-187">18</xref></citation_analysis><citation_analysis attribute="neither">,</citation_analysis><citation_analysis attribute="positive"><xref ref-type="bibr" rid="b25-nss-2-187">25</xref></citation_analysis></p>
+      <p><citation_analysis attribute="positive">SCN lesion studies in animals have primarily been used to model sleep–wake regulation in the absence of Process C. In addition to exhibiting arrhythmicity in the timing of the sleep–wake cycle, some studies show that SCN-lesioned animals will sleep the same amount over a 24-hour period, but this will be expressed in a fragmented ultradian rhythm over the course of the day.</citation_analysis><citation_analysis attribute="positive"><xref ref-type="bibr" rid="b26-nss-2-187">26</xref></citation_analysis><citation_analysis attribute="neither">,</citation_analysis><citation_analysis attribute="positive"><xref ref-type="bibr" rid="b27-nss-2-187">27</xref></citation_analysis><citation_analysis attribute="neither"> There are studies to suggest that total sleep time also increases after lesioning, but this might be a species-specific phenomenon.</citation_analysis><citation_analysis attribute="positive"><xref ref-type="bibr" rid="b12-nss-2-187">12</xref></citation_analysis><citation_analysis attribute="neither">,</citation_analysis><citation_analysis attribute="positive"><xref ref-type="bibr" rid="b13-nss-2-187">13</xref></citation_analysis><citation_analysis attribute="neither"> Although rebound in response to sleep deprivation is relatively similar in the absence of the SCN,</citation_analysis><citation_analysis attribute="positive"><xref ref-type="bibr" rid="b26-nss-2-187">26</xref></citation_analysis><citation_analysis attribute="positive"> the appropriate timing of this rebound is disrupted. Animal studies have also shown that REM sleep appears to be highly regulated by the circadian system.</citation_analysis><citation_analysis attribute="positive"><xref ref-type="bibr" rid="b25-nss-2-187">25</xref></citation_analysis><citation_analysis attribute="neither"> Studies of lesioned rats showed that transitions into REM sleep are facilitated by the SCN during the rest phase, but the amount of REM sleep, once initiated, is determined primarily by homeostatic mechanisms.</citation_analysis><citation_analysis attribute="positive"><xref ref-type="bibr" rid="b28-nss-2-187">28</xref></citation_analysis></p>
+      <p><citation_analysis attribute="neither">There are distinctly robust contributions of Process C to arousal, REM sleep, and sleep consolidation.</citation_analysis><citation_analysis attribute="positive"><xref ref-type="bibr" rid="b14-nss-2-187">14</xref></citation_analysis><citation_analysis attribute="positive"> The role of Process C in both arousal and REM sleep may be explained by the previously described BRAC model in which there is a strong circadian regulation of the similar cortical activity accompanying wakefulness and REM sleep. How Process C acts in sleep consolidation might be more complex. There is a very short and specific window, related in phase to the endogenous body temperature rhythm (as it approaches its daily minimum), in which one may fall asleep and maintain this state throughout the night.</citation_analysis><citation_analysis attribute="positive"><xref ref-type="bibr" rid="b14-nss-2-187">14</xref></citation_analysis><citation_analysis attribute="neither"> One explanation for this is that the circadian sleep–wake signal might be suppressing a drive toward arousal during the second half of a sleep period.</citation_analysis><citation_analysis attribute="positive"><xref ref-type="bibr" rid="b10-nss-2-187">10</xref></citation_analysis><citation_analysis attribute="neither">,</citation_analysis><citation_analysis attribute="positive"><xref ref-type="bibr" rid="b14-nss-2-187">14</xref></citation_analysis><citation_analysis attribute="neither"> In insomnia, this drive might be insufficient, ultimately leading to inappropriately timed wakefulness.</citation_analysis><citation_analysis attribute="positive"><xref ref-type="bibr" rid="b29-nss-2-187">29</xref></citation_analysis><citation_analysis attribute="neither"> The misalignment of the core body temperature minimum with the light-dark cycle is a major target for the treatment of jet lag-like desynchrony.</citation_analysis></p>
+    </sec>
+    <sec>
+      <title>Light effects on circadian rhythms, Process C and sleep</title>
+      <p><citation_analysis attribute="positive">Environmental light affects sleep–wake activity at multiple levels. Circadian rhythms of both nocturnal and diurnal mammals are most sensitive to light resetting during the night. Although there are other, nonphotic means to resetting the clock, light has been shown to be the most robust.</citation_analysis><citation_analysis attribute="positive"><xref ref-type="bibr" rid="b30-nss-2-187">30</xref></citation_analysis><citation_analysis attribute="neither"> A low intensity pulse of 180 lux light (typical office lighting) that is appropriately timed is sufficient to significantly reset circadian rhythms in humans.</citation_analysis><citation_analysis attribute="positive"><xref ref-type="bibr" rid="b31-nss-2-187">31</xref></citation_analysis><citation_analysis attribute="neither"> The direction and magnitude of light resetting depend on the endogenous phase of the clock, and this relationship is summarized in the form of a phase response curve (PRC). Although light-based PRCs have been extensively researched and documented,</citation_analysis><citation_analysis attribute="positive"><xref ref-type="bibr" rid="b32-nss-2-187">32</xref></citation_analysis><citation_analysis attribute="neither">,</citation_analysis><citation_analysis attribute="positive"><xref ref-type="bibr" rid="b33-nss-2-187">33</xref></citation_analysis><citation_analysis attribute="positive"> they all suggest the same basic pattern: in the first part of the night, light delays circadian rhythms. This functionally amounts to waking up and going to bed at a later time. In contrast, light exposure during the later part of the night or early morning advances rhythms to an earlier phase, resulting in earlier bedtime and waking up earlier in the morning. The point at which a light cue switches its effects on the clock from delaying to advancing is around the core body temperature minimum, a time during which feelings of subjective sleepiness are strongest.</citation_analysis><citation_analysis attribute="positive"><xref ref-type="bibr" rid="b32-nss-2-187">32</xref></citation_analysis><citation_analysis attribute="negative"> In the middle of the subjective day, when one is normally exposed to high levels of ambient light, there is little to no shifting effect of light on circadian rhythms.</citation_analysis></p>
+      <p><citation_analysis attribute="positive">It is difficult to examine light effects on sleep independently of circadian rhythms as light has arousing effects that can “mask” rhythms in activity without resetting the circadian clock.</citation_analysis><citation_analysis attribute="positive"><xref ref-type="bibr" rid="b34-nss-2-187">34</xref></citation_analysis><citation_analysis attribute="neither"> Light affects sleep both through Process C and concurrently through other mechanisms, namely midbrain arousal circuits and hormonal signaling, which, like circadian rhythms, are directly connected to the non-image-forming visual system.</citation_analysis><citation_analysis attribute="positive"><xref ref-type="bibr" rid="b35-nss-2-187">35</xref></citation_analysis><citation_analysis attribute="neither">,</citation_analysis><citation_analysis attribute="positive"><xref ref-type="bibr" rid="b36-nss-2-187">36</xref></citation_analysis></p>
+      <p><citation_analysis attribute="neither">Light reaches the SCN directly via a projection of intrinsically photosensitive retinal ganglion cell axons that contain the recently discovered photopigment melanopsin (</citation_analysis><citation_analysis attribute="positive"><xref ref-type="fig" rid="f1-nss-2-187">Figure 1</xref></citation_analysis><citation_analysis attribute="neither">).</citation_analysis><citation_analysis attribute="positive"><xref ref-type="bibr" rid="b36-nss-2-187">36</xref></citation_analysis><citation_analysis attribute="neither">,</citation_analysis><citation_analysis attribute="positive"><xref ref-type="bibr" rid="b37-nss-2-187">37</xref></citation_analysis><citation_analysis attribute="neither"> This pigment is most sensitive to light in the blue wavelength range</citation_analysis><citation_analysis attribute="positive"><xref ref-type="bibr" rid="b38-nss-2-187">38</xref></citation_analysis><citation_analysis attribute="neither"> and is necessary for normal resetting of behavioral rhythms in animals following alterations in their light-dark cycle.</citation_analysis><citation_analysis attribute="positive"><xref ref-type="bibr" rid="b39-nss-2-187">39</xref></citation_analysis><citation_analysis attribute="neither">–</citation_analysis><citation_analysis attribute="positive"><xref ref-type="bibr" rid="b41-nss-2-187">41</xref></citation_analysis><citation_analysis attribute="neither"> Human circadian rhythms are most sensitive to resetting at light wavelengths around 460 nm, which coincides with the photoresponsive range of melanopsin.</citation_analysis><citation_analysis attribute="positive"><xref ref-type="bibr" rid="b42-nss-2-187">42</xref></citation_analysis><citation_analysis attribute="neither"> Interestingly, melanopsin-containing neurons not only project to the SCN, but also to the pretectum,</citation_analysis><citation_analysis attribute="positive"><xref ref-type="bibr" rid="b36-nss-2-187">36</xref></citation_analysis><citation_analysis attribute="neither"> where light acts independently of the circadian system to acutely induce sleep in nocturnal mammals during their active phase.</citation_analysis><citation_analysis attribute="positive"><xref ref-type="bibr" rid="b43-nss-2-187">43</xref></citation_analysis><citation_analysis attribute="positive"> Melanopsin knockout mice fail to sleep during a nighttime light pulse and show less total sleep time and SWA following sleep deprivation.</citation_analysis><citation_analysis attribute="positive"><xref ref-type="bibr" rid="b44-nss-2-187">44</xref></citation_analysis><citation_analysis attribute="neither"> Thus this photoreceptive pathway affects sleep both dependent and independent of Process C through multiple targets.</citation_analysis></p>
+      <p><citation_analysis attribute="neither">Many SCN efferents are routed through the paraventricular hypothalamus, which signals to the autonomic intermediolateral cell column of the spinal cord, and eventually to the pineal gland to produce the nocturnal hormone melatonin.</citation_analysis><citation_analysis attribute="positive"><xref ref-type="bibr" rid="b45-nss-2-187">45</xref></citation_analysis><citation_analysis attribute="neither"> Melatonin is carried throughout the body with targets in both the brain and periphery, it exhibits a robust circadian rhythm, and it is synthesized in the pineal gland in the absence of light.</citation_analysis><citation_analysis attribute="positive"><xref ref-type="bibr" rid="b46-nss-2-187">46</xref></citation_analysis><citation_analysis attribute="neither"> Melatonin receptors are strongly expressed in the SCN, and melatonin is thought to feedback to the SCN to modulate its rhythmic profile.</citation_analysis><citation_analysis attribute="positive"><xref ref-type="bibr" rid="b46-nss-2-187">46</xref></citation_analysis><citation_analysis attribute="positive"> Interestingly, the SCN has been shown to be important for both the circadian rhythm in melatonin synthesis as well as the light-induced suppression of melatonin.</citation_analysis><citation_analysis attribute="positive"><xref ref-type="bibr" rid="b47-nss-2-187">47</xref></citation_analysis><citation_analysis attribute="positive"> Although the SCN is implicated in both pathways, different subregions have been mapped out for each effect on melatonin (circadian vs acute).</citation_analysis><citation_analysis attribute="positive"><xref ref-type="bibr" rid="b48-nss-2-187">48</xref></citation_analysis><citation_analysis attribute="neither"> This would suggest that at least some environmental information that resets the clock does so downstream of the master oscillator in the SCN.</citation_analysis></p>
+      <p><citation_analysis attribute="neither">Although in mammals melatonin is not necessary for the expression of behavioral rhythmicity, it is necessary in birds and reptiles.</citation_analysis><citation_analysis attribute="positive"><xref ref-type="bibr" rid="b49-nss-2-187">49</xref></citation_analysis><citation_analysis attribute="neither"> In humans, increases in melatonin at the appropriate circadian phase are associated with inducing sleepiness.</citation_analysis><citation_analysis attribute="positive"><xref ref-type="bibr" rid="b50-nss-2-187">50</xref></citation_analysis><citation_analysis attribute="positive"> Exogenous melatonin at higher doses also has this hypnotic effect, and the mechanism by which melatonin induces sleepiness may be explained by vasodilatory effects. In warm-blooded animals, melatonin is thought to adjust the setpoint at which core body temperature is regulated, thereby allowing higher blood flow to distal areas of the body and heat loss from the body’s core.</citation_analysis><citation_analysis attribute="positive"><xref ref-type="bibr" rid="b51-nss-2-187">51</xref></citation_analysis><citation_analysis attribute="neither"> Thermosensitive neurons in the distal body communicate temperature information back to the preoptic anterior hypothalamus, which contains sleep-active neurons that send inhibitory projections to arousal-promoting circuits in the brain.</citation_analysis><citation_analysis attribute="positive"><xref ref-type="bibr" rid="b52-nss-2-187">52</xref></citation_analysis><citation_analysis attribute="neither"> Although this pathway does not by itself account for all sleep–wake regulation, it does offer one viable explanation as to the association between sleepiness and the daily core body temperature minimum.</citation_analysis></p>
+    </sec>
+    <sec>
+      <title>Transient disruption of the circadian system: jet lag</title>
+      <p><citation_analysis attribute="neither">When circadian rhythm disruptions occur, desynchrony between clock systems within an individual as well as desynchrony with the environment follows. Even at the level of the SCN, different subregions shift at different rates.</citation_analysis><citation_analysis attribute="positive"><xref ref-type="bibr" rid="b53-nss-2-187">53</xref></citation_analysis><citation_analysis attribute="neither"> In general, a phase shift within the SCN is relatively rapid, but in other parts of the brain and also in the periphery, it can take many days to reset rhythms. Outputs from the circadian clock regulate key components in physiological pathways to drive rhythms in these systems, but the molecular components of the clock in each cell can also comprise cellular pathways with additional functions, including regulating metabolism and the cycle of cell division.</citation_analysis><citation_analysis attribute="positive"><xref ref-type="bibr" rid="b4-nss-2-187">4</xref></citation_analysis><citation_analysis attribute="neither"> It is, therefore, important to understand the mechanisms behind desynchrony, as these disruptions not only affect temporal organization of networks, but also of the basic functions for cell survival.</citation_analysis></p>
+      <p><citation_analysis attribute="neither">Although symptoms of jet lag are generally temporary, they can be disruptive and include difficulty sleeping, excessive daytime sleepiness, general malaise, impaired performance, and gastrointestinal (GI) upset.</citation_analysis><citation_analysis attribute="positive"><xref ref-type="bibr" rid="b54-nss-2-187">54</xref></citation_analysis><citation_analysis attribute="neither"> The severity of jet lag symptoms and the ability to adapt to the new time zone are typically influenced by the direction of travel (slower adaptation when traveling east) and the number of time zones crossed.</citation_analysis><citation_analysis attribute="positive"><xref ref-type="bibr" rid="b32-nss-2-187">32</xref></citation_analysis><citation_analysis attribute="neither">,</citation_analysis><citation_analysis attribute="positive"><xref ref-type="bibr" rid="b33-nss-2-187">33</xref></citation_analysis><citation_analysis attribute="positive"> Not all travelers crossing time zones suffer from jet lag to the same degree, and these differences probably result from individual variation, similar to those reported for adaptation to shift work.</citation_analysis><citation_analysis attribute="positive"><xref ref-type="bibr" rid="b32-nss-2-187">32</xref></citation_analysis></p>
+      <p><citation_analysis attribute="positive">Although experimentally it has been shown that circadian rhythms can be shifted by light independent of shifts in the sleep–wake cycle,</citation_analysis><citation_analysis attribute="positive"><xref ref-type="bibr" rid="b55-nss-2-187">55</xref></citation_analysis><citation_analysis attribute="positive"> jet lag itself involves some degree of sleep disruption. It has been demonstrated, for instance, that sleep deprivation can damp the effects of a light-based phase shift,</citation_analysis><citation_analysis attribute="positive"><xref ref-type="bibr" rid="b56-nss-2-187">56</xref></citation_analysis><citation_analysis attribute="neither"> and that bright light, conversely, can counteract some of the EEG changes that normally accompany sleep deprivation.</citation_analysis><citation_analysis attribute="positive"><xref ref-type="bibr" rid="b57-nss-2-187">57</xref></citation_analysis><citation_analysis attribute="positive"> Studies following transatlantic airline passengers show that there are specific, sleep quality changes altered as a result of jet lag. After an eastward journey, when the sleep–wake cycle is shifted ahead, travelers show increased difficulty in initiating sleep by the second night that continues for the next few days in the new time zone.</citation_analysis><citation_analysis attribute="positive"><xref ref-type="bibr" rid="b58-nss-2-187">58</xref></citation_analysis><citation_analysis attribute="neither"> This difference is not observed on the first night, suggesting that immediately following eastward travel, Process S can induce sleep despite a misaligned Process C, possibly due to sleep deprivation or fatigue associated with travel. When simulating eastbound travel in the lab through advancing the time of sleep onset, there is an increase in time spent awake in the earlier part of the evening during the night of the shift.</citation_analysis><citation_analysis attribute="positive"><xref ref-type="bibr" rid="b59-nss-2-187">59</xref></citation_analysis><citation_analysis attribute="neither"> The results from these 2 paradigms suggest that the act of traveling itself helps promote sleep on the first night in the new environment. This travel-induced increase in sleep pressure independent of Process C is supported by marked increases in stage 2 sleep on only the first night in the new time zone.</citation_analysis><citation_analysis attribute="positive"><xref ref-type="bibr" rid="b58-nss-2-187">58</xref></citation_analysis><citation_analysis attribute="neither"> There is interestingly a compensatory increase in REM sleep several nights later.</citation_analysis><citation_analysis attribute="positive"><xref ref-type="bibr" rid="b58-nss-2-187">58</xref></citation_analysis></p>
+      <p><citation_analysis attribute="neither">Changes in sleep quality after a phase delaying westward fight, in contrast, last fewer days when crossing the same number of time zones.</citation_analysis><citation_analysis attribute="positive"><xref ref-type="bibr" rid="b32-nss-2-187">32</xref></citation_analysis><citation_analysis attribute="neither">,</citation_analysis><citation_analysis attribute="positive"><xref ref-type="bibr" rid="b58-nss-2-187">58</xref></citation_analysis><citation_analysis attribute="positive"> Westward bound travelers show increased SWA on the first night in the new time zone, suggesting an increase in sleep pressure following travel (much like in eastward travelers). Simulating westbound fight in the lab, modeled by delayed sleep onset, results in an increased (albeit nonsignificant) trend in transitions to terminal wakefulness during the first night of the new sleep schedule as well. In both experimental paradigms, Process C is delaying to synchronize to the new environment. However, there is also an increase in sleep pressure that is due to an extended time since last sleep episode (ie, an increase in Process S). In this way, westward travel is going to consistently involve an additional factor that increases sleep pressure for at least the first night following travel, as compared with eastbound travel.</citation_analysis><citation_analysis attribute="positive"><xref ref-type="bibr" rid="b59-nss-2-187">59</xref></citation_analysis></p>
+      <p><citation_analysis attribute="positive">In summary, there are patterns in the changes of sleep quality following transmeridian travel that may present in the clinic. For the first day following travel, travelers are likely to fall asleep with less difficulty due to an increased sleep pressure that arises because of sleep deprivation and fatigue from traveling. If eastbound, after the first night, individuals will likely have more difficulty in initiating sleep from a few days to around a week following travel. In westward travel, there may be more difficulty in maintaining sleep later into the night, but this (mis)alignment is often restored and sleep symptoms are greatly reduced within only a few days post travel.</citation_analysis><citation_analysis attribute="positive"><xref ref-type="bibr" rid="b58-nss-2-187">58</xref></citation_analysis></p>
+      <p><citation_analysis attribute="positive">In the laboratory, timed bright light exposure in the early evening, which mimics the light resetting effects on the clock of traveling westward, results in increased time to fall asleep for 2 nights following light exposure when the timing of the sleep–wake cycle is kept constant.</citation_analysis><citation_analysis attribute="positive"><xref ref-type="bibr" rid="b60-nss-2-187">60</xref></citation_analysis><citation_analysis attribute="positive"> The above experimental paradigm models what might occur upon returning home after traveling westward for a short-term trip. The changes in sleep could be explained by the evening light delaying the rhythm in core body temperature, wherein the descent toward the temperature minimum is delayed and the associated sleep-related effects of this fall are also delayed. If traveling from the opposite direction, there is a significant rise in late-night wakefulness observed following a morning light pulse (ie, traveling eastward), which has phase advancing effects on the sleep–wake cycle,</citation_analysis><citation_analysis attribute="positive"><xref ref-type="bibr" rid="b61-nss-2-187">61</xref></citation_analysis><citation_analysis attribute="neither">,</citation_analysis><citation_analysis attribute="positive"><xref ref-type="bibr" rid="b62-nss-2-187">62</xref></citation_analysis><citation_analysis attribute="positive"> but these effects are not significant in all studies.</citation_analysis><citation_analysis attribute="positive"><xref ref-type="bibr" rid="b60-nss-2-187">60</xref></citation_analysis><citation_analysis attribute="positive"> Together, these data suggest that there are specific jet lag effects also experienced from short-term travel, and these can best be treated by keeping to one’s home schedule and avoiding light during the times when their circadian clocks could be reset (ie, during the subjective night, based on schedules before travel).</citation_analysis></p>
+      <p><citation_analysis attribute="negative">Light can alter sleep–wake behavior in different ways, dependent on its properties. Bright light alters subjective alertness during the day.</citation_analysis><citation_analysis attribute="positive"><xref ref-type="bibr" rid="b63-nss-2-187">63</xref></citation_analysis><citation_analysis attribute="positive"> These effects are likely independent of shifting the circadian clock, as they occur during the day’s “dead zone” in which light has minimal effects on the circadian clock. During the night, when light would also affect Process C, blue light reduces SWA earlier in the NREM-REM ultradian cycle and increases SWA later, at the expense of less REM sleep.</citation_analysis><citation_analysis attribute="positive"><xref ref-type="bibr" rid="b63-nss-2-187">63</xref></citation_analysis><citation_analysis attribute="positive"> There are more power density changes following blue rather than green light pulses, suggesting that the melanopsin pathway might be mediating these effects, which are specific but small. Similar specific effects are seen with polychromatic light.</citation_analysis><citation_analysis attribute="positive"><xref ref-type="bibr" rid="b64-nss-2-187">64</xref></citation_analysis></p>
+      <p><citation_analysis attribute="neither">REM sleep shows some particular alterations to jet lag. In rats, there is an immediate increase in REM the night following an 8-hour advancement in the light-dark cycle (simulating travel from Los Angeles to Paris).</citation_analysis><citation_analysis attribute="positive"><xref ref-type="bibr" rid="b65-nss-2-187">65</xref></citation_analysis><citation_analysis attribute="positive"> This could be due to a rebound from REM loss during the initial schedule shift, or it could result from a shift of REM timing to earlier in the evening. In humans, melatonin taken in the early evening, which has clock-shifting effects similar to light exposure in the early morning (eastward travel), REM duration increases independently of changes in NREM sleep.</citation_analysis><citation_analysis attribute="positive"><xref ref-type="bibr" rid="b66-nss-2-187">66</xref></citation_analysis><citation_analysis attribute="neither"> When traveling in the opposite direction and the clock is delayed, there is an increase in REM sleep latency.</citation_analysis><citation_analysis attribute="positive"><xref ref-type="bibr" rid="b67-nss-2-187">67</xref></citation_analysis><citation_analysis attribute="positive"> This effect could be due to an increase in SWA and other components of NREM sleep that are associated with rebound to sleep deprivation, and REM might later show a compensatory rebound on subsequent nights. An alternative explanation is that REM sleep has also been delayed to appear later in the evening because of a delay in the clock itself.</citation_analysis><citation_analysis attribute="positive"><xref ref-type="bibr" rid="b58-nss-2-187">58</xref></citation_analysis></p>
+      <p><citation_analysis attribute="positive">There are also examples of other neurological effects of jet lag. For instance, jet lag has been associated with more frequent sleep paralysis (lack of muscle control after arousal from sleep) episodes.</citation_analysis><citation_analysis attribute="positive"><xref ref-type="bibr" rid="b68-nss-2-187">68</xref></citation_analysis><citation_analysis attribute="neither"> The physiological prerequisite for sleep paralysis is sleep onset REM, and sleep onset REM results from elevated REM sleep pressure (a homeostatic process involved in REM regulation).</citation_analysis><citation_analysis attribute="positive"><xref ref-type="bibr" rid="b69-nss-2-187">69</xref></citation_analysis><citation_analysis attribute="neither"> These trends support a model where jet lag induces an initial increase in NREM sleep immediately following travel independently of shifting Process C. This increase in NREM sleep suppresses REM sleep initially, but eventually it triggers a compensatory REM sleep rebound.</citation_analysis><citation_analysis attribute="positive"><xref ref-type="bibr" rid="b58-nss-2-187">58</xref></citation_analysis><citation_analysis attribute="neither"> During this rebound, REM pressure is increased, as is the associated frequency of sleep paralysis. In contrast to sleep paralysis, seizures are known to be more prevalent during the night, predominantly during NREM sleep.</citation_analysis><citation_analysis attribute="positive"><xref ref-type="bibr" rid="b70-nss-2-187">70</xref></citation_analysis><citation_analysis attribute="positive"> The incidence of seizures has also been shown to increase following transmeridian travel.</citation_analysis><citation_analysis attribute="positive"><xref ref-type="bibr" rid="b71-nss-2-187">71</xref></citation_analysis><citation_analysis attribute="neither"> This again could be accounted for by an increase in NREM sleep from the sleep deprivation accompanying jet lag.</citation_analysis></p>
+    </sec>
+    <sec>
+      <title>Clinical implications and treatment strategies</title>
+      <p><citation_analysis attribute="positive">There are a number of pathophysiological conditions associated with arousal state and sleep quality, and there is evidence to support the effective clinical application of circadian and sleep-based therapies in such cases. For example, in Alzheimer Disease, patients in a hospital setting where light levels are often out phase or continuously inconsistent with normal ambient lighting experience a phenomenon called “sundowning”, in which they exhibit periods of confusion and mania during the subjective rest phase.</citation_analysis><citation_analysis attribute="positive"><xref ref-type="bibr" rid="b72-nss-2-187">72</xref></citation_analysis><citation_analysis attribute="positive"> There is also evidence linking different forms of depression to phase misalignments of the sleep–wake cycle, and sleep deprivation has been shown to be effective in short-term amelioration of some depressive symptoms.</citation_analysis><citation_analysis attribute="positive"><xref ref-type="bibr" rid="b73-nss-2-187">73</xref></citation_analysis><citation_analysis attribute="neither"> Furthermore, restoring disrupted behavioral circadian rhythms by hypnotic drugs reduces some of the symptoms of cognitive decline found in an animal model of Huntington Disease.</citation_analysis><citation_analysis attribute="positive"><xref ref-type="bibr" rid="b74-nss-2-187">74</xref></citation_analysis><citation_analysis attribute="positive"> These studies and trends suggest that circadian synchrony of the sleep–wake cycle has wide-reaching effects across different disease states. A growing body of evidence suggests that the circadian system is an important therapeutic target, and this idea is starting to gain acceptance outside of the academic chronobiological community.</citation_analysis><citation_analysis attribute="positive"><xref ref-type="bibr" rid="b75-nss-2-187">75</xref></citation_analysis></p>
+      <p><citation_analysis attribute="neither">Treatment for jet lag focuses on aligning the circadian system to the appropriate environment. When three or less time zones have been crossed, the symptoms of jet lag will persist only a short time, and the treatment strategy is better suited for fatigue associated with travel, which does not involve any major shifts in the clock itself.</citation_analysis><citation_analysis attribute="positive"><xref ref-type="bibr" rid="b33-nss-2-187">33</xref></citation_analysis><citation_analysis attribute="positive"> Also, treating an individual to resynchronize to a new environment for only 1–2 days requires a number of phase shifts that will only be undone when traveling again, and so in cases of the short term, it is best to assume a temporal schedule in the new environment as close as possible to one’s home schedule. Since light is the major signal that shifts the sleep–wake cycles, one should avoid early or late exposure as much as possible. If sleep is needed for a short-term trip, mild doses of prescription hypnotics can be helpful. Zolpidem (10 mg) given for 3 consecutive nights starting with the first night sleep after travel has been shown to improve sleep in some seasoned travelers.</citation_analysis><citation_analysis attribute="positive"><xref ref-type="bibr" rid="b76-nss-2-187">76</xref></citation_analysis><citation_analysis attribute="neither"> The wake-promoting agent armodafinil (the longer acting R-isomer of modafinil) is also being considered for use in the treatment of jet lag sleep disorder.</citation_analysis></p>
+      <p><citation_analysis attribute="positive">Strictly treating the symptoms of jet lag (ie, treating only insomnia and/or sleepiness) does not necessarily treat jet lag itself. In fact, one must take care not to further shift the clock in the wrong direction when treating the symptoms of jet lag. For instance, while a traveler may have caffeine for its arousal-promoting effects, the use of caffeine close to the time of sleep onset will result in difficulty falling or maintaining sleep.</citation_analysis><citation_analysis attribute="positive"><xref ref-type="bibr" rid="b77-nss-2-187">77</xref></citation_analysis><citation_analysis attribute="positive"> This often leads to exposure to light during the subjective night, which will further shift the clock out of phase with the new ambient light-dark cycle, resulting in further desynchrony. In order to avoid such a scenario, it is important to establish an understanding of appropriately timed cues. This involves utilizing the PRC to time one’s exposure and avoidance of light and other resetting cues.</citation_analysis></p>
+      <p><citation_analysis attribute="neither">In treating jet lag, re-entraining the sleep–wake cycle involves shifting the core body temperature minimum back to nighttime in the new environment through appropriately timed cues.</citation_analysis><citation_analysis attribute="positive"><xref ref-type="bibr" rid="b32-nss-2-187">32</xref></citation_analysis><citation_analysis attribute="neither"> The most effective time to begin treatment is prior to travel. Shifting without major insomnia or sleepiness is best achieved gradually, and so timed exposure to bright light a couple of hours later than normal along with a progressively later bedtime will help phase delay the clock beginning a couple of days before taking a large westbound journey.</citation_analysis><citation_analysis attribute="positive"><xref ref-type="bibr" rid="b32-nss-2-187">32</xref></citation_analysis><citation_analysis attribute="neither"> The opposite is true for an eastbound journey, with an emphasis placed on exposure to light earlier in the morning when waking up to shift the clock forward.</citation_analysis><citation_analysis attribute="positive"><xref ref-type="bibr" rid="b32-nss-2-187">32</xref></citation_analysis><citation_analysis attribute="neither"> In general, it takes more time to adjust to a phase advance than delay (or traveling eastward compared with westward). When phase advances are sufficiently large (&gt;8 hours), it might be easier and faster to delay the clock until synchronized with the new environment.</citation_analysis></p>
+      <p><citation_analysis attribute="neither">Mammalian photoreception and phase shifting to light are optimized for environmental lighting conditions, which are generally much stronger than that of room lighting. Light boxes have been effective in providing strong enough light directly to the eye to induce phase shifts, but this is not the case for all room lighting, especially when they are dimly lit. Therefore, the best source of phase shifting light is sunlight, followed by light from a light box. Light should contain wavelengths in the blue range, as this is where the photosensitive circadian system is responsive.</citation_analysis><citation_analysis attribute="positive"><xref ref-type="bibr" rid="b78-nss-2-187">78</xref></citation_analysis><citation_analysis attribute="positive"> During times when light should be avoided (morning for a delay, evening for an advance), minimizing light exposure by drawing curtains, wearing sunglasses, using low-intensity room lighting, etc. can all be helpful in preventing shifts in the wrong direction. If a number of time zones are crossed during travel, light exposure schedules on the fight should be timed to maintain that the core body temperature minimum coincides with nighttime in the new environment.</citation_analysis><citation_analysis attribute="positive"><xref ref-type="bibr" rid="b33-nss-2-187">33</xref></citation_analysis></p>
+      <p><citation_analysis attribute="positive">In presentation to the patient, one usually describes such strategies of light exposure in terms of going to bed earlier or later, rather than shifting rhythms. However, it is important to understand that the act of going to sleep itself contributes to a phase shift mostly by altering activity levels and avoiding light rather than by resetting the clock. There is data to suggest that sleep does have small phase shifting effects independent of light,</citation_analysis><citation_analysis attribute="positive"><xref ref-type="bibr" rid="b79-nss-2-187">79</xref></citation_analysis><citation_analysis attribute="positive"> but these are minor in comparison to those achieved by light alone. This is not to imply that treating sleep disturbance is ineffective, but in the case of jet lag, sleep disturbance is a secondary target. One can recover sleep loss in just 1–2 nights, whereas the effects of jet lag can last much longer.</citation_analysis><citation_analysis attribute="positive"><xref ref-type="bibr" rid="b32-nss-2-187">32</xref></citation_analysis><citation_analysis attribute="positive"> The use of hypnotic agents, which are widely used for any sleep-related disturbance, including jet lag, may only mask the symptoms of jet lag. The phase shifting effects of most currently prescribed hypnotics are unknown, and even if hypnotics are used, light exposure times should be concurrently regulated.</citation_analysis></p>
+      <p><citation_analysis attribute="positive">Melatonin is the primary pharmacological agent used in the treatment of jet lag, and it is widely available in nonperscription form in the United States. There are also newly developed receptor specific subtype agonists that are available for prescription use, and these are thought to directly act on the SCN with higher specificity. Like in the case of light, there is a PRC for melatonin that is necessary to utilize for its effective use in treating jet lag. Only appropriately timed melatonin has phase shifting effects, even though larger doses of melatonin can have sleep-inducing effects independently of changes in the clock.</citation_analysis><citation_analysis attribute="positive"><xref ref-type="bibr" rid="b80-nss-2-187">80</xref></citation_analysis><citation_analysis attribute="neither"> In a simplified view, the PRC for melatonin appears to be almost 180° out of phase with that of light: melatonin during the early evening phase advances the clock, whereas melatonin during the morning delays it. The dead zone for exogenous melatonin efficacy in phase shifts is during the period just prior to bedtime, when melatonin levels normally increase under low lighting conditions.</citation_analysis><citation_analysis attribute="positive"><xref ref-type="bibr" rid="b33-nss-2-187">33</xref></citation_analysis><citation_analysis attribute="neither"> This endogenous rise is thought to contribute to feelings of sleepiness via a mechanism that involves increased vasodilation and lowering core body temperature.</citation_analysis><citation_analysis attribute="positive"><xref ref-type="bibr" rid="b51-nss-2-187">51</xref></citation_analysis><citation_analysis attribute="positive"> Under normally entrained conditions, endogenous melatonin synthesis is inhibited by light, and so its phase shifting effects during the early evening and morning hours are diminished.</citation_analysis></p>
+      <p><citation_analysis attribute="positive">Different doses of melatonin have slightly different PRCs, and only higher doses (3 mg vs 0.5 mg) have been reported to have direct hypnotic effects.</citation_analysis><citation_analysis attribute="positive"><xref ref-type="bibr" rid="b32-nss-2-187">32</xref></citation_analysis><citation_analysis attribute="positive"> There are also higher magnitude shifts reported for the higher dose of melatonin.</citation_analysis><citation_analysis attribute="positive"><xref ref-type="bibr" rid="b32-nss-2-187">32</xref></citation_analysis><citation_analysis attribute="positive"> If taking melatonin during the day when sleepiness is ideally avoided and cognitive function needs to be optimal, it is best to take a lower dose. Melatonin by itself can be a potent chronobiotic, but the strongest phase shifting effects will be achieved when taken in concert with appropriately timed light exposure. For instance, in a phase delaying example, the traveler can take a low dose of melatonin and avoid light in the morning of the new time zone, and for phase advancing, melatonin should be taken in the early evening again with the avoidance of subsequent light.</citation_analysis></p>
+      <p><citation_analysis attribute="positive">Different observable rhythms, while originating from the SCN, have different regulatory components. For instance, as discussed earlier, sleep is regulated by a circadian process along with a homeostatic process and can be modulated by different environmental conditions. Feeding behavior, as another example, is also regulated by a circadian process, but feeding is also regulated by food availability, social cues, appetite, etc. Although all of these rhythms become desynchronized to differing extents during jet lag, most treatment strategies focus only on resetting of the central pacemaker in the SCN. This is because inherent in most study designs, the phase of the clock is determined by core body temperature and melatonin onset, two events tightly regulated by the master clock itself. There is only a limited understanding of how other cues locally affect the resetting of tissues and organ systems. This is an important area of future research, as rhythms are now understood to be the result of multidirectional communicating networks. Two other areas in which phase shifting might be important for synchronization of events downstream of the master clock are exercise and timed feeding.</citation_analysis></p>
+      <p><citation_analysis attribute="positive">Animal studies suggest that appropriately timed exercise contributes to recovery from jet lag. In humans, the data are much less consistent, but this could be due to the fact that the effects of exercise on phase shifting might exist primarily outside of the SCN. Furthermore, the appropriate intensity and timing of this exercise has yet to be determined in something like a consensus PRC. From what is known, however, the appropriate timing of moderate exercise appears similar to that of exogenous melatonin: exercise in the morning phase delays, and exercise in the evening phase advances.</citation_analysis><citation_analysis attribute="positive"><xref ref-type="bibr" rid="b81-nss-2-187">81</xref></citation_analysis><citation_analysis attribute="neither"> There is one major exception, though, involving a study showing that exercise at night in humans induces phase delays.</citation_analysis><citation_analysis attribute="positive"><xref ref-type="bibr" rid="b82-nss-2-187">82</xref></citation_analysis><citation_analysis attribute="positive"> It could be that in all cases, exercise promotes fatigue, napping, or some other altered form of time in bed. The phase shifting effects of exercise on the master clock are relatively low in magnitude, but in concert with other phase shifting paradigms, the effects can be additive. It is still unknown whether or not exercise accelerates phase shifts in other brain areas or other clock networks in the body. For treatment purposes, drastically changing an exercise routine for treatment of jet lag is best avoided while the literature sorts itself out.</citation_analysis></p>
+      <p><citation_analysis attribute="neither">Another area where individuals can behaviorally accelerate realignment to the environment is through appropriately timed feeding. There has been a recent explosion of research in the field of food-entrainable oscillations, which are important for proper metabolism and also in synchronizing rest and activity rhythms.</citation_analysis><citation_analysis attribute="positive"><xref ref-type="bibr" rid="b83-nss-2-187">83</xref></citation_analysis><citation_analysis attribute="neither"> Clock genes cycle robustly throughout the liver and the entire GI tract, and there is a normal circadian variation in gut motility that needs to be tightly regulated to maintain the sequential contraction of smooth muscle to push food and nutrients through the gut.</citation_analysis><citation_analysis attribute="positive"><xref ref-type="bibr" rid="b84-nss-2-187">84</xref></citation_analysis><citation_analysis attribute="neither">,</citation_analysis><citation_analysis attribute="positive"><xref ref-type="bibr" rid="b85-nss-2-187">85</xref></citation_analysis><citation_analysis attribute="positive"> Peripheral clocks also show a hierarchical control in the circadian system, suggesting that there is some plasticity in control of synchronization at different levels of the body.</citation_analysis><citation_analysis attribute="positive"><xref ref-type="bibr" rid="b86-nss-2-187">86</xref></citation_analysis><citation_analysis attribute="neither"> Data from animals also suggest that the SCN and peripheral organs adjust to new environmental cycles at different rates, as peripheral organs appear to take longer to reset than the SCN.</citation_analysis><citation_analysis attribute="positive"><xref ref-type="bibr" rid="b87-nss-2-187">87</xref></citation_analysis><citation_analysis attribute="neither"> This further contributes to the desynchrony within the body that accounts for the symptoms of jet lag.</citation_analysis></p>
+      <p><citation_analysis attribute="negative">There is a noticeable lack of data on how feeding schedules can be used to re-entrain following a phase shift in humans. Ironically, one of the major complaints following jet lag is bowel movement irregularity.</citation_analysis><citation_analysis attribute="positive"><xref ref-type="bibr" rid="b88-nss-2-187">88</xref></citation_analysis><citation_analysis attribute="positive"> One study on jet lag had suggested that a diet of high protein early in the day and high in carbohydrates later in the day accelerated a phase shift with military personnel, but this data has not been confirmed on a large scale, nor is the treatment necessarily feasible for everyone.</citation_analysis><citation_analysis attribute="positive"><xref ref-type="bibr" rid="b89-nss-2-187">89</xref></citation_analysis><citation_analysis attribute="neither"> Regardless, a common sense approach to appropriately timed feeding is to gradually adjust meals to the new time schedule and avoid things like coffee and alcohol as they will interfere with quality of sleep and thus complicate the re-entrainment process.</citation_analysis></p>
+    </sec>
+    <sec>
+      <title>Conclusion</title>
+      <p><citation_analysis attribute="positive">Jet lag is a relatively common form of circadian disruption occurring when the core circadian system is out of synchrony with the environment due to the rapid shift of the light-dark cycle. During jet lag, the various oscillatory components of the circadian system are likely out of phase with the central clock in the SCN and consequently with each other. This disorganization of the circadian system leads to a cluster of symptoms including sleep disturbances and suboptimal cognitive performance. For short trips, we would recommend accommodating to this biological challenge by appropriate scheduling, ie, avoid early light exposure after newly arriving after an eastward fight or avoid nighttime light exposure after westward travel. In addition, proper sleep hygiene, including appropriate use of hypnotics, can be useful. For longer trips, synchronization to the new time zone can be aided by a variety of manipulations including timed light-exposure, melatonin, exercise, and timed meals. Importantly, the goal of shifting one’s clock should not be complicated by treating only sleep disturbances. PRCs should be used when available, but generally travelers can appropriately time light and melatonin if they expose themselves to light in the early morning and take melatonin in the late afternoon when traveling eastward, and by exposing themselves to light in the early evening and taking melatonin in the morning when traveling westward. As we have come to understand that an observable rhythm results from the interactions of many endogenously generated rhythms and environmental factors, treatment for jet lag-like sleep disorders should be multifaceted. These widely accepted clinical treatment strategies involving light, melatonin, and other nonphotic cues have been shown effective when appropriately timed, and future research with an improved understanding of circadian misalignment will undoubtedly be beneficial in continuing to link the appropriate timing of sleep and wake cycles to improved health and well being.</citation_analysis></p>
+    </sec>
+  </body>
+  <back>
+    <fn-group>
+      <fn>
+        <p><citation_analysis attribute="positive">
+          </citation_analysis><citation_analysis attribute="positive"><bold>Disclosure</bold></citation_analysis><citation_analysis attribute="positive">
+        </citation_analysis></p>
+        <p><citation_analysis attribute="neither">The authors report no conflicts of interest in this work.</citation_analysis></p>
+      </fn>
+    </fn-group>
+    <ref-list>
+      <title>References</title>
+      <ref id="b1-nss-2-187">
+        <label>1</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Welsh</surname>
+              <given-names>DK</given-names>
+            </name>
+            <name>
+              <surname>Takahashi</surname>
+              <given-names>JS</given-names>
+            </name>
+            <name>
+              <surname>Kay</surname>
+              <given-names>SA</given-names>
+            </name>
+          </person-group>
+          <article-title>Suprachiasmatic nucleus: cell autonomy and network properties</article-title>
+          <source>Annu Rev Physiol</source>
+          <year>2010</year>
+          <volume>72</volume>
+          <fpage>551</fpage>
+          <lpage>577</lpage>
+          <pub-id pub-id-type="pmid">20148688</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b2-nss-2-187">
+        <label>2</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Maywood</surname>
+              <given-names>ES</given-names>
+            </name>
+            <name>
+              <surname>O’Neill</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Wong</surname>
+              <given-names>GK</given-names>
+            </name>
+            <name>
+              <surname>Reddy</surname>
+              <given-names>AB</given-names>
+            </name>
+            <name>
+              <surname>Hastings</surname>
+              <given-names>MH</given-names>
+            </name>
+          </person-group>
+          <article-title>Circadian timing in health and disease</article-title>
+          <source>Prog Brain Res</source>
+          <year>2006</year>
+          <volume>153</volume>
+          <fpage>253</fpage>
+          <lpage>269</lpage>
+          <pub-id pub-id-type="pmid">16876580</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b3-nss-2-187">
+        <label>3</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Barnard</surname>
+              <given-names>AR</given-names>
+            </name>
+            <name>
+              <surname>Nolan</surname>
+              <given-names>PM</given-names>
+            </name>
+          </person-group>
+          <article-title>When clocks go bad: neurobehavioural consequences of disrupted circadian timing</article-title>
+          <source>PLoS Genet</source>
+          <year>2008</year>
+          <volume>4</volume>
+          <fpage>e1000040</fpage>
+          <pub-id pub-id-type="pmid">18516223</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b4-nss-2-187">
+        <label>4</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Takahashi</surname>
+              <given-names>JS</given-names>
+            </name>
+            <name>
+              <surname>Hong</surname>
+              <given-names>HK</given-names>
+            </name>
+            <name>
+              <surname>Ko</surname>
+              <given-names>CH</given-names>
+            </name>
+            <name>
+              <surname>McDearmon</surname>
+              <given-names>EL</given-names>
+            </name>
+          </person-group>
+          <article-title>The genetics of mammalian circadian order and disorder: implications for physiology and disease</article-title>
+          <source>Nat Rev Genet</source>
+          <year>2008</year>
+          <volume>9</volume>
+          <fpage>764</fpage>
+          <lpage>775</lpage>
+          <pub-id pub-id-type="pmid">18802415</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b5-nss-2-187">
+        <label>5</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Borbely</surname>
+              <given-names>AA</given-names>
+            </name>
+          </person-group>
+          <article-title>A two process model of sleep regulation</article-title>
+          <source>Hum Neurobiol</source>
+          <year>1982</year>
+          <volume>1</volume>
+          <fpage>195</fpage>
+          <lpage>204</lpage>
+          <pub-id pub-id-type="pmid">7185792</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b6-nss-2-187">
+        <label>6</label>
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Daan</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Beersma</surname>
+              <given-names>D</given-names>
+            </name>
+          </person-group>
+          <article-title>Circadian gating of human sleep–wake cycles</article-title>
+          <person-group person-group-type="editor">
+            <name>
+              <surname>Moore-Ede</surname>
+              <given-names>MC</given-names>
+            </name>
+            <name>
+              <surname>Czeisler</surname>
+              <given-names>CA</given-names>
+            </name>
+          </person-group>
+          <source>Mathematical Models of the Circadian Sleep–wake Cycle</source>
+          <publisher-loc>New York, NY</publisher-loc>
+          <publisher-name>Raven Press</publisher-name>
+          <year>1984</year>
+          <fpage>129</fpage>
+          <lpage>158</lpage>
+        </element-citation>
+      </ref>
+      <ref id="b7-nss-2-187">
+        <label>7</label>
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kronauer</surname>
+              <given-names>RE</given-names>
+            </name>
+          </person-group>
+          <article-title>Modeling principles for human circadian rhythms</article-title>
+          <person-group person-group-type="editor">
+            <name>
+              <surname>Moore-Ede</surname>
+              <given-names>MC</given-names>
+            </name>
+            <name>
+              <surname>Czeisler</surname>
+              <given-names>CA</given-names>
+            </name>
+          </person-group>
+          <source>Mathematical Models of the Circadian Sleep–wake Cycle</source>
+          <publisher-loc>New York, NY</publisher-loc>
+          <publisher-name>Raven Press</publisher-name>
+          <year>1984</year>
+          <fpage>105</fpage>
+          <lpage>128</lpage>
+        </element-citation>
+      </ref>
+      <ref id="b8-nss-2-187">
+        <label>8</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Rensing</surname>
+              <given-names>L</given-names>
+            </name>
+            <name>
+              <surname>Meyer-Grahle</surname>
+              <given-names>U</given-names>
+            </name>
+            <name>
+              <surname>Ruoff</surname>
+              <given-names>P</given-names>
+            </name>
+          </person-group>
+          <article-title>Biological timing and the clock metaphor: oscillatory and hourglass mechanisms</article-title>
+          <source>Chronobiol Int</source>
+          <year>2001</year>
+          <volume>18</volume>
+          <fpage>329</fpage>
+          <lpage>369</lpage>
+          <pub-id pub-id-type="pmid">11475408</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b9-nss-2-187">
+        <label>9</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Franken</surname>
+              <given-names>P</given-names>
+            </name>
+            <name>
+              <surname>Dijk</surname>
+              <given-names>DJ</given-names>
+            </name>
+          </person-group>
+          <article-title>Circadian clock genes and sleep homeostasis</article-title>
+          <source>Eur J Neurosci</source>
+          <year>2009</year>
+          <volume>29</volume>
+          <fpage>1820</fpage>
+          <lpage>1829</lpage>
+          <pub-id pub-id-type="pmid">19473235</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b10-nss-2-187">
+        <label>10</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Dijk</surname>
+              <given-names>DJ</given-names>
+            </name>
+            <name>
+              <surname>Czeisler</surname>
+              <given-names>CA</given-names>
+            </name>
+          </person-group>
+          <article-title>Paradoxical timing of the circadian rhythm of sleep propensity serves to consolidate sleep and wakefulness in humans</article-title>
+          <source>Neurosci Lett</source>
+          <year>1994</year>
+          <volume>166</volume>
+          <fpage>63</fpage>
+          <lpage>68</lpage>
+          <pub-id pub-id-type="pmid">8190360</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b11-nss-2-187">
+        <label>11</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Mistlberger</surname>
+              <given-names>RE</given-names>
+            </name>
+          </person-group>
+          <article-title>Circadian regulation of sleep in mammals: role of the suprachiasmatic nucleus</article-title>
+          <source>Brain Res Brain Res Rev</source>
+          <year>2005</year>
+          <volume>49</volume>
+          <fpage>429</fpage>
+          <lpage>454</lpage>
+          <pub-id pub-id-type="pmid">16269313</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b12-nss-2-187">
+        <label>12</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Edgar</surname>
+              <given-names>DM</given-names>
+            </name>
+            <name>
+              <surname>Dement</surname>
+              <given-names>WC</given-names>
+            </name>
+            <name>
+              <surname>Fuller</surname>
+              <given-names>CA</given-names>
+            </name>
+          </person-group>
+          <article-title>Effect of SCN lesions on sleep in squirrel monkeys: evidence for opponent processes in sleep–wake regulation</article-title>
+          <source>J Neurosci</source>
+          <year>1993</year>
+          <volume>13</volume>
+          <fpage>1065</fpage>
+          <lpage>1079</lpage>
+          <pub-id pub-id-type="pmid">8441003</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b13-nss-2-187">
+        <label>13</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Easton</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Meerlo</surname>
+              <given-names>P</given-names>
+            </name>
+            <name>
+              <surname>Bergmann</surname>
+              <given-names>B</given-names>
+            </name>
+            <name>
+              <surname>Turek</surname>
+              <given-names>FW</given-names>
+            </name>
+          </person-group>
+          <article-title>The suprachiasmatic nucleus regulates sleep timing and amount in mice</article-title>
+          <source>Sleep</source>
+          <year>2004</year>
+          <volume>27</volume>
+          <fpage>1307</fpage>
+          <lpage>1318</lpage>
+          <pub-id pub-id-type="pmid">15586783</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b14-nss-2-187">
+        <label>14</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Dijk</surname>
+              <given-names>DJ</given-names>
+            </name>
+            <name>
+              <surname>Czeisler</surname>
+              <given-names>CA</given-names>
+            </name>
+          </person-group>
+          <article-title>Contribution of the circadian pacemaker and the sleep homeostat to sleep propensity, sleep structure, electroencephalographic slow waves, and sleep spindle activity in humans</article-title>
+          <source>J Neurosci</source>
+          <year>1995</year>
+          <volume>15</volume>
+          <fpage>3526</fpage>
+          <lpage>3538</lpage>
+          <pub-id pub-id-type="pmid">7751928</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b15-nss-2-187">
+        <label>15</label>
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kleitman</surname>
+              <given-names>N</given-names>
+            </name>
+          </person-group>
+          <source>Basic rest activity in relation to sleep and wakefulness</source>
+          <person-group person-group-type="editor">
+            <name>
+              <surname>Kales</surname>
+              <given-names>A</given-names>
+            </name>
+          </person-group>
+          <italic>Sleep: Physiology and Pathology; a Symposium</italic>
+          <publisher-loc>Philadelphia, PA</publisher-loc>
+          <publisher-name>Lippincott</publisher-name>
+          <year>1969</year>
+          <fpage>33</fpage>
+          <lpage>38</lpage>
+        </element-citation>
+      </ref>
+      <ref id="b16-nss-2-187">
+        <label>16</label>
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>van den Pol</surname>
+              <given-names>AN</given-names>
+            </name>
+          </person-group>
+          <article-title>The suprachiasmatic nucleus: morphological and cytochemical substrates for cellular interaction</article-title>
+          <person-group person-group-type="editor">
+            <name>
+              <surname>Klein</surname>
+              <given-names>DC</given-names>
+            </name>
+            <name>
+              <surname>Moore</surname>
+              <given-names>RY</given-names>
+            </name>
+            <name>
+              <surname>Reppert</surname>
+              <given-names>SM</given-names>
+            </name>
+            <collab>(US) NIoCHaHD</collab>
+          </person-group>
+          <source>Suprachiasmatic Nucleus: The Mind’s Clock</source>
+          <publisher-loc>New York, NY</publisher-loc>
+          <publisher-name>Oxford University Press</publisher-name>
+          <year>1991</year>
+          <fpage>17</fpage>
+          <lpage>50</lpage>
+        </element-citation>
+      </ref>
+      <ref id="b17-nss-2-187">
+        <label>17</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Silver</surname>
+              <given-names>R</given-names>
+            </name>
+            <name>
+              <surname>LeSauter</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Tresco</surname>
+              <given-names>PA</given-names>
+            </name>
+            <name>
+              <surname>Lehman</surname>
+              <given-names>MN</given-names>
+            </name>
+          </person-group>
+          <article-title>A diffusible coupling signal from the transplanted suprachiasmatic nucleus controlling circadian locomotor rhythms</article-title>
+          <source>Nature</source>
+          <year>1996</year>
+          <volume>382</volume>
+          <fpage>810</fpage>
+          <lpage>813</lpage>
+          <pub-id pub-id-type="pmid">8752274</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b18-nss-2-187">
+        <label>18</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Chou</surname>
+              <given-names>TC</given-names>
+            </name>
+            <name>
+              <surname>Scammell</surname>
+              <given-names>TE</given-names>
+            </name>
+            <name>
+              <surname>Gooley</surname>
+              <given-names>JJ</given-names>
+            </name>
+            <name>
+              <surname>Gaus</surname>
+              <given-names>SE</given-names>
+            </name>
+            <name>
+              <surname>Saper</surname>
+              <given-names>CB</given-names>
+            </name>
+            <name>
+              <surname>Lu</surname>
+              <given-names>J</given-names>
+            </name>
+          </person-group>
+          <article-title>Critical role of dorsomedial hypothalamic nucleus in a wide range of behavioral circadian rhythms</article-title>
+          <source>J Neurosci</source>
+          <year>2003</year>
+          <volume>23</volume>
+          <fpage>10691</fpage>
+          <lpage>10702</lpage>
+          <pub-id pub-id-type="pmid">14627654</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b19-nss-2-187">
+        <label>19</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Deurveilher</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Semba</surname>
+              <given-names>K</given-names>
+            </name>
+          </person-group>
+          <article-title>Indirect projections from the suprachiasmatic nucleus to major arousal-promoting cell groups in rat: implications for the circadian control of behavioural state</article-title>
+          <source>Neuroscience</source>
+          <year>2005</year>
+          <volume>130</volume>
+          <fpage>165</fpage>
+          <lpage>183</lpage>
+          <pub-id pub-id-type="pmid">15561433</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b20-nss-2-187">
+        <label>20</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Morin</surname>
+              <given-names>LP</given-names>
+            </name>
+          </person-group>
+          <article-title>SCN organization reconsidered</article-title>
+          <source>J Biol Rhythms</source>
+          <year>2007</year>
+          <volume>22</volume>
+          <fpage>3</fpage>
+          <lpage>13</lpage>
+          <pub-id pub-id-type="pmid">17229920</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b21-nss-2-187">
+        <label>21</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kalsbeek</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Buijs</surname>
+              <given-names>RM</given-names>
+            </name>
+          </person-group>
+          <article-title>Output pathways of the mammalian suprachiasmatic nucleus: coding circadian time by transmitter selection and specifc targeting</article-title>
+          <source>Cell Tissue Res</source>
+          <year>2002</year>
+          <volume>309</volume>
+          <fpage>109</fpage>
+          <lpage>118</lpage>
+          <pub-id pub-id-type="pmid">12111541</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b22-nss-2-187">
+        <label>22</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kalsbeek</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Palm</surname>
+              <given-names>IF</given-names>
+            </name>
+            <name>
+              <surname>La Fleur</surname>
+              <given-names>SE</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>SCN outputs and the hypothalamic balance of life</article-title>
+          <source>J Biol Rhythms</source>
+          <year>2006</year>
+          <volume>21</volume>
+          <fpage>458</fpage>
+          <lpage>469</lpage>
+          <pub-id pub-id-type="pmid">17107936</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b23-nss-2-187">
+        <label>23</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Deboer</surname>
+              <given-names>T</given-names>
+            </name>
+            <name>
+              <surname>Vansteensel</surname>
+              <given-names>MJ</given-names>
+            </name>
+            <name>
+              <surname>Detari</surname>
+              <given-names>L</given-names>
+            </name>
+            <name>
+              <surname>Meijer</surname>
+              <given-names>JH</given-names>
+            </name>
+          </person-group>
+          <article-title>Sleep states alter activity of suprachiasmatic nucleus neurons</article-title>
+          <source>Nat Neurosci</source>
+          <year>2003</year>
+          <volume>6</volume>
+          <fpage>1086</fpage>
+          <lpage>1090</lpage>
+          <pub-id pub-id-type="pmid">12958601</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b24-nss-2-187">
+        <label>24</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Antle</surname>
+              <given-names>MC</given-names>
+            </name>
+            <name>
+              <surname>Silver</surname>
+              <given-names>R</given-names>
+            </name>
+          </person-group>
+          <article-title>Orchestrating time: arrangements of the brain circadian clock</article-title>
+          <source>Trends Neurosci</source>
+          <year>2005</year>
+          <volume>28</volume>
+          <fpage>145</fpage>
+          <lpage>151</lpage>
+          <pub-id pub-id-type="pmid">15749168</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b25-nss-2-187">
+        <label>25</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Lee</surname>
+              <given-names>ML</given-names>
+            </name>
+            <name>
+              <surname>Swanson</surname>
+              <given-names>BE</given-names>
+            </name>
+            <name>
+              <surname>de la Iglesia</surname>
+              <given-names>HO</given-names>
+            </name>
+          </person-group>
+          <article-title>Circadian timing of REM sleep is coupled to an oscillator within the dorsomedial suprachiasmatic nucleus</article-title>
+          <source>Curr Biol</source>
+          <year>2009</year>
+          <volume>19</volume>
+          <fpage>848</fpage>
+          <lpage>852</lpage>
+          <pub-id pub-id-type="pmid">19375313</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b26-nss-2-187">
+        <label>26</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Mistlberger</surname>
+              <given-names>RE</given-names>
+            </name>
+            <name>
+              <surname>Bergmann</surname>
+              <given-names>BM</given-names>
+            </name>
+            <name>
+              <surname>Waldenar</surname>
+              <given-names>W</given-names>
+            </name>
+            <name>
+              <surname>Rechtschaffen</surname>
+              <given-names>A</given-names>
+            </name>
+          </person-group>
+          <article-title>Recovery sleep following sleep deprivation in intact and suprachiasmatic nuclei-lesioned rats</article-title>
+          <source>Sleep</source>
+          <year>1983</year>
+          <volume>6</volume>
+          <fpage>217</fpage>
+          <lpage>233</lpage>
+          <pub-id pub-id-type="pmid">6622879</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b27-nss-2-187">
+        <label>27</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Tobler</surname>
+              <given-names>I</given-names>
+            </name>
+            <name>
+              <surname>Borbely</surname>
+              <given-names>AA</given-names>
+            </name>
+            <name>
+              <surname>Groos</surname>
+              <given-names>G</given-names>
+            </name>
+          </person-group>
+          <article-title>The effect of sleep deprivation on sleep in rats with suprachiasmatic lesions</article-title>
+          <source>Neurosci Lett</source>
+          <year>1983</year>
+          <volume>42</volume>
+          <fpage>49</fpage>
+          <lpage>54</lpage>
+          <pub-id pub-id-type="pmid">6657146</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b28-nss-2-187">
+        <label>28</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Wurts</surname>
+              <given-names>S W</given-names>
+            </name>
+            <name>
+              <surname>Edgar</surname>
+              <given-names>DM</given-names>
+            </name>
+          </person-group>
+          <article-title>Circadian and homeostatic control of rapid eye movement (REM) sleep: promotion of REM tendency by the suprachiasmatic nucleus</article-title>
+          <source>J Neurosci</source>
+          <year>2000</year>
+          <volume>20</volume>
+          <fpage>4300</fpage>
+          <lpage>4310</lpage>
+          <pub-id pub-id-type="pmid">10818165</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b29-nss-2-187">
+        <label>29</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Espie</surname>
+              <given-names>CA</given-names>
+            </name>
+          </person-group>
+          <article-title>Insomnia: conceptual issues in the development, persistence, and treatment of sleep disorder in adults</article-title>
+          <source>Annu Rev Psychol</source>
+          <year>2002</year>
+          <volume>53</volume>
+          <fpage>215</fpage>
+          <lpage>243</lpage>
+          <pub-id pub-id-type="pmid">11752485</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b30-nss-2-187">
+        <label>30</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Czeisler</surname>
+              <given-names>CA</given-names>
+            </name>
+            <name>
+              <surname>Richardson</surname>
+              <given-names>GS</given-names>
+            </name>
+            <name>
+              <surname>Zimmerman</surname>
+              <given-names>JC</given-names>
+            </name>
+            <name>
+              <surname>Moore-Ede</surname>
+              <given-names>MC</given-names>
+            </name>
+            <name>
+              <surname>Weitzman</surname>
+              <given-names>ED</given-names>
+            </name>
+          </person-group>
+          <article-title>Entrainment of human circadian rhythms by light-dark cycles: a reassessment</article-title>
+          <source>Photochem Photobiol</source>
+          <year>1981</year>
+          <volume>34</volume>
+          <fpage>239</fpage>
+          <lpage>247</lpage>
+          <pub-id pub-id-type="pmid">7267730</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b31-nss-2-187">
+        <label>31</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Boivin</surname>
+              <given-names>DB</given-names>
+            </name>
+            <name>
+              <surname>Duffy</surname>
+              <given-names>JF</given-names>
+            </name>
+            <name>
+              <surname>Kronauer</surname>
+              <given-names>RE</given-names>
+            </name>
+            <name>
+              <surname>Czeisler</surname>
+              <given-names>CA</given-names>
+            </name>
+          </person-group>
+          <article-title>Dose-response relationships for resetting of human circadian clock by light</article-title>
+          <source>Nature</source>
+          <year>1996</year>
+          <volume>379</volume>
+          <fpage>540</fpage>
+          <lpage>542</lpage>
+          <pub-id pub-id-type="pmid">8596632</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b32-nss-2-187">
+        <label>32</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Eastman</surname>
+              <given-names>CI</given-names>
+            </name>
+            <name>
+              <surname>Burgess</surname>
+              <given-names>HJ</given-names>
+            </name>
+          </person-group>
+          <article-title>How to travel the world without jet lag</article-title>
+          <source>Sleep Med Clin</source>
+          <year>2009</year>
+          <volume>4</volume>
+          <fpage>241</fpage>
+          <lpage>255</lpage>
+          <pub-id pub-id-type="pmid">20204161</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b33-nss-2-187">
+        <label>33</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Waterhouse</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Reilly</surname>
+              <given-names>T</given-names>
+            </name>
+            <name>
+              <surname>Atkinson</surname>
+              <given-names>G</given-names>
+            </name>
+            <name>
+              <surname>Edwards</surname>
+              <given-names>B</given-names>
+            </name>
+          </person-group>
+          <article-title>Jet lag: trends and coping strategies</article-title>
+          <source>Lancet</source>
+          <year>2007</year>
+          <volume>369</volume>
+          <fpage>1117</fpage>
+          <lpage>1129</lpage>
+          <pub-id pub-id-type="pmid">17398311</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b34-nss-2-187">
+        <label>34</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Aschoff</surname>
+              <given-names>J</given-names>
+            </name>
+          </person-group>
+          <article-title>Masking and parametric effects of high-frequency light-dark cycles</article-title>
+          <source>Jpn J Physiol</source>
+          <year>1999</year>
+          <volume>49</volume>
+          <fpage>11</fpage>
+          <lpage>18</lpage>
+          <pub-id pub-id-type="pmid">10219104</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b35-nss-2-187">
+        <label>35</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Lupi</surname>
+              <given-names>D</given-names>
+            </name>
+            <name>
+              <surname>Oster</surname>
+              <given-names>H</given-names>
+            </name>
+            <name>
+              <surname>Thompson</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Foster</surname>
+              <given-names>RG</given-names>
+            </name>
+          </person-group>
+          <article-title>The acute light-induction of sleep is mediated by OPN4-based photoreception</article-title>
+          <source>Nat Neurosci</source>
+          <year>2008</year>
+          <volume>11</volume>
+          <fpage>1068</fpage>
+          <lpage>1073</lpage>
+          <pub-id pub-id-type="pmid">19160505</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b36-nss-2-187">
+        <label>36</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Hattar</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Liao</surname>
+              <given-names>HW</given-names>
+            </name>
+            <name>
+              <surname>Takao</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Berson</surname>
+              <given-names>DM</given-names>
+            </name>
+            <name>
+              <surname>Yau</surname>
+              <given-names>KW</given-names>
+            </name>
+          </person-group>
+          <article-title>Melanopsin-containing retinal ganglion cells: architecture, projections, and intrinsic photosensitivity</article-title>
+          <source>Science</source>
+          <year>2002</year>
+          <volume>295</volume>
+          <fpage>1065</fpage>
+          <lpage>1070</lpage>
+          <pub-id pub-id-type="pmid">11834834</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b37-nss-2-187">
+        <label>37</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Provencio</surname>
+              <given-names>I</given-names>
+            </name>
+            <name>
+              <surname>Rollag</surname>
+              <given-names>MD</given-names>
+            </name>
+            <name>
+              <surname>Castrucci</surname>
+              <given-names>AM</given-names>
+            </name>
+          </person-group>
+          <article-title>Photoreceptive net in the mammalian retina. This mesh of cells may explain how some blind mice can still tell day from night</article-title>
+          <source>Nature</source>
+          <year>2002</year>
+          <volume>415</volume>
+          <fpage>493</fpage>
+          <pub-id pub-id-type="pmid">11823848</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b38-nss-2-187">
+        <label>38</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Panda</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Nayak</surname>
+              <given-names>SK</given-names>
+            </name>
+            <name>
+              <surname>Campo</surname>
+              <given-names>B</given-names>
+            </name>
+            <name>
+              <surname>Walker</surname>
+              <given-names>JR</given-names>
+            </name>
+            <name>
+              <surname>Hogenesch</surname>
+              <given-names>JB</given-names>
+            </name>
+            <name>
+              <surname>Jegla</surname>
+              <given-names>T</given-names>
+            </name>
+          </person-group>
+          <article-title>Illumination of the melanopsin signaling pathway</article-title>
+          <source>Science</source>
+          <year>2005</year>
+          <volume>307</volume>
+          <fpage>600</fpage>
+          <lpage>604</lpage>
+          <pub-id pub-id-type="pmid">15681390</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b39-nss-2-187">
+        <label>39</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Panda</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Sato</surname>
+              <given-names>TK</given-names>
+            </name>
+            <name>
+              <surname>Castrucci</surname>
+              <given-names>AM</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Melanopsin (Opn4) requirement for normal light-induced circadian phase shifting</article-title>
+          <source>Science</source>
+          <year>2002</year>
+          <volume>298</volume>
+          <fpage>2213</fpage>
+          <lpage>2216</lpage>
+          <pub-id pub-id-type="pmid">12481141</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b40-nss-2-187">
+        <label>40</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Ruby</surname>
+              <given-names>NF</given-names>
+            </name>
+            <name>
+              <surname>Brennan</surname>
+              <given-names>TJ</given-names>
+            </name>
+            <name>
+              <surname>Xie</surname>
+              <given-names>X</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Role of melanopsin in circadian responses to light</article-title>
+          <source>Science</source>
+          <year>2002</year>
+          <volume>298</volume>
+          <fpage>2211</fpage>
+          <lpage>2213</lpage>
+          <pub-id pub-id-type="pmid">12481140</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b41-nss-2-187">
+        <label>41</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Guler</surname>
+              <given-names>AD</given-names>
+            </name>
+            <name>
+              <surname>Ecker</surname>
+              <given-names>JL</given-names>
+            </name>
+            <name>
+              <surname>Lall</surname>
+              <given-names>GS</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Melanopsin cells are the principal conduits for rod-cone input to non-image-forming vision</article-title>
+          <source>Nature</source>
+          <year>2008</year>
+          <volume>453</volume>
+          <fpage>102</fpage>
+          <lpage>105</lpage>
+          <pub-id pub-id-type="pmid">18432195</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b42-nss-2-187">
+        <label>42</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Brainard</surname>
+              <given-names>GC</given-names>
+            </name>
+            <name>
+              <surname>Sliney</surname>
+              <given-names>D</given-names>
+            </name>
+            <name>
+              <surname>Hanifin</surname>
+              <given-names>JP</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Sensitivity of the human circadian system to short-wavelength (420-nm) light</article-title>
+          <source>J Biol Rhythms</source>
+          <year>2008</year>
+          <volume>23</volume>
+          <fpage>379</fpage>
+          <lpage>386</lpage>
+          <pub-id pub-id-type="pmid">18838601</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b43-nss-2-187">
+        <label>43</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Miller</surname>
+              <given-names>AM</given-names>
+            </name>
+            <name>
+              <surname>Obermeyer</surname>
+              <given-names>WH</given-names>
+            </name>
+            <name>
+              <surname>Behan</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Benca</surname>
+              <given-names>RM</given-names>
+            </name>
+          </person-group>
+          <article-title>The superior colliculus-pretectum mediates the direct effects of light on sleep</article-title>
+          <source>Proc Natl Acad Sci USA</source>
+          <year>1998</year>
+          <volume>95</volume>
+          <fpage>8957</fpage>
+          <lpage>8962</lpage>
+          <pub-id pub-id-type="pmid">9671786</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b44-nss-2-187">
+        <label>44</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Dijk</surname>
+              <given-names>DJ</given-names>
+            </name>
+            <name>
+              <surname>Archer</surname>
+              <given-names>SN</given-names>
+            </name>
+          </person-group>
+          <article-title>Light, sleep, and circadian rhythms: together again</article-title>
+          <source>PLoS Biol</source>
+          <year>2009</year>
+          <volume>7</volume>
+          <fpage>e1000145</fpage>
+          <pub-id pub-id-type="pmid">19547745</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b45-nss-2-187">
+        <label>45</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Schultz</surname>
+              <given-names>TF</given-names>
+            </name>
+            <name>
+              <surname>Kay</surname>
+              <given-names>SA</given-names>
+            </name>
+          </person-group>
+          <article-title>Circadian clocks in daily and seasonal control of development</article-title>
+          <source>Science</source>
+          <year>2003</year>
+          <volume>301</volume>
+          <fpage>326</fpage>
+          <lpage>328</lpage>
+          <pub-id pub-id-type="pmid">12869749</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b46-nss-2-187">
+        <label>46</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Stehle</surname>
+              <given-names>JH</given-names>
+            </name>
+            <name>
+              <surname>von Gall</surname>
+              <given-names>C</given-names>
+            </name>
+            <name>
+              <surname>Korf</surname>
+              <given-names>HW</given-names>
+            </name>
+          </person-group>
+          <article-title>Melatonin: a clock-output, a clock-input</article-title>
+          <source>J Neuroendocrinol</source>
+          <year>2003</year>
+          <volume>15</volume>
+          <fpage>383</fpage>
+          <lpage>389</lpage>
+          <pub-id pub-id-type="pmid">12622838</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b47-nss-2-187">
+        <label>47</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Reppert</surname>
+              <given-names>SM</given-names>
+            </name>
+            <name>
+              <surname>Perlow</surname>
+              <given-names>MJ</given-names>
+            </name>
+            <name>
+              <surname>Ungerleider</surname>
+              <given-names>LG</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Effects of damage to the suprachiasmatic area of the anterior hypothalamus on the daily melatonin and cortisol rhythms in the rhesus monkey</article-title>
+          <source>J Neurosci</source>
+          <year>1981</year>
+          <volume>1</volume>
+          <fpage>1414</fpage>
+          <lpage>1425</lpage>
+          <pub-id pub-id-type="pmid">7320754</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b48-nss-2-187">
+        <label>48</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Schwartz</surname>
+              <given-names>MD</given-names>
+            </name>
+            <name>
+              <surname>Wotus</surname>
+              <given-names>C</given-names>
+            </name>
+            <name>
+              <surname>Liu</surname>
+              <given-names>T</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Dissociation of circadian and light inhibition of melatonin release through forced desynchronization in the rat</article-title>
+          <source>Proc Natl Acad Sci USA</source>
+          <year>2009</year>
+          <volume>106</volume>
+          <fpage>17540</fpage>
+          <lpage>17545</lpage>
+          <pub-id pub-id-type="pmid">19805128</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b49-nss-2-187">
+        <label>49</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Cassone</surname>
+              <given-names>VM</given-names>
+            </name>
+          </person-group>
+          <article-title>Melatonin’s role in vertebrate circadian rhythms</article-title>
+          <source>Chronobiol Int</source>
+          <year>1998</year>
+          <volume>15</volume>
+          <fpage>457</fpage>
+          <lpage>473</lpage>
+          <pub-id pub-id-type="pmid">9787936</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b50-nss-2-187">
+        <label>50</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Tzischinsky</surname>
+              <given-names>O</given-names>
+            </name>
+            <name>
+              <surname>Lavie</surname>
+              <given-names>P</given-names>
+            </name>
+          </person-group>
+          <article-title>Melatonin possesses time-dependent hypnotic effects</article-title>
+          <source>Sleep</source>
+          <year>1994</year>
+          <volume>17</volume>
+          <fpage>638</fpage>
+          <lpage>645</lpage>
+          <pub-id pub-id-type="pmid">7846463</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b51-nss-2-187">
+        <label>51</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Krauchi</surname>
+              <given-names>K</given-names>
+            </name>
+            <name>
+              <surname>Cajochen</surname>
+              <given-names>C</given-names>
+            </name>
+            <name>
+              <surname>Pache</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Flammer</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Wirz-Justice</surname>
+              <given-names>A</given-names>
+            </name>
+          </person-group>
+          <article-title>Thermoregulatory effects of melatonin in relation to sleepiness</article-title>
+          <source>Chronobiol Int</source>
+          <year>2006</year>
+          <volume>23</volume>
+          <fpage>475</fpage>
+          <lpage>484</lpage>
+          <pub-id pub-id-type="pmid">16687320</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b52-nss-2-187">
+        <label>52</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>McGinty</surname>
+              <given-names>D</given-names>
+            </name>
+            <name>
+              <surname>Gong</surname>
+              <given-names>H</given-names>
+            </name>
+            <name>
+              <surname>Suntsova</surname>
+              <given-names>N</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Sleep-promoting functions of the hypothalamic median preoptic nucleus: inhibition of arousal systems</article-title>
+          <source>Arch Ital Biol</source>
+          <year>2004</year>
+          <volume>142</volume>
+          <fpage>501</fpage>
+          <lpage>509</lpage>
+          <pub-id pub-id-type="pmid">15493551</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b53-nss-2-187">
+        <label>53</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Nagano</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Adachi</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Nakahama</surname>
+              <given-names>K</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>An abrupt shift in the day/ night cycle causes desynchrony in the mammalian circadian center</article-title>
+          <source>J Neurosci</source>
+          <year>2003</year>
+          <volume>23</volume>
+          <fpage>6141</fpage>
+          <lpage>6151</lpage>
+          <pub-id pub-id-type="pmid">12853433</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b54-nss-2-187">
+        <label>54</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Boulos</surname>
+              <given-names>Z</given-names>
+            </name>
+            <name>
+              <surname>Campbell</surname>
+              <given-names>SS</given-names>
+            </name>
+            <name>
+              <surname>Lewy</surname>
+              <given-names>AJ</given-names>
+            </name>
+            <name>
+              <surname>Terman</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Dijk</surname>
+              <given-names>DJ</given-names>
+            </name>
+            <name>
+              <surname>Eastman</surname>
+              <given-names>CI</given-names>
+            </name>
+          </person-group>
+          <article-title>Light treatment for sleep disorders: consensus report. VII. Jet lag</article-title>
+          <source>J Biol Rhythms</source>
+          <year>1995</year>
+          <volume>10</volume>
+          <fpage>167</fpage>
+          <lpage>176</lpage>
+          <pub-id pub-id-type="pmid">7632990</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b55-nss-2-187">
+        <label>55</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Czeisler</surname>
+              <given-names>CA</given-names>
+            </name>
+            <name>
+              <surname>Allan</surname>
+              <given-names>JS</given-names>
+            </name>
+            <name>
+              <surname>Strogatz</surname>
+              <given-names>SH</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Bright light resets the human circadian pacemaker independent of the timing of the sleep–wake cycle</article-title>
+          <source>Science</source>
+          <year>1986</year>
+          <volume>233</volume>
+          <fpage>667</fpage>
+          <lpage>671</lpage>
+          <pub-id pub-id-type="pmid">3726555</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b56-nss-2-187">
+        <label>56</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Mistlberger</surname>
+              <given-names>RE</given-names>
+            </name>
+            <name>
+              <surname>Landry</surname>
+              <given-names>GJ</given-names>
+            </name>
+            <name>
+              <surname>Marchant</surname>
+              <given-names>EG</given-names>
+            </name>
+          </person-group>
+          <article-title>Sleep deprivation can attenuate light-induced phase shifts of circadian rhythms in hamsters</article-title>
+          <source>Neurosci Lett</source>
+          <year>1997</year>
+          <volume>238</volume>
+          <fpage>5</fpage>
+          <lpage>8</lpage>
+          <pub-id pub-id-type="pmid">9464641</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b57-nss-2-187">
+        <label>57</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Cajochen</surname>
+              <given-names>C</given-names>
+            </name>
+            <name>
+              <surname>Krauchi</surname>
+              <given-names>K</given-names>
+            </name>
+            <name>
+              <surname>Danilenko</surname>
+              <given-names>KV</given-names>
+            </name>
+            <name>
+              <surname>Wirz-Justice</surname>
+              <given-names>A</given-names>
+            </name>
+          </person-group>
+          <article-title>Evening administration of melatonin and bright light: interactions on the EEG during sleep and wakefulness</article-title>
+          <source>J Sleep Res</source>
+          <year>1998</year>
+          <volume>7</volume>
+          <fpage>145</fpage>
+          <lpage>157</lpage>
+          <pub-id pub-id-type="pmid">9785269</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b58-nss-2-187">
+        <label>58</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Nicholson</surname>
+              <given-names>AN</given-names>
+            </name>
+            <name>
+              <surname>Pascoe</surname>
+              <given-names>PA</given-names>
+            </name>
+            <name>
+              <surname>Spencer</surname>
+              <given-names>MB</given-names>
+            </name>
+            <name>
+              <surname>Stone</surname>
+              <given-names>BM</given-names>
+            </name>
+            <name>
+              <surname>Roehrs</surname>
+              <given-names>T</given-names>
+            </name>
+            <name>
+              <surname>Roth</surname>
+              <given-names>T</given-names>
+            </name>
+          </person-group>
+          <article-title>Sleep after transmeridian fights</article-title>
+          <source>Lancet</source>
+          <year>1986</year>
+          <volume>2</volume>
+          <fpage>1205</fpage>
+          <lpage>1208</lpage>
+          <pub-id pub-id-type="pmid">2877336</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b59-nss-2-187">
+        <label>59</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Taub</surname>
+              <given-names>JM</given-names>
+            </name>
+            <name>
+              <surname>Berger</surname>
+              <given-names>RJ</given-names>
+            </name>
+          </person-group>
+          <article-title>Sleep stage patterns associated with acute shifts in sleep–wakefulness cycle</article-title>
+          <source>Electroencephalogr Clin Neurophysiol</source>
+          <year>1973</year>
+          <volume>35</volume>
+          <fpage>613</fpage>
+          <lpage>619</lpage>
+          <pub-id pub-id-type="pmid">4128156</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b60-nss-2-187">
+        <label>60</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Carrier</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Dumont</surname>
+              <given-names>M</given-names>
+            </name>
+          </person-group>
+          <article-title>Sleep propensity and sleep architecture after bright light exposure at three different times of day</article-title>
+          <source>J Sleep Res</source>
+          <year>1995</year>
+          <volume>4</volume>
+          <fpage>202</fpage>
+          <lpage>211</lpage>
+          <pub-id pub-id-type="pmid">10607160</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b61-nss-2-187">
+        <label>61</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Dijk</surname>
+              <given-names>DJ</given-names>
+            </name>
+            <name>
+              <surname>Visscher</surname>
+              <given-names>CA</given-names>
+            </name>
+            <name>
+              <surname>Bloem</surname>
+              <given-names>GM</given-names>
+            </name>
+            <name>
+              <surname>Beersma</surname>
+              <given-names>DG</given-names>
+            </name>
+            <name>
+              <surname>Daan</surname>
+              <given-names>S</given-names>
+            </name>
+          </person-group>
+          <article-title>Reduction of human sleep duration after bright light exposure in the morning</article-title>
+          <source>Neurosci Lett</source>
+          <year>1987</year>
+          <volume>73</volume>
+          <fpage>181</fpage>
+          <lpage>186</lpage>
+          <pub-id pub-id-type="pmid">3822250</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b62-nss-2-187">
+        <label>62</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Campbell</surname>
+              <given-names>SS</given-names>
+            </name>
+            <name>
+              <surname>Dawson</surname>
+              <given-names>D</given-names>
+            </name>
+          </person-group>
+          <article-title>Aging young sleep: a test of the phase advance hypothesis of sleep disturbance in the elderly</article-title>
+          <source>J Sleep Res</source>
+          <year>1992</year>
+          <volume>1</volume>
+          <fpage>205</fpage>
+          <lpage>210</lpage>
+          <pub-id pub-id-type="pmid">10607053</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b63-nss-2-187">
+        <label>63</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Rüger</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Gordijn</surname>
+              <given-names>MC</given-names>
+            </name>
+            <name>
+              <surname>Beersma</surname>
+              <given-names>DG</given-names>
+            </name>
+            <name>
+              <surname>de Vries</surname>
+              <given-names>B</given-names>
+            </name>
+            <name>
+              <surname>Daan</surname>
+              <given-names>S</given-names>
+            </name>
+          </person-group>
+          <article-title>Time-of-day-dependent effects of bright light exposure on human psychophysiology: comparison of daytime and nighttime exposure</article-title>
+          <source>Am J Physiol Regul Integr Comp Physiol</source>
+          <year>2006</year>
+          <volume>290</volume>
+          <fpage>R1413</fpage>
+          <lpage>R1420</lpage>
+          <pub-id pub-id-type="pmid">16373441</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b64-nss-2-187">
+        <label>64</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Cajochen</surname>
+              <given-names>C</given-names>
+            </name>
+            <name>
+              <surname>Dijk</surname>
+              <given-names>DJ</given-names>
+            </name>
+            <name>
+              <surname>Borbely</surname>
+              <given-names>AA</given-names>
+            </name>
+          </person-group>
+          <article-title>Dynamics of EEG slow-wave activity and core body temperature in human sleep after exposure to bright light</article-title>
+          <source>Sleep</source>
+          <year>1992</year>
+          <volume>15</volume>
+          <fpage>337</fpage>
+          <lpage>343</lpage>
+          <pub-id pub-id-type="pmid">1519009</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b65-nss-2-187">
+        <label>65</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Sei</surname>
+              <given-names>H</given-names>
+            </name>
+            <name>
+              <surname>Kiuchi</surname>
+              <given-names>T</given-names>
+            </name>
+            <name>
+              <surname>Chang</surname>
+              <given-names>HY</given-names>
+            </name>
+            <name>
+              <surname>Seno</surname>
+              <given-names>H</given-names>
+            </name>
+            <name>
+              <surname>Sano</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Morita</surname>
+              <given-names>Y</given-names>
+            </name>
+          </person-group>
+          <article-title>Response of the sleep–wake rhythm to an 8-hour advance of the light-dark cycle in the rat</article-title>
+          <source>Chronobiol Int</source>
+          <year>1994</year>
+          <volume>11</volume>
+          <fpage>293</fpage>
+          <lpage>300</lpage>
+          <pub-id pub-id-type="pmid">7828212</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b66-nss-2-187">
+        <label>66</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Cajochen</surname>
+              <given-names>C</given-names>
+            </name>
+            <name>
+              <surname>Krauchi</surname>
+              <given-names>K</given-names>
+            </name>
+            <name>
+              <surname>Mori</surname>
+              <given-names>D</given-names>
+            </name>
+            <name>
+              <surname>Graw</surname>
+              <given-names>P</given-names>
+            </name>
+            <name>
+              <surname>Wirz-Justice</surname>
+              <given-names>A</given-names>
+            </name>
+          </person-group>
+          <article-title>Melatonin and S-20098 increase REM sleep and wake-up propensity without modifying NREM sleep homeostasis</article-title>
+          <source>Am J Physiol</source>
+          <year>1997</year>
+          <volume>272</volume>
+          <fpage>R1189</fpage>
+          <lpage>R1196</lpage>
+          <pub-id pub-id-type="pmid">9140019</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b67-nss-2-187">
+        <label>67</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Bunnell</surname>
+              <given-names>DE</given-names>
+            </name>
+            <name>
+              <surname>Treiber</surname>
+              <given-names>SP</given-names>
+            </name>
+            <name>
+              <surname>Phillips</surname>
+              <given-names>NH</given-names>
+            </name>
+            <name>
+              <surname>Berger</surname>
+              <given-names>RJ</given-names>
+            </name>
+          </person-group>
+          <article-title>Effects of evening bright light exposure on melatonin, body temperature and sleep</article-title>
+          <source>J Sleep Res</source>
+          <year>1992</year>
+          <volume>1</volume>
+          <fpage>17</fpage>
+          <lpage>23</lpage>
+          <pub-id pub-id-type="pmid">10607020</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b68-nss-2-187">
+        <label>68</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Snyder</surname>
+              <given-names>S</given-names>
+            </name>
+          </person-group>
+          <article-title>Isolated sleep paralysis after rapid time-zone change (‘jetlag’) syndrome</article-title>
+          <source>Chronobiologia</source>
+          <year>1983</year>
+          <volume>10</volume>
+          <fpage>377</fpage>
+          <lpage>379</lpage>
+          <pub-id pub-id-type="pmid">6661984</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b69-nss-2-187">
+        <label>69</label>
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Nielsen</surname>
+              <given-names>TA</given-names>
+            </name>
+          </person-group>
+          <article-title>Chronobiology of dreaming</article-title>
+          <person-group person-group-type="editor">
+            <name>
+              <surname>Kryger</surname>
+              <given-names>MH</given-names>
+            </name>
+            <name>
+              <surname>Roth</surname>
+              <given-names>T</given-names>
+            </name>
+            <name>
+              <surname>Dement</surname>
+              <given-names>WC</given-names>
+            </name>
+          </person-group>
+          <source>Principles and Practice of Sleep Medicine</source>
+          <edition>4th ed</edition>
+          <publisher-loc>Philadelphia, PA</publisher-loc>
+          <publisher-name>Elsevier/Saunders</publisher-name>
+          <year>2005</year>
+          <fpage>xxxiii, 1517</fpage>
+        </element-citation>
+      </ref>
+      <ref id="b70-nss-2-187">
+        <label>70</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Shouse</surname>
+              <given-names>MN</given-names>
+            </name>
+            <name>
+              <surname>Scordato</surname>
+              <given-names>JC</given-names>
+            </name>
+            <name>
+              <surname>Farber</surname>
+              <given-names>PR</given-names>
+            </name>
+          </person-group>
+          <article-title>Sleep and arousal mechanisms in experimental epilepsy: epileptic components of NREM and antiepileptic components of REM sleep</article-title>
+          <source>Ment Retard Dev Disabil Res Rev</source>
+          <year>2004</year>
+          <volume>10</volume>
+          <fpage>117</fpage>
+          <lpage>121</lpage>
+          <pub-id pub-id-type="pmid">15362167</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b71-nss-2-187">
+        <label>71</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Trevorrow</surname>
+              <given-names>T</given-names>
+            </name>
+          </person-group>
+          <article-title>Air travel and seizure frequency for individuals with epilepsy</article-title>
+          <source>Seizure</source>
+          <year>2006</year>
+          <volume>15</volume>
+          <fpage>320</fpage>
+          <lpage>327</lpage>
+          <pub-id pub-id-type="pmid">16647276</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b72-nss-2-187">
+        <label>72</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Volicer</surname>
+              <given-names>L</given-names>
+            </name>
+            <name>
+              <surname>Harper</surname>
+              <given-names>DG</given-names>
+            </name>
+            <name>
+              <surname>Manning</surname>
+              <given-names>BC</given-names>
+            </name>
+            <name>
+              <surname>Goldstein</surname>
+              <given-names>R</given-names>
+            </name>
+            <name>
+              <surname>Satlin</surname>
+              <given-names>A</given-names>
+            </name>
+          </person-group>
+          <article-title>Sundowning and circadian rhythms in Alzheimer’s disease</article-title>
+          <source>Am J Psychiatry</source>
+          <year>2001</year>
+          <volume>158</volume>
+          <fpage>704</fpage>
+          <lpage>711</lpage>
+          <pub-id pub-id-type="pmid">11329390</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b73-nss-2-187">
+        <label>73</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Wirz-Justice</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>van den Hoofdakker</surname>
+              <given-names>RH</given-names>
+            </name>
+          </person-group>
+          <article-title>Sleep deprivation in depression: what do we know, where do we go?</article-title>
+          <source>Biol Psychiatry</source>
+          <year>1999</year>
+          <volume>46</volume>
+          <fpage>445</fpage>
+          <lpage>453</lpage>
+          <pub-id pub-id-type="pmid">10459393</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b74-nss-2-187">
+        <label>74</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Pallier</surname>
+              <given-names>PN</given-names>
+            </name>
+            <name>
+              <surname>Maywood</surname>
+              <given-names>ES</given-names>
+            </name>
+            <name>
+              <surname>Zheng</surname>
+              <given-names>Z</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Pharmacological imposition of sleep slows cognitive decline and reverses dysregulation of circadian gene expression in a transgenic mouse model of Huntington’s disease</article-title>
+          <source>J Neurosci</source>
+          <year>2007</year>
+          <volume>27</volume>
+          <fpage>7869</fpage>
+          <lpage>7878</lpage>
+          <pub-id pub-id-type="pmid">17634381</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b75-nss-2-187">
+        <label>75</label>
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Judson</surname>
+              <given-names>O</given-names>
+            </name>
+          </person-group>
+          <article-title>Enter the chronotherapists</article-title>
+          <source>The New York Times</source>
+          <edition>Online Edition</edition>
+          <publisher-loc>New York</publisher-loc>
+          <publisher-name>New York Times Company</publisher-name>
+          <year>2009</year>
+          <comment>Opinionator: exclusive online commentary from the times</comment>
+        </element-citation>
+      </ref>
+      <ref id="b76-nss-2-187">
+        <label>76</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Jamieson</surname>
+              <given-names>AO</given-names>
+            </name>
+            <name>
+              <surname>Zammit</surname>
+              <given-names>GK</given-names>
+            </name>
+            <name>
+              <surname>Rosenberg</surname>
+              <given-names>RS</given-names>
+            </name>
+            <name>
+              <surname>Davis</surname>
+              <given-names>JR</given-names>
+            </name>
+            <name>
+              <surname>Walsh</surname>
+              <given-names>JK</given-names>
+            </name>
+          </person-group>
+          <article-title>Zolpidem reduces the sleep disturbance of jet lag</article-title>
+          <source>Sleep Med</source>
+          <year>2001</year>
+          <volume>2</volume>
+          <fpage>423</fpage>
+          <lpage>430</lpage>
+          <pub-id pub-id-type="pmid">14592392</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b77-nss-2-187">
+        <label>77</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Roehrs</surname>
+              <given-names>T</given-names>
+            </name>
+            <name>
+              <surname>Roth</surname>
+              <given-names>T</given-names>
+            </name>
+          </person-group>
+          <article-title>Caffeine: sleep and daytime sleepiness</article-title>
+          <source>Sleep Med Rev</source>
+          <year>2008</year>
+          <volume>12</volume>
+          <fpage>153</fpage>
+          <lpage>162</lpage>
+          <pub-id pub-id-type="pmid">17950009</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b78-nss-2-187">
+        <label>78</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Lockley</surname>
+              <given-names>SW</given-names>
+            </name>
+            <name>
+              <surname>Brainard</surname>
+              <given-names>GC</given-names>
+            </name>
+            <name>
+              <surname>Czeisler</surname>
+              <given-names>CA</given-names>
+            </name>
+          </person-group>
+          <article-title>High sensitivity of the human circadian melatonin rhythm to resetting by short wavelength light</article-title>
+          <source>J Clin Endocrinol Metab</source>
+          <year>2003</year>
+          <volume>88</volume>
+          <fpage>4502</fpage>
+          <lpage>4505</lpage>
+          <pub-id pub-id-type="pmid">12970330</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b79-nss-2-187">
+        <label>79</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Mistlberger</surname>
+              <given-names>RE</given-names>
+            </name>
+            <name>
+              <surname>Skene</surname>
+              <given-names>DJ</given-names>
+            </name>
+          </person-group>
+          <article-title>Nonphotic entrainment in humans?</article-title>
+          <source>J Biol Rhythms</source>
+          <year>2005</year>
+          <volume>20</volume>
+          <fpage>339</fpage>
+          <lpage>352</lpage>
+          <pub-id pub-id-type="pmid">16077153</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b80-nss-2-187">
+        <label>80</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Zhdanova</surname>
+              <given-names>IV</given-names>
+            </name>
+          </person-group>
+          <article-title>Melatonin as a hypnotic: pro</article-title>
+          <source>Sleep Med Rev</source>
+          <year>2005</year>
+          <volume>9</volume>
+          <fpage>51</fpage>
+          <lpage>65</lpage>
+          <pub-id pub-id-type="pmid">15649738</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b81-nss-2-187">
+        <label>81</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Atkinson</surname>
+              <given-names>G</given-names>
+            </name>
+            <name>
+              <surname>Edwards</surname>
+              <given-names>B</given-names>
+            </name>
+            <name>
+              <surname>Reilly</surname>
+              <given-names>T</given-names>
+            </name>
+            <name>
+              <surname>Waterhouse</surname>
+              <given-names>J</given-names>
+            </name>
+          </person-group>
+          <article-title>Exercise as a synchroniser of human circadian rhythms: an update and discussion of the methodological problems</article-title>
+          <source>Eur J Appl Physiol</source>
+          <year>2007</year>
+          <volume>99</volume>
+          <fpage>331</fpage>
+          <lpage>341</lpage>
+          <pub-id pub-id-type="pmid">17165050</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b82-nss-2-187">
+        <label>82</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>van Reeth</surname>
+              <given-names>O</given-names>
+            </name>
+            <name>
+              <surname>Sturis</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Byrne</surname>
+              <given-names>MM</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Nocturnal exercise phase delays circadian rhythms of melatonin and thyrotropin secretion in normal men</article-title>
+          <source>Am J Physiol</source>
+          <year>1994</year>
+          <volume>266</volume>
+          <fpage>E964</fpage>
+          <lpage>E974</lpage>
+          <pub-id pub-id-type="pmid">8023928</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b83-nss-2-187">
+        <label>83</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Mistlberger</surname>
+              <given-names>RE</given-names>
+            </name>
+          </person-group>
+          <article-title>Food-anticipatory circadian rhythms: concepts and methods</article-title>
+          <source>Eur J Neurosci</source>
+          <year>2009</year>
+          <volume>30</volume>
+          <fpage>1718</fpage>
+          <lpage>1729</lpage>
+          <pub-id pub-id-type="pmid">19878279</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b84-nss-2-187">
+        <label>84</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Bron</surname>
+              <given-names>R</given-names>
+            </name>
+            <name>
+              <surname>Furness</surname>
+              <given-names>JB</given-names>
+            </name>
+          </person-group>
+          <article-title>Rhythm of digestion: keeping time in the gastrointestinal tract</article-title>
+          <source>Clin Exp Pharmacol Physiol</source>
+          <year>2009</year>
+          <volume>36</volume>
+          <fpage>1041</fpage>
+          <lpage>1048</lpage>
+          <pub-id pub-id-type="pmid">19566817</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b85-nss-2-187">
+        <label>85</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Hoogerwerf</surname>
+              <given-names>WA</given-names>
+            </name>
+          </person-group>
+          <article-title>Role of biological rhythms in gastrointestinal health and disease</article-title>
+          <source>Rev Endocr Metab Disord</source>
+          <year>2009</year>
+          <volume>10</volume>
+          <fpage>293</fpage>
+          <lpage>300</lpage>
+          <pub-id pub-id-type="pmid">19798581</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b86-nss-2-187">
+        <label>86</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Stokkan</surname>
+              <given-names>KA</given-names>
+            </name>
+            <name>
+              <surname>Yamazaki</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Tei</surname>
+              <given-names>H</given-names>
+            </name>
+            <name>
+              <surname>Sakaki</surname>
+              <given-names>Y</given-names>
+            </name>
+            <name>
+              <surname>Menaker</surname>
+              <given-names>M</given-names>
+            </name>
+          </person-group>
+          <article-title>Entrainment of the circadian clock in the liver by feeding</article-title>
+          <source>Science</source>
+          <year>2001</year>
+          <volume>291</volume>
+          <fpage>490</fpage>
+          <lpage>493</lpage>
+          <pub-id pub-id-type="pmid">11161204</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b87-nss-2-187">
+        <label>87</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Yamazaki</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Numano</surname>
+              <given-names>R</given-names>
+            </name>
+            <name>
+              <surname>Abe</surname>
+              <given-names>M</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Resetting central and peripheral circadian oscillators in transgenic rats</article-title>
+          <source>Science</source>
+          <year>2000</year>
+          <volume>288</volume>
+          <fpage>682</fpage>
+          <lpage>685</lpage>
+          <pub-id pub-id-type="pmid">10784453</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b88-nss-2-187">
+        <label>88</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Mearin</surname>
+              <given-names>F</given-names>
+            </name>
+            <name>
+              <surname>Zarate</surname>
+              <given-names>N</given-names>
+            </name>
+            <name>
+              <surname>Sardi</surname>
+              <given-names>JA</given-names>
+            </name>
+            <name>
+              <surname>Moreno-Osset</surname>
+              <given-names>E</given-names>
+            </name>
+            <name>
+              <surname>Salis</surname>
+              <given-names>G</given-names>
+            </name>
+          </person-group>
+          <article-title>Traveler’s constipation</article-title>
+          <source>Am J Gastroenterol</source>
+          <year>2003</year>
+          <volume>98</volume>
+          <fpage>507</fpage>
+          <lpage>509</lpage>
+          <pub-id pub-id-type="pmid">12591084</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b89-nss-2-187">
+        <label>89</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Reynolds</surname>
+              <given-names>NC</given-names>
+              <suffix>Jr</suffix>
+            </name>
+            <name>
+              <surname>Montgomery</surname>
+              <given-names>R</given-names>
+            </name>
+          </person-group>
+          <article-title>Using the Argonne diet in jet lag prevention: deployment of troops across nine time zones</article-title>
+          <source>Mil Med</source>
+          <year>2002</year>
+          <volume>167</volume>
+          <fpage>451</fpage>
+          <lpage>453</lpage>
+          <pub-id pub-id-type="pmid">12099077</pub-id>
+        </element-citation>
+      </ref>
+    </ref-list>
+  </back>
+  <floats-group>
+    <fig id="f1-nss-2-187" position="float">
+      <label>Figure 1</label>
+      <caption>
+        <p><citation_analysis attribute="neither">The master clock in the suprachiasmatic nucleus (SCN) controls the timing of the sleep–wake cycle as well as promotes arousal, REM sleep, and sleep consolidation. Light resets the oscillations in the SCN through a mechanism involving melanopsin-containing retinal ganglion cells that project directly to the SCN via the retino-hypothalamic tract. Through an indirect pathway, circadian information reaches the pineal gland where the hormone melatonin is produced, which also can shift the phase of oscillations in the SCN. Both melatonin and neural information from retinal ganglion cells can also directly act on the sleep–wake system itself. Thus, light input and the circadian system work together to modulate properties of the sleep–wake cycle. The thin, dotted arrows represent the input pathways directly connected to the oscillatory central pacemaker in the SCN (denoted by rotating arrows). Bold-dashed arrows represent the different output pathways affecting the sleep–wake cycle. Both light and melatonin comprise aspects of the central circadian input pathway as well as the output signal controlling sleep–wake behavior.</citation_analysis></p>
+      </caption>
+      <graphic xlink:href="nss-2-187Fig1"/>
+    </fig>
+    <fig id="f2-nss-2-187" position="float">
+      <label>Figure 2</label>
+      <caption>
+        <p><citation_analysis attribute="neither">Two processes govern the daily expression of the sleep–wake cycle in humans. Process S represents a homeostatic sleep pressure that accumulates in a nonlinear progression from the time of last sleep episode. With a subsequent sleep episode, the signal strength representing Process S decays at an exponential rate. Juxtaposed against Process S is Process C, which in this case is represented by a circadian alerting signal. Process C follows a nearly sinusoidal pattern, repeating independently of sleep episodes. Sleep and wakefulness are only maintained in a consolidated fashion when the signals from Process S and Process C are appropriately aligned.</citation_analysis></p>
+        <p><citation_analysis attribute="neither">Copyright © 2005. Adapted with permission from Kryger MH, Roth T, Dement WC, eds. </citation_analysis><citation_analysis attribute="positive"><italic>Principles and Practices of Sleep Medicine</italic></citation_analysis><citation_analysis attribute="neither">. Philadelphia, PA: WB Saunders; 2005.</citation_analysis></p>
+      </caption>
+      <graphic xlink:href="nss-2-187Fig2"/>
+    </fig>
+  </floats-group>
+</article>
+</pmc-articleset>

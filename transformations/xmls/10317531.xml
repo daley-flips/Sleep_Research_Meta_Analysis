@@ -1,0 +1,988 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<pmc-articleset><article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" dtd-version="1.3" xml:lang="en" article-type="discussion">
+  <?properties open_access?>
+  <processing-meta base-tagset="archiving" mathml-version="3.0" table-model="xhtml" tagset-family="jats">
+    <restricted-by>pmc</restricted-by>
+  </processing-meta>
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="nlm-ta">Nat Sci Sleep</journal-id>
+      <journal-id journal-id-type="iso-abbrev">Nat Sci Sleep</journal-id>
+      <journal-id journal-id-type="publisher-id">nss</journal-id>
+      <journal-title-group>
+        <journal-title>Nature and Science of Sleep</journal-title>
+      </journal-title-group>
+      <issn pub-type="epub">1179-1608</issn>
+      <publisher>
+        <publisher-name>Dove</publisher-name>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="pmid">37405208</article-id>
+      <article-id pub-id-type="pmc">10317531</article-id>
+      <article-id pub-id-type="publisher-id">401270</article-id>
+      <article-id pub-id-type="doi">10.2147/NSS.S401270</article-id>
+      <article-categories>
+        <subj-group subj-group-type="heading">
+          <subject>Perspectives</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>Spotlight on Sleep Stage Classification Based on EEG</article-title>
+        <alt-title alt-title-type="running-authors">Lambert and Peter-Derex</alt-title>
+        <alt-title alt-title-type="running-title">Lambert and Peter-Derex</alt-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Lambert</surname>
+            <given-names>Isabelle</given-names>
+          </name>
+          <xref rid="aff0001" ref-type="aff">
+<sup>1</sup>
+</xref>
+          <xref rid="aff0002" ref-type="aff">
+<sup>2</sup>
+</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0002-9938-9639</contrib-id>
+          <name>
+            <surname>Peter-Derex</surname>
+            <given-names>Laure</given-names>
+          </name>
+          <xref rid="aff0003" ref-type="aff">
+<sup>3</sup>
+</xref>
+          <xref rid="aff0004" ref-type="aff">
+<sup>4</sup>
+</xref>
+          <xref rid="an0001" ref-type="corresp"/>
+        </contrib>
+        <aff id="aff0001"><label>1</label><institution>APHM, Timone Hospital, Sleep Unit, Epileptology and Cerebral Rhythmology</institution>, <addr-line>Marseille</addr-line>, <country>France</country></aff>
+        <aff id="aff0002"><label>2</label><institution>Aix Marseille University, INSERM, Institut de Neuroscience des Systemes</institution>, <addr-line>Marseille</addr-line>, <country>France</country></aff>
+        <aff id="aff0003"><label>3</label><institution>Center for Sleep Medicine and Respiratory Diseases, Croix-Rousse Hospital, Hospices Civils de Lyon, Lyon 1 University</institution>, <addr-line>Lyon</addr-line>, <country>France</country></aff>
+        <aff id="aff0004"><label>4</label><institution>Lyon Neuroscience Research Center, PAM Team, INSERM U1028, CNRS UMR 5292</institution>, <addr-line>Lyon</addr-line>, <country>France</country></aff>
+      </contrib-group>
+      <author-notes>
+        <corresp id="an0001">Correspondence: Laure Peter-Derex, <institution>Centre for Sleep Medicine and Respiratory Diseases, Hospital de la Croix-Rousse, Hospices Civils de Lyon</institution>, <addr-line>103 Grande Rue de la Croix-Rousse</addr-line>, <addr-line>Lyon</addr-line>, <addr-line>69004</addr-line>, <country>France</country>, <phone>Tel +33 4 72 07 17 69</phone>, <fax>Fax + 33 4 72 07 28 08</fax>, Email laure.peter-derex@chu-lyon.fr</corresp>
+      </author-notes>
+      <pub-date pub-type="epub">
+        <day>29</day>
+        <month>6</month>
+        <year>2023</year>
+      </pub-date>
+      <pub-date pub-type="collection">
+        <year>2023</year>
+      </pub-date>
+      <volume>15</volume>
+      <fpage>479</fpage>
+      <lpage>490</lpage>
+      <history>
+        <date date-type="received">
+          <day>13</day>
+          <month>4</month>
+          <year>2023</year>
+        </date>
+        <date date-type="accepted">
+          <day>21</day>
+          <month>6</month>
+          <year>2023</year>
+        </date>
+      </history>
+      <permissions>
+        <copyright-statement>© 2023 Lambert and Peter-Derex.</copyright-statement>
+        <copyright-year>2023</copyright-year>
+        <copyright-holder>Lambert and Peter-Derex.</copyright-holder>
+        <license>
+          <ali:license_ref xmlns:ali="http://www.niso.org/schemas/ali/1.0/" specific-use="textmining" content-type="ccbynclicense">https://creativecommons.org/licenses/by-nc/3.0/</ali:license_ref>
+          <license-p>This work is published and licensed by Dove Medical Press Limited. The full terms of this license are available at <ext-link ext-link-type="uri" xlink:href="https://www.dovepress.com/terms.php">https://www.dovepress.com/terms.php</ext-link> and incorporate the Creative Commons Attribution – Non Commercial (unported, v3.0) License (<ext-link ext-link-type="uri" xlink:href="https://creativecommons.org/licenses/by-nc/3.0/">http://creativecommons.org/licenses/by-nc/3.0/</ext-link>). By accessing the work you hereby accept the Terms. Non-commercial uses of the work are permitted without any further permission from Dove Medical Press Limited, provided the work is properly attributed. For permission for commercial use of this work, please see paragraphs 4.2 and 5 of our Terms (<ext-link ext-link-type="uri" xlink:href="https://www.dovepress.com/terms.php">https://www.dovepress.com/terms.php</ext-link>).</license-p>
+        </license>
+      </permissions>
+      <abstract>
+        <title>Abstract</title>
+        <p><citation_analysis attribute="positive">The recommendations for identifying sleep stages based on the interpretation of electrophysiological signals (electroencephalography [EEG], electro-oculography [EOG], and electromyography [EMG]), derived from the Rechtschaffen and Kales manual, were published in 2007 at the initiative of the American Academy of Sleep Medicine, and regularly updated over years. They offer an important tool to assess objective markers in different types of sleep/wake subjective complaints. With the aims and advantages of simplicity, reproducibility and standardization of practices in research and, most of all, in sleep medicine, they have overall changed little in the way they describe sleep. However, our knowledge on sleep/wake physiology and sleep disorders has evolved since then. High-density electroencephalography and intracranial electroencephalography studies have highlighted local regulation of sleep mechanisms, with spatio-temporal heterogeneity in vigilance states. Progress in the understanding of sleep disorders has allowed the identification of electrophysiological biomarkers better correlated with clinical symptoms and outcomes than standard sleep parameters. Finally, the huge development of sleep medicine, with a demand for explorations far exceeding the supply, has led to the development of alternative studies, which can be carried out at home, based on a smaller number of electrophysiological signals and on their automatic analysis. In this perspective article, we aim to examine how our description of sleep has been constructed, has evolved, and may still be reshaped in the light of advances in knowledge of sleep physiology and the development of technical recording and analysis tools. After presenting the strengths and limitations of the classification of sleep stages, we propose to challenge the “EEG-EOG-EMG” paradigm by discussing the physiological signals required for sleep stages identification, provide an overview of new tools and automatic analysis methods and propose avenues for the development of new approaches to describe and understand sleep/wake states.</citation_analysis></p>
+      </abstract>
+      <kwd-group kwd-group-type="author">
+        <title>Keywords</title>
+        <kwd>scoring</kwd>
+        <kwd>electrophysiology</kwd>
+        <kwd>visual</kwd>
+        <kwd>automatic</kwd>
+        <kwd>recommendation</kwd>
+        <kwd>artificial intelligence</kwd>
+      </kwd-group>
+      <counts>
+        <fig-count count="3"/>
+        <ref-count count="104"/>
+        <page-count count="12"/>
+      </counts>
+    </article-meta>
+  </front>
+  <body>
+    <sec sec-type="intro" id="s0001">
+      <title>Introduction: From Physiology to Sleep Stages, a Historical Perspective</title>
+      <p><citation_analysis attribute="neither">Since the first electroencephalography (EEG) recordings in humans by Hans Berger in 1929,</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0001" ref-type="bibr">1</xref></citation_analysis><citation_analysis attribute="positive"> the way physiologists and sleep physicians identify wake-sleep related EEG changes has largely evolved. Until 1968, sleep stages were identified using rules that varied according to scientific teams and to breakthroughs in sleep physiology such as the description of rapid-eye-movement (REM) sleep by Dement and Kleitman in 1957 and Jouvet in 1959.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0002" ref-type="bibr">2</xref></citation_analysis><citation_analysis attribute="neither">,</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0003" ref-type="bibr">3</xref></citation_analysis><citation_analysis attribute="neither"> In 1968, a group of sleep researchers led by Allan Rechtschaffen and Anthony Kales was created in order to establish a consensus about the way to classify sleep stages based on electrophysiology recordings. At that time, sleep studies were mostly physiological studies on healthy and young subjects aiming to describe and understand sleep mechanisms. The Rechtschaffen and Kales (R&amp;K) manual of sleep staging</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0004" ref-type="bibr">4</xref></citation_analysis><citation_analysis attribute="neither"> was adopted by the worldwide sleep scientific community and then by the sleep clinicians when medical sleep units started to develop in the late 1960s and 1970s</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0005" ref-type="bibr">5</xref></citation_analysis><citation_analysis attribute="neither"> with exponential increase during the past two decades. With the application of R&amp;K rules in the clinical field and the need to identify pathological conditions, as well as the digital revolution of EEG recordings in the 1990s, voices rose from the sleep medical community to amend these rules.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0006" ref-type="bibr">6</xref></citation_analysis><citation_analysis attribute="neither"> The American Academy of Sleep Medicine (AASM) organized a taskforce to adapt some criteria of original R&amp;K manual and define pathological sleep events. Sleep staging recommendations were published in 2007</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0007" ref-type="bibr">7</xref></citation_analysis><citation_analysis attribute="neither"> and repeatedly updated since then,</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0008" ref-type="bibr">8</xref></citation_analysis><citation_analysis attribute="neither"> notably taking into account criticisms from the international sleep specialists community pointing out some limitations in the changes of several criteria, such as arousals, the number of EEG channels or the use of these criteria in specific populations</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0009" ref-type="bibr">9–13</xref></citation_analysis><citation_analysis attribute="positive"> In the meantime, the understanding of sleep physiology and sleep disorders has evolved; although somewhat shaped by these rules, this knowledge has also shown their limitations with regard to the dynamical properties of sleep whose features evolve on time scales shorter than 30-second epochs, and which are modulated by various factors such as sleep cycles, homeostatic pressure, and age. Furthermore, determining pathological thresholds and correlating objective biomarkers provided by sleep staging with the subjective symptoms associated with sleep disorders remains a challenge, although it is critical for clinical practice. Thus, even though AASM recommendations remain the gold standard for sleep staging worldwide, the scientific community has started to develop alternative methodology to describe sleep, based on EEG or non-EEG sensors, using artificial intelligence, and, for some, departing from classical sleep stages. In this perspective paper, we propose to provide a historical, physiological and technical overview of how the sleep stage classification was thought and built. We discuss the potential changes that may occur as knowledge evolves, also considering factors limiting such changes. We first present the strengths and limitations of the current procedure to score vigilance states. Next, we discuss the physiological signals required for sleep stages identification and provide an overview of new tools and automatic analysis methods. Then, we propose avenues for the development of new approaches to describe and understand sleep/wake states. Our goal is to put into perspective the historical background generating our current sleep staging rules with the recent developments in physiological and methodological research, in order to provide keys to open new research avenues which will aim to better capture the complexity of sleep/wake physiology and identify biomarkers for sleep disorders.</citation_analysis></p>
+    </sec>
+    <sec id="s0002">
+      <title>Strengths and Weaknesses of Sleep Stage Classification</title>
+      <sec id="s0002-s2001">
+        <title>Current Rules for Sleep Stage Classification</title>
+        <p><citation_analysis attribute="neither">According to the AASM recommendations,</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0007" ref-type="bibr">7</xref></citation_analysis><citation_analysis attribute="neither">,</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0008" ref-type="bibr">8</xref></citation_analysis><citation_analysis attribute="neither"> three types of electrophysiological signals are mandatory to properly identify wakefulness, non-REM (NREM) sleep, REM sleep and arousals. The recording of these signals requires at least three scalp EEG electrodes, two electrooculography (EOG) electrodes located from either side of the eyes and two chin electromyography (EMG) electrodes placed above and below the chin with a third back-up electrode placed below the chin. Scalp EEG electrodes are located in frontal (F3 and/or F4), central (C3 and/or C4) and occipital (O1 and/or O2) areas according to the 10–20 international system,</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0014" ref-type="bibr">14</xref></citation_analysis><citation_analysis attribute="neither">,</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0015" ref-type="bibr">15</xref></citation_analysis><citation_analysis attribute="positive"> and referenced to an electrode located on the contralateral mastoid. An alternative montage using bipolar channels of the median line (Fz-Cz and Cz-Oz) in association with a referential channel C4-M1 is allowed. EOG is also recorded with a referential montage, with both EOG electrodes being referenced to the same mastoid electrode. Only chin EMG channel is a bipolar channel between the two studied chin EMG electrodes. Electrophysiological recordings are segmented in 30s epochs, which sequentially scroll during sleep staging process. The sleep specialist scores each epoch of recording belonging to a period called time in bed, defined as the duration between lights-off and lights-on. A general principle of sleep staging recommendations is that an epoch is considered to pertain to a specific vigilance state if more than 50% (15s) of that epoch has the electrophysiological features of this vigilance state. An epoch is staged as wakefulness if 50% of this epoch consists of alpha activity (8–13 Hz) in the occipital region or if some movements artefacts specific to wakefulness are observed, such as blinking, eye movements associated with reading activity or rapid eye movements associated with high muscle tone. An epoch is staged N1 stage if at least 50% of this epoch consists of low voltage mixed frequency activity comprised between 4 and 7 Hz, replacing alpha activity in patients generating alpha rhythm. This EEG activity may be associated with slow eye movements and/or vertex sharp transients which are physiological EEG features occurring during N1 and N2 stages. In people not generating alpha rhythm, the first epoch of N1 stage is attributed to the first epoch containing i) at least 50% of EEG frequency in the theta band between 4 and 7 Hz with background EEG activity slowing-down at least 1 Hz below wakefulness EEG background activity, or ii) slow eye movements, or iii) sharp wave transients. Usually following N1 stage, the first epoch of N2 stage is attributed to the first epoch containing K complex or sleep spindles in the first half of the epoch. Continuity of N2 stage is allowed as far as there is no arousal nor criteria for N3 or REM sleep. An epoch is scored as N3 stage if slow waves are present during more than 20% of the epoch (6s). Slow waves are defined as 0.5 to 2 Hz frequency waves with a peak-to-peak amplitude of 75 µV measured on the frontal derivation in reference to the contralateral mastoid. Finally, an epoch is staged as stage R (REM sleep) if more than 50% of this epoch contains all the following: i) low voltage mixed frequency EEG activity without sleep spindle nor K complex; ii) minimal chin EMG tone, including during rapid eye movements; iii) rapid eye movement at any moment of the epoch. Continuity within a same sleep stage or transitions between two distinct stages are defined by various rules not detailed in this paragraph, and which consider in particular the effect of arousals or major body movements.</citation_analysis></p>
+      </sec>
+      <sec id="s0002-s2002">
+        <title>Sleep Stage Classification, A Common Language</title>
+        <p><citation_analysis attribute="neither">This sleep stage classification, which is a human construct based on neurophysiological discoveries dating back to the first part of the last century, is used by all sleep physicians and researchers in the world since more than 50 years and has been regularly updated, most recently in 2023.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0004" ref-type="bibr">4</xref></citation_analysis><citation_analysis attribute="neither">,</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0007" ref-type="bibr">7</xref></citation_analysis><citation_analysis attribute="neither">,</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0016" ref-type="bibr">16</xref></citation_analysis><citation_analysis attribute="neither"> Its dissemination and widespread use in both sleep medicine and research fields, as well as its status as a “gold standard” have, however, exceeded its initial objectives. The reasons for its success are manyfold: First, the (relative) easy access to EEG, EOG and EMG with inexpensive recording devices, as compared to imaging for example, and low technical complexity even if the placement of electrodes remains time consuming; second, the precision</citation_analysis></p>
+        <p><citation_analysis attribute="neither">of guidelines for PSG recording allowing standardization of practices all over the world; third, the (also relative) simplicity of the scoring process, with easy-to-refer-to rules, without the need for complex analysis systems as long as signals can be visualized and the stage/events can be marked with a user-friendly software. Fourth, its clinical usefulness for the diagnosis of sleep disorders such as sleep-related breathing disorders, sleep-related motor disorders, parasomnia and hypersomnia, keeping in mind that standard polysomnography parameters remain disappointing for the most frequent sleep disorder, ie, insomnia, which somewhat dampens its clinical relevance;</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0017" ref-type="bibr">17</xref></citation_analysis><citation_analysis attribute="neither">,</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0018" ref-type="bibr">18</xref></citation_analysis><citation_analysis attribute="neither"> Fifth, the dissemination as recommendations by the main sleep society, the AASM, and the integration of sleep scoring in the training curriculum of young sleep physicians and researchers.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0019" ref-type="bibr">19</xref></citation_analysis><citation_analysis attribute="neither">,</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0020" ref-type="bibr">20</xref></citation_analysis><citation_analysis attribute="neither"> Last but not least, the former R&amp;K manual and the current AASM recommendations have the great advantage of providing the bases for a common language. Sleep researchers and sleep physicians use the same rules to stage sleep, which allows to build comprehensive bridges between basic research in humans and research on sleep disorders. In basic research on rodents, there is still no consensus on the definition of sleep stages, which can be a source of error especially for transitional states but is also an avenue for future researches.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0021" ref-type="bibr">21</xref></citation_analysis><citation_analysis attribute="neither"> In human sleep staging, referring to common rules allows a satisfactory interrater reliability in sleep description.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0022" ref-type="bibr">22</xref></citation_analysis><citation_analysis attribute="neither">,</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0023" ref-type="bibr">23</xref></citation_analysis><citation_analysis attribute="neither"> In a recent meta-analysis, Lee et al studied all the articles assessing interrater reliability of adult sleep staging since the R&amp;K manual publication in 1968.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0024" ref-type="bibr">24</xref></citation_analysis><citation_analysis attribute="positive"> The authors eventually included eleven studies and distinguished between Cohen’s k for overall sleep stages (seven studies) and Cohen’s k for each sleep stage (four studies). Considering Cohen’s k for overall sleep stages, they found a Cohen’s k of 0.76 [0.71–0.81], showing a substantial agreement between scorers. A European project, the SIESTA database, specifically studied interrater reliability for overall sleep stages when using R&amp;K rules compared to AASM rules.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0025" ref-type="bibr">25</xref></citation_analysis><citation_analysis attribute="positive"> The authors found a higher interrater reliability with the AASM versus R&amp;K rules (Cohen’s k of 0.76 and 0.68, respectively), interpreted as the result of additional EEG channels in AASM recommendations. However, interrater reliability is lower when considering separately each sleep stage. In their meta-analysis, Lee et al found a substantial agreement for stage W and R, moderate agreement for N2 and N3 and only fair agreement for N1 stage.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0024" ref-type="bibr">24</xref></citation_analysis><citation_analysis attribute="neither"> N1 stage is not a stable sleep stage. It is highly influenced by transitions between wakefulness and sleep onset and between sleep stages when arousals occur. In their interrater reliability program, Rosenberg and van Hout also found the poorest interrater reliability in stage N1.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0022" ref-type="bibr">22</xref></citation_analysis><citation_analysis attribute="positive"> They observed that scorers often failed staging epochs during the transition between wakefulness and N1 and between N1 and N2. They also reported that scorers had difficulty discriminating between N2 and N3. These issues highlight the limitations of human scoring, which do not completely remove the subjectivity of interpretation and, by simplifying a complex phenomenon, do not capture the many facets of sleep/wake states.</citation_analysis></p>
+      </sec>
+      <sec id="s0002-s2003">
+        <title>Limitations of Sleep Stage Classification to Describe the Complexity of Physiology</title>
+        <p><citation_analysis attribute="positive">Beyond methodological limitations due to the epoch-based scoring, difficulties in scoring sleep transitions may also result from sleep physiology itself. Sleep staging is based on long distance montages of scalp EEG recordings, which provide a very global picture of brain activity and are unable to record EEG activity from deep structures.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0026" ref-type="bibr">26</xref></citation_analysis><citation_analysis attribute="neither">,</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0027" ref-type="bibr">27</xref></citation_analysis><citation_analysis attribute="positive"> Studies investigating sleep physiology with intracerebral EEG recordings have brought valuable information on sleep/wake transitions and spatial heterogeneity of sleep within different brain areas. In particular, stereo-electro-encephalography (SEEG) allows to record EEG activity of deep brain regions. SEEG recordings are exclusively performed in patients with drug-resistant focal epilepsy as part of pre-surgical work-up when the epileptogenic zone cannot be identified using non-invasive techniques. Studies of human sleep physiology with SEEG recordings have highlighted that transitions between wakefulness and sleep are progressive and asynchronous within the brain. Sarasso et al showed that, at sleep onset, sleep spindles were observed in the hippocampus up to 30 minutes before neocortical regions, which was recently confirmed and extended to other sleep stage transitions.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0028" ref-type="bibr">28–30</xref></citation_analysis><citation_analysis attribute="positive"> Such a spatio-temporal dissociation was also demonstrated between the thalamus and the neocortex.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0031" ref-type="bibr">31</xref></citation_analysis><citation_analysis attribute="positive"> Beyond sleep onset, SEEG studies have shown that regional differences in EEG sleep/wake patterns persisted during whole-night sleep and were also observed during the sleep-to-wake transition.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0032" ref-type="bibr">32</xref></citation_analysis><citation_analysis attribute="neither">,</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0033" ref-type="bibr">33</xref></citation_analysis><citation_analysis attribute="positive"> In addition, specific sleep oscillation also exhibit regional specificities and disparities, as reported for NREM sleep spindles in the neocortex</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0034" ref-type="bibr">34</xref></citation_analysis><citation_analysis attribute="neither">,</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0035" ref-type="bibr">35</xref></citation_analysis><citation_analysis attribute="neither"> and in the thalamus,</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0036" ref-type="bibr">36</xref></citation_analysis><citation_analysis attribute="neither"> as well as for REM sleep sawtooth waves</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0037" ref-type="bibr">37</xref></citation_analysis><citation_analysis attribute="neither"> and NREM sleep slow waves,</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0038" ref-type="bibr">38</xref></citation_analysis><citation_analysis attribute="neither"> similarly to what was previously published in rodents.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0039" ref-type="bibr">39</xref></citation_analysis><citation_analysis attribute="neither"> Interestingly, local slow waves have also been detected in awake animals, leading to the concept of “local sleep”,</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0040" ref-type="bibr">40</xref></citation_analysis><citation_analysis attribute="neither"> a mechanism hypothesized as causing attentional lapses in humans.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0041" ref-type="bibr">41</xref></citation_analysis><citation_analysis attribute="positive"> Besides intracranial EEG recording, restricted to a sample of patients with drug-resistant focal epilepsy, non-invasive recordings with a higher spatial resolution than the AASM-recommended EEG montage may help to capture the spatial complexity of sleep in subjects without epilepsy. These types of recording generally require a higher number of sensors (ie, high-density (hd)-EEG or magnetoencephalography), sometimes coupled with MRI in order to increase spatial resolution, as well as a specific expertise in EEG signal processing. Regional and electrophysiological changes occurring during sleep-onset were studied using techniques such as source localization</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0042" ref-type="bibr">42</xref></citation_analysis><citation_analysis attribute="neither"> or combined EEG-MEG recordings,</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0043" ref-type="bibr">43</xref></citation_analysis><citation_analysis attribute="positive"> with results showing regional changes during the transition between wakefulness and sleep. Spatial analysis may also help clinicians to better interpret PSG recording and analyze sleep disorders. Regional differences in EEG activity between the first as compared to the second night of PSG recording in healthy subjects were shown using hd-EEG, suggesting that the first-night effect also impacts regional brain activity during sleep.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0044" ref-type="bibr">44</xref></citation_analysis><citation_analysis attribute="neither"> Studies investigating microsleeps during an active task,</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0045" ref-type="bibr">45</xref></citation_analysis><citation_analysis attribute="neither"> or focusing on sleep inertia,</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0046" ref-type="bibr">46</xref></citation_analysis><citation_analysis attribute="neither"> insomnia,</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0047" ref-type="bibr">47</xref></citation_analysis><citation_analysis attribute="neither"> and disorders of arousal</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0044" ref-type="bibr">44</xref></citation_analysis><citation_analysis attribute="neither"> also benefitted from such regional analysis based on non-invasive recordings, which brings keys for a better understanding of the pathophysiology of sleep disorders. All these works highlight the heterogeneity of sleep/wake states between brain regions as well as the great permeability between sleep/wake states (</citation_analysis><citation_analysis attribute="positive"><xref rid="f0001" ref-type="fig">Figure 1</xref></citation_analysis><citation_analysis attribute="neither">).
+</citation_analysis><citation_analysis attribute="positive"><fig position="float" id="f0001" fig-type="figure"><label>Figure 1</label><caption><p><citation_analysis attribute="neither">Intra-Epoch Heterogeneity In Sleep Stages. In this N2 epoch, one can see both N2 features (in blue: low muscle tone, K complex, sleep spindles) and R features (in green: sawtooth waves and transient atonia). This example highlights that the 30s scale does not capture the complexity of the dynamics of vigilance states.</citation_analysis></p></caption><graphic xlink:href="NSS-15-479-g0001" content-type="print-only" position="float"/><attrib><bold>Abbreviations</bold>: R, right; L, left; EOG, electro-oculogram; EMG, electromyogram.</attrib></fig></citation_analysis></p>
+        <p><citation_analysis attribute="positive">In addition to the spatial limitation of scalp EEG, current sleep stage classification rules also show a limitation in detecting and quantifying the complexity of sleep microstructure and dynamics. Markers of sleep instability extracted from polysomnography reports based on AASM recommendations mainly consist in the number of sleep stage changes and the arousal index. An arousal is defined as an abrupt change of EEG frequency including alpha, theta and/or frequencies higher than 16Hz (excluding spindles) lasting at last three seconds and occurring after a ten seconds duration of stable sleep.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0048" ref-type="bibr">48</xref></citation_analysis><citation_analysis attribute="neither"> However, arousals identified with AASM rules do not entirely capture sleep instability. In 1985, Terzano et al described a new EEG marker of physiological NREM instability, the “cyclic alternating pattern” (CAP).</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0049" ref-type="bibr">49</xref></citation_analysis><citation_analysis attribute="neither"> During CAP sequences, EEG activity repeatedly shifts between activity phases (phase A) and background activity (phase B). Phases A are divided in three sub-types: type A1, represented by synchronous EEG activity such as delta bursts, K-complex sequences, vertex sharp transients, polyphasic bursts with &lt;20% of EEG desynchrony; type A2, defined as a mixture of slow and fast rhythms with less than 50% of EEG desynchrony; and type A3, in which EEG activity contains more than 50% of rapid low-voltage rhythms (see Parrino et al, 2012 for review).</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0050" ref-type="bibr">50</xref></citation_analysis><citation_analysis attribute="neither"> To note, 96% of A3 and 62% of A2 sub-types correspond to arousals according to the AASM classification.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0050" ref-type="bibr">50</xref></citation_analysis><citation_analysis attribute="neither"> The increase or decrease in CAP sequences as well as the subtypes of A phases were then studied in sleep or neurological disorders, bringing new insights on sleep phenotyping in these disorders.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0051" ref-type="bibr">51–53</xref></citation_analysis><citation_analysis attribute="neither"> Nevertheless, the use of this tool to describe NREM has remained in the research domain and is not integrated in the AASM recommendations.</citation_analysis></p>
+      </sec>
+    </sec>
+    <sec id="s0003">
+      <title>Signal Perspective: Which Signal(s) are Needed to Score Sleep?</title>
+      <sec id="s0003-s2001">
+        <title>Categorization of Vigilance States Using EEG, EOG and EMG</title>
+        <p><citation_analysis attribute="neither">Fluctuations between states of vigilance are characterized by physiological changes in most body functions,</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0054" ref-type="bibr">54</xref></citation_analysis><citation_analysis attribute="neither"> but the categorization and identification of wake, NREM and REM sleep traditionally relies on only three parameters: EEG, EOG and EMG. Despite its wide use, this classification, which may prove cumbersome and reductive, is increasingly being questioned under the influence of different clinical and research trends. In sleep medicine, the better understanding of certain sleep disorders, such as insomnia, central disorders of hypersomnolence, or sleep apnea, is leading to the search for biomarkers that are better correlated with clinical symptoms, prognosis and whose diagnostic performance is higher.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0055" ref-type="bibr">55–58</xref></citation_analysis><citation_analysis attribute="neither"> On the research side, the development of increasingly complex signal analysis tools allows to extract more information from the available data, and the progress in the understanding of the spatiotemporal dynamics of vigilance states highlights the limits of current scoring, as detailed above.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0059" ref-type="bibr">59–64</xref></citation_analysis><citation_analysis attribute="neither"> Most of these markers rely on EEG advanced analyses, but some of them focus on others signals such as heart rate variability, oximetry or respiratory signals.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0058" ref-type="bibr">58</xref></citation_analysis><citation_analysis attribute="neither">,</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0065" ref-type="bibr">65</xref></citation_analysis></p>
+        <p><citation_analysis attribute="positive">Therefore, the issue of moving away from the “EEG/EOG/EMG” paradigm arises, and raises different questions: 1) do we need all three parameters (EEG/EOG/EMG) to stage sleep, whereas exploring brain activity (EEG), which reflects the processes regulating states of vigilance and controlling most physiological parameters, might be sufficient? 2) if EEG only allows to classify sleep stages, how many and which channels are needed? 3) do we really need the EEG or could we consider using other physiological signals, easier to access and/or prone to provide complementary information about sleep?</citation_analysis></p>
+      </sec>
+      <sec id="s0003-s2002">
+        <title>Categorization of Vigilance States Using EEG Only</title>
+        <p><citation_analysis attribute="neither">It is well known among neurophysiologists that the information contained in the EEG far exceeds that used in the scoring rules. However, the exploitation of this information depends on the scorer (and their experience, as well as the limitations of the human eye and brain, eg, for high frequency analysis) and on the recording specificities (settings including the montage, sampling rate and filters). The scoring rules have been designed for a particular montage with a low number of electrodes (F4-M1, C4-M1, O2-M1), and the preferential topography as well as the specific amplitude of certain features, such as the 75 μV peak-to-peak amplitude for slow waves, critically depend on this montage (</citation_analysis><citation_analysis attribute="positive"><xref rid="f0002" ref-type="fig">Figure 2</xref></citation_analysis><citation_analysis attribute="neither">).</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0008" ref-type="bibr">8</xref></citation_analysis><citation_analysis attribute="positive"> In practice, several EEG montages are used and, if in the end the scoring result is not significantly affected by the AASM EEG montage (recommended versus acceptable Fz-Cz, Cz-Oz, C4-M1),</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0066" ref-type="bibr">66</xref></citation_analysis><citation_analysis attribute="positive"> a higher number of available electrodes is associated with a better inter-scorer agreement and might result in changes in sleep staging and arousal detection.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0012" ref-type="bibr">12</xref></citation_analysis><citation_analysis attribute="neither">,</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0025" ref-type="bibr">25</xref></citation_analysis><citation_analysis attribute="neither">,</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0067" ref-type="bibr">67</xref></citation_analysis><citation_analysis attribute="positive">
+</citation_analysis><citation_analysis attribute="positive"><fig position="float" id="f0002" fig-type="figure"><label>Figure 2</label><caption><p><citation_analysis attribute="positive">Peak-to-peak amplitude of slow waves according to different EEG montages. This N3 epoch is shown with the AASM recommended referential montage (</citation_analysis><citation_analysis attribute="positive"><bold>A</bold></citation_analysis><citation_analysis attribute="neither">) and in a bipolar montage (</citation_analysis><citation_analysis attribute="positive"><bold>B</bold></citation_analysis><citation_analysis attribute="positive">) with transverse (up) and longitudinal (down) channels. Both panels are visualized with an amplitude of 10µV/mm for EEG channels. The peak-to-peak amplitude of the same slow wave is measured on two different channels (black arrow). The amplitude is higher using the AASM recommended montage on the frontal channel (220.92 µV in (</citation_analysis><citation_analysis attribute="positive"><bold>A</bold></citation_analysis><citation_analysis attribute="neither">) compared to the transverse montage (−103.85 µV in (</citation_analysis><citation_analysis attribute="positive"><bold>B</bold></citation_analysis><citation_analysis attribute="neither">) with a negative value due to the inverse polarity). Also note that in (</citation_analysis><citation_analysis attribute="positive"><bold>B</bold></citation_analysis><citation_analysis attribute="neither">) the maximal amplitude of this slow wave is not in observed frontal channels.</citation_analysis></p></caption><graphic xlink:href="NSS-15-479-g0002" content-type="print-only" position="float"/><attrib><bold>Abbreviations</bold>: M1, left mastoid, M2, right mastoid.</attrib></fig></citation_analysis></p>
+        <p><citation_analysis attribute="positive">The question whether sleep staging might rely on EEG only, without EOG or EMG, is not only important from a physiological and technical point of view (does the EEG signal contain enough information to differentiate vigilance states and are we able to extract and interpret this information?) but also from a practical perspective, in the context of long-term in-hospital VideoEEG monitoring, as well as for the development of wearable home devices. Information extracted from EEG signal may also bring critical information on sleep structure, as demonstrated by the use of time-frequency analysis implemented in most sleep analysis software, which is solely based on EEG information and allows to identify the changes of EEG dynamics during a whole-night, as a tridimensional function of EEG frequency, EEG power and time (</citation_analysis><citation_analysis attribute="positive"><xref rid="f0003" ref-type="fig">Figure 3</xref></citation_analysis><citation_analysis attribute="neither">).
+</citation_analysis><citation_analysis attribute="positive"><fig position="float" id="f0003" fig-type="figure"><label>Figure 3</label><caption><p><citation_analysis attribute="neither">EEG Time-Frequency Analysis During Sleep Recording. Hypnogram obtained from AASM recommended sleep staging in (</citation_analysis><citation_analysis attribute="positive"><bold>A</bold></citation_analysis><citation_analysis attribute="neither"> and </citation_analysis><citation_analysis attribute="positive"><bold>B</bold></citation_analysis><citation_analysis attribute="neither">) shows the corresponding spectrogram trend of EEG frequency measured on C4-M1 channel derived from a fast Fourier transform analysis. Color-bar indicates the power of EEG frequency (µV/Hz with the lowest power in dark blue and the highest power in red), the y-axis indicates the EEG frequency (from 0 to 30 Hz) and the x-axis indicates time. The EEG signatures of NREM include an increase in the delta band below 2 Hz (Orange arrows, compatible with slow waves) and in the sigma band around 15 Hz (red arrows, compatible with spindle activity). The power of delta activity decreases across the night along with the decrease of homeostatic pressure. An increase in beta activity is observed in REM sleep (green arrows). At the end of the recording, note the EEG activity in the alpha band around 10 Hz (blue arrows, compatible with quiet wakefulness eyes closed).</citation_analysis></p></caption><graphic xlink:href="NSS-15-479-g0003" content-type="print-only" position="float"/><attrib><bold>Abbreviations</bold>: Hypno, hypnogram; TF, time-frequency analysis; M1, left mastoid.</attrib></fig></citation_analysis></p>
+        <p><citation_analysis attribute="positive">The example of epileptology is striking. Epileptologists have a great deal of expertise in EEG, and it was shown that scoring based on 27-electrode videoEEG had a 95% agreement with scoring based on PSG, even in patients with an abnormal EEG.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0068" ref-type="bibr">68</xref></citation_analysis><citation_analysis attribute="positive"> Interestingly, Cohen’s kappa was very high for both arousals (0.89) and REM sleep (0.96), despite the absence of EOG and EMG. To note, the EEG signal does not only correspond to brain activity as it is contaminated by other electric signals, physiological or not. Artefacts (such as eye movements and muscle activity) are useful clues, and are more likely to be recorded when the number of EEG channels is high.</citation_analysis></p>
+        <p><citation_analysis attribute="positive">For cost/effectiveness obvious reasons, there have been many efforts to develop automatic sleep scoring (feature-based shallow learning or deep neural networks) using EEG only, based on multi- of single-channel analysis.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0069" ref-type="bibr">69</xref></citation_analysis><citation_analysis attribute="positive"> Overall, the performance of single-channel EEG-based automatic scoring, as assessed by agreement with visual scoring based on EEG/EOG/EMG by a human expert, is slightly lower than that of multi-channel EEG or multi-signals approaches especially for REM sleep.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0070" ref-type="bibr">70</xref></citation_analysis><citation_analysis attribute="neither">,</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0071" ref-type="bibr">71</xref></citation_analysis><citation_analysis attribute="positive"> However, validation studies conducted in healthy adults have shown good performances with Cohen’s kappa ~0.8 on average.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0072" ref-type="bibr">72–77</xref></citation_analysis><citation_analysis attribute="positive"> Several works have also demonstrated fair agreement with visual scoring in patients with sleep disorders.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0078" ref-type="bibr">78–80</xref></citation_analysis><citation_analysis attribute="neither"> Results seem to be influenced by the choice of the EEG channel (better performances for frontal leads), but innovative methods of accessing the EEG, such as Ear-EEG, have been proposed.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0080" ref-type="bibr">80–83</xref></citation_analysis><citation_analysis attribute="positive"> These research studies show that the loss of information due to the reduction in the number of sensors can be compensated for by a better exploitation of the data included in the available signals. This may allow for the development of simpler, portable, ambulatory sleep exploration devices.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0084" ref-type="bibr">84–86</xref></citation_analysis><citation_analysis attribute="neither"> This also suggests that advanced analysis of other physiological signals could be possibly used as an approach to identify vigilance states.</citation_analysis></p>
+      </sec>
+      <sec id="s0003-s2003">
+        <title>Categorization of Vigilance States Using Other Electrophysiological Signals Than EEG</title>
+        <p><citation_analysis attribute="neither">Is the EEG the gold standard for sleep staging? While the investigation of sleep with EEG, possibly with additional channels to cover more brain regions, may seem the most suitable way to understand sleep, one should keep in mind that the information provided by the scalp EEG is limited to the superficial dorsolateral cortex and ignore regions (such as the hippocampus or the occipital cortex) where sleep is not only very different but also asynchronous.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0028" ref-type="bibr">28</xref></citation_analysis><citation_analysis attribute="neither">,</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0031" ref-type="bibr">31</xref></citation_analysis><citation_analysis attribute="neither">,</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0087" ref-type="bibr">87</xref></citation_analysis><citation_analysis attribute="neither">,</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0088" ref-type="bibr">88</xref></citation_analysis><citation_analysis attribute="neither"> In addition, many other physiological functions and parameters fluctuate according to states of alertness, which go far beyond the brain.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0054" ref-type="bibr">54</xref></citation_analysis><citation_analysis attribute="positive"> These limitations, which may explain the discrepancy between subjective correlates of sleep or symptoms and prognosis of sleep disorders on the one hand, and objective sleep parameters on the other hand, temper the supremacy of the EEG and leave room for other approaches. Thus, the huge development of initiatives to develop automatic sleep scoring over the last past 20 years has led to various methods regarding both the type of recorded signal and the method to analyze it. Among them, one can cite EOG-based sleep scoring, which achieved performances close to those based on EEG for 4 to 6-stage classes (W, R and, depending on the study, 2 to 4 stages of NREM sleep) sleep staging, probably because the EOG signal contains not only information from eye movements but also from the EEG.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0089" ref-type="bibr">89</xref></citation_analysis><citation_analysis attribute="neither">,</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0090" ref-type="bibr">90</xref></citation_analysis><citation_analysis attribute="positive"> Recently, good results for sleep staging (4 or 5 classes) have been reported with actigraphy, in addition with heart rate variability and acceleration features</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0091" ref-type="bibr">91</xref></citation_analysis><citation_analysis attribute="neither"> or peripheral arterial tone, keeping in mind the low performances of actigraphy for discriminating light NREM sleep when used alone.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0092" ref-type="bibr">92</xref></citation_analysis><citation_analysis attribute="neither"> Some authors have proposed the use of respiratory movements, alone or coupled with movement signal to perform macro-sleep stage (Wake/NREM/REM) classification</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0093" ref-type="bibr">93</xref></citation_analysis><citation_analysis attribute="neither">,</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0094" ref-type="bibr">94</xref></citation_analysis><citation_analysis attribute="positive"> and even sleep mandibular movements, first aimed to detect apnea, have shown fair performance for sleep staging (4 classes).</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0095" ref-type="bibr">95</xref></citation_analysis><citation_analysis attribute="neither"> The analysis of sleep sounds (related to breathing, movements, etc.) recorded with non-contact microphones</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0096" ref-type="bibr">96</xref></citation_analysis><citation_analysis attribute="neither"> of movements (body movements, respiration amplitude and frequency) with non-contact biomotion sensors</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0097" ref-type="bibr">97</xref></citation_analysis><citation_analysis attribute="positive"> was also reported to enable macro-sleep stage (2 to 4 classes) scoring. Such approaches may allow to monitor sleep without contact sensors and are intended to be less disturbing for sleep.</citation_analysis></p>
+        <p><citation_analysis attribute="neither">All these technologies are attractive because of their simplicity and their performances seem convincing.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0089" ref-type="bibr">89–97</xref></citation_analysis><citation_analysis attribute="positive"> In addition, they offer an alternative to standard laboratory sleep studies whose availability is limited considering the huge prevalence of sleep disorders. There are, however, some limitations that should temper the enthusiasm for their use. First, most of them only provide a discrimination between wake and sleep states or between wake, NREM and REM sleep, and for some of them enable the diagnosis of sleep disorders such as obstructive sleep apnea, but do not allow a precise classification of sleep stages and even less an analysis of sleep microstructure. Second, most of these tools were tested in specific databases, and the performance may drop if they were used in other datasets. Third, one of the objectives of their development is the use in clinical practice, which means that they must be validated in various sleep disorders and populations including children, whereas most of them have been studied in healthy adult individuals or in obstructive sleep apnea only. Finally, sleep physicians know that in practice, even if recordings are at best monitored in hospital by technicians, it is not uncommon to lose one of the signals during part of the night. The availability of other sensors makes it possible to compensate for these technical incidents. Thus, the use of a single signal without back-up may limit the relevance in practice.</citation_analysis></p>
+      </sec>
+    </sec>
+    <sec id="s0004">
+      <title>Prospects in Sleep Staging</title>
+      <sec id="s0004-s2001">
+        <title>Thinking Outside the R&amp;K and AASM Rules</title>
+        <p><citation_analysis attribute="neither">“What is simple is false and what is not is useless.” wrote Paul Valéry.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0098" ref-type="bibr">98</xref></citation_analysis><citation_analysis attribute="neither"> The simplification of vigilance states dynamics by AASM rules that try to segment a continuum physiological process, necessarily faces many limitations when it comes to describing pathological conditions. Regardless of the approach (human or automatic scoring), or the type of physiological signals used, constraining the description of sleep to this rigid framework is associated with obvious pitfalls. Thus, it might be relevant to challenge the standard “30 s sleep stage” scoring scheme which originated from physiological observations, but has turned into a top-down injunction. The tremendous development of signal recording and analysis techniques, including the speed of analysis of large amount of data, could be an opportunity to return to a data-driven approach.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0099" ref-type="bibr">99</xref></citation_analysis><citation_analysis attribute="neither"> This may enable to better quantify sleep or wake instability, as well as transitional states which may be the very states (“fragility zones”) interesting in sleep and neurological disorders. This would remove from scoring algorithms the absurdity of having to replicate the human ‘gold standard’, which is necessarily imperfect, and which itself deviates from the purposely simplified rules, to adapt to physiological variability.</citation_analysis></p>
+      </sec>
+      <sec id="s0004-s2002">
+        <title>What Would Be the Perfect Scoring System?</title>
+        <p><citation_analysis attribute="positive">Considering what could be an alternative to standard sleep stages requires thinking about what can be expected from it, in order to shape its development. The first objective would be to describe physiology, in its complexity and multiple dimensions, and to capture the multiple regulatory processes, in particular from a research perspective. This might require combining information from time scales other than 30s and potentially from different global/local spatial scales. The second objective would be to provide quantifiable metrics correlated to subjective or behavioral variables, but also, for application to sleep medicine, to clinical symptoms, and, in the best case, to prognosis (complications, etc.). Third, this system should be quick to disseminate, open access, and simple to implement and use. Probably, in the perspective of personalized medicine, this scoring system would have to adapt to various populations, taking into account the diversity (age, gender, ethnicity, etc.).</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0100" ref-type="bibr">100–103</xref></citation_analysis><citation_analysis attribute="positive"> Finally, at a time when work on Big Data is exploding and public health needs are exponential, it is likely that this system would rely mainly on artificial intelligence, provided that a critical human eye remains capable of detecting possible errors or inconsistencies. The number and heterogeneity of these requirements suggest that the development of such a system for describing and quantifying vigilance states might be utopic and that hierarchical choices will have to be made. A consensual reflection between researchers, doctors, engineers and developers appears in any case crucial.</citation_analysis></p>
+      </sec>
+    </sec>
+    <sec id="s0005">
+      <title>Conclusion</title>
+      <p><citation_analysis attribute="positive">Polysomnography remains a cornerstone of sleep research and medicine, even if alternative initiatives are proliferating, either using other signals to match the classical sleep stages, or using other dimensions than sleep stages to describe vigilance states. These new approaches are based on recent advances in our knowledge of sleep regulation mechanisms and on progress in data processing and analysis. They contribute in turn to our understanding of sleep physiology and pathophysiology. However, to date, the vast majority of these new approaches are still being tested/validated against polysomnography which remains the definite gold standard. Is classical polysomnography really an obligatory passage point for describing and studying sleep?</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0104" ref-type="bibr">104</xref></citation_analysis><citation_analysis attribute="positive"> In any case, it seems likely that the use of electrophysiological signals will remain a core part of sleep assessment. One of the specificities of the sleep research and medicine lies in its technical aspects, in the search for tangible objective elements to oppose, compare or correlate to the great phenomenological variability linked to sleep. Thus, it is difficult to predict how the many new available technical tools will be integrated into the medical and research landscape, and whether and how, beyond informing us about other dimensions of sleep, they may one day bridge the gap between validation studies and large-scale dissemination. The strong interest of our community in these issues, whatever the underlying motivations, nevertheless augurs well for considerable changes in the coming decades.</citation_analysis></p>
+    </sec>
+  </body>
+  <back>
+    <sec id="s0006">
+      <title>Abbreviations</title>
+      <p><citation_analysis attribute="neither">AASM, American Academy of Sleep Medicine; CAP, cyclic alternating pattern; EEG, electroencephalography; EOG, electrooculography; EEG, electromyography; SEEG, stereo- electroencephalography; NREM sleep, non rapid-eye-movement sleep; R&amp;K, Rechtschaffen and Kales; REM sleep, rapid-eye-movement sleep.</citation_analysis></p>
+    </sec>
+    <sec sec-type="COI-statement" id="s0007">
+      <title>Disclosure</title>
+      <p><citation_analysis attribute="neither">The authors report no financial or non-financial conflicts of interest in this work.</citation_analysis></p>
+    </sec>
+    <ref-list>
+      <title>References</title>
+      <ref id="cit0001">
+        <label>1.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Berger</surname>
+<given-names>H</given-names></string-name>. <article-title>Über das Elektrenkephalogramm des Menschen</article-title>. <source><italic toggle="yes">Archiv f Psychiatrie</italic></source>. <year>1929</year>;<volume>87</volume>(<issue>1</issue>):<fpage>527</fpage>–<lpage>570</lpage>. doi:<pub-id pub-id-type="doi">10.1007/BF01797193</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0002">
+        <label>2.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Dement</surname>
+<given-names>W</given-names></string-name>, <string-name><surname>Kleitman</surname>
+<given-names>N</given-names></string-name>. <article-title>Cyclic variations in EEG during sleep and their relation to eye movements, body motility, and dreaming</article-title>. <source><italic toggle="yes">Electroencephalogr Clin Neurophysiol</italic></source>. <year>1957</year>;<volume>9</volume>(<issue>4</issue>):<fpage>673</fpage>–<lpage>690</lpage>. doi:<pub-id pub-id-type="doi">10.1016/0013-4694(57)90088-3</pub-id><pub-id pub-id-type="pmid">13480240</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0003">
+        <label>3.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Jouvet</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Michel</surname>
+<given-names>F</given-names></string-name>, <string-name><surname>Courjon</surname>
+<given-names>J</given-names></string-name>. <article-title>Sur un stade d’activité électrique cérébrale rapide au cours du sommeil physiologique</article-title>. <source><italic toggle="yes">CR Soc Biol</italic></source>. <year>1959</year>;<volume>153</volume>:<fpage>1024</fpage>–<lpage>1028</lpage>.</mixed-citation>
+      </ref>
+      <ref id="cit0004">
+        <label>4.</label>
+        <mixed-citation publication-type="book"><string-name><surname>Rechtschaffen</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Kales</surname>
+<given-names>A</given-names></string-name>. <part-title>A manual of standardized terminology, tecniques and scoring system for sleep stage of human subjects</part-title>. In: <source><italic toggle="yes">Brain Information Service/Brain Research Institute</italic></source>. <publisher-loc>Los Angeles</publisher-loc>: <publisher-name>University of Californian</publisher-name>; <year>1968</year>.</mixed-citation>
+      </ref>
+      <ref id="cit0005">
+        <label>5.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Lavie</surname>
+<given-names>P</given-names></string-name>. <article-title>Who was the first to use the term Pickwickian in connection with sleepy patients? History of sleep apnoea syndrome</article-title>. <source><italic toggle="yes">Sleep Med Rev</italic></source>. <year>2008</year>;<volume>12</volume>(<issue>1</issue>):<fpage>5</fpage>–<lpage>17</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.smrv.2007.07.008</pub-id><pub-id pub-id-type="pmid">18037311</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0006">
+        <label>6.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Hori</surname>
+<given-names>T</given-names></string-name>, <string-name><surname>Sugita</surname>
+<given-names>Y</given-names></string-name>, <string-name><surname>Koga</surname>
+<given-names>E</given-names></string-name>, et al. <article-title>Proposed supplements and amendments to “A manual of standardized terminology, techniques and scoring system for sleep stages of human subjects”, the Rechtschaffen &amp; Kales (1968) standard</article-title>. <source><italic toggle="yes">Psychiatry Clin Neurosci</italic></source>. <year>2001</year>;<volume>55</volume>(<issue>3</issue>):<fpage>305</fpage>–<lpage>310</lpage>. doi:<pub-id pub-id-type="doi">10.1046/j.1440-1819.2001.00810.x</pub-id><pub-id pub-id-type="pmid">11422885</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0007">
+        <label>7.</label>
+        <mixed-citation publication-type="book"><string-name><surname>Iber</surname>
+<given-names>C</given-names></string-name>. <source><italic toggle="yes">The AASM Manual for the Scoring of Sleep and Associated Events: Rules, Terminology and Technical Specifications</italic></source>. <publisher-loc>Westchester, IL</publisher-loc>: <publisher-name>American Academy of Sleep Medicine</publisher-name>; <year>2007</year>.</mixed-citation>
+      </ref>
+      <ref id="cit0008">
+        <label>8.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Berry</surname>
+<given-names>RB</given-names></string-name>, <string-name><surname>Brooks</surname>
+<given-names>R</given-names></string-name>, <string-name><surname>Gamaldo</surname>
+<given-names>C</given-names></string-name>, et al. <article-title>AASM scoring manual updates for 2017 (Version 2.4)</article-title>. <source><italic toggle="yes">J Clin Sleep Med</italic></source>. <year>2017</year>;<volume>13</volume>(<issue>5</issue>):<fpage>665</fpage>–<lpage>666</lpage>. doi:<pub-id pub-id-type="doi">10.5664/jcsm.6576</pub-id><pub-id pub-id-type="pmid">28416048</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0009">
+        <label>9.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Parrino</surname>
+<given-names>L</given-names></string-name>, <string-name><surname>Ferri</surname>
+<given-names>R</given-names></string-name>, <string-name><surname>Zucconi</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Fanfulla</surname>
+<given-names>F</given-names></string-name>. <article-title>Commentary from the Italian Association of Sleep Medicine on the AASM manual for the scoring of sleep and associated events: for debate and discussion</article-title>. <source><italic toggle="yes">Sleep Med</italic></source>. <year>2009</year>;<volume>10</volume>(<issue>7</issue>):<fpage>799</fpage>–<lpage>808</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.sleep.2009.05.009</pub-id><pub-id pub-id-type="pmid">19564132</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0010">
+        <label>10.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Moser</surname>
+<given-names>D</given-names></string-name>, <string-name><surname>Anderer</surname>
+<given-names>P</given-names></string-name>, <string-name><surname>Gruber</surname>
+<given-names>G</given-names></string-name>, et al. <article-title>Sleep classification according to AASM and Rechtschaffen &amp; Kales: effects on sleep scoring parameters</article-title>. <source><italic toggle="yes">Sleep</italic></source>. <year>2009</year>;<volume>32</volume>(<issue>2</issue>):<fpage>139</fpage>–<lpage>149</lpage>. doi:<pub-id pub-id-type="doi">10.1093/sleep/32.2.139</pub-id><pub-id pub-id-type="pmid">19238800</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0011">
+        <label>11.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Novelli</surname>
+<given-names>L</given-names></string-name>, <string-name><surname>Ferri</surname>
+<given-names>R</given-names></string-name>, <string-name><surname>Bruni</surname>
+<given-names>O</given-names></string-name>. <article-title>Sleep classification according to AASM and Rechtschaffen and Kales: effects on sleep scoring parameters of children and adolescents</article-title>. <source><italic toggle="yes">J Sleep Res</italic></source>. <year>2010</year>;<volume>19</volume>(<issue>1 Pt 2</issue>):<fpage>238</fpage>–<lpage>247</lpage>. doi:<pub-id pub-id-type="doi">10.1111/j.1365-2869.2009.00785.x</pub-id><pub-id pub-id-type="pmid">19912509</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0012">
+        <label>12.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Ruehland</surname>
+<given-names>WR</given-names></string-name>, <string-name><surname>O’Donoghue</surname>
+<given-names>FJ</given-names></string-name>, <string-name><surname>Pierce</surname>
+<given-names>RJ</given-names></string-name>, et al. <article-title>The 2007 AASM recommendations for EEG electrode placement in polysomnography: impact on sleep and cortical arousal scoring</article-title>. <source><italic toggle="yes">Sleep</italic></source>. <year>2011</year>;<volume>34</volume>(<issue>1</issue>):<fpage>73</fpage>–<lpage>81</lpage>. doi:<pub-id pub-id-type="doi">10.1093/sleep/34.1.73</pub-id><pub-id pub-id-type="pmid">21203376</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0013">
+        <label>13.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Grigg-Damberger</surname>
+<given-names>MM</given-names></string-name>. <article-title>The AASM Scoring Manual four years later</article-title>. <source><italic toggle="yes">J Clin Sleep Med</italic></source>. <year>2012</year>;<volume>8</volume>(<issue>3</issue>):<fpage>323</fpage>–<lpage>332</lpage>. doi:<pub-id pub-id-type="doi">10.5664/jcsm.1928</pub-id><pub-id pub-id-type="pmid">22701392</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0014">
+        <label>14.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Jasper</surname>
+<given-names>H</given-names></string-name>. <article-title>The 10–20 electrode system of the International Federation</article-title>. <source><italic toggle="yes">Electroencephalogr Clin Neuropysiol</italic></source>. <year>1958</year>;<volume>10</volume>:<fpage>370</fpage>–<lpage>375</lpage>.</mixed-citation>
+      </ref>
+      <ref id="cit0015">
+        <label>15.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Binnie</surname>
+<given-names>CD</given-names></string-name>, <string-name><surname>Dekker</surname>
+<given-names>E</given-names></string-name>, <string-name><surname>Smit</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Van Der Linden</surname>
+<given-names>G</given-names></string-name>. <article-title>Practical considerations in the positioning of EEG electrodes</article-title>. <source><italic toggle="yes">Electroencephalogr Clin Neurophysiol</italic></source>. <year>1982</year>;<volume>53</volume>(<issue>4</issue>):<fpage>453</fpage>–<lpage>458</lpage>. doi:<pub-id pub-id-type="doi">10.1016/0013-4694(82)90010-4</pub-id><pub-id pub-id-type="pmid">6175507</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0016">
+        <label>16.</label>
+        <mixed-citation publication-type="book"><string-name><surname>Berry</surname>
+<given-names>RB</given-names></string-name>, <string-name><surname>Brooks</surname>
+<given-names>R</given-names></string-name>, <string-name><surname>Gamaldo</surname>
+<given-names>CE</given-names></string-name>, et al. <article-title>The AASM Manual for the Scoring of Sleep and Associated Events: Rules, Terminology and Technical Specifications, Version 2.4</article-title>. <publisher-loc>Darien, Illinois</publisher-loc>: <publisher-name>American Academy of Sleep Medicine</publisher-name>; <year>2017</year>. <comment>Available from</comment>: <ext-link xlink:href="http://www.aasmnet.org" ext-link-type="uri">www.aasmnet.org</ext-link>. <date-in-citation>Accessed <month>June</month>
+<day>23</day>, 2023</date-in-citation>.</mixed-citation>
+      </ref>
+      <ref id="cit0017">
+        <label>17.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Rezaie</surname>
+<given-names>L</given-names></string-name>, <string-name><surname>Fobian</surname>
+<given-names>AD</given-names></string-name>, <string-name><surname>McCall</surname>
+<given-names>WV</given-names></string-name>, <string-name><surname>Khazaie</surname>
+<given-names>H</given-names></string-name>. <article-title>Paradoxical insomnia and subjective-objective sleep discrepancy: a review</article-title>. <source><italic toggle="yes">Sleep Med Rev</italic></source>. <year>2018</year>;<volume>40</volume>:<fpage>196</fpage>–<lpage>202</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.smrv.2018.01.002</pub-id><pub-id pub-id-type="pmid">29402512</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0018">
+        <label>18.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Kushida</surname>
+<given-names>CA</given-names></string-name>, <string-name><surname>Littner</surname>
+<given-names>MR</given-names></string-name>, <string-name><surname>Morgenthaler</surname>
+<given-names>T</given-names></string-name>, et al. <article-title>Practice parameters for the indications for polysomnography and related procedures: an update for 2005</article-title>. <source><italic toggle="yes">Sleep</italic></source>. <year>2005</year>;<volume>28</volume>(<issue>4</issue>):<fpage>499</fpage>–<lpage>521</lpage>. doi:<pub-id pub-id-type="doi">10.1093/sleep/28.4.499</pub-id><pub-id pub-id-type="pmid">16171294</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0019">
+        <label>19.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Chediak</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Esparis</surname>
+<given-names>B</given-names></string-name>, <string-name><surname>Isaacson</surname>
+<given-names>R</given-names></string-name>, et al. <article-title>How many polysomnograms must sleep fellows score before becoming proficient at scoring sleep?</article-title>
+<source><italic toggle="yes">J Clin Sleep Med</italic></source>. <year>2006</year>;<volume>2</volume>(<issue>4</issue>):<fpage>427</fpage>–<lpage>430</lpage>. doi:<pub-id pub-id-type="doi">10.5664/jcsm.26659</pub-id><pub-id pub-id-type="pmid">17557472</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0020">
+        <label>20.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Pevernagie</surname>
+<given-names>D</given-names></string-name>, <string-name><surname>Stanley</surname>
+<given-names>N</given-names></string-name>, <string-name><surname>Berg</surname>
+<given-names>S</given-names></string-name>, et al. <article-title>European guidelines for the certification of professionals in sleep medicine: report of the task force of the European Sleep Research Society</article-title>. <source><italic toggle="yes">J Sleep Res</italic></source>. <year>2009</year>;<volume>18</volume>(<issue>1</issue>):<fpage>136</fpage>–<lpage>141</lpage>. doi:<pub-id pub-id-type="doi">10.1111/j.1365-2869.2008.00721.x</pub-id><pub-id pub-id-type="pmid">19250180</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0021">
+        <label>21.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Bagur</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Lacroix</surname>
+<given-names>MM</given-names></string-name>, <string-name><surname>de Lavilléon</surname>
+<given-names>G</given-names></string-name>, <string-name><surname>Lefort</surname>
+<given-names>JM</given-names></string-name>, <string-name><surname>Geoffroy</surname>
+<given-names>H</given-names></string-name>, <string-name><surname>Benchenane</surname>
+<given-names>K</given-names></string-name>. <article-title>Harnessing olfactory bulb oscillations to perform fully brain-based sleep-scoring and real-time monitoring of anaesthesia depth</article-title>. <source><italic toggle="yes">PLoS Biol</italic></source>. <year>2018</year>;<volume>16</volume>(<issue>11</issue>):<fpage>e2005458</fpage>. doi:<pub-id pub-id-type="doi">10.1371/journal.pbio.2005458</pub-id><pub-id pub-id-type="pmid">30408025</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0022">
+        <label>22.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Rosenberg</surname>
+<given-names>RS</given-names></string-name>, <string-name><surname>Van Hout</surname>
+<given-names>S</given-names></string-name>. <article-title>The American Academy of Sleep Medicine inter-scorer reliability program: sleep stage scoring</article-title>. <source><italic toggle="yes">J Clin Sleep Med</italic></source>. <year>2013</year>;<volume>9</volume>(<issue>1</issue>):<fpage>81</fpage>–<lpage>87</lpage>. doi:<pub-id pub-id-type="doi">10.5664/jcsm.2350</pub-id><pub-id pub-id-type="pmid">23319910</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0023">
+        <label>23.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Deng</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Zhang</surname>
+<given-names>X</given-names></string-name>, <string-name><surname>Zhang</surname>
+<given-names>Y</given-names></string-name>, et al. <article-title>Interrater agreement between American and Chinese sleep centers according to the 2014 AASM standard</article-title>. <source><italic toggle="yes">Sleep Breath</italic></source>. <year>2019</year>;<volume>23</volume>(<issue>2</issue>):<fpage>719</fpage>–<lpage>728</lpage>. doi:<pub-id pub-id-type="doi">10.1007/s11325-019-01801-x</pub-id><pub-id pub-id-type="pmid">30783913</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0024">
+        <label>24.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Lee</surname>
+<given-names>YJ</given-names></string-name>, <string-name><surname>Lee</surname>
+<given-names>JY</given-names></string-name>, <string-name><surname>Cho</surname>
+<given-names>JH</given-names></string-name>, <string-name><surname>Choi</surname>
+<given-names>JH</given-names></string-name>. <article-title>Interrater reliability of sleep stage scoring: a meta-analysis</article-title>. <source><italic toggle="yes">J Clin Sleep Med</italic></source>. <year>2022</year>;<volume>18</volume>(<issue>1</issue>):<fpage>193</fpage>–<lpage>202</lpage>. doi:<pub-id pub-id-type="doi">10.5664/jcsm.9538</pub-id><pub-id pub-id-type="pmid">34310277</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0025">
+        <label>25.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Danker-Hopfe</surname>
+<given-names>H</given-names></string-name>, <string-name><surname>Anderer</surname>
+<given-names>P</given-names></string-name>, <string-name><surname>Zeitlhofer</surname>
+<given-names>J</given-names></string-name>, et al. <article-title>Interrater reliability for sleep scoring according to the Rechtschaffen &amp; Kales and the new AASM standard</article-title>. <source><italic toggle="yes">J Sleep Res</italic></source>. <year>2009</year>;<volume>18</volume>(<issue>1</issue>):<fpage>74</fpage>–<lpage>84</lpage>. doi:<pub-id pub-id-type="doi">10.1111/j.1365-2869.2008.00700.x</pub-id><pub-id pub-id-type="pmid">19250176</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0026">
+        <label>26.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Gavaret</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Badier</surname>
+<given-names>J-M</given-names></string-name>, <string-name><surname>Marquis</surname>
+<given-names>P</given-names></string-name>, <string-name><surname>Bartolomei</surname>
+<given-names>F</given-names></string-name>, <string-name><surname>Chauvel</surname>
+<given-names>P</given-names></string-name>. <article-title>Electric source imaging in temporal lobe epilepsy</article-title>. <source><italic toggle="yes">J Clin Neurophysiol</italic></source>. <year>2004</year>;<volume>21</volume>(<issue>4</issue>):<fpage>267</fpage>–<lpage>282</lpage>. doi:<pub-id pub-id-type="doi">10.1097/01.WNP.0000139929.06455.82</pub-id><pub-id pub-id-type="pmid">15509916</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0027">
+        <label>27.</label>
+        <mixed-citation publication-type="book"><string-name><surname>Peter-Derex</surname>
+<given-names>L</given-names></string-name>, <string-name><surname>Ellenrieder</surname>
+<given-names>N</given-names></string-name>, <string-name><surname>Frauscher</surname>
+<given-names>B</given-names></string-name>. <part-title>Physiological activity recorded with intracranial EEG: from wakefulness to sleep</part-title>. In: <string-name><surname>Schuele</surname>
+<given-names>SU</given-names></string-name>, editor. <source><italic toggle="yes">A Practical Approach to Stereo EEG</italic></source>. <publisher-loc>New York</publisher-loc>: <publisher-name>Springer Publishing Company</publisher-name>; <year>2020</year>:<fpage>303</fpage>–<lpage>314</lpage>.</mixed-citation>
+      </ref>
+      <ref id="cit0028">
+        <label>28.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Guthrie</surname>
+<given-names>RS</given-names></string-name>, <string-name><surname>Ciliberti</surname>
+<given-names>D</given-names></string-name>, <string-name><surname>Mankin</surname>
+<given-names>EA</given-names></string-name>, <string-name><surname>Poe</surname>
+<given-names>GR</given-names></string-name>. <article-title>Recurrent Hippocampo-neocortical sleep-state divergence in humans</article-title>. <source><italic toggle="yes">Proc Natl Acad Sci U S A</italic></source>. <year>2022</year>;<volume>119</volume>(<issue>44</issue>):<fpage>e2123427119</fpage>. doi:<pub-id pub-id-type="doi">10.1073/pnas.2123427119</pub-id><pub-id pub-id-type="pmid">36279474</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0029">
+        <label>29.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Sarasso</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Proserpio</surname>
+<given-names>P</given-names></string-name>, <string-name><surname>Pigorini</surname>
+<given-names>A</given-names></string-name>, et al. <article-title>Hippocampal sleep spindles preceding neocortical sleep onset in humans</article-title>. <source><italic toggle="yes">NeuroImage</italic></source>. <year>2014</year>;<volume>86</volume>:<fpage>425</fpage>–<lpage>432</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.neuroimage.2013.10.031</pub-id><pub-id pub-id-type="pmid">24176868</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0030">
+        <label>30.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Peter-Derex</surname>
+<given-names>L</given-names></string-name>, <string-name><surname>von Ellenrieder</surname>
+<given-names>N</given-names></string-name>, <string-name><surname>von Rosmalen</surname>
+<given-names>F</given-names></string-name>, et al. <article-title>Regional variability in intracerebral properties of NREM to REM sleep transitions in humans</article-title>. <source><italic toggle="yes">PNAS</italic></source>. <year>2023</year>;<volume>120</volume>(<issue>26</issue>):. doi:<pub-id pub-id-type="doi">10.1073/pnas.2300387120</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0031">
+        <label>31.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Magnin</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Rey</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Bastuji</surname>
+<given-names>H</given-names></string-name>, <string-name><surname>Guillemant</surname>
+<given-names>P</given-names></string-name>, <string-name><surname>Mauguiere</surname>
+<given-names>F</given-names></string-name>, <string-name><surname>Garcia-Larrea</surname>
+<given-names>L</given-names></string-name>. <article-title>Thalamic deactivation at sleep onset precedes that of the cerebral cortex in humans</article-title>. <source><italic toggle="yes">Proc Natl Acad Sci U S A</italic></source>. <year>2010</year>;<volume>107</volume>(<issue>8</issue>):<fpage>3829</fpage>–<lpage>3833</lpage>. doi:<pub-id pub-id-type="doi">10.1073/pnas.0909710107</pub-id><pub-id pub-id-type="pmid">20142493</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0032">
+        <label>32.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Peter-Derex</surname>
+<given-names>L</given-names></string-name>, <string-name><surname>Magnin</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Bastuji</surname>
+<given-names>H</given-names></string-name>. <article-title>Heterogeneity of arousals in human sleep: a stereo-electroencephalographic study</article-title>. <source><italic toggle="yes">Neuroimage</italic></source>. <year>2015</year>;<volume>123</volume>:<fpage>229</fpage>–<lpage>244</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.neuroimage.2015.07.057</pub-id><pub-id pub-id-type="pmid">26220744</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0033">
+        <label>33.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Ruby</surname>
+<given-names>P</given-names></string-name>, <string-name><surname>Eskinazi</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Bouet</surname>
+<given-names>R</given-names></string-name>, <string-name><surname>Rheims</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Peter-Derex</surname>
+<given-names>L</given-names></string-name>. <article-title>Dynamics of hippocampus and orbitofrontal cortex activity during arousing reactions from sleep: an intracranial electroencephalographic study</article-title>. <source><italic toggle="yes">Hum Brain Mapp</italic></source>. <year>2021</year>;<volume>42</volume>(<issue>16</issue>):<fpage>5188</fpage>–<lpage>5203</lpage>. doi:<pub-id pub-id-type="doi">10.1002/hbm.25609</pub-id><pub-id pub-id-type="pmid">34355461</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0034">
+        <label>34.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Andrillon</surname>
+<given-names>T</given-names></string-name>, <string-name><surname>Nir</surname>
+<given-names>Y</given-names></string-name>, <string-name><surname>Staba</surname>
+<given-names>RJ</given-names></string-name>, et al. <article-title>Sleep spindles in humans: insights from intracranial EEG and unit recordings</article-title>. <source><italic toggle="yes">J Neurosci</italic></source>. <year>2011</year>;<volume>31</volume>(<issue>49</issue>):<fpage>17821</fpage>–<lpage>17834</lpage>. doi:<pub-id pub-id-type="doi">10.1523/JNEUROSCI.2604-11.2011</pub-id><pub-id pub-id-type="pmid">22159098</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0035">
+        <label>35.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Peter-Derex</surname>
+<given-names>L</given-names></string-name>, <string-name><surname>Comte</surname>
+<given-names>J-C</given-names></string-name>, <string-name><surname>Mauguiere</surname>
+<given-names>F</given-names></string-name>, <string-name><surname>Salin</surname>
+<given-names>PA</given-names></string-name>. <article-title>Density and frequency caudo-rostral gradients of sleep spindles recorded in the human cortex</article-title>. <source><italic toggle="yes">Sleep</italic></source>. <year>2012</year>;<volume>35</volume>(<issue>1</issue>):<fpage>69</fpage>–<lpage>79</lpage>. doi:<pub-id pub-id-type="doi">10.5665/sleep.1588</pub-id><pub-id pub-id-type="pmid">22215920</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0036">
+        <label>36.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Bastuji</surname>
+<given-names>H</given-names></string-name>, <string-name><surname>Lamouroux</surname>
+<given-names>P</given-names></string-name>, <string-name><surname>Villalba</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Magnin</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Garcia-Larrea</surname>
+<given-names>L</given-names></string-name>. <article-title>Local sleep spindles in the human thalamus</article-title>. <source><italic toggle="yes">J Physiol</italic></source>. <year>2020</year>;<volume>598</volume>(<issue>11</issue>):<fpage>2109</fpage>–<lpage>2124</lpage>. doi:<pub-id pub-id-type="doi">10.1113/JP279045</pub-id><pub-id pub-id-type="pmid">32118292</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0037">
+        <label>37.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Frauscher</surname>
+<given-names>B</given-names></string-name>, <string-name><surname>von Ellenrieder</surname>
+<given-names>N</given-names></string-name>, <string-name><surname>Dolezalova</surname>
+<given-names>I</given-names></string-name>, <string-name><surname>Bouhadoun</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Gotman</surname>
+<given-names>J</given-names></string-name>, <string-name><surname>Peter-Derex</surname>
+<given-names>L</given-names></string-name>. <article-title>Rapid eye movement sleep sawtooth waves are associated with widespread cortical activations</article-title>. <source><italic toggle="yes">J Neurosci</italic></source>. <year>2020</year>;<volume>40</volume>(<issue>46</issue>):<fpage>8900</fpage>–<lpage>8912</lpage>. doi:<pub-id pub-id-type="doi">10.1523/JNEUROSCI.1586-20.2020</pub-id><pub-id pub-id-type="pmid">33055279</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0038">
+        <label>38.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Nir</surname>
+<given-names>Y</given-names></string-name>, <string-name><surname>Staba</surname>
+<given-names>RJ</given-names></string-name>, <string-name><surname>Andrillon</surname>
+<given-names>T</given-names></string-name>, et al. <article-title>Regional slow waves and spindles in human sleep</article-title>. <source><italic toggle="yes">Neuron</italic></source>. <year>2011</year>;<volume>70</volume>(<issue>1</issue>):<fpage>153</fpage>–<lpage>169</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.neuron.2011.02.043</pub-id><pub-id pub-id-type="pmid">21482364</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0039">
+        <label>39.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Vyazovskiy</surname>
+<given-names>VV</given-names></string-name>, <string-name><surname>Olcese</surname>
+<given-names>U</given-names></string-name>, <string-name><surname>Lazimy</surname>
+<given-names>YM</given-names></string-name>, et al. <article-title>Cortical firing and sleep homeostasis</article-title>. <source><italic toggle="yes">Neuron</italic></source>. <year>2009</year>;<volume>63</volume>(<issue>6</issue>):<fpage>865</fpage>–<lpage>878</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.neuron.2009.08.024</pub-id><pub-id pub-id-type="pmid">19778514</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0040">
+        <label>40.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Vyazovskiy</surname>
+<given-names>VV</given-names></string-name>, <string-name><surname>Olcese</surname>
+<given-names>U</given-names></string-name>, <string-name><surname>Hanlon</surname>
+<given-names>EC</given-names></string-name>, <string-name><surname>Nir</surname>
+<given-names>Y</given-names></string-name>, <string-name><surname>Cirelli</surname>
+<given-names>C</given-names></string-name>, <string-name><surname>Tononi</surname>
+<given-names>G</given-names></string-name>. <article-title>Local sleep in awake rats</article-title>. <source><italic toggle="yes">Nature</italic></source>. <year>2011</year>;<volume>472</volume>(<issue>7344</issue>):<fpage>443</fpage>–<lpage>447</lpage>. doi:<pub-id pub-id-type="doi">10.1038/nature10009</pub-id><pub-id pub-id-type="pmid">21525926</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0041">
+        <label>41.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Andrillon</surname>
+<given-names>T</given-names></string-name>, <string-name><surname>Burns</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Mackay</surname>
+<given-names>T</given-names></string-name>, <string-name><surname>Windt</surname>
+<given-names>J</given-names></string-name>, <string-name><surname>Tsuchiya</surname>
+<given-names>N</given-names></string-name>. <article-title>Predicting lapses of attention with sleep-like slow waves</article-title>. <source><italic toggle="yes">Nat Commun</italic></source>. <year>2021</year>;<volume>12</volume>(<issue>1</issue>):<fpage>3657</fpage>. doi:<pub-id pub-id-type="doi">10.1038/s41467-021-23890-7</pub-id><pub-id pub-id-type="pmid">34188023</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0042">
+        <label>42.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Fernandez Guerrero</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Achermann</surname>
+<given-names>P</given-names></string-name>. <article-title>Brain dynamics during the sleep onset transition: an EEG source localization study</article-title>. <source><italic toggle="yes">Neurobiol Sleep Circadian Rhythms</italic></source>. <year>2019</year>;<volume>6</volume>:<fpage>24</fpage>–<lpage>34</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.nbscr.2018.11.001</pub-id><pub-id pub-id-type="pmid">31236519</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0043">
+        <label>43.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Strauss</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Sitt</surname>
+<given-names>JD</given-names></string-name>, <string-name><surname>Naccache</surname>
+<given-names>L</given-names></string-name>, <string-name><surname>Raimondo</surname>
+<given-names>F</given-names></string-name>. <article-title>Predicting the loss of responsiveness when falling asleep in humans</article-title>. <source><italic toggle="yes">Neuroimage</italic></source>. <year>2022</year>;<volume>251</volume>:<fpage>119003</fpage>. doi:<pub-id pub-id-type="doi">10.1016/j.neuroimage.2022.119003</pub-id><pub-id pub-id-type="pmid">35176491</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0044">
+        <label>44.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Mayeli</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Janssen</surname>
+<given-names>SA</given-names></string-name>, <string-name><surname>Sharma</surname>
+<given-names>K</given-names></string-name>, <string-name><surname>Ferrarelli</surname>
+<given-names>F</given-names></string-name>. <article-title>Examining First Night Effect on Sleep Parameters with hd-EEG in Healthy Individuals</article-title>. <source><italic toggle="yes">Brain Sci</italic></source>. <year>2022</year>;<volume>12</volume>(<issue>2</issue>):<fpage>233</fpage>. doi:<pub-id pub-id-type="doi">10.3390/brainsci12020233</pub-id><pub-id pub-id-type="pmid">35203996</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0045">
+        <label>45.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Poudel</surname>
+<given-names>GR</given-names></string-name>, <string-name><surname>Innes</surname>
+<given-names>CR</given-names></string-name>, <string-name><surname>Bones</surname>
+<given-names>PJ</given-names></string-name>, <string-name><surname>Watts</surname>
+<given-names>R</given-names></string-name>, <string-name><surname>Jones</surname>
+<given-names>RD</given-names></string-name>. <article-title>Losing the struggle to stay awake: divergent thalamic and cortical activity during microsleeps</article-title>. <source><italic toggle="yes">Hum Brain Mapp</italic></source>. <year>2014</year>;<volume>35</volume>(<issue>1</issue>):<fpage>257</fpage>–<lpage>269</lpage>. doi:<pub-id pub-id-type="doi">10.1002/hbm.22178</pub-id><pub-id pub-id-type="pmid">23008180</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0046">
+        <label>46.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Marzano</surname>
+<given-names>C</given-names></string-name>, <string-name><surname>Ferrara</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Moroni</surname>
+<given-names>F</given-names></string-name>, <string-name><surname>De Gennaro</surname>
+<given-names>L</given-names></string-name>. <article-title>Electroencephalographic sleep inertia of the awakening brain</article-title>. <source><italic toggle="yes">Neuroscience</italic></source>. <year>2011</year>;<volume>176</volume>:<fpage>308</fpage>–<lpage>317</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.neuroscience.2010.12.014</pub-id><pub-id pub-id-type="pmid">21167917</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0047">
+        <label>47.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Lecci</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Cataldi</surname>
+<given-names>J</given-names></string-name>, <string-name><surname>Betta</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Bernardi</surname>
+<given-names>G</given-names></string-name>, <string-name><surname>Heinzer</surname>
+<given-names>R</given-names></string-name>, <string-name><surname>Siclari</surname>
+<given-names>F</given-names></string-name>. <article-title>Electroencephalographic changes associated with subjective under- and overestimation of sleep duration</article-title>. <source><italic toggle="yes">Sleep</italic></source>. <year>2020</year>;<volume>43</volume>(<issue>11</issue>). doi:<pub-id pub-id-type="doi">10.1093/sleep/zsaa094</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0048">
+        <label>48.</label>
+        <mixed-citation publication-type="journal"><collab>ASDA</collab>. <article-title>EEG arousals: scoring rules and examples: a preliminary report from the Sleep Disorders Atlas Task Force of the American Sleep Disorders Association</article-title>. <source><italic toggle="yes">Sleep</italic></source>. <year>1992</year>;<volume>15</volume>(<issue>2</issue>):<fpage>173</fpage>–<lpage>184</lpage>. doi:<pub-id pub-id-type="doi">10.1093/sleep/15.2.173</pub-id><pub-id pub-id-type="pmid">11032543</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0049">
+        <label>49.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Terzano</surname>
+<given-names>MG</given-names></string-name>, <string-name><surname>Mancia</surname>
+<given-names>D</given-names></string-name>, <string-name><surname>Salati</surname>
+<given-names>MR</given-names></string-name>, <string-name><surname>Costani</surname>
+<given-names>G</given-names></string-name>, <string-name><surname>Decembrino</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Parrino</surname>
+<given-names>L</given-names></string-name>. <article-title>The cyclic alternating pattern as a physiologic component of normal NREM sleep</article-title>. <source><italic toggle="yes">Sleep</italic></source>. <year>1985</year>;<volume>8</volume>(<issue>2</issue>):<fpage>137</fpage>–<lpage>145</lpage>. doi:<pub-id pub-id-type="doi">10.1093/sleep/8.2.137</pub-id><pub-id pub-id-type="pmid">4012156</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0050">
+        <label>50.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Parrino</surname>
+<given-names>L</given-names></string-name>, <string-name><surname>Ferri</surname>
+<given-names>R</given-names></string-name>, <string-name><surname>Bruni</surname>
+<given-names>O</given-names></string-name>, <string-name><surname>Terzano</surname>
+<given-names>MG</given-names></string-name>. <article-title>Cyclic alternating pattern (CAP): the marker of sleep instability</article-title>. <source><italic toggle="yes">Sleep Med Rev</italic></source>. <year>2012</year>;<volume>16</volume>(<issue>1</issue>):<fpage>27</fpage>–<lpage>45</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.smrv.2011.02.003</pub-id><pub-id pub-id-type="pmid">21616693</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0051">
+        <label>51.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Terzano</surname>
+<given-names>MG</given-names></string-name>, <string-name><surname>Parrino</surname>
+<given-names>L</given-names></string-name>, <string-name><surname>Anelli</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Halasz</surname>
+<given-names>P</given-names></string-name>, <string-name><surname>Portera-Sánchez</surname>
+<given-names>A</given-names></string-name>. <article-title>Modulation of generalized spike-and-wave discharges during sleep by cyclic alternating pattern</article-title>. <source><italic toggle="yes">Epilepsia</italic></source>. <year>1989</year>;<volume>30</volume>(<issue>6</issue>):<fpage>772</fpage>–<lpage>781</lpage>. doi:<pub-id pub-id-type="doi">10.1111/j.1528-1157.1989.tb05337.x</pub-id><pub-id pub-id-type="pmid">2591344</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0052">
+        <label>52.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Terzano</surname>
+<given-names>MG</given-names></string-name>, <string-name><surname>Smerieri</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Del Felice</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Giglia</surname>
+<given-names>F</given-names></string-name>, <string-name><surname>Palomba</surname>
+<given-names>V</given-names></string-name>, <string-name><surname>Parrino</surname>
+<given-names>L</given-names></string-name>. <article-title>Cyclic alternating pattern (CAP) alterations in narcolepsy</article-title>. <source><italic toggle="yes">Sleep Med</italic></source>. <year>2006</year>;<volume>7</volume>(<issue>8</issue>):<fpage>619</fpage>–<lpage>626</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.sleep.2005.12.003</pub-id><pub-id pub-id-type="pmid">16740406</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0053">
+        <label>53.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Parrino</surname>
+<given-names>L</given-names></string-name>, <string-name><surname>Rausa</surname>
+<given-names>F</given-names></string-name>, <string-name><surname>Azzi</surname>
+<given-names>N</given-names></string-name>, <string-name><surname>Pollara</surname>
+<given-names>I</given-names></string-name>, <string-name><surname>Mutti</surname>
+<given-names>C</given-names></string-name>. <article-title>Cyclic alternating patterns and arousals: what is relevant in obstructive sleep apnea? In Memoriam Mario Giovanni Terzano</article-title>. <source><italic toggle="yes">Curr Opin Pulm Med</italic></source>. <year>2021</year>;<volume>27</volume>(<issue>6</issue>):<fpage>496</fpage>–<lpage>504</lpage>. doi:<pub-id pub-id-type="doi">10.1097/MCP.0000000000000825</pub-id><pub-id pub-id-type="pmid">34494978</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0054">
+        <label>54.</label>
+        <mixed-citation publication-type="book"><string-name><surname>Chokroverty</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Bhat</surname>
+<given-names>S</given-names></string-name>. <part-title>Physiological changes in sleep</part-title>. In: <source><italic toggle="yes">Oxford Textbook of Sleep Disorders</italic></source>. <publisher-name>Oxford University Press</publisher-name>; <year>2017</year>.</mixed-citation>
+      </ref>
+      <ref id="cit0055">
+        <label>55.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Lopez</surname>
+<given-names>R</given-names></string-name>, <string-name><surname>Shen</surname>
+<given-names>Y</given-names></string-name>, <string-name><surname>Chenini</surname>
+<given-names>S</given-names></string-name>, et al. <article-title>Diagnostic criteria for disorders of arousal: a video-polysomnographic assessment</article-title>. <source><italic toggle="yes">Ann Neurol</italic></source>. <year>2018</year>;<volume>83</volume>(<issue>2</issue>):<fpage>341</fpage>–<lpage>351</lpage>. doi:<pub-id pub-id-type="doi">10.1002/ana.25153</pub-id><pub-id pub-id-type="pmid">29360192</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0056">
+        <label>56.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Feige</surname>
+<given-names>B</given-names></string-name>, <string-name><surname>Baglioni</surname>
+<given-names>C</given-names></string-name>, <string-name><surname>Spiegelhalder</surname>
+<given-names>K</given-names></string-name>, <string-name><surname>Hirscher</surname>
+<given-names>V</given-names></string-name>, <string-name><surname>Nissen</surname>
+<given-names>C</given-names></string-name>, <string-name><surname>Riemann</surname>
+<given-names>D</given-names></string-name>. <article-title>The microstructure of sleep in primary insomnia: an overview and extension</article-title>. <source><italic toggle="yes">Int J Psychophysiol</italic></source>. <year>2013</year>;<volume>89</volume>(<issue>2</issue>):<fpage>171</fpage>–<lpage>180</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.ijpsycho.2013.04.002</pub-id><pub-id pub-id-type="pmid">23583625</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0057">
+        <label>57.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Christensen</surname>
+<given-names>JA</given-names></string-name>, <string-name><surname>Carrillo</surname>
+<given-names>O</given-names></string-name>, <string-name><surname>Leary</surname>
+<given-names>EB</given-names></string-name>, et al. <article-title>Sleep-stage transitions during polysomnographic recordings as diagnostic features of type 1 narcolepsy</article-title>. <source><italic toggle="yes">Sleep Med</italic></source>. <year>2015</year>;<volume>16</volume>(<issue>12</issue>):<fpage>1558</fpage>–<lpage>1566</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.sleep.2015.06.007</pub-id><pub-id pub-id-type="pmid">26299470</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0058">
+        <label>58.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Hajipour</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Baumann</surname>
+<given-names>B</given-names></string-name>, <string-name><surname>Azarbarzin</surname>
+<given-names>A</given-names></string-name>, et al. <article-title>Association of alternative polysomnographic features with patient outcomes in obstructive sleep apnea: a systematic review</article-title>. <source><italic toggle="yes">J Clin Sleep Med</italic></source>. <year>2023</year>;<volume>19</volume>(<issue>2</issue>):<fpage>225</fpage>–<lpage>242</lpage>. doi:<pub-id pub-id-type="doi">10.5664/jcsm.10298</pub-id><pub-id pub-id-type="pmid">36106591</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0059">
+        <label>59.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Dressle</surname>
+<given-names>RJ</given-names></string-name>, <string-name><surname>Riemann</surname>
+<given-names>D</given-names></string-name>, <string-name><surname>Spiegelhalder</surname>
+<given-names>K</given-names></string-name>, <string-name><surname>Frase</surname>
+<given-names>L</given-names></string-name>, <string-name><surname>Perlis</surname>
+<given-names>ML</given-names></string-name>, <string-name><surname>Feige</surname>
+<given-names>B</given-names></string-name>. <article-title>On the relationship between EEG spectral analysis and pre-sleep cognitive arousal in insomnia disorder: towards an integrated model of cognitive and cortical arousal</article-title>. <source><italic toggle="yes">J Sleep Res</italic></source>. <year>2023</year>;<fpage>e13861</fpage>. doi:<pub-id pub-id-type="doi">10.1111/jsr.13861</pub-id><pub-id pub-id-type="pmid">36815625</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0060">
+        <label>60.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Christensen</surname>
+<given-names>JAE</given-names></string-name>, <string-name><surname>Jennum</surname>
+<given-names>P</given-names></string-name>, <string-name><surname>Koch</surname>
+<given-names>H</given-names></string-name>, et al. <article-title>Sleep stability and transitions in patients with idiopathic REM sleep behavior disorder and patients with Parkinson’s disease</article-title>. <source><italic toggle="yes">Clin Neurophysiol</italic></source>. <year>2016</year>;<volume>127</volume>(<issue>1</issue>):<fpage>537</fpage>–<lpage>543</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.clinph.2015.03.006</pub-id><pub-id pub-id-type="pmid">25843013</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0061">
+        <label>61.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Christensen</surname>
+<given-names>JAE</given-names></string-name>, <string-name><surname>Wassing</surname>
+<given-names>R</given-names></string-name>, <string-name><surname>Wei</surname>
+<given-names>Y</given-names></string-name>, et al. <article-title>Data-driven analysis of EEG reveals concomitant superficial sleep during deep sleep in insomnia disorder</article-title>. <source><italic toggle="yes">Front Neurosci</italic></source>. <year>2019</year>;<volume>13</volume>:<fpage>598</fpage>. doi:<pub-id pub-id-type="doi">10.3389/fnins.2019.00598</pub-id><pub-id pub-id-type="pmid">31338014</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0062">
+        <label>62.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Olsen</surname>
+<given-names>AV</given-names></string-name>, <string-name><surname>Stephansen</surname>
+<given-names>J</given-names></string-name>, <string-name><surname>Leary</surname>
+<given-names>E</given-names></string-name>, et al. <article-title>Diagnostic value of sleep stage dissociation as visualized on a 2-dimensional sleep state space in human narcolepsy</article-title>. <source><italic toggle="yes">J Neurosci Methods</italic></source>. <year>2017</year>;<volume>282</volume>:<fpage>9</fpage>–<lpage>19</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.jneumeth.2017.02.004</pub-id><pub-id pub-id-type="pmid">28219726</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0063">
+        <label>63.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Younes</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Schweitzer</surname>
+<given-names>PK</given-names></string-name>, <string-name><surname>Griffin</surname>
+<given-names>KS</given-names></string-name>, <string-name><surname>Balshaw</surname>
+<given-names>R</given-names></string-name>, <string-name><surname>Walsh</surname>
+<given-names>JK</given-names></string-name>. <article-title>Comparing two measures of sleep depth/intensity</article-title>. <source><italic toggle="yes">Sleep</italic></source>. <year>2020</year>;<volume>43</volume>(<issue>12</issue>). doi:<pub-id pub-id-type="doi">10.1093/sleep/zsaa127</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0064">
+        <label>64.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Azarbarzin</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Ostrowski</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Hanly</surname>
+<given-names>P</given-names></string-name>, <string-name><surname>Younes</surname>
+<given-names>M</given-names></string-name>. <article-title>Relationship between arousal intensity and heart rate response to arousal</article-title>. <source><italic toggle="yes">Sleep</italic></source>. <year>2014</year>;<volume>37</volume>(<issue>4</issue>):<fpage>645</fpage>–<lpage>653</lpage>. doi:<pub-id pub-id-type="doi">10.5665/sleep.3560</pub-id><pub-id pub-id-type="pmid">24899756</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0065">
+        <label>65.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Berger</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Pichot</surname>
+<given-names>V</given-names></string-name>, <string-name><surname>Solelhac</surname>
+<given-names>G</given-names></string-name>, et al. <article-title>Association between nocturnal heart rate variability and incident cardiovascular disease events: the HypnoLaus population-based study</article-title>. <source><italic toggle="yes">Heart Rhythm</italic></source>. <year>2022</year>;<volume>19</volume>(<issue>4</issue>):<fpage>632</fpage>–<lpage>639</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.hrthm.2021.11.033</pub-id><pub-id pub-id-type="pmid">34864166</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0066">
+        <label>66.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Duce</surname>
+<given-names>B</given-names></string-name>, <string-name><surname>Rego</surname>
+<given-names>C</given-names></string-name>, <string-name><surname>Milosavljevic</surname>
+<given-names>J</given-names></string-name>, <string-name><surname>Hukins</surname>
+<given-names>C</given-names></string-name>. <article-title>The AASM recommended and acceptable EEG montages are comparable for the staging of sleep and scoring of EEG arousals</article-title>. <source><italic toggle="yes">J Clin Sleep Med</italic></source>. <year>2014</year>;<volume>10</volume>(<issue>7</issue>):<fpage>803</fpage>–<lpage>809</lpage>. doi:<pub-id pub-id-type="doi">10.5664/jcsm.3880</pub-id><pub-id pub-id-type="pmid">25024660</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0067">
+        <label>67.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Ruehland</surname>
+<given-names>WR</given-names></string-name>, <string-name><surname>Churchward</surname>
+<given-names>TJ</given-names></string-name>, <string-name><surname>Schachter</surname>
+<given-names>LM</given-names></string-name>, et al. <article-title>Polysomnography using abbreviated signal montages: impact on sleep and cortical arousal scoring</article-title>. <source><italic toggle="yes">Sleep Med</italic></source>. <year>2015</year>;<volume>16</volume>(<issue>1</issue>):<fpage>173</fpage>–<lpage>180</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.sleep.2014.11.005</pub-id><pub-id pub-id-type="pmid">25547033</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0068">
+        <label>68.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Nguyen-Michel</surname>
+<given-names>VH</given-names></string-name>, <string-name><surname>Herlin</surname>
+<given-names>B</given-names></string-name>, <string-name><surname>Gales</surname>
+<given-names>A</given-names></string-name>, et al. <article-title>Sleep scoring based on video-electroencephalography monitoring in an Epileptology Unit: comparison with polysomnography</article-title>. <source><italic toggle="yes">J Sleep Res</italic></source>. <year>2021</year>;<volume>30</volume>(<issue>5</issue>):<fpage>e13332</fpage>. doi:<pub-id pub-id-type="doi">10.1111/jsr.13332</pub-id><pub-id pub-id-type="pmid">33825252</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0069">
+        <label>69.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Fiorillo</surname>
+<given-names>L</given-names></string-name>, <string-name><surname>Puiatti</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Papandrea</surname>
+<given-names>M</given-names></string-name>, et al. <article-title>Automated sleep scoring: a review of the latest approaches</article-title>. <source><italic toggle="yes">Sleep Med Rev</italic></source>. <year>2019</year>;<volume>48</volume>:<fpage>101204</fpage>. doi:<pub-id pub-id-type="doi">10.1016/j.smrv.2019.07.007</pub-id><pub-id pub-id-type="pmid">31491655</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0070">
+        <label>70.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Allocca</surname>
+<given-names>G</given-names></string-name>, <string-name><surname>Ma</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Martelli</surname>
+<given-names>D</given-names></string-name>, et al. <article-title>Validation of ‘Somnivore’, a Machine Learning Algorithm for Automated Scoring and Analysis of Polysomnography Data</article-title>. <source><italic toggle="yes">Front Neurosci</italic></source>. <year>2019</year>;<volume>13</volume>:<fpage>207</fpage>. doi:<pub-id pub-id-type="doi">10.3389/fnins.2019.00207</pub-id><pub-id pub-id-type="pmid">30936820</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0071">
+        <label>71.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Chambon</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Galtier</surname>
+<given-names>MN</given-names></string-name>, <string-name><surname>Arnal</surname>
+<given-names>PJ</given-names></string-name>, <string-name><surname>Wainrib</surname>
+<given-names>G</given-names></string-name>, <string-name><surname>Gramfort</surname>
+<given-names>A</given-names></string-name>. <article-title>A deep learning architecture for temporal sleep stage classification using multivariate and multimodal time series</article-title>. <source><italic toggle="yes">IEEE Trans Neural Syst Rehabil Eng</italic></source>. <year>2018</year>;<volume>26</volume>(<issue>4</issue>):<fpage>758</fpage>–<lpage>769</lpage>. doi:<pub-id pub-id-type="doi">10.1109/TNSRE.2018.2813138</pub-id><pub-id pub-id-type="pmid">29641380</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0072">
+        <label>72.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Tsinalis</surname>
+<given-names>O</given-names></string-name>, <string-name><surname>Matthews</surname>
+<given-names>PM</given-names></string-name>, <string-name><surname>Guo</surname>
+<given-names>Y</given-names></string-name>. <article-title>Automatic sleep stage scoring using time-frequency analysis and stacked sparse autoencoders</article-title>. <source><italic toggle="yes">Ann Biomed Eng</italic></source>. <year>2016</year>;<volume>44</volume>(<issue>5</issue>):<fpage>1587</fpage>–<lpage>1597</lpage>. doi:<pub-id pub-id-type="doi">10.1007/s10439-015-1444-y</pub-id><pub-id pub-id-type="pmid">26464268</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0073">
+        <label>73.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Supratak</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Dong</surname>
+<given-names>H</given-names></string-name>, <string-name><surname>Wu</surname>
+<given-names>C</given-names></string-name>, <string-name><surname>Guo</surname>
+<given-names>Y</given-names></string-name>. <article-title>DeepSleepNet: a model for automatic sleep stage scoring based on Raw Single-Channel EEG</article-title>. <source><italic toggle="yes">IEEE Trans Neural Syst Rehabil Eng</italic></source>. <year>2017</year>;<volume>25</volume>(<issue>11</issue>):<fpage>1998</fpage>–<lpage>2008</lpage>. doi:<pub-id pub-id-type="doi">10.1109/TNSRE.2017.2721116</pub-id><pub-id pub-id-type="pmid">28678710</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0074">
+        <label>74.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Biswal</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Sun</surname>
+<given-names>H</given-names></string-name>, <string-name><surname>Goparaju</surname>
+<given-names>B</given-names></string-name>, <string-name><surname>Westover</surname>
+<given-names>MB</given-names></string-name>, <string-name><surname>Sun</surname>
+<given-names>J</given-names></string-name>, <string-name><surname>Bianchi</surname>
+<given-names>MT</given-names></string-name>. <article-title>Expert-level sleep scoring with deep neural networks</article-title>. <source><italic toggle="yes">J Am Med Inform Assoc</italic></source>. <year>2018</year>;<volume>25</volume>(<issue>12</issue>):<fpage>1643</fpage>–<lpage>1650</lpage>. doi:<pub-id pub-id-type="doi">10.1093/jamia/ocy131</pub-id><pub-id pub-id-type="pmid">30445569</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0075">
+        <label>75.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Berthomier</surname>
+<given-names>C</given-names></string-name>, <string-name><surname>Drouot</surname>
+<given-names>X</given-names></string-name>, <string-name><surname>Herman-Stoica</surname>
+<given-names>M</given-names></string-name>, et al. <article-title>Automatic analysis of single-channel sleep EEG: validation in healthy individuals</article-title>. <source><italic toggle="yes">Sleep</italic></source>. <year>2007</year>;<volume>30</volume>(<issue>11</issue>):<fpage>1587</fpage>–<lpage>1595</lpage>. doi:<pub-id pub-id-type="doi">10.1093/sleep/30.11.1587</pub-id><pub-id pub-id-type="pmid">18041491</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0076">
+        <label>76.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Ghimatgar</surname>
+<given-names>H</given-names></string-name>, <string-name><surname>Kazemi</surname>
+<given-names>K</given-names></string-name>, <string-name><surname>Helfroush</surname>
+<given-names>MS</given-names></string-name>, <string-name><surname>Aarabi</surname>
+<given-names>A</given-names></string-name>. <article-title>An automatic single-channel EEG-based sleep stage scoring method based on hidden Markov Model</article-title>. <source><italic toggle="yes">J Neurosci Methods</italic></source>. <year>2019</year>;<volume>324</volume>:<fpage>108320</fpage>. doi:<pub-id pub-id-type="doi">10.1016/j.jneumeth.2019.108320</pub-id><pub-id pub-id-type="pmid">31228517</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0077">
+        <label>77.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Zhu</surname>
+<given-names>G</given-names></string-name>, <string-name><surname>Li</surname>
+<given-names>Y</given-names></string-name>, <string-name><surname>Wen</surname>
+<given-names>PP</given-names></string-name>. <article-title>Analysis and classification of sleep stages based on difference visibility graphs from a single-channel EEG signal</article-title>. <source><italic toggle="yes">IEEE J Biomed Health Inform</italic></source>. <year>2014</year>;<volume>18</volume>(<issue>6</issue>):<fpage>1813</fpage>–<lpage>1821</lpage>. doi:<pub-id pub-id-type="doi">10.1109/JBHI.2014.2303991</pub-id><pub-id pub-id-type="pmid">25375678</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0078">
+        <label>78.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Peter-Derex</surname>
+<given-names>L</given-names></string-name>, <string-name><surname>Berthomier</surname>
+<given-names>C</given-names></string-name>, <string-name><surname>Taillard</surname>
+<given-names>J</given-names></string-name>, et al. <article-title>Automatic analysis of single-channel sleep EEG in a large spectrum of sleep disorders</article-title>. <source><italic toggle="yes">J Clin Sleep Med</italic></source>. <year>2020</year>;<volume>16</volume>(<issue>9</issue>):<fpage>1507</fpage>–<lpage>1515</lpage>. doi:<pub-id pub-id-type="doi">10.5664/jcsm.8574</pub-id><pub-id pub-id-type="pmid">32406372</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0079">
+        <label>79.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Sors</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Bonnet</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Mirek</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Vercueil</surname>
+<given-names>L</given-names></string-name>, <string-name><surname>Payen</surname>
+<given-names>J-F</given-names></string-name>. <article-title>A convolutional neural network for sleep stage scoring from raw single-channel EEG</article-title>. <source><italic toggle="yes">Biomed Signal Process Control</italic></source>. <year>2018</year>;<volume>42</volume>:<fpage>107</fpage>–<lpage>114</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.bspc.2017.12.001</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0080">
+        <label>80.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Fu</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Wang</surname>
+<given-names>Y</given-names></string-name>, <string-name><surname>Chen</surname>
+<given-names>Z</given-names></string-name>, et al. <article-title>Deep learning in automatic sleep staging with a single channel electroencephalography</article-title>. <source><italic toggle="yes">Front Physiol</italic></source>. <year>2021</year>;<volume>12</volume>:<fpage>628502</fpage>. doi:<pub-id pub-id-type="doi">10.3389/fphys.2021.628502</pub-id><pub-id pub-id-type="pmid">33746774</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0081">
+        <label>81.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Nazih</surname>
+<given-names>W</given-names></string-name>, <string-name><surname>Shahin</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Eldesouki</surname>
+<given-names>MI</given-names></string-name>, <string-name><surname>Ahmed</surname>
+<given-names>B</given-names></string-name>. <article-title>Influence of channel selection and subject’s age on the performance of the single channel EEG-based automatic sleep staging algorithms</article-title>. <source><italic toggle="yes">Sensors</italic></source>. <year>2023</year>;<volume>23</volume>(<issue>2</issue>):<fpage>899</fpage>. doi:<pub-id pub-id-type="doi">10.3390/s23020899</pub-id><pub-id pub-id-type="pmid">36679711</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0082">
+        <label>82.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Mikkelsen</surname>
+<given-names>KB</given-names></string-name>, <string-name><surname>Kappel</surname>
+<given-names>SL</given-names></string-name>, <string-name><surname>Mandic</surname>
+<given-names>DP</given-names></string-name>, <string-name><surname>Kidmose</surname>
+<given-names>P</given-names></string-name>. <article-title>EEG recorded from the Ear: characterizing the Ear-EEG method</article-title>. <source><italic toggle="yes">Front Neurosci</italic></source>. <year>2015</year>;<volume>9</volume>:<fpage>438</fpage>. doi:<pub-id pub-id-type="doi">10.3389/fnins.2015.00438</pub-id><pub-id pub-id-type="pmid">26635514</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0083">
+        <label>83.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Mikkelsen</surname>
+<given-names>KB</given-names></string-name>, <string-name><surname>Villadsen</surname>
+<given-names>DB</given-names></string-name>, <string-name><surname>Otto</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Kidmose</surname>
+<given-names>P</given-names></string-name>. <article-title>Automatic sleep staging using ear-EEG</article-title>. <source><italic toggle="yes">Biomed Eng Online</italic></source>. <year>2017</year>;<volume>16</volume>(<issue>1</issue>):<fpage>111</fpage>. doi:<pub-id pub-id-type="doi">10.1186/s12938-017-0400-5</pub-id><pub-id pub-id-type="pmid">28927417</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0084">
+        <label>84.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Arnal</surname>
+<given-names>PJ</given-names></string-name>, <string-name><surname>Thorey</surname>
+<given-names>V</given-names></string-name>, <string-name><surname>Debellemaniere</surname>
+<given-names>E</given-names></string-name>, et al. <article-title>The Dreem Headband compared to polysomnography for electroencephalographic signal acquisition and sleep staging</article-title>. <source><italic toggle="yes">Sleep</italic></source>. <year>2020</year>;<volume>43</volume>(<issue>11</issue>). doi:<pub-id pub-id-type="doi">10.1093/sleep/zsaa097</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0085">
+        <label>85.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Chen</surname>
+<given-names>X</given-names></string-name>, <string-name><surname>Jin</surname>
+<given-names>X</given-names></string-name>, <string-name><surname>Zhang</surname>
+<given-names>J</given-names></string-name>, <string-name><surname>Ho</surname>
+<given-names>KW</given-names></string-name>, <string-name><surname>Wei</surname>
+<given-names>Y</given-names></string-name>, <string-name><surname>Cheng</surname>
+<given-names>H</given-names></string-name>. <article-title>Validation of a wearable forehead sleep recorder against polysomnography in sleep staging and desaturation events in a clinical sample</article-title>. <source><italic toggle="yes">J Clin Sleep Med</italic></source>. <year>2023</year>;<volume>19</volume>(<issue>4</issue>):<fpage>711</fpage>–<lpage>718</lpage>. doi:<pub-id pub-id-type="doi">10.5664/jcsm.10416</pub-id><pub-id pub-id-type="pmid">36689310</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0086">
+        <label>86.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Nakamura</surname>
+<given-names>T</given-names></string-name>, <string-name><surname>Alqurashi</surname>
+<given-names>YD</given-names></string-name>, <string-name><surname>Morrell</surname>
+<given-names>MJ</given-names></string-name>, <string-name><surname>Mandic</surname>
+<given-names>DP</given-names></string-name>. <article-title>Hearables: automatic overnight sleep monitoring with standardized in-Ear EEG Sensor</article-title>. <source><italic toggle="yes">IEEE Trans Biomed Eng</italic></source>. <year>2020</year>;<volume>67</volume>(<issue>1</issue>):<fpage>203</fpage>–<lpage>212</lpage>. doi:<pub-id pub-id-type="doi">10.1109/TBME.2019.2911423</pub-id><pub-id pub-id-type="pmid">31021747</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0087">
+        <label>87.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Gorgoni</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Sarasso</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Moroni</surname>
+<given-names>F</given-names></string-name>, et al. <article-title>The distinctive sleep pattern of the human calcarine cortex: a stereo-electroencephalographic study</article-title>. <source><italic toggle="yes">Sleep</italic></source>. <year>2021</year>;<volume>44</volume>(<issue>7</issue>). doi:<pub-id pub-id-type="doi">10.1093/sleep/zsab026</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0088">
+        <label>88.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Bodizs</surname>
+<given-names>R</given-names></string-name>, <string-name><surname>Kantor</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Szabo</surname>
+<given-names>G</given-names></string-name>, <string-name><surname>Szucs</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Eross</surname>
+<given-names>L</given-names></string-name>, <string-name><surname>Halasz</surname>
+<given-names>P</given-names></string-name>. <article-title>Rhythmic hippocampal slow oscillation characterizes REM sleep in humans</article-title>. <source><italic toggle="yes">Hippocampus</italic></source>. <year>2001</year>;<volume>11</volume>(<issue>6</issue>):<fpage>747</fpage>–<lpage>753</lpage>. doi:<pub-id pub-id-type="doi">10.1002/hipo.1090</pub-id><pub-id pub-id-type="pmid">11811669</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0089">
+        <label>89.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Rahman</surname>
+<given-names>MM</given-names></string-name>, <string-name><surname>Bhuiyan</surname>
+<given-names>MIH</given-names></string-name>, <string-name><surname>Hassan</surname>
+<given-names>AR</given-names></string-name>. <article-title>Sleep stage classification using single-channel EOG</article-title>. <source><italic toggle="yes">Comput Biol Med</italic></source>. <year>2018</year>;<volume>102</volume>:<fpage>211</fpage>–<lpage>220</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.compbiomed.2018.08.022</pub-id><pub-id pub-id-type="pmid">30170769</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0090">
+        <label>90.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Fan</surname>
+<given-names>J</given-names></string-name>, <string-name><surname>Sun</surname>
+<given-names>C</given-names></string-name>, <string-name><surname>Long</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Chen</surname>
+<given-names>C</given-names></string-name>, <string-name><surname>Chen</surname>
+<given-names>W</given-names></string-name>. <article-title>EOGNET: a novel deep learning model for sleep stage classification based on single-channel EOG signal</article-title>. <source><italic toggle="yes">Front Neurosci</italic></source>. <year>2021</year>;<volume>15</volume>:<fpage>573194</fpage>. doi:<pub-id pub-id-type="doi">10.3389/fnins.2021.573194</pub-id><pub-id pub-id-type="pmid">34321991</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0091">
+        <label>91.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Kim</surname>
+<given-names>H</given-names></string-name>, <string-name><surname>Kim</surname>
+<given-names>D</given-names></string-name>, <string-name><surname>Oh</surname>
+<given-names>J</given-names></string-name>. <article-title>Automation of classification of sleep stages and estimation of sleep efficiency using actigraphy</article-title>. <source><italic toggle="yes">Front Public Health</italic></source>. <year>2022</year>;<volume>10</volume>:<fpage>1092222</fpage>. doi:<pub-id pub-id-type="doi">10.3389/fpubh.2022.1092222</pub-id><pub-id pub-id-type="pmid">36699913</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0092">
+        <label>92.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Hedner</surname>
+<given-names>J</given-names></string-name>, <string-name><surname>White</surname>
+<given-names>DP</given-names></string-name>, <string-name><surname>Malhotra</surname>
+<given-names>A</given-names></string-name>, et al. <article-title>Sleep staging based on autonomic signals: a multi-center validation study</article-title>. <source><italic toggle="yes">J Clin Sleep Med</italic></source>. <year>2011</year>;<volume>7</volume>(<issue>3</issue>):<fpage>301</fpage>–<lpage>306</lpage>. doi:<pub-id pub-id-type="doi">10.5664/JCSM.1078</pub-id><pub-id pub-id-type="pmid">21677901</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0093">
+        <label>93.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Gaiduk</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Perea</surname>
+<given-names>JJ</given-names></string-name>, <string-name><surname>Seepold</surname>
+<given-names>R</given-names></string-name>, et al. <article-title>Estimation of sleep stages analyzing respiratory and movement signals</article-title>. <source><italic toggle="yes">IEEE J Biomed Health Inform</italic></source>. <year>2022</year>;<volume>26</volume>(<issue>2</issue>):<fpage>505</fpage>–<lpage>514</lpage>. doi:<pub-id pub-id-type="doi">10.1109/JBHI.2021.3099295</pub-id><pub-id pub-id-type="pmid">34310330</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0094">
+        <label>94.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Tataraidze</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Anishchenko</surname>
+<given-names>L</given-names></string-name>, <string-name><surname>Korostovtseva</surname>
+<given-names>L</given-names></string-name>, <string-name><surname>Kooij</surname>
+<given-names>BJ</given-names></string-name>, <string-name><surname>Bochkarev</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Sviryaev</surname>
+<given-names>Y</given-names></string-name>. <article-title>Sleep stage classification based on respiratory signal</article-title>. <source><italic toggle="yes">Annu Int Conf IEEE Eng Med Biol Soc</italic></source>. <year>2015</year>;<volume>2015</volume>:<fpage>358</fpage>–<lpage>361</lpage>. doi:<pub-id pub-id-type="doi">10.1109/EMBC.2015.7318373</pub-id><pub-id pub-id-type="pmid">26736273</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0095">
+        <label>95.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Le-Dong</surname>
+<given-names>NN</given-names></string-name>, <string-name><surname>Martinot</surname>
+<given-names>JB</given-names></string-name>, <string-name><surname>Coumans</surname>
+<given-names>N</given-names></string-name>, et al. <article-title>Machine learning-based sleep staging in patients with sleep apnea using a single mandibular movement signal</article-title>. <source><italic toggle="yes">Am J Respir Crit Care Med</italic></source>. <year>2021</year>;<volume>204</volume>(<issue>10</issue>):<fpage>1227</fpage>–<lpage>1231</lpage>. doi:<pub-id pub-id-type="doi">10.1164/rccm.202103-0680LE</pub-id><pub-id pub-id-type="pmid">34297641</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0096">
+        <label>96.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Dafna</surname>
+<given-names>E</given-names></string-name>, <string-name><surname>Tarasiuk</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Zigel</surname>
+<given-names>Y</given-names></string-name>. <article-title>Sleep staging using nocturnal sound analysis</article-title>. <source><italic toggle="yes">Sci Rep</italic></source>. <year>2018</year>;<volume>8</volume>(<issue>1</issue>):<fpage>13474</fpage>. doi:<pub-id pub-id-type="doi">10.1038/s41598-018-31748-0</pub-id><pub-id pub-id-type="pmid">30194402</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0097">
+        <label>97.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Zaffaroni</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Gahan</surname>
+<given-names>L</given-names></string-name>, <string-name><surname>Heneghan</surname>
+<given-names>C</given-names></string-name>, et al. <article-title>Automated sleep staging classification using a non-contact biomotion sensor</article-title>. <source><italic toggle="yes">J Sleep Res</italic></source>. <year>2014</year>;<volume>23</volume>(<issue>105</issue>):<fpage>475</fpage>–<lpage>484</lpage>. doi:<pub-id pub-id-type="doi">10.1111/jsr.12126</pub-id><pub-id pub-id-type="pmid">24495222</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0098">
+        <label>98.</label>
+        <mixed-citation publication-type="book"><string-name><surname>Valery</surname>
+<given-names>P</given-names></string-name>. <source><italic toggle="yes">Oeuvres Tome II</italic></source>. <publisher-name>Gallimard</publisher-name>; <year>1960</year>.</mixed-citation>
+      </ref>
+      <ref id="cit0099">
+        <label>99.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Stanley</surname>
+<given-names>N</given-names></string-name>. <article-title>The future of sleep staging</article-title>. <source><italic toggle="yes">Hum Psychopharmacol</italic></source>. <year>1996</year>;<volume>11</volume>(<issue>3</issue>):<fpage>253</fpage>–<lpage>257</lpage>.</mixed-citation>
+      </ref>
+      <ref id="cit0100">
+        <label>100.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Roehrs</surname>
+<given-names>T</given-names></string-name>, <string-name><surname>Kapke</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Roth</surname>
+<given-names>T</given-names></string-name>, <string-name><surname>Breslau</surname>
+<given-names>N</given-names></string-name>. <article-title>Sex differences in the polysomnographic sleep of young adults: a community-based study</article-title>. <source><italic toggle="yes">Sleep Med</italic></source>. <year>2006</year>;<volume>7</volume>(<issue>1</issue>):<fpage>49</fpage>–<lpage>53</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.sleep.2005.05.008</pub-id><pub-id pub-id-type="pmid">16194623</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0101">
+        <label>101.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Yoon</surname>
+<given-names>JE</given-names></string-name>, <string-name><surname>Oh</surname>
+<given-names>D</given-names></string-name>, <string-name><surname>Hwang</surname>
+<given-names>I</given-names></string-name>, et al. <article-title>Sleep structure and electroencephalographic spectral power of middle-aged or older adults: normative values by age and sex in the Korean population</article-title>. <source><italic toggle="yes">J Sleep Res</italic></source>. <year>2021</year>;<volume>30</volume>(<issue>6</issue>):<fpage>e13358</fpage>. doi:<pub-id pub-id-type="doi">10.1111/jsr.13358</pub-id><pub-id pub-id-type="pmid">33949014</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0102">
+        <label>102.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Mander</surname>
+<given-names>BA</given-names></string-name>, <string-name><surname>Winer</surname>
+<given-names>JR</given-names></string-name>, <string-name><surname>Walker</surname>
+<given-names>MP</given-names></string-name>. <article-title>Sleep and Human Aging</article-title>. <source><italic toggle="yes">Neuron</italic></source>. <year>2017</year>;<volume>94</volume>(<issue>1</issue>):<fpage>19</fpage>–<lpage>36</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.neuron.2017.02.004</pub-id><pub-id pub-id-type="pmid">28384471</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0103">
+        <label>103.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Zhang</surname>
+<given-names>ZY</given-names></string-name>, <string-name><surname>Campbell</surname>
+<given-names>IG</given-names></string-name>, <string-name><surname>Dhayagude</surname>
+<given-names>P</given-names></string-name>, <string-name><surname>Espino</surname>
+<given-names>HC</given-names></string-name>, <string-name><surname>Feinberg</surname>
+<given-names>I</given-names></string-name>. <article-title>Longitudinal analysis of sleep spindle maturation from childhood through late adolescence</article-title>. <source><italic toggle="yes">J Neurosci</italic></source>. <year>2021</year>;<volume>41</volume>(<issue>19</issue>):<fpage>4253</fpage>–<lpage>4261</lpage>. doi:<pub-id pub-id-type="doi">10.1523/JNEUROSCI.2370-20.2021</pub-id><pub-id pub-id-type="pmid">33785642</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0104">
+        <label>104.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Gauld</surname>
+<given-names>C</given-names></string-name>, <string-name><surname>Micoulaud-Franchi</surname>
+<given-names>JA</given-names></string-name>. <article-title>Why could sleep medicine never do without polysomnography?</article-title>
+<source><italic toggle="yes">J Sleep Res</italic></source>. <year>2021</year>;<volume>31</volume>(<issue>4</issue>):<fpage>e13541</fpage>. doi:<pub-id pub-id-type="doi">10.1111/jsr.13541</pub-id><pub-id pub-id-type="pmid">34927296</pub-id></mixed-citation>
+      </ref>
+    </ref-list>
+  </back>
+</article>
+</pmc-articleset>

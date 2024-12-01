@@ -1,0 +1,507 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<pmc-articleset><article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" dtd-version="1.3" xml:lang="en" article-type="research-article">
+  <?properties open_access?>
+  <processing-meta base-tagset="archiving" mathml-version="3.0" table-model="xhtml" tagset-family="jats">
+    <restricted-by>pmc</restricted-by>
+  </processing-meta>
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="nlm-ta">Nat Sci Sleep</journal-id>
+      <journal-id journal-id-type="iso-abbrev">Nat Sci Sleep</journal-id>
+      <journal-id journal-id-type="publisher-id">nss</journal-id>
+      <journal-title-group>
+        <journal-title>Nature and Science of Sleep</journal-title>
+      </journal-title-group>
+      <issn pub-type="epub">1179-1608</issn>
+      <publisher>
+        <publisher-name>Dove</publisher-name>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="pmid">37274453</article-id>
+      <article-id pub-id-type="pmc">10239247</article-id>
+      <article-id pub-id-type="publisher-id">397196</article-id>
+      <article-id pub-id-type="doi">10.2147/NSS.S397196</article-id>
+      <article-categories>
+        <subj-group subj-group-type="heading">
+          <subject>Original Research</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>Sleep Apnea Detection by Tracheal Motion and Sound, and Oximetry via Application of Deep Neural Networks</article-title>
+        <alt-title alt-title-type="running-authors">Montazeri Ghahjaverestan et al</alt-title>
+        <alt-title alt-title-type="running-title">Montazeri Ghahjaverestan et al</alt-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0003-0960-9632</contrib-id>
+          <name>
+            <surname>Montazeri Ghahjaverestan</surname>
+            <given-names>Nasim</given-names>
+          </name>
+          <xref rid="aff0001" ref-type="aff">
+<sup>1</sup>
+</xref>
+          <xref rid="aff0002" ref-type="aff">
+<sup>2</sup>
+</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Aguiar</surname>
+            <given-names>Cristiano</given-names>
+          </name>
+          <xref rid="aff0003" ref-type="aff">
+<sup>3</sup>
+</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Hummel</surname>
+            <given-names>Richard</given-names>
+          </name>
+          <xref rid="aff0003" ref-type="aff">
+<sup>3</sup>
+</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Cao</surname>
+            <given-names>Xiaoshu</given-names>
+          </name>
+          <xref rid="aff0004" ref-type="aff">
+<sup>4</sup>
+</xref>
+          <xref rid="aff0005" ref-type="aff">
+<sup>5</sup>
+</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Yu</surname>
+            <given-names>Jackson</given-names>
+          </name>
+          <xref rid="aff0003" ref-type="aff">
+<sup>3</sup>
+</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Bradley</surname>
+            <given-names>T Douglas</given-names>
+          </name>
+          <xref rid="aff0002" ref-type="aff">
+<sup>2</sup>
+</xref>
+          <xref rid="aff0003" ref-type="aff">
+<sup>3</sup>
+</xref>
+          <xref rid="aff0005" ref-type="aff">
+<sup>5</sup>
+</xref>
+          <xref rid="aff0006" ref-type="aff">
+<sup>6</sup>
+</xref>
+          <xref rid="an0001" ref-type="corresp"/>
+        </contrib>
+        <aff id="aff0001"><label>1</label><institution>Sleep and Brain Health Laboratory, Sunnybrook Research Institute</institution>, <addr-line>Toronto</addr-line>, <addr-line>Ontario</addr-line>, <country>Canada</country></aff>
+        <aff id="aff0002"><label>2</label><institution>Faculty of Medicine, University of Toronto</institution>, <addr-line>Toronto</addr-line>, <addr-line>Ontario</addr-line>, <country>Canada</country></aff>
+        <aff id="aff0003"><label>3</label><institution>Bresotec Inc</institution>, <addr-line>Toronto</addr-line>, <addr-line>Ontario</addr-line>, <country>Canada</country></aff>
+        <aff id="aff0004"><label>4</label><institution>Institute of Biomedical Engineering, University of Toronto</institution>, <addr-line>Toronto</addr-line>, <addr-line>Ontario</addr-line>, <country>Canada</country></aff>
+        <aff id="aff0005"><label>5</label><institution>KITE, Toronto Rehabilitation Institute, University Health Network</institution>, <addr-line>Toronto</addr-line>, <addr-line>Ontario</addr-line>, <country>Canada</country></aff>
+        <aff id="aff0006"><label>6</label><institution>Department of Medicine of the University Health Network, Toronto General Hospital</institution>, <addr-line>Toronto</addr-line>, <addr-line>Ontario</addr-line>, <country>Canada</country></aff>
+      </contrib-group>
+      <author-notes>
+        <corresp id="an0001">Correspondence: T Douglas Bradley, <institution>University Health Network Toronto General Hospital</institution>, <addr-line>Room 9N-943, 200 Elizabeth Street</addr-line>, <addr-line>Toronto</addr-line>, <addr-line>ON</addr-line>, <addr-line>M5G 2C4</addr-line>, <country>Canada</country>, <phone>Tel +416-340-4719</phone>, <fax>Fax +416-340-4197</fax>, Email douglas.bradley@utoronto.ca</corresp>
+      </author-notes>
+      <pub-date pub-type="epub">
+        <day>30</day>
+        <month>5</month>
+        <year>2023</year>
+      </pub-date>
+      <pub-date pub-type="collection">
+        <year>2023</year>
+      </pub-date>
+      <volume>15</volume>
+      <fpage>423</fpage>
+      <lpage>432</lpage>
+      <history>
+        <date date-type="received">
+          <day>11</day>
+          <month>11</month>
+          <year>2022</year>
+        </date>
+        <date date-type="accepted">
+          <day>24</day>
+          <month>4</month>
+          <year>2023</year>
+        </date>
+      </history>
+      <permissions>
+        <copyright-statement>© 2023 Montazeri Ghahjaverestan et al.</copyright-statement>
+        <copyright-year>2023</copyright-year>
+        <copyright-holder>Montazeri Ghahjaverestan et al.</copyright-holder>
+        <license>
+          <ali:license_ref xmlns:ali="http://www.niso.org/schemas/ali/1.0/" specific-use="textmining" content-type="ccbynclicense">https://creativecommons.org/licenses/by-nc/3.0/</ali:license_ref>
+          <license-p>This work is published and licensed by Dove Medical Press Limited. The full terms of this license are available at <ext-link ext-link-type="uri" xlink:href="https://www.dovepress.com/terms.php">https://www.dovepress.com/terms.php</ext-link> and incorporate the Creative Commons Attribution – Non Commercial (unported, v3.0) License (<ext-link ext-link-type="uri" xlink:href="https://creativecommons.org/licenses/by-nc/3.0/">http://creativecommons.org/licenses/by-nc/3.0/</ext-link>). By accessing the work you hereby accept the Terms. Non-commercial uses of the work are permitted without any further permission from Dove Medical Press Limited, provided the work is properly attributed. For permission for commercial use of this work, please see paragraphs 4.2 and 5 of our Terms (<ext-link ext-link-type="uri" xlink:href="https://www.dovepress.com/terms.php">https://www.dovepress.com/terms.php</ext-link>).</license-p>
+        </license>
+      </permissions>
+      <abstract>
+        <sec>
+          <title>Purpose</title>
+          <p><citation_analysis attribute="positive">Sleep apnea (SA) is highly prevalent, but under diagnosed due to inaccessibility of sleep testing. To address this issue, portable devices for home sleep testing have been developed to provide convenience with reasonable accuracy in diagnosing SA. The objective of this study was to test the validity a novel portable sleep apnea testing device, BresoDX1, in SA diagnosis, via recording of trachea-sternal motion, tracheal sound and oximetry.</citation_analysis></p>
+        </sec>
+        <sec>
+          <title>Patients and Methods</title>
+          <p><citation_analysis attribute="neither">Adults with a suspected sleep disorder were recruited to undergo in-laboratory polysomnography (PSG) and a simultaneous BresoDX1 recording. Data from BresoDX1 were collected and features related to breathing sounds, body motions and oximetry were extracted. A deep neural network (DNN) model was trained with 61-second epochs of the extracted features to detect apneas and hypopneas from which an apnea-hypopnea index (AHI) was calculated. The AHI estimated by BresoDX1 (AHI</citation_analysis><citation_analysis attribute="positive"><sub>breso</sub></citation_analysis><citation_analysis attribute="neither">) was compared to the AHI determined from PSG (AHI</citation_analysis><citation_analysis attribute="positive"><sub>PSG</sub></citation_analysis><citation_analysis attribute="positive">) and the sensitivity and specificity of SA diagnosis were assessed at an AHI</citation_analysis><citation_analysis attribute="positive"><sub>PSG</sub></citation_analysis><citation_analysis attribute="neither"> ≥ 15.</citation_analysis></p>
+        </sec>
+        <sec>
+          <title>Results</title>
+          <p><citation_analysis attribute="neither">Two-hundred thirty-three participants (mean ± SD) 50 ± 16 years of age, with BMI of 29.8 ± 6.6 and AHI of 19.5 ± 22.7, were included. There was a strong relationship between AHI</citation_analysis><citation_analysis attribute="positive"><sub>breso</sub></citation_analysis><citation_analysis attribute="neither"> and AHI</citation_analysis><citation_analysis attribute="positive"><sub>PSG</sub></citation_analysis><citation_analysis attribute="neither"> (r = 0.91, p &lt; 0.001). SA detection for an AHI</citation_analysis><citation_analysis attribute="positive"><sub>PSG</sub></citation_analysis><citation_analysis attribute="neither"> ≥ 15 was highly sensitive (90.0%) and specific (85.9%).</citation_analysis></p>
+        </sec>
+        <sec>
+          <title>Conclusion</title>
+          <p><citation_analysis attribute="neither">We conclude that the DNN model we developed via recording and analyses of trachea-sternal motion and sound along with oximetry provides an accurate estimate of the AHI</citation_analysis><citation_analysis attribute="positive"><sub>PSG</sub></citation_analysis><citation_analysis attribute="neither"> with high sensitivity and specificity. Therefore, BresoDX1 is a simple, convenient and accurate portable SA monitoring device that could be employed for home SA testing in the future.</citation_analysis></p>
+        </sec>
+      </abstract>
+      <kwd-group kwd-group-type="author">
+        <title>Keywords</title>
+        <kwd>sleep apnea</kwd>
+        <kwd>portable sleep testing</kwd>
+        <kwd>tracheal acoustics</kwd>
+      </kwd-group>
+      <counts>
+        <fig-count count="5"/>
+        <table-count count="2"/>
+        <ref-count count="30"/>
+        <page-count count="10"/>
+      </counts>
+    </article-meta>
+  </front>
+  <body>
+    <sec sec-type="intro" id="s0001">
+      <title>Introduction</title>
+      <p><citation_analysis attribute="neither">Sleep apnea (SA) is a chronic condition characterized by repetitive cessations (apnea), or reductions (hypopnea) in breathing resulting in recurrent hypoxia and arousals from sleep. Despite the high prevalence in the general population (approximately 10%),</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0001" ref-type="bibr">1</xref></citation_analysis><citation_analysis attribute="neither">,</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0002" ref-type="bibr">2</xref></citation_analysis><citation_analysis attribute="neither"> SA is underdiagnosed.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0003" ref-type="bibr">3</xref></citation_analysis><citation_analysis attribute="neither"> One reason for this is that standard diagnostic overnight, polysomnography (PSG), is costly, relatively inaccessible and, because it requires an overnight stay in a sleep laboratory, is inconvenient for patients.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0004" ref-type="bibr">4</xref></citation_analysis><citation_analysis attribute="neither"> To address this diagnostic deficiency, several portable sleep apnea monitoring devices have been developed for home use. Despite having reasonable accuracy in identifying subjects with SA, such devices can be less accurate and reliable in detecting apneas and hypopneas than PSG.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0005" ref-type="bibr">5</xref></citation_analysis></p>
+      <p><citation_analysis attribute="neither">Portable devices generally use nasal pressure cannulae for measuring airflow, respiratory inductance plethysmography (RIP) or piezo-electric crystals for measuring respiratory motion and finger oximetry to measure arterial oxyhemoglobin saturation (SaO</citation_analysis><citation_analysis attribute="positive"><sub>2</sub></citation_analysis><citation_analysis attribute="negative">) to detect respiratory events. However, during unattended sleep monitoring at home, nasal cannulae, respiratory bands and oximeters can be displaced so that signals may either be inconsistent or lost. Another potential and convenient means of assessing respiratory motion and airflow is through recording of tracheal motion and breath sounds.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0006" ref-type="bibr">6</xref></citation_analysis><citation_analysis attribute="positive"> These can be assessed by securing an accelerometer and a microphone over the trachea in the suprasternal notch to measure trachea-sternal movements and tracheal sounds, respectively. Previous studies have shown that the apnea-hypopnea index (AHI) can be estimated using only tracheal sounds,</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0007" ref-type="bibr">7–9</xref></citation_analysis><citation_analysis attribute="neither"> tracheal motion,</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0009" ref-type="bibr">9–13</xref></citation_analysis><citation_analysis attribute="neither"> or both</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0007" ref-type="bibr">7</xref></citation_analysis><citation_analysis attribute="neither">,</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0014" ref-type="bibr">14</xref></citation_analysis><citation_analysis attribute="neither"> in relatively small numbers of subjects with reasonable accuracy, but not in sufficient numbers to provide reliable diagnoses in the clinical setting.</citation_analysis></p>
+      <p><citation_analysis attribute="positive">We have recently demonstrated that the analysis of trachea-sternal motion and breath sounds can provide a very accurate estimate of respiratory motion, as assessed by RIP, and changes in airflow, as assessed by nasal pressure, during both wakefulness and sleep.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0015" ref-type="bibr">15</xref></citation_analysis><citation_analysis attribute="positive"> In that study, we also showed that the accuracy of detecting changes in airflow was highest during apneas and hypopneas. The objective of the present study was to develop a method to accurately detect SA by recording trachea-sternal motion and sound, along with SaO</citation_analysis><citation_analysis attribute="positive"><sub>2</sub></citation_analysis><citation_analysis attribute="neither"> and subjecting these signals to deep neural networks (DNNs) with high computing potential.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0016" ref-type="bibr">16</xref></citation_analysis><citation_analysis attribute="neither"> Recent advances in artificial intelligence approaches, especially development of DNNs, have led to their extensive use in health-care applications and specifically increasing the accuracy of diagnostic sleep apnea testing.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0017" ref-type="bibr">17</xref></citation_analysis><citation_analysis attribute="positive"> We employed these techniques to estimate AHI in a larger population than in previous studies using similar technology. This work has not been published elsewhere except as an abstract at the Sleep Meeting in 2022.</citation_analysis></p>
+    </sec>
+    <sec id="s0002">
+      <title>Materials and Methods</title>
+      <sec id="s0002-s2001">
+        <title>Subjects</title>
+        <p><citation_analysis attribute="positive">Men and women aged 18 years and above who were referred to the University Health Network (UHN) sleep laboratories for assessment of a possible sleep disorder were included in this study. In-hospital patients, those with self-reported neuromuscular disorders, obesity hypoventilation, chronic obstructive pulmonary disease, heart failure and subjects who were not fluent in English were excluded. The study was approved by the Research Ethics Board of the University Health Network (IRB #: 17–6258 and 19–5601). All participants provided written informed consent prior to participation. The study complied with the Declaration of Helsinki.</citation_analysis></p>
+      </sec>
+      <sec id="s0002-s2002">
+        <title>Measurements</title>
+        <sec id="s0002-s2002-s3001">
+          <title>Polysomnography</title>
+          <p><citation_analysis attribute="neither">Participants underwent an overnight PSG, from which sleep stages, arousals, apneas, and hypopneas were scored by technicians, blinded to the results of our portable SA monitoring system (BresoDX1, Bresotec Inc., Toronto, ON, Canada) recordings, according to the American Academy of Sleep Medicine (AASM) guidelines version 2.6.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0018" ref-type="bibr">18</xref></citation_analysis><citation_analysis attribute="positive"> Airflow was measured using a nasal cannula, thoracoabdominal movements by RIP, and SaO</citation_analysis><citation_analysis attribute="positive"><sub>2</sub></citation_analysis><citation_analysis attribute="neither"> by a pulse oximeter. Apnea was defined as a ≥90% reduction in the airflow for ≥10 seconds. Hypopnea was defined as 30% to 89% reduction in the airflow with either ≥3% oxygen desaturation and/or terminated by a cortical arousal. All signals were recorded on a computerized system (Embla</citation_analysis><citation_analysis attribute="positive"><sup>®</sup></citation_analysis><citation_analysis attribute="neither"> S4500, Natus Medical Incorporated, Middleton, WI, USA).</citation_analysis></p>
+        </sec>
+        <sec id="s0002-s2002-s3002">
+          <title>Tracheal Signals</title>
+          <p><citation_analysis attribute="neither">Simultaneous to PSG, trachea-sternal motion and tracheal sound were recorded by a 3-dimensional accelerometer and a microphone, respectively, embedded in a small module, BresoDX1, attached to the suprasternal notch with adhesive tape (</citation_analysis><citation_analysis attribute="positive"><xref rid="f0001" ref-type="fig">Figure 1</xref></citation_analysis><citation_analysis attribute="neither">). Tracheo-sternal motion and sound were recorded at 100 and 8000 Hz, respectively, and were transmitted by Wi-Fi to the data collection unit placed on a bedside table A finger pulse oximeter (Nonin 3150 WristOx2</citation_analysis><citation_analysis attribute="positive"><sup>®</sup></citation_analysis><citation_analysis attribute="neither"> pulse oximeter-K102350, Plymouth, MN, USA) recorded SaO</citation_analysis><citation_analysis attribute="positive"><sub>2</sub></citation_analysis><citation_analysis attribute="neither"> data and transmitted them to the data collection unit via Bluetooth (</citation_analysis><citation_analysis attribute="positive"><xref rid="f0001" ref-type="fig">Figure 1</xref></citation_analysis><citation_analysis attribute="neither">). The BresoDX1 recordings were synchronized to the PSG recording.
+</citation_analysis><citation_analysis attribute="positive"><fig position="float" id="f0001" fig-type="figure"><label>Figure 1</label><caption><p><citation_analysis attribute="neither">The BresoDX1 and its computing module, which simultaneously collects trachea-sternal motion and tracheal sound from the BresoDX1 and SaO</citation_analysis><citation_analysis attribute="positive"><sub>2</sub></citation_analysis><citation_analysis attribute="neither"> from the pulse oximeter.</citation_analysis></p></caption><graphic xlink:href="NSS-15-423-g0001" content-type="print-only" position="float"/></fig></citation_analysis></p>
+        </sec>
+      </sec>
+      <sec id="s0002-s2003">
+        <title>Data Analysis</title>
+        <p><citation_analysis attribute="neither">The BresoDX1 data and apneas and hypopneas scored on PSG recordings were analyzed by Python software to develop a machine learning algorithm. The model was designed to use trachea-sternal motion, tracheal sound, and oximetry data to detect apneas and hypopneas. From apneas and hypopneas detected by BresoDX1, the AHI was estimated (AHI</citation_analysis><citation_analysis attribute="positive"><sub>breso</sub></citation_analysis><citation_analysis attribute="neither">), blinded to the AHI scored from the PSG, and then compared to the PSG-based AHI (AHI</citation_analysis><citation_analysis attribute="positive"><sub>PSG</sub></citation_analysis><citation_analysis attribute="neither">).</citation_analysis></p>
+        <sec id="s0002-s2003-s3001">
+          <title>Preprocessing</title>
+          <p><citation_analysis attribute="positive">Trachea-sternal motion (the three dimensions measured by the accelerometer were, x: cranio-caudal, y: transverse, z: postero-anterior) and tracheal sound were filtered using five-order zero-phase bandpass Butterworth filters with 0.2–5 Hz and 200–2000 Hz bandwidths, respectively. Then, the filtered signals were down-sampled to 10 Hz and deemed movement signals. To remove abrupt changes in the baseline of the signals due to changes in position and motion artifacts, the signals were segmentally normalized between their 2nd and 98th percentiles. (See the </citation_analysis><citation_analysis attribute="positive"><underline><ext-link xlink:href="https://www.dovepress.com/get_supplementary_file.php?f=397196.docx" ext-link-type="uri">On-line Supplement</ext-link></underline></citation_analysis><citation_analysis attribute="neither"> for more details). The SaO</citation_analysis><citation_analysis attribute="positive"><sub>2</sub></citation_analysis><citation_analysis attribute="neither"> signal was smoothed by a fifth-order median filter. The drops in the smoothed SaO</citation_analysis><citation_analysis attribute="positive"><sub>2</sub></citation_analysis><citation_analysis attribute="neither"> (desaturations) were identified if: i) the drop occurred at least 10 seconds after the previous drop, if there was any, ii) the time between the baseline before the drop and nadir of the drop (drop</citation_analysis><citation_analysis attribute="positive"><sub>depth</sub></citation_analysis><citation_analysis attribute="neither">) was between 2 and 60 seconds, iii) the baseline after the drop occurred at least 1 second after minimum level of the drop, otherwise the drop was not considered to be due to an apnea or hypopnea. Drops longer than 50 seconds were excluded.</citation_analysis></p>
+        </sec>
+        <sec id="s0002-s2003-s3002">
+          <title>Feature Extraction</title>
+          <p><citation_analysis attribute="neither">From the filtered trachea-sternal motion, tracheal sound and the drops in SaO</citation_analysis><citation_analysis attribute="positive"><sub>2</sub></citation_analysis><citation_analysis attribute="neither">, a set of features was extracted within a ten-second window which moved second by second, deemed an extraction window. The features were as follows:</citation_analysis></p>
+          <sec id="s0002-s2003-s3002-s4001">
+            <title>Trachea-Sternal Motion</title>
+            <p><citation_analysis attribute="neither">From the 3-dimensional accelerometer: 1) the sum of the three motions (motion</citation_analysis><citation_analysis attribute="positive"><sub>sum</sub></citation_analysis><citation_analysis attribute="neither">), and 2) the rotational angles defined as [θ = arctan (-x/(y</citation_analysis><citation_analysis attribute="positive"><sup>2</sup></citation_analysis><citation_analysis attribute="neither"> + z</citation_analysis><citation_analysis attribute="positive"><sup>2</sup></citation_analysis><citation_analysis attribute="neither">)</citation_analysis><citation_analysis attribute="positive"><sup>0.5</sup></citation_analysis><citation_analysis attribute="neither">), φ = arctan (y/z)] were extracted.</citation_analysis></p>
+          </sec>
+          <sec id="s0002-s2003-s3002-s4002">
+            <title>Tracheal Sound</title>
+            <p><citation_analysis attribute="neither">In order to detect breathing sounds in a manner similar to the human ear,</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0019" ref-type="bibr">19</xref></citation_analysis><citation_analysis attribute="neither"> first, Mel-frequency cepstral coefficients (MFCC; 24 features) were extracted from the filtered sound. The more audible the breathing sounds, the greater the MFCCs that are obtained. Additionally, the signal to noise ratio (SNR), as the second feature, was determined based on the improved minima controlled recursive averaging technique (IMCRA).</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0020" ref-type="bibr">20</xref></citation_analysis><citation_analysis attribute="neither"> In IMCRA, first the periodogram of tracheal sound was calculated. Then, the noise power was estimated for each frequency bin by controlled recursive averaging of the local minima. Finally, signal power was calculated by spectral subtraction of the estimated noise power from the spectral content of the sound. Signals were identified as breathing and snoring sounds, and were separated from non-white and time-variant background noise.</citation_analysis></p>
+          </sec>
+          <sec id="s0002-s2003-s3002-s4003">
+            <title>Oximetry</title>
+            <p><citation_analysis attribute="neither">From the oximeter: 1) the occurrence of a drop in SaO</citation_analysis><citation_analysis attribute="positive"><sub>2</sub></citation_analysis><citation_analysis attribute="neither"> of ≥3% within a duration of 10 to 50 seconds, 2) the drop</citation_analysis><citation_analysis attribute="positive"><sub>depth</sub></citation_analysis><citation_analysis attribute="neither">; and 3) the slope of the drop, ie, drop</citation_analysis><citation_analysis attribute="positive"><sub>depth</sub></citation_analysis><citation_analysis attribute="neither"> over the length of the drop (drop</citation_analysis><citation_analysis attribute="positive"><sub>slope</sub></citation_analysis><citation_analysis attribute="neither">) were calculated. </citation_analysis><citation_analysis attribute="positive"><xref rid="f0002" ref-type="fig">Figure 2</xref></citation_analysis><citation_analysis attribute="neither"> illustrates how the SaO</citation_analysis><citation_analysis attribute="positive"><sub>2</sub></citation_analysis><citation_analysis attribute="neither"> signal was analyzed. If there was no drop in SaO</citation_analysis><citation_analysis attribute="positive"><sub>2</sub></citation_analysis><citation_analysis attribute="neither">, this was considered zero.
+</citation_analysis><citation_analysis attribute="positive"><fig position="float" id="f0002" fig-type="figure"><label>Figure 2</label><caption><p><citation_analysis attribute="neither">Features extracted from oximetry, including SaO</citation_analysis><citation_analysis attribute="positive"><sub>2</sub></citation_analysis><citation_analysis attribute="neither"> drop</citation_analysis><citation_analysis attribute="positive"><sub>depth</sub></citation_analysis><citation_analysis attribute="neither"> (D), drop duration (T) and drop</citation_analysis><citation_analysis attribute="positive"><sub>slope</sub></citation_analysis><citation_analysis attribute="neither"> = D/T.</citation_analysis></p></caption><graphic xlink:href="NSS-15-423-g0002" content-type="print-only" position="float"/></fig></citation_analysis></p>
+            <p><citation_analysis attribute="neither">For each of the features extracted within the extraction moving window, the root of the arithmetic mean of the squared values (RMS), the 5th and 95th percentiles, inter-quartile range (IQR) derived as the difference between the 75th and 25th percentiles, and median were calculated and fed into a machine learning algorithm, which detected the respiratory events.</citation_analysis></p>
+          </sec>
+        </sec>
+        <sec id="s0002-s2003-s3003">
+          <title>Event Detection</title>
+          <p><citation_analysis attribute="neither">To detect respiratory events, the above-described features were extracted within a detection window of 61 seconds moving second by second and used as the input of a mathematical model. The model classified each 61-second window into event or non-event. The model includes two DNNs, one for detecting spontaneous (short-term) changes in the extracted features (DNN1) and another for detecting long-term changes (DNN2) that were presumably associated with respiratory events and their iterations (See the </citation_analysis><citation_analysis attribute="positive"><underline><ext-link xlink:href="https://www.dovepress.com/get_supplementary_file.php?f=397196.docx" ext-link-type="uri">On-line Supplementary</ext-link></underline></citation_analysis><citation_analysis attribute="neither"> for further details). In our previous work,</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0021" ref-type="bibr">21</xref></citation_analysis><citation_analysis attribute="neither"> we developed an algorithm, based on tracheal recordings, in which body movements associated with wakefulness could be detected, and deemed in-valid recording time, while periods in which body movements were low acted as a surrogate for sleep that was deemed valid recording time. Accordingly, in this study, we used this algorithm to assess the amount of movements in each 30-second epoch of tracheal signals: periods of low body movements were considered valid recording time, while periods with high levels of body movements were considered non-valid recording time.</citation_analysis></p>
+          <p><citation_analysis attribute="neither">The periods of valid recording and the outputs of the two DNNs were then fed into a logistic regression model to generate the final output indicating the probability of a respiratory event’s occurrence. A threshold (T</citation_analysis><citation_analysis attribute="positive"><sub>event</sub></citation_analysis><citation_analysis attribute="neither">) was applied to the final output to classify each second into event or non-event.</citation_analysis></p>
+          <p><citation_analysis attribute="neither">To train the models, tune the hyperparameters of the DNNs, and optimize the value of T</citation_analysis><citation_analysis attribute="positive"><sub>event</sub></citation_analysis><citation_analysis attribute="neither">, a training set, which contained 74 of the subjects, was randomly selected. Using the training set, a four-round hold-out validation was implemented and the models that gave the best F1 score were chosen. Each fold consists of the data of subjects who were randomly selected within each AHI groups: 1) no sleep apnea: AHI &lt;5, 2) mild sleep apnea: AHI of 5 to &lt;15, 3) moderate sleep apnea: AHI of 15 to &lt;30, and 4) severe sleep apnea: AHI ≥30. To optimize T</citation_analysis><citation_analysis attribute="positive"><sub>event</sub></citation_analysis><citation_analysis attribute="neither">, precision-recall curves were used on the training set. Finally, the trained event detection algorithm was tested on the rest of the dataset (the test set, consisting of the remaining of the subjects [N = 159]).</citation_analysis></p>
+        </sec>
+        <sec id="s0002-s2003-s3004">
+          <title>AHI Estimation</title>
+          <p><citation_analysis attribute="neither">Among the detected respiratory events, those detected during non-valid periods were removed. Then, the AHI</citation_analysis><citation_analysis attribute="positive"><sub>breso</sub></citation_analysis><citation_analysis attribute="neither"> was estimated for each subject as the number of respiratory events divided by the total valid recording time.</citation_analysis></p>
+        </sec>
+        <sec id="s0002-s2003-s3005">
+          <title>Evaluation Metrics and Statistical Analysis</title>
+          <p><citation_analysis attribute="positive">Statistical analyses were performed in R (i386 3.4.1) software. Demographic characteristics were extracted for the four AHI groups and the Analysis of Variance (ANOVA) was used to detect significant differences over groups. The performance of the event-detection algorithm was analyzed by calculating AHI from the detected events and diagnosing sleep apnea for different AHI cut-offs. Accordingly, precision, sensitivity and F1 scores were calculated for each AHI group to determine the accuracy of the event-detection. The diagnostic performance based on the four AHI cutoffs was presented with accuracy, sensitivity, specificity, F1 and precision. These metrics were reported for the detection algorithm trained by the three feature sets (tracheo-sternal motion, tracheal sound and oximetry) compared to the feature subgroups when one of the features was excluded. Also, Pearson correlation and a Bland-Altman plot were used to compare the estimated AHI</citation_analysis><citation_analysis attribute="positive"><sub>breso</sub></citation_analysis><citation_analysis attribute="neither"> to the AHI</citation_analysis><citation_analysis attribute="positive"><sub>PSG</sub></citation_analysis><citation_analysis attribute="neither">.</citation_analysis></p>
+        </sec>
+      </sec>
+    </sec>
+    <sec id="s0003">
+      <title>Results</title>
+      <p><citation_analysis attribute="neither">Characteristics of the 233 participants are displayed in </citation_analysis><citation_analysis attribute="positive"><xref rid="t0001" ref-type="table">Table 1</xref></citation_analysis><citation_analysis attribute="neither">. They were, on average, middle-aged and overweight with a moderate degree of SA. </citation_analysis><citation_analysis attribute="positive"><xref rid="f0003" ref-type="fig">Figure 3</xref></citation_analysis><citation_analysis attribute="neither"> illustrates a representative trace of BresoDX1 oximeter, sound and accelerometer signals compared to the simultaneous respiratory reference signals from a PSG during repetitive apneas.
+</citation_analysis><citation_analysis attribute="positive"><table-wrap position="float" id="t0001"><label>Table 1</label><caption><p><citation_analysis attribute="neither">Demographics</citation_analysis></p></caption><table frame="hsides" rules="groups"><thead><tr><th rowspan="1" colspan="1">Characteristics</th><th rowspan="1" colspan="1">Total N = 233</th><th rowspan="1" colspan="1">Non-Sleep Apnea N=77</th><th rowspan="1" colspan="1">Mild Sleep Apnea N=64</th><th rowspan="1" colspan="1">Moderate Sleep Apnea N=46</th><th rowspan="1" colspan="1">Severe Apnea N=46</th><th rowspan="1" colspan="1">p-value</th></tr></thead><tbody><tr><td rowspan="1" colspan="1">Age (year)</td><td rowspan="1" colspan="1">50 ± 15</td><td rowspan="1" colspan="1">42 ± 15</td><td rowspan="1" colspan="1">52 ± 14</td><td rowspan="1" colspan="1">55 ± 14</td><td rowspan="1" colspan="1">54 ± 16</td><td rowspan="1" colspan="1"><bold>0&lt;0.001</bold></td></tr><tr><td rowspan="1" colspan="1">Female (Male)</td><td rowspan="1" colspan="1">116 (117)</td><td rowspan="1" colspan="1">50 (27)</td><td rowspan="1" colspan="1">32 (32)</td><td rowspan="1" colspan="1">21 (25)</td><td rowspan="1" colspan="1">13 (33)</td><td rowspan="1" colspan="1"><bold>0.001</bold></td></tr><tr><td rowspan="1" colspan="1">Body mass index (kg/m<sup>2</sup>)</td><td rowspan="1" colspan="1">29.8 ± 6.4</td><td rowspan="1" colspan="1">28.0 ± 6.1</td><td rowspan="1" colspan="1">29.3 ± 5.6</td><td rowspan="1" colspan="1">29.9 ± 5.2</td><td rowspan="1" colspan="1">33.3 ± 7.6</td><td rowspan="1" colspan="1"><bold>0&lt;0.001</bold></td></tr><tr><td rowspan="1" colspan="1">Apnea-hypopnea index (events/hour)</td><td rowspan="1" colspan="1">18.1 ± 20.6</td><td rowspan="1" colspan="1">2.6 ± 1.5</td><td rowspan="1" colspan="1">9.5 ± 2.9</td><td rowspan="1" colspan="1">20.5 ± 4.4</td><td rowspan="1" colspan="1">53.7 ± 18.4</td><td rowspan="1" colspan="1"><bold>0&lt;0.001</bold></td></tr><tr><td rowspan="1" colspan="1">Sleep time (minute)</td><td rowspan="1" colspan="1">312 ± 66</td><td rowspan="1" colspan="1">311 ± 62</td><td rowspan="1" colspan="1">305 ± 65</td><td rowspan="1" colspan="1">325 ± 61</td><td rowspan="1" colspan="1">313 ± 77</td><td rowspan="1" colspan="1">0.48</td></tr><tr><td rowspan="1" colspan="1">Total recording time (minute)</td><td rowspan="1" colspan="1">414 ± 44</td><td rowspan="1" colspan="1">411 ± 44</td><td rowspan="1" colspan="1">409 ± 40</td><td rowspan="1" colspan="1">419 ± 42</td><td rowspan="1" colspan="1">421 ± 49</td><td rowspan="1" colspan="1">0.40</td></tr><tr><td rowspan="1" colspan="1">Epworth sleepiness scale score</td><td rowspan="1" colspan="1">7 ± 5</td><td rowspan="1" colspan="1">7 ± 5</td><td rowspan="1" colspan="1">7 ± 5</td><td rowspan="1" colspan="1">9 ± 5</td><td rowspan="1" colspan="1">8 ± 7</td><td rowspan="1" colspan="1">0.10</td></tr><tr><td rowspan="1" colspan="1">Oxygen desaturation index (no./hour)</td><td rowspan="1" colspan="1">14.0 ± 15.6</td><td rowspan="1" colspan="1">3.7 ± 3.0</td><td rowspan="1" colspan="1">9.2 ± 11.2</td><td rowspan="1" colspan="1">14.5 ± 6.9</td><td rowspan="1" colspan="1">37.2 ± 16.2</td><td rowspan="1" colspan="1"><bold>&lt;0.001</bold></td></tr></tbody></table><table-wrap-foot><fn id="tfn0001"><p><citation_analysis attribute="positive"><bold>Notes</bold></citation_analysis><citation_analysis attribute="neither">: Data are expressed as mean ± standard deviation. Significant inter-group difference is marked in bold.</citation_analysis></p></fn></table-wrap-foot></table-wrap></citation_analysis><citation_analysis attribute="positive">
+</citation_analysis><citation_analysis attribute="positive"><fig position="float" id="f0003" fig-type="figure"><label>Figure 3</label><caption><p><citation_analysis attribute="neither">An example of extracted features from BresoDX1 recordings compared to reference nasal pressure, the sum of chest-abdominal motion and SaO</citation_analysis><citation_analysis attribute="positive"><sub>2</sub></citation_analysis><citation_analysis attribute="neither"> from polysomnography (PSG) during intermittent apneas highlighted by shading. *Motion signals from BresoDX1 are normalized; **Mel-frequency cepstral coefficients (MFCC) have arbitrary units. ***Reference signals from PSG are normalized from arbitrary units.</citation_analysis></p></caption><graphic xlink:href="NSS-15-423-g0003" content-type="print-only" position="float"/></fig></citation_analysis></p>
+      <p><citation_analysis attribute="positive"><xref rid="f0004" ref-type="fig">Figure 4</xref></citation_analysis><citation_analysis attribute="neither"> compares the events detected by BresoDX1 qualitatively with PSG-based event scores in a subject without SA (AHI = 4.0) and a subject with severe SA (AHI = 71.5).
+</citation_analysis><citation_analysis attribute="positive"><fig position="float" id="f0004" fig-type="figure"><label>Figure 4</label><caption><p><citation_analysis attribute="neither">The comparison of detected events by the BresoDx1 with the reference annotated events extracted from polysomnography (PSG) in two subjects: (</citation_analysis><citation_analysis attribute="positive"><bold>A</bold></citation_analysis><citation_analysis attribute="neither">) with an AHI</citation_analysis><citation_analysis attribute="positive"><sub>PSG</sub></citation_analysis><citation_analysis attribute="neither"> of 4, and (</citation_analysis><citation_analysis attribute="positive"><bold>B</bold></citation_analysis><citation_analysis attribute="neither">) with an AHI</citation_analysis><citation_analysis attribute="positive"><sub>PSG</sub></citation_analysis><citation_analysis attribute="neither"> of 71.5. The corresponding AHI</citation_analysis><citation_analysis attribute="positive"><sub>breso</sub></citation_analysis><citation_analysis attribute="neither"> were 3.9, and 72.5, respectively.</citation_analysis></p></caption><graphic xlink:href="NSS-15-423-g0004" content-type="print-only" position="float"/></fig></citation_analysis></p>
+      <p><citation_analysis attribute="neither">There was a strong correlation between AHI</citation_analysis><citation_analysis attribute="positive"><sub>breso</sub></citation_analysis><citation_analysis attribute="neither"> and AHI</citation_analysis><citation_analysis attribute="positive"><sub>PSG</sub></citation_analysis><citation_analysis attribute="neither"> (r = 0.91, p &lt; 0.001, </citation_analysis><citation_analysis attribute="positive"><xref rid="f0005" ref-type="fig">Figure 5</xref></citation_analysis><citation_analysis attribute="neither">). According to the Bland-Altman plot, the average error between AHI</citation_analysis><citation_analysis attribute="positive"><sub>breso</sub></citation_analysis><citation_analysis attribute="neither"> and AHI</citation_analysis><citation_analysis attribute="positive"><sub>PSG</sub></citation_analysis><citation_analysis attribute="neither"> was −3 event/hour with 95% confidence interval [−12 – 15]. </citation_analysis><citation_analysis attribute="positive"><xref rid="t0002" ref-type="table">Table 2</xref></citation_analysis><citation_analysis attribute="neither"> presents the performance of BresoDX1 in diagnosing SA. Based on an AHI cutoff of ≥15, BresoDX1 diagnosed SA with 90.0% sensitivity, 85.9% specificity and 87.4% accuracy. Furthermore, the accuracy of BresoDX1 in diagnosing mild SA (AHI cutoff of ≥5) and severe SA (AHI cutoff of ≥30) was 84.3% and 92.5%, respectively (</citation_analysis><citation_analysis attribute="positive"><xref rid="t0002" ref-type="table">Table 2</xref></citation_analysis><citation_analysis attribute="neither">). Moreover, </citation_analysis><citation_analysis attribute="positive"><xref rid="t0002" ref-type="table">Table 2</xref></citation_analysis><citation_analysis attribute="neither"> shows ablation test reflecting the effect of each feature group in improving the accuracy of diagnosis. Overall, the results confirm that the highest accuracy occurs when the three feature groups were used in training the event-detection model.
+</citation_analysis><citation_analysis attribute="positive"><table-wrap position="float" id="t0002"><label>Table 2</label><caption><p><citation_analysis attribute="neither">Diagnosis of Sleep Apnea Based on Different AHI Cutoffs for 159 Individuals in the Test Set Using Sound, Motion and Oximetry Compared to Their Ablation Tests</citation_analysis></p></caption><table frame="hsides" rules="groups"><thead><tr><th rowspan="1" colspan="1">Features</th><th rowspan="1" colspan="1">AHI Cutoff</th><th rowspan="1" colspan="1">Sensitivity (%)</th><th rowspan="1" colspan="1">Specificity (%)</th><th rowspan="1" colspan="1">Accuracy (%)</th><th rowspan="1" colspan="1">F1 Score (%)</th><th rowspan="1" colspan="1">Precision (%)</th></tr></thead><tbody><tr><td rowspan="3" colspan="1">Sound<break/>Motion<break/>Oximetry</td><td rowspan="1" colspan="1">5</td><td rowspan="1" colspan="1">94.39</td><td rowspan="1" colspan="1">63.46</td><td rowspan="1" colspan="1">84.28</td><td rowspan="1" colspan="1">88.99</td><td rowspan="1" colspan="1">84.17</td></tr><tr><td rowspan="1" colspan="1">15</td><td rowspan="1" colspan="1">90.00</td><td rowspan="1" colspan="1">85.86</td><td rowspan="1" colspan="1">87.42</td><td rowspan="1" colspan="1">84.38</td><td rowspan="1" colspan="1">79.41</td></tr><tr><td rowspan="1" colspan="1">30</td><td rowspan="1" colspan="1">96.67</td><td rowspan="1" colspan="1">91.47</td><td rowspan="1" colspan="1">92.45</td><td rowspan="1" colspan="1">82.86</td><td rowspan="1" colspan="1">72.50</td></tr><tr><td rowspan="3" colspan="1">Sound<break/>Motion</td><td rowspan="1" colspan="1">5</td><td rowspan="1" colspan="1">96.26</td><td rowspan="1" colspan="1">32.69</td><td rowspan="1" colspan="1">75.47</td><td rowspan="1" colspan="1">84.09</td><td rowspan="1" colspan="1">74.64</td></tr><tr><td rowspan="1" colspan="1">15</td><td rowspan="1" colspan="1">91.67</td><td rowspan="1" colspan="1">75.76</td><td rowspan="1" colspan="1">81.76</td><td rowspan="1" colspan="1">79.14</td><td rowspan="1" colspan="1">69.62</td></tr><tr><td rowspan="1" colspan="1">30</td><td rowspan="1" colspan="1">93.33</td><td rowspan="1" colspan="1">90.69</td><td rowspan="1" colspan="1">91.19</td><td rowspan="1" colspan="1">80.00</td><td rowspan="1" colspan="1">70.00</td></tr><tr><td rowspan="3" colspan="1">Sound<break/>Oximetry</td><td rowspan="1" colspan="1">5</td><td rowspan="1" colspan="1">98.13</td><td rowspan="1" colspan="1">26.92</td><td rowspan="1" colspan="1">74.84</td><td rowspan="1" colspan="1">84.00</td><td rowspan="1" colspan="1">73.43</td></tr><tr><td rowspan="1" colspan="1">15</td><td rowspan="1" colspan="1">91.67</td><td rowspan="1" colspan="1">65.66</td><td rowspan="1" colspan="1">75.47</td><td rowspan="1" colspan="1">73.83</td><td rowspan="1" colspan="1">61.80</td></tr><tr><td rowspan="1" colspan="1">30</td><td rowspan="1" colspan="1">96.67</td><td rowspan="1" colspan="1">83.72</td><td rowspan="1" colspan="1">86.16</td><td rowspan="1" colspan="1">72.50</td><td rowspan="1" colspan="1">58.00</td></tr><tr><td rowspan="3" colspan="1">Motion<break/>Oximetry</td><td rowspan="1" colspan="1">5</td><td rowspan="1" colspan="1">95.33</td><td rowspan="1" colspan="1">40.38</td><td rowspan="1" colspan="1">77.36</td><td rowspan="1" colspan="1">85.00</td><td rowspan="1" colspan="1">76.69</td></tr><tr><td rowspan="1" colspan="1">15</td><td rowspan="1" colspan="1">86.67</td><td rowspan="1" colspan="1">78.79</td><td rowspan="1" colspan="1">81.76</td><td rowspan="1" colspan="1">78.20</td><td rowspan="1" colspan="1">71.23</td></tr><tr><td rowspan="1" colspan="1">30</td><td rowspan="1" colspan="1">90.00</td><td rowspan="1" colspan="1">94.57</td><td rowspan="1" colspan="1">93.71</td><td rowspan="1" colspan="1">84.38</td><td rowspan="1" colspan="1">79.41</td></tr></tbody></table><table-wrap-foot><fn id="tfn0002"><p><citation_analysis attribute="positive"><bold>Notes</bold></citation_analysis><citation_analysis attribute="neither">: Number of subjects with AHI ≥ 5 = 107; Number of subjects with AHI &lt; 5 = 52. Number of subjects with AHI ≥ 15 = 60; Number of subjects with AHI &lt; 15 = 99. Number of subjects with AHI ≥ 30 = 30; Number of subjects with AHI &lt; 30 = 129.</citation_analysis></p></fn></table-wrap-foot></table-wrap></citation_analysis><citation_analysis attribute="positive">
+</citation_analysis><citation_analysis attribute="positive"><fig position="float" id="f0005" fig-type="figure"><label>Figure 5</label><caption><p><citation_analysis attribute="neither">The agreement between estimated AHI</citation_analysis><citation_analysis attribute="positive"><sub>breso</sub></citation_analysis><citation_analysis attribute="neither"> and the reference AHI</citation_analysis><citation_analysis attribute="positive"><sub>PSG</sub></citation_analysis><citation_analysis attribute="neither"> analyzed by (</citation_analysis><citation_analysis attribute="positive"><bold>A</bold></citation_analysis><citation_analysis attribute="neither">): Pearson correlation, (</citation_analysis><citation_analysis attribute="positive"><bold>B</bold></citation_analysis><citation_analysis attribute="neither">): Bland-Altman plot.</citation_analysis></p></caption><graphic xlink:href="NSS-15-423-g0005" content-type="print-only" position="float"/></fig></citation_analysis></p>
+    </sec>
+    <sec id="s0004">
+      <title>Discussion</title>
+      <p><citation_analysis attribute="neither">In this study, we developed a deep learning model for analyzing tracheo-sternal motions, tracheal sounds and oximetry from BresoDX1 recordings to estimate AHI and determine the severity of SA. Using this model, we were able to obtain strong agreement between the BresoDX1-based and PSG-based AHIs (r = 0.91, p &lt; 0.001) and diagnose SA with an AHI cutoff of ≥15 with 90.0% sensitivity and 85.9% specificity and 84.4% F1 score.</citation_analysis></p>
+      <p><citation_analysis attribute="neither">In our previous study,</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0015" ref-type="bibr">15</xref></citation_analysis><citation_analysis attribute="positive"> using the BresoDX1 module, we demonstrated that trachea-sternal motion provided an excellent estimate of chest wall motion assessed by RIP, and a reasonably good estimate of changes in airflow assessed by nasal pressure during simultaneous PSG. However, a combination of trachea-sternal motion and tracheal sound improved the estimate of changes in PSG-measured airflow such that mean squared error was less than 5% during normal breathing and less than 2.5% during apneas and hypopneas. The closer proximity of the tracheal microphone to the airway allows more accurate detection of intraluminal airflow with higher SNR than a microphone on the chest wall even at low airflow rates.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0022" ref-type="bibr">22</xref></citation_analysis></p>
+      <p><citation_analysis attribute="neither">In the present study, we added oximetry to tracheal signals to conform to the AASM criteria</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0018" ref-type="bibr">18</xref></citation_analysis><citation_analysis attribute="neither"> for a hypopnea that includes a 3% or greater fall in SaO</citation_analysis><citation_analysis attribute="positive"><sub>2</sub></citation_analysis><citation_analysis attribute="neither">.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0018" ref-type="bibr">18</xref></citation_analysis><citation_analysis attribute="neither"> In order to integrate SaO</citation_analysis><citation_analysis attribute="positive"><sub>2</sub></citation_analysis><citation_analysis attribute="neither"> measurements with trachea-sternal motion and tracheal breath sounds to detect apneas and hypopneas, we extracted several features from these signals, including dips in SaO</citation_analysis><citation_analysis attribute="positive"><sub>2</sub></citation_analysis><citation_analysis attribute="neither"> over time and fed them into a mathematical model. In a previous study in which tracheal signals and SaO</citation_analysis><citation_analysis attribute="positive"><sub>2</sub></citation_analysis><citation_analysis attribute="neither"> were used to detect respiratory events during sleep, the SaO</citation_analysis><citation_analysis attribute="positive"><sub>2</sub></citation_analysis><citation_analysis attribute="neither"> signal was only utilized to identify regions where potential events might occur.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0023" ref-type="bibr">23</xref></citation_analysis><citation_analysis attribute="neither"> Furthermore, in that study, SaO</citation_analysis><citation_analysis attribute="positive"><sub>2</sub></citation_analysis><citation_analysis attribute="neither"> was recorded from a PSG oximeter, whereas in our system, SaO</citation_analysis><citation_analysis attribute="positive"><sub>2</sub></citation_analysis><citation_analysis attribute="neither"> was recorded from an oximeter integrated into the BresoDX1 device.</citation_analysis></p>
+      <p><citation_analysis attribute="neither">To detect apneas and hypopneas, and diagnose SA according to AASM criteria, commercially available portable sleep monitoring devices must assess respiratory airflow or motion plus SaO</citation_analysis><citation_analysis attribute="positive"><sub>2</sub></citation_analysis><citation_analysis attribute="positive">. This requires four or five points of attachment of these instruments to patients in different areas of the body and, therefore, is somewhat complicated and inconvenient. Airflow is generally assessed by nasal pressure cannulae or thermistors, while chest wall motion is generally assessed by stretchy bands that include either RIP or piezo-electric crystals.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0024" ref-type="bibr">24–26</xref></citation_analysis><citation_analysis attribute="neither"> However, thermistors are quantitatively insensitive to changes in airflow, while nasal pressure is insensitive to changes in airflow during mouth breathing and can be displaced during sleep. RIP and piezo-electric crystal recordings require wearing stretchy chest and abdominal bands that are inconvenient and can be displaced during sleep, resulting in distortion or loss of signals. In addition, piezo-electric crystals’ responses to chest wall movements are non-linear, making piezo belts insensitive to hypopneas. Therefore, they are only recommended by AASM for monitoring respiratory effort and not for respiratory event scoring.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0018" ref-type="bibr">18</xref></citation_analysis><citation_analysis attribute="neither"> In contrast, BresoDX1 only requires two points of attachment: the suprasternal notch and the finger, and is therefore simpler and more convenient to apply than most other home SA monitoring devices. In addition, because the trachea-sternal module is fixed in-place by adhesive tape, it is resistant to displacement during sleep, resulting a very little signal loss. Furthermore, the integration of tracheo-sternal motion and breath sounds provides a highly accurate estimation of changes in airflow</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0017" ref-type="bibr">17</xref></citation_analysis><citation_analysis attribute="neither"> that, in combination with oximetry, provides a highly accurate estimate of AHI and detection of SA at various AHI cut-offs compared to PSG. The advantages of BresoDX1 compared to other portable devices are its convenience and the robustness of its composite trachea-sternal motion and tracheal sound recordings to estimate changes in airflow.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0015" ref-type="bibr">15</xref></citation_analysis><citation_analysis attribute="neither"> These signals along with SaO</citation_analysis><citation_analysis attribute="positive"><sub>2</sub></citation_analysis><citation_analysis attribute="neither"> provide sufficient channels to detect respiratory events during sleep and estimate AHI.</citation_analysis></p>
+      <p><citation_analysis attribute="positive">To estimate AHI from the BresoDX1 recordings, the detection algorithm was developed using two DNNs. As DNN1 was trained to detect spontaneous changes in feature time-series, DNN2 took into account the long-term changes and thus was designed to take into account circulation delay between changes in SaO</citation_analysis><citation_analysis attribute="positive"><sub>2</sub></citation_analysis><citation_analysis attribute="positive"> detected at the finger and tracheal signals. Furthermore, we extracted 124 features over time. This many features can be affected temporally by various dynamics such as respiratory event occurrence, changes in sleep stages and body posture and increases in background noise. Although DNN2 compensated for dynamic changes, and thus, accurately estimated AHI and AHI cut-offs, there is significant potential, for example via enhancing its structure, to enhance the accuracy of AHI quantification and SA detection as well as to detect sleep and wakefulness states and snoring sounds.</citation_analysis></p>
+      <p><citation_analysis attribute="positive">Our study has some limitations. First, we did not measure sleep time directly, and used valid recording time as the denominator for the AHI. Therefore, we may have over or under estimated true sleep time. Nevertheless, this approach is similar to almost all home SA detection devices, and we demonstrated BresoDX1’s accuracy in estimating AHI</citation_analysis><citation_analysis attribute="positive"><sub>PSG</sub></citation_analysis><citation_analysis attribute="neither"> and in detecting SA at different AHI cut-offs, indicating its validity. Second, BresoDX1 was tested during attended PSG in a sleep laboratory, not in unattended setting in subjects’ homes. Accordingly, further testing in the latter environment will be necessary to assess BresoDX1’s ability to detect SA in a more clinically relevant setting.</citation_analysis></p>
+      <p><citation_analysis attribute="neither">In conclusion, BresoDX1 is a portable SA testing device that employs trachea-sternal motion and sound, along with oximetry, to provide accurate estimates of the AHI as well as to detect SA at various AHI cut-offs. It accomplishes this through the use of deep learning to develop novel algorithms to detect respiratory events. The strengths of the device are that it is simple and convenient, since it only requires two points of contact for its sensors. Also, the tracheal module is less subject to displacement and signal loss during sleep than other devices because it is fixed to the skin by adhesive tape. In addition, since this was the first iteration of the DNNs for signal analysis, the algorithms employed should be considered prototypes. Consequently, we believe there is room to improve the accuracy of AHI quantification and SA detection as well as to estimate sleep time via further enhancements to the DNNs. Finally, as the only expendable item is the adhesive strip, it could easily be used for multiple night monitoring where necessary. It is well-known that there is considerable night-to-night variation in the AHI,</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0027" ref-type="bibr">27</xref></citation_analysis><citation_analysis attribute="neither"> and for this reason, there is increasing acceptance of multiple night testing to increase the accuracy of SA diagnosis.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0028" ref-type="bibr">28–30</xref></citation_analysis></p>
+    </sec>
+  </body>
+  <back>
+    <ack>
+      <title>Acknowledgments</title>
+      <p><citation_analysis attribute="neither">This study was funded by Bresotec Inc.</citation_analysis></p>
+    </ack>
+    <sec id="s0005">
+      <title>Abbreviations</title>
+      <p><citation_analysis attribute="neither">SA, Sleep apnea; PSG, polysomnography; DNN, deep neural network; RIP, respiratory inductance plethysmography; UHN, University Health Network; AASM, the American Academy of Sleep Medicine; MFCC, Mel-frequency cepstral coefficients; SNR, signal to noise ratio; IMCRA, the improved minima controlled recursive averaging technique.</citation_analysis></p>
+    </sec>
+    <sec sec-type="COI-statement" id="s0006">
+      <title>Disclosure</title>
+      <p><citation_analysis attribute="neither">Dr. Nasim Montazeri Ghahjaveretsan reports personal fees from Bresotec Inc., during the conduct of the study. Dr. Cristiano Aguiar reports a patent Provisional patent pending to Bresotec Inc. Mr Jackson Yu reports a patent PCT/CA2022/051031 pending to YU, (Jackson) Jinxin; HUMMEL, Richard George; DE AGUIAR, Cristiano Santos; FAN, Wei; PACKER, Devin, a patent US63/216,385 pending to YU, (Jackson) Jinxin; HUMMEL, Richard George; DE AGUIAR, Cristiano Santos; FAN, Wei; PACKER, Devin, a patent US63/236,852 pending to YU, (Jackson) Jinxin; HUMMEL, Richard George; DE AGUIAR, Cristiano Santos; FAN, Wei; PACKER, Devin. Mr. Richard Hummel reports personal fees from Bresotec Inc., during the conduct of the study. In addition, Mr. Richard Hummel has a patent P63124US00 pending to Bresotec Inc;. Ms. Xiaoshu Cao reports personal fees from Bresotec inc., during the conduct of the study. Dr. T. Douglas Bradley reports personal fees from Bresotec inc., during the conduct of the study. The authors report no other conflicts of interest in this work.</citation_analysis></p>
+    </sec>
+    <ref-list>
+      <title>References</title>
+      <ref id="cit0001">
+        <label>1.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Lyons</surname>
+<given-names>MM</given-names></string-name>, <string-name><surname>Bhatt</surname>
+<given-names>NY</given-names></string-name>, <string-name><surname>Pack</surname>
+<given-names>AI</given-names></string-name>, <string-name><surname>Magalang</surname>
+<given-names>UJ</given-names></string-name>. <article-title>Global burden of sleep‐disordered breathing and its implications</article-title>. <source><italic toggle="yes">Respirology</italic></source>. <year>2020</year>;<volume>25</volume>(<issue>7</issue>):<fpage>690</fpage>–<lpage>702</lpage>. doi:<pub-id pub-id-type="doi">10.1111/resp.13838</pub-id><pub-id pub-id-type="pmid">32436658</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0002">
+        <label>2.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Franklin</surname>
+<given-names>KA</given-names></string-name>, <string-name><surname>Lindberg</surname>
+<given-names>E</given-names></string-name>. <article-title>Obstructive sleep apnea is a common disorder in the population—a review on the epidemiology of sleep apnea</article-title>. <source><italic toggle="yes">J Thorac Dis</italic></source>. <year>2015</year>;<volume>7</volume>(<issue>8</issue>):<fpage>1311</fpage>. doi:<pub-id pub-id-type="doi">10.3978/j.issn.2072-1439.2015.06.11</pub-id><pub-id pub-id-type="pmid">26380759</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0003">
+        <label>3.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Silverberg</surname>
+<given-names>DS</given-names></string-name>, <string-name><surname>Oksenberg</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Iaina</surname>
+<given-names>A</given-names></string-name>. <article-title>Sleep related breathing disorders are common contributing factors to the production of essential hypertension but are neglected, underdiagnosed, and undertreated</article-title>. <source><italic toggle="yes">Am J Hypertens</italic></source>. <year>1997</year>;<volume>10</volume>(<issue>12</issue>):<fpage>1319</fpage>–<lpage>1325</lpage>. doi:<pub-id pub-id-type="doi">10.1016/S0895-7061(97)00322-1</pub-id><pub-id pub-id-type="pmid">9443766</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0004">
+        <label>4.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Boulos</surname>
+<given-names>MI</given-names></string-name>, <string-name><surname>Jairam</surname>
+<given-names>T</given-names></string-name>, <string-name><surname>Kendzerska</surname>
+<given-names>T</given-names></string-name>, <string-name><surname>Im</surname>
+<given-names>J</given-names></string-name>, <string-name><surname>Mekhael</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Murray</surname>
+<given-names>BJ</given-names></string-name>. <article-title>Normal polysomnography parameters in healthy adults: a systematic review and meta-analysis</article-title>. <source><italic toggle="yes">Lancet Respir Med</italic></source>. <year>2019</year>;<volume>7</volume>(<issue>6</issue>):<fpage>533</fpage>–<lpage>543</lpage>. doi:<pub-id pub-id-type="doi">10.1016/S2213-2600(19)30057-8</pub-id><pub-id pub-id-type="pmid">31006560</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0005">
+        <label>5.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Malhotra</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Ayappa</surname>
+<given-names>I</given-names></string-name>, <string-name><surname>Ayas</surname>
+<given-names>N</given-names></string-name>, et al. <article-title>Metrics of sleep apnea severity: beyond the apnea-hypopnea index</article-title>. <source><italic toggle="yes">Sleep</italic></source>. <year>2021</year>;<volume>44</volume>(<issue>7</issue>):<fpage>zsab030</fpage>. doi:<pub-id pub-id-type="doi">10.1093/sleep/zsab030</pub-id><pub-id pub-id-type="pmid">33693939</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0006">
+        <label>6.</label>
+        <mixed-citation publication-type="book"><string-name><surname>Penzel</surname>
+<given-names>T</given-names></string-name>, <string-name><surname>Sabil</surname>
+<given-names>A</given-names></string-name>. <part-title>Physics and applications for tracheal sound recordings in sleep disorders</part-title>. In: <source><italic toggle="yes">Breath Sounds</italic></source>. <publisher-name>Springer</publisher-name>; <year>2018</year>:<fpage>83</fpage>–<lpage>104</lpage>.</mixed-citation>
+      </ref>
+      <ref id="cit0007">
+        <label>7.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Yadollahi</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Giannouli</surname>
+<given-names>E</given-names></string-name>, <string-name><surname>Moussavi</surname>
+<given-names>Z</given-names></string-name>. <article-title>Sleep apnea monitoring and diagnosis based on pulse oximetery and tracheal sound signals</article-title>. <source><italic toggle="yes">Med Biol Eng Comput</italic></source>. <year>2010</year>;<volume>48</volume>(<issue>11</issue>):<fpage>1087</fpage>–<lpage>1097</lpage>. doi:<pub-id pub-id-type="doi">10.1007/s11517-010-0674-2</pub-id><pub-id pub-id-type="pmid">20734154</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0008">
+        <label>8.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Nakano</surname>
+<given-names>H</given-names></string-name>, <string-name><surname>Hayashi</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Ohshima</surname>
+<given-names>E</given-names></string-name>, <string-name><surname>Nishikata</surname>
+<given-names>N</given-names></string-name>, <string-name><surname>Shinohara</surname>
+<given-names>T</given-names></string-name>. <article-title>Validation of a new system of tracheal sound analysis for the diagnosis of sleep apnea-hypopnea syndrome</article-title>. <source><italic toggle="yes">Sleep</italic></source>. <year>2004</year>;<volume>27</volume>(<issue>5</issue>):<fpage>951</fpage>–<lpage>957</lpage>. doi:<pub-id pub-id-type="doi">10.1093/sleep/27.5.951</pub-id><pub-id pub-id-type="pmid">15453554</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0009">
+        <label>9.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Glos</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Sabil</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Jelavic</surname>
+<given-names>KS</given-names></string-name>, et al. <article-title>Tracheal sound analysis for detection of sleep disordered breathing</article-title>. <source><italic toggle="yes">Somnologie</italic></source>. <year>2019</year>;<volume>23</volume>(<issue>2</issue>):<fpage>80</fpage>–<lpage>85</lpage>. doi:<pub-id pub-id-type="doi">10.1007/s11818-019-0200-1</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0010">
+        <label>10.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Bricout</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Fontecave-Jallon</surname>
+<given-names>J</given-names></string-name>, <string-name><surname>Pepin</surname>
+<given-names>J</given-names></string-name>, <string-name><surname>Gumery</surname>
+<given-names>P</given-names></string-name>. <article-title>Accelerometry-derived respiratory index estimating apnea-hypopnea index for sleep apnea screening</article-title>. <source><italic toggle="yes">Comput Methods Programs Biomed</italic></source>. <year>2021</year>;<volume>207</volume>:<fpage>106209</fpage>. doi:<pub-id pub-id-type="doi">10.1016/j.cmpb.2021.106209</pub-id><pub-id pub-id-type="pmid">34118579</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0011">
+        <label>11.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Hafezi</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Montazeri Ghahjaverestan</surname>
+<given-names>N</given-names></string-name>, <string-name><surname>Saha</surname>
+<given-names>S</given-names></string-name>, et al. <article-title>Sleep apnea severity estimation from tracheal movements using a deep learning model</article-title>. <source><italic toggle="yes">IEEE Access</italic></source>. <year>2020</year>;<volume>8</volume>:<fpage>22641</fpage>–<lpage>22649</lpage>. doi:<pub-id pub-id-type="doi">10.1109/ACCESS.2020.2969227</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0012">
+        <label>12.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Morillo</surname>
+<given-names>DS</given-names></string-name>, <string-name><surname>Ojeda</surname>
+<given-names>JLR</given-names></string-name>, <string-name><surname>Foix</surname>
+<given-names>LFC</given-names></string-name>, <string-name><surname>Jiménez</surname>
+<given-names>AL</given-names></string-name>. <article-title>An accelerometer-based device for sleep apnea screening</article-title>. <source><italic toggle="yes">IEEE Trans Inf Technol Biomed</italic></source>. <year>2009</year>;<volume>14</volume>(<issue>2</issue>):<fpage>491</fpage>–<lpage>499</lpage>. doi:<pub-id pub-id-type="doi">10.1109/TITB.2009.2027231</pub-id><pub-id pub-id-type="pmid">19643712</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0013">
+        <label>13.</label>
+        <mixed-citation publication-type="book"><string-name><surname>Dehkordi</surname>
+<given-names>PK</given-names></string-name>, <string-name><surname>Marzencki</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Tavakolian</surname>
+<given-names>K</given-names></string-name>, <string-name><surname>Kaminska</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Kaminska</surname>
+<given-names>B</given-names></string-name>. <source><italic toggle="yes">Validation of Respiratory Signal Derived from Suprasternal Notch Acceleration for Sleep Apnea Detection</italic></source>. <publisher-name>IEEE</publisher-name>; <year>2011</year>:<fpage>3824</fpage>–<lpage>3827</lpage>.</mixed-citation>
+      </ref>
+      <ref id="cit0014">
+        <label>14.</label>
+        <mixed-citation publication-type="book"><string-name><surname>Saha</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Kabir</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Montazeri</surname>
+<given-names>N</given-names></string-name>, et al. <source><italic toggle="yes">Apnea-Hypopnea Index (AHI) Estimation Using Breathing Sounds, Accelerometer and Pulse Oximeter</italic></source>. <publisher-name>Eur Respiratory Soc</publisher-name>; <year>2019</year>.</mixed-citation>
+      </ref>
+      <ref id="cit0015">
+        <label>15.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Montazeri Ghahjaverestan</surname>
+<given-names>N</given-names></string-name>, <string-name><surname>Fan</surname>
+<given-names>W</given-names></string-name>, <string-name><surname>Aguiar</surname>
+<given-names>C</given-names></string-name>, <string-name><surname>Yu</surname>
+<given-names>J</given-names></string-name>, <string-name><surname>Bradley</surname>
+<given-names>TD</given-names></string-name>. <article-title>Respiratory motion and airflow estimation during sleep using tracheal movement and sound</article-title>. <source><italic toggle="yes">Nat Sci Sleep</italic></source>. <year>2022</year>;<volume>14</volume>:<fpage>1213</fpage>. doi:<pub-id pub-id-type="doi">10.2147/NSS.S360970</pub-id><pub-id pub-id-type="pmid">35800029</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0016">
+        <label>16.</label>
+        <mixed-citation publication-type="book"><string-name><surname>Hepsiba</surname>
+<given-names>D</given-names></string-name>, <string-name><surname>Anand</surname>
+<given-names>LV</given-names></string-name>, <string-name><surname>Princy</surname>
+<given-names>RJP</given-names></string-name>. <source><italic toggle="yes">Deep Learning for Sleep Disorders: A Review</italic></source>. <publisher-name>IEEE</publisher-name>; <year>2021</year>:<fpage>1</fpage>–<lpage>5</lpage>.</mixed-citation>
+      </ref>
+      <ref id="cit0017">
+        <label>17.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Mostafa</surname>
+<given-names>SS</given-names></string-name>, <string-name><surname>Mendonça</surname>
+<given-names>F</given-names></string-name>, <string-name><surname>Ravelo-García</surname>
+<given-names>G</given-names></string-name>, <string-name><surname>Morgado-Dias</surname>
+<given-names>F</given-names></string-name>. <article-title>A systematic review of detecting sleep apnea using deep learning</article-title>. <source><italic toggle="yes">Sensors</italic></source>. <year>2019</year>;<volume>19</volume>(<issue>22</issue>):<fpage>4934</fpage>. doi:<pub-id pub-id-type="doi">10.3390/s19224934</pub-id><pub-id pub-id-type="pmid">31726771</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0018">
+        <label>18.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Berry</surname>
+<given-names>RB</given-names></string-name>, <string-name><surname>Quan</surname>
+<given-names>SF</given-names></string-name>, <string-name><surname>Abreu</surname>
+<given-names>AR</given-names></string-name>, et al. <article-title>The AASM manual for the scoring of sleep and associated events: rules, terminology and technical specifications</article-title>. <source><italic toggle="yes">Am Academy Sleep Med</italic></source>. <year>2020</year>;<volume>2020</volume>:<fpage>1</fpage>.</mixed-citation>
+      </ref>
+      <ref id="cit0019">
+        <label>19.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Molau</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Pitz</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Schluter</surname>
+<given-names>R</given-names></string-name>, <string-name><surname>Ney</surname>
+<given-names>H</given-names></string-name>. <article-title>Computing mel-frequency cepstral coefficients on the power spectrum</article-title>. <source><italic toggle="yes">IEEE</italic></source>. <year>2001</year>;<volume>1</volume>:<fpage>73</fpage>–<lpage>76</lpage>.</mixed-citation>
+      </ref>
+      <ref id="cit0020">
+        <label>20.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Cohen</surname>
+<given-names>I</given-names></string-name>. <article-title>Noise spectrum estimation in adverse environments: improved minima controlled recursive averaging</article-title>. <source><italic toggle="yes">IEEE Trans Speech Audio Process</italic></source>. <year>2003</year>;<volume>11</volume>(<issue>5</issue>):<fpage>466</fpage>–<lpage>475</lpage>. doi:<pub-id pub-id-type="doi">10.1109/TSA.2003.811544</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0021">
+        <label>21.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Montazeri Ghahjaverestan</surname>
+<given-names>N</given-names></string-name>, <string-name><surname>Akbarian</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Hafezi</surname>
+<given-names>M</given-names></string-name>, et al. <article-title>Sleep/wakefulness detection using tracheal sounds and movements</article-title>. <source><italic toggle="yes">Nat Sci Sleep</italic></source>. <year>2020</year>;<volume>12</volume>:<fpage>1009</fpage>. doi:<pub-id pub-id-type="doi">10.2147/NSS.S276107</pub-id><pub-id pub-id-type="pmid">33235534</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0022">
+        <label>22.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Penzel</surname>
+<given-names>T</given-names></string-name>, <string-name><surname>Sabil</surname>
+<given-names>A</given-names></string-name>. <article-title>The use of tracheal sounds for the diagnosis of sleep apnoea</article-title>. <source><italic toggle="yes">Breathe</italic></source>. <year>2017</year>;<volume>13</volume>(<issue>2</issue>):<fpage>e37</fpage>–<lpage>e45</lpage>. doi:<pub-id pub-id-type="doi">10.1183/20734735.008817</pub-id><pub-id pub-id-type="pmid">29184596</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0023">
+        <label>23.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Saha</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Kabir</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Montazeri Ghahjaverestan</surname>
+<given-names>N</given-names></string-name>, et al. <article-title>Portable diagnosis of sleep apnea with the validation of individual event detection</article-title>. <source><italic toggle="yes">Sleep Med</italic></source>. <year>2020</year>;<volume>69</volume>:<fpage>51</fpage>–<lpage>57</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.sleep.2019.12.021</pub-id><pub-id pub-id-type="pmid">32045854</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0024">
+        <label>24.</label>
+        <mixed-citation publication-type="book"><string-name><surname>Twigg</surname>
+<given-names>GL</given-names></string-name>, <string-name><surname>Mallia-Milanes</surname>
+<given-names>B</given-names></string-name>, <string-name><surname>Miras</surname>
+<given-names>AD</given-names></string-name>, <string-name><surname>Tighe</surname>
+<given-names>H</given-names></string-name>, <string-name><surname>Wilson</surname>
+<given-names>G</given-names></string-name>. <source><italic toggle="yes">20 Validation of WatchPAT 300 for Pre-Operative of OSA Screening in Patients Undergoing Bariatric Surgery</italic></source>. <publisher-name>Archives of Disease in childhood</publisher-name>; <year>2021</year>.</mixed-citation>
+      </ref>
+      <ref id="cit0025">
+        <label>25.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Lee</surname>
+<given-names>JY</given-names></string-name>, <string-name><surname>Kim</surname>
+<given-names>D</given-names></string-name>, <string-name><surname>Blake</surname>
+<given-names>S</given-names></string-name>, et al. <article-title>403 comparative study of wireless sensors versus type III home sleep apnea test for home-based diagnosis of obstructive sleep apnea</article-title>. <source><italic toggle="yes">Sleep</italic></source>. <year>2021</year>;<volume>44</volume>(<issue>Supplement_2</issue>):<fpage>A160</fpage>. doi:<pub-id pub-id-type="doi">10.1093/sleep/zsab072.402</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0026">
+        <label>26.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Berry</surname>
+<given-names>RB</given-names></string-name>, <string-name><surname>Purdy</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Kantner</surname>
+<given-names>G</given-names></string-name>, et al. <article-title>0463 validation of a home sleep apnea testing device for the diagnosis of sleep disordered breathing based on AASM 2012 guidelines</article-title>. <source><italic toggle="yes">Sleep</italic></source>. <year>2019</year>;<volume>42</volume>:<fpage>A186</fpage>. doi:<pub-id pub-id-type="doi">10.1093/sleep/zsz067.462</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0027">
+        <label>27.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Levendowski</surname>
+<given-names>DJ</given-names></string-name>, <string-name><surname>Zack</surname>
+<given-names>N</given-names></string-name>, <string-name><surname>Rao</surname>
+<given-names>S</given-names></string-name>, et al. <article-title>Assessment of the test–retest reliability of laboratory polysomnography</article-title>. <source><italic toggle="yes">Sleep Breath</italic></source>. <year>2009</year>;<volume>13</volume>(<issue>2</issue>):<fpage>163</fpage>–<lpage>167</lpage>. doi:<pub-id pub-id-type="doi">10.1007/s11325-008-0214-6</pub-id><pub-id pub-id-type="pmid">18766393</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0028">
+        <label>28.</label>
+        <mixed-citation publication-type="newspaper"><string-name><surname>Ha</surname>
+<given-names>Y</given-names></string-name>. <article-title>Should you offer multinight home sleep testing?</article-title>; <year>2021</year>.</mixed-citation>
+      </ref>
+      <ref id="cit0029">
+        <label>29.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Lechat</surname>
+<given-names>B</given-names></string-name>, <string-name><surname>Naik</surname>
+<given-names>G</given-names></string-name>, <string-name><surname>Reynolds</surname>
+<given-names>A</given-names></string-name>, et al. <article-title>Multinight prevalence, variability, and diagnostic misclassification of obstructive sleep apnea</article-title>. <source><italic toggle="yes">Am J Respir Crit Care Med</italic></source>. <year>2022</year>;<volume>205</volume>(<issue>5</issue>):<fpage>563</fpage>–<lpage>569</lpage>. doi:<pub-id pub-id-type="doi">10.1164/rccm.202107-1761OC</pub-id><pub-id pub-id-type="pmid">34904935</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0030">
+        <label>30.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Dzierzewski</surname>
+<given-names>JM</given-names></string-name>, <string-name><surname>Dautovich</surname>
+<given-names>ND</given-names></string-name>, <string-name><surname>Rybarczyk</surname>
+<given-names>B</given-names></string-name>, <string-name><surname>Taylor</surname>
+<given-names>SA</given-names></string-name>. <article-title>Night-to-night fluctuations in sleep apnea severity: diagnostic and treatment implications</article-title>. <source><italic toggle="yes">J Clin Sleep Med</italic></source>. <year>2020</year>;<volume>16</volume>(<issue>4</issue>):<fpage>539</fpage>–<lpage>544</lpage>. doi:<pub-id pub-id-type="doi">10.5664/jcsm.8272</pub-id><pub-id pub-id-type="pmid">32022669</pub-id></mixed-citation>
+      </ref>
+    </ref-list>
+  </back>
+</article>
+</pmc-articleset>

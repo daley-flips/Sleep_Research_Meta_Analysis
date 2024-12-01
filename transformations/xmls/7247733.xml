@@ -1,0 +1,678 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<pmc-articleset><article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="research-article">
+  <?properties open_access?>
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="nlm-ta">Nat Sci Sleep</journal-id>
+      <journal-id journal-id-type="iso-abbrev">Nat Sci Sleep</journal-id>
+      <journal-id journal-id-type="publisher-id">NSS</journal-id>
+      <journal-id journal-id-type="pmc">nss</journal-id>
+      <journal-title-group>
+        <journal-title>Nature and Science of Sleep</journal-title>
+      </journal-title-group>
+      <issn pub-type="epub">1179-1608</issn>
+      <publisher>
+        <publisher-name>Dove</publisher-name>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="pmid">32547279</article-id>
+      <article-id pub-id-type="pmc">7247733</article-id>
+      <article-id pub-id-type="publisher-id">240493</article-id>
+      <article-id pub-id-type="doi">10.2147/NSS.S240493</article-id>
+      <article-categories>
+        <subj-group subj-group-type="heading">
+          <subject>Original Research</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>Gray Matter Volume Correlates of Sleepiness: A Voxel-Based Morphometry Study in Younger and Older Adults</article-title>
+        <alt-title alt-title-type="running-authors">Åkerstedt et al</alt-title>
+        <alt-title alt-title-type="running-title">Åkerstedt et al</alt-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Åkerstedt</surname>
+            <given-names>Torbjörn</given-names>
+          </name>
+          <xref ref-type="corresp" rid="AN0001"/>
+          <xref ref-type="aff" rid="AFF0001">1</xref>
+          <xref ref-type="aff" rid="AFF0002">2</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Lekander</surname>
+            <given-names>Mats</given-names>
+          </name>
+          <xref ref-type="aff" rid="AFF0001">1</xref>
+          <xref ref-type="aff" rid="AFF0002">2</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <contrib-id contrib-id-type="orcid" authenticated="false">http://orcid.org/0000-0001-5273-0150</contrib-id>
+          <name>
+            <surname>Nilsonne</surname>
+            <given-names>Gustav</given-names>
+          </name>
+          <xref ref-type="aff" rid="AFF0001">1</xref>
+          <xref ref-type="aff" rid="AFF0002">2</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <contrib-id contrib-id-type="orcid" authenticated="false">http://orcid.org/0000-0001-5371-9631</contrib-id>
+          <name>
+            <surname>Tamm</surname>
+            <given-names>Sandra</given-names>
+          </name>
+          <xref ref-type="aff" rid="AFF0001">1</xref>
+          <xref ref-type="aff" rid="AFF0002">2</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>d’Onofrio</surname>
+            <given-names>Paolo</given-names>
+          </name>
+          <xref ref-type="aff" rid="AFF0001">1</xref>
+          <xref ref-type="aff" rid="AFF0002">2</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Kecklund</surname>
+            <given-names>Göran</given-names>
+          </name>
+          <xref ref-type="aff" rid="AFF0001">1</xref>
+          <xref ref-type="aff" rid="AFF0002">2</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Fischer</surname>
+            <given-names>Håkan</given-names>
+          </name>
+          <xref ref-type="aff" rid="AFF0003">3</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Schwarz</surname>
+            <given-names>Johanna</given-names>
+          </name>
+          <xref ref-type="aff" rid="AFF0001">1</xref>
+          <xref ref-type="aff" rid="AFF0002">2</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Petrovic</surname>
+            <given-names>Predrag</given-names>
+          </name>
+          <xref ref-type="aff" rid="AFF0001">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <contrib-id contrib-id-type="orcid" authenticated="false">http://orcid.org/0000-0002-7796-8445</contrib-id>
+          <name>
+            <surname>Månsson</surname>
+            <given-names>Kristoffer N T</given-names>
+          </name>
+          <xref ref-type="aff" rid="AFF0004">4</xref>
+          <xref ref-type="aff" rid="AFF0005">5</xref>
+          <xref ref-type="aff" rid="AFF0006">6</xref>
+        </contrib>
+        <aff id="AFF0001"><label>1</label><institution>Department of Clinical Neuroscience, Karolinska Institutet</institution>, <addr-line>Stockholm</addr-line>, <country>Sweden</country></aff>
+        <aff id="AFF0002"><label>2</label><institution>Stress Research Institute, Department of Psychology, Stockholm University</institution>, <addr-line>Stockholm</addr-line>, <country>Sweden</country></aff>
+        <aff id="AFF0003"><label>3</label><institution>Department of Psychology, Stockholm University</institution>, <addr-line>Stockholm</addr-line>, <country>Sweden</country></aff>
+        <aff id="AFF0004"><label>4</label><institution>Centre for Psychiatry Research, Department of Clinical Neuroscience, Karolinska Institutet</institution>, <addr-line>Stockholm</addr-line>, <country>Sweden</country></aff>
+        <aff id="AFF0005"><label>5</label><institution>Center for Lifespan Psychology, Max Planck Institute for Human Development</institution>, <addr-line>Berlin</addr-line>, <country>Germany</country></aff>
+        <aff id="AFF0006"><label>6</label><institution>Max Planck UCL Centre for Computational Psychiatry and Ageing Research</institution>, <addr-line>Berlin</addr-line>, <country>Germany</country></aff>
+      </contrib-group>
+      <author-notes>
+        <corresp id="AN0001">Correspondence: Torbjörn Åkerstedt <institution>Department of Clinical Neuroscience, Karolinska Institutet</institution>, <addr-line>Stockholm</addr-line><addr-line>17177</addr-line>, <country>Sweden</country> Email torbjorn.akerstedt@ki.se</corresp>
+      </author-notes>
+      <pub-date pub-type="epub">
+        <day>21</day>
+        <month>5</month>
+        <year>2020</year>
+      </pub-date>
+      <pub-date pub-type="collection">
+        <year>2020</year>
+      </pub-date>
+      <volume>12</volume>
+      <fpage>289</fpage>
+      <lpage>298</lpage>
+      <history>
+        <date date-type="received">
+          <day>09</day>
+          <month>2</month>
+          <year>2020</year>
+        </date>
+        <date date-type="accepted">
+          <day>14</day>
+          <month>4</month>
+          <year>2020</year>
+        </date>
+      </history>
+      <permissions>
+        <copyright-statement>© 2020 Åkerstedt et al.</copyright-statement>
+        <copyright-year>2020</copyright-year>
+        <copyright-holder>Åkerstedt et al.</copyright-holder>
+        <license license-type="open-access" xlink:href="http://creativecommons.org/licenses/by-nc/3.0/">
+          <license-p>This work is published and licensed by Dove Medical Press Limited. The full terms of this license are available at <ext-link ext-link-type="uri" xlink:href="https://www.dovepress.com/terms.php">https://www.dovepress.com/terms.php</ext-link> and incorporate the Creative Commons Attribution – Non Commercial (unported, v3.0) License (<ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by-nc/3.0/">http://creativecommons.org/licenses/by-nc/3.0/</ext-link>). By accessing the work you hereby accept the Terms. Non-commercial uses of the work are permitted without any further permission from Dove Medical Press Limited, provided the work is properly attributed. For permission for commercial use of this work, please see paragraphs 4.2 and 5 of our Terms (<ext-link ext-link-type="uri" xlink:href="https://www.dovepress.com/terms.php">https://www.dovepress.com/terms.php</ext-link>).</license-p>
+        </license>
+      </permissions>
+      <abstract>
+        <sec id="S2001">
+          <title>Background</title>
+          <p><citation_analysis attribute="neither">Subjectively experienced sleepiness is a problem in society, possibly linked with gray matter (GM) volume. Given a different sleep pattern, aging may affect such associations, possibly due to shrinking brain volume.</citation_analysis></p>
+        </sec>
+        <sec id="S2002">
+          <title>Purpose</title>
+          <p><citation_analysis attribute="negative">The purpose of the present study was to investigate the association between subjectively rated sleepiness and GM volume in thalamus, insula, hippocampus, and orbitofrontal cortex of young and older adults, after a normal night’s sleep.</citation_analysis></p>
+        </sec>
+        <sec id="S2003">
+          <title>Methods</title>
+          <p><citation_analysis attribute="neither">Eighty-four healthy individuals participated (46 aged 20–30 years, and 38 aged 65–75 years). Morphological brain data were collected in a 3T magnetic resonance imaging (MRI) scanner. Sleepiness was rated multiple times during the imaging sessions.</citation_analysis></p>
+        </sec>
+        <sec id="S2004">
+          <title>Results</title>
+          <p><citation_analysis attribute="positive">In older, relative to younger, adults, clusters within bilateral mid-anterior insular cortex and right thalamus were negatively associated with sleepiness. Adjustment for the immediately preceding total sleep time eliminated the significant associations.</citation_analysis></p>
+        </sec>
+        <sec id="S2005">
+          <title>Conclusion</title>
+          <p><citation_analysis attribute="neither">Self-rated momentary sleepiness in a monotonous situation appears to be negatively associated with GM volume in clusters within both thalamus and insula in older individuals, and total sleep time seems to play a role in this association. Possibly, this suggests that larger GM volume in these clusters may be protective against sleepiness in older individuals. This notion needs confirmation in further studies.</citation_analysis></p>
+        </sec>
+      </abstract>
+      <kwd-group kwd-group-type="author">
+        <title>Keywords</title>
+        <kwd>brain imaging</kwd>
+        <kwd>thalamus</kwd>
+        <kwd>insula</kwd>
+        <kwd>sleep</kwd>
+        <kwd>KSS</kwd>
+      </kwd-group>
+      <counts>
+        <fig-count count="3"/>
+        <table-count count="4"/>
+        <ref-count count="49"/>
+        <page-count count="10"/>
+      </counts>
+    </article-meta>
+  </front>
+  <body>
+    <sec sec-type="intro" id="S0001">
+      <title>Introduction</title>
+      <p><citation_analysis attribute="negative">The subjective experience of sleepiness represents a feeling of exhaustion</citation_analysis><citation_analysis attribute="positive"><xref rid="CIT0001" ref-type="bibr">1</xref></citation_analysis><citation_analysis attribute="neither"> and/or an effort to remain awake.</citation_analysis><citation_analysis attribute="positive"><xref rid="CIT0002" ref-type="bibr">2</xref></citation_analysis><citation_analysis attribute="neither"> It is associated with changes in the EEG pattern, eye movements, performance capacity and accident risk.</citation_analysis><citation_analysis attribute="positive"><xref rid="CIT0003" ref-type="bibr">3</xref></citation_analysis><citation_analysis attribute="neither"> The main regulatory factors are amount of prior sleep,</citation_analysis><citation_analysis attribute="positive"><xref rid="CIT0004" ref-type="bibr">4</xref></citation_analysis><citation_analysis attribute="neither"> quality of sleep (fragmentation),</citation_analysis><citation_analysis attribute="positive"><xref rid="CIT0005" ref-type="bibr">5</xref></citation_analysis><citation_analysis attribute="neither"> time since prior sleep, and time of day.</citation_analysis><citation_analysis attribute="positive"><xref rid="CIT0006" ref-type="bibr">6</xref></citation_analysis></p>
+      <p><citation_analysis attribute="neither">Sleepiness is clearly expressed in the working brain,</citation_analysis><citation_analysis attribute="positive"><xref rid="CIT0007" ref-type="bibr">7</xref></citation_analysis><citation_analysis attribute="negative"> and this raises the question whether there also may be links to brain morphology. From a theoretical standpoint, the thalamus is of major interest for a study of subjective sleepiness and GM volume because of its key role in regulation of arousal and vigilance.</citation_analysis><citation_analysis attribute="positive"><xref rid="CIT0008" ref-type="bibr">8</xref></citation_analysis><citation_analysis attribute="neither"> In addition, Poudel et al</citation_analysis><citation_analysis attribute="positive"><xref rid="CIT0009" ref-type="bibr">9</xref></citation_analysis><citation_analysis attribute="neither"> showed that thalamic activity was reduced during micro-sleep episodes, as well as activity in midbrain areas, posterior cingulate cortex (PCC), and occipital areas. Also, Olbrich et al found reduced thalamic activity during lower vigilance EEG states.</citation_analysis><citation_analysis attribute="positive"><xref rid="CIT0010" ref-type="bibr">10</xref></citation_analysis><citation_analysis attribute="neither"> In the only study of ratings of sleepiness and thalamic activity, Maire et al showed a parallel development of less activity in thalamus and higher KSS values.</citation_analysis><citation_analysis attribute="positive"><xref rid="CIT0011" ref-type="bibr">11</xref></citation_analysis></p>
+      <p><citation_analysis attribute="neither">Another theoretically interesting structure in this context is the insular cortex, since its anterior part is associated with awareness of internal states</citation_analysis><citation_analysis attribute="positive"><xref rid="CIT0012" ref-type="bibr">12</xref></citation_analysis><citation_analysis attribute="neither"> and is a central node in a network of regions that form an intrinsic interoceptive network.</citation_analysis><citation_analysis attribute="positive"><xref rid="CIT0013" ref-type="bibr">13</xref></citation_analysis><citation_analysis attribute="negative"> More specifically, it has been proposed that the anterior part is associated with subjective experiences, including feeling states and emotional awareness.</citation_analysis><citation_analysis attribute="positive"><xref rid="CIT0012" ref-type="bibr">12</xref></citation_analysis><citation_analysis attribute="negative"> Thus, one might argue that the subjective experience of sleepiness may be seen as a feeling state based on interoceptive input from various biological systems in need of sleep. No empirical support is available, however.</citation_analysis></p>
+      <p><citation_analysis attribute="positive">While the studies above suggest that thalamus and insula should be likely starting points for investigating the link between subjective sleepiness and GM volume under conditions of normal sleep, they have been focused on activation in the structures, not volume. The only studies of sleepiness and actual GM volume found a negative association for a cluster in the orbitofrontal cortex</citation_analysis><citation_analysis attribute="positive"><xref rid="CIT0014" ref-type="bibr">14</xref></citation_analysis><citation_analysis attribute="neither"> and the hippocampus.</citation_analysis><citation_analysis attribute="positive"><xref rid="CIT0015" ref-type="bibr">15</xref></citation_analysis></p>
+      <p><citation_analysis attribute="positive">A number of studies have investigated BOLD activation during performance tasks after, or during, sleep deprivation. In these studies, structures like the dorsolateral prefrontal cortex (DLPFC) and the intraparietal sulcus usually show reduced task-related activation after sleep loss.</citation_analysis><citation_analysis attribute="positive"><xref rid="CIT0016" ref-type="bibr">16</xref></citation_analysis><citation_analysis attribute="neither">–</citation_analysis><citation_analysis attribute="positive"><xref rid="CIT0020" ref-type="bibr">20</xref></citation_analysis><citation_analysis attribute="positive"> However, the regions being affected by severe sleep loss may not necessarily be the same ones that are involved in sleepiness in well-rested individuals, and we have, therefore, not included such structures among our regions of interest.</citation_analysis></p>
+      <p><citation_analysis attribute="neither">A study of sleepiness and brain morphology should also consider aging as a possible moderator since sleepiness decreases with aging,</citation_analysis><citation_analysis attribute="positive"><xref rid="CIT0021" ref-type="bibr">21</xref></citation_analysis><citation_analysis attribute="neither">,</citation_analysis><citation_analysis attribute="positive"><xref rid="CIT0022" ref-type="bibr">22</xref></citation_analysis><citation_analysis attribute="neither"> as does the thickness of the cortex.</citation_analysis><citation_analysis attribute="positive"><xref rid="CIT0023" ref-type="bibr">23</xref></citation_analysis><citation_analysis attribute="neither"> This suggests that a lower gray matter (GM) volume may be associated with less sleepiness across age groups. However, this contrasts with the previously mentioned negative association for a cluster in the orbitofrontal cortex</citation_analysis><citation_analysis attribute="positive"><xref rid="CIT0014" ref-type="bibr">14</xref></citation_analysis><citation_analysis attribute="neither"> and hippocampus.</citation_analysis><citation_analysis attribute="positive"><xref rid="CIT0015" ref-type="bibr">15</xref></citation_analysis><citation_analysis attribute="neither"> The latter studies did not consider age, however. Higher age is also associated with shorter sleep,</citation_analysis><citation_analysis attribute="positive"><xref rid="CIT0024" ref-type="bibr">24</xref></citation_analysis><citation_analysis attribute="neither"> which contrasts with the association of lower sleepiness with higher age. These, somewhat incommensurate, observations indicate the need for considering also age and sleep duration when investigating sleepiness and GMV.</citation_analysis></p>
+      <p><citation_analysis attribute="negative">The purpose of the present study was to investigate the link between self﻿-reported momentary subjectively experienced sleepiness in the MR scanner and brain morphology in younger and older adults, as measured by GM volume in the thalamus, anterior insula, orbitofrontal cortex, and hippocampus after a full night’s sleep. We also tested whether age would modify observed associations. The main hypothesis is a negative association between GM volume and sleepiness in the orbitofrontal cortex and hippocampus. Albeit preliminary, this may also be valid for thalamus and anterior insula GM volume. The present study is part of the Stockholm Sleepy Brain Project focusing on sleep restriction, polysomnography, and brain imaging.</citation_analysis><citation_analysis attribute="positive"><xref rid="CIT0025" ref-type="bibr">25</xref></citation_analysis><citation_analysis attribute="neither">,</citation_analysis><citation_analysis attribute="positive"><xref rid="CIT0026" ref-type="bibr">26</xref></citation_analysis></p>
+    </sec>
+    <sec id="S0002">
+      <title>Methods</title>
+      <sec id="S0002-S2001">
+        <title>Design</title>
+        <p><citation_analysis attribute="neither">The participants underwent a night of full sleep and a night of partial sleep deprivation in a balanced cross-over design. Sleep was monitored by polysomnography (PSG) in both conditions.</citation_analysis><citation_analysis attribute="positive"><xref rid="CIT0027" ref-type="bibr">27</xref></citation_analysis><citation_analysis attribute="positive"> The present paper presents the MRI data from the full sleep condition. For increased ecological validity, sleep recordings were carried out in the participants’ homes. MRI was performed in the evening following the recorded sleep (approximately between 18:00 and 21:00). The evening was selected in order to use also the time awake during the day as an inducer of sleepiness. All participants provided written informed consent and the trial was conducted in accordance with the Declaration of Helsinki.</citation_analysis></p>
+      </sec>
+      <sec id="S0002-S2002">
+        <title>Participants</title>
+        <p><citation_analysis attribute="neither">The participants were recruited through posters on campus sites in Stockholm on the studentkaninen.se website, and in newspaper ads,</citation_analysis><citation_analysis attribute="positive"><xref rid="CIT0028" ref-type="bibr">28</xref></citation_analysis><citation_analysis attribute="neither"> The responders were first screened through an online questionnaire and then followed up with an interview. The exclusion criteria were ferromagnetic items in body, claustrophobia, being pregnant, refractive error exceeding 5 diopters, being color-blind, being left﻿-handed, psychiatric (including depression; score &gt;8 for anxiety or depression on the Hospital Anxiety and Depression Scale (HADS)</citation_analysis><citation_analysis attribute="positive"><xref rid="CIT0029" ref-type="bibr">29</xref></citation_analysis><citation_analysis attribute="neither">) or neurological illness, addiction, hypertension, diabetes, use of psychoactive or immune﻿-modulatory drugs, use of nicotine every day, &gt;4 cups of coffee per day, insomnia (Insomnia Severity Index &gt;15</citation_analysis><citation_analysis attribute="positive"><xref rid="CIT0030" ref-type="bibr">30</xref></citation_analysis><citation_analysis attribute="neither">), extreme morningness or eveningness (using a single item from the diurnal type scale,</citation_analysis><citation_analysis attribute="positive"><xref rid="CIT0031" ref-type="bibr">31</xref></citation_analysis><citation_analysis attribute="neither"> including a habitual bedtime before 1 am). Furthermore, sleep apnea was identified through finger plethysmographic recording during the sleep preceding the MRI scan. Those with sleep apnea were excluded from further analyses. The criterion for inclusion was set to ≤5 events/h of oxygen desaturation &gt;3%. Moreover, the participants should not study, or have studied, medicine or psychology, to avoid individuals prone to meta-cognitions while undergoing experiments. </citation_analysis><citation_analysis attribute="positive"><xref rid="T0001" ref-type="table">Table 1</xref></citation_analysis><citation_analysis attribute="positive"> shows the demographic and clinical variables. The participants were also required to understand and speak Swedish fluently and to live in the greater Stockholm area. In total, 84 individuals were included in the final neuroimaging analyses (young, n=46; older, n=38). For a detailed description of the included and excluded participants, see </citation_analysis><citation_analysis attribute="positive"><underline><ext-link ext-link-type="uri" xlink:href="https://openarchive.ki.se/xmlui/handle/10616/45181">https://openarchive.ki.se/xmlui/handle/10616/45181</ext-link></underline></citation_analysis><citation_analysis attribute="neither">. The participants were paid SEK 2500 (approximately EUR 280/USD 360), which was subject to tax. They were also offered a taxi to and from the MRI center.</citation_analysis><citation_analysis attribute="positive"><table-wrap id="T0001" orientation="portrait" position="float"><label>Table 1</label><caption><p><citation_analysis attribute="neither">Background Data for the Two Age Groups, and ANOVA Results for the Difference Between Groups</citation_analysis></p></caption><table frame="hsides" rules="groups"><thead><tr><th rowspan="1" colspan="1"/><th rowspan="1" colspan="1">Young<break/>Mean±SD</th><th rowspan="1" colspan="1">Older<break/>Mean±SD</th><th rowspan="1" colspan="1"><italic>F</italic></th><th rowspan="1" colspan="1"><italic>P</italic></th></tr></thead><tbody><tr><td rowspan="1" colspan="1">N</td><td rowspan="1" colspan="1">42</td><td rowspan="1" colspan="1">42</td><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"/></tr><tr><td rowspan="1" colspan="1">Age</td><td rowspan="1" colspan="1">23.8±2.6</td><td rowspan="1" colspan="1">68.6±2.6</td><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"/></tr><tr><td rowspan="1" colspan="1">BMI</td><td rowspan="1" colspan="1">22.9±3.14</td><td rowspan="1" colspan="1">24.5±3.36</td><td rowspan="1" colspan="1">4.7</td><td rowspan="1" colspan="1">0.033</td></tr><tr><td rowspan="1" colspan="1">Subjective health (1–7)</td><td rowspan="1" colspan="1">4.58±0.54</td><td rowspan="1" colspan="1">4.67±0.54</td><td rowspan="1" colspan="1">0.5</td><td rowspan="1" colspan="1">0.463</td></tr><tr><td rowspan="1" colspan="1">Women %</td><td rowspan="1" colspan="1">52%</td><td rowspan="1" colspan="1">47%</td><td rowspan="1" colspan="1">0.2</td><td rowspan="1" colspan="1">0.850</td></tr><tr><td rowspan="1" colspan="1">HADS anxiety</td><td rowspan="1" colspan="1">3.02±2.5</td><td rowspan="1" colspan="1">1.33±1.4</td><td rowspan="1" colspan="1">13.3</td><td rowspan="1" colspan="1">0.001</td></tr><tr><td rowspan="1" colspan="1">HADS depression</td><td rowspan="1" colspan="1">1.20±1.37</td><td rowspan="1" colspan="1">1.14±0.99</td><td rowspan="1" colspan="1">0.1</td><td rowspan="1" colspan="1">0.750</td></tr><tr><td rowspan="1" colspan="1">ISI</td><td rowspan="1" colspan="1">10.6±2.1</td><td rowspan="1" colspan="1">9.1±1.6</td><td rowspan="1" colspan="1">13.9</td><td rowspan="1" colspan="1">0.001</td></tr><tr><td rowspan="1" colspan="1">KSQ (1–6)</td><td rowspan="1" colspan="1">5.26±0.42</td><td rowspan="1" colspan="1">5.23±0.50</td><td rowspan="1" colspan="1">0.1</td><td rowspan="1" colspan="1">0.798</td></tr><tr><td rowspan="1" colspan="1">Enough sleep (1–6)</td><td rowspan="1" colspan="1">4.11±0.74</td><td rowspan="1" colspan="1">4.56±0.50</td><td rowspan="1" colspan="1">9.4</td><td rowspan="1" colspan="1">0.003</td></tr><tr><td rowspan="1" colspan="1">Sleep need (h)</td><td rowspan="1" colspan="1">7.86±0.88</td><td rowspan="1" colspan="1">7.39±0.85</td><td rowspan="1" colspan="1">5.8</td><td rowspan="1" colspan="1">0.018</td></tr><tr><td rowspan="1" colspan="1">Habitual sleep duration (h)
+</td><td rowspan="1" colspan="1">8.53±1.30
+</td><td rowspan="1" colspan="1">8.22±1.30
+</td><td rowspan="1" colspan="1">1.1
+</td><td rowspan="1" colspan="1">0.290</td></tr><tr><td rowspan="1" colspan="1">Recorded sleep (TST, h)</td><td rowspan="1" colspan="1">6.61±1.30</td><td rowspan="1" colspan="1">7.16±1.40</td><td rowspan="1" colspan="1">6.05</td><td rowspan="1" colspan="1">0.017</td></tr></tbody></table><table-wrap-foot><fn><p><citation_analysis attribute="positive"><bold>Abbreviations:</bold></citation_analysis><citation_analysis attribute="neither"> N, number of participants; KSQ, Karolinska Sleep Questionnaire; ISI, Insomnia Severity Scale (see below for details); HADS, Hospital Anxiety and Depression Scale; BMI, body mass index; TST, total sleep time (from polysomnography); h, hours; </citation_analysis><citation_analysis attribute="positive"><italic>F</italic></citation_analysis><citation_analysis attribute="neither">, </citation_analysis><citation_analysis attribute="positive"><italic>F</italic></citation_analysis><citation_analysis attribute="neither">-ratio; p, p-value for statistical significance.</citation_analysis></p></fn></table-wrap-foot></table-wrap></citation_analysis><citation_analysis attribute="positive">
+</citation_analysis></p>
+      </sec>
+      <sec id="S0002-S2003">
+        <title>MRI Acquisition and Preprocessing</title>
+        <p><citation_analysis attribute="neither">A General Electric Discovery 3 Tesla MRI scanner equipped with an 8-channel head coil was used. The T1-weighted anatomical scan was acquired with a sagittal BRAVO sequence, field of view 24 cm, slice thickness 1 mm, TI 450 ms, flip angle 11, matrix 240x240, 180 slices, TR=6.4 ms, TE= 2.8 ms, interleaved acquisition from bottom up. The MRI acquisition session started with a 4 minute anatomical T1-scan, followed by functional MRI scans totaling approx. 1 hour, and it ended by structural scan (T2 and diffusion tensor imaging). Structural and functional imaging data are available at </citation_analysis><citation_analysis attribute="positive"><underline><ext-link ext-link-type="uri" xlink:href="https://openfmri.org/dataset/ds000201">https://openfmri.org/dataset/ds000201</ext-link></underline></citation_analysis><citation_analysis attribute="neither">.</citation_analysis></p>
+        <p><citation_analysis attribute="positive">After a visual inspection of the raw T1﻿-image, voxel-based morphometry (VBM) was run using the computational anatomy toolbox version 12 (CAT12; </citation_analysis><citation_analysis attribute="positive"><underline><ext-link ext-link-type="uri" xlink:href="http://dbm.neuro.uni&#x2013;jena.de/cat12">http://dbm.neuro.uni–jena.de/cat12</ext-link></underline></citation_analysis><citation_analysis attribute="neither">) implemented in the statistical parametric mapping version 12 (SPM12; </citation_analysis><citation_analysis attribute="positive"><underline><ext-link ext-link-type="uri" xlink:href="http://www.fil.ion.ucl.ac.uk/spm">http://www.fil.ion.ucl.ac.uk/spm</ext-link></underline></citation_analysis><citation_analysis attribute="neither">). The T1﻿-weighted images were subject to spatial registration, segmentation, and correction for bias, noise and intensity (default parameters). All of the images were normalized to Montreal Neurological Institute (MNI) template space with 1.5 mm isotropic voxels. Sample homogeneity was checked on all 84 VBM images and no outlier was found. Subsequently, in line with the CAT12 toolbox manual, images were smoothed with a full﻿-width at half maximum kernel of 8 mm.</citation_analysis></p>
+      </sec>
+      <sec id="S0002-S2004">
+        <title>Self-Ratings</title>
+        <p><citation_analysis attribute="neither">For descriptive purposes, we used several rating scales: The Karolinska Sleep Questionnaire (KSQ),</citation_analysis><citation_analysis attribute="positive"><xref rid="CIT0032" ref-type="bibr">32</xref></citation_analysis><citation_analysis attribute="neither"> contains a sleep quality index of 4 items describing the frequency of having difficulties falling asleep, premature awakenings, restless sleep, and frequent awakenings. The response alternatives ranged from never (6) to almost all days of the week (1). Items such as difficulties falling asleep, repeated awakenings, restless sleep, and premature awakening were combined into a sleep quality index. In the present study, items on “enough sleep” (6=always, 1=never), need for sleep (h), and habitual sleep duration were also used. The Insomnia Severity Scale (ISI) contains 8 questions on sleep problems.</citation_analysis><citation_analysis attribute="positive"><xref rid="CIT0033" ref-type="bibr">33</xref></citation_analysis><citation_analysis attribute="neither"> Subjective health was rated on a 1–7 scale, from very poor to very good. In addition, The Hospital Anxiety and Depression scale</citation_analysis><citation_analysis attribute="positive"><xref rid="CIT0029" ref-type="bibr">29</xref></citation_analysis><citation_analysis attribute="neither"> was used. The latter has a cut-off point for clinical cases at 8.</citation_analysis><citation_analysis attribute="positive"><xref rid="CIT0034" ref-type="bibr">34</xref></citation_analysis></p>
+        <p><citation_analysis attribute="positive">The session included 7 tasks: a structural scan, resting state, 3 tasks with different types of visual stimuli of emotional character (emotional mimicry, empathy for pain, and emotional reappraisal), followed by a new resting state, and a structural scan. Between the 8 sessions in the scanner, the participants were prompted through the visual presentation system to rate their sleepiness (at 7 time points) using a hand﻿-held response panel to move a cursor to the appropriate response. The 7 points were then averaged for analysis. The scale was the Karolinska Sleepiness Scale (KSS).</citation_analysis><citation_analysis attribute="positive"><xref rid="CIT0002" ref-type="bibr">2</xref></citation_analysis><citation_analysis attribute="neither">,</citation_analysis><citation_analysis attribute="positive"><xref rid="CIT0003" ref-type="bibr">3</xref></citation_analysis><citation_analysis attribute="positive"> This is a single﻿-item question with 9 ordinal anchored response alternatives, ranging from 1=very alert to 9=very sleepy, fighting sleep, an effort to keep awake). Self﻿-reported sleepiness has been reported in a previous paper on the polysomnography the night before the MR recording.</citation_analysis><citation_analysis attribute="positive"><xref rid="CIT0027" ref-type="bibr">27</xref></citation_analysis><citation_analysis attribute="neither"> However, since the sample in the present study differed slightly from the previous one, due to MRI restrictions, the KSS values (means across the 7 time points acquired during the MRI) are also presented here.</citation_analysis></p>
+      </sec>
+      <sec id="S0002-S2005">
+        <title>Polysomnography</title>
+        <p><citation_analysis attribute="neither">Polysomnography was recorded the night before each session in the scanner. The recordings were made according to standard procedure</citation_analysis><citation_analysis attribute="positive"><xref rid="CIT0035" ref-type="bibr">35</xref></citation_analysis><citation_analysis attribute="neither"> and scored according to standard criteria.</citation_analysis><citation_analysis attribute="positive"><xref rid="CIT0036" ref-type="bibr">36</xref></citation_analysis><citation_analysis attribute="neither"> The results have been presented in Åkerstedt et al.</citation_analysis><citation_analysis attribute="positive"><xref rid="CIT0027" ref-type="bibr">27</xref></citation_analysis><citation_analysis attribute="neither"> Here, total sleep time (TST) is used as a covariate.</citation_analysis></p>
+      </sec>
+      <sec id="S0002-S2006">
+        <title>Data Analysis</title>
+        <p><citation_analysis attribute="positive">Data analyses on self-ratings and polysomnography were performed using the STATA Statistical Software, v. 15.0 (STATA, College Station, TX, USA). Quality checked and preprocessed brain images were entered into second level statistical analyses in SPM12. One- and two-sample </citation_analysis><citation_analysis attribute="positive"><italic>t</italic></citation_analysis><citation_analysis attribute="positive">-tests with covariates (see below), ie total intracranial volume (TIV) and KSS, were used in the following models. Design orthogonality was checked, and it was suggested that TIV correlated to KSS. Therefore, in accordance with the CAT12 manual, we used the global scaling transformation on intracranial volume (ie overall grand mean scaling). Absolute threshold masking was set at 0.006 to differentiate between gray and white matter.</citation_analysis></p>
+        <p><citation_analysis attribute="positive">Small volume correction was performed within selected regions using the corresponding function in SPM12, ie each anatomically defined region independently. We also performed conservative post hoc tests with small volume correction including all ROIs simultaneously (see </citation_analysis><citation_analysis attribute="positive"><xref rid="F0001" ref-type="fig">Figure 1</xref></citation_analysis><citation_analysis attribute="positive">). In alignment with Malone et al,</citation_analysis><citation_analysis attribute="positive"><xref rid="CIT0037" ref-type="bibr">37</xref></citation_analysis><citation_analysis attribute="neither"> each subject’s total intracranial volume was entered as a nuisance variable in all subsequent analyses. Furthermore, the symptoms of depression and anxiety were entered as covariates without interest since they correlate with sleepiness and represent potential confounders.</citation_analysis><citation_analysis attribute="positive"><xref rid="CIT0038" ref-type="bibr">38</xref></citation_analysis><citation_analysis attribute="positive"><fig id="F0001" fig-type="figure" orientation="portrait" position="float"><label>Figure 1</label><caption><p><citation_analysis attribute="neither">Demonstration of anatomically defined regions of interest (ROIs): insula cortex, hippocampus, frontal superior orbitofrontal cortex/rectus gyrus and thalamus.</citation_analysis></p></caption><graphic content-type="print-only" xlink:href="NSS-12-289-g0001"/></fig></citation_analysis></p>
+        <p><citation_analysis attribute="neither">All structural ROIs were defined bilaterally since we had no hypotheses on laterality. Based on previous VBM studies on GM volume and sleep (for more details, see introduction), the following four ROIs were defined: insular cortex, frontal superior orbitofrontal cortex/gyrus rectus,</citation_analysis><citation_analysis attribute="positive"><xref rid="CIT0014" ref-type="bibr">14</xref></citation_analysis><citation_analysis attribute="neither"> hippocampus,</citation_analysis><citation_analysis attribute="positive"><xref rid="CIT0015" ref-type="bibr">15</xref></citation_analysis><citation_analysis attribute="neither"> and thalamus,</citation_analysis><citation_analysis attribute="positive"><xref rid="CIT0039" ref-type="bibr">39</xref></citation_analysis><citation_analysis attribute="neither"> as defined by the Automated Atlas Labeling atlas from the Wake Forest University PickAtlas.</citation_analysis><citation_analysis attribute="positive"><xref rid="CIT0040" ref-type="bibr">40</xref></citation_analysis><citation_analysis attribute="neither">,</citation_analysis><citation_analysis attribute="positive"><xref rid="CIT0041" ref-type="bibr">41</xref></citation_analysis><citation_analysis attribute="neither"> The significance threshold level inside ROIs was set at </citation_analysis><citation_analysis attribute="positive"><italic>P</italic></citation_analysis><citation_analysis attribute="positive">&lt;.05 with a family﻿-wise error (FWE) correction. The voxel-wise whole-brain analyses were reported with uncorrected α set at ≤.001, and a cluster threshold was also set at 51 mm</citation_analysis><citation_analysis attribute="positive"><sup>3</sup></citation_analysis><citation_analysis attribute="neither"> (equals 15 voxels). Whole-brain regional clusters surviving false discovery rate (FDR) (</citation_analysis><citation_analysis attribute="positive"><italic>P</italic></citation_analysis><citation_analysis attribute="neither">&lt;.05) were considered significant.</citation_analysis></p>
+      </sec>
+    </sec>
+    <sec id="S0003">
+      <title>Results</title>
+      <sec id="S0003-S2001">
+        <title>Age Differences in Sleepiness and GM Volume</title>
+        <p><citation_analysis attribute="neither">Self﻿-rated sleepiness differed between the two age groups, mean±sd KSS=5.33±1.5 for young adults and 4.58±1.4 for older adults (t(85)=2.38, P=.019). GM volume in clusters in all of the ROIs was smaller in older individuals compared to younger ones (</citation_analysis><citation_analysis attribute="positive"><italic>Z</italic></citation_analysis><citation_analysis attribute="neither">&gt;4.95, </citation_analysis><citation_analysis attribute="positive"><italic>P<sup>FWE</sup></italic></citation_analysis><citation_analysis attribute="neither">&lt;.001).</citation_analysis></p>
+      </sec>
+      <sec id="S0003-S2002">
+        <title>KSS and GM Volume</title>
+        <p><citation_analysis attribute="positive">The association between KSS and GM volume (with the age group as a covariate of no interest) was not significant in any ROI (</citation_analysis><citation_analysis attribute="positive"><italic>P</italic></citation_analysis><citation_analysis attribute="positive"><sup>FWE</sup></citation_analysis><citation_analysis attribute="positive">&gt;.420 for negative associations and </citation_analysis><citation_analysis attribute="positive"><italic>P</italic></citation_analysis><citation_analysis attribute="positive"><sup>FWE</sup></citation_analysis><citation_analysis attribute="positive">&gt;.569 for positive associations).</citation_analysis></p>
+      </sec>
+      <sec id="S0003-S2003">
+        <title>Age Differences (Interactions) in KSS-Associated GM Volume</title>
+        <p><citation_analysis attribute="neither">In older, relative to younger adults, the clusters within the bilateral insular cortex and thalamus regions of interest were negatively associated with sleepiness (</citation_analysis><citation_analysis attribute="positive"><xref rid="T0002" ref-type="table">Table 2</xref></citation_analysis><citation_analysis attribute="neither">, </citation_analysis><citation_analysis attribute="positive"><xref rid="F0002" ref-type="fig">Figures 2</xref></citation_analysis><citation_analysis attribute="neither"> and </citation_analysis><citation_analysis attribute="positive"><xref rid="F0003" ref-type="fig">3</xref></citation_analysis><citation_analysis attribute="positive">). In a fully adjusted small volume correction including all of the ROIs simultaneously, the age–interaction effects (negative associations in the older group, and no associations in the younger group) were significant in clusters in the bilateral insula (left: </citation_analysis><citation_analysis attribute="positive"><italic>P</italic></citation_analysis><citation_analysis attribute="positive"><sup>FWE</sup></citation_analysis><citation_analysis attribute="neither">=0.044; right: </citation_analysis><citation_analysis attribute="positive"><italic>P</italic></citation_analysis><citation_analysis attribute="positive"><sup>FWE</sup></citation_analysis><citation_analysis attribute="neither">=.026) and right thalamus (</citation_analysis><citation_analysis attribute="positive"><italic>P</italic></citation_analysis><citation_analysis attribute="positive"><sup>FWE</sup></citation_analysis><citation_analysis attribute="neither">=.005) but not in the left thalamus (</citation_analysis><citation_analysis attribute="positive"><italic>P</italic></citation_analysis><citation_analysis attribute="positive"><sup>FWE</sup></citation_analysis><citation_analysis attribute="neither">=0.111). Interestingly, the clusters were located in the mid-anterior insula. Third, in contrast to our expectations, we did not find an interaction effect between the age group and KSS on GM volume in the hippocampus or the frontal superior orbitofrontal cortex/gyrus rectus.</citation_analysis><citation_analysis attribute="positive"><table-wrap id="T0002" orientation="portrait" position="float"><label>Table 2</label><caption><p><citation_analysis attribute="neither">Age Group Interactions of Associations Between Sleepiness (KSS Scores) and GM Volume</citation_analysis></p></caption><table frame="hsides" rules="groups"><thead><tr><th rowspan="1" colspan="1">Region of Interest (ROI)</th><th rowspan="1" colspan="1">Age Effect</th><th rowspan="1" colspan="1">MNI (x, y, z)</th><th rowspan="1" colspan="1">Z</th><th rowspan="1" colspan="1">Voxels (mm<sup>3</sup>)</th><th rowspan="1" colspan="1">P<sup>FWE</sup></th></tr></thead><tbody><tr><td rowspan="1" colspan="1">L insula</td><td rowspan="1" colspan="1">Interaction Y+ O–</td><td rowspan="1" colspan="1">–34, 8, –15</td><td rowspan="1" colspan="1">4.02</td><td rowspan="1" colspan="1">6605</td><td rowspan="1" colspan="1"><bold>0.015</bold></td></tr><tr><td rowspan="1" colspan="1">R insula</td><td rowspan="1" colspan="1">Interaction Y+ O–</td><td rowspan="1" colspan="1">32, 9, –18</td><td rowspan="1" colspan="1">4.42</td><td rowspan="1" colspan="1">5947</td><td rowspan="1" colspan="1"><bold>0.009</bold></td></tr><tr><td rowspan="1" colspan="1">L Sup OFC/rectus gyrus</td><td rowspan="1" colspan="1">Interaction Y+ O–</td><td rowspan="1" colspan="1">–10, 20, –14</td><td rowspan="1" colspan="1">2.16</td><td rowspan="1" colspan="1">∞</td><td rowspan="1" colspan="1">0.895</td></tr><tr><td rowspan="1" colspan="1">R Sup OFC/rectus gyrus</td><td rowspan="1" colspan="1">Interaction Y+ O–</td><td rowspan="1" colspan="1">8, 21, –20</td><td rowspan="1" colspan="1">2.18</td><td rowspan="1" colspan="1">2271</td><td rowspan="1" colspan="1">0.884</td></tr><tr><td rowspan="1" colspan="1">L hippocampus</td><td rowspan="1" colspan="1">Interaction Y+ O–</td><td rowspan="1" colspan="1">–24, –22, –16</td><td rowspan="1" colspan="1">3.12</td><td rowspan="1" colspan="1">2457</td><td rowspan="1" colspan="1">0.149</td></tr><tr><td rowspan="1" colspan="1">R hippocampus</td><td rowspan="1" colspan="1">Interaction Y+ O–</td><td rowspan="1" colspan="1">15, –32, 9</td><td rowspan="1" colspan="1">3.17</td><td rowspan="1" colspan="1">2977</td><td rowspan="1" colspan="1">0.131</td></tr><tr><td rowspan="1" colspan="1">L thalamus</td><td rowspan="1" colspan="1">Interaction Y+ O–</td><td rowspan="1" colspan="1">–15, –22, 2</td><td rowspan="1" colspan="1">3.75</td><td rowspan="1" colspan="1">3068</td><td rowspan="1" colspan="1"><bold>0.020</bold></td></tr><tr><td rowspan="1" colspan="1">R thalamus</td><td rowspan="1" colspan="1">Interaction Y+ O–</td><td rowspan="1" colspan="1">20, –26, 4</td><td rowspan="1" colspan="1">4.60</td><td rowspan="1" colspan="1">4074</td><td rowspan="1" colspan="1"><bold>0.001</bold></td></tr></tbody></table><table-wrap-foot><fn><p><citation_analysis attribute="positive"><bold>Notes:</bold></citation_analysis><citation_analysis attribute="positive"> Y+ indicates a positive association in younger adults, and O– indicatesnegative association in older adults. </citation_analysis><citation_analysis attribute="positive"><sup>∞</sup></citation_analysis><citation_analysis attribute="positive">Effects seen in left and right hemisphere belongs to the same cluster of GM volume; ﻿bold= significant p-values. x, y, z = coordinates.</citation_analysis></p><p><citation_analysis attribute="positive"><bold>Abbreviations:</bold></citation_analysis><citation_analysis attribute="neither"> GM, gray matter; MNI, Montreal Neurological Institute; L, ﻿left; R, ﻿right; Sup OFC, ﻿frontal superior orbitofrontal cortex; FWE, ﻿family wise-error correction; KSS, Karolinska Sleepiness Scale.</citation_analysis></p></fn></table-wrap-foot></table-wrap></citation_analysis><citation_analysis attribute="positive">
+</citation_analysis><citation_analysis attribute="positive"><fig id="F0002" fig-type="figure" orientation="portrait" position="float"><label>Figure 2</label><caption><p><citation_analysis attribute="positive">Demonstration of sleepiness (KSS scores)-associated thalamic gray matter volume in younger and older adults. The plots show the age interaction effect suggesting that sleepiness is negatively associated with left and right thalamus gray matter volume in older adults, but positively associated in younger individuals. The colors in the brain plot represent statistical </citation_analysis><citation_analysis attribute="positive"><italic>t</italic></citation_analysis><citation_analysis attribute="neither">-values ranging from 0 (black) to 5.0 (white).</citation_analysis></p><p><citation_analysis attribute="positive"><bold>Abbreviation:</bold></citation_analysis><citation_analysis attribute="neither"> KSS, Karolinska Sleepiness Scale.</citation_analysis></p></caption><graphic content-type="print-only" xlink:href="NSS-12-289-g0002"/></fig></citation_analysis><citation_analysis attribute="positive"><fig id="F0003" fig-type="figure" orientation="portrait" position="float"><label>Figure 3</label><caption><p><citation_analysis attribute="positive">Demonstration of sleepiness (KSS scores)-associated insula gray matter volume in younger and older adults. The plots show the age interaction effect suggesting that sleepiness is positively associated with left and right insula gray matter volume in younger adults, but negatively associated in older individuals. The colors in the brain plot represent statistical </citation_analysis><citation_analysis attribute="positive"><italic>t</italic></citation_analysis><citation_analysis attribute="neither">-values ranging from 0 (black) to 4.5 (white).</citation_analysis></p><p><citation_analysis attribute="positive"><bold>Abbreviation:</bold></citation_analysis><citation_analysis attribute="neither"> KSS, Karolinska Sleepiness Scale.</citation_analysis></p></caption><graphic content-type="print-only" xlink:href="NSS-12-289-g0003"/></fig></citation_analysis></p>
+        <p><citation_analysis attribute="neither">For completeness, exploratory voxel-wise whole-brain analyses on the main effect of age on sleepiness﻿-associated GM volume are presented in </citation_analysis><citation_analysis attribute="positive"><xref rid="T0003" ref-type="table">Table 3</xref></citation_analysis><citation_analysis attribute="neither">. In </citation_analysis><citation_analysis attribute="positive"><xref rid="T0004" ref-type="table">Table 4</xref></citation_analysis><citation_analysis attribute="positive"> both groups are combined. After whole-brain cluster-level correction, we found no significant associations (</citation_analysis><citation_analysis attribute="positive"><italic>P</italic></citation_analysis><citation_analysis attribute="positive"><sup>FDR</sup></citation_analysis><citation_analysis attribute="neither">&gt;.05).</citation_analysis><citation_analysis attribute="positive"><table-wrap id="T0003" orientation="portrait" position="float"><label>Table 3</label><caption><p><citation_analysis attribute="neither">Exploratory Whole-Brain Analyses on Age Group Interactions of Associations Between Sleepiness (KSS Scores) and GM Volume</citation_analysis></p></caption><table frame="hsides" rules="groups"><thead><tr><th rowspan="1" colspan="1">Region</th><th rowspan="1" colspan="1">Age Effect</th><th rowspan="1" colspan="1">MNI (x, y, z)</th><th rowspan="1" colspan="1"><italic>Z</italic></th><th rowspan="1" colspan="1">Voxels (mm<sup>3</sup>)</th><th rowspan="1" colspan="1"><italic>P</italic>(Uncorr)</th></tr></thead><tbody><tr><td rowspan="1" colspan="1">R thalamus</td><td rowspan="1" colspan="1">Interaction Y+ O–</td><td rowspan="1" colspan="1">20, –26, 4</td><td rowspan="1" colspan="1">4.60</td><td rowspan="1" colspan="1">1485</td><td rowspan="1" colspan="1">&lt;.001</td></tr><tr><td rowspan="1" colspan="1">R insula</td><td rowspan="1" colspan="1">Interaction Y+ O–</td><td rowspan="1" colspan="1">32, 8, –18</td><td rowspan="1" colspan="1">4.35</td><td rowspan="1" colspan="1">1593</td><td rowspan="1" colspan="1">&lt;.001</td></tr><tr><td rowspan="1" colspan="1">L insula</td><td rowspan="1" colspan="1">Interaction Y+ O–</td><td rowspan="1" colspan="1">–34, 8, –16</td><td rowspan="1" colspan="1">4.28</td><td rowspan="1" colspan="1">2228</td><td rowspan="1" colspan="1">&lt;.001</td></tr><tr><td rowspan="1" colspan="1">R insula</td><td rowspan="1" colspan="1">Interaction Y+ O–</td><td rowspan="1" colspan="1">44, 16, –6</td><td rowspan="1" colspan="1">4.09</td><td rowspan="1" colspan="1">378</td><td rowspan="1" colspan="1">&lt;.001</td></tr><tr><td rowspan="1" colspan="1">L cerebellum</td><td rowspan="1" colspan="1">Interaction Y+ O–</td><td rowspan="1" colspan="1">–18, –74, –48</td><td rowspan="1" colspan="1">4.01</td><td rowspan="1" colspan="1">1529</td><td rowspan="1" colspan="1">&lt;.001</td></tr><tr><td rowspan="1" colspan="1">R cerebellum</td><td rowspan="1" colspan="1">Interaction Y+ O–</td><td rowspan="1" colspan="1">46, –74 –32</td><td rowspan="1" colspan="1">3.83</td><td rowspan="1" colspan="1">1232</td><td rowspan="1" colspan="1">&lt;.001</td></tr><tr><td rowspan="1" colspan="1">L thalamus</td><td rowspan="1" colspan="1">Interaction Y+ O–</td><td rowspan="1" colspan="1">–15, –22, 2</td><td rowspan="1" colspan="1">3.75</td><td rowspan="1" colspan="1">270</td><td rowspan="1" colspan="1">&lt;.001</td></tr><tr><td rowspan="1" colspan="1">R postcentral</td><td rowspan="1" colspan="1">Interaction Y+ O–</td><td rowspan="1" colspan="1">39, –34, 58</td><td rowspan="1" colspan="1">3.60</td><td rowspan="1" colspan="1">250</td><td rowspan="1" colspan="1">&lt;.001</td></tr><tr><td rowspan="1" colspan="1">R cerebellum</td><td rowspan="1" colspan="1">Interaction Y+ O–</td><td rowspan="1" colspan="1">8, –48, –36</td><td rowspan="1" colspan="1">3.36</td><td rowspan="1" colspan="1">95</td><td rowspan="1" colspan="1">&lt;.001</td></tr><tr><td rowspan="1" colspan="1">L parietal superior</td><td rowspan="1" colspan="1">Interaction Y+ O–</td><td rowspan="1" colspan="1">–27, –62, 44</td><td rowspan="1" colspan="1">3.36</td><td rowspan="1" colspan="1">139</td><td rowspan="1" colspan="1">&lt;.001</td></tr><tr><td rowspan="1" colspan="1">R cerebellum</td><td rowspan="1" colspan="1">Interaction Y+ O–</td><td rowspan="1" colspan="1">26, –78, –54</td><td rowspan="1" colspan="1">3.32</td><td rowspan="1" colspan="1">422</td><td rowspan="1" colspan="1">&lt;.001</td></tr></tbody></table><table-wrap-foot><fn><p><citation_analysis attribute="positive"><bold>Notes:</bold></citation_analysis><citation_analysis attribute="positive"> Y+ indicates positive association in younger adults, and O– indicatesnegative association in older adults.</citation_analysis></p><p><citation_analysis attribute="positive"><bold>Abbreviations:</bold></citation_analysis><citation_analysis attribute="neither"> GM, gray matter; MNI, Montreal Neurological Institute; L, ﻿left; R, ﻿right; KSS, Karolinska Sleepiness Scale; Uncorr, uncorrected. x, y, z = coordinates.</citation_analysis></p></fn></table-wrap-foot></table-wrap></citation_analysis><citation_analysis attribute="positive">
+</citation_analysis><citation_analysis attribute="positive"><table-wrap id="T0004" orientation="portrait" position="float"><label>Table 4</label><caption><p><citation_analysis attribute="neither">Exploratory Whole-Brain Main Effects of Associations Between Sleepiness (KSS Scores) and GM Volume for Both Groups Together. </citation_analysis></p></caption><table frame="hsides" rules="groups"><thead><tr><th rowspan="1" colspan="1">Region</th><th rowspan="1" colspan="1">Age Effect</th><th rowspan="1" colspan="1">MNI (x, y, z)</th><th rowspan="1" colspan="1"><italic>Z</italic></th><th rowspan="1" colspan="1">Voxels (mm<sup>3</sup>)</th><th rowspan="1" colspan="1">P (Uncorr)</th></tr></thead><tbody><tr><td rowspan="1" colspan="1">R frontal mid orbitofrontal</td><td rowspan="1" colspan="1">Main YO+</td><td rowspan="1" colspan="1">22, 52, –10</td><td rowspan="1" colspan="1">3.52</td><td rowspan="1" colspan="1">135</td><td rowspan="1" colspan="1">&lt;.001</td></tr><tr><td rowspan="1" colspan="1">L cerebellum</td><td rowspan="1" colspan="1">Main YO–</td><td rowspan="1" colspan="1">–12, –58, –62</td><td rowspan="1" colspan="1">4.21</td><td rowspan="1" colspan="1">1225</td><td rowspan="1" colspan="1">&lt;.001</td></tr><tr><td rowspan="1" colspan="1">R cerebellum</td><td rowspan="1" colspan="1">Main YO–</td><td rowspan="1" colspan="1">28, –84, –39</td><td rowspan="1" colspan="1">3.83</td><td rowspan="1" colspan="1">425</td><td rowspan="1" colspan="1">&lt;.001</td></tr><tr><td rowspan="1" colspan="1">L rolandic operculum</td><td rowspan="1" colspan="1">Main YO–</td><td rowspan="1" colspan="1">–45, –6, 4</td><td rowspan="1" colspan="1">3.72</td><td rowspan="1" colspan="1">246</td><td rowspan="1" colspan="1">&lt;.001</td></tr><tr><td rowspan="1" colspan="1">R cerebellum</td><td rowspan="1" colspan="1">Main YO–</td><td rowspan="1" colspan="1">15, –57, –63</td><td rowspan="1" colspan="1">3.69</td><td rowspan="1" colspan="1">516</td><td rowspan="1" colspan="1">&lt;.001</td></tr></tbody></table><table-wrap-foot><fn><p><citation_analysis attribute="positive"><bold>Notes:</bold></citation_analysis><citation_analysis attribute="neither"> YO+ and YO– indicate the sign of the (+, positively; –, negatively) across both age groups. x, y, z = coordinates.</citation_analysis></p><p><citation_analysis attribute="positive"><bold>Abbreviations:</bold></citation_analysis><citation_analysis attribute="neither"> GM, gray matter; MNI, Montreal Neurological Institute; L, ﻿left; R, ﻿right; KSS, Karolinska Sleepiness Scale; Uncorr, uncorrected.</citation_analysis></p></fn><fn><p><citation_analysis attribute="neither">All of the </citation_analysis><citation_analysis attribute="positive"><italic>P</italic></citation_analysis><citation_analysis attribute="neither">s are Presented at an uncorrected level.</citation_analysis></p></fn></table-wrap-foot></table-wrap></citation_analysis><citation_analysis attribute="positive">
+</citation_analysis></p>
+        <p><citation_analysis attribute="positive">Given that KSS was related to depressive symptoms in younger adults, and that anxiety symptoms differed between age groups (see below), we entered HADS Depression and HADS Anxiety scores as covariates of no interest in two separate models. In the fully adjusted analysis including all of the ROIs, age interactions on KSS were still seen in clusters in left (</citation_analysis><citation_analysis attribute="positive"><italic>P</italic></citation_analysis><citation_analysis attribute="positive"><sup>FWE</sup></citation_analysis><citation_analysis attribute="neither">=.048) and right insula (</citation_analysis><citation_analysis attribute="positive"><italic>P</italic></citation_analysis><citation_analysis attribute="positive"><sup>FWE</sup></citation_analysis><citation_analysis attribute="neither">=.028) as well as in right thalamus (</citation_analysis><citation_analysis attribute="positive"><italic>P</italic></citation_analysis><citation_analysis attribute="positive"><sup>FWE</sup></citation_analysis><citation_analysis attribute="neither">=.005) after adjusting for depression and anxiety. Similarly, sex and BMI were entered as covariates of no interest, and the age interactions on KSS and GM volumes were maintained (</citation_analysis><citation_analysis attribute="positive"><italic>P</italic></citation_analysis><citation_analysis attribute="positive"><sup>FWE</sup></citation_analysis><citation_analysis attribute="neither">&lt;.041) in clusters in the bilateral insula and the right thalamus (</citation_analysis><citation_analysis attribute="positive"><italic>P</italic></citation_analysis><citation_analysis attribute="positive"><sup>FWE</sup></citation_analysis><citation_analysis attribute="positive">&lt;.041). After adding TST as a covariate of no interest, no significant age interaction on GM volume remained in any of the ROIs (</citation_analysis><citation_analysis attribute="positive"><italic>P</italic></citation_analysis><citation_analysis attribute="positive"><sup>FWE</sup></citation_analysis><citation_analysis attribute="neither">&gt;.097).</citation_analysis></p>
+      </sec>
+      <sec id="S0003-S2004">
+        <title>Within-Groups Analyses</title>
+        <p><citation_analysis attribute="positive">Brain regions demonstrating a significant age interaction effect were also analyzed within each age group separately. We found that thalamus GM volume was negatively associated with older adults’ sleepiness, both in the left (xyz [–16, –22, 3], Z=3.49, </citation_analysis><citation_analysis attribute="positive"><italic>P</italic></citation_analysis><citation_analysis attribute="positive"><sup>FWE</sup></citation_analysis><citation_analysis attribute="neither">=.046, cluster size=3878 mm</citation_analysis><citation_analysis attribute="positive"><italic>3</italic></citation_analysis><citation_analysis attribute="neither">) and right (xyz [21, –26, 6], </citation_analysis><citation_analysis attribute="positive"><italic>Z</italic></citation_analysis><citation_analysis attribute="neither">=4.11, </citation_analysis><citation_analysis attribute="positive"><italic>P</italic></citation_analysis><citation_analysis attribute="positive"><sup>FWE</sup></citation_analysis><citation_analysis attribute="neither">=.006, cluster size=5501 mm</citation_analysis><citation_analysis attribute="positive"><sup>3</sup></citation_analysis><citation_analysis attribute="neither">) hemisphere. At trend, older adults’ insula GM volume was negatively associated with sleepiness (right insula: Z=3.65, </citation_analysis><citation_analysis attribute="positive"><italic>P</italic></citation_analysis><citation_analysis attribute="positive"><sup>FWE</sup></citation_analysis><citation_analysis attribute="neither">=.054; left insula: Z=3.51, </citation_analysis><citation_analysis attribute="positive"><italic>P</italic></citation_analysis><citation_analysis attribute="positive"><sup>FWE</sup></citation_analysis><citation_analysis attribute="positive">=.084). The positive association between GM volume and sleepiness (found as an age group interaction effect) was not significant in the younger group alone (thalamus: </citation_analysis><citation_analysis attribute="positive"><italic>Z</italic></citation_analysis><citation_analysis attribute="neither">&lt;2.85, </citation_analysis><citation_analysis attribute="positive"><italic>P</italic></citation_analysis><citation_analysis attribute="positive"><sup>FWE</sup></citation_analysis><citation_analysis attribute="neither">&gt;.241; insula: Z&lt;3.45, </citation_analysis><citation_analysis attribute="positive"><italic>P</italic></citation_analysis><citation_analysis attribute="positive"><sup>FWE</sup></citation_analysis><citation_analysis attribute="neither">&gt;.102).</citation_analysis></p>
+      </sec>
+      <sec id="S0003-S2005">
+        <title>Hospital Anxiety and Depression Scale</title>
+        <p><citation_analysis attribute="neither">Depressive symptoms, as determined by the HADS Depression subscale, did not differ between younger and older adults. Nevertheless, KSS was positively associated with depressive symptoms in younger adults (Pearson’s </citation_analysis><citation_analysis attribute="positive"><italic>r</italic></citation_analysis><citation_analysis attribute="neither">=0.29, </citation_analysis><citation_analysis attribute="positive"><italic>P</italic></citation_analysis><citation_analysis attribute="neither">=.046), but not in older adults (</citation_analysis><citation_analysis attribute="positive"><italic>r</italic></citation_analysis><citation_analysis attribute="neither">=0.22, </citation_analysis><citation_analysis attribute="positive"><italic>P</italic></citation_analysis><citation_analysis attribute="neither">=.178). In addition, anxiety symptoms (HADS Anxiety subscale) were higher in younger relative to older individuals. However, they were not associated with KSS in younger or older adults (</citation_analysis><citation_analysis attribute="positive"><italic>r</italic></citation_analysis><citation_analysis attribute="neither">&lt;0.03, </citation_analysis><citation_analysis attribute="positive"><italic>P</italic></citation_analysis><citation_analysis attribute="neither">&gt;.83).</citation_analysis></p>
+      </sec>
+    </sec>
+    <sec id="S0004">
+      <title>Discussion</title>
+      <p><citation_analysis attribute="positive">The results showed that sleepiness, as well as thalamic and insular GM volume, was lower in older adults. The association between GM volume and sleepiness was not significant across age groups, however. We also found an interactive association of age and sleepiness in right thalamus and bilateral insula GM volume. In the older group, sleepiness decreased significantly with increasing GM volume in clusters in thalamus and at trend in insula, while there was no significant association in the young group. These associations were modified after adjusting for gender and BMI, and were eliminated after adjusting for the TST of the immediately preceding sleep.</citation_analysis></p>
+      <p><citation_analysis attribute="positive">With regard to the first finding, there is no previous work on reported sleepiness and GM volume across age groups, but the results agree with the observations of lower sleepiness in older individuals,</citation_analysis><citation_analysis attribute="positive"><xref rid="CIT0021" ref-type="bibr">21</xref></citation_analysis><citation_analysis attribute="neither">,</citation_analysis><citation_analysis attribute="positive"><xref rid="CIT0042" ref-type="bibr">42</xref></citation_analysis><citation_analysis attribute="neither"> on the one hand, and with observations of lower GM volume in older individuals,</citation_analysis><citation_analysis attribute="positive"><xref rid="CIT0023" ref-type="bibr">23</xref></citation_analysis><citation_analysis attribute="positive"> on the other hand. Still, the association in the present study between GM volume and sleepiness was not significant for the two age groups combined. One reason may be that the difference in sleepiness between the age groups is rather modest (0.75 KSS units), even if significant. This may, in turn, be related to the screening procedure, in which individuals in good health and without sleep problem were selected. This needs to be considered in future studies.</citation_analysis></p>
+      <p><citation_analysis attribute="neither">The second finding, of a negative association between sleepiness and GM volume in thalamus and insula, in the older group, agrees in terms of direction with the negative association with sleepiness (using the ESS) found for GM volume of a cluster in the orbitofrontal cortex</citation_analysis><citation_analysis attribute="positive"><xref rid="CIT0014" ref-type="bibr">14</xref></citation_analysis><citation_analysis attribute="neither"> and hippocampus.</citation_analysis><citation_analysis attribute="positive"><xref rid="CIT0015" ref-type="bibr">15</xref></citation_analysis><citation_analysis attribute="positive"> We could not, however, confirm the findings for the latter two regions. One reason could be that those studies used the Epworth Sleepiness Scale which describes </citation_analysis><citation_analysis attribute="positive"><italic>habitual</italic></citation_analysis><citation_analysis attribute="neither"> sleepiness. The latter may not be representative of the momentary sleepiness measured in the present study.</citation_analysis></p>
+      <p><citation_analysis attribute="positive">The findings for thalamus are also in line with the notion that this structure is a regulator of brain arousal.</citation_analysis><citation_analysis attribute="positive"><xref rid="CIT0008" ref-type="bibr">8</xref></citation_analysis><citation_analysis attribute="neither"> Also, recently Månsson et al</citation_analysis><citation_analysis attribute="positive"><xref rid="CIT0043" ref-type="bibr">43</xref></citation_analysis><citation_analysis attribute="positive"> reported that an individual’s mental state affects indices of GM volume. It remains speculative at this point, but it could be that older individuals’ thalamic and insula brain morphometrics are sensitive to momentary sleepiness.</citation_analysis></p>
+      <p><citation_analysis attribute="positive">The third finding was the interaction between sleepiness related insula (bilaterally) GM volume, and age. The pattern was the same as for thalamic clusters: a negative association at trend in the older group, and no significant association in the younger group. Much of the reasoning regarding the thalamus can probably be applied similarly to the insula, although the insula does not have the arousal regulatory role that the thalamus has. Rather, the link between sleepiness and insula seems logical from the role of the insula as a center for awareness of the state of the organism</citation_analysis><citation_analysis attribute="positive"><xref rid="CIT0012" ref-type="bibr">12</xref></citation_analysis><citation_analysis attribute="neither"> and its role in the intrinsic interoceptive network that controls and represents the autonomic and hormonal systems in the body.</citation_analysis><citation_analysis attribute="positive"><xref rid="CIT0013" ref-type="bibr">13</xref></citation_analysis><citation_analysis attribute="positive"> While the posterior insula has been associated with the representation of interoceptive input, it has been suggested that the anterior insula is more related to subjective feeling states.</citation_analysis><citation_analysis attribute="positive"><xref rid="CIT0012" ref-type="bibr">12</xref></citation_analysis><citation_analysis attribute="negative"> Because sleepiness is measured as a subjective rating, it is of interest that the observed interaction is present in the mid-anterior insula and that the ability to recognize heartbeats, for example, is positively related to the volume of the anterior insula.</citation_analysis><citation_analysis attribute="positive"><xref rid="CIT0044" ref-type="bibr">44</xref></citation_analysis><citation_analysis attribute="positive"> Moreover, it has been suggested that a smaller insula is linked to a lower top-down regulatory capacity of information processing in insula,</citation_analysis><citation_analysis attribute="positive"><xref rid="CIT0045" ref-type="bibr">45</xref></citation_analysis><citation_analysis attribute="neither">–</citation_analysis><citation_analysis attribute="positive"><xref rid="CIT0048" ref-type="bibr">48</xref></citation_analysis><citation_analysis attribute="positive"> which may be in line with the negative correlation trend between sleepiness and insula volume in the older group. This interpretation suggests that the insula findings may reflect the subjective awareness of the arousal level of the thalamus, possibly due to a dampened regulatory capacity of insula. We have previously reported that older participants in this dataset have lower regional homogeneity (ReHo) in bilateral insula compared to the younger participants.</citation_analysis><citation_analysis attribute="positive"><xref rid="CIT0025" ref-type="bibr">25</xref></citation_analysis><citation_analysis attribute="neither"> One possible unifying explanation could be that age-related vascular changes cause a loss of autoregulatory function in the vascular bed, leading to reduced ReHo and tissue shrinkage.</citation_analysis></p>
+      <p><citation_analysis attribute="positive">The observation that adjusting for TST eliminated the significant associations between GM volume and sleepiness in the older group may implicate a possible mechanism. This needs replication, and the finding indicates that the relation between TST, GM volume, and sleepiness should be investigated further. Another limitation of the present study is its cross-sectional character, which precludes causal inference, and does not exclude cohort effects. A sample across all ages would have made it possible to better understand whether a negative relation between GM volume and sleepiness reflects a gradual development across age.</citation_analysis></p>
+      <p><citation_analysis attribute="positive">Furthermore, a limitation may be that sleepiness ratings were obtained from the time in the MRI scanner. No ratings were obtained earlier during the same day. We do not know whether the obtained ratings represent whole day ratings of sleepiness. Most likely they do not, since the situation in the scanner is soporific – lying down with dimmed lighting and carrying out relatively monotonous tasks. Apparently, intrusions of sleep are common,</citation_analysis><citation_analysis attribute="positive"><xref rid="CIT0049" ref-type="bibr">49</xref></citation_analysis><citation_analysis attribute="neither"> although in the present study’s eye monitoring showed that longer eye closures did not occur during fMRI runs. We suggest, therefore, that the obtained ratings represent a susceptibility to sleepiness in a monotonous situation and that the results should be interpreted in that light.</citation_analysis></p>
+      <p><citation_analysis attribute="positive">In conclusion, the present study suggests that self-rated momentary sleepiness in a monotonous situation may be negatively associated with GM volume in clusters within thalamus, and possibly insula, in older individuals. A tentative interpretation is that larger thalamic and insulae GM volume may be protective against sleepiness in older individuals, but further investigation is needed, not the least given the negative result of the whole-brain analyses. However, the present results should be interpreted with caution and replication studies could further knowledge in the much-needed area of understanding determinants of sleepiness, and in extension, the puzzling relations between age, sleep need and experiences of sleepiness.</citation_analysis></p>
+    </sec>
+  </body>
+  <back>
+    <ack>
+      <title>Acknowledgments</title>
+      <p><citation_analysis attribute="positive">This work was supported by the Tercentenary Fund of Bank of Sweden, the Swedish Brain Foundation, The Swedish Science Council, the Fredrik and Ingrid Thuring Foundation, the AFA insurance company, and Stockholm Stress Center. We are grateful to Diana Cortes, Danielle Cosme and Roberta Nagai for assistance with polysomnography recordings, to Birgitta Mannerstedt Fogelfors for assistance with screening and instructions to participants, to Rouslan Sitnikov and Jonathan Berrebi for assistance with MRI sequences and auxiliary equipment, and to Hannes Ingre for entering sleep diary data into a spreadsheet. An abstract of this paper was presented as a poster presentation with interim findings at the 2018 Conference in Baltimore of the Associated Professional Sleep Societies. The poster’s abstract was published as abstract 0149, page A58 in the journal SLEEP, April 1, 2018 (Oxford Academic Press/Sleep Research Society). </citation_analysis><citation_analysis attribute="positive"><underline><ext-link ext-link-type="uri" xlink:href="https://doi-org.proxy.kib.ki.se/10.1093/sleep/zsy061.148">https://doi-org.proxy.kib.ki.se/10.1093/sleep/zsy061.148</ext-link></underline></citation_analysis></p>
+    </ack>
+    <sec id="S0005">
+      <title>Data Sharing Statement</title>
+      <p><citation_analysis attribute="neither">The project was preregistered at </citation_analysis><citation_analysis attribute="positive"><underline><ext-link ext-link-type="uri" xlink:href="https://clinicaltrials.gov/ct2/show/NCT02000076">https://clinicaltrials.gov/ct2/show/NCT02000076</ext-link></underline></citation_analysis><citation_analysis attribute="positive"> and approved by the Ethics Review board of the Stockholm region (Dnr 2012/1098–31/2). Methods, data, and technical validation have been reported in detail in a previous manuscript.</citation_analysis><citation_analysis attribute="positive"><sup>28</sup></citation_analysis><citation_analysis attribute="neither"> All data are available immediately and indefinitely from the openneuro.org repository, doi: 10.18112/openneuro.ds000201.v1.0.3. We share the full deidentified imaging data set. Other data or documents may be obtained on request from the first author.</citation_analysis></p>
+    </sec>
+    <sec id="S0006">
+      <title>Author Contributions</title>
+      <p><citation_analysis attribute="negative">All authors made substantial contributions to conception and design, acquisition of data, analysis and interpretation of data, drafting the manuscript, revising the manuscript critically, read and approved the final draft of the manuscript for submission, gave final approval of the manuscript version to be published, and agreed to be accountable for every step of the work published, and agreed to be accountable for all aspects of the work.</citation_analysis></p>
+    </sec>
+    <sec id="S0007" sec-type="COI-statement">
+      <title>Disclosure</title>
+      <p><citation_analysis attribute="neither">None of the authors have declared any conflicts of interest.</citation_analysis></p>
+    </sec>
+    <ref-list>
+      <title>References</title>
+      <ref id="CIT0001">
+        <label>1.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Hoddes</surname>
+<given-names>E</given-names></string-name>, <string-name><surname>Zarcone</surname>
+<given-names>V</given-names></string-name>, <string-name><surname>Smythe</surname>
+<given-names>H</given-names></string-name>, <string-name><surname>Phillips</surname>
+<given-names>R</given-names></string-name>, <string-name><surname>Dement</surname>
+<given-names>W</given-names></string-name>. <article-title>Quantification of sleepiness: a new approach</article-title>. <source><italic toggle="yes">Psychophysiol</italic></source>. <year>1973</year>;<volume>10</volume>(<issue>4</issue>):<fpage>431</fpage>–<lpage>436</lpage>. doi:<pub-id pub-id-type="doi">10.1111/j.1469-8986.1973.tb00801.x</pub-id></mixed-citation>
+      </ref>
+      <ref id="CIT0002">
+        <label>2.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Åkerstedt</surname>
+<given-names>T</given-names></string-name>, <string-name><surname>Gillberg</surname>
+<given-names>M</given-names></string-name>. <article-title>Subjective and objective sleepiness in the active individual</article-title>. <source><italic toggle="yes">International J Neurosci</italic></source>. <year>1990</year>;<volume>52</volume>(<issue>1–2</issue>):<fpage>29</fpage>–<lpage>37</lpage>. doi:<pub-id pub-id-type="doi">10.3109/00207459008994241</pub-id></mixed-citation>
+      </ref>
+      <ref id="CIT0003">
+        <label>3.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Akerstedt</surname>
+<given-names>T</given-names></string-name>, <string-name><surname>Anund</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Axelsson</surname>
+<given-names>J</given-names></string-name>, <string-name><surname>Kecklund</surname>
+<given-names>G</given-names></string-name>. <article-title>Subjective sleepiness is a sensitive indicator of insufficient sleep and impaired waking function</article-title>. <source><italic toggle="yes">J Sleep Res</italic></source>. <year>2014</year>;<volume>23</volume>(<issue>3</issue>):<fpage>240</fpage>–<lpage>252</lpage>. doi:<pub-id pub-id-type="doi">10.1111/jsr.12158</pub-id><pub-id pub-id-type="pmid">24750198</pub-id></mixed-citation>
+      </ref>
+      <ref id="CIT0004">
+        <label>4.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Härmä</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Suvanto</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Popkin</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Pulli</surname>
+<given-names>K</given-names></string-name>, <string-name><surname>Mulder</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Hirvonen</surname>
+<given-names>K</given-names></string-name>. <article-title>A dose-response study of total sleep time and the ability to maintain wakefulness</article-title>. <source><italic toggle="yes">J Sleep Res</italic></source>. <year>1998</year>;<volume>7</volume>(<issue>3</issue>):<fpage>167</fpage>–<lpage>174</lpage>. doi:<pub-id pub-id-type="doi">10.1046/j.1365-2869.1998.00115.x</pub-id><pub-id pub-id-type="pmid">9785271</pub-id></mixed-citation>
+      </ref>
+      <ref id="CIT0005">
+        <label>5.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Bonnet</surname>
+<given-names>MH</given-names></string-name>, <string-name><surname>Arand</surname>
+<given-names>DL</given-names></string-name>. <article-title>Clinical effects of sleep fragmentation versus sleep deprivation</article-title>. <source><italic toggle="yes">Sleep Med Rev</italic></source>. <year>2003</year>;<volume>7</volume>(<issue>4</issue>):<fpage>297</fpage>–<lpage>310</lpage>. doi:<pub-id pub-id-type="doi">10.1053/smrv.2001.0245</pub-id><pub-id pub-id-type="pmid">14505597</pub-id></mixed-citation>
+      </ref>
+      <ref id="CIT0006">
+        <label>6.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Fröberg</surname>
+<given-names>JE</given-names></string-name>. <article-title>Twenty-four hour patterns in human performance, subjective and physiological variables and differences between morning and evening active subjects</article-title>. <source><italic toggle="yes">Biol Psychol</italic></source>. <year>1977</year>;<volume>5</volume>:<fpage>119</fpage>–<lpage>134</lpage>. doi:<pub-id pub-id-type="doi">10.1016/0301-0511(77)90008-4</pub-id><pub-id pub-id-type="pmid">884171</pub-id></mixed-citation>
+      </ref>
+      <ref id="CIT0007">
+        <label>7.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Ma</surname>
+<given-names>N</given-names></string-name>, <string-name><surname>Dinges</surname>
+<given-names>DF</given-names></string-name>, <string-name><surname>Basner</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Rao</surname>
+<given-names>H</given-names></string-name>. <article-title>How acute total sleep loss affects the attending brain: a meta-analysis of neuroimaging studies</article-title>. <source><italic toggle="yes">Sleep</italic></source>. <year>2015</year>;<volume>38</volume>(<issue>2</issue>):<fpage>233</fpage>–<lpage>240</lpage>. doi:<pub-id pub-id-type="doi">10.5665/sleep.4404</pub-id><pub-id pub-id-type="pmid">25409102</pub-id></mixed-citation>
+      </ref>
+      <ref id="CIT0008">
+        <label>8.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Schiff</surname>
+<given-names>ND</given-names></string-name>. <article-title>Central thalamic contributions to arousal regulation and neurological disorders of consciousness</article-title>. <source><italic toggle="yes">Ann N Y Acad Sci</italic></source>. <year>2008</year>;<volume>1129</volume>(<issue>1</issue>):<fpage>105</fpage>–<lpage>118</lpage>. doi:<pub-id pub-id-type="doi">10.1196/annals.1417.029</pub-id><pub-id pub-id-type="pmid">18591473</pub-id></mixed-citation>
+      </ref>
+      <ref id="CIT0009">
+        <label>9.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Poudel</surname>
+<given-names>GR</given-names></string-name>, <string-name><surname>Jones</surname>
+<given-names>RD</given-names></string-name>, <string-name><surname>Innes</surname>
+<given-names>CR</given-names></string-name>, <string-name><surname>Watts</surname>
+<given-names>R</given-names></string-name>, <string-name><surname>Signal</surname>
+<given-names>TL</given-names></string-name>, <string-name><surname>Bones</surname>
+<given-names>PJ</given-names></string-name>. <article-title>fMRI correlates of behavioural microsleeps during a continuous visuomotor task</article-title>. <source><italic toggle="yes">Conf Proc 31st IEEE Eng Med Biol Soc</italic></source>. <year>2009</year>;<volume>2009</volume>:<fpage>2919</fpage>–<lpage>2922</lpage>.</mixed-citation>
+      </ref>
+      <ref id="CIT0010">
+        <label>10.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Olbrich</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Mulert</surname>
+<given-names>C</given-names></string-name>, <string-name><surname>Karch</surname>
+<given-names>S</given-names></string-name>, et al. <article-title>EEG-vigilance and BOLD effect during simultaneous EEG/fMRI measurement</article-title>. <source><italic toggle="yes">Neuroimage</italic></source>. <year>2009</year>;<volume>45</volume>(<issue>2</issue>):<fpage>319</fpage>–<lpage>332</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.neuroimage.2008.11.014</pub-id><pub-id pub-id-type="pmid">19110062</pub-id></mixed-citation>
+      </ref>
+      <ref id="CIT0011">
+        <label>11.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Maire</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Reichert</surname>
+<given-names>CF</given-names></string-name>, <string-name><surname>Gabel</surname>
+<given-names>V</given-names></string-name>, et al. <article-title>Human brain patterns underlying vigilant attention: impact of sleep debt, circadian phase and attentional engagement</article-title>. <source><italic toggle="yes">Sci Rep</italic></source>. <year>2018</year>;<volume>8</volume>(<issue>1</issue>):<fpage>970</fpage>. doi:<pub-id pub-id-type="doi">10.1038/s41598-017-17022-9</pub-id><pub-id pub-id-type="pmid">29343686</pub-id></mixed-citation>
+      </ref>
+      <ref id="CIT0012">
+        <label>12.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Craig</surname>
+<given-names>AD</given-names></string-name>. <article-title>How do you feel–now? The anterior insula and human awareness</article-title>. <source><italic toggle="yes">Nat Rev Neurosci</italic></source>. <year>2009</year>;<volume>10</volume>(<issue>1</issue>):<fpage>59</fpage>–<lpage>70</lpage>. doi:<pub-id pub-id-type="doi">10.1038/nrn2555</pub-id><pub-id pub-id-type="pmid">19096369</pub-id></mixed-citation>
+      </ref>
+      <ref id="CIT0013">
+        <label>13.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Barrett</surname>
+<given-names>LF</given-names></string-name>, <string-name><surname>Simmons</surname>
+<given-names>WK</given-names></string-name>. <article-title>Interoceptive predictions in the brain</article-title>. <source><italic toggle="yes">Nat Rev Neurosci</italic></source>. <year>2015</year>;<volume>16</volume>(<issue>7</issue>):<fpage>419</fpage>–<lpage>429</lpage>. doi:<pub-id pub-id-type="doi">10.1038/nrn3950</pub-id><pub-id pub-id-type="pmid">26016744</pub-id></mixed-citation>
+      </ref>
+      <ref id="CIT0014">
+        <label>14.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Killgore</surname>
+<given-names>WD</given-names></string-name>, <string-name><surname>Schwab</surname>
+<given-names>ZJ</given-names></string-name>, <string-name><surname>Kipman</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>DelDonno</surname>
+<given-names>SR</given-names></string-name>, <string-name><surname>Weber</surname>
+<given-names>M</given-names></string-name>. <article-title>Voxel-based morphometric gray matter correlates of daytime sleepiness</article-title>. <source><italic toggle="yes">Neurosci Lett</italic></source>. <year>2012</year>;<volume>518</volume>(<issue>1</issue>):<fpage>10</fpage>–<lpage>13</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.neulet.2012.04.029</pub-id><pub-id pub-id-type="pmid">22542893</pub-id></mixed-citation>
+      </ref>
+      <ref id="CIT0015">
+        <label>15.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Sforza</surname>
+<given-names>E</given-names></string-name>, <string-name><surname>Celle</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Saint-Martin</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Barthelemy</surname>
+<given-names>JC</given-names></string-name>, <string-name><surname>Roche</surname>
+<given-names>F</given-names></string-name>. <article-title>Hippocampus volume and subjective sleepiness in older people with sleep-disordered breathing: a preliminary report</article-title>. <source><italic toggle="yes">J Sleep Res</italic></source>. <year>2016</year>;<volume>25</volume>(<issue>2</issue>):<fpage>190</fpage>–<lpage>193</lpage>. doi:<pub-id pub-id-type="doi">10.1111/jsr.12367</pub-id><pub-id pub-id-type="pmid">26662175</pub-id></mixed-citation>
+      </ref>
+      <ref id="CIT0016">
+        <label>16.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Chee</surname>
+<given-names>MW</given-names></string-name>, <string-name><surname>Goh</surname>
+<given-names>CS</given-names></string-name>, <string-name><surname>Namburi</surname>
+<given-names>P</given-names></string-name>, <string-name><surname>Parimal</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Seidl</surname>
+<given-names>KN</given-names></string-name>, <string-name><surname>Kastner</surname>
+<given-names>S</given-names></string-name>. <article-title>Effects of sleep deprivation on cortical activation during directed attention in the absence and presence of visual stimuli</article-title>. <source><italic toggle="yes">Neuroimage</italic></source>. <year>2011</year>;<volume>58</volume>(<issue>2</issue>):<fpage>595</fpage>–<lpage>604</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.neuroimage.2011.06.058</pub-id><pub-id pub-id-type="pmid">21745579</pub-id></mixed-citation>
+      </ref>
+      <ref id="CIT0017">
+        <label>17.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Chee</surname>
+<given-names>MW</given-names></string-name>, <string-name><surname>Tan</surname>
+<given-names>JC</given-names></string-name>. <article-title>Lapsing when sleep deprived: neural activation characteristics of resistant and vulnerable individuals</article-title>. <source><italic toggle="yes">Neuroimage</italic></source>. <year>2010</year>;<volume>51</volume>(<issue>2</issue>):<fpage>835</fpage>–<lpage>843</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.neuroimage.2010.02.031</pub-id><pub-id pub-id-type="pmid">20171288</pub-id></mixed-citation>
+      </ref>
+      <ref id="CIT0018">
+        <label>18.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Chee</surname>
+<given-names>MW</given-names></string-name>, <string-name><surname>Tan</surname>
+<given-names>JC</given-names></string-name>, <string-name><surname>Zheng</surname>
+<given-names>H</given-names></string-name>, et al. <article-title>Lapsing during sleep deprivation is associated with distributed changes in brain activation</article-title>. <source><italic toggle="yes">J Neurosci</italic></source>. <year>2008</year>;<volume>28</volume>(<issue>21</issue>):<fpage>5519</fpage>–<lpage>5528</lpage>. doi:<pub-id pub-id-type="doi">10.1523/JNEUROSCI.0733-08.2008</pub-id><pub-id pub-id-type="pmid">18495886</pub-id></mixed-citation>
+      </ref>
+      <ref id="CIT0019">
+        <label>19.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Chee</surname>
+<given-names>MW</given-names></string-name>, <string-name><surname>Chuah</surname>
+<given-names>LY</given-names></string-name>, <string-name><surname>Venkatraman</surname>
+<given-names>V</given-names></string-name>, <string-name><surname>Chan</surname>
+<given-names>WY</given-names></string-name>, <string-name><surname>Philip</surname>
+<given-names>P</given-names></string-name>, <string-name><surname>Dinges</surname>
+<given-names>DF</given-names></string-name>. <article-title>Functional imaging of working memory following normal sleep and after 24 and 35 h of sleep deprivation: correlations of fronto-parietal activation with performance</article-title>. <source><italic toggle="yes">Neuroimage</italic></source>. <year>2006</year>;<volume>31</volume>(<issue>1</issue>):<fpage>419</fpage>–<lpage>428</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.neuroimage.2005.12.001</pub-id><pub-id pub-id-type="pmid">16427321</pub-id></mixed-citation>
+      </ref>
+      <ref id="CIT0020">
+        <label>20.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Krause</surname>
+<given-names>AJ</given-names></string-name>, <string-name><surname>Simon</surname>
+<given-names>EB</given-names></string-name>, <string-name><surname>Mander</surname>
+<given-names>BA</given-names></string-name>, et al. <article-title>The sleep-deprived human brain</article-title>. <source><italic toggle="yes">Nat Rev Neurosci</italic></source>. <year>2017</year>;<volume>18</volume>(<issue>7</issue>):<fpage>404</fpage>–<lpage>418</lpage>. doi:<pub-id pub-id-type="doi">10.1038/nrn.2017.55</pub-id><pub-id pub-id-type="pmid">28515433</pub-id></mixed-citation>
+      </ref>
+      <ref id="CIT0021">
+        <label>21.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Lowden</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Anund</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Kecklund</surname>
+<given-names>G</given-names></string-name>, <string-name><surname>Peters</surname>
+<given-names>B</given-names></string-name>, <string-name><surname>Akerstedt</surname>
+<given-names>T</given-names></string-name>. <article-title>Wakefulness in young and elderly subjects driving at night in a car simulator</article-title>. <source><italic toggle="yes">Acc Anal Prev</italic></source>. <year>2009</year>;<volume>41</volume>(<issue>5</issue>):<fpage>1001</fpage>–<lpage>1007</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.aap.2009.05.014</pub-id></mixed-citation>
+      </ref>
+      <ref id="CIT0022">
+        <label>22.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Akerstedt</surname>
+<given-names>T</given-names></string-name>, <string-name><surname>Hallvig</surname>
+<given-names>D</given-names></string-name>, <string-name><surname>Kecklund</surname>
+<given-names>G</given-names></string-name>. <article-title>Normative data on the diurnal pattern of the Karolinska Sleepiness Scale ratings and its relation to age, sex, work, stress, sleep quality and sickness absence/illness in a large sample of daytime workers</article-title>. <source><italic toggle="yes">J Sleep Res</italic></source>. <year>2017</year>;<volume>26</volume>(<issue>5</issue>):<fpage>559</fpage>–<lpage>566</lpage>. doi:<pub-id pub-id-type="doi">10.1111/jsr.12528</pub-id><pub-id pub-id-type="pmid">28370590</pub-id></mixed-citation>
+      </ref>
+      <ref id="CIT0023">
+        <label>23.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Dube</surname>
+<given-names>J</given-names></string-name>, <string-name><surname>Lafortune</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Bedetti</surname>
+<given-names>C</given-names></string-name>, et al. <article-title>Cortical thinning explains changes in sleep slow waves during adulthood</article-title>. <source><italic toggle="yes">J Neurosci</italic></source>. <year>2015</year>;<volume>35</volume>(<issue>20</issue>):<fpage>7795</fpage>–<lpage>7807</lpage>. doi:<pub-id pub-id-type="doi">10.1523/JNEUROSCI.3956-14.2015</pub-id><pub-id pub-id-type="pmid">25995467</pub-id></mixed-citation>
+      </ref>
+      <ref id="CIT0024">
+        <label>24.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Ohayon</surname>
+<given-names>MM</given-names></string-name>, <string-name><surname>Carskadon</surname>
+<given-names>MA</given-names></string-name>, <string-name><surname>Guilleminault</surname>
+<given-names>C</given-names></string-name>, <string-name><surname>Vitiello</surname>
+<given-names>MV</given-names></string-name>. <article-title>Meta-analysis of quantitative sleep parameters from childhood to old age in healthy individuals: developing normative sleep values across the human lifespan</article-title>. <source><italic toggle="yes">Sleep</italic></source>. <year>2004</year>;<volume>27</volume>(<issue>7</issue>):<fpage>1255</fpage>–<lpage>1273</lpage>. doi:<pub-id pub-id-type="doi">10.1093/sleep/27.7.1255</pub-id><pub-id pub-id-type="pmid">15586779</pub-id></mixed-citation>
+      </ref>
+      <ref id="CIT0025">
+        <label>25.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Nilsonne</surname>
+<given-names>G</given-names></string-name>, <string-name><surname>Tamm</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Schwarz</surname>
+<given-names>J</given-names></string-name>, et al. <article-title>Intrinsic brain connectivity after partial sleep deprivation in young and older adults: results from the Stockholm Sleepy Brain study</article-title>. <source><italic toggle="yes">Sci Rep</italic></source>. <year>2017</year>;<volume>7</volume>(<issue>1</issue>):<fpage>9422</fpage>. doi:<pub-id pub-id-type="doi">10.1038/s41598-017-09744-7</pub-id><pub-id pub-id-type="pmid">28842597</pub-id></mixed-citation>
+      </ref>
+      <ref id="CIT0026">
+        <label>26.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Tamm</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Nilsonne</surname>
+<given-names>G</given-names></string-name>, <string-name><surname>Schwarz</surname>
+<given-names>J</given-names></string-name>, et al. <article-title>The effect of sleep restriction on empathy for pain: an fMRI study in younger and older adults</article-title>. <source><italic toggle="yes">Sci Rep</italic></source>. <year>2017</year>;<volume>7</volume>(<issue>1</issue>):<fpage>12236</fpage>. doi:<pub-id pub-id-type="doi">10.1038/s41598-017-12098-9</pub-id><pub-id pub-id-type="pmid">28947790</pub-id></mixed-citation>
+      </ref>
+      <ref id="CIT0027">
+        <label>27.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Akerstedt</surname>
+<given-names>T</given-names></string-name>, <string-name><surname>Lekander</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Nilsonne</surname>
+<given-names>G</given-names></string-name>, et al. <article-title>Effects of late-night short-sleep on in-home polysomnography: relation to adult age and sex</article-title>. <source><italic toggle="yes">J Sleep Res</italic></source>. <year>2018</year>;<volume>27</volume>(<issue>4</issue>):<fpage>e12626</fpage>. doi:<pub-id pub-id-type="doi">10.1111/jsr.12626</pub-id><pub-id pub-id-type="pmid">29082633</pub-id></mixed-citation>
+      </ref>
+      <ref id="CIT0028">
+        <label>28.</label>
+        <mixed-citation publication-type="data"><string-name><surname>Nilsonne</surname>
+<given-names>G</given-names></string-name>, <string-name><surname>Tamm</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>d’Onofrio</surname>
+<given-names>P</given-names></string-name>, et al. <article-title>A multimodal brain imaging dataset on sleep deprivation in young and old humans</article-title>; <year>2016</year>
+<comment>Available from:</comment>
+<ext-link ext-link-type="uri" xlink:href="http://openarchivekise/xmlui/handle/10616/45181">http://openarchivekise/xmlui/handle/10616/45181</ext-link>. <date-in-citation>Accessed <month>5</month><day>15</day>, 2020</date-in-citation>.</mixed-citation>
+      </ref>
+      <ref id="CIT0029">
+        <label>29.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Zigmond</surname>
+<given-names>AS</given-names></string-name>, <string-name><surname>Snaith</surname>
+<given-names>RP</given-names></string-name>. <article-title>The Hospital Anxiety and Depression Scale</article-title>. <source><italic toggle="yes">Acta Psychiat Scand</italic></source>. <year>1983</year>;<volume>67</volume>(<issue>6</issue>):<fpage>361</fpage>–<lpage>370</lpage>. doi:<pub-id pub-id-type="doi">10.1111/j.1600-0447.1983.tb09716.x</pub-id><pub-id pub-id-type="pmid">6880820</pub-id></mixed-citation>
+      </ref>
+      <ref id="CIT0030">
+        <label>30.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Bastien</surname>
+<given-names>C</given-names></string-name>, <string-name><surname>Vallieres</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Morin</surname>
+<given-names>C</given-names></string-name>. <article-title>Validation of the Insomnia Severity Index as an outcome measure for insomnia research</article-title>. <source><italic toggle="yes">Sleep Med</italic></source>. <year>2001</year>;<volume>2</volume>(<issue>4</issue>):<fpage>297</fpage>–<lpage>307</lpage>. doi:<pub-id pub-id-type="doi">10.1016/S1389-9457(00)00065-4</pub-id><pub-id pub-id-type="pmid">11438246</pub-id></mixed-citation>
+      </ref>
+      <ref id="CIT0031">
+        <label>31.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Torsvall</surname>
+<given-names>L</given-names></string-name>, <string-name><surname>Åkerstedt</surname>
+<given-names>T</given-names></string-name>. <article-title>A diurnal type scale</article-title>. <source><italic toggle="yes">Scand J Work Environ Health</italic></source>. <year>1980</year>;<volume>6</volume>(<issue>4</issue>):<fpage>283</fpage>–<lpage>290</lpage>. doi:<pub-id pub-id-type="doi">10.5271/sjweh.2608</pub-id><pub-id pub-id-type="pmid">7195066</pub-id></mixed-citation>
+      </ref>
+      <ref id="CIT0032">
+        <label>32.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Akerstedt</surname>
+<given-names>T</given-names></string-name>, <string-name><surname>Ingre</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Broman</surname>
+<given-names>JE</given-names></string-name>, <string-name><surname>Kecklund</surname>
+<given-names>G</given-names></string-name>. <article-title>Disturbed sleep in shift workers, day workers, and insomniacs</article-title>. <source><italic toggle="yes">Chronobiol Int</italic></source>. <year>2008</year>;<volume>25</volume>(<issue>2–3</issue>):<fpage>333</fpage>–<lpage>348</lpage>. doi:<pub-id pub-id-type="doi">10.1080/07420520802113922</pub-id><pub-id pub-id-type="pmid">18484368</pub-id></mixed-citation>
+      </ref>
+      <ref id="CIT0033">
+        <label>33.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Morin</surname>
+<given-names>CM</given-names></string-name>, <string-name><surname>Belleville</surname>
+<given-names>G</given-names></string-name>, <string-name><surname>Belanger</surname>
+<given-names>L</given-names></string-name>, <string-name><surname>Ivers</surname>
+<given-names>H</given-names></string-name>. <article-title>The Insomnia Severity Index: psychometric indicators to detect insomnia cases and evaluate treatment response</article-title>. <source><italic toggle="yes">Sleep</italic></source>. <year>2011</year>;<volume>34</volume>(<issue>5</issue>):<fpage>601</fpage>–<lpage>608</lpage>. doi:<pub-id pub-id-type="doi">10.1093/sleep/34.5.601</pub-id><pub-id pub-id-type="pmid">21532953</pub-id></mixed-citation>
+      </ref>
+      <ref id="CIT0034">
+        <label>34.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Bjelland</surname>
+<given-names>I</given-names></string-name>, <string-name><surname>Dahl</surname>
+<given-names>AA</given-names></string-name>, <string-name><surname>Haug</surname>
+<given-names>TT</given-names></string-name>, <string-name><surname>Neckelmann</surname>
+<given-names>D</given-names></string-name>. <article-title>The validity of the Hospital Anxiety and Depression Scale</article-title>. <source><italic toggle="yes">An updated literature review J Psychosom Res</italic></source>. <year>2002</year>;<volume>52</volume>(<issue>2</issue>):<fpage>69</fpage>–<lpage>77</lpage>. doi:<pub-id pub-id-type="doi">10.1016/S0022-3999(01)00296-3</pub-id><pub-id pub-id-type="pmid">11832252</pub-id></mixed-citation>
+      </ref>
+      <ref id="CIT0035">
+        <label>35.</label>
+        <mixed-citation publication-type="book"><string-name><surname>Rechtschaffen</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Kales</surname>
+<given-names>A</given-names></string-name>. <source><italic toggle="yes">A manual of standardized terminology, techniques and scoring system for sleep stages of human subjects</italic></source>. <publisher-loc>Bethesda</publisher-loc>: <publisher-name>US Department of Health, Education and Welfare, Public Health Service</publisher-name>; <year>1968</year>.</mixed-citation>
+      </ref>
+      <ref id="CIT0036">
+        <label>36.</label>
+        <mixed-citation publication-type="book"><string-name><surname>Iber</surname>
+<given-names>C</given-names></string-name>, <string-name><surname>Ancoli-Israel</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Chesson</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Quan</surname>
+<given-names>S</given-names></string-name>, <collab>Medicine ftAAoS</collab>. <source><italic toggle="yes">The AASM Manual for the Scoring of Sleep and Associated Events: Rules, Terminology and Technical Specifications, 1st edition</italic></source>. <publisher-loc>Westchester</publisher-loc>: <publisher-name>American Academy of Sleep Medicine</publisher-name>;<year>2007</year>.</mixed-citation>
+      </ref>
+      <ref id="CIT0037">
+        <label>37.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Malone</surname>
+<given-names>IB</given-names></string-name>, <string-name><surname>Leung</surname>
+<given-names>KK</given-names></string-name>, <string-name><surname>Clegg</surname>
+<given-names>S</given-names></string-name>, et al. <article-title>Accurate automatic estimation of total intracranial volume: a nuisance variable with less nuisance</article-title>. <source><italic toggle="yes">Neuroimage</italic></source>. <year>2015</year>;<volume>104</volume>:<fpage>366</fpage>–<lpage>372</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.neuroimage.2014.09.034</pub-id><pub-id pub-id-type="pmid">25255942</pub-id></mixed-citation>
+      </ref>
+      <ref id="CIT0038">
+        <label>38.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Fernandez-Mendoza</surname>
+<given-names>J</given-names></string-name>, <string-name><surname>Vgontzas</surname>
+<given-names>AN</given-names></string-name>, <string-name><surname>Kritikou</surname>
+<given-names>I</given-names></string-name>, <string-name><surname>Calhoun</surname>
+<given-names>SL</given-names></string-name>, <string-name><surname>Liao</surname>
+<given-names>D</given-names></string-name>, <string-name><surname>Bixler</surname>
+<given-names>EO</given-names></string-name>. <article-title>Natural history of excessive daytime sleepiness: role of obesity, weight loss, depression, and sleep propensity</article-title>. <source><italic toggle="yes">Sleep</italic></source>. <year>2015</year>;<volume>38</volume>(<issue>3</issue>):<fpage>351</fpage>–<lpage>360</lpage>. doi:<pub-id pub-id-type="doi">10.5665/sleep.4488</pub-id><pub-id pub-id-type="pmid">25581913</pub-id></mixed-citation>
+      </ref>
+      <ref id="CIT0039">
+        <label>39.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Liu</surname>
+<given-names>C</given-names></string-name>, <string-name><surname>Kong</surname>
+<given-names>XZ</given-names></string-name>, <string-name><surname>Liu</surname>
+<given-names>X</given-names></string-name>, <string-name><surname>Zhou</surname>
+<given-names>R</given-names></string-name>, <string-name><surname>Wu</surname>
+<given-names>B</given-names></string-name>. <article-title>Long-term total sleep deprivation reduces thalamic gray matter volume in healthy men</article-title>. <source><italic toggle="yes">Neuroreport</italic></source>. <year>2014</year>;<volume>25</volume>(<issue>5</issue>):<fpage>320</fpage>–<lpage>323</lpage>. doi:<pub-id pub-id-type="doi">10.1097/WNR.0000000000000091</pub-id><pub-id pub-id-type="pmid">24346259</pub-id></mixed-citation>
+      </ref>
+      <ref id="CIT0040">
+        <label>40.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Tzourio-Mazoyer</surname>
+<given-names>N</given-names></string-name>, <string-name><surname>Landeau</surname>
+<given-names>B</given-names></string-name>, <string-name><surname>Papathanassiou</surname>
+<given-names>D</given-names></string-name>, et al. <article-title>Automated anatomical labeling of activations in SPM using a macroscopic anatomical parcellation of the MNI MRI single-subject brain</article-title>. <source><italic toggle="yes">Neuroimage</italic></source>. <year>2002</year>;<volume>15</volume>(<issue>1</issue>):<fpage>273</fpage>–<lpage>289</lpage>. doi:<pub-id pub-id-type="doi">10.1006/nimg.2001.0978</pub-id><pub-id pub-id-type="pmid">11771995</pub-id></mixed-citation>
+      </ref>
+      <ref id="CIT0041">
+        <label>41.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Maldjian</surname>
+<given-names>JA</given-names></string-name>, <string-name><surname>Laurienti</surname>
+<given-names>PJ</given-names></string-name>, <string-name><surname>Kraft</surname>
+<given-names>RA</given-names></string-name>, <string-name><surname>Burdette</surname>
+<given-names>JH</given-names></string-name>. <article-title>An automated method for neuroanatomic and cytoarchitectonic atlas-based interrogation of fMRI data sets</article-title>. <source><italic toggle="yes">Neuroimage</italic></source>. <year>2003</year>;<volume>19</volume>(<issue>3</issue>):<fpage>1233</fpage>–<lpage>1239</lpage>. doi:<pub-id pub-id-type="doi">10.1016/S1053-8119(03)00169-1</pub-id><pub-id pub-id-type="pmid">12880848</pub-id></mixed-citation>
+      </ref>
+      <ref id="CIT0042">
+        <label>42.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Dijk</surname>
+<given-names>DJ</given-names></string-name>, <string-name><surname>Groeger</surname>
+<given-names>JA</given-names></string-name>, <string-name><surname>Stanley</surname>
+<given-names>N</given-names></string-name>, <string-name><surname>Deacon</surname>
+<given-names>S</given-names></string-name>. <article-title>Age-related reduction in daytime sleep propensity and nocturnal slow wave sleep</article-title>. <source><italic toggle="yes">Sleep</italic></source>. <year>2010</year>;<volume>33</volume>(<issue>2</issue>):<fpage>211</fpage>–<lpage>223</lpage>. doi:<pub-id pub-id-type="doi">10.1093/sleep/33.2.211</pub-id><pub-id pub-id-type="pmid">20175405</pub-id></mixed-citation>
+      </ref>
+      <ref id="CIT0043">
+        <label>43.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Mansson</surname>
+<given-names>KNT</given-names></string-name>, <string-name><surname>Cortes</surname>
+<given-names>DS</given-names></string-name>, <string-name><surname>Manzouri</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Li</surname>
+<given-names>TQ</given-names></string-name>, <string-name><surname>Hau</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Fischer</surname>
+<given-names>H</given-names></string-name>. <article-title>Viewing Pictures Triggers Rapid Morphological Enlargement in the Human Visual Cortex</article-title>. <source><italic toggle="yes">Cereb Cortex</italic></source>. <year>2019</year>.</mixed-citation>
+      </ref>
+      <ref id="CIT0044">
+        <label>44.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Critchley</surname>
+<given-names>HD</given-names></string-name>, <string-name><surname>Wiens</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Rotshtein</surname>
+<given-names>P</given-names></string-name>, <string-name><surname>Ohman</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Dolan</surname>
+<given-names>RJ</given-names></string-name>. <article-title>Neural systems supporting interoceptive awareness</article-title>. <source><italic toggle="yes">Nat Neurosci</italic></source>. <year>2004</year>;<volume>7</volume>(<issue>2</issue>):<fpage>189</fpage>–<lpage>195</lpage>. doi:<pub-id pub-id-type="doi">10.1038/nn1176</pub-id><pub-id pub-id-type="pmid">14730305</pub-id></mixed-citation>
+      </ref>
+      <ref id="CIT0045">
+        <label>45.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Soloff</surname>
+<given-names>P</given-names></string-name>, <string-name><surname>Nutche</surname>
+<given-names>J</given-names></string-name>, <string-name><surname>Goradia</surname>
+<given-names>D</given-names></string-name>, <string-name><surname>Diwadkar</surname>
+<given-names>V</given-names></string-name>. <article-title>Structural brain abnormalities in borderline personality disorder: a voxel-based morphometry study</article-title>. <source><italic toggle="yes">Psychiat Res</italic></source>. <year>2008</year>;<volume>164</volume>(<issue>3</issue>):<fpage>223</fpage>–<lpage>236</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.pscychresns.2008.02.003</pub-id></mixed-citation>
+      </ref>
+      <ref id="CIT0046">
+        <label>46.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Petrovic</surname>
+<given-names>P</given-names></string-name>, <string-name><surname>Ekman</surname>
+<given-names>CJ</given-names></string-name>, <string-name><surname>Klahr</surname>
+<given-names>J</given-names></string-name>, et al. <article-title>Significant grey matter changes in a region of the orbitofrontal cortex in healthy participants predicts emotional dysregulation</article-title>. <source><italic toggle="yes">Soc Cogn Affect Neurosci</italic></source>. <year>2016</year>;<volume>11</volume>(<issue>7</issue>):<fpage>1041</fpage>–<lpage>1049</lpage>. doi:<pub-id pub-id-type="doi">10.1093/scan/nsv072</pub-id><pub-id pub-id-type="pmid">26078386</pub-id></mixed-citation>
+      </ref>
+      <ref id="CIT0047">
+        <label>47.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Petrovic</surname>
+<given-names>P</given-names></string-name>, <string-name><surname>Castellanos</surname>
+<given-names>FX</given-names></string-name>. <article-title>Top-Down Dysregulation-From ADHD to Emotional Instability</article-title>. <source><italic toggle="yes">Front Behav Neurosci</italic></source>. <year>2016</year>;<volume>10</volume>:<fpage>70</fpage>. doi:<pub-id pub-id-type="doi">10.3389/fnbeh.2016.00070</pub-id><pub-id pub-id-type="pmid">27242456</pub-id></mixed-citation>
+      </ref>
+      <ref id="CIT0048">
+        <label>48.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Rogers</surname>
+<given-names>JC</given-names></string-name>, <string-name><surname>De Brito</surname>
+<given-names>SA</given-names></string-name>. <article-title>Cortical and Subcortical Gray Matter Volume in Youths With Conduct Problems: a Meta-analysis</article-title>. <source><italic toggle="yes">JAMA Psychiatry</italic></source>. <year>2016</year>;<volume>73</volume>(<issue>1</issue>):<fpage>64</fpage>–<lpage>72</lpage>. doi:<pub-id pub-id-type="doi">10.1001/jamapsychiatry.2015.2423</pub-id><pub-id pub-id-type="pmid">26650724</pub-id></mixed-citation>
+      </ref>
+      <ref id="CIT0049">
+        <label>49.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Tagliazucchi</surname>
+<given-names>E</given-names></string-name>, <string-name><surname>von Wegner</surname>
+<given-names>F</given-names></string-name>, <string-name><surname>Morzelewski</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Borisov</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Jahnke</surname>
+<given-names>K</given-names></string-name>, <string-name><surname>Laufs</surname>
+<given-names>H</given-names></string-name>. <article-title>Automatic sleep staging using fMRI functional connectivity data</article-title>. <source><italic toggle="yes">Neuroimage</italic></source>. <year>2012</year>;<volume>63</volume>(<issue>1</issue>):<fpage>63</fpage>–<lpage>72</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.neuroimage.2012.06.036</pub-id><pub-id pub-id-type="pmid">22743197</pub-id></mixed-citation>
+      </ref>
+    </ref-list>
+  </back>
+</article>
+</pmc-articleset>

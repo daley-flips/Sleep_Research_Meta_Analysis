@@ -1,0 +1,816 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<pmc-articleset><article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" dtd-version="1.3" xml:lang="en" article-type="research-article">
+  <?properties open_access?>
+  <processing-meta base-tagset="archiving" mathml-version="3.0" table-model="xhtml" tagset-family="jats">
+    <restricted-by>pmc</restricted-by>
+  </processing-meta>
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="nlm-ta">Nat Sci Sleep</journal-id>
+      <journal-id journal-id-type="iso-abbrev">Nat Sci Sleep</journal-id>
+      <journal-id journal-id-type="publisher-id">nss</journal-id>
+      <journal-title-group>
+        <journal-title>Nature and Science of Sleep</journal-title>
+      </journal-title-group>
+      <issn pub-type="epub">1179-1608</issn>
+      <publisher>
+        <publisher-name>Dove</publisher-name>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="pmid">35698590</article-id>
+      <article-id pub-id-type="pmc">9188335</article-id>
+      <article-id pub-id-type="publisher-id">360120</article-id>
+      <article-id pub-id-type="doi">10.2147/NSS.S360120</article-id>
+      <article-categories>
+        <subj-group subj-group-type="heading">
+          <subject>Original Research</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>EEG Activation Does Not Differ in Simple and Complex Episodes of Disorders of Arousal: A Spectral Analysis Study</article-title>
+        <alt-title alt-title-type="running-authors">Mainieri et al</alt-title>
+        <alt-title alt-title-type="running-title">Mainieri et al</alt-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author" equal-contrib="yes">
+          <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0002-6159-854X</contrib-id>
+          <name>
+            <surname>Mainieri</surname>
+            <given-names>Greta</given-names>
+          </name>
+          <xref rid="aff0001" ref-type="aff">
+<sup>1</sup>
+</xref>
+          <xref rid="ft0001" ref-type="author-notes">*</xref>
+        </contrib>
+        <contrib contrib-type="author" equal-contrib="yes">
+          <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0001-8748-5984</contrib-id>
+          <name>
+            <surname>Loddo</surname>
+            <given-names>Giuseppe</given-names>
+          </name>
+          <xref rid="aff0002" ref-type="aff">
+<sup>2</sup>
+</xref>
+          <xref rid="ft0001" ref-type="author-notes">*</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0002-8875-9657</contrib-id>
+          <name>
+            <surname>Castelnovo</surname>
+            <given-names>Anna</given-names>
+          </name>
+          <xref rid="aff0003" ref-type="aff">
+<sup>3</sup>
+</xref>
+          <xref rid="aff0004" ref-type="aff">
+<sup>4</sup>
+</xref>
+          <xref rid="aff0005" ref-type="aff">
+<sup>5</sup>
+</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Balella</surname>
+            <given-names>Giulia</given-names>
+          </name>
+          <xref rid="aff0001" ref-type="aff">
+<sup>1</sup>
+</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Cilea</surname>
+            <given-names>Rosalia</given-names>
+          </name>
+          <xref rid="aff0006" ref-type="aff">
+<sup>6</sup>
+</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Mondini</surname>
+            <given-names>Susanna</given-names>
+          </name>
+          <xref rid="aff0007" ref-type="aff">
+<sup>7</sup>
+</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0002-1849-7196</contrib-id>
+          <name>
+            <surname>Manconi</surname>
+            <given-names>Mauro</given-names>
+          </name>
+          <xref rid="aff0003" ref-type="aff">
+<sup>3</sup>
+</xref>
+          <xref rid="aff0004" ref-type="aff">
+<sup>4</sup>
+</xref>
+          <xref rid="aff0008" ref-type="aff">
+<sup>8</sup>
+</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0001-9063-2658</contrib-id>
+          <name>
+            <surname>Provini</surname>
+            <given-names>Federica</given-names>
+          </name>
+          <xref rid="aff0001" ref-type="aff">
+<sup>1</sup>
+</xref>
+          <xref rid="aff0007" ref-type="aff">
+<sup>7</sup>
+</xref>
+          <xref rid="an0001" ref-type="corresp"/>
+        </contrib>
+        <aff id="aff0001"><label>1</label><institution>Department of Biomedical and NeuroMotor Sciences, University of Bologna</institution>, <addr-line>Bologna</addr-line>, <country>Italy</country></aff>
+        <aff id="aff0002"><label>2</label><institution>Department of Primary Care, Azienda AUSL di Bologna</institution>, <addr-line>Bologna</addr-line>, <country>Italy</country></aff>
+        <aff id="aff0003"><label>3</label><institution>Sleep Medicine Unit, Neurocenter of Southern Switzerland</institution>, <addr-line>Lugano</addr-line>, <country>Switzerland</country></aff>
+        <aff id="aff0004"><label>4</label><institution>Faculty of Biomedical Sciences, Università della Svizzera Italiana</institution>, <addr-line>Lugano</addr-line>, <country>Switzerland</country></aff>
+        <aff id="aff0005"><label>5</label><institution>University Hospital of Psychiatry, University of Bern</institution>, <addr-line>Bern</addr-line>, <country>Switzerland</country></aff>
+        <aff id="aff0006"><label>6</label><institution>Neurology Unit, “Morgagni-Pierantoni” Hospital, AUSL Romagna</institution>, <addr-line>Forlì</addr-line>, <country>Italy</country></aff>
+        <aff id="aff0007"><label>7</label><institution>IRCCS Istituto delle Scienze Neurologiche di Bologna</institution>, <addr-line>Bologna</addr-line>, <country>Italia</country></aff>
+        <aff id="aff0008"><label>8</label><institution>Department of Neurology, University Hospital, Inselspital</institution>, <addr-line>Bern</addr-line>, <country>Switzerland</country></aff>
+      </contrib-group>
+      <author-notes>
+        <corresp id="an0001">Correspondence: Federica Provini, <institution>IRCCS, Institute of Neurological Sciences of Bologna, Bellaria Hospital</institution>, <addr-line>Via Altura, 3</addr-line>, <addr-line>Bologna</addr-line>, <addr-line>40139</addr-line>, <country>Italy</country>, <phone>Tel +39 051 4966829</phone>, Email federica.provini@unibo.it</corresp>
+        <fn id="ft0001">
+          <label>*</label>
+          <p><citation_analysis attribute="neither">These authors contributed equally to this work</citation_analysis></p>
+        </fn>
+      </author-notes>
+      <pub-date pub-type="epub">
+        <day>07</day>
+        <month>6</month>
+        <year>2022</year>
+      </pub-date>
+      <pub-date pub-type="collection">
+        <year>2022</year>
+      </pub-date>
+      <volume>14</volume>
+      <fpage>1097</fpage>
+      <lpage>1111</lpage>
+      <history>
+        <date date-type="received">
+          <day>27</day>
+          <month>1</month>
+          <year>2022</year>
+        </date>
+        <date date-type="accepted">
+          <day>24</day>
+          <month>5</month>
+          <year>2022</year>
+        </date>
+      </history>
+      <permissions>
+        <copyright-statement>© 2022 Mainieri et al.</copyright-statement>
+        <copyright-year>2022</copyright-year>
+        <copyright-holder>Mainieri et al.</copyright-holder>
+        <license>
+          <ali:license_ref xmlns:ali="http://www.niso.org/schemas/ali/1.0/" specific-use="textmining" content-type="ccbynclicense">https://creativecommons.org/licenses/by-nc/3.0/</ali:license_ref>
+          <license-p>This work is published and licensed by Dove Medical Press Limited. The full terms of this license are available at <ext-link ext-link-type="uri" xlink:href="https://www.dovepress.com/terms.php">https://www.dovepress.com/terms.php</ext-link> and incorporate the Creative Commons Attribution – Non Commercial (unported, v3.0) License (<ext-link ext-link-type="uri" xlink:href="https://creativecommons.org/licenses/by-nc/3.0/">http://creativecommons.org/licenses/by-nc/3.0/</ext-link>). By accessing the work you hereby accept the Terms. Non-commercial uses of the work are permitted without any further permission from Dove Medical Press Limited, provided the work is properly attributed. For permission for commercial use of this work, please see paragraphs 4.2 and 5 of our Terms (<ext-link ext-link-type="uri" xlink:href="https://www.dovepress.com/terms.php">https://www.dovepress.com/terms.php</ext-link>).</license-p>
+        </license>
+      </permissions>
+      <abstract>
+        <sec id="s2001">
+          <title>Purpose</title>
+          <p><citation_analysis attribute="positive">Disorders of arousal (DoA) are characterized by incomplete awakening from NREM sleep, with the admixture of both deep sleep and wake EEG activity. Previous observations suggested that changes in EEG activity could be detected in the seconds preceding DoA episodes. The aims of this work were to characterize the topography of EEG spectral changes prior to DoA episodes and to investigate whether or not behavioral complexity could be predicted by changes in EEG immediately preceding behavioral onsets.</citation_analysis></p>
+        </sec>
+        <sec id="s2002">
+          <title>Patients and Methods</title>
+          <p><citation_analysis attribute="neither">We collected 103 consecutive video-polysomnographic recordings of 53 DoA adult patients and classified all episodes as simple, rising and complex arousal movements. For each episode, a 5-second window preceding its motor onset (“pre-event”) and a 60-second window from 2 to 3 minutes before the episodes (“baseline”) were compared. Subsequently, a between-group comparison was performed for the pre-event of simpler versus the more complex episodes.</citation_analysis></p>
+        </sec>
+        <sec id="s2003">
+          <title>Results</title>
+          <p><citation_analysis attribute="positive">Spectral analysis over 325 DoA episodes showed an absolute significant increase prior to DoA episodes in all frequency bands excluding sigma, which displayed the opposite effect. In normalized maps, the increase was relatively higher over the central/anterior areas for both slow and fast frequency bands. No significant differences emerged from the comparison between simpler and more complex episodes.</citation_analysis></p>
+        </sec>
+        <sec id="s2004">
+          <title>Conclusion</title>
+          <p><citation_analysis attribute="positive">Taken together, these results show that deep sleep and wake-like EEG rhythms coexist over overlapping areas before DoA episodes, suggesting an alteration of local sleep mechanisms. Episodes of different complexity are preceded by a similar EEG activation, implying that they possibly share a similar pathophysiology.</citation_analysis></p>
+        </sec>
+      </abstract>
+      <kwd-group kwd-group-type="author">
+        <title>Keywords</title>
+        <kwd>parasomnia</kwd>
+        <kwd>disorders of arousal</kwd>
+        <kwd>neurophysiology</kwd>
+        <kwd>spectral EEG</kwd>
+      </kwd-group>
+      <counts>
+        <fig-count count="2"/>
+        <table-count count="11"/>
+        <ref-count count="67"/>
+        <page-count count="15"/>
+      </counts>
+    </article-meta>
+  </front>
+  <body>
+    <sec sec-type="intro" id="s0001">
+      <title>Introduction</title>
+      <p><citation_analysis attribute="positive">Disorders of arousal (DoA) are currently included in the group of NREM sleep parasomnias as undesired events characterized by incomplete awakening from NREM sleep.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0001" ref-type="bibr">1</xref></citation_analysis><citation_analysis attribute="neither"> They are characterized by inappropriate judgement of the environment, absent or inadequate responsiveness, limited or absent mental content and partial amnesia of the event. DoA encompass 3 main clinical entities, namely, confusional arousal, sleep terrors and sleepwalking.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0001" ref-type="bibr">1</xref></citation_analysis><citation_analysis attribute="positive"> Only a few studies have systematically assessed DoA semiology,</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0002" ref-type="bibr">2–6</xref></citation_analysis><citation_analysis attribute="neither"> but a conclusive agreement is still lacking. A recent video-polysomnographic (VPSG) analysis of 184 episodes attempted to classify DoA motor episodes, identifying three specific patterns of increasing complexity.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0007" ref-type="bibr">7</xref></citation_analysis><citation_analysis attribute="neither"> These motor patterns went from simple arousal movements (SAMs), involving head with or without limb/trunk elevation, to rising arousal movements (RAMs), in which patients sit up in bed, to complex arousal movements (CAMs), implicating getting out of bed and sleepwalking.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0007" ref-type="bibr">7</xref></citation_analysis><citation_analysis attribute="neither"> In comparison to RAMs and CAMs, SAMs are more difficult to differentiate from physiological arousal-related phenomena and represent the real challenge for sleep experts. In a given subject, SAMs are often an initial small fragment of a more complex episode, but appear more frequently as isolated events across the night sleep of the patient. This finding led to the speculation of a possible common neurophysiologic background for the different motor manifestations.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0007" ref-type="bibr">7</xref></citation_analysis></p>
+      <p><citation_analysis attribute="neither">Since the first electroencephalographic (EEG) description,</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0008" ref-type="bibr">8</xref></citation_analysis><citation_analysis attribute="neither"> it became clear that most DoA episodes arise from N3 stage of NREM sleep,</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0009" ref-type="bibr">9–11</xref></citation_analysis><citation_analysis attribute="neither"> the deeper stage of sleep, characterized by a reduced response to external stimuli as well as decreased awareness of the environment.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0012" ref-type="bibr">12</xref></citation_analysis><citation_analysis attribute="neither"> Capturing an in vivo episode of sleepwalking, a SPECT study disclosed a “dissociation” between more activated areas, such as posterior cingular cortex and anterior cerebellum, and areas with decreased blood flow, such as fronto-parietal associative cortices, suggesting the selective activation of thalamo-cingulate networks with persistent inhibition of other thalamo-cortical pathways.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0013" ref-type="bibr">13</xref></citation_analysis><citation_analysis attribute="neither"> Since then, some pre-surgical stereo-EEG studies in patients with refractory epilepsy recorded by chance DoA episodes.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0014" ref-type="bibr">14–17</xref></citation_analysis><citation_analysis attribute="neither"> The picture resulting from these studies indicates the persistence of deep sleep rhythms over anterior, fronto-parietal associative cortices and hippocampi, responsible for the unawareness and frequent amnesia during DoA episodes, together with fast EEG rhythms more typical of wakefulness over the cingulate cortices, motor areas, amygdala, and thalami, which in turn account for the motor and emotional activation during the episodes.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0011" ref-type="bibr">11</xref></citation_analysis><citation_analysis attribute="neither">,</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0016" ref-type="bibr">16</xref></citation_analysis><citation_analysis attribute="neither"> Moreover, both slow and fast EEG activities have been recorded even in the same brain areas, adding further complexity to DoA neurophysiology.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0017" ref-type="bibr">17</xref></citation_analysis><citation_analysis attribute="neither"> These local wake/sleep phenomena account for the dissociation of the arousal process, for which NREM parasomnias are currently under the name of DoA.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0009" ref-type="bibr">9</xref></citation_analysis><citation_analysis attribute="neither">,</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0010" ref-type="bibr">10</xref></citation_analysis><citation_analysis attribute="neither">,</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0018" ref-type="bibr">18</xref></citation_analysis><citation_analysis attribute="neither"> In addition, DoA are also considered to have a dysfunctional N3 stage, characterized by an inability to maintain slow wave sleep (SWS), an increased fragmentation of this stage and an abnormal response to sleep deprivation, which facilitates the occurrence of more complex episodes.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0006" ref-type="bibr">6</xref></citation_analysis><citation_analysis attribute="neither">,</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0009" ref-type="bibr">9</xref></citation_analysis><citation_analysis attribute="neither"> Stereo-EEG studies offer excellent temporal and spatial resolution but, albeit providing impressive results, they are usually performed in other clinical entities and the subset of explored cerebral areas is strictly dependent on the epileptic focus localization. In addition, even if all these studies carefully rejected arousals with a possible seizure activity, the involvement of epilepsy in their observation cannot be completely ruled out.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0017" ref-type="bibr">17</xref></citation_analysis><citation_analysis attribute="neither"> Over the last years, some EEG studies specifically targeting subjects with DoA tried to characterize the neurophysiologic activity preceding DoA episodes</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0019" ref-type="bibr">19–29</xref></citation_analysis><citation_analysis attribute="negative"> by means of visual, spectral power or connectivity analysis. Overall, most studies focused on slow wave activity, analyzed on fronto-central leads. A common finding across the studies is the increase in delta power, especially in frontal areas, in the seconds immediately preceding an episode, with variability in the chosen time window (</citation_analysis><citation_analysis attribute="positive"><xref rid="t0001" ref-type="table">Table 1</xref></citation_analysis><citation_analysis attribute="neither">).</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0020" ref-type="bibr">20</xref></citation_analysis><citation_analysis attribute="neither">,</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0022" ref-type="bibr">22</xref></citation_analysis><citation_analysis attribute="neither">,</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0024" ref-type="bibr">24–27</xref></citation_analysis><citation_analysis attribute="neither"> The main limitations of these works include different methodological designs, involving nights after a sleep deprivation protocol or not homogeneous criteria for EEG frequency bands.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0027" ref-type="bibr">27</xref></citation_analysis><citation_analysis attribute="positive"> In addition, these studies mostly included small samples of patients and number of episodes analyzed. The events taken into account were often the most complex behavioral episodes available in their recordings and a comparison with less elaborate behaviors was not performed.</citation_analysis><citation_analysis attribute="positive"><table-wrap position="float" id="t0001" orientation="landscape"><label>Table 1</label><caption><p><citation_analysis attribute="neither">EEG Quantitative Studies in DoA Analyzing the Pre-Episode Period</citation_analysis></p></caption><table frame="hsides" rules="groups"><thead><tr><th rowspan="1" colspan="1">First Author/Year</th><th align="center" rowspan="1" colspan="1">Study Sample</th><th align="center" rowspan="1" colspan="1">Number of Nights and Design</th><th align="center" rowspan="1" colspan="1">Study Type</th><th align="center" rowspan="1" colspan="1">Channels Analysed</th><th align="center" rowspan="1" colspan="1">Number of Episodes</th><th align="center" rowspan="1" colspan="1">Time Window Before the Episodes</th><th align="center" rowspan="1" colspan="1">Results</th></tr></thead><tbody><tr><td rowspan="1" colspan="1"><bold>Zadra and Nielsen (1998)</bold><xref rid="cit0021" ref-type="bibr">21</xref></td><td rowspan="1" colspan="1">1 pt with ST and 10 controls</td><td rowspan="1" colspan="1">3 undisturbed nights for the pt; 2 for the controls</td><td rowspan="1" colspan="1">Spectral EEG analysis<break/>-Delta (0.75–3.75 Hz)<break/>-Theta (4.00–7.75 Hz)<break/>-Alpha (8.00–12.75 Hz)<break/>-Beta (13.00–20.25 Hz)<break/>-Beta2 (20.50–31.00 Hz)</td><td rowspan="1" colspan="1">Fp1, Fp2, F3, F4, F7, F8, C3, C4, P3, P4, O1, O2, T3, T4, T5, T6, Fz, Cz, Pz</td><td rowspan="1" colspan="1">3</td><td rowspan="1" colspan="1">0–60 s of pre-episode vs 60 s of continuous sleep in controls.</td><td rowspan="1" colspan="1">Higher delta activity related to the intensity of the episodes.</td></tr><tr><td rowspan="1" colspan="1"><bold>Espa et al (2000)</bold><xref rid="cit0019" ref-type="bibr">19</xref></td><td rowspan="1" colspan="1">11 pts with SW and 11 controls</td><td rowspan="1" colspan="1">2 undisturbed nights</td><td rowspan="1" colspan="1">Spectral EEG analysis<break/>-SWA (0.75–4.50 Hz)</td><td rowspan="1" colspan="1">C3, C4</td><td rowspan="1" colspan="1">15</td><td rowspan="1" colspan="1">2 min of stable N3 sleep vs 2 min in the 10 min before the event vs 2 min before the event; same analysis for non-behavioral events and arousals in controls.</td><td rowspan="1" colspan="1">Progressive ↑ of SWA before the episodes (maximum over the 2 min before); higher SWA before the episodes vs both non-behavioral events and awakenings in controls.</td></tr><tr><td rowspan="1" colspan="1"><bold>Guilleminault et al (2001)</bold><xref rid="cit0020" ref-type="bibr">20</xref></td><td rowspan="1" colspan="1">12 pts with SW and 12 controls</td><td rowspan="1" colspan="1">1 undisturbed night</td><td rowspan="1" colspan="1">Spectral EEG analysis<break/>-Low delta (0.75–2.00 Hz)<break/>-High Delta (2.25–4.00 Hz)</td><td rowspan="1" colspan="1">C4</td><td rowspan="1" colspan="1">21</td><td rowspan="1" colspan="1">4–12 s vs 28–32</td><td rowspan="1" colspan="1">Higher low delta power over the 4–12 s before the episodes.</td></tr><tr><td rowspan="1" colspan="1"><bold>Jaar et al (2010)</bold><xref rid="cit0022" ref-type="bibr">22</xref></td><td rowspan="1" colspan="1">22 pts with SW/ST</td><td rowspan="1" colspan="1">1 baseline and 1 recovery night after 25 h of sleep deprivation</td><td rowspan="1" colspan="1">Spectral EEG analysis + Slow Wave oscillation<break/>-SWA (0.50–4.00 Hz)<break/>-Delta (1.00–4.00 Hz)<break/>-Slow delta (0.50–1.00 Hz)</td><td rowspan="1" colspan="1">Fz, Cz, Pz</td><td rowspan="1" colspan="1">22</td><td rowspan="1" colspan="1">-0–200 s<break/>-0–32 s<break/>-0–180 s vs 0–20 s (mean SWA and SWO values)</td><td rowspan="1" colspan="1">↑ SWA over 32 s before the episodes &gt; on Cz, Pz;<break/>Higher SWA over 20 s before the episodes rather than previous 180 &gt; on Fz;<break/>↑ SWO density over 32 s<break/>Higher SWO density over 20 s vs 180 &gt;Fz, Cz.</td></tr><tr><td rowspan="1" colspan="1"><bold>Perrault et al (2014)</bold><xref rid="cit0025" ref-type="bibr">25</xref></td><td rowspan="1" colspan="1">12 pts with SW</td><td rowspan="1" colspan="1">1 undisturbed night</td><td rowspan="1" colspan="1">Spectral EEG analysis + Slow Wave oscillation<break/>-SWA (0.50–4.00 Hz)<break/>-Delta (1.00–4.00 Hz)<break/>-Slow delta (0.50–1.00 Hz)</td><td rowspan="1" colspan="1">C3</td><td rowspan="1" colspan="1">12</td><td rowspan="1" colspan="1">-0–32 s<break/>-32 s–1 min<break/>-1 min–2 min<break/>-2 min–3 min</td><td rowspan="1" colspan="1">Higher SWA over all time windows in episodes vs non-behavioral events;<break/>no significant ↑ SWA over a specific time window before the episodes; higher SWO density before episodes rather than non-behavioral events.</td></tr><tr><td rowspan="1" colspan="1"><bold>Januszko et al (2016)</bold><xref rid="cit0023" ref-type="bibr">23</xref></td><td rowspan="1" colspan="1">15 pts with SW/ST</td><td rowspan="1" colspan="1">2 undisturbed nights</td><td rowspan="1" colspan="1">Spectral EEG analysis + source localization (eLORETA)<break/>-SWA (0.50–4.00 Hz)<break/>-Delta (0.50–3.50 Hz)<break/>-Theta (3.50–7.50 Hz)<break/>-Alpha (7.50–12.50 Hz)<break/>-Beta1 (12.50–18.00 Hz)<break/>-Beta2 (18.00–24.00 Hz)<break/>-Beta3 (24.00–30.00 Hz)</td><td rowspan="1" colspan="1">Spectrum: C3;<break/>eLORETA: 23 scalp electrodes</td><td rowspan="1" colspan="1">26</td><td rowspan="1" colspan="1">-0–4 s<break/>-4–8 s</td><td rowspan="1" colspan="1">↑ in beta 3 over the 0–4 s before the episodes in Brodmann motor areas 24 and 33.</td></tr><tr><td rowspan="1" colspan="1"><bold>Desjardins et al (2017)</bold><xref rid="cit0024" ref-type="bibr">24</xref></td><td rowspan="1" colspan="1">27 pts with SW</td><td rowspan="1" colspan="1">1 undisturbed night</td><td rowspan="1" colspan="1">Spectral EEG analysis<break/>-Delta (0.50–4.00 Hz)<break/>-Theta (4.00–8.00 Hz)<break/>-Alpha (8.00–12.00 Hz)<break/>-Sigma (12.00–14.00 Hz)<break/>-Beta1 (14.00–22.00 Hz)<break/>-Beta2 (22.00–32.00 Hz) -EEG functional connectivity:<break/>-Msc<break/>-ICoh</td><td rowspan="1" colspan="1">Spectrum: Fz, Cz, Pz;<break/>connectivity: Fp1, Fp2, F3, F4, F7, F8, Fz, C3, C4, Cz, T3, T4, T5, T6, P3, P4, Pz, O1, O2</td><td rowspan="1" colspan="1">27</td><td rowspan="1" colspan="1">-0–20 s<break/>-120–140 s</td><td rowspan="1" colspan="1">Higher delta and theta over the 20 s before the episode; ↓ connectivity in low delta in parieto-occipital areas, ↑ connectivity in alpha and beta in fronto-parietal and inter-hemispheric networks.</td></tr><tr><td rowspan="1" colspan="1"><bold>Ratti et al (2018)</bold><xref rid="cit0026" ref-type="bibr">26</xref></td><td rowspan="1" colspan="1">1 pt with DoA</td><td rowspan="1" colspan="1">2 undisturbed nights</td><td rowspan="1" colspan="1">Spectral EEG analysis<break/>-Low delta (0.5–2.00 Hz)<break/>-High delta (2.00–4.00 Hz)<break/>-Other bands: range NS<break/>-EEG functional connectivity:<break/>-Granger’s causality estimation</td><td rowspan="1" colspan="1">HD-EEG, 256 electrodes</td><td rowspan="1" colspan="1">14</td><td rowspan="1" colspan="1">-0–120 s</td><td rowspan="1" colspan="1">30 s before the event: higher low delta in Brodmann areas 10 and 11 and high delta in Brodmann area 10; 20–5 s: ↓ of the same bands;<break/>5–0 s: ↑ in delta activity in Brodmann area 10;<break/>altered connectivity in prefronto-temporal networks.</td></tr></tbody></table><table-wrap-foot><fn id="tfn0001"><p><citation_analysis attribute="positive"><bold>Abbreviations</bold></citation_analysis><citation_analysis attribute="neither">: Pt, patient; ST, sleep terror; s, seconds; SW, sleepwalking; SWA, slow wave activity; min, minutes; h, hours; SWO, slow wave oscillations; eLORETA, exact low resolution electromagnetic tomography; Msc, magnitude-squared coherence; ICoh, imaginary part of the coherence; NS, not specified; HD, high density.</citation_analysis></p></fn></table-wrap-foot></table-wrap></citation_analysis><citation_analysis attribute="positive">
+</citation_analysis></p>
+      <p><citation_analysis attribute="positive">The primary objective of this study was to characterize the EEG activity preceding DoA episodes by means of a whole scalp and broad-band EEG spectral analysis in a large population of DoA patients. The secondary aim was to compare the EEG activity prior to different types of motor episodes, in order to test our hypothesis that minor DoA episodes might be fragments of the major ones.</citation_analysis></p>
+    </sec>
+    <sec id="s0002">
+      <title>Materials and Methods</title>
+      <sec id="s0002-s2001">
+        <title>Study Sample</title>
+        <p><citation_analysis attribute="positive">All patients included in the study had been consecutively referred to the Sleep Center of the Department of Biomedical and NeuroMotor Sciences, University of Bologna, and IRCCS Istituto delle Scienze Neurologiche di Bologna, in a time period ranging from 2007 to 2021 and evaluated by a sleep disorder specialist (FP). All patients included had a clinical diagnosis of DoA according to the ICSD – III criteria confirmed by VPSG recording of at least one DoA episode.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0007" ref-type="bibr">7</xref></citation_analysis><citation_analysis attribute="neither"> Exclusion criteria were the presence of neurological or psychiatric disorders, the presence of psychotropic therapy and/or the presence of other sleep disorders. Clinical data including age, sex, family history of parasomnia, age of onset and frequency of episodes at the observation, and principal type of nocturnal manifestation, were collected. Patients underwent at least two nocturnal home-VPSGs (XLTEK Trex HD, Natus Medical Incorporated</citation_analysis><citation_analysis attribute="positive"><sup>®</sup></citation_analysis><citation_analysis attribute="neither">, video-camera Handycam HDR-CX700, Sony, 12.3 Megapixel resolution). All patients were instructed to keep their habitual sleep routine in the week preceding the exam. None of them underwent a sleep deprivation schedule.</citation_analysis></p>
+        <p><citation_analysis attribute="positive">Video-polysomnographic recordings were performed using standard bipolar EEG (according to the International 10–20 system) and included 19 electrodes (Fp1, Fp2, F3, F4, F7, F8, Fz, C3, C4, Cz, T3, T4, T5, T6, P3, P4, Pz, O1, and O2), electrocardiogram, electro-oculogram, chin and both anterior tibialis electromyography, thoracoabdominal plethysmography bands, and synchronized audio-video recording.</citation_analysis></p>
+        <p><citation_analysis attribute="neither">Sleep stages were scored in 30s epochs according to the AASM criteria.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0030" ref-type="bibr">30</xref></citation_analysis><citation_analysis attribute="neither"> Nocturnal sleep data were collected for all patients.</citation_analysis></p>
+        <p><citation_analysis attribute="neither">The study was approved by our local Ethical Committee “Comitato Etico Interaziendale Bologna-Imola, CE-BI”, code 17176/2017. All subjects gave written informed consent to the study protocols, in agreement with the Convention of Helsinki.</citation_analysis></p>
+      </sec>
+      <sec id="s0002-s2002">
+        <title>Episodes Analysis</title>
+        <p><citation_analysis attribute="neither">All full-night VPSG recordings were independently reviewed by two sleep specialists (GM, GL) who checked for the global quality of the recordings, including artifacts, technical issues and presence of disturbing noises and/or lights. For the aim of the study, only episodes with clear visibility on the video recordings were included. Each DoA episode was subclassified according to Loddo et al motor classification</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0007" ref-type="bibr">7</xref></citation_analysis><citation_analysis attribute="neither"> as:</citation_analysis></p>
+        <p><citation_analysis attribute="neither">- SAMs or pattern I, when movements implied head flexion/extension (IA) alone or in conjunction with limbs flexion/extension (IB) and partial trunk flexion/extension (IC);</citation_analysis></p>
+        <p><citation_analysis attribute="neither">- RAMs or pattern II, involving complete trunk flexion/extension and sitting up in bed;</citation_analysis></p>
+        <p><citation_analysis attribute="neither">- CAMs or pattern III, characterized by getting up, leaving the bed and walking.</citation_analysis></p>
+        <p><citation_analysis attribute="neither">Inter-observer discordances on the classification of episodes were sorted out by a third observer, a sleep specialist with expertise in nocturnal motor episodes semeiology (FP).</citation_analysis></p>
+        <p><citation_analysis attribute="positive">The beginning of each episode was time marked with either the first electromyographic activation or the first visible movement (including eye opening) on the video analysis. The end of the episode was set as the last visible movement on the video review. Collected features for each episode included the arising sleep stage, the sleep cycle and the duration.</citation_analysis></p>
+      </sec>
+      <sec id="s0002-s2003">
+        <title>EEG Analysis</title>
+        <p><citation_analysis attribute="positive">All recordings were conducted on a 32-channel polygraph, using vertex referencing and digitized at a sampling rate of 256 Hz. Recordings were acquired with DC filter set up to filter out drift and slow components.</citation_analysis></p>
+        <p><citation_analysis attribute="neither">All data were converted in a European Data Format (EDF) file and subsequently imported in MATLAB (MathWorks Inc., Natick, MA, 2020a). For each episode, 6-minute segments preceding the episode onset were extracted. Each segment was visually inspected with the support of a user graphical interface (</citation_analysis><citation_analysis attribute="positive"><underline><ext-link xlink:href="https://github.com/CSC-UW/csc-eeg-tools" ext-link-type="uri">https://github.com/CSC-UW/csc-eeg-tools</ext-link></underline></citation_analysis><citation_analysis attribute="positive">), in order to mark noisy channels and epochs. Additional spectral-based and topographic procedures were used to identify individual channels with distinctly greater power relative to neighboring channels or epochs with clearly deviant spectra or topographies. Each segment was then band-pass filtered (zero-phase digital low-pass and high-pass filter with reflection, 0.5–45 Hz, using the “filtfilt” function of the signal-processing toolbox). Channels marked as bad were interpolated using spherical interpolation, while epochs marked as bad were discarded. The filtered signal was re-referenced to the average of the scalp voltage and divided into consecutive 5-second epochs. Spectral analysis was conducted on clean 5-second epochs (for a total of 360 seconds preceding each episode) using the Fast Fourier Transform (Welch averaged modified periodogram with a Hamming window, 50% overlap). For topographic analysis, spectral density was averaged in 6 frequency ranges (slow wave activity or delta: 0.5–4 Hz; theta: 4–8 Hz; alpha: 8–12 Hz; sigma: 12–16 Hz; beta: 15–25 Hz; and low gamma: 25–45 Hz), in accordance with previous studies.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0031" ref-type="bibr">31</xref></citation_analysis><citation_analysis attribute="neither"> Topographic maps of both absolute averages referenced data and subject-normalized data (z-score across channels) were examined.</citation_analysis></p>
+        <p><citation_analysis attribute="positive">For the purpose of this study, we compared the time window of 5 seconds before each episode, considered as the “pre-episode” time, with a time frame of 60 seconds from 2 to 3 minutes before the episodes (“baseline” stable N3 sleep without arousal or micro-arousal). The same procedure was applied for episodes arising from N2 sleep. We chose this time window in accordance with other studies, which disclosed an abrupt shift of EEG frequencies in this time frame.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0015" ref-type="bibr">15</xref></citation_analysis><citation_analysis attribute="neither">,</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0023" ref-type="bibr">23</xref></citation_analysis></p>
+      </sec>
+      <sec id="s0002-s2004">
+        <title>Statistical Analysis</title>
+        <p><citation_analysis attribute="positive">Comparisons of scalp power maps were performed separately for each frequency band. At the scalp level, multiple comparison adjustment was performed using a non-parametric cluster-based permutation test,</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0032" ref-type="bibr">32</xref></citation_analysis><citation_analysis attribute="neither"> as described in previous works.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0031" ref-type="bibr">31</xref></citation_analysis><citation_analysis attribute="neither">,</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0033" ref-type="bibr">33</xref></citation_analysis><citation_analysis attribute="neither">,</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0034" ref-type="bibr">34</xref></citation_analysis><citation_analysis attribute="positive"> Specifically, for each performed test, a null distribution was generated by randomly shuffling the group-label of each subject for comparisons. At each iteration of the permutation procedure, the test-statistics was computed for each electrode and the size of the largest significant electrode-cluster (uncorrected p&lt;0.05) was stored in a frequency table. Finally, the 95th percentile (5% significance level) was used as the critical cluster-size distribution threshold. Although this test faithfully addresses the problem of multiple comparisons across an image, it should also be noted that we did not attempt to strictly correct for the issue of multiple testing across different comparisons (for example, across bands and stages) given the exploratory nature of this study.</citation_analysis></p>
+      </sec>
+    </sec>
+    <sec id="s0003">
+      <title>Results</title>
+      <sec id="s0003-s2001">
+        <title>Sample and Episode Features</title>
+        <p><citation_analysis attribute="neither">A total of 53 patients (25 males, mean age 32.1 ± 15.4 years) were involved in this study. In all, 103 VPSGs were performed: one in 18 patients, two in 26 patients, three in 4 patients, four in 4 patients and five in 1 patient. Clinical features of the sample are summarized in </citation_analysis><citation_analysis attribute="positive"><xref rid="t0002" ref-type="table">Table 2</xref></citation_analysis><citation_analysis attribute="positive">. Two patients were on levothyroxine and antihypertensive medications, two on levothyroxine alone, one on antihypertensive therapy alone, one was taking a proton pump inhibitor, 2 were on asthma medication spray, and 4 females were on estroprogestinic therapy. Thirty-six percent of patients reported occasional alcohol intake while 9% reported habitual intake (a glass of wine twice per day). Thirty-two percent of patients drank from 1 to 2 coffees per day while 18% drank 3 or more per day. With reference to smoking, 20% were previous smokers, 6% were occasional smokers and 17% were habitual smokers (mean of 8.5 cigarettes per day). Sleep features of the sample are shown in </citation_analysis><citation_analysis attribute="positive"><xref rid="t0003" ref-type="table">Table 3</xref></citation_analysis><citation_analysis attribute="neither">. The overall number of recorded DoA episodes was 325, 270 SAMs (51 with a pattern IA; 123 with a pattern IB; 96 with a pattern IC), 41 RAMs and 14 CAMs. Episode mean duration, sleep stage and sleep cycle at onset of SAMs, RAMs and CAMs are described in </citation_analysis><citation_analysis attribute="positive"><xref rid="t0004" ref-type="table">Table 4</xref></citation_analysis><citation_analysis attribute="neither">. A mean of 3.2 episodes per night was recorded. Overall, 88% of episodes arose from N3 stage.</citation_analysis><citation_analysis attribute="positive"><table-wrap position="float" id="t0002"><label>Table 2</label><caption><p><citation_analysis attribute="neither">Clinical Features of DoA Patients</citation_analysis></p></caption><table frame="hsides" rules="groups"><thead><tr><th rowspan="1" colspan="1"/><th rowspan="1" colspan="1">DoA</th><th rowspan="1" colspan="1">Male</th><th rowspan="1" colspan="1">Female</th></tr></thead><tbody><tr><td rowspan="1" colspan="1"><bold>Subjects</bold></td><td rowspan="1" colspan="1">53</td><td rowspan="1" colspan="1">25 (47.2)</td><td rowspan="1" colspan="1">28 (52.8)</td></tr><tr><td rowspan="1" colspan="1"><bold>Age at VPSG recording (years, mean ± SD)</bold></td><td rowspan="1" colspan="1">32.1 ± 15.4</td><td rowspan="1" colspan="1">33.1 ± 17.9</td><td rowspan="1" colspan="1">31.1 ± 13.4</td></tr><tr><td rowspan="1" colspan="1"><bold>Age at first diagnosis (years, mean ± SD)</bold></td><td rowspan="1" colspan="1">30.7 ± 15.1</td><td rowspan="1" colspan="1">32.0 ± 17.5</td><td rowspan="1" colspan="1">29.6 ± 12.7</td></tr><tr><td rowspan="1" colspan="1"><bold>Body mass index (Kg/m<sup>2</sup>)</bold></td><td rowspan="1" colspan="1">23.1 ± 4.3</td><td rowspan="1" colspan="1">23.9 ± 3.5</td><td rowspan="1" colspan="1">22.3 ± 4.9</td></tr><tr><td rowspan="1" colspan="1"><bold>Therapies*</bold></td><td rowspan="1" colspan="1">12 (22.6)</td><td rowspan="1" colspan="1">2 (8.0)</td><td rowspan="1" colspan="1">10 (35.7)</td></tr><tr><td rowspan="1" colspan="1"><bold>Positive family history of DoA</bold></td><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"/></tr><tr><td rowspan="1" colspan="1"> Yes</td><td rowspan="1" colspan="1">23 (43.4)</td><td rowspan="1" colspan="1">13 (52.0)</td><td rowspan="1" colspan="1">10 (35.7)</td></tr><tr><td rowspan="1" colspan="1"> No</td><td rowspan="1" colspan="1">23 (43.4)</td><td rowspan="1" colspan="1">8 (32.0)</td><td rowspan="1" colspan="1">15 (53.6)</td></tr><tr><td rowspan="1" colspan="1"> Unknown</td><td rowspan="1" colspan="1">7 (13.2)</td><td rowspan="1" colspan="1">4 (16.0)</td><td rowspan="1" colspan="1">3 (10.7)</td></tr><tr><td rowspan="1" colspan="1"><bold>Onset of DoA</bold></td><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"/></tr><tr><td rowspan="1" colspan="1"> Infancy</td><td rowspan="1" colspan="1">32 (60.4)</td><td rowspan="1" colspan="1">18 (72.0)</td><td rowspan="1" colspan="1">14 (50.0)</td></tr><tr><td rowspan="1" colspan="1"> Puberty/adolescence</td><td rowspan="1" colspan="1">17 (32.1)</td><td rowspan="1" colspan="1">5 (20.0)</td><td rowspan="1" colspan="1">12 (42.9)</td></tr><tr><td rowspan="1" colspan="1"> Adulthood</td><td rowspan="1" colspan="1">4 (7.5)</td><td rowspan="1" colspan="1">2 (8.0)</td><td rowspan="1" colspan="1">2 (7.1)</td></tr><tr><td rowspan="1" colspan="1"><bold>Clinical manifestations</bold></td><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"/></tr><tr><td rowspan="1" colspan="1"> Confusional arousal</td><td rowspan="1" colspan="1">6 (11.3)</td><td rowspan="1" colspan="1">3 (12.0)</td><td rowspan="1" colspan="1">3 (10.7)</td></tr><tr><td rowspan="1" colspan="1"> Sleep terror</td><td rowspan="1" colspan="1">5 (9.4)</td><td rowspan="1" colspan="1">4 (16.0)</td><td rowspan="1" colspan="1">1 (3.6)</td></tr><tr><td rowspan="1" colspan="1"> Sleepwalking</td><td rowspan="1" colspan="1">11 (20.8)</td><td rowspan="1" colspan="1">6 (24.0)</td><td rowspan="1" colspan="1">5 (17.8)</td></tr><tr><td rowspan="1" colspan="1"> More than one DoA type</td><td rowspan="1" colspan="1">31 (58.5)</td><td rowspan="1" colspan="1">12 (48.0)</td><td rowspan="1" colspan="1">19 (67.9)</td></tr><tr><td rowspan="1" colspan="1"><bold>Frequency of episodes at first clinical investigation</bold></td><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"/></tr><tr><td rowspan="1" colspan="1"> &lt; than 1 per month</td><td rowspan="1" colspan="1">5 (9.4)</td><td rowspan="1" colspan="1">1 (4.0)</td><td rowspan="1" colspan="1">4 (14.3)</td></tr><tr><td rowspan="1" colspan="1"> Monthly</td><td rowspan="1" colspan="1">9 (17.0)</td><td rowspan="1" colspan="1">5 (20.0)</td><td rowspan="1" colspan="1">4 (14.3)</td></tr><tr><td rowspan="1" colspan="1"> Weekly/daily</td><td rowspan="1" colspan="1">39 (73.6)</td><td rowspan="1" colspan="1">19 (76.0)</td><td rowspan="1" colspan="1">20 (71.4)</td></tr></tbody></table><table-wrap-foot><fn id="tfn0002"><p><citation_analysis attribute="positive"><bold>Notes</bold></citation_analysis><citation_analysis attribute="neither">: Results are expressed as mean ± standard deviation or number (%). *Antihypertensive drugs, proton pump inhibitor, levothyroxine, asthma medication spray, estroprogestinic therapy.</citation_analysis></p></fn><fn id="tfn0003"><p><citation_analysis attribute="positive"><bold>Abbreviation</bold></citation_analysis><citation_analysis attribute="neither">: SD, standard deviation.</citation_analysis></p></fn></table-wrap-foot></table-wrap></citation_analysis><citation_analysis attribute="positive">
+</citation_analysis><citation_analysis attribute="positive"><table-wrap position="float" id="t0003"><label>Table 3</label><caption><p><citation_analysis attribute="neither">Sleep Features</citation_analysis></p></caption><table frame="hsides" rules="groups"><thead><tr><th rowspan="1" colspan="1"/><th rowspan="1" colspan="1">VPSG</th></tr></thead><tbody><tr><td rowspan="1" colspan="1"><bold>Number</bold></td><td rowspan="1" colspan="1">103</td></tr><tr><td rowspan="1" colspan="1"><bold>Sleep data</bold></td><td rowspan="1" colspan="1"/></tr><tr><td rowspan="1" colspan="1"> TST (min)</td><td rowspan="1" colspan="1">428.3 ± 101.7</td></tr><tr><td rowspan="1" colspan="1"> SL (min)</td><td rowspan="1" colspan="1">9.3 ± 8.9</td></tr><tr><td rowspan="1" colspan="1"> SE (%)</td><td rowspan="1" colspan="1">88.3 ± 7.8</td></tr><tr><td rowspan="1" colspan="1"> WASO (min)</td><td rowspan="1" colspan="1">53.2 ± 35.4</td></tr><tr><td rowspan="1" colspan="1"> N1 (%)</td><td rowspan="1" colspan="1">6.6 ± 4.3</td></tr><tr><td rowspan="1" colspan="1"> N2 (%)</td><td rowspan="1" colspan="1">43.8 ± 10.1</td></tr><tr><td rowspan="1" colspan="1"> N3 (%)</td><td rowspan="1" colspan="1">27.9 ± 9.0</td></tr><tr><td rowspan="1" colspan="1"> REM (%)</td><td rowspan="1" colspan="1">21.6 ± 5.6</td></tr><tr><td rowspan="1" colspan="1"> N1 stage (min)</td><td rowspan="1" colspan="1">28.3 ± 20.0</td></tr><tr><td rowspan="1" colspan="1"> N2 stage (min)</td><td rowspan="1" colspan="1">186.4 ± 57.5</td></tr><tr><td rowspan="1" colspan="1"> N3 stage (min)</td><td rowspan="1" colspan="1">118.9 ± 47.9</td></tr><tr><td rowspan="1" colspan="1"> REM stage (min)</td><td rowspan="1" colspan="1">95.1 ± 38.4</td></tr></tbody></table><table-wrap-foot><fn id="tfn0004"><p><citation_analysis attribute="positive"><bold>Note</bold></citation_analysis><citation_analysis attribute="neither">: Results are expressed as mean ± standard deviation.</citation_analysis></p></fn><fn id="tfn0005"><p><citation_analysis attribute="positive"><bold>Abbreviations</bold></citation_analysis><citation_analysis attribute="neither">: VPSG, video-polysomnography; TST, total sleep time; min, minutes; SL, sleep latency; SE, sleep efficiency; WASO, wake after sleep onset.</citation_analysis></p></fn></table-wrap-foot></table-wrap></citation_analysis><citation_analysis attribute="positive">
+</citation_analysis><citation_analysis attribute="positive"><table-wrap position="float" id="t0004"><label>Table 4</label><caption><p><citation_analysis attribute="neither">Features of SAMs, RAMs and CAMs</citation_analysis></p></caption><table frame="hsides" rules="groups"><thead><tr><th rowspan="1" colspan="1"/><th rowspan="1" colspan="1">Total</th><th rowspan="1" colspan="1">SAMs</th><th rowspan="1" colspan="1">RAMs</th><th rowspan="1" colspan="1">CAMs</th></tr></thead><tbody><tr><td rowspan="1" colspan="1"><bold>Number</bold></td><td rowspan="1" colspan="1">325</td><td rowspan="1" colspan="1">270</td><td rowspan="1" colspan="1">41</td><td rowspan="1" colspan="1">14</td></tr><tr><td rowspan="1" colspan="1"><bold>Mean duration (s)</bold></td><td rowspan="1" colspan="1">42.0 ± 43.0</td><td rowspan="1" colspan="1">33.6 ± 33.9</td><td rowspan="1" colspan="1">65.4 ± 42.6</td><td rowspan="1" colspan="1">134.6 ± 64.8</td></tr><tr><td rowspan="1" colspan="1"><bold>Sleep stage</bold></td><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"/></tr><tr><td rowspan="1" colspan="1">N2</td><td rowspan="1" colspan="1">40 (12.3)</td><td rowspan="1" colspan="1">35 (13.0)</td><td rowspan="1" colspan="1">5 (12.2)</td><td rowspan="1" colspan="1">0 (0)</td></tr><tr><td rowspan="1" colspan="1">N3</td><td rowspan="1" colspan="1">285 (87.7)</td><td rowspan="1" colspan="1">235 (87.0)</td><td rowspan="1" colspan="1">36 (87.8)</td><td rowspan="1" colspan="1">14 (100)</td></tr><tr><td rowspan="1" colspan="1"><bold>Sleep cycle</bold></td><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"/></tr><tr><td rowspan="1" colspan="1">I cycle</td><td rowspan="1" colspan="1">108 (33.2)</td><td rowspan="1" colspan="1">89 (33.0)</td><td rowspan="1" colspan="1">14 (34.2)</td><td rowspan="1" colspan="1">5 (35.7)</td></tr><tr><td rowspan="1" colspan="1">II cycle</td><td rowspan="1" colspan="1">109 (33.5)</td><td rowspan="1" colspan="1">87 (32.2)</td><td rowspan="1" colspan="1">16 (39.0)</td><td rowspan="1" colspan="1">6 (42.9)</td></tr><tr><td rowspan="1" colspan="1">III cycle</td><td rowspan="1" colspan="1">62 (19.1)</td><td rowspan="1" colspan="1">53 (19.6)</td><td rowspan="1" colspan="1">7 (17.1)</td><td rowspan="1" colspan="1">2 (14.3)</td></tr><tr><td rowspan="1" colspan="1">IV cycle</td><td rowspan="1" colspan="1">19 (5.9)</td><td rowspan="1" colspan="1">18 (6.7)</td><td rowspan="1" colspan="1">1 (2.4)</td><td rowspan="1" colspan="1">0 (0)</td></tr><tr><td rowspan="1" colspan="1">V cycle or more</td><td rowspan="1" colspan="1">27 (8.3)</td><td rowspan="1" colspan="1">23 (8.5)</td><td rowspan="1" colspan="1">3 (7.3)</td><td rowspan="1" colspan="1">1 (7.1)</td></tr></tbody></table><table-wrap-foot><fn id="tfn0006"><p><citation_analysis attribute="positive"><bold>Note</bold></citation_analysis><citation_analysis attribute="neither">: Results are expressed as mean ± standard deviation or number (%).</citation_analysis></p></fn><fn id="tfn0007"><p><citation_analysis attribute="positive"><bold>Abbreviations</bold></citation_analysis><citation_analysis attribute="neither">: SAMs, simple arousal movements; RAMs, rising arousal movements; CAMs, complex arousal movements; s, seconds.</citation_analysis></p></fn></table-wrap-foot></table-wrap></citation_analysis><citation_analysis attribute="positive">
+</citation_analysis></p>
+      </sec>
+      <sec id="s0003-s2002">
+        <title>Episodes versus Baseline</title>
+        <p><citation_analysis attribute="positive">In spectral analysis, we observed an absolute significant increase in all frequency bands with the exception of sigma (</citation_analysis><citation_analysis attribute="positive"><xref rid="f0001" ref-type="fig">Figure 1</xref></citation_analysis><citation_analysis attribute="positive">). In normalized maps, a clear-cut dissociation between anterior and posterior areas was observed for theta band, with a relative increase in power over the anterior areas and a relative decrease over the posterior ones. A similar pattern was observed for delta frequency, with the exception of a relative decrease over a small anterior area that included fronto-polar derivations (Fp1 and Fp2) and F8. In addition, also beta band showed a distribution very similar to slow frequencies, prominent over both central and anterior areas. Alpha and gamma bands displayed a similar pattern, being relatively higher over the central areas. Finally, only sigma band showed a significant absolute decrease before the episodes, which showed a distribution typical of sleep spindles in normalized maps, with a relative increase over the vertex and central areas.</citation_analysis><citation_analysis attribute="positive"><fig position="float" id="f0001" fig-type="figure"><label>Figure 1</label><caption><p><citation_analysis attribute="positive">Pre-episode versus baseline. Spectral bands of all DoA episodes analyzed, for each band frequency: slow wave activity or delta (0.5–4 Hz), theta (4–8 Hz), alpha (8–12 Hz), sigma (12–16 Hz), beta (15–25 Hz), and low gamma (25–45 Hz). First column: average NREM sleep EEG topographies across frequency bands during pre-episode. Second column: topographic averages during stable NREM sleep, two to three minutes before the episode. Third column: map showing the individual electrode t-value (two-tailed, paired) maps for the comparison between pre-episode and baseline sleep in terms of absolute power. Red values represent an increase in absolute EEG power and blue values represent a decrease. Fourth column: same as third column except that each subject was spatially normalized using the z-score across electrodes before creating the t-value comparison. White dots belong to significant clusters (P &lt; 0.05) using statistical non-parametric mapping for multi-comparison correction.</citation_analysis></p></caption><graphic xlink:href="NSS-14-1097-g0001" content-type="print-only" position="float"/><attrib><bold>Abbreviations</bold>: µV, microvolts; Hz, Hertz.</attrib></fig></citation_analysis></p>
+        <p><citation_analysis attribute="neither">These results were not influenced by episodes arising from N2 sleep (</citation_analysis><citation_analysis attribute="positive"><underline><ext-link xlink:href="https://www.dovepress.com/get_supplementary_file.php?f=360120.docx" ext-link-type="uri">Figure S1</ext-link></underline></citation_analysis><citation_analysis attribute="neither">, </citation_analysis><citation_analysis attribute="positive"><underline><ext-link xlink:href="https://www.dovepress.com/get_supplementary_file.php?f=360120.docx" ext-link-type="uri">Supplemental materials</ext-link></underline></citation_analysis><citation_analysis attribute="neither">).</citation_analysis></p>
+      </sec>
+      <sec id="s0003-s2003">
+        <title>Inter-Episode Differences</title>
+        <p><citation_analysis attribute="neither">As illustrated in </citation_analysis><citation_analysis attribute="positive"><xref rid="f0002" ref-type="fig">Figure 2</xref></citation_analysis><citation_analysis attribute="positive">, no differences were detected in the absolute values in any of the EEG frequency bands between SAMs and the major episodes (RAMs and CAMs). In normalized maps, only a significant micro-cluster (Occipital O1, O2 and Pz derivations) was detected over posterior areas in the delta band, decreased in the simpler episodes.</citation_analysis><citation_analysis attribute="positive"><fig position="float" id="f0002" fig-type="figure"><label>Figure 2</label><caption><p><citation_analysis attribute="positive">SAMs versus RAMs/CAMs. Spectral bands of simple and more complex DoA episodes for each band frequency: slow wave activity or delta (0.5–4 Hz), theta (4–8 Hz), alpha (8–12 Hz), sigma (12–16 Hz), beta (15–25 Hz), and low gamma (25–45 Hz). First column: average NREM sleep EEG topographies across frequency bands during pre-episode in SAMs. Second column: average NREM sleep EEG topographies across frequency bands during pre-episode in RAMs/CAMs. Third column: map showing the individual electrode t-value (two-tailed, unpaired) maps for the comparison between SAMs and RAMs/CAMs in terms of absolute power. Red values represent an increase in absolute EEG power and blue values represent a decrease. Fourth column: same as third column except that each subject was spatially normalized using the z-score across electrodes before creating the t-value comparison. White dots belong to significant clusters (P &lt; 0.05) using statistical non-parametric mapping for multi-comparison correction. Black dots indicate individual channels with P &lt; 0.05 (uncorrected).</citation_analysis></p></caption><graphic xlink:href="NSS-14-1097-g0002" content-type="print-only" position="float"/><attrib><bold>Abbreviations</bold>: µV, microvolts; Hz, Hertz.</attrib></fig></citation_analysis></p>
+      </sec>
+    </sec>
+    <sec id="s0004">
+      <title>Discussion</title>
+      <sec id="s0004-s2001">
+        <title>Coexistence of Wake/Sleep EEG Rhythms Before DoA Episodes</title>
+        <p><citation_analysis attribute="neither">In the present work we analyzed the EEG spectral activation preceding behavioral episodes in a large sample of DoA patients, collecting over 300 events, further classified and distinguished on the basis of different motor complexity.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0007" ref-type="bibr">7</xref></citation_analysis><citation_analysis attribute="neither"> To our knowledge, this is the largest sample of DoA episodes analyzed by means of spectral EEG. In contrast with several previous studies, our analysis was not restricted to some specific EEG leads but involved the whole EEG scalp and the whole EEG band spectrum. Our work demonstrates an absolute increase in power of all frequency bands with the exception of sigma before the motor onset of the DoA episodes.</citation_analysis></p>
+        <p><citation_analysis attribute="positive">Slow frequencies exhibited, in normalized maps, a relative increase over anterior areas (with the exception of an anterior micro-cluster for delta band) and a consequent relative decrease posteriorly. As shown in </citation_analysis><citation_analysis attribute="positive"><xref rid="t0001" ref-type="table">Table 1</xref></citation_analysis><citation_analysis attribute="positive">, previous spectral EEG studies disclosed an absolute increase of delta power before DoA episodes mainly over the fronto-central derivations, using different time windows and methodology.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0020" ref-type="bibr">20</xref></citation_analysis><citation_analysis attribute="neither">,</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0022" ref-type="bibr">22</xref></citation_analysis><citation_analysis attribute="neither">,</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0024" ref-type="bibr">24</xref></citation_analysis><citation_analysis attribute="neither">,</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0025" ref-type="bibr">25</xref></citation_analysis><citation_analysis attribute="neither">,</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0027" ref-type="bibr">27</xref></citation_analysis><citation_analysis attribute="negative"> Our whole scalp map representation depicts a relatively higher slow wave activity (SWA) over a wide fronto-parietal network, considered to account for the unawareness and the lack of inhibition typical of DoA episodes.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0009" ref-type="bibr">9</xref></citation_analysis><citation_analysis attribute="neither">,</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0016" ref-type="bibr">16</xref></citation_analysis><citation_analysis attribute="neither"> Interestingly, the relative posterior decrease of delta power encountered in our maps reminds of the parieto-occipital “hot zone” considered as a neural signature of dreaming.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0035" ref-type="bibr">35</xref></citation_analysis><citation_analysis attribute="neither"> It is well known by now that DoA episodes might be linked to dreamlike mentation, usually more rudimentary, shorter and less elaborate and enriched in details than REM dream content.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0036" ref-type="bibr">36–38</xref></citation_analysis><citation_analysis attribute="positive"> From this perspective, we might speculate that the relative posterior decrease of delta band disclosed in our study before the episodes might advocate the presence of dreaming mental content preceding and potentially triggering the episodes of DoA. In our study, along with a significant increase in slow frequencies, we disclosed before DoA episodes the concurrent presence of faster EEG rhythms, such as alpha, beta and gamma, over central and anterior areas (mostly for beta band), in a distribution approximately tracing motor and pre-motor areas. The admixture of sleep and wake activity in DoA, even in the same brain areas in some cases, has been demonstrated in stereo-EEG studies during the motor episode.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0014" ref-type="bibr">14–17</xref></citation_analysis><citation_analysis attribute="neither">,</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0039" ref-type="bibr">39</xref></citation_analysis><citation_analysis attribute="neither"> In particular, the presence of fast EEG rhythms over motor, cingulate and limbic structures has been related to the motor activation and emotional behaviors of DoA.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0016" ref-type="bibr">16</xref></citation_analysis><citation_analysis attribute="positive"> Our findings show a pattern characterized by wake-like EEG frequencies within sleep rhythms prior to the onset of the episode, suggesting that the shift toward a partial awakening,</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0024" ref-type="bibr">24</xref></citation_analysis><citation_analysis attribute="neither"> as well as the preparation for a motor activation,</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0023" ref-type="bibr">23</xref></citation_analysis><citation_analysis attribute="positive"> precedes the motor event itself. Beta band oscillations have been demonstrated to play a key role in motor control both for pyramidal and extra-pyramidal networks.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0040" ref-type="bibr">40</xref></citation_analysis><citation_analysis attribute="neither"> Modifications of beta spectrum might thus suggest the imminent activation of the motor cortex and consequent motor behaviors of DoA. In addition, we found an increase in gamma band power before the episodes, a finding not clearly described in other studies with the only exception of a partial overlap with beta spectrum disclosed in some studies.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0023" ref-type="bibr">23</xref></citation_analysis><citation_analysis attribute="neither">,</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0024" ref-type="bibr">24</xref></citation_analysis><citation_analysis attribute="neither"> Gamma band has been related to active waking processes involving attention</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0041" ref-type="bibr">41</xref></citation_analysis><citation_analysis attribute="positive"> or oneiric content in REM sleep and has been suggested to underlie dreaming content also in SWS.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0042" ref-type="bibr">42</xref></citation_analysis><citation_analysis attribute="neither"> These aspects, however, remain controversial since increases in gamma bands have been disclosed also in states of reduced consciousness such as anesthesia or epileptic seizures.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0043" ref-type="bibr">43</xref></citation_analysis><citation_analysis attribute="neither">,</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0044" ref-type="bibr">44</xref></citation_analysis></p>
+        <p><citation_analysis attribute="positive">The only band that showed a significant decrease before the episodes was the sigma one, normally representing the expression of sleep spindles. This finding is shared by physiological arousal in healthy control subjects from N3 sleep, where a blockade of spindles has been demonstrated.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0045" ref-type="bibr">45</xref></citation_analysis><citation_analysis attribute="neither"> In addition, sleep spindles have an inverse relationship with slow wave activity and periods with reduced spindle density are correlated with higher arousability.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0046" ref-type="bibr">46</xref></citation_analysis><citation_analysis attribute="neither"> Sleep spindles, in fact, are considered to have a protective role for sleep continuity and to be an expression of the thalamic stimuli filtering, disentangling the brain from acoustic and sensory stimulation and ensuring the stability of sleep.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0046" ref-type="bibr">46</xref></citation_analysis><citation_analysis attribute="neither">,</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0047" ref-type="bibr">47</xref></citation_analysis><citation_analysis attribute="neither"> As a consequence, the transitory disappearance of spindles before an arousal has been hypothesized to reflect a time frame in which sensorial transmission improves through the thalamic relay, preparing for a brain state apt to information processing.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0024" ref-type="bibr">24</xref></citation_analysis><citation_analysis attribute="neither">,</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0047" ref-type="bibr">47</xref></citation_analysis><citation_analysis attribute="neither"> As a future direction, to further characterize thalamocortical dysfunction which may contribute to the onset of DoA episodes, the study of K-complexes and sleep spindles may be worth specific attention in these patients.</citation_analysis></p>
+      </sec>
+      <sec id="s0004-s2002">
+        <title>The Arousal Process in DoA: Where Does It Differ from Physiological Arousal?</title>
+        <p><citation_analysis attribute="positive">The findings from our study delineate a complex interplay between the different EEG bands, confirming their coexistence in different brain areas and the concept that different states of being, exemplified in this case by NREM sleep and wakefulness, may co-occur and become clinically evident in sleep parasomnias.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0018" ref-type="bibr">18</xref></citation_analysis><citation_analysis attribute="positive"> The existence of local sleep phenomena, however, has been highlighted also in physiological arousals, with evidence from different stereo-EEG studies of the coexistence of different patterns and EEG rhythms, together with frequent activation of the motor cortex concurrently with an arousal.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0045" ref-type="bibr">45</xref></citation_analysis><citation_analysis attribute="neither">,</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0048" ref-type="bibr">48–51</xref></citation_analysis><citation_analysis attribute="neither"> In addition, a reduction of delta rate during N2 and N3 has been recorded in precentral gyrus in human sleep, independently of arousals,</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0052" ref-type="bibr">52</xref></citation_analysis><citation_analysis attribute="neither"> suggesting that motor areas are persistently more active during sleep even in normal subjects. The greater activation in motor areas, in fact, is believed to play a key role in providing an adequate response to arousal.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0048" ref-type="bibr">48</xref></citation_analysis><citation_analysis attribute="neither"> A spectral analysis focusing on the pre-arousal period in normal subjects, performed on a single channel, revealed an increase and the coexistence of slow (delta, theta) and fast (alpha, beta) EEG frequencies</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0053" ref-type="bibr">53</xref></citation_analysis><citation_analysis attribute="neither"> in the seconds immediately before the arousal, similar to our results in DoA. Overall, several research studies from the last 30 years on the arousal process recognized the heterogeneity of possible manifestations, going from an autonomic/subcortical level, characterized by heart or respiration changes, to cortical modifications, represented by a “synchronized” or a “desynchronized” response, respectively reflected by slower or faster EEG frequencies.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0047" ref-type="bibr">47</xref></citation_analysis><citation_analysis attribute="neither">,</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0053" ref-type="bibr">53–57</xref></citation_analysis><citation_analysis attribute="negative"> Moreover, recent studies highlighted topographic variability in cortical activation/deactivation patterns during normal arousals,</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0045" ref-type="bibr">45</xref></citation_analysis><citation_analysis attribute="neither">,</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0058" ref-type="bibr">58</xref></citation_analysis><citation_analysis attribute="neither"> suggesting that this heterogeneity may depend on several factors comprising the sleep stage, the sleep depth, and internal or external triggers.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0045" ref-type="bibr">45</xref></citation_analysis><citation_analysis attribute="neither">,</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0047" ref-type="bibr">47</xref></citation_analysis><citation_analysis attribute="neither"> In turn, this heterogeneity reflects the double nature of the arousal process, preserving the continuity of sleep, on the one hand, and ensuring a prompt response to a stimulus, on the other.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0045" ref-type="bibr">45</xref></citation_analysis><citation_analysis attribute="neither">,</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0047" ref-type="bibr">47</xref></citation_analysis><citation_analysis attribute="neither">,</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0048" ref-type="bibr">48</xref></citation_analysis><citation_analysis attribute="neither">,</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0054" ref-type="bibr">54</xref></citation_analysis><citation_analysis attribute="neither">,</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0058" ref-type="bibr">58</xref></citation_analysis><citation_analysis attribute="positive"> The clinical result is that one may either keep sleeping or awaken in response to a perturbing stimulus. DoA patients, conversely, appear mentally sleeping but physically awake, a response which embodies at the same time the double nature of the arousal.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0059" ref-type="bibr">59</xref></citation_analysis><citation_analysis attribute="neither"> Among studies focused on the pre-arousal activity in DoA (</citation_analysis><citation_analysis attribute="positive"><xref rid="t0001" ref-type="table">Table 1</xref></citation_analysis><citation_analysis attribute="positive">), only few included controls and showed a higher spectral power in delta band before DoA episodes,</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0019" ref-type="bibr">19–21</xref></citation_analysis><citation_analysis attribute="neither"> suggesting a greater difficulty in fully awakening in DoA. However, homogeneous studies directly comparing DoA and healthy subjects are lacking and potential differences in the pre-arousal period should be searched in the presence of topographic distribution, different power of EEG bands, along with differences in connectivity pathways. Some studies comparing DoA and healthy subjects discovered slight functional and even structural alterations in DoA during wakefulness or normal sleep, independently of episodes, pointing to increased excitability of motor and cingulate areas,</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0031" ref-type="bibr">31</xref></citation_analysis><citation_analysis attribute="neither"> impaired inhibitory mechanisms within the motor cortex,</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0060" ref-type="bibr">60</xref></citation_analysis><citation_analysis attribute="neither"> potentially underpinned by a volumetric reduction of midcingulate cortex.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0061" ref-type="bibr">61</xref></citation_analysis><citation_analysis attribute="neither"> These alterations suggest that subthreshold triggers might be sufficient to activate motor responses in these predisposed patients during NREM sleep, leading to increased and dysfunctional arousability. This “dissociated” response, from an evolutionary perspective, has been regarded as a dysfunctional survival reflex, with a prompt motor and emotional activation in response to sudden external threats, together with the persistence of sleep need over other brain areas,</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0016" ref-type="bibr">16</xref></citation_analysis><citation_analysis attribute="neither">,</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0062" ref-type="bibr">62</xref></citation_analysis><citation_analysis attribute="neither"> leading to potential traumatic injuries during DoA episodes.</citation_analysis></p>
+      </sec>
+      <sec id="s0004-s2003">
+        <title>A Common Mechanism Underlying Episodes of Different Complexity and Its Clinical Inference</title>
+        <p><citation_analysis attribute="positive">Our work demonstrated no significant differences in the spectral EEG preceding simpler and more complex DoA episodes. In a previous paper from our group, SAMs were described as the simpler motor patterns often corresponding to a smaller fragment of the more complex RAMs and CAMs episodes in DoA patients.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0007" ref-type="bibr">7</xref></citation_analysis><citation_analysis attribute="neither"> This observation led to the speculation that a similar mechanism could underlie simple and elaborate episodes, and the higher complexity might reflect a greater impairment of the arousal process, responsible for the gating of different motor patterns.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0007" ref-type="bibr">7</xref></citation_analysis><citation_analysis attribute="neither"> EEG quantitative studies described in the literature have often focused on more elaborate episodes in smaller samples compared to ours (</citation_analysis><citation_analysis attribute="positive"><xref rid="t0001" ref-type="table">Table 1</xref></citation_analysis><citation_analysis attribute="neither">). One previous EEG study analyzing the distribution of hypersynchronous delta waves detected by visual EEG inspection did not disclose differences in simple and complex episodes,</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0029" ref-type="bibr">29</xref></citation_analysis><citation_analysis attribute="neither"> classified according to the different behavioral manifestations.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0006" ref-type="bibr">6</xref></citation_analysis><citation_analysis attribute="neither"> Indeed, our results reveal that the overall activation preceding DoA episodes does not differ between simpler and more complex events, suggesting that SAMs share a similar pathophysiological ground with the more elaborate episodes. This finding has relevant clinical implications due to the higher occurrence and probability of recording SAMs during VPSG, hence providing good diagnostic accuracy even in the absence of complex behaviors. Moreover, SAMs could also represent a stable long-life “trait” in DoA subjects, evolving into more complex manifestations when predisposing conditions or particular triggers occur.</citation_analysis></p>
+        <p><citation_analysis attribute="positive">In the normalized maps, a small but significant micro-cluster of decreased delta power over a small posterior area was detected in SAMs. Due to the low localizing power of standard EEG montage, this result is difficult to interpret and any consideration would be merely speculative. However, it might be hypothesized that lower posterior slow waves represent higher levels of arousal/activation and therefore a lower possibility of evolving into a longer and more complex episode. In addition, it must be kept in mind that the analysis of EEG spectrum is limited to the pre-episode period, since the episode itself is habitually covered with movement artifacts. Therefore, it is likely that reliable differences between simple and complex episodes have to be searched for in the analysis of the event itself. In this regard, stereo-EEG studies revealed that several brain areas might display both slow and fast EEG rhythms, suggesting that DoA episodes are underpinned by more than an exclusive pattern,</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0017" ref-type="bibr">17</xref></citation_analysis><citation_analysis attribute="neither"> which might well explain the different complexity and/or the distinctive clinical manifestations. On the other hand, a large study sample is hard to obtain with stereo-EEG studies, hence a systematic analysis focused on the different complexity appears difficult to provide.</citation_analysis></p>
+        <p><citation_analysis attribute="neither">In summary, our work provides the identification of a similar pattern of EEG bands distribution in episodes of different complexity, in close proximity to the event, over a large number of DoA episodes. Of note, identifying specific sleep markers before parasomnias might also help differentiate between NREM parasomnias and other motor sleep disorders or sleep-related hypermotor epilepsy (SHE), whose differential diagnosis remains challenging in particular cases or in the presence of only minor events.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0063" ref-type="bibr">63</xref></citation_analysis><citation_analysis attribute="neither"> A recent work moved a step in this direction, providing an analysis of the periodic and aperiodic components of EEG power spectrum in DoA and SHE patients, in sleep segments free from episodes.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0064" ref-type="bibr">64</xref></citation_analysis><citation_analysis attribute="neither"> However, an analysis of the pre-episode might be helpful to identify distinctive patterns before the motor events, especially when only minor events are recorded, leaving diagnostic uncertainty. In addition, the identification of a specific episode before its occurrence might possibly be helpful, in future research, to develop closed loop techniques</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0065" ref-type="bibr">65</xref></citation_analysis><citation_analysis attribute="neither"> in order to prevent it.</citation_analysis></p>
+        <p><citation_analysis attribute="neither">To date, our sample is the largest dataset of DoA episodes analyzed by means of spectral EEG technique. The study of EEG frequencies, especially SWA, might be influenced by inter-individual differences providing less reliable results, in case of small samples.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0022" ref-type="bibr">22</xref></citation_analysis><citation_analysis attribute="neither"> Therefore, collecting over 300 episodes might ensure a more normal distribution and flatten the inter-individual differences in the study of the EEG spectrum. In addition, the whole scalp and broad-band analysis provides some insight into the global dynamic of EEG frequencies before the episodes.</citation_analysis></p>
+        <p><citation_analysis attribute="neither">All our patients were recorded following their normal sleep habits in their habitual sleep setting in the absence of any sleep deprivation procedure. If, on the one hand, sleep deprivation elicits more complex episodes, the influence on sleep homeostasis could have altered the EEG spectral analysis, on the other. Moreover, home-based VPSGs minimize the “first night effect”</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0066" ref-type="bibr">66</xref></citation_analysis><citation_analysis attribute="neither">,</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0067" ref-type="bibr">67</xref></citation_analysis><citation_analysis attribute="neither"> and provide a “natural” sleep environment possibly allowing for the collection of more events.</citation_analysis></p>
+        <p><citation_analysis attribute="neither">Our work has some limitations to disclose. First, the limited number of channels of standard EEG recording limits further and more accurate topographic investigations in our study. In addition, patients in our cohort were not directly questioned at the end of each episode. Therefore, a correlation between clinical parameters (orientation, awareness, recall of dream scenario) with EEG measures was not possible. This kind of approach is highly warranted in the study of NREM parasomnias, since they can be considered an ideal model to address different neurocognitive domains during sleep (memory, attention, oneiric content). Finally, we did not have a control group of healthy sleepers. Extending the analysis to physiological arousals of a control group is essential to deepen and help shed light on current understanding of these fascinating disorders.</citation_analysis></p>
+      </sec>
+    </sec>
+    <sec id="s0005">
+      <title>Conclusion</title>
+      <p><citation_analysis attribute="positive">In conclusion, the activity preceding simpler and more complex episodes is not significantly different, suggesting a common neurophysiologic mechanism that leads to their occurrence, with possible implications for the management of these disorders and their natural history. The results of our work confirm the view of NREM parasomnias as a complex state, with intermingled features of both wakefulness and SWS. Sleep as a local phenomenon has been demonstrated also in normal subjects, reinforcing the consideration that DoA patients embody the ultimate deregulation of a dysfunctional arousal process, where the tip of the iceberg is the clinical motor episode,</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0059" ref-type="bibr">59</xref></citation_analysis><citation_analysis attribute="positive"> with evidence of the coexistence of wake-like and sleep-like activity even in the same areas.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0017" ref-type="bibr">17</xref></citation_analysis><citation_analysis attribute="neither"> The presence of broadband alterations with a specific local topographic distribution in the pre-episode disclosed in our study might provide diagnostic utility as well as a deeper understanding of DoA networks and pathophysiology.</citation_analysis></p>
+      <p><citation_analysis attribute="neither">Larger samples including a control group, homogeneous study designs and additional functional analysis techniques are needed to further elucidate DoA pathophysiology.</citation_analysis></p>
+    </sec>
+  </body>
+  <back>
+    <ack>
+      <title>Acknowledgments</title>
+      <p><citation_analysis attribute="neither">The authors wish to thank Cecilia Baroncini for English editing.</citation_analysis></p>
+    </ack>
+    <sec sec-type="COI-statement" id="s0006">
+      <title>Disclosure</title>
+      <p><citation_analysis attribute="neither">The authors report no conflicts of interest in this work.</citation_analysis></p>
+    </sec>
+    <ref-list>
+      <title>References</title>
+      <ref id="cit0001">
+        <label>1.</label>
+        <mixed-citation publication-type="book"><collab>American Academy of Sleep Medicine</collab>. <source><italic toggle="yes">International Classification of Sleep Disorders</italic></source>. <edition>3rd</edition> ed. <publisher-loc>Darien, IL</publisher-loc>: <publisher-name>American Academy of Sleep Medicine</publisher-name>; <year>2014</year>.</mixed-citation>
+      </ref>
+      <ref id="cit0002">
+        <label>2.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Blatt</surname>
+<given-names>I</given-names></string-name>, <string-name><surname>Peled</surname>
+<given-names>R</given-names></string-name>, <string-name><surname>Gadoth</surname>
+<given-names>N</given-names></string-name>, <string-name><surname>Lavie</surname>
+<given-names>P</given-names></string-name>. <article-title>The value of sleep recording in evaluating somnambulism in young adults</article-title>. <source><italic toggle="yes">Electroencephalogr Clin Neurophysiol</italic></source>. <year>1991</year>;<volume>78</volume>(<issue>6</issue>):<fpage>407</fpage>–<lpage>412</lpage>. doi:<pub-id pub-id-type="doi">10.1016/0013-4694(91)90058-c</pub-id><pub-id pub-id-type="pmid">1712276</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0003">
+        <label>3.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Zucconi</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Oldani</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Ferini-Strambi</surname>
+<given-names>L</given-names></string-name>, <string-name><surname>Smirne</surname>
+<given-names>S</given-names></string-name>. <article-title>Arousal fluctuations in non-rapid eye movement parasomnias: the role of cyclic alternating pattern as a measure of sleep instability</article-title>. <source><italic toggle="yes">J Clin Neurophysiol off Publ Am Electroencephalogr Soc</italic></source>. <year>1995</year>;<volume>12</volume>(<issue>2</issue>):<fpage>147</fpage>–<lpage>154</lpage>.</mixed-citation>
+      </ref>
+      <ref id="cit0004">
+        <label>4.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Kavey</surname>
+<given-names>NB</given-names></string-name>, <string-name><surname>Whyte</surname>
+<given-names>J</given-names></string-name>, <string-name><surname>Resor</surname>
+<given-names>SR</given-names></string-name>, <string-name><surname>Gidro-Frank</surname>
+<given-names>S</given-names></string-name>. <article-title>Somnambulism in adults</article-title>. <source><italic toggle="yes">Neurology</italic></source>. <year>1990</year>;<volume>40</volume>(<issue>5</issue>):<fpage>749</fpage>–<lpage>752</lpage>. doi:<pub-id pub-id-type="doi">10.1212/wnl.40.5.749</pub-id><pub-id pub-id-type="pmid">2330099</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0005">
+        <label>5.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Derry</surname>
+<given-names>CP</given-names></string-name>, <string-name><surname>Harvey</surname>
+<given-names>AS</given-names></string-name>, <string-name><surname>Walker</surname>
+<given-names>MC</given-names></string-name>, <string-name><surname>Duncan</surname>
+<given-names>JS</given-names></string-name>, <string-name><surname>Berkovic</surname>
+<given-names>SF</given-names></string-name>. <article-title>NREM arousal parasomnias and their distinction from nocturnal frontal lobe epilepsy: a video EEG analysis</article-title>. <source><italic toggle="yes">Sleep</italic></source>. <year>2009</year>;<volume>32</volume>(<issue>12</issue>):<fpage>1637</fpage>–<lpage>1644</lpage>. doi:<pub-id pub-id-type="doi">10.1093/sleep/32.12.1637</pub-id><pub-id pub-id-type="pmid">20041600</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0006">
+        <label>6.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Joncas</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Zadra</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Paquet</surname>
+<given-names>J</given-names></string-name>, <string-name><surname>Montplaisir</surname>
+<given-names>J</given-names></string-name>. <article-title>The value of sleep deprivation as a diagnostic tool in adult sleepwalkers</article-title>. <source><italic toggle="yes">Neurology</italic></source>. <year>2002</year>;<volume>58</volume>(<issue>6</issue>):<fpage>936</fpage>–<lpage>940</lpage>. doi:<pub-id pub-id-type="doi">10.1212/wnl.58.6.936</pub-id><pub-id pub-id-type="pmid">11914411</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0007">
+        <label>7.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Loddo</surname>
+<given-names>G</given-names></string-name>, <string-name><surname>Sessagesimi</surname>
+<given-names>E</given-names></string-name>, <string-name><surname>Mignani</surname>
+<given-names>F</given-names></string-name>, et al. <article-title>Specific motor patterns of arousal disorders in adults: a video-polysomnographic analysis of 184 episodes</article-title>. <source><italic toggle="yes">Sleep Med</italic></source>. <year>2018</year>;<volume>41</volume>:<fpage>102</fpage>–<lpage>109</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.sleep.2017.08.019</pub-id><pub-id pub-id-type="pmid">29174185</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0008">
+        <label>8.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Jacobson</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Kales</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Lehmann</surname>
+<given-names>D</given-names></string-name>, <string-name><surname>Zweizig</surname>
+<given-names>JR</given-names></string-name>. <article-title>Somnambulism: all-night electroencephalographic studies</article-title>. <source><italic toggle="yes">Science</italic></source>. <year>1965</year>;<volume>148</volume>(<issue>3672</issue>):<fpage>975</fpage>–<lpage>977</lpage>. doi:<pub-id pub-id-type="doi">10.1126/science.148.3672.975</pub-id><pub-id pub-id-type="pmid">14277842</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0009">
+        <label>9.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Zadra</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Desautels</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Petit</surname>
+<given-names>D</given-names></string-name>, <string-name><surname>Montplaisir</surname>
+<given-names>J</given-names></string-name>. <article-title>Somnambulism: clinical aspects and pathophysiological hypotheses</article-title>. <source><italic toggle="yes">Lancet Neurol</italic></source>. <year>2013</year>;<volume>12</volume>(<issue>3</issue>):<fpage>285</fpage>–<lpage>294</lpage>. doi:<pub-id pub-id-type="doi">10.1016/S1474-4422(12)70322-8</pub-id><pub-id pub-id-type="pmid">23415568</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0010">
+        <label>10.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Castelnovo</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Lopez</surname>
+<given-names>R</given-names></string-name>, <string-name><surname>Proserpio</surname>
+<given-names>P</given-names></string-name>, <string-name><surname>Nobili</surname>
+<given-names>L</given-names></string-name>, <string-name><surname>Dauvilliers</surname>
+<given-names>Y</given-names></string-name>. <article-title>NREM sleep parasomnias as disorders of sleep-state dissociation</article-title>. <source><italic toggle="yes">Nat Rev Neurol</italic></source>. <year>2018</year>;<volume>14</volume>(<issue>8</issue>):<fpage>470</fpage>–<lpage>481</lpage>. doi:<pub-id pub-id-type="doi">10.1038/s41582-018-0030-y</pub-id><pub-id pub-id-type="pmid">29959394</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0011">
+        <label>11.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Baldini</surname>
+<given-names>T</given-names></string-name>, <string-name><surname>Loddo</surname>
+<given-names>G</given-names></string-name>, <string-name><surname>Sessagesimi</surname>
+<given-names>E</given-names></string-name>, et al. <article-title>Clinical features and pathophysiology of disorders of arousal in adults: a window into the sleeping brain</article-title>. <source><italic toggle="yes">Front Neurol</italic></source>. <year>2019</year>;<volume>10</volume>:<fpage>526</fpage>. doi:<pub-id pub-id-type="doi">10.3389/fneur.2019.00526</pub-id><pub-id pub-id-type="pmid">31164861</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0012">
+        <label>12.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Adamantidis</surname>
+<given-names>AR</given-names></string-name>, <string-name><surname>Gutierrez Herrera</surname>
+<given-names>C</given-names></string-name>, <string-name><surname>Gent</surname>
+<given-names>TC</given-names></string-name>. <article-title>Oscillating circuitries in the sleeping brain</article-title>. <source><italic toggle="yes">Nat Rev Neurosci</italic></source>. <year>2019</year>;<volume>20</volume>(<issue>12</issue>):<fpage>746</fpage>–<lpage>762</lpage>. doi:<pub-id pub-id-type="doi">10.1038/s41583-019-0223-4</pub-id><pub-id pub-id-type="pmid">31616106</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0013">
+        <label>13.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Bassetti</surname>
+<given-names>C</given-names></string-name>, <string-name><surname>Vella</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Donati</surname>
+<given-names>F</given-names></string-name>, <string-name><surname>Wielepp</surname>
+<given-names>P</given-names></string-name>, <string-name><surname>Weder</surname>
+<given-names>B</given-names></string-name>. <article-title>SPECT during sleepwalking</article-title>. <source><italic toggle="yes">Lancet Lond Engl</italic></source>. <year>2000</year>;<volume>356</volume>(<issue>9228</issue>):<fpage>484</fpage>–<lpage>485</lpage>. doi:<pub-id pub-id-type="doi">10.1016/S0140-6736(00)02561-7</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0014">
+        <label>14.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Terzaghi</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Sartori</surname>
+<given-names>I</given-names></string-name>, <string-name><surname>Tassi</surname>
+<given-names>L</given-names></string-name>, et al. <article-title>Evidence of dissociated arousal states during NREM parasomnia from an intracerebral neurophysiological study</article-title>. <source><italic toggle="yes">Sleep</italic></source>. <year>2009</year>;<volume>32</volume>(<issue>3</issue>):<fpage>409</fpage>–<lpage>412</lpage>. doi:<pub-id pub-id-type="doi">10.1093/sleep/32.3.409</pub-id><pub-id pub-id-type="pmid">19294961</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0015">
+        <label>15.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Terzaghi</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Sartori</surname>
+<given-names>I</given-names></string-name>, <string-name><surname>Tassi</surname>
+<given-names>L</given-names></string-name>, et al. <article-title>Dissociated local arousal states underlying essential clinical features of non-rapid eye movement arousal parasomnia: an intracerebral stereo-electroencephalographic study</article-title>. <source><italic toggle="yes">J Sleep Res</italic></source>. <year>2012</year>;<volume>21</volume>(<issue>5</issue>):<fpage>502</fpage>–<lpage>506</lpage>. doi:<pub-id pub-id-type="doi">10.1111/j.1365-2869.2012.01003.x</pub-id><pub-id pub-id-type="pmid">22329925</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0016">
+        <label>16.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Gibbs</surname>
+<given-names>SA</given-names></string-name>, <string-name><surname>Proserpio</surname>
+<given-names>P</given-names></string-name>, <string-name><surname>Terzaghi</surname>
+<given-names>M</given-names></string-name>, et al. <article-title>Sleep-related epileptic behaviors and non-REM-related parasomnias: insights from stereo-EEG</article-title>. <source><italic toggle="yes">Sleep Med Rev</italic></source>. <year>2016</year>;<volume>25</volume>:<fpage>4</fpage>–<lpage>20</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.smrv.2015.05.002</pub-id><pub-id pub-id-type="pmid">26164370</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0017">
+        <label>17.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Flamand</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Boudet</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Lopes</surname>
+<given-names>R</given-names></string-name>, et al. <article-title>Confusional arousals during non-rapid eye movement sleep: evidence from intracerebral recordings</article-title>. <source><italic toggle="yes">Sleep</italic></source>. <year>2018</year>;<volume>41</volume>(<issue>10</issue>):<fpage>10</fpage>. doi:<pub-id pub-id-type="doi">10.1093/sleep/zsy139</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0018">
+        <label>18.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Mahowald</surname>
+<given-names>MW</given-names></string-name>, <string-name><surname>Schenck</surname>
+<given-names>CH</given-names></string-name>. <article-title>Insights from studying human sleep disorders</article-title>. <source><italic toggle="yes">Nature</italic></source>. <year>2005</year>;<volume>437</volume>(<issue>7063</issue>):<fpage>1279</fpage>–<lpage>1285</lpage>. doi:<pub-id pub-id-type="doi">10.1038/nature04287</pub-id><pub-id pub-id-type="pmid">16251953</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0019">
+        <label>19.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Espa</surname>
+<given-names>F</given-names></string-name>, <string-name><surname>Ondze</surname>
+<given-names>B</given-names></string-name>, <string-name><surname>Deglise</surname>
+<given-names>P</given-names></string-name>, <string-name><surname>Billiard</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Besset</surname>
+<given-names>A</given-names></string-name>. <article-title>Sleep architecture, slow wave activity, and sleep spindles in adult patients with sleepwalking and sleep terrors</article-title>. <source><italic toggle="yes">Clin Neurophysiol off J Int Fed Clin Neurophysiol</italic></source>. <year>2000</year>;<volume>111</volume>(<issue>5</issue>):<fpage>929</fpage>–<lpage>939</lpage>. doi:<pub-id pub-id-type="doi">10.1016/s1388-2457(00)00249-2</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0020">
+        <label>20.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Guilleminault</surname>
+<given-names>C</given-names></string-name>, <string-name><surname>Poyares</surname>
+<given-names>D</given-names></string-name>, <string-name><surname>Aftab</surname>
+<given-names>FA</given-names></string-name>, <string-name><surname>Palombini</surname>
+<given-names>L</given-names></string-name>, <string-name><surname>Abat</surname>
+<given-names>F</given-names></string-name>. <article-title>Sleep and wakefulness in somnambulism: a spectral analysis study</article-title>. <source><italic toggle="yes">J Psychosom Res</italic></source>. <year>2001</year>;<volume>51</volume>(<issue>2</issue>):<fpage>411</fpage>–<lpage>416</lpage>. doi:<pub-id pub-id-type="doi">10.1016/s0022-3999(01)00187-8</pub-id><pub-id pub-id-type="pmid">11516762</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0021">
+        <label>21.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Zadra</surname>
+<given-names>AL</given-names></string-name>, <string-name><surname>Nielsen</surname>
+<given-names>TA</given-names></string-name>. <article-title>Topographical EEG mapping in a case of recurrent sleep terrors</article-title>. <source><italic toggle="yes">Dreaming</italic></source>. <year>1998</year>;<volume>8</volume>(<issue>2</issue>):<fpage>67</fpage>–<lpage>74</lpage>. doi:<pub-id pub-id-type="doi">10.1023/B:DREM.0000005897.62698.1b</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0022">
+        <label>22.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Jaar</surname>
+<given-names>O</given-names></string-name>, <string-name><surname>Pilon</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Carrier</surname>
+<given-names>J</given-names></string-name>, <string-name><surname>Montplaisir</surname>
+<given-names>J</given-names></string-name>, <string-name><surname>Zadra</surname>
+<given-names>A</given-names></string-name>. <article-title>Analysis of slow-wave activity and slow-wave oscillations prior to somnambulism</article-title>. <source><italic toggle="yes">Sleep</italic></source>. <year>2010</year>;<volume>33</volume>(<issue>11</issue>):<fpage>1511</fpage>–<lpage>1516</lpage>. doi:<pub-id pub-id-type="doi">10.1093/sleep/33.11.1511</pub-id><pub-id pub-id-type="pmid">21102993</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0023">
+        <label>23.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Januszko</surname>
+<given-names>P</given-names></string-name>, <string-name><surname>Niemcewicz</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Gajda</surname>
+<given-names>T</given-names></string-name>, et al. <article-title>Sleepwalking episodes are preceded by arousal-related activation in the cingulate motor area: EEG current density imaging</article-title>. <source><italic toggle="yes">Clin Neurophysiol off J Int Fed Clin Neurophysiol</italic></source>. <year>2016</year>;<volume>127</volume>(<issue>1</issue>):<fpage>530</fpage>–<lpage>536</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.clinph.2015.01.014</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0024">
+        <label>24.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Desjardins</surname>
+<given-names>MÈ</given-names></string-name>, <string-name><surname>Carrier</surname>
+<given-names>J</given-names></string-name>, <string-name><surname>Lina</surname>
+<given-names>JM</given-names></string-name>, et al. <article-title>EEG functional connectivity prior to sleepwalking: evidence of interplay between sleep and wakefulness</article-title>. <source><italic toggle="yes">Sleep</italic></source>. <year>2017</year>;<volume>40</volume>:<fpage>4</fpage>. doi:<pub-id pub-id-type="doi">10.1093/sleep/zsx024</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0025">
+        <label>25.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Perrault</surname>
+<given-names>R</given-names></string-name>, <string-name><surname>Carrier</surname>
+<given-names>J</given-names></string-name>, <string-name><surname>Desautels</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Montplaisir</surname>
+<given-names>J</given-names></string-name>, <string-name><surname>Zadra</surname>
+<given-names>A</given-names></string-name>. <article-title>Electroencephalographic slow waves prior to sleepwalking episodes</article-title>. <source><italic toggle="yes">Sleep Med</italic></source>. <year>2014</year>;<volume>15</volume>(<issue>12</issue>):<fpage>1468</fpage>–<lpage>1472</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.sleep.2014.07.020</pub-id><pub-id pub-id-type="pmid">25454846</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0026">
+        <label>26.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Ratti</surname>
+<given-names>PL</given-names></string-name>, <string-name><surname>Amato</surname>
+<given-names>N</given-names></string-name>, <string-name><surname>David</surname>
+<given-names>O</given-names></string-name>, <string-name><surname>Manconi</surname>
+<given-names>M</given-names></string-name>. <article-title>A high-density polysomnographic picture of disorders of arousal</article-title>. <source><italic toggle="yes">Sleep</italic></source>. <year>2018</year>;<volume>41</volume>:<fpage>11</fpage>. doi:<pub-id pub-id-type="doi">10.1093/sleep/zsy162</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0027">
+        <label>27.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Camaioni</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Scarpelli</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Gorgoni</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Alfonsi</surname>
+<given-names>V</given-names></string-name>, <string-name><surname>De Gennaro</surname>
+<given-names>L</given-names></string-name>. <article-title>EEG patterns prior to motor activations of parasomnias: a systematic review</article-title>. <source><italic toggle="yes">Nat Sci Sleep</italic></source>. <year>2021</year>;<volume>13</volume>:<fpage>713</fpage>–<lpage>728</lpage>. doi:<pub-id pub-id-type="doi">10.2147/NSS.S306614</pub-id><pub-id pub-id-type="pmid">34113199</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0028">
+        <label>28.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Schenck</surname>
+<given-names>CH</given-names></string-name>, <string-name><surname>Pareja</surname>
+<given-names>JA</given-names></string-name>, <string-name><surname>Patterson</surname>
+<given-names>AL</given-names></string-name>, <string-name><surname>Mahowald</surname>
+<given-names>MW</given-names></string-name>. <article-title>Analysis of polysomnographic events surrounding 252 slow-wave sleep arousals in thirty-eight adults with injurious sleepwalking and sleep terrors</article-title>. <source><italic toggle="yes">J Clin Neurophysiol off Publ Am Electroencephalogr Soc</italic></source>. <year>1998</year>;<volume>15</volume>(<issue>2</issue>):<fpage>159</fpage>–<lpage>166</lpage>. doi:<pub-id pub-id-type="doi">10.1097/00004691-199803000-00010</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0029">
+        <label>29.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Pilon</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Zadra</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Joncas</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Montplaisir</surname>
+<given-names>J</given-names></string-name>. <article-title>Hypersynchronous delta waves and somnambulism: brain topography and effect of sleep deprivation</article-title>. <source><italic toggle="yes">Sleep</italic></source>. <year>2006</year>;<volume>29</volume>(<issue>1</issue>):<fpage>77</fpage>–<lpage>84</lpage>. doi:<pub-id pub-id-type="doi">10.1093/sleep/29.1.77</pub-id><pub-id pub-id-type="pmid">16453984</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0030">
+        <label>30.</label>
+        <mixed-citation publication-type="book"><string-name><surname>Berry</surname>
+<given-names>RB</given-names></string-name>, <string-name><surname>Quan</surname>
+<given-names>SF</given-names></string-name>, <string-name><surname>Abreu</surname>
+<given-names>AR</given-names></string-name>, et al. <article-title>The AASM manual for the scoring of sleep and associated events: rules, terminology and technical specifications. Version 2.6</article-title>. <publisher-loc>Darien, IL</publisher-loc>: <publisher-name>American Academy of Sleep Medicine</publisher-name>; <year>2020</year>.</mixed-citation>
+      </ref>
+      <ref id="cit0031">
+        <label>31.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Castelnovo</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Riedner</surname>
+<given-names>BA</given-names></string-name>, <string-name><surname>Smith</surname>
+<given-names>RF</given-names></string-name>, <string-name><surname>Tononi</surname>
+<given-names>G</given-names></string-name>, <string-name><surname>Boly</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Benca</surname>
+<given-names>RM</given-names></string-name>. <article-title>Scalp and source power topography in sleepwalking and sleep terrors: a high-density EEG study</article-title>. <source><italic toggle="yes">Sleep</italic></source>. <year>2016</year>;<volume>39</volume>(<issue>10</issue>):<fpage>1815</fpage>–<lpage>1825</lpage>. doi:<pub-id pub-id-type="doi">10.5665/sleep.6162</pub-id><pub-id pub-id-type="pmid">27568805</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0032">
+        <label>32.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Nichols</surname>
+<given-names>TE</given-names></string-name>, <string-name><surname>Holmes</surname>
+<given-names>AP</given-names></string-name>. <article-title>Nonparametric permutation tests for functional neuroimaging: a primer with examples</article-title>. <source><italic toggle="yes">Hum Brain Mapp</italic></source>. <year>2002</year>;<volume>15</volume>(<issue>1</issue>):<fpage>1</fpage>–<lpage>25</lpage>. doi:<pub-id pub-id-type="doi">10.1002/hbm.1058</pub-id><pub-id pub-id-type="pmid">11747097</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0033">
+        <label>33.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Castelnovo</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Zago</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Casetta</surname>
+<given-names>C</given-names></string-name>, et al. <article-title>Slow wave oscillations in schizophrenia first-degree relatives: a confirmatory analysis and feasibility study on slow wave traveling</article-title>. <source><italic toggle="yes">Schizophr Res</italic></source>. <year>2020</year>;<volume>221</volume>:<fpage>37</fpage>–<lpage>43</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.schres.2020.03.025</pub-id><pub-id pub-id-type="pmid">32220503</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0034">
+        <label>34.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Spiess</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Bernardi</surname>
+<given-names>G</given-names></string-name>, <string-name><surname>Kurth</surname>
+<given-names>S</given-names></string-name>, et al. <article-title>How do children fall asleep? A high-density EEG study of slow waves in the transition from wake to sleep</article-title>. <source><italic toggle="yes">NeuroImage</italic></source>. <year>2018</year>;<volume>178</volume>:<fpage>23</fpage>–<lpage>35</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.neuroimage.2018.05.024</pub-id><pub-id pub-id-type="pmid">29758338</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0035">
+        <label>35.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Siclari</surname>
+<given-names>F</given-names></string-name>, <string-name><surname>Baird</surname>
+<given-names>B</given-names></string-name>, <string-name><surname>Perogamvros</surname>
+<given-names>L</given-names></string-name>, et al. <article-title>The neural correlates of dreaming</article-title>. <source><italic toggle="yes">Nat Neurosci</italic></source>. <year>2017</year>;<volume>20</volume>(<issue>6</issue>):<fpage>872</fpage>–<lpage>878</lpage>. doi:<pub-id pub-id-type="doi">10.1038/nn.4545</pub-id><pub-id pub-id-type="pmid">28394322</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0036">
+        <label>36.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Siclari</surname>
+<given-names>F</given-names></string-name>, <string-name><surname>Valli</surname>
+<given-names>K</given-names></string-name>, <string-name><surname>Arnulf</surname>
+<given-names>I</given-names></string-name>. <article-title>Dreams and nightmares in healthy adults and in patients with sleep and neurological disorders</article-title>. <source><italic toggle="yes">Lancet Neurol</italic></source>. <year>2020</year>;<volume>19</volume>(<issue>10</issue>):<fpage>849</fpage>–<lpage>859</lpage>. doi:<pub-id pub-id-type="doi">10.1016/S1474-4422(20)30275-1</pub-id><pub-id pub-id-type="pmid">32949545</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0037">
+        <label>37.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Oudiette</surname>
+<given-names>D</given-names></string-name>, <string-name><surname>Leu</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Pottier</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Buzare</surname>
+<given-names>MA</given-names></string-name>, <string-name><surname>Brion</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Arnulf</surname>
+<given-names>I</given-names></string-name>. <article-title>Dreamlike mentations during sleepwalking and sleep terrors in adults</article-title>. <source><italic toggle="yes">Sleep</italic></source>. <year>2009</year>;<volume>32</volume>(<issue>12</issue>):<fpage>1621</fpage>–<lpage>1627</lpage>. doi:<pub-id pub-id-type="doi">10.1093/sleep/32.12.1621</pub-id><pub-id pub-id-type="pmid">20041598</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0038">
+        <label>38.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Castelnovo</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Loddo</surname>
+<given-names>G</given-names></string-name>, <string-name><surname>Provini</surname>
+<given-names>F</given-names></string-name>, <string-name><surname>Miano</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Manconi</surname>
+<given-names>M</given-names></string-name>. <article-title>Mental activity during episodes of sleepwalking, night terrors or confusional arousals: differences between children and adults</article-title>. <source><italic toggle="yes">Nat Sci Sleep</italic></source>. <year>2021</year>;<volume>13</volume>:<fpage>829</fpage>–<lpage>840</lpage>. doi:<pub-id pub-id-type="doi">10.2147/NSS.S309868</pub-id><pub-id pub-id-type="pmid">34188578</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0039">
+        <label>39.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Sarasso</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Pigorini</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Proserpio</surname>
+<given-names>P</given-names></string-name>, <string-name><surname>Gibbs</surname>
+<given-names>SA</given-names></string-name>, <string-name><surname>Massimini</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Nobili</surname>
+<given-names>L</given-names></string-name>. <article-title>Fluid boundaries between wake and sleep: experimental evidence from Stereo-EEG recordings</article-title>. <source><italic toggle="yes">Arch Ital Biol</italic></source>. <year>2014</year>;<volume>152</volume>(<issue>2–3</issue>):<fpage>169</fpage>–<lpage>177</lpage>. doi:<pub-id pub-id-type="doi">10.12871/0002982920142311</pub-id><pub-id pub-id-type="pmid">25828688</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0040">
+        <label>40.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Assenza</surname>
+<given-names>G</given-names></string-name>, <string-name><surname>Capone</surname>
+<given-names>F</given-names></string-name>, <string-name><surname>Di Biase</surname>
+<given-names>L</given-names></string-name>, et al. <article-title>Oscillatory activities in neurological disorders of elderly: biomarkers to target for neuromodulation</article-title>. <source><italic toggle="yes">Front Aging Neurosci</italic></source>. <year>2017</year>;<volume>9</volume>:<fpage>189</fpage>. doi:<pub-id pub-id-type="doi">10.3389/fnagi.2017.00189</pub-id><pub-id pub-id-type="pmid">28659788</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0041">
+        <label>41.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Martin</surname>
+<given-names>RA</given-names></string-name>, <string-name><surname>Cukiert</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Blumenfeld</surname>
+<given-names>H</given-names></string-name>. <article-title>Short-term changes in cortical physiological arousal measured by electroencephalography during thalamic centromedian deep brain stimulation</article-title>. <source><italic toggle="yes">Epilepsia</italic></source>. <year>2021</year>;<volume>62</volume>(<issue>11</issue>):<fpage>2604</fpage>–<lpage>2614</lpage>. doi:<pub-id pub-id-type="doi">10.1111/epi.17042</pub-id><pub-id pub-id-type="pmid">34405892</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0042">
+        <label>42.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Steriade</surname>
+<given-names>M</given-names></string-name>. <article-title>Grouping of brain rhythms in corticothalamic systems</article-title>. <source><italic toggle="yes">Neuroscience</italic></source>. <year>2006</year>;<volume>137</volume>(<issue>4</issue>):<fpage>1087</fpage>–<lpage>1106</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.neuroscience.2005.10.029</pub-id><pub-id pub-id-type="pmid">16343791</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0043">
+        <label>43.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Koch</surname>
+<given-names>C</given-names></string-name>, <string-name><surname>Massimini</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Boly</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Tononi</surname>
+<given-names>G</given-names></string-name>. <article-title>Neural correlates of consciousness: progress and problems</article-title>. <source><italic toggle="yes">Nat Rev Neurosci</italic></source>. <year>2016</year>;<volume>17</volume>(<issue>5</issue>):<fpage>307</fpage>–<lpage>321</lpage>. doi:<pub-id pub-id-type="doi">10.1038/nrn.2016.22</pub-id><pub-id pub-id-type="pmid">27094080</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0044">
+        <label>44.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Murphy</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Bruno</surname>
+<given-names>MA</given-names></string-name>, <string-name><surname>Riedner</surname>
+<given-names>BA</given-names></string-name>, et al. <article-title>Propofol anesthesia and sleep: a high-density EEG study</article-title>. <source><italic toggle="yes">Sleep</italic></source>. <year>2011</year>;<volume>34</volume>(<issue>3</issue>):<fpage>283A</fpage>–<lpage>291A</lpage>. doi:<pub-id pub-id-type="doi">10.1093/sleep/34.3.283</pub-id><pub-id pub-id-type="pmid">21358845</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0045">
+        <label>45.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Peter-Derex</surname>
+<given-names>L</given-names></string-name>, <string-name><surname>Magnin</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Bastuji</surname>
+<given-names>H</given-names></string-name>. <article-title>Heterogeneity of arousals in human sleep: a stereo-electroencephalographic study</article-title>. <source><italic toggle="yes">NeuroImage</italic></source>. <year>2015</year>;<volume>123</volume>:<fpage>229</fpage>–<lpage>244</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.neuroimage.2015.07.057</pub-id><pub-id pub-id-type="pmid">26220744</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0046">
+        <label>46.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Fernandez</surname>
+<given-names>LMJ</given-names></string-name>, <string-name><surname>Lüthi</surname>
+<given-names>A</given-names></string-name>. <article-title>Sleep spindles: mechanisms and functions</article-title>. <source><italic toggle="yes">Physiol Rev</italic></source>. <year>2020</year>;<volume>100</volume>(<issue>2</issue>):<fpage>805</fpage>–<lpage>868</lpage>. doi:<pub-id pub-id-type="doi">10.1152/physrev.00042.2018</pub-id><pub-id pub-id-type="pmid">31804897</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0047">
+        <label>47.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Halász</surname>
+<given-names>P</given-names></string-name>, <string-name><surname>Terzano</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Parrino</surname>
+<given-names>L</given-names></string-name>, <string-name><surname>Bódizs</surname>
+<given-names>R</given-names></string-name>. <article-title>The nature of arousal in sleep</article-title>. <source><italic toggle="yes">J Sleep Res</italic></source>. <year>2004</year>;<volume>13</volume>(<issue>1</issue>):<fpage>1</fpage>–<lpage>23</lpage>. doi:<pub-id pub-id-type="doi">10.1111/j.1365-2869.2004.00388.x</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0048">
+        <label>48.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Latreille</surname>
+<given-names>V</given-names></string-name>, <string-name><surname>von Ellenrieder</surname>
+<given-names>N</given-names></string-name>, <string-name><surname>Peter-Derex</surname>
+<given-names>L</given-names></string-name>, <string-name><surname>Dubeau</surname>
+<given-names>F</given-names></string-name>, <string-name><surname>Gotman</surname>
+<given-names>J</given-names></string-name>, <string-name><surname>Frauscher</surname>
+<given-names>B</given-names></string-name>. <article-title>The human K-complex: insights from combined scalp-intracranial EEG recordings</article-title>. <source><italic toggle="yes">NeuroImage</italic></source>. <year>2020</year>;<volume>213</volume>:<fpage>116748</fpage>. doi:<pub-id pub-id-type="doi">10.1016/j.neuroimage.2020.116748</pub-id><pub-id pub-id-type="pmid">32194281</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0049">
+        <label>49.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Nobili</surname>
+<given-names>L</given-names></string-name>, <string-name><surname>Ferrara</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Moroni</surname>
+<given-names>F</given-names></string-name>, et al. <article-title>Dissociated wake-like and sleep-like electro-cortical activity during sleep</article-title>. <source><italic toggle="yes">NeuroImage</italic></source>. <year>2011</year>;<volume>58</volume>(<issue>2</issue>):<fpage>612</fpage>–<lpage>619</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.neuroimage.2011.06.032</pub-id><pub-id pub-id-type="pmid">21718789</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0050">
+        <label>50.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Nobili</surname>
+<given-names>L</given-names></string-name>, <string-name><surname>De Gennaro</surname>
+<given-names>L</given-names></string-name>, <string-name><surname>Proserpio</surname>
+<given-names>P</given-names></string-name>, et al. <article-title>Local aspects of sleep: observations from intracerebral recordings in humans</article-title>. <source><italic toggle="yes">Prog Brain Res</italic></source>. <year>2012</year>;<volume>199</volume>:<fpage>219</fpage>–<lpage>232</lpage>. doi:<pub-id pub-id-type="doi">10.1016/B978-0-444-59427-3.00013-7</pub-id><pub-id pub-id-type="pmid">22877668</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0051">
+        <label>51.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Magnin</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Rey</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Bastuji</surname>
+<given-names>H</given-names></string-name>, <string-name><surname>Guillemant</surname>
+<given-names>P</given-names></string-name>, <string-name><surname>Mauguière</surname>
+<given-names>F</given-names></string-name>, <string-name><surname>Garcia-Larrea</surname>
+<given-names>L</given-names></string-name>. <article-title>Thalamic deactivation at sleep onset precedes that of the cerebral cortex in humans</article-title>. <source><italic toggle="yes">Proc Natl Acad Sci U S A</italic></source>. <year>2010</year>;<volume>107</volume>(<issue>8</issue>):<fpage>3829</fpage>–<lpage>3833</lpage>. doi:<pub-id pub-id-type="doi">10.1073/pnas.0909710107</pub-id><pub-id pub-id-type="pmid">20142493</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0052">
+        <label>52.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>von Ellenrieder</surname>
+<given-names>N</given-names></string-name>, <string-name><surname>Gotman</surname>
+<given-names>J</given-names></string-name>, <string-name><surname>Zelmann</surname>
+<given-names>R</given-names></string-name>, et al. <article-title>How the human brain sleeps: direct cortical recordings of normal brain activity</article-title>. <source><italic toggle="yes">Ann Neurol</italic></source>. <year>2020</year>;<volume>87</volume>(<issue>2</issue>):<fpage>289</fpage>–<lpage>301</lpage>. doi:<pub-id pub-id-type="doi">10.1002/ana.25651</pub-id><pub-id pub-id-type="pmid">31777112</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0053">
+        <label>53.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Sforza</surname>
+<given-names>E</given-names></string-name>, <string-name><surname>Jouny</surname>
+<given-names>C</given-names></string-name>, <string-name><surname>Ibanez</surname>
+<given-names>V</given-names></string-name>. <article-title>Cardiac activation during arousal in humans: further evidence for hierarchy in the arousal response</article-title>. <source><italic toggle="yes">Clin Neurophysiol off J Int Fed Clin Neurophysiol</italic></source>. <year>2000</year>;<volume>111</volume>(<issue>9</issue>):<fpage>1611</fpage>–<lpage>1619</lpage>. doi:<pub-id pub-id-type="doi">10.1016/s1388-2457(00)00363-1</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0054">
+        <label>54.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Parrino</surname>
+<given-names>L</given-names></string-name>, <string-name><surname>Halasz</surname>
+<given-names>P</given-names></string-name>, <string-name><surname>Tassinari</surname>
+<given-names>CA</given-names></string-name>, <string-name><surname>Terzano</surname>
+<given-names>MG</given-names></string-name>. <article-title>CAP, epilepsy and motor events during sleep: the unifying role of arousal</article-title>. <source><italic toggle="yes">Sleep Med Rev</italic></source>. <year>2006</year>;<volume>10</volume>(<issue>4</issue>):<fpage>267</fpage>–<lpage>285</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.smrv.2005.12.004</pub-id><pub-id pub-id-type="pmid">16809057</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0055">
+        <label>55.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Janackova</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Sforza</surname>
+<given-names>E</given-names></string-name>. <article-title>Neurobiology of sleep fragmentation: cortical and autonomic markers of sleep disorders</article-title>. <source><italic toggle="yes">Curr Pharm Des</italic></source>. <year>2008</year>;<volume>14</volume>(<issue>32</issue>):<fpage>3474</fpage>–<lpage>3480</lpage>. doi:<pub-id pub-id-type="doi">10.2174/138161208786549335</pub-id><pub-id pub-id-type="pmid">19075723</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0056">
+        <label>56.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Sforza</surname>
+<given-names>E</given-names></string-name>, <string-name><surname>Juony</surname>
+<given-names>C</given-names></string-name>, <string-name><surname>Ibanez</surname>
+<given-names>V</given-names></string-name>. <article-title>Time-dependent variation in cerebral and autonomic activity during periodic leg movements in sleep: implications for arousal mechanisms</article-title>. <source><italic toggle="yes">Clin Neurophysiol off J Int Fed Clin Neurophysiol</italic></source>. <year>2002</year>;<volume>113</volume>(<issue>6</issue>):<fpage>883</fpage>–<lpage>891</lpage>. doi:<pub-id pub-id-type="doi">10.1016/s1388-2457(02)00066-4</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0057">
+        <label>57.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Kuo</surname>
+<given-names>TBJ</given-names></string-name>, <string-name><surname>Chen</surname>
+<given-names>CY</given-names></string-name>, <string-name><surname>Hsu</surname>
+<given-names>YC</given-names></string-name>, <string-name><surname>Yang</surname>
+<given-names>CCH</given-names></string-name>. <article-title>EEG beta power and heart rate variability describe the association between cortical and autonomic arousals across sleep</article-title>. <source><italic toggle="yes">Auton Neurosci Basic Clin</italic></source>. <year>2016</year>;<volume>194</volume>:<fpage>32</fpage>–<lpage>37</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.autneu.2015.12.001</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0058">
+        <label>58.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Zou</surname>
+<given-names>G</given-names></string-name>, <string-name><surname>Xu</surname>
+<given-names>J</given-names></string-name>, <string-name><surname>Zhou</surname>
+<given-names>S</given-names></string-name>, et al. <article-title>Functional MRI of arousals in non-rapid eye movement sleep</article-title>. <source><italic toggle="yes">Sleep</italic></source>. <year>2019</year>. doi:<pub-id pub-id-type="doi">10.1093/sleep/zsz218</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0059">
+        <label>59.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Mainieri</surname>
+<given-names>G</given-names></string-name>, <string-name><surname>Loddo</surname>
+<given-names>G</given-names></string-name>, <string-name><surname>Provini</surname>
+<given-names>F</given-names></string-name>. <article-title>Disorders of arousal: a chronobiological perspective</article-title>. <source><italic toggle="yes">Clocks Sleep</italic></source>. <year>2021</year>;<volume>3</volume>(<issue>1</issue>):<fpage>53</fpage>–<lpage>65</lpage>. doi:<pub-id pub-id-type="doi">10.3390/clockssleep3010004</pub-id><pub-id pub-id-type="pmid">33494408</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0060">
+        <label>60.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Oliviero</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Della marca</surname>
+<given-names>G</given-names></string-name>, <string-name><surname>Tonali</surname>
+<given-names>PA</given-names></string-name>, et al. <article-title>Functional involvement of cerebral cortex in adult sleepwalking</article-title>. <source><italic toggle="yes">J Neurol</italic></source>. <year>2007</year>;<volume>254</volume>(<issue>8</issue>):<fpage>1066</fpage>–<lpage>1072</lpage>. doi:<pub-id pub-id-type="doi">10.1007/s00415-006-0489-0</pub-id><pub-id pub-id-type="pmid">17351721</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0061">
+        <label>61.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Heidbreder</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Stefani</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Brandauer</surname>
+<given-names>E</given-names></string-name>, et al. <article-title>Gray matter abnormalities of the dorsal posterior cingulate in sleep walking</article-title>. <source><italic toggle="yes">Sleep Med</italic></source>. <year>2017</year>;<volume>36</volume>:<fpage>152</fpage>–<lpage>155</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.sleep.2017.05.007</pub-id><pub-id pub-id-type="pmid">28735913</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0062">
+        <label>62.</label>
+        <mixed-citation publication-type="newspaper"><string-name><surname>Perogamvros</surname>
+<given-names>L</given-names></string-name>. <article-title>An Evolutionary-Emotional Perspective of Insomnia and Parasomnias</article-title>; <year>2018</year>.</mixed-citation>
+      </ref>
+      <ref id="cit0063">
+        <label>63.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Loddo</surname>
+<given-names>G</given-names></string-name>, <string-name><surname>Baldassarri</surname>
+<given-names>L</given-names></string-name>, <string-name><surname>Zenesini</surname>
+<given-names>C</given-names></string-name>, et al. <article-title>Seizures with paroxysmal arousals in sleep-related hypermotor epilepsy (SHE): dissecting epilepsy from NREM parasomnias</article-title>. <source><italic toggle="yes">Epilepsia</italic></source>. <year>2020</year>;<volume>61</volume>(<issue>10</issue>):<fpage>2194</fpage>–<lpage>2202</lpage>. doi:<pub-id pub-id-type="doi">10.1111/epi.16659</pub-id><pub-id pub-id-type="pmid">32949468</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0064">
+        <label>64.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Pani</surname>
+<given-names>SM</given-names></string-name>, <string-name><surname>Fraschini</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Figorilli</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Tamburrino</surname>
+<given-names>L</given-names></string-name>, <string-name><surname>Ferri</surname>
+<given-names>R</given-names></string-name>, <string-name><surname>Puligheddu</surname>
+<given-names>M</given-names></string-name>. <article-title>Sleep-related hypermotor epilepsy and non-rapid eye movement parasomnias: differences in the periodic and aperiodic component of the electroencephalographic power spectra</article-title>. <source><italic toggle="yes">J Sleep Res</italic></source>. <year>2021</year>;<volume>30</volume>(<issue>5</issue>):<fpage>e13339</fpage>. doi:<pub-id pub-id-type="doi">10.1111/jsr.13339</pub-id><pub-id pub-id-type="pmid">33769647</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0065">
+        <label>65.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Zelmann</surname>
+<given-names>R</given-names></string-name>, <string-name><surname>Paulk</surname>
+<given-names>AC</given-names></string-name>, <string-name><surname>Basu</surname>
+<given-names>I</given-names></string-name>, et al. <article-title>CLoSES: a platform for closed-loop intracranial stimulation in humans</article-title>. <source><italic toggle="yes">NeuroImage</italic></source>. <year>2020</year>;<volume>223</volume>:<fpage>117314</fpage>. doi:<pub-id pub-id-type="doi">10.1016/j.neuroimage.2020.117314</pub-id><pub-id pub-id-type="pmid">32882382</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0066">
+        <label>66.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Edinger</surname>
+<given-names>JD</given-names></string-name>, <string-name><surname>Fins</surname>
+<given-names>AI</given-names></string-name>, <string-name><surname>Sullivan</surname>
+<given-names>RJ</given-names></string-name>, et al. <article-title>Sleep in the laboratory and sleep at home: comparisons of older insomniacs and normal sleepers</article-title>. <source><italic toggle="yes">Sleep</italic></source>. <year>1997</year>;<volume>20</volume>(<issue>12</issue>):<fpage>1119</fpage>–<lpage>1126</lpage>. doi:<pub-id pub-id-type="doi">10.1093/sleep/20.12.1119</pub-id><pub-id pub-id-type="pmid">9493921</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0067">
+        <label>67.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Bruyneel</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Sanida</surname>
+<given-names>C</given-names></string-name>, <string-name><surname>Art</surname>
+<given-names>G</given-names></string-name>, et al. <article-title>Sleep efficiency during sleep studies: results of a prospective study comparing home-based and in-hospital polysomnography</article-title>. <source><italic toggle="yes">J Sleep Res</italic></source>. <year>2011</year>;<volume>20</volume>(<issue>1 Pt 2</issue>):<fpage>201</fpage>–<lpage>206</lpage>. doi:<pub-id pub-id-type="doi">10.1111/j.1365-2869.2010.00859.x</pub-id><pub-id pub-id-type="pmid">20561176</pub-id></mixed-citation>
+      </ref>
+    </ref-list>
+  </back>
+</article>
+</pmc-articleset>

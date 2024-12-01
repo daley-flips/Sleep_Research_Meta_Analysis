@@ -1,0 +1,572 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<pmc-articleset><article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="research-article">
+  <?properties open_access?>
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="nlm-ta">Nat Sci Sleep</journal-id>
+      <journal-id journal-id-type="iso-abbrev">Nat Sci Sleep</journal-id>
+      <journal-id journal-id-type="publisher-id">nss</journal-id>
+      <journal-id journal-id-type="pmc">nss</journal-id>
+      <journal-title-group>
+        <journal-title>Nature and Science of Sleep</journal-title>
+      </journal-title-group>
+      <issn pub-type="epub">1179-1608</issn>
+      <publisher>
+        <publisher-name>Dove</publisher-name>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="pmid">33235534</article-id>
+      <article-id pub-id-type="pmc">7680175</article-id>
+      <article-id pub-id-type="publisher-id">276107</article-id>
+      <article-id pub-id-type="doi">10.2147/NSS.S276107</article-id>
+      <article-categories>
+        <subj-group subj-group-type="heading">
+          <subject>Original Research</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>Sleep/Wakefulness Detection Using Tracheal Sounds and Movements</article-title>
+        <alt-title alt-title-type="running-authors">Montazeri Ghahjaverestan et al</alt-title>
+        <alt-title alt-title-type="running-title">Montazeri Ghahjaverestan et al</alt-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <contrib-id contrib-id-type="orcid" authenticated="false">http://orcid.org/0000-0003-0960-9632</contrib-id>
+          <name>
+            <surname>Montazeri Ghahjaverestan</surname>
+            <given-names>Nasim</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff0001">
+            <sup>1</sup>
+          </xref>
+          <xref ref-type="aff" rid="aff0002">
+            <sup>2</sup>
+          </xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Akbarian</surname>
+            <given-names>Sina</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff0001">
+            <sup>1</sup>
+          </xref>
+          <xref ref-type="aff" rid="aff0002">
+            <sup>2</sup>
+          </xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Hafezi</surname>
+            <given-names>Maziar</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff0001">
+            <sup>1</sup>
+          </xref>
+          <xref ref-type="aff" rid="aff0002">
+            <sup>2</sup>
+          </xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Saha</surname>
+            <given-names>Shumit</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff0001">
+            <sup>1</sup>
+          </xref>
+          <xref ref-type="aff" rid="aff0002">
+            <sup>2</sup>
+          </xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Zhu</surname>
+            <given-names>Kaiyin</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff0001">
+            <sup>1</sup>
+          </xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Gavrilovic</surname>
+            <given-names>Bojan</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff0001">
+            <sup>1</sup>
+          </xref>
+        </contrib>
+        <contrib contrib-type="author" equal-contrib="yes">
+          <contrib-id contrib-id-type="orcid" authenticated="false">http://orcid.org/0000-0001-9763-4293</contrib-id>
+          <name>
+            <surname>Taati</surname>
+            <given-names>Babak</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff0001">
+            <sup>1</sup>
+          </xref>
+          <xref ref-type="aff" rid="aff0002">
+            <sup>2</sup>
+          </xref>
+          <xref ref-type="aff" rid="aff0003">
+            <sup>3</sup>
+          </xref>
+          <xref ref-type="author-notes" rid="ft0001">*</xref>
+        </contrib>
+        <contrib contrib-type="author" equal-contrib="yes">
+          <contrib-id contrib-id-type="orcid" authenticated="false">http://orcid.org/0000-0002-3216-8997</contrib-id>
+          <name>
+            <surname>Yadollahi</surname>
+            <given-names>Azadeh</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff0001">
+            <sup>1</sup>
+          </xref>
+          <xref ref-type="aff" rid="aff0002">
+            <sup>2</sup>
+          </xref>
+          <xref ref-type="corresp" rid="an0001"/>
+          <xref ref-type="author-notes" rid="ft0001">*</xref>
+        </contrib>
+        <aff id="aff0001"><label>1</label><institution>Kite - Toronto Rehabilitation Institute, University Health Network</institution>, <addr-line>Toronto</addr-line>, <addr-line>ON</addr-line>, <country>Canada</country></aff>
+        <aff id="aff0002"><label>2</label><institution>Institute of Biomedical Engineering, University of Toronto</institution>, <addr-line>Toronto</addr-line>, <addr-line>ON</addr-line>, <country>Canada</country></aff>
+        <aff id="aff0003"><label>3</label>Computer Science, <institution>University of Toronto</institution>, <addr-line>Toronto</addr-line>, <addr-line>ON</addr-line>, <country>Canada</country></aff>
+      </contrib-group>
+      <author-notes>
+        <corresp id="an0001">Correspondence: Azadeh Yadollahi <institution>Kite - Toronto Rehabilitation Institute, University Health Network</institution>, <addr-line>Room 12-106, 550 University Avenue</addr-line>, <addr-line>Toronto</addr-line>, <addr-line>ON</addr-line><addr-line>M5G 2A2</addr-line>, <country>Canada</country><phone>Tel +1 416 597 3422 Ext 7936</phone><fax>Fax +1 416 597 8959</fax> Email Azadeh.Yadollahi@uhn.ca</corresp>
+        <fn id="ft0001">
+          <label>*</label>
+          <p><citation_analysis attribute="neither">These authors contributed equally to this work</citation_analysis></p>
+        </fn>
+      </author-notes>
+      <pub-date pub-type="epub">
+        <day>17</day>
+        <month>11</month>
+        <year>2020</year>
+      </pub-date>
+      <pub-date pub-type="collection">
+        <year>2020</year>
+      </pub-date>
+      <volume>12</volume>
+      <fpage>1009</fpage>
+      <lpage>1021</lpage>
+      <history>
+        <date date-type="received">
+          <day>08</day>
+          <month>8</month>
+          <year>2020</year>
+        </date>
+        <date date-type="accepted">
+          <day>08</day>
+          <month>10</month>
+          <year>2020</year>
+        </date>
+      </history>
+      <permissions>
+        <copyright-statement>© 2020 Montazeri Ghahjaverestan et al.</copyright-statement>
+        <copyright-year>2020</copyright-year>
+        <copyright-holder>Montazeri Ghahjaverestan et al.</copyright-holder>
+        <license license-type="open-access" xlink:href="http://creativecommons.org/licenses/by-nc/3.0/">
+          <license-p>This work is published and licensed by Dove Medical Press Limited. The full terms of this license are available at <ext-link ext-link-type="uri" xlink:href="https://www.dovepress.com/terms.php">https://www.dovepress.com/terms.php</ext-link> and incorporate the Creative Commons Attribution – Non Commercial (unported, v3.0) License (<ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by-nc/3.0/">http://creativecommons.org/licenses/by-nc/3.0/</ext-link>). By accessing the work you hereby accept the Terms. Non-commercial uses of the work are permitted without any further permission from Dove Medical Press Limited, provided the work is properly attributed. For permission for commercial use of this work, please see paragraphs 4.2 and 5 of our Terms (<ext-link ext-link-type="uri" xlink:href="https://www.dovepress.com/terms.php">https://www.dovepress.com/terms.php</ext-link>).</license-p>
+        </license>
+      </permissions>
+      <abstract>
+        <sec id="s2001">
+          <title>Purpose</title>
+          <p><citation_analysis attribute="positive">The current gold standard to detect sleep/wakefulness is based on electroencephalogram, which is inconvenient if included in portable sleep screening devices. Therefore, a challenge in the portable devices is sleeping time estimation. Without sleeping time, sleep parameters such as apnea/hypopnea index (AHI), an index for quantifying sleep apnea severity, can be underestimated. Recent studies have used tracheal sounds and movements for sleep screening and calculating AHI without considering sleeping time. In this study, we investigated the detection of sleep/wakefulness states and estimation of sleep parameters using tracheal sounds and movements.</citation_analysis></p>
+        </sec>
+        <sec id="s2002">
+          <title>Materials and Methods</title>
+          <p><citation_analysis attribute="positive">Participants with suspected sleep apnea who were referred for sleep screening were included in this study. Simultaneously with polysomnography, tracheal sounds and movements were recorded with a small wearable device, called the Patch, attached over the trachea. Each 30-second epoch of tracheal data was scored as sleep or wakefulness using an automatic classification algorithm. The performance of the algorithm was compared to the sleep/wakefulness scored blindly based on the polysomnography.</citation_analysis></p>
+        </sec>
+        <sec id="s2003">
+          <title>Results</title>
+          <p><citation_analysis attribute="positive">Eighty-eight subjects were included in this study. The accuracy of sleep/wakefulness detection was 82.3±8.66% with a sensitivity of 87.8±10.8 % (sleep), specificity of 71.4±18.5% (awake), F1 of 88.1±9.3% and Cohen’s kappa of 0.54. The correlations between the estimated and polysomnography-based measures for total sleep time and sleep efficiency were 0.78 (</citation_analysis><citation_analysis attribute="positive"><italic>p</italic></citation_analysis><citation_analysis attribute="neither">&lt;0.001) and 0.70 (</citation_analysis><citation_analysis attribute="positive"><italic>p</italic></citation_analysis><citation_analysis attribute="neither">&lt;0.001), respectively.</citation_analysis></p>
+        </sec>
+        <sec id="s2004">
+          <title>Conclusion</title>
+          <p><citation_analysis attribute="positive">Sleep/wakefulness periods can be detected using tracheal sound and movements. The results of this study combined with our previous studies on screening sleep apnea with tracheal sounds provide strong evidence that respiratory sounds analysis can be used to develop robust, convenient and cost-effective portable devices for sleep apnea monitoring.</citation_analysis></p>
+        </sec>
+      </abstract>
+      <kwd-group kwd-group-type="author">
+        <title>Keywords</title>
+        <kwd>sleep apnea</kwd>
+        <kwd>apnea/hypopnea index</kwd>
+        <kwd>principal component analysis</kwd>
+        <kwd>classification</kwd>
+        <kwd>imbalanced data</kwd>
+      </kwd-group>
+      <counts>
+        <fig-count count="6"/>
+        <table-count count="9"/>
+        <ref-count count="37"/>
+        <page-count count="13"/>
+      </counts>
+    </article-meta>
+  </front>
+  <body>
+    <sec sec-type="intro" id="s0001">
+      <title>Introduction</title>
+      <p><citation_analysis attribute="positive">Sleep apnea is a chronic disorder, which is associated with intermittent reductions (hypopnea) or pauses (apnea) in breathing during sleep. The severity of sleep apnea is commonly quantified based on apnea/hypopnea index (AHI) defined as the average number of apneas/hypopneas per hour of sleeping time. In clinical practice, sleep is assessed by in-laboratory polysomnography (PSG), which requires attachment of various sensors to the body. In PSG, sleeping time is measured through attaching about 8–10 electrodes on the individual’s head to record electroencephalogram (EEG), followed by manual inspection of the EEG recordings for sleep scoring. Thus, PSG is inconvenient, expensive and may not be representative of natural sleep, since it is performed for a single night in an unfamiliar environment. Alternatively, sleep can be assessed in the home setting using portable sleep screening devices with fewer numbers of sensors. While portable devices address some challenges of PSG, their limited number of integrated sensors can reduce their accuracy. The main challenge of most portable devices is that since they do not record EEG due to the inconvenience, they do not have an estimate of sleeping time. Thus, recording time is usually used in the portable devices to estimate AHI, which leads to lower accuracy and underestimation of AHI. To increase the accuracy of portable devices, it is important to develop algorithms to estimate sleeping time without compromising the convenience of the portable devices.</citation_analysis></p>
+      <p><citation_analysis attribute="neither">To detect sleeping time without EEG, most of the portable sleep screening devices have used an accelerometer to detect body movements, such as actigraphy-based methods.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0001" ref-type="bibr">1</xref></citation_analysis><citation_analysis attribute="neither">,</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0002" ref-type="bibr">2</xref></citation_analysis><citation_analysis attribute="neither"> Actigraphy assumes that wakefulness is associated with spontaneous body motions, while sleep is associated with no or less movements. Although, actigraphy is simple and sensitive to detect sleep periods, its specificity to detect wakefulness is low. The same drawback exists in similar methods based on analyzing the electromyogram of tibialis (leg) or submentalis (chin) muscles.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0003" ref-type="bibr">3</xref></citation_analysis><citation_analysis attribute="neither">,</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0004" ref-type="bibr">4</xref></citation_analysis><citation_analysis attribute="neither"> Alternatively, Dafna et al</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0005">5</xref></citation_analysis><citation_analysis attribute="neither">,</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0006">6</xref></citation_analysis><citation_analysis attribute="neither"> proposed the analysis of breathing sounds in patients with respiratory sleep disorders for detecting the sleeping periods. In this approach, sleep/wakefulness periods were detected by analyzing the pattern of breathing sounds recorded by an ambient microphone in the room. Despite the high overall sensitivity of 92.2%, the specificity to detect wakefulness was low (56.6%) and the algorithm can be sensitive to the ambient noises.</citation_analysis></p>
+      <p><citation_analysis attribute="neither">Previously, Soltanzadeh and Moussavi</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0007">7</xref></citation_analysis><citation_analysis attribute="positive"> used tracheal sounds to detect sleep/wakefulness during sleep. Through performing higher order statistics analysis, they were able to differentiate sleep stages from wakefulness. However, they only selected 10 breaths from each state for each subject. Although they achieved 100% accuracy over the data of 12 individuals, they never validated their algorithm on overnight-length data or in larger populations such as sleep patients. Especially in sleep apnea patients, fluctuations in the pattern of respiration and body motions can affect the performance of sleep detection algorithms. Therefore, there is a need to develop and validate robust algorithms to detect sleep and wakefulness from full overnight sleep data in sleep apnea patients using tracheal signals.</citation_analysis></p>
+      <p><citation_analysis attribute="neither">Tracheal signals have been extensively used to monitor respiration during sleep and assess the severity of sleep apnea by estimating AHI.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0008" ref-type="bibr">8–17</xref></citation_analysis><citation_analysis attribute="positive"> Tracheal sounds can be conveniently recorded using a microphone embedded in a portable device attached over the suprasternal notch. Recently, we have developed a device called “The Patch” to record tracheal respiratory related sounds and movements. As a portable device, The Patch does not include EEG; thus, by detecting sleep/wakefulness intervals from tracheal signals, it can be used to estimate total sleep time and AHI with higher accuracy. The goal of this study was to detect sleep/wakefulness by analyzing tracheal sounds and movements recorded by the Patch. The detected sleep/wakefulness intervals were used to estimate total sleep time and other sleep quality parameters. For validation, the detected scores and sleep quality parameters were compared to those derived based on EEG and actigraphy.</citation_analysis></p>
+    </sec>
+    <sec id="s0002">
+      <title>Materials and Methods</title>
+      <sec id="s0002-s2001">
+        <title>Study Participants and Protocol</title>
+        <p><citation_analysis attribute="positive">Ninety participants aged 18 years and above with suspected sleep apnea, who were referred to the sleep laboratory of Toronto Rehabilitation Institute for sleep diagnosis were included in this study. We excluded individuals with history of tracheostomy or allergy to adhesive medical tapes. The study was conducted based on the protocol approved by the Research Ethics Board of the University Health Network (IRB #: 15-8967). Each individual was informed about the purpose of the study and gave written consent before participating in the study which was conducted in accordance with the Declaration of Helsinki.</citation_analysis></p>
+      </sec>
+      <sec id="s0002-s2002">
+        <title>Data Collection</title>
+        <p><citation_analysis attribute="positive">Overnight in-laboratory sleep monitoring using polysomnography was conducted. As part of the PSG, EEG and electrooculogram were recorded and used to detect sleep and wakefulness periods by technicians who were blinded to our study. According to the American Academy of Sleep Medicine criteria,</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0018" ref-type="bibr">18</xref></citation_analysis><citation_analysis attribute="neither"> each 30-second epoch of data was annotated as sleep (NREM: non-rapid eye movement and REM: rapid eye movement) or wakefulness and used as the reference labels. Simultaneously with PSG, a wearable device, The Patch, which was developed in our laboratory,</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0013" ref-type="bibr">13</xref></citation_analysis><citation_analysis attribute="positive"> was attached over the suprasternal notch using double sided tape that none of the participants had any challenge regarding discomfort of The Patch (</citation_analysis><citation_analysis attribute="positive"><xref ref-type="fig" rid="f0001">Figure 1</xref></citation_analysis><citation_analysis attribute="neither">). The Patch records tracheal sounds with a one-directional microphone (sampling rate = 15 kHz) and tracheal-related movements with a 3-dimensional accelerometer (sampling rate = 60 Hz). All the sensors are in special housing to minimize recording ambient sounds. The Patch data recording was synchronized by a microcontroller with those of PSG. The microcontroller embedded in The Patch restores a pulse every 10 minutes, while at the same time, sends a pulse to one of the PSG channels.</citation_analysis><citation_analysis attribute="positive"><fig id="f0001" fig-type="figure" orientation="portrait" position="float"><label>Figure 1</label><caption><p><citation_analysis attribute="neither">The Patch.</citation_analysis></p></caption><graphic content-type="print-only" xlink:href="NSS-12-1009-g0001"/></fig></citation_analysis></p>
+      </sec>
+      <sec id="s0002-s2003">
+        <title>Data Analysis</title>
+        <p><citation_analysis attribute="neither">The following analyses were implemented in Matlab (2016b, MathWorks, Natick, MA, USA) software.</citation_analysis></p>
+        <sec id="s0002-s2003-s3001">
+          <title>Preprocessing</title>
+          <p><citation_analysis attribute="positive">For preprocessing, recorded tracheal movements in the X, Y, and Z directions were filtered using a 5th order zero-phase Butterworth band-pass filter (0.1–0.35 Hz) to extract the movements related to respiration (0.2–0.33 Hz</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0019" ref-type="bibr">19</xref></citation_analysis><citation_analysis attribute="positive">). To remove baseline swings and high frequency noises, tracheal sound was band-pass filtered by 5th order zero-phase Butterworth filter with 70–2000 Hz bandwidth. Subsequently, the filtered tracheal movements and sounds were segmented using a moving window of 10 seconds with 50% overlap. From each segment of data, four features from each accelerometer dimension and four features from sound (16 features in total) were extracted (</citation_analysis><citation_analysis attribute="positive"><xref ref-type="fig" rid="f0002">Figure 2</xref></citation_analysis><citation_analysis attribute="neither">).</citation_analysis><citation_analysis attribute="positive"><fig id="f0002" fig-type="figure" orientation="portrait" position="float"><label>Figure 2</label><caption><p><citation_analysis attribute="positive">Sleep/wakefulness detection algorithm using tracheal sounds and movements.</citation_analysis></p></caption><graphic content-type="print-only" xlink:href="NSS-12-1009-g0002"/></fig></citation_analysis></p>
+        </sec>
+        <sec id="s0002-s2003-s3002">
+          <title>Feature Extraction</title>
+          <p><citation_analysis attribute="neither">For each segment of movement data, the following features were extracted:
+</citation_analysis><citation_analysis attribute="positive"><list list-type="bullet"><list-item><p><citation_analysis attribute="positive">Zero crossing rate (ZCR): This feature was calculated as the rate of sound energy signal passing its mean value level, and then smoothed using a median filter with a window size of 2 minutes. ZCR is related to respiratory rate as it quantifies the speed of fluctuations normally caused by the alternation of respiratory phases in the sound energy signal.</citation_analysis></p></list-item><list-item><p><citation_analysis attribute="neither">Baseline movements (BaseLine): To extract this feature, first, the absolute derivative of movement (dMabs) was calculated. dMabs includes abrupt spikes caused by body motions that are superimposed over the intensity of respiratory movements. Accordingly, by smoothing dMabs, BaseLine movement, which is related to the intensity of respiratory movements, was derived.</citation_analysis></p></list-item><list-item><p><citation_analysis attribute="positive">Body motions: By subtracting the BaseLine from dMabs, motion spikes were extracted. Within a 2-minute window moving every second, the occurrence rate of the motion spikes with amplitude more than double the 90th percentile was calculated. The occurrence rate was smoothed using 30-second and 1-hour windows to calculate features Spike30s and Spike1h, respectively.</citation_analysis></p></list-item></list></citation_analysis></p>
+          <p><citation_analysis attribute="neither">From each segment of the filtered sound, spectral autocorrelation was calculated. In the autocorrelation signal, all the local maximums were found as peaks. Then, the following features were extracted:
+</citation_analysis><citation_analysis attribute="positive"><list list-type="bullet"><list-item><p><citation_analysis attribute="neither">AuotoCorr. 1st peak: the temporal location of the first peak after excluding the zero-lag autocorrelation. The feature quantifies the periodicity of the respiratory related sound.</citation_analysis></p></list-item><list-item><p><citation_analysis attribute="neither">AuotoCorr. SD peaks: the standard deviation of the amplitude of the peaks, which accounts for the resemblance of the breaths occurring in the segment.</citation_analysis></p></list-item><list-item><p><citation_analysis attribute="neither">Hurst exponent: this feature was calculated to quantify the speed of reduction in the resemblance of the respiratory phases.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0020" ref-type="bibr">20</xref></citation_analysis></p></list-item></list></citation_analysis></p>
+          <p><citation_analysis attribute="positive">Finally, the presence of snoring in each epoch, which indicated sleep state was extracted. To detect snoring, tracheal sound was filtered using a 2nd order zero-phase Butterworth bandpass filter with 0.2 to 2000 Hz bandwidth. Then, four features including zero-crossing rate, power spectral density of the rising slope of zero-crossing, sound energy and variance were extracted from the segments of sound chosen using a moving window with 60 ms and 50% overlap. In addition, recorded tracheal movements were filtered using 5th order zero-phase highpass Butterworth with 5Hz cut-off frequency. Then, the variance of the summation of movements in three directions was calculated within a one-second window every 0.5 sec. Random Forest was used for snore detection for every second.</citation_analysis></p>
+          <p><citation_analysis attribute="positive"><xref ref-type="fig" rid="f0003">Figure 3</xref></citation_analysis><citation_analysis attribute="neither"> shows an example of the extracted features from tracheal sound and movements.</citation_analysis><citation_analysis attribute="positive"><fig id="f0003" fig-type="figure" orientation="portrait" position="float"><label>Figure 3</label><caption><p><citation_analysis attribute="positive">Sleep/wakefulness detection using the extracted features from (</citation_analysis><citation_analysis attribute="positive"><bold>A</bold></citation_analysis><citation_analysis attribute="neither">) sound and (</citation_analysis><citation_analysis attribute="positive"><bold>B</bold></citation_analysis><citation_analysis attribute="neither">) movement for a subject with sleep efficiency of 63.60% (estimated as 63.40%), sleep latency of 108 (estimated as 107 min) and total sleep time of 330 min (estimated as 312 min).</citation_analysis></p></caption><graphic content-type="print-only" xlink:href="NSS-12-1009-g0003"/></fig></citation_analysis></p>
+        </sec>
+        <sec id="s0002-s2003-s3003">
+          <title>Machine Learning Algorithm</title>
+          <p><citation_analysis attribute="neither">Based on the extracted features, a support vector machine (SVM) with Gaussian kernel was used to classify each epoch into sleep or awake, which is known to be less sensitive to outliers of the data.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0021" ref-type="bibr">21</xref></citation_analysis><citation_analysis attribute="negative"> To avoid overfitting and to deal with the imbalanced data in subjects with high sleep efficiency (SE) who have very few epochs of awake data, subjects were divided into those with SE&lt;80% (SE</citation_analysis><citation_analysis attribute="positive"><sub>less80%)</sub></citation_analysis><citation_analysis attribute="neither"> and SE&gt;80% (SE</citation_analysis><citation_analysis attribute="positive"><sub>more80%).</sub></citation_analysis><citation_analysis attribute="neither"> To define train and test datasets, 4-fold cross-validation was performed. Subjects with (SE</citation_analysis><citation_analysis attribute="positive"><sub>less80%)</sub></citation_analysis><citation_analysis attribute="neither"> were divided into 4 folds, 3 folds were interchangeably used as training data. The combination of the remaining fold of SE</citation_analysis><citation_analysis attribute="positive"><sub>less80%</sub></citation_analysis><citation_analysis attribute="neither"> and data from subjects in SE</citation_analysis><citation_analysis attribute="positive"><sub>more80%</sub></citation_analysis><citation_analysis attribute="neither"> group were used as the test data (</citation_analysis><citation_analysis attribute="positive"><xref ref-type="fig" rid="f0004">Figure 4</xref></citation_analysis><citation_analysis attribute="positive">). For each fold of cross-validation, principal component analysis (PCA) was performed on the training data to reduce the number of features. Among the extracted principal components, those with eigenvalues less than 0.001 were removed. The remaining components were used to train the classifier. To validate the algorithm, the classifier was evaluated using the same chosen components extracted from the test data. Finally, the results of the classifier to identify each epoch into sleep/wakefulness were used to assess the quality of sleep and to estimate sleep efficiency, total sleep time and sleep latency.</citation_analysis><citation_analysis attribute="positive"><fig id="f0004" fig-type="figure" orientation="portrait" position="float"><label>Figure 4</label><caption><p><citation_analysis attribute="positive">Four-fold cross-validation for training and testing the mathematical model. Training was performed using the data of those with sleep efficiency less than 80%.</citation_analysis></p></caption><graphic content-type="print-only" xlink:href="NSS-12-1009-g0004"/><attrib><bold>Abbreviations:</bold> SE<sub>more80%,</sub> subset of subjects with sleep efficiency more than 80%; SE<sub>less80%,</sub> subset of subjects with sleep efficiency less than 80%.</attrib></fig></citation_analysis></p>
+          <p><citation_analysis attribute="positive">We compared the performance of the proposed algorithm with actigraphy. The accelerometer in The Patch can capture body movements. Therefore, extracted movement spikes (Spike30s and Spike1h features) were used separately to train the same algorithm to simulate the actigraphy method. Similarly, two other models were trained using only sound features or movement features for more comparison.</citation_analysis></p>
+        </sec>
+        <sec id="s0002-s2003-s3004">
+          <title>Statistical Analysis</title>
+          <p><citation_analysis attribute="neither">Statistical analyses were performed in R (i386 3.4.1) software. Shapiro–Wilk test was used for checking the normality of data. To compare the number of females between groups SE</citation_analysis><citation_analysis attribute="positive"><sub>less80%</sub></citation_analysis><citation_analysis attribute="neither"> and SE</citation_analysis><citation_analysis attribute="positive"><sub>more80%</sub></citation_analysis><citation_analysis attribute="neither">, we used the Chi-square test. Welch unpaired </citation_analysis><citation_analysis attribute="positive"><italic>t</italic></citation_analysis><citation_analysis attribute="neither">-test or Wilcoxon rank sum test were used to compare other characteristics between the two groups. Also, </citation_analysis><citation_analysis attribute="positive"><italic>t</italic></citation_analysis><citation_analysis attribute="positive">-test was used to compare the estimated sleep quality parameters with their PSG-based values. Performance of the sleep/wakefulness classification algorithm was quantified by sensitivity (sleep), specificity (wakefulness), accuracy, F1-score and Cohen’s Kappa (κ). A sample size of at least 73 subjects was calculated to maintain a statistical power of 0.80 (α=0.05) to achieve κ=0.7 with precision of 0.2 for two states classification for each subject, which was less than 90 subjects included in this study. One-way Analysis of Variance (ANOVA) was used to compare the value of the extracted features across wakefulness, REM and non-REM stages. Performance of the classification algorithm trained with all the extracted features was assessed among healthy participants (AHI&lt;5) and those with mild (5≤AHI&lt;15), moderate (15≤AHI&lt;30) and severe (30≤AHI) sleep apnea using one-way ANOVA. In case of significant differences, Tukey Post-hoc analysis was performed. Finally, to assess the amount of agreement between PSG-based and estimated sleep quality parameters, Pearson or Spearman correlation and Bland-Altman plot were performed.</citation_analysis></p>
+        </sec>
+      </sec>
+    </sec>
+    <sec id="s0003">
+      <title>Results</title>
+      <p><citation_analysis attribute="neither">Out of 90 participants recruited for this study, data of two participants were excluded due to low quality of sound signals and misplacement of The Patch. Hence, a total of 88 subjects (age: 53±15 years, 42 females) with a body mass index (BMI) of 29.6±6.2 kg/m</citation_analysis><citation_analysis attribute="positive"><sup>2</sup></citation_analysis><citation_analysis attribute="neither"> with Epworth Sleepiness Scale of 8±4 were considered for this study. Demographics and sleep quality parameters of the participants are detailed in </citation_analysis><citation_analysis attribute="positive"><xref rid="t0001" ref-type="table">Table 1</xref></citation_analysis><citation_analysis attribute="neither">. Forty-three subjects had sleep efficiency of less than 80% and 45 subjects had sleep efficiency of more than 80%. Age was significantly higher in those with sleep efficiency of less than 80% (</citation_analysis><citation_analysis attribute="positive"><italic>p</italic></citation_analysis><citation_analysis attribute="neither">=0.01). BMI, AHI, and number of females were similar between the groups (</citation_analysis><citation_analysis attribute="positive"><italic>p</italic></citation_analysis><citation_analysis attribute="neither">&gt;0.1 for all). Subjects with sleep efficiency less than 80% had shorter total sleep time (</citation_analysis><citation_analysis attribute="positive"><italic>p</italic></citation_analysis><citation_analysis attribute="neither">&lt;0.001) and longer sleep latency (</citation_analysis><citation_analysis attribute="positive"><italic>p</italic></citation_analysis><citation_analysis attribute="neither">&lt;0.001).</citation_analysis><citation_analysis attribute="positive"><table-wrap id="t0001" orientation="portrait" position="float"><label>Table 1</label><caption><p><citation_analysis attribute="neither">Demographics and Sleep Structure of Participants</citation_analysis></p></caption><table frame="hsides" rules="groups"><thead><tr><th rowspan="1" colspan="1">Characteristics</th><th rowspan="1" colspan="1">Total (N = 88)</th><th rowspan="1" colspan="1">SE <sub>more80%</sub> (N=43)</th><th rowspan="1" colspan="1">SE <sub>less80%</sub> (N=45)</th><th rowspan="1" colspan="1"><italic>p-</italic>value</th></tr></thead><tbody><tr><td rowspan="1" colspan="1">Female (%)</td><td rowspan="1" colspan="1">47.7%</td><td rowspan="1" colspan="1">44.2%</td><td rowspan="1" colspan="1">51.1%</td><td rowspan="1" colspan="1">0.662</td></tr><tr><td rowspan="1" colspan="1">Body Mass Index (kg/m<sup>2</sup>)</td><td rowspan="1" colspan="1">29.6 ± 6.2</td><td rowspan="1" colspan="1">28.9 ± 5.4</td><td rowspan="1" colspan="1">30.3 ± 6.8</td><td rowspan="1" colspan="1">0.634</td></tr><tr><td rowspan="1" colspan="1">Age (years)</td><td rowspan="1" colspan="1">53 ± 15</td><td rowspan="1" colspan="1">48 ± 13</td><td rowspan="1" colspan="1">57 ± 15</td><td rowspan="1" colspan="1">0.014*</td></tr><tr><td rowspan="1" colspan="1">AHI (events/hr)</td><td rowspan="1" colspan="1">12.6 (0.2–86.7)</td><td rowspan="1" colspan="1">11.2 (0.2–83.7)</td><td rowspan="1" colspan="1">13.9 (0.4–86.7)</td><td rowspan="1" colspan="1">0.406</td></tr><tr><td rowspan="1" colspan="1">Sleep efficiency (%)</td><td rowspan="1" colspan="1">76.5 ± 15.1</td><td rowspan="1" colspan="1">88.3 ± 5.5</td><td rowspan="1" colspan="1">65.1 ± 12.3</td><td rowspan="1" colspan="1">&lt;0.001*</td></tr><tr><td rowspan="1" colspan="1">Sleep latency (min)</td><td rowspan="1" colspan="1">12 (0–147)</td><td rowspan="1" colspan="1">8 (0–42)</td><td rowspan="1" colspan="1">23 (0 −147)</td><td rowspan="1" colspan="1">&lt;0.001*</td></tr><tr><td rowspan="1" colspan="1">Total sleep time (min)</td><td rowspan="1" colspan="1">334 (86–476)</td><td rowspan="1" colspan="1">380 (293–477)</td><td rowspan="1" colspan="1">240 (86–371)</td><td rowspan="1" colspan="1">&lt;0.001*</td></tr><tr><td rowspan="1" colspan="1">Epworth sleepiness scale</td><td rowspan="1" colspan="1">8 ± 4</td><td rowspan="1" colspan="1">8 ± 4</td><td rowspan="1" colspan="1">8 ± 5</td><td rowspan="1" colspan="1">0.923</td></tr></tbody></table><table-wrap-foot><fn id="tfn0001"><p><citation_analysis attribute="positive"><bold>Notes:</bold></citation_analysis><citation_analysis attribute="positive"> Values are reported as mean ± standard deviation in case of normality; otherwise median (minimum – maximum) are reported. *</citation_analysis><citation_analysis attribute="positive"><italic>p</italic></citation_analysis><citation_analysis attribute="neither"> value &lt;0.05.</citation_analysis></p></fn><fn id="tfn0002"><p><citation_analysis attribute="positive"><bold>Abbreviations:</bold></citation_analysis><citation_analysis attribute="neither"> SE </citation_analysis><citation_analysis attribute="positive"><sub>more80%,</sub></citation_analysis><citation_analysis attribute="neither"> subset of subjects with sleep efficiency more than 80%; SE </citation_analysis><citation_analysis attribute="positive"><sub>less80%,</sub></citation_analysis><citation_analysis attribute="neither"> subset of subjects with sleep efficiency less than 80%; AHI, apnea/hypopnea index.</citation_analysis></p></fn></table-wrap-foot></table-wrap></citation_analysis><citation_analysis attribute="positive">
+</citation_analysis></p>
+      <p><citation_analysis attribute="positive"><xref ref-type="fig" rid="f0005">Figure 5</xref></citation_analysis><citation_analysis attribute="neither"> depicts the range of variations in the extracted features during wakefulness, NREM and REM sleep. Compared to wakefulness, AutoCorr. SD peaks, Hurst exponent and ZCR were significantly larger during NREM (</citation_analysis><citation_analysis attribute="positive"><italic>p</italic></citation_analysis><citation_analysis attribute="neither">&lt;0.001 for all except Hurst exponent with </citation_analysis><citation_analysis attribute="positive"><italic>p</italic></citation_analysis><citation_analysis attribute="neither">=0.02). In contrast, the values of AutoCorr. 1st peak, BaseLine, Spike30s, and Spike1h in all dimensions were lower during NREM than during wakefulness (</citation_analysis><citation_analysis attribute="positive"><italic>p</italic></citation_analysis><citation_analysis attribute="neither">&lt;0.001 for all, </citation_analysis><citation_analysis attribute="positive"><xref ref-type="fig" rid="f0005">Figure 5</xref></citation_analysis><citation_analysis attribute="neither">). The movement related features were significantly different during REM compared to wakefulness (</citation_analysis><citation_analysis attribute="positive"><italic>p</italic></citation_analysis><citation_analysis attribute="neither">&lt;0.001), and statistically the same compared to NREM. However, among sound features, AutoCorr. SD peaks and Hurst exponent were significantly higher during REM compared to wakefulness (</citation_analysis><citation_analysis attribute="positive"><italic>p</italic></citation_analysis><citation_analysis attribute="neither">=0.03 and </citation_analysis><citation_analysis attribute="positive"><italic>p</italic></citation_analysis><citation_analysis attribute="neither">=0.006, respectively). Significant lower values of AutoCorr. SD peaks were observed in REM to NREM (</citation_analysis><citation_analysis attribute="positive"><italic>p</italic></citation_analysis><citation_analysis attribute="neither">&lt;0.001), while AutoCorr. 1st peak was significantly higher (</citation_analysis><citation_analysis attribute="positive"><italic>p</italic></citation_analysis><citation_analysis attribute="positive">=0.003). No significant changes were found between REM and NREM in the Hurst exponent.</citation_analysis><citation_analysis attribute="positive"><fig id="f0005" fig-type="figure" orientation="portrait" position="float"><label>Figure 5</label><caption><p><citation_analysis attribute="neither">Comparison of various features extracted from (</citation_analysis><citation_analysis attribute="positive"><bold>A</bold></citation_analysis><citation_analysis attribute="neither">) tracheal sound and (</citation_analysis><citation_analysis attribute="positive"><bold>B</bold></citation_analysis><citation_analysis attribute="neither">) movements during wakefulness with NREM and REM. Box plots demonstrates median, first and last quartiles.</citation_analysis></p></caption><graphic content-type="print-only" xlink:href="NSS-12-1009-g0005"/><attrib><bold>Abbreviations:</bold> AutoCorr. 1st peak, the average temporal location of the first peak in autocorrelations calculated over epochs; AutoCorr. SD peak, the average SD of the autocorrelations peaks; ZCR, zero-crossing rate; NS, not significant.</attrib></fig></citation_analysis></p>
+      <p><citation_analysis attribute="neither">Using all the extracted features, the accuracy of the sleep/wakefulness detection algorithm was 85.04±0.99% with κ=0.64±0.02 in the train dataset. In the SE</citation_analysis><citation_analysis attribute="positive"><sub>more80%</sub></citation_analysis><citation_analysis attribute="neither"> test dataset, the accuracy was 86.20±8.98% with κ=0.50±0.15 while in the SE</citation_analysis><citation_analysis attribute="positive"><sub>less80%</sub></citation_analysis><citation_analysis attribute="neither"> test dataset, accuracy was 82.04±8.03% with κ=0.58±0.19 (</citation_analysis><citation_analysis attribute="positive"><xref rid="t0002" ref-type="table">Table 2</xref></citation_analysis><citation_analysis attribute="positive">). Accuracy and Cohen’s Kappa score were lower for the other models trained using subsets of the features.</citation_analysis><citation_analysis attribute="positive"><table-wrap id="t0002" orientation="portrait" position="float"><label>Table 2</label><caption><p><citation_analysis attribute="neither">Performance Comparison of the Proposed Sleep/Wakefulness Detection Algorithm and the Method Based on Spontaneous Body Movements</citation_analysis></p></caption><table frame="hsides" rules="groups"><thead><tr><th rowspan="1" colspan="1"/><th rowspan="1" colspan="1"/><th rowspan="1" colspan="1"/><th rowspan="1" colspan="1">SEN (Sleep)</th><th rowspan="1" colspan="1">SPC (Awake)</th><th rowspan="1" colspan="1">F1</th><th rowspan="1" colspan="1">ACC</th><th rowspan="1" colspan="1"><sc>κ</sc></th></tr></thead><tbody><tr><td rowspan="4" colspan="1">Movement features</td><td rowspan="1" colspan="1">Train data</td><td rowspan="1" colspan="1">SE<sub>less80%</sub></td><td rowspan="1" colspan="1">91.41 ± 1.18</td><td rowspan="1" colspan="1">62.13 ± 3.46</td><td rowspan="1" colspan="1">85.35 ± 0.57</td><td rowspan="1" colspan="1">81.57 ± 0.35</td><td rowspan="1" colspan="1"><sc>0.55 ± 0.02</sc></td></tr><tr><td rowspan="3" colspan="1">Test data</td><td rowspan="1" colspan="1">SE<sub>less80%</sub></td><td rowspan="1" colspan="1">88.78 ± 10.79</td><td rowspan="1" colspan="1">60.09 ± 19.48</td><td rowspan="1" colspan="1">83.28 ± 11.55</td><td rowspan="1" colspan="1">78.82 ± 10.07</td><td rowspan="1" colspan="1">0.49 ± 0.22</td></tr><tr><td rowspan="1" colspan="1">SE<sub>more80%</sub></td><td rowspan="1" colspan="1">89.33 ± 7.23</td><td rowspan="1" colspan="1">66.67 ± 20.15</td><td rowspan="1" colspan="1">91.69 ± 4.42</td><td rowspan="1" colspan="1">86.34 ± 6.50</td><td rowspan="1" colspan="1">0.46 ± 0.16</td></tr><tr><td rowspan="1" colspan="1">All</td><td rowspan="1" colspan="1">89.05 ± 9.18</td><td rowspan="1" colspan="1">63.31 ± 19.97</td><td rowspan="1" colspan="1">87.39 ± 9.73</td><td rowspan="1" colspan="1">82.49 ± 9.27</td><td rowspan="1" colspan="1">0.48 ± 0.20</td></tr><tr><td rowspan="4" colspan="1">Sound features</td><td rowspan="1" colspan="1">Train data</td><td rowspan="1" colspan="1">SE<sub>less80%</sub></td><td rowspan="1" colspan="1">78.99 ± 2.61</td><td rowspan="1" colspan="1">68.03 ± 1.39</td><td rowspan="1" colspan="1">78.89 ± 1.80</td><td rowspan="1" colspan="1">75.89 ± 1.58</td><td rowspan="1" colspan="1">0.46 ± 0.03</td></tr><tr><td rowspan="3" colspan="1">Test data</td><td rowspan="1" colspan="1">SE<sub>less80%</sub></td><td rowspan="1" colspan="1">78.73 ± 16.42</td><td rowspan="1" colspan="1">78.73 ± 18.29</td><td rowspan="1" colspan="1">78.93 ± 12.45</td><td rowspan="1" colspan="1">75.85 ± 9.52</td><td rowspan="1" colspan="1">0.46 ± 0.19</td></tr><tr><td rowspan="1" colspan="1">SE<sub>more80%</sub></td><td rowspan="1" colspan="1">77.93 ± 18.06</td><td rowspan="1" colspan="1">68.52 ± 19.87</td><td rowspan="1" colspan="1">84.02 ± 14.02</td><td rowspan="1" colspan="1">76.88 ± 18.06</td><td rowspan="1" colspan="1">0.33 ± 0.16</td></tr><tr><td rowspan="1" colspan="1">All</td><td rowspan="1" colspan="1">78.34 ± 17.15</td><td rowspan="1" colspan="1">68.47 ± 18</td><td rowspan="1" colspan="1">81.42 ± 13.41</td><td rowspan="1" colspan="1">76.35 ±12.58</td><td rowspan="1" colspan="1">0.40 ± 0.19</td></tr><tr><td rowspan="4" colspan="1">Spike30s + Spike1h</td><td rowspan="1" colspan="1">Train data</td><td rowspan="1" colspan="1">SE<sub>less80%</sub></td><td rowspan="1" colspan="1">90.89 ± 1.18</td><td rowspan="1" colspan="1">54.15 ± 1.68</td><td rowspan="1" colspan="1">82.97 ± 1.41</td><td rowspan="1" colspan="1">77.60 ± 1.20</td><td rowspan="1" colspan="1"><sc>0.47 ± 0.02</sc></td></tr><tr><td rowspan="3" colspan="1">Test data</td><td rowspan="1" colspan="1">SE<sub>less80%</sub></td><td rowspan="1" colspan="1">90.36 ± 7.63</td><td rowspan="1" colspan="1">54.52 ± 19.48</td><td rowspan="1" colspan="1">82.71 ± 11.10</td><td rowspan="1" colspan="1">77.23 ± 10.31</td><td rowspan="1" colspan="1">0.46 ± 0.20</td></tr><tr><td rowspan="1" colspan="1">SE<sub>more80%</sub></td><td rowspan="1" colspan="1">89.15 ±6.88</td><td rowspan="1" colspan="1">65.15 ± 21.09</td><td rowspan="1" colspan="1">91.51 ± 3.76</td><td rowspan="1" colspan="1">85.87 ± 5.70</td><td rowspan="1" colspan="1">0.43 ± 0.18</td></tr><tr><td rowspan="1" colspan="1">All</td><td rowspan="1" colspan="1">89.77± 7.2</td><td rowspan="1" colspan="1">59.71 ± 20.86</td><td rowspan="1" colspan="1">87.01 ± 9.41</td><td rowspan="1" colspan="1">81.45 ± 9.40</td><td rowspan="1" colspan="1">0.45 ± 0.19</td></tr><tr><td rowspan="4" colspan="1">All the features</td><td rowspan="1" colspan="1">Train data</td><td rowspan="1" colspan="1">SE<sub>less80%</sub></td><td rowspan="1" colspan="1">90.50 ± 1.60</td><td rowspan="1" colspan="1">72.89 ± 1.75</td><td rowspan="1" colspan="1">87.56 ± 1.36</td><td rowspan="1" colspan="1">85.04 ± 0.99</td><td rowspan="1" colspan="1">0.64 ± 0.02</td></tr><tr><td rowspan="3" colspan="1">Test data</td><td rowspan="1" colspan="1">SE<sub>less80%</sub></td><td rowspan="1" colspan="1">87.72 ± 11.24</td><td rowspan="1" colspan="1">69.87 ± 18.29</td><td rowspan="1" colspan="1">85.10 ± 10.45</td><td rowspan="1" colspan="1">82.04 ± 8.03</td><td rowspan="1" colspan="1">0.58 ± 0.19</td></tr><tr><td rowspan="1" colspan="1">SE<sub>more80%</sub></td><td rowspan="1" colspan="1">88.02 ± 10.56</td><td rowspan="1" colspan="1">73.10 ± 18.81</td><td rowspan="1" colspan="1">91.31 ± 6.76</td><td rowspan="1" colspan="1">86.20 ± 8.98</td><td rowspan="1" colspan="1">0.50 ± 0.15</td></tr><tr><td rowspan="1" colspan="1">All</td><td rowspan="1" colspan="1">87.86 ± 10.85</td><td rowspan="1" colspan="1">71.44 ± 18.51</td><td rowspan="1" colspan="1">88.13 ± 9.33</td><td rowspan="1" colspan="1">84.08 ± 8.36</td><td rowspan="1" colspan="1">0.54 ± 0.18</td></tr></tbody></table><table-wrap-foot><fn id="tfn0003"><p><citation_analysis attribute="positive"><bold>Note:</bold></citation_analysis><citation_analysis attribute="positive"> The results are reported as mean ± standard deviation.</citation_analysis></p></fn><fn id="tfn0004"><p><citation_analysis attribute="positive"><bold>Abbreviations:</bold></citation_analysis><citation_analysis attribute="neither"> SEN, sensitivity; SPC, specificity; F1, F1 score; ACC, accuracy; κ, Cohen’s kappa coefficient.</citation_analysis></p></fn></table-wrap-foot></table-wrap></citation_analysis><citation_analysis attribute="positive">
+</citation_analysis></p>
+      <p><citation_analysis attribute="positive"><xref rid="t0003" ref-type="table">Table 3</xref></citation_analysis><citation_analysis attribute="neither"> shows the performance of the proposed detection algorithm among different AHI groups. While the accuracy was slightly less in severe sleep apnea patients compared to the healthy subjects (80.41±10.30 vs 86.38±6.39), the changes were not significant. However, the Kappa score (</citation_analysis><citation_analysis attribute="positive"><italic>p</italic></citation_analysis><citation_analysis attribute="neither">=0.005) and specificity (</citation_analysis><citation_analysis attribute="positive"><italic>p</italic></citation_analysis><citation_analysis attribute="neither">=0.01) were significantly lower in the severe sleep apnea group compared to the healthy group.</citation_analysis><citation_analysis attribute="positive"><table-wrap id="t0003" orientation="portrait" position="float"><label>Table 3</label><caption><p><citation_analysis attribute="neither">Performance Evaluation of the Sleep/Wakefulness Detection Algorithm in Different AHI Groups</citation_analysis></p></caption><table frame="hsides" rules="groups"><thead><tr><th rowspan="1" colspan="1">AHI Group</th><th rowspan="1" colspan="1">N</th><th rowspan="1" colspan="1">SE (%)</th><th rowspan="1" colspan="1">SEN (Sleep)</th><th rowspan="1" colspan="1">SPC (Awake)</th><th rowspan="1" colspan="1">F1</th><th rowspan="1" colspan="1">ACC</th><th rowspan="1" colspan="1">κ</th></tr></thead><tbody><tr><td rowspan="1" colspan="1">AHI &lt; 5</td><td rowspan="1" colspan="1">27</td><td rowspan="1" colspan="1">78.3 ± 13.1</td><td rowspan="1" colspan="1">89.34 ± 6.78</td><td rowspan="1" colspan="1">78.23 ± 15.57</td><td rowspan="1" colspan="1">90.44 ± 5.47</td><td rowspan="1" colspan="1">86.38 ± 6.39</td><td rowspan="1" colspan="1">0.60 ± 0.14</td></tr><tr><td rowspan="1" colspan="1">5 ≤ AHI &lt;15</td><td rowspan="1" colspan="1">20</td><td rowspan="1" colspan="1">75.5 ± 14.7</td><td rowspan="1" colspan="1">87.73 ± 9.22</td><td rowspan="1" colspan="1">69.58 ± 22.14</td><td rowspan="1" colspan="1">87.92 ± 5.96</td><td rowspan="1" colspan="1">82.94 ± 7.63</td><td rowspan="1" colspan="1">0.52 ± 0.19</td></tr><tr><td rowspan="1" colspan="1">15 ≤ AHI &lt; 30</td><td rowspan="1" colspan="1">21</td><td rowspan="1" colspan="1">76.6 ± 14.5</td><td rowspan="1" colspan="1">87.62 ± 12.24</td><td rowspan="1" colspan="1">73.32 ± 17.78</td><td rowspan="1" colspan="1">88.34 ± 9.02</td><td rowspan="1" colspan="1">83.82 ± 9.02</td><td rowspan="1" colspan="1">0.56 ± 0.19</td></tr><tr><td rowspan="1" colspan="1">AHI ≥ 30</td><td rowspan="1" colspan="1">20</td><td rowspan="1" colspan="1">74.8 ± 18.9</td><td rowspan="1" colspan="1">84.09 ± 16.07</td><td rowspan="1" colspan="1">61.56 ± 17.42*</td><td rowspan="1" colspan="1">83.41 ± 15.85</td><td rowspan="1" colspan="1">80.41 ± 10.30</td><td rowspan="1" colspan="1">0.43 ± 0.18*</td></tr></tbody></table><table-wrap-foot><fn id="tfn0005"><p><citation_analysis attribute="positive"><bold>Notes:</bold></citation_analysis><citation_analysis attribute="neither"> SE was statistically similar across AHI groups. *Adjusted </citation_analysis><citation_analysis attribute="positive"><italic>p</italic></citation_analysis><citation_analysis attribute="positive">-value &lt;0.05 compared to healthy group (AHI&lt;5). The results are reported as mean ± standard deviation.</citation_analysis></p></fn><fn id="tfn0006"><p><citation_analysis attribute="positive"><bold>Abbreviations:</bold></citation_analysis><citation_analysis attribute="neither"> AHI, apnea/hypopnea index; SE, sleep efficiency; SEN, sensitivity; SPC, specificity; F1, F1 score; ACC, accuracy; κ, Cohen’s kappa coefficient.</citation_analysis></p></fn></table-wrap-foot></table-wrap></citation_analysis><citation_analysis attribute="positive">
+</citation_analysis></p>
+      <p><citation_analysis attribute="positive">By comparing the estimated and PSG-based sleep quality parameters, no significant differences were found in sleep efficiency [75.74 (23.58–98.04) % vs 78.80 (19.17–97.75) %, </citation_analysis><citation_analysis attribute="positive"><italic>p</italic></citation_analysis><citation_analysis attribute="neither">=0.3], sleep latency [15 (0–157) min vs 16 (0–159) min, </citation_analysis><citation_analysis attribute="positive"><italic>p</italic></citation_analysis><citation_analysis attribute="neither">=0.9] and total sleep time [595 ± 133 min vs 609±143 min, </citation_analysis><citation_analysis attribute="positive"><italic>p</italic></citation_analysis><citation_analysis attribute="neither">=0.5]. Furthermore (</citation_analysis><citation_analysis attribute="positive"><xref ref-type="fig" rid="f0006">Figure 6</xref></citation_analysis><citation_analysis attribute="positive">), strong significant correlations were observed between the detected and PSG-based sleep efficiency (r=0.70, </citation_analysis><citation_analysis attribute="positive"><italic>p</italic></citation_analysis><citation_analysis attribute="neither">&lt;0.001), sleep latency (r=0.71, </citation_analysis><citation_analysis attribute="positive"><italic>p</italic></citation_analysis><citation_analysis attribute="neither">&lt;0.001) and total sleep time (r=0.78, </citation_analysis><citation_analysis attribute="positive"><italic>p</italic></citation_analysis><citation_analysis attribute="neither">&lt;0.001).</citation_analysis><citation_analysis attribute="positive"><fig id="f0006" fig-type="figure" orientation="portrait" position="float"><label>Figure 6</label><caption><p><citation_analysis attribute="neither">Agreement analyses between estimated and PSG-based measures of sleep quality. Line with gray shades represents least square line with confidence interval (CI) of 95%. (</citation_analysis><citation_analysis attribute="positive"><bold>A</bold></citation_analysis><citation_analysis attribute="neither"> and </citation_analysis><citation_analysis attribute="positive"><bold>D</bold></citation_analysis><citation_analysis attribute="positive">) sleep efficiency assessed by Spearman’s rank correlation with CI = (0.58–0.80). (</citation_analysis><citation_analysis attribute="positive"><bold>B</bold></citation_analysis><citation_analysis attribute="neither"> and </citation_analysis><citation_analysis attribute="positive"><bold>E</bold></citation_analysis><citation_analysis attribute="positive">) sleep time assessed by Pearson’s product-moment correlation with CI = (0.68–0.85). (</citation_analysis><citation_analysis attribute="positive"><bold>C</bold></citation_analysis><citation_analysis attribute="neither"> and </citation_analysis><citation_analysis attribute="positive"><bold>F</bold></citation_analysis><citation_analysis attribute="positive">) sleep latency assessed by Spearman’s rank correlation with CI = (0.61–0.81).</citation_analysis></p></caption><graphic content-type="print-only" xlink:href="NSS-12-1009-g0006"/></fig></citation_analysis></p>
+    </sec>
+    <sec id="s0004">
+      <title>Discussion</title>
+      <p><citation_analysis attribute="positive">In this study, we developed an algorithm to detect sleep/wakefulness periods using tracheal sounds and movements in patients with sleep apnea. The main findings of our study are that: 1) the extracted features from tracheal sounds and movements were significantly different between sleep and wakefulness; 2) the proposed algorithm can detect sleep/wakefulness overnight with an accuracy of 84.08% and κ of 0.54; and 3) the parameters to assess sleep quality based on our proposed method were similar to those derived from gold standard PSG.</citation_analysis></p>
+      <p><citation_analysis attribute="neither">The proposed algorithm is the first to detect sleep/wakefulness states in full-night data including tracheal sounds and movements. It was successful to detect sleep and wakefulness epochs with high sensitivity (sleep detection) and specificity (wakefulness detection). This work was presented at the World Sleep congress 2019 as an abstract presentation with interim findings. The poster’s abstract was published in </citation_analysis><citation_analysis attribute="positive"><italic>Sleep Medicine</italic></citation_analysis><citation_analysis attribute="positive"> [doi: 10.1016/j.sleep.2019.11.740]. Most of the previous studies on sleep/wakefulness detection have reported high sensitivity and accuracy, but with low value or no results for specificity. This was due to the imbalanced higher portion of sleeping epochs in the data recorded during the sleep test that challenged the learning algorithms. In this study, to overcome the imbalanced nature of the sleep/wakefulness data, subjects were categorized into two groups based on the sleep efficiency cut-off of 80%. Higher sleep efficiency is associated with fewer wakefulness periods. Thus, subjects with high sleep efficiency were excluded from the training dataset. Based on this approach, we were able to improve specificity by 20% (SPC=71.44%), with a sensitivity of 87.86% and robustness in different AHI groups.</citation_analysis></p>
+      <p><citation_analysis attribute="neither">Respiratory patterns can change from wakefulness to sleep due to the reduction in the respiratory drive and activity of pharyngeal dilator muscles, which results in shallower and more regular breathing patterns.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0022" ref-type="bibr">22</xref></citation_analysis><citation_analysis attribute="neither">,</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0023" ref-type="bibr">23</xref></citation_analysis><citation_analysis attribute="neither"> The studies conducted by Dafna et al</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0005" ref-type="bibr">5</xref></citation_analysis><citation_analysis attribute="neither">,</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0006" ref-type="bibr">6</xref></citation_analysis><citation_analysis attribute="neither"> showed that the shapes of respiratory sounds recorded by a non-contact ambient microphone as quantified by autocorrelation are more identical (higher periodicity) during consecutive breaths in sleep than those during wakefulness. They obtained sensitivity of 92.2%, but low specificity of 56.6% for sleep/wakefulness detection with κ of 0.51.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0005" ref-type="bibr">5</xref></citation_analysis><citation_analysis attribute="neither"> In another study,</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0006" ref-type="bibr">6</xref></citation_analysis><citation_analysis attribute="positive"> they were able to improve the learning algorithm and obtained average accuracy of 91.7% and κ of 0.68, however they have not reported the performance of the algorithm in detecting sleep and wakefulness separately. This information is important, since sleep apnea patients often have fragmented and less efficient sleep. Furthermore, the quality of ambient microphone can be deteriorated by ambient noises in home settings.</citation_analysis></p>
+      <p><citation_analysis attribute="positive">In contrast, other studies have shown that the respiratory related sounds recorded over the trachea are more robust against interfering noises,</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0012" ref-type="bibr">12</xref></citation_analysis><citation_analysis attribute="neither">,</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0024" ref-type="bibr">24</xref></citation_analysis><citation_analysis attribute="neither"> while their energy is highly correlated to the pattern of respiratory airflow.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0025" ref-type="bibr">25</xref></citation_analysis><citation_analysis attribute="neither"> Due to the special housing of the one-directional microphone used to record tracheal sounds, they are less sensitive to ambient noises</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0024" ref-type="bibr">24</xref></citation_analysis><citation_analysis attribute="neither"> compared to non-contact methods to record breathing sounds. Also, close placement of the sensor to the source of vibrations in the airway caused by respiratory cycles increases the signal to noise ratio and makes tracheal sounds less sensitive to the quiet breathing.</citation_analysis></p>
+      <p><citation_analysis attribute="neither">To analyze the respiratory patterns, autocorrelation of tracheal sound energy was extracted in this study. Moreover, from the calculated autocorrelation of tracheal sounds, the Hurst exponent was extracted. In a study by Soltanzadeh and Moussavi,</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0007" ref-type="bibr">7</xref></citation_analysis><citation_analysis attribute="positive"> the Hurst exponent of the bispectrum of tracheal sound was found to be higher across sleep stages than during wakefulness and can be used for differentiating sleep from wakefulness with 100% accuracy. However, their study was applied on a limited number of segments and its performance was not assessed on overnight data or on sleep apnea population. One reason could be high computational cost of bispectrum calculation for long overnight data. Therefore, in this study, the Hurst component was calculated from the autocorrelation of sound energy. In-line with the findings in Soltanzadeh and Moussavi,</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0007" ref-type="bibr">7</xref></citation_analysis><citation_analysis attribute="neither"> the Hurst exponent was higher during sleep indicating a more regular pattern of breathing compared to wakefulness. However, unlike the finding in Soltanzadeh and Moussavi,</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0007" ref-type="bibr">7</xref></citation_analysis><citation_analysis attribute="positive"> no significant difference was found between REM and NREM of full-night data.</citation_analysis></p>
+      <p><citation_analysis attribute="positive">Sleep/wakefulness stages can affect the respiratory related movements recorded over the chest or the trachea. In this study, changes in respiratory related tracheal movements were quantified by ZCR and BaseLine. Compared to wakefulness, ZCR demonstrated higher values during sleep, presumably due to more regular breathing. On the other hand, increase in the BaseLine feature during sleep indicated higher intensity in respiratory related movements (</citation_analysis><citation_analysis attribute="positive"><xref ref-type="fig" rid="f0003">Figure 3</xref></citation_analysis><citation_analysis attribute="neither">). Despite the increase in the baseline during sleep, the average value of the BaseLine feature was higher in wakefulness (</citation_analysis><citation_analysis attribute="positive"><xref ref-type="fig" rid="f0005">Figure 5</xref></citation_analysis><citation_analysis attribute="neither">) than sleep, since there were abrupt spikes in the accelerometer signal during wakefulness due to body motions.</citation_analysis></p>
+      <p><citation_analysis attribute="neither">In healthy populations, body motions are at a minimum level during sleep. These motions have been analyzed for sleep detection in the studies based on actigraphy with sensitivity of more than 90%, but specificity less than 55%.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0001" ref-type="bibr">1</xref></citation_analysis><citation_analysis attribute="neither">,</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0026" ref-type="bibr">26</xref></citation_analysis><citation_analysis attribute="neither">,</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0027" ref-type="bibr">27</xref></citation_analysis><citation_analysis attribute="negative"> Low specificity in actigraphy is mostly due to intervals when the subject is awake with no motion. Also, in individuals with sleep apnea, actigraphy can find lots of movements during sleep caused by the presence of apneas/hypopneas that can mistakenly be scored as wakefulness. A combination of actigraphy with other features such as heart rate variability may improve the accuracy of sleep/wakefulness detection.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0028" ref-type="bibr">28–30</xref></citation_analysis><citation_analysis attribute="positive"> Our proposed method extracts features from body movement which are recorded by tracheal movements (Spike30s and Spike1h features) to simulate actigraphy features. The importance of these results is that a combination of body movement with respiratory related sounds that can be recorded over the trachea by a portable and convenient sleep screening device can have significant clinical applications beyond sleep detection, such as assessment of respiration and severity of sleep apnea. Moreover, the analysis based on only body motion features resulted in lower accuracy compared to the model trained by a combination of body motion features with those related to the respiratory sounds. In a study on sleep detection by Kalkbrenner et al,</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0031" ref-type="bibr">31</xref></citation_analysis><citation_analysis attribute="neither"> tracheal sounds were used in combination with actigraphy over the chest. Despite comparable sleep detection accuracy and ability to assess respiration with our study, they used more complex hardware settings including a microphone over the neck, chest bands, and connecting wires. Embedding the accelerometer along with the microphone in one casing, The Patch presents a more convenient recording of tracheal signals.</citation_analysis></p>
+      <p><citation_analysis attribute="positive">The main limitation of this study is that misplacement of the wearable device over the neck reduces the signal quality, which affects the performance of the detection algorithm. This happened in the data collection of two (out of 90) participants in our study. Another limitation is related to the BaseLine feature. Based on our observations, BaseLine represents the effect of respiratory related movements superimposed by body motions. Further analyses are required to decompose these two effects and analyze them separately. This could be incorporated in addressing another limitation of this study on differentiating between different sleep stages. In previous studies, sleep stages were detected overnight by Dafna et al</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0005" ref-type="bibr">5</xref></citation_analysis><citation_analysis attribute="neither">,</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0006" ref-type="bibr">6</xref></citation_analysis><citation_analysis attribute="positive"> using an ambient microphone and in a few short segments of sleep using tracheal sound by Soltanzadeh and Moussavi.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0007" ref-type="bibr">7</xref></citation_analysis><citation_analysis attribute="positive"> In this study, significant changes were found between REM and other states only in sound features. More in-depth analysis to differentiate various sleep stages should be addressed in future studies. For example, low frequency and high frequency components of heart rate are known to change from wakefulness to sleep and across sleep stages.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0021" ref-type="bibr">21</xref></citation_analysis><citation_analysis attribute="neither">,</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0032" ref-type="bibr">32</xref></citation_analysis><citation_analysis attribute="neither">,</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0033" ref-type="bibr">33</xref></citation_analysis><citation_analysis attribute="neither"> Heart sounds can be osculated over the trachea.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0009" ref-type="bibr">9</xref></citation_analysis><citation_analysis attribute="positive"> In future studies, we will analyze the tracheal heart sound for accurate extraction of heart rate and relevant features for sleep staging. Finally, this algorithm was evaluated on a population that was referred to the sleep laboratory for sleep apnea assessment. Further studies are needed to assess the proposed algorithm in a wider population.</citation_analysis></p>
+    </sec>
+    <sec id="s0005">
+      <title>Conclusion</title>
+      <p><citation_analysis attribute="neither">This is the first algorithm developed for detecting sleep/wakefulness over full-night sleep data as the combination of tracheal sounds and movements in a population including individuals with sleep apnea. Sleep apnea is an under-diagnosed disorder with adverse societal and clinical outcomes such as higher rates of car/work accidents,</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0034" ref-type="bibr">34</xref></citation_analysis><citation_analysis attribute="neither">,</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0035" ref-type="bibr">35</xref></citation_analysis><citation_analysis attribute="neither"> cardiovascular problems</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0036" ref-type="bibr">36</xref></citation_analysis><citation_analysis attribute="neither"> and neurocognitive deficits.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0032" ref-type="bibr">32</xref></citation_analysis><citation_analysis attribute="neither">,</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0037" ref-type="bibr">37</xref></citation_analysis><citation_analysis attribute="positive"> Developing portable devices can facilitate the diagnosis of sleep apnea. In this regard, extracting total sleep time can significantly improve the performance of the portable devices to estimate AHI and sleep quality parameters, such as sleeping efficiency. Accurate estimation of sleeping time can increase the accuracy of estimated AHI especially in individuals with low sleep efficiency. The results of this study combined with our previous studies for estimating AHI based on tracheal sounds provide strong evidence that the proposed modality can be used to develop robust portable devices for monitoring sleep-related breathing disorders.</citation_analysis></p>
+    </sec>
+  </body>
+  <back>
+    <ack>
+      <title>Acknowledgments</title>
+      <p><citation_analysis attribute="neither">This study was supported by FedDev Ontario, Ontario Centres of Excellence (OCE), NSERC Discovery grant, and BresoTEC Inc. Toronto, ON, Canada.</citation_analysis></p>
+    </ack>
+    <sec id="s0006" sec-type="COI-statement">
+      <title>Disclosure</title>
+      <p><citation_analysis attribute="neither">Dr Babak Taati reports grants from FedDev Ontario, and BresoTec Inc. Dr Azadeh Yadollahi reports financial support by operating grants from NSERC(RGPIN-2016-06549); and Ontario Centers of Excellence-VIPII Project#25510. The authors report no other conflicts of interests in this work.</citation_analysis></p>
+    </sec>
+    <ref-list>
+      <title>References</title>
+      <ref id="cit0001">
+        <label>1.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Marino</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Li</surname>
+<given-names>Y</given-names></string-name>, <string-name><surname>Rueschman</surname>
+<given-names>MN</given-names></string-name>, et al. <article-title>Measuring sleep: accuracy, sensitivity, and specificity of wrist actigraphy compared to polysomnography</article-title>. <source><italic toggle="yes">Sleep</italic></source>. <year>2013</year>;<volume>36</volume>(<issue>11</issue>):<fpage>1747</fpage>–<lpage>1755</lpage>. doi:<pub-id pub-id-type="doi">10.5665/sleep.3142</pub-id><pub-id pub-id-type="pmid">24179309</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0002">
+        <label>2.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Montgomery-Downs</surname>
+<given-names>HE</given-names></string-name>, <string-name><surname>Insana</surname>
+<given-names>SP</given-names></string-name>, <string-name><surname>Bond</surname>
+<given-names>JA</given-names></string-name>. <article-title>Movement toward a novel activity monitoring device</article-title>. <source><italic toggle="yes">Sleep Breath</italic></source>. <year>2012</year>;<volume>16</volume>(<issue>3</issue>):<fpage>913</fpage>–<lpage>917</lpage>. doi:<pub-id pub-id-type="doi">10.1007/s11325-011-0585-y</pub-id><pub-id pub-id-type="pmid">21971963</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0003">
+        <label>3.</label>
+        <mixed-citation publication-type="confproc"><string-name><surname>Al-Angari</surname>
+<given-names>H</given-names></string-name>
+<article-title>Evaluation of chin EMG activity at sleep onset and termination in obstructive sleep apnea syndrome</article-title>. <conf-name>Paper presented at: 2008 Computers in Cardiology</conf-name>; <year>2008</year>.</mixed-citation>
+      </ref>
+      <ref id="cit0004">
+        <label>4.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Hwang</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Chung</surname>
+<given-names>G</given-names></string-name>, <string-name><surname>Lee</surname>
+<given-names>J</given-names></string-name>, et al. <article-title>Sleep/wake estimation using only anterior tibialis electromyography data</article-title>. <source><italic toggle="yes">Biomed Eng Online</italic></source>. <year>2012</year>;<volume>11</volume>(<issue>1</issue>):<fpage>26</fpage>. doi:<pub-id pub-id-type="doi">10.1186/1475-925X-11-26</pub-id><pub-id pub-id-type="pmid">22624953</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0005">
+        <label>5.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Dafna</surname>
+<given-names>E</given-names></string-name>, <string-name><surname>Tarasiuk</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Zigel</surname>
+<given-names>Y</given-names></string-name>. <article-title>Sleep-wake evaluation from whole-night non-contact audio recordings of breathing sounds</article-title>. <source><italic toggle="yes">PLoS One</italic></source>. <year>2015</year>;<volume>10</volume>(<issue>2</issue>):<fpage>e0117382</fpage>. doi:<pub-id pub-id-type="doi">10.1371/journal.pone.0117382</pub-id><pub-id pub-id-type="pmid">25710495</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0006">
+        <label>6.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Dafna</surname>
+<given-names>E</given-names></string-name>, <string-name><surname>Tarasiuk</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Zigel</surname>
+<given-names>Y</given-names></string-name>. <article-title>Sleep staging using nocturnal sound analysis</article-title>. <source><italic toggle="yes">Sci Rep</italic></source>. <year>2018</year>;<volume>8</volume>(<issue>1</issue>):<fpage>13474</fpage>. doi:<pub-id pub-id-type="doi">10.1038/s41598-018-31748-0</pub-id><pub-id pub-id-type="pmid">30194402</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0007">
+        <label>7.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Soltanzadeh</surname>
+<given-names>R</given-names></string-name>, <string-name><surname>Moussavi</surname>
+<given-names>Z</given-names></string-name>. <article-title>Sleep stage detection using tracheal breathing sounds: a pilot study</article-title>. <source><italic toggle="yes">Ann Biomed Eng</italic></source>. <year>2015</year>;<volume>43</volume>(<issue>10</issue>):<fpage>2530</fpage>–<lpage>2537</lpage>. doi:<pub-id pub-id-type="doi">10.1007/s10439-015-1290-y</pub-id><pub-id pub-id-type="pmid">25739951</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0008">
+        <label>8.</label>
+        <mixed-citation publication-type="confproc"><string-name><surname>Hafezi</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Montazeri</surname>
+<given-names>N</given-names></string-name>, <string-name><surname>Zhu</surname>
+<given-names>K</given-names></string-name>, <string-name><surname>Alshaer</surname>
+<given-names>H</given-names></string-name>, <string-name><surname>Yadollahi</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Taati</surname>
+<given-names>B.</given-names></string-name>
+<article-title>Sleep apnea severity estimation from respiratory related movements using deep learning</article-title>. <conf-name>Paper presented at: 2019 41st Annual International Conference of the IEEE Engineering in Medicine and Biology Society (EMBC)</conf-name>; <year>2019</year>.</mixed-citation>
+      </ref>
+      <ref id="cit0009">
+        <label>9.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Kalkbrenner</surname>
+<given-names>C</given-names></string-name>, <string-name><surname>Eichenlaub</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Rüdiger</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Kropf-Sanchen</surname>
+<given-names>C</given-names></string-name>, <string-name><surname>Rottbauer</surname>
+<given-names>W</given-names></string-name>, <string-name><surname>Brucher</surname>
+<given-names>R</given-names></string-name>. <article-title>Apnea and heart rate detection from tracheal body sounds for the diagnosis of sleep-related breathing disorders</article-title>. <source><italic toggle="yes">Med Biol Eng Comput</italic></source>. <year>2018</year>;<volume>56</volume>(<issue>4</issue>):<fpage>671</fpage>–<lpage>681</lpage>. doi:<pub-id pub-id-type="doi">10.1007/s11517-017-1706-y</pub-id><pub-id pub-id-type="pmid">28849304</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0010">
+        <label>10.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Montazeri</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Giannouli</surname>
+<given-names>E</given-names></string-name>, <string-name><surname>Moussavi</surname>
+<given-names>Z</given-names></string-name>. <article-title>Assessment of obstructive sleep apnea and its severity during wakefulness</article-title>. <source><italic toggle="yes">Ann Biomed Eng</italic></source>. <year>2012</year>;<volume>40</volume>(<issue>4</issue>):<fpage>916</fpage>–<lpage>924</lpage>. doi:<pub-id pub-id-type="doi">10.1007/s10439-011-0456-5</pub-id><pub-id pub-id-type="pmid">22068885</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0011">
+        <label>11.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Nakano</surname>
+<given-names>H</given-names></string-name>, <string-name><surname>Hirayama</surname>
+<given-names>K</given-names></string-name>, <string-name><surname>Sadamitsu</surname>
+<given-names>Y</given-names></string-name>, et al. <article-title>Monitoring sound to quantify snoring and sleep apnea severity using a smartphone: proof of concept</article-title>. <source><italic toggle="yes">J Clin Sleep Med</italic></source>. <year>2014</year>;<volume>10</volume>(<issue>01</issue>):<fpage>73</fpage>–<lpage>78</lpage>. doi:<pub-id pub-id-type="doi">10.5664/jcsm.3364</pub-id><pub-id pub-id-type="pmid">24426823</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0012">
+        <label>12.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Penzel</surname>
+<given-names>T</given-names></string-name>, <string-name><surname>Sabil</surname>
+<given-names>A</given-names></string-name>. <article-title>The use of tracheal sounds for the diagnosis of sleep apnoea</article-title>. <source><italic toggle="yes">Breathe</italic></source>. <year>2017</year>;<volume>13</volume>(<issue>2</issue>):<fpage>e37</fpage>–<lpage>e45</lpage>. doi:<pub-id pub-id-type="doi">10.1183/20734735.008817</pub-id><pub-id pub-id-type="pmid">29184596</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0013">
+        <label>13.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Saha</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Kabir</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Montazeri</surname>
+<given-names>N</given-names></string-name>, et al. <article-title>Apnea-hypopnea index (AHI) estimation using breathing sounds, accelerometer and pulse oximeter</article-title>. <source><italic toggle="yes">ERJ Open Res</italic></source>. <year>2019</year>;<volume>5</volume>(<issue>suppl3</issue>):<fpage>P63</fpage>.</mixed-citation>
+      </ref>
+      <ref id="cit0014">
+        <label>14.</label>
+        <mixed-citation publication-type="confproc"><string-name><surname>Solà-Soler</surname>
+<given-names>J</given-names></string-name>, <string-name><surname>Fiz</surname>
+<given-names>JA</given-names></string-name>, <string-name><surname>Torres</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Jané</surname>
+<given-names>R</given-names></string-name>
+<article-title>Identification of obstructive sleep apnea patients from tracheal breath sound analysis during wakefulness in polysomnographic studies</article-title>. <conf-name>Paper presented at: 2014 36th Annual International Conference of the IEEE Engineering in Medicine and Biology Society</conf-name>; <year>2014</year>.</mixed-citation>
+      </ref>
+      <ref id="cit0015">
+        <label>15.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Yu</surname>
+<given-names>L</given-names></string-name>, <string-name><surname>Ting</surname>
+<given-names>C-K</given-names></string-name>, <string-name><surname>Hill</surname>
+<given-names>BE</given-names></string-name>, et al. <article-title>Using the entropy of tracheal sounds to detect apnea during sedation in healthy nonobese volunteers</article-title>. <source><italic toggle="yes">Anesthesiology</italic></source>. <year>2013</year>;<volume>118</volume>(<issue>6</issue>):<fpage>1341</fpage>–<lpage>1349</lpage>. doi:<pub-id pub-id-type="doi">10.1097/ALN.0b013e318289bb30</pub-id><pub-id pub-id-type="pmid">23407106</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0016">
+        <label>16.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Nakano</surname>
+<given-names>H</given-names></string-name>, <string-name><surname>Furukawa</surname>
+<given-names>T</given-names></string-name>, <string-name><surname>Tanigawa</surname>
+<given-names>T</given-names></string-name>. <article-title>Tracheal sound analysis using a deep neural network to detect sleep apnea</article-title>. <source><italic toggle="yes">J Clin Sleep Med</italic></source>. <year>2019</year>;<volume>15</volume>(<issue>8</issue>):<fpage>1125</fpage>–<lpage>1133</lpage>. doi:<pub-id pub-id-type="doi">10.5664/jcsm.7804</pub-id><pub-id pub-id-type="pmid">31482834</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0017">
+        <label>17.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Yadollahi</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Giannouli</surname>
+<given-names>E</given-names></string-name>, <string-name><surname>Moussavi</surname>
+<given-names>Z</given-names></string-name>. <article-title>Sleep apnea monitoring and diagnosis based on pulse oximetry and tracheal sound signals</article-title>. <source><italic toggle="yes">Med Biol Eng Comput</italic></source>. <year>2010</year>;<volume>48</volume>(<issue>11</issue>):<fpage>1087</fpage>–<lpage>1097</lpage>. doi:<pub-id pub-id-type="doi">10.1007/s11517-010-0674-2</pub-id><pub-id pub-id-type="pmid">20734154</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0018">
+        <label>18.</label>
+        <mixed-citation publication-type="newspaper"><string-name><surname>Berry</surname>
+<given-names>RB</given-names></string-name>, <string-name><surname>Brooks</surname>
+<given-names>R</given-names></string-name>, <string-name><surname>Gamaldo</surname>
+<given-names>CE</given-names></string-name>, <string-name><surname>Harding</surname>
+<given-names>SM</given-names></string-name>, <string-name><surname>Marcus</surname>
+<given-names>C</given-names></string-name>, <string-name><surname>Vaughn</surname>
+<given-names>B</given-names></string-name>
+<article-title>The AASM manual for the scoring of sleep and associated events</article-title>. <source>Rules, Terminology and Technical Specifications, Darien, Illinois, American Academy of Sleep Medicine</source>; <year>2012</year>.</mixed-citation>
+      </ref>
+      <ref id="cit0019">
+        <label>19.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Yuan</surname>
+<given-names>G</given-names></string-name>, <string-name><surname>Drost</surname>
+<given-names>NA</given-names></string-name>, <string-name><surname>McIvor</surname>
+<given-names>RA</given-names></string-name>. <article-title>Respiratory rate and breathing pattern</article-title>. <source><italic toggle="yes">McMaster Univ Med J</italic></source>. <year>2013</year>;<volume>10</volume>(<issue>1</issue>):<fpage>23</fpage>–<lpage>25</lpage>.</mixed-citation>
+      </ref>
+      <ref id="cit0020">
+        <label>20.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Kantelhardt</surname>
+<given-names>JW</given-names></string-name>, <string-name><surname>Zschiegner</surname>
+<given-names>SA</given-names></string-name>, <string-name><surname>Koscielny-Bunde</surname>
+<given-names>E</given-names></string-name>, <string-name><surname>Havlin</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Bunde</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Stanley</surname>
+<given-names>HE</given-names></string-name>. <article-title>Multifractal detrended fluctuation analysis of nonstationary time series</article-title>. <source><italic toggle="yes">Physica A</italic></source>. <year>2002</year>;<volume>316</volume>(<issue>1–4</issue>):<fpage>87</fpage>–<lpage>114</lpage>. doi:<pub-id pub-id-type="doi">10.1016/S0378-4371(02)01383-3</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0021">
+        <label>21.</label>
+        <mixed-citation publication-type="book"><string-name><surname>Hoak</surname>
+<given-names>J</given-names></string-name>. <source><italic toggle="yes">The Effects of Outliers on Support Vector Machines</italic></source>. <publisher-name>Portland State University</publisher-name>; <year>2010</year>.</mixed-citation>
+      </ref>
+      <ref id="cit0022">
+        <label>22.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Carberry</surname>
+<given-names>JC</given-names></string-name>, <string-name><surname>Jordan</surname>
+<given-names>AS</given-names></string-name>, <string-name><surname>White</surname>
+<given-names>DP</given-names></string-name>, <string-name><surname>Wellman</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Eckert</surname>
+<given-names>DJ</given-names></string-name>. <article-title>Upper airway collapsibility (Pcrit) and pharyngeal dilator muscle activity are sleep stage dependent</article-title>. <source><italic toggle="yes">Sleep</italic></source>. <year>2016</year>;<volume>39</volume>(<issue>3</issue>):<fpage>511</fpage>–<lpage>521</lpage>. doi:<pub-id pub-id-type="doi">10.5665/sleep.5516</pub-id><pub-id pub-id-type="pmid">26612386</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0023">
+        <label>23.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Strohl</surname>
+<given-names>KP</given-names></string-name>, <string-name><surname>Butler</surname>
+<given-names>JP</given-names></string-name>, <string-name><surname>Malhotra</surname>
+<given-names>A</given-names></string-name>. <article-title>Mechanical properties of the upper airway</article-title>. <source><italic toggle="yes">Compr Physiol</italic></source>. <year>2012</year>;<volume>2</volume>(<issue>3</issue>):<fpage>1853</fpage>–<lpage>1872</lpage>.<pub-id pub-id-type="pmid">23723026</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0024">
+        <label>24.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Yadollahi</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Moussavi</surname>
+<given-names>Z</given-names></string-name>. <article-title>Automatic breath and snore sounds classification from tracheal and ambient sounds recordings</article-title>. <source><italic toggle="yes">Med Eng Phys</italic></source>. <year>2010</year>;<volume>32</volume>(<issue>9</issue>):<fpage>985</fpage>–<lpage>990</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.medengphy.2010.06.013</pub-id><pub-id pub-id-type="pmid">20674455</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0025">
+        <label>25.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Yadollahi</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Montazeri</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Azarbarzin</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Moussavi</surname>
+<given-names>Z</given-names></string-name>. <article-title>Respiratory flow–sound relationship during both wakefulness and sleep and its variation in relation to sleep apnea</article-title>. <source><italic toggle="yes">Ann Biomed Eng</italic></source>. <year>2013</year>;<volume>41</volume>(<issue>3</issue>):<fpage>537</fpage>–<lpage>546</lpage>. doi:<pub-id pub-id-type="doi">10.1007/s10439-012-0692-3</pub-id><pub-id pub-id-type="pmid">23149903</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0026">
+        <label>26.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Paquet</surname>
+<given-names>J</given-names></string-name>, <string-name><surname>Kawinska</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Carrier</surname>
+<given-names>J</given-names></string-name>. <article-title>Wake detection capacity of actigraphy during sleep</article-title>. <source><italic toggle="yes">Sleep</italic></source>. <year>2007</year>;<volume>30</volume>(<issue>10</issue>):<fpage>1362</fpage>–<lpage>1369</lpage>. doi:<pub-id pub-id-type="doi">10.1093/sleep/30.10.1362</pub-id><pub-id pub-id-type="pmid">17969470</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0027">
+        <label>27.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Sadeh</surname>
+<given-names>A</given-names></string-name>. <article-title>The role and validity of actigraphy in sleep medicine: an update</article-title>. <source><italic toggle="yes">Sleep Med Rev</italic></source>. <year>2011</year>;<volume>15</volume>(<issue>4</issue>):<fpage>259</fpage>–<lpage>267</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.smrv.2010.10.001</pub-id><pub-id pub-id-type="pmid">21237680</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0028">
+        <label>28.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Aktaruzzaman</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Rivolta</surname>
+<given-names>MW</given-names></string-name>, <string-name><surname>Karmacharya</surname>
+<given-names>R</given-names></string-name>, et al. <article-title>Performance comparison between wrist and chest actigraphy in combination with heart rate variability for sleep classification</article-title>. <source><italic toggle="yes">Comput Biol Med</italic></source>. <year>2017</year>;<volume>89</volume>:<fpage>212</fpage>–<lpage>221</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.compbiomed.2017.08.006</pub-id><pub-id pub-id-type="pmid">28841459</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0029">
+        <label>29.</label>
+        <mixed-citation publication-type="confproc"><string-name><surname>Devot</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Dratwa</surname>
+<given-names>R</given-names></string-name>, <string-name><surname>Naujokat</surname>
+<given-names>E</given-names></string-name>
+<article-title>Sleep/wake detection based on cardiorespiratory signals and actigraphy</article-title>. <conf-name>Paper presented at: 2010 Annual International Conference of the IEEE Engineering in Medicine and Biology</conf-name>; <year>2010</year>.</mixed-citation>
+      </ref>
+      <ref id="cit0030">
+        <label>30.</label>
+        <mixed-citation publication-type="confproc"><string-name><surname>Lewicke</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Sazonov</surname>
+<given-names>E</given-names></string-name>, <string-name><surname>Schuckers</surname>
+<given-names>S</given-names></string-name>
+<article-title>Sleep-wake identification in infants: heart rate variability compared to actigraphy</article-title>. <conf-name>Paper presented at: The 26th Annual International Conference of the IEEE Engineering in Medicine and Biology Society</conf-name>; <year>2004</year>.</mixed-citation>
+      </ref>
+      <ref id="cit0031">
+        <label>31.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Kalkbrenner</surname>
+<given-names>C</given-names></string-name>, <string-name><surname>Brucher</surname>
+<given-names>R</given-names></string-name>, <string-name><surname>Kesztyüs</surname>
+<given-names>T</given-names></string-name>, <string-name><surname>Eichenlaub</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Rottbauer</surname>
+<given-names>W</given-names></string-name>, <string-name><surname>Scharnbeck</surname>
+<given-names>D</given-names></string-name>. <article-title>Automated sleep stage classification based on tracheal body sound and actigraphy</article-title>. <source><italic toggle="yes">GMS German Med Sci</italic></source>. <year>2019</year>;<volume>17</volume>.</mixed-citation>
+      </ref>
+      <ref id="cit0032">
+        <label>32.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Buratti</surname>
+<given-names>L</given-names></string-name>, <string-name><surname>Viticchi</surname>
+<given-names>G</given-names></string-name>, <string-name><surname>Falsetti</surname>
+<given-names>L</given-names></string-name>, et al. <article-title>Vascular impairment in Alzheimer’s disease: the role of obstructive sleep apnea</article-title>. <source><italic toggle="yes">J Alzheimers Dis</italic></source>. <year>2014</year>;<volume>38</volume>(<issue>2</issue>):<fpage>445</fpage>–<lpage>453</lpage>. doi:<pub-id pub-id-type="doi">10.3233/JAD-131046</pub-id><pub-id pub-id-type="pmid">23985418</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0033">
+        <label>33.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Ebrahimi</surname>
+<given-names>F</given-names></string-name>, <string-name><surname>Setarehdan</surname>
+<given-names>S-K</given-names></string-name>, <string-name><surname>Ayala-Moyeda</surname>
+<given-names>J</given-names></string-name>, <string-name><surname>Nazeran</surname>
+<given-names>H</given-names></string-name>. <article-title>Automatic sleep staging using empirical mode decomposition, discrete wavelet transform, time-domain, and nonlinear dynamics features of heart rate variability signals</article-title>. <source><italic toggle="yes">Comput Methods Programs Biomed</italic></source>. <year>2013</year>;<volume>112</volume>(<issue>1</issue>):<fpage>47</fpage>–<lpage>57</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.cmpb.2013.06.007</pub-id><pub-id pub-id-type="pmid">23895941</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0034">
+        <label>34.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Bhattacherjee</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Chau</surname>
+<given-names>N</given-names></string-name>, <string-name><surname>Sierra</surname>
+<given-names>CO</given-names></string-name>, et al. <article-title>Relationships of job and some individual characteristics to occupational injuries in employed people: a community-based study</article-title>. <source><italic toggle="yes">J Occup Health</italic></source>. <year>2003</year>;<volume>45</volume>(<issue>6</issue>):<fpage>382</fpage>–<lpage>391</lpage>. doi:<pub-id pub-id-type="doi">10.1539/joh.45.382</pub-id><pub-id pub-id-type="pmid">14676418</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0035">
+        <label>35.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Haraldsson</surname>
+<given-names>P-O</given-names></string-name>, <string-name><surname>Carenfelt</surname>
+<given-names>C</given-names></string-name>, <string-name><surname>Diderichsen</surname>
+<given-names>F</given-names></string-name>, <string-name><surname>Nygren</surname>
+<given-names>Å</given-names></string-name>, <string-name><surname>Tingvall</surname>
+<given-names>C</given-names></string-name>. <article-title>Clinical symptoms of sleep apnea syndrome and automobile accidents</article-title>. <source><italic toggle="yes">Orl</italic></source>. <year>1990</year>;<volume>52</volume>(<issue>1</issue>):<fpage>57</fpage>–<lpage>62</lpage>. doi:<pub-id pub-id-type="doi">10.1159/000276104</pub-id><pub-id pub-id-type="pmid">2304760</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0036">
+        <label>36.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Leung</surname>
+<given-names>RS</given-names></string-name>, <string-name><surname>Douglas Bradley</surname>
+<given-names>T</given-names></string-name>. <article-title>Sleep apnea and cardiovascular disease</article-title>. <source><italic toggle="yes">Am J Respir Crit Care Med</italic></source>. <year>2001</year>;<volume>164</volume>(<issue>12</issue>):<fpage>2147</fpage>–<lpage>2165</lpage>. doi:<pub-id pub-id-type="doi">10.1164/ajrccm.164.12.2107045</pub-id><pub-id pub-id-type="pmid">11751180</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0037">
+        <label>37.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Buratti</surname>
+<given-names>L</given-names></string-name>, <string-name><surname>Luzzi</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Petrelli</surname>
+<given-names>C</given-names></string-name>, et al. <article-title>Obstructive sleep apnea syndrome: an emerging risk factor for dementia</article-title>. <source><italic toggle="yes">CNS Neurol Disord Drug Targets</italic></source>. <year>2016</year>;<volume>15</volume>(<issue>6</issue>):<fpage>678</fpage>–<lpage>682</lpage>. doi:<pub-id pub-id-type="doi">10.2174/1871527315666160518123930</pub-id><pub-id pub-id-type="pmid">27189468</pub-id></mixed-citation>
+      </ref>
+    </ref-list>
+  </back>
+</article>
+</pmc-articleset>

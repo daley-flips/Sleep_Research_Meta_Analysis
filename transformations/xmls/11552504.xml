@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<pmc-articleset><article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" dtd-version="1.3" xml:lang="en" article-type="letter">
+  <?properties open_access?>
+  <processing-meta base-tagset="archiving" mathml-version="3.0" table-model="xhtml" tagset-family="jats">
+    <restricted-by>pmc</restricted-by>
+  </processing-meta>
+  <front><journal-meta><journal-id journal-id-type="nlm-ta">Nat Sci Sleep</journal-id><journal-id journal-id-type="iso-abbrev">Nat Sci Sleep</journal-id><journal-id journal-id-type="publisher-id">nss</journal-id><journal-title-group><journal-title>Nature and Science of Sleep</journal-title></journal-title-group><issn pub-type="epub">1179-1608</issn><publisher><publisher-name>Dove</publisher-name></publisher></journal-meta>
+<article-meta><article-id pub-id-type="pmid">39529935</article-id><article-id pub-id-type="pmc">11552504</article-id><article-id pub-id-type="publisher-id">499521</article-id><article-id pub-id-type="doi">10.2147/NSS.S499521</article-id><article-categories><subj-group subj-group-type="heading"><subject>Letter</subject></subj-group></article-categories><title-group><article-title>Enhancing the Rigor of Mendelian Randomization: Methodological Insights from the Study on Obstructive Sleep Apnea and Temporomandibular Disorders [Letter]</article-title><alt-title alt-title-type="running-authors">Zhou et al</alt-title><alt-title alt-title-type="running-title">Zhou et al</alt-title></title-group><contrib-group><contrib contrib-type="author"><name><surname>Zhou</surname><given-names>Zhangbing</given-names></name><xref rid="aff0001" ref-type="aff">
+<sup>1</sup>
+</xref></contrib><contrib contrib-type="author"><name><surname>Wang</surname><given-names>Liu</given-names></name><xref rid="aff0002" ref-type="aff">
+<sup>2</sup>
+</xref></contrib><contrib contrib-type="author"><name><surname>Chen</surname><given-names>Yunfeng</given-names></name><xref rid="aff0001" ref-type="aff">
+<sup>1</sup>
+</xref><xref rid="an0001" ref-type="corresp"/></contrib><aff id="aff0001"><label>1</label><institution>Department of Respiratory Medicine, Chengdu Integrated TCM and Western Medicine Hospital</institution>, <addr-line>Chengdu</addr-line>, <addr-line>Sichuan</addr-line>, <country>People’s Republic of China</country></aff><aff id="aff0002"><label>2</label><institution>Department of Rheumatology and Immunology, Chengdu Third People’s Hospital</institution>, <addr-line>Chengdu</addr-line>, <addr-line>Sichuan</addr-line>, <country>People’s Republic of China</country></aff></contrib-group><author-notes><corresp id="an0001">Correspondence: Yunfeng Chen, <institution>Chengdu Integrated TCM and Western Medicine Hospital</institution>, <addr-line>Chengdu</addr-line>, <addr-line>Sichuan</addr-line>, <country>People’s Republic of China</country>, Email 1195701626@qq.com</corresp></author-notes><pub-date pub-type="epub"><day>07</day><month>11</month><year>2024</year></pub-date><pub-date pub-type="collection"><year>2024</year></pub-date><volume>16</volume><fpage>1769</fpage><lpage>1770</lpage><history><date date-type="received"><day>06</day><month>10</month><year>2024</year></date><date date-type="accepted"><day>18</day><month>10</month><year>2024</year></date></history><permissions><copyright-statement>© 2024 Zhou et al.</copyright-statement><copyright-year>2024</copyright-year><copyright-holder>Zhou et al.</copyright-holder><license><ali:license_ref xmlns:ali="http://www.niso.org/schemas/ali/1.0/" specific-use="textmining" content-type="ccbynclicense">https://creativecommons.org/licenses/by-nc/3.0/</ali:license_ref><license-p>This work is published and licensed by Dove Medical Press Limited. The full terms of this license are available at <ext-link ext-link-type="uri" xlink:href="https://www.dovepress.com/terms.php">https://www.dovepress.com/terms.php</ext-link> and incorporate the Creative Commons Attribution – Non Commercial (unported, v3.0) License (<ext-link ext-link-type="uri" xlink:href="https://creativecommons.org/licenses/by-nc/3.0/">http://creativecommons.org/licenses/by-nc/3.0/</ext-link>). By accessing the work you hereby accept the Terms. Non-commercial uses of the work are permitted without any further permission from Dove Medical Press Limited, provided the work is properly attributed. For permission for commercial use of this work, please see paragraphs 4.2 and 5 of our Terms (<ext-link ext-link-type="uri" xlink:href="https://www.dovepress.com/terms.php">https://www.dovepress.com/terms.php</ext-link>).</license-p></license></permissions><funding-group><award-group><funding-source>
+<institution-wrap><institution>were received for this research</institution></institution-wrap>
+</funding-source></award-group><funding-statement>No fundings were received for this research.</funding-statement></funding-group><counts><fig-count count="0"/><ref-count count="5"/><page-count count="2"/></counts></article-meta></front>
+  <body>
+    <sec id="s0001">
+      <title>Dear editor</title>
+      <p><citation_analysis attribute="neither">We were interested to read the article by Wang et al titled “Causal Relationship Between Obstructive Sleep Apnea and Temporomandibular Disorders: A Bidirectional Mendelian Randomization Analysis”</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0001" ref-type="bibr">1</xref></citation_analysis><citation_analysis attribute="neither">. This study employs a bidirectional Mendelian randomization (MR) approach to explore the genetic causal relationship between obstructive sleep apnea (OSA) and temporomandibular disorders (TMD), offering valuable insights. However, we would like to raise several important considerations and suggestions for the authors.</citation_analysis></p>
+      <p><citation_analysis attribute="positive">Firstly, the OSA and TMD data in this study were both sourced from the FinnGen database, which raises concerns about potential sample overlap between the exposure and outcome datasets. In MR studies, such overlap can introduce bias, significantly distorting MR analysis results, including issues related to winner’s curse and weak instrument bias.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0002" ref-type="bibr">2</xref></citation_analysis><citation_analysis attribute="positive"> To mitigate this problem, we recommend utilizing completely independent datasets for OSA and TMD or implementing statistical corrections for sample overlap. For instance, external GWAS summary statistics from different cohorts (GWAS ID: ukb-d-G6_SLEEPAPNO) could be employed to ensure the independence of the two datasets. Additionally, the use of the MR-Lap method,</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0003" ref-type="bibr">3</xref></citation_analysis><citation_analysis attribute="positive"> which adjusts for linkage disequilibrium scores through regression intercepts, has shown good fit in simulations with 5% to 95% overlap, thus enhancing the robustness of the study’s findings.</citation_analysis></p>
+      <p><citation_analysis attribute="neither">Secondly, the authors did not adjust for potential confounders such as body mass index, smoking status,</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0004" ref-type="bibr">4</xref></citation_analysis><citation_analysis attribute="neither"> alcohol consumption,</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0004" ref-type="bibr">4</xref></citation_analysis><citation_analysis attribute="positive"> and psychological stress, which may lead to pleiotropic effects, as these factors are known to influence both OSA and TMD. While the authors employed MR-Egger and MR-PRESSO methods to detect horizontal pleiotropy, these approaches may not fully eliminate the effects of confounding pathways that could bias the results. Conducting a more thorough analysis using multivariable Mendelian randomization (MVMR) could be beneficial,</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0005" ref-type="bibr">5</xref></citation_analysis><citation_analysis attribute="positive"> as it allows for the inclusion of additional genetic variants that may help adjust for pleiotropic effects and improve the reliability of the results.</citation_analysis></p>
+      <p><citation_analysis attribute="positive">In summary, the study by Wang et al makes significant contributions to our understanding of the relationship between OSA and TMD; however, caution is warranted in interpreting the results. Addressing issues of sample overlap and confounding factors could further strengthen the evidence and enhance the clinical significance of the findings. Therefore, we encourage the authors to consider these limitations in their future research and take measures to eliminate or correct for sample overlap, leading to more reliable conclusions.</citation_analysis></p>
+    </sec>
+  </body>
+  <back>
+    <sec id="s0002">
+      <title>Author Contributions</title>
+      <p><citation_analysis attribute="neither">Zhangbing Zhou: Methodology, Formal analysis, Writing - Original Draft; Liu Wang: Methodology, Writing - Original Draft; Yunfeng Chen: Conceptualization, Methodology, Supervision, Writing - Review &amp; Editing.</citation_analysis></p>
+    </sec>
+    <sec sec-type="COI-statement" id="s0003">
+      <title>Disclosure</title>
+      <p><citation_analysis attribute="neither">The authors declare no conflicts of interest that pertain to this communication.</citation_analysis></p>
+    </sec>
+    <ref-list>
+      <title>References</title>
+      <ref id="cit0001">
+        <label>1.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Wang</surname>
+<given-names>Y-P</given-names></string-name>, <string-name><surname>Wei</surname>
+<given-names>H-X</given-names></string-name>, <string-name><surname>Hu</surname>
+<given-names>-Y-Y</given-names></string-name>, <string-name><surname>Niu</surname>
+<given-names>Y-M</given-names></string-name>. <article-title>Causal relationship between obstructive sleep apnea and temporomandibular disorders: A bidirectional Mendelian randomization analysis</article-title>. <source><italic toggle="yes">Nat Sci Sleep</italic></source>. <year>2024</year>;<volume>16</volume>(<issue>2024</issue>):<fpage>1045</fpage>–<lpage>1052</lpage>. doi:<pub-id pub-id-type="doi">10.2147/NSS.S476277</pub-id><pub-id pub-id-type="pmid">39076457</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0002">
+        <label>2.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Burgess</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Davies</surname>
+<given-names>NM</given-names></string-name>, <string-name><surname>Thompson</surname>
+<given-names>SG</given-names></string-name>. <article-title>Bias due to participant overlap in two-sample Mendelian randomization</article-title>. <source><italic toggle="yes">Genet Epidemiol</italic></source>. <year>2016</year>;<volume>40</volume>(<issue>2016</issue>):<fpage>597</fpage>–<lpage>608</lpage>. doi:<pub-id pub-id-type="doi">10.1002/gepi.21998</pub-id><pub-id pub-id-type="pmid">27625185</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0003">
+        <label>3.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Mounier</surname>
+<given-names>N</given-names></string-name>, <string-name><surname>Kutalik</surname>
+<given-names>Z</given-names></string-name>. <article-title>Bias correction for inverse variance weighting Mendelian randomization</article-title>. <source><italic toggle="yes">Genet Epidemiol</italic></source>. <year>2023</year>;<volume>47</volume>(<issue>2023</issue>):<fpage>314</fpage>–<lpage>331</lpage>. doi:<pub-id pub-id-type="doi">10.1002/gepi.22522</pub-id><pub-id pub-id-type="pmid">37036286</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0004">
+        <label>4.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Miettinen</surname>
+<given-names>O</given-names></string-name>, <string-name><surname>Anttonen</surname>
+<given-names>V</given-names></string-name>, <string-name><surname>Patinen</surname>
+<given-names>P</given-names></string-name>, et al. <article-title>Prevalence of temporomandibular disorder symptoms and their association with alcohol and smoking habits</article-title>. <source><italic toggle="yes">J Oral Facial Pain Head</italic></source>. <year>2017</year>;<volume>31</volume>(<issue>2017</issue>):<fpage>30</fpage>–<lpage>36</lpage>. doi:<pub-id pub-id-type="doi">10.11607/ofph.1595</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0005">
+        <label>5.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Burgess</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Thompson</surname>
+<given-names>SG</given-names></string-name>. <article-title>Multivariable Mendelian randomization: the use of pleiotropic genetic variants to estimate causal effects</article-title>. <source><italic toggle="yes">Am J Epidemiol</italic></source>. <year>2015</year>;<volume>181</volume>(<issue>2015</issue>):<fpage>251</fpage>–<lpage>260</lpage>. doi:<pub-id pub-id-type="doi">10.1093/aje/kwu283</pub-id><pub-id pub-id-type="pmid">25632051</pub-id>
+</mixed-citation>
+      </ref>
+    </ref-list>
+  </back>
+</article>
+</pmc-articleset>

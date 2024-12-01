@@ -1,0 +1,865 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<pmc-articleset><article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" article-type="research-article">
+  <?properties open_access?>
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="nlm-ta">Nat Sci Sleep</journal-id>
+      <journal-id journal-id-type="iso-abbrev">Nat Sci Sleep</journal-id>
+      <journal-id journal-id-type="publisher-id">nss</journal-id>
+      <journal-id journal-id-type="pmc">nss</journal-id>
+      <journal-title-group>
+        <journal-title>Nature and Science of Sleep</journal-title>
+      </journal-title-group>
+      <issn pub-type="epub">1179-1608</issn>
+      <publisher>
+        <publisher-name>Dove</publisher-name>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="pmid">34326674</article-id>
+      <article-id pub-id-type="pmc">8315772</article-id>
+      <article-id pub-id-type="publisher-id">300818</article-id>
+      <article-id pub-id-type="doi">10.2147/NSS.S300818</article-id>
+      <article-categories>
+        <subj-group subj-group-type="heading">
+          <subject>Original Research</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>Artificial Neural Networks Analysis of polysomnographic and clinical features in Pediatric Acute-Onset Neuropsychiatric Syndrome (PANS): from sleep alteration to “Brain Fog”</article-title>
+        <alt-title alt-title-type="running-authors">Gagliano et al</alt-title>
+        <alt-title alt-title-type="running-title">Gagliano et al</alt-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author" equal-contrib="yes">
+          <name>
+            <surname>Gagliano</surname>
+            <given-names>Antonella</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff0001">
+            <sup>1</sup>
+          </xref>
+          <xref ref-type="author-notes" rid="ft0001">*</xref>
+        </contrib>
+        <contrib contrib-type="author" equal-contrib="yes">
+          <contrib-id contrib-id-type="orcid" authenticated="false">http://orcid.org/0000-0002-6837-6608</contrib-id>
+          <name>
+            <surname>Puligheddu</surname>
+            <given-names>Monica</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff0002">
+            <sup>2</sup>
+          </xref>
+          <xref ref-type="author-notes" rid="ft0001">*</xref>
+          <xref ref-type="corresp" rid="an0001"/>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Ronzano</surname>
+            <given-names>Nadia</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff0003">
+            <sup>3</sup>
+          </xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <contrib-id contrib-id-type="orcid" authenticated="false">http://orcid.org/0000-0002-7680-8722</contrib-id>
+          <name>
+            <surname>Congiu</surname>
+            <given-names>Patrizia</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff0002">
+            <sup>2</sup>
+          </xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Tanca</surname>
+            <given-names>Marcello Giuseppe</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff0003">
+            <sup>3</sup>
+          </xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <contrib-id contrib-id-type="orcid" authenticated="false">http://orcid.org/0000-0002-6688-7324</contrib-id>
+          <name>
+            <surname>Cursio</surname>
+            <given-names>Ida</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff0003">
+            <sup>3</sup>
+          </xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Carucci</surname>
+            <given-names>Sara</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff0001">
+            <sup>1</sup>
+          </xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Sotgiu</surname>
+            <given-names>Stefano</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff0004">
+            <sup>4</sup>
+          </xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Grossi</surname>
+            <given-names>Enzo</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff0005">
+            <sup>5</sup>
+          </xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Zuddas</surname>
+            <given-names>Alessandro</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff0001">
+            <sup>1</sup>
+          </xref>
+          <xref ref-type="aff" rid="aff0003">
+            <sup>3</sup>
+          </xref>
+        </contrib>
+        <aff id="aff0001"><label>1</label><institution>Child &amp; Adolescent Neuropsychiatry Unit, “Azienda Ospedaliera Brotzu” Hospital Trust</institution>, <addr-line>Cagliari</addr-line>, <country>Italy</country></aff>
+        <aff id="aff0002"><label>2</label><institution>Sleep Disorder Centre, Department of Medical Sciences and Public Health, University of Cagliari</institution>, <addr-line>Cagliari</addr-line>, <country>Italy</country></aff>
+        <aff id="aff0003"><label>3</label><institution>Section of Neuroscience &amp; Clinical Pharmacology, Department of Biomedical Sciences, University of Cagliari</institution>, <addr-line>Cagliari</addr-line>, <country>Italy</country></aff>
+        <aff id="aff0004"><label>4</label><institution>Child Neuropsychiatry Unit, Department of Medical, Surgical and Experimental Sciences, University Hospital of Sassari</institution>, <addr-line>Sassari</addr-line>, <country>Italy</country></aff>
+        <aff id="aff0005"><label>5</label><institution>Autism Research Unit, Villa Santa Maria Foundation</institution>, <addr-line>Como</addr-line>, <country>Italy</country></aff>
+      </contrib-group>
+      <author-notes>
+        <corresp id="an0001">Correspondence: Monica Puligheddu <institution>Sleep Disorder Research Center, Department of Medical Science and Public Health, University of Cagliari</institution>, <addr-line>asse didattico E. SS 554 bivio Sestu, Monserrato</addr-line>, <addr-line>Cagliari</addr-line>, <addr-line>09042</addr-line>, <country>Italy</country><phone>Tel +0706754952</phone> Email puligheddu@unica.it</corresp>
+        <fn id="ft0001">
+          <label>*</label>
+          <p><citation_analysis attribute="neither">These authors contributed equally to this work</citation_analysis></p>
+        </fn>
+      </author-notes>
+      <pub-date pub-type="epub">
+        <day>23</day>
+        <month>7</month>
+        <year>2021</year>
+      </pub-date>
+      <pub-date pub-type="collection">
+        <year>2021</year>
+      </pub-date>
+      <volume>13</volume>
+      <fpage>1209</fpage>
+      <lpage>1224</lpage>
+      <history>
+        <date date-type="received">
+          <day>07</day>
+          <month>1</month>
+          <year>2021</year>
+        </date>
+        <date date-type="accepted">
+          <day>17</day>
+          <month>5</month>
+          <year>2021</year>
+        </date>
+      </history>
+      <permissions>
+        <copyright-statement>© 2021 Gagliano et al.</copyright-statement>
+        <copyright-year>2021</copyright-year>
+        <copyright-holder>Gagliano et al.</copyright-holder>
+        <license>
+          <ali:license_ref xmlns:ali="http://www.niso.org/schemas/ali/1.0/" specific-use="textmining" content-type="ccbynclicense">https://creativecommons.org/licenses/by-nc/3.0/</ali:license_ref>
+          <license-p>This work is published and licensed by Dove Medical Press Limited. The full terms of this license are available at <ext-link ext-link-type="uri" xlink:href="https://www.dovepress.com/terms.php">https://www.dovepress.com/terms.php</ext-link> and incorporate the Creative Commons Attribution – Non Commercial (unported, v3.0) License (<ext-link ext-link-type="uri" xlink:href="https://creativecommons.org/licenses/by-nc/3.0/">http://creativecommons.org/licenses/by-nc/3.0/</ext-link>). By accessing the work you hereby accept the Terms. Non-commercial uses of the work are permitted without any further permission from Dove Medical Press Limited, provided the work is properly attributed. For permission for commercial use of this work, please see paragraphs 4.2 and 5 of our Terms (<ext-link ext-link-type="uri" xlink:href="https://www.dovepress.com/terms.php">https://www.dovepress.com/terms.php</ext-link>).</license-p>
+        </license>
+      </permissions>
+      <abstract>
+        <sec id="s2001">
+          <title>Study Objectives</title>
+          <p><citation_analysis attribute="positive">PANS (pediatric acute onset neuropsychiatric syndrome) is thought to be the result of several mechanisms and multiple etiologies, ranging from endocrine/metabolic causes to postinfectious autoimmune and neuroinflammatory disorders. Sleep disorders represent one of the most frequent manifestations of PANS, involving around 80% of patients. The present study describes the clinical and polysomnographic features in a group of PANS children identifying the relationships between sleep disorders and other PANS symptoms.</citation_analysis></p>
+        </sec>
+        <sec id="s2002">
+          <title>Methods</title>
+          <p><citation_analysis attribute="positive">All participants underwent a clinical evaluation including comprehensive sleep history, polysomnography, cognitive assessment and blood chemistry examination. A data mining approach with fourth-generation artiﬁcial neural networks has been used in order to discover subtle trends and associations among variables.</citation_analysis></p>
+        </sec>
+        <sec id="s2003">
+          <title>Results</title>
+          <p><citation_analysis attribute="positive">Polysomnography showed abnormality in 17 out of 23 recruited subjects (73.9%). In particular, 8/17 children (47%) had ineffective sleep, 10/17 (58.8%) fragmented sleep, 8/17 (47.1%) periodic limb movement disorder (PLMD) and 11/17 (64.7%) REM-sleep without atonia (RSWA). Most subjects presented more than one sleep disturbances. Notably, among the 19/23 patients diagnosed with Tic/Tourette disorder, 8/19 (42.1%) show PLMD and 10/19 (52.6%) RSWA. Artificial neural network methodology and the auto-contractive map exploited the links among the full spectrum of variables revealing the simultaneous connections among them, facing the complexity of PANS phenotype.</citation_analysis></p>
+        </sec>
+        <sec id="s2004">
+          <title>Conclusion</title>
+          <p><citation_analysis attribute="neither">Disordered sleep represents, for prevalence and impact on quality of life, a cardinal symptom in patients with PANS. Thus, considering the weight of sleep disturbances on diagnosis and prognosis of PANS, we could consider the possibility of including them among the major diagnostic criteria.</citation_analysis></p>
+        </sec>
+      </abstract>
+      <kwd-group kwd-group-type="author">
+        <title>Keywords</title>
+        <kwd>PANS</kwd>
+        <kwd>pediatric acute onset neuropsychiatric syndrome</kwd>
+        <kwd>sleep disorders</kwd>
+        <kwd>Tourette disorder</kwd>
+        <kwd>polysomnography</kwd>
+        <kwd>auto-contractive map</kwd>
+      </kwd-group>
+      <counts>
+        <fig-count count="4"/>
+        <table-count count="6"/>
+        <ref-count count="74"/>
+        <page-count count="16"/>
+      </counts>
+    </article-meta>
+  </front>
+  <body>
+    <sec id="s0001">
+      <title>Plain Language Summary</title>
+      <p><citation_analysis attribute="neither">a) Current Knowledge/Study Rationale</citation_analysis></p>
+      <p><citation_analysis attribute="negative">Sleep Disorders are one of the most frequent manifestations in PANS, involving up to 80% of patients, but to date few studies have been conducted analyzing the sleep characteristics of these patients.</citation_analysis></p>
+      <p><citation_analysis attribute="neither">The aim of this study was to describe the clinical and polysomnographic characteristics of sleep and identify any sleep disorders in a population of children affected by PANS.</citation_analysis></p>
+      <p><citation_analysis attribute="neither">b) Study Impact</citation_analysis></p>
+      <p><citation_analysis attribute="neither">Sleep alterations represent, for prevalence and impact on quality of life, a cardinal symptom of PANS phenotype.</citation_analysis></p>
+      <p><citation_analysis attribute="positive">Sleep should always be evaluated in PANS patients, and when disordered sleep on daytime sleepiness are reported, a PSG recording should be performed.</citation_analysis></p>
+    </sec>
+    <sec sec-type="intro" id="s0002">
+      <title>Introduction</title>
+      <p><citation_analysis attribute="neither">PANS (Pediatric Acute Onset Neuropsychiatric Syndrome) is a recently described syndrome characterized by an abrupt and acute onset of obsessive-compulsive symptoms and/or food restriction in association with at least 2 of the following symptoms: anxiety, emotional lability, depression, irritability, aggression, oppositionality, deterioration in school performance, behavioural regression, sensory and movement abnormalities, sleep disturbances, and increased urinary frequency.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0001" ref-type="bibr">1</xref></citation_analysis><citation_analysis attribute="neither">,</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0002" ref-type="bibr">2</xref></citation_analysis><citation_analysis attribute="positive"> PANS is thought to be the result of several mechanisms and multiple etiologies, ranging from endocrine/metabolic causes to postinfectious autoimmune and neuroinflammatory disorders.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0003" ref-type="bibr">3</xref></citation_analysis><citation_analysis attribute="neither"> Recently, a neuroimaging MRI investigation showed cerebral microstructural abnormalities in multiple brain structures, including basal ganglia, thalamus, and amygdala in children with PANS in comparison with healthy children.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0004" ref-type="bibr">4</xref></citation_analysis></p>
+      <p><citation_analysis attribute="neither">Sleep disorders represent one of the most frequent manifestations of PANS, involving around 80% of patients, often emerging at the onset of the psychiatric symptoms and subsequently regressing after the acute phase or following the course of the disease.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0005" ref-type="bibr">5</xref></citation_analysis><citation_analysis attribute="neither">,</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0006" ref-type="bibr">6</xref></citation_analysis><citation_analysis attribute="negative"> Despite this frequent finding, to date few studies have been conducted analyzing the sleep characteristics of these patients, and only two polysomnographic studies have been published in patients diagnosed with PANS.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0007" ref-type="bibr">7</xref></citation_analysis><citation_analysis attribute="neither">,</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0008" ref-type="bibr">8</xref></citation_analysis><citation_analysis attribute="neither"> Both studies report a higher prevalence of sleep disorders in PANS patients. The most common sleep disorders in patients with PANS are parasomnias (nightmares, nocturnal pavor, sleepwalking or somnambulism) as well as difficulties in falling asleep or maintaining sleep (early or intermediate insomnia), early awakenings (terminal insomnia), REM sleep disorders such as REM Sleep Without Atonia (RSWA), and sleep movement disorders such as Periodic Limb Movement Disorder (PLMD) are the most frequently mentioned.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0008" ref-type="bibr">8</xref></citation_analysis><citation_analysis attribute="neither">,</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0009" ref-type="bibr">9</xref></citation_analysis></p>
+      <p><citation_analysis attribute="positive">The aim of the present study is to describe the clinical and polysomnographic features of sleep in a group of children diagnosed with PANS with no mention on medications for at least 4 weeks before enrollment. The main purpose is to identify putative relationships between sleep disorders and other PANS symptoms by using a data mining approach with fourth-generation Artiﬁcial Neural Networks, computational adaptive systems able to discover subtle trends and associations among variables. Starting from the analysis of these relationships, the authors intend to suggest an interwoven pathophysiological mechanism underling both sleep and PANS symptoms. The study also describes the condition known as “brain fog”, a clouding of consciousness that affect the capacity to organize the thoughts, being wakeful and aware and pay attention</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0010" ref-type="bibr">10</xref></citation_analysis><citation_analysis attribute="neither"> potentially linked to a plethora of possible causes including autoimmune disorders. For instance, people with Systemic Lupus Erythematosus experience a range of cognitive difficulties (“Lupus fog”) such as confusion, difficulty in articulating thoughts and memory impairment.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0011" ref-type="bibr">11</xref></citation_analysis><citation_analysis attribute="neither"> We suppose that this condition could affect also the children with PANS and that it could be related, at least in part, with the sleep abnormalities.</citation_analysis></p>
+    </sec>
+    <sec id="s0003">
+      <title>Methods</title>
+      <sec id="s0003-s2001">
+        <title>Participants</title>
+        <p><citation_analysis attribute="positive">The participants are 23 children diagnosed with PANS during a time interval of six months (from March 1, 2019 to August 31, 2019), consecutively enrolled from the PANS/PANDAS outpatient-service at the Child and Adolescent Neuropsychiatry Unit, “A. Cao” Hospital – “G. Brotzu” Hospital Trust, Cagliari. The sample included children from different Italian regions, being our service one of the few Italian centers specifically dedicated to PANS/PANDAS diagnosis and treatment. Inclusion criteria for their selection were diagnosis of PANS according to the criteria proposed by the 2015 Consensus Conference;</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0005" ref-type="bibr">5</xref></citation_analysis><citation_analysis attribute="neither"> drug-free period of at least 6 weeks; interruption of nutraceutical supplements (included Melatonin) at least 6 weeks before admission to the study.</citation_analysis></p>
+        <p><citation_analysis attribute="neither">All participants underwent a comprehensive clinical evaluation including a detailed interview aimed to assess sleep-wake cycle and sleep disorders, cognitive assessment, blood chemistry examination (tests listed in </citation_analysis><citation_analysis attribute="positive"><xref rid="t0001" ref-type="table">Table 1</xref></citation_analysis><citation_analysis attribute="neither">), nasal and pharyngeal swab and polysomnography.</citation_analysis><citation_analysis attribute="positive"><table-wrap id="t0001" orientation="portrait" position="float"><label>Table 1</label><caption><p><citation_analysis attribute="neither">Laboratory Variables Measured in the Study Sample (PANS-Panel)</citation_analysis></p></caption><table frame="hsides" rules="groups"><tbody><tr><td rowspan="1" colspan="1">Routine blood test</td><td rowspan="1" colspan="1">Blood counts, sideraemia, Erythrocyte sedimentation rate (ESR), C- Reactive Protein (CRP), D-vitamin, Free Triiodothyronine (fT3), Free thyroxine (fT4), Thyroid-stimulating hormone (TSH), Neuron-specific Enolase (NSE)</td></tr><tr><td rowspan="1" colspan="1">Immunological parameters</td><td rowspan="1" colspan="1">Lymphocyte subpopulation, immunoglobulin and complement profile, Anti-TSH Receptor Antibodies (AbTR), Anti-thyroid peroxidase (AbTPO), Anti-thyroglobulin Antibodies (AbTG), Lupus Anti-Coagulant (LAC), Anti-Nuclear Antibodies (ANA), anti-cardiolipin Antibodies, Anti-Glicoprotein B2 Antibodies, anti-deamidated gliadin, transglutaminase and endomysial Antibodies.</td></tr><tr><td rowspan="1" colspan="1">Infectious parameters</td><td rowspan="1" colspan="1">Anti-streptolysin O (ASLO), Herpes Simplex Virus 1 (HSV-1), Epstein Barr Virus (EBV), Mycoplasma Pneumoniae and Chlamydia Pneumoniae, Nasal and Pharyngeal swab.</td></tr></tbody></table></table-wrap></citation_analysis><citation_analysis attribute="positive">
+</citation_analysis></p>
+        <p><citation_analysis attribute="neither">Beside PANS, specific DSM-5 disorders (Tic or Tourette Disorder, Obsessive-compulsive disorder, Mood Disorders, Anxiety Disorder, Attention Deficit Hyperactivity Disorder and Oppositional Defiant Disorder, Learning Disorders) were also considered and diagnosed by Kiddie SADS PL</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0012" ref-type="bibr">12</xref></citation_analysis><citation_analysis attribute="neither"> and specific assessment scales.</citation_analysis></p>
+        <p><citation_analysis attribute="neither">In particular,
+</citation_analysis><citation_analysis attribute="positive"><list list-type="bullet"><list-item><p><citation_analysis attribute="neither">Yale Global Tic Severity Scale (YGTSS)</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0013" ref-type="bibr">13</xref></citation_analysis><citation_analysis attribute="neither"> for the evaluation of tics (Score ≥20 as threshold),</citation_analysis></p></list-item><list-item><p><citation_analysis attribute="neither">Children’s Yale-Brown Obsessive-Compulsive Scale (CY-BOCS)</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0014" ref-type="bibr">14</xref></citation_analysis><citation_analysis attribute="neither"> for the evaluation of obsessive-compulsive symptomatology (Score ≥7 as threshold),</citation_analysis></p></list-item><list-item><p><citation_analysis attribute="neither">Pediatric Acute-onset Neuropsychiatric Syndrome Scale (PANSS)</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0015" ref-type="bibr">15</xref></citation_analysis><citation_analysis attribute="neither"> for the evaluation of specific PANS symptoms (Score ≥20 as threshold with a possible maximum score of 54).</citation_analysis></p></list-item></list></citation_analysis></p>
+        <p><citation_analysis attribute="positive">The level of impairment of global functioning was evaluated by Children’s Global Assessment Scale (C-GAS);,</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0016" ref-type="bibr">16</xref></citation_analysis><citation_analysis attribute="neither"> cognitive profile by Wechsler series scales (WISC-IV and WPPSI-III) considering Full Scale IQ, Verbal Comprehension Index (VCI), Perceptual Reasoning Index (PRI), Working Memory Index (WMI), Processing Speed Index (PSI); cognitive levels were dichotomized based on a cut-off of 85 (1 SD below the average).</citation_analysis></p>
+      </sec>
+      <sec id="s0003-s2002">
+        <title>Polysomnography</title>
+        <p><citation_analysis attribute="neither">Each subject underwent a full-night ambulatory polysomnography (PSG) recording (Nox A1 – Nox Medical). The PSG was executed in the same week in which the clinical evaluation was performed. Sleep stages, respiratory and legs activity were scored manually by a clinical neurophysiologist expert in sleep medicine (PC), following standard AASM criteria</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0017" ref-type="bibr">17</xref></citation_analysis><citation_analysis attribute="neither"> (2018 update) on 30-seconds epochs.</citation_analysis></p>
+        <p><citation_analysis attribute="positive">The following parameters were included in the polysomnographic study: EEG (six channels: one frontal, one central, and one occipital per hemisphere, referred to the contralateral earlobe), electrooculogram (electrodes placed 1 cm above the right cantus and 1 cm below the left cantus and referred to A1), electromyogram (EMG) of submental muscle, EMG of bilateral tibialis anterior muscle (bipolar derivations with two electrodes placed 3 cm apart on the belly of the anterior tibialis muscle of each leg), and one single-lead ECG. The sleep respiratory pattern was assessed by means of nasal airflow (nasal pressure cannula), thoracic and abdominal respiratory effort (strain gauge) and oxygen saturation (pulse-oximetry) during the study night. Sleep signals were stored on hard disk in European data format for further analysis. The polysomnographic evaluated parameters were Total Sleep Time (TST), Sleep Efficiency (SE), Sleep Latency (SL), REM Latency, N1% TST, N2% TST, N3% TST, REM% TST, Wake After Sleep Onset % (WASO%), Awakenings, Periodic Limb Movement Index (PLMI), RSWA (REM Sleep Without Atonia), and the presence of Frequent change position as index of restless sleep.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0018" ref-type="bibr">18</xref></citation_analysis><citation_analysis attribute="neither"> The parameter “Ineffective Sleep” has been defined by values of Sleep Efficiency &lt;88%; the parameter “Fragmented Sleep” has been defined by values of WASO &gt; 10% and the diagnosis of Periodic Limb Movement Disorder (PLMD) has been formulated if the PLMI was ≥5.0 events/hr in presence of a clinical sleep disturbance or daytime impairment. The diagnosis of pediatric obstructive sleep apnea syndrome (OSAS) was defined by an AHI &gt;1/hr and the presence of snoring or effortful, paradoxical, or obstructed breathing during the child’ sleep, or in presence of sleepiness, hyperactivity, behavioral problems, or learning problems, according to ICSD-3 criteria for pediatric obstructive sleep apnea.</citation_analysis></p>
+        <p><citation_analysis attribute="neither">The parameter “Abnormal PSG” includes all the diagnosed sleep disorders (PLMD) and the altered PSG (Ineffective Sleep, Fragmented Sleep, and RSWA).</citation_analysis></p>
+      </sec>
+      <sec id="s0003-s2003">
+        <title>Artiﬁcial Neural Networks Analysis</title>
+        <p><citation_analysis attribute="positive">For the analysis of the collected data, the Auto Contractive Map (Auto-CM) system has been used. Artificial Neural Networks (ANNs) are computational adaptive systems inspired by the functioning processes of the human brain: they are considered particularly useful to solve non-linear problems and to discover subtle trends and associations among variables. Based on their learning through an adaptive way (ie, extracting from the available data the information needed to achieve a specific aim and to generalize the acquired knowledge), the ANNs appear to be a powerful tool for data analysis in the presence of relatively small samples.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0019" ref-type="bibr">19</xref></citation_analysis><citation_analysis attribute="positive"> The Auto Contractive Map (Auto-CM) system is a fourth generation unsupervised ANNs which has already been demonstrated to outperform several other unsupervised algorithms in a heterogeneous class of tasks.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0020" ref-type="bibr">20</xref></citation_analysis><citation_analysis attribute="positive"> Auto-CM has been developed to explore the concomitant associations of different variables, and the potential relationships among variables in a multi-factor network relevant for the disease. The ultimate goal of this data mining model is to discover hidden trends and associations among variables since this algorithm is able to create a semantic connectivity map in which no linear associations are preserved, and explicit connection schemes are described.</citation_analysis></p>
+        <p><citation_analysis attribute="positive">Auto-CM requires a training phase necessary to learn how variables are interconnected. The learning algorithm of CM may be summarized in four orderly steps: a) Signal Transfer from the Input into the Hidden layer; b) Adaptation of the connections value between the Input layer and the Hidden layer; c) Signal Transfer from the Hidden layer into the Output layer; d) Adaptation of the connections value between the Hidden layer and the Output layer (see </citation_analysis><citation_analysis attribute="positive"><underline><ext-link ext-link-type="uri" xlink:href="https://www.dovepress.com/get_supplementary_file.php?f=300818.docx">Supplementary Materials</ext-link></underline></citation_analysis><citation_analysis attribute="neither">).</citation_analysis></p>
+        <p><citation_analysis attribute="positive">Based on the minimum spanning tree theory, the Auto-CM reveals the connections among variables providing a graph in which the distances among variables reflect their bonding strength (weights). This approach provides the map of relevant connections between and among variables and the principal hubs of the system. Hubs can be defined as variables with the maximum amount of connections in the map. The Auto-CM does not pose randomly the initial weights. Conversely, the Auto-CM starts with the same value. Thus, the resulting graph is reproducible along many runs.</citation_analysis></p>
+        <p><citation_analysis attribute="positive">The MST represents what we could call the “nervous system” of any dataset. In fact, summing up all of the connection strengths among all the variables, we get the total energy of that system. The MST selects only the connections that minimize this energy, ie, the only ones that are necessary to keep the system coherent. Consequently, all the links included in the MST are fundamental, but, on the contrary, not every “fundamental” link of the dataset need be in the MST. Such limit is intrinsic to the nature of MST itself: every link that gives rise to a cycle into the graph (viz., that destroys the graph’s ‘treeness’) is eliminated, whatever its strength and meaningfulness. To fix this shortcoming and to better capture the intrinsic complexity of a dataset, it is necessary to add more links to the MST, according to two criteria: (1) the new links have to be relevant from a quantitative point of view; (2) the new links have to be able to generate new cyclic regular microstructures, from a qualitative point of view. The additional links superimposed to MST graph generate a Maximally Regular Graph.</citation_analysis></p>
+        <p><citation_analysis attribute="positive">The Maximally Regular Graph (MRG) the graph whose hubness function attains the highest value among all the graphs generated by adding back to the original MST, one by one, the missing connections previously skipped during the computation of the MST itself. In other words, The MRG, generates, starting from the MST, the graph presenting the highest number of regular microstructures highlighting the most important connections of the dataset. The resulting “diamond” expresses the complexity core of the system and in our specific case, the core of the syndrome. The detailed description of Auto-CM is provided in the </citation_analysis><citation_analysis attribute="positive"><underline><ext-link ext-link-type="uri" xlink:href="https://www.dovepress.com/get_supplementary_file.php?f=300818.docx">Supplementary Material S1</ext-link></underline></citation_analysis><citation_analysis attribute="neither">.</citation_analysis></p>
+        <p><citation_analysis attribute="positive">For statistical purposes, we converted some continuous variables in dichotomous measures. In particular, the ASLO patient’s serum titers have been pooled in two groups (ASLO titer &gt; or &lt; of 200 IU/mL), based on the upper reference limit. The ANA patient’s serum titers have been pooled in two groups (titers &lt; or &gt; of 1: 120), based on the upper reference limit. ESR, NSE and CRP were evaluated as abnormal if above the upper reference limit of 15 mm/h, 18 ug/L and 2.0 mg/dl, respectively. Vitamin D was considered insufficient under the lower reference limit of 25 ng/mL.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0021" ref-type="bibr">21</xref></citation_analysis></p>
+      </sec>
+      <sec id="s0003-s2004">
+        <title>Ethical Approval</title>
+        <p><citation_analysis attribute="positive">This study was conducted in accordance with the Declaration of Helsinki and the Independent Ethical Committee of Cagliari University Hospital approved the study. All the parents were given a full explanation of the study methods and purposes and they gave their written consent.</citation_analysis></p>
+      </sec>
+    </sec>
+    <sec id="s0004">
+      <title>Results</title>
+      <p><citation_analysis attribute="neither">Between March 2019 and August 2019, a total of 43 individuals with PANS were screened for enrolment. Of these, 20/43 (46.5%) were excluded as they did not meet inclusion criteria (12/20 were taking melatonin or vitamin D supplementation and 8/20 were taking SSRI or Dopamine-receptors antagonist drugs). All enrolled children were drug free for any psychoactive and anti-inflammatory drugs and for dietary supplements for at least 6 weeks.</citation_analysis></p>
+      <p><citation_analysis attribute="neither">In the remaining 23 patients (19 males, 4 females; gender ratio of 5:1), mean age at enrollment was 9.8 years (SD: 2.6; range: 4.8–15.4), mean age at onset of PANS symptoms was 6.4 years (SD: 2.6; range: 2.5–11.1), mean age at the time of diagnosis was 8.7 years (SD: 2.8; range: 3.8–15.1), corresponding to a mean diagnosis delay of 2.3 years (SD: 1.7; range: 0–6.5).</citation_analysis></p>
+      <p><citation_analysis attribute="neither">At the time of clinical assessment, 9/23 subjects (39.1%) were in the acute phase of the disease (onset or relapsing phase), and the remaining 14/23 (60.8%) had a chronic PANS presentation or were on the remitting phase of a “wax and wane” PANS course.</citation_analysis></p>
+      <p><citation_analysis attribute="neither">The descriptive characteristics of the sample are summarized in </citation_analysis><citation_analysis attribute="positive"><xref rid="t0002" ref-type="table">Table 2</xref></citation_analysis><citation_analysis attribute="neither">.</citation_analysis><citation_analysis attribute="positive"><table-wrap id="t0002" orientation="portrait" position="float"><label>Table 2</label><caption><p><citation_analysis attribute="neither">Demographic and Clinical Patients’ Characteristics</citation_analysis></p></caption><table frame="hsides" rules="groups"><thead><tr><th colspan="4" rowspan="1">Continuous Variables</th></tr><tr><th rowspan="1" colspan="1"/><th rowspan="1" colspan="1">Mean Value (Years)</th><th rowspan="1" colspan="1">Range (Years)</th><th rowspan="1" colspan="1">SD (Years)</th></tr></thead><tbody><tr><td rowspan="1" colspan="1"><bold>Mean age at study enrolment</bold></td><td rowspan="1" colspan="1">9.8</td><td rowspan="1" colspan="1">4.8–15.4</td><td rowspan="1" colspan="1">2.6</td></tr><tr><td rowspan="1" colspan="1"><bold>Mean age at full symptom onset</bold></td><td rowspan="1" colspan="1">6.4</td><td rowspan="1" colspan="1">2.5–11.1</td><td rowspan="1" colspan="1">2.6</td></tr><tr><td rowspan="1" colspan="1"><bold>Mean age at diagnosis</bold></td><td rowspan="1" colspan="1">8.7</td><td rowspan="1" colspan="1">3.8–15.1</td><td rowspan="1" colspan="1">2.8</td></tr><tr><td rowspan="1" colspan="1"><bold>Diagnostic mean delay</bold></td><td rowspan="1" colspan="1">2.3</td><td rowspan="1" colspan="1">0–6.5</td><td rowspan="1" colspan="1">1.7</td></tr><tr><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"><bold>Mean Value</bold></td><td rowspan="1" colspan="1"><bold>Range</bold></td><td rowspan="1" colspan="1"><bold>SD</bold></td></tr><tr><td rowspan="1" colspan="1"><bold>Full Scale Intelligence Quotient (Full Scale IQ)</bold></td><td rowspan="1" colspan="1">94.6</td><td rowspan="1" colspan="1">55–116</td><td rowspan="1" colspan="1">15.9</td></tr><tr><td rowspan="1" colspan="1"><bold>Verbal Comprehension Index (VCI)</bold></td><td rowspan="1" colspan="1">99.2</td><td rowspan="1" colspan="1">60–124</td><td rowspan="1" colspan="1">18,9</td></tr><tr><td rowspan="1" colspan="1"><bold>Perceptual Reasoning Index (PRI)</bold></td><td rowspan="1" colspan="1">102.4</td><td rowspan="1" colspan="1">71–124</td><td rowspan="1" colspan="1">15,5</td></tr><tr><td rowspan="1" colspan="1"><bold>Working Memory Index (WMI)</bold></td><td rowspan="1" colspan="1">90.5</td><td rowspan="1" colspan="1">70–118</td><td rowspan="1" colspan="1">12,3</td></tr><tr><td rowspan="1" colspan="1"><bold>Processing Speed Index (PSI)</bold></td><td rowspan="1" colspan="1">84.6</td><td rowspan="1" colspan="1">65–109</td><td rowspan="1" colspan="1">12,7</td></tr><tr><td colspan="4" align="center" rowspan="1"><bold>Discrete Variables</bold></td></tr><tr><td rowspan="1" colspan="1"><bold>Gender</bold></td><td align="left" rowspan="1" colspan="1">Females: 4/23 (17%)</td><td colspan="2" align="left" rowspan="1">Males: 19/23 (83%)</td></tr><tr><td rowspan="1" colspan="1"><bold>Phase of disease</bold></td><td align="left" rowspan="1" colspan="1">Acute: 9/23 (39%)</td><td colspan="2" align="left" rowspan="1">Chronic: 14/23 (61%)</td></tr><tr><td colspan="4" align="center" rowspan="1"><bold>DSM-5 Associated Diagnosis</bold></td></tr><tr><td rowspan="1" colspan="1"><bold>OCD</bold> 10/23 (43%)</td><td colspan="3" align="left" rowspan="1"><bold>ADHD/ODD:</bold> 12/23 (52%)</td></tr><tr><td rowspan="1" colspan="1"><bold>Anxiety</bold> 4/23 (17%)</td><td colspan="3" align="left" rowspan="1"><bold>Tic /TD:</bold> 19/23 (82%)</td></tr><tr><td rowspan="1" colspan="1"><bold>Learning Disorder</bold> 8/23 (34%)</td><td colspan="3" align="left" rowspan="1"><bold>Mood Disorders:</bold> 2/23 (8,6%)</td></tr></tbody></table><table-wrap-foot><fn id="tfn0001"><p><citation_analysis attribute="positive"><bold>Notes:</bold></citation_analysis><citation_analysis attribute="positive"> Acute = symptoms onset or wax phase of a relapsing/remitting course; Chronic = Chronic course or wane phase of a relapsing/remitting course. Notably, both the Processing Speed Index (PSI) and the Working Memory Index (WMI) show a mean value relatively low, if compared to the other indices’ scores.</citation_analysis></p></fn><fn id="tfn0002"><p><citation_analysis attribute="positive"><bold>Abbreviations:</bold></citation_analysis><citation_analysis attribute="neither"> OCD, obsessive-compulsive disorder; ADHD, attention deficit hyperactivity disorder; ODD, oppositional defiant disorder.</citation_analysis></p></fn></table-wrap-foot></table-wrap></citation_analysis><citation_analysis attribute="positive">
+</citation_analysis></p>
+      <p><citation_analysis attribute="neither">The clinical-anamnestic assessment about sleep-wake cycle obtained with the parental contribution showed that 14/23 children had an urge to move the legs with associated unpleasant discomfort which, however, had no clear circadian rhythm, was present not solely at rest, and not always had benefit from the movements, preventing us to set RLS diagnosis. 10/23 children had snoring.</citation_analysis></p>
+      <p><citation_analysis attribute="positive">As expected, polysomnography showed abnormality in 17 out of 23 (73.9%). In particular, in accordance with AASM criteria, 8/17 children (47%) had an ineffective sleep, 10/17 (58.8%) fragmented sleep, 11/17 (64.7%) REM-Sleep Without Atonia (RSWA), and 8/17 (47.1%) Periodic Limb Movement Disorder (PLMD). As suggested by the distribution of percentages, most patients had disordered sleep (“Abnormal PSG”). Similarly, among the19/23 patients diagnosed with Tic Disorder/Tourette Disorder, 8/19 (42.1%) had PLMD, and 10/19 (52.6%) showed RSWA polysomnographic features (</citation_analysis><citation_analysis attribute="positive"><xref rid="t0003" ref-type="table">Table 3</xref></citation_analysis><citation_analysis attribute="neither">).</citation_analysis><citation_analysis attribute="positive"><table-wrap id="t0003" orientation="portrait" position="float"><label>Table 3</label><caption><p><citation_analysis attribute="neither">Polysomnographic Parameters</citation_analysis></p></caption><table frame="hsides" rules="groups"><thead><tr><th rowspan="2" colspan="1"/><th rowspan="2" colspan="1">Mean</th><th rowspan="2" colspan="1">Std. Deviation</th><th rowspan="2" colspan="1">95% Confidence Interval</th><th colspan="2" rowspan="1">D’Agostino &amp; Pearson Normality Test</th></tr><tr><th rowspan="1" colspan="1">P value</th><th rowspan="1" colspan="1">(Alpha=0.05)</th></tr></thead><tbody><tr><td rowspan="1" colspan="1">Total sleep time. Min</td><td rowspan="1" colspan="1">473.20</td><td rowspan="1" colspan="1">59.31</td><td rowspan="1" colspan="1">447.6–498.90</td><td rowspan="1" colspan="1">0.81<sup>ns</sup></td><td rowspan="1" colspan="1">Yes</td></tr><tr><td rowspan="1" colspan="1">Sleep efficiency. %</td><td rowspan="1" colspan="1">89.57</td><td rowspan="1" colspan="1">5.86</td><td rowspan="1" colspan="1">87.04–92.11</td><td rowspan="1" colspan="1">0.67<sup>ns</sup></td><td rowspan="1" colspan="1">Yes</td></tr><tr><td rowspan="1" colspan="1">Sleep Latency (min)</td><td rowspan="1" colspan="1">14.53</td><td rowspan="1" colspan="1">12.79</td><td rowspan="1" colspan="1">8.995–20.06</td><td rowspan="1" colspan="1">0.17<sup>ns</sup></td><td rowspan="1" colspan="1">Yes</td></tr><tr><td rowspan="1" colspan="1">REM latency (min)</td><td rowspan="1" colspan="1">144.90</td><td rowspan="1" colspan="1">66.85</td><td rowspan="1" colspan="1">116–173.80</td><td rowspan="1" colspan="1">0.74<sup>ns</sup></td><td rowspan="1" colspan="1">Yes</td></tr><tr><td rowspan="1" colspan="1">Sleep stage N1, %</td><td rowspan="1" colspan="1">7.94</td><td rowspan="1" colspan="1">5.47</td><td rowspan="1" colspan="1">5.574–10.30</td><td rowspan="1" colspan="1">0.00**</td><td rowspan="1" colspan="1">No</td></tr><tr><td rowspan="1" colspan="1">Sleep stage N2, %</td><td rowspan="1" colspan="1">46.69</td><td rowspan="1" colspan="1">6.19</td><td rowspan="1" colspan="1">44.01–49.36</td><td rowspan="1" colspan="1">0.64<sup>ns</sup></td><td rowspan="1" colspan="1">Yes</td></tr><tr><td rowspan="1" colspan="1">Sleep stage N3, %</td><td rowspan="1" colspan="1">24.74</td><td rowspan="1" colspan="1">4.10</td><td rowspan="1" colspan="1">22.97–26.51</td><td rowspan="1" colspan="1">0.53<sup>ns</sup></td><td rowspan="1" colspan="1">Yes</td></tr><tr><td rowspan="1" colspan="1">Sleep stage R, %</td><td rowspan="1" colspan="1">21.14</td><td rowspan="1" colspan="1">5.74</td><td rowspan="1" colspan="1">18.66–23.62</td><td rowspan="1" colspan="1">0.72<sup>ns</sup></td><td rowspan="1" colspan="1">Yes</td></tr><tr><td rowspan="1" colspan="1">Wakefulness after sleep onset, %</td><td rowspan="1" colspan="1">10.16</td><td rowspan="1" colspan="1">5.43</td><td rowspan="1" colspan="1">7.813–12.51</td><td rowspan="1" colspan="1">0.87<sup>ns</sup></td><td rowspan="1" colspan="1">Yes</td></tr><tr><td rowspan="1" colspan="1">WASO min</td><td rowspan="1" colspan="1">50.87</td><td rowspan="1" colspan="1">29.84</td><td rowspan="1" colspan="1">37.97–63.77</td><td rowspan="1" colspan="1">0.80<sup>ns</sup></td><td rowspan="1" colspan="1">Yes</td></tr><tr><td rowspan="1" colspan="1">Awakenings</td><td rowspan="1" colspan="1">10.70</td><td rowspan="1" colspan="1">7.41</td><td rowspan="1" colspan="1">7.49–13.90</td><td rowspan="1" colspan="1">0.05*</td><td rowspan="1" colspan="1">No</td></tr><tr><td rowspan="1" colspan="1">PLMS index, n/hour</td><td rowspan="1" colspan="1">5.70</td><td rowspan="1" colspan="1">6.56</td><td rowspan="1" colspan="1">2.86–8.53</td><td rowspan="1" colspan="1">&lt;0.0001****</td><td rowspan="1" colspan="1">No</td></tr><tr><td rowspan="1" colspan="1">Apnea-Hypopnea index, n/hour<sup>#</sup></td><td rowspan="1" colspan="1">2.79</td><td rowspan="1" colspan="1">4.56</td><td rowspan="1" colspan="1">0.45–5.14</td><td rowspan="1" colspan="1">&lt;0.0001****</td><td rowspan="1" colspan="1">No</td></tr><tr><td rowspan="1" colspan="1">Oxygen Desaturation Index, n/hour<sup>#</sup> &lt;3%</td><td rowspan="1" colspan="1">2.01</td><td rowspan="1" colspan="1">2.84</td><td rowspan="1" colspan="1">0.55–3.47</td><td rowspan="1" colspan="1">0.00***</td><td rowspan="1" colspan="1">No</td></tr><tr><td rowspan="1" colspan="1">SpO2mean (%)<sup>#</sup></td><td rowspan="1" colspan="1">96.31</td><td rowspan="1" colspan="1">0.57</td><td rowspan="1" colspan="1">96.01–96.60</td><td rowspan="1" colspan="1">0.30<sup>ns</sup></td><td rowspan="1" colspan="1">Yes</td></tr><tr><td rowspan="1" colspan="1">SpO2min (%)<sup>#</sup></td><td rowspan="1" colspan="1">92.13</td><td rowspan="1" colspan="1">1.54</td><td rowspan="1" colspan="1">91.3–92.95</td><td rowspan="1" colspan="1">0.89<sup>ns</sup></td><td rowspan="1" colspan="1">Yes</td></tr><tr><td rowspan="1" colspan="1">Heart rate<sup>#</sup></td><td rowspan="1" colspan="1">68.28</td><td rowspan="1" colspan="1">8.95</td><td rowspan="1" colspan="1">63.51–73.05</td><td rowspan="1" colspan="1">0.07<sup>ns</sup></td><td rowspan="1" colspan="1">Yes</td></tr></tbody></table><table-wrap-foot><fn id="tfn0003"><p><citation_analysis attribute="positive"><bold>Notes:</bold></citation_analysis><citation_analysis attribute="positive">
+</citation_analysis><citation_analysis attribute="positive"><sup>#</sup></citation_analysis><citation_analysis attribute="neither">Respiratory parameters were available only for 18/23 patients, due to the difficulties for 5 children to accept the pulse-oximeter. Test for Gaussian distribution. GP: 0.1234 (</citation_analysis><citation_analysis attribute="positive"><sup>ns</sup></citation_analysis><citation_analysis attribute="neither">); 0.0332 (*), 0.0021 (**), 0.0002 (***), &lt;0.0001 (****).</citation_analysis></p></fn></table-wrap-foot></table-wrap></citation_analysis><citation_analysis attribute="positive">
+</citation_analysis></p>
+      <p><citation_analysis attribute="neither">The respiratory parameters were available only for 18/23 (78.2%) patients, due to the difficulties for 5 children to accept the pulse-oximeter. Among them, 14/18 (77.8%) subjects had a respiratory pattern characterized by snoring and 6/18 (33%) had a condition of pediatric obstructive Sleep Apnea Syndrome (OSAS) with a severity score between mild (4/6) and severe (2/6) (see </citation_analysis><citation_analysis attribute="positive"><xref rid="t0003" ref-type="table">Table 3</xref></citation_analysis><citation_analysis attribute="positive">). These 2 patients with a severe OSAS underwent an adeno-tonsillectomy and reported an improvement in both OSAS (mean AHI 0,2 events/hour and mean ODI 0,2 events/hour) and PANS symptoms after surgery.</citation_analysis></p>
+      <p><citation_analysis attribute="neither">Biological parameters were out of the normal range in a large portion of patients. Serology and blood chemistry showed high antibody titers against Chlamydia Pneumoniae in 15/23 participants (65.2%) of which 10/15 were IgM and 5/15 IgG-mediated, and against Mycoplasma pneumoniae in 6/23 participants (26%) of which 4/6 were IgM and 2/6 IgG-mediated. Elevated ASLO (Anti Streptolysin-O; 11/23, 47.8% of the sample) and Anti-Nuclear Antibodies (ANA) titers (5/23, 21.7%) were also found. Neuron-specific enolase (NSE), an enzyme detected in serum following structural damage of neuronal brain cells, was elevated in 15/23 subjects (65.2%). Severe lower levels of vitamin D (14/23, 60.8%) and of serum iron (sideraemia, 8/23, 34.7%), were also detected. Erythrocyte Sedimentation Rate (ESR) faster-than-normal rate and a high level of C-Reactive Protein (CRP) were measured only in 4/23 (17.3%) and 1/23 (4.3%) patients.</citation_analysis></p>
+      <p><citation_analysis attribute="positive">With reference to the cognitive parameters, we found a discrepancy between the Processing Speed Index (PSI) (mean score 84.6) and the other intelligence scale mean score indexes (VCI 99.2; PRI 102.4; WMI 90.5). Since processing speed refers to the speed of cognitive processes and response output, this result accounts for a slower processing speed in the children of our sample.</citation_analysis></p>
+      <sec id="s0004-s2001">
+        <title>Semantic Connectivity Maps</title>
+        <p><citation_analysis attribute="positive">The semantic connectivity maps (Auto-CM method) – Minimum spanning tree (MST) graphs show the strength of association across the clinical, neuropsychological, biological and polysomnographic variables visualized by the concept of “closeness”: the variables whose connection weights are higher get relatively nearer and vice versa. The strength of the relation between variables increases progressively until the values of 1 (the strongest level of connection). In our maps, all the links strength values were above 0.8 (corresponding to a strong connection) and most of them were very close to 1. As shown in all maps, the variable “Abnormal PSG”, which includes all the diagnosed sleep disorders, acts as a hub having a considerable number of connections with the other clinical, neuropsychological and biological variables.</citation_analysis></p>
+        <p><citation_analysis attribute="positive">Map 1 shows the connections between all sleep parameters and the clinical variables, expressed by the standardized scores at the evaluation scales (YGTSS; CY-BOCS; PANSS; C-GAS). The same map includes the diverse DSM-5 diagnoses of the disorders diagnosed in association to PANS. The “Maximally Regular Graph” (red diamond, for details see </citation_analysis><citation_analysis attribute="positive"><underline><ext-link ext-link-type="uri" xlink:href="https://www.dovepress.com/get_supplementary_file.php?f=300818.docx">Supplementary Material S1</ext-link></underline></citation_analysis><citation_analysis attribute="neither">) encompasses the variables with higher number of connections. These are represented by the DSM-5 diagnosis of Tic disorder/Tourette disorder, the total YGTSS score &gt;20, the PANSS total score &gt;20, the CGAS &lt;60, the “Abnormal PSG” and the presence of snoring (see </citation_analysis><citation_analysis attribute="positive"><xref ref-type="fig" rid="f0001">Figure 1</xref></citation_analysis><citation_analysis attribute="neither">).</citation_analysis><citation_analysis attribute="positive"><fig id="f0001" fig-type="figure" orientation="portrait" position="float"><label>Figure 1</label><caption><p><citation_analysis attribute="positive">Map 1. Connections between sleep parameters inferred by polysomnographic study, DSM-5 diagnoses, and all the behavioural parameters assessed by scales and checklists.</citation_analysis></p></caption><graphic content-type="print-only" xlink:href="NSS-13-1209-g0001"/><attrib><bold>Abbreviations:</bold> PSG, polysomnography; OCD, obsessive-compulsive disorder; ID, intellectual disability; PLMD, periodic limb movement disorder; RSWA, REM sleep without atonia; Mood, mood disorders; Anxiety, anxiety disorders; Tic/Tourette, Tic/Tourette disorder; Total YGTSS, Total score in Yale Global Tic Severity Scale; Total CY-BOCS, Total score in Children’s Yale-Brown Obsessive-Compulsive Scale; Total PANSS, Total score in Pediatric Acute-onset Neuropsychiatric Syndrome Scale; C-GAS, score in Children’s Global Assessment Scale.</attrib></fig></citation_analysis></p>
+        <p><citation_analysis attribute="positive">Map 2 explores the connections between all the sleep parameters and both the clinical dimensions assessed by PANSS and neuropsychological parameters assessed by Wechsler intelligence scales. This map is aimed to highlight the hidden connection between sleep characteristics and cognitive and behavioural symptoms. Both “Abnormal PSG” and “sleep disturbance” represent hubs with a high number of links. The “Maximally Regular Graph” (red diamond) includes also the motor symptoms, the learning cognitive symptoms, anxiety, irritability and OCD symptoms. Among PSG variables, the “Maximally Regular Graph includes snoring (see </citation_analysis><citation_analysis attribute="positive"><xref ref-type="fig" rid="f0002">Figure 2</xref></citation_analysis><citation_analysis attribute="neither">).</citation_analysis><citation_analysis attribute="positive"><fig id="f0002" fig-type="figure" orientation="portrait" position="float"><label>Figure 2</label><caption><p><citation_analysis attribute="positive">Map 2. Connections between sleep parameters inferred by polysomnographic study, clinical dimensions assed by PANSS and neuropsychological parameters assessed by Wechsler intelligence scales.</citation_analysis></p></caption><graphic content-type="print-only" xlink:href="NSS-13-1209-g0002"/><attrib><bold>Abbreviations:</bold> PSG, polysomnography; PLMD, periodic limb movement disorder; RSWA, REM sleep without atonia; PRI, Perceptual Reasoning Index; VCI, Verbal Comprehension Index; PSI, Processing Speed Index; WMI, working memory index; Full-Scale IQ, Full-Scale Intelligence Quotient.</attrib></fig></citation_analysis></p>
+        <p><citation_analysis attribute="positive">Map 3 explores the connections between all sleep parameters and the laboratory variables exceeding the normal range. This Map reveals that the variable “Abnormal PSG” represents the hub with the highest number of links, receiving convergence from both sleep and biological parameters. The “Maximally Regular Graph” (red diamond) includes the D3 vitamin low level, the sideraemia low level, the positive anti-chlamydia antibodies and the ASLO high title as well as other clinical sleep variables (RSWA, PLMD, frequent position changes and Snoring) (see </citation_analysis><citation_analysis attribute="positive"><xref ref-type="fig" rid="f0003">Figure 3</xref></citation_analysis><citation_analysis attribute="neither">).</citation_analysis><citation_analysis attribute="positive"><fig id="f0003" fig-type="figure" orientation="portrait" position="float"><label>Figure 3</label><caption><p><citation_analysis attribute="neither">Map 3. Connections between clinical sleep parameters inferred by polysomnographic study and biological parameters which exceeded the normal range.</citation_analysis></p></caption><graphic content-type="print-only" xlink:href="NSS-13-1209-g0003"/><attrib><bold>Notes:</bold> Nasal and pharyngeal swab: culture positive for Group A beta-hemolytic streptococcus (GABHS) or Staphylococcus aureus (MRSA), Streptococcus pneumoniae (pneumococcus), Haemophilus influenzae or other upper respiratory tract pathogenic germs. The antistreptolysin O (ASLO) patient’s values in the blood plasma have been pooled in two groups (antistreptolysin titer &gt; or &lt; of 200 IU/mL), based on the upper reference limit. One or more IgG and IgM Antibodies against other germs (Anti Mycoplasma pneumoniae and Anti Chlamydia pneumoniae). The Antinuclear Antibodies (ANA) patient’s values in the blood plasma have been pooled in two groups (titers &lt; or &gt; of 1: 120), based on the upper reference limit. One or more inflammatory markers (erythrocyte sedimentation rate [ESR] and C-reactive protein [CRP]) above the upper reference limit.</attrib><attrib><bold>Abbreviations:</bold> PSG, polysomnography; PLMD, periodic limb movement disorder; RSWA, REM sleep without atonia; ESR, Erythrocyte sedimentation rate; CRP, C-Reactive Protein; ANA, Anti-Nuclear Antibodies; NSE, Neuron-specific Enolase; ASLO, Anti Streptolysin O.</attrib></fig></citation_analysis></p>
+      </sec>
+    </sec>
+    <sec id="s0005">
+      <title>Discussion</title>
+      <p><citation_analysis attribute="neither">The results of the present study confirm sleep disturbances in children diagnosed with PANS, and strongly suggest that disordered sleep is a cardinal symptom of the PANS illness.</citation_analysis></p>
+      <p><citation_analysis attribute="positive">A growing scientific attention has recently focused on PANS. On one hand, several cohort studies demonstrated associations between different microbial infections and the abrupt emergence of psychiatric symptoms. On the other hand, biological studies disagree in showing PANS to have a clear immune basis and strong consistency for treatment with antimicrobials or immunotherapy is still lacking, with the only randomized, controlled clinical trial suggesting little outcome difference between placebo and immunotherapies.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0022" ref-type="bibr">22</xref></citation_analysis><citation_analysis attribute="positive"> However, given the severe and sometimes disabling nature of PANS and the serious effects on family and child functioning, it is crucial to understand the biological basis of this syndrome and to distinguish this entity from others. The objective characterization of sleep alterations associated to PANS phenotype might be helpful in reaching this purpose.</citation_analysis></p>
+      <sec id="s0005-s2001">
+        <title>Polysomnographic Study</title>
+        <p><citation_analysis attribute="positive">Polysomnography was abnormal in 73.9% of our patients which is consistent with the finding of PANS consortium reporting sleep alterations in about 80% of patients with PANS both at the onset of symptoms and after the acute phase.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0005" ref-type="bibr">5</xref></citation_analysis></p>
+        <p><citation_analysis attribute="neither">One of the main features of the present study is the complete pharmacological and nutraceutical wash-out condition of all enrolled patients. Compared to previous PANS polysomnographic studies,</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0007" ref-type="bibr">7</xref></citation_analysis><citation_analysis attribute="neither">,</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0008" ref-type="bibr">8</xref></citation_analysis><citation_analysis attribute="neither"> our study has no biases related to the potential drug-driven interferences on the sleep-wake rhythm and the intrinsic structure of sleep.</citation_analysis></p>
+        <p><citation_analysis attribute="neither">The subjects of our sample showed sleep disorders and disordered sleep both in acute and chronic phase of the disease, which may be linked to the new entity of restless sleep disorder described by DelRosso et al.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0018" ref-type="bibr">18</xref></citation_analysis><citation_analysis attribute="neither"> In particular, PLMD and RSWA were largely represented. Notably, among the 19/23 patients diagnosed with Tic Disorder/Tourette Disorder, 10/19 (52.6%) had a condition of RSWA and 8/19 (42.1%) had a condition of PLMD. The prevalence rate of PLMD observed in the studied sample was significantly higher than that in the general pediatric population (2–4%).</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0024" ref-type="bibr">24</xref></citation_analysis><citation_analysis attribute="positive"> The rates of RSWA were similar to those reported by Gaughan.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0007" ref-type="bibr">7</xref></citation_analysis><citation_analysis attribute="neither"> Unfortunately, we could not compare our RSWA rate to that of the general pediatric population, since, to the best of our knowledge, this rate is not available in the existing literature.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0023" ref-type="bibr">23</xref></citation_analysis><citation_analysis attribute="neither"> Moreover, the prevalence of PLMD in our Tic/Tourette’s PANS patients was also significantly higher than that among pediatric patients with isolated Tourette’s Disorder (6% described by Kostanecka-Endress et al).</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0025" ref-type="bibr">25</xref></citation_analysis><citation_analysis attribute="neither"> This difference might represent a possible distinction-key between a “pure” Tourette’s Disorder and a Tourette’s Disorder diagnosed in the context of a PANS.</citation_analysis></p>
+        <p><citation_analysis attribute="neither">The high prevalence of PLMD among PANS patients may suggest a specific involvement of dopaminergic circuits, in the disorder as PLMD is thought to be sustained by a deficit of motor inhibition during sleep.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0026" ref-type="bibr">26–30</xref></citation_analysis><citation_analysis attribute="positive"> Periodic Limb Movements (PLMs) are associated with a hypo function of dopaminergic system as suggested by their suppression after treatment with L-dopa or dopaminergic agonist drugs, whereas they may be induced or worsened by dopamine-receptor antagonists.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0031" ref-type="bibr">31</xref></citation_analysis></p>
+        <p><citation_analysis attribute="positive">In patients with PLMs in sleep or restless legs syndrome, PET and SPECT studies have shown a mild presynaptic nigrostriatal and postsynaptic striatal dopaminergic hypofunction.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0032" ref-type="bibr">32</xref></citation_analysis></p>
+        <p><citation_analysis attribute="neither">In patients with Parkinson’s disease reduced striatal [(123)I]beta-CIT binding correlated with the number of periodic limb movements in sleep;</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0033" ref-type="bibr">33</xref></citation_analysis><citation_analysis attribute="neither">,</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0034" ref-type="bibr">34</xref></citation_analysis><citation_analysis attribute="neither"> Parkinsonian patients off of dopaminergic treatment had significantly higher rates of PLMs than patients under treatment.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0035" ref-type="bibr">35</xref></citation_analysis></p>
+      </sec>
+      <sec id="s0005-s2002">
+        <title>Semantic Connectivity Maps</title>
+        <p><citation_analysis attribute="positive">Artificial Neural Network methodology and the Auto-Contractive Map was used to investigate the putative relationships among the frequent PSG abnormalities and clinical, neuropsychological and laboratory parameters. Exploiting all not obvious links among the full spectrum of variables, the Auto-Contractive Map method revealed the simultaneous connections among them, facing the complexity of PANS phenotype.</citation_analysis></p>
+        <p><citation_analysis attribute="neither">The semantic connectivity Map 1 (</citation_analysis><citation_analysis attribute="positive"><xref ref-type="fig" rid="f0001">Figure 1</xref></citation_analysis><citation_analysis attribute="positive">) shows the connections between sleep parameters, DSM-5 diagnoses, and all the behavioral parameters assessed by scales and checklists. The clearest evidence of this map is that the variable “Abnormal PSG” is related to higher PANS total score, suggesting a strong impact of sleep disturbance on PANS phenotype. Interestingly, “Tic/Tourette” diagnosis is the variable closer to the “Abnormal PSG”, confirming the strong connection between sleep abnormalities and the presence of daily uncontrolled movement as tics. An extensive nationwide population-based study showed as Tourette Disorder per se is an independent risk factor for sleep disorders in children with associated neurodevelopmental disorders.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0036" ref-type="bibr">36</xref></citation_analysis><citation_analysis attribute="positive"> However, the overall incidence rate of sleep disorders in TD subjects reported in Lee’s study</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0036" ref-type="bibr">36</xref></citation_analysis><citation_analysis attribute="neither"> (7.24%) is largely lower than the incidence rate of sleep disorders in our PANS series, suggesting a wider involvement of the sleep regulation mechanisms in PANS than in TD.</citation_analysis></p>
+        <p><citation_analysis attribute="neither">The “Maximally Regular Graph” (red diamond) encompassing the variables with higher number of connections, also includes the variable “snoring”. This is an interesting finding since snoring is usually related in children with adenotonsillar hypertrophy, which, in turn, represents a potential cause of OSAS.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0037" ref-type="bibr">37</xref></citation_analysis><citation_analysis attribute="positive"> In our sample 33% of the 18 patients for which oximeter data were available had OSAS. A previous study, aimed to describe the otorhinolaryngologic findings in patients with Pediatric Autoimmune Neuropsychiatric Disorders Associated with Streptococcal Infections (PANDAS), found a high rate (65.7%) of adenoid and tonsil hypertrophy.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0038" ref-type="bibr">38</xref></citation_analysis><citation_analysis attribute="neither"> The authors stated that not all children with adenotonsillar hypertrophy suffer also from sleep breathing disorders and that the correlation between the degree of lymphatic structures hypertrophy and the severity of obstructive respiratory symptoms is not linear. However, the same authors discuss the efficacy of adenotonsillectomy for pediatric OSAS and, according to the guidelines for tonsillectomy (American Academy of Otolaryngology-Head &amp; Neck Surgery),</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0039" ref-type="bibr">39</xref></citation_analysis><citation_analysis attribute="neither"> suggest to consider the surgical therapeutic option also for PANDAS/PANS patients.</citation_analysis></p>
+        <p><citation_analysis attribute="neither">The semantic connectivity Map 2 (</citation_analysis><citation_analysis attribute="positive"><xref ref-type="fig" rid="f0002">Figure 2</xref></citation_analysis><citation_analysis attribute="positive">) shows the connections between sleep parameters, clinical dimensions assessed by PANSS and neuropsychological parameters assessed by Wechsler intelligence scales. “Abnormal PSG” and “sleep disturbances” variables represent hubs with a high interconnectivity with motor symptoms, learning cognitive symptoms, anxiety, irritability and OCD. Therefore, the “Maximally Regular Graph” (red diamond) includes both cognitive and psychiatric symptoms strictly linked to sleep disturbances, suggesting a central role of these last in defining the PANS phenotype. Among PSG variables, snoring is the closest to learning and cognitive dimension of PANS. A potential impact of sleep disordered breathing symptoms on daily cognitive performances has already been described by many authors.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0040" ref-type="bibr">40</xref></citation_analysis><citation_analysis attribute="neither">,</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0041" ref-type="bibr">41</xref></citation_analysis><citation_analysis attribute="neither"> A similar impairment of both sleep and cognitive aspects also occurs in other sleep disturbances such as narcolepsy and Kleine-Levin syndrome.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0042" ref-type="bibr">42</xref></citation_analysis><citation_analysis attribute="neither"> In these conditions, sleep alterations are often associated with a certain degree of cognitive dysfunction as confusion and fogging.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0043" ref-type="bibr">43</xref></citation_analysis></p>
+        <p><citation_analysis attribute="neither">Interestingly, the semantic connectivity Map 2 (</citation_analysis><citation_analysis attribute="positive"><xref ref-type="fig" rid="f0002">Figure 2</xref></citation_analysis><citation_analysis attribute="neither">) shows a close link between the sleep variables, encompassed in the red diamond, and the cognitive indices “Processing Speed Index (PSI)” and “Working Memory Index (WMI)” of the Wechsler intelligence scales for children. Processing speed is thought to be the ability to rapidly process novel information and to identify, discriminate, integrate, make a decision about information while working memory accounts for higher order thinking processes and, in particular, for the ability to temporarily store and manipulate new information to ensure successful task execution.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0012" ref-type="bibr">12</xref></citation_analysis><citation_analysis attribute="positive"> We can assume that both these functions are impaired in the condition known as “brain fog” described as a weakening in memory, attention, executive function, and the speed of cognitive processing. This condition has been clinically observed in a large part of the children of our sample and confirmed by the result of the cognitive test, showing relatively low mean scores in PSI and WMI index (84.6 and 90.5, respectively). Meaningfully, reduced speed of complex information processing is the impairment most consistently found in chronic fatigue syndrome (CFS)</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0044" ref-type="bibr">44</xref></citation_analysis><citation_analysis attribute="neither"> a disease strongly associated with a brain fog condition. A more recent study conduct in adolescents with CFS</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0045" ref-type="bibr">45</xref></citation_analysis><citation_analysis attribute="neither"> found that IQ scores tested lower than the IQ scores of healthy peers with an equivalent school level suggesting that the lower IQ outcomes could be due to concentration problems based on a lowered processing speed. At the same time, the “brain fog” condition is largely described among different autoimmune and inflammatory diseases. We mentioned in the introduction the Systemic Lupus Erythematosus disease as a condition that can lead to experience a range of cognitive difficulties (“Lupus fog”) such as confusion, difficulty in articulating thoughts and memory impairment.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0011" ref-type="bibr">11</xref></citation_analysis><citation_analysis attribute="positive"> A mild degradation of cognitive functions, referred to as “brain fog”, has been also reported in patients with coeliac disease.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0046" ref-type="bibr">46</xref></citation_analysis><citation_analysis attribute="neither"> Such deficits associated with sleep disturbance, also occur in patients with Crohn’s disease, particularly in association with systemic inflammatory activity.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0047" ref-type="bibr">47</xref></citation_analysis><citation_analysis attribute="positive"> Taken together, these data could indicate a possible link between sleep disorders/disordered sleep and brain fog and the association of both these conditions with systemic inflammation. Furthermore, the symptomatic overlap of PANS with other autoimmune diseases and other sleep disorders of well-known immune-mediated pathogenesis is consistent with the explanation of PANS as a complex syndrome encompassing different symptoms, epiphenomena of a common inflammatory/autoimmune condition.</citation_analysis></p>
+        <p><citation_analysis attribute="positive">The analysis of the connections between sleep and biological parameters by semantic connectivity Map 3 (</citation_analysis><citation_analysis attribute="positive"><xref ref-type="fig" rid="f0003">Figure 3</xref></citation_analysis><citation_analysis attribute="positive">), shows that the node “Abnormal PSG” acts as a hub, receiving a great number of convergences. This evidence stresses, once again, the central role of sleep disturbances and disordered sleep in PANS phenotype. The “Maximally Regular Graph” (red diamond) links the sleep variables (PLMD, Sleep fragmentation, RSWA, frequent position changes and Snoring) with some metabolic and infective variables linked to PANS. In particular, some infectious markers such as a high ASLO titer and the presence of anti-Chlamydia antibodies, appears closely linked to sleep variables suggesting a shared dysimmune basis, possibly triggered by an infectious episode. This concept has already been proposed by some authors which have stressed the bidirectional relationship between sleep and immunity against infections, starting from the evidence of a large proportion of patients with narcolepsy having antibodies (ASLO) against Group A Beta-Hemolytic Streptococcal (GABHS).</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0048" ref-type="bibr">48</xref></citation_analysis><citation_analysis attribute="neither">,</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0049" ref-type="bibr">49</xref></citation_analysis><citation_analysis attribute="neither"> The authors’ hypothesis was that this bacterium might trigger narcolepsy through an autoimmune mechanism. Furthermore, starting from the observation of a high density of cytokines’ receptors (particularly interleukins’ receptors) in hypothalamic neurons, some authors propose that the wake-sleep rhythm and immune system modulate each-other.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0048" ref-type="bibr">48</xref></citation_analysis><citation_analysis attribute="neither"> However, not only GABHS but also other bacterial pathogens frequently causing sore throat (eg, Chlamydia pneumoniae and Mycoplasma pneumoniae) are supposed to be triggers for PANS symptoms</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0005" ref-type="bibr">5</xref></citation_analysis><citation_analysis attribute="positive"> and, specifically for sleep disorders related to PANS, as suggested by the strong link between the anti-Chlamydia and anti-Mycoplasma antibodies and sleep variables, in our sample.</citation_analysis></p>
+        <p><citation_analysis attribute="neither">As specific marker of neuronal injury we found increased serum level of Neuron Specific Enolase (NSE) in a large portion of our sample. NSE is a glycolytic enzyme found in neuronal and neuroendocrine tissues, associated with nonspecific central nervous system injury, such as cerebral vascular accident, brain metastasis, systemic sclerosis, stroke, anoxic encephalopathy and encephalitis.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0050" ref-type="bibr">50</xref></citation_analysis><citation_analysis attribute="neither"> Interestingly, increased serum levels of NSE were found also in Acute Sleep Deprivation</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0051" ref-type="bibr">51</xref></citation_analysis><citation_analysis attribute="neither"> and chronic insomnia disorder.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0052" ref-type="bibr">52</xref></citation_analysis><citation_analysis attribute="neither"> As the semantic connectivity map showed, NSE serum level is closely related to sleep parameters in our PANS sample. This link could be indicative for either neuronal damage, impaired sleep, or both.</citation_analysis></p>
+        <p><citation_analysis attribute="positive">A second significant correlation described by the semantic connectivity Map 3 (</citation_analysis><citation_analysis attribute="positive"><xref ref-type="fig" rid="f0003">Figure 3</xref></citation_analysis><citation_analysis attribute="neither">) is the link between sleep parameters and the condition of hypo-sideraemia (low iron serum level). Systemic iron deficiency is described in about two-thirds of children with restless legs syndrome (RLS) and it seems to be related to a more severe symptomatology.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0053" ref-type="bibr">53</xref></citation_analysis><citation_analysis attribute="neither">,</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0054" ref-type="bibr">54</xref></citation_analysis><citation_analysis attribute="neither"> In the Wisconsin Sleep Cohort, a PLM index &gt;15 was associated with low (&lt;50 ng/mL) serum ferritin levels suggesting a role for low iron stores in the pathogenesis of Periodic Limb Movements.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0026" ref-type="bibr">26</xref></citation_analysis><citation_analysis attribute="positive"> A current explanation is that iron deficiency may result in a dopaminergic dysfunction supporting the RLS and PLMD, since iron is a necessary cofactor for dopamine production via tyrosine hydroxylase.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0055" ref-type="bibr">55</xref></citation_analysis><citation_analysis attribute="neither"> Iron deficiency adversely affects the basal ganglia function potentially leading to cognitive and motor dysfunctions, condition which could represent an intersection between PANS, Tourette Disease and PLMD.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0056" ref-type="bibr">56</xref></citation_analysis></p>
+        <p><citation_analysis attribute="neither">Finally, in Map 3 (</citation_analysis><citation_analysis attribute="positive"><xref ref-type="fig" rid="f0003">Figure 3</xref></citation_analysis><citation_analysis attribute="positive">) we observed a strong connection between vitamin D deficiency and “Abnormal PSG”. This is a somehow expected result given the role of vitamin D both as immunomodulatory agent and fundamental factor for a balanced neurotransmitter setting in the central nervous system.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0024" ref-type="bibr">24</xref></citation_analysis><citation_analysis attribute="negative"> A recent meta-analysis indicates that serum 25(OH)D &lt;20 ng/mL could significantly increase the risk of unhealthy sleep and sleep disorders.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0057" ref-type="bibr">57</xref></citation_analysis><citation_analysis attribute="neither"> At the same time, a large amount of literature supports the central role of vitamin D in modulating immunological functions.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0058" ref-type="bibr">58</xref></citation_analysis><citation_analysis attribute="neither"> Insufficient vitamin D levels are thought to be linked to a higher susceptibility for infectious and autoimmune diseases.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0059" ref-type="bibr">59–61</xref></citation_analysis><citation_analysis attribute="neither"> Within this framework the connection between sleep disorder, vitamin D deficiency and PANS is an expected condition.</citation_analysis></p>
+      </sec>
+      <sec id="s0005-s2003">
+        <title>A Hypothetical Dysfunctional Model</title>
+        <p><citation_analysis attribute="positive">Obsessive-compulsive, tic and sleep disorders have in common varying degrees of dysfunction in attentional vigilance and motor disturbances. Starting from this consideration, we propose a hypothetical dysfunctional model explaining the co-occurrence of sleep, motor, obsessive-compulsive and cognitive symptoms in PANS, graphically explained in </citation_analysis><citation_analysis attribute="positive"><xref ref-type="fig" rid="f0004">Figure 4</xref></citation_analysis><citation_analysis attribute="neither">.</citation_analysis><citation_analysis attribute="positive"><fig id="f0004" fig-type="figure" orientation="portrait" position="float"><label>Figure 4</label><caption><p><citation_analysis attribute="neither">A putative dysfunctional model explaining the co-occurrence of sleep, motor and cognitive symptoms in PANS: PANS-related obsessive-compulsive and tic symptoms, putatively following insults to the basal ganglia and to the consequently functional alterations of CSTC motor circuit. Inflammatory-driven alteration of basal ganglia may explain the reduction of the mental capacity to concentrate or to think or reason clearly (“Brain fog”) observed in PANS patients and, at the same time, may favour the sleep instability and sleep-wake cycle disturbances.</citation_analysis></p></caption><graphic content-type="print-only" xlink:href="NSS-13-1209-g0004"/></fig></citation_analysis></p>
+        <p><citation_analysis attribute="neither">Basal ganglia play a crucial role in sleep physiology and pathophysiology.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0062" ref-type="bibr">62</xref></citation_analysis><citation_analysis attribute="neither"> The midbrain dopamine system via the dorsal and ventral striatum tunes cortical inputs, regulating a wide range of functions including cognition, motor behavior, and sleep–wake states.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0063" ref-type="bibr">63–65</xref></citation_analysis><citation_analysis attribute="positive"> Recent evidence from sleep animal models indicate that stimulation of nigrostriatal dopaminergic pathways, activating the external globus pallidus (GPe) increases sleep and EEG delta power, while stimulation of mesolimbic dopaminergic, activating the nucleus accumbens, induces arousal, decreasing sleep and reducing EEG power.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0066" ref-type="bibr">66</xref></citation_analysis><citation_analysis attribute="neither">,</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0067" ref-type="bibr">67</xref></citation_analysis></p>
+        <p><citation_analysis attribute="neither">Recent neuroimaging studies indicate that microstructural differences (ie, apparent diffusion coefficient, but not regional brain volume nor cerebral blood flow) may be observed in the basal ganglia, thalamus, and amygdala of children and adolescents with PANS.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0004" ref-type="bibr">4</xref></citation_analysis><citation_analysis attribute="positive"> Interestingly, recent evidence indicates that also thalamus and amygdala play an important role in sleep regulation.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0068" ref-type="bibr">68</xref></citation_analysis><citation_analysis attribute="neither"> Considering the complex microstructure of the basal ganglia,</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0069" ref-type="bibr">69</xref></citation_analysis><citation_analysis attribute="neither"> PANS neuro-inflammation may heterogeneously impact specific sub regions modulated by midbrain dopaminergic pathways, leading to apparently opposite symptoms (ie tics and PLMD). Interestingly, high prevalence of a PLMD (a hypo-dopaminergic condition) in patient also showing motor and vocal tics (a hyper-dopaminergic condition) may appear contradictory and of puzzling explanation: in fact, dopaminergic regulation of sleep-wake cycle may be of help.</citation_analysis></p>
+        <p><citation_analysis attribute="neither">The thalamus and basal ganglia interconnect distant parts of the cerebral cortex via cortico-thalamo-cortical and cortico-striato-thalamic loops. In recent years the parallel and segregated model of basal ganglia modulation of cortical motor, cognitive and limbic function</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0070" ref-type="bibr">70</xref></citation_analysis><citation_analysis attribute="neither"> evolved into a model of multiple spatially distant cortical projections to the subcortex, describing the circuits as “parallel and integrative” rather than purely parallel.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0071" ref-type="bibr">71</xref></citation_analysis><citation_analysis attribute="neither"> This integrative model may explain why even small lesions in the thalamus or basal ganglia can be neurologically remarkable, whilst similarly sized lesions in the cerebral cortex may go unnoticed.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0072" ref-type="bibr">72</xref></citation_analysis><citation_analysis attribute="neither">,</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0073" ref-type="bibr">73</xref></citation_analysis><citation_analysis attribute="neither"> Immune-mediated impairment of basal ganglia may explain the specific cognitive relative impairment of cognition (WISC IV Processing Speed Index and, more in general “Brain fog”) observed in our PANS patients and other case series.</citation_analysis></p>
+      </sec>
+    </sec>
+    <sec id="s0006">
+      <title>Limitations</title>
+      <p><citation_analysis attribute="negative">Lack of a control group, as only PANS patients were included, could be the major limitation of our study together with the relatively small sample size. Nevertheless, our chosen statistical model allowed us to analyze a single group data set. Differently from the classical statistical tests, analytical methods based on Artificial neural networks may manage complexity even with relatively small samples and with a subsequent unbalanced ratio between variables and records. In this connection, it is important to note that adaptive learning algorithms of inference, based on the principle of a functional estimation like artificial neural networks, overcome the problem of dimensionality.</citation_analysis></p>
+      <p><citation_analysis attribute="neither">Comparison with typical neurodevelopmental subjects and/or with patients presenting a limited association of PANS criteria, but not the complete disorder, may help to verify the strength of the observed associations. Furthermore, an enlarged sample size will be useful to confirm the present results. Further studies including more subjects and a control cohort are warranted to confirm these findings, leading to the inclusion of sleep abnormalities among PANS major diagnostic criteria.</citation_analysis></p>
+      <p><citation_analysis attribute="positive">Another limitation of this study was that a lab attended video-PSG recording was not performed, and consequently an objective visual information about the night of the recording is missing, thus in order to report any abnormal behavior during sleep, parents were asked to supervise children during the recording.</citation_analysis></p>
+      <p><citation_analysis attribute="negative">A further limitation of our study is the lack of female in our sample. Even though, according to the study of Calaprice and coll,</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0074" ref-type="bibr">74</xref></citation_analysis><citation_analysis attribute="neither"> the gender ratio in PANS is estimated to be 1.8 males to 1 female, the consecutive patients enrolled in the present study were mainly males (gender ratio 5:1). The possibility that this circumstance affected the results is purely speculative, but it would be appropriate to study the sleep characteristics in clinical samples including both genders.</citation_analysis></p>
+      <p><citation_analysis attribute="negative">Finally, the iron deficiency found in our sample have not been discussed in light of the ferritin levels because the lack of ferritin measurement. Since both RLS and/or PLMD are more closely linked to ferritin levels, further studies should provide the whole analysis of iron metabolism parameters.</citation_analysis></p>
+    </sec>
+    <sec id="s0007">
+      <title>Conclusion</title>
+      <p><citation_analysis attribute="neither">Taken together, altered sleep has been linked to abnormalities in basal ganglia and neuroinflammatory diseases (ie, narcolepsy), and seeing that a recent study shows microstructural changes to the deep grey matter in patients with PANS,</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0004" ref-type="bibr">4</xref></citation_analysis><citation_analysis attribute="neither"> it is not surprising that this PANS cohort has sleep disturbances.</citation_analysis></p>
+      <p><citation_analysis attribute="positive">Several lines of evidence are consistent with this argument:
+</citation_analysis><citation_analysis attribute="positive"><list list-type="bullet"><list-item><p><citation_analysis attribute="neither">the symptomatic overlap with other sleep disorders (narcolepsy and Klein-Levine syndrome) of established immune-mediated pathogenesis;</citation_analysis></p></list-item><list-item><p><citation_analysis attribute="neither">the strong link between some infectious markers (anti-Chlamydia Pneumoniae and ASLO titers) and sleep disorders, supporting the infective trigger causative model via abnormal activation of the immune system;</citation_analysis></p></list-item><list-item><p><citation_analysis attribute="neither">the association between a deficit of vitamin D, a known immunomodulatory agent, and the polysomnographic alterations;</citation_analysis></p></list-item><list-item><p><citation_analysis attribute="neither">the association with PLMD and with serum iron deficiency suggesting an impairment of dopaminergic system in the pathogenesis of both PLM and tics in PANS.</citation_analysis></p></list-item></list></citation_analysis></p>
+      <p><citation_analysis attribute="negative">Nevertheless, our sample size and the limitation of the present study design does not allow firm conclusion on the pathophysiology of PANS, even the present results may be considered a conceptual framework useful for organizing further empirical research.</citation_analysis></p>
+      <p><citation_analysis attribute="positive">A complete evaluation of sleep should be performed for all PANS patients since the onset of the disorder, and a polysomnographic investigation should be suggested in all PANS patients for whom the parents report sleep disturbance as well as for patients with strong indicators of cognitive alterations, as brain fog condition, daily sleepiness, confusion or attentive difficulties.</citation_analysis></p>
+      <p><citation_analysis attribute="positive">In conclusion, the present study underlines that sleep alterations represent, for prevalence and impact on quality of life, a cardinal symptom of PANS phenotype. Currently, sleep abnormality is not a major criterion for this diagnosis. Considering that measuring sleep abnormalities maybe more objective than measuring psychiatric symptoms, clinicians and researchers should consider revising the diagnostic criteria and tracking methods to include sleep quality.</citation_analysis></p>
+    </sec>
+  </body>
+  <back>
+    <ack>
+      <title>Acknowledgments</title>
+      <p><citation_analysis attribute="neither">We thank Mrs Carmen Garau, Mrs Josè Garau, Mr Alessandro Ledda &amp; Mr Fabrizio Genugu for technical support on sleep recording assessments. This work was performed at the Sleep Disorder Center, University of Cagliari and at the Outpatient-service at the Child and Adolescent Neuropsychiatry Unit, “A. Cao” Hospital – “G. Brotzu” Hospital Trust, Cagliari. These authors share senior authorship: Enzo Grossi and Alessandro Zuddas.</citation_analysis></p>
+    </ack>
+    <sec id="s0008">
+      <title>Abbreviations</title>
+      <p><citation_analysis attribute="neither">AASM, American Academy of Sleep Medicine; ADHD, attention deficit hyperactivity disorder; AHI, Apnea – Hypopnea Index; ANA, Anti-nuclear Antibodies titer; ANNs, Artificial Neural Networks; ASLO, Anti Streptolysine titer; Auto-CM, Auto Contractive Map; C-GAS, Children’s Global Assessment Scale; CRP, C-Reactive Protein; CFS, Chronic Fatigue Syndrome; CY-BOCS, Children’s Yale-Brown Obsessive-Compulsive Scale; DSM-5, The Diagnostic and Statistical Manual of Mental Disorders – 5th edition; ECG, Electrocardiogram; EEG, Electroencephalogram; EMG, Electromyogram; ESR, Erythrocyte Sedimentation Rate; GABHS, Group A Beta-Hemolytic Streptococcal; GPe, external Globus Pallidus; Kiddie SADS PL, The Kiddie Schedule for Affective Disorders and Schizophrenia Present and Lifetime Version; L-dopa, Levodopa; IQ, Intelligence Quotient; MRI, Magnetic Resonance Imaging; MST, Minimum Spanning Tree; N1, N1 phase of NREM sleep; N2, N2 phase of NREM sleep; N3, N3 phase of NREM sleep; NREM, not rapid eye movement sleep stage; NSE, Neuron-specific enolase; OCD, Obsessive-Compulsive Disorder; ODD, Oppositional Defiant Disorder; OSAS, Obstructive Sleep Apnea Syndrome; PANDAS, pediatric autoimmune neuropsychiatric disorders associated with streptococcal infections; PANS, Pediatric Acute-onset Neuropsychiatric Syndrome; PANSS, Pediatric Acute-onset Neuropsychiatric Syndrome Scale; PET, Positron-Emission Tomography; PLMD, Periodic Limb Movement Disorder; PLMI, Periodic Limb Movement Index; PLMs, Periodic Limb Movements; PSG, Polysomnography; PRI, Perceptual Reasoning Index; PSI, Processing Speed Index; RBD, REM Behavior Disorder; REM, Rapid Eye Movement Sleep stage; RSWA, REM Sleep Without Atonia; SD, Standard Deviation; SE, Sleep Efficiency; SL, Sleep Latency; SPECT, Single Photon Emission Computed Tomography; SSRI, Selective Serotonin Reuptake Inhibitors; TD, Tourette Disorder; TST, Total Sleep Time; VCI, Verbal Comprehension Index; WASO, Wake After Sleep Onset; WISH-IV, Wechsler Intelligence Scale for Children – 4th edition; WMI, Working Memory Index; WPPSI-III, Wechsler Preschool and Primary Scale of Intelligence – 3rd edition; YGTSS, Yale Global Tic Severity Scale; [(123)I]beta-CIT, Iodine-123-beta-carbomethoxy-3 beta-(4-iodophenyltropane) (CIT).</citation_analysis></p>
+    </sec>
+    <sec id="s0010" sec-type="COI-statement">
+      <title>Disclosure</title>
+      <p><citation_analysis attribute="positive">Alessandro Zuddas reports grant and research support from Angelini, Jansenn, Lundbeck, Otsuka, Roche, Sevier, the European Union and the Sardinian Regional Health Secretary; and honoraria or consultation fees from Angelini, Edupharma, Servier, and Takeda. None of them were related to the submitted work. The authors reported no other potential conflicts of interest for this work.</citation_analysis></p>
+    </sec>
+    <ref-list>
+      <title>References</title>
+      <ref id="cit0001">
+        <label>1.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Swedo</surname>
+<given-names>SE</given-names></string-name>. <article-title>Pediatric autoimmune neuropsychiatric disorders associated with streptococcal infections (PANDAS)</article-title>. <source><italic toggle="yes">Mol Psychiatry</italic></source>. <year>2002</year>;<volume>7</volume>(<issue>S2</issue>):<fpage>24</fpage>–<lpage>25</lpage>. doi:<pub-id pub-id-type="doi">10.1038/sj.mp.4001170</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0002">
+        <label>2.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Thienemann</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Murphy</surname>
+<given-names>T</given-names></string-name>, <string-name><surname>Leckman</surname>
+<given-names>J</given-names></string-name>, et al. <article-title>Clinical management of pediatric acute-onset neuropsychiatric syndrome: part I - psychiatric and behavioral interventions</article-title>. <source><italic toggle="yes">J Child Adolesc Psychopharmacol</italic></source>. <year>2017</year>;<volume>27</volume>(<issue>7</issue>):<fpage>566</fpage>–<lpage>573</lpage>. doi:<pub-id pub-id-type="doi">10.1089/cap.2016.0145</pub-id><pub-id pub-id-type="pmid">28722481</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0003">
+        <label>3.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Frankovich</surname>
+<given-names>J</given-names></string-name>, <string-name><surname>Thienemann</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Pearlstein</surname>
+<given-names>J</given-names></string-name>, <string-name><surname>Crable</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Brown</surname>
+<given-names>K</given-names></string-name>, <string-name><surname>Chang</surname>
+<given-names>K</given-names></string-name>. <article-title>Multidisciplinary clinic dedicated to treating youth with pediatric acute-onset neuropsychiatric syndrome: presenting characteristics of the first 47 consecutive patients</article-title>. <source><italic toggle="yes">J Child Adolesc Psychopharmacol</italic></source>. <year>2015</year>;<volume>25</volume>(<issue>1</issue>):<fpage>38</fpage>–<lpage>47</lpage>. doi:<pub-id pub-id-type="doi">10.1089/cap.2014.0081</pub-id><pub-id pub-id-type="pmid">25695943</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0004">
+        <label>4.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Zheng</surname>
+<given-names>J</given-names></string-name>, <string-name><surname>Frankovich</surname>
+<given-names>J</given-names></string-name>, <string-name><surname>McKenna</surname>
+<given-names>ES</given-names></string-name>, et al. <article-title>Association of Pediatric Acute-Onset Neuropsychiatric Syndrome with microstructural differences in brain regions detected via diffusion-weighted magnetic resonance imaging</article-title>. <source><italic toggle="yes">JAMA Netw open</italic></source>. <year>2020</year>;<volume>3</volume>(<issue>5</issue>):<fpage>e204063</fpage>. doi:<pub-id pub-id-type="doi">10.1001/jamanetworkopen.2020.4063</pub-id><pub-id pub-id-type="pmid">32364596</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0005">
+        <label>5.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Chang</surname>
+<given-names>K</given-names></string-name>, <string-name><surname>Frankovich</surname>
+<given-names>J</given-names></string-name>, <string-name><surname>Cooperstock</surname>
+<given-names>M</given-names></string-name>, et al. <article-title>Clinical evaluation of youth with pediatric acute-onset neuropsychiatric syndrome (PANS): recommendations from the 2013 PANS consensus conference</article-title>. <source><italic toggle="yes">J Child Adolesc Psychopharmacol</italic></source>. <year>2015</year>;<volume>25</volume>(<issue>1</issue>):<fpage>3</fpage>–<lpage>13</lpage>. doi:<pub-id pub-id-type="doi">10.1089/cap.2014.0084</pub-id><pub-id pub-id-type="pmid">25325534</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0006">
+        <label>6.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Gagliano</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Galati</surname>
+<given-names>C</given-names></string-name>, <string-name><surname>Ingrassia</surname>
+<given-names>M</given-names></string-name>, et al. <article-title>Pediatric acute-onset neuropsychiatric syndrome: a data mining approach to a very specific constellation of clinical variables</article-title>. <source><italic toggle="yes">J Child Adolesc Psychopharmacol</italic></source>. <year>2020</year>;<volume>XX</volume>(<issue>Xx</issue>):<fpage>1</fpage>–<lpage>17</lpage>. DOI:<pub-id pub-id-type="doi">10.1089/cap.2019.0165</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0007">
+        <label>7.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Gaughan</surname>
+<given-names>T</given-names></string-name>, <string-name><surname>Buckley</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Hommer</surname>
+<given-names>R</given-names></string-name>, et al. <article-title>Rapid eye movement sleep abnormalities in children with Pediatric Acute-Onset Neuropsychiatric Syndrome (PANS)</article-title>. <source><italic toggle="yes">J Clin Sleep Med</italic></source>. <year>2016</year>;<volume>12</volume>(<issue>7</issue>):<fpage>1027</fpage>–<lpage>1032</lpage>. doi:<pub-id pub-id-type="doi">10.5664/jcsm.5942</pub-id><pub-id pub-id-type="pmid">27166296</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0008">
+        <label>8.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Santoro</surname>
+<given-names>JD</given-names></string-name>, <string-name><surname>Frankovich</surname>
+<given-names>J</given-names></string-name>, <string-name><surname>Bhargava</surname>
+<given-names>S</given-names></string-name>. <article-title>Continued presence of period limb movements during REM sleep in patients with chronic static Pediatric Acute-Onset Neuropsychiatric Syndrome (PANS)</article-title>. <source><italic toggle="yes">J Clin Sleep Med</italic></source>. <year>2018</year>;<volume>14</volume>(<issue>7</issue>):<fpage>1187</fpage>–<lpage>1192</lpage>. doi:<pub-id pub-id-type="doi">10.5664/jcsm.7222</pub-id><pub-id pub-id-type="pmid">29991427</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0009">
+        <label>9.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Swedo</surname>
+<given-names>E</given-names></string-name>. <article-title>from research subgroup to clinical syndrome: modifying the PANDAS criteria to describe PANS (Pediatric Acute-onset Neuropsychiatric Syndrome)</article-title>. <source><italic toggle="yes">Pediatr Ther</italic></source>. <year>2012</year>;<volume>02</volume>(<issue>02</issue>). doi:<pub-id pub-id-type="doi">10.4172/2161-0665.1000113</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0010">
+        <label>10.</label>
+        <mixed-citation publication-type="book"><string-name><surname>Schildkrout</surname>
+<given-names>B</given-names></string-name>. <source><italic toggle="yes">Unmasking Psychological Symptoms: How Therapists Can Learn to Recognize the Psychological Presentation of Medical Disorders</italic></source>. <publisher-name>John Wiley &amp; Sons</publisher-name>; <year>2011</year>.</mixed-citation>
+      </ref>
+      <ref id="cit0011">
+        <label>11.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Mackay</surname>
+<given-names>M</given-names></string-name>. <article-title>Lupus brain fog: a biologic perspective on cognitive impairment, depression, and fatigue in systemic lupus erythematosus</article-title>. <source><italic toggle="yes">Immunol Res</italic></source>. <year>2015</year>;<volume>63</volume>(<issue>1–3</issue>):<fpage>26</fpage>–<lpage>37</lpage>. doi:<pub-id pub-id-type="doi">10.1007/s12026-015-8716-3</pub-id><pub-id pub-id-type="pmid">26481913</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0012">
+        <label>12.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Kaufman</surname>
+<given-names>AS</given-names></string-name>, <string-name><surname>Flanagan</surname>
+<given-names>DP</given-names></string-name>, <string-name><surname>Alfonso</surname>
+<given-names>VC</given-names></string-name>, <string-name><surname>Mascolo</surname>
+<given-names>JT</given-names></string-name>. <article-title>test review: wechsler intelligence scale for children, fourth edition (WISC-IV)</article-title>. <source><italic toggle="yes">J Psychoeduc Assess</italic></source>. <year>2006</year>;<volume>24</volume>(<issue>3</issue>):<fpage>278</fpage>–<lpage>295</lpage>. doi:<pub-id pub-id-type="doi">10.1177/0734282906288389</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0013">
+        <label>13.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Leckman</surname>
+<given-names>JF</given-names></string-name>, <string-name><surname>Riddle</surname>
+<given-names>MA</given-names></string-name>, <string-name><surname>Hardin</surname>
+<given-names>MT</given-names></string-name>, et al. <article-title>The Yale Global Tic Severity Scale: initial testing of a clinician-rated scale of tic severity</article-title>. <source><italic toggle="yes">J Am Acad Child Adolesc Psychiatry</italic></source>. <year>1989</year>;<volume>28</volume>(<issue>4</issue>):<fpage>566</fpage>–<lpage>573</lpage>. doi:<pub-id pub-id-type="doi">10.1097/00004583-198907000-00015</pub-id><pub-id pub-id-type="pmid">2768151</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0014">
+        <label>14.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Scahill</surname>
+<given-names>L</given-names></string-name>, <string-name><surname>Riddle</surname>
+<given-names>MA</given-names></string-name>, <string-name><surname>McSwiggin-Hardin</surname>
+<given-names>M</given-names></string-name>, et al. <article-title>Children’s Yale-Brown Obsessive Compulsive Scale: reliability and validity</article-title>. <source><italic toggle="yes">J Am Acad Child Adolesc Psychiatry</italic></source>. <year>1997</year>;<volume>36</volume>(<issue>6</issue>):<fpage>844</fpage>–<lpage>852</lpage>. doi:<pub-id pub-id-type="doi">10.1097/00004583-199706000-00023</pub-id><pub-id pub-id-type="pmid">9183141</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0015">
+        <label>15.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Murphy</surname>
+<given-names>TK</given-names></string-name>, <string-name><surname>Gerardi</surname>
+<given-names>DM</given-names></string-name>, <string-name><surname>Leckman</surname>
+<given-names>JF</given-names></string-name>. <article-title>Pediatric acute-onset neuropsychiatric syndrome</article-title>. <source><italic toggle="yes">Psychiatr Clin North Am</italic></source>. <year>2014</year>;<volume>37</volume>(<issue>3</issue>):<fpage>353</fpage>–<lpage>374</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.psc.2014.06.001</pub-id><pub-id pub-id-type="pmid">25150567</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0016">
+        <label>16.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Shaffer</surname>
+<given-names>D</given-names></string-name>, <string-name><surname>Gould</surname>
+<given-names>MS</given-names></string-name>, <string-name><surname>Brasic</surname>
+<given-names>J</given-names></string-name>, et al. <article-title>A children’s global assessment scale (CGAS)</article-title>. <source><italic toggle="yes">Arch Gen Psychiatry</italic></source>. <year>1983</year>;<volume>40</volume>(<issue>11</issue>):<fpage>1228</fpage>–<lpage>1231</lpage>. doi:<pub-id pub-id-type="doi">10.1001/archpsyc.1983.01790100074010</pub-id><pub-id pub-id-type="pmid">6639293</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0017">
+        <label>17.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Berry</surname>
+<given-names>RB</given-names></string-name>, <string-name><surname>Brooks</surname>
+<given-names>R</given-names></string-name>, <string-name><surname>Gamaldo</surname>
+<given-names>C</given-names></string-name>, et al. <article-title>AASM scoring manual updates for 2017 (version 2.4)</article-title>. <source><italic toggle="yes">J Clin Sleep Med</italic></source>. <year>2017</year>;<volume>13</volume>(<issue>5</issue>):<fpage>665</fpage>–<lpage>666</lpage>. doi:<pub-id pub-id-type="doi">10.5664/jcsm.6576</pub-id><pub-id pub-id-type="pmid">28416048</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0018">
+        <label>18.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>DelRosso</surname>
+<given-names>LM</given-names></string-name>, <string-name><surname>Picchietti</surname>
+<given-names>DL</given-names></string-name>, <string-name><surname>Spruyt</surname>
+<given-names>K</given-names></string-name>, et al. <article-title>Restless sleep in children: a systematic review</article-title>. <source><italic toggle="yes">Sleep Med Rev</italic></source>. <year>2020</year>;<volume>56</volume>:<fpage>101406</fpage>. doi:<pub-id pub-id-type="doi">10.1016/j.smrv.2020.101406</pub-id><pub-id pub-id-type="pmid">33341437</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0019">
+        <label>19.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Buscema</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Grossi</surname>
+<given-names>E</given-names></string-name>, <string-name><surname>Montanini</surname>
+<given-names>L</given-names></string-name>, <string-name><surname>Street</surname>
+<given-names>ME</given-names></string-name>, <string-name><surname>Zenclussen</surname>
+<given-names>AC</given-names></string-name>. <article-title>Data mining of determinants of intrauterine growth retardation revisited using novel algorithms generating semantic maps and prototypical discriminating variable profiles</article-title>. <source><italic toggle="yes">PLoS One</italic></source>. <year>2015</year>;<volume>10</volume>(<issue>7</issue>):<fpage>e0126020</fpage>. doi:<pub-id pub-id-type="doi">10.1371/journal.pone.0126020</pub-id><pub-id pub-id-type="pmid">26158499</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0020">
+        <label>20.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Buscema</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Sacco</surname>
+<given-names>PL</given-names></string-name>. <article-title>Digging deeper on “deep” learning: a computational ecology approach</article-title>. <source><italic toggle="yes">Behav Brain Sci</italic></source>. <year>2017</year>;<volume>40</volume>:<fpage>e256</fpage>. doi:<pub-id pub-id-type="doi">10.1017/S0140525X1700005X</pub-id><pub-id pub-id-type="pmid">29342699</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0021">
+        <label>21.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Vierucci</surname>
+<given-names>F</given-names></string-name>, <string-name><surname>Del Pistoia</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Fanos</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Erba</surname>
+<given-names>P</given-names></string-name>, <string-name><surname>Saggese</surname>
+<given-names>G</given-names></string-name>. <article-title>Prevalence of hypovitaminosis D and predictors of vitamin D status in Italian healthy adolescents</article-title>. <source><italic toggle="yes">Ital J Pediatr</italic></source>. <year>2014</year>;<volume>40</volume>(<issue>1</issue>):<fpage>54</fpage>. doi:<pub-id pub-id-type="doi">10.1186/1824-7288-40-54</pub-id><pub-id pub-id-type="pmid">24902694</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0022">
+        <label>22.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Wilbur</surname>
+<given-names>C</given-names></string-name>, <string-name><surname>Bitnun</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Kronenberg</surname>
+<given-names>S</given-names></string-name>, et al. <article-title>PANDAS/PANS in childhood: controversies and evidence</article-title>. <source><italic toggle="yes">Paediatr Child Health</italic></source>. <year>2019</year>;<volume>24</volume>(<issue>2</issue>):<fpage>85</fpage>–<lpage>91</lpage>. doi:<pub-id pub-id-type="doi">10.1093/pch/pxy145</pub-id><pub-id pub-id-type="pmid">30996598</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0023">
+        <label>23.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Shukla</surname>
+<given-names>G</given-names></string-name>, <string-name><surname>Gupta</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Chakravarty</surname>
+<given-names>K</given-names></string-name>, et al. <article-title>Rapid Eye Movement (REM) sleep behavior disorder and REM sleep without atonia in the young</article-title>. <source><italic toggle="yes">Can J Neurol Sci</italic></source>. <year>2019</year>;<fpage>1</fpage>–<lpage>9</lpage>. doi:<pub-id pub-id-type="doi">10.1017/cjn.2019.302</pub-id>.</mixed-citation>
+      </ref>
+      <ref id="cit0024">
+        <label>24.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Rulong</surname>
+<given-names>G</given-names></string-name>, <string-name><surname>Dye</surname>
+<given-names>T</given-names></string-name>, <string-name><surname>Simakajornboon</surname>
+<given-names>N</given-names></string-name>. <article-title>Pharmacological management of restless legs syndrome and periodic limb movement disorder in children</article-title>. <source><italic toggle="yes">Pediatr Drugs</italic></source>. <year>2018</year>;<volume>20</volume>(<issue>1</issue>):<fpage>9</fpage>–<lpage>17</lpage>. doi:<pub-id pub-id-type="doi">10.1007/s40272-017-0262-0</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0025">
+        <label>25.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Kostanecka-Endress</surname>
+<given-names>T</given-names></string-name>, <string-name><surname>Banaschewski</surname>
+<given-names>T</given-names></string-name>, <string-name><surname>Kinkelbur</surname>
+<given-names>J</given-names></string-name>, et al. <article-title>Disturbed sleep in children with Tourette syndrome A polysomnographic study</article-title>. <source><italic toggle="yes">J Psychosom Res</italic></source>. <year>2003</year>;<volume>55</volume>(<issue>1</issue>):<fpage>23</fpage>–<lpage>29</lpage>. doi:<pub-id pub-id-type="doi">10.1016/S0022-3999(02)00602-5</pub-id><pub-id pub-id-type="pmid">12842228</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0026">
+        <label>26.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Hamilton-Stubbs</surname>
+<given-names>P</given-names></string-name>, <string-name><surname>Walters</surname>
+<given-names>AS</given-names></string-name>. <article-title>Periodic limb movements</article-title>. <source><italic toggle="yes">Encycl Mov Disord</italic></source>. <year>2010</year>;(<issue>Coleman 1980</issue>):<fpage>444</fpage>–<lpage>449</lpage>. doi:<pub-id pub-id-type="doi">10.1016/B978-0-12-374105-9.00132-5</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0027">
+        <label>27.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Manconi</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Ferri</surname>
+<given-names>R</given-names></string-name>, <string-name><surname>Zucconi</surname>
+<given-names>M</given-names></string-name>, et al. <article-title>First night efficacy of pramipexole in restless legs syndrome and periodic leg movements</article-title>. <source><italic toggle="yes">Sleep Med</italic></source>. <year>2007</year>;<volume>8</volume>(<issue>5</issue>):<fpage>491</fpage>–<lpage>497</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.sleep.2006.10.008</pub-id><pub-id pub-id-type="pmid">17512780</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0028">
+        <label>28.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Turjanski</surname>
+<given-names>N</given-names></string-name>, <string-name><surname>Lees</surname>
+<given-names>AJ</given-names></string-name>, <string-name><surname>Brooks</surname>
+<given-names>DJ</given-names></string-name>. <article-title>Striatal dopaminergic function in restless legs syndrome: 18F-dopa and 11C-raclopride PET studies</article-title>. <source><italic toggle="yes">Neurology</italic></source>. <year>1999</year>;<volume>52</volume>(<issue>5</issue>):<fpage>932</fpage>. doi:<pub-id pub-id-type="doi">10.1212/WNL.52.5.932</pub-id><pub-id pub-id-type="pmid">10102408</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0029">
+        <label>29.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Staedt</surname>
+<given-names>J</given-names></string-name>, <string-name><surname>Stoppe</surname>
+<given-names>G</given-names></string-name>, <string-name><surname>Kögler</surname>
+<given-names>A</given-names></string-name>, et al. <article-title>Dopamine D2 receptor alteration in patients with periodic movements in sleep (nocturnal myoclonus)</article-title>. <source><italic toggle="yes">J Neural Transm</italic></source>. <year>1993</year>;<volume>93</volume>(<issue>1</issue>):<fpage>71</fpage>–<lpage>74</lpage>. doi:<pub-id pub-id-type="doi">10.1007/BF01244940</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0030">
+        <label>30.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Ruottinen</surname>
+<given-names>HM</given-names></string-name>, <string-name><surname>Partinen</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Hublin</surname>
+<given-names>C</given-names></string-name>, et al. <article-title>An FDOPA PET study in patients with periodic limb movement disorder and restless legs syndrome</article-title>. <source><italic toggle="yes">Neurology</italic></source>. <year>2000</year>;<volume>54</volume>(<issue>2</issue>):<fpage>502</fpage>. doi:<pub-id pub-id-type="doi">10.1212/WNL.54.2.502</pub-id><pub-id pub-id-type="pmid">10668725</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0031">
+        <label>31.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Aggarwal</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Dodd</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Berk</surname>
+<given-names>M</given-names></string-name>. <article-title>Restless leg syndrome associated with atypical antipsychotics: current status, pathophysiology, and clinical implications</article-title>. <source><italic toggle="yes">Curr Drug Saf</italic></source>. <year>2015</year>;<volume>10</volume>(<issue>2</issue>):<fpage>98</fpage>–<lpage>105</lpage>. doi:<pub-id pub-id-type="doi">10.2174/1574886309666140527114159</pub-id><pub-id pub-id-type="pmid">24861990</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0032">
+        <label>32.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Ruppert</surname>
+<given-names>E</given-names></string-name>, <string-name><surname>Bataillard</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Namer</surname>
+<given-names>IJ</given-names></string-name>, et al. <article-title>Hyperdopaminergism in lenticulostriate stroke-related restless legs syndrome: an imaging study</article-title>. <source><italic toggle="yes">Sleep Med</italic></source>. <year>2017</year>;<volume>30</volume>:<fpage>136</fpage>–<lpage>138</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.sleep.2016.02.011</pub-id><pub-id pub-id-type="pmid">28215236</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0033">
+        <label>33.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Happe</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Pirker</surname>
+<given-names>W</given-names></string-name>, <string-name><surname>Klösch</surname>
+<given-names>G</given-names></string-name>, <string-name><surname>Sauter</surname>
+<given-names>C</given-names></string-name>, <string-name><surname>Zeitlhofer</surname>
+<given-names>J</given-names></string-name>. <article-title>Periodic leg movements in patients with Parkinson’s disease are associated with reduced striatal dopamine transporter binding</article-title>. <source><italic toggle="yes">J Neurol</italic></source>. <year>2003</year>;<volume>250</volume>(<issue>1</issue>):<fpage>83</fpage>–<lpage>86</lpage>. doi:<pub-id pub-id-type="doi">10.1007/s00415-003-0957-8</pub-id><pub-id pub-id-type="pmid">12527997</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0034">
+        <label>34.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Puligheddu</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Figorilli</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Aricò</surname>
+<given-names>D</given-names></string-name>, <string-name><surname>Raggi</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Marrosu</surname>
+<given-names>F</given-names></string-name>, <string-name><surname>Ferri</surname>
+<given-names>R</given-names></string-name>. <article-title>Time structure of leg movement activity during sleep in untreated Parkinson disease and effects of dopaminergic treatment</article-title>. <source><italic toggle="yes">Sleep Med</italic></source>. <year>2014</year>;<volume>15</volume>(<issue>7</issue>):<fpage>816</fpage>–<lpage>824</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.sleep.2014.03.011</pub-id><pub-id pub-id-type="pmid">24891077</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0035">
+        <label>35.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Bliwise</surname>
+<given-names>DL</given-names></string-name>, <string-name><surname>Trotti</surname>
+<given-names>LM</given-names></string-name>, <string-name><surname>Yesavage</surname>
+<given-names>JA</given-names></string-name>, <string-name><surname>Rye</surname>
+<given-names>DB</given-names></string-name>. <article-title>Periodic leg movements in sleep in elderly patients with Parkinsonism and Alzheimer’s disease</article-title>. <source><italic toggle="yes">Eur J Neurol</italic></source>. <year>2012</year>;<volume>19</volume>(<issue>6</issue>):<fpage>918</fpage>–<lpage>923</lpage>. doi:<pub-id pub-id-type="doi">10.1111/j.1468-1331.2012.03673.x</pub-id><pub-id pub-id-type="pmid">22340757</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0036">
+        <label>36.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Lee</surname>
+<given-names>W-T</given-names></string-name>, <string-name><surname>Huang</surname>
+<given-names>H-L</given-names></string-name>, <string-name><surname>Wong</surname>
+<given-names>LC</given-names></string-name>, et al. <article-title>Tourette syndrome as an independent risk factor for subsequent sleep disorders in children: a nationwide population-based case–control study</article-title>. <source><italic toggle="yes">Sleep</italic></source>. <year>2017</year>;<volume>40</volume>(<issue>3</issue>). doi:<pub-id pub-id-type="doi">10.1093/sleep/zsw072</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0037">
+        <label>37.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Friedman</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Wilson</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Lin</surname>
+<given-names>H-C</given-names></string-name>, <string-name><surname>Chang</surname>
+<given-names>H-W</given-names></string-name>. <article-title>Updated systematic review of tonsillectomy and adenoidectomy for treatment of pediatric obstructive sleep apnea/hypopnea syndrome</article-title>. <source><italic toggle="yes">Otolaryngol Neck Surg</italic></source>. <year>2009</year>;<volume>140</volume>(<issue>6</issue>):<fpage>800</fpage>–<lpage>808</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.otohns.2009.01.043</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0038">
+        <label>38.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Cocuzza</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Marino</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Gulino</surname>
+<given-names>A</given-names></string-name>, et al. <article-title>ENT involvement and orobuccal movements’ disorders in Pandas patients: assessment and rehabilitations tools</article-title>. <source><italic toggle="yes">Eur Rev Med Pharmacol Sci</italic></source>. <year>2019</year>;<volume>23</volume>(<issue>10</issue>):<fpage>4110</fpage>–<lpage>4117</lpage>. doi:<pub-id pub-id-type="doi">10.26355/eurrev_201905_17912</pub-id><pub-id pub-id-type="pmid">31173280</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0039">
+        <label>39.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Ryan</surname>
+<given-names>MA</given-names></string-name>, <string-name><surname>Leu</surname>
+<given-names>GR</given-names></string-name>, <string-name><surname>Boss</surname>
+<given-names>EF</given-names></string-name>, <string-name><surname>Raynor</surname>
+<given-names>EM</given-names></string-name>, <string-name><surname>Walsh</surname>
+<given-names>JM</given-names></string-name>. <article-title>Adherence to American Academy of Otolaryngology-head and neck surgery clinical practice guidelines: a systematic review</article-title>. <source><italic toggle="yes">Otolaryngol Head Neck Surg</italic></source>. <year>2020</year>;<volume>163</volume>:<fpage>194599820922155</fpage>. doi:<pub-id pub-id-type="doi">10.1177/0194599820922155</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0040">
+        <label>40.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Pietropaoli</surname>
+<given-names>N</given-names></string-name>, <string-name><surname>Supino</surname>
+<given-names>MC</given-names></string-name>, <string-name><surname>Vitelli</surname>
+<given-names>O</given-names></string-name>, et al. <article-title>Cognitive function in preschool children with sleep-disordered breathing</article-title>. <source><italic toggle="yes">Sleep Breath</italic></source>. <year>2015</year>;<volume>19</volume>(<issue>4</issue>):<fpage>1431</fpage>–<lpage>1437</lpage>. doi:<pub-id pub-id-type="doi">10.1007/s11325-015-1157-3</pub-id><pub-id pub-id-type="pmid">26135841</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0041">
+        <label>41.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Kheirandish-Gozal</surname>
+<given-names>L</given-names></string-name>, <string-name><surname>Gozal</surname>
+<given-names>D</given-names></string-name>. <article-title>Pediatric osa syndrome morbidity biomarkers: the hunt is finally on!</article-title>
+<source><italic toggle="yes">Chest</italic></source>. <year>2017</year>;<volume>151</volume>(<issue>2</issue>):<fpage>500</fpage>–<lpage>506</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.chest.2016.09.026</pub-id><pub-id pub-id-type="pmid">27720883</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0042">
+        <label>42.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Arnulf</surname>
+<given-names>I</given-names></string-name>, <string-name><surname>Groos</surname>
+<given-names>E</given-names></string-name>, <string-name><surname>Dodet</surname>
+<given-names>P</given-names></string-name>. <article-title>Kleine-Levin syndrome: a neuropsychiatric disorder</article-title>. <source><italic toggle="yes">Rev Neurol (Paris)</italic></source>. <year>2018</year>;<volume>174</volume>(<issue>4</issue>):<fpage>216</fpage>–<lpage>227</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.neurol.2018.03.005</pub-id><pub-id pub-id-type="pmid">29606318</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0043">
+        <label>43.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Iranzo</surname>
+<given-names>A</given-names></string-name>. <article-title>Sleep and neurological autoimmune diseases</article-title>. <source><italic toggle="yes">Neuropsychopharmacology</italic></source>. <year>2020</year>;<volume>45</volume>(<issue>1</issue>):<fpage>129</fpage>–<lpage>140</lpage>. doi:<pub-id pub-id-type="doi">10.1038/s41386-019-0463-z</pub-id><pub-id pub-id-type="pmid">31302665</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0044">
+        <label>44.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Michiels</surname>
+<given-names>V</given-names></string-name>, <string-name><surname>Cluydts</surname>
+<given-names>R</given-names></string-name>. <article-title>Neuropsychological functioning in chronic fatigue syndrome: a review</article-title>. <source><italic toggle="yes">Acta Psychiatr Scand</italic></source>. <year>2001</year>;<volume>103</volume>(<issue>2</issue>):<fpage>84</fpage>–<lpage>93</lpage>. doi:<pub-id pub-id-type="doi">10.1034/j.1600-0447.2001.00017.x</pub-id><pub-id pub-id-type="pmid">11167310</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0045">
+        <label>45.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Nijhof</surname>
+<given-names>LN</given-names></string-name>, <string-name><surname>Nijhof</surname>
+<given-names>SL</given-names></string-name>, <string-name><surname>Bleijenberg</surname>
+<given-names>G</given-names></string-name>, et al. <article-title>The impact of chronic fatigue syndrome on cognitive functioning in adolescents</article-title>. <source><italic toggle="yes">Eur J Pediatr</italic></source>. <year>2016</year>;<volume>175</volume>(<issue>2</issue>):<fpage>245</fpage>–<lpage>252</lpage>. doi:<pub-id pub-id-type="doi">10.1007/s00431-015-2626-1</pub-id><pub-id pub-id-type="pmid">26334394</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0046">
+        <label>46.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Yelland</surname>
+<given-names>GW</given-names></string-name>. <article-title>Gluten-induced cognitive impairment (“brain fog”) in coeliac disease</article-title>. <source><italic toggle="yes">J Gastroenterol Hepatol</italic></source>. <year>2017</year>;<volume>32</volume>:<fpage>90</fpage>–<lpage>93</lpage>. doi:<pub-id pub-id-type="doi">10.1111/jgh.13706</pub-id><pub-id pub-id-type="pmid">28244662</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0047">
+        <label>47.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>van Langenberg</surname>
+<given-names>DR</given-names></string-name>, <string-name><surname>Yelland</surname>
+<given-names>GW</given-names></string-name>, <string-name><surname>Robinson</surname>
+<given-names>SR</given-names></string-name>, <string-name><surname>Gibson</surname>
+<given-names>PR</given-names></string-name>. <article-title>Cognitive impairment in Crohn’s disease is associated with systemic inflammation, symptom burden and sleep disturbance</article-title>. <source><italic toggle="yes">United Eur Gastroenterol J</italic></source>. <year>2017</year>;<volume>5</volume>(<issue>4</issue>):<fpage>579</fpage>–<lpage>587</lpage>. doi:<pub-id pub-id-type="doi">10.1177/2050640616663397</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0048">
+        <label>48.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Ibarra-Coronado</surname>
+<given-names>EG</given-names></string-name>, <string-name><surname>Pantaleón-Martínez</surname>
+<given-names>AM</given-names></string-name>, <string-name><surname>Velazquéz-Moctezuma</surname>
+<given-names>J</given-names></string-name>, et al. <article-title>The bidirectional relationship between sleep and immunity against infections</article-title>. <source><italic toggle="yes">J Immunol Res</italic></source>. <year>2015</year>;<volume>2015</volume>. doi:<pub-id pub-id-type="doi">10.1155/2015/678164</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0049">
+        <label>49.</label>
+        <mixed-citation publication-type="book"><string-name><surname>Silber</surname>
+<given-names>MH</given-names></string-name>. <source><italic toggle="yes">Autoimmune Sleep Disorders</italic></source>. Vol. <volume>133</volume>. <edition>1st</edition>. <publisher-name>Elsevier B.V.</publisher-name>; <year>2016</year>. doi:<pub-id pub-id-type="doi">10.1016/B978-0-444-63432-0.00018-9</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0050">
+        <label>50.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Haque</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Polcyn</surname>
+<given-names>R</given-names></string-name>, <string-name><surname>Matzelle</surname>
+<given-names>D</given-names></string-name>, <string-name><surname>Banik</surname>
+<given-names>NL</given-names></string-name>. <article-title>New insights into the role of neuron-specific enolase in neuro-inflammation, neurodegeneration, and neuroprotection</article-title>. <source><italic toggle="yes">Brain Sci</italic></source>. <year>2018</year>;<volume>8</volume>(<issue>2</issue>):<fpage>33</fpage>. doi:<pub-id pub-id-type="doi">10.3390/brainsci8020033</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0051">
+        <label>51.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Benedict</surname>
+<given-names>C</given-names></string-name>, <string-name><surname>Cedernaes</surname>
+<given-names>J</given-names></string-name>, <string-name><surname>Giedraitis</surname>
+<given-names>V</given-names></string-name>, et al. <article-title>Acute sleep deprivation increases serum levels of neuron-specific enolase (NSE) and S100 calcium binding protein B (S-100B) in healthy young men</article-title>. <source><italic toggle="yes">Sleep</italic></source>. <year>2014</year>;<volume>37</volume>(<issue>1</issue>):<fpage>195</fpage>–<lpage>198</lpage>. doi:<pub-id pub-id-type="doi">10.5665/sleep.3336</pub-id><pub-id pub-id-type="pmid">24470708</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0052">
+        <label>52.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Zhang</surname>
+<given-names>P</given-names></string-name>, <string-name><surname>Tan</surname>
+<given-names>C-W</given-names></string-name>, <string-name><surname>Chen</surname>
+<given-names>G-H</given-names></string-name>, et al. <article-title>Patients with chronic insomnia disorder have increased serum levels of neurofilaments, neuron-specific enolase and S100B: does organic brain damage exist?</article-title>
+<source><italic toggle="yes">Sleep Med</italic></source>. <year>2018</year>;<volume>48</volume>:<fpage>163</fpage>–<lpage>171</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.sleep.2017.12.012</pub-id><pub-id pub-id-type="pmid">29957487</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0053">
+        <label>53.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Kotagal</surname>
+<given-names>S</given-names></string-name>. <article-title>Sleep-wake disorders of childhood</article-title>. <source><italic toggle="yes">Contin Lifelong Learn Neurol</italic></source>. <year>2017</year>;<volume>23</volume>(<issue>4</issue>):<fpage>1132</fpage>–<lpage>1150</lpage>. doi:<pub-id pub-id-type="doi">10.1212/CON.0000000000000504</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0054">
+        <label>54.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Howard</surname>
+<given-names>H</given-names></string-name>, <string-name><surname>Kamat</surname>
+<given-names>D</given-names></string-name>. <article-title>restless legs syndrome in children</article-title>. <source><italic toggle="yes">Pediatr Ann</italic></source>. <year>2018</year>;<volume>47</volume>(<issue>12</issue>):<fpage>e504</fpage>–<lpage>e506</lpage>. doi:<pub-id pub-id-type="doi">10.3928/19382359-20181114-02</pub-id><pub-id pub-id-type="pmid">30543380</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0055">
+        <label>55.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Earley</surname>
+<given-names>CJ</given-names></string-name>, <string-name><surname>Connor</surname>
+<given-names>J</given-names></string-name>, <string-name><surname>Garcia-Borreguero</surname>
+<given-names>D</given-names></string-name>, et al. <article-title>Altered Brain iron homeostasis and dopaminergic function in Restless Legs Syndrome (Willis–Ekbom Disease)</article-title>. <source><italic toggle="yes">Sleep Med</italic></source>. <year>2014</year>;<volume>15</volume>(<issue>11</issue>):<fpage>1288</fpage>–<lpage>1301</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.sleep.2014.05.009</pub-id><pub-id pub-id-type="pmid">25201131</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0056">
+        <label>56.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Trotti</surname>
+<given-names>LM</given-names></string-name>. <article-title>Restless legs syndrome and sleep-related movement disorders</article-title>. <source><italic toggle="yes">Continuum (Minneap Minn)</italic></source>. <year>2017</year>;<volume>23</volume>(<issue>4,Sleep Neurology</issue>):<fpage>1005</fpage>–<lpage>1016</lpage>. doi:<pub-id pub-id-type="doi">10.1212/CON.0000000000000488</pub-id><pub-id pub-id-type="pmid">28777173</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0057">
+        <label>57.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Gao</surname>
+<given-names>Q</given-names></string-name>, <string-name><surname>Kou</surname>
+<given-names>T</given-names></string-name>, <string-name><surname>Zhuang</surname>
+<given-names>B</given-names></string-name>, <string-name><surname>Ren</surname>
+<given-names>Y</given-names></string-name>, <string-name><surname>Dong</surname>
+<given-names>X</given-names></string-name>, <string-name><surname>Wang</surname>
+<given-names>Q</given-names></string-name>. <article-title>The association between vitamin D deficiency and sleep disorders: a systematic review and meta-analysis</article-title>. <source><italic toggle="yes">Nutrients</italic></source>. <year>2018</year>;<volume>10</volume>(<issue>10</issue>):<fpage>1395</fpage>. doi:<pub-id pub-id-type="doi">10.3390/nu10101395</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0058">
+        <label>58.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Yang</surname>
+<given-names>C-Y</given-names></string-name>, <string-name><surname>Leung</surname>
+<given-names>PSC</given-names></string-name>, <string-name><surname>Adamopoulos</surname>
+<given-names>IE</given-names></string-name>, <string-name><surname>Gershwin</surname>
+<given-names>ME</given-names></string-name>. <article-title>The implication of vitamin D and autoimmunity: a comprehensive review</article-title>. <source><italic toggle="yes">Clin Rev Allergy Immunol</italic></source>. <year>2013</year>;<volume>45</volume>(<issue>2</issue>):<fpage>217</fpage>–<lpage>226</lpage>. doi:<pub-id pub-id-type="doi">10.1007/s12016-013-8361-3</pub-id><pub-id pub-id-type="pmid">23359064</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0059">
+        <label>59.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Peelen</surname>
+<given-names>E</given-names></string-name>, <string-name><surname>Knippenberg</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Muris</surname>
+<given-names>A-H</given-names></string-name>, et al. <article-title>Effects of vitamin D on the peripheral adaptive immune system: a review</article-title>. <source><italic toggle="yes">Autoimmun Rev</italic></source>. <year>2011</year>;<volume>10</volume>(<issue>12</issue>):<fpage>733</fpage>–<lpage>743</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.autrev.2011.05.002</pub-id><pub-id pub-id-type="pmid">21621002</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0060">
+        <label>60.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Hewison</surname>
+<given-names>M</given-names></string-name>. <article-title>An update on vitamin D and human immunity</article-title>. <source><italic toggle="yes">Clin Endocrinol (Oxf)</italic></source>. <year>2012</year>;<volume>76</volume>(<issue>3</issue>):<fpage>315</fpage>–<lpage>325</lpage>. doi:<pub-id pub-id-type="doi">10.1111/j.1365-2265.2011.04261.x</pub-id><pub-id pub-id-type="pmid">21995874</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0061">
+        <label>61.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Gunville</surname>
+<given-names>CF</given-names></string-name>, <string-name><surname>Mourani</surname>
+<given-names>PM</given-names></string-name>, <string-name><surname>Ginde</surname>
+<given-names>AA</given-names></string-name>. <article-title>The role of vitamin D in prevention and treatment of infection</article-title>. <source><italic toggle="yes">Inflamm Allergy Drug Targets</italic></source>. <year>2013</year>;<volume>12</volume>(<issue>4</issue>):<fpage>239</fpage>–<lpage>245</lpage>. doi:<pub-id pub-id-type="doi">10.2174/18715281113129990046</pub-id><pub-id pub-id-type="pmid">23782205</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0062">
+        <label>62.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Qiu</surname>
+<given-names>M-H</given-names></string-name>, <string-name><surname>Vetrivelan</surname>
+<given-names>R</given-names></string-name>, <string-name><surname>Fuller</surname>
+<given-names>PM</given-names></string-name>, <string-name><surname>Lu</surname>
+<given-names>J</given-names></string-name>. <article-title>Basal ganglia control of sleep-wake behavior and cortical activation</article-title>. <source><italic toggle="yes">Eur J Neurosci</italic></source>. <year>2010</year>;<volume>31</volume>(<issue>3</issue>):<fpage>499</fpage>–<lpage>507</lpage>. doi:<pub-id pub-id-type="doi">10.1111/j.1460-9568.2009.07062.x</pub-id><pub-id pub-id-type="pmid">20105243</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0063">
+        <label>63.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Björklund</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Dunnett</surname>
+<given-names>SB</given-names></string-name>. <article-title>Dopamine neuron systems in the brain: an update</article-title>. <source><italic toggle="yes">Trends Neurosci</italic></source>. <year>2007</year>;<volume>30</volume>(<issue>5</issue>):<fpage>194</fpage>–<lpage>202</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.tins.2007.03.006</pub-id><pub-id pub-id-type="pmid">17408759</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0064">
+        <label>64.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Schultz</surname>
+<given-names>W</given-names></string-name>. <article-title>Behavioral dopamine signals</article-title>. <source><italic toggle="yes">Trends Neurosci</italic></source>. <year>2007</year>;<volume>30</volume>(<issue>5</issue>):<fpage>203</fpage>–<lpage>210</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.tins.2007.03.007</pub-id><pub-id pub-id-type="pmid">17400301</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0065">
+        <label>65.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Nambu</surname>
+<given-names>A</given-names></string-name>. <article-title>Seven problems on the basal ganglia</article-title>. <source><italic toggle="yes">Curr Opin Neurobiol</italic></source>. <year>2008</year>;<volume>18</volume>(<issue>6</issue>):<fpage>595</fpage>–<lpage>604</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.conb.2008.11.001</pub-id><pub-id pub-id-type="pmid">19081243</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0066">
+        <label>66.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Oishi</surname>
+<given-names>Y</given-names></string-name>, <string-name><surname>Lazarus</surname>
+<given-names>M</given-names></string-name>. <article-title>The control of sleep and wakefulness by mesolimbic dopamine systems</article-title>. <source><italic toggle="yes">Neurosci Res</italic></source>. <year>2017</year>;<volume>118</volume>:<fpage>66</fpage>–<lpage>73</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.neures.2017.04.008</pub-id><pub-id pub-id-type="pmid">28434991</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0067">
+        <label>67.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Volkow</surname>
+<given-names>ND</given-names></string-name>, <string-name><surname>Wang</surname>
+<given-names>G-J</given-names></string-name>, <string-name><surname>Telang</surname>
+<given-names>F</given-names></string-name>, et al. <article-title>Sleep deprivation decreases binding of [11C]raclopride to dopamine D2/D3 receptors in the human brain</article-title>. <source><italic toggle="yes">J Neurosci</italic></source>. <year>2008</year>;<volume>28</volume>(<issue>34</issue>):<fpage>8454</fpage>–<lpage>8461</lpage>. doi:<pub-id pub-id-type="doi">10.1523/JNEUROSCI.1443-08.2008</pub-id><pub-id pub-id-type="pmid">18716203</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0068">
+        <label>68.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Ma</surname>
+<given-names>C</given-names></string-name>, <string-name><surname>Zhong</surname>
+<given-names>P</given-names></string-name>, <string-name><surname>Liu</surname>
+<given-names>D</given-names></string-name>, et al. <article-title>Sleep regulation by neurotensinergic neurons in a thalamo-amygdala circuit</article-title>. <source><italic toggle="yes">Neuron</italic></source>. <year>2019</year>;<volume>103</volume>(<issue>2</issue>):<fpage>323</fpage>–<lpage>334.e7</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.neuron.2019.05.015</pub-id><pub-id pub-id-type="pmid">31178114</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0069">
+        <label>69.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Crittenden</surname>
+<given-names>JR</given-names></string-name>, <string-name><surname>Graybiel</surname>
+<given-names>AM</given-names></string-name>. <article-title>Basal ganglia disorders associated with imbalances in the striatal striosome and matrix compartments</article-title>. <source><italic toggle="yes">Front Neuroanat</italic></source>. <year>2011</year>;<volume>5</volume>. doi:<pub-id pub-id-type="doi">10.3389/fnana.2011.00059</pub-id>.</mixed-citation>
+      </ref>
+      <ref id="cit0070">
+        <label>70.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Alexander</surname>
+<given-names>GE</given-names></string-name>, <string-name><surname>Crutcher</surname>
+<given-names>MD</given-names></string-name>, <string-name><surname>DeLong</surname>
+<given-names>MR</given-names></string-name>. <article-title>Basal ganglia-thalamocortical circuits: parallel substrates for motor, oculomotor, “prefrontal” and “limbic” functions</article-title>. <source><italic toggle="yes">Prog Brain Res</italic></source>. <year>1990</year>;<volume>85</volume>:<fpage>119</fpage>–<lpage>146</lpage>.<pub-id pub-id-type="pmid">2094891</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0071">
+        <label>71.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Haber</surname>
+<given-names>SN</given-names></string-name>. <article-title>The primate basal ganglia: parallel and integrative networks</article-title>. <source><italic toggle="yes">J Chem Neuroanat</italic></source>. <year>2003</year>;<volume>26</volume>(<issue>4</issue>):<fpage>317</fpage>–<lpage>330</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.jchemneu.2003.10.003</pub-id><pub-id pub-id-type="pmid">14729134</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0072">
+        <label>72.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Siegel</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Beresford</surname>
+<given-names>CA</given-names></string-name>, <string-name><surname>Bunker</surname>
+<given-names>M</given-names></string-name>, et al. <article-title>Preliminary investigation of lithium for mood disorder symptoms in children and adolescents with autism spectrum disorder</article-title>. <source><italic toggle="yes">J Child Adolesc Psychopharmacol</italic></source>. <year>2014</year>;<volume>24</volume>(<issue>7</issue>):<fpage>399</fpage>–<lpage>402</lpage>. doi:<pub-id pub-id-type="doi">10.1089/cap.2014.0019</pub-id><pub-id pub-id-type="pmid">25093602</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0073">
+        <label>73.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Blanchard</surname>
+<given-names>JJ</given-names></string-name>, <string-name><surname>Andrea</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Orth</surname>
+<given-names>RD</given-names></string-name>, <string-name><surname>Savage</surname>
+<given-names>C</given-names></string-name>, <string-name><surname>Bennett</surname>
+<given-names>ME</given-names></string-name>. <article-title>Sleep disturbance and sleep-related impairment in psychotic disorders are related to both positive and negative symptoms</article-title>. <source><italic toggle="yes">Psychiatry Res</italic></source>. <year>2020</year>;<volume>286</volume>:<fpage>112857</fpage>. doi:<pub-id pub-id-type="doi">10.1016/j.psychres.2020.112857</pub-id><pub-id pub-id-type="pmid">32087449</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0074">
+        <label>74.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Calaprice</surname>
+<given-names>D</given-names></string-name>, <string-name><surname>Tona</surname>
+<given-names>J</given-names></string-name>, <string-name><surname>Parker-Athill</surname>
+<given-names>EC</given-names></string-name>, <string-name><surname>Murphy</surname>
+<given-names>TK</given-names></string-name>. <article-title>A survey of pediatric acute-onset neuropsychiatric syndrome characteristics and course</article-title>. <source><italic toggle="yes">J Child Adolesc Psychopharmacol</italic></source>. <year>2017</year>;<volume>27</volume>(<issue>7</issue>):<fpage>607</fpage>–<lpage>618</lpage>. doi:<pub-id pub-id-type="doi">10.1089/cap.2016.0105</pub-id><pub-id pub-id-type="pmid">28140619</pub-id></mixed-citation>
+      </ref>
+    </ref-list>
+  </back>
+</article>
+</pmc-articleset>

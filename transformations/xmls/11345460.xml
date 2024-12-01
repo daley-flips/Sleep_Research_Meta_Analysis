@@ -1,0 +1,640 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<pmc-articleset><article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" dtd-version="1.3" xml:lang="en" article-type="research-article">
+  <?properties open_access?>
+  <processing-meta base-tagset="archiving" mathml-version="3.0" table-model="xhtml" tagset-family="jats">
+    <restricted-by>pmc</restricted-by>
+  </processing-meta>
+  <front><journal-meta><journal-id journal-id-type="nlm-ta">Nat Sci Sleep</journal-id><journal-id journal-id-type="iso-abbrev">Nat Sci Sleep</journal-id><journal-id journal-id-type="publisher-id">nss</journal-id><journal-title-group><journal-title>Nature and Science of Sleep</journal-title></journal-title-group><issn pub-type="epub">1179-1608</issn><publisher><publisher-name>Dove</publisher-name></publisher></journal-meta>
+<article-meta><article-id pub-id-type="pmid">39189036</article-id><article-id pub-id-type="pmc">11345460</article-id><article-id pub-id-type="publisher-id">468431</article-id><article-id pub-id-type="doi">10.2147/NSS.S468431</article-id><article-categories><subj-group subj-group-type="heading"><subject>Original Research</subject></subj-group></article-categories><title-group><article-title>BreathFinder: A Method for Non-Invasive Isolation of Respiratory Cycles Utilizing the Thoracic Respiratory Inductance Plethysmography Signal</article-title><alt-title alt-title-type="running-authors">Holm et al</alt-title><alt-title alt-title-type="running-title">Holm et al</alt-title></title-group><contrib-group><contrib contrib-type="author"><contrib-id contrib-id-type="orcid">http://orcid.org/0000-0001-7213-2035</contrib-id><name><surname>Holm</surname><given-names>Benedikt</given-names></name><xref rid="aff0001" ref-type="aff">
+<sup>1</sup>
+</xref><xref rid="an0001" ref-type="corresp"/></contrib><contrib contrib-type="author"><name><surname>Borsky</surname><given-names>Michal</given-names></name><xref rid="aff0001" ref-type="aff">
+<sup>1</sup>
+</xref></contrib><contrib contrib-type="author"><name><surname>Arnardottir</surname><given-names>Erna S</given-names></name><xref rid="aff0002" ref-type="aff">
+<sup>2</sup>
+</xref><xref rid="aff0003" ref-type="aff">
+<sup>3</sup>
+</xref></contrib><contrib contrib-type="author"><name><surname>Serwatko</surname><given-names>Marta</given-names></name><xref rid="aff0002" ref-type="aff">
+<sup>2</sup>
+</xref></contrib><contrib contrib-type="author"><name><surname>Mallett</surname><given-names>Jacky</given-names></name><xref rid="aff0001" ref-type="aff">
+<sup>1</sup>
+</xref></contrib><contrib contrib-type="author"><name><surname>Islind</surname><given-names>Anna Sigridur</given-names></name><xref rid="aff0001" ref-type="aff">
+<sup>1</sup>
+</xref></contrib><contrib contrib-type="author"><name><surname>Óskarsdóttir</surname><given-names>María</given-names></name><xref rid="aff0001" ref-type="aff">
+<sup>1</sup>
+</xref></contrib><aff id="aff0001"><label>1</label><institution>Reykjavik University, School of Technology, Department of Computer Science</institution>, <addr-line>Reykjavik</addr-line>, <country>Iceland</country></aff><aff id="aff0002"><label>2</label><institution>Reykjavik University, School of Technology, Sleep Institute</institution>, <addr-line>Reykjavik</addr-line>, <country>Iceland</country></aff><aff id="aff0003"><label>3</label><institution>Landspitali, The National University Hospital of Iceland</institution>, <addr-line>Reykjavik</addr-line>, <country>Iceland</country></aff></contrib-group><author-notes><corresp id="an0001">Correspondence: Benedikt Holm, Email benedikthth@ru.is</corresp></author-notes><pub-date pub-type="epub"><day>21</day><month>8</month><year>2024</year></pub-date><pub-date pub-type="collection"><year>2024</year></pub-date><volume>16</volume><fpage>1253</fpage><lpage>1266</lpage><history><date date-type="received"><day>09</day><month>5</month><year>2024</year></date><date date-type="accepted"><day>02</day><month>8</month><year>2024</year></date></history><permissions><copyright-statement>© 2024 Holm et al.</copyright-statement><copyright-year>2024</copyright-year><copyright-holder>Holm et al.</copyright-holder><license><ali:license_ref xmlns:ali="http://www.niso.org/schemas/ali/1.0/" specific-use="textmining" content-type="ccbynclicense">https://creativecommons.org/licenses/by-nc/3.0/</ali:license_ref><license-p>This work is published and licensed by Dove Medical Press Limited. The full terms of this license are available at <ext-link ext-link-type="uri" xlink:href="https://www.dovepress.com/terms.php">https://www.dovepress.com/terms.php</ext-link> and incorporate the Creative Commons Attribution – Non Commercial (unported, v3.0) License (<ext-link ext-link-type="uri" xlink:href="https://creativecommons.org/licenses/by-nc/3.0/">http://creativecommons.org/licenses/by-nc/3.0/</ext-link>). By accessing the work you hereby accept the Terms. Non-commercial uses of the work are permitted without any further permission from Dove Medical Press Limited, provided the work is properly attributed. For permission for commercial use of this work, please see paragraphs 4.2 and 5 of our Terms (<ext-link ext-link-type="uri" xlink:href="https://www.dovepress.com/terms.php">https://www.dovepress.com/terms.php</ext-link>).</license-p></license></permissions><abstract><sec sec-type="intro"><title>Introduction</title><p><citation_analysis attribute="positive">The field of automatic respiratory analysis focuses mainly on breath detection on signals such as audio recordings, or nasal flow measurement, which suffer from issues with background noise and other disturbances. Here we introduce a novel algorithm designed to isolate individual respiratory cycles on a thoracic respiratory inductance plethysmography signal using the non-invasive signal of the respiratory inductance plethysmography belts.</citation_analysis></p></sec><sec><title>Purpose</title><p><citation_analysis attribute="positive">The algorithm locates breaths using signal processing and statistical methods on the thoracic respiratory inductance plethysmography belt and enables the analysis of sleep data on an individual breath level.</citation_analysis></p></sec><sec><title>Patients and Methods</title><p><citation_analysis attribute="positive">The algorithm was evaluated against a cohort of 31 participants, both healthy and diagnosed with obstructive sleep apnea. The dataset consisted of 13 female and 18 male participants between the ages of 20 and 69. The algorithm was evaluated on 7.3 hours of hand-annotated data from the cohort, or 8782 individual breaths in total. The algorithm was specifically evaluated on a dataset containing many sleep-disordered breathing events to confirm that it did not suffer in terms of accuracy when detecting breaths in the presence of sleep-disordered breathing. The algorithm was also evaluated across many participants, and we found that its accuracy was consistent across people. Source code for the algorithm was made public via an open-source Python library.</citation_analysis></p></sec><sec><title>Results</title><p><citation_analysis attribute="neither">The proposed algorithm achieved an estimated 94% accuracy when detecting breaths in respiratory signals while producing false positives that amount to only 5% of the total number of detections. The accuracy was not affected by the presence of respiratory related events, such as obstructive apneas or snoring.</citation_analysis></p></sec><sec><title>Conclusion</title><p><citation_analysis attribute="neither">This work presents an automatic respiratory cycle algorithm suitable for use as an analytical tool for research based on individual breaths in sleep recordings that include respiratory inductance plethysmography.</citation_analysis></p></sec></abstract><kwd-group kwd-group-type="author"><title>Keywords</title><kwd>respiratory analysis</kwd><kwd>breath detection algorithm</kwd><kwd>sleep analysis</kwd><kwd>breath segmentation</kwd><kwd>respiratory cycle isolation</kwd></kwd-group><funding-group><award-group><funding-source>
+<institution-wrap><institution>European Union’s Horizon 2020 research and innovation programme</institution></institution-wrap>
+</funding-source></award-group><award-group><funding-source>
+<institution-wrap><institution>Business Finland</institution></institution-wrap>
+</funding-source></award-group><award-group><funding-source>
+<institution-wrap><institution>the Icelandic Research Fund</institution></institution-wrap>
+</funding-source></award-group><funding-statement>The author(s) declare that financial support was received for the research, authorship, and/or publication of this article. The authors of this paper have received funding to perform this work and write this paper from the European Union’s Horizon 2020 research and innovation programme (grant agreement 965417) as well as NordForsk (NordSleep project 90458) via Business Finland (5133/31/2018), the Icelandic Research Fund (ESA &amp; ASI). The Sleep Revolution project has received funding from the European Union’s Horizon 2020 research and innovation program under grant agreement No. 965417.</funding-statement></funding-group><counts><fig-count count="6"/><table-count count="3"/><ref-count count="25"/><page-count count="14"/></counts></article-meta></front>
+  <body>
+    <sec sec-type="intro" id="s0001">
+      <title>Introduction</title>
+      <p><citation_analysis attribute="neither">At present, to be able to correctly diagnose a sleep disorder, an expert sleep scorer must manually review (score) a Polysomnography (PSG) which is an overnight collection of various physiological signals from a patient suffering from a suspected sleep disorder. This type of study is performed either in a controlled hospital environment or in a home setting, each with their advantages and disadvantages.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0001" ref-type="bibr">1</xref></citation_analysis><citation_analysis attribute="neither"> A wide range of signals is currently being collected, including respiratory inductance plethysmography (RIP), oxygen saturation (SpO2), nasal airflow, electroencephalography (EEG), electromyograms (EMG), electrocardiography (ECG), audio, and others.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0002" ref-type="bibr">2</xref></citation_analysis><citation_analysis attribute="neither"> The sleep scorer must annotate the sleep stages and other events of interest, which include respiratory events (apneas, hypopneas), oxygen desaturations, body movements, and respiratory event related arousals (brief waking periods due to breathing interruptions). These annotations are then used to determine the diagnosis and recommend a treatment.</citation_analysis></p>
+      <p><citation_analysis attribute="neither">For historical reasons, most automated scoring of PSG data uses fixed-length epochs following the methodology adopted for manual scoring. An alternative approach, adaptive segmentation, based on segments of variable length depending on the signal,</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0003" ref-type="bibr">3</xref></citation_analysis><citation_analysis attribute="neither"> has been confined to research on brain activity during sleep,</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0004" ref-type="bibr">4</xref></citation_analysis><citation_analysis attribute="neither"> with some success in sleep staging.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0005" ref-type="bibr">5</xref></citation_analysis><citation_analysis attribute="neither">,</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0006" ref-type="bibr">6</xref></citation_analysis></p>
+      <p><citation_analysis attribute="positive">A limited amount of literature exists on using adaptive segmentation to identify individual breaths, or respiratory cycle isolation (RCI), with existing methods mainly based on statistical analysis of signals such as peak and valley detection in the airflow, thoracic or abdominal RIP signals, and feature extraction and modeling, which are mostly derived from the audio signal recorded during the study.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0007" ref-type="bibr">7–15</xref></citation_analysis><citation_analysis attribute="neither"> One problem with some approaches is that formal validation of the algorithm is often not provided on patient data. Issues with equipment, wide variations in patient behavior, and noisy environments such as partner breathing or background noise, may consequently not have been adequately explored.</citation_analysis></p>
+      <p><citation_analysis attribute="neither">Moyles &amp; Erlandson proposed a non-parametric statistical approach to RCI, based on detecting changes in the trend of the airflow signal, but do not provide any validation of their algorithm.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0012" ref-type="bibr">12</xref></citation_analysis><citation_analysis attribute="neither"> Korten &amp; Haddad presented a pattern recognition algorithm that detects respiratory events in a barometric pressure signal,</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0016" ref-type="bibr">16</xref></citation_analysis><citation_analysis attribute="positive"> they claim the difference in mean values for inspiratory time (T_i), expiratory time (T_e), and total respiratory cycle time (T_tot) between the manually calculated values and the automatically detected values using the pattern recognition algorithm is very small (&lt;6%), but do not explicitly state performance in terms of detections.</citation_analysis></p>
+      <p><citation_analysis attribute="neither">Lopez-Meyer et al presented an RCI algorithm based on peak and valley detection on RIP signals to determine the beginning and end of a breath segment, reporting 96% precision when detecting breath cycles for participants during rest.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0011" ref-type="bibr">11</xref></citation_analysis><citation_analysis attribute="neither"> A Python library, RespInPeace, for RIP belt analysis is also available, which uses a peak and valley location algorithm to find respiratory cycles during a conversation. but appears to have no published validation.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0014" ref-type="bibr">14</xref></citation_analysis></p>
+      <p><citation_analysis attribute="neither">Although the existing literature presents diverse methods for RCI algorithms, there is no consensus yet on which signals to base the segmentation on, validation of methods is limited and whether the segmentation should be done on a respiratory phase basis, or on a respiratory cycle basis is not always clear, with the task of RCI sometimes referred to as breath segmentation,</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0011" ref-type="bibr">11</xref></citation_analysis><citation_analysis attribute="neither">,</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0017" ref-type="bibr">17</xref></citation_analysis><citation_analysis attribute="neither"> or breath cycle segmentation.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0018" ref-type="bibr">18</xref></citation_analysis><citation_analysis attribute="neither"> The problem of performing RCI on PSG data in relation to sleep and respiratory events does not appear to have been deeply studied.</citation_analysis></p>
+      <p><citation_analysis attribute="positive">In the rest of this paper, we will present and evaluate BreathFinder: a novel algorithm that locates individual respiratory cycles within breathing signals collected from a PSG using signal processing and statistical methods. This research aims to enhance the analysis of sleep data on an individual breath level. We evaluate our method on a real-life dataset of over eight thousand individual breaths. The main contributions of this paper are:
+</citation_analysis><citation_analysis attribute="positive"><list list-type="bullet"><list-item><p><citation_analysis attribute="neither">A novel algorithm for performing RCI.</citation_analysis></p></list-item><list-item><p><citation_analysis attribute="neither">New methods for evaluating the performance of algorithms designed to locate events in signals.</citation_analysis></p></list-item></list></citation_analysis></p>
+    </sec>
+    <sec id="s0002">
+      <title>Materials and Methods</title>
+      <p><citation_analysis attribute="neither">The common definition of a respiratory cycle in the literature splits a single cycle into 4 distinct phases; inspiratory, inspiratory pause, expiratory, and expiratory pause.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0010" ref-type="bibr">10</xref></citation_analysis><citation_analysis attribute="neither"> In this work, a single cycle in the respiratory system is defined as starting with an inhalation and ending just after the following exhalation, with the terms “breath” and “respiratory cycle” are considered synonymous.</citation_analysis></p>
+      <p><citation_analysis attribute="neither">This definition ignores the inspiratory pause phase and interprets the expiratory pause phase as a pause between two individual breaths belonging to neither.</citation_analysis></p>
+      <p><citation_analysis attribute="neither">This definition also explicitly defines that by its definition of breath, no two breaths can occupy the same moment in time. The different phases of the respiratory cycle as defined in this work are visualized in </citation_analysis><citation_analysis attribute="positive"><xref rid="f0001" ref-type="fig">Figure 1</xref></citation_analysis><citation_analysis attribute="neither">. We used breathing signals from the PSG to detect respiratory events, particularly airflow and RIP signals. The airflow signal measures nasal respiration and is most commonly measured with a pressure transducer attached to a nasal cannula.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0002" ref-type="bibr">2</xref></citation_analysis><citation_analysis attribute="neither"> RIP signals are measured via two belts that stretch around the thorax and abdomen to measure changes in inductance caused by the movement of the body part in which they are placed. RIP belts are normally used to detect respiratory events with the nasal cannula and estimate respiratory effort.
+</citation_analysis><citation_analysis attribute="positive"><fig position="float" id="f0001" fig-type="figure"><label>Figure 1</label><caption><p><citation_analysis attribute="neither">Phases of the respiratory cycle on the thoracic respiratory inductance plethysmography signal.</citation_analysis></p></caption><graphic xlink:href="NSS-16-1253-g0001" content-type="print-only" position="float"/></fig></citation_analysis></p>
+      <p><citation_analysis attribute="positive">When performing RCI, a decision must be made on the signal source which is most appropriate for this purpose. The two main factors in this decision are the error rate of the signals and any potential impacts of external factors such as background noise.</citation_analysis></p>
+      <p><citation_analysis attribute="positive">In practice the nasal cannula has several logistical issues: the sensor can get loose, affecting the measured airflow, or the participant can start mouth breathing, bypassing the sensor completely. Since multiple studies also show that the nasal airflow signal exhibits poor quality in an estimated 10% of cases,</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0019" ref-type="bibr">19</xref></citation_analysis><citation_analysis attribute="neither">,</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0020" ref-type="bibr">20</xref></citation_analysis><citation_analysis attribute="positive"> we deemed it inappropriate for this study. The audio signal was also eliminated, even though some studies show the signal is not as prone to error as the other signals,</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0020" ref-type="bibr">20</xref></citation_analysis><citation_analysis attribute="neither"> because the signal may contain many different acoustic events such as snoring, movement-related artefacts, or various background noises which complicate the task of pure breath detection.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0009" ref-type="bibr">9</xref></citation_analysis><citation_analysis attribute="neither"> RIP belts have the advantage that they are not susceptible to ambient noises, nor the bypass problem that the airflow signal may encounter. Of the two RIP belts, since the thoracic RIP signal captures the action of the chest-wall muscles more closely than the abdominal signal, we chose the thoracic RIP signal as the basis for our analysis.</citation_analysis></p>
+      <sec id="s0002-s2001">
+        <title>The BreathFinder Algorithm</title>
+        <p><citation_analysis attribute="neither">A flowchart of the proposed RCI algorithm is presented in </citation_analysis><citation_analysis attribute="positive"><xref rid="f0002" ref-type="fig">Figure 2</xref></citation_analysis><citation_analysis attribute="positive">. The algorithm takes a thoracic RIP signal as a parameter, along with a sampling frequency fs. The output is a list of individual respiratory cycles, each consisting of the onset, ie the start of the respiratory cycle in seconds since the start of the signal, and the duration of the respiratory cycle in seconds. The algorithm works on the principle of segmenting the signal into windows w[n], with arbitrary onset n in the signal, and then searching for a single respiratory cycle in the selected window. The algorithm first calculates the autocorrelation function for w[n] to estimate the lengths l of all potential breaths in the window. It then uses a probability model to discard breath length candidates that are considered too unlikely, either because the length is too long or too short. Then, for each remaining breath length l, the algorithm creates a template waveform of that length, which correlates with the signal window to find where in the window the breath onset is most likely to be. After the window is analyzed, the algorithm advances the window further in the signal, and repeats the process. The analysis windows overlap to allow the algorithm to analyze every breath multiple times.
+</citation_analysis><citation_analysis attribute="positive"><fig position="float" id="f0002" fig-type="figure"><label>Figure 2</label><caption><p><citation_analysis attribute="neither">Respiratory Cycle Isolation algorithm flowchart.</citation_analysis></p></caption><graphic xlink:href="NSS-16-1253-g0002" content-type="print-only" position="float"/></fig></citation_analysis></p>
+        <sec id="s0002-s2001-s3001">
+          <title>Signal Pre-Processing</title>
+          <p><citation_analysis attribute="positive">The preprocessing of the RIP signal is two-fold. First, the entire signal is smoothed, using a Savitzky-Golay filter, which fits a polynomial function to smooth the data points.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0021" ref-type="bibr">21</xref></citation_analysis><citation_analysis attribute="positive"> Here, we used a filter employed with a third order polynomial over every two seconds of signal data. The filter parameters were tuned beforehand via experimentation to ensure that the smoothing minimally affected the overall shape of the RIP signal while eliminating some of the finer noise. Then, each individual w[n] was corrected for skew. This was achieved by fitting a linear function to the signal in w[n], and adjusting the function so that the y-intercept was 0.0. The function was then subtracted from each sample of the signal. This procedure removes large-scale skew from the signal window but leaves the general shape of the signal intact. The procedure also had a positive effect on the template waveform fitting procedure, making it less likely to produce incorrect results due to skew. The result of this pre-processing step was that the cleaned thoracic RIP signal was ready to be used to estimate breath lengths.</citation_analysis></p>
+        </sec>
+        <sec id="s0002-s2001-s3002">
+          <title>Main Algorithm Body</title>
+          <p><citation_analysis attribute="neither">In the first step, the algorithm takes an analysis window w[n], containing a cleaned signal and estimates its periodicity </citation_analysis><citation_analysis attribute="positive"><italic toggle="yes">T</italic></citation_analysis><citation_analysis attribute="positive"> using the autocorrelation function. The principle of the autocorrelation function (ACF) is to shift the signal forwards in time by k and to compare it to itself. When k = 0, the signal correlates perfectly with itself, but as k increases, the correlation decreases.</citation_analysis></p>
+          <p><citation_analysis attribute="neither">The formula for autocorrelation of a signal x is:
+</citation_analysis><citation_analysis attribute="positive"><disp-formula-group><disp-formula id="um0001"><alternatives><graphic xlink:href="NSS-16-1253-e0001.jpg" position="float"/><tex-math id="Tex001">\documentclass[12pt]{minimal}
+\usepackage{wasysym}
+\usepackage[substack]{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage[mathscr]{eucal}
+\usepackage{mathrsfs}
+\DeclareFontFamily{T1}{linotext}{}
+\DeclareFontShape{T1}{linotext}{m}{n} {linotext }{}
+\DeclareSymbolFont{linotext}{T1}{linotext}{m}{n}
+\DeclareSymbolFontAlphabet{\mathLINOTEXT}{linotext}
+\begin{document}$$ACF\left(x \right)\left[k \right] = \,\,{1 \over N}\mathop \sum \limits_{n = 0}^{N - 1} x\left[k \right] \cdot x\left[{n + k} \right]$$\end{document}</tex-math></alternatives></disp-formula></disp-formula-group></citation_analysis></p>
+          <p><citation_analysis attribute="neither">where N is the length of </citation_analysis><citation_analysis attribute="positive"><italic toggle="yes">x</italic></citation_analysis><citation_analysis attribute="neither">, and </citation_analysis><citation_analysis attribute="positive"><italic toggle="yes">k</italic></citation_analysis><citation_analysis attribute="neither"> the shift.</citation_analysis></p>
+          <p><citation_analysis attribute="neither">For periodic signals, when </citation_analysis><citation_analysis attribute="positive"><inline-formula id="ilm0001"><alternatives><inline-graphic xlink:href="NSS-16-1253-e0002.jpg"/><tex-math id="Tex002">\documentclass[12pt]{minimal}
+\usepackage{wasysym}
+\usepackage[substack]{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage[mathscr]{eucal}
+\usepackage{mathrsfs}
+\DeclareFontFamily{T1}{linotext}{}
+\DeclareFontShape{T1}{linotext}{m}{n} {linotext }{}
+\DeclareSymbolFont{linotext}{T1}{linotext}{m}{n}
+\DeclareSymbolFontAlphabet{\mathLINOTEXT}{linotext}
+\begin{document}$ k\, = \,\,{T \over 2}$\end{document}</tex-math></alternatives></inline-formula></citation_analysis><citation_analysis attribute="neither">, the value of the auto correlation is low, as the signal is being compared to itself when it is in asynchrony. As </citation_analysis><citation_analysis attribute="positive"><italic toggle="yes">k</italic></citation_analysis><citation_analysis attribute="neither"> approaches </citation_analysis><citation_analysis attribute="positive"><italic toggle="yes">T</italic></citation_analysis><citation_analysis attribute="neither">, the correlation value increases, as the first period lines up with the following period.</citation_analysis></p>
+          <p><citation_analysis attribute="neither">Thus, the peaks of </citation_analysis><citation_analysis attribute="positive"><inline-formula id="ilm0002"><alternatives><inline-graphic xlink:href="NSS-16-1253-e0003.jpg"/><tex-math id="Tex003">\documentclass[12pt]{minimal}
+\usepackage{wasysym}
+\usepackage[substack]{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage[mathscr]{eucal}
+\usepackage{mathrsfs}
+\DeclareFontFamily{T1}{linotext}{}
+\DeclareFontShape{T1}{linotext}{m}{n} {linotext }{}
+\DeclareSymbolFont{linotext}{T1}{linotext}{m}{n}
+\DeclareSymbolFontAlphabet{\mathLINOTEXT}{linotext}
+\begin{document}${\rm}ACF\left({w\left[n \right]} \right)$\end{document}</tex-math></alternatives></inline-formula></citation_analysis><citation_analysis attribute="neither"> can be used to estimate the periodicity of a signal.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0001" ref-type="bibr">1</xref></citation_analysis></p>
+          <p><citation_analysis attribute="neither">In the next step, the peaks in </citation_analysis><citation_analysis attribute="positive"><inline-formula id="ilm0003"><alternatives><inline-graphic xlink:href="NSS-16-1253-e0004.jpg"/><tex-math id="Tex004">\documentclass[12pt]{minimal}
+\usepackage{wasysym}
+\usepackage[substack]{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage[mathscr]{eucal}
+\usepackage{mathrsfs}
+\DeclareFontFamily{T1}{linotext}{}
+\DeclareFontShape{T1}{linotext}{m}{n} {linotext }{}
+\DeclareSymbolFont{linotext}{T1}{linotext}{m}{n}
+\DeclareSymbolFontAlphabet{\mathLINOTEXT}{linotext}
+\begin{document}$ACF\left({w\left[n \right]} \right)$\end{document}</tex-math></alternatives></inline-formula></citation_analysis><citation_analysis attribute="positive"> were found using a peak-finding algorithm. Since the analysis window length was more than twice the mean breath length, </citation_analysis><citation_analysis attribute="positive"><inline-formula id="ilm0004"><alternatives><inline-graphic xlink:href="NSS-16-1253-e0005.jpg"/><tex-math id="Tex005">\documentclass[12pt]{minimal}
+\usepackage{wasysym}
+\usepackage[substack]{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage[mathscr]{eucal}
+\usepackage{mathrsfs}
+\DeclareFontFamily{T1}{linotext}{}
+\DeclareFontShape{T1}{linotext}{m}{n} {linotext }{}
+\DeclareSymbolFont{linotext}{T1}{linotext}{m}{n}
+\DeclareSymbolFontAlphabet{\mathLINOTEXT}{linotext}
+\begin{document}$w\left[n \right]$\end{document}</tex-math></alternatives></inline-formula></citation_analysis><citation_analysis attribute="positive"> is likely to contain at least two breath cycles, and thus multiple peaks.</citation_analysis></p>
+          <p><citation_analysis attribute="neither">To address the possibility of false alarm peaks produced by this approach, the algorithm models the breath length probabilities with a normal distribution. The parameters </citation_analysis><citation_analysis attribute="positive"><inline-formula id="ilm0005"><alternatives><inline-graphic xlink:href="NSS-16-1253-e0006.jpg"/><tex-math id="Tex006">\documentclass[12pt]{minimal}
+\usepackage{wasysym}
+\usepackage[substack]{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage[mathscr]{eucal}
+\usepackage{mathrsfs}
+\DeclareFontFamily{T1}{linotext}{}
+\DeclareFontShape{T1}{linotext}{m}{n} {linotext }{}
+\DeclareSymbolFont{linotext}{T1}{linotext}{m}{n}
+\DeclareSymbolFontAlphabet{\mathLINOTEXT}{linotext}
+\begin{document}$\mu $\end{document}</tex-math></alternatives></inline-formula></citation_analysis><citation_analysis attribute="neither"> and </citation_analysis><citation_analysis attribute="positive"><inline-formula id="ilm0006"><alternatives><inline-graphic xlink:href="NSS-16-1253-e0007.jpg"/><tex-math id="Tex007">\documentclass[12pt]{minimal}
+\usepackage{wasysym}
+\usepackage[substack]{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage[mathscr]{eucal}
+\usepackage{mathrsfs}
+\DeclareFontFamily{T1}{linotext}{}
+\DeclareFontShape{T1}{linotext}{m}{n} {linotext }{}
+\DeclareSymbolFont{linotext}{T1}{linotext}{m}{n}
+\DeclareSymbolFontAlphabet{\mathLINOTEXT}{linotext}
+\begin{document}$\sigma $\end{document}</tex-math></alternatives></inline-formula></citation_analysis><citation_analysis attribute="positive">for the normal distribution were calculated using manual breath annotations. The modelled probability distribution is shown in </citation_analysis><citation_analysis attribute="positive"><xref rid="f0003" ref-type="fig">Figure 3</xref></citation_analysis><citation_analysis attribute="positive"> along with a density histogram of the breath lengths from the sets of 8782 manually annotated breaths. Using this probability distribution, the algorithm can rank the breath length candidates, ensuring that it considers the most probable breath length first, thus saving on computing time. Additionally, any breath length candidate whose length probability is less than three standard deviations from the mean is discarded as being too unlikely. Practically speaking, this means that any breath shorter than approximately 1 second or longer than 6 seconds was discarded.
+</citation_analysis><citation_analysis attribute="positive"><fig position="float" id="f0003" fig-type="figure"><label>Figure 3</label><caption><p><citation_analysis attribute="neither">Reference breath length histogram with model normal distribution.</citation_analysis></p></caption><graphic xlink:href="NSS-16-1253-g0003" content-type="print-only" position="float"/></fig></citation_analysis></p>
+          <p><citation_analysis attribute="positive">In the next step, for every remaining breath length candidate, a discrete sine template waveform is generated, using the following formula:
+</citation_analysis><citation_analysis attribute="positive"><disp-formula-group><disp-formula id="um0002"><alternatives><graphic xlink:href="NSS-16-1253-e0008.jpg" position="float"/><tex-math id="Tex008">\documentclass[12pt]{minimal}
+\usepackage{wasysym}
+\usepackage[substack]{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage[mathscr]{eucal}
+\usepackage{mathrsfs}
+\DeclareFontFamily{T1}{linotext}{}
+\DeclareFontShape{T1}{linotext}{m}{n} {linotext }{}
+\DeclareSymbolFont{linotext}{T1}{linotext}{m}{n}
+\DeclareSymbolFontAlphabet{\mathLINOTEXT}{linotext}
+\begin{document}$$\sin \left[n \right]\,\, = \sin \left({{{n \cdot 2 \cdot \pi } \over l} + \theta } \right)$$\end{document}</tex-math></alternatives></disp-formula></disp-formula-group></citation_analysis></p>
+          <p><citation_analysis attribute="positive">Where l is the length of the candidate in seconds and θ is an offset that can be set to 1.5 π to shift the waveform so that it starts at −1, ends at −1, and has a peak in the middle. To find where a given template waveform fits most closely to the RIP signal window, the algorithm compares it to the RIP signal using the Pearson correlation coefficient (</citation_analysis><citation_analysis attribute="positive"><inline-formula id="ilm0007"><alternatives><inline-graphic xlink:href="NSS-16-1253-e0009.jpg"/><tex-math id="Tex009">\documentclass[12pt]{minimal}
+\usepackage{wasysym}
+\usepackage[substack]{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage[mathscr]{eucal}
+\usepackage{mathrsfs}
+\DeclareFontFamily{T1}{linotext}{}
+\DeclareFontShape{T1}{linotext}{m}{n} {linotext }{}
+\DeclareSymbolFont{linotext}{T1}{linotext}{m}{n}
+\DeclareSymbolFontAlphabet{\mathLINOTEXT}{linotext}
+\begin{document}$\rho $\end{document}</tex-math></alternatives></inline-formula></citation_analysis><citation_analysis attribute="neither">) at each point on the RIP signal. The formula for calculating </citation_analysis><citation_analysis attribute="positive"><inline-formula id="ilm0008"><alternatives><inline-graphic xlink:href="NSS-16-1253-e0010.jpg"/><tex-math id="Tex010">\documentclass[12pt]{minimal}
+\usepackage{wasysym}
+\usepackage[substack]{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage[mathscr]{eucal}
+\usepackage{mathrsfs}
+\DeclareFontFamily{T1}{linotext}{}
+\DeclareFontShape{T1}{linotext}{m}{n} {linotext }{}
+\DeclareSymbolFont{linotext}{T1}{linotext}{m}{n}
+\DeclareSymbolFontAlphabet{\mathLINOTEXT}{linotext}
+\begin{document}$\rho $\end{document}</tex-math></alternatives></inline-formula></citation_analysis><citation_analysis attribute="neither"> for a pair of signals is:
+</citation_analysis><citation_analysis attribute="positive"><disp-formula-group><disp-formula id="um0003"><alternatives><graphic xlink:href="NSS-16-1253-e0011.jpg" position="float"/><tex-math id="Tex011">\documentclass[12pt]{minimal}
+\usepackage{wasysym}
+\usepackage[substack]{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage[mathscr]{eucal}
+\usepackage{mathrsfs}
+\DeclareFontFamily{T1}{linotext}{}
+\DeclareFontShape{T1}{linotext}{m}{n} {linotext }{}
+\DeclareSymbolFont{linotext}{T1}{linotext}{m}{n}
+\DeclareSymbolFontAlphabet{\mathLINOTEXT}{linotext}
+\begin{document}$$\rho \left({w\left[n \right],\,\sin \left[l \right]} \right) = {{cov\left({w\left[n \right],\,\sin \left[l \right]} \right)} \over {{\sigma _{w\left[n \right]}}{\sigma _{\sin \left[l \right]}}}}$$\end{document}</tex-math></alternatives></disp-formula></disp-formula-group></citation_analysis></p>
+          <p><citation_analysis attribute="neither">Where </citation_analysis><citation_analysis attribute="positive"><inline-formula id="ilm0009"><alternatives><inline-graphic xlink:href="NSS-16-1253-e0012.jpg"/><tex-math id="Tex012">\documentclass[12pt]{minimal}
+\usepackage{wasysym}
+\usepackage[substack]{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage[mathscr]{eucal}
+\usepackage{mathrsfs}
+\DeclareFontFamily{T1}{linotext}{}
+\DeclareFontShape{T1}{linotext}{m}{n} {linotext }{}
+\DeclareSymbolFont{linotext}{T1}{linotext}{m}{n}
+\DeclareSymbolFontAlphabet{\mathLINOTEXT}{linotext}
+\begin{document}$cov\left({w\left[n \right],\,\sin \left[l \right]} \right)$\end{document}</tex-math></alternatives></inline-formula></citation_analysis><citation_analysis attribute="neither"> is the covariance of the window and template waveform, which can be calculated as:
+</citation_analysis><citation_analysis attribute="positive"><disp-formula-group><disp-formula id="um0004"><alternatives><graphic xlink:href="NSS-16-1253-e0013.jpg" position="float"/><tex-math id="Tex013">\documentclass[12pt]{minimal}
+\usepackage{wasysym}
+\usepackage[substack]{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage[mathscr]{eucal}
+\usepackage{mathrsfs}
+\DeclareFontFamily{T1}{linotext}{}
+\DeclareFontShape{T1}{linotext}{m}{n} {linotext }{}
+\DeclareSymbolFont{linotext}{T1}{linotext}{m}{n}
+\DeclareSymbolFontAlphabet{\mathLINOTEXT}{linotext}
+\begin{document}$$cov\left({w\left[n \right],\,\sin \left[l \right]} \right) = \mathop \sum \limits_{i = 1}^N {{\left({w\left[n \right]\left[i \right]\, - \,\overline {w\left[n \right]} } \right)\left({\sin \left[l \right]\left[i \right]\, - \,\overline {\sin \left[l \right]} } \right)} \over N}$$\end{document}</tex-math></alternatives></disp-formula></disp-formula-group></citation_analysis></p>
+          <p><citation_analysis attribute="neither">where N is the length of w[n] and sin[l] which must be equal, and </citation_analysis><citation_analysis attribute="positive"><inline-formula id="ilm0010"><alternatives><inline-graphic xlink:href="NSS-16-1253-e0014.jpg"/><tex-math id="Tex014">\documentclass[12pt]{minimal}
+\usepackage{wasysym}
+\usepackage[substack]{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage[mathscr]{eucal}
+\usepackage{mathrsfs}
+\DeclareFontFamily{T1}{linotext}{}
+\DeclareFontShape{T1}{linotext}{m}{n} {linotext }{}
+\DeclareSymbolFont{linotext}{T1}{linotext}{m}{n}
+\DeclareSymbolFontAlphabet{\mathLINOTEXT}{linotext}
+\begin{document}$\overline {w\left[n \right]} $\end{document}</tex-math></alternatives></inline-formula></citation_analysis><citation_analysis attribute="neither"> and </citation_analysis><citation_analysis attribute="positive"><inline-formula id="ilm0011"><alternatives><inline-graphic xlink:href="NSS-16-1253-e0015.jpg"/><tex-math id="Tex015">\documentclass[12pt]{minimal}
+\usepackage{wasysym}
+\usepackage[substack]{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage[mathscr]{eucal}
+\usepackage{mathrsfs}
+\DeclareFontFamily{T1}{linotext}{}
+\DeclareFontShape{T1}{linotext}{m}{n} {linotext }{}
+\DeclareSymbolFont{linotext}{T1}{linotext}{m}{n}
+\DeclareSymbolFontAlphabet{\mathLINOTEXT}{linotext}
+\begin{document}$\overline {\sin \left[l \right]} $\end{document}</tex-math></alternatives></inline-formula></citation_analysis><citation_analysis attribute="neither"> are the means of the respective signals. The sign of </citation_analysis><citation_analysis attribute="positive"><inline-formula id="ilm0012"><alternatives><inline-graphic xlink:href="NSS-16-1253-e0016.jpg"/><tex-math id="Tex016">\documentclass[12pt]{minimal}
+\usepackage{wasysym}
+\usepackage[substack]{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage[mathscr]{eucal}
+\usepackage{mathrsfs}
+\DeclareFontFamily{T1}{linotext}{}
+\DeclareFontShape{T1}{linotext}{m}{n} {linotext }{}
+\DeclareSymbolFont{linotext}{T1}{linotext}{m}{n}
+\DeclareSymbolFontAlphabet{\mathLINOTEXT}{linotext}
+\begin{document}$\rho $\end{document}</tex-math></alternatives></inline-formula></citation_analysis><citation_analysis attribute="neither"> describes whether the signals are positively or negatively correlated, and its value describes how strong the correlation is. A </citation_analysis><citation_analysis attribute="positive"><inline-formula id="ilm0013"><alternatives><inline-graphic xlink:href="NSS-16-1253-e0017.jpg"/><tex-math id="Tex017">\documentclass[12pt]{minimal}
+\usepackage{wasysym}
+\usepackage[substack]{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage[mathscr]{eucal}
+\usepackage{mathrsfs}
+\DeclareFontFamily{T1}{linotext}{}
+\DeclareFontShape{T1}{linotext}{m}{n} {linotext }{}
+\DeclareSymbolFont{linotext}{T1}{linotext}{m}{n}
+\DeclareSymbolFontAlphabet{\mathLINOTEXT}{linotext}
+\begin{document}$\rho $\end{document}</tex-math></alternatives></inline-formula></citation_analysis><citation_analysis attribute="positive"> value of 0.0 means that the signals are not correlated, a value of 1.0 indicates a positive correlation and a value of −1.0 means that the variables are perfectly inversely correlated. The algorithm treats the RIP signal as one variable and the template waveform signal as another and calculates the correlation of the template waveform over the entire window. The correlation of the template waveform and the RIP signal produces a third signal, whose peaks represent possible onsets of the target breath. Since the template waveform approximates the shape of a breath, </citation_analysis><citation_analysis attribute="positive"><inline-formula id="ilm0014"><alternatives><inline-graphic xlink:href="NSS-16-1253-e0018.jpg"/><tex-math id="Tex018">\documentclass[12pt]{minimal}
+\usepackage{wasysym}
+\usepackage[substack]{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage[mathscr]{eucal}
+\usepackage{mathrsfs}
+\DeclareFontFamily{T1}{linotext}{}
+\DeclareFontShape{T1}{linotext}{m}{n} {linotext }{}
+\DeclareSymbolFont{linotext}{T1}{linotext}{m}{n}
+\DeclareSymbolFontAlphabet{\mathLINOTEXT}{linotext}
+\begin{document}$\rho $\end{document}</tex-math></alternatives></inline-formula></citation_analysis><citation_analysis attribute="neither"> is not expected to reach 1.0. However, the correlation still provides information about the validity of the breath onset. The algorithm discards any breath onset candidate whose </citation_analysis><citation_analysis attribute="positive"><inline-formula id="ilm0015"><alternatives><inline-graphic xlink:href="NSS-16-1253-e0019.jpg"/><tex-math id="Tex019">\documentclass[12pt]{minimal}
+\usepackage{wasysym}
+\usepackage[substack]{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage[mathscr]{eucal}
+\usepackage{mathrsfs}
+\DeclareFontFamily{T1}{linotext}{}
+\DeclareFontShape{T1}{linotext}{m}{n} {linotext }{}
+\DeclareSymbolFont{linotext}{T1}{linotext}{m}{n}
+\DeclareSymbolFontAlphabet{\mathLINOTEXT}{linotext}
+\begin{document}$\rho $\end{document}</tex-math></alternatives></inline-formula></citation_analysis><citation_analysis attribute="neither"> is less than 0.75. The </citation_analysis><citation_analysis attribute="positive"><inline-formula id="ilm0016"><alternatives><inline-graphic xlink:href="NSS-16-1253-e0020.jpg"/><tex-math id="Tex020">\documentclass[12pt]{minimal}
+\usepackage{wasysym}
+\usepackage[substack]{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage[mathscr]{eucal}
+\usepackage{mathrsfs}
+\DeclareFontFamily{T1}{linotext}{}
+\DeclareFontShape{T1}{linotext}{m}{n} {linotext }{}
+\DeclareSymbolFont{linotext}{T1}{linotext}{m}{n}
+\DeclareSymbolFontAlphabet{\mathLINOTEXT}{linotext}
+\begin{document}$\rho $\end{document}</tex-math></alternatives></inline-formula></citation_analysis><citation_analysis attribute="neither"> elimination criterion was chosen via experimentation to eliminate as many inaccurate guesses as possible, while still not being so strict as to eliminate legitimate guesses on noisy data, at approximately 0.5 </citation_analysis><citation_analysis attribute="positive"><inline-formula id="ilm0017"><alternatives><inline-graphic xlink:href="NSS-16-1253-e0021.jpg"/><tex-math id="Tex021">\documentclass[12pt]{minimal}
+\usepackage{wasysym}
+\usepackage[substack]{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage[mathscr]{eucal}
+\usepackage{mathrsfs}
+\DeclareFontFamily{T1}{linotext}{}
+\DeclareFontShape{T1}{linotext}{m}{n} {linotext }{}
+\DeclareSymbolFont{linotext}{T1}{linotext}{m}{n}
+\DeclareSymbolFontAlphabet{\mathLINOTEXT}{linotext}
+\begin{document}$\rho $\end{document}</tex-math></alternatives></inline-formula></citation_analysis><citation_analysis attribute="neither"> below the stable elimination criterion (see </citation_analysis><citation_analysis attribute="positive"><xref rid="f0004" ref-type="fig">Figure 4</xref></citation_analysis><citation_analysis attribute="neither">). If this elimination step filters out all breath onset candidates, the algorithm repeats the template waveform fitting process with another breath length candidate. If the algorithm processes all breath length candidates and no breath is found in the current signal window, then the algorithm moves on to the next window. If the correlation is above the threshold, the algorithm adds the onset and the duration to a list of breaths and moves the window onset to the end of the detected breath. This process is repeated until the signal is fully analyzed.
+</citation_analysis><citation_analysis attribute="positive"><fig position="float" id="f0004" fig-type="figure"><label>Figure 4</label><caption><p><citation_analysis attribute="neither">Algorithm Recall and Precision sensitivity analysis. (</citation_analysis><citation_analysis attribute="positive"><bold>a</bold></citation_analysis><citation_analysis attribute="neither">) Window length (</citation_analysis><citation_analysis attribute="positive"><bold>b</bold></citation_analysis><citation_analysis attribute="neither">) Overlap percentage (</citation_analysis><citation_analysis attribute="positive"><bold>c</bold></citation_analysis><citation_analysis attribute="neither">) Correlation threshold (</citation_analysis><citation_analysis attribute="positive"><bold>d</bold></citation_analysis><citation_analysis attribute="neither">) Probability threshold.</citation_analysis></p></caption><graphic xlink:href="NSS-16-1253-g0004" content-type="print-only" position="float"/></fig></citation_analysis></p>
+        </sec>
+        <sec id="s0002-s2001-s3003">
+          <title>Breath Placement Post-Processing</title>
+          <p><citation_analysis attribute="neither">As the sliding windows overlap, the algorithm has a tendency to re-discover breaths. To solve this problem, the </citation_analysis><citation_analysis attribute="positive"><italic toggle="yes">i<sup>th</sup></italic></citation_analysis><citation_analysis attribute="neither"> breath is compared to the </citation_analysis><citation_analysis attribute="positive"><italic toggle="yes">i+1<sup>th</sup></italic></citation_analysis><citation_analysis attribute="neither"> breath. If the overlap of the breaths spans the majority of the total length, the breaths are considered a double detection, and therefore the detections are merged. The process of merging two breath detections involves replacing them with a single detection which covers the area that both previous detections covered.</citation_analysis></p>
+          <p><citation_analysis attribute="neither">The percentage overlap calculation for a pair of time spans is:
+</citation_analysis><citation_analysis attribute="positive"><disp-formula-group><disp-formula id="um0005"><alternatives><graphic xlink:href="NSS-16-1253-e0022.jpg" position="float"/><tex-math id="Tex022">\documentclass[12pt]{minimal}
+\usepackage{wasysym}
+\usepackage[substack]{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage[mathscr]{eucal}
+\usepackage{mathrsfs}
+\DeclareFontFamily{T1}{linotext}{}
+\DeclareFontShape{T1}{linotext}{m}{n} {linotext }{}
+\DeclareSymbolFont{linotext}{T1}{linotext}{m}{n}
+\DeclareSymbolFontAlphabet{\mathLINOTEXT}{linotext}
+\begin{document}$${O_w}\left({A,B} \right) = {{2\left| {A\mathop \cap \nolimits B} \right|} \over {\left| A\right| + \left| B\right|}}$$\end{document}</tex-math></alternatives></disp-formula></disp-formula-group></citation_analysis></p>
+          <p><citation_analysis attribute="neither">where |A| and |B| are the lengths of time spans A and B respectively, and </citation_analysis><citation_analysis attribute="positive"><inline-formula id="ilm0018"><alternatives><inline-graphic xlink:href="NSS-16-1253-e0023.jpg"/><tex-math id="Tex023">\documentclass[12pt]{minimal}
+\usepackage{wasysym}
+\usepackage[substack]{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage[mathscr]{eucal}
+\usepackage{mathrsfs}
+\DeclareFontFamily{T1}{linotext}{}
+\DeclareFontShape{T1}{linotext}{m}{n} {linotext }{}
+\DeclareSymbolFont{linotext}{T1}{linotext}{m}{n}
+\DeclareSymbolFontAlphabet{\mathLINOTEXT}{linotext}
+\begin{document}$\left| {A\mathop \cap \nolimits B} \right|$\end{document}</tex-math></alternatives></inline-formula></citation_analysis><citation_analysis attribute="neither"> is the overlap area of detections A and B. If the breaths do not overlap at all, the value produced by this function is negative, and in the case of perfect overlap, the overlap value is 1.0. For this reason, the function is clamped above 0.0. The detection merging procedure is visualized in </citation_analysis><citation_analysis attribute="positive"><xref rid="f0005" ref-type="fig">Figure 5a</xref></citation_analysis><citation_analysis attribute="neither">.
+</citation_analysis><citation_analysis attribute="positive"><fig position="float" id="f0005" fig-type="figure"><label>Figure 5</label><caption><p><citation_analysis attribute="neither">Post processing visualization. (</citation_analysis><citation_analysis attribute="positive"><bold>a</bold></citation_analysis><citation_analysis attribute="neither">) Detection merging procedure for double-detections. (</citation_analysis><citation_analysis attribute="positive"><bold>b</bold></citation_analysis><citation_analysis attribute="neither">) Overlap removal.</citation_analysis></p></caption><graphic xlink:href="NSS-16-1253-g0005" content-type="print-only" position="float"/></fig></citation_analysis></p>
+          <p><citation_analysis attribute="neither">Due to the 80% overlap required to merge breaths, the breaths can still overlap by up to 20%.</citation_analysis></p>
+          <p><citation_analysis attribute="neither">By definition, a breath cannot overlap with another breath, so for each breath, the </citation_analysis><citation_analysis attribute="positive"><italic toggle="yes">i<sup>t</sup></italic></citation_analysis><citation_analysis attribute="positive"><sup>h</sup></citation_analysis><citation_analysis attribute="neither"> breath is compared to the </citation_analysis><citation_analysis attribute="positive"><italic toggle="yes">i+1</italic></citation_analysis><citation_analysis attribute="positive"><sup>th</sup></citation_analysis><citation_analysis attribute="neither"> breath. If they still overlap, the end of the </citation_analysis><citation_analysis attribute="positive"><italic toggle="yes">i</italic></citation_analysis><citation_analysis attribute="positive"><sup>th</sup></citation_analysis><citation_analysis attribute="neither"> and start of the </citation_analysis><citation_analysis attribute="positive"><italic toggle="yes">i+1<sup>th</sup></italic></citation_analysis><citation_analysis attribute="neither"> breath are moved to the time of the minimum value of the RIP signal within the overlapping region. This process is visualized in </citation_analysis><citation_analysis attribute="positive"><xref rid="f0005" ref-type="fig">Figure 5b</xref></citation_analysis><citation_analysis attribute="positive">. The result of this post-processing process is that there is no overlapping pair of detections, satisfying the constraint that no two breaths can share. When run on Evaluation-Subset-A and Evaluation-Subset-B, the post processing step removed 2.05% of detections on average from each interval.</citation_analysis></p>
+        </sec>
+      </sec>
+      <sec id="s0002-s2002">
+        <title>Algorithm Evaluation</title>
+        <p><citation_analysis attribute="positive">As the algorithm’s task is to mark an individual detection event anywhere on a signal, an obvious problem presents itself when comparing detections to a ground truth. If the algorithm produces a false positive, splits a single breath into two or more breaths, or any case in which an extra detection is inserted, a misalignment between the list of detections and annotations is created where the detections placed after the false positive have an index that corresponds to the index of a later annotation than it should. The error compounds after each false positive.</citation_analysis></p>
+        <p><citation_analysis attribute="neither">The same misalignment error is created when the algorithm produces a false negative, except the misalignment is now reversed, ie, each detection after the false negative has an index corresponding to the index of an earlier annotation than it should. As with the previous case, the misalignment error compounds after each false negative.</citation_analysis></p>
+        <p><citation_analysis attribute="positive">Due to the possibility of misalignment errors, it is impossible to naively compare the list of detections and annotations, and an extra step must be performed to match detections to their corresponding annotations. We solved this alignment problem by using a matrix containing the percentage overlap of all available pairs of detections and annotations calculated using the overlap equation introduced earlier.</citation_analysis></p>
+        <p><citation_analysis attribute="positive">This matrix is referred to as the overlap matrix and simplifies the process of finding which detection corresponds to which annotation, whether a given detection is a false positive or not, and whether a given annotation corresponds to a detection or is a false negative.</citation_analysis></p>
+        <p><citation_analysis attribute="neither">Given an overlap matrix A of a list of detections X and a list of annotations Y, the overlap of any X[i] and Y[j] can be accessed in A[i,j]. Using an overlap matrix, a detection corresponding to any annotation could be found by locating the index of the maximum overlap value in the overlap matrix column for that annotation.</citation_analysis></p>
+        <p><citation_analysis attribute="neither">To be counted as a correct detection for a given annotation, a detection must have a weighted overlap value of over 80% with that annotation. If an annotation had no value above that threshold in its column in the overlap matrix, the breath was counted as having been missed by the algorithm (false negative). Similarly, if a detection had no value above the threshold in its row in the overlap matrix, the detection was counted as a false positive. Due to the restriction that detections may not overlap, it was impossible for two detections to correspond to the same annotation.</citation_analysis></p>
+        <p><citation_analysis attribute="neither">This paper uses the precision (ratio of true positives to true positives and false positives), recall (ratio of true positives to true positives and false negatives), and F1 score metrics to estimate the accuracy of the algorithm. In addition to the precision, recall, and F1, additional statistics were collected on the placement error of the detections that were counted as correct. Those include the length of detections versus the length of the annotations.</citation_analysis></p>
+        <p><citation_analysis attribute="positive">The start and end error was calculated using the following two formulae:
+</citation_analysis><citation_analysis attribute="positive"><disp-formula-group><disp-formula id="um0006"><alternatives><graphic xlink:href="NSS-16-1253-e0024.jpg" position="float"/><tex-math id="Tex024">\documentclass[12pt]{minimal}
+\usepackage{wasysym}
+\usepackage[substack]{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage[mathscr]{eucal}
+\usepackage{mathrsfs}
+\DeclareFontFamily{T1}{linotext}{}
+\DeclareFontShape{T1}{linotext}{m}{n} {linotext }{}
+\DeclareSymbolFont{linotext}{T1}{linotext}{m}{n}
+\DeclareSymbolFontAlphabet{\mathLINOTEXT}{linotext}
+\begin{document}$$Start\,error\, = \,s\, - \,{s^p}\,End\,error\, = \,e\, - \,{e^p}$$\end{document}</tex-math></alternatives></disp-formula></disp-formula-group></citation_analysis></p>
+        <p><citation_analysis attribute="neither">where s is the annotation start, e is the annotated breath end, s</citation_analysis><citation_analysis attribute="positive"><sup>p</sup></citation_analysis><citation_analysis attribute="neither"> is the predicted breath start, and e</citation_analysis><citation_analysis attribute="positive"><sup>p</sup></citation_analysis><citation_analysis attribute="neither"> is the predicted breath end.</citation_analysis></p>
+        <p><citation_analysis attribute="neither">The algorithm has four main parameters; the analysis window length, the overlap threshold, the correlation cut-off for the sine fitting procedure, and the probability threshold for the filtering process. To gauge the effect these variables have on the algorithm’s performance, the evaluation was repeated for a range of values for each variable.</citation_analysis></p>
+      </sec>
+      <sec id="s0002-s2003">
+        <title>Data Description</title>
+        <p><citation_analysis attribute="neither">An extensive evaluation of the correctness of the algorithms output is required, both during normal breathing, and other conditions that may arise during sleep. The dataset used for validation contained 31 overnight PSGs from people diagnosed with obstructive sleep apnea and people with no known sleep issues (VSN-14-080). Of the participants, 13 were female and 18 were male. The mean age of the participants was 47.1 years, in the range of 20–69 years. The mean body-mass index (BMI) was 29.9 kg/m</citation_analysis><citation_analysis attribute="positive"><sup>2</sup></citation_analysis><citation_analysis attribute="neither"> in the range of 21.6–49.3 kg/m</citation_analysis><citation_analysis attribute="positive"><sup>2</sup></citation_analysis><citation_analysis attribute="neither">. The mean apnea-hypopnea index (AHI) was 9.3 h</citation_analysis><citation_analysis attribute="positive"><sup>−1</sup></citation_analysis><citation_analysis attribute="neither"> in the range of 0.0 to 34.8 h</citation_analysis><citation_analysis attribute="positive"><sup>−1</sup></citation_analysis><citation_analysis attribute="positive">. Due either to signal failure in the RIP signal or errors in exporting the recordings from the proprietary NOX format to the standard European data format (EDF), five recordings had to be discarded. Each PSG included all standard signals, including EEG, EOG, EMG, ECG, and airflow recorded with a nasal cannula, thorax and abdomen RIP belts, pulse oximetry (SpO2), and an audio signal. The RIP belts in the dataset were recorded with a 25Hz sampling frequency. Additionally, esophageal pressure was recorded with a nose-fed catheter.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0022" ref-type="bibr">22</xref></citation_analysis><citation_analysis attribute="positive"> The algorithm was evaluated against 39 variable-length manually annotated evaluation intervals, which were further split into two evaluation subsets. The first set, referred to as Evaluation-Subset-A, was selected to specifically contain various sleep-disordered breathing (SDB) events, as well as different sleep stages. Evaluation-Subset-A contained 14 variable length intervals with a mean length of 16 minutes, in the range of 1.5 to 37.5 minutes, with a cumulative length of 225.65 minutes (3.6 hours). The SDB events in Evaluation-Subset-A included obstructive apneas, hypopneas, and increases in respiratory effort without apnea or hypopnea. Further events included in Evaluation-Subset-A were sleep stages, movements, oxygen desaturations, and snoring.</citation_analysis></p>
+        <p><citation_analysis attribute="neither">These intervals, however, were only selected from one participant in the dataset and are not representative of the general public.</citation_analysis></p>
+        <p><citation_analysis attribute="neither">This issue was addressed with a second evaluation subset, referred to as Evaluation-Subset-B, consisting of a collection of 10-minute intervals from the remaining 25 valid PSGs in the dataset, of which 12 participants were healthy (AHI &lt; 5) and 13 had some severity of SDB (AHI mean was 16.4, std. was 8).</citation_analysis></p>
+        <p><citation_analysis attribute="positive">These intervals were selected randomly from each recording to avoid cherry-picking favorable intervals. The random selection was done blindly, aside from being restricted from one hour after the recording starts to one hour before the recording ends. This was done to reduce the probability of including either the participants settling down to sleep or moving around as they wake up. The intervals were relatively artefact free, with approximately 90% of the signals in the period being free of artefacts. Due to the requirement that the algorithm be evaluated for its robustness to them, the artefacts were not removed.</citation_analysis></p>
+        <p><citation_analysis attribute="positive">The locations of individual breaths in both evaluation subsets were then manually marked using a custom-made scoring tool programmed in Python. The manual breath annotations represented the ground truth.</citation_analysis></p>
+        <p><citation_analysis attribute="positive">Of the total 39 intervals in Evaluation-Subset-A and Evaluation-Subset-B, one was found to be incorrectly manually annotated and was discarded. The algorithm was therefore evaluated on 7.3 hours of manually annotated data over 38 intervals, containing 8782 individual breaths from 26 participants.</citation_analysis></p>
+      </sec>
+    </sec>
+    <sec id="s0003">
+      <title>Results</title>
+      <p><citation_analysis attribute="positive">The algorithm was evaluated on two sets of manually annotated intervals, the first set containing a relatively high amount of SDB events, and the second set being sampled from a population of 25 participants. </citation_analysis><citation_analysis attribute="positive"><xref rid="f0006" ref-type="fig">Figure 6</xref></citation_analysis><citation_analysis attribute="neither"> shows the format of how the algorithm detects a breath. The performance evaluation results are summarized in </citation_analysis><citation_analysis attribute="positive"><xref rid="t0001" ref-type="table">Table 1</xref></citation_analysis><citation_analysis attribute="positive">, and the placement errors are shown in </citation_analysis><citation_analysis attribute="positive"><xref rid="t0002" ref-type="table">Table 2</xref></citation_analysis><citation_analysis attribute="negative">. The algorithm achieved, on average, 0.94 precision for Evaluation-Subset-A and 0.93 for Evaluation-Subset-B. This means that only 6% and 7% of detections were classified as false positives for Evaluation-Subset-A and Evaluation-Subset-B, respectively. The recall for Evaluation-Subset-A and Evaluation-Subset-B was 0.94 and 0.95, respectively, meaning that the algorithm only missed 6% of breaths in Evaluation-Subset-A and 5% of breaths in Evaluation-Subset-B. Two intervals in Evaluation-Subset-A had noticeably worse results, with F1 scores of 0.79 and 0.81. Upon visual inspection, the errors were mainly due to incorrect manual annotations and noise in the signal during those intervals. Omitting these two intervals increased the mean F1 of the algorithm to 0.95 for Evaluation-Subset-B. The algorithm performed noticeably worse for one interval in Evaluation-Subset-A than for the others, its precision being 0.76 and the recall being 0.963, making for an F1 score of 0.854. This lack of performance was due to the interval being relatively short and the beginning of the signal being dominated by a movement event, causing the algorithm to misclassify the movement as breaths.
+</citation_analysis><citation_analysis attribute="positive"><table-wrap position="float" id="t0001"><label>Table 1</label><caption><p><citation_analysis attribute="neither">Evaluation Results of the RCI Algorithm</citation_analysis></p></caption><table frame="hsides" rules="groups"><thead><tr><th rowspan="1" colspan="1">Evaluation Subset</th><th rowspan="1" colspan="1">Mean Precision</th><th rowspan="1" colspan="1">Mean Recall</th><th rowspan="1" colspan="1">Mean F1</th></tr></thead><tbody><tr><td rowspan="1" colspan="1">A</td><td rowspan="1" colspan="1">0.94</td><td rowspan="1" colspan="1">0.94</td><td rowspan="1" colspan="1">0.94</td></tr><tr><td rowspan="1" colspan="1">B</td><td rowspan="1" colspan="1">0.93</td><td rowspan="1" colspan="1">0.95</td><td rowspan="1" colspan="1">0.94</td></tr></tbody></table></table-wrap></citation_analysis><citation_analysis attribute="positive">
+</citation_analysis><citation_analysis attribute="positive"><table-wrap position="float" id="t0002"><label>Table 2</label><caption><p><citation_analysis attribute="neither">Placement Errors of the RCI Algorithm</citation_analysis></p></caption><table frame="hsides" rules="groups"><thead><tr><th rowspan="1" colspan="1">Evaluation Subset</th><th rowspan="1" colspan="1">Annotation Mean Breath Length (Seconds)</th><th rowspan="1" colspan="1">Detection Mean Breath Length (Seconds)</th><th rowspan="1" colspan="1">Mean Absolute Start Error (Seconds)</th><th rowspan="1" colspan="1">Mean Absolute Start Error (Seconds)</th></tr></thead><tbody><tr><td rowspan="1" colspan="1">A</td><td rowspan="1" colspan="1">2.57</td><td rowspan="1" colspan="1">2.76</td><td rowspan="1" colspan="1">0.16</td><td rowspan="1" colspan="1">0.24</td></tr><tr><td rowspan="1" colspan="1">B</td><td rowspan="1" colspan="1">3.56</td><td rowspan="1" colspan="1">3.88</td><td rowspan="1" colspan="1">0.23</td><td rowspan="1" colspan="1">0.30</td></tr></tbody></table></table-wrap></citation_analysis><citation_analysis attribute="positive">
+</citation_analysis><citation_analysis attribute="positive"><fig position="float" id="f0006" fig-type="figure"><label>Figure 6</label><caption><p><citation_analysis attribute="neither">Visualization of an example detection.</citation_analysis></p></caption><graphic xlink:href="NSS-16-1253-g0006" content-type="print-only" position="float"/></fig></citation_analysis></p>
+      <p><citation_analysis attribute="neither">On the other hand, the algorithm achieved perfect precision for two intervals in Evaluation-Subset-A and one in valuation-Subset-B, all of which contained no SDB events and only stable breathing.</citation_analysis></p>
+      <p><citation_analysis attribute="positive">The recall was slightly more stable than the precision for both sets, with the standard deviation being 0.054 for the recall and 0.058 for the precision. The mean start error for both Evaluation-Subset-A and B was approximately 6.4% of the mean breath length. The mean end error for both sets was more significant, 10% and 8.4% of the mean breath length for Evaluation-Subset-A and B respectively. When visually inspected, the alignment of the detections and the thoracic RIP signal was high for both Evaluation-Subset-A and B.</citation_analysis></p>
+      <sec id="s0003-s2001">
+        <title>Sensitivity Analysis Results</title>
+        <p><citation_analysis attribute="neither">The analysis window length is the window length in seconds that the algorithm uses to search for breaths at each step. The results of the sensitivity estimation can be seen in </citation_analysis><citation_analysis attribute="positive"><xref rid="f0004" ref-type="fig">Figure 4a</xref></citation_analysis><citation_analysis attribute="positive"> and show that both precision and recall rise sharply as the window length reaches approximately 6 seconds and plateaus at approximately 8 seconds. The reason for the sharp rise in performance between 2–6 seconds is most likely that the window cannot reliably fit two cycles of the respiratory cycle until the window becomes longer than twice the average length of breath in the dataset. The overlap percentage is the amount of the previous window included in the next window as the analysis window advances. The effect of this parameter is shown in </citation_analysis><citation_analysis attribute="positive"><xref rid="f0004" ref-type="fig">Figure 4b</xref></citation_analysis><citation_analysis attribute="positive">, which suggests that the algorithm performs noticeably poorly only in terms of recall when the overlap percentage is around 0. This can be explained by the algorithm missing breaths as the window skips entirely or partly over them. The precision seems largely unaffected, which indicates that the number of false positives drops proportionally with the number of true positives. The best performance in terms of accuracy and recall was around the 55% overlap, which was thus chosen as the default overlap value. The correlation threshold dictates how much a breath candidate must resemble a model breath and is measured by its Pearson correlation (see </citation_analysis><citation_analysis attribute="positive"><xref rid="f0004" ref-type="fig">Figure 4c</xref></citation_analysis><citation_analysis attribute="neither">). It filters out waveforms that may only superficially resemble breaths but still form peaks in the sine-correlation function. As the correlation threshold increases, the precision improves. This can be interpreted as the criterion for what “looks like a breath” becoming stricter, thus eliminating more false negatives. The recall seems unaffected by this criterion until the threshold reaches approximately 0.8, at which point it sharply drops. This drop in performance is to be expected since the template waveform is only an estimation of the general shape of a breath in the signal, and thus, the correlation with the signal is not expected to be perfect.</citation_analysis></p>
+        <p><citation_analysis attribute="neither">The probability threshold parameter is used to discard breaths that are considered too improbable. As </citation_analysis><citation_analysis attribute="positive"><xref rid="f0004" ref-type="fig">Figure 4d</xref></citation_analysis><citation_analysis attribute="neither"> indicates, the absence of this filtering step has little effect. The precision is least affected by the probability threshold, while the recall drops sharply as the threshold increases. This is reasonable since as the threshold increases, more legitimate breaths are discarded, thus negatively affecting the recall until the threshold reaches approximately 0.55, at which point all breaths are discarded. The stability of the precision suggests that the rate of false positives drops proportionally to the rate of true positives as this parameter approaches 0.5. The reason for the falloff of both the precision and recall at 0.5 is that the maximum possible value of the probability estimator is 0.5, so any value above 0.5 will cause the filtering process to discard all detections.</citation_analysis></p>
+      </sec>
+    </sec>
+    <sec id="s0004">
+      <title>Discussion</title>
+      <p><citation_analysis attribute="neither">This paper presents a novel algorithm designed to perform RCI on the thoracic RIP signal, based on signal processing and statistical methods. The algorithm achieved an F1 score of 0.94 when detecting breaths during sleep over multiple nights and including SDB events, that is 94% of breaths were classified correctly, with 6% false negatives. Of the detections made by the algorithm, approximately 95% are correctly placed breaths, with only 5% being false positives. This accuracy is superior,</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0013" ref-type="bibr">13</xref></citation_analysis><citation_analysis attribute="neither"> or comparable</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0010" ref-type="bibr">10</xref></citation_analysis><citation_analysis attribute="neither">,</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0011" ref-type="bibr">11</xref></citation_analysis><citation_analysis attribute="neither"> with previous work, however, we note that comparison to some prior work is problematic since there is no standardized method of evaluating RCI algorithms, and thus different works approach the task of evaluation differently, making comparisons difficult, if not at times impossible.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0012" ref-type="bibr">12</xref></citation_analysis><citation_analysis attribute="neither">,</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0014" ref-type="bibr">14</xref></citation_analysis><citation_analysis attribute="neither">,</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0018" ref-type="bibr">18</xref></citation_analysis><citation_analysis attribute="neither"> Comparison between algorithms can be seen in </citation_analysis><citation_analysis attribute="positive"><xref rid="t0003" ref-type="table">Table 3</xref></citation_analysis><citation_analysis attribute="positive">. Currently, the algorithm is only evaluated on RIP signals collected with a 25Hz sampling frequency. The algorithm is designed to be independent of the sampling frequency of the signal but requires a similarly rigorous evaluation at other sampling frequencies. In the validation data used in this paper, the algorithm is validated on intervals containing significant movement, respiratory events, and various sleep stages.
+</citation_analysis><citation_analysis attribute="positive"><table-wrap position="float" id="t0003"><label>Table 3</label><caption><p><citation_analysis attribute="neither">Comparison Between This Work and Related Work</citation_analysis></p></caption><table frame="hsides" rules="groups"><thead><tr><th rowspan="1" colspan="1">Algorithm</th><th rowspan="1" colspan="1">Accuracy</th><th rowspan="1" colspan="1">Signal</th><th rowspan="1" colspan="1">N</th></tr></thead><tbody><tr><td rowspan="1" colspan="1">BreathFinder (This work)</td><td rowspan="1" colspan="1">94%</td><td rowspan="1" colspan="1">Thorax RIP</td><td rowspan="1" colspan="1">8782 respiratory cycles</td></tr><tr><td rowspan="1" colspan="1">Rosenwein et al<xref rid="cit0013" ref-type="bibr">13</xref></td><td rowspan="1" colspan="1">87%</td><td rowspan="1" colspan="1">Audio</td><td rowspan="1" colspan="1">188.850 events (inspirations)</td></tr><tr><td rowspan="1" colspan="1">Yaha &amp; Faezipour<xref rid="cit0015" ref-type="bibr">15</xref></td><td rowspan="1" colspan="1">95%</td><td rowspan="1" colspan="1">Audio</td><td rowspan="1" colspan="1">128 events</td></tr><tr><td rowspan="1" colspan="1">Palaniappan et al<xref rid="cit0018" ref-type="bibr">18</xref></td><td rowspan="1" colspan="1">“Very Good”</td><td rowspan="1" colspan="1">Audio</td><td rowspan="1" colspan="1">72000 events</td></tr><tr><td rowspan="1" colspan="1">Hsiao et al<xref rid="cit0008" ref-type="bibr">8</xref></td><td rowspan="1" colspan="1">91%</td><td rowspan="1" colspan="1">Audio</td><td rowspan="1" colspan="1">489 recordings of lung sounds from 22 participants (number of events not specified)</td></tr><tr><td rowspan="1" colspan="1">Hult et al<xref rid="cit0009" ref-type="bibr">9</xref></td><td rowspan="1" colspan="1">99%-90%</td><td rowspan="1" colspan="1">Audio</td><td rowspan="1" colspan="1">1863 respiratory cycles</td></tr><tr><td rowspan="1" colspan="1">Alshaer et al<xref rid="cit0023" ref-type="bibr">23</xref></td><td rowspan="1" colspan="1">Not stated</td><td rowspan="1" colspan="1">Audio</td><td rowspan="1" colspan="1">–</td></tr><tr><td rowspan="1" colspan="1">Moyles &amp; Erlandsson<xref rid="cit0012" ref-type="bibr">12</xref></td><td rowspan="1" colspan="1">No Validation</td><td rowspan="1" colspan="1">Air Flow</td><td rowspan="1" colspan="1">–</td></tr><tr><td rowspan="1" colspan="1">Lopez-Meyer et al<xref rid="cit0011" ref-type="bibr">11</xref></td><td rowspan="1" colspan="1">96%</td><td rowspan="1" colspan="1">RIP Belts</td><td rowspan="1" colspan="1">At least 10 minutes from 4 participants (number of events not specified)</td></tr><tr><td rowspan="1" colspan="1">RespInPeace<xref rid="cit0014" ref-type="bibr">14</xref></td><td rowspan="1" colspan="1">No validation</td><td rowspan="1" colspan="1">RIP Belts</td><td rowspan="1" colspan="1">–</td></tr></tbody></table><table-wrap-foot><fn id="tfn0001"><p><citation_analysis attribute="positive"><bold>Abbreviations</bold></citation_analysis><citation_analysis attribute="neither">: PSG, Polysomnography; RIP, Respiratory Inductance Plethysmography; SpO2, Oxygen Saturation; EEG, Electroencephalography; EMG, Electromyograms; ECG Electrocardiography; RCI, Respiratory Cycle Isolation; ACF, Auto Correlation function; BMI, Body Mass Index; AHI, Apnea-Hypopnea Index; EDF, European Data Format; SDB, Sleep Disordered Breathing.</citation_analysis></p></fn></table-wrap-foot></table-wrap></citation_analysis></p>
+      <p><citation_analysis attribute="positive">The evaluation found that the detection rate was not meaningfully influenced by respiratory events, arousals, or physiology, however, the most impactful factor in terms of detection rate seemed to be artefacts caused by movement or signal failure. On the other hand, such artefacts only cause the algorithm to produce errors where the artefacts occur, and cause no errors for future detections, indicating that the algorithm can easily recover from an artefactual period. When the detection error of the correctly detected breaths is expressed as the mean absolute start and end error, the algorithm tends to produce greater end errors than start errors. The mean end error, however, was less than 8% of a mean breath length, and upon visual inspection, was not discernible to the human eye. The start and end errors of both sets may be partially explained by the fact that the manual annotations did not observe the restriction that only one breath can take place at any moment imposed by this work’s definition of the respiratory cycle, effectively introducing small sections of the annotations that at most one detection can overlap with thus artificially negatively impacting the metrics. Although the algorithm was originally designed for use in sleeping individuals, we believe it could be used to research respiration during speech, exercise, emotional response analysis, and other applications provided that the proper evaluation of the output correctness is performed. The total number of participants used for the evaluation of the algorithm was 25. This is comparable to other literature, where the range of the number of individuals used for testing similar tasks ranges between none reported, 4, 75, and 140.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0011" ref-type="bibr">11–14</xref></citation_analysis><citation_analysis attribute="neither">,</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0018" ref-type="bibr">18</xref></citation_analysis><citation_analysis attribute="positive"> In future work, the algorithm should be evaluated on a much larger dataset. The algorithm achieved a higher accuracy than the AUDAS algorithm,</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0024" ref-type="bibr">24</xref></citation_analysis><citation_analysis attribute="neither"> however, the AUDAS algorithm detects individual respiratory phases whereas BreathFinder locates individual respiratory cycles and therefore direct comparison is not appropriate. Similarly to AUDAS, the work done by Hsiao et al achieves 92% accuracy when detecting inspirations and expirations, but as the task is fundamentally different to this approach, direct comparison is not appropriate.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0008" ref-type="bibr">8</xref></citation_analysis><citation_analysis attribute="neither"> The algorithm is designed to work on the thoracic RIP signal, but in theory should also work on the abdominal RIP signal. However, this requires validation to assess the validity of the results. Due to the high detection rate of the algorithm and the relatively low rate of false positives, the authors suggest that the proposed algorithm can be reliably used for future research into the nature of respiration during sleep based on RCI-based adaptive segmentation.</citation_analysis></p>
+      <sec id="s0004-s2001">
+        <title>Clinical Implementation and Applications</title>
+        <p><citation_analysis attribute="positive">The implementation of the BreathFinder algorithm has previously demonstrated its utility in other works, particularly in the identification of Obstructive Apneas. It has been successfully applied in detecting obstructive apneas by using the BreathFinder algorithm on the thoracic RIP signal to find individual breaths, and then performing machine learning on the thoracic, abdomenal, and flow signals during those individual breaths, exhibiting impressive performance with a substantial F1 score of 0.94 in apnea detection tasks, thus corroborating its efficacy and reliability in this context.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0025" ref-type="bibr">25</xref></citation_analysis><citation_analysis attribute="positive"> This makes it an instrumental tool in the diagnosis and management of sleep-related disorders. Moreover, the BreathFinder algorithm has shown versatility by its effective application in an unsupervised machine-learning context. Encoding the thoracic and abdomenal RIP signals, along with the airflow signal from individual breaths facilitated the exploration of the latent feature space, which consequently allowed the identification of significant clusters of breaths. These clusters demonstrated notable common characteristics, including the incidence of obstructive apneas.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0025" ref-type="bibr">25</xref></citation_analysis><citation_analysis attribute="neither"> This exemplifies the algorithm’s capacity for contributing to advanced analytical strategies that expose the intricacies of respiratory patterns. It emphasizes the potential for further exploitation of the BreathFinder algorithm in a myriad of applications, including advanced diagnostics, predictive modeling, and personalized therapeutic approaches.</citation_analysis></p>
+      </sec>
+      <sec id="s0004-s2002">
+        <title>Study Limitations</title>
+        <p><citation_analysis attribute="positive">The evaluation has the drawbacks that it is only formally done on the thoracic RIP signal, and the evaluation was only done on data from one dataset. The algorithm has furthermore only been evaluated against a RIP signal using 25 as the sampling frequency. Further research is additionally required to specifically evaluate the effects of events such as changes to body posture, RIP artefacts, incorrect RIP placement, RIP belt stability or other deformations in the signal. The purpose of the algorithm is to isolate breaths, rather than to provide any information or statistics on the nature of the breath further than its location in the signal, and any analysis such as obstructive apnea detection or flow measurement is future work made available by this work.</citation_analysis></p>
+        <p><citation_analysis attribute="positive">Due to the low number of breaths that the BreathFinder algorithm is evaluated on, the statistical significance of the results cannot be assured and thus an assessment of the algorithm on larger datasets is needed to evaluate the algorithm’s performance when faced with a larger and more diverse range of respiratory events such as central apneas, and therefore, this work can be viewed as a proof-of-concept study.</citation_analysis></p>
+      </sec>
+    </sec>
+    <sec id="s0005">
+      <title>Conclusion</title>
+      <p><citation_analysis attribute="neither">This paper introduces BreathFinder, a novel algorithm designed to find individual breaths in the thoracic RIP signal. The algorithm uses periodicity estimation and sine fitting procedures to pinpoint the locations of individual breaths within a PSG.</citation_analysis></p>
+      <p><citation_analysis attribute="positive">The algorithm was evaluated on approximately 7.8 hours of manually annotated breathing intervals. The results suggest that the algorithm detects, on average, 94% of breaths correctly, and of the detected breaths, only 4% on average are false positives. The placement error of the correctly detected breaths was generally within acceptable margins, being less than 10% of the mean breath length. The exceptional performance of the algorithm in terms of the evaluation metrics suggests that it is usable for further analysis of sleep data on a breath-by-breath basis. Unlike previous thorax RIP RCI algorithms, BreathFinder is provided as an open-source algorithm, is also validated against a large range of respiratory events, and demonstrates robustness against signal artifacts, also making it the only RCI algorithm evaluated on sleep data known to the authors.</citation_analysis></p>
+    </sec>
+  </body>
+  <back>
+    <ack>
+      <title>Acknowledgments</title>
+      <p><citation_analysis attribute="neither">We acknowledge the invaluable support and help from Nox Medical.</citation_analysis></p>
+    </ack>
+    <sec id="s0006">
+      <title>Public Availability</title>
+      <p><citation_analysis attribute="neither">The algorithm described in this work has been implemented in Python and made open source under the GNU license. The source code is available via GitHub: </citation_analysis><citation_analysis attribute="positive"><underline><ext-link xlink:href="https://github.com/benedikthth/BreathFinder" ext-link-type="uri">https://github.com/benedikthth/BreathFinder</ext-link></underline></citation_analysis><citation_analysis attribute="neither">. This paper has been uploaded to Arxiv as a preprint: </citation_analysis><citation_analysis attribute="positive"><underline><ext-link xlink:href="https://arxiv.org/abs/2203.01828" ext-link-type="uri">https://arxiv.org/abs/2203.01828</ext-link></underline></citation_analysis><citation_analysis attribute="neither">.</citation_analysis></p>
+      <p><citation_analysis attribute="neither">The library can be installed via the Python package manager: </citation_analysis><citation_analysis attribute="positive"><underline><ext-link xlink:href="https://pypi.org/project/BreathFinder" ext-link-type="uri">https://pypi.org/project/BreathFinder</ext-link></underline></citation_analysis><citation_analysis attribute="neither">.</citation_analysis></p>
+    </sec>
+    <sec id="s0007">
+      <title>Ethics Statement</title>
+      <p><citation_analysis attribute="neither">The National Bioethics Committee (Application: 14-080) and the Data Protection Agency of Iceland approved the study protocol and written consent was obtained from all research subjects. The study adheres to the declaration of Helsinki.</citation_analysis></p>
+    </sec>
+    <sec sec-type="COI-statement" id="s0008">
+      <title>Disclosure</title>
+      <p><citation_analysis attribute="neither">Dr Erna Arnardottir reports personal fees from Nox Medical, Philips, ResMed, Jazz Pharmaceuticals, Apnimed, Linde Healthcare, and Vistor, outside the submitted work. The authors report no other conflicts of interest in this work.</citation_analysis></p>
+    </sec>
+    <ref-list>
+      <title>References</title>
+      <ref id="cit0001">
+        <label>1.</label>
+        <mixed-citation publication-type="confproc"><string-name><surname>Vlachos</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Yu</surname>
+<given-names>P</given-names></string-name>, <string-name><surname>Castelli</surname>
+<given-names>V</given-names></string-name>. <article-title>On periodicity detection and structural periodic similarity</article-title>. In <conf-name>Proceedings of the 2005 SIAM international conference on data mining</conf-name>; <year>2005</year>:<fpage>449</fpage>–<lpage>460</lpage>. doi:<pub-id pub-id-type="doi">10.1137/1.9781611972757.40</pub-id>.</mixed-citation>
+      </ref>
+      <ref id="cit0002">
+        <label>2.</label>
+        <mixed-citation publication-type="book"><collab>American Academy of Sleep Medicine</collab>. <source><italic toggle="yes">International Classification of Sleep Disorders</italic></source>. <edition>third</edition> ed. <year>2014</year>.</mixed-citation>
+      </ref>
+      <ref id="cit0003">
+        <label>3.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Praetorius</surname>
+<given-names>HM</given-names></string-name>, <string-name><surname>Bodenstein</surname>
+<given-names>G</given-names></string-name>, <string-name><surname>Creutzfeldt</surname>
+<given-names>OD</given-names></string-name>. <article-title>Adaptive segmentation of EEG records: a new approach to automatic EEG analysis</article-title>. <source><italic toggle="yes">Electroencephalogr Clin Neurophysiol</italic></source>. <year>1977</year>;<volume>42</volume>(<issue>1</issue>):<fpage>84</fpage>–<lpage>94</lpage>. doi:<pub-id pub-id-type="doi">10.1016/0013-4694(77)90153-5</pub-id><pub-id pub-id-type="pmid">64352</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0004">
+        <label>4.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Schulz</surname>
+<given-names>H</given-names></string-name>. <article-title>Rethinking sleep analysis</article-title>. <source><italic toggle="yes">J Clin Sleep Med</italic></source>. <year>2008</year>;<volume>4</volume>(<issue>02</issue>):<fpage>99</fpage>–<lpage>103</lpage>. doi:<pub-id pub-id-type="doi">10.5664/jcsm.27124</pub-id><pub-id pub-id-type="pmid">18468306</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0005">
+        <label>5.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Koch</surname>
+<given-names>H</given-names></string-name>, <string-name><surname>Jennum</surname>
+<given-names>P</given-names></string-name>, <string-name><surname>Christensen</surname>
+<given-names>JAE</given-names></string-name>. <article-title>Automatic sleep classification using adaptive segmentation reveals an increased number of rapid eye movement sleep transitions</article-title>. <source><italic toggle="yes">J Sleep Res</italic></source>. <year>2019</year>;<volume>28</volume>(<issue>2</issue>):<fpage>e12780</fpage>. doi:<pub-id pub-id-type="doi">10.1111/jsr.12780</pub-id><pub-id pub-id-type="pmid">30346084</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0006">
+        <label>6.</label>
+        <mixed-citation publication-type="confproc"><string-name><surname>Procházka</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Kuchyˇnka</surname>
+<given-names>J</given-names></string-name>, <string-name><surname>Yadollahi</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Araujo</surname>
+<given-names>CPS</given-names></string-name>, <string-name><surname>Vyšata</surname>
+<given-names>O</given-names></string-name>. <article-title>Adaptive segmentation of multimodal polysomnography data for sleep stages detection</article-title>. In <conf-name>2017 22nd International Conference on Digital Signal Processing (DSP)</conf-name>; <year>2017</year>:<fpage>1</fpage>–<lpage>4</lpage>.</mixed-citation>
+      </ref>
+      <ref id="cit0007">
+        <label>7.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Chervin</surname>
+<given-names>RD</given-names></string-name>, <string-name><surname>Burns</surname>
+<given-names>JW</given-names></string-name>, <string-name><surname>Subotic</surname>
+<given-names>NS</given-names></string-name>, <string-name><surname>Roussi</surname>
+<given-names>C</given-names></string-name>, <string-name><surname>Thelen</surname>
+<given-names>B</given-names></string-name>, <string-name><surname>Ruzicka</surname>
+<given-names>DL</given-names></string-name>. <article-title>Method for detection of respiratory cycle-related EEG changes in sleep-disordered breathing</article-title>. <source><italic toggle="yes">Sleep</italic></source>. <year>2004</year>;<volume>27</volume>(<issue>1</issue>):<fpage>110</fpage>–<lpage>115</lpage>. doi:<pub-id pub-id-type="doi">10.1093/sleep/27.1.110</pub-id><pub-id pub-id-type="pmid">14998246</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0008">
+        <label>8.</label>
+        <mixed-citation publication-type="confproc"><string-name><surname>Hsiao</surname>
+<given-names>C-H</given-names></string-name>, <string-name><surname>Lin</surname>
+<given-names>T-W</given-names></string-name>, <string-name><surname>Lin</surname>
+<given-names>C-W</given-names></string-name>, et al. <article-title>Breathing sound segmentation and detection using transfer learning techniques on an Attention-Based Encoder-Decoder architecture</article-title>. In <conf-name>2020 42nd Annual International Conference of the IEEE Engineering in Medicine &amp; Biology Society (EMBC)</conf-name>; <year>2020</year>:<fpage>754</fpage>–<lpage>759</lpage>.</mixed-citation>
+      </ref>
+      <ref id="cit0009">
+        <label>9.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Hult</surname>
+<given-names>P</given-names></string-name>, <string-name><surname>Fjällbrant</surname>
+<given-names>T</given-names></string-name>, <string-name><surname>Wranne</surname>
+<given-names>B</given-names></string-name>, <string-name><surname>Engdahl</surname>
+<given-names>O</given-names></string-name>, <string-name><surname>Ask</surname>
+<given-names>P</given-names></string-name>. <article-title>An improved bioacoustic method for monitoring of respiration</article-title>. <source><italic toggle="yes">THC</italic></source>. <year>2004</year>;<volume>12</volume>(<issue>4</issue>):<fpage>323</fpage>–<lpage>332</lpage>. doi:<pub-id pub-id-type="doi">10.3233/THC-2004-12404</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0010">
+        <label>10.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Hult</surname>
+<given-names>P</given-names></string-name>, <string-name><surname>Wranne</surname>
+<given-names>B</given-names></string-name>, <string-name><surname>Ask</surname>
+<given-names>P</given-names></string-name>. <article-title>A bioacoustic method for timing of the different phases of the breathing cycle and monitoring of breathing frequency</article-title>. <source><italic toggle="yes">Med Eng Phys</italic></source>. <year>2000</year>;<volume>22</volume>(<issue>6</issue>):<fpage>425</fpage>–<lpage>433</lpage>. doi:<pub-id pub-id-type="doi">10.1016/S1350-4533(00)00050-3</pub-id><pub-id pub-id-type="pmid">11086254</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0011">
+        <label>11.</label>
+        <mixed-citation publication-type="confproc"><string-name><surname>Lopez-Meyer</surname>
+<given-names>P</given-names></string-name>, <string-name><surname>Sazonov</surname>
+<given-names>E</given-names></string-name>. <article-title>Automatic breathing segmentation from wearable respiration sensors</article-title>. In <conf-name>2011 Fifth International Conference on Sensing Technology</conf-name>; <year>2011</year>:<fpage>156</fpage>–<lpage>160</lpage>. doi:<pub-id pub-id-type="doi">10.1109/ICSensT.2011.6136953</pub-id>.</mixed-citation>
+      </ref>
+      <ref id="cit0012">
+        <label>12.</label>
+        <mixed-citation publication-type="confproc"><string-name><surname>Moyles</surname>
+<given-names>TP</given-names></string-name>, <string-name><surname>Erlandson</surname>
+<given-names>RF</given-names></string-name>, <string-name><surname>Roth</surname>
+<given-names>T</given-names></string-name>. <article-title>A nonparametric statistical approach to breath segmentation</article-title>. In <conf-name>Images of the Twenty-First Century. Proceedings of the Annual International Engineering in Medicine and Biology Society</conf-name>; <year>1989</year>. vol.<volume>1</volume>:<fpage>330</fpage>–<lpage>331</lpage>. doi:<pub-id pub-id-type="doi">10.1109/IEMBS.1989.95756</pub-id>.</mixed-citation>
+      </ref>
+      <ref id="cit0013">
+        <label>13.</label>
+        <mixed-citation publication-type="confproc"><string-name><surname>Rosenwein</surname>
+<given-names>T</given-names></string-name>, <string-name><surname>Dafna</surname>
+<given-names>E</given-names></string-name>, <string-name><surname>Tarasiuk</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Zigel</surname>
+<given-names>Y</given-names></string-name>. <article-title>Detection of breathing sounds during sleep using non-contact audio recordings</article-title>. <conf-name>Conf. Proc. IEEE Eng Med Biol Soc</conf-name>; <year>2014</year>:<fpage>1489</fpage>–<lpage>1492</lpage>.</mixed-citation>
+      </ref>
+      <ref id="cit0014">
+        <label>14.</label>
+        <mixed-citation publication-type="newspaper"><string-name><surname>Włodarczak</surname>
+<given-names>M</given-names></string-name>. <article-title>RespInPeace: toolkit for processing respiratory belt data</article-title>; <year>2019</year>. doi:<pub-id pub-id-type="doi">10.5281/ZENODO.3246019</pub-id>.</mixed-citation>
+      </ref>
+      <ref id="cit0015">
+        <label>15.</label>
+        <mixed-citation publication-type="confproc"><string-name><surname>Yahya</surname>
+<given-names>O</given-names></string-name>, <string-name><surname>Faezipour</surname>
+<given-names>M</given-names></string-name>. <article-title>Automatic detection and classification of acoustic breathing cycles</article-title>. In <conf-name>Proceedings of the 2014 Zone 1 Conference of the American Society for Engineering Education</conf-name>; <year>2014</year>:<fpage>1</fpage>–<lpage>5</lpage>. doi:<pub-id pub-id-type="doi">10.1109/ASEEZone1.2014.6820648</pub-id>.</mixed-citation>
+      </ref>
+      <ref id="cit0016">
+        <label>16.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Korten</surname>
+<given-names>J</given-names></string-name>, <string-name><surname>Haddad</surname>
+<given-names>G</given-names></string-name>. <article-title>Respiratory waveform pattern recognition using digital techniques</article-title>. <source><italic toggle="yes">Comput Biol Med</italic></source>. <year>1989</year>;<volume>19</volume>(<issue>4</issue>):<fpage>207</fpage>–<lpage>217</lpage>. doi:<pub-id pub-id-type="doi">10.1016/0010-4825(89)90009-7</pub-id><pub-id pub-id-type="pmid">2487783</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0017">
+        <label>17.</label>
+        <mixed-citation publication-type="confproc"><string-name><surname>Thordarson</surname>
+<given-names>B</given-names></string-name>, <string-name><surname>Islind</surname>
+<given-names>AS</given-names></string-name>, <string-name><surname>Arnardottir</surname>
+<given-names>E</given-names></string-name>, <string-name><surname>Óskarsdóttir</surname>
+<given-names>M</given-names></string-name>
+<article-title>Exploration of sleep events in the latent space of variational autoencoders on a Breath-by-Breath basis</article-title>. In <conf-name>Proceedings of the 56th Hawaii International Conference on System Sciences</conf-name> (<conf-loc>Hawaii</conf-loc>: <publisher-name>Computer Society Press</publisher-name>; <year>2023</year>:<fpage>3091</fpage>–<lpage>30911</lpage>.</mixed-citation>
+      </ref>
+      <ref id="cit0018">
+        <label>18.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Palaniappan</surname>
+<given-names>R</given-names></string-name>, <string-name><surname>Sundaraj</surname>
+<given-names>K</given-names></string-name>, <string-name><surname>Sundaraj</surname>
+<given-names>S</given-names></string-name>. <article-title>Adaptive neuro-fuzzy inference system for breath phase detection and breath cycle segmentation</article-title>. <source><italic toggle="yes">Comput Methods Programs Biomed</italic></source>. <year>2017</year>;<volume>145</volume>:<fpage>67</fpage>–<lpage>72</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.cmpb.2017.04.013</pub-id><pub-id pub-id-type="pmid">28552127</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0019">
+        <label>19.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Portier</surname>
+<given-names>F</given-names></string-name>, <string-name><surname>Portmann</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Czernichow</surname>
+<given-names>P</given-names></string-name>, et al. <article-title>Evaluation of home versus laboratory polysomnography in the diagnosis of sleep apnea syndrome</article-title>. <source><italic toggle="yes">Am J Respir Crit Care Med</italic></source>. <year>2000b</year>;<volume>162</volume>(<issue>3</issue>):<fpage>814</fpage>–<lpage>818</lpage>. doi:<pub-id pub-id-type="doi">10.1164/ajrccm.162.3.9908002</pub-id><pub-id pub-id-type="pmid">10988088</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0020">
+        <label>20.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>BaHammam</surname>
+<given-names>AS</given-names></string-name>. <article-title>Signal failure of type 2 comprehensive unattended sleep studies in patients with suspected respiratory sleep disordered breathing</article-title>. <source><italic toggle="yes">Sleep Breath</italic></source>. <year>2005</year>;<volume>9</volume>(<issue>1</issue>):<fpage>7</fpage>–<lpage>11</lpage>. doi:<pub-id pub-id-type="doi">10.1007/s11325-005-0001-6</pub-id><pub-id pub-id-type="pmid">15785915</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0021">
+        <label>21.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Savitzky</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Golay</surname>
+<given-names>MJE</given-names></string-name>. <article-title>Smoothing and differentiation of data by simplified least squares procedures</article-title>. <source><italic toggle="yes">Analy Chem</italic></source>. <year>1964</year>;<volume>36</volume>(<issue>8</issue>):<fpage>1627</fpage>–<lpage>1639</lpage>. doi:<pub-id pub-id-type="doi">10.1021/ac60214a047</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0022">
+        <label>22.</label>
+        <mixed-citation publication-type="book"><string-name><surname>Serwatko</surname>
+<given-names>M</given-names></string-name>. <source>Validation of a new method to assess respiratory effort non-invasively</source> [<comment>Master’s thesis</comment>], <publisher-name>Reykjavik University</publisher-name>; <year>2016</year>.</mixed-citation>
+      </ref>
+      <ref id="cit0023">
+        <label>23.</label>
+        <mixed-citation publication-type="confproc"><string-name><surname>Alshaer</surname>
+<given-names>H</given-names></string-name>, <string-name><surname>Fernie</surname>
+<given-names>GR</given-names></string-name>, <string-name><surname>Sejdi ´c</surname>
+<given-names>E</given-names></string-name>, <string-name><surname>Bradley</surname>
+<given-names>TD</given-names></string-name>. <article-title>Adaptive segmentation and normalization of breathing acoustic data of subjects with obstructive sleep apnea</article-title>. In <conf-name>2009 IEEE Toronto International Conference Science and Technology for Humanity (TIC-STH)</conf-name>; <year>2009</year>:<fpage>279</fpage>–<lpage>284</lpage>. doi:<pub-id pub-id-type="doi">10.1109/TIC-STH.2009.5444489</pub-id>.</mixed-citation>
+      </ref>
+      <ref id="cit0024">
+        <label>24.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Lalouani</surname>
+<given-names>W</given-names></string-name>, <string-name><surname>Younis</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Emokpae</surname>
+<given-names>RN</given-names></string-name>, <string-name><surname>Emokpae</surname>
+<given-names>LE</given-names></string-name>. <article-title>Enabling effective breathing sound analysis for automated diagnosis of lung diseases</article-title>. <source><italic toggle="yes">Smart Health</italic></source>. <year>2022</year>;<volume>26</volume>:<fpage>100329</fpage>. doi:<pub-id pub-id-type="doi">10.1016/j.smhl.2022.100329</pub-id><pub-id pub-id-type="pmid">36275046</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0025">
+        <label>25.</label>
+        <mixed-citation publication-type="book"><string-name><surname>Þórðarson</surname>
+<given-names>BH</given-names></string-name>. <source>Analysis and detection of obstructive apnea in individual breath cycles</source> [<comment>Master’s thesis</comment>]. <publisher-name>Reykjavik University</publisher-name>; <year>2021</year>.</mixed-citation>
+      </ref>
+    </ref-list>
+  </back>
+</article>
+</pmc-articleset>

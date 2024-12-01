@@ -1,0 +1,780 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<pmc-articleset><article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" dtd-version="1.3" xml:lang="en" article-type="research-article">
+  <?properties open_access?>
+  <processing-meta base-tagset="archiving" mathml-version="3.0" table-model="xhtml" tagset-family="jats">
+    <restricted-by>pmc</restricted-by>
+  </processing-meta>
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="nlm-ta">Nat Sci Sleep</journal-id>
+      <journal-id journal-id-type="iso-abbrev">Nat Sci Sleep</journal-id>
+      <journal-id journal-id-type="publisher-id">nss</journal-id>
+      <journal-title-group>
+        <journal-title>Nature and Science of Sleep</journal-title>
+      </journal-title-group>
+      <issn pub-type="epub">1179-1608</issn>
+      <publisher>
+        <publisher-name>Dove</publisher-name>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="pmid">35497645</article-id>
+      <article-id pub-id-type="pmc">9041361</article-id>
+      <article-id pub-id-type="publisher-id">345328</article-id>
+      <article-id pub-id-type="doi">10.2147/NSS.S345328</article-id>
+      <article-categories>
+        <subj-group subj-group-type="heading">
+          <subject>Original Research</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>Predicting Attentional Vulnerability to Sleep Deprivation: A Multivariate Pattern Analysis of DTI Data</article-title>
+        <alt-title alt-title-type="running-authors">Wang et al</alt-title>
+        <alt-title alt-title-type="running-title">Wang et al</alt-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author" equal-contrib="yes">
+          <name>
+            <surname>Wang</surname>
+            <given-names>Chen</given-names>
+          </name>
+          <xref rid="aff0001" ref-type="aff">
+<sup>1</sup>
+</xref>
+          <xref rid="ft0001" ref-type="author-notes">*</xref>
+        </contrib>
+        <contrib contrib-type="author" equal-contrib="yes">
+          <name>
+            <surname>Fang</surname>
+            <given-names>Peng</given-names>
+          </name>
+          <xref rid="aff0002" ref-type="aff">
+<sup>2</sup>
+</xref>
+          <xref rid="ft0001" ref-type="author-notes">*</xref>
+        </contrib>
+        <contrib contrib-type="author" equal-contrib="yes">
+          <name>
+            <surname>Li</surname>
+            <given-names>Ya</given-names>
+          </name>
+          <xref rid="aff0001" ref-type="aff">
+<sup>1</sup>
+</xref>
+          <xref rid="ft0001" ref-type="author-notes">*</xref>
+        </contrib>
+        <contrib contrib-type="author" equal-contrib="yes">
+          <name>
+            <surname>Wu</surname>
+            <given-names>Lin</given-names>
+          </name>
+          <xref rid="aff0002" ref-type="aff">
+<sup>2</sup>
+</xref>
+          <xref rid="ft0001" ref-type="author-notes">*</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Hu</surname>
+            <given-names>Tian</given-names>
+          </name>
+          <xref rid="aff0003" ref-type="aff">
+<sup>3</sup>
+</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Yang</surname>
+            <given-names>Qi</given-names>
+          </name>
+          <xref rid="aff0004" ref-type="aff">
+<sup>4</sup>
+</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Han</surname>
+            <given-names>Aiping</given-names>
+          </name>
+          <xref rid="aff0005" ref-type="aff">
+<sup>5</sup>
+</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Chang</surname>
+            <given-names>Yingjuan</given-names>
+          </name>
+          <xref rid="aff0001" ref-type="aff">
+<sup>1</sup>
+</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Tang</surname>
+            <given-names>Xing</given-names>
+          </name>
+          <xref rid="aff0001" ref-type="aff">
+<sup>1</sup>
+</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Lv</surname>
+            <given-names>Xiuhua</given-names>
+          </name>
+          <xref rid="aff0001" ref-type="aff">
+<sup>1</sup>
+</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0002-8618-2209</contrib-id>
+          <name>
+            <surname>Xu</surname>
+            <given-names>Ziliang</given-names>
+          </name>
+          <xref rid="aff0001" ref-type="aff">
+<sup>1</sup>
+</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Xu</surname>
+            <given-names>Yongqiang</given-names>
+          </name>
+          <xref rid="aff0001" ref-type="aff">
+<sup>1</sup>
+</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Li</surname>
+            <given-names>Leilei</given-names>
+          </name>
+          <xref rid="aff0001" ref-type="aff">
+<sup>1</sup>
+</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Zheng</surname>
+            <given-names>Minwen</given-names>
+          </name>
+          <xref rid="aff0001" ref-type="aff">
+<sup>1</sup>
+</xref>
+          <xref rid="an0002" ref-type="corresp"/>
+        </contrib>
+        <contrib contrib-type="author">
+          <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0002-8466-5557</contrib-id>
+          <name>
+            <surname>Zhu</surname>
+            <given-names>Yuanqiang</given-names>
+          </name>
+          <xref rid="aff0001" ref-type="aff">
+<sup>1</sup>
+</xref>
+          <xref rid="an0001" ref-type="corresp"/>
+        </contrib>
+        <aff id="aff0001"><label>1</label><institution>Department of Radiology, Xijing Hospital, Fourth Military Medical University</institution>, <addr-line>Xi’an</addr-line>, <country>People’s Republic of China</country></aff>
+        <aff id="aff0002"><label>2</label><institution>Department of Military Medical Psychology, Air Force Medical University</institution>, <addr-line>Xi’an</addr-line>, <country>People’s Republic of China</country></aff>
+        <aff id="aff0003"><label>3</label><institution>Department of Radiology, Yan’an University Affiliated Hospital</institution>, <addr-line>Yan’an</addr-line>, <country>People’s Republic of China</country></aff>
+        <aff id="aff0004"><label>4</label><institution>Department of Radiology, Affiliated Hospital of Shaanxi University of Traditional Chinese Medicine</institution>, <addr-line>Xianyang</addr-line>, <country>People’s Republic of China</country></aff>
+        <aff id="aff0005"><label>5</label><institution>Imaging Diagnosis and Treatment Center, Xi’an International Medical Center Hospital</institution>, <addr-line>Xi’an</addr-line>, <country>People’s Republic of China</country></aff>
+      </contrib-group>
+      <author-notes>
+        <corresp id="an0001">Correspondence: Yuanqiang Zhu, <institution>Department of Radiology, Xijing Hospital, Fourth Military Medical University</institution>, <addr-line>No. 127 West Changle Road</addr-line>, <addr-line>Xi’an</addr-line>, <addr-line>710032</addr-line>, <country>People’s Republic of China</country>, <phone>Tel/Fax +86-29-84775415</phone>, Email Zhu_YQ_fmmu@163.com</corresp>
+        <corresp id="an0002">Minwen Zheng, <institution>Department of Radiology, Xijing Hospital, Fourth Military Medical University</institution>, <addr-line>No. 127 West Changle Road</addr-line>, <addr-line>Xi’an</addr-line>, <addr-line>710032</addr-line>, <country>People’s Republic of China</country>, <phone>Tel/Fax +86-29-84771938</phone>, Email zhengmw2007@163.com</corresp>
+        <fn id="ft0001">
+          <label>*</label>
+          <p><citation_analysis attribute="neither">These authors contributed equally to this work</citation_analysis></p>
+        </fn>
+      </author-notes>
+      <pub-date pub-type="epub">
+        <day>22</day>
+        <month>4</month>
+        <year>2022</year>
+      </pub-date>
+      <pub-date pub-type="collection">
+        <year>2022</year>
+      </pub-date>
+      <volume>14</volume>
+      <fpage>791</fpage>
+      <lpage>803</lpage>
+      <history>
+        <date date-type="received">
+          <day>20</day>
+          <month>10</month>
+          <year>2021</year>
+        </date>
+        <date date-type="accepted">
+          <day>14</day>
+          <month>4</month>
+          <year>2022</year>
+        </date>
+      </history>
+      <permissions>
+        <copyright-statement>© 2022 Wang et al.</copyright-statement>
+        <copyright-year>2022</copyright-year>
+        <copyright-holder>Wang et al.</copyright-holder>
+        <license>
+          <ali:license_ref xmlns:ali="http://www.niso.org/schemas/ali/1.0/" specific-use="textmining" content-type="ccbynclicense">https://creativecommons.org/licenses/by-nc/3.0/</ali:license_ref>
+          <license-p>This work is published and licensed by Dove Medical Press Limited. The full terms of this license are available at <ext-link ext-link-type="uri" xlink:href="https://www.dovepress.com/terms.php">https://www.dovepress.com/terms.php</ext-link> and incorporate the Creative Commons Attribution – Non Commercial (unported, v3.0) License (<ext-link ext-link-type="uri" xlink:href="https://creativecommons.org/licenses/by-nc/3.0/">http://creativecommons.org/licenses/by-nc/3.0/</ext-link>). By accessing the work you hereby accept the Terms. Non-commercial uses of the work are permitted without any further permission from Dove Medical Press Limited, provided the work is properly attributed. For permission for commercial use of this work, please see paragraphs 4.2 and 5 of our Terms (<ext-link ext-link-type="uri" xlink:href="https://www.dovepress.com/terms.php">https://www.dovepress.com/terms.php</ext-link>).</license-p>
+        </license>
+      </permissions>
+      <abstract>
+        <sec id="s2001">
+          <title>Background</title>
+          <p><citation_analysis attribute="positive">Large individual differences exist in sleep deprivation (SD) induced sustained attention deterioration. Several brain imaging studies have suggested that the activities within frontal-parietal network, cortico-thalamic connections, and inter-hemispheric connectivity might underlie the neural correlates of vulnerability/resistance to SD. However, those traditional approaches are based on average estimates of differences at the group level. Currently, a neuroimaging marker that can reliably predict this vulnerability at the individual level is lacking.</citation_analysis></p>
+        </sec>
+        <sec id="s2002">
+          <title>Methods</title>
+          <p><citation_analysis attribute="positive">Efficient transfer of information relies on the integrity of white matter (WM) tracts in the human brain, we therefore applied machine learning approach to investigate whether the WM diffusion metrics can predict vulnerability to SD. Forty-nine participants completed the psychomotor vigilance task (PVT) both after resting wakefulness (RW) and after 24 h of sleep deprivation (SD). The number of PVT lapse (reaction time &gt; 500 ms) was calculated for both RW condition and SD condition and participants were categorized as vulnerable (24 participants) or resistant (25 participants) to SD according to the change in the number of PVT lapses between the two conditions. Diffusion tensor imaging were acquired to extract four multitype WM features at a regional level: fractional anisotropy, mean diffusivity, axial diffusivity, and radial diffusivity. A linear support vector machine (LSVM) learning approach using leave-one-out cross-validation (LOOCV) was performed to assess the discriminative power of WM features in SD-vulnerable and SD-resistant participants.</citation_analysis></p>
+        </sec>
+        <sec id="s2003">
+          <title>Results</title>
+          <p><citation_analysis attribute="neither">LSVM analysis achieved a correct classification rate of 83.67% (sensitivity: 87.50%; specificity: 80.00%; and area under the receiver operating characteristic curve: 0.85) for differentiating SD-vulnerable from SD-resistant participants. WM fiber tracts that contributed most to the classification model were primarily commissural pathways (superior longitudinal fasciculus), projection pathways (posterior corona radiata, anterior limb of internal capsule) and association pathways (body and genu of corpus callosum). Furthermore, we found a significantly negative correlation between changes in PVT lapses and the LSVM decision value.</citation_analysis></p>
+        </sec>
+        <sec id="s2004">
+          <title>Conclusion</title>
+          <p><citation_analysis attribute="positive">These findings suggest that WM fibers connecting (1) regions within frontal-parietal attention network, (2) the thalamus to the prefrontal cortex, and (3) the left and right hemispheres contributed the most to classification accuracy.</citation_analysis></p>
+        </sec>
+      </abstract>
+      <kwd-group kwd-group-type="author">
+        <title>Keywords</title>
+        <kwd>sleep deprivation</kwd>
+        <kwd>vulnerability</kwd>
+        <kwd>diffusion tensor imaging</kwd>
+        <kwd>machine learning</kwd>
+        <kwd>psychomotor vigilance task</kwd>
+      </kwd-group>
+      <counts>
+        <fig-count count="5"/>
+        <table-count count="6"/>
+        <ref-count count="56"/>
+        <page-count count="13"/>
+      </counts>
+    </article-meta>
+  </front>
+  <body>
+    <sec sec-type="intro" id="s0001">
+      <title>Introduction</title>
+      <p><citation_analysis attribute="neither">Sleep facilitates the clearance of waste products that accumulate during wakefulness and plays an essential role in maintaining health and well-being.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0001" ref-type="bibr">1</xref></citation_analysis><citation_analysis attribute="positive"> Sleep is also of critical importance for learning and memory. According to the synaptic homeostasis theory, one essential role of sleep is the optimization of synaptic circuits to retain salient memory traces. Therefore, sleep is believed to consolidate synaptic connections required for encoding and retention of memories.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0002" ref-type="bibr">2</xref></citation_analysis><citation_analysis attribute="positive"> Sleep deprivation (SD) has become increasingly common in modern society. SD can lead to a variety of cognitive deficits, in which deterioration of sustained attention appears to be the most consistent consequence.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0003" ref-type="bibr">3</xref></citation_analysis><citation_analysis attribute="positive"> Previous studies using functional magnetic resonance imaging (fMRI) have suggested that decreased activation within the frontal-parietal network (FPN),</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0004" ref-type="bibr">4</xref></citation_analysis><citation_analysis attribute="neither"> disrupted cortico-thalamic connections,</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0005" ref-type="bibr">5</xref></citation_analysis><citation_analysis attribute="neither"> and compromised interhemispheric connectivity might contribute to sustained impairments to attention after SD.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0006" ref-type="bibr">6</xref></citation_analysis></p>
+      <p><citation_analysis attribute="positive">Interestingly, not everyone experiences cognitive deficits after SD to the same extent and large individual differences exist in the degree of attentional impairment. Previous studies have demonstrated that amount of vulnerability (or resistance) to SD-induced attentional deterioration is trait-like and reproducible within a given individual.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0007" ref-type="bibr">7</xref></citation_analysis><citation_analysis attribute="neither">,</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0008" ref-type="bibr">8</xref></citation_analysis><citation_analysis attribute="neither"> A number of studies have attempted to discern the underlying neural mechanisms that contribute to this vulnerability. For example, Chee et al found that frontal-parietal activation when performing a sustained attention task was higher in SD-resistant individuals than in vulnerable individuals.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0009" ref-type="bibr">9</xref></citation_analysis><citation_analysis attribute="neither"> They also found that while thalamic activity after SD and at baseline were comparable in resilient individuals, it was reduced in vulnerable participants following SD. Yeo et al found that vulnerable participants had poorer negative correlations between default mode network and FPN activity compared with those who were resistant.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0010" ref-type="bibr">10</xref></citation_analysis><citation_analysis attribute="positive"> Normal cognitive function requires effective communication among distributed neuronal populations in functionally specialized brain areas. Additionally, the efficient transfer of information relies on the integrity of white matter (WM) tracts in the human brain. Studies using diffusion tensor imaging (DTI) have suggested that primary insomnia was associated with WM tracts disruptions of several, such as superior longitudinal fasciculus (SLF) within the FPN network and corona radiate, internal capsule within the thalamocortical networks.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0011" ref-type="bibr">11</xref></citation_analysis><citation_analysis attribute="positive"> A previous study using DTI also found that participants vulnerable to SD-induced attentional impairments exhibited significantly lower integrity in several WM fiber tracts compared with resistant participants.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0012" ref-type="bibr">12</xref></citation_analysis></p>
+      <p><citation_analysis attribute="positive">However, a reliable neuroimaging marker that can predict this kind of vulnerability is still missing. The most likely reason for the difficulty is that the differences between vulnerable participants and resistant participants are usually reported at the group level, which provides limited information for making inferences at the individual level. Unlike traditional group-level univariate analysis, cutting-edge machine learning techniques can detect differences that are subtle and spatially distributed and have been indicated to improve diagnoses, classification, and treatment-outcome prediction in a range of situations.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0013" ref-type="bibr">13</xref></citation_analysis><citation_analysis attribute="neither">,</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0014" ref-type="bibr">14</xref></citation_analysis><citation_analysis attribute="positive"> However, to our best knowledge, studies using DTI and machine learning strategies for SD vulnerability prediction are rare. In the current study, we applied a linear support vector machine learning approach to investigate whether the WM diffusion metrics can predict vulnerability to SD. Based on the findings mentioned above, we hypothesized that microstructural properties of WM tracts within the FPN (superior longitudinal fasciculus), thalamocortical projections (corona radiata, internal capsule), and interhemispheric association tracts (corpus callosum) would be the primary contributors to accurate classification.</citation_analysis></p>
+    </sec>
+    <sec id="s0002">
+      <title>Methods</title>
+      <sec id="s0002-s2001">
+        <title>Participants</title>
+        <p><citation_analysis attribute="neither">Forty-nine participants were recruited from universities and the local community via advertisements. Consistent with our previous studies,</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0015" ref-type="bibr">15</xref></citation_analysis><citation_analysis attribute="neither">,</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0016" ref-type="bibr">16</xref></citation_analysis><citation_analysis attribute="positive"> the exclusion criteria included sleep disorders, claustrophobia, drug/alcohol abuse, and a history of neurological or psychiatric illness. All participants provided their informed consent according to the Declaration of Helsinki. The study was approved by the clinical trial ethics committee of Xijing Hospital at Air Force Medical University.</citation_analysis></p>
+      </sec>
+      <sec id="s0002-s2002">
+        <title>Sleep-Deprivation Procedure</title>
+        <p><citation_analysis attribute="positive">Participants were asked to make three visits to the laboratory. During the first visit, they were briefed about the study protocol and signed the informed consent form. To record their sleep patterns, participants were asked to wear a wrist Actiwatch (Philips Respironics, Mini Mitter) 24 hours continuously for 1 week. The monitor was placed on the nondominant wrist and participants were asked not to remove it. One week later, participants came to the laboratory either for a RW (resting wakefulness) session or a SD session. The session order was randomized in a cross-over fashion, and there was a ~ 1-week interval to minimize possible residual effects of sleep deprivation on cognition.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0017" ref-type="bibr">17</xref></citation_analysis><citation_analysis attribute="positive"> During the RW condition, participants reached the laboratory at 8:00 AM. Compliance to a regular sleep schedule was verified by checking the participant’s sleep diary and wrist Actiwatch. Participants who did not comply with a regular sleep schedule (&gt;6 h of sleep/night; sleep time no later than 1:00 AM; wake time no later than 9:00 AM) were excluded. The MRI scans (functional MRI scanning, published elsewhere) were scheduled after participants had completed the 10 min of the PVT. The SD process began at 8:00 AM and ended at 8:00 AM on the following day. During SD, participants were allowed to read, watch TV, or surf the internet. Strenuous activities and beverages with caffeine were not allowed during the experiment. The temperature was around 23°C with standard light (340 lux). Two researchers accompanied the participants to prevent them from falling asleep. The DTI scans used in the analyses were performed at 10:00 PM during the SD session. Functional MRI scanning was scheduled at 8:00 AM on the following day after participants had completed the 10 min of the PVT.</citation_analysis></p>
+        <p><citation_analysis attribute="positive">The ability to sustain attention was measured using the well-defined psychomotor vigilance task (PVT), which has been described in detail elsewhere.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0018" ref-type="bibr">18</xref></citation_analysis><citation_analysis attribute="positive"> Briefly, at random intervals, a millisecond counter began to scroll, and participants were asked to press the space bar on a keyboard to stop the scrolling counter as quickly as possible. After pressing the button, the counter displayed the achieved RT for 1 second as a feedback for monitoring their performances. The duration of the task was 10 minutes, and the inter-stimulus intervals were distributed randomly from 2 to 10s. The average stimuli trials (RW mean: 61.1± 1.38; SD mean: 60.2 ±1.97) and the inter-stimulus intervals (RW mean: 6.13± 0.61 s; SD mean: 6.09 ±0.56 s) showed no significant differences between the two conditions. Reaction times longer than 500 ms were defined as a lapse in performance. The participants completed the PVT for both RW and SD conditions and the number of PVT lapse was calculated for both RW condition and SD condition. Vulnerability to SD was computed on the basis of the extent of an individual’s change in number of lapses after SD, taking into account their performance at RW condition. In other words, participants were stratified as SD-resistant or SD-vulnerable according to the number change of PVT lapse (lapse</citation_analysis><citation_analysis attribute="positive"><sub>SD</sub></citation_analysis><citation_analysis attribute="neither">-lapse</citation_analysis><citation_analysis attribute="positive"><sub>RW</sub></citation_analysis><citation_analysis attribute="neither">).</citation_analysis></p>
+      </sec>
+      <sec id="s0002-s2003">
+        <title>MRI Data Collection</title>
+        <p><citation_analysis attribute="positive">Diffusion data were acquired using a GE Discovery MR750 3.0T scanner with a standard 8-channel head coil at Xijing Hospital. During scanning, all participants were instructed to keep their eyes open, let their minds wander, and stay awake.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0019" ref-type="bibr">19</xref></citation_analysis><citation_analysis attribute="positive"> Diffusion-weighted sequences with single-shot echo planar imaging aligned to the anterior-posterior commissural plane were acquired using the following parameters: field of view (FOV) = 282 mm × 282 mm, repetition time (TR)/echo time (TE) = 8000/89 ms, flip angle = 90°, slice thickness = 2.2 mm, and 62 continuous axial slices with no gap. The diffusion sensitizing gradients were applied along 64 non-linear directions (b = 1000 s/mm</citation_analysis><citation_analysis attribute="positive"><sup>2</sup></citation_analysis><citation_analysis attribute="neither">), combined with an acquisition without diffusion weighting (b = 0 s/mm</citation_analysis><citation_analysis attribute="positive"><sup>2</sup></citation_analysis><citation_analysis attribute="neither">).</citation_analysis></p>
+      </sec>
+      <sec id="s0002-s2004">
+        <title>Whole Brain WM Diffusion Metrics</title>
+        <p><citation_analysis attribute="positive">Individual diffusion-weighted images were corrected for head motion and eddy current distortion using Functional Magnetic Resonance Imaging of the Brain (FMRIB) Diffusion Toolbox v2.0 (FDT) from the FMRIB Software Library (FSL; </citation_analysis><citation_analysis attribute="positive"><underline><ext-link xlink:href="http://fsl.fmrib.ox.ac.uk/fsl/fslwiki/" ext-link-type="uri">http://fsl.fmrib.ox.ac.uk/fsl/fslwiki/</ext-link></underline></citation_analysis><citation_analysis attribute="neither">).</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0020" ref-type="bibr">20</xref></citation_analysis><citation_analysis attribute="neither">,</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0021" ref-type="bibr">21</xref></citation_analysis><citation_analysis attribute="positive"> Gradient directions were also corrected to preserve the orientation information.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0022" ref-type="bibr">22</xref></citation_analysis><citation_analysis attribute="positive"> Non-brain tissue and background noise were removed using FSL’s brain extraction tool.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0023" ref-type="bibr">23</xref></citation_analysis><citation_analysis attribute="positive"> The diffusion tensor and diffusion parameter maps for fractional anisotropy (FA), axial diffusivity (AD), radial diffusivity (RD), and mean diffusivity (MD) was calculated using DTIFIT from FMRIB’s Diffusion Toolbox.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0020" ref-type="bibr">20</xref></citation_analysis></p>
+        <p><citation_analysis attribute="positive">The population-specific template was constructed through tensor-based registration using affine and diffeomorphic registration algorithms from the Diffusion Tensor Imaging ToolKit (DTI-TK; </citation_analysis><citation_analysis attribute="positive"><underline><ext-link xlink:href="http://dti-tk.sourceforge.net" ext-link-type="uri">http://dti-tk.sourceforge.net</ext-link></underline></citation_analysis><citation_analysis attribute="neither">).</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0024" ref-type="bibr">24–27</xref></citation_analysis><citation_analysis attribute="positive"> The JHU ICBM-DTI-81 template was normalized into this population template space using the Advanced Normalization Tools (ANTs; </citation_analysis><citation_analysis attribute="positive"><underline><ext-link xlink:href="https://www.nitrc.org/projects/ants" ext-link-type="uri">https://www.nitrc.org/projects/ants</ext-link></underline></citation_analysis><citation_analysis attribute="neither">), diffeomorphic spatial registration algorithms, and nearest neighbor interpolation.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0028" ref-type="bibr">28–31</xref></citation_analysis><citation_analysis attribute="neither"> The normalized JHU ICBM-DTI-81 template was then warped by the inverse of the transformation fields that were estimated in the population-specific template generation process to acquire the participant-specific WM tracts.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0029" ref-type="bibr">29</xref></citation_analysis><citation_analysis attribute="neither"> Quality-control was performed throughout visual inspection of the direction-encoding color fractional anisotropic image and the participant-specific WM atlas.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0032" ref-type="bibr">32</xref></citation_analysis><citation_analysis attribute="neither"> Distribution metrics (mean, standard deviation, skew, and kurtosis) for each tract were computed from diffusion parameter maps in individual diffusion space for each participant.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0032" ref-type="bibr">32</xref></citation_analysis><citation_analysis attribute="neither"> The 768 diffusion metrics that represented the whole brain WM characteristics were selected as features in the following step.</citation_analysis></p>
+      </sec>
+      <sec id="s0002-s2005">
+        <title>Machine Learning Pipeline</title>
+        <p><citation_analysis attribute="neither">This study applied a nested leave-one-out cross-validation (LOOCV) procedure. An external LOOCV was used to estimate classification accuracy and an internal LOOCV was used to determine the optimal subset of relevant features. The LOOCV means that data from N-1 subjects were used as the training set and the remaining one subject was the test sample, where N is the number of all subjects. Internal LOOCVs were applied in the training set for each external LOOCV. The LOOCV strategy provides a good estimation for evaluating the generalization ability of the model, especially applicable in the case of relatively small sample size (as in this study).</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0033" ref-type="bibr">33</xref></citation_analysis><citation_analysis attribute="positive"> The schematic overview of the proposed nested LOOCV classification framework is shown in </citation_analysis><citation_analysis attribute="positive"><xref rid="f0001" ref-type="fig">Figure 1</xref></citation_analysis><citation_analysis attribute="neither">.</citation_analysis><citation_analysis attribute="positive"><fig position="float" id="f0001" fig-type="figure"><label>Figure 1</label><caption><p><citation_analysis attribute="neither">Schematic overview of the proposed nested LOOCV classification framework.</citation_analysis></p></caption><graphic xlink:href="NSS-14-791-g0001" content-type="print-only" position="float"/><attrib><bold>Abbreviation</bold>: LR, logistic regression.</attrib></fig></citation_analysis></p>
+      </sec>
+      <sec id="s0002-s2006">
+        <title>Feature Selection Procedure</title>
+        <p><citation_analysis attribute="neither">In machine learning and statistics, feature selection has been widely employed to identify relevant features for dimensionality reduction, to strengthen generalization capability, and to simplify the model.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0034" ref-type="bibr">34</xref></citation_analysis><citation_analysis attribute="neither">,</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0035" ref-type="bibr">35</xref></citation_analysis><citation_analysis attribute="neither"> For each internal LOOCV, the feature selection was realized through an L1-regularized logistic regression model implemented within LIBLINEAR v2.4 (</citation_analysis><citation_analysis attribute="positive"><underline><ext-link xlink:href="https://www.csie.ntu.edu.tw/~cjlin/liblinear/" ext-link-type="uri">https://www.csie.ntu.edu.tw/~cjlin/liblinear/</ext-link></underline></citation_analysis><citation_analysis attribute="neither">).</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0036" ref-type="bibr">36</xref></citation_analysis><citation_analysis attribute="neither"> As an embedded feature selection method, L1 regularization selects the optimum feature subset by shrinking the coefficients of irrelevant features toward zero with the regularization parameter C</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0037" ref-type="bibr">37</xref></citation_analysis><citation_analysis attribute="neither">. All features were normalized to a mean of 0 and a standard deviation of 1 before entering the feature selection process. Each value for </citation_analysis><citation_analysis attribute="positive"><inline-formula id="ilm0001"><alternatives><inline-graphic xlink:href="NSS-14-791-e0001.jpg"/><tex-math id="Tex001">\documentclass[12pt]{minimal}
+\usepackage{wasysym}
+\usepackage[substack]{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage[mathscr]{eucal}
+\usepackage{mathrsfs}
+\DeclareFontFamily{T1}{linotext}{}
+\DeclareFontShape{T1}{linotext}{m}{n} {linotext }{}
+\DeclareSymbolFont{linotext}{T1}{linotext}{m}{n}
+\DeclareSymbolFontAlphabet{\mathLINOTEXT}{linotext}
+\begin{document}
+$$C \in \left\{ {{2^{ - 14}},{2^{ - 13}}, \cdot \cdot \cdot ,{2^{14}}} \right\}$$
+\end{document}</tex-math></alternatives></inline-formula></citation_analysis><citation_analysis attribute="neither"> was applied to the training set (N-2 participants) for each internal LOOCV, resulting in 29 internal LOOCVs. Thus, 29 classification accuracies were obtained for each internal LOOCV. The C value with the highest classification accuracy for the internal LOOCV was defined as the optimal regularization parameter. This optimal parameter was then applied to the training set (N-1 participants) to train the model and the features corresponding to nonzero coefficients of the model were regarded as selected features.</citation_analysis></p>
+      </sec>
+      <sec id="s0002-s2007">
+        <title>LSVM-Based Classifier Implementation</title>
+        <p><citation_analysis attribute="positive">For the external LOOCV, a linear support vector machine (LSVM) was adopted based on the features selected by the L1-regularized logistic regression. The LSVM was then used to construct the classification model and evaluate classification performance. This analysis was implemented using the LIBSVM MATLAB module (</citation_analysis><citation_analysis attribute="positive"><underline><ext-link xlink:href="http://www.csie.ntu.edu.tw/~cjlin/libsvm/" ext-link-type="uri">http://www.csie.ntu.edu.tw/~cjlin/libsvm/</ext-link></underline></citation_analysis><citation_analysis attribute="neither">).</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0038" ref-type="bibr">38</xref></citation_analysis><citation_analysis attribute="neither"> As a widely used supervised learning algorithm, the LSVM maps training samples to points in a multidimensional space, with each dimension corresponding to a feature, and finds the hyperplane that maximizes the margin between the samples of different categories (SD-resistant was labeled as 1 and SD-vulnerable as −1).</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0038" ref-type="bibr">38</xref></citation_analysis><citation_analysis attribute="neither"> The hyperplane can be represented by a decision function </citation_analysis><citation_analysis attribute="positive"><inline-formula id="ilm0002"><alternatives><inline-graphic xlink:href="NSS-14-791-e0002.jpg"/><tex-math id="Tex002">\documentclass[12pt]{minimal}
+\usepackage{wasysym}
+\usepackage[substack]{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage[mathscr]{eucal}
+\usepackage{mathrsfs}
+\DeclareFontFamily{T1}{linotext}{}
+\DeclareFontShape{T1}{linotext}{m}{n} {linotext }{}
+\DeclareSymbolFont{linotext}{T1}{linotext}{m}{n}
+\DeclareSymbolFontAlphabet{\mathLINOTEXT}{linotext}
+\begin{document}
+$$y = {w^T}x + b$$
+\end{document}</tex-math></alternatives></inline-formula></citation_analysis><citation_analysis attribute="neither">, in which y is the decision value, x is the multidimensional feature vector, and w is the coefficient/weight of the corresponding feature. The resultant weight for each feature represents the feature contribution/importance to the classification.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0034" ref-type="bibr">34</xref></citation_analysis><citation_analysis attribute="neither">,</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0035" ref-type="bibr">35</xref></citation_analysis><citation_analysis attribute="neither">,</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0039" ref-type="bibr">39</xref></citation_analysis><citation_analysis attribute="positive"> We apply the untrained test sample to the decision function, any sample with a positive decision value was classified as SD-resistant and a negative score as SD-vulnerable.</citation_analysis></p>
+        <p><citation_analysis attribute="neither">The above procedure contains a total of 49 (external LOOCV) * 48 (internal LOOCV) * 29 (regularization parameter) = 68,208 cycles. The internal LOOCV takes the default approach in the LIBLINEAR toolkit. The pipeline system for Octave and Matlab (PSOM; </citation_analysis><citation_analysis attribute="positive"><underline><ext-link xlink:href="https://www.nitrc.org/projects/psom/" ext-link-type="uri">https://www.nitrc.org/projects/psom/</ext-link></underline></citation_analysis><citation_analysis attribute="neither">) was used to speed up this process.</citation_analysis></p>
+      </sec>
+      <sec id="s0002-s2008">
+        <title>LSVM Classification Performance Evaluation</title>
+        <p><citation_analysis attribute="positive">In the current study, accuracy, sensitivity, specificity, positive predictive value (PPV), and negative predictive value (NPV) were used to evaluate the performance of the classification model. Accuracy (proportion of true positives and true negatives) was defined as the proportion of participants who were correctly identified as vulnerable or resistant. Sensitivity (proportion of true positives) and specificity (proportion of true negatives) measured the proportion of participants correctly classified as SD-vulnerable or SD-resistant, respectively. The PPV was the odds of being SD-vulnerable when classified as SD-vulnerable and the NPV was the odds of being SD-resistant if classified as SD-resistant. In addition, receiver operating characteristic (ROC) analysis was also used to evaluate classification performance.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0040" ref-type="bibr">40</xref></citation_analysis><citation_analysis attribute="neither"> The area under the ROC curve (AUC) reflects the classification power of the classifier, with larger AUCs indicating better classification power.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0040" ref-type="bibr">40</xref></citation_analysis></p>
+        <p><citation_analysis attribute="neither">The permutation test was also conducted to assess whether the accuracy and AUC were significantly higher than values expected by chance.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0041" ref-type="bibr">41</xref></citation_analysis><citation_analysis attribute="neither">,</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0042" ref-type="bibr">42</xref></citation_analysis><citation_analysis attribute="neither"> As a non-parametric statistical method, the permutation test can be used to analyze quantified data that do not satisfy statistical assumptions derived from traditional parametric tests.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0043" ref-type="bibr">43</xref></citation_analysis><citation_analysis attribute="neither">,</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0044" ref-type="bibr">44</xref></citation_analysis><citation_analysis attribute="positive"> Specifically, the class labels across the entire sample were randomly permutated 1000 times without replacement, and the entire machine learning pipeline was re-executed each time. The p-value of the permutation test was calculated as the number of permutations that resulted in a greater statistic (accuracy or AUC) than was obtained using the real data, divided by the total number of permutations (ie, 1000).</citation_analysis></p>
+      </sec>
+      <sec id="s0002-s2009">
+        <title>Weight of Features</title>
+        <p><citation_analysis attribute="neither">Because of the nested LOOCV strategy, the training set for each external LOOCV was slightly different, resulting in differences in selected features across repetitions.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0045" ref-type="bibr">45</xref></citation_analysis><citation_analysis attribute="neither"> In the current study, the overlapping features across all folds of the external LOOCV were defined as the discriminative features and the discriminative weight represents the discriminative power of the corresponding feature. The discriminative weight was quantitatively calculated as the average of the absolute weights across all repetitions.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0045" ref-type="bibr">45</xref></citation_analysis><citation_analysis attribute="neither"> A higher absolute value of the discriminative weight indicates a greater contribution of the corresponding feature to the classification.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0034" ref-type="bibr">34</xref></citation_analysis><citation_analysis attribute="neither">,</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0039" ref-type="bibr">39</xref></citation_analysis><citation_analysis attribute="neither">,</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0046" ref-type="bibr">46</xref></citation_analysis></p>
+      </sec>
+    </sec>
+    <sec id="s0003">
+      <title>Results</title>
+      <sec id="s0003-s2001">
+        <title>Demographic Characteristics, Stanford Sleepiness Scale, and Objective Sleep Measures</title>
+        <p><citation_analysis attribute="neither">Forty-nine participants successfully completed the SD experiment. Based on the change in the number of lapses between SD and RW condition. Participants were stratified as SD-resistant or SD-vulnerable group. The average change in PVT lapse was 0.54 for the SD-resistant group and 9.56 for the SD-vulnerable group. The two groups were similar in age (22.00 ± 1.71 for resistant group, 22.08 ± 1.77 for vulnerable group, </citation_analysis><citation_analysis attribute="positive"><italic toggle="yes">P</italic></citation_analysis><citation_analysis attribute="neither"> &gt; 0. 5), gender distribution (12 females in resistant group, 13 females in vulnerable group, </citation_analysis><citation_analysis attribute="positive"><italic toggle="yes">P</italic></citation_analysis><citation_analysis attribute="neither"> &gt; 0. 5) and body mass index (23.60 ± 0.96 for resistant group, 23.70 ± 1.10 for vulnerable group, </citation_analysis><citation_analysis attribute="positive"><italic toggle="yes">P</italic></citation_analysis><citation_analysis attribute="positive"> &gt; 0. 5). They all had habitually good sleep confirmed by Actiwatchs and no significant differences were found for objective sleep parameters, including number of wakening each night, sleep duration all night, sleep efficiency and sleep latency. Detailed demographic and sleep-pattern information are listed in </citation_analysis><citation_analysis attribute="positive"><xref rid="t0001" ref-type="table">Table 1</xref></citation_analysis><citation_analysis attribute="neither">.</citation_analysis><citation_analysis attribute="positive"><table-wrap position="float" id="t0001"><label>Table 1</label><caption><p><citation_analysis attribute="neither">Demographic Characteristics, Stanford Sleepiness Scale, and Objective Sleep Measures</citation_analysis></p></caption><table frame="hsides" rules="groups"><thead><tr><th rowspan="1" colspan="1"/><th rowspan="1" colspan="1">Vulnerable (n = 25)</th><th rowspan="1" colspan="1">Resilience (n = 24)</th><th rowspan="1" colspan="1">Statistical Value</th><th rowspan="1" colspan="1"><italic toggle="yes">P</italic> value</th></tr></thead><tbody><tr><td rowspan="1" colspan="1"><bold>Gender (male/female)</bold></td><td align="center" rowspan="1" colspan="1">12/13</td><td align="center" rowspan="1" colspan="1">12/12</td><td rowspan="1" colspan="1">0.02<sup>a</sup></td><td rowspan="1" colspan="1">0.88</td></tr><tr><td rowspan="1" colspan="1"><bold>Age (years)</bold></td><td rowspan="1" colspan="1">22.08 ± 1.77</td><td rowspan="1" colspan="1">22.00 ± 1.71</td><td rowspan="1" colspan="1">0.16<sup>b</sup></td><td rowspan="1" colspan="1">0.87</td></tr><tr><td rowspan="1" colspan="1"><bold>Body mass index</bold></td><td rowspan="1" colspan="1">23.70 ± 1.10</td><td rowspan="1" colspan="1">23.60 ± 0.96</td><td rowspan="1" colspan="1">0.33<sup>b</sup></td><td rowspan="1" colspan="1">0.73</td></tr><tr><td rowspan="1" colspan="1"><bold>Objective sleep characteristics from Actiwatch</bold></td><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"/></tr><tr><td rowspan="1" colspan="1"> Number of wakening each night</td><td rowspan="1" colspan="1">27.64 ± 6.28</td><td rowspan="1" colspan="1">27.95 ± 6.03</td><td rowspan="1" colspan="1">−0.18<sup>b</sup></td><td rowspan="1" colspan="1">0.85</td></tr><tr><td rowspan="1" colspan="1"> Sleep duration all night</td><td rowspan="1" colspan="1">6.75 ± 1.38</td><td rowspan="1" colspan="1">6.66 ± 1.28</td><td rowspan="1" colspan="1">0.23<sup>b</sup></td><td rowspan="1" colspan="1">0.81</td></tr><tr><td rowspan="1" colspan="1"> Night sleep durations before work days</td><td rowspan="1" colspan="1">6.35 ± 1.38</td><td rowspan="1" colspan="1">6.33 ± 1.27</td><td rowspan="1" colspan="1">0.05<sup>b</sup></td><td rowspan="1" colspan="1">0.95</td></tr><tr><td rowspan="1" colspan="1"> Night sleep durations before free days</td><td rowspan="1" colspan="1">7.14 ± 1.38</td><td rowspan="1" colspan="1">7.05 ± 1.28</td><td rowspan="1" colspan="1">0.25<sup>b</sup></td><td rowspan="1" colspan="1">0.80</td></tr><tr><td rowspan="1" colspan="1"> Sleep efficiency in %</td><td rowspan="1" colspan="1">84.20 ± 2.87</td><td rowspan="1" colspan="1">83.50 ± 2.02</td><td rowspan="1" colspan="1">0.98<sup>b</sup></td><td rowspan="1" colspan="1">0.33</td></tr><tr><td rowspan="1" colspan="1"> Sleep latency in minutes</td><td rowspan="1" colspan="1">16.32 ± 6.87</td><td rowspan="1" colspan="1">16.10 ± 7.63</td><td rowspan="1" colspan="1">0.11<sup>b</sup></td><td rowspan="1" colspan="1">0.91</td></tr><tr><td rowspan="1" colspan="1"><bold>PVT performance</bold></td><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"/></tr><tr><td rowspan="1" colspan="1"> Number of Lapse</td><td rowspan="1" colspan="1">9.56 ± 5.96</td><td rowspan="1" colspan="1">0.54 ± 1.06</td><td rowspan="1" colspan="1">−5.98<sup>c</sup></td><td rowspan="1" colspan="1">&lt;0.001</td></tr></tbody></table><table-wrap-foot><fn id="tfn0001"><p><citation_analysis attribute="positive"><bold>Notes</bold></citation_analysis><citation_analysis attribute="neither">: </citation_analysis><citation_analysis attribute="positive"><sup>a.</sup></citation_analysis><citation_analysis attribute="positive">Value from the 2 test. P value also obtained by using the 2 test.</citation_analysis><citation_analysis attribute="positive"><sup>b</sup></citation_analysis><citation_analysis attribute="positive"> T value obtained by using the two-sample </citation_analysis><citation_analysis attribute="positive"><italic toggle="yes">t</italic></citation_analysis><citation_analysis attribute="neither"> test.</citation_analysis><citation_analysis attribute="positive"><sup>c</sup></citation_analysis><citation_analysis attribute="positive">Z value and P value obtained by using the rank-sum test.</citation_analysis></p></fn></table-wrap-foot></table-wrap></citation_analysis><citation_analysis attribute="positive">
+</citation_analysis></p>
+      </sec>
+      <sec id="s0003-s2002">
+        <title>Classification Performance</title>
+        <p><citation_analysis attribute="positive">The classification performance for different features using the total sample is presented in </citation_analysis><citation_analysis attribute="positive"><xref rid="t0002" ref-type="table">Table 2</xref></citation_analysis><citation_analysis attribute="positive">. By using the combined FA, MD, AD, and RD features, the LSVM classifier accurately discriminated SD-vulnerable from SD-resilient individuals. Specifically, the accuracy, sensitivity, specificity, PPV, and NPV were 83.67%, 87.50%, 80.00%, 86.96%, and 80.77%, respectively. The permutation tests showed that the true prediction accuracies were significantly higher than those obtained after random generation (</citation_analysis><citation_analysis attribute="positive"><italic toggle="yes">P &lt;</italic></citation_analysis><citation_analysis attribute="neither"> 0.003) (</citation_analysis><citation_analysis attribute="positive"><xref rid="f0002" ref-type="fig">Figure 2</xref></citation_analysis><citation_analysis attribute="neither">). The ROC analyses for the classification model based on combined features and single features are presented in </citation_analysis><citation_analysis attribute="positive"><xref rid="f0003" ref-type="fig">Figure 3</xref></citation_analysis><citation_analysis attribute="positive">. The LSVM classifier using the combined features generated a larger AUC, indicating better classification performance. The permutation tests revealed that the true prediction AUC was significantly higher than that obtained through chance (</citation_analysis><citation_analysis attribute="positive"><italic toggle="yes">P &lt;</italic></citation_analysis><citation_analysis attribute="neither"> 0.009) (</citation_analysis><citation_analysis attribute="positive"><xref rid="f0002" ref-type="fig">Figure 2</xref></citation_analysis><citation_analysis attribute="neither">).</citation_analysis><citation_analysis attribute="positive"><table-wrap position="float" id="t0002"><label>Table 2</label><caption><p><citation_analysis attribute="neither">Classification Performance of the LSVM Classifier Using Different Feature Types</citation_analysis></p></caption><table frame="hsides" rules="groups"><thead><tr><th rowspan="1" colspan="1">Feature Type</th><th rowspan="1" colspan="1">AUC</th><th rowspan="1" colspan="1">Accuracy(%)</th><th rowspan="1" colspan="1">Sensitivity(%)</th><th rowspan="1" colspan="1">Specificity(%)</th><th rowspan="1" colspan="1">PPV(%)</th><th rowspan="1" colspan="1">NPV(%)</th></tr></thead><tbody><tr><td rowspan="1" colspan="1">Combined feature</td><td rowspan="1" colspan="1">0.85</td><td rowspan="1" colspan="1">83.67</td><td rowspan="1" colspan="1">87.50</td><td rowspan="1" colspan="1">80.00</td><td rowspan="1" colspan="1">86.96</td><td rowspan="1" colspan="1">80.77</td></tr><tr><td rowspan="1" colspan="1">FA feature</td><td rowspan="1" colspan="1">0.83</td><td rowspan="1" colspan="1">75.51</td><td rowspan="1" colspan="1">72.00</td><td rowspan="1" colspan="1">79.17</td><td rowspan="1" colspan="1">78.26</td><td rowspan="1" colspan="1">73.08</td></tr><tr><td rowspan="1" colspan="1">MD feature</td><td rowspan="1" colspan="1">0.66</td><td rowspan="1" colspan="1">65.31</td><td rowspan="1" colspan="1">62.50</td><td rowspan="1" colspan="1">68.00</td><td rowspan="1" colspan="1">65.38</td><td rowspan="1" colspan="1">65.22</td></tr><tr><td rowspan="1" colspan="1">AD feature</td><td rowspan="1" colspan="1">0.77</td><td rowspan="1" colspan="1">67.00</td><td rowspan="1" colspan="1">70.83</td><td rowspan="1" colspan="1">64.00</td><td rowspan="1" colspan="1">69.57</td><td rowspan="1" colspan="1">65.38</td></tr><tr><td rowspan="1" colspan="1">RD feature</td><td rowspan="1" colspan="1">0.64</td><td rowspan="1" colspan="1">59.18</td><td rowspan="1" colspan="1">54.17</td><td rowspan="1" colspan="1">64.00</td><td rowspan="1" colspan="1">59.26</td><td rowspan="1" colspan="1">59.09</td></tr></tbody></table><table-wrap-foot><fn id="tfn0002"><p><citation_analysis attribute="positive"><bold>Abbreviations</bold></citation_analysis><citation_analysis attribute="positive">: AUC, area under ROC curve; PPV, positive predictive value; NPV, negative predictive value.</citation_analysis></p></fn></table-wrap-foot></table-wrap></citation_analysis><citation_analysis attribute="positive">
+</citation_analysis><citation_analysis attribute="positive"><fig position="float" id="f0002" fig-type="figure"><label>Figure 2</label><caption><p><citation_analysis attribute="positive">Two histograms depicting the accuracy and AUC permutation distributions for the classifier constructed using a combination of features. The values obtained using the real labels are indicated by the red dotted line.</citation_analysis></p></caption><graphic xlink:href="NSS-14-791-g0002" content-type="print-only" position="float"/><attrib><bold>Abbreviation</bold>: AUC, area under the (receiver operating characteristic) curve.</attrib></fig></citation_analysis><citation_analysis attribute="positive"><fig position="float" id="f0003" fig-type="figure"><label>Figure 3</label><caption><p><citation_analysis attribute="positive">The ROC curves for classifiers constructed using different feature types.</citation_analysis></p></caption><graphic xlink:href="NSS-14-791-g0003" content-type="print-only" position="float"/><attrib><bold>Abbreviation</bold>: ROC, receiver operating characteristic.</attrib></fig></citation_analysis></p>
+        <p><citation_analysis attribute="positive">To compare the classification performance for different features, we conducted a one-way analysis of variance (ANOVA) on the accuracy and AUC values obtained using the permutation tests. Post hoc analyses were conducted to further examine specific between-feature differences. The results showed significant differences in both accuracy and AUC among the classification models constructed using different features (</citation_analysis><citation_analysis attribute="positive"><italic toggle="yes">F<sub>AUC</sub></italic></citation_analysis><citation_analysis attribute="neither"> = 11.43, </citation_analysis><citation_analysis attribute="positive"><italic toggle="yes">P &lt;</italic></citation_analysis><citation_analysis attribute="neither"> 0.001, </citation_analysis><citation_analysis attribute="positive"><italic toggle="yes">F<sub>accuracy</sub></italic></citation_analysis><citation_analysis attribute="neither"> = 9.65, </citation_analysis><citation_analysis attribute="positive"><italic toggle="yes">P &lt;</italic></citation_analysis><citation_analysis attribute="neither"> 0.001). Post hoc analysis revealed that accuracy and AUC were both significantly higher for the models with combined features (COMB) than the models with individual FA, AD, or RD features (COMB vs FA: </citation_analysis><citation_analysis attribute="positive"><italic toggle="yes">P<sub>accuracy</sub> &lt;</italic></citation_analysis><citation_analysis attribute="neither"> 0.001, </citation_analysis><citation_analysis attribute="positive"><italic toggle="yes">P<sub>AUC</sub> &lt;</italic></citation_analysis><citation_analysis attribute="neither"> 0.001; COMB vs AD: </citation_analysis><citation_analysis attribute="positive"><italic toggle="yes">P<sub>accuracy</sub> &lt;</italic></citation_analysis><citation_analysis attribute="neither"> 0.001, </citation_analysis><citation_analysis attribute="positive"><italic toggle="yes">P<sub>AUC</sub> &lt;</italic></citation_analysis><citation_analysis attribute="neither"> 0.001; COMB vs RD: P</citation_analysis><citation_analysis attribute="positive"><sub>accuracy</sub></citation_analysis><citation_analysis attribute="neither"> &lt; 0.001, </citation_analysis><citation_analysis attribute="positive"><italic toggle="yes">P<sub>AUC</sub> &lt;</italic></citation_analysis><citation_analysis attribute="neither"> 0.001). A trend was also observed for the MD features (COMB vs MD: </citation_analysis><citation_analysis attribute="positive"><italic toggle="yes">P<sub>accuracy</sub> =</italic></citation_analysis><citation_analysis attribute="neither"> 0.32, </citation_analysis><citation_analysis attribute="positive"><italic toggle="yes">P<sub>AUC</sub> =</italic></citation_analysis><citation_analysis attribute="positive"> 0.23). Detailed results of the post hoc analysis are shown in </citation_analysis><citation_analysis attribute="positive"><underline><ext-link xlink:href="https://www.dovepress.com/get_supplementary_file.php?f=345328.docx" ext-link-type="uri">Supplementary Table 1</ext-link></underline></citation_analysis><citation_analysis attribute="neither">.</citation_analysis></p>
+      </sec>
+      <sec id="s0003-s2003">
+        <title>Relationship Between LSVM Decision Value and PVT Performance</title>
+        <p><citation_analysis attribute="positive">The decision value of the LSVM classifier for each participant is shown in </citation_analysis><citation_analysis attribute="positive"><xref rid="f0004" ref-type="fig">Figure 4</xref></citation_analysis><citation_analysis attribute="positive">. The decision value was defined as the distance from the sample (ie, each participant) to the optimal separating hyperplane. Individuals with negative values were classified as SD-vulnerable, and individuals with positive values were classified as SD-resilient. Based on the proposed nested LOOCV strategy, five SD-vulnerable individuals were misidentified as SD-resilient, and 3 SD-resilient individuals were misidentified as SD-vulnerable. Correlation analysis showed that the decision values were significantly negatively correlated with PVT performance (</citation_analysis><citation_analysis attribute="positive"><italic toggle="yes">r = −</italic></citation_analysis><citation_analysis attribute="neither">0.497, </citation_analysis><citation_analysis attribute="positive"><italic toggle="yes">P</italic></citation_analysis><citation_analysis attribute="neither"> &lt; 0.001), which further supports the validity of the classification model.</citation_analysis><citation_analysis attribute="positive"><fig position="float" id="f0004" fig-type="figure"><label>Figure 4</label><caption><p><citation_analysis attribute="positive">Correlation between the LSVM decision value and PVT performance. A significant negative correlation between the LSVM decision value and PVT performance was observed across all participants (r= −0.497, p&lt;0.001). Here, individuals with negative values were classified as SD-vulnerable, and individuals with positive values were classified as SD-resilient.</citation_analysis></p></caption><graphic xlink:href="NSS-14-791-g0004" content-type="print-only" position="float"/><attrib><bold>Abbreviations</bold>: LSVM, linear support vector machine; SD, sleep deprivation; RW, resting wakefulness.</attrib></fig></citation_analysis></p>
+      </sec>
+      <sec id="s0003-s2004">
+        <title>The Most Discriminative WM Tracts</title>
+        <p><citation_analysis attribute="positive">The WM tracts that were most different (ie, most discriminative) between SD-vulnerable and SD-resilient individuals were selected using the proposed classification framework. Specifically, there were 27 discriminative WM features, including 8 FAs, 9 MDs, 6 ADs, and 4 RDs (</citation_analysis><citation_analysis attribute="positive"><xref rid="t0003" ref-type="table">Table 3</xref></citation_analysis><citation_analysis attribute="positive">). The WM regions that differed in FA features mainly included the left anterior limb of the internal capsule, left cingulum, left corticospinal tract, right superior corona radiata, right superior cerebellar peduncle, right tapetum, and middle cerebellar peduncle. The regions selected for the MD feature were located in the right cingulum, left superior fronto-occipital fasciculus, left anterior limb of internal capsule, right cingulum, right posterior corona radiata, right superior longitudinal fasciculus, genu of the corpus callosum, cerebellar peduncle, and the body of the fornix. The corresponding regions for the AD feature were the left genu of the corpus callosum, body of the corpus callosum, and the left superior longitudinal fasciculus. The discriminative RD features were derived from the right superior corona radiata, left superior fronto-occipital fasciculus, and right superior longitudinal fasciculus. We found that the discriminative features include the mean, standard deviation, skew, and kurtosis of the diffusion parameters of the corresponding WM regions, indicating existence of complementary information between different features’ distribution metrics. The discriminative WM regions are shown in </citation_analysis><citation_analysis attribute="positive"><xref rid="f0005" ref-type="fig">Figure 5</xref></citation_analysis><citation_analysis attribute="neither">.</citation_analysis><citation_analysis attribute="positive"><table-wrap position="float" id="t0003"><label>Table 3</label><caption><p><citation_analysis attribute="neither">The Selected Discriminative Features Using the Proposed Nested LOOCV Strategy</citation_analysis></p></caption><table frame="hsides" rules="groups"><thead><tr><th rowspan="1" colspan="1">WMPM Regions</th><th rowspan="1" colspan="1">Hemisphere</th><th rowspan="1" colspan="1">Metric</th><th rowspan="1" colspan="1">Statistic</th><th rowspan="1" colspan="1">Discriminative Weight</th></tr></thead><tbody><tr><td rowspan="1" colspan="1">Superior corona radiata</td><td rowspan="1" colspan="1">R</td><td rowspan="1" colspan="1">RD</td><td rowspan="1" colspan="1">Kurtosis</td><td rowspan="1" colspan="1">0.059</td></tr><tr><td rowspan="1" colspan="1">Fornix</td><td rowspan="1" colspan="1">/</td><td rowspan="1" colspan="1">MD</td><td rowspan="1" colspan="1">Mean</td><td rowspan="1" colspan="1">0.058</td></tr><tr><td rowspan="1" colspan="1">Cingulum</td><td rowspan="1" colspan="1">R</td><td rowspan="1" colspan="1">MD</td><td rowspan="1" colspan="1">Mean</td><td rowspan="1" colspan="1">0.053</td></tr><tr><td rowspan="1" colspan="1">Anterior limb of internal capsule</td><td rowspan="1" colspan="1">L</td><td rowspan="1" colspan="1">FA</td><td rowspan="1" colspan="1">Standard deviation</td><td rowspan="1" colspan="1">0.051</td></tr><tr><td rowspan="1" colspan="1">Superior fronto-occipital fasciculus</td><td rowspan="1" colspan="1">L</td><td rowspan="1" colspan="1">MD</td><td rowspan="1" colspan="1">Standard deviation</td><td rowspan="1" colspan="1">0.050</td></tr><tr><td rowspan="1" colspan="1">Genu of corpus callosum</td><td rowspan="1" colspan="1">/</td><td rowspan="1" colspan="1">AD</td><td rowspan="1" colspan="1">Mean</td><td rowspan="1" colspan="1">0.049</td></tr><tr><td rowspan="1" colspan="1">Body of corpus callosum</td><td rowspan="1" colspan="1">/</td><td rowspan="1" colspan="1">AD</td><td rowspan="1" colspan="1">Skew</td><td rowspan="1" colspan="1">0.047</td></tr><tr><td rowspan="1" colspan="1">Superior fronto-occipital fasciculus</td><td rowspan="1" colspan="1">L</td><td rowspan="1" colspan="1">RD</td><td rowspan="1" colspan="1">Skew</td><td rowspan="1" colspan="1">0.047</td></tr><tr><td rowspan="1" colspan="1">Superior corona radiata</td><td rowspan="1" colspan="1">R</td><td rowspan="1" colspan="1">FA</td><td rowspan="1" colspan="1">Mean</td><td rowspan="1" colspan="1">0.045</td></tr><tr><td rowspan="1" colspan="1">Superior fronto-occipital fasciculus</td><td rowspan="1" colspan="1">L</td><td rowspan="1" colspan="1">RD</td><td rowspan="1" colspan="1">Kurtosis</td><td rowspan="1" colspan="1">0.042</td></tr><tr><td rowspan="1" colspan="1">Anterior limb of internal capsule</td><td rowspan="1" colspan="1">L</td><td rowspan="1" colspan="1">FA</td><td rowspan="1" colspan="1">Skew</td><td rowspan="1" colspan="1">0.042</td></tr><tr><td rowspan="1" colspan="1">Middle cerebellar peduncle</td><td rowspan="1" colspan="1">/</td><td rowspan="1" colspan="1">FA</td><td rowspan="1" colspan="1">Mean</td><td rowspan="1" colspan="1">0.041</td></tr><tr><td rowspan="1" colspan="1">Cingulum</td><td rowspan="1" colspan="1">L</td><td rowspan="1" colspan="1">FA</td><td rowspan="1" colspan="1">Mean</td><td rowspan="1" colspan="1">0.040</td></tr><tr><td rowspan="1" colspan="1">Anterior limb of internal capsule</td><td rowspan="1" colspan="1">L</td><td rowspan="1" colspan="1">MD</td><td rowspan="1" colspan="1">Standard deviation</td><td rowspan="1" colspan="1">0.039</td></tr><tr><td rowspan="1" colspan="1">Superior cerebellar peduncle</td><td rowspan="1" colspan="1">R</td><td rowspan="1" colspan="1">FA</td><td rowspan="1" colspan="1">Mean</td><td rowspan="1" colspan="1">0.039</td></tr><tr><td rowspan="1" colspan="1">Body of corpus callosum</td><td rowspan="1" colspan="1">/</td><td rowspan="1" colspan="1">AD</td><td rowspan="1" colspan="1">Kurtosis</td><td rowspan="1" colspan="1">0.038</td></tr><tr><td rowspan="1" colspan="1">Tapetum</td><td rowspan="1" colspan="1">R</td><td rowspan="1" colspan="1">FA</td><td rowspan="1" colspan="1">Mean</td><td rowspan="1" colspan="1">0.037</td></tr><tr><td rowspan="1" colspan="1">Genu of corpus callosum</td><td rowspan="1" colspan="1">/</td><td rowspan="1" colspan="1">MD</td><td rowspan="1" colspan="1">Mean</td><td rowspan="1" colspan="1">0.037</td></tr><tr><td rowspan="1" colspan="1">Cingulum</td><td rowspan="1" colspan="1">R</td><td rowspan="1" colspan="1">MD</td><td rowspan="1" colspan="1">Standard deviation</td><td rowspan="1" colspan="1">0.034</td></tr><tr><td rowspan="1" colspan="1">Cerebellar peduncle</td><td rowspan="1" colspan="1">/</td><td rowspan="1" colspan="1">MD</td><td rowspan="1" colspan="1">Mean</td><td rowspan="1" colspan="1">0.032</td></tr><tr><td rowspan="1" colspan="1">Superior longitudinal fasciculus</td><td rowspan="1" colspan="1">L</td><td rowspan="1" colspan="1">AD</td><td rowspan="1" colspan="1">Standard deviation</td><td rowspan="1" colspan="1">0.030</td></tr><tr><td rowspan="1" colspan="1">Superior longitudinal fasciculus</td><td rowspan="1" colspan="1">L</td><td rowspan="1" colspan="1">AD</td><td rowspan="1" colspan="1">Mean</td><td rowspan="1" colspan="1">0.029</td></tr><tr><td rowspan="1" colspan="1">Corticospinal tract</td><td rowspan="1" colspan="1">L</td><td rowspan="1" colspan="1">FA</td><td rowspan="1" colspan="1">Skew</td><td rowspan="1" colspan="1">0.028</td></tr><tr><td rowspan="1" colspan="1">Superior longitudinal fasciculus</td><td rowspan="1" colspan="1">L</td><td rowspan="1" colspan="1">AD</td><td rowspan="1" colspan="1">Kurtosis</td><td rowspan="1" colspan="1">0.022</td></tr><tr><td rowspan="1" colspan="1">Superior longitudinal fasciculus</td><td rowspan="1" colspan="1">R</td><td rowspan="1" colspan="1">RD</td><td rowspan="1" colspan="1">Kurtosis</td><td rowspan="1" colspan="1">0.019</td></tr><tr><td rowspan="1" colspan="1">Posterior corona radiata</td><td rowspan="1" colspan="1">R</td><td rowspan="1" colspan="1">MD</td><td rowspan="1" colspan="1">Standard deviation</td><td rowspan="1" colspan="1">0.017</td></tr><tr><td rowspan="1" colspan="1">Superior longitudinal fasciculus</td><td rowspan="1" colspan="1">R</td><td rowspan="1" colspan="1">MD</td><td rowspan="1" colspan="1">Mean</td><td rowspan="1" colspan="1">0.016</td></tr></tbody></table><table-wrap-foot><fn id="tfn0003"><p><citation_analysis attribute="positive"><bold>Abbreviations</bold></citation_analysis><citation_analysis attribute="neither">: L, left hemisphere; R, right hemisphere; FA, fractional anisotropy; MD, mean diffusivity; AD, axial diffusivity; RD, radial diffusivity.</citation_analysis></p></fn></table-wrap-foot></table-wrap></citation_analysis><citation_analysis attribute="positive">
+</citation_analysis><citation_analysis attribute="positive"><fig position="float" id="f0005" fig-type="figure"><label>Figure 5</label><caption><p><citation_analysis attribute="positive">The discriminative WM tracts. To aid visualization, the image was thickened using the “tbss_fill” command.</citation_analysis></p></caption><graphic xlink:href="NSS-14-791-g0005" content-type="print-only" position="float"/></fig></citation_analysis></p>
+      </sec>
+    </sec>
+    <sec id="s0004">
+      <title>Discussion</title>
+      <p><citation_analysis attribute="neither">Using WM metrics derived from diffusion tensor imaging and multivariate classification (LSVM), the current study found that combining FA, MD, AD and RD features from several WM tracts can predict vulnerability to SD with high accuracy. The WM tracts that showed the most discriminatory power were commissural pathways (superior longitudinal fasciculus), projection pathways (posterior corona radiata, anterior limb of internal capsule), and association pathways (body and genu of corpus callosum). The present study highlights the importance of WM in regulating cognitive instability after SD.</citation_analysis></p>
+      <p><citation_analysis attribute="neither">Rather than eliminating cognitive capability, SD affects cognitive performance by causing cognitive instability.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0047" ref-type="bibr">47</xref></citation_analysis><citation_analysis attribute="positive"> After SD, cognitive instability manifests as increased number of attentional lapses. However, large inter-individual differences exist in SD-induced PVT lapses and substantial evidence indicates that this vulnerability to SD is stable within a given individual.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0008" ref-type="bibr">8</xref></citation_analysis><citation_analysis attribute="neither"> Due to the 24/7 demands of contemporary society, a reliable biomarker that can be used to screen for SD-vulnerability is of great importance. Although a previous study tried to use baseline PVT measures with a drift-diffusion model to predict SD-vulnerability, classification accuracy was unsatisfactory (around 77%).</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0048" ref-type="bibr">48</xref></citation_analysis><citation_analysis attribute="neither"> Additionally, a recent study attempted to use imaging features derived from fMRI to predict SD-vulnerability. Accuracy was good enough, but resting-state fMRI is state-dependent and easily affected by head motion and preprocessing (such as with or without global signal regression).</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0049" ref-type="bibr">49</xref></citation_analysis><citation_analysis attribute="positive"> As SD-vulnerability is trait-like, intrinsic structural measures, such as the properties WM microstructure, might guarantee robust classification performance. Supporting this theory, we obtained 84% accuracy by combining FA, MD, AD, and RD measures and found a significant negative correlation between the change in PVT lapse number and the LSVM decision value.</citation_analysis></p>
+      <p><citation_analysis attribute="neither">Involvement of the FPN for attention has been consistently observed during sustained attention tasks. The first study that investigated the neural correlates of the PVT indicated that cortical activation within the dorsal attention network that encompasses the frontal and parietal regions is related to sustained attention performance.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0018" ref-type="bibr">18</xref></citation_analysis><citation_analysis attribute="neither"> Another study by Chee et al further found that signal increases in frontal-parietal regions were lower in SD-vulnerable participants than in SD-resistant participants.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0009" ref-type="bibr">9</xref></citation_analysis><citation_analysis attribute="positive"> These investigations have all suggested that the FPN helps regulate attentional lapses. FPN network connectivity was also associated with sleep disturbance in clinical populations. A recent study by Pini et al indicated that increased FPN connectivity were found in mild cognitive impairment (MCI) participants with high quality of sleep, positive coupling of connectivity between FPN network and default mode network (DMN) was also found in MCI reporting high quality of sleep.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0050" ref-type="bibr">50</xref></citation_analysis><citation_analysis attribute="positive"> A large independent sample study by McKinnon et al found that MCI participants with nocturnal awakenings (defined by actigraphy) demonstrated reduced connectivity between temporal and parietal, and between temporal and temporal-parietal regions, compared with MCIs with intact sleep.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0051" ref-type="bibr">51</xref></citation_analysis><citation_analysis attribute="positive"> Those studies implicated that distinct alterations in FPN and DMN functional connectivity are related with sleep disturbance in MCI. The superior longitudinal fasciculus (SLF) is an extensive longitudinal WM tract connecting the frontal and parietal lobes, which is divided into three branches: SLF I, SLF II, and SLF III.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0052" ref-type="bibr">52</xref></citation_analysis><citation_analysis attribute="positive"> SLF I extends between the superior parietal lobe and the dorsal and medial parts of the frontal lobe, while SLF II connects the inferior parietal lobe to posterior portions of the middle frontal gyrus, and SLF III connects the inferior parietal lobe to the inferior frontal gyrus. All three segments of the SLF facilitate top-down control of behavior. The contribution of RD and MD features from the right SLF and AD from the left SLF to the classification model found in the current study indicates that efficient signal communication between frontal and parietal regions are likely necessary for better resistance to SD.</citation_analysis></p>
+      <p><citation_analysis attribute="neither">We further found that RD and FA of the superior corona radiata, MD of the posterior corona radiata, and FA of the anterior limb of internal capsule contributed to the accuracy of SD-vulnerable/resilient classification. The corona radiata is part of the thalamocortical circuitry and contains fibers (thalamic radiations) that mostly connect the prefrontal cortex to the thalamus.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0053" ref-type="bibr">53</xref></citation_analysis><citation_analysis attribute="neither"> Additionally, the anterior limb of the internal capsule connects the prefrontal cortex with the thalamus.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0053" ref-type="bibr">53</xref></citation_analysis><citation_analysis attribute="positive"> A broad review of previous studies has implicated the thalamus in regulating sustained attention, with increased thalamic activation frequently observed after SD.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0054" ref-type="bibr">54</xref></citation_analysis><citation_analysis attribute="neither"> Consistent with our finding, a previous study found that patients who experienced strokes that were localized to the corona radiata and the internal capsule performed poorly on the PVT.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0055" ref-type="bibr">55</xref></citation_analysis></p>
+      <p><citation_analysis attribute="positive">Another important finding was that the AD for the body and genu of corpus callosum also contributed to the classification. The corpus callosum is the major WM tract connecting the left and right cerebral hemispheres and thus plays an important role in interhemispheric communication. Our previous study found that functional interhemispheric connectivity in increased after SD, which might reflect compensation for the detrimental effects of accumulating sleep debt.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0056" ref-type="bibr">56</xref></citation_analysis><citation_analysis attribute="neither"> By increasing the number of imaging scans during the SD process, our recent study found a monotonically increased interhemispheric connection during SD.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0006" ref-type="bibr">6</xref></citation_analysis><citation_analysis attribute="positive"> In line with these studies, the current study further verified the role that microstructural properties of the corpus callosum has in maintaining cognitive stability after SD.</citation_analysis></p>
+      <p><citation_analysis attribute="positive">The present study has several limitations. First, in the current study, participants were median-split into SD-resistant or SD-vulnerable group according to the number change of PVT lapse (SD-RW). This approach enabled us to build a model that predicts a binary outcome (resilient or vulnerable). However, it is of great importance to note that the vulnerability to sleep deprivation is actually continuous, and the decision to split the dataset by the median was arbitrary. The number of lapse change in the “most resistant” vulnerable subjects were similar to that in the “most vulnerable” resistant subjects, which influences the actual accuracy of the classification model. Second, we only calculated the number of lapses in two sessions (RW and SD), which can not rule out the effects brought by random variability in performance, future studies are needed to verify whether the obtained vulnerability was reproducible across multiple sessions. Third, the age distribution of participants recruited was relatively narrow and the sample size is relatively small, further studies with larger sample size and wider age range will be necessary to confirm the present results. Finally, we only used WM properties to build the discrimination model, the combination of other structural measures, such as cortical surface area or cortical thickness derived from high-resolution T1 images should be investigated in the future.</citation_analysis></p>
+    </sec>
+    <sec id="s0005">
+      <title>Conclusion</title>
+      <p><citation_analysis attribute="positive">Our study demonstrated that microstructural properties derived from diffusion tensor imaging combined with cutting-edge machine algorithms have the potential to predict cognitive vulnerability to SD. Classification accuracy was driven primarily by (1) commissural fiber tracts within the frontal-parietal attention network, (2) projection fiber tracts linking the thalamus to the prefrontal cortex, and (3) association fiber tracts that facilitate interhemispheric communication.</citation_analysis></p>
+    </sec>
+  </body>
+  <back>
+    <ack>
+      <title>Acknowledgments</title>
+      <p><citation_analysis attribute="neither">We thank all volunteers for their participation in the study. This study was financially supported by the Major Project of Medicine Science and Technology of PLA (Grant No. AWS17J012), and the National Natural Science Foundation of China (81801772, 61806210, 82071917). We also thank Adam Phillips, PhD, from Liwen Bianji (Edanz) (</citation_analysis><citation_analysis attribute="positive"><underline><ext-link xlink:href="http://www.liwenbianji.cn/" ext-link-type="uri">www.liwenbianji.cn/</ext-link></underline></citation_analysis><citation_analysis attribute="neither">) for editing the English text of a draft of this manuscript.</citation_analysis></p>
+    </ack>
+    <sec sec-type="COI-statement" id="s0006">
+      <title>Disclosure</title>
+      <p><citation_analysis attribute="neither">The authors report no conflicts of interest in relation to this work.</citation_analysis></p>
+    </sec>
+    <ref-list>
+      <title>References</title>
+      <ref id="cit0001">
+        <label>1.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Xie</surname>
+<given-names>L</given-names></string-name>, <string-name><surname>Kang</surname>
+<given-names>H</given-names></string-name>, <string-name><surname>Xu</surname>
+<given-names>Q</given-names></string-name>, et al. <article-title>Sleep drives metabolite clearance from the adult brain</article-title>. <source><italic toggle="yes">science</italic></source>. <year>2013</year>;<volume>342</volume>(<issue>6156</issue>):<fpage>373</fpage>–<lpage>377</lpage>. doi:<pub-id pub-id-type="doi">10.1126/science.1241224</pub-id><pub-id pub-id-type="pmid">24136970</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0002">
+        <label>2.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Tononi</surname>
+<given-names>G</given-names></string-name>, <string-name><surname>Cirelli</surname>
+<given-names>C</given-names></string-name>. <article-title>Sleep and the price of plasticity: from synaptic and cellular homeostasis to memory consolidation and integration</article-title>. <source><italic toggle="yes">Neuron</italic></source>. <year>2014</year>;<volume>81</volume>:<fpage>12</fpage>–<lpage>34</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.neuron.2013.12.025</pub-id><pub-id pub-id-type="pmid">24411729</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0003">
+        <label>3.</label>
+        <mixed-citation publication-type="book"><string-name><surname>Durmer</surname>
+<given-names>JS</given-names></string-name>, <string-name><surname>Dinges</surname>
+<given-names>DF</given-names></string-name>. <part-title>Neurocognitive consequences of sleep deprivation</part-title>. In: <source><italic toggle="yes">Seminars in neurology</italic></source>. <publisher-loc>New York</publisher-loc>: <publisher-name>Copyright© 2005 by Thieme Medical Publishers Inc</publisher-name>; <year>2005</year>:<fpage>117</fpage>–<lpage>129</lpage>.</mixed-citation>
+      </ref>
+      <ref id="cit0004">
+        <label>4.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Chee</surname>
+<given-names>MW</given-names></string-name>, <string-name><surname>Chuah</surname>
+<given-names>LY</given-names></string-name>. <article-title>Functional neuroimaging insights into how sleep and sleep deprivation affect memory and cognition</article-title>. <source><italic toggle="yes">Curr Opin Neurol</italic></source>. <year>2008</year>;<volume>21</volume>(<issue>4</issue>):<fpage>417</fpage>–<lpage>423</lpage>. doi:<pub-id pub-id-type="doi">10.1097/WCO.0b013e3283052cf7</pub-id><pub-id pub-id-type="pmid">18607201</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0005">
+        <label>5.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Shao</surname>
+<given-names>Y</given-names></string-name>, <string-name><surname>Wang</surname>
+<given-names>L</given-names></string-name>, <string-name><surname>Ye</surname>
+<given-names>E</given-names></string-name>, et al. <article-title>Decreased thalamocortical functional connectivity after 36 hours of total sleep deprivation: evidence from resting state FMRI</article-title>. <source><italic toggle="yes">PLoS One</italic></source>. <year>2013</year>;<volume>8</volume>(<issue>10</issue>):<fpage>e78830</fpage>. doi:<pub-id pub-id-type="doi">10.1371/journal.pone.0078830</pub-id><pub-id pub-id-type="pmid">24205327</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0006">
+        <label>6.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Zhu</surname>
+<given-names>Y</given-names></string-name>, <string-name><surname>Ren</surname>
+<given-names>F</given-names></string-name>, <string-name><surname>Zhu</surname>
+<given-names>Y</given-names></string-name>, et al. <article-title>Gradually increased interhemispheric functional connectivity during one night of sleep deprivation</article-title>. <source><italic toggle="yes">Nat Sci Sleep</italic></source>. <year>2020</year>;<volume>12</volume>:<fpage>1067</fpage>. doi:<pub-id pub-id-type="doi">10.2147/NSS.S270009</pub-id><pub-id pub-id-type="pmid">33262670</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0007">
+        <label>7.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Rupp</surname>
+<given-names>TL</given-names></string-name>, <string-name><surname>Wesensten</surname>
+<given-names>NJ</given-names></string-name>, <string-name><surname>Balkin</surname>
+<given-names>TJ</given-names></string-name>. <article-title>Trait-like vulnerability to total and partial sleep loss</article-title>. <source><italic toggle="yes">Sleep</italic></source>. <year>2012</year>;<volume>35</volume>(<issue>8</issue>):<fpage>1163</fpage>. doi:<pub-id pub-id-type="doi">10.5665/sleep.2010</pub-id><pub-id pub-id-type="pmid">22851812</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0008">
+        <label>8.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Yamazaki</surname>
+<given-names>EM</given-names></string-name>, <string-name><surname>Goel</surname>
+<given-names>N</given-names></string-name>. <article-title>Robust stability of trait-like vulnerability or resilience to common types of sleep deprivation in a large sample of adults</article-title>. <source><italic toggle="yes">Sleep</italic></source>. <year>2020</year>;<volume>43</volume>(<issue>6</issue>):<fpage>zsz292</fpage>. doi:<pub-id pub-id-type="doi">10.1093/sleep/zsz292</pub-id><pub-id pub-id-type="pmid">31784748</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0009">
+        <label>9.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Chee</surname>
+<given-names>MW</given-names></string-name>, <string-name><surname>Tan</surname>
+<given-names>JC</given-names></string-name>. <article-title>Lapsing when sleep deprived: neural activation characteristics of resistant and vulnerable individuals</article-title>. <source><italic toggle="yes">Neuroimage</italic></source>. <year>2010</year>;<volume>51</volume>(<issue>2</issue>):<fpage>835</fpage>–<lpage>843</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.neuroimage.2010.02.031</pub-id><pub-id pub-id-type="pmid">20171288</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0010">
+        <label>10.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Yeo</surname>
+<given-names>BT</given-names></string-name>, <string-name><surname>Tandi</surname>
+<given-names>J</given-names></string-name>, <string-name><surname>Chee</surname>
+<given-names>MW</given-names></string-name>. <article-title>Functional connectivity during rested wakefulness predicts vulnerability to sleep deprivation</article-title>. <source><italic toggle="yes">Neuroimage</italic></source>. <year>2015</year>;<volume>111</volume>:<fpage>147</fpage>–<lpage>158</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.neuroimage.2015.02.018</pub-id><pub-id pub-id-type="pmid">25700949</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0011">
+        <label>11.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Sanjari Moghaddam</surname>
+<given-names>H</given-names></string-name>, <string-name><surname>Mohammadi</surname>
+<given-names>E</given-names></string-name>, <string-name><surname>Dolatshahi</surname>
+<given-names>M</given-names></string-name>, et al. <article-title>White matter microstructural abnormalities in primary insomnia: a systematic review of diffusion tensor imaging studies</article-title>. <source><italic toggle="yes">Prog Neuropsychopharmacol Biol Psychiatry</italic></source>. <year>2021</year>;<volume>105</volume>:<fpage>110132</fpage>. doi:<pub-id pub-id-type="doi">10.1016/j.pnpbp.2020.110132</pub-id><pub-id pub-id-type="pmid">33049323</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0012">
+        <label>12.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Cui</surname>
+<given-names>J</given-names></string-name>, <string-name><surname>Tkachenko</surname>
+<given-names>O</given-names></string-name>, <string-name><surname>Gogel</surname>
+<given-names>H</given-names></string-name>, et al. <article-title>Microstructure of frontoparietal connections predicts individual resistance to sleep deprivation</article-title>. <source><italic toggle="yes">NeuroImage</italic></source>. <year>2015</year>;<volume>106</volume>:<fpage>123</fpage>–<lpage>133</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.neuroimage.2014.11.035</pub-id><pub-id pub-id-type="pmid">25463450</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0013">
+        <label>13.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Liu</surname>
+<given-names>W</given-names></string-name>, <string-name><surname>Zhang</surname>
+<given-names>X</given-names></string-name>, <string-name><surname>Qiao</surname>
+<given-names>Y</given-names></string-name>, et al. <article-title>Functional connectivity combined with a machine learning algorithm can classify high-risk first-degree relatives of patients with schizophrenia and identify correlates of cognitive impairments</article-title>. <source><italic toggle="yes">Front Neurosci</italic></source>. <year>2020</year>;<fpage>14</fpage>. doi:<pub-id pub-id-type="doi">10.3389/fnins.2020.577568</pub-id>.<pub-id pub-id-type="pmid">32047422</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0014">
+        <label>14.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Kaplan</surname>
+<given-names>KA</given-names></string-name>, <string-name><surname>Hardas</surname>
+<given-names>PP</given-names></string-name>, <string-name><surname>Redline</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Zeitzer</surname>
+<given-names>JM</given-names></string-name>, <string-name><surname>Group</surname>
+<given-names>SHHSR</given-names></string-name>. <article-title>Correlates of sleep quality in midlife and beyond: a machine learning analysis</article-title>. <source><italic toggle="yes">Sleep Med</italic></source>. <year>2017</year>;<volume>34</volume>:<fpage>162</fpage>–<lpage>167</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.sleep.2017.03.004</pub-id><pub-id pub-id-type="pmid">28522086</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0015">
+        <label>15.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Zhu</surname>
+<given-names>Y</given-names></string-name>, <string-name><surname>Xi</surname>
+<given-names>Y</given-names></string-name>, <string-name><surname>Fei</surname>
+<given-names>N</given-names></string-name>, et al. <article-title>Dynamics of cerebral responses to sustained attention performance during one night of sleep deprivation</article-title>. <source><italic toggle="yes">J Sleep Res</italic></source>. <year>2018</year>;<volume>27</volume>(<issue>2</issue>):<fpage>184</fpage>–<lpage>196</lpage>. doi:<pub-id pub-id-type="doi">10.1111/jsr.12582</pub-id><pub-id pub-id-type="pmid">28782143</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0016">
+        <label>16.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Zhu</surname>
+<given-names>Y</given-names></string-name>, <string-name><surname>Xi</surname>
+<given-names>Y</given-names></string-name>, <string-name><surname>Sun</surname>
+<given-names>J</given-names></string-name>, et al. <article-title>Neural correlates of dynamic changes in working memory performance during one night of sleep deprivation</article-title>. <source><italic toggle="yes">Hum Brain Mapp</italic></source>. <year>2019</year>;<volume>40</volume>(<issue>11</issue>):<fpage>3265</fpage>–<lpage>3278</lpage>. doi:<pub-id pub-id-type="doi">10.1002/hbm.24596</pub-id><pub-id pub-id-type="pmid">30972884</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0017">
+        <label>17.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Van Dongen</surname>
+<given-names>HP</given-names></string-name>, <string-name><surname>Maislin</surname>
+<given-names>G</given-names></string-name>, <string-name><surname>Mullington</surname>
+<given-names>JM</given-names></string-name>, <string-name><surname>Dinges</surname>
+<given-names>DF</given-names></string-name>. <article-title>The cumulative cost of additional wakefulness: dose-response effects on neurobehavioral functions and sleep physiology from chronic sleep restriction and total sleep deprivation</article-title>. <source><italic toggle="yes">Sleep</italic></source>. <year>2003</year>;<volume>26</volume>(<issue>2</issue>):<fpage>117</fpage>–<lpage>126</lpage>. doi:<pub-id pub-id-type="doi">10.1093/sleep/26.2.117</pub-id><pub-id pub-id-type="pmid">12683469</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0018">
+        <label>18.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Drummond</surname>
+<given-names>SP</given-names></string-name>, <string-name><surname>Bischoff-Grethe</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Dinges</surname>
+<given-names>DF</given-names></string-name>, <string-name><surname>Ayalon</surname>
+<given-names>L</given-names></string-name>, <string-name><surname>Mednick</surname>
+<given-names>SC</given-names></string-name>, <string-name><surname>Meloy</surname>
+<given-names>MJ</given-names></string-name>. <article-title>The neural basis of the psychomotor vigilance task</article-title>. <source><italic toggle="yes">Sleep</italic></source>. <year>2005</year>;<volume>28</volume>:<fpage>1059</fpage>–<lpage>1068</lpage>.<pub-id pub-id-type="pmid">16268374</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0019">
+        <label>19.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Yuan</surname>
+<given-names>K</given-names></string-name>, <string-name><surname>Yu</surname>
+<given-names>D</given-names></string-name>, <string-name><surname>Bi</surname>
+<given-names>Y</given-names></string-name>, et al. <article-title>The left dorsolateral prefrontal cortex and caudate pathway: new evidence for cue-induced craving of smokers</article-title>. <source><italic toggle="yes">Hum Brain Mapp</italic></source>. <year>2017</year>;<volume>38</volume>(<issue>9</issue>):<fpage>4644</fpage>–<lpage>4656</lpage>. doi:<pub-id pub-id-type="doi">10.1002/hbm.23690</pub-id><pub-id pub-id-type="pmid">28653791</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0020">
+        <label>20.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Behrens</surname>
+<given-names>TE</given-names></string-name>, <string-name><surname>Woolrich</surname>
+<given-names>MW</given-names></string-name>, <string-name><surname>Jenkinson</surname>
+<given-names>M</given-names></string-name>, et al. <article-title>Characterization and propagation of uncertainty in diffusion-weighted MR imaging</article-title>. <source><italic toggle="yes">Magn Reson Med</italic></source>. <year>2003</year>;<volume>50</volume>(<issue>5</issue>):<fpage>1077</fpage>–<lpage>1088</lpage>. doi:<pub-id pub-id-type="doi">10.1002/mrm.10609</pub-id><pub-id pub-id-type="pmid">14587019</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0021">
+        <label>21.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Jenkinson</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Bannister</surname>
+<given-names>P</given-names></string-name>, <string-name><surname>Brady</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Smith</surname>
+<given-names>S</given-names></string-name>. <article-title>Improved optimization for the robust and accurate linear registration and motion correction of brain images</article-title>. <source><italic toggle="yes">NeuroImage</italic></source>. <year>2002</year>;<volume>17</volume>(<issue>2</issue>):<fpage>825</fpage>–<lpage>841</lpage>. doi:<pub-id pub-id-type="doi">10.1006/nimg.2002.1132</pub-id><pub-id pub-id-type="pmid">12377157</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0022">
+        <label>22.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Leemans</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Jones</surname>
+<given-names>DK</given-names></string-name>. <article-title>The B-matrix must be rotated when correcting for subject motion in DTI data</article-title>. <source><italic toggle="yes">Magn Reson Med</italic></source>. <year>2009</year>;<volume>61</volume>:<fpage>1336</fpage>–<lpage>1349</lpage>. doi:<pub-id pub-id-type="doi">10.1002/mrm.21890</pub-id><pub-id pub-id-type="pmid">19319973</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0023">
+        <label>23.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Smith</surname>
+<given-names>SM</given-names></string-name>. <article-title>Fast robust automated brain extraction</article-title>. <source><italic toggle="yes">Hum Brain Mapp</italic></source>. <year>2002</year>;<volume>17</volume>(<issue>3</issue>):<fpage>143</fpage>–<lpage>155</lpage>. doi:<pub-id pub-id-type="doi">10.1002/hbm.10062</pub-id><pub-id pub-id-type="pmid">12391568</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0024">
+        <label>24.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Zhang</surname>
+<given-names>H</given-names></string-name>, <string-name><surname>Yushkevich</surname>
+<given-names>PA</given-names></string-name>, <string-name><surname>Alexander</surname>
+<given-names>DC</given-names></string-name>, <string-name><surname>Gee</surname>
+<given-names>JC</given-names></string-name>. <article-title>Deformable registration of diffusion tensor MR images with explicit orientation optimization</article-title>. <source><italic toggle="yes">Med Image Anal</italic></source>. <year>2006</year>;<volume>10</volume>(<issue>5</issue>):<fpage>764</fpage>–<lpage>785</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.media.2006.06.004</pub-id><pub-id pub-id-type="pmid">16899392</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0025">
+        <label>25.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Zhang</surname>
+<given-names>Y</given-names></string-name>, <string-name><surname>Schuff</surname>
+<given-names>N</given-names></string-name>, <string-name><surname>Jahng</surname>
+<given-names>GH</given-names></string-name>, et al. <article-title>Diffusion tensor imaging of cingulum fibers in mild cognitive impairment and Alzheimer disease</article-title>. <source><italic toggle="yes">Neurology</italic></source>. <year>2007</year>;<volume>68</volume>(<issue>1</issue>):<fpage>13</fpage>–<lpage>19</lpage>. doi:<pub-id pub-id-type="doi">10.1212/01.wnl.0000250326.77323.01</pub-id><pub-id pub-id-type="pmid">17200485</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0026">
+        <label>26.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Caan</surname>
+<given-names>MW</given-names></string-name>, <string-name><surname>Vliet</surname>
+<given-names>V</given-names></string-name>, <string-name><surname>Majoie</surname>
+<given-names>CB</given-names></string-name>, et al. <article-title>Nonrigid point set matching of white matter tracts for diffusion tensor image analysis</article-title>. <source><italic toggle="yes">IEEE Trans Biomed Eng</italic></source>. <year>2011</year>;<volume>58</volume>(<issue>9</issue>):<fpage>2431</fpage>–<lpage>2440</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.neuroimage.2008.07.009</pub-id><pub-id pub-id-type="pmid">21118765</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0027">
+        <label>27.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Alexander</surname>
+<given-names>DC</given-names></string-name>, <string-name><surname>Pierpaoli</surname>
+<given-names>C</given-names></string-name>, <string-name><surname>Basser</surname>
+<given-names>PJ</given-names></string-name>, <string-name><surname>Gee</surname>
+<given-names>JC</given-names></string-name>. <article-title>Spatial transformations of diffusion tensor magnetic resonance images</article-title>. <source><italic toggle="yes">IEEE Trans Med Imaging</italic></source>. <year>2001</year>;<volume>20</volume>(<issue>11</issue>):<fpage>1131</fpage>–<lpage>1139</lpage>. doi:<pub-id pub-id-type="doi">10.1109/42.963816</pub-id><pub-id pub-id-type="pmid">11700739</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0028">
+        <label>28.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Tustison</surname>
+<given-names>NJ</given-names></string-name>, <string-name><surname>Cook</surname>
+<given-names>PA</given-names></string-name>, <string-name><surname>Klein</surname>
+<given-names>A</given-names></string-name>, et al. <article-title>Large-scale evaluation of ANTs and FreeSurfer cortical thickness measurements</article-title>. <source><italic toggle="yes">NeuroImage</italic></source>. <year>2014</year>;<volume>99</volume>:<fpage>166</fpage>–<lpage>179</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.neuroimage.2014.05.044</pub-id><pub-id pub-id-type="pmid">24879923</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0029">
+        <label>29.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Dean</surname>
+<given-names>DC</given-names> 3rd</string-name>, <string-name><surname>Travers</surname>
+<given-names>BG</given-names></string-name>, <string-name><surname>Adluru</surname>
+<given-names>N</given-names></string-name>, et al. <article-title>Investigating the microstructural correlation of white matter in autism spectrum disorder</article-title>. <source><italic toggle="yes">Brain Connect</italic></source>. <year>2016</year>;<volume>6</volume>(<issue>5</issue>):<fpage>415</fpage>–<lpage>433</lpage>. doi:<pub-id pub-id-type="doi">10.1089/brain.2015.0385</pub-id><pub-id pub-id-type="pmid">27021440</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0030">
+        <label>30.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Zhang</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Peng</surname>
+<given-names>H</given-names></string-name>, <string-name><surname>Dawe</surname>
+<given-names>RJ</given-names></string-name>, <string-name><surname>Arfanakis</surname>
+<given-names>K</given-names></string-name>. <article-title>Enhanced ICBM diffusion tensor template of the human brain</article-title>. <source><italic toggle="yes">NeuroImage</italic></source>. <year>2011</year>;<volume>54</volume>(<issue>2</issue>):<fpage>974</fpage>–<lpage>984</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.neuroimage.2010.09.008</pub-id><pub-id pub-id-type="pmid">20851772</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0031">
+        <label>31.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Oishi</surname>
+<given-names>K</given-names></string-name>, <string-name><surname>Zilles</surname>
+<given-names>K</given-names></string-name>, <string-name><surname>Amunts</surname>
+<given-names>K</given-names></string-name>, et al. <article-title>Human brain white matter atlas: identification and assignment of common anatomical structures in superficial white matter</article-title>. <source><italic toggle="yes">NeuroImage</italic></source>. <year>2008</year>;<volume>43</volume>:<fpage>447</fpage>–<lpage>457</lpage>.<pub-id pub-id-type="pmid">18692144</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0032">
+        <label>32.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Sun</surname>
+<given-names>H</given-names></string-name>, <string-name><surname>Chen</surname>
+<given-names>Y</given-names></string-name>, <string-name><surname>Huang</surname>
+<given-names>Q</given-names></string-name>, et al. <article-title>Psychoradiologic utility of MR imaging for diagnosis of AttentionDeficit hyperactivity disorder: a radiomics analysis</article-title>. <source><italic toggle="yes">Radiology</italic></source>. <year>2018</year>;<volume>287</volume>(<issue>2</issue>):<fpage>620</fpage>–<lpage>630</lpage>. doi:<pub-id pub-id-type="doi">10.1148/radiol.2017170226</pub-id><pub-id pub-id-type="pmid">29165048</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0033">
+        <label>33.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Pereira</surname>
+<given-names>F</given-names></string-name>, <string-name><surname>Mitchell</surname>
+<given-names>T</given-names></string-name>, <string-name><surname>Botvinick</surname>
+<given-names>M</given-names></string-name>. <article-title>Machine learning classifiers and fMRI: a tutorial overview</article-title>. <source><italic toggle="yes">NeuroImage</italic></source>. <year>2009</year>;<volume>45</volume>(<issue>1</issue>):<fpage>S199</fpage>–<lpage>209</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.neuroimage.2008.11.007</pub-id><pub-id pub-id-type="pmid">19070668</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0034">
+        <label>34.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Dai</surname>
+<given-names>Z</given-names></string-name>, <string-name><surname>Yan</surname>
+<given-names>C</given-names></string-name>, <string-name><surname>Wang</surname>
+<given-names>Z</given-names></string-name>, et al. <article-title>Discriminative analysis of early Alzheimer’s disease using multi-modal imaging and multi-level characterization with multi-classifier (M3)</article-title>. <source><italic toggle="yes">NeuroImage</italic></source>. <year>2012</year>;<volume>59</volume>:<fpage>2187</fpage>–<lpage>2195</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.neuroimage.2011.10.003</pub-id><pub-id pub-id-type="pmid">22008370</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0035">
+        <label>35.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Dosenbach</surname>
+<given-names>NU</given-names></string-name>, <string-name><surname>Nardos</surname>
+<given-names>B</given-names></string-name>, <string-name><surname>Cohen</surname>
+<given-names>AL</given-names></string-name>, et al. <article-title>Prediction of individual brain maturity using fMRI</article-title>. <source><italic toggle="yes">Sci</italic></source>. <year>2010</year>;<volume>329</volume>:<fpage>1358</fpage>–<lpage>1361</lpage>. doi:<pub-id pub-id-type="doi">10.1126/science.1194144</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0036">
+        <label>36.</label>
+        <mixed-citation publication-type="confproc"><string-name><surname>Chen</surname>
+<given-names>Y</given-names></string-name>, <string-name><surname>Lu</surname>
+<given-names>BL</given-names></string-name>, <string-name><surname>Hai</surname>
+<given-names>Z</given-names></string-name>. <article-title>Parallel learning of large-scale multi-label classification problems with min-max modular LIBLINEAR</article-title>. In: <conf-name>The 2012 International Joint Conference on Neural Networks (IJCNN)</conf-name>; <year>2012</year>.</mixed-citation>
+      </ref>
+      <ref id="cit0037">
+        <label>37.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Tibshirani</surname>
+<given-names>R</given-names></string-name>. <article-title>Regression shrinkage and selection via the lasso: a retrospective</article-title>. <source><italic toggle="yes">J R Stat Soc Series B Stat Methodol</italic></source>. <year>2011</year>;<volume>73</volume>(<issue>3</issue>):<fpage>273</fpage>–<lpage>282</lpage>. doi:<pub-id pub-id-type="doi">10.1111/j.1467-9868.2011.00771.x</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0038">
+        <label>38.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Chang</surname>
+<given-names>CC</given-names></string-name>, <string-name><surname>Lin</surname>
+<given-names>CJ</given-names></string-name>. <article-title>LIBSVM: a library for support vector machines</article-title>. <source><italic toggle="yes">ACM Trans Intell Syst Technol</italic></source>. <year>2007</year>;<volume>2</volume>(<issue>3</issue>):<fpage>1</fpage>–<lpage>27</lpage>. doi:<pub-id pub-id-type="doi">10.1145/1961189.1961199</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0039">
+        <label>39.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Ecker</surname>
+<given-names>C</given-names></string-name>, <string-name><surname>Marquand</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Mourão-Miranda</surname>
+<given-names>J</given-names></string-name>, et al. <article-title>Describing the brain in autism in five dimensions–magnetic resonance imaging-assisted diagnosis of autism spectrum disorder using a multiparameter classification approach</article-title>. <source><italic toggle="yes">J Neurosci</italic></source>. <year>2010</year>;<volume>30</volume>(<issue>32</issue>):<fpage>10612</fpage>–<lpage>10623</lpage>. doi:<pub-id pub-id-type="doi">10.1523/JNEUROSCI.5413-09.2010</pub-id><pub-id pub-id-type="pmid">20702694</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0040">
+        <label>40.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Fawcett</surname>
+<given-names>T</given-names></string-name>. <article-title>An introduction to ROC analysis</article-title>. <source><italic toggle="yes">Pattern Recognit Lett</italic></source>. <year>2006</year>;<volume>27</volume>(<issue>8</issue>):<fpage>861</fpage>–<lpage>874</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.patrec.2005.10.010</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0041">
+        <label>41.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Tian</surname>
+<given-names>L</given-names></string-name>, <string-name><surname>Ma</surname>
+<given-names>L</given-names></string-name>, <string-name><surname>Wang</surname>
+<given-names>L</given-names></string-name>. <article-title>Alterations of functional connectivities from early to middle adulthood: clues from multivariate pattern analysis of resting-state fMRI data</article-title>. <source><italic toggle="yes">NeuroImage</italic></source>. <year>2016</year>;<volume>129</volume>:<fpage>389</fpage>–<lpage>400</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.neuroimage.2016.01.039</pub-id><pub-id pub-id-type="pmid">26825442</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0042">
+        <label>42.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Zeng</surname>
+<given-names>LL</given-names></string-name>, <string-name><surname>Shen</surname>
+<given-names>H</given-names></string-name>, <string-name><surname>Liu</surname>
+<given-names>L</given-names></string-name>, et al. <article-title>Identifying major depression using whole-brain functional connectivity: a multivariate pattern analysis</article-title>. <source><italic toggle="yes">Brain:J Neurol</italic></source>. <year>2012</year>;<volume>135</volume>(<issue>5</issue>):<fpage>1498</fpage>–<lpage>1507</lpage>. doi:<pub-id pub-id-type="doi">10.1093/brain/aws059</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0043">
+        <label>43.</label>
+        <mixed-citation publication-type="confproc"><string-name><surname>Golland</surname>
+<given-names>P</given-names></string-name>, <string-name><surname>Fischl</surname>
+<given-names>B</given-names></string-name>. <article-title>Permutation tests for classification: towards statistical significance in image-based studies</article-title>. <conf-name>Information processing in medical imaging: proceedings of the … conference</conf-name>. <publisher-name>Springer</publisher-name>; <year>2003</year>:<fpage>330</fpage>–<lpage>341</lpage>.</mixed-citation>
+      </ref>
+      <ref id="cit0044">
+        <label>44.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Ojala</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Garriga</surname>
+<given-names>GC</given-names></string-name>. <article-title>Permutation tests for studying classifier performance</article-title>. <source><italic toggle="yes">IEEE</italic></source>. <year>2009</year>;<volume>11</volume>(<issue>6</issue>).</mixed-citation>
+      </ref>
+      <ref id="cit0045">
+        <label>45.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Cui</surname>
+<given-names>Z</given-names></string-name>, <string-name><surname>Xia</surname>
+<given-names>Z</given-names></string-name>, <string-name><surname>Su</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Shu</surname>
+<given-names>H</given-names></string-name>, <string-name><surname>Gong</surname>
+<given-names>G</given-names></string-name>. <article-title>Disrupted white matter connectivity underlying developmental dyslexia: a machine learning approach</article-title>. <source><italic toggle="yes">Hum Brain Mapp</italic></source>. <year>2016</year>;<volume>37</volume>(<issue>4</issue>):<fpage>1443</fpage>–<lpage>1458</lpage>. doi:<pub-id pub-id-type="doi">10.1002/hbm.23112</pub-id><pub-id pub-id-type="pmid">26787263</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0046">
+        <label>46.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Mourão-Miranda</surname>
+<given-names>J</given-names></string-name>, <string-name><surname>Bokde</surname>
+<given-names>AL</given-names></string-name>, <string-name><surname>Born</surname>
+<given-names>C</given-names></string-name>, <string-name><surname>Hampel</surname>
+<given-names>H</given-names></string-name>, <string-name><surname>Stetter</surname>
+<given-names>M</given-names></string-name>. <article-title>Classifying brain states and determining the discriminating activation patterns: support vector machine on functional MRI data</article-title>. <source><italic toggle="yes">NeuroImage</italic></source>. <year>2005</year>;<volume>28</volume>(<issue>4</issue>):<fpage>980</fpage>–<lpage>995</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.neuroimage.2005.06.070</pub-id><pub-id pub-id-type="pmid">16275139</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0047">
+        <label>47.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Doran</surname>
+<given-names>SM</given-names></string-name>, <string-name><surname>Van Dongen</surname>
+<given-names>HP</given-names></string-name>, <string-name><surname>Dinges</surname>
+<given-names>DF</given-names></string-name>. <article-title>Sustained attention performance during sleep deprivation: evidence of state instability</article-title>. <source><italic toggle="yes">Arch Ital Biol</italic></source>. <year>2001</year>;<volume>139</volume>(<issue>3</issue>):<fpage>253</fpage>–<lpage>267</lpage>.<pub-id pub-id-type="pmid">11330205</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0048">
+        <label>48.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Patanaik</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Zagorodnov</surname>
+<given-names>V</given-names></string-name>, <string-name><surname>Kwoh</surname>
+<given-names>CK</given-names></string-name>, <string-name><surname>Chee</surname>
+<given-names>MW</given-names></string-name>. <article-title>Predicting vulnerability to sleep deprivation using diffusion model parameters</article-title>. <source><italic toggle="yes">J Sleep Res</italic></source>. <year>2014</year>;<volume>23</volume>(<issue>5</issue>):<fpage>576</fpage>–<lpage>584</lpage>. doi:<pub-id pub-id-type="doi">10.1111/jsr.12166</pub-id><pub-id pub-id-type="pmid">24861212</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0049">
+        <label>49.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Xu</surname>
+<given-names>Y</given-names></string-name>, <string-name><surname>Yu</surname>
+<given-names>P</given-names></string-name>, <string-name><surname>Zheng</surname>
+<given-names>J</given-names></string-name>, et al. <article-title>Classifying vulnerability to sleep deprivation using resting-state functional MRI graph theory metrics</article-title>. <source><italic toggle="yes">Front Neurosci</italic></source>. <year>2021</year>;<volume>15</volume>.</mixed-citation>
+      </ref>
+      <ref id="cit0050">
+        <label>50.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Pini</surname>
+<given-names>L</given-names></string-name>, <string-name><surname>Wennberg</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Mitolo</surname>
+<given-names>M</given-names></string-name>, et al. <article-title>Quality of sleep predicts increased frontoparietal network connectivity in patients with mild cognitive impairment</article-title>. <source><italic toggle="yes">Neurobiol Aging</italic></source>. <year>2020</year>;<volume>95</volume>:<fpage>205</fpage>–<lpage>213</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.neurobiolaging.2020.07.026</pub-id><pub-id pub-id-type="pmid">32846276</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0051">
+        <label>51.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>McKinnon</surname>
+<given-names>AC</given-names></string-name>, <string-name><surname>Lagopoulos</surname>
+<given-names>J</given-names></string-name>, <string-name><surname>Terpening</surname>
+<given-names>Z</given-names></string-name>, et al. <article-title>Sleep disturbance in mild cognitive impairment is associated with alterations in the brain’s default mode network</article-title>. <source><italic toggle="yes">Behav Neurosci</italic></source>. <year>2016</year>;<volume>130</volume>(<issue>3</issue>):<fpage>305</fpage>–<lpage>315</lpage>. doi:<pub-id pub-id-type="doi">10.1037/bne0000137</pub-id><pub-id pub-id-type="pmid">26963234</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0052">
+        <label>52.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Luna</surname>
+<given-names>FG</given-names></string-name>, <string-name><surname>Lupiáñez</surname>
+<given-names>J</given-names></string-name>, <string-name><surname>Martín-Arévalo</surname>
+<given-names>E</given-names></string-name>. <article-title>Microstructural white matter connectivity underlying the attentional networks system</article-title>. <source><italic toggle="yes">Behav Brain Res</italic></source>. <year>2021</year>;<volume>401</volume>:<fpage>113079</fpage>. doi:<pub-id pub-id-type="doi">10.1016/j.bbr.2020.113079</pub-id><pub-id pub-id-type="pmid">33358923</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0053">
+        <label>53.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Mori</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Oishi</surname>
+<given-names>K</given-names></string-name>, <string-name><surname>Jiang</surname>
+<given-names>H</given-names></string-name>, et al. <article-title>Stereotaxic white matter atlas based on diffusion tensor imaging in an ICBM template</article-title>. <source><italic toggle="yes">Neuroimage</italic></source>. <year>2008</year>;<volume>40</volume>(<issue>2</issue>):<fpage>570</fpage>–<lpage>582</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.neuroimage.2007.12.035</pub-id><pub-id pub-id-type="pmid">18255316</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0054">
+        <label>54.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Muto</surname>
+<given-names>V</given-names></string-name>, <string-name><surname>Jaspar</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Meyer</surname>
+<given-names>C</given-names></string-name>, et al. <article-title>Local modulation of human brain responses by circadian rhythmicity and sleep debt</article-title>. <source><italic toggle="yes">Science</italic></source>. <year>2016</year>;<volume>353</volume>:<fpage>687</fpage>–<lpage>690</lpage>. doi:<pub-id pub-id-type="doi">10.1126/science.aad2993</pub-id><pub-id pub-id-type="pmid">27516598</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0055">
+        <label>55.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Malik</surname>
+<given-names>PR</given-names></string-name>, <string-name><surname>Muir</surname>
+<given-names>RT</given-names></string-name>, <string-name><surname>Black</surname>
+<given-names>SE</given-names></string-name>, et al. <article-title>Subcortical brain involvement is associated with impaired performance on the psychomotor vigilance task after minor stroke</article-title>. <source><italic toggle="yes">Neurorehabil Neural Repair</italic></source>. <year>2018</year>;<volume>32</volume>(<issue>11</issue>):<fpage>999</fpage>–<lpage>1007</lpage>. doi:<pub-id pub-id-type="doi">10.1177/1545968318804415</pub-id><pub-id pub-id-type="pmid">30352529</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0056">
+        <label>56.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Zhu</surname>
+<given-names>Y</given-names></string-name>, <string-name><surname>Feng</surname>
+<given-names>Z</given-names></string-name>, <string-name><surname>Xu</surname>
+<given-names>J</given-names></string-name>, et al. <article-title>Increased interhemispheric resting-state functional connectivity after sleep deprivation: a resting-state fMRI study</article-title>. <source><italic toggle="yes">Brain Imaging Behav</italic></source>. <year>2016</year>;<volume>10</volume>(<issue>3</issue>):<fpage>911</fpage>–<lpage>919</lpage>. doi:<pub-id pub-id-type="doi">10.1007/s11682-015-9490-5</pub-id><pub-id pub-id-type="pmid">26634366</pub-id></mixed-citation>
+      </ref>
+    </ref-list>
+  </back>
+</article>
+</pmc-articleset>

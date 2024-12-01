@@ -1,0 +1,2945 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<pmc-articleset><article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="research-article">
+  <?properties open_access?>
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="nlm-ta">Nat Sci Sleep</journal-id>
+      <journal-id journal-id-type="iso-abbrev">Nat Sci Sleep</journal-id>
+      <journal-id journal-id-type="publisher-id">Nature and Science of Sleep</journal-id>
+      <journal-title-group>
+        <journal-title>Nature and Science of Sleep</journal-title>
+      </journal-title-group>
+      <issn pub-type="epub">1179-1608</issn>
+      <publisher>
+        <publisher-name>Dove Medical Press</publisher-name>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="pmid">28243157</article-id>
+      <article-id pub-id-type="pmc">5317347</article-id>
+      <article-id pub-id-type="doi">10.2147/NSS.S130141</article-id>
+      <article-id pub-id-type="publisher-id">nss-9-011</article-id>
+      <article-categories>
+        <subj-group subj-group-type="heading">
+          <subject>Original Research</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>Big data in sleep medicine: prospects and pitfalls in phenotyping</article-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Bianchi</surname>
+            <given-names>Matt T</given-names>
+          </name>
+          <xref ref-type="aff" rid="af1-nss-9-011">1</xref>
+          <xref ref-type="aff" rid="af2-nss-9-011">2</xref>
+          <xref ref-type="corresp" rid="c1-nss-9-011"/>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Russo</surname>
+            <given-names>Kathryn</given-names>
+          </name>
+          <xref ref-type="aff" rid="af1-nss-9-011">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Gabbidon</surname>
+            <given-names>Harriett</given-names>
+          </name>
+          <xref ref-type="aff" rid="af1-nss-9-011">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Smith</surname>
+            <given-names>Tiaundra</given-names>
+          </name>
+          <xref ref-type="aff" rid="af1-nss-9-011">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Goparaju</surname>
+            <given-names>Balaji</given-names>
+          </name>
+          <xref ref-type="aff" rid="af1-nss-9-011">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Westover</surname>
+            <given-names>M Brandon</given-names>
+          </name>
+          <xref ref-type="aff" rid="af1-nss-9-011">1</xref>
+        </contrib>
+      </contrib-group>
+      <aff id="af1-nss-9-011"><label>1</label>Neurology Department, Massachusetts General Hospital</aff>
+      <aff id="af2-nss-9-011"><label>2</label>Division of Sleep Medicine, Harvard Medical School, Boston, MA, USA</aff>
+      <author-notes>
+        <corresp id="c1-nss-9-011">Correspondence: Matt T Bianchi, Neurology Department, Wang 7 Neurology, Massachusetts General Hospital, 55 Fruit Street, Boston, MA 02114, USA, Tel +1 617 724 7426, Fax +1 617 724 6513, Email <email>mtbianchi@partners.org</email></corresp>
+      </author-notes>
+      <pub-date pub-type="collection">
+        <year>2017</year>
+      </pub-date>
+      <pub-date pub-type="epub">
+        <day>16</day>
+        <month>2</month>
+        <year>2017</year>
+      </pub-date>
+      <volume>9</volume>
+      <fpage>11</fpage>
+      <lpage>29</lpage>
+      <permissions>
+        <copyright-statement>© 2017 Bianchi et al. This work is published and licensed by Dove Medical Press Limited</copyright-statement>
+        <copyright-year>2017</copyright-year>
+        <license>
+          <license-p>The full terms of this license are available at <ext-link ext-link-type="uri" xlink:href="https://www.dovepress.com/terms.php">https://www.dovepress.com/terms.php</ext-link> and incorporate the Creative Commons Attribution – Non Commercial (unported, v3.0) License (<ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by-nc/3.0/">http://creativecommons.org/licenses/by-nc/3.0/</ext-link>). By accessing the work you hereby accept the Terms. Non-commercial uses of the work are permitted without any further permission from Dove Medical Press Limited, provided the work is properly attributed.</license-p>
+        </license>
+      </permissions>
+      <abstract>
+        <p><citation_analysis attribute="positive">Clinical polysomnography (PSG) databases are a rich resource in the era of “big data” analytics. We explore the uses and potential pitfalls of clinical data mining of PSG using statistical principles and analysis of clinical data from our sleep center. We performed retrospective analysis of self-reported and objective PSG data from adults who underwent overnight PSG (diagnostic tests, n=1835). Self-reported symptoms overlapped markedly between the two most common categories, insomnia and sleep apnea, with the majority reporting symptoms of both disorders. Standard clinical metrics routinely reported on objective data were analyzed for basic properties (missing values, distributions), pairwise correlations, and descriptive phenotyping. Of 41 continuous variables, including clinical and PSG derived, none passed testing for normality. Objective findings of sleep apnea and periodic limb movements were common, with 51% having an apnea–hypopnea index (AHI) &gt;5 per hour and 25% having a leg movement index &gt;15 per hour. Different visualization methods are shown for common variables to explore population distributions. Phenotyping methods based on clinical databases are discussed for sleep architecture, sleep apnea, and insomnia. Inferential pitfalls are discussed using the current dataset and case examples from the literature. The increasing availability of clinical databases for large-scale analytics holds important promise in sleep medicine, especially as it becomes increasingly important to demonstrate the utility of clinical testing methods in management of sleep disorders. Awareness of the strengths, as well as caution regarding the limitations, will maximize the productive use of big data analytics in sleep medicine.</citation_analysis></p>
+      </abstract>
+      <kwd-group>
+        <title>Keywords</title>
+        <kwd>polysomnography</kwd>
+        <kwd>sleep disorders</kwd>
+        <kwd>subjective symptoms</kwd>
+        <kwd>correlation</kwd>
+        <kwd>plotting</kwd>
+        <kwd>statistics</kwd>
+      </kwd-group>
+    </article-meta>
+  </front>
+  <body>
+    <sec sec-type="intro">
+      <title>Introduction</title>
+      <p><citation_analysis attribute="neither">Polysomnography (PSG) offers a wealth of physiological information, informing clinical decision-making and clinical research. Large sleep-related datasets are increasingly available for public analysis. For example, the National Sleep Research Resource (NSRR),</citation_analysis><citation_analysis attribute="positive"><xref rid="b1-nss-9-011" ref-type="bibr">1</xref></citation_analysis><citation_analysis attribute="neither"> PhysioNet (</citation_analysis><citation_analysis attribute="positive"><ext-link ext-link-type="uri" xlink:href="http://www.physionet.com">www.physionet.com</ext-link></citation_analysis><citation_analysis attribute="neither">), the Montreal Archive of Sleep Studies (MASS),</citation_analysis><citation_analysis attribute="positive"><xref rid="b2-nss-9-011" ref-type="bibr">2</xref></citation_analysis><citation_analysis attribute="neither"> and even consumer-facing efforts are underway.</citation_analysis><citation_analysis attribute="positive"><xref rid="b3-nss-9-011" ref-type="bibr">3</xref></citation_analysis><citation_analysis attribute="neither"> As “big data” analysis efforts gain momentum, it is increasingly important to understand not only the potential benefits but also the potential pitfalls of PSG phenotyping. In an era when in-laboratory PSG is increasingly restricted, enhancing signal processing and big data analytics could justify resource allocation to inform individual- and population-level insights.</citation_analysis></p>
+      <p><citation_analysis attribute="neither">The goals of sleep phenotyping span basic and clinical investigations as well as genotype–phenotype associations, especially as academic centers are increasingly banking bio-samples. Advanced knowledge about normal and pathologic sleep physiology might be derived from studying the relationship between sleep-disordered breathing events and heart rate variability, or about how electromyography (EMG) dynamics in rapid eye movement (REM) sleep vary depending on the presence of different medications and disease states. Big data insights might link indices of fragmentation to comorbidities or predict response to treatment of obstructive sleep apnea (OSA).</citation_analysis></p>
+      <p><citation_analysis attribute="neither">The opportunity for advanced analysis and phenotyping from the rich data obtained in routine clinical practice cannot be overstated. However, the allure of big data should not distract from the potential risks associated with even basic statistics and inferential efforts. Numerous cautionary statistical articles</citation_analysis><citation_analysis attribute="positive"><xref rid="b4-nss-9-011" ref-type="bibr">4</xref></citation_analysis><citation_analysis attribute="neither">–</citation_analysis><citation_analysis attribute="positive"><xref rid="b12-nss-9-011" ref-type="bibr">12</xref></citation_analysis><citation_analysis attribute="neither"> and even entire monographs</citation_analysis><citation_analysis attribute="positive"><xref rid="b13-nss-9-011" ref-type="bibr">13</xref></citation_analysis><citation_analysis attribute="neither">–</citation_analysis><citation_analysis attribute="positive"><xref rid="b15-nss-9-011" ref-type="bibr">15</xref></citation_analysis><citation_analysis attribute="neither"> have been published in recent decades highlighting the existence (and persistence) of common statistical misconceptions and pitfalls in basic and clinical research contexts. Large datasets do not mitigate these risks and in fact may present further challenges. We explore various kinds of PSG data in this framework, including insights and pitfalls from the existing literature, and through empirical analysis of a large dataset of diagnostic PSGs from our center. With the growing capacity for large-scale analytics, recognizing the strengths and limitations of phenotyping will help maximize the utility of large database resources.</citation_analysis></p>
+    </sec>
+    <sec sec-type="methods">
+      <title>Methods</title>
+      <p><citation_analysis attribute="neither">The Partners Institutional Review Board (IRB) approved retrospective analysis of our database without requiring additional consent for use of the clinically acquired data (IRB number: 2009P000758). We selected diagnostic PSGs from adults in our database from 2011 to 2015, yielding n=1835 studies in our dataset. We did not have any exclusion criteria.</citation_analysis></p>
+      <p><citation_analysis attribute="positive">PSG was performed and scored according to the American Academy of Sleep Medicine (AASM) practice standards. Channels included six electroencephalogram leads, bilateral electrooculogram, submentalis EMG, nasal thermistor, oronasal airflow, snore vibration sensor, single-lead electrocardiogram (ECG), chest and abdomen effort belts, pulse oximetry, and bilateral anterior tibialis EMG.</citation_analysis></p>
+      <p><citation_analysis attribute="positive">From presleep questionnaires, we analyzed self-reported symptoms associated with sleep apnea, insomnia, restless legs, and narcolepsy. OSA symptoms included checkboxes spanning symptoms of sleep apnea, such as snoring, gasping, and witnessed apnea. Insomnia symptoms included check-boxes for difficulty regarding sleep onset (30–60 minutes or &gt;60 minutes of sleep-onset latency), sleep maintenance (&gt;3 awakenings per night), and insomnia as the reason for the PSG. Although at the time our intake form included “waking earlier than desired”, we have found clinically that, for this question, many false positives were occurring (e.g., work requiring early waking, as not desirable), and thus we did not include in our current analysis. Restless leg syndrome (RLS) symptoms included checkboxes for legs feeling uncomfortable, feeling better with movement, and feeling worse at night. Narcolepsy symptoms included checkboxes for perisleep hallucinations, sleep paralysis, and cataplexy. The intake form was designed to provide basic language symptom inventories, but it has not been independently validated against clinical diagnosis of sleep physician evaluation. We did not include standardized questionnaires for each of the many subcomponents, to strike a balance between information that assists providers in interpreting PSG data and the burden on patients. As the majority (&gt;70%) of patients undergoing PSG in our center are direct referrals (have not seen a sleep specialist in our division before the PSG), we did not have clinical interview-based validation of the symptom reporting.</citation_analysis></p>
+      <p><citation_analysis attribute="positive">Statistical analyses were performed using GraphPad Prism 6 software (GraphPad Software Inc., La Jolla, CA, USA).</citation_analysis></p>
+    </sec>
+    <sec>
+      <title>Results and discussion</title>
+      <p><citation_analysis attribute="neither">In the following sections, we combine the analysis of simulated data with the analysis of a large sample (n=1835) of diagnostic PSG data from our center to illustrate important considerations in analyzing big data in sleep medicine. We can consider four basic categories of information that support clinical phenotyping derived from PSG databases (</citation_analysis><citation_analysis attribute="positive"><xref ref-type="fig" rid="f1-nss-9-011">Figure 1</xref></citation_analysis><citation_analysis attribute="positive">). In each category, methods of cleaning and analysis are implemented, which we discuss in the following sections. Inferential analysis and insights can also be obtained by combining information across categories. For example, correlation and regression analysis can be performed on variables within or between categories, as can more complex predictive analytics be performed using methods of supervised machine learning. Unsupervised learning, also known as clustering, can be applied as well for discovery of novel phenotypes.</citation_analysis></p>
+      <sec sec-type="methods">
+        <title>Standard PSG metrics and data types</title>
+        <p><citation_analysis attribute="neither">The standard metrics in most clinical PSG reports are readily accessible in sleep databases without requiring off-line extra processing. These include basic demographics and summary statistics of PSG scoring, such as stage percentages, total sleep time (TST), efficiency, and apnea–hypopnea index (AHI). The importance of standardization in human scoring and basic metrics has been emphasized, especially for multicenter trials and data repositories involving PSG.</citation_analysis><citation_analysis attribute="positive"><xref rid="b16-nss-9-011" ref-type="bibr">16</xref></citation_analysis><citation_analysis attribute="positive"> Clinical metrics should be assessed in several steps to prepare for large-scale analytics.</citation_analysis></p>
+        <sec>
+          <title>PSG scoring annotations</title>
+          <p><citation_analysis attribute="neither">PSG annotations include technician-scored labels for sleep–wake stage and various events (arousals, limb movements, breathing events) often with time stamps. These data can be exported for off-line processing and/or combining with other sources of clinical information. Aligning these files with exported time series data allows stage- or event-specific analysis of physiological signals.</citation_analysis></p>
+          <p><citation_analysis attribute="positive">Event label errors include errors of omission and of commission, and they are best assessed by manual rescoring. Some scoring errors may have indirect effects, such as failure to score an epoch of wake that interrupted a block of REM, which will have the dual effect of missing an awakening and resulting in a larger REM bout duration measurement.</citation_analysis></p>
+          <p><citation_analysis attribute="neither">Annotation data are also commonly used for inter-rater reliability analysis, or in groupwise comparisons of technician- or center-level differences in scoring. Because inter-rater reliability for various scoring tasks tends to be in the 80%–85% range,</citation_analysis><citation_analysis attribute="positive"><xref rid="b17-nss-9-011" ref-type="bibr">17</xref></citation_analysis><citation_analysis attribute="neither"> this sets a theoretical ceiling for performance of automated algorithms.</citation_analysis></p>
+        </sec>
+        <sec sec-type="methods">
+          <title>PSG time series data</title>
+          <p><citation_analysis attribute="neither">Each channel of a standard PSG is a time series, to which a number of signal processing techniques can be applied to extract information. Initial preprocessing can involve detection and removal of periods with prominent muscle artifact, or removal of ECG signal contaminating electroencephalography (EEG) channels, or de-trending if slow drift is present.</citation_analysis></p>
+          <p><citation_analysis attribute="positive">Spectral analysis of the EEG is commonly performed using the fast Fourier transform (FFT) algorithm, which is applied using a moving window to produce an image of spectral characteristics as they change over time. However, the FFT alone provides noisy estimates of the underlying spectral characteristics of the data; thus, it is common to apply spectral and temporal smoothing to improve the estimates. The multi-taper spectral analysis method optimizes the trade-off between retaining fine details (spectral and temporal resolution) while still reducing noise (variance reduction).</citation_analysis><citation_analysis attribute="positive"><xref rid="b18-nss-9-011" ref-type="bibr">18</xref></citation_analysis><citation_analysis attribute="neither"> EEG time series analysis is common in research settings but has not enjoyed similar clinical applications in routine practice, although some clinical acquisition software includes basic frequency analysis options.</citation_analysis></p>
+          <p><citation_analysis attribute="neither">The ECG time series has been the subject of extensive analysis of heart rate variability,</citation_analysis><citation_analysis attribute="positive"><xref rid="b19-nss-9-011" ref-type="bibr">19</xref></citation_analysis><citation_analysis attribute="neither"> as well as point-process modeling variants.</citation_analysis><citation_analysis attribute="positive"><xref rid="b20-nss-9-011" ref-type="bibr">20</xref></citation_analysis><citation_analysis attribute="positive"> Another method of ECG analysis, known as cardiopulmonary coupling (CPC), has been suggested to provide an important window into sleep quality beyond that observed in EEG-defined states. Whereas stable non-REM (NREM) sleep is characterized by stable breathing and “high-frequency” coupling (HFC) at the respiratory frequency, processes that disrupt sleep tend to increase low-frequency coupling (LFC). Of particular interest is that treatment-emergent central apnea (and clinical failure of continuous positive airway pressure [CPAP]) was predicted by the degree of narrow band LFC.</citation_analysis><citation_analysis attribute="positive"><xref rid="b21-nss-9-011" ref-type="bibr">21</xref></citation_analysis><citation_analysis attribute="neither"> Whereas obstructive apnea is characterized by the broadband LFC phenotype, chemoreceptor-driven sleep apnea (e.g., central apnea) is associated with narrow band coupling.</citation_analysis></p>
+        </sec>
+        <sec>
+          <title>Self-reported clinical information</title>
+          <p><citation_analysis attribute="neither">Patients undergoing in-laboratory PSG are often asked to self-report symptoms, medical problems, and medications in the questionnaire form. Our center uses a custom form as a basic symptom and history screening tool, which includes the Epworth Sleepiness Scale (ESS), as well as checkboxes and boxes for free-text responses. When self-reporting methods are used, the data require manual or semiautomated review and cleaning before analysis is possible. If medications are listed as free text, spelling errors or nonstandard terminology (e.g., sleeping pill) requires reconciliation. Internal inconsistencies require attention, such as listing multiple antihypertensive medications but not listing hypertension in the medical history. We found ~75% concordance between listing hypertension from a checkbox selection of medical problems and listing of antihypertensive agents (data not shown). Such a discrepancy could be a simple omission or could be that the patient is on treatment and thus no longer feels they have the disorder.</citation_analysis></p>
+        </sec>
+        <sec>
+          <title>Combining information categories to inform phenotyping</title>
+          <p><citation_analysis attribute="neither">Using simple combinations of existing metrics, or more involved extractions from the clinical scoring (annotation files), additional data for phenotyping can be generated beyond that which may be available in the acquisition software system. For example, event-related signal analysis, manual scoring annotations, and temporally associated time series data can be combined to explore phenotypes. Several examples of event-specific metrics have been reported, with potential clinical relevance. Chervin et al</citation_analysis><citation_analysis attribute="positive"><xref rid="b22-nss-9-011" ref-type="bibr">22</xref></citation_analysis><citation_analysis attribute="neither">,</citation_analysis><citation_analysis attribute="positive"><xref rid="b23-nss-9-011" ref-type="bibr">23</xref></citation_analysis><citation_analysis attribute="neither"> analyzed respiratory event-linked EEG changes to sub-phenotype OSA patients and found a stronger relation with sleepiness by this advanced analysis compared to the usual AHI value. EEG analysis of alpha power and spindle activity has been used to predict arousal response to auditory stimulation delivered during sleep,</citation_analysis><citation_analysis attribute="positive"><xref rid="b24-nss-9-011" ref-type="bibr">24</xref></citation_analysis><citation_analysis attribute="neither">,</citation_analysis><citation_analysis attribute="positive"><xref rid="b25-nss-9-011" ref-type="bibr">25</xref></citation_analysis><citation_analysis attribute="neither"> reflecting possible biomarkers of sleep fragility. Additional work investigating arousals and autonomic features highlights opportunities to stratify episodic physiological events during sleep that are not currently distinguished in routine scoring.</citation_analysis><citation_analysis attribute="positive"><xref rid="b26-nss-9-011" ref-type="bibr">26</xref></citation_analysis><citation_analysis attribute="neither">–</citation_analysis><citation_analysis attribute="positive"><xref rid="b32-nss-9-011" ref-type="bibr">32</xref></citation_analysis></p>
+        </sec>
+      </sec>
+      <sec sec-type="methods">
+        <title>Database-driven sleep phenotyping</title>
+        <sec>
+          <title>Symptom heterogeneity</title>
+          <p><citation_analysis attribute="neither">We used a convenience sample of n=1835 individuals who underwent diagnostic PSG in our laboratory. In this dataset, symptom combinations were common. </citation_analysis><citation_analysis attribute="positive"><xref ref-type="fig" rid="f2-nss-9-011">Figure 2</xref></citation_analysis><citation_analysis attribute="positive"> illustrates the overlap between self-reported OSA symptoms, insomnia symptoms, and leg-related symptoms in the cohort. The majority of individuals reported more than one of these categories, with less than one-third reporting from only one category. Within the group reporting OSA symptoms, isolated snoring was present in over half, with nearly as many reporting a combination of snoring and either gasping arousals or witnessed apneas (</citation_analysis><citation_analysis attribute="positive"><xref ref-type="supplementary-material" rid="SD1-nss-9-011">Figure S1</xref></citation_analysis><citation_analysis attribute="positive">). Among those with insomnia symptoms, difficulties with sleep maintenance was the most common isolated symptom, while about half reported more than one insomnia symptom or checked “insomnia” from a list of reasons for the study, along with at least one insomnia symptom (</citation_analysis><citation_analysis attribute="positive"><xref ref-type="supplementary-material" rid="SD1-nss-9-011">Figure S1</xref></citation_analysis><citation_analysis attribute="positive">). In rare cases, insomnia was listed as the reason for study by the patient, but no insomnia symptoms were checked. Among those with leg symptoms, about one-quarter reported all three symptoms consistent with RLS (uncomfortable sensation while awake, worse at night, better with movement; </citation_analysis><citation_analysis attribute="positive"><xref ref-type="supplementary-material" rid="SD2-nss-9-011">Figure S2</xref></citation_analysis><citation_analysis attribute="neither">). Narcolepsy symptoms were the least common. The isolated reporting of only one of the three cardinal REM-related phenomena was more common than combinations of any two or all three (</citation_analysis><citation_analysis attribute="positive"><xref ref-type="supplementary-material" rid="SD2-nss-9-011">Figure S2</xref></citation_analysis><citation_analysis attribute="neither">).</citation_analysis></p>
+        </sec>
+        <sec>
+          <title>Sleep–wake architecture and fragmentation</title>
+          <p><citation_analysis attribute="positive">Sleep–wake stages are most commonly reported as the number of minutes, and relative percentage of wake, REM, and N1–3. Stage percentage during PSG may be noted in clinical interpretations, and there are normative data available across the lifetime.</citation_analysis><citation_analysis attribute="positive"><xref rid="b33-nss-9-011" ref-type="bibr">33</xref></citation_analysis><citation_analysis attribute="neither"> In some settings, such coarse descriptive metrics may be useful. For example, when commenting on the presence or severity of sleep apnea, one might consider the potential for underestimation if the night happened to contain little or no REM, as OSA is often more pronounced in REM sleep (i.e., REM dominant). A relative increase in N3 percentage may suggest rebound sleep after recent deprivation. Certain medications may alter stage composition (e.g., commonly by reducing REM or N3).</citation_analysis><citation_analysis attribute="positive"><xref rid="b34-nss-9-011" ref-type="bibr">34</xref></citation_analysis><citation_analysis attribute="neither">,</citation_analysis><citation_analysis attribute="positive"><xref rid="b35-nss-9-011" ref-type="bibr">35</xref></citation_analysis><citation_analysis attribute="neither"> Thus, stage percentage might combine with other categories of information, such as the clinical history, rather than provide a basis for actionable clinical recommendations in isolation.</citation_analysis></p>
+          <p><citation_analysis attribute="neither">A somewhat more granular approach to sleep architecture is to quantify sleep fragmentation, for example, via sleep efficiency, or by increased time spent in N1 (often because of frequent arousals), or reduced time spent in REM or N3 that may indirectly occur.</citation_analysis><citation_analysis attribute="positive"><xref rid="b36-nss-9-011" ref-type="bibr">36</xref></citation_analysis><citation_analysis attribute="neither">,</citation_analysis><citation_analysis attribute="positive"><xref rid="b37-nss-9-011" ref-type="bibr">37</xref></citation_analysis><citation_analysis attribute="negative"> We can consider the use of sleep efficiency to describe two patients with very different hypnograms, but similar efficiency values. Because efficiency does not distinguish between different patterns of wake after sleep onset (WASO), it runs the risk of lumping together quite different patterns of fragmentation.</citation_analysis><citation_analysis attribute="positive"><xref rid="b38-nss-9-011" ref-type="bibr">38</xref></citation_analysis><citation_analysis attribute="positive">
+</citation_analysis><citation_analysis attribute="positive"><xref ref-type="fig" rid="f3-nss-9-011">Figure 3</xref></citation_analysis><citation_analysis attribute="neither"> shows two PSGs with similar sleep efficiency, but which differ by fivefold in terms of the number of transitions to the wake state. In fact, the PSG with greater frequency of wake transitions (</citation_analysis><citation_analysis attribute="positive"><xref ref-type="fig" rid="f3-nss-9-011">Figure 3B</xref></citation_analysis><citation_analysis attribute="neither">) actually has a slightly higher efficiency than the PSG with fewer but longer wake bouts (</citation_analysis><citation_analysis attribute="positive"><xref ref-type="fig" rid="f3-nss-9-011">Figure 3A</xref></citation_analysis><citation_analysis attribute="neither">; 82% versus 78%, respectively). The reasons behind these patterns, the potential clinical impact, and therapeutic considerations may be quite distinct. </citation_analysis><citation_analysis attribute="positive"><xref ref-type="fig" rid="f3-nss-9-011">Figure 3C–G</xref></citation_analysis><citation_analysis attribute="neither"> shows the distribution of several metrics in a cohort of n=100 individuals with sleep efficiency values of 79.5%–80.5%. These broadly distributed values are a reminder that a sleep efficiency of “80%” can not only be achieved with distinct patterns of wake but can also be associated with diverse patterns of other potential contributors to (or markers of) fragmentation.</citation_analysis></p>
+          <p><citation_analysis attribute="neither">Stage percentage is also an insensitive measure of fragmentation. We can consider two patients each with 120 minutes of stage REM within an 8-hour TST: one patient could have four REM blocks each lasting 30 continuous minutes, and the other could have four blocks interrupted by frequent brief transitions to wake or N1. Each patient’s summary report could indicate REM as 25% of TST, yet the two patterns of consolidation versus fragmentation are quite different and might imply distinct pathophysiology. This example illustrates that stage percentage does not capture fragmentation phenotypes associated with a known cause of fragmentation (OSA). Several alternative methods to stage percentage have been proposed, including bout duration histograms,</citation_analysis><citation_analysis attribute="positive"><xref rid="b39-nss-9-011" ref-type="bibr">39</xref></citation_analysis><citation_analysis attribute="neither"> bout duration survival analysis,</citation_analysis><citation_analysis attribute="positive"><xref rid="b40-nss-9-011" ref-type="bibr">40</xref></citation_analysis><citation_analysis attribute="neither"> and others.</citation_analysis><citation_analysis attribute="positive"><xref rid="b41-nss-9-011" ref-type="bibr">41</xref></citation_analysis><citation_analysis attribute="neither">–</citation_analysis><citation_analysis attribute="positive"><xref rid="b44-nss-9-011" ref-type="bibr">44</xref></citation_analysis><citation_analysis attribute="neither"> Some have used multi-exponential transition models,</citation_analysis><citation_analysis attribute="positive"><xref rid="b45-nss-9-011" ref-type="bibr">45</xref></citation_analysis><citation_analysis attribute="neither"> while others have used power-law approaches</citation_analysis><citation_analysis attribute="positive"><xref rid="b46-nss-9-011" ref-type="bibr">46</xref></citation_analysis><citation_analysis attribute="positive"> to describe these skewed patterns. Even stage transition rates have proven useful where percentages have shown no discriminatory value.</citation_analysis><citation_analysis attribute="positive"><xref rid="b47-nss-9-011" ref-type="bibr">47</xref></citation_analysis><citation_analysis attribute="neither">,</citation_analysis><citation_analysis attribute="positive"><xref rid="b48-nss-9-011" ref-type="bibr">48</xref></citation_analysis><citation_analysis attribute="neither"> Which one of these is the “best” descriptor of the distribution of sleep–wake stages remains open to discussion, although even statistically principled model selection methods may not distinguish true from alternative functions in simulation studies.</citation_analysis><citation_analysis attribute="positive"><xref rid="b49-nss-9-011" ref-type="bibr">49</xref></citation_analysis></p>
+          <p><citation_analysis attribute="neither">If stage percentage cannot distinguish individuals with no OSA from those with severe OSA (despite the obvious fragmentation seen visually), then it might be even less sensitive for comparing groups or evaluating interventions expected to have less dramatic impact on sleep. For example, in a study of yoga in healthy adults, distribution analysis revealed stage differences not evident by percentage analysis.</citation_analysis><citation_analysis attribute="positive"><xref rid="b50-nss-9-011" ref-type="bibr">50</xref></citation_analysis><citation_analysis attribute="positive"> Likewise, stage percentage does not appear to distinguish patients with versus without misperception of TST, whereas differences were evident when stages were examined using bout distribution methods.</citation_analysis><citation_analysis attribute="positive"><xref rid="b51-nss-9-011" ref-type="bibr">51</xref></citation_analysis><citation_analysis attribute="neither"> One wonders how often initial analysis of stage percentage reveals little or no group differences, and deeper analysis of fragmentation is simply not pursued.</citation_analysis></p>
+        </sec>
+        <sec>
+          <title>Phenotyping sleep apnea</title>
+          <p><citation_analysis attribute="positive">The summary metric most commonly acted upon in clinical practice is the AHI, which is used to define the presence and severity of OSA. This event rate has become the cornerstone of diagnosis, a threshold index for insurance coverage of therapy, and a metric for inclusion and outcome of research trials. However, the OSA phenotype is much more heterogeneous than differences in AHI values might suggest, even if we put aside desaturation thresholds for scoring hypopneas</citation_analysis><citation_analysis attribute="positive"><xref rid="b52-nss-9-011" ref-type="bibr">52</xref></citation_analysis><citation_analysis attribute="neither">–</citation_analysis><citation_analysis attribute="positive"><xref rid="b55-nss-9-011" ref-type="bibr">55</xref></citation_analysis><citation_analysis attribute="neither"> and the potential for night-to-night variability,</citation_analysis><citation_analysis attribute="positive"><xref rid="b56-nss-9-011" ref-type="bibr">56</xref></citation_analysis><citation_analysis attribute="neither">–</citation_analysis><citation_analysis attribute="positive"><xref rid="b61-nss-9-011" ref-type="bibr">61</xref></citation_analysis><citation_analysis attribute="neither"> and other anatomical and physiological contributors.</citation_analysis><citation_analysis attribute="positive"><xref rid="b62-nss-9-011" ref-type="bibr">62</xref></citation_analysis><citation_analysis attribute="neither">–</citation_analysis><citation_analysis attribute="positive"><xref rid="b64-nss-9-011" ref-type="bibr">64</xref></citation_analysis><citation_analysis attribute="neither"> OSA phenotypes can be described by extracting further details from routine PSG. For example, the severity of OSA often depends on sleep stage, and on body position, although a single night of PSG recording may not contain sufficient time in the different combinations of stage and position to make this determination.</citation_analysis><citation_analysis attribute="positive"><xref rid="b65-nss-9-011" ref-type="bibr">65</xref></citation_analysis><citation_analysis attribute="positive">
+</citation_analysis><citation_analysis attribute="positive"><xref ref-type="fig" rid="f4-nss-9-011">Figure 4A</xref></citation_analysis><citation_analysis attribute="neither"> illustrates an example of severe hypoxia to &lt;60% during REM in a highly REM-dominant case, despite categorization as normal (AHI, 4.7) when the event rate is calculated over the full night. </citation_analysis><citation_analysis attribute="positive"><xref ref-type="fig" rid="f4-nss-9-011">Figure 4B</xref></citation_analysis><citation_analysis attribute="positive"> illustrates a strongly supine-dominant case, with normal AHI while sleeping in the lateral position, and very severe AHI while sleeping supine. The full-night AHI is the weighted average of these extremes, which happened to be 19.2 on this night. Had the person slept supine the whole time, or lateral the whole time (or if positions were not recorded), then very different conclusions about the presence and severity of OSA would likely be drawn. In this case, it is also interesting that REM dominance could not be assessed as only lateral REM was seen, and no apnea was present while lateral.</citation_analysis></p>
+          <p><citation_analysis attribute="neither">Which AHI is most relevant depends on several factors. For example, in a study of airway anatomy while supine in a scanner, the supine AHI might be most informative even if the individual never sleeps supine in the home. By contrast, in a study of clinical outcomes, the real-world AHI experienced by the patient is paramount: if the patient sleeps exclusively non-supine (and this can be demonstrated), then the lateral AHI is the relevant “phenotype” for that individual.</citation_analysis></p>
+          <p><citation_analysis attribute="neither">Characterizing supine dominance also has direct implications for clinical care. Patients with strong supine dominance may benefit by pursuing positional therapy. Much work exists in this area,</citation_analysis><citation_analysis attribute="positive"><xref rid="b66-nss-9-011" ref-type="bibr">66</xref></citation_analysis><citation_analysis attribute="neither"> and devices to assist in position therapy exist in the consumer and prescription</citation_analysis><citation_analysis attribute="positive"><xref rid="b67-nss-9-011" ref-type="bibr">67</xref></citation_analysis><citation_analysis attribute="neither"> spaces. Device-assisted therapy is important, especially because patients’ self-report of body position during sleep carries substantial uncertainty.</citation_analysis><citation_analysis attribute="positive"><xref rid="b68-nss-9-011" ref-type="bibr">68</xref></citation_analysis><citation_analysis attribute="neither"> By contrast, REM dominance does not as easily translate into clinical care recommendations for therapy, but REM-dominant OSA has been increasingly linked to hypertension,</citation_analysis><citation_analysis attribute="positive"><xref rid="b69-nss-9-011" ref-type="bibr">69</xref></citation_analysis><citation_analysis attribute="positive"> and thus might impact treatment motivation. Insufficient evidence exists regarding REM-suppressing agents as pharmacological therapy for OSA.</citation_analysis><citation_analysis attribute="positive"><xref rid="b70-nss-9-011" ref-type="bibr">70</xref></citation_analysis></p>
+          <p><citation_analysis attribute="neither">The heterogeneity in clinical features is apparent by examining a distinct set from our database with AHI in a very small range, 30–35 (n=100). In this group of very tightly clustered “severe” AHI cases, the age, body mass index (BMI), supine AHI, periodic limb movement index (PLMI), and central apnea index (</citation_analysis><citation_analysis attribute="positive"><xref ref-type="fig" rid="f4-nss-9-011">Figure 4C–G</xref></citation_analysis><citation_analysis attribute="neither">) are each quite broadly dispersed. In addition, the distributions do not visually suggest obvious cutoffs or subgroups. In each case, clinical decisions might be distinct depending on where in the dispersion an individual resides in each category, and across categories; similar clinical sub-phenotypes have been discussed recently.</citation_analysis><citation_analysis attribute="positive"><xref rid="b64-nss-9-011" ref-type="bibr">64</xref></citation_analysis><citation_analysis attribute="positive"> For example, an AHI of 30 in a slender 25-year-old with no periodic limb movements of sleep (PLMS) and a high supine AHI might have different treatment options or preferences (not to mention risks and outcomes) than an older obese patient with comorbid PLMS and increased central component. Clinically and in many research settings, severity categories span much larger AHI ranges, and are thus likely to have even more heterogeneity across these and other potentially important phenotypic axes (medications, alcohol, airway anatomy, etc).</citation_analysis></p>
+        </sec>
+        <sec>
+          <title>Phenotyping insomnia</title>
+          <p><citation_analysis attribute="positive">Insomnia is clinically defined entirely by self-reported symptoms. While research efforts impose cutoffs for sleep latency or WASO as inclusion criteria, in clinical practice the emphasis is on the severity of the complaint and the self-reported impact on daytime function rather than on numerical requirements of sleep parameters. Even in research settings, it can be challenging to demonstrate objective impact on daytime function,</citation_analysis><citation_analysis attribute="positive"><xref rid="b71-nss-9-011" ref-type="bibr">71</xref></citation_analysis><citation_analysis attribute="positive"> a reminder that chronic insomnia is not phenomenologically equivalent to experimental sleep restriction in healthy adults and the ensuing performance decrements. There is growing interest in using objective measures to study insomnia, with respect to the hyperarousal pathophysiology,</citation_analysis><citation_analysis attribute="positive"><xref rid="b72-nss-9-011" ref-type="bibr">72</xref></citation_analysis><citation_analysis attribute="positive"> as well as recent work indicating that it is the combination of insomnia and objective short sleep duration on PSG that is specifically associated with incident medical and psychiatric risk.</citation_analysis><citation_analysis attribute="positive"><xref rid="b73-nss-9-011" ref-type="bibr">73</xref></citation_analysis><citation_analysis attribute="neither">,</citation_analysis><citation_analysis attribute="positive"><xref rid="b74-nss-9-011" ref-type="bibr">74</xref></citation_analysis></p>
+          <p><citation_analysis attribute="negative">Despite the clinical reliance on self-report, extensive work highlights the challenges associated with the subjective experience of insomnia. As an example, the seemingly simple question of sleep duration, which forms the basis of nearly all epidemiological sleep research, depends on the demographics,</citation_analysis><citation_analysis attribute="positive"><xref rid="b75-nss-9-011" ref-type="bibr">75</xref></citation_analysis><citation_analysis attribute="neither"> comorbid psychiatric disorders,</citation_analysis><citation_analysis attribute="positive"><xref rid="b76-nss-9-011" ref-type="bibr">76</xref></citation_analysis><citation_analysis attribute="neither">,</citation_analysis><citation_analysis attribute="positive"><xref rid="b77-nss-9-011" ref-type="bibr">77</xref></citation_analysis><citation_analysis attribute="neither"> and comorbid sleep disorders.</citation_analysis><citation_analysis attribute="positive"><xref rid="b78-nss-9-011" ref-type="bibr">78</xref></citation_analysis><citation_analysis attribute="neither">,</citation_analysis><citation_analysis attribute="positive"><xref rid="b79-nss-9-011" ref-type="bibr">79</xref></citation_analysis><citation_analysis attribute="neither"> In addition, within-individual analysis reveals some striking observations that when</citation_analysis><citation_analysis attribute="positive"><xref rid="b80-nss-9-011" ref-type="bibr">80</xref></citation_analysis><citation_analysis attribute="neither"> and how</citation_analysis><citation_analysis attribute="positive"><xref rid="b81-nss-9-011" ref-type="bibr">81</xref></citation_analysis><citation_analysis attribute="positive"> sleep–wake durations are queried impacts patient responses. The prospect of internal inconsistency across query methods remains an important yet unresolved issue.</citation_analysis></p>
+          <p><citation_analysis attribute="neither">Prolonged sleep latency is a common complaint, and although it may seem a straightforward metric, it carries special challenges when understanding insomnia and specifically the misperception phenotype. Objective sleep latency measurement requires an operational definition, for which there is no gold standard. Although prior literature considered behavioral (non-EEG) approaches to identify sleep onset,</citation_analysis><citation_analysis attribute="positive"><xref rid="b82-nss-9-011" ref-type="bibr">82</xref></citation_analysis><citation_analysis attribute="neither">,</citation_analysis><citation_analysis attribute="positive"><xref rid="b83-nss-9-011" ref-type="bibr">83</xref></citation_analysis><citation_analysis attribute="neither"> clinical reporting usually involves defining sleep onset by either the first epoch of any sleep or the first instance of a consolidated bout (e.g., 10 epochs) of uninterrupted sleep. Different definitions impact calculations and therefore experimental results. We can consider a patient with delayed sleep phase syndrome, who exhibits a 2-hour latency, but subsequent sleep was well consolidated, compared to an individual who spends the first 2 hours with fragmented brief transitions between wake and sleep, perhaps due to pain, and also has a 2-hour onset latency to persistent sleep. It is difficult to rationalize lumping these together under a definition of latency to persistent sleep (both are 2 hours).</citation_analysis></p>
+          <p><citation_analysis attribute="positive">For studies of misperception, the subjective sleep latency is compared to some definition of objective sleep onset; clearly, the definition of objective onset may impact the resulting calculation. We recently introduced a novel metric of sleep onset misperception that obviates the need to define objective sleep onset.</citation_analysis><citation_analysis attribute="positive"><xref rid="b51-nss-9-011" ref-type="bibr">51</xref></citation_analysis><citation_analysis attribute="positive"> The fundamental goal of quantifying sleep onset misperception is to capture how much sleep was misinterpreted as wake, and thus we calculated the total sleep duration occurring during the time between lights out and subjective onset. This also addresses a potential confound of assuming that onset misperception and TST misperception are independent. We can consider patients with objective sleep of 8-hour duration, with a 1-minute onset latency, who report subjectively a 4-hour onset latency and 4 hours of TST. Typically, these persons would be labeled as having both onset and total sleep misperception (4 hours each). However, if they had anchored their total sleep estimate to their own sleep latency estimate of 4 hours, then their 4-hour total sleep guess is an accurate estimate of TST occurring since they believed that they fell asleep. We recently showed that a substantial portion of patients would be reclassified if their misperception phenotype is based on the sleep during subjective latency, and the “corrected” total sleep misperception.</citation_analysis><citation_analysis attribute="positive"><xref rid="b51-nss-9-011" ref-type="bibr">51</xref></citation_analysis><citation_analysis attribute="positive"> Big datasets may allow further evaluation of misperception phenotype(s), which have not enjoyed consistent predictors in the prior literature.</citation_analysis><citation_analysis attribute="positive"><xref rid="b77-nss-9-011" ref-type="bibr">77</xref></citation_analysis></p>
+        </sec>
+      </sec>
+      <sec sec-type="methods">
+        <title>Analysis and inference</title>
+        <sec sec-type="methods">
+          <title>Missing and erroneous database entries</title>
+          <p><citation_analysis attribute="neither">Routine clinical data can be easily arranged in tabular format to facilitate an initial data evaluation. When these metrics are exported into spreadsheets with columns of features (and each row is one patient’s data), some straightforward cleaning methods can be implemented (</citation_analysis><citation_analysis attribute="positive"><xref ref-type="supplementary-material" rid="SD3-nss-9-011">Figure S3</xref></citation_analysis><citation_analysis attribute="neither">). Minimum, maximum, and counting commands can identify columns with missing data (e.g., count if empty), improperly formatted data (e.g., count if text is present), or implausible values (e.g., count if outside limit value). In some cases, such outliers or errors would be missed in routine plotting such as bar plots with standard deviations (SDs) or even box and whisker plots depending on whether outliers are plotted and how the axis ranges are chosen.</citation_analysis></p>
+          <p><citation_analysis attribute="neither">Several reasons for missing values are possible, including corrupted data (data were collected but were no longer accessible), collected but not recorded (paper copies fail to transfer to electronic database), and not collected. Some qualitative assessment of the distribution of variables from individuals who are missing at least one other entry in a data matrix can be useful.</citation_analysis><citation_analysis attribute="positive"><xref rid="b84-nss-9-011" ref-type="bibr">84</xref></citation_analysis><citation_analysis attribute="neither"> Specific decisions regarding how to handle missing data points or error values are best handled by prespecifying a plan, which could involve excluding subjects or imputing missing values; more advanced discussions are available.</citation_analysis><citation_analysis attribute="positive"><xref rid="b85-nss-9-011" ref-type="bibr">85</xref></citation_analysis></p>
+          <p><citation_analysis attribute="neither">In some cases, missing values occur for appropriate reasons and the absence can be informative. For example, the REM AHI cannot be calculated if no REM sleep was observed during a PSG. Likewise, position dependence of OSA cannot be calculated for PSGs in which only supine position was observed. In these cases, removing such subjects might be favored over imputation.</citation_analysis></p>
+          <p><citation_analysis attribute="positive">Determining whether a given value is erroneous (versus a biologically plausible outlier) may depend on certain clues such as “impossible” values or known placeholders for missing data used by an acquisition software system. For example, negative values where only positive values are possible (e.g., age) are easily identified as both errors and outliers. Likewise, when letters are present instead of numbers, or where the value is out of range (e.g., ESS value of &gt;24), these are also easily identified. In some examples (</citation_analysis><citation_analysis attribute="positive"><xref ref-type="supplementary-material" rid="SD3-nss-9-011">Figure S3</xref></citation_analysis><citation_analysis attribute="positive">), simply plotting the data identifies outliers. Database software such as Excel can easily show the maximum and minimum values for inspection of implausible values. As an example of errors not readily detected by the abovementioned methods, in our database the BMI and ESS are manually entered in adjacent fields, such that an out-of-range ESS value prompted inspection of the BMI as well, and in some cases it was shown by viewing the original data that these two values were interchanged (in this instance, the BMI value of 18 is plausible, and so it would not have been flagged as an outlier).</citation_analysis></p>
+          <p><citation_analysis attribute="neither">In some cases, we may still wish to exclude plausible data from analysis. Examples are related to stage- and position-specific metrics, wherein the amount of time spent in the condition of interest is the “sampling” problem, rather than the number of subjects. We may wish, for instance, to exclude people with minimal time in REM or minimal time spent sleeping supine, not just the zero time individuals, when calculating OSA dominance ratios or oxygen nadirs in REM. For AHI, the values could be artificially high (one apnea in one epoch), or artificially low (insufficient time spent in REM to manifest obstructions).</citation_analysis></p>
+        </sec>
+        <sec>
+          <title>Distributions and plotting</title>
+          <p><citation_analysis attribute="positive">Evaluating the distribution of individual variables can inform multiple aspects of analysis and inference. The most basic reason to understand the distribution is to decide what kind of statistical approach is most appropriate, such as whether continuous data are normally distributed or skewed in some manner, in which case data transformations to make the data distribution approximately normal (e.g., logarithmic transformation of positive-valued data) or nonparametric analysis methods may be preferred. Moreover, like plotting the raw data, evaluating the distribution using one of several techniques can also inform the approach to outliers, or the possibility of interesting biological heterogeneity. For example, multimodal distributions may imply that the population contains different sub-phenotypes that might be worthy of further investigation.</citation_analysis></p>
+          <p><citation_analysis attribute="positive">In our cohort, none of the variables passed statistical testing for normality, similar to prior work using the Sleep Heart Health Study database.</citation_analysis><citation_analysis attribute="positive"><xref rid="b84-nss-9-011" ref-type="bibr">84</xref></citation_analysis><citation_analysis attribute="positive"> Of note, large samples may be highly “powered” to reject the null hypothesis of a normal distribution, even when the distribution appears nearly normal. Conversely, small samples are more likely to pass tests of normality, even if known to be non-normal.</citation_analysis><citation_analysis attribute="positive"><xref rid="b39-nss-9-011" ref-type="bibr">39</xref></citation_analysis><citation_analysis attribute="neither"> Indeed, when we under-sampled the current dataset, there was increasing probability of passing tests for normality (</citation_analysis><citation_analysis attribute="positive"><xref ref-type="supplementary-material" rid="SD4-nss-9-011">Figure S4</xref></citation_analysis><citation_analysis attribute="neither">). Non-normal data can be handled by either nonparametric methods or transformation that render the data approximately normal. The challenge is as much statistical as biological: non-normal distributions may have phenotyping implications.</citation_analysis></p>
+          <p><citation_analysis attribute="negative">The method of plotting can impact the viewer’s impression of the data. Bar graphs with mean and SD or standard error of the mean (SEM) are commonly used, but these routine methods risk inadvertently concealing potentially important information. </citation_analysis><citation_analysis attribute="positive"><xref ref-type="fig" rid="f5-nss-9-011">Figure 5</xref></citation_analysis><citation_analysis attribute="neither"> illustrates different plotting methods for groups of simulated data from known distributions. In the case of bar plots with SEM, casual inspection might give the false sense of reduced variance of the actual observations in the dataset (</citation_analysis><citation_analysis attribute="positive"><xref ref-type="fig" rid="f5-nss-9-011">Figure 5A and B</xref></citation_analysis><citation_analysis attribute="neither">). This happens because the SEM is obtained by dividing the SD by the square root of the sample size, which makes error bars smaller. The SEM thus does not reflect variance in the data, but rather reflects the precision of the estimate of the mean value – one should not conflate the two.</citation_analysis></p>
+          <p><citation_analysis attribute="positive">The SD, in contrast, reflects the dispersion in the data, and does not diminish with increasing sample size like the SEM. However, the SD may still be misleading in a bar graph when it is constructed from data with a non-normal distribution. Because the SD is by convention shown as symmetric bars around the mean (regardless of the actual underlying data distribution), viewers may be left with the potentially false impression of symmetric spread around the mean simply because of the display convention (</citation_analysis><citation_analysis attribute="positive"><xref ref-type="fig" rid="f5-nss-9-011">Figure 5C</xref></citation_analysis><citation_analysis attribute="positive">). Sometimes the only clue in a bar graph that the population is skewed is that the SD value is greater than the mean value for a dataset that cannot take on negative values, which implies a long tail (i.e., non-normal). This is common, for example, in known skewed distributions such as AHI or sleep latency, where a value of, say, 15±18 would be interpreted as evidence of a long-tail non-normal distribution. Asymmetries and skew are visually evident in box and whisker plots (</citation_analysis><citation_analysis attribute="positive"><xref ref-type="fig" rid="f5-nss-9-011">Figure 5D</xref></citation_analysis><citation_analysis attribute="neither">). However, even the box and whisker method can “hide” the distribution for unusually structured data, such as bimodal distributions, which would be phenotypically important to recognize.</citation_analysis></p>
+          <p><citation_analysis attribute="neither">Other techniques for visually assessing structure in populations include frequency histograms and cumulative distribution functions (CDFs). Histograms are used in </citation_analysis><citation_analysis attribute="positive"><xref ref-type="fig" rid="f6-nss-9-011">Figure 6</xref></citation_analysis><citation_analysis attribute="positive"> to illustrate the distribution of TST, sleep efficiency, and the number of ≥30-second awakenings. The choice of bin size for histogram plots should consider the trade-off between granularity of the variable of interest, and sample size per bin. Too many bins cause the variable values to be either 0 or 1 in each bin, or to vary randomly from bin to bin due to sampling noise, and therefore offer little visual insight. Too few bins cause the underlying distribution to be overly smoothed. Histogram views can reveal outliers, suggest heterogeneity of the population, or inform selection of cutoff values (e.g., if a “valley” was seen between two modes within the data, suggests two populations). In contrast, the histograms shown in </citation_analysis><citation_analysis attribute="positive"><xref ref-type="fig" rid="f6-nss-9-011">Figure 6</xref></citation_analysis><citation_analysis attribute="neither"> do not have clear “valleys” on visual inspection.</citation_analysis></p>
+          <p><citation_analysis attribute="neither">CDF plots can also be informative, especially when comparing groups, or when the metric of interest is a threshold imposed upon a continuous variable. Unlike histograms, CDFs do not require specification of bin size; however, their visualization may be less intuitive. </citation_analysis><citation_analysis attribute="positive"><xref ref-type="fig" rid="f7-nss-9-011">Figure 7</xref></citation_analysis><citation_analysis attribute="neither"> shows CDF plots for different sleep apnea metrics, such as position dependence of the AHI (</citation_analysis><citation_analysis attribute="positive"><xref ref-type="fig" rid="f7-nss-9-011">Figure 7A</xref></citation_analysis><citation_analysis attribute="neither">) and of the central apnea index (</citation_analysis><citation_analysis attribute="positive"><xref ref-type="fig" rid="f7-nss-9-011">Figure 7B</xref></citation_analysis><citation_analysis attribute="neither">). </citation_analysis><citation_analysis attribute="positive"><xref ref-type="fig" rid="f7-nss-9-011">Figure 7C</xref></citation_analysis><citation_analysis attribute="positive"> shows the distribution of time spent in different body positions during sleep. Threshold values can be evaluated visually, such as the portion of the population with at least 50% of the night spent supine (</citation_analysis><citation_analysis attribute="positive"><xref ref-type="fig" rid="f7-nss-9-011">Figure 7C</xref></citation_analysis><citation_analysis attribute="neither">; ~60%), or who had a supine AHI value &gt;30 (</citation_analysis><citation_analysis attribute="positive"><xref ref-type="fig" rid="f7-nss-9-011">Figure 7A</xref></citation_analysis><citation_analysis attribute="neither">; ~20%).</citation_analysis></p>
+        </sec>
+        <sec sec-type="methods">
+          <title>Correlation analysis</title>
+          <p><citation_analysis attribute="neither">One of the powerful approaches enabled by large datasets is investigating correlations between variables. Nonparametric (Spearman) correlation was performed between AHI and BMI, which are well known to be positively correlated. Taking the full cohort, the unadjusted Spearman’s </citation_analysis><citation_analysis attribute="positive"><italic>R</italic></citation_analysis><citation_analysis attribute="neither">-value is ~0.25. </citation_analysis><citation_analysis attribute="positive"><xref ref-type="fig" rid="f8-nss-9-011">Figure 8A</xref></citation_analysis><citation_analysis attribute="neither"> shows the distribution of </citation_analysis><citation_analysis attribute="positive"><italic>R</italic></citation_analysis><citation_analysis attribute="neither">-values for AHI versus BMI obtained when repeatedly analyzing randomly selected smaller subsets of the cohort. For the subgroups of the cohort, the range of </citation_analysis><citation_analysis attribute="positive"><italic>R</italic></citation_analysis><citation_analysis attribute="positive">-values is larger for smaller sample sizes. In other words, smaller samples of the large cohort (n=1835) show much larger range of correlation values than the value of the whole set (~0.25). This variation includes more extreme </citation_analysis><citation_analysis attribute="positive"><italic>R</italic></citation_analysis><citation_analysis attribute="positive">-values such as actually negative correlations in some cases (for the subsets of size n=10, n=20). Similar patterns are observed with another pair of parameters that showed a positive correlation in the large cohort (age and PLMI; </citation_analysis><citation_analysis attribute="positive"><xref ref-type="fig" rid="f8-nss-9-011">Figure 8B</xref></citation_analysis><citation_analysis attribute="neither">).</citation_analysis></p>
+          <p><citation_analysis attribute="positive">To emphasize the risks of under-sampled (small) data resulting in spurious findings using correlation analysis, we also demonstrate the </citation_analysis><citation_analysis attribute="positive"><italic>R</italic></citation_analysis><citation_analysis attribute="neither">-values obtained when pairing REM% from the cohort with a vector of random numbers (</citation_analysis><citation_analysis attribute="positive"><xref ref-type="fig" rid="f8-nss-9-011">Figure 8C</xref></citation_analysis><citation_analysis attribute="positive">). This plot clearly shows that significant correlations can occur, even with convincingly large </citation_analysis><citation_analysis attribute="positive"><italic>R</italic></citation_analysis><citation_analysis attribute="negative">-values, with random data. These plots illustrate the concept that extreme values for statistical estimates (such as correlation coefficient or mean) are more common in under-sampled data. Most investigators reflexively think of “power” in the sense that lack of statistical significance when a true difference exists (type 2 error) could be a symptom of insufficient sample size. However, small sample sizes also harbor false-positive risk (type 1 error).</citation_analysis></p>
+          <p><citation_analysis attribute="neither">Large datasets can mitigate false-positive risks associated with the issue of small numbers mentioned earlier, except when the dataset is parsed into smaller and smaller subsets in data-mining queries of ever more specific subsets. Across all 41 continuous variables in the database, the threshold </citation_analysis><citation_analysis attribute="positive"><italic>R</italic></citation_analysis><citation_analysis attribute="positive">-value for meeting significance was quite small when calculated from the entire cohort. The threshold for obtaining a significant </citation_analysis><citation_analysis attribute="positive"><italic>R</italic></citation_analysis><citation_analysis attribute="neither">-value increases as progressively smaller subsets of the cohort are considered. </citation_analysis><citation_analysis attribute="positive"><xref ref-type="fig" rid="f8-nss-9-011">Figure 8D</xref></citation_analysis><citation_analysis attribute="neither"> illustrates how the “power” of the Spearman correlation calculated between any two pairs of variables decreases as the sample size decreases. In other words, when the entire cohort is considered, even quite small </citation_analysis><citation_analysis attribute="positive"><italic>R</italic></citation_analysis><citation_analysis attribute="negative">-values in pairwise correlations meet significance criteria, because the large size essentially provides power to detect small correlations as significant. By contrast, small samples provide insufficient power to detect small correlations as statistically significant, and thus only large </citation_analysis><citation_analysis attribute="positive"><italic>R</italic></citation_analysis><citation_analysis attribute="neither">-values meet significance criteria. This latter issue creates an interesting conundrum: because only large </citation_analysis><citation_analysis attribute="positive"><italic>R</italic></citation_analysis><citation_analysis attribute="positive">-values can be significant when small datasets are considered, any significant correlation (whether true or false in reality) will necessarily have compelling-appearing </citation_analysis><citation_analysis attribute="positive"><italic>R</italic></citation_analysis><citation_analysis attribute="neither">-values, which may overestimate the true </citation_analysis><citation_analysis attribute="positive"><italic>R</italic></citation_analysis><citation_analysis attribute="neither">-value of that pair of variables, had a larger sample been utilized.</citation_analysis></p>
+          <p><citation_analysis attribute="neither">Sometimes, we may have prior information to help mitigate false inferences. Given the strong known relation between BMI and AHI, insignificant or paradoxical (negative associations) can be interpreted as false findings. However, in other cases, we may not have the benefit of strong prior knowledge, so assessing new data becomes more challenging.</citation_analysis></p>
+        </sec>
+      </sec>
+      <sec>
+        <title>Inferential pitfalls of small and large sample sizes</title>
+        <p><citation_analysis attribute="neither">We have seen through empirical analyses and simulations that a spectrum of information and pitfalls are possible when working with large datasets. We now turn to illustrative examples from the literature in which large datasets may not be as explanatory as they appear. While there are many examples from which to choose, these example situations are representative of some key challenges.</citation_analysis></p>
+        <sec sec-type="methods">
+          <title>Situation 1: when big data are still under-sampled</title>
+          <p><citation_analysis attribute="neither">A recent study of more than 50 million pregnancies in the US sought to correlate adverse maternal and baby outcomes with OSA.</citation_analysis><citation_analysis attribute="positive"><xref rid="b86-nss-9-011" ref-type="bibr">86</xref></citation_analysis><citation_analysis attribute="neither"> The study used billing codes from a massive registry to assign case labels for OSA. By this method, the prevalence of OSA in pregnancy was 3 per 10,000, approximately 100-fold lower than expected in this demographic. The discrepancy raises the possibility that the OSA coding is not just underestimating prevalence, but may also be biased, for example, toward the most severe or most symptomatic cases. If so, implications of any results based on these data greatly shrink in scope, as it they would apply only to the most severe cases of OSA or the most vulnerable or symptomatic individuals.</citation_analysis></p>
+        </sec>
+        <sec sec-type="methods">
+          <title>Situation 2: when big data explain little</title>
+          <p><citation_analysis attribute="negative">While large sample sizes increase power, an associated risk involves the potential for being “overpowered” to detect very small correlations or group differences. We can observe this in the effect of modafinil on sleep latency of shift workers,</citation_analysis><citation_analysis attribute="positive"><xref rid="b87-nss-9-011" ref-type="bibr">87</xref></citation_analysis><citation_analysis attribute="neither"> or in the relation of OSA severity with ESS.</citation_analysis><citation_analysis attribute="positive"><xref rid="b88-nss-9-011" ref-type="bibr">88</xref></citation_analysis><citation_analysis attribute="positive"> A striking example of a very large sample supporting very small effects can be found in the analysis of mood rhythms detected in word analysis of more than 500 million tweets.</citation_analysis><citation_analysis attribute="positive"><xref rid="b89-nss-9-011" ref-type="bibr">89</xref></citation_analysis><citation_analysis attribute="positive"> Relative change in day length was significantly related to positive affect, with an </citation_analysis><citation_analysis attribute="positive"><italic>R</italic></citation_analysis><citation_analysis attribute="neither">-value of 1.2×10</citation_analysis><citation_analysis attribute="positive"><sup>−3</sup></citation_analysis><citation_analysis attribute="positive">, suggesting that the rhythm explained a fraction of a percent of affect fluctuations. These observations highlight the well-known but under-practiced mandate to focus scientific investigations on determining effect sizes, causal relationships, and establishing practical or clinical relevance, rather than focusing on simplistic binary questions at the heart of statistical significance testing.</citation_analysis><citation_analysis attribute="positive"><xref rid="b6-nss-9-011" ref-type="bibr">6</xref></citation_analysis></p>
+        </sec>
+        <sec sec-type="methods">
+          <title>Situation 3: when big data are misinterpreted</title>
+          <p><citation_analysis attribute="positive">The largest published study of home sleep testing was recently published, with the stated goal of determining if home testing was being used clinically in accordance with AASM standards.</citation_analysis><citation_analysis attribute="positive"><xref rid="b90-nss-9-011" ref-type="bibr">90</xref></citation_analysis><citation_analysis attribute="neither">,</citation_analysis><citation_analysis attribute="positive"><xref rid="b91-nss-9-011" ref-type="bibr">91</xref></citation_analysis><citation_analysis attribute="neither"> The sample size of nearly 200,000 home tests is orders of magnitude larger than any prior home testing report. The authors concluded based on a high posttest probability of OSA (~80%) that indeed testing was in line with AASM guidelines. However, the AASM recommends that pretest probability (not posttest probability) should be &gt;80% for at least moderate OSA (AHI &gt;15). Bayes theorem tells us that the pretest probability of AHI &gt;15 was &lt;10% in the published cohort (and 50% if AHI &gt;5 threshold is used),</citation_analysis><citation_analysis attribute="positive"><xref rid="b92-nss-9-011" ref-type="bibr">92</xref></citation_analysis><citation_analysis attribute="neither"> and thus the data actually support the opposite conclusion to that reached by the authors: home testing for OSA is being used too liberally, and not in line with the AASM guidance.</citation_analysis></p>
+          <p><citation_analysis attribute="neither">Another recent article</citation_analysis><citation_analysis attribute="positive"><xref rid="b93-nss-9-011" ref-type="bibr">93</xref></citation_analysis><citation_analysis attribute="positive"> using administrative data from more than 2000 patients to derive a screening algorithm for OSA cases failed to recognize, by Bayes theorem, that their algorithm’s sensitivity and specificity were indicative of chance performance. One always needs to consider both sensitivity and specificity when evaluating any test. We use a simple calculation, the “rule of 100”, which can avoid this statistical fallacy: if the sensitivity and specificity of a test add to 100%, the probability of disease is unchanged by the result of the test (i.e., chance performance).</citation_analysis></p>
+        </sec>
+      </sec>
+    </sec>
+    <sec>
+      <title>Conclusion</title>
+      <p><citation_analysis attribute="positive">Clinical databases have important strengths that can support big data research goals. Clinical data contain diversity and heterogeneity that may be specifically excluded in clinical trial databases, which are often designed to reduce sources of variability that can be detrimental to power calculations and outcome testing. Clinical databases are more likely to reflect “real-world” variation in clinical phenotypes. This can be important for testing whether predictive algorithms can generalize across a diversity of clinical phenotypes. In addition, heterogeneous sets may be more amenable to clustering and other exploratory methods that allow discovery of new phenotypes that can be explored in subsequent prospective studies. From a resource utilization standpoint, clinical databases are a natural extension of already acquired data supporting patient care, which allows valuable and limited resources to be applied at the analysis phase.</citation_analysis></p>
+      <p><citation_analysis attribute="neither">Despite these advantages, certain limitations must be recognized. Academic centers may have different referral biases, for example, being enriched for complicated cases. Although most clinical laboratories have standardized physiological recording protocols, the collection of self-reported clinical information may not be standardized. Variation across recording and scoring technologists may contribute heterogeneity despite quality efforts required in accredited laboratories. Centralized scoring common to large clinical trials may not be practical for clinical databases.</citation_analysis></p>
+      <p><citation_analysis attribute="neither">Large sleep datasets offer the opportunity to pursue complex phenotyping exploration, and to detect scientifically or clinically interesting differences or patterns in health and disease. Despite the clear advantages, analysis of big data in sleep medicine also carries risks. Understanding common pitfalls can help mitigate the risks, whether one is conducting the analysis or reviewing publications involving big data. Ideally, what is learned from population-level big data efforts can then inform individual clinical care decisions. In an era when insurance restrictions are driving at-home limited channel alternatives, these efforts will be critical to elaborate and justify the current and possibly more advanced future use of PSG for clinical care. The era of big data in sleep medicine is poised to provide unprecedented insights, especially as it coincides with massive shifts in reimbursement and availability of laboratory-based PSG.</citation_analysis></p>
+    </sec>
+    <sec sec-type="supplementary-material">
+      <title>Supplementary materials</title>
+      <supplementary-material content-type="local-data" id="SD1-nss-9-011">
+        <label>Figure S1</label>
+        <caption>
+          <p><citation_analysis attribute="neither">Overlap of symptoms associated with sleep apnea and insomnia.</citation_analysis></p>
+          <p><citation_analysis attribute="positive"><bold>Notes:</bold></citation_analysis><citation_analysis attribute="neither"> (</citation_analysis><citation_analysis attribute="positive"><bold>A</bold></citation_analysis><citation_analysis attribute="neither">) Venn diagram of symptoms related to sleep apnea: snoring (solid line, blue fill), gasping arousals (dashed line, red fill), and witnessed apnea (dotted line, yellow fill). The n-value (sample size) for each category: snoring only =656; snoring and witnessed apnea =337; gasping and snoring and witnessed apnea =166; snoring and gasping =70; gasping only =34; witnessed apnea and gasping =13; witnessed apnea only =61. (</citation_analysis><citation_analysis attribute="positive"><bold>B</bold></citation_analysis><citation_analysis attribute="neither">) Venn diagram of insomnia symptoms: onset (dashed line, blue fill), maintenance (solid line, yellow fill), and listing insomnia as the reason for PSG (dotted line, red fill). The n-values for each category: onset only =148; onset and maintenance =331; maintenance only =521; maintenance and listing insomnia as the reason for PSG =121; listing insomnia as the reason for PSG but no other symptoms were indicated =10; onset and maintenance insomnia and listing insomnia as the reason for PSG =288; onset and listing insomnia as the reason for PSG =38.</citation_analysis></p>
+          <p><citation_analysis attribute="positive"><bold>Abbreviation:</bold></citation_analysis><citation_analysis attribute="neither"> PSG, polysomnography.</citation_analysis></p>
+        </caption>
+        <media mimetype="image" mime-subtype="tif" xlink:href="nss-9-011s1.tif" xlink:type="simple" id="d35e714" position="anchor"/>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="SD2-nss-9-011">
+        <label>Figure S2</label>
+        <caption>
+          <p><citation_analysis attribute="neither">Overlap of symptoms associated with restless legs and with narcolepsy.</citation_analysis></p>
+          <p><citation_analysis attribute="positive"><bold>Notes:</bold></citation_analysis><citation_analysis attribute="neither"> (</citation_analysis><citation_analysis attribute="positive"><bold>A</bold></citation_analysis><citation_analysis attribute="neither">) Venn diagram of symptoms related to restless legs: uncomfortable sensation in the legs (solid line, blue fill), better with movement (w/mov’t) (dotted line, red fill), and worse at night (dashed line, yellow fill). The n-values (sample sizes) for each category: uncomfortable sensation alone =94; uncomfortable and better with movement =72; better with movement alone =26; better with movement and worse at night =33; uncomfortable and better with movement and worse at night =90; worse at night alone =42; uncomfortable and worse at night =49. (</citation_analysis><citation_analysis attribute="positive"><bold>B</bold></citation_analysis><citation_analysis attribute="neither">) Venn diagram of narcolepsy symptoms: peri-sleep hallucinations (dashed line, blue fill), sleep paralysis (dotted line, red fill), and cataplexy (solid line, yellow fill). The n-values for each category: hallucinations alone =77; hallucinations and cataplexy =11; cataplexy alone =82; hallucinations and sleep paralysis =21; hallucinations and cataplexy and sleep paralysis =17; cataplexy and sleep paralysis =30; sleep paralysis alone =59.</citation_analysis></p>
+        </caption>
+        <media mimetype="image" mime-subtype="tif" xlink:href="nss-9-011s2.tif" xlink:type="simple" id="d35e731" position="anchor"/>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="SD3-nss-9-011">
+        <label>Figure S3</label>
+        <caption>
+          <p><citation_analysis attribute="neither">Assessing missing data.</citation_analysis></p>
+          <p><citation_analysis attribute="positive"><bold>Notes:</bold></citation_analysis><citation_analysis attribute="neither"> (</citation_analysis><citation_analysis attribute="positive"><bold>A</bold></citation_analysis><citation_analysis attribute="neither">) An example of missing data, outliers, and data reversals (subject code MGH24: the BMI and ESS scores are switched, but the error codes are only implausible for ESS), indicated by gray shading. Column statistics (maximum, minimum, count if text, and missing cell entries) can be helpful to alert potential anomalous data. (</citation_analysis><citation_analysis attribute="positive"><bold>B</bold></citation_analysis><citation_analysis attribute="neither">) The age variable from (</citation_analysis><citation_analysis attribute="positive"><bold>A</bold></citation_analysis><citation_analysis attribute="neither">) represented as a bar plot with SD, a box and whisker plot, and a dot plot; the outlier is not evident in the bar with SD. (</citation_analysis><citation_analysis attribute="positive"><bold>C</bold></citation_analysis><citation_analysis attribute="neither">) The BMI variable from (</citation_analysis><citation_analysis attribute="positive"><bold>A</bold></citation_analysis><citation_analysis attribute="neither">); similarly, the presence of an outlier is not evident in the bar with SD, and none hint at the switch with ESS because the erroneous value was plausible. In the Sex column in (</citation_analysis><citation_analysis attribute="positive"><bold>A</bold></citation_analysis><citation_analysis attribute="neither">), 0= female and 1= male.</citation_analysis></p>
+          <p><citation_analysis attribute="positive"><bold>Abbreviations:</bold></citation_analysis><citation_analysis attribute="neither"> BMI, body mass index; ESS, Epworth Sleepiness Scale; m, male; Max, maximum; Min, minimum; SD, standard deviation; Subj, subject; TST, total sleep time.</citation_analysis></p>
+        </caption>
+        <media mimetype="image" mime-subtype="tif" xlink:href="nss-9-011s3.tif" xlink:type="simple" id="d35e765" position="anchor"/>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="SD4-nss-9-011">
+        <label>Figure S4</label>
+        <caption>
+          <p><citation_analysis attribute="neither">Normality testing results vary by sample size.</citation_analysis></p>
+          <p><citation_analysis attribute="positive"><bold>Notes:</bold></citation_analysis><citation_analysis attribute="neither"> The variables listed were tested for normality (D’Agostino–Pearson test), with “−” indicating failed testing for normality and “+” indicating passed testing for normality. The columns indicate the sample size of random subsets of the full dataset, with none passing when the sample size was 1800.</citation_analysis></p>
+          <p><citation_analysis attribute="positive"><bold>Abbreviations:</bold></citation_analysis><citation_analysis attribute="neither"> AHI, apnea–hypopnea index; AHI NonSup, apnea–hypopnea index in non-supine; AHI Sup, apnea–hypopnea index in supine; BMI, body mass index; CAI, central apnea index; CAI NonSup, central apnea index in non-supine; CAI Sup, central apnea index in supine; ESS, Epworth Sleepiness Scale; LPS, latency to persistent sleep; mean HR, mean heart rate; Min O</citation_analysis><citation_analysis attribute="positive"><sub>2</sub></citation_analysis><citation_analysis attribute="neither"> NR, minimum oxygen in non-REM; N1–3, non-REM stages 1–3; Min O</citation_analysis><citation_analysis attribute="positive"><sub>2</sub></citation_analysis><citation_analysis attribute="neither"> REM, minimum oxygen in REM; PLMI, periodic limb movement index; REM, rapid eye movement; Spont AI, spontaneous apnea index; Sup%, supine percentage; TST, total sleep time; #W≥30s, number of wakes &gt;30 seconds.</citation_analysis></p>
+        </caption>
+        <media mimetype="image" mime-subtype="tif" xlink:href="nss-9-011s4.tif" xlink:type="simple" id="d35e786" position="anchor"/>
+      </supplementary-material>
+    </sec>
+  </body>
+  <back>
+    <fn-group>
+      <fn fn-type="COI-statement">
+        <p><citation_analysis attribute="positive">
+          </citation_analysis><citation_analysis attribute="positive"><bold>Disclosure</bold></citation_analysis><citation_analysis attribute="positive">
+        </citation_analysis></p>
+        <p><citation_analysis attribute="neither">Dr Matt T Bianchi has received funding from the Department of Neurology, Massachusetts General Hospital, the Center for Integration of Medicine and Innovative Technology, the Milton Family Foundation, the MGH-MIT Grand Challenge, and the American Sleep Medicine Foundation. He has a pending patent on a sleep wearable device, received research funding from MC10 Inc and Insomnisolv Inc, has a consulting agreement with McKesson Health and International Flavors and Fragrances, serves as a medical monitor for Pfizer, and has provided expert testimony in sleep medicine. Dr M Brandon Westover receives funding from NIH-NINDS (1K23NS090900), the Rappaport Foundation, and the Andrew David Heitman Neuroendovascular Research Fund. The authors report no other conflicts of interest in this work.</citation_analysis></p>
+      </fn>
+    </fn-group>
+    <ref-list>
+      <title>References</title>
+      <ref id="b1-nss-9-011">
+        <label>1</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Dean</surname>
+              <given-names>DA</given-names>
+            </name>
+            <name>
+              <surname>Goldberger</surname>
+              <given-names>AL</given-names>
+            </name>
+            <name>
+              <surname>Mueller</surname>
+              <given-names>R</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Scaling up scientific discovery in sleep medicine: the National Sleep Research Resource</article-title>
+          <source>Sleep</source>
+          <year>2016</year>
+          <volume>39</volume>
+          <issue>5</issue>
+          <fpage>1151</fpage>
+          <lpage>1164</lpage>
+          <pub-id pub-id-type="pmid">27070134</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b2-nss-9-011">
+        <label>2</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>O’Reilly</surname>
+              <given-names>C</given-names>
+            </name>
+            <name>
+              <surname>Gosselin</surname>
+              <given-names>N</given-names>
+            </name>
+            <name>
+              <surname>Carrier</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Nielsen</surname>
+              <given-names>T</given-names>
+            </name>
+          </person-group>
+          <article-title>Montreal Archive of Sleep Studies: an open-access resource for instrument benchmarking and exploratory research</article-title>
+          <source>J Sleep Res</source>
+          <year>2014</year>
+          <volume>23</volume>
+          <issue>6</issue>
+          <fpage>628</fpage>
+          <lpage>635</lpage>
+          <pub-id pub-id-type="pmid">24909981</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b3-nss-9-011">
+        <label>3</label>
+        <element-citation publication-type="webpage">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Douglass</surname>
+              <given-names>C</given-names>
+            </name>
+          </person-group>
+          <comment>webpage on the Internet</comment>
+          <source>American Sleep Apnea Association and IBM Launch Patient-led Sleep Study App</source>
+          <year>2016</year>
+          <comment>Available from: <ext-link ext-link-type="uri" xlink:href="http://www-03.ibm.com/press/us/en/pressrelease/49275.wss">http://www-03.ibm.com/press/us/en/pressrelease/49275.wss</ext-link></comment>
+          <date-in-citation>Accessed April 4, 2016</date-in-citation>
+        </element-citation>
+      </ref>
+      <ref id="b4-nss-9-011">
+        <label>4</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Falk</surname>
+              <given-names>R</given-names>
+            </name>
+            <name>
+              <surname>Greenbaum</surname>
+              <given-names>CW</given-names>
+            </name>
+          </person-group>
+          <article-title>Significance tests die hard: the amazing persistence of a probabilistic misconception</article-title>
+          <source>Theory Psychol</source>
+          <year>1995</year>
+          <volume>5</volume>
+          <fpage>75</fpage>
+          <lpage>98</lpage>
+        </element-citation>
+      </ref>
+      <ref id="b5-nss-9-011">
+        <label>5</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Ioannidis</surname>
+              <given-names>JP</given-names>
+            </name>
+          </person-group>
+          <article-title>Why most published research findings are false</article-title>
+          <source>PLoS Med</source>
+          <year>2005</year>
+          <volume>2</volume>
+          <issue>8</issue>
+          <fpage>e124</fpage>
+          <pub-id pub-id-type="pmid">16060722</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b6-nss-9-011">
+        <label>6</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Westover</surname>
+              <given-names>MB</given-names>
+            </name>
+            <name>
+              <surname>Westover</surname>
+              <given-names>KD</given-names>
+            </name>
+            <name>
+              <surname>Bianchi</surname>
+              <given-names>MT</given-names>
+            </name>
+          </person-group>
+          <article-title>Significance testing as perverse probabilistic reasoning</article-title>
+          <source>BMC Med</source>
+          <year>2011</year>
+          <volume>9</volume>
+          <fpage>20</fpage>
+          <pub-id pub-id-type="pmid">21356064</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b7-nss-9-011">
+        <label>7</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Gill</surname>
+              <given-names>J</given-names>
+            </name>
+          </person-group>
+          <article-title>The insignificance of null hypothesis significance testing</article-title>
+          <source>Polit Res Q</source>
+          <year>1999</year>
+          <volume>52</volume>
+          <issue>3</issue>
+          <fpage>647</fpage>
+          <lpage>674</lpage>
+        </element-citation>
+      </ref>
+      <ref id="b8-nss-9-011">
+        <label>8</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Goodman</surname>
+              <given-names>SN</given-names>
+            </name>
+          </person-group>
+          <article-title>Toward evidence-based medical statistics. 1: the P value fallacy</article-title>
+          <source>Ann Intern Med</source>
+          <year>1999</year>
+          <volume>130</volume>
+          <issue>12</issue>
+          <fpage>995</fpage>
+          <lpage>1004</lpage>
+          <pub-id pub-id-type="pmid">10383371</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b9-nss-9-011">
+        <label>9</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Button</surname>
+              <given-names>KS</given-names>
+            </name>
+            <name>
+              <surname>Ioannidis</surname>
+              <given-names>JP</given-names>
+            </name>
+            <name>
+              <surname>Mokrysz</surname>
+              <given-names>C</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Power failure: why small sample size undermines the reliability of neuroscience</article-title>
+          <source>Nat Rev Neurosci</source>
+          <year>2013</year>
+          <volume>14</volume>
+          <issue>5</issue>
+          <fpage>365</fpage>
+          <lpage>376</lpage>
+          <pub-id pub-id-type="pmid">23571845</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b10-nss-9-011">
+        <label>10</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Nuzzo</surname>
+              <given-names>R</given-names>
+            </name>
+          </person-group>
+          <article-title>Scientific method: statistical errors</article-title>
+          <source>Nature</source>
+          <year>2014</year>
+          <volume>506</volume>
+          <issue>7487</issue>
+          <fpage>150</fpage>
+          <lpage>152</lpage>
+          <pub-id pub-id-type="pmid">24522584</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b11-nss-9-011">
+        <label>11</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Bianchi</surname>
+              <given-names>MT</given-names>
+            </name>
+            <name>
+              <surname>Phillips</surname>
+              <given-names>AJ</given-names>
+            </name>
+            <name>
+              <surname>Wang</surname>
+              <given-names>W</given-names>
+            </name>
+            <name>
+              <surname>Klerman</surname>
+              <given-names>EB</given-names>
+            </name>
+          </person-group>
+          <article-title>Statistics for Sleep and Biological Rhythms Research: from distributions and displays to correlation and causation</article-title>
+          <source>J Biol Rhythms</source>
+          <comment>Epub</comment>
+          <year>2016</year>
+          <month>10</month>
+          <day>24</day>
+        </element-citation>
+      </ref>
+      <ref id="b12-nss-9-011">
+        <label>12</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Klerman</surname>
+              <given-names>EB</given-names>
+            </name>
+            <name>
+              <surname>Wang</surname>
+              <given-names>W</given-names>
+            </name>
+            <name>
+              <surname>Phillips</surname>
+              <given-names>AJ</given-names>
+            </name>
+            <name>
+              <surname>Bianchi</surname>
+              <given-names>MT</given-names>
+            </name>
+          </person-group>
+          <article-title>Statistics for Sleep and Biological Rhythms Research: longitudinal analysis of biological rhythms data</article-title>
+          <source>J Biol Rhythms</source>
+          <comment>Epub</comment>
+          <year>2016</year>
+          <month>10</month>
+          <day>24</day>
+        </element-citation>
+      </ref>
+      <ref id="b13-nss-9-011">
+        <label>13</label>
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Huck</surname>
+              <given-names>S</given-names>
+            </name>
+          </person-group>
+          <source>Statistical Misconceptions</source>
+          <publisher-loc>Abingdon-on-Thames</publisher-loc>
+          <publisher-name>Routledge</publisher-name>
+          <year>2008</year>
+        </element-citation>
+      </ref>
+      <ref id="b14-nss-9-011">
+        <label>14</label>
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Ziliak</surname>
+              <given-names>ST</given-names>
+            </name>
+            <name>
+              <surname>McCloskey</surname>
+              <given-names>DN</given-names>
+            </name>
+          </person-group>
+          <source>The Cult of Statistical Significance</source>
+          <publisher-loc>Ann Arbor, MI</publisher-loc>
+          <publisher-name>The University of Michigan Press</publisher-name>
+          <year>2008</year>
+        </element-citation>
+      </ref>
+      <ref id="b15-nss-9-011">
+        <label>15</label>
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Reinhart</surname>
+              <given-names>A</given-names>
+            </name>
+          </person-group>
+          <source>Statistics Done Wrong: The Woefully Complete Guide</source>
+          <publisher-loc>San Francisco, CA</publisher-loc>
+          <publisher-name>No Starch Press</publisher-name>
+          <year>2015</year>
+        </element-citation>
+      </ref>
+      <ref id="b16-nss-9-011">
+        <label>16</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Redline</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Dean</surname>
+              <given-names>D</given-names>
+              <suffix>3rd</suffix>
+            </name>
+            <name>
+              <surname>Sanders</surname>
+              <given-names>MH</given-names>
+            </name>
+          </person-group>
+          <article-title>Entering the era of “big data”: getting our metrics right</article-title>
+          <source>Sleep</source>
+          <year>2013</year>
+          <volume>36</volume>
+          <issue>4</issue>
+          <fpage>465</fpage>
+          <lpage>469</lpage>
+          <pub-id pub-id-type="pmid">23564993</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b17-nss-9-011">
+        <label>17</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Silber</surname>
+              <given-names>MH</given-names>
+            </name>
+            <name>
+              <surname>Ancoli-Israel</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Bonnet</surname>
+              <given-names>MH</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>The visual scoring of sleep in adults</article-title>
+          <source>J Clin Sleep Med</source>
+          <year>2007</year>
+          <volume>3</volume>
+          <issue>2</issue>
+          <fpage>121</fpage>
+          <lpage>131</lpage>
+          <pub-id pub-id-type="pmid">17557422</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b18-nss-9-011">
+        <label>18</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Babadi</surname>
+              <given-names>B</given-names>
+            </name>
+            <name>
+              <surname>Brown</surname>
+              <given-names>EN</given-names>
+            </name>
+          </person-group>
+          <article-title>A review of multitaper spectral analysis</article-title>
+          <source>IEEE Trans Biomed Eng</source>
+          <year>2014</year>
+          <volume>61</volume>
+          <issue>5</issue>
+          <fpage>1555</fpage>
+          <lpage>1564</lpage>
+          <pub-id pub-id-type="pmid">24759284</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b19-nss-9-011">
+        <label>19</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Stein</surname>
+              <given-names>PK</given-names>
+            </name>
+            <name>
+              <surname>Pu</surname>
+              <given-names>Y</given-names>
+            </name>
+          </person-group>
+          <article-title>Heart rate variability, sleep and sleep disorders</article-title>
+          <source>Sleep Med Rev</source>
+          <year>2012</year>
+          <volume>16</volume>
+          <issue>1</issue>
+          <fpage>47</fpage>
+          <lpage>66</lpage>
+          <pub-id pub-id-type="pmid">21658979</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b20-nss-9-011">
+        <label>20</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Citi</surname>
+              <given-names>L</given-names>
+            </name>
+            <name>
+              <surname>Bianchi</surname>
+              <given-names>MT</given-names>
+            </name>
+            <name>
+              <surname>Klerman</surname>
+              <given-names>EB</given-names>
+            </name>
+            <name>
+              <surname>Barbieri</surname>
+              <given-names>R</given-names>
+            </name>
+          </person-group>
+          <article-title>Instantaneous monitoring of sleep fragmentation by point process heart rate variability and respiratory dynamics</article-title>
+          <source>Conf Proc IEEE Eng Med Biol Soc</source>
+          <year>2011</year>
+          <volume>2011</volume>
+          <fpage>7735</fpage>
+          <lpage>7738</lpage>
+          <pub-id pub-id-type="pmid">22256131</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b21-nss-9-011">
+        <label>21</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Thomas</surname>
+              <given-names>RJ</given-names>
+            </name>
+            <name>
+              <surname>Mietus</surname>
+              <given-names>JE</given-names>
+            </name>
+            <name>
+              <surname>Peng</surname>
+              <given-names>CK</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Differentiating obstructive from central and complex sleep apnea using an automated electrocardiogram-based method</article-title>
+          <source>Sleep</source>
+          <year>2007</year>
+          <volume>30</volume>
+          <issue>12</issue>
+          <fpage>1756</fpage>
+          <lpage>1769</lpage>
+          <pub-id pub-id-type="pmid">18246985</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b22-nss-9-011">
+        <label>22</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Chervin</surname>
+              <given-names>RD</given-names>
+            </name>
+            <name>
+              <surname>Shelgikar</surname>
+              <given-names>AV</given-names>
+            </name>
+            <name>
+              <surname>Burns</surname>
+              <given-names>JW</given-names>
+            </name>
+          </person-group>
+          <article-title>Respiratory cycle-related EEG changes: response to CPAP</article-title>
+          <source>Sleep</source>
+          <year>2012</year>
+          <volume>35</volume>
+          <issue>2</issue>
+          <fpage>203</fpage>
+          <lpage>209</lpage>
+          <pub-id pub-id-type="pmid">22294810</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b23-nss-9-011">
+        <label>23</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Chervin</surname>
+              <given-names>RD</given-names>
+            </name>
+            <name>
+              <surname>Burns</surname>
+              <given-names>JW</given-names>
+            </name>
+            <name>
+              <surname>Ruzicka</surname>
+              <given-names>DL</given-names>
+            </name>
+          </person-group>
+          <article-title>Electroencephalographic changes during respiratory cycles predict sleepiness in sleep apnea</article-title>
+          <source>Am J Respir Crit Care Med</source>
+          <year>2005</year>
+          <volume>171</volume>
+          <issue>6</issue>
+          <fpage>652</fpage>
+          <lpage>658</lpage>
+          <pub-id pub-id-type="pmid">15591467</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b24-nss-9-011">
+        <label>24</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>McKinney</surname>
+              <given-names>SM</given-names>
+            </name>
+            <name>
+              <surname>Dang-Vu</surname>
+              <given-names>TT</given-names>
+            </name>
+            <name>
+              <surname>Buxton</surname>
+              <given-names>OM</given-names>
+            </name>
+            <name>
+              <surname>Solet</surname>
+              <given-names>JM</given-names>
+            </name>
+            <name>
+              <surname>Ellenbogen</surname>
+              <given-names>JM</given-names>
+            </name>
+          </person-group>
+          <article-title>Covert waking brain activity reveals instantaneous sleep depth</article-title>
+          <source>PLoS One</source>
+          <year>2011</year>
+          <volume>6</volume>
+          <issue>3</issue>
+          <fpage>e17351</fpage>
+          <pub-id pub-id-type="pmid">21408616</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b25-nss-9-011">
+        <label>25</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Dang-Vu</surname>
+              <given-names>TT</given-names>
+            </name>
+            <name>
+              <surname>McKinney</surname>
+              <given-names>SM</given-names>
+            </name>
+            <name>
+              <surname>Buxton</surname>
+              <given-names>OM</given-names>
+            </name>
+            <name>
+              <surname>Solet</surname>
+              <given-names>JM</given-names>
+            </name>
+            <name>
+              <surname>Ellenbogen</surname>
+              <given-names>JM</given-names>
+            </name>
+          </person-group>
+          <article-title>Spontaneous brain rhythms predict sleep stability in the face of noise</article-title>
+          <source>Curr Biol</source>
+          <year>2010</year>
+          <volume>20</volume>
+          <issue>15</issue>
+          <fpage>R626</fpage>
+          <lpage>R627</lpage>
+          <pub-id pub-id-type="pmid">20692606</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b26-nss-9-011">
+        <label>26</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Sforza</surname>
+              <given-names>E</given-names>
+            </name>
+            <name>
+              <surname>Pichot</surname>
+              <given-names>V</given-names>
+            </name>
+            <name>
+              <surname>Barthelemy</surname>
+              <given-names>JC</given-names>
+            </name>
+            <name>
+              <surname>Haba-Rubio</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Roche</surname>
+              <given-names>F</given-names>
+            </name>
+          </person-group>
+          <article-title>Cardiovascular variability during periodic leg movements: a spectral analysis approach</article-title>
+          <source>Clin Neurophysiol</source>
+          <year>2005</year>
+          <volume>116</volume>
+          <issue>5</issue>
+          <fpage>1096</fpage>
+          <lpage>1104</lpage>
+          <pub-id pub-id-type="pmid">15826850</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b27-nss-9-011">
+        <label>27</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Sforza</surname>
+              <given-names>E</given-names>
+            </name>
+            <name>
+              <surname>Juony</surname>
+              <given-names>C</given-names>
+            </name>
+            <name>
+              <surname>Ibanez</surname>
+              <given-names>V</given-names>
+            </name>
+          </person-group>
+          <article-title>Time-dependent variation in cerebral and autonomic activity during periodic leg movements in sleep: implications for arousal mechanisms</article-title>
+          <source>Clin Neurophysiol</source>
+          <year>2002</year>
+          <volume>113</volume>
+          <issue>6</issue>
+          <fpage>883</fpage>
+          <lpage>891</lpage>
+          <pub-id pub-id-type="pmid">12048047</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b28-nss-9-011">
+        <label>28</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Aritake</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Blackwell</surname>
+              <given-names>T</given-names>
+            </name>
+            <name>
+              <surname>Peters</surname>
+              <given-names>KW</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Prevalence and associations of respiratory-related leg movements: the MrOS sleep study</article-title>
+          <source>Sleep Med</source>
+          <year>2015</year>
+          <volume>16</volume>
+          <issue>10</issue>
+          <fpage>1236</fpage>
+          <lpage>1244</lpage>
+          <pub-id pub-id-type="pmid">26429752</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b29-nss-9-011">
+        <label>29</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Buxton</surname>
+              <given-names>OM</given-names>
+            </name>
+            <name>
+              <surname>Ellenbogen</surname>
+              <given-names>JM</given-names>
+            </name>
+            <name>
+              <surname>Wang</surname>
+              <given-names>W</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Sleep disruption due to hospital noises: a prospective evaluation</article-title>
+          <source>Ann Intern Med</source>
+          <year>2012</year>
+          <volume>157</volume>
+          <issue>3</issue>
+          <fpage>170</fpage>
+          <lpage>179</lpage>
+          <pub-id pub-id-type="pmid">22868834</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b30-nss-9-011">
+        <label>30</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Winkelman</surname>
+              <given-names>JW</given-names>
+            </name>
+          </person-group>
+          <article-title>The evoked heart rate response to periodic leg movements of sleep</article-title>
+          <source>Sleep</source>
+          <year>1999</year>
+          <volume>22</volume>
+          <issue>5</issue>
+          <fpage>575</fpage>
+          <lpage>580</lpage>
+          <pub-id pub-id-type="pmid">10450592</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b31-nss-9-011">
+        <label>31</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Younes</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Hanly</surname>
+              <given-names>PJ</given-names>
+            </name>
+          </person-group>
+          <article-title>Immediate postarousal sleep dynamics: an important determinant of sleep stability in obstructive sleep apnea</article-title>
+          <source>J Appl Physiol (1985)</source>
+          <year>2016</year>
+          <volume>120</volume>
+          <issue>7</issue>
+          <fpage>801</fpage>
+          <lpage>808</lpage>
+          <pub-id pub-id-type="pmid">26718786</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b32-nss-9-011">
+        <label>32</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Azarbarzin</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Ostrowski</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Hanly</surname>
+              <given-names>P</given-names>
+            </name>
+            <name>
+              <surname>Younes</surname>
+              <given-names>M</given-names>
+            </name>
+          </person-group>
+          <article-title>Relationship between arousal intensity and heart rate response to arousal</article-title>
+          <source>Sleep</source>
+          <year>2014</year>
+          <volume>37</volume>
+          <issue>4</issue>
+          <fpage>645</fpage>
+          <lpage>653</lpage>
+          <pub-id pub-id-type="pmid">24899756</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b33-nss-9-011">
+        <label>33</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Ohayon</surname>
+              <given-names>MM</given-names>
+            </name>
+            <name>
+              <surname>Carskadon</surname>
+              <given-names>MA</given-names>
+            </name>
+            <name>
+              <surname>Guilleminault</surname>
+              <given-names>C</given-names>
+            </name>
+            <name>
+              <surname>Vitiello</surname>
+              <given-names>MV</given-names>
+            </name>
+          </person-group>
+          <article-title>Meta-analysis of quantitative sleep parameters from childhood to old age in healthy individuals: developing normative sleep values across the human lifespan</article-title>
+          <source>Sleep</source>
+          <year>2004</year>
+          <volume>27</volume>
+          <issue>7</issue>
+          <fpage>1255</fpage>
+          <lpage>1273</lpage>
+          <pub-id pub-id-type="pmid">15586779</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b34-nss-9-011">
+        <label>34</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Mayers</surname>
+              <given-names>AG</given-names>
+            </name>
+            <name>
+              <surname>Baldwin</surname>
+              <given-names>DS</given-names>
+            </name>
+          </person-group>
+          <article-title>Antidepressants and their effect on sleep</article-title>
+          <source>Hum Psychopharmacol</source>
+          <year>2005</year>
+          <volume>20</volume>
+          <issue>8</issue>
+          <fpage>533</fpage>
+          <lpage>559</lpage>
+          <pub-id pub-id-type="pmid">16229049</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b35-nss-9-011">
+        <label>35</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Sullivan</surname>
+              <given-names>SS</given-names>
+            </name>
+          </person-group>
+          <article-title>Insomnia pharmacology</article-title>
+          <source>Med Clin North Am</source>
+          <year>2010</year>
+          <volume>94</volume>
+          <issue>3</issue>
+          <fpage>563</fpage>
+          <lpage>580</lpage>
+          <pub-id pub-id-type="pmid">20451033</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b36-nss-9-011">
+        <label>36</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Wesensten</surname>
+              <given-names>NJ</given-names>
+            </name>
+            <name>
+              <surname>Balkin</surname>
+              <given-names>TJ</given-names>
+            </name>
+            <name>
+              <surname>Belenky</surname>
+              <given-names>G</given-names>
+            </name>
+          </person-group>
+          <article-title>Does sleep fragmentation impact recuperation? A review and reanalysis</article-title>
+          <source>J Sleep Res</source>
+          <year>1999</year>
+          <volume>8</volume>
+          <issue>4</issue>
+          <fpage>237</fpage>
+          <lpage>245</lpage>
+          <pub-id pub-id-type="pmid">10646163</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b37-nss-9-011">
+        <label>37</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Thomas</surname>
+              <given-names>RJ</given-names>
+            </name>
+          </person-group>
+          <article-title>Sleep fragmentation and arousals from sleep-time scales, associations, and implications</article-title>
+          <source>Clin Neurophysiol</source>
+          <year>2006</year>
+          <volume>117</volume>
+          <issue>4</issue>
+          <fpage>707</fpage>
+          <lpage>711</lpage>
+          <pub-id pub-id-type="pmid">16500146</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b38-nss-9-011">
+        <label>38</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Bianchi</surname>
+              <given-names>MT</given-names>
+            </name>
+            <name>
+              <surname>Thomas</surname>
+              <given-names>RJ</given-names>
+            </name>
+          </person-group>
+          <article-title>Technical advances in the characterization of the complexity of sleep and sleep disorders</article-title>
+          <source>Prog Neuropsychopharmacol Biol Psychiatry</source>
+          <year>2013</year>
+          <volume>45</volume>
+          <fpage>277</fpage>
+          <lpage>286</lpage>
+          <pub-id pub-id-type="pmid">23174482</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b39-nss-9-011">
+        <label>39</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Bianchi</surname>
+              <given-names>MT</given-names>
+            </name>
+            <name>
+              <surname>Cash</surname>
+              <given-names>SS</given-names>
+            </name>
+            <name>
+              <surname>Mietus</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Peng</surname>
+              <given-names>CK</given-names>
+            </name>
+            <name>
+              <surname>Thomas</surname>
+              <given-names>R</given-names>
+            </name>
+          </person-group>
+          <article-title>Obstructive sleep apnea alters sleep stage transition dynamics</article-title>
+          <source>PLoS One</source>
+          <year>2010</year>
+          <volume>5</volume>
+          <issue>6</issue>
+          <fpage>e11356</fpage>
+          <pub-id pub-id-type="pmid">20596541</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b40-nss-9-011">
+        <label>40</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Norman</surname>
+              <given-names>RG</given-names>
+            </name>
+            <name>
+              <surname>Scott</surname>
+              <given-names>MA</given-names>
+            </name>
+            <name>
+              <surname>Ayappa</surname>
+              <given-names>I</given-names>
+            </name>
+            <name>
+              <surname>Walsleben</surname>
+              <given-names>JA</given-names>
+            </name>
+            <name>
+              <surname>Rapoport</surname>
+              <given-names>DM</given-names>
+            </name>
+          </person-group>
+          <article-title>Sleep continuity measured by survival curve analysis</article-title>
+          <source>Sleep</source>
+          <year>2006</year>
+          <volume>29</volume>
+          <issue>12</issue>
+          <fpage>1625</fpage>
+          <lpage>1631</lpage>
+          <pub-id pub-id-type="pmid">17252894</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b41-nss-9-011">
+        <label>41</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Swihart</surname>
+              <given-names>BJ</given-names>
+            </name>
+            <name>
+              <surname>Caffo</surname>
+              <given-names>B</given-names>
+            </name>
+            <name>
+              <surname>Bandeen-Roche</surname>
+              <given-names>K</given-names>
+            </name>
+            <name>
+              <surname>Punjabi</surname>
+              <given-names>NM</given-names>
+            </name>
+          </person-group>
+          <article-title>Characterizing sleep structure using the hypnogram</article-title>
+          <source>J Clin Sleep Med</source>
+          <year>2008</year>
+          <volume>4</volume>
+          <issue>4</issue>
+          <fpage>349</fpage>
+          <lpage>355</lpage>
+          <pub-id pub-id-type="pmid">18763427</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b42-nss-9-011">
+        <label>42</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Laffan</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Caffo</surname>
+              <given-names>B</given-names>
+            </name>
+            <name>
+              <surname>Swihart</surname>
+              <given-names>BJ</given-names>
+            </name>
+            <name>
+              <surname>Punjabi</surname>
+              <given-names>NM</given-names>
+            </name>
+          </person-group>
+          <article-title>Utility of sleep stage transitions in assessing sleep continuity</article-title>
+          <source>Sleep</source>
+          <year>2010</year>
+          <volume>33</volume>
+          <issue>12</issue>
+          <fpage>1681</fpage>
+          <lpage>1686</lpage>
+          <pub-id pub-id-type="pmid">21120130</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b43-nss-9-011">
+        <label>43</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Klerman</surname>
+              <given-names>EB</given-names>
+            </name>
+            <name>
+              <surname>Davis</surname>
+              <given-names>JB</given-names>
+            </name>
+            <name>
+              <surname>Duffy</surname>
+              <given-names>JF</given-names>
+            </name>
+            <name>
+              <surname>Dijk</surname>
+              <given-names>DJ</given-names>
+            </name>
+            <name>
+              <surname>Kronauer</surname>
+              <given-names>RE</given-names>
+            </name>
+          </person-group>
+          <article-title>Older people awaken more frequently but fall back asleep at the same rate as younger people</article-title>
+          <source>Sleep</source>
+          <year>2004</year>
+          <volume>27</volume>
+          <issue>4</issue>
+          <fpage>793</fpage>
+          <lpage>798</lpage>
+          <pub-id pub-id-type="pmid">15283016</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b44-nss-9-011">
+        <label>44</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kishi</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Struzik</surname>
+              <given-names>ZR</given-names>
+            </name>
+            <name>
+              <surname>Natelson</surname>
+              <given-names>BH</given-names>
+            </name>
+            <name>
+              <surname>Togo</surname>
+              <given-names>F</given-names>
+            </name>
+            <name>
+              <surname>Yamamoto</surname>
+              <given-names>Y</given-names>
+            </name>
+          </person-group>
+          <article-title>Dynamics of sleep stage transitions in healthy humans and patients with chronic fatigue syndrome</article-title>
+          <source>Am J Physiol Regul Integr Comp Physiol</source>
+          <year>2008</year>
+          <volume>294</volume>
+          <issue>6</issue>
+          <fpage>R1980</fpage>
+          <lpage>R1987</lpage>
+          <pub-id pub-id-type="pmid">18417644</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b45-nss-9-011">
+        <label>45</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Bianchi</surname>
+              <given-names>MT</given-names>
+            </name>
+            <name>
+              <surname>Eiseman</surname>
+              <given-names>NA</given-names>
+            </name>
+            <name>
+              <surname>Cash</surname>
+              <given-names>SS</given-names>
+            </name>
+            <name>
+              <surname>Mietus</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Peng</surname>
+              <given-names>CK</given-names>
+            </name>
+            <name>
+              <surname>Thomas</surname>
+              <given-names>RJ</given-names>
+            </name>
+          </person-group>
+          <article-title>Probabilistic sleep architecture models in patients with and without sleep apnea</article-title>
+          <source>J Sleep Res</source>
+          <year>2012</year>
+          <volume>21</volume>
+          <issue>3</issue>
+          <fpage>330</fpage>
+          <lpage>341</lpage>
+          <pub-id pub-id-type="pmid">21955148</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b46-nss-9-011">
+        <label>46</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Lo</surname>
+              <given-names>CC</given-names>
+            </name>
+            <name>
+              <surname>Chou</surname>
+              <given-names>T</given-names>
+            </name>
+            <name>
+              <surname>Penzel</surname>
+              <given-names>T</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Common scale-invariant patterns of sleep-wake transitions across mammalian species</article-title>
+          <source>Proc Natl Acad Sci U S A</source>
+          <year>2004</year>
+          <volume>101</volume>
+          <issue>50</issue>
+          <fpage>17545</fpage>
+          <lpage>17548</lpage>
+          <pub-id pub-id-type="pmid">15583127</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b47-nss-9-011">
+        <label>47</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Haba-Rubio</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Ibanez</surname>
+              <given-names>V</given-names>
+            </name>
+            <name>
+              <surname>Sforza</surname>
+              <given-names>E</given-names>
+            </name>
+          </person-group>
+          <article-title>An alternative measure of sleep fragmentation in clinical practice: the sleep fragmentation index</article-title>
+          <source>Sleep Med</source>
+          <year>2004</year>
+          <volume>5</volume>
+          <issue>6</issue>
+          <fpage>577</fpage>
+          <lpage>581</lpage>
+          <pub-id pub-id-type="pmid">15511704</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b48-nss-9-011">
+        <label>48</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Bianchi</surname>
+              <given-names>MT</given-names>
+            </name>
+            <name>
+              <surname>Kim</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Galvan</surname>
+              <given-names>T</given-names>
+            </name>
+            <name>
+              <surname>White</surname>
+              <given-names>DP</given-names>
+            </name>
+            <name>
+              <surname>Joffe</surname>
+              <given-names>H</given-names>
+            </name>
+          </person-group>
+          <article-title>Nocturnal hot flashes: relationship to objective awakenings and sleep stage transitions</article-title>
+          <source>J Clin Sleep Med</source>
+          <year>2016</year>
+          <volume>12</volume>
+          <issue>7</issue>
+          <fpage>1003</fpage>
+          <lpage>1009</lpage>
+          <pub-id pub-id-type="pmid">26951410</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b49-nss-9-011">
+        <label>49</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Chu-Shore</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Westover</surname>
+              <given-names>MB</given-names>
+            </name>
+            <name>
+              <surname>Bianchi</surname>
+              <given-names>MT</given-names>
+            </name>
+          </person-group>
+          <article-title>Power law versus exponential state transition dynamics: application to sleep-wake architecture</article-title>
+          <source>PLoS One</source>
+          <year>2010</year>
+          <volume>5</volume>
+          <issue>12</issue>
+          <fpage>e14204</fpage>
+          <pub-id pub-id-type="pmid">21151998</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b50-nss-9-011">
+        <label>50</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kudesia</surname>
+              <given-names>RS</given-names>
+            </name>
+            <name>
+              <surname>Bianchi</surname>
+              <given-names>MT</given-names>
+            </name>
+          </person-group>
+          <article-title>Decreased nocturnal awakenings in young adults performing Bikram yoga: a Low-Constraint Home Sleep Monitoring Study</article-title>
+          <source>ISRN Neurol</source>
+          <year>2012</year>
+          <volume>2012</volume>
+          <fpage>153745</fpage>
+          <pub-id pub-id-type="pmid">22577578</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b51-nss-9-011">
+        <label>51</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Saline</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Goparaju</surname>
+              <given-names>B</given-names>
+            </name>
+            <name>
+              <surname>Bianchi</surname>
+              <given-names>MT</given-names>
+            </name>
+          </person-group>
+          <article-title>Sleep fragmentation does not explain misperception of latency or total sleep time</article-title>
+          <source>J Clin Sleep Med</source>
+          <year>2016</year>
+          <volume>12</volume>
+          <issue>9</issue>
+          <fpage>1245</fpage>
+          <lpage>1255</lpage>
+          <pub-id pub-id-type="pmid">27250816</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b52-nss-9-011">
+        <label>52</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Grigg-Damberger</surname>
+              <given-names>MM</given-names>
+            </name>
+          </person-group>
+          <article-title>The AASM scoring manual: a critical appraisal</article-title>
+          <source>Curr Opin Pulm Med</source>
+          <year>2009</year>
+          <volume>15</volume>
+          <issue>6</issue>
+          <fpage>540</fpage>
+          <lpage>549</lpage>
+          <pub-id pub-id-type="pmid">19738470</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b53-nss-9-011">
+        <label>53</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Parrino</surname>
+              <given-names>L</given-names>
+            </name>
+            <name>
+              <surname>Ferri</surname>
+              <given-names>R</given-names>
+            </name>
+            <name>
+              <surname>Zucconi</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Fanfulla</surname>
+              <given-names>F</given-names>
+            </name>
+          </person-group>
+          <article-title>Commentary from the Italian Association of Sleep Medicine on the AASM manual for the scoring of sleep and associated events: for debate and discussion</article-title>
+          <source>Sleep Med</source>
+          <year>2009</year>
+          <volume>10</volume>
+          <issue>7</issue>
+          <fpage>799</fpage>
+          <lpage>808</lpage>
+          <pub-id pub-id-type="pmid">19564132</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b54-nss-9-011">
+        <label>54</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Redline</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Budhiraja</surname>
+              <given-names>R</given-names>
+            </name>
+            <name>
+              <surname>Kapur</surname>
+              <given-names>V</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>The scoring of respiratory events in sleep: reliability and validity</article-title>
+          <source>J Clin Sleep Med</source>
+          <year>2007</year>
+          <volume>3</volume>
+          <issue>2</issue>
+          <fpage>169</fpage>
+          <lpage>200</lpage>
+          <pub-id pub-id-type="pmid">17557426</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b55-nss-9-011">
+        <label>55</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Ruehland</surname>
+              <given-names>WR</given-names>
+            </name>
+            <name>
+              <surname>Rochford</surname>
+              <given-names>PD</given-names>
+            </name>
+            <name>
+              <surname>O’Donoghue</surname>
+              <given-names>FJ</given-names>
+            </name>
+            <name>
+              <surname>Pierce</surname>
+              <given-names>RJ</given-names>
+            </name>
+            <name>
+              <surname>Singh</surname>
+              <given-names>P</given-names>
+            </name>
+            <name>
+              <surname>Thornton</surname>
+              <given-names>AT</given-names>
+            </name>
+          </person-group>
+          <article-title>The new AASM criteria for scoring hypopneas: impact on the apnea hypopnea index</article-title>
+          <source>Sleep</source>
+          <year>2009</year>
+          <volume>32</volume>
+          <issue>2</issue>
+          <fpage>150</fpage>
+          <lpage>157</lpage>
+          <pub-id pub-id-type="pmid">19238801</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b56-nss-9-011">
+        <label>56</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Aarab</surname>
+              <given-names>G</given-names>
+            </name>
+            <name>
+              <surname>Lobbezoo</surname>
+              <given-names>F</given-names>
+            </name>
+            <name>
+              <surname>Hamburger</surname>
+              <given-names>HL</given-names>
+            </name>
+            <name>
+              <surname>Naeije</surname>
+              <given-names>M</given-names>
+            </name>
+          </person-group>
+          <article-title>Variability in the apnea-hypopnea index and its consequences for diagnosis and therapy evaluation</article-title>
+          <source>Respiration</source>
+          <year>2009</year>
+          <volume>77</volume>
+          <issue>1</issue>
+          <fpage>32</fpage>
+          <lpage>37</lpage>
+          <pub-id pub-id-type="pmid">18957843</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b57-nss-9-011">
+        <label>57</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Ahmadi</surname>
+              <given-names>N</given-names>
+            </name>
+            <name>
+              <surname>Shapiro</surname>
+              <given-names>GK</given-names>
+            </name>
+            <name>
+              <surname>Chung</surname>
+              <given-names>SA</given-names>
+            </name>
+            <name>
+              <surname>Shapiro</surname>
+              <given-names>CM</given-names>
+            </name>
+          </person-group>
+          <article-title>Clinical diagnosis of sleep apnea based on single night of polysomnography vs. two nights of polysomnography</article-title>
+          <source>Sleep Breath</source>
+          <year>2009</year>
+          <volume>13</volume>
+          <issue>3</issue>
+          <fpage>221</fpage>
+          <lpage>226</lpage>
+          <pub-id pub-id-type="pmid">19067010</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b58-nss-9-011">
+        <label>58</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Le Bon</surname>
+              <given-names>O</given-names>
+            </name>
+            <name>
+              <surname>Hoffmann</surname>
+              <given-names>G</given-names>
+            </name>
+            <name>
+              <surname>Tecco</surname>
+              <given-names>J</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Mild to moderate sleep respiratory events: one negative night may not be enough</article-title>
+          <source>Chest</source>
+          <year>2000</year>
+          <volume>118</volume>
+          <issue>2</issue>
+          <fpage>353</fpage>
+          <lpage>359</lpage>
+          <pub-id pub-id-type="pmid">10936124</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b59-nss-9-011">
+        <label>59</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Levendowski</surname>
+              <given-names>D</given-names>
+            </name>
+            <name>
+              <surname>Steward</surname>
+              <given-names>D</given-names>
+            </name>
+            <name>
+              <surname>Woodson</surname>
+              <given-names>BT</given-names>
+            </name>
+            <name>
+              <surname>Olmstead</surname>
+              <given-names>R</given-names>
+            </name>
+            <name>
+              <surname>Popovic</surname>
+              <given-names>D</given-names>
+            </name>
+            <name>
+              <surname>Westbrook</surname>
+              <given-names>P</given-names>
+            </name>
+          </person-group>
+          <article-title>The impact of obstructive sleep apnea variability measured in-lab versus in-home on sample size calculations</article-title>
+          <source>Int Arch Med</source>
+          <year>2009</year>
+          <volume>2</volume>
+          <issue>1</issue>
+          <fpage>2</fpage>
+          <pub-id pub-id-type="pmid">19121211</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b60-nss-9-011">
+        <label>60</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Mosko</surname>
+              <given-names>SS</given-names>
+            </name>
+            <name>
+              <surname>Dickel</surname>
+              <given-names>MJ</given-names>
+            </name>
+            <name>
+              <surname>Ashurst</surname>
+              <given-names>J</given-names>
+            </name>
+          </person-group>
+          <article-title>Night-to-night variability in sleep apnea and sleep-related periodic leg movements in the elderly</article-title>
+          <source>Sleep</source>
+          <year>1988</year>
+          <volume>11</volume>
+          <issue>4</issue>
+          <fpage>340</fpage>
+          <lpage>348</lpage>
+          <pub-id pub-id-type="pmid">3206054</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b61-nss-9-011">
+        <label>61</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Stepnowsky</surname>
+              <given-names>CJ</given-names>
+              <suffix>Jr</suffix>
+            </name>
+            <name>
+              <surname>Orr</surname>
+              <given-names>WC</given-names>
+            </name>
+            <name>
+              <surname>Davidson</surname>
+              <given-names>TM</given-names>
+            </name>
+          </person-group>
+          <article-title>Nightly variability of sleep-disordered breathing measured over 3 nights</article-title>
+          <source>Otolaryngol Head Neck Surg</source>
+          <year>2004</year>
+          <volume>131</volume>
+          <issue>6</issue>
+          <fpage>837</fpage>
+          <lpage>843</lpage>
+          <pub-id pub-id-type="pmid">15577777</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b62-nss-9-011">
+        <label>62</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Riha</surname>
+              <given-names>RL</given-names>
+            </name>
+            <name>
+              <surname>Gislasson</surname>
+              <given-names>T</given-names>
+            </name>
+            <name>
+              <surname>Diefenbach</surname>
+              <given-names>K</given-names>
+            </name>
+          </person-group>
+          <article-title>The phenotype and genotype of adult obstructive sleep apnoea/hypopnoea syndrome</article-title>
+          <source>Eur Respir J</source>
+          <year>2009</year>
+          <volume>33</volume>
+          <issue>3</issue>
+          <fpage>646</fpage>
+          <lpage>655</lpage>
+          <pub-id pub-id-type="pmid">19251800</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b63-nss-9-011">
+        <label>63</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Subramani</surname>
+              <given-names>Y</given-names>
+            </name>
+            <name>
+              <surname>Singh</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Wong</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Kushida</surname>
+              <given-names>CA</given-names>
+            </name>
+            <name>
+              <surname>Malhotra</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Chung</surname>
+              <given-names>F</given-names>
+            </name>
+          </person-group>
+          <article-title>Understanding phenotypes of obstructive sleep apnea: applications in anesthesia, surgery, and perioperative medicine</article-title>
+          <source>Anesth Analg</source>
+          <year>2017</year>
+          <volume>124</volume>
+          <issue>1</issue>
+          <fpage>179</fpage>
+          <lpage>191</lpage>
+          <pub-id pub-id-type="pmid">27861433</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b64-nss-9-011">
+        <label>64</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Zinchuk</surname>
+              <given-names>AV</given-names>
+            </name>
+            <name>
+              <surname>Gentry</surname>
+              <given-names>MJ</given-names>
+            </name>
+            <name>
+              <surname>Concato</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Yaggi</surname>
+              <given-names>HK</given-names>
+            </name>
+          </person-group>
+          <article-title>Phenotypes in obstructive sleep apnea: a definition, examples and evolution of approaches</article-title>
+          <source>Sleep Med Rev</source>
+          <comment>Epub</comment>
+          <year>2016</year>
+          <month>10</month>
+          <day>12</day>
+        </element-citation>
+      </ref>
+      <ref id="b65-nss-9-011">
+        <label>65</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Eiseman</surname>
+              <given-names>NA</given-names>
+            </name>
+            <name>
+              <surname>Westover</surname>
+              <given-names>MB</given-names>
+            </name>
+            <name>
+              <surname>Ellenbogen</surname>
+              <given-names>JM</given-names>
+            </name>
+            <name>
+              <surname>Bianchi</surname>
+              <given-names>MT</given-names>
+            </name>
+          </person-group>
+          <article-title>The impact of body posture and sleep stages on sleep apnea severity in adults</article-title>
+          <source>J Clin Sleep Med</source>
+          <year>2012</year>
+          <volume>8</volume>
+          <issue>6</issue>
+          <fpage>655A</fpage>
+          <lpage>666A</lpage>
+          <pub-id pub-id-type="pmid">23243399</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b66-nss-9-011">
+        <label>66</label>
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>de Vries</surname>
+              <given-names>N</given-names>
+            </name>
+          </person-group>
+          <source>Positional Therapy in Obstructive Sleep Apnea</source>
+          <publisher-loc>Berlin</publisher-loc>
+          <publisher-name>Springer</publisher-name>
+          <year>2014</year>
+        </element-citation>
+      </ref>
+      <ref id="b67-nss-9-011">
+        <label>67</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Levendowski</surname>
+              <given-names>DJ</given-names>
+            </name>
+            <name>
+              <surname>Seagraves</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Popovic</surname>
+              <given-names>D</given-names>
+            </name>
+            <name>
+              <surname>Westbrook</surname>
+              <given-names>PR</given-names>
+            </name>
+          </person-group>
+          <article-title>Assessment of a neck-based treatment and monitoring device for positional obstructive sleep apnea</article-title>
+          <source>J Clin Sleep Med</source>
+          <year>2014</year>
+          <volume>10</volume>
+          <issue>8</issue>
+          <fpage>863</fpage>
+          <lpage>871</lpage>
+          <pub-id pub-id-type="pmid">25126032</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b68-nss-9-011">
+        <label>68</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Russo</surname>
+              <given-names>K</given-names>
+            </name>
+            <name>
+              <surname>Bianchi</surname>
+              <given-names>MT</given-names>
+            </name>
+          </person-group>
+          <article-title>How reliable is self-reported body position during sleep?</article-title>
+          <source>J Clin Sleep Med</source>
+          <year>2016</year>
+          <volume>12</volume>
+          <issue>1</issue>
+          <fpage>127</fpage>
+          <lpage>128</lpage>
+          <pub-id pub-id-type="pmid">26518704</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b69-nss-9-011">
+        <label>69</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Appleton</surname>
+              <given-names>SL</given-names>
+            </name>
+            <name>
+              <surname>Vakulin</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Martin</surname>
+              <given-names>SA</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Hypertension is associated with undiagnosed OSA during rapid eye movement sleep</article-title>
+          <source>Chest</source>
+          <year>2016</year>
+          <volume>150</volume>
+          <issue>3</issue>
+          <fpage>495</fpage>
+          <lpage>505</lpage>
+          <pub-id pub-id-type="pmid">27001264</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b70-nss-9-011">
+        <label>70</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Morgenthaler</surname>
+              <given-names>TI</given-names>
+            </name>
+            <name>
+              <surname>Kapen</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Lee-Chiong</surname>
+              <given-names>T</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Practice parameters for the medical therapy of obstructive sleep apnea</article-title>
+          <source>Sleep</source>
+          <year>2006</year>
+          <volume>29</volume>
+          <issue>8</issue>
+          <fpage>1031</fpage>
+          <lpage>1035</lpage>
+          <pub-id pub-id-type="pmid">16944671</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b71-nss-9-011">
+        <label>71</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Shekleton</surname>
+              <given-names>JA</given-names>
+            </name>
+            <name>
+              <surname>Rogers</surname>
+              <given-names>NL</given-names>
+            </name>
+            <name>
+              <surname>Rajaratnam</surname>
+              <given-names>SM</given-names>
+            </name>
+          </person-group>
+          <article-title>Searching for the daytime impairments of primary insomnia</article-title>
+          <source>Sleep Med Rev</source>
+          <year>2010</year>
+          <volume>14</volume>
+          <issue>1</issue>
+          <fpage>47</fpage>
+          <lpage>60</lpage>
+          <pub-id pub-id-type="pmid">19963414</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b72-nss-9-011">
+        <label>72</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Bonnet</surname>
+              <given-names>MH</given-names>
+            </name>
+            <name>
+              <surname>Arand</surname>
+              <given-names>DL</given-names>
+            </name>
+          </person-group>
+          <article-title>Hyperarousal and insomnia: state of the science</article-title>
+          <source>Sleep Med Rev</source>
+          <year>2010</year>
+          <volume>14</volume>
+          <issue>1</issue>
+          <fpage>9</fpage>
+          <lpage>15</lpage>
+          <pub-id pub-id-type="pmid">19640748</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b73-nss-9-011">
+        <label>73</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Vgontzas</surname>
+              <given-names>AN</given-names>
+            </name>
+            <name>
+              <surname>Fernandez-Mendoza</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Liao</surname>
+              <given-names>D</given-names>
+            </name>
+            <name>
+              <surname>Bixler</surname>
+              <given-names>EO</given-names>
+            </name>
+          </person-group>
+          <article-title>Insomnia with objective short sleep duration: the most biologically severe phenotype of the disorder</article-title>
+          <source>Sleep Med Rev</source>
+          <year>2013</year>
+          <volume>17</volume>
+          <issue>4</issue>
+          <fpage>241</fpage>
+          <lpage>254</lpage>
+          <pub-id pub-id-type="pmid">23419741</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b74-nss-9-011">
+        <label>74</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Fernandez-Mendoza</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Shea</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Vgontzas</surname>
+              <given-names>AN</given-names>
+            </name>
+            <name>
+              <surname>Calhoun</surname>
+              <given-names>SL</given-names>
+            </name>
+            <name>
+              <surname>Liao</surname>
+              <given-names>D</given-names>
+            </name>
+            <name>
+              <surname>Bixler</surname>
+              <given-names>EO</given-names>
+            </name>
+          </person-group>
+          <article-title>Insomnia and incident depression: role of objective sleep duration and natural history</article-title>
+          <source>J Sleep Res</source>
+          <year>2015</year>
+          <volume>24</volume>
+          <issue>4</issue>
+          <fpage>390</fpage>
+          <lpage>398</lpage>
+          <pub-id pub-id-type="pmid">25728794</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b75-nss-9-011">
+        <label>75</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kurina</surname>
+              <given-names>LM</given-names>
+            </name>
+            <name>
+              <surname>McClintock</surname>
+              <given-names>MK</given-names>
+            </name>
+            <name>
+              <surname>Chen</surname>
+              <given-names>JH</given-names>
+            </name>
+            <name>
+              <surname>Waite</surname>
+              <given-names>LJ</given-names>
+            </name>
+            <name>
+              <surname>Thisted</surname>
+              <given-names>RA</given-names>
+            </name>
+            <name>
+              <surname>Lauderdale</surname>
+              <given-names>DS</given-names>
+            </name>
+          </person-group>
+          <article-title>Sleep duration and all-cause mortality: a critical review of measurement and associations</article-title>
+          <source>Ann Epidemiol</source>
+          <year>2013</year>
+          <volume>23</volume>
+          <issue>6</issue>
+          <fpage>361</fpage>
+          <lpage>370</lpage>
+          <pub-id pub-id-type="pmid">23622956</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b76-nss-9-011">
+        <label>76</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Fernandez-Mendoza</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Calhoun</surname>
+              <given-names>SL</given-names>
+            </name>
+            <name>
+              <surname>Bixler</surname>
+              <given-names>EO</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Sleep misperception and chronic insomnia in the general population: role of objective sleep duration and psychological profiles</article-title>
+          <source>Psychosom Med</source>
+          <year>2011</year>
+          <volume>73</volume>
+          <issue>1</issue>
+          <fpage>88</fpage>
+          <lpage>97</lpage>
+          <pub-id pub-id-type="pmid">20978224</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b77-nss-9-011">
+        <label>77</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Harvey</surname>
+              <given-names>AG</given-names>
+            </name>
+            <name>
+              <surname>Tang</surname>
+              <given-names>NK</given-names>
+            </name>
+          </person-group>
+          <article-title>(Mis)perception of sleep in insomnia: a puzzle and a resolution</article-title>
+          <source>Psychol Bull</source>
+          <year>2012</year>
+          <volume>138</volume>
+          <issue>1</issue>
+          <fpage>77</fpage>
+          <lpage>101</lpage>
+          <pub-id pub-id-type="pmid">21967449</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b78-nss-9-011">
+        <label>78</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Vanable</surname>
+              <given-names>PA</given-names>
+            </name>
+            <name>
+              <surname>Aikens</surname>
+              <given-names>JE</given-names>
+            </name>
+            <name>
+              <surname>Tadimeti</surname>
+              <given-names>L</given-names>
+            </name>
+            <name>
+              <surname>Caruana-Montaldo</surname>
+              <given-names>B</given-names>
+            </name>
+            <name>
+              <surname>Mendelson</surname>
+              <given-names>WB</given-names>
+            </name>
+          </person-group>
+          <article-title>Sleep latency and duration estimates among sleep disorder patients: variability as a function of sleep disorder diagnosis, sleep history, and psychological characteristics</article-title>
+          <source>Sleep</source>
+          <year>2000</year>
+          <volume>23</volume>
+          <issue>1</issue>
+          <fpage>71</fpage>
+          <lpage>79</lpage>
+          <pub-id pub-id-type="pmid">10678467</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b79-nss-9-011">
+        <label>79</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Bianchi</surname>
+              <given-names>MT</given-names>
+            </name>
+            <name>
+              <surname>Williams</surname>
+              <given-names>KL</given-names>
+            </name>
+            <name>
+              <surname>McKinney</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Ellenbogen</surname>
+              <given-names>JM</given-names>
+            </name>
+          </person-group>
+          <article-title>The subjective-objective mismatch in sleep perception among those with insomnia and sleep apnea</article-title>
+          <source>J Sleep Res</source>
+          <year>2013</year>
+          <volume>22</volume>
+          <issue>5</issue>
+          <fpage>557</fpage>
+          <lpage>568</lpage>
+          <pub-id pub-id-type="pmid">23521019</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b80-nss-9-011">
+        <label>80</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Fichten</surname>
+              <given-names>CS</given-names>
+            </name>
+            <name>
+              <surname>Creti</surname>
+              <given-names>L</given-names>
+            </name>
+            <name>
+              <surname>Amsel</surname>
+              <given-names>R</given-names>
+            </name>
+            <name>
+              <surname>Bailes</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Libman</surname>
+              <given-names>E</given-names>
+            </name>
+          </person-group>
+          <article-title>Time estimation in good and poor sleepers</article-title>
+          <source>J Behav Med</source>
+          <year>2005</year>
+          <volume>28</volume>
+          <issue>6</issue>
+          <fpage>537</fpage>
+          <lpage>553</lpage>
+          <pub-id pub-id-type="pmid">16320096</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b81-nss-9-011">
+        <label>81</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Alameddine</surname>
+              <given-names>Y</given-names>
+            </name>
+            <name>
+              <surname>Ellenbogen</surname>
+              <given-names>JM</given-names>
+            </name>
+            <name>
+              <surname>Bianchi</surname>
+              <given-names>MT</given-names>
+            </name>
+          </person-group>
+          <article-title>Sleep-wake time perception varies by direct or indirect query</article-title>
+          <source>J Clin Sleep Med</source>
+          <year>2015</year>
+          <volume>11</volume>
+          <issue>2</issue>
+          <fpage>123</fpage>
+          <lpage>129</lpage>
+          <pub-id pub-id-type="pmid">25406269</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b82-nss-9-011">
+        <label>82</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Ogilvie</surname>
+              <given-names>RD</given-names>
+            </name>
+          </person-group>
+          <article-title>The process of falling asleep</article-title>
+          <source>Sleep Med Rev</source>
+          <year>2001</year>
+          <volume>5</volume>
+          <issue>3</issue>
+          <fpage>247</fpage>
+          <lpage>270</lpage>
+          <pub-id pub-id-type="pmid">12530990</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b83-nss-9-011">
+        <label>83</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Prerau</surname>
+              <given-names>MJ</given-names>
+            </name>
+            <name>
+              <surname>Hartnack</surname>
+              <given-names>KE</given-names>
+            </name>
+            <name>
+              <surname>Obregon-Henao</surname>
+              <given-names>G</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Tracking the sleep onset process: an empirical model of behavioral and physiological dynamics</article-title>
+          <source>PLoS Comput Biol</source>
+          <year>2014</year>
+          <volume>10</volume>
+          <issue>10</issue>
+          <fpage>e1003866</fpage>
+          <pub-id pub-id-type="pmid">25275376</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b84-nss-9-011">
+        <label>84</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Eiseman</surname>
+              <given-names>NA</given-names>
+            </name>
+            <name>
+              <surname>Westover</surname>
+              <given-names>MB</given-names>
+            </name>
+            <name>
+              <surname>Mietus</surname>
+              <given-names>JE</given-names>
+            </name>
+            <name>
+              <surname>Thomas</surname>
+              <given-names>RJ</given-names>
+            </name>
+            <name>
+              <surname>Bianchi</surname>
+              <given-names>MT</given-names>
+            </name>
+          </person-group>
+          <article-title>Classification algorithms for predicting sleepiness and sleep apnea severity</article-title>
+          <source>J Sleep Res</source>
+          <year>2012</year>
+          <volume>21</volume>
+          <issue>1</issue>
+          <fpage>101</fpage>
+          <lpage>112</lpage>
+          <pub-id pub-id-type="pmid">21752133</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b85-nss-9-011">
+        <label>85</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Cismondi</surname>
+              <given-names>F</given-names>
+            </name>
+            <name>
+              <surname>Fialho</surname>
+              <given-names>AS</given-names>
+            </name>
+            <name>
+              <surname>Vieira</surname>
+              <given-names>SM</given-names>
+            </name>
+            <name>
+              <surname>Reti</surname>
+              <given-names>SR</given-names>
+            </name>
+            <name>
+              <surname>Sousa</surname>
+              <given-names>JM</given-names>
+            </name>
+            <name>
+              <surname>Finkelstein</surname>
+              <given-names>SN</given-names>
+            </name>
+          </person-group>
+          <article-title>Missing data in medical databases: impute, delete or classify?</article-title>
+          <source>Artif Intell Med</source>
+          <year>2013</year>
+          <volume>58</volume>
+          <issue>1</issue>
+          <fpage>63</fpage>
+          <lpage>72</lpage>
+          <pub-id pub-id-type="pmid">23428358</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b86-nss-9-011">
+        <label>86</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Louis</surname>
+              <given-names>JM</given-names>
+            </name>
+            <name>
+              <surname>Mogos</surname>
+              <given-names>MF</given-names>
+            </name>
+            <name>
+              <surname>Salemi</surname>
+              <given-names>JL</given-names>
+            </name>
+            <name>
+              <surname>Redline</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Salihu</surname>
+              <given-names>HM</given-names>
+            </name>
+          </person-group>
+          <article-title>Obstructive sleep apnea and severe maternal-infant morbidity/mortality in the United States, 1998–2009</article-title>
+          <source>Sleep</source>
+          <year>2014</year>
+          <volume>37</volume>
+          <issue>5</issue>
+          <fpage>843</fpage>
+          <lpage>849</lpage>
+          <pub-id pub-id-type="pmid">24790262</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b87-nss-9-011">
+        <label>87</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Czeisler</surname>
+              <given-names>CA</given-names>
+            </name>
+            <name>
+              <surname>Walsh</surname>
+              <given-names>JK</given-names>
+            </name>
+            <name>
+              <surname>Roth</surname>
+              <given-names>T</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Modafinil for excessive sleepiness associated with shift-work sleep disorder</article-title>
+          <source>N Engl J Med</source>
+          <year>2005</year>
+          <volume>353</volume>
+          <issue>5</issue>
+          <fpage>476</fpage>
+          <lpage>486</lpage>
+          <pub-id pub-id-type="pmid">16079371</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b88-nss-9-011">
+        <label>88</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Gottlieb</surname>
+              <given-names>DJ</given-names>
+            </name>
+            <name>
+              <surname>Whitney</surname>
+              <given-names>CW</given-names>
+            </name>
+            <name>
+              <surname>Bonekat</surname>
+              <given-names>WH</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Relation of sleepiness to respiratory disturbance index: the Sleep Heart Health Study</article-title>
+          <source>Am J Respir Crit Care Med</source>
+          <year>1999</year>
+          <volume>159</volume>
+          <issue>2</issue>
+          <fpage>502</fpage>
+          <lpage>507</lpage>
+          <pub-id pub-id-type="pmid">9927364</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b89-nss-9-011">
+        <label>89</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Golder</surname>
+              <given-names>SA</given-names>
+            </name>
+            <name>
+              <surname>Macy</surname>
+              <given-names>MW</given-names>
+            </name>
+          </person-group>
+          <article-title>Diurnal and seasonal mood vary with work, sleep, and daylength across diverse cultures</article-title>
+          <source>Science</source>
+          <year>2011</year>
+          <volume>333</volume>
+          <issue>6051</issue>
+          <fpage>1878</fpage>
+          <lpage>1881</lpage>
+          <pub-id pub-id-type="pmid">21960633</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b90-nss-9-011">
+        <label>90</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Collop</surname>
+              <given-names>NA</given-names>
+            </name>
+            <name>
+              <surname>Tracy</surname>
+              <given-names>SL</given-names>
+            </name>
+            <name>
+              <surname>Kapur</surname>
+              <given-names>V</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Obstructive sleep apnea devices for out-of-center (OOC) testing: technology evaluation</article-title>
+          <source>J Clin Sleep Med</source>
+          <year>2011</year>
+          <volume>7</volume>
+          <issue>5</issue>
+          <fpage>531</fpage>
+          <lpage>548</lpage>
+          <pub-id pub-id-type="pmid">22003351</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b91-nss-9-011">
+        <label>91</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Collop</surname>
+              <given-names>NA</given-names>
+            </name>
+            <name>
+              <surname>Anderson</surname>
+              <given-names>WM</given-names>
+            </name>
+            <name>
+              <surname>Boehlecke</surname>
+              <given-names>B</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Clinical guidelines for the use of unattended portable monitors in the diagnosis of obstructive sleep apnea in adult patients. Portable Monitoring Task Force of the American Academy of Sleep Medicine</article-title>
+          <source>J Clin Sleep Med</source>
+          <year>2007</year>
+          <volume>3</volume>
+          <issue>7</issue>
+          <fpage>737</fpage>
+          <lpage>747</lpage>
+          <pub-id pub-id-type="pmid">18198809</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b92-nss-9-011">
+        <label>92</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Bianchi</surname>
+              <given-names>MT</given-names>
+            </name>
+          </person-group>
+          <article-title>Evidence that home apnea testing does not follow AASM practice guidelines – or Bayes’ theorem</article-title>
+          <source>J Clin Sleep Med</source>
+          <year>2015</year>
+          <volume>11</volume>
+          <issue>2</issue>
+          <fpage>189</fpage>
+          <pub-id pub-id-type="pmid">25580609</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b93-nss-9-011">
+        <label>93</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Laratta</surname>
+              <given-names>CR</given-names>
+            </name>
+            <name>
+              <surname>Tsai</surname>
+              <given-names>WH</given-names>
+            </name>
+            <name>
+              <surname>Wick</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Pendharkar</surname>
+              <given-names>SR</given-names>
+            </name>
+            <name>
+              <surname>Johannson</surname>
+              <given-names>KA</given-names>
+            </name>
+            <name>
+              <surname>Ronksley</surname>
+              <given-names>PE</given-names>
+            </name>
+          </person-group>
+          <article-title>Validity of administrative data for identification of obstructive sleep apnea</article-title>
+          <source>J Sleep Res</source>
+          <comment>Epub</comment>
+          <year>2016</year>
+          <month>10</month>
+          <day>20</day>
+        </element-citation>
+      </ref>
+    </ref-list>
+  </back>
+  <floats-group>
+    <fig id="f1-nss-9-011" position="float">
+      <label>Figure 1</label>
+      <caption>
+        <p><citation_analysis attribute="neither">Analysis hierarchy.</citation_analysis></p>
+        <p><citation_analysis attribute="positive"><bold>Notes:</bold></citation_analysis><citation_analysis attribute="positive"> Categories of sleep data obtained from or associated with clinical PSG recordings. Each requires core processes of cleaning, analysis, and plotting. Combining information between categories can provide further insights, such as linking scored events (e.g., PLMS) and physiology (ECG changes), or using stage annotations to calculate transition frequencies as an adjunct to stage percentage.</citation_analysis></p>
+        <p><citation_analysis attribute="positive"><bold>Abbreviations:</bold></citation_analysis><citation_analysis attribute="neither"> PLMS, periodic limb movements of sleep; PSG, polysomnography; ECG, electrocardiogram.</citation_analysis></p>
+      </caption>
+      <graphic xlink:href="nss-9-011Fig1"/>
+    </fig>
+    <fig id="f2-nss-9-011" position="float">
+      <label>Figure 2</label>
+      <caption>
+        <p><citation_analysis attribute="positive">Symptom overlap reported by adults undergoing diagnostic PSG.</citation_analysis></p>
+        <p><citation_analysis attribute="positive"><bold>Notes:</bold></citation_analysis><citation_analysis attribute="neither"> OSA symptoms and insomnia symptoms commonly coexisted (solid with yellow fill, and dotted with blue fill, respectively). Leg symptoms (either RLS or PLMS) were also commonly present (dashed circle with red fill). The area of the shapes approximate the n-value (sample size) for each category: OSA only =210; insomnia only =253; legs only =32; OSA and insomnia =584; legs and insomnia =166; OSA and legs =89; OSA and legs and insomnia =454.</citation_analysis></p>
+        <p><citation_analysis attribute="positive"><bold>Abbreviations:</bold></citation_analysis><citation_analysis attribute="neither"> OSA, obstructive sleep apnea; PLMS, periodic limb movements of sleep; PSG, polysomnography; RLS, restless leg syndrome.</citation_analysis></p>
+      </caption>
+      <graphic xlink:href="nss-9-011Fig2"/>
+    </fig>
+    <fig id="f3-nss-9-011" position="float">
+      <label>Figure 3</label>
+      <caption>
+        <p><citation_analysis attribute="neither">Sleep efficiency: a limited view of heterogenous sleep physiology.</citation_analysis></p>
+        <p><citation_analysis attribute="positive"><bold>Notes:</bold></citation_analysis><citation_analysis attribute="neither"> (</citation_analysis><citation_analysis attribute="positive"><bold>A</bold></citation_analysis><citation_analysis attribute="neither"> and </citation_analysis><citation_analysis attribute="positive"><bold>B</bold></citation_analysis><citation_analysis attribute="neither">) Hypnograms from different patients. (</citation_analysis><citation_analysis attribute="positive"><bold>A</bold></citation_analysis><citation_analysis attribute="neither">) Sleep efficiency of 78.3%, associated with nine transitions to wake (age 23, male). (</citation_analysis><citation_analysis attribute="positive"><bold>B</bold></citation_analysis><citation_analysis attribute="neither">) Sleep efficiency of 82%, associated with 46 transitions to wake (age 42, male). The </citation_analysis><citation_analysis attribute="positive"><italic>Y</italic></citation_analysis><citation_analysis attribute="neither">-axis indicates scored stage; the time bar indicates 1 hour. (</citation_analysis><citation_analysis attribute="positive"><bold>C</bold></citation_analysis><citation_analysis attribute="neither">–</citation_analysis><citation_analysis attribute="positive"><bold>G</bold></citation_analysis><citation_analysis attribute="neither">) Distribution of n=100 individuals with essentially the same sleep efficiency values (79.5%–80.5%), but differ widely across other factors that potentially contribute to or signify sleep fragmentation (age, AHI, PLMI, # W, and N1%).</citation_analysis></p>
+        <p><citation_analysis attribute="positive"><bold>Abbreviations:</bold></citation_analysis><citation_analysis attribute="neither"> R, rapid eye movement sleep; N1–3, non-rapid eye movement stages 1–3; AHI, apnea–hypopnea index; PLMI, periodic limb movement index; # W, number of wake transitions.</citation_analysis></p>
+      </caption>
+      <graphic xlink:href="nss-9-011Fig3"/>
+    </fig>
+    <fig id="f4-nss-9-011" position="float">
+      <label>Figure 4</label>
+      <caption>
+        <p><citation_analysis attribute="neither">AHI: a limited view of heterogenous sleep physiology</citation_analysis></p>
+        <p><citation_analysis attribute="positive"><bold>Notes:</bold></citation_analysis><citation_analysis attribute="neither"> (</citation_analysis><citation_analysis attribute="positive"><bold>A</bold></citation_analysis><citation_analysis attribute="neither"> and </citation_analysis><citation_analysis attribute="positive"><bold>B</bold></citation_analysis><citation_analysis attribute="neither">) Hypnograms from different patients. (</citation_analysis><citation_analysis attribute="positive"><bold>A</bold></citation_analysis><citation_analysis attribute="neither">) A case of REM-dominant obstruction with prominent hypoventilation pattern, resulting in a normal 4% AHI value (4.7 per hour), but a severe oxygen nadir of 57% (age 66; female; BMI, 35). (</citation_analysis><citation_analysis attribute="positive"><bold>B</bold></citation_analysis><citation_analysis attribute="neither">) A case of supine-dominant sleep apnea, with a full night AHI in the moderate range (19.7 per hour), resulting from the weighted average of supine AHI of 62 and non-supine AHI of 0.9 (age 74; female; BMI, 21). (</citation_analysis><citation_analysis attribute="positive"><bold>C</bold></citation_analysis><citation_analysis attribute="neither">–</citation_analysis><citation_analysis attribute="positive"><bold>G</bold></citation_analysis><citation_analysis attribute="neither">) The distribution of n=100 individuals with similar 4% AHI values (30–35 per hour), but differ widely across other factors that shape the clinical phenotype and potentially therapy choices (age, BMI, supine AHI, PLMI, and CAI).</citation_analysis></p>
+        <p><citation_analysis attribute="positive"><bold>Abbreviations:</bold></citation_analysis><citation_analysis attribute="neither"> R, rapid eye movement sleep; N1–3, non-rapid eye movement stages 1–3; AHI, apnea–hypopnea index; BMI, body mass index; CAI, central apnea index; PLMI, periodic limb movement index; REM, rapid eye movement.</citation_analysis></p>
+      </caption>
+      <graphic xlink:href="nss-9-011Fig4"/>
+    </fig>
+    <fig id="f5-nss-9-011" position="float">
+      <label>Figure 5</label>
+      <caption>
+        <p><citation_analysis attribute="neither">Plotting views of three common distributions.</citation_analysis></p>
+        <p><citation_analysis attribute="positive"><bold>Notes:</bold></citation_analysis><citation_analysis attribute="neither"> Each row contains one plotting method for three distributions (G, LT skew, and BM). Each column contains a simulated sample size of n=10 (left) or n=30 (right). The individual points showed as dot plots (</citation_analysis><citation_analysis attribute="positive"><bold>A</bold></citation_analysis><citation_analysis attribute="neither">) are given for comparison visually with more common views (</citation_analysis><citation_analysis attribute="positive"><bold>B</bold></citation_analysis><citation_analysis attribute="neither">–</citation_analysis><citation_analysis attribute="positive"><bold>D</bold></citation_analysis><citation_analysis attribute="neither">). Bar plots with SEM (</citation_analysis><citation_analysis attribute="positive"><bold>B</bold></citation_analysis><citation_analysis attribute="neither">) appear quite similar across the simulated distributions. Similarly, plotting a bard with SD (</citation_analysis><citation_analysis attribute="positive"><bold>C</bold></citation_analysis><citation_analysis attribute="positive">), there is little suggestion that three different distributions are shown. When plotted using box and whiskers, we observe clues of non-Gaussian distributions; here the box is the 25–75 percentile, the line is the median, + is the mean, and the whiskers are the 2.5–97.5 percentile. In each graph, the </citation_analysis><citation_analysis attribute="positive"><italic>Y</italic></citation_analysis><citation_analysis attribute="neither">-axis is in a.u.</citation_analysis></p>
+        <p><citation_analysis attribute="positive"><bold>Abbreviations:</bold></citation_analysis><citation_analysis attribute="neither"> a.u., arbitrary units; BI, bimodal; G, Gaussian; LT, long tail; SD, standard deviation; SEM, standard error of the mean.</citation_analysis></p>
+      </caption>
+      <graphic xlink:href="nss-9-011Fig5"/>
+    </fig>
+    <fig id="f6-nss-9-011" position="float">
+      <label>Figure 6</label>
+      <caption>
+        <p><citation_analysis attribute="neither">Distributions of common PSG metrics.</citation_analysis></p>
+        <p><citation_analysis attribute="positive"><bold>Notes:</bold></citation_analysis><citation_analysis attribute="neither"> Each panel contains a frequency histogram of n=1835 PSGs for TST (</citation_analysis><citation_analysis attribute="positive"><bold>A</bold></citation_analysis><citation_analysis attribute="neither">), efficiency (</citation_analysis><citation_analysis attribute="positive"><bold>B</bold></citation_analysis><citation_analysis attribute="neither">), number of wake transitions (</citation_analysis><citation_analysis attribute="positive"><bold>C</bold></citation_analysis><citation_analysis attribute="neither">), and PLMI (</citation_analysis><citation_analysis attribute="positive"><bold>D</bold></citation_analysis><citation_analysis attribute="neither">). In each panel, the inlay graph contains three plots of the same distribution: box and whisker, bar with SD, and bar plot with SEM. The clearly skewed distributions are largely hidden by the bar plots, compared to the histogram and box and whisker views.</citation_analysis></p>
+        <p><citation_analysis attribute="positive"><bold>Abbreviations:</bold></citation_analysis><citation_analysis attribute="neither"> PLMI, periodic limb movement index; PSG, polysomnography; SEM, standard error of the mean; SD, standard deviation; TST, total sleep time.</citation_analysis></p>
+      </caption>
+      <graphic xlink:href="nss-9-011Fig6"/>
+    </fig>
+    <fig id="f7-nss-9-011" position="float">
+      <label>Figure 7</label>
+      <caption>
+        <p><citation_analysis attribute="neither">Distribution of common sleep apnea PSG metrics.</citation_analysis></p>
+        <p><citation_analysis attribute="positive"><bold>Notes:</bold></citation_analysis><citation_analysis attribute="neither"> (</citation_analysis><citation_analysis attribute="positive"><bold>A</bold></citation_analysis><citation_analysis attribute="neither">) CDFs for AHI, Sup AHI, and NonSup AHI; the Sup AHI values were higher as indicated by the slower rise of the CDF. (</citation_analysis><citation_analysis attribute="positive"><bold>B</bold></citation_analysis><citation_analysis attribute="neither">) CDFs for CAI, which also showed some degree of position dependence. (</citation_analysis><citation_analysis attribute="positive"><bold>C</bold></citation_analysis><citation_analysis attribute="neither">) A CDF of the percentage of sleep time spent in the four cardinal body positions; left and right showed similar distributions, while prone was not commonly observed.</citation_analysis></p>
+        <p><citation_analysis attribute="positive"><bold>Abbreviations:</bold></citation_analysis><citation_analysis attribute="neither"> AHI, apnea–hypopnea index; CAI, central apnea index; CDFs, cumulative distribution functions; NonSup, non-supine; PSG, polysomnography; Sup, supine.</citation_analysis></p>
+      </caption>
+      <graphic xlink:href="nss-9-011Fig7"/>
+    </fig>
+    <fig id="f8-nss-9-011" position="float">
+      <label>Figure 8</label>
+      <caption>
+        <p><citation_analysis attribute="positive">Sample size impacts correlations calculated pairwise from PSG metrics.</citation_analysis></p>
+        <p><citation_analysis attribute="positive"><bold>Notes:</bold></citation_analysis><citation_analysis attribute="neither"> (</citation_analysis><citation_analysis attribute="positive"><bold>A</bold></citation_analysis><citation_analysis attribute="neither">–</citation_analysis><citation_analysis attribute="positive"><bold>C</bold></citation_analysis><citation_analysis attribute="neither">) Box and whisker plots of Spearman’s </citation_analysis><citation_analysis attribute="positive"><italic>R</italic></citation_analysis><citation_analysis attribute="neither">-values obtained from random subsets of the full cohort (n=10, 20, 50, 100) for pairwise correlations: AHI with BMI (</citation_analysis><citation_analysis attribute="positive"><bold>A</bold></citation_analysis><citation_analysis attribute="neither">), PLMI with age (</citation_analysis><citation_analysis attribute="positive"><bold>B</bold></citation_analysis><citation_analysis attribute="neither">), and REM percentage with random numbers. Note the more extreme range of </citation_analysis><citation_analysis attribute="positive"><italic>R</italic></citation_analysis><citation_analysis attribute="neither">-values (positive and negative) observed with smaller samples, and the wide range of observations even when correlating a PSG metric with uncorrelated random numbers. In (</citation_analysis><citation_analysis attribute="positive"><bold>D</bold></citation_analysis><citation_analysis attribute="neither">), Spearman’s </citation_analysis><citation_analysis attribute="positive"><italic>R</italic></citation_analysis><citation_analysis attribute="neither">-values were calculated for all pairwise correlations across 40 continuous variables (age, BMI, AHI, etc), but only those reaching a </citation_analysis><citation_analysis attribute="positive"><italic>P</italic></citation_analysis><citation_analysis attribute="positive">-value &lt;0.05 are shown. The resulting dot plots are shown across a range of sample sizes from n=20 up to the full cohort. Note that the range of significant </citation_analysis><citation_analysis attribute="positive"><italic>R</italic></citation_analysis><citation_analysis attribute="neither">-values is strongly related to sample size, with only very large values reaching significance when the random subsets were small.</citation_analysis></p>
+        <p><citation_analysis attribute="positive"><bold>Abbreviations:</bold></citation_analysis><citation_analysis attribute="neither"> AHI, apnea–hypopnea index; BMI, body mass index; PLMI, periodic limb movement index; PSG, polysomnography; REM, rapid eye movement.</citation_analysis></p>
+      </caption>
+      <graphic xlink:href="nss-9-011Fig8"/>
+    </fig>
+  </floats-group>
+</article>
+</pmc-articleset>

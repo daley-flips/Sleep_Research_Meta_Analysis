@@ -1,0 +1,1157 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<pmc-articleset><article xmlns:ali="http://www.niso.org/schemas/ali/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="research-article">
+  <?properties open_access?>
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="nlm-ta">Nat Sci Sleep</journal-id>
+      <journal-id journal-id-type="iso-abbrev">Nat Sci Sleep</journal-id>
+      <journal-id journal-id-type="publisher-id">Nature and Science of Sleep</journal-id>
+      <journal-title-group>
+        <journal-title>Nature and Science of Sleep</journal-title>
+      </journal-title-group>
+      <issn pub-type="epub">1179-1608</issn>
+      <publisher>
+        <publisher-name>Dove Medical Press</publisher-name>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="pmid">26425109</article-id>
+      <article-id pub-id-type="pmc">4583116</article-id>
+      <article-id pub-id-type="doi">10.2147/NSS.S77888</article-id>
+      <article-id pub-id-type="publisher-id">nss-7-101</article-id>
+      <article-categories>
+        <subj-group subj-group-type="heading">
+          <subject>Original Research</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>Evaluation of an automated single-channel sleep staging algorithm</article-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Wang</surname>
+            <given-names>Ying</given-names>
+          </name>
+          <xref ref-type="aff" rid="af1-nss-7-101">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Loparo</surname>
+            <given-names>Kenneth A</given-names>
+          </name>
+          <xref ref-type="aff" rid="af1-nss-7-101">1</xref>
+          <xref ref-type="aff" rid="af2-nss-7-101">2</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Kelly</surname>
+            <given-names>Monica R</given-names>
+          </name>
+          <xref ref-type="aff" rid="af3-nss-7-101">3</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Kaplan</surname>
+            <given-names>Richard F</given-names>
+          </name>
+          <xref ref-type="aff" rid="af1-nss-7-101">1</xref>
+          <xref ref-type="corresp" rid="c1-nss-7-101"/>
+        </contrib>
+      </contrib-group>
+      <aff id="af1-nss-7-101"><label>1</label>General Sleep Corporation, Euclid, OH, USA</aff>
+      <aff id="af2-nss-7-101"><label>2</label>Department of Electrical Engineering and Computer Science, Case Western Reserve University, Cleveland, OH, USA</aff>
+      <aff id="af3-nss-7-101"><label>3</label>Department of Psychology, University of Arizona, Tucson, AZ, USA</aff>
+      <author-notes>
+        <corresp id="c1-nss-7-101">Correspondence: Richard F Kaplan, General Sleep Corporation, 26250 Euclid Avenue, Suite 709, Euclid, OH 44132, USA, Tel +1 216 289 2331, Fax +1 216 393 0079, Email <email>kaplan@generalsleep.com</email></corresp>
+      </author-notes>
+      <pub-date pub-type="collection">
+        <year>2015</year>
+      </pub-date>
+      <pub-date pub-type="epub">
+        <day>18</day>
+        <month>9</month>
+        <year>2015</year>
+      </pub-date>
+      <volume>7</volume>
+      <fpage>101</fpage>
+      <lpage>111</lpage>
+      <permissions>
+        <copyright-statement>© 2015 Wang et al. This work is published by Dove Medical Press Limited, and licensed under Creative Commons Attribution – Non Commercial (unported, v3.0) License</copyright-statement>
+        <copyright-year>2015</copyright-year>
+        <license>
+          <license-p>The full terms of the License are available at <ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by-nc/3.0/">http://creativecommons.org/licenses/by-nc/3.0/</ext-link>. Non-commercial uses of the work are permitted without any further permission from Dove Medical Press Limited, provided the work is properly attributed.</license-p>
+        </license>
+      </permissions>
+      <abstract>
+        <sec>
+          <title>Background</title>
+          <p><citation_analysis attribute="neither">We previously published the performance evaluation of an automated electroencephalography (EEG)-based single-channel sleep–wake detection algorithm called Z-ALG used by the Zmachine</citation_analysis><citation_analysis attribute="positive"><sup>®</sup></citation_analysis><citation_analysis attribute="positive"> sleep monitoring system. The objective of this paper is to evaluate the performance of a new algorithm called Z-PLUS, which further differentiates sleep as detected by Z-ALG into Light Sleep, Deep Sleep, and Rapid Eye Movement (REM) Sleep, against laboratory polysomnography (PSG) using a consensus of expert visual scorers.</citation_analysis></p>
+        </sec>
+        <sec>
+          <title>Methods</title>
+          <p><citation_analysis attribute="positive">Single night, in-lab PSG recordings from 99 subjects (52F/47M, 18–60 years, median age 32.7 years), including both normal sleepers and those reporting a variety of sleep complaints consistent with chronic insomnia, sleep apnea, and restless leg syndrome, as well as those taking selective serotonin reuptake inhibitor/serotonin–norepinephrine reuptake inhibitor antidepressant medications, previously evaluated using Z-ALG were re-examined using Z-PLUS. EEG data collected from electrodes placed at the differential-mastoids (A</citation_analysis><citation_analysis attribute="positive"><sub>1</sub></citation_analysis><citation_analysis attribute="neither">–A</citation_analysis><citation_analysis attribute="positive"><sub>2</sub></citation_analysis><citation_analysis attribute="positive">) were processed by Z-ALG to determine wake and sleep, then those epochs detected as sleep were further processed by Z-PLUS to differentiate into Light Sleep, Deep Sleep, and REM. EEG data were visually scored by multiple certified polysomnographic technologists according to the Rechtschaffen and Kales criterion, and then combined using a majority-voting rule to create a PSG Consensus score file for each of the 99 subjects. Z-PLUS output was compared to the PSG Consensus score files for both epoch-by-epoch (eg, sensitivity, specificity, and kappa) and sleep stage-related statistics (eg, Latency to Deep Sleep, Latency to REM, Total Deep Sleep, and Total REM).</citation_analysis></p>
+        </sec>
+        <sec>
+          <title>Results</title>
+          <p><citation_analysis attribute="positive">Sensitivities of Z-PLUS compared to the PSG Consensus were 0.84 for Light Sleep, 0.74 for Deep Sleep, and 0.72 for REM. Similarly, positive predictive values were 0.85 for Light Sleep, 0.78 for Deep Sleep, and 0.73 for REM. Overall, kappa agreement of 0.72 is indicative of substantial agreement.</citation_analysis></p>
+        </sec>
+        <sec>
+          <title>Conclusion</title>
+          <p><citation_analysis attribute="positive">This study demonstrates that Z-PLUS can automatically assess sleep stage using a single A</citation_analysis><citation_analysis attribute="positive"><sub>1</sub></citation_analysis><citation_analysis attribute="neither">–A</citation_analysis><citation_analysis attribute="positive"><sub>2</sub></citation_analysis><citation_analysis attribute="positive"> EEG channel when compared to the sleep stage scoring by a consensus of polysomnographic technologists. Our findings suggest that Z-PLUS may be used in conjunction with Z-ALG for single-channel EEG-based sleep staging.</citation_analysis></p>
+        </sec>
+      </abstract>
+      <kwd-group>
+        <title>Keywords</title>
+        <kwd>EEG</kwd>
+        <kwd>sleep staging</kwd>
+        <kwd>algorithm</kwd>
+        <kwd>Zmachine</kwd>
+        <kwd>automatic sleep scoring</kwd>
+        <kwd>sleep detection</kwd>
+        <kwd>single channel</kwd>
+      </kwd-group>
+    </article-meta>
+  </front>
+  <body>
+    <sec sec-type="intro">
+      <title>Introduction</title>
+      <p><citation_analysis attribute="positive">Sleep–wake and sleep cycle estimation is of interest to both clinical applications and scientific studies. Overnight polysomnography (PSG), which uses electroencephalography (EEG), electrooculography, and electromyography (EMG) with visual analysis for sleep staging is considered the gold standard methodology for evaluating sleep indices. PSG is commonly used for the assessment and management of many sleep disorders; however, PSG can be costly and burdensome in terms of technician support for sensor application/removal, overnight monitoring (for in-lab PSG), and manual record scoring, in addition to being intrusive for the patient due to the necessity of wearing multiple sensors on the scalp and face throughout the night. These factors often make PSG impractical for some applications, especially those in which repeated measurements are necessary, and/or time or budgets are constrained. Minimally invasive techniques using accurate automated scoring of physiological data for sleep categorization and diagnostics may be a preferable alternative.</citation_analysis></p>
+      <p><citation_analysis attribute="neither">Automated scoring of EEG data is a more cost-effective option that removes subjectivity inherent in manual scoring by a technician,</citation_analysis><citation_analysis attribute="positive"><xref rid="b1-nss-7-101" ref-type="bibr">1</xref></citation_analysis><citation_analysis attribute="neither"> but despite greater attention being paid to the development and implementation of technology in recent years, considerable work remains to be done in terms of developing objective, valid, and reliable methods for computing sleep variables.</citation_analysis><citation_analysis attribute="positive"><xref rid="b2-nss-7-101" ref-type="bibr">2</xref></citation_analysis><citation_analysis attribute="positive"> Of the limited research that has been done on automated scoring algorithms, a few demonstrate promising results. A recent study by Malhotra et al</citation_analysis><citation_analysis attribute="positive"><xref rid="b3-nss-7-101" ref-type="bibr">3</xref></citation_analysis><citation_analysis attribute="positive"> evaluated an automated scoring system in which PSG data scored by a computer algorithm was compared against visual scoring by PSG technologists. The authors reported that their automatic system yielded results that were similar to those obtained by experienced technologists. However, their algorithm requires multiple channels of physiological data including EEG, chin EMG, and electrooculography.</citation_analysis></p>
+      <p><citation_analysis attribute="neither">In the past decade, single-channel EEG-based sleep staging algorithms have started to gain attention among researchers who have proposed a variety of potential scoring methods that are compared against visual scoring.</citation_analysis><citation_analysis attribute="positive"><xref rid="b4-nss-7-101" ref-type="bibr">4</xref></citation_analysis><citation_analysis attribute="neither">–</citation_analysis><citation_analysis attribute="positive"><xref rid="b8-nss-7-101" ref-type="bibr">8</xref></citation_analysis><citation_analysis attribute="neither"> Single-channel systems place fewer limitations on patient movement, and can be more convenient for use in the ambulatory environment than those systems employing multiple channels. Berthomier et al</citation_analysis><citation_analysis attribute="positive"><xref rid="b9-nss-7-101" ref-type="bibr">9</xref></citation_analysis><citation_analysis attribute="positive"> assessed the performance of their proprietary sleep scoring algorithm (automatic sleep EEG analysis) using EEG data (C</citation_analysis><citation_analysis attribute="positive"><sub>Z</sub></citation_analysis><citation_analysis attribute="neither">–P</citation_analysis><citation_analysis attribute="positive"><sub>Z</sub></citation_analysis><citation_analysis attribute="positive">) from 15 healthy individuals and compared the results to manual scoring. The authors evaluated the agreement with manual scorers, and reported results similar to those obtained with algorithms using multiple channels of data.</citation_analysis></p>
+      <p><citation_analysis attribute="positive">A wireless, single-channel EEG system using data from the F</citation_analysis><citation_analysis attribute="positive"><sub>P1</sub></citation_analysis><citation_analysis attribute="neither">–F</citation_analysis><citation_analysis attribute="positive"><sub>P2</sub></citation_analysis><citation_analysis attribute="positive"> channel for sleep staging was evaluated on 29 healthy adults and compared with visually scored data by two independent PSG technologists,</citation_analysis><citation_analysis attribute="positive"><xref rid="b10-nss-7-101" ref-type="bibr">10</xref></citation_analysis><citation_analysis attribute="neither"> and Griessenberger et al</citation_analysis><citation_analysis attribute="positive"><xref rid="b11-nss-7-101" ref-type="bibr">11</xref></citation_analysis><citation_analysis attribute="neither"> pointed out that this system has a specific weakness in detecting the wake state.</citation_analysis></p>
+      <p><citation_analysis attribute="neither">The performance of another single-channel system,</citation_analysis><citation_analysis attribute="positive"><xref rid="b12-nss-7-101" ref-type="bibr">12</xref></citation_analysis><citation_analysis attribute="positive"> also using data from the F</citation_analysis><citation_analysis attribute="positive"><sub>P1</sub></citation_analysis><citation_analysis attribute="neither">–F</citation_analysis><citation_analysis attribute="positive"><sub>P2</sub></citation_analysis><citation_analysis attribute="positive"> channel, was evaluated on 44 subjects, including those with normal sleep, and those with sleep-disordered breathing. Using majority agreement among PSG technologists, the authors describe the overall sleep staging performance, with similar results for detecting N2 (non-rapid eye movement stage 2) and Rapid Eye Movement (REM) sleep in a subsample population with mild to moderate obstructive sleep apnea.</citation_analysis></p>
+      <p><citation_analysis attribute="neither">While these examples of computerized scoring algorithms lend support to the notion that automated sleep staging from single-channel data may be a feasible alternative to the gold standard of multi-channel PSG with visual scoring, there are currently no commercial systems that are widely used for automated sleep stage determination.</citation_analysis></p>
+      <p><citation_analysis attribute="neither">We previously published the performance evaluation of an automatic single-channel sleep–wake detection algorithm, Z-ALG,</citation_analysis><citation_analysis attribute="positive"><xref rid="b13-nss-7-101" ref-type="bibr">13</xref></citation_analysis><citation_analysis attribute="neither"> which is currently used by the Zmachine</citation_analysis><citation_analysis attribute="positive"><sup>®</sup></citation_analysis><citation_analysis attribute="neither">, a commercially available, FDA-cleared, single-channel (A</citation_analysis><citation_analysis attribute="positive"><sub>1</sub></citation_analysis><citation_analysis attribute="neither">–A</citation_analysis><citation_analysis attribute="positive"><sub>2</sub></citation_analysis><citation_analysis attribute="neither">) EEG-based sleep monitoring system intended for in-home use. The A</citation_analysis><citation_analysis attribute="positive"><sub>1</sub></citation_analysis><citation_analysis attribute="neither">–A</citation_analysis><citation_analysis attribute="positive"><sub>2</sub></citation_analysis><citation_analysis attribute="neither"> EEG channel is not typically used as a signal source for sleep staging. However, because A</citation_analysis><citation_analysis attribute="positive"><sub>1</sub></citation_analysis><citation_analysis attribute="neither">–A</citation_analysis><citation_analysis attribute="positive"><sub>2</sub></citation_analysis><citation_analysis attribute="neither"> is located completely outside of the hairline, it allows for easy patient self-application and removal of the sensors. Furthermore, A</citation_analysis><citation_analysis attribute="positive"><sub>1</sub></citation_analysis><citation_analysis attribute="neither">–A</citation_analysis><citation_analysis attribute="positive"><sub>2</sub></citation_analysis><citation_analysis attribute="neither"> is located away from the face making it comfortable and unobtrusive to wear during sleep, and eliminates the possibility of leaving noticeable marks on the face and forehead.</citation_analysis><citation_analysis attribute="positive"><xref rid="b13-nss-7-101" ref-type="bibr">13</xref></citation_analysis><citation_analysis attribute="neither"> To the best of our knowledge, this paper is the first to evaluate the performance of an algorithm that uses data from the A</citation_analysis><citation_analysis attribute="positive"><sub>1</sub></citation_analysis><citation_analysis attribute="neither">–A</citation_analysis><citation_analysis attribute="positive"><sub>2</sub></citation_analysis><citation_analysis attribute="neither"> EEG location for automated sleep staging.</citation_analysis></p>
+    </sec>
+    <sec sec-type="methods">
+      <title>Methods</title>
+      <sec sec-type="subjects">
+        <title>Participants</title>
+        <p><citation_analysis attribute="positive">The Mercy Medical Center Institutional Review Board (IRB) in Canton, OH, USA, approved all study procedures. As reported in our previous paper,</citation_analysis><citation_analysis attribute="positive"><xref rid="b13-nss-7-101" ref-type="bibr">13</xref></citation_analysis><citation_analysis attribute="negative"> overnight in-lab PSG was conducted with 106 paid volunteers at Consolidated Research, Inc. (CRI) in Cleveland, OH, USA, in 2003. Of those 106, a total of 99 records were used for our analyses: technical issues with the PSG recording system excluded four records, lack of technician adherence to protocol excluded two records, and one individual withdrew their participation.</citation_analysis></p>
+        <p><citation_analysis attribute="positive">Participants were screened for eligibility by research staff through structured telephone interviews and questionnaires. There were 52 females and 47 males, between the ages of 18 and 60 years (median age: 32.7 years), participating in the study. In order to increase ecological validity and generalizability of results from the study sample, exclusion criteria were minimal, allowing for the inclusion of individuals reporting both normal sleep, and those reporting symptoms consistent with various sleep disorders such as chronic insomnia, sleep apnea, and restless leg syndrome.</citation_analysis></p>
+        <p><citation_analysis attribute="neither">Applicants were categorized according to the American Society of Anesthesiologists (ASA)</citation_analysis><citation_analysis attribute="positive"><xref rid="b14-nss-7-101" ref-type="bibr">14</xref></citation_analysis><citation_analysis attribute="neither"> physical status classification system. Applicants with ASA physical status 1 (normal, healthy), 2 (mild systemic disease), and 3 (severe systemic disease) were eligible for inclusion; however, there were no participants meeting ASA physical status 3 in the study cohort.</citation_analysis></p>
+        <p><citation_analysis attribute="positive">Individuals were excluded for age less than 18 years, current pregnancy, and reporting skin sensitivity. Medications know to affect EEG morphology were exclusionary, except selective serotonin reuptake inhibitors (SSRIs) and serotonin–norepinephrine reuptake inhibitors (SNRIs) which were included in an attempt to determine their possible impact on algorithm accuracy.</citation_analysis></p>
+        <p><citation_analysis attribute="neither">As described in our previous paper,</citation_analysis><citation_analysis attribute="positive"><xref rid="b13-nss-7-101" ref-type="bibr">13</xref></citation_analysis><citation_analysis attribute="positive"> sleep disturbances were reported by 50 of the 99 study participants (50.5%), including:
+</citation_analysis><citation_analysis attribute="positive"><list list-type="bullet"><list-item><p><citation_analysis attribute="positive">Thirty-five participants (35.4%) reported symptoms consistent with at least one variety of chronic insomnia (sleep onset, sleep maintenance, and waking too early) defined as &gt;30-minute sleep onset latency (n=25, 25.3%), &gt;30-minute Wake after Sleep Onset (n=13, 13.1%), or waking earlier than desired (n=12, 12.1%) with an inability to return to sleep occurring at least three times per week and persisting for at least 4 weeks. Of those 35 participants, 15 reported symptoms consistent with multiple types of chronic insomnia (ie, onset and maintenance, onset and early waking, or maintenance and early waking).</citation_analysis></p></list-item><list-item><p><citation_analysis attribute="positive">Twenty-two participants (22.2%) reported strange leg sensations keeping them from falling asleep or staying asleep indicative of possible restless leg syndrome or periodic limb movements.</citation_analysis></p></list-item><list-item><p><citation_analysis attribute="neither">Five participants (5.1%) responded positively to both snoring and nocturnal cessation of breathing/choking indicative of possible sleep apnea.</citation_analysis></p></list-item></list></citation_analysis></p>
+      </sec>
+      <sec>
+        <title>Laboratory PSG system and recordings</title>
+        <p><citation_analysis attribute="neither">As described in Kaplan et al,</citation_analysis><citation_analysis attribute="positive"><xref rid="b13-nss-7-101" ref-type="bibr">13</xref></citation_analysis><citation_analysis attribute="positive"> participant data were acquired using a PSG system developed by CRI to acquire high-resolution (16-bit A/D conversion), wide bandwidth (0.5 Hz high-pass filter, 380 Hz low-pass filter, 2.5 kHz sampling frequency), and low noise signals (~4 μVpp input-referred noise floor, ±500 μV non-distorted input range). Acquired signals included: EMG, LOC, ROC, C</citation_analysis><citation_analysis attribute="positive"><sub>3</sub></citation_analysis><citation_analysis attribute="neither">–A</citation_analysis><citation_analysis attribute="positive"><sub>2</sub></citation_analysis><citation_analysis attribute="neither">, C</citation_analysis><citation_analysis attribute="positive"><sub>4</sub></citation_analysis><citation_analysis attribute="neither">–A</citation_analysis><citation_analysis attribute="positive"><sub>1</sub></citation_analysis><citation_analysis attribute="neither">, O</citation_analysis><citation_analysis attribute="positive"><sub>1</sub></citation_analysis><citation_analysis attribute="neither">–A</citation_analysis><citation_analysis attribute="positive"><sub>2</sub></citation_analysis><citation_analysis attribute="neither">, F</citation_analysis><citation_analysis attribute="positive"><sub>P1</sub></citation_analysis><citation_analysis attribute="neither">–F</citation_analysis><citation_analysis attribute="positive"><sub>P2</sub></citation_analysis><citation_analysis attribute="neither">, A</citation_analysis><citation_analysis attribute="positive"><sub>1</sub></citation_analysis><citation_analysis attribute="neither">–A</citation_analysis><citation_analysis attribute="positive"><sub>2</sub></citation_analysis><citation_analysis attribute="neither">, finger-probe pulseoximetry, and timestamped video/audio recording (EEG channels A</citation_analysis><citation_analysis attribute="positive"><sub>1</sub></citation_analysis><citation_analysis attribute="neither">–A</citation_analysis><citation_analysis attribute="positive"><sub>2</sub></citation_analysis><citation_analysis attribute="neither"> and F</citation_analysis><citation_analysis attribute="positive"><sub>P1</sub></citation_analysis><citation_analysis attribute="neither">–F</citation_analysis><citation_analysis attribute="positive"><sub>P2</sub></citation_analysis><citation_analysis attribute="neither"> were acquired and archived, but were not used for subsequent visual scoring). The EEG channel A</citation_analysis><citation_analysis attribute="positive"><sub>1</sub></citation_analysis><citation_analysis attribute="neither">–A</citation_analysis><citation_analysis attribute="positive"><sub>2</sub></citation_analysis><citation_analysis attribute="neither"> was the only data source used by Z-ALG and Z-PLUS.</citation_analysis></p>
+      </sec>
+      <sec>
+        <title>Visual sleep scoring and epoch-by-epoch consensus</title>
+        <p><citation_analysis attribute="positive">PSG data were visually scored in accordance with the sleep industry standard of Rechtschaffen and Kales</citation_analysis><citation_analysis attribute="positive"><xref rid="b15-nss-7-101" ref-type="bibr">15</xref></citation_analysis><citation_analysis attribute="neither"> that has also been used to evaluate many of the automated scoring systems previously described. Certified polysomnographic technologists conducted visual scoring of PSG data in 30-second epochs to identify the sleep stage (ie, Wake, 1, 2, 3, 4, REM, or unknown) and any arousals. A score of “unknown” was assigned when either the participant was disconnected from the PSG system, or the waveforms were ambiguous or unclear.</citation_analysis></p>
+        <p><citation_analysis attribute="neither">In order to allow for consensus scoring of each epoch, all PSG records were scored by two or more PSG technologists (three records were scored by two technologists, 16 records scored by three technologists, and 80 records scored by four technologists), with each of the five technologists (T1–T5) scoring the following number of records: T1 scored 97 records, T2 scored 38 records, T3 scored 98 records, T4 scored 42 records, and T5 scored 99 records. Each epoch was assigned a sleep stage based upon a majority agreement rule (PSG Consensus), and these data were used as the standard against which Z-PLUS was evaluated. If there was no consensus between technologists on a particular epoch, the epoch was not included.</citation_analysis></p>
+      </sec>
+      <sec>
+        <title>Sleep staging algorithm (Z-PLUS)</title>
+        <p><citation_analysis attribute="positive">The Z-PLUS algorithm evaluated in this paper further differentiates epochs identified as sleep by Z-ALG into Light Sleep, Deep Sleep, and REM as shown in </citation_analysis><citation_analysis attribute="positive"><xref ref-type="fig" rid="f1-nss-7-101">Figure 1</xref></citation_analysis><citation_analysis attribute="positive">. The performance of Z-PLUS was evaluated against the same 99-subject data set as used to evaluate the wake–sleep detection performance of Z-ALG.</citation_analysis><citation_analysis attribute="positive"><xref rid="b13-nss-7-101" ref-type="bibr">13</xref></citation_analysis><citation_analysis attribute="neither"> Both Z-PLUS and Z-ALG use EEG data acquired from the contralateral area of the mastoid process located behind the ears, termed A</citation_analysis><citation_analysis attribute="positive"><sub>1</sub></citation_analysis><citation_analysis attribute="neither">–A</citation_analysis><citation_analysis attribute="positive"><sub>2</sub></citation_analysis><citation_analysis attribute="positive">, with a signal common (COM) located on the back of the neck or shoulder, as shown in </citation_analysis><citation_analysis attribute="positive"><xref ref-type="fig" rid="f2-nss-7-101">Figure 2</xref></citation_analysis><citation_analysis attribute="neither">. A schematic representation of Z-PLUS is depicted in </citation_analysis><citation_analysis attribute="positive"><xref ref-type="fig" rid="f3-nss-7-101">Figure 3</xref></citation_analysis><citation_analysis attribute="neither">. The Z-PLUS algorithm further processes any 30-second epoch of EEG data identified as sleep by Z-ALG</citation_analysis><citation_analysis attribute="positive"><xref rid="b13-nss-7-101" ref-type="bibr">13</xref></citation_analysis><citation_analysis attribute="positive"> to determine whether that epoch represents Light Sleep (stages 1 and 2), Deep Sleep (stages 3 and 4), or REM. Z-PLUS determines the sleep stage of an epoch using a hierarchical detection scheme with stage REM being detected first. If an epoch is not detected as REM, then it is passed to the Deep Sleep detector. If neither REM nor Deep Sleep is detected, the epoch is classified as Light Sleep.</citation_analysis></p>
+        <p><citation_analysis attribute="neither">In addition to time domain features TF1 and TF2, and frequency domain feature FF3, all of which were computed and used by Z-ALG, a new frequency domain feature FF4 that also falls within the conventionally defined delta (δ) band is computed and used by Z-PLUS. Z-PLUS computes two additional scale values used to separate REM and Deep Sleep. Like the scale values used by Z-ALG, these additional scale values are computed for each individual, based on their data alone, and therefore inherently accounts for EEG signal differences among individuals.</citation_analysis></p>
+        <p><citation_analysis attribute="neither">As depicted in </citation_analysis><citation_analysis attribute="positive"><xref ref-type="fig" rid="f3-nss-7-101">Figure 3</xref></citation_analysis><citation_analysis attribute="positive">, the hierarchical detection scheme (detectors D3 and D4) is used first to determine REM, then Deep Sleep, and finally Light Sleep. To detect REM sleep, detector D3 uses the REM scale factor along with time and frequency domain features TF1, TF2, and FF4 to define a set of conditions that define REM sleep. If the feature data meet the REM sleep criteria, then the epoch is classified as REM sleep. If not, the epoch is next evaluated for Deep Sleep by detector D4 which uses the Deep Sleep scale factor and frequency domain feature FF3. If the feature data satisfy the Deep Sleep criteria, then the epoch is classified as Deep Sleep. Otherwise, the epoch is classified as Light Sleep. Following this sleep staging scheme, post-processing filters are used to further “adjust” the output by modifying the stage assignment of isolated REM or Deep Sleep epochs to Light Sleep.</citation_analysis></p>
+      </sec>
+      <sec sec-type="methods">
+        <title>Statistical analysis</title>
+        <p><citation_analysis attribute="positive">In accordance with recommendations by Berthomier and Brandewinder,</citation_analysis><citation_analysis attribute="positive"><xref rid="b2-nss-7-101" ref-type="bibr">2</xref></citation_analysis><citation_analysis attribute="positive"> statistical measures of agreement, sensitivity, and positive predictive value (PPV) were calculated to assess the performance of Z-PLUS. Cohen’s kappa was used to quantify inter-rater reliability of the visual scoring by pairs of technologists for each study participant, and to evaluate the Z-PLUS versus the PSG Consensus. Cohen’s kappa statistic quantifies the agreement between two raters beyond what would be expected from chance alone for categorical data. Although there is no formally agreed upon standard, kappa scores are commonly segmented into ranges of values that are indicative of less than chance agreement (kappa &lt;0), slight agreement (0≤ kappa &lt;0.2), fair agreement (0.2≤ kappa &lt;0.4), moderate agreement (0.4≤ kappa &lt;0.6), substantial agreement (0.6≤ kappa &lt;0.8), and almost perfect agreement (0.8≤ kappa &lt;1).</citation_analysis><citation_analysis attribute="positive"><xref rid="b16-nss-7-101" ref-type="bibr">16</xref></citation_analysis></p>
+        <p><citation_analysis attribute="neither">Sensitivity and PPV were calculated for the Z-PLUS sleep staging determination versus the PSG Consensus sleep staging assignments. When the PSG Consensus assigns an epoch to a particular stage of sleep, the sensitivity of that stage describes the probability that Z-PLUS will score that epoch correctly. Similarly, when Z-PLUS assigns an epoch to a particular stage of sleep, the PPV of that stage describes the probability that the PSG Consensus will agree.</citation_analysis></p>
+      </sec>
+    </sec>
+    <sec sec-type="results">
+      <title>Results</title>
+      <sec>
+        <title>Comparison by sleep stage</title>
+        <p><citation_analysis attribute="neither">To evaluate the accuracy of Z-PLUS, the PSG Consensus scores were combined to match the outputs of the Z-PLUS algorithm, such that PSG Consensus stages 1 and 2 were combined into Light Sleep, and stages 3 and 4 were combined into Deep Sleep. There are a total of 91,824 epochs (&gt;765 hours) of recorded data for the 99 subjects. Of those epochs, 85,206 epochs (92.8%) had majority agreement among the PSG technologist scores. For the purposes of this analysis, the PSG Consensus is considered to represent the true sleep state and the standard by which Z-PLUS is compared.</citation_analysis></p>
+        <p><citation_analysis attribute="positive"><xref ref-type="table" rid="t1-nss-7-101">Table 1</xref></citation_analysis><citation_analysis attribute="neither"> provides a summary comparison of the PSG Consensus versus Z-PLUS. The first column of </citation_analysis><citation_analysis attribute="positive"><xref ref-type="table" rid="t1-nss-7-101">Table 1</xref></citation_analysis><citation_analysis attribute="neither"> indicates that the PSG Consensus scored 16,908 epochs as Wake (column total). Of those epochs, the algorithm correctly classified 15,353 epochs, or 90.8%, as Wake. Z-PLUS misclassified 1,109 epochs (6.6%) as Light Sleep, zero epochs as Deep Sleep (0.0%), and 446 epochs (2.6%) as REM. A similar analysis was performed for Light Sleep, Deep Sleep and REM.</citation_analysis></p>
+      </sec>
+      <sec>
+        <title>Sensitivity and PPV</title>
+        <p><citation_analysis attribute="neither">The sensitivity and PPV of Z-PLUS as compared with the PSG Consensus are summarized in </citation_analysis><citation_analysis attribute="positive"><xref ref-type="table" rid="t2-nss-7-101">Table 2</xref></citation_analysis><citation_analysis attribute="neither">, and the sensitivity and PPV of Z-PLUS as compared with the individual PSG technologists are summarized in </citation_analysis><citation_analysis attribute="positive"><xref ref-type="table" rid="t3-nss-7-101">Table 3</xref></citation_analysis><citation_analysis attribute="neither">.</citation_analysis></p>
+        <p><citation_analysis attribute="neither">The sensitivity and PPV are higher for the PSG Consensus of </citation_analysis><citation_analysis attribute="positive"><xref ref-type="table" rid="t2-nss-7-101">Table 2</xref></citation_analysis><citation_analysis attribute="neither"> than for the individual PSG technologists of </citation_analysis><citation_analysis attribute="positive"><xref ref-type="table" rid="t3-nss-7-101">Table 3</xref></citation_analysis><citation_analysis attribute="positive">. For technologist 4 (T4), sensitivity of detecting Deep Sleep was especially poor (0.36); however, the PPV is very high (0.96). No other comparisons demonstrated this low level of sensitivity.</citation_analysis></p>
+        <p><citation_analysis attribute="neither">The sensitivity and PPV of Z-PLUS for each sleep subgroup (Normal, Insomnia, Apnea, PLM/RLS, and SSRI/SNRI) are summarized in </citation_analysis><citation_analysis attribute="positive"><xref ref-type="table" rid="t4-nss-7-101">Table 4</xref></citation_analysis><citation_analysis attribute="neither">. It should be noted that the number of subjects in both the Apnea and SSRI/SNRI subgroups are too small to draw viable conclusions. They are listed here for completeness.</citation_analysis></p>
+      </sec>
+      <sec sec-type="methods">
+        <title>Cohen’s kappa analysis</title>
+        <p><citation_analysis attribute="neither">Cohen’s kappa statistic provides a method for quantifying the agreement between Z-PLUS and the PSG Consensus, each of which classified 85,206 epochs of data into Wake, Light Sleep, Deep Sleep, and REM. The kappa value for the sleep staging comparison described in </citation_analysis><citation_analysis attribute="positive"><xref ref-type="table" rid="t1-nss-7-101">Table 1</xref></citation_analysis><citation_analysis attribute="neither">, across all 99 subjects, is 0.72, which indicates substantial agreement (0.6≤ kappa &lt;0.8) according to the classification given in Viera and Garrett.</citation_analysis><citation_analysis attribute="positive"><xref rid="b16-nss-7-101" ref-type="bibr">16</xref></citation_analysis></p>
+        <p><citation_analysis attribute="positive">The kappa scores among five PSG technologists (T1–T5) and Z-PLUS are shown in </citation_analysis><citation_analysis attribute="positive"><xref ref-type="table" rid="t5-nss-7-101">Table 5</xref></citation_analysis><citation_analysis attribute="neither">. Technologists T2 and T4 did not score any subjects in common, so the kappa value between them is listed as N/A. Kappa values among T1, T2, T3, and T5 are all above 0.8, which indicates almost perfect agreement (0.8≥ kappa &lt;1). Kappa values between T4 and other technologists are in the range of 0.6–0.8 (substantial agreement). Kappa values between Z-PLUS and each technologist are in the range of 0.6–0.8 (substantial agreement), with the exception of 0.570 for T4 (moderate agreement).</citation_analysis></p>
+        <p><citation_analysis attribute="positive">Kappa was also calculated between Z-PLUS and individual technologists for each subject, and between the Z-PLUS and the PSG Consensus. The box plot of those kappa values is shown in </citation_analysis><citation_analysis attribute="positive"><xref ref-type="fig" rid="f4-nss-7-101">Figure 4</xref></citation_analysis><citation_analysis attribute="neither">. The average kappa values are 0.65 between Z-PLUS and T1, 0.63 between Z-PLUS and T2, 0.66 between Z-PLUS and T3, 0.55 between Z-PLUS and T4, 0.64 between Z-PLUS and T5, and 0.70 between Z-PLUS and the PSG Consensus. Other than PSG technologist T4, all other kappa values are between 0.6 and 0.8, which indicates substantial agreement.</citation_analysis></p>
+      </sec>
+      <sec>
+        <title>Bland–Altman plots</title>
+        <p><citation_analysis attribute="positive">To further demonstrate the agreement between Z-PLUS and the PSG Consensus, Bland–Altman plots were used to compare sleep statistics for their ability to reveal systematic biases and highlight outliers present between two data sets. Bland–Altman plots displaying Total Sleep Time, Sleep Efficiency, Latency to Persistent Sleep, and Wake after Sleep Onset were provided in our previous publication.</citation_analysis><citation_analysis attribute="positive"><xref rid="b13-nss-7-101" ref-type="bibr">13</xref></citation_analysis><citation_analysis attribute="neither"> In this paper, Bland–Altman plots for Latency to Deep Sleep, Total Deep Sleep Time, Latency to REM, Total REM Time, and Total Light Sleep Time are given in </citation_analysis><citation_analysis attribute="positive"><xref ref-type="fig" rid="f5-nss-7-101">Figures 5</xref></citation_analysis><citation_analysis attribute="positive"><xref ref-type="fig" rid="f6-nss-7-101"/></citation_analysis><citation_analysis attribute="positive"><xref ref-type="fig" rid="f7-nss-7-101"/></citation_analysis><citation_analysis attribute="positive"><xref ref-type="fig" rid="f8-nss-7-101"/></citation_analysis><citation_analysis attribute="neither">–</citation_analysis><citation_analysis attribute="positive"><xref ref-type="fig" rid="f9-nss-7-101">9</xref></citation_analysis><citation_analysis attribute="neither">. Pearson’s correlation coefficients (</citation_analysis><citation_analysis attribute="positive"><italic>r</italic></citation_analysis><citation_analysis attribute="neither">) were calculated between Z-PLUS and the PSG Consensus and for each plot the correlation coefficients range in value from 0.54 for Latency to Deep Sleep to 0.82 for Total Light Sleep.</citation_analysis></p>
+      </sec>
+    </sec>
+    <sec sec-type="discussion">
+      <title>Discussion</title>
+      <p><citation_analysis attribute="positive">This study evaluated the performance of Z-PLUS as an automatic sleep staging algorithm that subdivides sleep (as determined by Z-ALG) into Light Sleep, Deep Sleep and REM, using an epoch-by-epoch comparison against manual scores by a consensus of PSG technologists (PSG Consensus). Unlike other automated scoring algorithms, Z-PLUS, similar to Z-ALG, uses a classification system that is based on individualized parameters for each participant versus population-based training methodologies.</citation_analysis></p>
+      <p><citation_analysis attribute="neither">The overall kappa agreement between Z-PLUS and the PSG Consensus for 99-subjects is 0.72, and according to Viera and Garrett</citation_analysis><citation_analysis attribute="positive"><xref rid="b16-nss-7-101" ref-type="bibr">16</xref></citation_analysis><citation_analysis attribute="positive"> this demonstrates substantial agreement. The sensitivity values between the PSG Consensus and Z-PLUS range from 0.72 for REM to 0.84 for Light Sleep, with PPVs ranging from 0.73 for REM to 0.85 for Light Sleep. In addition to sleep statistics that have already been shown in the previous paper,</citation_analysis><citation_analysis attribute="positive"><xref rid="b13-nss-7-101" ref-type="bibr">13</xref></citation_analysis><citation_analysis attribute="positive"> five additional sleep statistics are computed in this paper. Z-PLUS demonstrated good reliability and validity in the detection of Light Sleep, Deep Sleep, and REM not only for good sleepers but also for those reporting a variety of sleep complaints as well as those taking SSRI/SNRI antidepressant medications.</citation_analysis></p>
+      <p><citation_analysis attribute="positive">Our results are within the range previously observed in studies of automated sleep staging algorithms utilizing single-channel EEG data from a variety of EEG locations. Berthomier et al</citation_analysis><citation_analysis attribute="positive"><xref rid="b9-nss-7-101" ref-type="bibr">9</xref></citation_analysis><citation_analysis attribute="positive"> reported sensitivities from 0.83 for Wake to 0.86 for Deep Sleep, and PPV from 0.82 for Deep Sleep to 0.88 for Wake, and kappa of 0.75 for 15 healthy adults. Although Shambroom et al</citation_analysis><citation_analysis attribute="positive"><xref rid="b10-nss-7-101" ref-type="bibr">10</xref></citation_analysis><citation_analysis attribute="positive"> did not report these statistics for their study involving 29 healthy adults, we calculated sensitivities using the contingency table that was provided and obtained results that range from 0.63 for Wake to 0.87 for REM, and PPVs from 0.69 for Deep Sleep to 0.86 for Light Sleep, with their reported kappa value of 0.70. Stepnowsky et al</citation_analysis><citation_analysis attribute="positive"><xref rid="b12-nss-7-101" ref-type="bibr">12</xref></citation_analysis><citation_analysis attribute="positive"> evaluated 44 healthy and sleep disordered adults and using the contingency table provided in their manuscript, we calculated the average sensitivities to range from 0.74 for REM to 0.85 for Light Sleep, with average PPVs from 0.78 for REM to 0.83 to Wake. Unfortunately, the kappa value of their four-stage staging algorithm was not reported. Because different EEG channels, subject populations, and methods of analysis were used to evaluate each algorithm mentioned above, there is not sufficient uniformity to draw any concrete conclusions about the superiority of one technology over the other. To properly compare various algorithms, all algorithms must be evaluated using the same data and analyzed using a standardized methodology.</citation_analysis></p>
+      <p><citation_analysis attribute="neither">It is clear, however, that Z-PLUS has poor agreement with PSG technologist T4 (see </citation_analysis><citation_analysis attribute="positive"><xref ref-type="table" rid="t3-nss-7-101">Table 3</xref></citation_analysis><citation_analysis attribute="neither">). Such discrepancy between individual raters supports the use of consensus scoring from two or more technologists as the standard against which algorithms such as Z-PLUS should be compared. Sensitivity and PPV values are lower for the detection of Deep Sleep and REM than for the detection of Light Sleep (see </citation_analysis><citation_analysis attribute="positive"><xref ref-type="table" rid="t2-nss-7-101">Tables 2</xref></citation_analysis><citation_analysis attribute="positive"><xref ref-type="table" rid="t3-nss-7-101"/></citation_analysis><citation_analysis attribute="neither">–</citation_analysis><citation_analysis attribute="positive"><xref ref-type="table" rid="t4-nss-7-101">4</xref></citation_analysis><citation_analysis attribute="positive">), which is consistent with the lower Pearson’s correlations for the five sleep statistics provided with the Bland–Altman plots in </citation_analysis><citation_analysis attribute="positive"><xref ref-type="fig" rid="f5-nss-7-101">Figures 5</xref></citation_analysis><citation_analysis attribute="positive"><xref ref-type="fig" rid="f6-nss-7-101"/></citation_analysis><citation_analysis attribute="positive"><xref ref-type="fig" rid="f7-nss-7-101"/></citation_analysis><citation_analysis attribute="positive"><xref ref-type="fig" rid="f8-nss-7-101"/></citation_analysis><citation_analysis attribute="neither">–</citation_analysis><citation_analysis attribute="positive"><xref ref-type="fig" rid="f9-nss-7-101">9</xref></citation_analysis><citation_analysis attribute="neither"> versus the four sleep statistics published in our previous paper.</citation_analysis><citation_analysis attribute="positive"><xref rid="b13-nss-7-101" ref-type="bibr">13</xref></citation_analysis><citation_analysis attribute="neither"> It might be the nature of the mastoid EEG channel A</citation_analysis><citation_analysis attribute="positive"><sub>1</sub></citation_analysis><citation_analysis attribute="neither">–A</citation_analysis><citation_analysis attribute="positive"><sub>2</sub></citation_analysis><citation_analysis attribute="neither"> that makes Deep Sleep and REM detection more difficult to detect from a signal processing perspective. However, the A</citation_analysis><citation_analysis attribute="positive"><sub>1</sub></citation_analysis><citation_analysis attribute="neither">–A</citation_analysis><citation_analysis attribute="positive"><sub>2</sub></citation_analysis><citation_analysis attribute="neither"> channel enables very comfortable use during sleep and is much less intrusive than other EEG locations, such as forehead or scalp EEG electrode locations. So far, to the best of our knowledge, Z-PLUS is the first algorithm to use A</citation_analysis><citation_analysis attribute="positive"><sub>1</sub></citation_analysis><citation_analysis attribute="neither">–A</citation_analysis><citation_analysis attribute="positive"><sub>2</sub></citation_analysis><citation_analysis attribute="neither"> for sleep staging and based on the preliminary results presented in this paper, additional research is needed to further investigate the characteristics of the A</citation_analysis><citation_analysis attribute="positive"><sub>1</sub></citation_analysis><citation_analysis attribute="neither">–A</citation_analysis><citation_analysis attribute="positive"><sub>2</sub></citation_analysis><citation_analysis attribute="neither"> EEG signal and to improve the accuracy of Z-PLUS.</citation_analysis></p>
+      <p><citation_analysis attribute="positive">A limitation of the present study is the classification of subgroups of sleep disorders according to self-reports rather than being clinically verified prior to inclusion in the study. Additionally, because subjects with particular symptom configurations or diagnoses were not specifically recruited, there are insufficient numbers of subjects in the sleep disorder subgroups to make any broad conclusions about the performance of Z-PLUS in such cases. However, the apnea and SSRI/SNRI subgroups do hint at somewhat degraded Z-PLUS performance especially in the detection of Deep Sleep. This may be the result of different characteristics of the EEG signal during Deep Sleep for these two subgroups versus other groups, where the performance of Z-PLUS for the insomnia and PLM/RLS subgroups was not negatively impacted. However, the study of larger sleep disordered populations using a variety of patient demographic types should be performed in the future to further understand the strengths and limitations of Z-PLUS, as well as to improve the performance of future versions of the algorithm. Despite these limitations, our data suggest that Z-PLUS is an accurate automated scoring algorithm for identifying sleep stages both in normal sleepers and in individuals with certain sleep disturbances.</citation_analysis></p>
+    </sec>
+  </body>
+  <back>
+    <ack>
+      <title>Acknowledgments</title>
+      <p><citation_analysis attribute="neither">The authors would like to thank the late Richard R. Bootzin, PhD, from the Department of Psychology at University of Arizona for his guidance and support throughout the development of this research.</citation_analysis></p>
+    </ack>
+    <fn-group>
+      <fn>
+        <p><citation_analysis attribute="positive">
+          </citation_analysis><citation_analysis attribute="positive"><bold>Disclosure</bold></citation_analysis><citation_analysis attribute="positive">
+        </citation_analysis></p>
+        <p><citation_analysis attribute="neither">The work was performed at, and supported by, General Sleep Corporation (a division of Consolidated Research, Inc., Euclid, OH, USA). Drs Wang and Kaplan are employed by General Sleep Corporation. Dr Loparo is affiliated with General Sleep Corporation, and Nord Professor of Engineering and Chair, Department of Electrical Engineering and Computer Science at Case Western Reserve University. Ms Kelly is a graduate student in the Department of Psychology at University of Arizona and a consultant regarding manuscript preparation to General Sleep Corporation.</citation_analysis></p>
+      </fn>
+    </fn-group>
+    <ref-list>
+      <title>References</title>
+      <ref id="b1-nss-7-101">
+        <label>1</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Redline</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Dean</surname>
+              <given-names>D</given-names>
+            </name>
+            <name>
+              <surname>Sanders</surname>
+              <given-names>M</given-names>
+            </name>
+          </person-group>
+          <article-title>Enter the era of “Big Data”: getting our metrics right</article-title>
+          <source>Sleep</source>
+          <year>2013</year>
+          <volume>36</volume>
+          <issue>4</issue>
+          <fpage>465</fpage>
+          <lpage>469</lpage>
+          <pub-id pub-id-type="pmid">23564993</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b2-nss-7-101">
+        <label>2</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Berthomier</surname>
+              <given-names>C</given-names>
+            </name>
+            <name>
+              <surname>Brandewinder</surname>
+              <given-names>M</given-names>
+            </name>
+          </person-group>
+          <article-title>Sleep scoring: man versus machine?</article-title>
+          <source>Sleep Breath</source>
+          <year>2013</year>
+          <volume>17</volume>
+          <issue>2</issue>
+          <fpage>461</fpage>
+          <lpage>462</lpage>
+          <pub-id pub-id-type="pmid">22562292</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b3-nss-7-101">
+        <label>3</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Malhotra</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Younes</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Kuna</surname>
+              <given-names>S</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Performance of an automated polysomnography scoring system versus computer-assisted manual scoring</article-title>
+          <source>Sleep</source>
+          <year>2013</year>
+          <volume>36</volume>
+          <issue>4</issue>
+          <fpage>573</fpage>
+          <lpage>582</lpage>
+          <pub-id pub-id-type="pmid">23565003</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b4-nss-7-101">
+        <label>4</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Fraiwan</surname>
+              <given-names>L</given-names>
+            </name>
+            <name>
+              <surname>Lweesy</surname>
+              <given-names>K</given-names>
+            </name>
+            <name>
+              <surname>Khasawneh</surname>
+              <given-names>N</given-names>
+            </name>
+            <name>
+              <surname>Wenz</surname>
+              <given-names>H</given-names>
+            </name>
+            <name>
+              <surname>Dickhaus</surname>
+              <given-names>H</given-names>
+            </name>
+          </person-group>
+          <article-title>Automated sleep stage identification system based on time–frequency analysis of a single EEG channel and random forest classifier</article-title>
+          <source>Comput Methods Programs Biomed</source>
+          <year>2012</year>
+          <volume>108</volume>
+          <issue>1</issue>
+          <fpage>10</fpage>
+          <lpage>19</lpage>
+          <pub-id pub-id-type="pmid">22178068</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b5-nss-7-101">
+        <label>5</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Koley</surname>
+              <given-names>B</given-names>
+            </name>
+            <name>
+              <surname>Dey</surname>
+              <given-names>D</given-names>
+            </name>
+          </person-group>
+          <article-title>An ensemble system for automatic sleep stage classification using single channel EEG signal</article-title>
+          <source>Comput Biol Med</source>
+          <year>2012</year>
+          <volume>42</volume>
+          <issue>12</issue>
+          <fpage>1186</fpage>
+          <lpage>1195</lpage>
+          <pub-id pub-id-type="pmid">23102750</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b6-nss-7-101">
+        <label>6</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Liang</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Kuo</surname>
+              <given-names>C</given-names>
+            </name>
+            <name>
+              <surname>Hu</surname>
+              <given-names>Y</given-names>
+            </name>
+            <name>
+              <surname>Pan</surname>
+              <given-names>Y</given-names>
+            </name>
+            <name>
+              <surname>Wang</surname>
+              <given-names>Y</given-names>
+            </name>
+          </person-group>
+          <article-title>Automatic stage scoring of single-channel sleep EEG by using multiscale entropy and autoregres-sive models</article-title>
+          <source>IEEE Trans Instrum Meas</source>
+          <year>2012</year>
+          <volume>61</volume>
+          <issue>6</issue>
+          <fpage>1649</fpage>
+          <lpage>1657</lpage>
+        </element-citation>
+      </ref>
+      <ref id="b7-nss-7-101">
+        <label>7</label>
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Garcia-Molina</surname>
+              <given-names>G</given-names>
+            </name>
+            <name>
+              <surname>Bellesi</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Pastoor</surname>
+              <given-names>S</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Online single EEG channel based automatic sleep staging</article-title>
+          <person-group person-group-type="editor">
+            <name>
+              <surname>Harris</surname>
+              <given-names>D</given-names>
+            </name>
+          </person-group>
+          <source>Engineering Psychology and Cognitive Ergonomics. Applications and Services</source>
+          <publisher-loc>Berlin Heidelberg</publisher-loc>
+          <publisher-name>Springer</publisher-name>
+          <year>2013</year>
+          <fpage>333</fpage>
+          <lpage>342</lpage>
+        </element-citation>
+      </ref>
+      <ref id="b8-nss-7-101">
+        <label>8</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Zhu</surname>
+              <given-names>G</given-names>
+            </name>
+            <name>
+              <surname>Wen</surname>
+              <given-names>P</given-names>
+            </name>
+          </person-group>
+          <article-title>Analysis and classification of sleep stages based on difference visibility graphs from a single-channel EEG signal</article-title>
+          <source>IEEE J Biomed Health Inform</source>
+          <year>2014</year>
+          <volume>18</volume>
+          <issue>6</issue>
+          <fpage>1813</fpage>
+          <lpage>1821</lpage>
+          <pub-id pub-id-type="pmid">25375678</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b9-nss-7-101">
+        <label>9</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Berthomier</surname>
+              <given-names>C</given-names>
+            </name>
+            <name>
+              <surname>Drouot</surname>
+              <given-names>X</given-names>
+            </name>
+            <name>
+              <surname>Herman-Stoïca</surname>
+              <given-names>M</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Automatic analysis of single-channel sleep EEG: Validation in healthy individuals</article-title>
+          <source>Sleep</source>
+          <year>2007</year>
+          <volume>30</volume>
+          <issue>11</issue>
+          <fpage>1587</fpage>
+          <lpage>1595</lpage>
+          <pub-id pub-id-type="pmid">18041491</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b10-nss-7-101">
+        <label>10</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Shambroom</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Fabregas</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Johnstone</surname>
+              <given-names>J</given-names>
+            </name>
+          </person-group>
+          <article-title>Validation of an automated wireless system to monitor sleep in healthy adults</article-title>
+          <source>J Sleep Res</source>
+          <year>2012</year>
+          <volume>21</volume>
+          <issue>2</issue>
+          <fpage>221</fpage>
+          <lpage>230</lpage>
+          <pub-id pub-id-type="pmid">21859438</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b11-nss-7-101">
+        <label>11</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Griessenberger</surname>
+              <given-names>H</given-names>
+            </name>
+            <name>
+              <surname>Heib</surname>
+              <given-names>DPJ</given-names>
+            </name>
+            <name>
+              <surname>Kunz</surname>
+              <given-names>AB</given-names>
+            </name>
+            <name>
+              <surname>Hoedimoser</surname>
+              <given-names>K</given-names>
+            </name>
+            <name>
+              <surname>Schabus</surname>
+              <given-names>M</given-names>
+            </name>
+          </person-group>
+          <article-title>Assessment of a wireless headband for automatic sleep scoring</article-title>
+          <source>Sleep Breath</source>
+          <year>2013</year>
+          <volume>17</volume>
+          <issue>2</issue>
+          <fpage>747</fpage>
+          <lpage>752</lpage>
+          <pub-id pub-id-type="pmid">22996794</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b12-nss-7-101">
+        <label>12</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Stepnowsky</surname>
+              <given-names>C</given-names>
+            </name>
+            <name>
+              <surname>Levendowski</surname>
+              <given-names>D</given-names>
+            </name>
+            <name>
+              <surname>Popvic</surname>
+              <given-names>D</given-names>
+            </name>
+            <name>
+              <surname>Ayappa</surname>
+              <given-names>I</given-names>
+            </name>
+            <name>
+              <surname>Rapoport</surname>
+              <given-names>D</given-names>
+            </name>
+          </person-group>
+          <article-title>Scoring accuracy of automated sleep staging from a bipolar electroocu-lar recording compared to manual scoring by multiple raters</article-title>
+          <source>Sleep Med</source>
+          <year>2013</year>
+          <volume>14</volume>
+          <issue>11</issue>
+          <fpage>1199</fpage>
+          <lpage>1207</lpage>
+          <pub-id pub-id-type="pmid">24047533</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b13-nss-7-101">
+        <label>13</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kaplan</surname>
+              <given-names>R</given-names>
+            </name>
+            <name>
+              <surname>Wang</surname>
+              <given-names>Y</given-names>
+            </name>
+            <name>
+              <surname>Loparo</surname>
+              <given-names>K</given-names>
+            </name>
+            <name>
+              <surname>Kelly</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Bootzin</surname>
+              <given-names>R</given-names>
+            </name>
+          </person-group>
+          <article-title>Performance evaluation of an automated single channel sleep–wake detection algorithm</article-title>
+          <source>Nat Sci Sleep</source>
+          <year>2014</year>
+          <volume>6</volume>
+          <fpage>113</fpage>
+          <lpage>122</lpage>
+          <pub-id pub-id-type="pmid">25342922</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b14-nss-7-101">
+        <label>14</label>
+        <element-citation publication-type="webpage">
+          <person-group person-group-type="author">
+            <collab>American Society of Anesthesiologists</collab>
+          </person-group>
+          <source>ASA Physical Status Classification System; 2010</source>
+          <comment>Available from: <ext-link ext-link-type="uri" xlink:href="http://www.asahq.org/Home/For-Members/Clinical-Information/ASA-Physical-Status-Classification-System">http://www.asahq.org/Home/For-Members/Clinical-Information/ASA-Physical-Status-Classification-System</ext-link></comment>
+          <date-in-citation>Accessed January 8, 2015</date-in-citation>
+        </element-citation>
+      </ref>
+      <ref id="b15-nss-7-101">
+        <label>15</label>
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Rechtschaffen</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Kales</surname>
+              <given-names>AA</given-names>
+            </name>
+          </person-group>
+          <source>Manual of Standardized Terminology, Techniques Scoring System for Sleep Stages of Human Subjects</source>
+          <publisher-loc>Washington DC</publisher-loc>
+          <publisher-name>National Health Institute</publisher-name>
+          <year>1968</year>
+        </element-citation>
+      </ref>
+      <ref id="b16-nss-7-101">
+        <label>16</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Viera</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Garrett</surname>
+              <given-names>J</given-names>
+            </name>
+          </person-group>
+          <article-title>Understanding interobserver agreement: the kappa statistic</article-title>
+          <source>Family Med</source>
+          <year>2005</year>
+          <volume>37</volume>
+          <issue>5</issue>
+          <fpage>360</fpage>
+          <lpage>363</lpage>
+        </element-citation>
+      </ref>
+    </ref-list>
+  </back>
+  <floats-group>
+    <fig id="f1-nss-7-101" position="float">
+      <label>Figure 1</label>
+      <caption>
+        <p><citation_analysis attribute="neither">The Z-PLUS algorithm further differentiates epochs identified as Sleep by Z-ALG into Light Sleep, Deep Sleep, and REM.</citation_analysis></p>
+        <p><citation_analysis attribute="positive"><bold>Abbreviations:</bold></citation_analysis><citation_analysis attribute="neither"> EEG, electroencephalography; REM, Rapid Eye Movement.</citation_analysis></p>
+      </caption>
+      <graphic xlink:href="nss-7-101Fig1"/>
+    </fig>
+    <fig id="f2-nss-7-101" position="float">
+      <label>Figure 2</label>
+      <caption>
+        <p><citation_analysis attribute="neither">Z-PLUS and Z-ALG both use EEG data acquired from A</citation_analysis><citation_analysis attribute="positive"><sub>1</sub></citation_analysis><citation_analysis attribute="neither"> to A</citation_analysis><citation_analysis attribute="positive"><sub>2</sub></citation_analysis><citation_analysis attribute="neither"> with a signal common (COM) located on the back of the neck or shoulder.</citation_analysis></p>
+        <p><citation_analysis attribute="positive"><bold>Abbreviation:</bold></citation_analysis><citation_analysis attribute="neither"> EEG, electroencephalography.</citation_analysis></p>
+      </caption>
+      <graphic xlink:href="nss-7-101Fig2"/>
+    </fig>
+    <fig id="f3-nss-7-101" position="float">
+      <label>Figure 3</label>
+      <caption>
+        <p><citation_analysis attribute="neither">Block diagram of Z-PLUS for sleep staging.</citation_analysis></p>
+        <p><citation_analysis attribute="positive"><bold>Abbreviations:</bold></citation_analysis><citation_analysis attribute="neither"> EEG, electroencephalography; REM, rapid eye movement.</citation_analysis></p>
+      </caption>
+      <graphic xlink:href="nss-7-101Fig3"/>
+    </fig>
+    <fig id="f4-nss-7-101" position="float">
+      <label>Figure 4</label>
+      <caption>
+        <p><citation_analysis attribute="positive">Cohen’s kappa of Z-PLUS versus individual PSG technologists and PSG Consensus over 99 subjects. Each box shows the median and inter-quartile range. Whiskers show the upper and lower adjacent values.</citation_analysis></p>
+        <p><citation_analysis attribute="positive"><bold>Abbreviations:</bold></citation_analysis><citation_analysis attribute="neither"> PSG, polysomnography;T, technologist.</citation_analysis></p>
+      </caption>
+      <graphic xlink:href="nss-7-101Fig4"/>
+    </fig>
+    <fig id="f5-nss-7-101" position="float">
+      <label>Figure 5</label>
+      <caption>
+        <p><citation_analysis attribute="neither">Bland–Altman plot of Latency to Deep Sleep between Z-PLUS and the PSG Consensus. </citation_analysis><citation_analysis attribute="positive"><bold>Note:</bold></citation_analysis><citation_analysis attribute="positive">
+</citation_analysis><citation_analysis attribute="positive"><italic>r</italic></citation_analysis><citation_analysis attribute="negative">=0.54 and bias =0.75±2.08.</citation_analysis></p>
+        <p><citation_analysis attribute="positive"><bold>Abbreviation:</bold></citation_analysis><citation_analysis attribute="neither"> PSG, polysomnography.</citation_analysis></p>
+      </caption>
+      <graphic xlink:href="nss-7-101Fig5"/>
+    </fig>
+    <fig id="f6-nss-7-101" position="float">
+      <label>Figure 6</label>
+      <caption>
+        <p><citation_analysis attribute="neither">Bland–Altman plot of Total Deep Sleep between Z-PLUS and the PSG Consensus.</citation_analysis></p>
+        <p><citation_analysis attribute="positive"><bold>Note:</bold></citation_analysis><citation_analysis attribute="positive">
+</citation_analysis><citation_analysis attribute="positive"><italic>r</italic></citation_analysis><citation_analysis attribute="negative">=0.81 and bias =−0.03±0.30.</citation_analysis></p>
+        <p><citation_analysis attribute="positive"><bold>Abbreviation:</bold></citation_analysis><citation_analysis attribute="neither"> PSG, polysomnography.</citation_analysis></p>
+      </caption>
+      <graphic xlink:href="nss-7-101Fig6"/>
+    </fig>
+    <fig id="f7-nss-7-101" position="float">
+      <label>Figure 7</label>
+      <caption>
+        <p><citation_analysis attribute="neither">Bland–Altman plot of Latency to REM between Z-PLUS and the PSG Consensus.</citation_analysis></p>
+        <p><citation_analysis attribute="positive"><bold>Notes:</bold></citation_analysis><citation_analysis attribute="positive">
+</citation_analysis><citation_analysis attribute="positive"><italic>r</italic></citation_analysis><citation_analysis attribute="negative">=0.75 and bias =−0.20±0.74.</citation_analysis></p>
+        <p><citation_analysis attribute="positive"><bold>Abbreviations:</bold></citation_analysis><citation_analysis attribute="neither"> PSG, polysomnography; REM, Rapid Eye Movement.</citation_analysis></p>
+      </caption>
+      <graphic xlink:href="nss-7-101Fig7"/>
+    </fig>
+    <fig id="f8-nss-7-101" position="float">
+      <label>Figure 8</label>
+      <caption>
+        <p><citation_analysis attribute="neither">Bland–Altman plot of Total REM between Z-PLUS and the PSG Consensus.</citation_analysis></p>
+        <p><citation_analysis attribute="positive"><bold>Note:</bold></citation_analysis><citation_analysis attribute="positive">
+</citation_analysis><citation_analysis attribute="positive"><italic>r</italic></citation_analysis><citation_analysis attribute="negative">=0.61 and bias =−0.02±0.41.</citation_analysis></p>
+        <p><citation_analysis attribute="positive"><bold>Abbreviations:</bold></citation_analysis><citation_analysis attribute="neither"> PSG, polysomnography; REM, Rapid Eye Movement.</citation_analysis></p>
+      </caption>
+      <graphic xlink:href="nss-7-101Fig8"/>
+    </fig>
+    <fig id="f9-nss-7-101" position="float">
+      <label>Figure 9</label>
+      <caption>
+        <p><citation_analysis attribute="neither">Bland–Altman plot of Total Light Sleep between Z-PLUS and the PSG Consensus.</citation_analysis></p>
+        <p><citation_analysis attribute="positive"><bold>Note:</bold></citation_analysis><citation_analysis attribute="positive">
+</citation_analysis><citation_analysis attribute="positive"><italic>r</italic></citation_analysis><citation_analysis attribute="negative">=0.82 and bias =−0.10±0.47.</citation_analysis></p>
+        <p><citation_analysis attribute="positive"><bold>Abbreviation:</bold></citation_analysis><citation_analysis attribute="neither"> PSG, polysomnography.</citation_analysis></p>
+      </caption>
+      <graphic xlink:href="nss-7-101Fig9"/>
+    </fig>
+    <table-wrap id="t1-nss-7-101" position="float">
+      <label>Table 1</label>
+      <caption>
+        <p><citation_analysis attribute="neither">Comparison of PSG Consensus versus Z-PLUS algorithm for each sleep stage (Wake, Light Sleep, Deep Sleep, and REM)</citation_analysis></p>
+      </caption>
+      <table frame="hsides" rules="groups">
+        <thead>
+          <tr>
+            <th rowspan="2" valign="top" align="left" colspan="1"/>
+            <th colspan="4" valign="top" align="left" rowspan="1">PSG Consensus
+<hr/></th>
+          </tr>
+          <tr>
+            <th valign="top" align="left" rowspan="1" colspan="1">Wake</th>
+            <th valign="top" align="left" rowspan="1" colspan="1">Light Sleep</th>
+            <th valign="top" align="left" rowspan="1" colspan="1">Deep Sleep</th>
+            <th valign="top" align="left" rowspan="1" colspan="1">REM</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td colspan="5" valign="top" align="left" rowspan="1">
+              <bold>Algorithm</bold>
+            </td>
+          </tr>
+          <tr>
+            <td valign="top" align="left" rowspan="1" colspan="1">Wake</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">15,353 (90.8%)</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">2,721 (5.9%)</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">59 (0.9%)</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">81 (0.5%)</td>
+          </tr>
+          <tr>
+            <td valign="top" align="left" rowspan="1" colspan="1">Light Sleep</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">1,109 (6.6%)</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">38,769 (83.5%)</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">1,700 (25.2%)</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">4,136 (27.3%)</td>
+          </tr>
+          <tr>
+            <td valign="top" align="left" rowspan="1" colspan="1">Deep Sleep</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">0 (0.0%)</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">1,385 (3.0%)</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">4,974 (73.8%)</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">1 (0.0%)</td>
+          </tr>
+          <tr>
+            <td valign="top" align="left" rowspan="1" colspan="1">REM</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">446 (2.6%)</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">3,548 (7.6%)</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">3 (0.0%)</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">10,921 (72.1%)</td>
+          </tr>
+          <tr>
+            <td valign="top" align="left" rowspan="1" colspan="1">Number of epochs</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">16,908</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">46,423</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">6,736</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">15,139</td>
+          </tr>
+        </tbody>
+      </table>
+      <table-wrap-foot>
+        <fn id="tfn1-nss-7-101">
+          <p><citation_analysis attribute="positive"><bold>Notes:</bold></citation_analysis><citation_analysis attribute="neither"> The Wake state is scored by Z-ALG and unchanged by Z-PLUS.</citation_analysis></p>
+        </fn>
+        <fn id="tfn2-nss-7-101">
+          <p><citation_analysis attribute="positive"><bold>Abbreviations:</bold></citation_analysis><citation_analysis attribute="neither"> PSG, polysomnography; REM, Rapid Eye Movement.</citation_analysis></p>
+        </fn>
+      </table-wrap-foot>
+    </table-wrap>
+    <table-wrap id="t2-nss-7-101" position="float">
+      <label>Table 2</label>
+      <caption>
+        <p><citation_analysis attribute="neither">Sensitivity and PPV of Z-PLUS as compared with the PSG Consensus for Wake, Light Sleep, Deep Sleep, and REM</citation_analysis></p>
+      </caption>
+      <table frame="hsides" rules="groups">
+        <thead>
+          <tr>
+            <th valign="top" align="left" rowspan="1" colspan="1"/>
+            <th valign="top" align="left" rowspan="1" colspan="1">Wake</th>
+            <th valign="top" align="left" rowspan="1" colspan="1">Light Sleep</th>
+            <th valign="top" align="left" rowspan="1" colspan="1">Deep Sleep</th>
+            <th valign="top" align="left" rowspan="1" colspan="1">REM</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td valign="top" align="left" rowspan="1" colspan="1">Sensitivity</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">0.91</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">0.84</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">0.74</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">0.72</td>
+          </tr>
+          <tr>
+            <td valign="top" align="left" rowspan="1" colspan="1">PPV</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">0.84</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">0.85</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">0.78</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">0.73</td>
+          </tr>
+        </tbody>
+      </table>
+      <table-wrap-foot>
+        <fn id="tfn3-nss-7-101">
+          <p><citation_analysis attribute="positive"><bold>Abbreviations:</bold></citation_analysis><citation_analysis attribute="positive"> PPV, positive predictive value; PSG, polysomnography; REM, Rapid Eye Movement.</citation_analysis></p>
+        </fn>
+      </table-wrap-foot>
+    </table-wrap>
+    <table-wrap id="t3-nss-7-101" position="float">
+      <label>Table 3</label>
+      <caption>
+        <p><citation_analysis attribute="neither">Sensitivity and PPV of Z-PLUS as compared with the individual PSG technologists for Wake, Light Sleep, Deep Sleep, and REM</citation_analysis></p>
+      </caption>
+      <table frame="hsides" rules="groups">
+        <thead>
+          <tr>
+            <th valign="top" align="left" rowspan="1" colspan="1"/>
+            <th valign="top" align="left" rowspan="1" colspan="1">Wake</th>
+            <th valign="top" align="left" rowspan="1" colspan="1">Light Sleep</th>
+            <th valign="top" align="left" rowspan="1" colspan="1">Deep Sleep</th>
+            <th valign="top" align="left" rowspan="1" colspan="1">REM</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td colspan="5" valign="top" align="left" rowspan="1">
+              <bold>Technologist 1</bold>
+            </td>
+          </tr>
+          <tr>
+            <td valign="top" align="left" rowspan="1" colspan="1">Sensitivity</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">0.88</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">0.81</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">0.71</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">0.69</td>
+          </tr>
+          <tr>
+            <td valign="top" align="left" rowspan="1" colspan="1">PPV</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">0.81</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">0.83</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">0.71</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">0.69</td>
+          </tr>
+          <tr>
+            <td colspan="5" valign="top" align="left" rowspan="1">
+              <bold>Technologist 2</bold>
+            </td>
+          </tr>
+          <tr>
+            <td valign="top" align="left" rowspan="1" colspan="1">Sensitivity</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">0.89</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">0.81</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">0.66</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">0.68</td>
+          </tr>
+          <tr>
+            <td valign="top" align="left" rowspan="1" colspan="1">PPV</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">0.76</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">0.81</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">0.85</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">0.67</td>
+          </tr>
+          <tr>
+            <td colspan="5" valign="top" align="left" rowspan="1">
+              <bold>Technologist 3</bold>
+            </td>
+          </tr>
+          <tr>
+            <td valign="top" align="left" rowspan="1" colspan="1">Sensitivity</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">0.84</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">0.83</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">0.73</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">0.70</td>
+          </tr>
+          <tr>
+            <td valign="top" align="left" rowspan="1" colspan="1">PPV</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">0.85</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">0.82</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">0.76</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">0.71</td>
+          </tr>
+          <tr>
+            <td colspan="5" valign="top" align="left" rowspan="1">
+              <bold>Technologist 4</bold>
+            </td>
+          </tr>
+          <tr>
+            <td valign="top" align="left" rowspan="1" colspan="1">Sensitivity</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">0.91</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">0.79</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">0.36</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">0.73</td>
+          </tr>
+          <tr>
+            <td valign="top" align="left" rowspan="1" colspan="1">PPV</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">0.73</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">0.68</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">0.96</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">0.70</td>
+          </tr>
+          <tr>
+            <td colspan="5" valign="top" align="left" rowspan="1">
+              <bold>Technologist 5</bold>
+            </td>
+          </tr>
+          <tr>
+            <td valign="top" align="left" rowspan="1" colspan="1">Sensitivity</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">0.91</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">0.79</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">0.69</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">0.71</td>
+          </tr>
+          <tr>
+            <td valign="top" align="left" rowspan="1" colspan="1">PPV</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">0.76</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">0.85</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">0.67</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">0.71</td>
+          </tr>
+        </tbody>
+      </table>
+      <table-wrap-foot>
+        <fn id="tfn4-nss-7-101">
+          <p><citation_analysis attribute="positive"><bold>Abbreviations:</bold></citation_analysis><citation_analysis attribute="positive"> PPV, positive predictive value; PSG, polysomnography; REM, Rapid Eye Movement.</citation_analysis></p>
+        </fn>
+      </table-wrap-foot>
+    </table-wrap>
+    <table-wrap id="t4-nss-7-101" position="float">
+      <label>Table 4</label>
+      <caption>
+        <p><citation_analysis attribute="neither">Sensitivity and PPV of Z-PLUS for each sleep sub-group (Normal, Insomnia, Apnea, PLM/RLS, and SSRI/SNRI)</citation_analysis></p>
+      </caption>
+      <table frame="hsides" rules="groups">
+        <thead>
+          <tr>
+            <th valign="top" align="left" rowspan="1" colspan="1"/>
+            <th valign="top" align="left" rowspan="1" colspan="1">Wake</th>
+            <th valign="top" align="left" rowspan="1" colspan="1">Light Sleep</th>
+            <th valign="top" align="left" rowspan="1" colspan="1">Deep Sleep</th>
+            <th valign="top" align="left" rowspan="1" colspan="1">REM</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td colspan="5" valign="top" align="left" rowspan="1">
+              <bold>Normal subgroup 41 subjects (kappa =0.72)</bold>
+            </td>
+          </tr>
+          <tr>
+            <td valign="top" align="left" rowspan="1" colspan="1">Sensitivity</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">0.92</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">0.83</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">0.77</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">0.74</td>
+          </tr>
+          <tr>
+            <td valign="top" align="left" rowspan="1" colspan="1">PPV</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">0.82</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">0.85</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">0.83</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">0.76</td>
+          </tr>
+          <tr>
+            <td colspan="5" valign="top" align="left" rowspan="1">
+              <bold>Insomnia subgroup 35 subjects (kappa =0.74)</bold>
+            </td>
+          </tr>
+          <tr>
+            <td valign="top" align="left" rowspan="1" colspan="1">Sensitivity</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">0.90</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">0.84</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">0.72</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">0.76</td>
+          </tr>
+          <tr>
+            <td valign="top" align="left" rowspan="1" colspan="1">PPV</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">0.91</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">0.85</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">0.82</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">0.69</td>
+          </tr>
+          <tr>
+            <td colspan="5" valign="top" align="left" rowspan="1">
+              <bold>Apnea subgroup 5 subjects (kappa =0.75)</bold>
+            </td>
+          </tr>
+          <tr>
+            <td valign="top" align="left" rowspan="1" colspan="1">Sensitivity</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">0.88</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">0.82</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">0.78</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">0.82</td>
+          </tr>
+          <tr>
+            <td valign="top" align="left" rowspan="1" colspan="1">PPV</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">0.90</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">0.87</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">0.50</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">0.70</td>
+          </tr>
+          <tr>
+            <td colspan="5" valign="top" align="left" rowspan="1">
+              <bold>PLM/RLS subgroup 22 subjects (kappa =0.67)</bold>
+            </td>
+          </tr>
+          <tr>
+            <td valign="top" align="left" rowspan="1" colspan="1">Sensitivity</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">0.91</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">0.83</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">0.67</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">0.61</td>
+          </tr>
+          <tr>
+            <td valign="top" align="left" rowspan="1" colspan="1">PPV</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">0.83</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">0.80</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">0.76</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">0.73</td>
+          </tr>
+          <tr>
+            <td colspan="5" valign="top" align="left" rowspan="1">
+              <bold>SSRI/SNRI subgroup 4 subjects (kappa =0.68)</bold>
+            </td>
+          </tr>
+          <tr>
+            <td valign="top" align="left" rowspan="1" colspan="1">Sensitivity</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">0.92</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">0.84</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">0.38</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">0.71</td>
+          </tr>
+          <tr>
+            <td valign="top" align="left" rowspan="1" colspan="1">PPV</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">0.75</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">0.84</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">0.98</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">0.78</td>
+          </tr>
+        </tbody>
+      </table>
+      <table-wrap-foot>
+        <fn id="tfn5-nss-7-101">
+          <p><citation_analysis attribute="positive"><bold>Abbreviations:</bold></citation_analysis><citation_analysis attribute="positive"> PLM, periodic limb movement; RLS, restless leg syndrome; PPV, positive predictive value; SSRI, selective serotonin reuptake inhibitor; SNRI, serotonin–norepinephrine reuptake inhibitor.</citation_analysis></p>
+        </fn>
+      </table-wrap-foot>
+    </table-wrap>
+    <table-wrap id="t5-nss-7-101" position="float">
+      <label>Table 5</label>
+      <caption>
+        <p><citation_analysis attribute="neither">Kappa values among the PSG technologists and Z-PLUS</citation_analysis></p>
+      </caption>
+      <table frame="hsides" rules="groups">
+        <thead>
+          <tr>
+            <th valign="top" align="left" rowspan="1" colspan="1"/>
+            <th valign="top" align="left" rowspan="1" colspan="1">T1</th>
+            <th valign="top" align="left" rowspan="1" colspan="1">T2</th>
+            <th valign="top" align="left" rowspan="1" colspan="1">T3</th>
+            <th valign="top" align="left" rowspan="1" colspan="1">T4</th>
+            <th valign="top" align="left" rowspan="1" colspan="1">T5</th>
+            <th valign="top" align="left" rowspan="1" colspan="1">Z-PLUS</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td valign="top" align="left" rowspan="1" colspan="1">T1</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">1</td>
+            <td valign="top" align="left" rowspan="1" colspan="1"/>
+            <td valign="top" align="left" rowspan="1" colspan="1"/>
+            <td valign="top" align="left" rowspan="1" colspan="1"/>
+            <td valign="top" align="left" rowspan="1" colspan="1"/>
+            <td valign="top" align="left" rowspan="1" colspan="1"/>
+          </tr>
+          <tr>
+            <td valign="top" align="left" rowspan="1" colspan="1">T2</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">0.82</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">1</td>
+            <td valign="top" align="left" rowspan="1" colspan="1"/>
+            <td valign="top" align="left" rowspan="1" colspan="1"/>
+            <td valign="top" align="left" rowspan="1" colspan="1"/>
+            <td valign="top" align="left" rowspan="1" colspan="1"/>
+          </tr>
+          <tr>
+            <td valign="top" align="left" rowspan="1" colspan="1">T3</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">0.85</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">0.83</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">1</td>
+            <td valign="top" align="left" rowspan="1" colspan="1"/>
+            <td valign="top" align="left" rowspan="1" colspan="1"/>
+            <td valign="top" align="left" rowspan="1" colspan="1"/>
+          </tr>
+          <tr>
+            <td valign="top" align="left" rowspan="1" colspan="1">T4</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">0.75</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">N/A</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">0.72</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">1</td>
+            <td valign="top" align="left" rowspan="1" colspan="1"/>
+            <td valign="top" align="left" rowspan="1" colspan="1"/>
+          </tr>
+          <tr>
+            <td valign="top" align="left" rowspan="1" colspan="1">T5</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">0.85</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">0.85</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">0.85</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">0.75</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">1</td>
+            <td valign="top" align="left" rowspan="1" colspan="1"/>
+          </tr>
+          <tr>
+            <td valign="top" align="left" rowspan="1" colspan="1">Z-PLUS</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">0.67</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">0.66</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">0.68</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">0.57</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">0.66</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">1</td>
+          </tr>
+        </tbody>
+      </table>
+      <table-wrap-foot>
+        <fn id="tfn6-nss-7-101">
+          <p><citation_analysis attribute="positive"><bold>Abbreviations:</bold></citation_analysis><citation_analysis attribute="neither"> N/A, not available; PSG, polysomnography; T, technologist.</citation_analysis></p>
+        </fn>
+      </table-wrap-foot>
+    </table-wrap>
+  </floats-group>
+</article>
+</pmc-articleset>

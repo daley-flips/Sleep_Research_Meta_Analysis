@@ -1,0 +1,1506 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<pmc-articleset><article xmlns:ali="http://www.niso.org/schemas/ali/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="research-article">
+  <?properties open_access?>
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="nlm-ta">Nat Sci Sleep</journal-id>
+      <journal-id journal-id-type="iso-abbrev">Nat Sci Sleep</journal-id>
+      <journal-id journal-id-type="publisher-id">Nature and Science of Sleep</journal-id>
+      <journal-title-group>
+        <journal-title>Nature and Science of Sleep</journal-title>
+      </journal-title-group>
+      <issn pub-type="epub">1179-1608</issn>
+      <publisher>
+        <publisher-name>Dove Medical Press</publisher-name>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="pmid">26366107</article-id>
+      <article-id pub-id-type="pmc">4562753</article-id>
+      <article-id pub-id-type="doi">10.2147/NSS.S84548</article-id>
+      <article-id pub-id-type="publisher-id">nss-7-085</article-id>
+      <article-categories>
+        <subj-group subj-group-type="heading">
+          <subject>Original Research</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>An automated sleep-state classification algorithm for quantifying sleep timing and sleep-dependent dynamics of electroencephalographic and cerebral metabolic parameters</article-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Rempe</surname>
+            <given-names>Michael J</given-names>
+          </name>
+          <xref ref-type="aff" rid="af1-nss-7-085">1</xref>
+          <xref ref-type="aff" rid="af2-nss-7-085">2</xref>
+          <xref ref-type="corresp" rid="c1-nss-7-085"/>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Clegern</surname>
+            <given-names>William C</given-names>
+          </name>
+          <xref ref-type="aff" rid="af2-nss-7-085">2</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Wisor</surname>
+            <given-names>Jonathan P</given-names>
+          </name>
+          <xref ref-type="aff" rid="af2-nss-7-085">2</xref>
+        </contrib>
+      </contrib-group>
+      <aff id="af1-nss-7-085"><label>1</label>Mathematics and Computer Science, Whitworth University, Spokane, WA, USA</aff>
+      <aff id="af2-nss-7-085"><label>2</label>College of Medical Sciences and Sleep and Performance Research Center, Washington State University, Spokane, WA, USA</aff>
+      <author-notes>
+        <corresp id="c1-nss-7-085">Correspondence: Michael J Rempe, Mathematics and Computer Science, Whitworth University, 300 W Hawthorne Road, Spokane, WA, 99251, USA, Email <email>mrempe@whitworth.edu</email></corresp>
+      </author-notes>
+      <pub-date pub-type="collection">
+        <year>2015</year>
+      </pub-date>
+      <pub-date pub-type="epub">
+        <day>01</day>
+        <month>9</month>
+        <year>2015</year>
+      </pub-date>
+      <volume>7</volume>
+      <fpage>85</fpage>
+      <lpage>99</lpage>
+      <permissions>
+        <copyright-statement>© 2015 Rempe et al. This work is published by Dove Medical Press Limited, and licensed under Creative Commons Attribution – Non Commercial (unported, v3.0) License</copyright-statement>
+        <copyright-year>2015</copyright-year>
+        <license>
+          <license-p>The full terms of the License are available at <ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by-nc/3.0/">http://creativecommons.org/licenses/by-nc/3.0/</ext-link>. Non-commercial uses of the work are permitted without any further permission from Dove Medical Press Limited, provided the work is properly attributed.</license-p>
+        </license>
+      </permissions>
+      <abstract>
+        <sec>
+          <title>Introduction</title>
+          <p><citation_analysis attribute="neither">Rodent sleep research uses electroencephalography (EEG) and electromyography (EMG) to determine the sleep state of an animal at any given time. EEG and EMG signals, typically sampled at &gt;100 Hz, are segmented arbitrarily into epochs of equal duration (usually 2–10 seconds), and each epoch is scored as wake, slow-wave sleep (SWS), or rapid-eye-movement sleep (REMS), on the basis of visual inspection. Automated state scoring can minimize the burden associated with state and thereby facilitate the use of shorter epoch durations.</citation_analysis></p>
+        </sec>
+        <sec>
+          <title>Methods</title>
+          <p><citation_analysis attribute="positive">We developed a semiautomated state-scoring procedure that uses a combination of principal component analysis and naïve Bayes classification, with the EEG and EMG as inputs. We validated this algorithm against human-scored sleep-state scoring of data from C57BL/6J and BALB/CJ mice. We then applied a general homeostatic model to characterize the state-dependent dynamics of sleep slow-wave activity and cerebral glycolytic flux, measured as lactate concentration.</citation_analysis></p>
+        </sec>
+        <sec>
+          <title>Results</title>
+          <p><citation_analysis attribute="neither">More than 89% of epochs scored as wake or SWS by the human were scored as the same state by the machine, whether scoring in 2-second or 10-second epochs. The majority of epochs scored as REMS by the human were also scored as REMS by the machine. However, of epochs scored as REMS by the human, more than 10% were scored as SWS by the machine and 18 (10-second epochs) to 28% (2-second epochs) were scored as wake. These biases were not strain-specific, as strain differences in sleep-state timing relative to the light/dark cycle, EEG power spectral profiles, and the homeostatic dynamics of both slow waves and lactate were detected equally effectively with the automated method or the manual scoring method. Error associated with mathematical modeling of temporal dynamics of both EEG slow-wave activity and cerebral lactate either did not differ significantly when state scoring was done with automated versus visual scoring, or was reduced with automated state scoring relative to manual classification.</citation_analysis></p>
+        </sec>
+        <sec>
+          <title>Conclusions</title>
+          <p><citation_analysis attribute="positive">Machine scoring is as effective as human scoring in detecting experimental effects in rodent sleep studies. Automated scoring is an efficient alternative to visual inspection in studies of strain differences in sleep and the temporal dynamics of sleep-related physiological parameters.</citation_analysis></p>
+        </sec>
+      </abstract>
+      <kwd-group>
+        <title>Keywords</title>
+        <kwd>EEG</kwd>
+        <kwd>automated scoring</kwd>
+        <kwd>principal component analysis</kwd>
+        <kwd>Bayes classification</kwd>
+      </kwd-group>
+    </article-meta>
+  </front>
+  <body>
+    <sec sec-type="intro">
+      <title>Introduction</title>
+      <p><citation_analysis attribute="neither">In rodent polysomnographic studies, electroencephalographic (EEG) and electromyographic (EMG) data are recorded at a high sampling rate, typically 100 Hz or more, and then segmented into epochs of arbitrary duration (typically 2–10 seconds in rodents), each of which is classified as wake, slow-wave sleep (SWS), or rapid-eye-movement sleep (REMS) on the basis of visual inspection. Although this approach is the gold standard for state scoring, there are several drawbacks: states determined by manual scoring can vary from person to person; when EEG and EMG features fluctuate within a given epoch, the user must assign a single state; and the process is labor intensive and time consuming.</citation_analysis></p>
+      <p><citation_analysis attribute="neither">Automated scoring algorithms have been used as an alternative to manual state scoring. Among previously proposed automated scoring approaches are: computing a quantitative state index for each epoch and scoring based on these indices</citation_analysis><citation_analysis attribute="positive"><xref rid="b1-nss-7-085" ref-type="bibr">1</xref></citation_analysis><citation_analysis attribute="positive"> using principal component analysis (PCA) and manual clustering of epochs in PCA space;</citation_analysis><citation_analysis attribute="positive"><xref rid="b2-nss-7-085" ref-type="bibr">2</xref></citation_analysis><citation_analysis attribute="positive"> using a naïve Bayes classifier;</citation_analysis><citation_analysis attribute="positive"><xref rid="b3-nss-7-085" ref-type="bibr">3</xref></citation_analysis><citation_analysis attribute="positive"> using linear discriminant analysis;</citation_analysis><citation_analysis attribute="positive"><xref rid="b4-nss-7-085" ref-type="bibr">4</xref></citation_analysis><citation_analysis attribute="positive"> using classification trees;</citation_analysis><citation_analysis attribute="positive"><xref rid="b4-nss-7-085" ref-type="bibr">4</xref></citation_analysis><citation_analysis attribute="neither">,</citation_analysis><citation_analysis attribute="positive"><xref rid="b5-nss-7-085" ref-type="bibr">5</xref></citation_analysis><citation_analysis attribute="positive"> using a support vector machine;</citation_analysis><citation_analysis attribute="positive"><xref rid="b6-nss-7-085" ref-type="bibr">6</xref></citation_analysis><citation_analysis attribute="positive"> using a fully unsupervised Bayesian classifier;</citation_analysis><citation_analysis attribute="positive"><xref rid="b7-nss-7-085" ref-type="bibr">7</xref></citation_analysis><citation_analysis attribute="neither"> and several methods that use a single channel of EEG data to categorize human sleep.</citation_analysis><citation_analysis attribute="positive"><xref rid="b8-nss-7-085" ref-type="bibr">8</xref></citation_analysis><citation_analysis attribute="neither">–</citation_analysis><citation_analysis attribute="positive"><xref rid="b10-nss-7-085" ref-type="bibr">10</xref></citation_analysis><citation_analysis attribute="neither"> Here we present a hybrid approach to automated scoring of rodent sleep EEG and EMG data in which human-scored epochs are used as a training template for automated state scoring. We combine the PCA approach of Gilmour et al</citation_analysis><citation_analysis attribute="positive"><xref rid="b2-nss-7-085" ref-type="bibr">2</xref></citation_analysis><citation_analysis attribute="neither"> with a naïve Bayes classifier that uses the first three principal-component vectors as inputs. Our method is therefore similar to that of Rytkönen et al,</citation_analysis><citation_analysis attribute="positive"><xref rid="b3-nss-7-085" ref-type="bibr">3</xref></citation_analysis><citation_analysis attribute="neither"> except that we employ the naïve Bayes classifier on the data after constructing manual scoring-derived, state-specific feature vectors and keeping only the first three principal component vectors, rather than splitting up the data into logarithmic frequency bands.</citation_analysis></p>
+      <p><citation_analysis attribute="neither">When sleep is scored in epochs, epoch duration is, to an extent, arbitrary. The duration of epochs used often depends on the duration of the sleep-related phenomena of interest in a given study. For instance, in studying brief REMS-related eye movements, 2-second epochs have been used.</citation_analysis><citation_analysis attribute="positive"><xref rid="b11-nss-7-085" ref-type="bibr">11</xref></citation_analysis><citation_analysis attribute="neither"> In studying state-switching instability at sleep onset, 4-second epochs have been used when longer epoch durations failed to reveal this instability.</citation_analysis><citation_analysis attribute="positive"><xref rid="b12-nss-7-085" ref-type="bibr">12</xref></citation_analysis><citation_analysis attribute="positive"> In studying EEG changes across SWS-to-REMS transition, a process that evolves gradually over 1–2 minutes, 10-second epochs were used to demonstrate that dynamic.</citation_analysis><citation_analysis attribute="positive"><xref rid="b13-nss-7-085" ref-type="bibr">13</xref></citation_analysis><citation_analysis attribute="neither"> In studying the gross disruption of sleep/wake cycles by maternal separation of rodents, 30-second epochs were used.</citation_analysis><citation_analysis attribute="positive"><xref rid="b14-nss-7-085" ref-type="bibr">14</xref></citation_analysis><citation_analysis attribute="positive"> These examples illustrate that sleep must be studied on different time scales and that machine scoring needs to be validated for these different time scales.</citation_analysis></p>
+      <p><citation_analysis attribute="neither">When choosing epoch duration, one balances countervailing factors. The fidelity of state scoring is increased as epoch duration is shortened, as the probability of a state transition occurring within each epoch is thereby reduced. However, the effort associated with state scoring by visual inspection is increased as epoch duration is shortened. Because different research groups use different epoch lengths, it can be difficult to compare sleep data across studies. This issue arises when epoched data has been used in mathematical modeling of sleep-dependent slow-wave dynamics,</citation_analysis><citation_analysis attribute="positive"><xref rid="b15-nss-7-085" ref-type="bibr">15</xref></citation_analysis><citation_analysis attribute="neither">–</citation_analysis><citation_analysis attribute="positive"><xref rid="b18-nss-7-085" ref-type="bibr">18</xref></citation_analysis><citation_analysis attribute="neither"> as the time constants that describe temporal dynamics may be a function of epoch duration.</citation_analysis></p>
+      <p><citation_analysis attribute="neither">Here we present a systematic investigation of the effect of epoch length on sleep-dependent dynamics of slow-wave activity (SWA) and lactate concentration in the cerebral cortex. The latter serves as a marker for glucose utilization and varies as a function of sleep state.</citation_analysis><citation_analysis attribute="positive"><xref rid="b19-nss-7-085" ref-type="bibr">19</xref></citation_analysis><citation_analysis attribute="neither">–</citation_analysis><citation_analysis attribute="positive"><xref rid="b21-nss-7-085" ref-type="bibr">21</xref></citation_analysis><citation_analysis attribute="neither"> To investigate the effect of epoch length on these dynamics, we segmented datasets into both 10-second and 2-second epochs. We used the hybrid PCA/Bayes classifier to automatically score the recordings.</citation_analysis></p>
+      <p><citation_analysis attribute="positive">The agreement of a novel automated scoring method with scoring of data by an investigator is a typical performance measure for the novel method. But to the extent that the purpose of scoring sleep is to identify experimental effects of independent variables on dependent variables, whether or not the algorithm detects the same experimental effects as the human scorer is an important consideration as well. Therefore, the algorithm is applied here in two strains of mice and across the entire circadian cycle, in order to determine whether time-of-day effects and differences between the strains in time spent asleep measured by human scoring are also detected algorithmically. Likewise, mathematical modeling with human-scored sleep-state data as an input parameter predicts the dynamics of SWA and lactate concentration over time.</citation_analysis><citation_analysis attribute="positive"><xref rid="b22-nss-7-085" ref-type="bibr">22</xref></citation_analysis><citation_analysis attribute="neither"> Whether sleep-state data from automated scoring can effectively serve as a predictive parameter for modeling physiological processes is yet another consideration in evaluating a novel autoscoring algorithm.</citation_analysis></p>
+      <p><citation_analysis attribute="neither">Our goals for the current study were thus: 1) to determine the agreement between a combined PCA/naïve Bayes autoscoring method and human scoring in measuring sleep timing and sleep homeostatic dynamics; 2) to determine the relative effectiveness of the autoscored and human-scored datasets in detecting experimental effects; and 3) to use this efficient autoscoring approach to determine the effect of 2-second versus 10-second epoch length on the time dynamics of EEG SWA and lactate concentration.</citation_analysis></p>
+    </sec>
+    <sec sec-type="methods">
+      <title>Methods</title>
+      <sec sec-type="subjects">
+        <title>Experimental subjects</title>
+        <p><citation_analysis attribute="neither">All procedures adhered to National Research Council guidelines (Institute of Laboratory Animal Resources NRC 1996) and were approved by the institutional animal care and use committee of Washington State University. Male mice of the C57BL/6J (B6, n=12) and BALB/CJ (BA, n=10) strains were used in these experiments. They were purchased at age 8 weeks from Jackson Laboratories (Bar Harbor, ME, USA; strains #664 and #651). Animals were housed in a light/dark 12:12 cycle with unrestricted access to standard laboratory chow and water.</citation_analysis></p>
+      </sec>
+      <sec sec-type="subjects">
+        <title>Surgical preparation of subjects</title>
+        <p><citation_analysis attribute="neither">Surgery was performed as described previously,</citation_analysis><citation_analysis attribute="positive"><xref rid="b21-nss-7-085" ref-type="bibr">21</xref></citation_analysis><citation_analysis attribute="neither">,</citation_analysis><citation_analysis attribute="positive"><xref rid="b23-nss-7-085" ref-type="bibr">23</xref></citation_analysis><citation_analysis attribute="neither"> under isoflurane anesthesia. Mice were surgically equipped for bilateral referential frontoparietal EEGs and neck EMGs. Frontal EEG electrode locations were 1.5 mm lateral to the midline and 1 mm anterior to bregma. The parietal EEG electrode location was 1.5 mm left of midline and 2 mm anterior from lambda. A guide cannula for placement of a lactate biosensor</citation_analysis><citation_analysis attribute="positive"><xref rid="b20-nss-7-085" ref-type="bibr">20</xref></citation_analysis><citation_analysis attribute="neither">,</citation_analysis><citation_analysis attribute="positive"><xref rid="b21-nss-7-085" ref-type="bibr">21</xref></citation_analysis><citation_analysis attribute="neither">,</citation_analysis><citation_analysis attribute="positive"><xref rid="b23-nss-7-085" ref-type="bibr">23</xref></citation_analysis><citation_analysis attribute="neither"> was placed in the left frontal cerebral cortex 1.1 mm anterior and 1.65 mm lateral from bregma. A dummy stylet was placed in the guide cannula until the day of experimentation, 10–14 days after surgery. Experimentation was completed within 3 weeks of surgical implantation.</citation_analysis></p>
+      </sec>
+      <sec sec-type="methods">
+        <title>Data collection and analysis</title>
+        <p><citation_analysis attribute="neither">Sleep data were scored by trained experts, as in previous work.</citation_analysis><citation_analysis attribute="positive"><xref rid="b21-nss-7-085" ref-type="bibr">21</xref></citation_analysis><citation_analysis attribute="neither">,</citation_analysis><citation_analysis attribute="positive"><xref rid="b24-nss-7-085" ref-type="bibr">24</xref></citation_analysis><citation_analysis attribute="neither">,</citation_analysis><citation_analysis attribute="positive"><xref rid="b25-nss-7-085" ref-type="bibr">25</xref></citation_analysis><citation_analysis attribute="neither"> Epochs in which EMG amplitude was relatively high and EEG amplitude was relatively low were scored as wake. Epochs in which EMG amplitude was relatively low and EEG amplitude relatively high were scored as SWS. Epochs in which both EMG amplitude and EEG amplitude were low and in which theta (5–9 Hz) activity predominated in the EEG were scored as REMS. Scoring of REMS was additionally context-dependent, in that epochs meeting these criteria that occurred within wake episodes were scored as wake, not REMS.</citation_analysis></p>
+        <p><citation_analysis attribute="positive">Lactate was measured using a lactate oxidase based biosensor implanted in the frontal cerebral cortex, as described elsewhere.</citation_analysis><citation_analysis attribute="positive"><xref rid="b20-nss-7-085" ref-type="bibr">20</xref></citation_analysis><citation_analysis attribute="neither">,</citation_analysis><citation_analysis attribute="positive"><xref rid="b21-nss-7-085" ref-type="bibr">21</xref></citation_analysis><citation_analysis attribute="neither">,</citation_analysis><citation_analysis attribute="positive"><xref rid="b23-nss-7-085" ref-type="bibr">23</xref></citation_analysis><citation_analysis attribute="neither"> This technique was first published in 1997</citation_analysis><citation_analysis attribute="positive"><xref rid="b26-nss-7-085" ref-type="bibr">26</xref></citation_analysis><citation_analysis attribute="neither"> and has since been refined and commercialized by Pinnacle Technology, Inc. (Lawrence, KS, USA; part #7004-Lactate). The sensing mechanism consists of a platinum–iridium electrode surrounded by a layer of lactate oxidase molecules. Metabolism of lactate by lactate oxidase produces hydrogen peroxide, which produces a current in the platinum–iridium electrode. The current at the sensing electrode is proportionate to the concentration of the substrate for the lactate oxidase enzyme (lactate, the product of glycolysis). Current is monitored at a sampling rate of 1 Hz, providing a moment-by-moment estimate of lactate concentration in the cerebral cortex. Current was averaged across all values within each epoch of data analyzed (n=10 for 10-second epochs; n=2 for 2-second epochs). In order to eliminate noise in the signal from the sensor, each epoch’s average value was compared with the mean of the previous ten epoch values. If it deviated from that mean by more than ten standard deviations of that mean, the value for that epoch was replaced by the mean value.</citation_analysis></p>
+        <p><citation_analysis attribute="neither">On the day of experimentation, the lactate sensor was precalibrated, as described elsewhere.</citation_analysis><citation_analysis attribute="positive"><xref rid="b21-nss-7-085" ref-type="bibr">21</xref></citation_analysis><citation_analysis attribute="neither">,</citation_analysis><citation_analysis attribute="positive"><xref rid="b23-nss-7-085" ref-type="bibr">23</xref></citation_analysis><citation_analysis attribute="positive"> Approximately 8 hours into the light portion of the light/dark 12:12 cycle, the dummy stylet was removed from the guide cannula and the lactate sensor was inserted into the guide cannula. The uninsulated, enzymatically active portion of the sensor was embedded at a depth of 1 mm in the cerebral cortex. This depth targets the deeper layers of cerebral cortex, although placement was not verified histologically. The animal was placed into a cylindrical cage, where it remained throughout the duration of the recording session. EEG, EMG, and lactate biosensor current were monitored continuously at 400 Hz for 40–48 hours thereafter. Data that occurred after insertion of the lactate sensor and before the second SWS episode of 1 minute or longer was not included due to exponential decay of current from the lactate sensor in this equilibrating phase.</citation_analysis></p>
+        <p><citation_analysis attribute="positive">For comparison of the effectiveness of human scoring and machine scoring in detecting strain differences in sleep timing across 10-second epochs, 8,640 epochs, representing a complete circadian cycle, were subjected to analysis. Comparing machine scoring of 10-second epochs to manual scoring in this time range allowed us to determine whether there was a circadian phase-specific bias in the performance of the algorithm. To assess machine-scoring performance relative to human performance in scoring 2-second epochs, we sought to perform analysis on a similar number of epochs as in the 10-second epoch dataset. Each of the epochs used for validation of the algorithm had to be scored by a human, and we anticipated that scoring the numbers of 2-second epochs in one circadian cycle (43,200 epochs) would produce significant fatigue in the human scoring the file. This fatigue would decrease the accuracy of the human scoring and thereby confound any measurement of the machine scoring accuracy for 2-second epochs relative to 10-second epochs. Instead, we reasoned that 8,640 2-second epochs represent 4.8 hours, so we added an additional 360 epochs to make the dataset an even 5 hours. Data from the 5-hour interval between 10 am and 3 pm were used in this analysis because at that time of day rodents transition across all three states most reliably, allowing for a thorough assessment of the accuracy of scoring across all three states.</citation_analysis></p>
+      </sec>
+      <sec>
+        <title>PCA and machine learning</title>
+        <p><citation_analysis attribute="neither">To autoscore sleep data consisting of EEG and EMG data binned into 2-second or 10-second intervals, we used a combination of PCA and machine learning. The PCA began by constructing seven “feature” vectors from the EEG and EMG data traces, following Gilmour et al.</citation_analysis><citation_analysis attribute="positive"><xref rid="b2-nss-7-085" ref-type="bibr">2</xref></citation_analysis><citation_analysis attribute="neither"> The seven features are: 1) EEG power in the 1–4 Hz (delta) range; 2) EEG power in the 5–9 Hz (theta) range; 3) EEG power in the 10–20 Hz (low beta) range; 4) EEG power in the 30–40 Hz (high beta) range; 5) EMG power; 6) theta-to-delta ratio; and 7) beta-to-delta ratio. Each vector contained one element for each epoch in the recording, so each epoch can be thought of as a point in a seven-dimension space. PCA transforms these seven vectors into a set of seven linearly uncorrelated vectors called principal components. The first principal component points in the direction (in seven-dimension space) of greatest variance in the data, and each succeeding component points in the direction of greatest variance with the restriction that it is orthogonal to each of the preceding principal components.</citation_analysis></p>
+        <p><citation_analysis attribute="neither">This idea can be visualized in the following manner: because each epoch of data is given a value in seven different categories, it can be visualized as a point in seven-dimension space. If every epoch in a recording is plotted in this seven dimension space, they may form a random cloud of data with no discernible pattern. However, more commonly, when plotted this way the data tend to line up along one or two directions that are not parallel to any of the coordinate axes. The directions along which they line up are the principal components. It is important to note that the principal components are different for each recording, as each one requires a different combination of the seven features to best explain the variation in the data.</citation_analysis></p>
+        <p><citation_analysis attribute="positive">Once the principal component vectors were found for the data, we computed the percentage of the total variance in the feature vectors that was explained by each principal component. For every dataset included in this study, the first three principal component vectors accounted for more than 99% of the variance in the feature vectors, so we reduced the seven-dimension feature space down to three by keeping only the first three principal components. Once this transformation was made, the data were plotted with respect to the first three principal components, and clustering of epochs into wake, non-REM sleep (NREMS), and REMS was clearly visible for each dataset. Moreover, plotting the data using only the first two principal component directions yielded distinct clusters (</citation_analysis><citation_analysis attribute="positive"><xref ref-type="fig" rid="f1-nss-7-085">Figure 1A</xref></citation_analysis><citation_analysis attribute="neither">), indicating that PCA was effectively separating out the sleep states.</citation_analysis></p>
+        <p><citation_analysis attribute="positive">We combined this principal component approach with a naïve Bayes classifier to automatically score files. A naïve Bayes classifier requires that a subset of the epochs be scored by a human in order to train the classifier to score the rest of the epochs. The naïve Bayes classifier uses the training data to divide the three-dimensional principal component space into three distinct zones, one for each sleep state. Each unscored epoch is then scored on the basis of which zone it falls into. Finally, as REMS is consistently preceded by non-REMS rather than by wake in wild-type rodents, epochs scored as REMS that were preceded by at least 30-seconds of wake were rescored as wake. See the Discussion for more details. We implemented both the PCA and the naïve Bayes scoring in MATLAB. Scripts are available to interested parties on request. We first applied the PCA/naïve Bayes hybrid approach to fully-scored 24-hour 10-second epoch data files using the data from 10 am to 2 pm (Zeitgeber time 4–8; a time when all three states alternate on a regular basis) as training for the Bayes scoring algorithm. We used a variety of agreement statistics to compare the scores determined by the algorithm to those made by a human (see Agreement statistics, below). Plotting the machine-scored data along the first two principal component directions yielded images similar to the human-scored data (</citation_analysis><citation_analysis attribute="positive"><xref ref-type="fig" rid="f1-nss-7-085">Figure 1B</xref></citation_analysis><citation_analysis attribute="neither">).</citation_analysis></p>
+      </sec>
+      <sec>
+        <title>Agreement statistics</title>
+        <p><citation_analysis attribute="neither">To quantify the agreement of the machine scoring and the human scoring, we calculated five statistical measures. Global agreement is the percentage of total epochs that are scored the same by the human and the algorithm. We also calculated the percentage agreement for wake by counting the number of epochs scored as wake by both human and machine, and divided by the number of epochs scored as wake by the human score. We repeated this calculation for SWS and REMS. Finally, we computed Cohen’s unweighted kappa,</citation_analysis><citation_analysis attribute="positive"><xref rid="b27-nss-7-085" ref-type="bibr">27</xref></citation_analysis><citation_analysis attribute="neither"> a way to quantify agreement while accounting for agreement that would happen due to chance alone.</citation_analysis></p>
+        <p><citation_analysis attribute="positive">To determine how many human-scored epochs were needed to successfully train the algorithm to score an entire dataset, we ran the autoscoring procedure using various percentages of the human-scored data as training templates (</citation_analysis><citation_analysis attribute="positive"><xref ref-type="fig" rid="f1-nss-7-085">Figure 1C</xref></citation_analysis><citation_analysis attribute="positive"> and D). For each percentage, we randomly selected the appropriate number of human-scored epochs, while ensuring that in each case at least one epoch of each sleep state was present. For both strains, with data binned in 10-second epochs the kappa statistic and the global agreement approached 90%, using only about 1% of the human-scored dataset for training. For each run of the autoscoring algorithm, we used 4 hours of human-scored data as training. This corresponds to 9% of a 43-hour recording (as in </citation_analysis><citation_analysis attribute="positive"><xref ref-type="fig" rid="f1-nss-7-085">Figure 1A</xref></citation_analysis><citation_analysis attribute="positive"> and B), 16% of a 24-hour recording using 10-second epochs, and 80% of 8,640 2-second epochs.</citation_analysis></p>
+      </sec>
+      <sec>
+        <title>Mathematical models of delta activity and lactate dynamics</title>
+        <p><citation_analysis attribute="neither">We employed a general homeostatic model to quantify the temporal dynamics of both EEG and lactate concentration.</citation_analysis><citation_analysis attribute="positive"><xref rid="b22-nss-7-085" ref-type="bibr">22</xref></citation_analysis><citation_analysis attribute="neither">,</citation_analysis><citation_analysis attribute="positive"><xref rid="b28-nss-7-085" ref-type="bibr">28</xref></citation_analysis><citation_analysis attribute="neither"> To model SWA (the EEG power in the 1–4 Hz range, called Process S) we assumed that </citation_analysis><citation_analysis attribute="positive"><italic>S</italic></citation_analysis><citation_analysis attribute="neither"> increases exponentially toward a constant upper asymptote (UA) during wake and REMS, and decreases exponentially toward a constant lower asymptote (LA) during SWS. The time course of S can be found by solving the following differential equation:
+</citation_analysis><citation_analysis attribute="positive"><disp-formula id="fd1-nss-7-085"><mml:math id="mm1"><mml:mrow><mml:mfrac><mml:mrow><mml:mi mathvariant="normal">dS</mml:mi></mml:mrow><mml:mrow><mml:mi mathvariant="normal">dt</mml:mi></mml:mrow></mml:mfrac><mml:mo>=</mml:mo><mml:mi>σ</mml:mi><mml:mrow><mml:mo>(</mml:mo><mml:mrow><mml:mfrac><mml:mrow><mml:mo>−</mml:mo><mml:mn>1</mml:mn></mml:mrow><mml:mrow><mml:msub><mml:mi>τ</mml:mi><mml:mi>d</mml:mi></mml:msub></mml:mrow></mml:mfrac></mml:mrow><mml:mo>)</mml:mo></mml:mrow><mml:mo stretchy="false">(</mml:mo><mml:mi mathvariant="normal">S</mml:mi><mml:mo>−</mml:mo><mml:mi mathvariant="normal">LA</mml:mi><mml:mo stretchy="false">)</mml:mo><mml:mo>+</mml:mo><mml:mo stretchy="false">(</mml:mo><mml:mn>1</mml:mn><mml:mo>−</mml:mo><mml:mi>σ</mml:mi><mml:mo stretchy="false">)</mml:mo><mml:mrow><mml:mo>(</mml:mo><mml:mrow><mml:mfrac><mml:mrow><mml:mo>−</mml:mo><mml:mn>1</mml:mn></mml:mrow><mml:mrow><mml:msub><mml:mi>τ</mml:mi><mml:mi>i</mml:mi></mml:msub></mml:mrow></mml:mfrac></mml:mrow><mml:mo>)</mml:mo></mml:mrow><mml:mo stretchy="false">(</mml:mo><mml:mi mathvariant="normal">S</mml:mi><mml:mo>−</mml:mo><mml:mi mathvariant="normal">UA</mml:mi><mml:mo stretchy="false">)</mml:mo></mml:mrow></mml:math><label>(1)</label></disp-formula></citation_analysis><citation_analysis attribute="neither">where </citation_analysis><citation_analysis attribute="positive"><italic>τ<sub>i</sub></italic></citation_analysis><citation_analysis attribute="neither"> and </citation_analysis><citation_analysis attribute="positive"><italic>τ<sub>d</sub></italic></citation_analysis><citation_analysis attribute="neither"> are the time constants of the increasing and decreasing exponential functions, respectively, and where </citation_analysis><citation_analysis attribute="positive"><italic>σ</italic></citation_analysis><citation_analysis attribute="neither">=1 during an epoch scored as SWS and </citation_analysis><citation_analysis attribute="positive"><italic>σ</italic></citation_analysis><citation_analysis attribute="neither">=0 otherwise. The model for the wake–sleep temporal dynamics of lactate (which we term Process L) is identical to that of Process S, except that UA and LA, respectively, are functions of time rather than constants. The equation is as follows:
+</citation_analysis><citation_analysis attribute="positive"><disp-formula id="fd2-nss-7-085"><mml:math id="mm2"><mml:mrow><mml:mfrac><mml:mrow><mml:mi mathvariant="normal">dL</mml:mi></mml:mrow><mml:mrow><mml:mi mathvariant="normal">dt</mml:mi></mml:mrow></mml:mfrac><mml:mo>=</mml:mo><mml:mi>σ</mml:mi><mml:mrow><mml:mo>(</mml:mo><mml:mrow><mml:mfrac><mml:mrow><mml:mo>−</mml:mo><mml:mn>1</mml:mn></mml:mrow><mml:mrow><mml:msub><mml:mi>τ</mml:mi><mml:mi>d</mml:mi></mml:msub></mml:mrow></mml:mfrac></mml:mrow><mml:mo>)</mml:mo></mml:mrow><mml:mo stretchy="false">(</mml:mo><mml:mi mathvariant="normal">L</mml:mi><mml:mo>−</mml:mo><mml:mi mathvariant="normal">LA(t)</mml:mi><mml:mo stretchy="false">)</mml:mo><mml:mo>+</mml:mo><mml:mo stretchy="false">(</mml:mo><mml:mn>1</mml:mn><mml:mo>−</mml:mo><mml:mi>σ</mml:mi><mml:mo stretchy="false">)</mml:mo><mml:mrow><mml:mo>(</mml:mo><mml:mrow><mml:mfrac><mml:mrow><mml:mo>−</mml:mo><mml:mn>1</mml:mn></mml:mrow><mml:mrow><mml:msub><mml:mi>τ</mml:mi><mml:mi>i</mml:mi></mml:msub></mml:mrow></mml:mfrac></mml:mrow><mml:mo>)</mml:mo></mml:mrow><mml:mo stretchy="false">(</mml:mo><mml:mi mathvariant="normal">L</mml:mi><mml:mo>−</mml:mo><mml:mi mathvariant="normal">UA(t)</mml:mi><mml:mo stretchy="false">)</mml:mo></mml:mrow></mml:math><label>(2)</label></disp-formula></citation_analysis></p>
+        <p><citation_analysis attribute="neither">LA and UA were made functions of time to account for the changes in the lactate signal due to the gradual decay in the output of the lactate sensor over the course of the recording.</citation_analysis><citation_analysis attribute="positive"><xref rid="b22-nss-7-085" ref-type="bibr">22</xref></citation_analysis><citation_analysis attribute="neither"> To compute UA(t) and LA(t), we constructed a histogram of the lactate signal in a 2-hour moving window throughout the entire recording. The 90% level of these histograms was chosen as UA and the 10% level was chosen as LA. For both the Process S and Process L models the time constants for the rates of increase (</citation_analysis><citation_analysis attribute="positive"><italic>τ<sub>i</sub></italic></citation_analysis><citation_analysis attribute="neither">) and decrease (</citation_analysis><citation_analysis attribute="positive"><italic>τ<sub>d</sub></italic></citation_analysis><citation_analysis attribute="neither">) were optimized, via the Nelder–Mead/simplex method, to minimize the error of the model relative to the raw data.</citation_analysis><citation_analysis attribute="positive"><xref rid="b29-nss-7-085" ref-type="bibr">29</xref></citation_analysis></p>
+      </sec>
+    </sec>
+    <sec sec-type="results">
+      <title>Results</title>
+      <sec>
+        <title>Sleep state scoring: human versus machine</title>
+        <p><citation_analysis attribute="neither">Visual inspection of the machine scoring compared with the human scoring (based on EEG and EMG signals) showed a high degree of agreement (</citation_analysis><citation_analysis attribute="positive"><xref ref-type="fig" rid="f2-nss-7-085">Figure 2</xref></citation_analysis><citation_analysis attribute="neither">). To quantify agreement between the two scoring methods, we computed Cohen’s kappa, as well as global agreement and agreement of each of the states (</citation_analysis><citation_analysis attribute="positive"><xref ref-type="fig" rid="f3-nss-7-085">Figure 3</xref></citation_analysis><citation_analysis attribute="neither">). Global agreement and kappa were high for both strains and both epoch lengths. We also pooled the 10-second epoch data and the 2-second epoch data from both strains, and we constructed confusion matrices for each (</citation_analysis><citation_analysis attribute="positive"><xref ref-type="table" rid="t1-nss-7-085">Table 1</xref></citation_analysis><citation_analysis attribute="neither">) indicating agreement between human scoring and the machine algorithm for each state. The percentage of correct classifications for each state appears in the entries along the diagonal of the matrix, and misclassifications appear in the off-diagonal entries. For example, the first data row of </citation_analysis><citation_analysis attribute="positive"><xref ref-type="table" rid="t1-nss-7-085">Table 1</xref></citation_analysis><citation_analysis attribute="neither"> indicates that of all epochs scored as wake by the human scorer, 89.54% of those were also scored as wake by the algorithm, 9.71% of those epochs were scored as SWS, and 0.75% were scored as REMS.</citation_analysis></p>
+        <p><citation_analysis attribute="neither">When data were processed in 10-second epochs, the scoring algorithm scored more epochs as SWS than did human scoring (</citation_analysis><citation_analysis attribute="positive"><xref ref-type="table" rid="t2-nss-7-085">Table 2</xref></citation_analysis><citation_analysis attribute="neither">; </citation_analysis><citation_analysis attribute="positive"><italic>F</italic></citation_analysis><citation_analysis attribute="positive"><sub>1,20</sub></citation_analysis><citation_analysis attribute="neither">=37.6; </citation_analysis><citation_analysis attribute="positive"><italic>P</italic></citation_analysis><citation_analysis attribute="neither">&lt;0.001; main effect of scoring method), at the expense of both REMS (</citation_analysis><citation_analysis attribute="positive"><italic>F</italic></citation_analysis><citation_analysis attribute="positive"><sub>1,20</sub></citation_analysis><citation_analysis attribute="neither">=54.0; </citation_analysis><citation_analysis attribute="positive"><italic>P</italic></citation_analysis><citation_analysis attribute="neither">&lt;0.001; main effect of scoring method) and wake (</citation_analysis><citation_analysis attribute="positive"><italic>F</italic></citation_analysis><citation_analysis attribute="positive"><sub>1,20</sub></citation_analysis><citation_analysis attribute="neither">=40.0; </citation_analysis><citation_analysis attribute="positive"><italic>P</italic></citation_analysis><citation_analysis attribute="positive">&lt;0.001; main effect of scoring method). The absence of a significant time × scoring method interaction (</citation_analysis><citation_analysis attribute="positive"><italic>F</italic></citation_analysis><citation_analysis attribute="positive"><sub>23,920</sub></citation_analysis><citation_analysis attribute="neither">=1, </citation_analysis><citation_analysis attribute="positive"><italic>P</italic></citation_analysis><citation_analysis attribute="negative">&gt;0.05) for any of the three states indicates that there was not a time-of-day–specific bias in the disagreement between scoring methods. Of epochs scored as wake by a human, 10% in BA and 10% in B6 were not scored as wake by machine. The human versus machine scoring discrepancy resulted in a 5% (B6 mice) to 7% (BA mice) reduction in total wake time over 24 hours with machine scoring relative to human scoring (</citation_analysis><citation_analysis attribute="positive"><xref ref-type="fig" rid="f4-nss-7-085">Figure 4A and B</xref></citation_analysis><citation_analysis attribute="neither">; main effect of scoring method, </citation_analysis><citation_analysis attribute="positive"><italic>F</italic></citation_analysis><citation_analysis attribute="positive"><sub>1,20</sub></citation_analysis><citation_analysis attribute="neither">=40.0; </citation_analysis><citation_analysis attribute="positive"><italic>P</italic></citation_analysis><citation_analysis attribute="neither">&lt;0.001). Of epochs scored as REMS by a human, 33% in BA and 25% in B6 were not scored as REMS by machine. Consequently, the number of epochs scored as REMS over 24 hours was reduced by 13% (BA mice) to 14% (B6 mice; </citation_analysis><citation_analysis attribute="positive"><xref ref-type="fig" rid="f4-nss-7-085">Figure 4E and F</xref></citation_analysis><citation_analysis attribute="neither">; main effect of scoring method, </citation_analysis><citation_analysis attribute="positive"><italic>F</italic></citation_analysis><citation_analysis attribute="positive"><sub>1,20</sub></citation_analysis><citation_analysis attribute="neither">=37.6; </citation_analysis><citation_analysis attribute="positive"><italic>P</italic></citation_analysis><citation_analysis attribute="positive">&lt;0.001). Epochs scored as either of the two desynchronized states by human scoring were more likely to be scored as SWS by machine. Thus, the number of epochs scored as SWS by machine exceeded that of human scoring by 10% in BA and 13% in B6 (</citation_analysis><citation_analysis attribute="positive"><xref ref-type="fig" rid="f4-nss-7-085">Figure 4C and D</xref></citation_analysis><citation_analysis attribute="neither">; main effect of scoring method, </citation_analysis><citation_analysis attribute="positive"><italic>F</italic></citation_analysis><citation_analysis attribute="positive"><sub>1,20</sub></citation_analysis><citation_analysis attribute="neither">=54.0; </citation_analysis><citation_analysis attribute="positive"><italic>P</italic></citation_analysis><citation_analysis attribute="positive">&lt;0.001). Bias in the machine scoring was not strain-specific, as strain × scoring method interaction was not significant for any of the three states (</citation_analysis><citation_analysis attribute="positive"><italic>F</italic></citation_analysis><citation_analysis attribute="positive"><sub>1,20</sub></citation_analysis><citation_analysis attribute="neither">=1.6; </citation_analysis><citation_analysis attribute="positive"><italic>P</italic></citation_analysis><citation_analysis attribute="neither">&gt;0.2).</citation_analysis></p>
+        <p><citation_analysis attribute="neither">When data were scored in 2-second epochs, SWS as a percentage of time was no longer significantly affected by scoring method (</citation_analysis><citation_analysis attribute="positive"><italic>F</italic></citation_analysis><citation_analysis attribute="positive"><sub>1,20</sub></citation_analysis><citation_analysis attribute="neither">=3.3; </citation_analysis><citation_analysis attribute="positive"><italic>P</italic></citation_analysis><citation_analysis attribute="neither">=0.086; </citation_analysis><citation_analysis attribute="positive"><xref ref-type="fig" rid="f5-nss-7-085">Figure 5C and D</xref></citation_analysis><citation_analysis attribute="neither">). However, machine scoring systematically overrepresented wake (</citation_analysis><citation_analysis attribute="positive"><italic>F</italic></citation_analysis><citation_analysis attribute="positive"><sub>1,20</sub></citation_analysis><citation_analysis attribute="neither">=262.4; </citation_analysis><citation_analysis attribute="positive"><italic>P</italic></citation_analysis><citation_analysis attribute="neither">&lt;0.001; </citation_analysis><citation_analysis attribute="positive"><xref ref-type="fig" rid="f5-nss-7-085">Figure 5A and B</xref></citation_analysis><citation_analysis attribute="neither">) and underrepresented REMS (</citation_analysis><citation_analysis attribute="positive"><italic>F</italic></citation_analysis><citation_analysis attribute="positive"><sub>1,40</sub></citation_analysis><citation_analysis attribute="neither">=198.2; </citation_analysis><citation_analysis attribute="positive"><italic>P</italic></citation_analysis><citation_analysis attribute="neither">&lt;0.001; </citation_analysis><citation_analysis attribute="positive"><xref ref-type="fig" rid="f5-nss-7-085">Figure 5E and F</xref></citation_analysis><citation_analysis attribute="neither">) relative to human scoring.</citation_analysis></p>
+      </sec>
+      <sec>
+        <title>EEG power spectra: human versus machine</title>
+        <p><citation_analysis attribute="neither">EEG power spectra exhibited the typical state dependence irrespective of state-scoring method and epoch duration (</citation_analysis><citation_analysis attribute="positive"><xref ref-type="fig" rid="f6-nss-7-085">Figure 6</xref></citation_analysis><citation_analysis attribute="positive">). In both strains, slow (&gt;6 Hz) activity predominated in SWS; theta (6–8 Hz) activity predominated in REMS; EEG amplitude remained relatively low at these frequencies in wake. Although the EEG spectral power curve for machine-scored states largely obscured that of human-scored states in both strains, there were significant scoring method × frequency interactions for wake (10-second </citation_analysis><citation_analysis attribute="positive"><italic>F</italic></citation_analysis><citation_analysis attribute="positive"><sub>19,380</sub></citation_analysis><citation_analysis attribute="neither">=10.1, </citation_analysis><citation_analysis attribute="positive"><italic>P</italic></citation_analysis><citation_analysis attribute="neither">&lt;0.001; 2-second </citation_analysis><citation_analysis attribute="positive"><italic>F</italic></citation_analysis><citation_analysis attribute="positive"><sub>19,380</sub></citation_analysis><citation_analysis attribute="neither">=4.0, </citation_analysis><citation_analysis attribute="positive"><italic>P</italic></citation_analysis><citation_analysis attribute="neither">&lt;0.001) and REMS (10-second </citation_analysis><citation_analysis attribute="positive"><italic>F</italic></citation_analysis><citation_analysis attribute="positive"><sub>19,380</sub></citation_analysis><citation_analysis attribute="neither">=3.7, </citation_analysis><citation_analysis attribute="positive"><italic>P</italic></citation_analysis><citation_analysis attribute="neither">&lt;0.001; 2-second </citation_analysis><citation_analysis attribute="positive"><italic>F</italic></citation_analysis><citation_analysis attribute="positive"><sub>19,380</sub></citation_analysis><citation_analysis attribute="neither">=2.2, </citation_analysis><citation_analysis attribute="positive"><italic>P</italic></citation_analysis><citation_analysis attribute="neither">=0.003), but not SWS. Additionally, 1–4 Hz SWA was reduced modestly (2%) but significantly in machine-scored 10-second epochs of SWS relative to human-scored SWS within the B6 strain specifically (</citation_analysis><citation_analysis attribute="positive"><xref ref-type="fig" rid="f6-nss-7-085">Figure 6E</xref></citation_analysis><citation_analysis attribute="neither">, inset).</citation_analysis></p>
+      </sec>
+      <sec>
+        <title>Measuring sleep state-dependent dynamics of SWA and lactate: human versus machine</title>
+        <p><citation_analysis attribute="neither">To further investigate the utility of the machine scoring, we employed a homeostatic model to predict the state-dependent dynamics of SWA and cerebral lactate concentration.</citation_analysis><citation_analysis attribute="positive"><xref rid="b22-nss-7-085" ref-type="bibr">22</xref></citation_analysis><citation_analysis attribute="positive"> We applied this model to both the human-scored and machine-scored data using 10-second epochs and 2-second epochs (</citation_analysis><citation_analysis attribute="positive"><xref ref-type="fig" rid="f7-nss-7-085">Figure 7</xref></citation_analysis><citation_analysis attribute="positive">). The temporal dynamics of the optimized model were unchanged with respect to scoring method using both 10-second epochs (</citation_analysis><citation_analysis attribute="positive"><xref ref-type="fig" rid="f7-nss-7-085">Figure 7A, B, E, and F</xref></citation_analysis><citation_analysis attribute="neither">) or 2-second epochs (</citation_analysis><citation_analysis attribute="positive"><xref ref-type="fig" rid="f7-nss-7-085">Figure 7C, D, G, and H</xref></citation_analysis><citation_analysis attribute="positive">). Because only 8,640 of the 2-second epochs were scored by a human, only those data are shown in panels 7A–7D. This corresponds to 4.8 hours of data starting at 10 am. The dynamics of the lactate signal were minimally affected by the choice of 2-second or 10-second epoch length. In panels 7E–7H, the homeostatic model was fit to delta power (1–4 Hz) in 5-minute episodes made up of at least 90% SWS. Although the model of delta power also used 8,640 epochs as training for the machine scoring, all of the data are shown since the temporal dynamics of SWA are slower than those of lactate.</citation_analysis></p>
+        <p><citation_analysis attribute="positive">In modeling sleep-state SWA dynamics there was a significant effect of scoring method on both </citation_analysis><citation_analysis attribute="positive"><italic>τ<sub>i</sub></italic></citation_analysis><citation_analysis attribute="neither"> (the optimized time constant for the rise of SWA as a function of prior time spent in desynchronized states; </citation_analysis><citation_analysis attribute="positive"><xref ref-type="fig" rid="f8-nss-7-085">Figure 8A and C</xref></citation_analysis><citation_analysis attribute="neither">) and </citation_analysis><citation_analysis attribute="positive"><italic>τ<sub>d</sub></italic></citation_analysis><citation_analysis attribute="neither"> values (the optimized time constant for the decline of SWA as a function of prior time spent in SWS; </citation_analysis><citation_analysis attribute="positive"><xref ref-type="fig" rid="f8-nss-7-085">Figure 8B and D</xref></citation_analysis><citation_analysis attribute="neither">) in modeling sleep-state SWA dynamics. Both time constants optimized at higher values in the machine-scored datasets relative to the human-scored datasets, irrespective of strain (strain × scoring method interaction, </citation_analysis><citation_analysis attribute="positive"><italic>F</italic></citation_analysis><citation_analysis attribute="positive"><sub>1,20</sub></citation_analysis><citation_analysis attribute="neither">&lt;0.2, </citation_analysis><citation_analysis attribute="positive"><italic>P</italic></citation_analysis><citation_analysis attribute="neither">&gt;0.60; see strain differences discussed below). In modeling SWA in 10-second epochs, the mean optimized </citation_analysis><citation_analysis attribute="positive"><italic>τ<sub>i</sub></italic></citation_analysis><citation_analysis attribute="neither"> values (3.2 hours) and </citation_analysis><citation_analysis attribute="positive"><italic>τ<sub>d</sub></italic></citation_analysis><citation_analysis attribute="neither"> (3.8 hours) across all animals from machine-scored data were greater than those generated from human-scored data (2.6 hours, 3.5 hours) by 10% and 21%, respectively. In modeling SWA in 2-second epochs, the mean optimized </citation_analysis><citation_analysis attribute="positive"><italic>τ<sub>i</sub></italic></citation_analysis><citation_analysis attribute="neither"> values (4.8 hours) and </citation_analysis><citation_analysis attribute="positive"><italic>τ<sub>d</sub></italic></citation_analysis><citation_analysis attribute="neither"> (3.8 hours) across all animals from machine-scored data were greater than those generated from human-scored data (4.2 hours, 3.1 hours) by 12% and 25%, respectively. Scoring method significantly affected </citation_analysis><citation_analysis attribute="positive"><italic>τ<sub>d</sub></italic></citation_analysis><citation_analysis attribute="neither"> (</citation_analysis><citation_analysis attribute="positive"><xref ref-type="fig" rid="f8-nss-7-085">Figure 8F</xref></citation_analysis><citation_analysis attribute="neither">) but not </citation_analysis><citation_analysis attribute="positive"><italic>τ<sub>i</sub></italic></citation_analysis><citation_analysis attribute="neither"> values (</citation_analysis><citation_analysis attribute="positive"><xref ref-type="fig" rid="f8-nss-7-085">Figure 8E</xref></citation_analysis><citation_analysis attribute="neither">) for the temporal dynamics of lactate concentration in 10-second epochs. In modeling lactate in 10-second epochs, the mean optimized </citation_analysis><citation_analysis attribute="positive"><italic>τ<sub>d</sub></italic></citation_analysis><citation_analysis attribute="neither"> values (0.23 hours) across all animals from machine-scored data were greater than those generated from human-scored data (0.18 hours) by 23%. Scoring method did not significantly affect either time constant, </citation_analysis><citation_analysis attribute="positive"><italic>τ<sub>d</sub></italic></citation_analysis><citation_analysis attribute="neither"> (</citation_analysis><citation_analysis attribute="positive"><xref ref-type="fig" rid="f8-nss-7-085">Figure 8H</xref></citation_analysis><citation_analysis attribute="neither">) or </citation_analysis><citation_analysis attribute="positive"><italic>τ<sub>i</sub></italic></citation_analysis><citation_analysis attribute="neither"> (</citation_analysis><citation_analysis attribute="positive"><xref ref-type="fig" rid="f8-nss-7-085">Figure 8G</xref></citation_analysis><citation_analysis attribute="neither">) for the temporal dynamics of lactate concentration in 2-second epochs.</citation_analysis></p>
+        <p><citation_analysis attribute="neither">Residuals (</citation_analysis><citation_analysis attribute="positive"><xref ref-type="fig" rid="f9-nss-7-085">Figure 9</xref></citation_analysis><citation_analysis attribute="positive">), a measure of the deviation of optimized mathematical modeling values from the data being modeled, provide an indication of the performance of the model. Lower residuals indicate a better fit to the data being modeled. Two-way analysis of variance with strain as a between-subjects variable and scoring method (automated versus manual) as a within-subjects variable indicated significant effects of scoring method on residual values for modeling lactate dynamics in 10-second epochs (</citation_analysis><citation_analysis attribute="positive"><xref ref-type="fig" rid="f9-nss-7-085">Figure 9C</xref></citation_analysis><citation_analysis attribute="neither">; </citation_analysis><citation_analysis attribute="positive"><italic>F</italic></citation_analysis><citation_analysis attribute="positive"><sub>1,20</sub></citation_analysis><citation_analysis attribute="neither">=5.3, </citation_analysis><citation_analysis attribute="positive"><italic>P</italic></citation_analysis><citation_analysis attribute="neither">=0.032) and SWA dynamics in 2-second epochs (</citation_analysis><citation_analysis attribute="positive"><xref ref-type="fig" rid="f9-nss-7-085">Figure 9B</xref></citation_analysis><citation_analysis attribute="neither">; </citation_analysis><citation_analysis attribute="positive"><italic>F</italic></citation_analysis><citation_analysis attribute="positive"><sub>1,20</sub></citation_analysis><citation_analysis attribute="neither">=5.3, </citation_analysis><citation_analysis attribute="positive"><italic>P</italic></citation_analysis><citation_analysis attribute="neither">=0.032). Scoring method did not significantly affect residuals for lactate dynamics in 2-second epochs (</citation_analysis><citation_analysis attribute="positive"><xref ref-type="fig" rid="f9-nss-7-085">Figure 9D</xref></citation_analysis><citation_analysis attribute="neither">) or SWA dynamics in 10-second epochs (</citation_analysis><citation_analysis attribute="positive"><xref ref-type="fig" rid="f9-nss-7-085">Figure 9A</xref></citation_analysis><citation_analysis attribute="neither">). Residuals did not vary as a function of strain in any of the four analyses, nor were scoring method × strain interactions significant. Where residuals were affected by scoring method (</citation_analysis><citation_analysis attribute="positive"><xref ref-type="fig" rid="f9-nss-7-085">Figure 9B and C</xref></citation_analysis><citation_analysis attribute="neither">), the residuals were lower (albeit modestly) for automated scoring than for manual scoring. Thus, the performance of automated scoring is as effective as, if not modestly more effective than, manual scoring, for use in modeling sleep state-dependent dynamics of physiological variables.</citation_analysis></p>
+      </sec>
+      <sec>
+        <title>Machine scoring detects strain differences in sleep timing, EEG power spectra, and sleep-dependent physiological parameter dynamics</title>
+        <p><citation_analysis attribute="positive">Strain × scoring method interaction was not significant for any of the three states as a percentage of time, which indicates that there was not a strain-specific bias in the disagreement between scoring methods. The BA and B6 strains, by virtue of genomic differences, exhibit differences in sleep-state timing. Both human and machine scoring detected a significant main effect of strain on REMS as a percentage of time across the entire 24-hour light/dark 12:12 cycle (</citation_analysis><citation_analysis attribute="positive"><xref ref-type="table" rid="t3-nss-7-085">Table 3</xref></citation_analysis><citation_analysis attribute="positive">). Neither wake as a percentage of 24 hours nor SWS as a percentage of 24 hours differed between the two strains regardless of state-scoring method; however, all three states exhibited time-of-day–specific strain effects regardless of whether states were scored by human or machine, as indicated by significant strain × time interaction for both scoring methods (</citation_analysis><citation_analysis attribute="positive"><xref ref-type="table" rid="t3-nss-7-085">Table 3</xref></citation_analysis><citation_analysis attribute="neither">).</citation_analysis></p>
+        <p><citation_analysis attribute="positive">Posthoc comparisons across strains yielded strikingly similar time-of-day–specific effects of strain on sleep timing in the human-scored and machine-scored datasets (</citation_analysis><citation_analysis attribute="positive"><xref ref-type="fig" rid="f10-nss-7-085">Figure 10</xref></citation_analysis><citation_analysis attribute="positive">). For instance, SWS as a percentage of time differed significantly between strains (Fisher’s protected least-significant difference) in hours 5, 9, 10, 19, and 24, and at no other times, regardless of whether states were scored by human or machine. Wake time differed significantly between strains in hours 5, 9, 10, 19, and 24, regardless of whether states were scored by human or machine. REMS time differed significantly between strains in hours 9, 11–13, and 19–21 of recording, regardless of whether states were scored by human or machine. Thus, although machine-based scoring exhibited a significant bias toward SWS, it nonetheless detected the experimental effect of strain on sleep timing. This analysis was not repeated for the 2-second epoch data, as those 8,640 epochs represented a 5-hour window within which daily rhythms of sleep and wake are not apparent.</citation_analysis></p>
+        <p><citation_analysis attribute="positive">Repeated-measures analysis of variance indicated significant strain × frequency interactions affecting spectral profiles of wake, SWS, and REMS in both human-scored and machine-scored datasets for both 10-second (</citation_analysis><citation_analysis attribute="positive"><xref ref-type="table" rid="t4-nss-7-085">Table 4</xref></citation_analysis><citation_analysis attribute="neither">) and 2-second epoch data (not shown). Posthoc comparisons of EEG spectral profiles between strains across 1 Hz bins indicated that the strain difference detected in the EEG spectral profile in human scored datasets was replicated in the machine-scored datasets (</citation_analysis><citation_analysis attribute="positive"><xref ref-type="fig" rid="f11-nss-7-085">Figure 11</xref></citation_analysis><citation_analysis attribute="neither">). For instance, in 10-second epochs scored as wake, spectral power in the 9–11 Hz range was elevated in B6 mice relative to BA mice in both the human-scored and machine-scored datasets (</citation_analysis><citation_analysis attribute="positive"><xref ref-type="fig" rid="f11-nss-7-085">Figure 11A and D</xref></citation_analysis><citation_analysis attribute="neither">). In 10-second epochs scored as SWS, spectral power in the 3–12 Hz range was elevated in B6 mice relative to BA mice in both the human-scored and machine-scored datasets (</citation_analysis><citation_analysis attribute="positive"><xref ref-type="fig" rid="f11-nss-7-085">Figure 11B and E</xref></citation_analysis><citation_analysis attribute="neither">). In 10-second epochs scored as REMS, spectral power in the 6–11 Hz range was elevated in B6 mice relative to BA mice in both the human-scored and machine-scored datasets (</citation_analysis><citation_analysis attribute="positive"><xref ref-type="fig" rid="f11-nss-7-085">Figure 11C and F</xref></citation_analysis><citation_analysis attribute="positive">). These data demonstrate that strain differences in EEG oscillatory activity across sleep states were detected by the machine-scoring method. Similarly, the overlap between scoring methods in detecting strain differences in EEG spectral profiles within the 2-second datasets was near total (data not shown).</citation_analysis></p>
+        <p><citation_analysis attribute="neither">The temporal dynamics of both EEG SWA and lactate concentration across 10-second epochs were strain dependent regardless of scoring method (</citation_analysis><citation_analysis attribute="positive"><xref ref-type="fig" rid="f8-nss-7-085">Figure 8A, B, E, and F</xref></citation_analysis><citation_analysis attribute="neither">). Strain comparison of SWA </citation_analysis><citation_analysis attribute="positive"><italic>τ<sub>i</sub></italic></citation_analysis><citation_analysis attribute="neither"> and </citation_analysis><citation_analysis attribute="positive"><italic>τ<sub>d</sub></italic></citation_analysis><citation_analysis attribute="neither"> via Student’s </citation_analysis><citation_analysis attribute="positive"><italic>t</italic></citation_analysis><citation_analysis attribute="neither">-test for independent measures yielded higher values for both parameters in the BA strain relative to the B6 strain, whether the scoring was automated or manual (</citation_analysis><citation_analysis attribute="positive"><italic>τ</italic></citation_analysis><citation_analysis attribute="positive"><sub>20</sub></citation_analysis><citation_analysis attribute="neither">&gt;3.2; </citation_analysis><citation_analysis attribute="positive"><italic>P</italic></citation_analysis><citation_analysis attribute="neither">&lt;0.004, </citation_analysis><citation_analysis attribute="positive"><xref ref-type="table" rid="t5-nss-7-085">Table 5</xref></citation_analysis><citation_analysis attribute="neither">). The strain difference was inverted in the case of lactate-concentration dynamics across 10-second epochs; time constants for lactate were significantly reduced in BA mice relative to B6 mice (</citation_analysis><citation_analysis attribute="positive"><xref ref-type="fig" rid="f8-nss-7-085">Figure 8E and F</xref></citation_analysis><citation_analysis attribute="neither">). Strain comparison of lactate </citation_analysis><citation_analysis attribute="positive"><italic>τ<sub>i</sub></italic></citation_analysis><citation_analysis attribute="neither"> and </citation_analysis><citation_analysis attribute="positive"><italic>τ<sub>d</sub></italic></citation_analysis><citation_analysis attribute="neither"> via Student’s </citation_analysis><citation_analysis attribute="positive"><italic>t</italic></citation_analysis><citation_analysis attribute="neither">-test for independent measures yielded lower values for both parameters in the BA strain relative to the B6 strain, regardless of whether the scoring was automated or manual (</citation_analysis><citation_analysis attribute="positive"><italic>τ</italic></citation_analysis><citation_analysis attribute="positive"><sub>20</sub></citation_analysis><citation_analysis attribute="neither">&lt;–2.1; </citation_analysis><citation_analysis attribute="positive"><italic>P</italic></citation_analysis><citation_analysis attribute="neither">&lt;0.05, </citation_analysis><citation_analysis attribute="positive"><xref ref-type="table" rid="t5-nss-7-085">Table 5</xref></citation_analysis><citation_analysis attribute="positive">). Therefore, even in the presence of a bias toward longer time constants in the machine-scored dataset relative to the-human scored dataset, strain differences in the dynamics of both SWA and lactate were detected across 10-second epochs using both scoring methods.</citation_analysis></p>
+        <p><citation_analysis attribute="neither">The effect of strain on the temporal dynamics of both EEG SWA and lactate concentration across 2-second epochs was less statistically robust than for 10-second epochs (</citation_analysis><citation_analysis attribute="positive"><xref ref-type="table" rid="t5-nss-7-085">Table 5</xref></citation_analysis><citation_analysis attribute="neither">). </citation_analysis><citation_analysis attribute="positive"><italic>τ<sub>d</sub></italic></citation_analysis><citation_analysis attribute="positive"> for lactate dynamics was the one parameter for which both scoring methods yielded a significant effect of strain (</citation_analysis><citation_analysis attribute="positive"><xref ref-type="fig" rid="f8-nss-7-085">Figure 8H</xref></citation_analysis><citation_analysis attribute="neither">). This parameter was significantly lower in BA mice than in B6 mice, irrespective of state-scoring method (</citation_analysis><citation_analysis attribute="positive"><italic>τ</italic></citation_analysis><citation_analysis attribute="positive"><sub>20</sub></citation_analysis><citation_analysis attribute="neither">&lt;−2.4; </citation_analysis><citation_analysis attribute="positive"><italic>P</italic></citation_analysis><citation_analysis attribute="neither">&lt; 0.05, </citation_analysis><citation_analysis attribute="positive"><xref ref-type="table" rid="t5-nss-7-085">Table 5</xref></citation_analysis><citation_analysis attribute="neither">). For the other three parameters assessed, Student’s </citation_analysis><citation_analysis attribute="positive"><italic>t</italic></citation_analysis><citation_analysis attribute="positive">-test values for strain comparison were of equivalent direction (ie, positive for SWA and negative for lactate), if not statistically significant, for both state-scoring methods.</citation_analysis></p>
+      </sec>
+    </sec>
+    <sec sec-type="discussion">
+      <title>Discussion</title>
+      <p><citation_analysis attribute="negative">This report introduces a novel method for automated scoring of sleep data. There were discrepancies between human-based and machine-based scoring, just as there are differences among human raters in state scoring. A more robust assessment of the automated scoring algorithm would compare it against two or more human scorers rather than just one. This would provide a measure of agreement not only between the algorithm and human scorers but also between one human scorer and another. This is a limitation of our approach.</citation_analysis></p>
+      <p><citation_analysis attribute="neither">Nonetheless, the utility of the machine-based scoring software introduced here is illustrated by its ability to detect strain differences in sleep-timing parameters, EEG spectral profiles, and sleep-dependent homeostatic variables. The machine-scored dataset detected strain differences in the percent of time spent in each sleep state with hourly resolution; the timing of these strain differences with respect to the light/dark cycle replicated their timing in the human-scored dataset (</citation_analysis><citation_analysis attribute="positive"><xref ref-type="fig" rid="f10-nss-7-085">Figure 10</xref></citation_analysis><citation_analysis attribute="positive">). The strain differences in EEG spectral power that were detected in the human-scored dataset were replicated precisely, at the level of 1 Hz intervals, in the machine-scored data. Strain differences in time constants associated with sleep-dependent dynamics of SWA and lactate were of equivalent magnitude and direction in the human-scored and machine-scored datasets. Although all of these parameters (sleep-state timing, EEG power spectral profiles, time constants in homeostatic models) varied significantly between the human-scored and machine-scored datasets, scoring method and strain did not exhibit significant interaction in affecting these variables. Thus, the bias in machine-based state scoring was not strain-specific, and strain differences were not lost in the automation process. To the extent that the purpose of state scoring is to detect effects of independent variables on sleep parameters, the automated scoring algorithm introduced here fulfills its purpose in detecting strain differences.</citation_analysis></p>
+      <p><citation_analysis attribute="neither">Machine learning alone was not sufficient to accurately score REMS. Some epochs scored as wake by human experts were scored as REMS when automated scoring was based solely on PCA of epochs in isolation. Human raters use contextual cues, specifically the fact that REMS is consistently preceded by a protracted period of SWS in wild-type mice, to discriminate REMS epochs from wake epochs characterized by low EMG and EEG amplitudes occurring against a background of continuous wake. Therefore, we applied contextual information in the algorithmic scoring of REMS: episodes scored as REMS that were preceded by at least 30 seconds of wake were rescored as wake. While not as parsimonious as state scoring based solely on EEG and EMG features of each epoch, this logic replicates the use of contextual information by human experts and in any case increases the level of agreement with human scoring. In experimental circumstances when direct transitions from wake to REMS are expected to occur (such as studies on narcoleptic hypocretin-deficient mice</citation_analysis><citation_analysis attribute="positive"><xref rid="b30-nss-7-085" ref-type="bibr">30</xref></citation_analysis><citation_analysis attribute="neither">,</citation_analysis><citation_analysis attribute="positive"><xref rid="b31-nss-7-085" ref-type="bibr">31</xref></citation_analysis><citation_analysis attribute="neither">), the algorithm might be altered to flag the occurrence of such events within the MATLAB interface, allowing for visual inspection and verification of such transitions. However, in the current study of wild-type mice, this consideration is not relevant. Also, while the choice of 30 seconds is reasonable, we acknowledge that it is somewhat arbitrary. In principle, one could determine the optimal amount of preceding wake to use in this rescoring rule by testing several different values and determining the best fit to human-scored data.</citation_analysis></p>
+      <p><citation_analysis attribute="positive">We chose to combine the PCA approach with a naïve Bayes classifier because it offers several benefits over other methods. In fact, this was first suggested in a previous study as a possible improvement to current approaches.</citation_analysis><citation_analysis attribute="positive"><xref rid="b2-nss-7-085" ref-type="bibr">2</xref></citation_analysis><citation_analysis attribute="positive"> First of all, the method is easy to implement in MATLAB using the built-in functions pca.m and classify.m. Second, this approach combines the appealing visualization properties of PCA with the power and efficiency of machine learning. A researcher can visually inspect the effectiveness of the machine scoring by looking at the EEG and EMG traces aligned with the machine score and by looking at the PCA plots of the human-scored data and the machine-scored data. Because the method requires scoring a small subset of each data file, this hybrid method is relatively simple, requires only a small subset of each data file to be scored to train the algorithm, and does not overfit the data. We have shown good agreement between human-scored data and machine-scored data when only 10% of the dataset is scored by hand and used as training for the algorithm. Since the algorithm runs in less than 30 seconds for a 43-hour dataset, the time required to score an entire dataset using this automated approach is about one tenth of the time it would take to score the entire recording by hand.</citation_analysis></p>
+      <sec sec-type="discussion">
+        <title>Implications of 2-second versus 10-second epoch length and scoring method on time constants for EEG and lactate dynamics</title>
+        <p><citation_analysis attribute="neither">Using a homeostatic model to quantify EEG SWA dynamics with 10-second epochs scored by a human, we previously found optimal </citation_analysis><citation_analysis attribute="positive"><italic>τ<sub>i</sub></italic></citation_analysis><citation_analysis attribute="neither"> values that were significantly smaller than those computed by other groups.</citation_analysis><citation_analysis attribute="positive"><xref rid="b16-nss-7-085" ref-type="bibr">16</xref></citation_analysis><citation_analysis attribute="neither"> To our knowledge, the experimental setup was identical between our recordings and those of Franken et al,</citation_analysis><citation_analysis attribute="positive"><xref rid="b16-nss-7-085" ref-type="bibr">16</xref></citation_analysis><citation_analysis attribute="neither"> except for the fact that we used an epoch length of 10 seconds and Franken et al used an epoch length of 4 seconds. Because epoch length was the only experimental difference we could find, we speculated that the epoch length may impact the optimal values of the time constants chosen to fit the model to the data. When fitting the model to SWA data (as in </citation_analysis><citation_analysis attribute="positive"><xref ref-type="fig" rid="f7-nss-7-085">Figure 7E–H</xref></citation_analysis><citation_analysis attribute="neither">) following Franken et al,</citation_analysis><citation_analysis attribute="positive"><xref rid="b16-nss-7-085" ref-type="bibr">16</xref></citation_analysis><citation_analysis attribute="positive"> each data point represents the average delta power in a 5-minute segment that contained at least 90% SWS. We suspected that the epoch length may affect these data points in the following ways: if a 10-second epoch was part SWS but part wake, the scorer may score it as SWS. Using a finer resolution, a scorer may determine that not all of those 10 seconds should be scored as SWS, which may mean that some 5-minute segments that used to contain at least 90% SWS were actually less than 90% and therefore would not create a data point for that 5-minute segment. On the other hand, if some 10-second epochs that were scored as wake actually had some SWS, this may create new data points because there may be 5-minute segments that now have 90% SWS. Because changing epoch length could add or remove data points, we reasoned that it may alter the time constants of the optimal fit of the model.</citation_analysis></p>
+        <p><citation_analysis attribute="positive">The autoscoring algorithm allowed us to quickly rescore 10-second epoch data into 2-second epochs, so we could run homeostatic models on the 2-second data to test this hypothesis. We found that running the model using a shorter epoch length (2 seconds) did indeed increase the optimal </citation_analysis><citation_analysis attribute="positive"><italic>τ<sub>i</sub></italic></citation_analysis><citation_analysis attribute="neither"> values for both strains, making them closer to those found in Franken et al.</citation_analysis><citation_analysis attribute="positive"><xref rid="b16-nss-7-085" ref-type="bibr">16</xref></citation_analysis><citation_analysis attribute="neither"> However, the optimal value of </citation_analysis><citation_analysis attribute="positive"><italic>τ<sub>d</sub></italic></citation_analysis><citation_analysis attribute="neither"> did not change for either strain as a function of epoch duration. Application of the automated scoring and modeling techniques to both lactate and SWA in a broader array of strains (like those used by Franken et al</citation_analysis><citation_analysis attribute="positive"><xref rid="b16-nss-7-085" ref-type="bibr">16</xref></citation_analysis><citation_analysis attribute="neither">) may reveal whether sleep-dependent dynamics of lactate correlate with sleep timing or electroencephalographic parameters.</citation_analysis></p>
+      </sec>
+    </sec>
+    <sec>
+      <title>Conclusion</title>
+      <p><citation_analysis attribute="positive">We have demonstrated that our machine-scoring algorithm is as effective as human scoring in several different aspects. Various measures of agreement between human scoring and machine scoring were high, and the machine scoring algorithm was just as effective as human scoring in determining subtle differences between genetic strains in both the frequency domain and the time domain. As scoring an entire multiday recording requires less than a minute of computing time (even for 48 hours of 2-second epoch data), automated scoring is a very efficient alternative to visual inspection in rodent sleep studies and may be similarly effective with sleep data from other species, including humans.</citation_analysis></p>
+    </sec>
+  </body>
+  <back>
+    <ack>
+      <title>Acknowledgments</title>
+      <p><citation_analysis attribute="neither">We thank Jonathan P Brennecke for technical assistance. This work was supported by National Institute of Neurological Disorders and Stroke award R01 NS078498 and National Institute of Drug Abuse award R21 DA037708. The authors declare that they have no additional financial support for this work and no off-label or investigational use. All work was performed at Washington State University, Spokane.</citation_analysis></p>
+    </ack>
+    <fn-group>
+      <fn>
+        <p><citation_analysis attribute="positive">
+          </citation_analysis><citation_analysis attribute="positive"><bold>Disclosure</bold></citation_analysis><citation_analysis attribute="positive">
+        </citation_analysis></p>
+        <p><citation_analysis attribute="neither">The authors report no conflicts of interest in this work.</citation_analysis></p>
+      </fn>
+    </fn-group>
+    <ref-list>
+      <title>References</title>
+      <ref id="b1-nss-7-085">
+        <label>1</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Stephenson</surname>
+              <given-names>R</given-names>
+            </name>
+            <name>
+              <surname>Caron</surname>
+              <given-names>AM</given-names>
+            </name>
+            <name>
+              <surname>Cassel</surname>
+              <given-names>DB</given-names>
+            </name>
+            <name>
+              <surname>Kostela</surname>
+              <given-names>JC</given-names>
+            </name>
+          </person-group>
+          <article-title>Automated analysis of sleep-wake state in rats</article-title>
+          <source>J Neurosci Methods</source>
+          <year>2009</year>
+          <volume>184</volume>
+          <issue>2</issue>
+          <fpage>263</fpage>
+          <lpage>274</lpage>
+          <pub-id pub-id-type="pmid">19703489</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b2-nss-7-085">
+        <label>2</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Gilmour</surname>
+              <given-names>TP</given-names>
+            </name>
+            <name>
+              <surname>Fang</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Guan</surname>
+              <given-names>Z</given-names>
+            </name>
+            <name>
+              <surname>Subramanian</surname>
+              <given-names>T</given-names>
+            </name>
+          </person-group>
+          <article-title>Manual rat sleep classification in principal component space</article-title>
+          <source>Neurosci Lett</source>
+          <year>2010</year>
+          <volume>469</volume>
+          <issue>1</issue>
+          <fpage>97</fpage>
+          <lpage>101</lpage>
+          <pub-id pub-id-type="pmid">19944737</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b3-nss-7-085">
+        <label>3</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Rytkönen</surname>
+              <given-names>KM</given-names>
+            </name>
+            <name>
+              <surname>Zitting</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Porkka-Heiskanen</surname>
+              <given-names>T</given-names>
+            </name>
+          </person-group>
+          <article-title>Automated sleep scoring in rats and mice using the naive Bayes classifier</article-title>
+          <source>J Neurosci Methods</source>
+          <year>2011</year>
+          <volume>202</volume>
+          <issue>1</issue>
+          <fpage>60</fpage>
+          <lpage>64</lpage>
+          <pub-id pub-id-type="pmid">21884727</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b4-nss-7-085">
+        <label>4</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Brankack</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Kukushka</surname>
+              <given-names>VI</given-names>
+            </name>
+            <name>
+              <surname>Vyssotski</surname>
+              <given-names>AL</given-names>
+            </name>
+            <name>
+              <surname>Draguhn</surname>
+              <given-names>A</given-names>
+            </name>
+          </person-group>
+          <article-title>EEG gamma frequency and sleep-wake scoring in mice: comparing two types of supervised classifiers</article-title>
+          <source>Brain Res</source>
+          <year>2010</year>
+          <volume>1322</volume>
+          <fpage>59</fpage>
+          <lpage>71</lpage>
+          <pub-id pub-id-type="pmid">20123089</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b5-nss-7-085">
+        <label>5</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Gross</surname>
+              <given-names>BA</given-names>
+            </name>
+            <name>
+              <surname>Walsh</surname>
+              <given-names>CM</given-names>
+            </name>
+            <name>
+              <surname>Turakhia</surname>
+              <given-names>AA</given-names>
+            </name>
+            <name>
+              <surname>Booth</surname>
+              <given-names>V</given-names>
+            </name>
+            <name>
+              <surname>Mashour</surname>
+              <given-names>GA</given-names>
+            </name>
+            <name>
+              <surname>Poe</surname>
+              <given-names>GR</given-names>
+            </name>
+          </person-group>
+          <article-title>Open-source logic-based automated sleep scoring software using electrophysiological recordings in rats</article-title>
+          <source>J Neurosci Methods</source>
+          <year>2009</year>
+          <volume>184</volume>
+          <issue>1</issue>
+          <fpage>10</fpage>
+          <lpage>18</lpage>
+          <pub-id pub-id-type="pmid">19615408</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b6-nss-7-085">
+        <label>6</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Crisler</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Morrissey</surname>
+              <given-names>MJ</given-names>
+            </name>
+            <name>
+              <surname>Anch</surname>
+              <given-names>AM</given-names>
+            </name>
+            <name>
+              <surname>Barnett</surname>
+              <given-names>DW</given-names>
+            </name>
+          </person-group>
+          <article-title>Sleep-stage scoring in the rat using a support vector machine</article-title>
+          <source>J Neurosci Methods</source>
+          <year>2008</year>
+          <volume>168</volume>
+          <issue>2</issue>
+          <fpage>524</fpage>
+          <lpage>534</lpage>
+          <pub-id pub-id-type="pmid">18093659</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b7-nss-7-085">
+        <label>7</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Libourel</surname>
+              <given-names>PA</given-names>
+            </name>
+            <name>
+              <surname>Corneyllie</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Luppi</surname>
+              <given-names>PH</given-names>
+            </name>
+            <name>
+              <surname>Chouvet</surname>
+              <given-names>G</given-names>
+            </name>
+            <name>
+              <surname>Gervasoni</surname>
+              <given-names>D</given-names>
+            </name>
+          </person-group>
+          <article-title>Unsupervised online classifier in sleep scoring for sleep deprivation studies</article-title>
+          <source>Sleep</source>
+          <year>2015</year>
+          <volume>38</volume>
+          <issue>5</issue>
+          <fpage>815</fpage>
+          <lpage>828</lpage>
+          <pub-id pub-id-type="pmid">25325478</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b8-nss-7-085">
+        <label>8</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Berthomier</surname>
+              <given-names>C</given-names>
+            </name>
+            <name>
+              <surname>Drouot</surname>
+              <given-names>X</given-names>
+            </name>
+            <name>
+              <surname>Herman-Stoïca</surname>
+              <given-names>M</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Automatic analysis of single-channel sleep EEG: validation in healthy individuals</article-title>
+          <source>Sleep</source>
+          <year>2007</year>
+          <volume>30</volume>
+          <issue>11</issue>
+          <fpage>1587</fpage>
+          <lpage>1595</lpage>
+          <pub-id pub-id-type="pmid">18041491</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b9-nss-7-085">
+        <label>9</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Koley</surname>
+              <given-names>B</given-names>
+            </name>
+            <name>
+              <surname>Dey</surname>
+              <given-names>D</given-names>
+            </name>
+          </person-group>
+          <article-title>An ensemble system for automatic sleep stage classification using single channel EEG signal</article-title>
+          <source>Comput Biol Med</source>
+          <year>2012</year>
+          <volume>42</volume>
+          <issue>12</issue>
+          <fpage>1186</fpage>
+          <lpage>1195</lpage>
+          <pub-id pub-id-type="pmid">23102750</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b10-nss-7-085">
+        <label>10</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kaplan</surname>
+              <given-names>RF</given-names>
+            </name>
+            <name>
+              <surname>Wang</surname>
+              <given-names>Y</given-names>
+            </name>
+            <name>
+              <surname>Loparo</surname>
+              <given-names>KA</given-names>
+            </name>
+            <name>
+              <surname>Kelly</surname>
+              <given-names>MR</given-names>
+            </name>
+            <name>
+              <surname>Bootzin</surname>
+              <given-names>RR</given-names>
+            </name>
+          </person-group>
+          <article-title>Performance evaluation of an automated single-channel sleep-wake detection algorithm</article-title>
+          <source>Nat Sci Sleep</source>
+          <year>2014</year>
+          <volume>6</volume>
+          <fpage>113</fpage>
+          <lpage>122</lpage>
+          <pub-id pub-id-type="pmid">25342922</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b11-nss-7-085">
+        <label>11</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Darchia</surname>
+              <given-names>N</given-names>
+            </name>
+            <name>
+              <surname>Campbell</surname>
+              <given-names>IG</given-names>
+            </name>
+            <name>
+              <surname>Feinberg</surname>
+              <given-names>I</given-names>
+            </name>
+          </person-group>
+          <article-title>Rapid eye movement density is reduced in the normal elderly</article-title>
+          <source>Sleep</source>
+          <year>2003</year>
+          <volume>26</volume>
+          <issue>8</issue>
+          <fpage>973</fpage>
+          <lpage>977</lpage>
+          <pub-id pub-id-type="pmid">14746377</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b12-nss-7-085">
+        <label>12</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Moul</surname>
+              <given-names>DE</given-names>
+            </name>
+            <name>
+              <surname>Germain</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Cashmere</surname>
+              <given-names>JD</given-names>
+            </name>
+            <name>
+              <surname>Quigley</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Miewald</surname>
+              <given-names>JM</given-names>
+            </name>
+            <name>
+              <surname>Buysse</surname>
+              <given-names>DJ</given-names>
+            </name>
+          </person-group>
+          <article-title>Examining initial sleep onset in primary insomnia: a case-control study using 4-second epochs</article-title>
+          <source>J Clin Sleep Med</source>
+          <year>2007</year>
+          <volume>3</volume>
+          <issue>5</issue>
+          <fpage>479</fpage>
+          <lpage>488</lpage>
+          <pub-id pub-id-type="pmid">17803011</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b13-nss-7-085">
+        <label>13</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Wisor</surname>
+              <given-names>JP</given-names>
+            </name>
+            <name>
+              <surname>Wurts</surname>
+              <given-names>SW</given-names>
+            </name>
+            <name>
+              <surname>Hall</surname>
+              <given-names>FS</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Altered rapid eye movement sleep timing in serotonin transporter knockout mice</article-title>
+          <source>Neuroreport</source>
+          <year>2003</year>
+          <volume>14</volume>
+          <issue>2</issue>
+          <fpage>233</fpage>
+          <lpage>238</lpage>
+          <pub-id pub-id-type="pmid">12598736</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b14-nss-7-085">
+        <label>14</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Tiba</surname>
+              <given-names>PA</given-names>
+            </name>
+            <name>
+              <surname>Tufik</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Suchecki</surname>
+              <given-names>D</given-names>
+            </name>
+          </person-group>
+          <article-title>Effects of maternal separation on baseline sleep and cold stress-induced sleep rebound in adult Wistar rats</article-title>
+          <source>Sleep</source>
+          <year>2004</year>
+          <volume>27</volume>
+          <issue>6</issue>
+          <fpage>1146</fpage>
+          <lpage>1153</lpage>
+          <pub-id pub-id-type="pmid">15532209</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b15-nss-7-085">
+        <label>15</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Franken</surname>
+              <given-names>P</given-names>
+            </name>
+            <name>
+              <surname>Tobler</surname>
+              <given-names>I</given-names>
+            </name>
+            <name>
+              <surname>Borbély</surname>
+              <given-names>AA</given-names>
+            </name>
+          </person-group>
+          <article-title>Sleep homeostasis in the rat: simulation of the time course of EEG slow-wave activity</article-title>
+          <source>Neurosci Lett</source>
+          <year>1991</year>
+          <volume>130</volume>
+          <issue>2</issue>
+          <fpage>141</fpage>
+          <lpage>144</lpage>
+          <pub-id pub-id-type="pmid">1795873</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b16-nss-7-085">
+        <label>16</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Franken</surname>
+              <given-names>P</given-names>
+            </name>
+            <name>
+              <surname>Chollet</surname>
+              <given-names>D</given-names>
+            </name>
+            <name>
+              <surname>Tafti</surname>
+              <given-names>M</given-names>
+            </name>
+          </person-group>
+          <article-title>The homeostatic regulation of sleep need is under genetic control</article-title>
+          <source>J Neurosci</source>
+          <year>2001</year>
+          <volume>21</volume>
+          <issue>8</issue>
+          <fpage>2610</fpage>
+          <lpage>2621</lpage>
+          <pub-id pub-id-type="pmid">11306614</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b17-nss-7-085">
+        <label>17</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Trachsel</surname>
+              <given-names>L</given-names>
+            </name>
+            <name>
+              <surname>Tobler</surname>
+              <given-names>I</given-names>
+            </name>
+            <name>
+              <surname>Borbély</surname>
+              <given-names>AA</given-names>
+            </name>
+          </person-group>
+          <article-title>Electroencephalogram analysis of non-rapid eye movement sleep in rats</article-title>
+          <source>Am J Physiol</source>
+          <year>1988</year>
+          <volume>255</volume>
+          <issue>1 Pt 2</issue>
+          <fpage>R27</fpage>
+          <lpage>R37</lpage>
+          <pub-id pub-id-type="pmid">3394843</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b18-nss-7-085">
+        <label>18</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Vyazovskiy</surname>
+              <given-names>VV</given-names>
+            </name>
+            <name>
+              <surname>Achermann</surname>
+              <given-names>P</given-names>
+            </name>
+            <name>
+              <surname>Tobler</surname>
+              <given-names>I</given-names>
+            </name>
+          </person-group>
+          <article-title>Sleep homeostasis in the rat in the light and dark period</article-title>
+          <source>Brain Res Bull</source>
+          <year>2007</year>
+          <volume>74</volume>
+          <issue>1–3</issue>
+          <fpage>37</fpage>
+          <lpage>44</lpage>
+          <pub-id pub-id-type="pmid">17683787</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b19-nss-7-085">
+        <label>19</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Dash</surname>
+              <given-names>MB</given-names>
+            </name>
+            <name>
+              <surname>Tononi</surname>
+              <given-names>G</given-names>
+            </name>
+            <name>
+              <surname>Cirelli</surname>
+              <given-names>C</given-names>
+            </name>
+          </person-group>
+          <article-title>Extracellular levels of lactate, but not oxygen, reflect sleep homeostasis in the rat cerebral cortex</article-title>
+          <source>Sleep</source>
+          <year>2012</year>
+          <volume>35</volume>
+          <issue>7</issue>
+          <fpage>909</fpage>
+          <lpage>919</lpage>
+          <pub-id pub-id-type="pmid">22754037</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b20-nss-7-085">
+        <label>20</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Naylor</surname>
+              <given-names>E</given-names>
+            </name>
+            <name>
+              <surname>Aillon</surname>
+              <given-names>DV</given-names>
+            </name>
+            <name>
+              <surname>Barrett</surname>
+              <given-names>BS</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Lactate as a biomarker for sleep</article-title>
+          <source>Sleep</source>
+          <year>2012</year>
+          <volume>35</volume>
+          <issue>9</issue>
+          <fpage>1209</fpage>
+          <lpage>1222</lpage>
+          <pub-id pub-id-type="pmid">22942499</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b21-nss-7-085">
+        <label>21</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Wisor</surname>
+              <given-names>JP</given-names>
+            </name>
+            <name>
+              <surname>Rempe</surname>
+              <given-names>MJ</given-names>
+            </name>
+            <name>
+              <surname>Schmidt</surname>
+              <given-names>MA</given-names>
+            </name>
+            <name>
+              <surname>Moore</surname>
+              <given-names>ME</given-names>
+            </name>
+            <name>
+              <surname>Clegern</surname>
+              <given-names>WC</given-names>
+            </name>
+          </person-group>
+          <article-title>Sleep slow-wave activity regulates cerebral glycolytic metabolism</article-title>
+          <source>Cereb Cortex</source>
+          <year>2013</year>
+          <volume>23</volume>
+          <issue>8</issue>
+          <fpage>1978</fpage>
+          <lpage>1987</lpage>
+          <pub-id pub-id-type="pmid">22767634</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b22-nss-7-085">
+        <label>22</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Rempe</surname>
+              <given-names>MJ</given-names>
+            </name>
+            <name>
+              <surname>Wisor</surname>
+              <given-names>JP</given-names>
+            </name>
+          </person-group>
+          <article-title>Cerebral lactate dynamics across sleep/wake cycles</article-title>
+          <source>Front Comput Neurosci</source>
+          <year>2014</year>
+          <volume>8</volume>
+          <fpage>174</fpage>
+          <pub-id pub-id-type="pmid">25642184</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b23-nss-7-085">
+        <label>23</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Clegern</surname>
+              <given-names>WC</given-names>
+            </name>
+            <name>
+              <surname>Moore</surname>
+              <given-names>ME</given-names>
+            </name>
+            <name>
+              <surname>Schmidt</surname>
+              <given-names>MA</given-names>
+            </name>
+            <name>
+              <surname>Wisor</surname>
+              <given-names>J</given-names>
+            </name>
+          </person-group>
+          <article-title>Simultaneous electroencephalography, real-time measurement of lactate concentration and optogenetic manipulation of neuronal activity in the rodent cerebral cortex</article-title>
+          <source>J Vis Exp</source>
+          <year>2012</year>
+          <issue>70</issue>
+          <fpage>e4328</fpage>
+          <pub-id pub-id-type="pmid">23271428</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b24-nss-7-085">
+        <label>24</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Schmidt</surname>
+              <given-names>MA</given-names>
+            </name>
+            <name>
+              <surname>Wisor</surname>
+              <given-names>JP</given-names>
+            </name>
+          </person-group>
+          <article-title>Interleukin 1 receptor contributes to methamphetamine- and sleep deprivation-induced hypersomnolence</article-title>
+          <source>Neurosci Lett</source>
+          <year>2012</year>
+          <volume>513</volume>
+          <issue>2</issue>
+          <fpage>209</fpage>
+          <lpage>213</lpage>
+          <pub-id pub-id-type="pmid">22387068</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b25-nss-7-085">
+        <label>25</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Wisor</surname>
+              <given-names>JP</given-names>
+            </name>
+            <name>
+              <surname>Schmidt</surname>
+              <given-names>MA</given-names>
+            </name>
+            <name>
+              <surname>Clegern</surname>
+              <given-names>WC</given-names>
+            </name>
+          </person-group>
+          <article-title>Cerebral microglia mediate sleep/wake and neuroinflammatory effects of methamphetamine</article-title>
+          <source>Brain Behav Immun</source>
+          <year>2011</year>
+          <volume>25</volume>
+          <issue>4</issue>
+          <fpage>767</fpage>
+          <lpage>776</lpage>
+          <pub-id pub-id-type="pmid">21333736</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b26-nss-7-085">
+        <label>26</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Hu</surname>
+              <given-names>Y</given-names>
+            </name>
+            <name>
+              <surname>Wilson</surname>
+              <given-names>GS</given-names>
+            </name>
+          </person-group>
+          <article-title>A temporary local energy pool coupled to neuronal activity: fluctuations of extracellular lactate levels in rat brain monitored with rapid-response enzyme-based sensor</article-title>
+          <source>J Neurochem</source>
+          <year>1997</year>
+          <volume>69</volume>
+          <issue>4</issue>
+          <fpage>1484</fpage>
+          <lpage>1490</lpage>
+          <pub-id pub-id-type="pmid">9326277</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b27-nss-7-085">
+        <label>27</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Cohen</surname>
+              <given-names>J</given-names>
+            </name>
+          </person-group>
+          <article-title>A coefficient of agreement for nominal scales</article-title>
+          <source>Educ Psychol Meas</source>
+          <year>1960</year>
+          <volume>20</volume>
+          <issue>1</issue>
+          <fpage>37</fpage>
+          <lpage>46</lpage>
+        </element-citation>
+      </ref>
+      <ref id="b28-nss-7-085">
+        <label>28</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Borbély</surname>
+              <given-names>AA</given-names>
+            </name>
+          </person-group>
+          <article-title>A two process model of sleep regulation</article-title>
+          <source>Hum Neurobiol</source>
+          <year>1982</year>
+          <volume>1</volume>
+          <issue>3</issue>
+          <fpage>195</fpage>
+          <lpage>204</lpage>
+          <pub-id pub-id-type="pmid">7185792</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b29-nss-7-085">
+        <label>29</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Nelder</surname>
+              <given-names>JA</given-names>
+            </name>
+            <name>
+              <surname>Mead</surname>
+              <given-names>R</given-names>
+            </name>
+          </person-group>
+          <article-title>A simplex method for function minimization</article-title>
+          <source>Comput J</source>
+          <year>1965</year>
+          <volume>7</volume>
+          <issue>4</issue>
+          <fpage>308</fpage>
+          <lpage>313</lpage>
+        </element-citation>
+      </ref>
+      <ref id="b30-nss-7-085">
+        <label>30</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Beuckmann</surname>
+              <given-names>CT</given-names>
+            </name>
+            <name>
+              <surname>Sinton</surname>
+              <given-names>CM</given-names>
+            </name>
+            <name>
+              <surname>Williams</surname>
+              <given-names>SC</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Expression of a poly-glutamine-ataxin-3 transgene in orexin neurons induces narcolepsy-cataplexy in the rat</article-title>
+          <source>J Neurosci</source>
+          <year>2004</year>
+          <volume>24</volume>
+          <issue>18</issue>
+          <fpage>4469</fpage>
+          <lpage>4477</lpage>
+          <pub-id pub-id-type="pmid">15128861</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b31-nss-7-085">
+        <label>31</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Black</surname>
+              <given-names>SW</given-names>
+            </name>
+            <name>
+              <surname>Morairty</surname>
+              <given-names>SR</given-names>
+            </name>
+            <name>
+              <surname>Chen</surname>
+              <given-names>TM</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>GABAB agonism promotes sleep and reduces cataplexy in murine narcolepsy</article-title>
+          <source>J Neurosci</source>
+          <year>2014</year>
+          <volume>34</volume>
+          <issue>19</issue>
+          <fpage>6485</fpage>
+          <lpage>6494</lpage>
+          <pub-id pub-id-type="pmid">24806675</pub-id>
+        </element-citation>
+      </ref>
+    </ref-list>
+  </back>
+  <floats-group>
+    <fig id="f1-nss-7-085" position="float">
+      <label>Figure 1</label>
+      <caption>
+        <p><citation_analysis attribute="neither">Comparison of human scoring to machine scoring.</citation_analysis></p>
+        <p><citation_analysis attribute="positive"><bold>Notes:</bold></citation_analysis><citation_analysis attribute="neither"> Principal component plots of a 43-hour recording scored in 10-second epochs by a human (</citation_analysis><citation_analysis attribute="positive"><bold>A</bold></citation_analysis><citation_analysis attribute="positive">) and using the machine learning algorithm (</citation_analysis><citation_analysis attribute="positive"><bold>B</bold></citation_analysis><citation_analysis attribute="neither">). Each dot represents one 10-second epoch, and its color represents sleep state (SWS = blue, wake = red, REMS = orange). The computer-scored plot used data from 10 am to 2 pm (Zeitgeber time 4–8 in the first complete light/dark cycle of the recording) as training data to score every epoch in the entire 43-hour recording. Both for BALB/CJ mice (</citation_analysis><citation_analysis attribute="positive"><bold>C</bold></citation_analysis><citation_analysis attribute="neither">) and C57BL/6J mice (</citation_analysis><citation_analysis attribute="positive"><bold>D</bold></citation_analysis><citation_analysis attribute="neither">), the agreement between machine-scored and human-scored increased as more of the training data were used. For each genetic strain, 8,640 2-second epochs and 8,640 10-second epochs were scored by a human and by the autoscoring procedure, with 0.05%, 0.1%, 0.5%, 1%, 10%, 50%, 80%, and 100% of those 8,640 epochs used as training data. These correspond to 4 epochs, 9 epochs, 43 epochs, 86 epochs, 864 epochs, 4,320 epochs, 6,912 epochs, and 8,640 epochs, respectively. In each case it was ensured that at least one epoch of each state was present. Two measures of agreement between the human scoring and the machine scoring were computed: Cohen’s kappa and global agreement. The x-axis shows the percentage of the 8,640 epochs used as training data, indicating that the learning algorithm requires only about 1% of the training data to reach optimal performance.</citation_analysis></p>
+        <p><citation_analysis attribute="positive"><bold>Abbreviations:</bold></citation_analysis><citation_analysis attribute="neither"> REMS, rapid-eye-movement sleep; SWS, slow-wave sleep.</citation_analysis></p>
+      </caption>
+      <graphic xlink:href="nss-7-085Fig1"/>
+    </fig>
+    <fig id="f2-nss-7-085" position="float">
+      <label>Figure 2</label>
+      <caption>
+        <p><citation_analysis attribute="neither">EEG and EMG data for comparison of human scoring and machine scoring.</citation_analysis></p>
+        <p><citation_analysis attribute="positive"><bold>Notes:</bold></citation_analysis><citation_analysis attribute="positive"> The top two traces show human and autoscored sleep states for each 10-second epoch of the EEG and EMG shown in the lower panels. The sleep states are labeled with color (gray for wake, white for SWS, and black for REMS).</citation_analysis></p>
+        <p><citation_analysis attribute="positive"><bold>Abbreviations:</bold></citation_analysis><citation_analysis attribute="neither"> EEG, electroencephalography; EMG, electromyography; REMS, rapid-eye-movement sleep; SWS, slow-wave sleep.</citation_analysis></p>
+      </caption>
+      <graphic xlink:href="nss-7-085Fig2"/>
+    </fig>
+    <fig id="f3-nss-7-085" position="float">
+      <label>Figure 3</label>
+      <caption>
+        <p><citation_analysis attribute="neither">Agreement statistics between human scoring and machine scoring.</citation_analysis></p>
+        <p><citation_analysis attribute="positive"><bold>Notes:</bold></citation_analysis><citation_analysis attribute="neither"> For the data scored in 10-second epochs, the agreement statistics compare the human and machine scoring for the entire 40–48-hour recording. For the data in 2-second epochs, the comparison is between 8,640 epochs that were scored by hand and the same 8,640 epochs scored by the automated scoring algorithm. Lines inside boxes represent median values. The lower end of each box indicates the first quartile of the data (Q1), and the upper end represents the third quartile (Q3). To draw the whiskers, we calculated the interquartile range (IQR), which is the distance between Q1 and Q3. The lower whisker indicates the lowest data point within 1.5 IQR of Q1. The upper whisker indicates the largest data point within 1.5 IQR of Q3. Outliers more than 1.5 IQR but less than 3 IQR above Q3 or below Q1 are represented with open circles.</citation_analysis></p>
+        <p><citation_analysis attribute="positive"><bold>Abbreviations:</bold></citation_analysis><citation_analysis attribute="neither"> B6, C57BL/6J mice; BA, BALB/CJ mice; REMS, rapid-eye-movement sleep; SWS, slow-wave sleep.</citation_analysis></p>
+      </caption>
+      <graphic xlink:href="nss-7-085Fig3"/>
+    </fig>
+    <fig id="f4-nss-7-085" position="float">
+      <label>Figure 4</label>
+      <caption>
+        <p><citation_analysis attribute="neither">Sleep-state percentages in human-scored versus machine-scored 10-second epoch data.</citation_analysis></p>
+        <p><citation_analysis attribute="positive"><bold>Notes:</bold></citation_analysis><citation_analysis attribute="neither"> Data from the BA strain (left column) and the B6 strain (right column), were binned into 60-minute intervals. Graphs represent the percentage of each interval spent in wake (</citation_analysis><citation_analysis attribute="positive"><bold>A</bold></citation_analysis><citation_analysis attribute="neither"> and </citation_analysis><citation_analysis attribute="positive"><bold>B</bold></citation_analysis><citation_analysis attribute="neither">), SWS (</citation_analysis><citation_analysis attribute="positive"><bold>C</bold></citation_analysis><citation_analysis attribute="neither"> and </citation_analysis><citation_analysis attribute="positive"><bold>D</bold></citation_analysis><citation_analysis attribute="neither">), and REMS (</citation_analysis><citation_analysis attribute="positive"><bold>E</bold></citation_analysis><citation_analysis attribute="neither"> and </citation_analysis><citation_analysis attribute="positive"><bold>F</bold></citation_analysis><citation_analysis attribute="neither">). Open circles represent machine-scored data and filled circles represent human-scored data. Dark and light phases are indicated by black and white bands at the top of each panel.</citation_analysis></p>
+        <p><citation_analysis attribute="positive"><bold>Abbreviations:</bold></citation_analysis><citation_analysis attribute="neither"> B6, C57BL/6J mice; BA, BALB/CJ mice; REMS, rapid-eye-movement sleep; SWS, slow-wave sleep.</citation_analysis></p>
+      </caption>
+      <graphic xlink:href="nss-7-085Fig4"/>
+    </fig>
+    <fig id="f5-nss-7-085" position="float">
+      <label>Figure 5</label>
+      <caption>
+        <p><citation_analysis attribute="neither">Sleep-state percentages in human-scored versus machine-scored 2-second epoch data.</citation_analysis></p>
+        <p><citation_analysis attribute="positive"><bold>Notes:</bold></citation_analysis><citation_analysis attribute="neither"> Data from the BA strain (left column) and the B6 strain (right column) were binned into 12-minute intervals. Graphs represent the percentage of each interval spent in wake (</citation_analysis><citation_analysis attribute="positive"><bold>A</bold></citation_analysis><citation_analysis attribute="neither"> and </citation_analysis><citation_analysis attribute="positive"><bold>B</bold></citation_analysis><citation_analysis attribute="neither">), SWS (</citation_analysis><citation_analysis attribute="positive"><bold>C</bold></citation_analysis><citation_analysis attribute="neither"> and </citation_analysis><citation_analysis attribute="positive"><bold>D</bold></citation_analysis><citation_analysis attribute="neither">), and REMS (</citation_analysis><citation_analysis attribute="positive"><bold>E</bold></citation_analysis><citation_analysis attribute="neither"> and </citation_analysis><citation_analysis attribute="positive"><bold>F</bold></citation_analysis><citation_analysis attribute="neither">). Open circles represent machine-scored data and filled circles represent human-scored data. Data are from Zeitgeber time 4–9.</citation_analysis></p>
+        <p><citation_analysis attribute="positive"><bold>Abbreviations:</bold></citation_analysis><citation_analysis attribute="neither"> B6, C57BL/6J mice; BA, BALB/CJ mice; REMS, rapid-eye-movement sleep; SWS, slow-wave sleep.</citation_analysis></p>
+      </caption>
+      <graphic xlink:href="nss-7-085Fig5"/>
+    </fig>
+    <fig id="f6-nss-7-085" position="float">
+      <label>Figure 6</label>
+      <caption>
+        <p><citation_analysis attribute="neither">Machine-scored data in 10-second epochs exhibit similar frequency profiles to human-scored data.</citation_analysis></p>
+        <p><citation_analysis attribute="positive"><bold>Notes:</bold></citation_analysis><citation_analysis attribute="neither"> The left column shows data for the BA strain and the right column shows data for the B6 strain. For wake (</citation_analysis><citation_analysis attribute="positive"><bold>A</bold></citation_analysis><citation_analysis attribute="neither"> and </citation_analysis><citation_analysis attribute="positive"><bold>D</bold></citation_analysis><citation_analysis attribute="neither">), SWS (</citation_analysis><citation_analysis attribute="positive"><bold>B</bold></citation_analysis><citation_analysis attribute="neither"> and </citation_analysis><citation_analysis attribute="positive"><bold>E</bold></citation_analysis><citation_analysis attribute="neither">), and REMS (</citation_analysis><citation_analysis attribute="positive"><bold>C</bold></citation_analysis><citation_analysis attribute="neither"> and </citation_analysis><citation_analysis attribute="positive"><bold>F</bold></citation_analysis><citation_analysis attribute="neither">), the frequency profiles of the human-scored data (black line) and those of the machine-scored data (gray line) are shown. The black dots in panels (</citation_analysis><citation_analysis attribute="positive"><bold>A</bold></citation_analysis><citation_analysis attribute="neither">, </citation_analysis><citation_analysis attribute="positive"><bold>C, D</bold></citation_analysis><citation_analysis attribute="neither"> and </citation_analysis><citation_analysis attribute="positive"><bold>F</bold></citation_analysis><citation_analysis attribute="neither">) indicate frequency bands in which posthoc comparisons (Fisher’s protected least-significant difference) indicated a difference between the curves. The insets in panels (</citation_analysis><citation_analysis attribute="positive"><bold>B</bold></citation_analysis><citation_analysis attribute="neither"> and </citation_analysis><citation_analysis attribute="positive"><bold>E</bold></citation_analysis><citation_analysis attribute="positive">) show 1–4 Hz SWA. </citation_analysis><citation_analysis attribute="positive"><italic>P</italic></citation_analysis><citation_analysis attribute="neither">-values in these insets indicate main effect of scoring method on SWA.</citation_analysis></p>
+        <p><citation_analysis attribute="positive"><bold>Abbreviations:</bold></citation_analysis><citation_analysis attribute="neither"> B6, C57BL/6J mice; BA, BALB/CJ mice; EEG, electroencephalography; EMG, electromyography; H, human; M, machine; NS, not significant; REMS, rapid-eye-movement sleep; SWA, slow-wave activity; SWS, slow-wave sleep.</citation_analysis></p>
+      </caption>
+      <graphic xlink:href="nss-7-085Fig6"/>
+    </fig>
+    <fig id="f7-nss-7-085" position="float">
+      <label>Figure 7</label>
+      <caption>
+        <p><citation_analysis attribute="neither">Homeostatic modeling of lactate data and SWA scored by human or machine.</citation_analysis></p>
+        <p><citation_analysis attribute="positive"><bold>Notes:</bold></citation_analysis><citation_analysis attribute="positive"> The left column shows human-scored data and the right-hand column shows machine-scored data. The top four panels show scaled lactate data in 10-second epochs scored by a human (</citation_analysis><citation_analysis attribute="positive"><bold>A</bold></citation_analysis><citation_analysis attribute="neither">), 10-second epochs autoscored (</citation_analysis><citation_analysis attribute="positive"><bold>B</bold></citation_analysis><citation_analysis attribute="neither">), 2-second epochs scored by a human (</citation_analysis><citation_analysis attribute="positive"><bold>C</bold></citation_analysis><citation_analysis attribute="neither">), and 2-second epochs autoscored (</citation_analysis><citation_analysis attribute="positive"><bold>D</bold></citation_analysis><citation_analysis attribute="positive">). The bottom four panels show SWA in 5-minute sleep episodes using 10-second epochs scored by a human (</citation_analysis><citation_analysis attribute="positive"><bold>E</bold></citation_analysis><citation_analysis attribute="neither">), 10-second epochs autoscored (</citation_analysis><citation_analysis attribute="positive"><bold>F</bold></citation_analysis><citation_analysis attribute="neither">), 2-second epochs scored by a human (</citation_analysis><citation_analysis attribute="positive"><bold>G</bold></citation_analysis><citation_analysis attribute="neither">), and 2-second epochs autoscored (</citation_analysis><citation_analysis attribute="positive"><bold>H</bold></citation_analysis><citation_analysis attribute="neither">). In each panel, a homeostatic model for lactate or SWA was fit to the data (solid curve). The difference in time scale between the lower panels and the upper panels reflects the difference in temporal dynamics of SWA versus those of lactate.</citation_analysis></p>
+        <p><citation_analysis attribute="positive"><bold>Abbreviations:</bold></citation_analysis><citation_analysis attribute="neither"> REMS, rapid-eye-movement sleep; SWA, slow-wave activity; SWS, slow-wave sleep.</citation_analysis></p>
+      </caption>
+      <graphic xlink:href="nss-7-085Fig7"/>
+    </fig>
+    <fig id="f8-nss-7-085" position="float">
+      <label>Figure 8</label>
+      <caption>
+        <p><citation_analysis attribute="neither">Strain differences in optimal time constants in general homeostatic modeling of state-dependent SWA and lactate dynamics.</citation_analysis></p>
+        <p><citation_analysis attribute="positive"><bold>Notes:</bold></citation_analysis><citation_analysis attribute="neither"> Data represent optimized time constants for wake/REMS-dependent increases (</citation_analysis><citation_analysis attribute="positive"><italic>τ<sub>i</sub></italic></citation_analysis><citation_analysis attribute="neither">) and SWS-dependent decreases (</citation_analysis><citation_analysis attribute="positive"><italic>τ<sub>d</sub></italic></citation_analysis><citation_analysis attribute="neither">) in SWA (</citation_analysis><citation_analysis attribute="positive"><bold>A</bold></citation_analysis><citation_analysis attribute="neither">–</citation_analysis><citation_analysis attribute="positive"><bold>D</bold></citation_analysis><citation_analysis attribute="neither">) and lactate (</citation_analysis><citation_analysis attribute="positive"><bold>E</bold></citation_analysis><citation_analysis attribute="neither">–</citation_analysis><citation_analysis attribute="positive"><bold>H</bold></citation_analysis><citation_analysis attribute="neither">) from human-scored data (black bars) and machine-scored data (gray bars). </citation_analysis><citation_analysis attribute="positive"><italic>P</italic></citation_analysis><citation_analysis attribute="positive">-values are shown for main effect of scoring method on time constants.</citation_analysis></p>
+        <p><citation_analysis attribute="positive"><bold>Abbreviations:</bold></citation_analysis><citation_analysis attribute="neither"> B6, C57BL/6J mice; BA, BALB/CJ mice; NS, not significant; REMS, rapid-eye-movement sleep; SWA, slow-wave activity; SWS, slow-wave sleep.</citation_analysis></p>
+      </caption>
+      <graphic xlink:href="nss-7-085Fig8"/>
+    </fig>
+    <fig id="f9-nss-7-085" position="float">
+      <label>Figure 9</label>
+      <caption>
+        <p><citation_analysis attribute="neither">Differences in residuals of model fit to data scored by human or machine.</citation_analysis></p>
+        <p><citation_analysis attribute="positive"><bold>Notes:</bold></citation_analysis><citation_analysis attribute="neither"> Data represent the residuals associated with optimized time constants for modeling SWA (</citation_analysis><citation_analysis attribute="positive"><bold>A</bold></citation_analysis><citation_analysis attribute="neither"> and </citation_analysis><citation_analysis attribute="positive"><bold>B</bold></citation_analysis><citation_analysis attribute="neither">) and lactate (</citation_analysis><citation_analysis attribute="positive"><bold>C</bold></citation_analysis><citation_analysis attribute="neither"> and </citation_analysis><citation_analysis attribute="positive"><bold>D</bold></citation_analysis><citation_analysis attribute="neither">) from human-scored data (black bars) and machine-scored data (gray bars) in either 10-second or 2-second epochs. </citation_analysis><citation_analysis attribute="positive"><italic>P</italic></citation_analysis><citation_analysis attribute="positive">-values are shown for main effect of scoring method on time constants. Asterisk denotes significant difference for human versus machine scoring within the BA strain (Fisher’s protected least-significant difference).</citation_analysis></p>
+        <p><citation_analysis attribute="positive"><bold>Abbreviations:</bold></citation_analysis><citation_analysis attribute="neither"> B6, C57BL/6J mice; BA, BALB/CJ mice; NS, not significant; R SWA, slow-wave activity.</citation_analysis></p>
+      </caption>
+      <graphic xlink:href="nss-7-085Fig9"/>
+    </fig>
+    <fig id="f10-nss-7-085" position="float">
+      <label>Figure 10</label>
+      <caption>
+        <p><citation_analysis attribute="neither">Strain differences in sleep/wake state timing scored in 10-second epochs.</citation_analysis></p>
+        <p><citation_analysis attribute="positive"><bold>Notes:</bold></citation_analysis><citation_analysis attribute="neither"> Strain differences in the time course of sleep/wake states were observed in human-scored data (</citation_analysis><citation_analysis attribute="positive"><bold>A</bold></citation_analysis><citation_analysis attribute="neither">, </citation_analysis><citation_analysis attribute="positive"><bold>C and E</bold></citation_analysis><citation_analysis attribute="neither">) or machine-scored data (</citation_analysis><citation_analysis attribute="positive"><bold>B</bold></citation_analysis><citation_analysis attribute="neither">, </citation_analysis><citation_analysis attribute="positive"><bold>D</bold></citation_analysis><citation_analysis attribute="neither"> and </citation_analysis><citation_analysis attribute="positive"><bold>F</bold></citation_analysis><citation_analysis attribute="positive">). Filled circles represent data from the BA strain, and open circles represent data from the B6 strain. Asterisks indicate 60-minute epochs in which there is a statistically significant difference between strains (Fisher’s protected least-significant difference). Timing of the dark and light phases of the 12:12 cycle is indicated by the black and white bars at the top of each graph.</citation_analysis></p>
+        <p><citation_analysis attribute="positive"><bold>Abbreviations:</bold></citation_analysis><citation_analysis attribute="neither"> B6, C57BL/6J mice; BA, BALB/CJ mice; REMS, rapid-eye-movement sleep; SWS, slow-wave sleep.</citation_analysis></p>
+      </caption>
+      <graphic xlink:href="nss-7-085Fig10"/>
+    </fig>
+    <fig id="f11-nss-7-085" position="float">
+      <label>Figure 11</label>
+      <caption>
+        <p><citation_analysis attribute="neither">Strain differences in EEG power spectra in 10-second epochs scored by human or machine.</citation_analysis></p>
+        <p><citation_analysis attribute="positive"><bold>Notes:</bold></citation_analysis><citation_analysis attribute="neither"> The left column shows human-scored data and the right column shows machine-scored data. For wake (</citation_analysis><citation_analysis attribute="positive"><bold>A</bold></citation_analysis><citation_analysis attribute="neither"> and </citation_analysis><citation_analysis attribute="positive"><bold>D</bold></citation_analysis><citation_analysis attribute="neither">), SWS (</citation_analysis><citation_analysis attribute="positive"><bold>B</bold></citation_analysis><citation_analysis attribute="neither"> and </citation_analysis><citation_analysis attribute="positive"><bold>E</bold></citation_analysis><citation_analysis attribute="neither">), and REMS (</citation_analysis><citation_analysis attribute="positive"><bold>C</bold></citation_analysis><citation_analysis attribute="neither"> and </citation_analysis><citation_analysis attribute="positive"><bold>F</bold></citation_analysis><citation_analysis attribute="neither">), EEG power differed between strains at specific frequencies. The black dots at the base of each graph indicate frequency bands in which posthoc comparisons (Fisher’s protected least-significant difference) indicated a difference between the BA (black line) and B6 (gray line) strains. The insets in panels (</citation_analysis><citation_analysis attribute="positive"><bold>B</bold></citation_analysis><citation_analysis attribute="neither"> and (</citation_analysis><citation_analysis attribute="positive"><bold>E</bold></citation_analysis><citation_analysis attribute="positive">) show 1–4 Hz SWA, which did not differ between strains.</citation_analysis></p>
+        <p><citation_analysis attribute="positive"><bold>Abbreviations:</bold></citation_analysis><citation_analysis attribute="neither"> B6, C57BL/6J mice; BA, BALB/CJ mice; EEG, electroencephalography; NS, not significant; REMS, rapid-eye-movement sleep; SWS, slow-wave sleep.</citation_analysis></p>
+      </caption>
+      <graphic xlink:href="nss-7-085Fig11"/>
+    </fig>
+    <table-wrap id="t1-nss-7-085" position="float">
+      <label>Table 1</label>
+      <caption>
+        <p><citation_analysis attribute="neither">Confusion matrix, human versus machine scoring; percentage of correct classifications</citation_analysis></p>
+      </caption>
+      <table frame="hsides" rules="groups">
+        <thead>
+          <tr>
+            <th valign="top" align="left" rowspan="1" colspan="1"/>
+            <th valign="top" align="left" rowspan="1" colspan="1">Wake<break/>(machine)</th>
+            <th valign="top" align="left" rowspan="1" colspan="1">SWS<break/>(machine)</th>
+            <th valign="top" align="left" rowspan="1" colspan="1">REMS<break/>(machine)</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td colspan="4" valign="top" align="left" rowspan="1">Ten-second epochs</td>
+          </tr>
+          <tr>
+            <td valign="top" align="left" rowspan="1" colspan="1"> Wake (human)</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">89.54</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">9.71</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">0.75</td>
+          </tr>
+          <tr>
+            <td valign="top" align="left" rowspan="1" colspan="1"> SWS (human)</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">3.31</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">95.58</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">1.11</td>
+          </tr>
+          <tr>
+            <td valign="top" align="left" rowspan="1" colspan="1"> REMS (human)</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">18.66</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">10.89</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">70.45</td>
+          </tr>
+          <tr>
+            <td colspan="4" valign="top" align="left" rowspan="1">Two-second epochs</td>
+          </tr>
+          <tr>
+            <td valign="top" align="left" rowspan="1" colspan="1"> Wake (human)</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">92.03</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">7.29</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">0.68</td>
+          </tr>
+          <tr>
+            <td valign="top" align="left" rowspan="1" colspan="1"> SWS (human)</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">6.98</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">91.48</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">1.54</td>
+          </tr>
+          <tr>
+            <td valign="top" align="left" rowspan="1" colspan="1"> REMS (human)</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">28.12</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">14.95</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">56.93</td>
+          </tr>
+        </tbody>
+      </table>
+      <table-wrap-foot>
+        <fn id="tfn1-nss-7-085">
+          <p><citation_analysis attribute="positive"><bold>Abbreviations:</bold></citation_analysis><citation_analysis attribute="neither"> REMS, rapid-eye-movement sleep; SWS, slow-wave sleep.</citation_analysis></p>
+        </fn>
+      </table-wrap-foot>
+    </table-wrap>
+    <table-wrap id="t2-nss-7-085" position="float">
+      <label>Table 2</label>
+      <caption>
+        <p><citation_analysis attribute="neither">Sleep states in 10-second epochs, human versus machine scoring (minutes/24 hours)</citation_analysis></p>
+      </caption>
+      <table frame="hsides" rules="groups">
+        <thead>
+          <tr>
+            <th valign="top" align="left" rowspan="1" colspan="1">State</th>
+            <th valign="top" align="left" rowspan="1" colspan="1">Strain</th>
+            <th valign="top" align="left" rowspan="1" colspan="1">Human</th>
+            <th valign="top" align="left" rowspan="1" colspan="1">Machine</th>
+            <th valign="top" align="left" rowspan="1" colspan="1">ANOVA (scoring method)</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td rowspan="2" valign="top" align="left" colspan="1">Wake</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">BA</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">857±23</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">800±20</td>
+            <td valign="top" align="left" rowspan="1" colspan="1"><italic>F</italic><sub>1,20</sub>=40.0; <italic>P</italic>&lt;0.001</td>
+          </tr>
+          <tr>
+            <td valign="top" align="left" rowspan="1" colspan="1">B6</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">819±15</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">780±18</td>
+            <td valign="top" align="left" rowspan="1" colspan="1"/>
+          </tr>
+          <tr>
+            <td rowspan="2" valign="top" align="left" colspan="1">SWS</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">BA</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">515±21</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">582±20</td>
+            <td valign="top" align="left" rowspan="1" colspan="1"><italic>F</italic><sub>1,20</sub>=37.6; <italic>P</italic>&lt;0.001</td>
+          </tr>
+          <tr>
+            <td valign="top" align="left" rowspan="1" colspan="1">B6</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">529±14</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">583±16</td>
+            <td valign="top" align="left" rowspan="1" colspan="1"/>
+          </tr>
+          <tr>
+            <td rowspan="2" valign="top" align="left" colspan="1">REMS</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">BA</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">67±3</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">58±4</td>
+            <td valign="top" align="left" rowspan="1" colspan="1"><italic>F</italic><sub>1,20</sub>=54.0; <italic>P</italic>&lt;0.001</td>
+          </tr>
+          <tr>
+            <td valign="top" align="left" rowspan="1" colspan="1">B6</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">91±3</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">78±4</td>
+            <td valign="top" align="left" rowspan="1" colspan="1"/>
+          </tr>
+        </tbody>
+      </table>
+      <table-wrap-foot>
+        <fn id="tfn2-nss-7-085">
+          <p><citation_analysis attribute="positive"><bold>Abbreviations:</bold></citation_analysis><citation_analysis attribute="neither"> ANOVA, analysis of variance; BA, BALB/CJ mice; B6, C57BL/6J mice; REMS, rapid-eye-movement sleep; SWS, slow-wave sleep.</citation_analysis></p>
+        </fn>
+      </table-wrap-foot>
+    </table-wrap>
+    <table-wrap id="t3-nss-7-085" position="float">
+      <label>Table 3</label>
+      <caption>
+        <p><citation_analysis attribute="neither">Strain difference in sleep timing: human versus machine scoring</citation_analysis></p>
+      </caption>
+      <table frame="hsides" rules="groups">
+        <thead>
+          <tr>
+            <th valign="top" align="left" rowspan="1" colspan="1">State</th>
+            <th valign="top" align="left" rowspan="1" colspan="1">Method</th>
+            <th valign="top" align="left" rowspan="1" colspan="1">BA versus B6, minutes/24 hours</th>
+            <th valign="top" align="left" rowspan="1" colspan="1">ANOVA (strain)</th>
+            <th valign="top" align="left" rowspan="1" colspan="1">ANOVA (strain × time)</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td rowspan="2" valign="top" align="left" colspan="1">Wake</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">Human</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">+38</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">NS</td>
+            <td valign="top" align="left" rowspan="1" colspan="1"><italic>F</italic><sub>1,20</sub> =2.5; <italic>P</italic>&lt;0.001</td>
+          </tr>
+          <tr>
+            <td valign="top" align="left" rowspan="1" colspan="1">Machine</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">+20</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">NS</td>
+            <td valign="top" align="left" rowspan="1" colspan="1"><italic>F</italic><sub>1,20</sub> =2.5; <italic>P</italic>&lt;0.001</td>
+          </tr>
+          <tr>
+            <td rowspan="2" valign="top" align="left" colspan="1">SWS</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">Human</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">−14</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">NS</td>
+            <td valign="top" align="left" rowspan="1" colspan="1"><italic>F</italic><sub>1,20</sub> =2.6; <italic>P</italic>&lt;0.001</td>
+          </tr>
+          <tr>
+            <td valign="top" align="left" rowspan="1" colspan="1">Machine</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">−1</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">NS</td>
+            <td valign="top" align="left" rowspan="1" colspan="1"><italic>F</italic><sub>1,20</sub> =2.6; <italic>P</italic>&lt;0.001</td>
+          </tr>
+          <tr>
+            <td rowspan="2" valign="top" align="left" colspan="1">REMS</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">Human</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">−24</td>
+            <td valign="top" align="left" rowspan="1" colspan="1"><italic>F</italic><sub>1,20</sub> =27.0; <italic>P</italic>&lt;0.001</td>
+            <td valign="top" align="left" rowspan="1" colspan="1"><italic>F</italic><sub>1,20</sub> =2.5; <italic>P</italic>&lt;0.001</td>
+          </tr>
+          <tr>
+            <td valign="top" align="left" rowspan="1" colspan="1">Machine</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">−20</td>
+            <td valign="top" align="left" rowspan="1" colspan="1"><italic>F</italic><sub>1,20</sub> =12.0; <italic>P</italic>&lt;0.002</td>
+            <td valign="top" align="left" rowspan="1" colspan="1"><italic>F</italic><sub>1,20</sub> =2.5; <italic>P</italic>&lt;0.001</td>
+          </tr>
+        </tbody>
+      </table>
+      <table-wrap-foot>
+        <fn id="tfn3-nss-7-085">
+          <p><citation_analysis attribute="positive"><bold>Abbreviations:</bold></citation_analysis><citation_analysis attribute="neither"> ANOVA, analysis of variance; B6, C57BL/6J mice; BA, BALB/CJ mice; NS, not significant; REMS, rapid-eye-movement sleep; SWS, slow-wave sleep.</citation_analysis></p>
+        </fn>
+      </table-wrap-foot>
+    </table-wrap>
+    <table-wrap id="t4-nss-7-085" position="float">
+      <label>Table 4</label>
+      <caption>
+        <p><citation_analysis attribute="neither">Strain difference in 10-second EEG spectral profiles: human versus machine</citation_analysis></p>
+      </caption>
+      <table frame="hsides" rules="groups">
+        <thead>
+          <tr>
+            <th valign="top" align="left" rowspan="1" colspan="1">State</th>
+            <th valign="top" align="left" rowspan="1" colspan="1">Method</th>
+            <th valign="top" align="left" rowspan="1" colspan="1">ANOVA<break/>(strain)</th>
+            <th valign="top" align="left" rowspan="1" colspan="1">ANOVA<break/>(strain × frequency)</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td rowspan="2" valign="top" align="left" colspan="1">Wake</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">Human</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">NS</td>
+            <td valign="top" align="left" rowspan="1" colspan="1"><italic>F</italic><sub>19,380</sub>=4.3; <italic>P</italic>=0.001</td>
+          </tr>
+          <tr>
+            <td valign="top" align="left" rowspan="1" colspan="1">Machine</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">NS</td>
+            <td valign="top" align="left" rowspan="1" colspan="1"><italic>F</italic><sub>19,380</sub>=4.5; <italic>P</italic>=0.001</td>
+          </tr>
+          <tr>
+            <td rowspan="2" valign="top" align="left" colspan="1">SWS</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">Human</td>
+            <td valign="top" align="left" rowspan="1" colspan="1"><italic>F</italic><sub>1,20</sub>=9.0; <italic>P</italic>=0.007</td>
+            <td valign="top" align="left" rowspan="1" colspan="1"><italic>F</italic><sub>19,380</sub>=7.9; <italic>P</italic>=0.001</td>
+          </tr>
+          <tr>
+            <td valign="top" align="left" rowspan="1" colspan="1">Machine</td>
+            <td valign="top" align="left" rowspan="1" colspan="1"><italic>F</italic><sub>1,20</sub>=9.0; <italic>P</italic>=0.007</td>
+            <td valign="top" align="left" rowspan="1" colspan="1"><italic>F</italic><sub>19,380</sub>=7.8; <italic>P</italic>=0.001</td>
+          </tr>
+          <tr>
+            <td rowspan="2" valign="top" align="left" colspan="1">REMS</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">Human</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">NS</td>
+            <td valign="top" align="left" rowspan="1" colspan="1"><italic>F</italic><sub>19,380</sub>=12.8; <italic>P</italic>=0.001</td>
+          </tr>
+          <tr>
+            <td valign="top" align="left" rowspan="1" colspan="1">Machine</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">NS</td>
+            <td valign="top" align="left" rowspan="1" colspan="1"><italic>F</italic><sub>19,380</sub>=12.8; <italic>P</italic>=0.001</td>
+          </tr>
+        </tbody>
+      </table>
+      <table-wrap-foot>
+        <fn id="tfn4-nss-7-085">
+          <p><citation_analysis attribute="positive"><bold>Abbreviations:</bold></citation_analysis><citation_analysis attribute="neither"> ANOVA, analysis of variance; NS, not significant; REMS, rapid-eye-movement sleep; SWS, slow-wave sleep.</citation_analysis></p>
+        </fn>
+      </table-wrap-foot>
+    </table-wrap>
+    <table-wrap id="t5-nss-7-085" position="float">
+      <label>Table 5</label>
+      <caption>
+        <p><citation_analysis attribute="neither">Strain difference in homeostatic dynamics: human versus machine</citation_analysis></p>
+      </caption>
+      <table frame="hsides" rules="groups">
+        <thead>
+          <tr>
+            <th valign="top" align="left" rowspan="1" colspan="1">Variable</th>
+            <th valign="top" align="left" rowspan="1" colspan="1">Method</th>
+            <th valign="top" align="left" rowspan="1" colspan="1"><italic>τ<sub>i</sub></italic> BA versus B6</th>
+            <th valign="top" align="left" rowspan="1" colspan="1"><italic>τ<sub>d</sub></italic> BA versus B6</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td colspan="4" valign="top" align="left" rowspan="1">Ten-second</td>
+          </tr>
+          <tr>
+            <td valign="top" align="left" rowspan="1" colspan="1">SWA</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">Human</td>
+            <td valign="top" align="left" rowspan="1" colspan="1"><italic>τ</italic><sub>20</sub>=3.7; <italic>P</italic>=0.001</td>
+            <td valign="top" align="left" rowspan="1" colspan="1"><italic>τ</italic><sub>20</sub>=3.3; <italic>P</italic>=0.003</td>
+          </tr>
+          <tr>
+            <td valign="top" align="left" rowspan="1" colspan="1"/>
+            <td valign="top" align="left" rowspan="1" colspan="1">Machine</td>
+            <td valign="top" align="left" rowspan="1" colspan="1"><italic>τ</italic><sub>20</sub>=3.7; <italic>P</italic>=0.001</td>
+            <td valign="top" align="left" rowspan="1" colspan="1"><italic>τ</italic><sub>20</sub>=3.8; <italic>P</italic>=0.001</td>
+          </tr>
+          <tr>
+            <td valign="top" align="left" rowspan="1" colspan="1">Lactate</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">Human</td>
+            <td valign="top" align="left" rowspan="1" colspan="1"><italic>τ</italic><sub>20</sub>=−3.1; <italic>P</italic>=0.005</td>
+            <td valign="top" align="left" rowspan="1" colspan="1"><italic>τ</italic><sub>20</sub>=−3.1; <italic>P</italic>=0.005</td>
+          </tr>
+          <tr>
+            <td valign="top" align="left" rowspan="1" colspan="1"/>
+            <td valign="top" align="left" rowspan="1" colspan="1">Machine</td>
+            <td valign="top" align="left" rowspan="1" colspan="1"><italic>τ</italic><sub>20</sub>=−2.2; <italic>P</italic>=0.042</td>
+            <td valign="top" align="left" rowspan="1" colspan="1"><italic>τ</italic><sub>20</sub>=−3.0; <italic>P</italic>=0.006</td>
+          </tr>
+          <tr>
+            <td colspan="4" valign="top" align="left" rowspan="1">Two-second</td>
+          </tr>
+          <tr>
+            <td valign="top" align="left" rowspan="1" colspan="1">SWA</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">Human</td>
+            <td valign="top" align="left" rowspan="1" colspan="1"><italic>τ</italic><sub>20</sub>=1.2; NS</td>
+            <td valign="top" align="left" rowspan="1" colspan="1"><italic>τ</italic><sub>20</sub>=1.3; NS</td>
+          </tr>
+          <tr>
+            <td valign="top" align="left" rowspan="1" colspan="1"/>
+            <td valign="top" align="left" rowspan="1" colspan="1">Machine</td>
+            <td valign="top" align="left" rowspan="1" colspan="1"><italic>τ</italic><sub>20</sub>=2.5; <italic>P</italic>=0.020</td>
+            <td valign="top" align="left" rowspan="1" colspan="1"><italic>τ</italic><sub>20</sub>=3.0; <italic>P</italic>=0.008</td>
+          </tr>
+          <tr>
+            <td valign="top" align="left" rowspan="1" colspan="1">Lactate</td>
+            <td valign="top" align="left" rowspan="1" colspan="1">Human</td>
+            <td valign="top" align="left" rowspan="1" colspan="1"><italic>τ</italic><sub>20</sub>=−2.5; <italic>P</italic>=0.019</td>
+            <td valign="top" align="left" rowspan="1" colspan="1"><italic>τ</italic><sub>20</sub>=−3.0; <italic>P</italic>=0.007</td>
+          </tr>
+          <tr>
+            <td valign="top" align="left" rowspan="1" colspan="1"/>
+            <td valign="top" align="left" rowspan="1" colspan="1">Machine</td>
+            <td valign="top" align="left" rowspan="1" colspan="1"><italic>τ</italic><sub>20</sub>=−1.8; NS</td>
+            <td valign="top" align="left" rowspan="1" colspan="1"><italic>τ</italic><sub>20</sub>=−2.5; <italic>P</italic>=0.020</td>
+          </tr>
+        </tbody>
+      </table>
+      <table-wrap-foot>
+        <fn id="tfn5-nss-7-085">
+          <p><citation_analysis attribute="positive"><bold>Abbreviations:</bold></citation_analysis><citation_analysis attribute="neither"> B6, C57BL/6J mice; BA, BALB/CJ mice; NS, not significant; SWA, slow-wave activity.</citation_analysis></p>
+        </fn>
+      </table-wrap-foot>
+    </table-wrap>
+  </floats-group>
+</article>
+</pmc-articleset>

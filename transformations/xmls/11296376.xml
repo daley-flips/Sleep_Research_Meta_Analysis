@@ -1,0 +1,831 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<pmc-articleset><article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" dtd-version="1.3" xml:lang="en" article-type="research-article">
+  <?properties open_access?>
+  <processing-meta base-tagset="archiving" mathml-version="3.0" table-model="xhtml" tagset-family="jats">
+    <restricted-by>pmc</restricted-by>
+  </processing-meta>
+  <front><journal-meta><journal-id journal-id-type="nlm-ta">Nat Sci Sleep</journal-id><journal-id journal-id-type="iso-abbrev">Nat Sci Sleep</journal-id><journal-id journal-id-type="publisher-id">nss</journal-id><journal-title-group><journal-title>Nature and Science of Sleep</journal-title></journal-title-group><issn pub-type="epub">1179-1608</issn><publisher><publisher-name>Dove</publisher-name></publisher></journal-meta>
+<article-meta><article-id pub-id-type="pmid">39100910</article-id><article-id pub-id-type="pmc">11296376</article-id><article-id pub-id-type="publisher-id">474052</article-id><article-id pub-id-type="doi">10.2147/NSS.S474052</article-id><article-categories><subj-group subj-group-type="heading"><subject>Original Research</subject></subj-group></article-categories><title-group><article-title>Whole-Genome Metagenomic Analysis of the Oral Microbiota in Patients with Obstructive Sleep Apnea Comorbid with Major Depressive Disorder</article-title><alt-title alt-title-type="running-authors">Ye et al</alt-title><alt-title alt-title-type="running-title">Ye et al</alt-title></title-group><contrib-group><contrib contrib-type="author"><name><surname>Ye</surname><given-names>Jing</given-names></name><xref rid="aff0001" ref-type="aff">
+<sup>1</sup>
+</xref><xref rid="aff0002" ref-type="aff">
+<sup>2</sup>
+</xref></contrib><contrib contrib-type="author"><contrib-id contrib-id-type="orcid">http://orcid.org/0000-0001-7243-739X</contrib-id><name><surname>Lv</surname><given-names>Yunhui</given-names></name><xref rid="aff0002" ref-type="aff">
+<sup>2</sup>
+</xref></contrib><contrib contrib-type="author"><name><surname>Xie</surname><given-names>Hui</given-names></name><xref rid="aff0003" ref-type="aff">
+<sup>3</sup>
+</xref></contrib><contrib contrib-type="author"><name><surname>Lian</surname><given-names>Kun</given-names></name><xref rid="aff0004" ref-type="aff">
+<sup>4</sup>
+</xref></contrib><contrib contrib-type="author"><name><surname>Xu</surname><given-names>Xiufeng</given-names></name><xref rid="aff0001" ref-type="aff">
+<sup>1</sup>
+</xref><xref rid="an0001" ref-type="corresp"/></contrib><aff id="aff0001"><label>1</label><institution>Department of Psychiatry, The First Affiliated Hospital of Kunming Medical University</institution>, <addr-line>Kunming</addr-line>, <addr-line>Yunnan</addr-line>, <country>People’s Republic of China</country></aff><aff id="aff0002"><label>2</label><institution>Sleep Medicine Center, The First People’s Hospital of Yunnan</institution>, <addr-line>Kunming</addr-line>, <addr-line>Yunnan</addr-line>, <country>People’s Republic of China</country></aff><aff id="aff0003"><label>3</label><institution>Department of Traumatology, The First People’s Hospital of Yunnan</institution>, <addr-line>Kunming</addr-line>, <addr-line>Yunnan</addr-line>, <country>People’s Republic of China</country></aff><aff id="aff0004"><label>4</label><institution>Department of Neurosurgery, The Second Affiliated Hospital of Kunming Medical University</institution>, <addr-line>Kunming</addr-line>, <addr-line>Yunnan</addr-line>, <country>People’s Republic of China</country></aff></contrib-group><author-notes><corresp id="an0001">Correspondence: Xiufeng Xu, <institution>Department of Psychiatry, The First Affiliated Hospital of Kunming Medical University</institution>, <addr-line>No. 295 of Xichang Road</addr-line>, <addr-line>Kunming City</addr-line>, <addr-line>Yunnan Province</addr-line>, <country>People’s Republic of China</country>, Email xfxu2004@sina.com</corresp></author-notes><pub-date pub-type="epub"><day>29</day><month>7</month><year>2024</year></pub-date><pub-date pub-type="collection"><year>2024</year></pub-date><volume>16</volume><fpage>1091</fpage><lpage>1108</lpage><history><date date-type="received"><day>16</day><month>4</month><year>2024</year></date><date date-type="accepted"><day>23</day><month>7</month><year>2024</year></date></history><permissions><copyright-statement>© 2024 Ye et al.</copyright-statement><copyright-year>2024</copyright-year><copyright-holder>Ye et al.</copyright-holder><license><ali:license_ref xmlns:ali="http://www.niso.org/schemas/ali/1.0/" specific-use="textmining" content-type="ccbynclicense">https://creativecommons.org/licenses/by-nc/3.0/</ali:license_ref><license-p>This work is published and licensed by Dove Medical Press Limited. The full terms of this license are available at <ext-link ext-link-type="uri" xlink:href="https://www.dovepress.com/terms.php">https://www.dovepress.com/terms.php</ext-link> and incorporate the Creative Commons Attribution – Non Commercial (unported, v3.0) License (<ext-link ext-link-type="uri" xlink:href="https://creativecommons.org/licenses/by-nc/3.0/">http://creativecommons.org/licenses/by-nc/3.0/</ext-link>). By accessing the work you hereby accept the Terms. Non-commercial uses of the work are permitted without any further permission from Dove Medical Press Limited, provided the work is properly attributed. For permission for commercial use of this work, please see paragraphs 4.2 and 5 of our Terms (<ext-link ext-link-type="uri" xlink:href="https://www.dovepress.com/terms.php">https://www.dovepress.com/terms.php</ext-link>).</license-p></license></permissions><abstract><sec><title>Background</title><p><citation_analysis attribute="neither">Obstructive sleep apnea (OSA) patients commonly experience high rates of depression. This study aims to examine the oral microbiota characteristics of OSA and those with comorbid major depressive disorder (OSA+MDD) patients.</citation_analysis></p></sec><sec><title>Methods</title><p><citation_analysis attribute="neither">Participants were enrolled from Aug 2022 to Apr 2023. Polysomnography, psychiatrist interviews, and scales were used to diagnose OSA and MDD. Oral samples were collected from participants by rubbing swabs on buccal mucosa, palate, and gums. Oral microbiota was analyzed via whole-genome metagenomics and bioinformatic analysis followed sequencing. Venous blood was drawn to detect plasma inflammatory factor levels.</citation_analysis></p></sec><sec><title>Results</title><p><citation_analysis attribute="neither">The study enrolled 33 OSA patients, 28 OSA+MDD patients, and 28 healthy controls. Significant differences were found in 8 phyla, 229 genera, and 700 species of oral microbiota among the three groups. Prevotellaceae abundance in the OSA and OSA+MDD groups was significantly lower than that in healthy controls. Linear discriminant analysis effect size (LEfSe) analysis showed that Streptococcaceae and Actinobacteria were the characteristic oral microbiota of the OSA and OSA+MDD groups, respectively. KEGG analysis indicates 30 pathways were changed in the OSA and OSA+MDD groups compared with healthy controls, and 23 pathways were changed in the OSA group compared with the OSA+MDD group. Levels of IL-6 in the OSA+MDD group were significantly higher than in the healthy group, correlating positively with the abundance of Schaalia, Campylobacter, Fusobacterium, Alloprevotella, and Candidatus Nanosynbacter in the oral, as well as with Hamilton Anxiety Rating Scale and Hamilton Depression Rating Scale scores.</citation_analysis></p></sec><sec><title>Conclusion</title><p><citation_analysis attribute="neither">Significant differences in oral microbiota populations and gene function were observed among the three groups. OSA patients were characterized by a decreased abundance of Prevotellaceae and an increased abundance of Streptococcaceae. OSA+MDD patients had an increased abundance of Actinobacteria. IL-6 might regulate the relationship between depression and the oral microbiota in OSA+MDD patients.</citation_analysis></p></sec></abstract><kwd-group kwd-group-type="author"><title>Keywords</title><kwd>obstructive sleep apnea</kwd><kwd>major depressive disorder</kwd><kwd>oral microbiota</kwd><kwd>whole-genome metagenomic analysis</kwd><kwd>inflammatory factors</kwd></kwd-group><funding-group><award-group><funding-source>
+<institution-wrap><institution>Yunnan Clinical Research Center for Mental Disorders</institution></institution-wrap>
+</funding-source></award-group><award-group><funding-source>
+<institution-wrap><institution>Hanfang Workstation of Yunnan Province, China</institution></institution-wrap>
+</funding-source></award-group><funding-statement>This study was supported by Yunnan Clinical Research Center for Mental Disorders (202102AA100058) and Hanfang Workstation of Yunnan Province, China (202105AF150022).</funding-statement></funding-group><counts><fig-count count="7"/><table-count count="1"/><ref-count count="85"/><page-count count="18"/></counts></article-meta></front>
+  <body>
+    <sec sec-type="intro" id="s0001">
+      <title>Introduction</title>
+      <p><citation_analysis attribute="neither">Obstructive sleep apnea (OSA) is caused by recurrent partial or complete collapse of the upper airway during sleep, resulting in airflow obstruction, repeated hypoxia, sleep fragmentation, and snoring. Long-term untreated OSA is associated with many chronic diseases.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0001" ref-type="bibr">1–3</xref></citation_analysis><citation_analysis attribute="neither"> The prevalence of OSA is high; studies have found that 9–38% of adults have OSA, and the prevalence rate for men is 14%, compared with 5% for women.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0004" ref-type="bibr">4</xref></citation_analysis></p>
+      <p><citation_analysis attribute="neither">For OSA patients, air flow in the airway is significantly reduced due to changes in airway pressure, which change the moisture and oxygen content of the upper airway.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0005" ref-type="bibr">5</xref></citation_analysis><citation_analysis attribute="neither"> In addition, OSA patients often breathe with their mouths open during sleep, leading to oral dryness, which weakens the self-cleaning ability of the oral mucosa and leads to an increase in bacterial colonization.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0006" ref-type="bibr">6</xref></citation_analysis><citation_analysis attribute="neither"> These factors may lead to changes in the oral environments of OSA patients, resulting in changes in the oral microbiota. Previous studies have found that the oral microbiota of OSA patients is different from that of patients without OSA.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0005" ref-type="bibr">5</xref></citation_analysis><citation_analysis attribute="neither">,</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0007" ref-type="bibr">7–9</xref></citation_analysis><citation_analysis attribute="neither"> W Yang et al found that middle-aged men with OSA showed less oropharyngeal species diversity and altered abundance.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0005" ref-type="bibr">5</xref></citation_analysis><citation_analysis attribute="neither"> The OSA patients have higher relative abundances of </citation_analysis><citation_analysis attribute="positive"><italic toggle="yes">Porphyromonas</italic></citation_analysis><citation_analysis attribute="neither"> and </citation_analysis><citation_analysis attribute="positive"><italic toggle="yes">Aggregatibacter</italic></citation_analysis><citation_analysis attribute="positive"> in oral compared with individuals without OSA reported by Chih-Yuan Ko et al.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0007" ref-type="bibr">7</xref></citation_analysis><citation_analysis attribute="neither"> In another study analyzed of oral microbiota in OSA patients with whole-genome metagenomic, the results showed that at the species level, the relative abundances of </citation_analysis><citation_analysis attribute="positive"><italic toggle="yes">Prevotella, Alloprevotella, Bacteroides, Veillonella_tobetsuensis, Candidatus saccharimonas</italic></citation_analysis><citation_analysis attribute="neither">, and </citation_analysis><citation_analysis attribute="positive"><italic toggle="yes">Leptotrichia</italic></citation_analysis><citation_analysis attribute="neither"> in the groups with severe OSA were significantly lower than those in the healthy controls.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0009" ref-type="bibr">9</xref></citation_analysis></p>
+      <p><citation_analysis attribute="neither">In addition to oral diseases, the oral microbiota is also associated with neurological diseases, such as Alzheimer’s disease (AD),</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0010" ref-type="bibr">10</xref></citation_analysis><citation_analysis attribute="neither"> multiple sclerosis (MD),</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0011" ref-type="bibr">11</xref></citation_analysis><citation_analysis attribute="neither"> and Parkinson’s disease (PD).</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0012" ref-type="bibr">12</xref></citation_analysis><citation_analysis attribute="positive"> Previous studies have suggested that oral microbiota may affect central nervous system function in the following ways: a) bacterial translocation; b) damage to the blood vessels in the brain by promoting platelet aggregation; c) promotion of inflammation and immune responses; d) affecting the function of the neuroendocrine system; and 5) affecting the gut microbiota system.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0013" ref-type="bibr">13</xref></citation_analysis><citation_analysis attribute="neither"> The prevalence of depression is significantly higher in OSA patients than in the general population, with a meta-analysis showing that the prevalence of OSA with depression is 35%.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0014" ref-type="bibr">14</xref></citation_analysis><citation_analysis attribute="positive"> Hence, it is postulated that there exists a potential association between alterations in the oral microbiota and the manifestation of depressive symptoms in individuals with OSA. This study aimed to examine the oral microbiome of people who have OSA and OSA comorbid with major depressive disorder (MDD) compared to healthy controls using whole-genome metagenomics and observed the oral microbiome characteristics of those patients and explore the possible mechanism of comorbid depression in OSA.</citation_analysis></p>
+    </sec>
+    <sec id="s0002">
+      <title>Materials and Methods</title>
+      <sec id="s0002-s2001">
+        <title>Study Design and Participants</title>
+        <p><citation_analysis attribute="neither">OSA and OSA comorbid with MDD patients were recruited among the patients hospitalized in the Sleep Medicine Center of Yunnan First People’s Hospital between August 2022 and April 2023. Researcher Jing Ye, a psychiatrist, was in charge of diagnosing and assessing MDD of the participants. </citation_analysis><citation_analysis attribute="positive"><xref rid="f0001" ref-type="fig">Figure 1</xref></citation_analysis><citation_analysis attribute="neither"> schematically illustrates the grouping of subjects and the experimental process. The inclusion criteria of the OSA group were as follows: a) 18–60 years old, volunteered to participate in this study; b) conformed to the diagnosis of OSA in International Classification of Sleep Disorders–Third Edition (ICSD-3), and had not received treatment previously (including PAP, snore guard, surgical treatment, etc).; c) did not conform to the diagnosis of MDD and other psychiatric disorders in the Diagnostic and Statistical Manual of Mental Disorders–Fifth Edition (DSM-V). The inclusion criteria of the OSA comorbid with MDD patients (OSA+MDD group) were as follows: a) 18–60 years old, volunteered to participate in this study; b) met the diagnosis of OSA in ICSD-3, and had not received treatment previously (including PAP, snore guard, surgical treatment, etc).; c) met the diagnosis for MDD in DSM-V and a total Hamilton Depression Rating Scale (HAMD) score greater than 17 but did not meet the diagnostic criteria of other psychiatric disorders; and d) did not receive systematic antidepressant therapy. The inclusion criteria of the health group were as follows: a)18–60 years old, volunteered to participate in this study; b)did not meet the diagnosis of OSA or other sleep-related respiratory disorders in ICSD-3; c)did not conform to the diagnosis of MDD and other psychiatric disorders in the DSM-V. Exclusion criteria of this study were: a) age &lt; 18 or &gt; 60 years old; b) pregnancy; c) serious physical diseases, including inflammatory diseases and autoimmune diseases; d) oral disease (ie, periodontal disease, stomatitis, etc)., craniofacial dysplasia; e) use of probiotics, antibiotics, or nonsteroidal anti-inflammatory drugs in the past month. This study was approved by the Medical Ethics Committee of the First People’s Hospital of Yunnan Province (KHLL2022-KY040).
+</citation_analysis><citation_analysis attribute="positive"><fig position="float" id="f0001" fig-type="figure"><label>Figure 1</label><caption><p><citation_analysis attribute="neither">Procedure flowchart. The inclusion criteria of the OSA group were as follows: a) 18–60 years old, volunteered to participate in this study; b) conformed to the diagnosis of OSA in International Classification of Sleep Disorders–Third Edition (ICSD-3), and had not received treatment previously (including PAP, snore guard, surgical treatment, etc.); c) did not conform to the diagnosis of MDD and other psychiatric disorders in the Diagnostic and Statistical Manual of Mental Disorders–Fifth Edition (DSM-V). The inclusion criteria of the OSA comorbid with MDD patients (OSA+MDD group) were as follows: a) 18–60 years old, volunteered to participate in this study; b) met the diagnosis of OSA in ICSD-3, and had not received treatment previously (including PAP, snore guard, surgical treatment, etc.); c) met the diagnosis for MDD in DSM-V and a total Hamilton Depression Rating Scale (HAMD) score greater than 17 but did not meet the diagnostic criteria of other psychiatric disorders; and d) did not receive systematic antidepressant therapy. The inclusion criteria of the health group were as follows: 18–60 years old, volunteered to participate in this study; did not meet the diagnosis of OSA or other sleep-related respiratory disorders in ICSD-3; did not conform to the diagnosis of MDD and other psychiatric disorders in the DSM-V. Exclusion criteria of this study were: a) age &lt; 18 or &gt; 60 years old; b) pregnancy; c) serious physical diseases, including inflammatory diseases and autoimmune diseases; d) oral disease (ie, periodontal disease, stomatitis, etc.), craniofacial dysplasia; e) use of probiotics, antibiotics, or nonsteroidal anti-inflammatory drugs in the past month.</citation_analysis></p></caption><graphic xlink:href="NSS-16-1091-g0001" content-type="print-only" position="float"/></fig></citation_analysis></p>
+      </sec>
+      <sec id="s0002-s2002">
+        <title>Diagnosis of OSA</title>
+        <p><citation_analysis attribute="positive">Polysomnography (PSG), type 2 unattended sleep monitoring (Mukie Polysomnography PSM-A, Hangzhou Neurotrace Sci-Tech Co., Ltd, China), was used to demonstrate subjects’ sleep characteristics and collect data from participants on electroencephalography (EEG), electrooculography (EOG), electrocardiography (ECG), nasal-oral airflow, chest and abdominal wall movements, oxygen saturation, and body position from 22:00 to 7:00 the following day. Patients in the OSA and OSA+MDD groups slept in the ward, and those in the health group slept at home after wearing the machine. PSG records were manually analyzed by sleep technicians, according to the American Academy of Sleep Medicine criteria. Apnea was defined as a sustained cessation of airflow lasting more than 10s, while hypopnea was defined as a 30% or greater drop in inflow lasting 10s or more, accompanied by ≥ 3% oxygen desaturation. The subjects were diagnosed by a professional sleep medicine physician according to the diagnostic criteria of adult OSA in the ICSD-3.</citation_analysis></p>
+      </sec>
+      <sec id="s0002-s2003">
+        <title>Diagnosis of MDD</title>
+        <p><citation_analysis attribute="neither">The diagnosis of MDD was based on the DSM-V. The diagnosis and scale assessment (HAMA, HAMD and Epworth) were performed by a psychiatrist.</citation_analysis></p>
+      </sec>
+      <sec id="s0002-s2004">
+        <title>Biospecimen Collection</title>
+        <p><citation_analysis attribute="positive">All samples were collected within 1h of waking up on the morning after the sleep monitoring. Participants were asked to refrain from eating for 8h and used approximately 50mL of water to gargle. Five sterile swabs were used to brush the patient’s buccal mucosa, palate, and gums, and each swab was rotated clockwise 5 times applying constant pressure at each location for sample collection. After sampling, the swab head was placed in a sterile tube and stored in a −80°C refrigerator. Three milliliters of venous blood was collected using an EDTA tube. The tube was gently reversed to ensure that the anticoagulant was fully mixed and centrifuged immediately (3000rpm for 10min). The plasma was retained and divided into labeled EP tubes and then stored in a −80°C refrigerator.</citation_analysis></p>
+      </sec>
+      <sec id="s0002-s2005">
+        <title>Whole-Genome Metagenomic Analysis</title>
+        <sec id="s0002-s2005-s3001">
+          <title>DNA Extraction and DNA Library Construction</title>
+          <p><citation_analysis attribute="neither">The oral samples of subjects were commissioned for metagenomic sequencing by the Beijing Genomics Institute. The DNA of oral samples was extracted by buffer bead-binding solution, protease K, and RNase. DNA quality check (concentration, integrity, purity) met: DNA concentration≥12.5µg/µL, electrophoretic gel pattern main peak&gt;20kb, and no protein, RNA, or ion salt polluted samples were used for subsequent metagenomic library construction. The DNA was broken with an ultrasonic crusher (Covaris, Woburn, MA, USA), and DNA fragments of 200–400bp were enriched. After terminal repair, base A was added to the 3’ end of the cDNA, and the connector was added. The samples were amplified by PCR, and the amplified products were purified by magnetic beads. The purified PCR products were denatured, and the single-strand DNA was cyclized. After digesting uncyclized single-stranded DNA, the resulting single-stranded DNA ring product was the final DNA library.</citation_analysis></p>
+        </sec>
+        <sec id="s0002-s2005-s3002">
+          <title>Metagenomic Sequencing</title>
+          <p><citation_analysis attribute="neither">Metagenomic sequencing (PE150, DNBSEQ T7) was performed after inspection to ascertain the quality of the library. SOAPnuke</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0015" ref-type="bibr">15</xref></citation_analysis><citation_analysis attribute="neither"> (V.1.5.0; Parameter:-l20-q0.5-n 0.001-d-Q2-50-adaMis 0.3) was used to filter the original data obtained by sequencing for quality control, and Bowtie2</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0016" ref-type="bibr">16</xref></citation_analysis><citation_analysis attribute="neither"> (V.2.2.5) software was used to filter the sequences that may have come from the host to obtain high-quality clean data for subsequent bioinformatics analysis. The clean data ratio ranged from 78.87 to 97.81, and the data volume ranged from 9.62G to 10.08G. The contents of Q20, Q30, and GC were 96.72–98.70%, 90.58–96.93% and 40.55–44.59%, respectively.</citation_analysis></p>
+        </sec>
+        <sec id="s0002-s2005-s3003">
+          <title>Bioinformatics Analysis</title>
+          <p><citation_analysis attribute="positive">The resulting quality-filtered reads were assembled de novo using Megahit</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0017" ref-type="bibr">17</xref></citation_analysis><citation_analysis attribute="neither"> (V.1.2.9; parameter: k-min=93, k-max=133) to generate the metagenome for each sample and remove assembly sequences less than 200bp. The analysis showed that the N50 statistical distribution of contigs ranged from 564–5649bp. MetaGeneMark (V.3.38)</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0018" ref-type="bibr">18</xref></citation_analysis><citation_analysis attribute="neither"> and CD-HIT (V.4.8.10)</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0019" ref-type="bibr">19</xref></citation_analysis><citation_analysis attribute="neither"> were used for gene prediction and gene redundancy removal. The number of CDSs in the nonredundant gene (gene catalog) constructed after redundancy removal ranged from 1691–201,731. Salmon software (V.1.6.0)</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0020" ref-type="bibr">20</xref></citation_analysis><citation_analysis attribute="neither"> was used to quantify and standardize the nonredundant gene set to obtain the abundance values of each gene. The species of nonredundant gene sets of each sample were annotated by Kraken2 software</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0021" ref-type="bibr">21</xref></citation_analysis><citation_analysis attribute="neither"> based on the NCBI NT (Nt 202011) database (</citation_analysis><citation_analysis attribute="positive"><underline><ext-link xlink:href="https://www.ncbi.nlm.nih.gov/nucleotide/" ext-link-type="uri">https://www.ncbi.nlm.nih.gov/nucleotide/</ext-link></underline></citation_analysis><citation_analysis attribute="positive">), and the species horizontal abundance of each sample was evaluated by Bracken</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0022" ref-type="bibr">22</xref></citation_analysis><citation_analysis attribute="positive"> based on the Bayesian algorithm and Kraken classification results. The species function of the nonredundant gene set in each sample was annotated by KEGG using the BLASTP function of Diamond software. The visualization of the data was based on the Dr. Tom platform of the Beijing Genomics Institute.</citation_analysis></p>
+        </sec>
+      </sec>
+      <sec id="s0002-s2006">
+        <title>Plasma Inflammatory Factor Detection</title>
+        <p><citation_analysis attribute="positive">Plasma inflammatory factor levels, including those of C-reactive protein (CRP) (Elabscience E-EL-H0043c), interleukin-6 (IL-6) (Elabscience E-EL-H6156), interleukin-8 (IL-8) (Elabscience E-EL-6008), lipopolysaccharide binding protein (LBP) (Elabscience E-EL-H6108), and tumor necrosis factor-α (TNF-α) (Elabscience E-EL-H0109c), were determined by ELISA using a kit produced by Elabscience (China). ELISA procedures were performed according to the manufacturer’s recommendations.</citation_analysis></p>
+      </sec>
+      <sec id="s0002-s2007">
+        <title>Statistical Analysis</title>
+        <p><citation_analysis attribute="positive">Statistical analysis of the clinical characteristics of the subjects was based on SPSS (V.26; IBM, Armonk, NY, USA). In short, the chi-square test was used for qualitative data. For quantitative data, T tests, one-way ANOVA, or nonparametric tests were used. P &lt; 0.05 indicates a significant difference. Pearson correlation analysis was used to explore the correlation between clinical indicators, inflammatory factors, and oral microbiota.</citation_analysis></p>
+      </sec>
+    </sec>
+    <sec id="s0003">
+      <title>Results</title>
+      <sec id="s0003-s2001">
+        <title>Participant Characteristics</title>
+        <p><citation_analysis attribute="positive">We included 89 subjects in this study, 33 OSA patients (OSA group), 28 OSA comorbid with MDD patients (OSA+MDD group), and 28 healthy controls (HC group) (</citation_analysis><citation_analysis attribute="positive"><xref rid="f0001" ref-type="fig">Figure 1</xref></citation_analysis><citation_analysis attribute="positive">). All subjects signed informed consent documents. We compared the general clinical characteristics of the three groups, and there were no significant differences in age, sex, or smoking status among them (</citation_analysis><citation_analysis attribute="positive"><xref rid="t0001" ref-type="table">Table 1</xref></citation_analysis><citation_analysis attribute="positive">). Body mass index (BMI) and apnea hypopnea index (AHI) in the OSA and OSA+MDD groups were significantly higher than those in the HC group; average blood oxygen saturation in the OSA group was lower than that in the HC group; and HAMD and HAMA scores in the OSA+MDD group were significantly higher than those in the other two groups. There were no significant differences in AHI, mean blood oxygen saturation, or the saturation impair time below 90% (SIT90) between the OSA and OSA+MDD groups, indicating no significant differences in the disease severity of OSA between these two groups.</citation_analysis><citation_analysis attribute="positive"><table-wrap position="float" id="t0001" orientation="landscape"><label>Table 1</label><caption><p><citation_analysis attribute="neither">Participant Characteristics</citation_analysis></p></caption><table frame="hsides" rules="groups"><thead><tr><th rowspan="2" colspan="1">Indexes</th><th rowspan="2" colspan="1">Health (n=28)</th><th rowspan="2" colspan="1">OSA (n=33)</th><th rowspan="2" colspan="1">OSA+MDD (n=28)</th><th rowspan="2" colspan="1"><italic toggle="yes">P</italic> value</th><th colspan="3" rowspan="1">Post hoc test (<italic toggle="yes">P</italic> value)</th></tr><tr><th rowspan="1" colspan="1">OSA vs Health</th><th rowspan="1" colspan="1">OSA+MDD vs Health</th><th rowspan="1" colspan="1">OSA+MDD vs OSA</th></tr></thead><tbody><tr><td rowspan="1" colspan="1">Age (years)</td><td rowspan="1" colspan="1">39.46±10.25</td><td rowspan="1" colspan="1">42.15±8.32</td><td rowspan="1" colspan="1">44.71±10.40</td><td rowspan="1" colspan="1">0.1401</td><td rowspan="1" colspan="1">0.5367</td><td rowspan="1" colspan="1">0.1171</td><td rowspan="1" colspan="1">0.5675</td></tr><tr><td rowspan="1" colspan="1">Sex (M/F)</td><td rowspan="1" colspan="1">20/8</td><td rowspan="1" colspan="1">27/4</td><td rowspan="1" colspan="1">21/9</td><td rowspan="1" colspan="1">0.2526</td><td rowspan="1" colspan="1">0.1357</td><td rowspan="1" colspan="1">0.6330</td><td rowspan="1" colspan="1">0.3936</td></tr><tr><td rowspan="1" colspan="1">BMI (kg/m<sup>2</sup>)</td><td rowspan="1" colspan="1">22.45±2.63</td><td rowspan="1" colspan="1">27.69±4.01</td><td rowspan="1" colspan="1">26.78±6.35</td><td rowspan="1" colspan="1">&lt;0.0001</td><td rowspan="1" colspan="1">&lt;0.0001</td><td rowspan="1" colspan="1">0.0021</td><td rowspan="1" colspan="1">0.7291</td></tr><tr><td rowspan="1" colspan="1">Smoke (yes/no)</td><td rowspan="1" colspan="1">14/14</td><td rowspan="1" colspan="1">20/13</td><td rowspan="1" colspan="1">14/14</td><td rowspan="1" colspan="1">0.1975</td><td rowspan="1" colspan="1">0.1546</td><td rowspan="1" colspan="1">&gt;0.9999</td><td rowspan="1" colspan="1">0.1546</td></tr><tr><td rowspan="1" colspan="1">Alcohol (yes/no)</td><td rowspan="1" colspan="1">4/24</td><td rowspan="1" colspan="1">22/11</td><td rowspan="1" colspan="1">10/18</td><td rowspan="1" colspan="1">&lt;0.0001</td><td rowspan="1" colspan="1">&lt;0.0001</td><td rowspan="1" colspan="1">0.0005</td><td rowspan="1" colspan="1">&lt;0.0001</td></tr><tr><td rowspan="1" colspan="1">AHI</td><td rowspan="1" colspan="1">2.27±1.39</td><td rowspan="1" colspan="1">43.46±23.66</td><td rowspan="1" colspan="1">33.84±18.51</td><td rowspan="1" colspan="1">&lt;0.0001</td><td rowspan="1" colspan="1">&lt;0.0001</td><td rowspan="1" colspan="1">&lt;0.0001</td><td rowspan="1" colspan="1">0.931</td></tr><tr><td rowspan="1" colspan="1">Number of Mild/Moderate/Severe OSA patient</td><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1">1/12/20</td><td rowspan="1" colspan="1">2/12/14</td><td rowspan="1" colspan="1">0.610</td><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"/></tr><tr><td rowspan="1" colspan="1">TST</td><td rowspan="1" colspan="1">416.4±41.12</td><td rowspan="1" colspan="1">432.9±57.30</td><td rowspan="1" colspan="1">365.2±70.97</td><td rowspan="1" colspan="1">&lt;0.0001</td><td rowspan="1" colspan="1">0.520</td><td rowspan="1" colspan="1">0.026</td><td rowspan="1" colspan="1">&lt;0.0001</td></tr><tr><td rowspan="1" colspan="1">NREM</td><td rowspan="1" colspan="1">336.3±37.84</td><td rowspan="1" colspan="1">355.6±45.88</td><td rowspan="1" colspan="1">318.9±61.93</td><td rowspan="1" colspan="1">0.018</td><td rowspan="1" colspan="1">0.130</td><td rowspan="1" colspan="1">0.192</td><td rowspan="1" colspan="1">0.005</td></tr><tr><td rowspan="1" colspan="1">REM</td><td rowspan="1" colspan="1">82.59±19.18</td><td rowspan="1" colspan="1">78.05±20.68</td><td rowspan="1" colspan="1">53.39±21.44</td><td rowspan="1" colspan="1">&lt;0.0001</td><td rowspan="1" colspan="1">&gt;0.999</td><td rowspan="1" colspan="1">&lt;0.0001</td><td rowspan="1" colspan="1">&lt;0.0001</td></tr><tr><td rowspan="1" colspan="1">WASO</td><td rowspan="1" colspan="1">35.35±23.67</td><td rowspan="1" colspan="1">55.11±52.65</td><td rowspan="1" colspan="1">65.66±36.54</td><td rowspan="1" colspan="1">0.001</td><td rowspan="1" colspan="1">0.430</td><td rowspan="1" colspan="1">0.001</td><td rowspan="1" colspan="1">0.046</td></tr><tr><td rowspan="1" colspan="1">ArI</td><td rowspan="1" colspan="1">12.78±14.62</td><td rowspan="1" colspan="1">28.76±26.35</td><td rowspan="1" colspan="1">19.50±10.11</td><td rowspan="1" colspan="1">&lt;0.0001</td><td rowspan="1" colspan="1">&lt;0.0001</td><td rowspan="1" colspan="1">0.002</td><td rowspan="1" colspan="1">&gt;0.999</td></tr><tr><td rowspan="1" colspan="1">Average blood oxygen saturation (%)</td><td rowspan="1" colspan="1">93.29±2.10</td><td rowspan="1" colspan="1">89.37±7.50</td><td rowspan="1" colspan="1">91.35±5.51</td><td rowspan="1" colspan="1">0.0332</td><td rowspan="1" colspan="1">0.0251</td><td rowspan="1" colspan="1">0.4189</td><td rowspan="1" colspan="1">0.3755</td></tr><tr><td rowspan="1" colspan="1">SIT90 (%)</td><td rowspan="1" colspan="1">14.84±24.37</td><td rowspan="1" colspan="1">36.19±34.51</td><td rowspan="1" colspan="1">21.63±21.82</td><td rowspan="1" colspan="1">0.0131</td><td rowspan="1" colspan="1">0.0120</td><td rowspan="1" colspan="1">0.6450</td><td rowspan="1" colspan="1">0.1188</td></tr><tr><td rowspan="1" colspan="1">Epworth_T</td><td rowspan="1" colspan="1">7.14±4.68</td><td rowspan="1" colspan="1">8.70±4.94</td><td rowspan="1" colspan="1">7.93±6.15</td><td rowspan="1" colspan="1">0.5317</td><td rowspan="1" colspan="1">0.5001</td><td rowspan="1" colspan="1">0.8478</td><td rowspan="1" colspan="1">0.8430</td></tr><tr><td rowspan="1" colspan="1">HAMD_T</td><td rowspan="1" colspan="1">5.14±3.09</td><td rowspan="1" colspan="1">4.94±2.72</td><td rowspan="1" colspan="1">19.64±2.16</td><td rowspan="1" colspan="1">&lt;0.0001</td><td rowspan="1" colspan="1">0.9548</td><td rowspan="1" colspan="1">&lt;0.0001</td><td rowspan="1" colspan="1">&lt;0.0001</td></tr><tr><td rowspan="1" colspan="1">HAMA_T</td><td rowspan="1" colspan="1">4.82±3.35</td><td rowspan="1" colspan="1">5.79±3.65</td><td rowspan="1" colspan="1">18.79±5.24</td><td rowspan="1" colspan="1">&lt;0.0001</td><td rowspan="1" colspan="1">0.6455</td><td rowspan="1" colspan="1">&lt;0.0001</td><td rowspan="1" colspan="1">&lt;0.0001</td></tr></tbody></table><table-wrap-foot><fn id="tfn0001"><p><citation_analysis attribute="positive"><bold>Abbreviations</bold></citation_analysis><citation_analysis attribute="neither">: BMI, body mass index; AHI, apnea and hypopnea index; TST, total sleep time; REM, rapid eye movement; NREM, non-rapid eye movement sleep; WASO, waking after sleep onset; ArI, arousal index; SIT90, saturation impair time below 90%; Epworth_T, Epworth scale total score; HAMD_T, Hamilton Depression Rating Scale total score total score; HAMA_T, Hamilton Anxiety Rating Scale total score.</citation_analysis></p></fn></table-wrap-foot></table-wrap></citation_analysis></p>
+      </sec>
+      <sec id="s0003-s2002">
+        <title>Oral Microbiota Composition and Diversity</title>
+        <p><citation_analysis attribute="positive">To explore the oral microbiota profiles and differences among the three groups, we performed shotgun metagenomic sequencing on 89 oral samples using the MGISEQ 2000 platform. To determine whether the sample size was sufficient to assess the colony richness of each group, dilution analysis was performed on the sequencing results of each group in this study. The results showed that the number of species in the OSA and OSA+MDD groups was higher than that in the HC group, especially in the OSA+MDD group, and the increase in the number of species in each group tended to plateau after the 25th sample (</citation_analysis><citation_analysis attribute="positive"><xref rid="f0002" ref-type="fig">Figure 2A</xref></citation_analysis><citation_analysis attribute="positive">). This indicates that the sample size of this study was sufficient and reasonable. The diversity and evenness of the oral microbiota in each group were assessed by α-diversity analysis. As shown in </citation_analysis><citation_analysis attribute="positive"><xref rid="f0002" ref-type="fig">Figure 2B</xref></citation_analysis><citation_analysis attribute="positive">, the Chao1 index was not significantly different among the three groups. The Simpson index and Shannon index of the OSA+MDD group were significantly higher than those of the OSA and HC groups, and there was no significant difference between the OSA and HC groups. This showed that the oral microbiota richness, evenness, and diversity of the OSA+MDD group were greater than the other two groups. In addition, β-diversity analysis based on Euclidean and Bray Curtis algorithms evaluated the overall dispersion of oral microbiota between and within the three groups. The results showed that the distance values between the three groups were significantly different, and the oral mucosal samples of the OSA group showed higher distance values than the other groups (</citation_analysis><citation_analysis attribute="positive"><xref rid="f0002" ref-type="fig">Figure 2C</xref></citation_analysis><citation_analysis attribute="neither">). These results indicate that the oral microbiota of the HC, OSA, and OSA+MDD groups significantly differed, and the oral microbiota samples of the OSA group were relatively dispersed within the group.
+</citation_analysis><citation_analysis attribute="positive"><fig position="float" id="f0002" fig-type="figure"><label>Figure 2</label><caption><p><citation_analysis attribute="neither">Oral microbial composition and diversity. (</citation_analysis><citation_analysis attribute="positive"><bold>A</bold></citation_analysis><citation_analysis attribute="neither">) Species accumulation curves were used to evaluate the reasonableness of the sample size in this study. The horizontal coordinate represents the number of samples, and the vertical coordinate represents the number of species. (</citation_analysis><citation_analysis attribute="positive"><bold>B</bold></citation_analysis><citation_analysis attribute="neither">) For α-diversity analysis, the differences in Chao1, Shannon and Simpson indexes in the HC, OSA and OSA+MDD groups. (</citation_analysis><citation_analysis attribute="positive"><bold>C</bold></citation_analysis><citation_analysis attribute="neither">) Euclidean and Bray‒Curtis distance algorithms for β-diversity were used to characterize the dispersion degree of samples between and within groups. *p&lt;0.05, ***p&lt;0.001, ****p&lt;0.0001.</citation_analysis></p></caption><graphic xlink:href="NSS-16-1091-g0002" content-type="print-only" position="float"/></fig></citation_analysis></p>
+      </sec>
+      <sec id="s0003-s2003">
+        <title>Identification of the Markers of Oral Microbiota</title>
+        <p><citation_analysis attribute="positive">In this study, we tried to identify the differentially abundant oral microbiota to distinguish the patients in the HC, OSA, and OSA+MDD groups and find the characteristic oral microbiota that could represent the three groups. As shown in </citation_analysis><citation_analysis attribute="positive"><xref rid="f0003" ref-type="fig">Figure 3A</xref></citation_analysis><citation_analysis attribute="neither">, 1888, 1863, and 1996 microbial species were identified in oral samples from subjects in the HC, OSA, and OSA+MDD groups, respectively, and 1197 species were shared among them (</citation_analysis><citation_analysis attribute="positive"><xref rid="f0003" ref-type="fig">Figure 3A</xref></citation_analysis><citation_analysis attribute="neither">). Notably, the microbiota composition of patients in the HC, OSA, and OSA+MDD groups was similar, mainly including </citation_analysis><citation_analysis attribute="positive"><italic toggle="yes">Prevotella, Neisseria, Haemophilus, Rothia</italic></citation_analysis><citation_analysis attribute="neither">, and </citation_analysis><citation_analysis attribute="positive"><italic toggle="yes">Streptococcus</italic></citation_analysis><citation_analysis attribute="neither">. At the species level, </citation_analysis><citation_analysis attribute="positive"><italic toggle="yes">Melaninogenica, Subflava, Parainfluenzae, Mucilaginosa</italic></citation_analysis><citation_analysis attribute="neither">, and </citation_analysis><citation_analysis attribute="positive"><italic toggle="yes">Mitis</italic></citation_analysis><citation_analysis attribute="neither"> were the most abundant species (</citation_analysis><citation_analysis attribute="positive"><xref rid="f0003" ref-type="fig">Figure 3B</xref></citation_analysis><citation_analysis attribute="positive">). The Kruskal–Wallis test showed that there were significant differences among the three groups in 8 phyla (</citation_analysis><citation_analysis attribute="positive"><italic toggle="yes">Actinobacteria, Deinococcus-Thermus, Fusobacteria, Bacteroidetes, Candidatus</italic></citation_analysis><citation_analysis attribute="neither">_</citation_analysis><citation_analysis attribute="positive"><italic toggle="yes">Saccharibacteria, Cossaviricota, Coprothermobacterot</italic></citation_analysis><citation_analysis attribute="neither">, and </citation_analysis><citation_analysis attribute="positive"><italic toggle="yes">Gemmatimonadetes</italic></citation_analysis><citation_analysis attribute="positive">) and 229 genera of oral microbiota. At the species level, there were significant differences in the abundance of 700 microbiota among the three groups; among them, </citation_analysis><citation_analysis attribute="positive"><italic toggle="yes">Prevotella intermedia, Schaalia odontolytica, Haemophilus hemolyticus, Streptococcus australis</italic></citation_analysis><citation_analysis attribute="neither"> and </citation_analysis><citation_analysis attribute="positive"><italic toggle="yes">Leptotrichia sp oral taxon 212</italic></citation_analysis><citation_analysis attribute="neither"> were the top five with the highest abundance (</citation_analysis><citation_analysis attribute="positive"><xref rid="f0003" ref-type="fig">Figure 3C</xref></citation_analysis><citation_analysis attribute="positive">). The results of pairwise comparisons among the three groups are shown in </citation_analysis><citation_analysis attribute="positive"><underline><ext-link xlink:href="https://www.dovepress.com/get_supplementary_file.php?f=474052.docx" ext-link-type="uri">Figure S1</ext-link></underline></citation_analysis><citation_analysis attribute="neither">.
+</citation_analysis><citation_analysis attribute="positive"><fig position="float" id="f0003" fig-type="figure"><label>Figure 3</label><caption><p><citation_analysis attribute="neither">Comparative analysis of oral microbiota among the three groups. (</citation_analysis><citation_analysis attribute="positive"><bold>A</bold></citation_analysis><citation_analysis attribute="neither">) Venn diagram showing the number of shared oral microbiota among the HC, OSA, and OSA+MDD groups. (</citation_analysis><citation_analysis attribute="positive"><bold>B</bold></citation_analysis><citation_analysis attribute="neither">) The species abundance histogram shows the relative abundance distribution of the oral microbiota of the three groups. (</citation_analysis><citation_analysis attribute="positive"><bold>C</bold></citation_analysis><citation_analysis attribute="neither">) The boxplot shows the differentially abundant oral microbiota of the top 20 differential relative abundances among the three groups at the species level. *p&lt;0.05, **p&lt;0.01, ***p&lt;0.001,****p&lt;0.0001.</citation_analysis></p></caption><graphic xlink:href="NSS-16-1091-g0003" content-type="print-only" position="float"/></fig></citation_analysis></p>
+        <p><citation_analysis attribute="neither">LEfSe analysis was performed to identify the characteristic oral microbiota of subjects in the HC, OSA, and OSA+MDD groups. When the OSA group was compared with the HC group, there were 43 characteristic differentially abundant microbiota between the two groups, including 26 differentially abundant microbiota representing the HC group and 27 differentially abundant microbiota representing the OSA group. </citation_analysis><citation_analysis attribute="positive"><italic toggle="yes">Prevotellaceae</italic></citation_analysis><citation_analysis attribute="neither"> and </citation_analysis><citation_analysis attribute="positive"><italic toggle="yes">Streptococcaceae</italic></citation_analysis><citation_analysis attribute="neither"> were the characteristic oral microbiota of the HC group and OSA group, respectively (</citation_analysis><citation_analysis attribute="positive"><xref rid="f0004" ref-type="fig">Figure 4A</xref></citation_analysis><citation_analysis attribute="neither">). Similarly, there were a total of 39 characteristic differentially abundant microbiota between the HC group and the OSA+MDD group, and </citation_analysis><citation_analysis attribute="positive"><italic toggle="yes">Gammaproteobacteria</italic></citation_analysis><citation_analysis attribute="neither"> and </citation_analysis><citation_analysis attribute="positive"><italic toggle="yes">Actinobacteria</italic></citation_analysis><citation_analysis attribute="neither"> were the characteristic oral microbiota of the HC and OSA+MDD groups, respectively (</citation_analysis><citation_analysis attribute="positive"><xref rid="f0004" ref-type="fig">Figure 4B</xref></citation_analysis><citation_analysis attribute="neither">). In addition, there were a total of 51 characteristic differentially abundant microbiota in the OSA group compared with the OSA+MDD group, and </citation_analysis><citation_analysis attribute="positive"><italic toggle="yes">Streptococcus</italic></citation_analysis><citation_analysis attribute="neither">_sp_1643 and </citation_analysis><citation_analysis attribute="positive"><italic toggle="yes">Actinobacteria</italic></citation_analysis><citation_analysis attribute="neither"> were the characteristic oral microbiota of the OSA and OSA+MDD groups, respectively (</citation_analysis><citation_analysis attribute="positive"><xref rid="f0004" ref-type="fig">Figure 4C</xref></citation_analysis><citation_analysis attribute="neither">).
+</citation_analysis><citation_analysis attribute="positive"><fig position="float" id="f0004" fig-type="figure"><label>Figure 4</label><caption><p><citation_analysis attribute="neither">Identification of oral characteristic microbiota in the HC, OSA, and OSA+MDD groups. The LEfSe ring branching diagram shows the differentially abundant microbiota of the HC and OSA groups (</citation_analysis><citation_analysis attribute="positive"><bold>A</bold></citation_analysis><citation_analysis attribute="neither">), HC and OSA+MDD groups (</citation_analysis><citation_analysis attribute="positive"><bold>B</bold></citation_analysis><citation_analysis attribute="neither">), and OSA and OSA+MDD groups (</citation_analysis><citation_analysis attribute="positive"><bold>C</bold></citation_analysis><citation_analysis attribute="positive">). The circles radiating from the inside out represent taxonomic levels from phylum to species. Each small circle at a different classification level represents a classification at that level, and the size of the small circle diameter is proportional to the relative abundance size. Color principle: Species with no significant differences are uniformly colored yellow; red nodes represent the microbial groups that play an important role in the red group; and green nodes represent the microbial groups that play an important role in the green group.</citation_analysis></p></caption><graphic xlink:href="NSS-16-1091-g0004" content-type="print-only" position="float"/></fig></citation_analysis></p>
+      </sec>
+      <sec id="s0003-s2004">
+        <title>Metagenomic Functional Distribution</title>
+        <p><citation_analysis attribute="neither">In this study, we also annotated the functional pathways of the oral microbiota in the three groups. Based on KEGG analysis, the oral microbiota functions of the HC, OSA, and OSA+MDD groups involved 5499, 5503, and 5529 pathways, respectively. Among them, 5463 pathways were common to the three groups (</citation_analysis><citation_analysis attribute="positive"><xref rid="f0005" ref-type="fig">Figure 5A</xref></citation_analysis><citation_analysis attribute="neither">). At KEGG level 1, the microbiota functional pathways were mainly involved in metabolism, genetic information processing, environmental information processing, cellular processes, human diseases, and organismal systems (</citation_analysis><citation_analysis attribute="positive"><xref rid="f0005" ref-type="fig">Figure 5B</xref></citation_analysis><citation_analysis attribute="neither">). After further subdivision, the microbiota functions of the three groups were similar, mainly involving biosynthesis of secondary metabolites, ABC transporters, quorum sensing, oxidative phosphorylation, and amino sugar and nucleotide sugar metabolism (</citation_analysis><citation_analysis attribute="positive"><xref rid="f0005" ref-type="fig">Figure 5C</xref></citation_analysis><citation_analysis attribute="positive">). Furthermore, STAMP software was used for pair-to-pair comparison of functional pathway differences between the three groups, and the results are shown in </citation_analysis><citation_analysis attribute="positive"><xref rid="f0006" ref-type="fig">Figure 6</xref></citation_analysis><citation_analysis attribute="neither"> and </citation_analysis><citation_analysis attribute="positive"><underline><ext-link xlink:href="https://www.dovepress.com/get_supplementary_file.php?f=474052.docx" ext-link-type="uri">Table S1</ext-link></underline></citation_analysis><citation_analysis attribute="neither">.
+</citation_analysis><citation_analysis attribute="positive"><fig position="float" id="f0005" fig-type="figure"><label>Figure 5</label><caption><p><citation_analysis attribute="neither">Identification of the microbiota functional pathways in the HC, OSA, and OSA+MDD groups. (</citation_analysis><citation_analysis attribute="positive"><bold>A</bold></citation_analysis><citation_analysis attribute="neither">) The Venn diagram shows the number of identified microbiota functional pathways and shared microbiota functional pathways of the HC, OSA, and OSA+MDD groups. The functional pathway abundance histogram shows the relative abundance distribution of microbiota functional pathways at KEGG level 1 (</citation_analysis><citation_analysis attribute="positive"><bold>B</bold></citation_analysis><citation_analysis attribute="neither">) and level 3 (</citation_analysis><citation_analysis attribute="positive"><bold>C</bold></citation_analysis><citation_analysis attribute="neither">) in the three groups.</citation_analysis></p></caption><graphic xlink:href="NSS-16-1091-g0005" content-type="print-only" position="float"/></fig></citation_analysis><citation_analysis attribute="positive">
+</citation_analysis><citation_analysis attribute="positive"><fig position="float" id="f0006" fig-type="figure"><label>Figure 6</label><caption><p><citation_analysis attribute="neither">The differentially expressed functional pathways by pair-to-pair comparison between HC (Health), OSA and OSA+MDD groups based on STAMP software. The expanded bar chart shows the differences in functional pathways between groups. (</citation_analysis><citation_analysis attribute="positive"><bold>A</bold></citation_analysis><citation_analysis attribute="neither">) The differences in functional pathways between the OSA and HC groups. (</citation_analysis><citation_analysis attribute="positive"><bold>B</bold></citation_analysis><citation_analysis attribute="neither">) The differences in functional pathways between the OSA+MDD and HC groups. (</citation_analysis><citation_analysis attribute="positive"><bold>C</bold></citation_analysis><citation_analysis attribute="neither">) The differences in functional pathways between the OSA+MDD and OSA groups.</citation_analysis></p></caption><graphic xlink:href="NSS-16-1091-g0006" content-type="print-only" position="float"/></fig></citation_analysis></p>
+      </sec>
+      <sec id="s0003-s2005">
+        <title>Differences in Inflammatory Factors Among the Three Groups</title>
+        <p><citation_analysis attribute="positive">To explore the inflammation levels among the three groups, levels of plasma inflammatory factors were compared among the three groups. The results showed that CRP, IL-6, and LBP levels in the OSA+MDD group were significantly higher than those in the HC group, and CRP and LBP levels in the OSA group were significantly higher than those in the HC group. There was no significant difference in IL-8 or TNF-α expression among the three groups. This shows that both the OSA and OSA+MDD groups were in a low-grade inflammatory state (</citation_analysis><citation_analysis attribute="positive"><underline><ext-link xlink:href="https://www.dovepress.com/get_supplementary_file.php?f=474052.docx" ext-link-type="uri">Figure S2</ext-link></underline></citation_analysis><citation_analysis attribute="neither">).</citation_analysis></p>
+      </sec>
+      <sec id="s0003-s2006">
+        <title>Correlation Analysis Between Differentially Abundant Oral Microbiota, Inflammatory Factors and Clinical Features</title>
+        <p><citation_analysis attribute="neither">To explore the correlation between differentially abundant oral microbiota and the clinical characteristics of subjects, we used Pearson correlation analysis to identify the correlation between clinical characteristics and the top 20 differentially abundant microbiota. The results showed that AHI was positively correlated with the abundance of </citation_analysis><citation_analysis attribute="positive"><italic toggle="yes">Streptococcus cristatus, Gemella sanguinis, Thermous Scotodectus</italic></citation_analysis><citation_analysis attribute="neither">, and </citation_analysis><citation_analysis attribute="positive"><italic toggle="yes">Brevundimonas diminuta</italic></citation_analysis><citation_analysis attribute="neither"> and negatively correlated with the abundance of </citation_analysis><citation_analysis attribute="positive"><italic toggle="yes">Prevotella intermedia</italic></citation_analysis><citation_analysis attribute="neither"> and </citation_analysis><citation_analysis attribute="positive"><italic toggle="yes">Candidatus Nanosynbacterlyticus</italic></citation_analysis><citation_analysis attribute="neither">. The HAMD score of the subjects was positively correlated with the abundance of </citation_analysis><citation_analysis attribute="positive"><italic toggle="yes">Actinomyces pacaensis, Schaalia odontolytica, Lachnonaerobaculum umeaense, Leptotrichia_trevisanii</italic></citation_analysis><citation_analysis attribute="neither">, and </citation_analysis><citation_analysis attribute="positive"><italic toggle="yes">Leptotrichia sp. oral_taxon_212</italic></citation_analysis><citation_analysis attribute="neither"> but negatively correlated with the abundance of </citation_analysis><citation_analysis attribute="positive"><italic toggle="yes">Haemophilus_haemolyticus</italic></citation_analysis><citation_analysis attribute="neither"> and </citation_analysis><citation_analysis attribute="positive"><italic toggle="yes">Haemophilus_influenzae</italic></citation_analysis><citation_analysis attribute="neither"> (</citation_analysis><citation_analysis attribute="positive"><xref rid="f0007" ref-type="fig">Figure 7</xref></citation_analysis><citation_analysis attribute="neither">).
+</citation_analysis><citation_analysis attribute="positive"><fig position="float" id="f0007" fig-type="figure"><label>Figure 7</label><caption><p><citation_analysis attribute="neither">Analysis of the correlation between clinical features and differentially abundant oral microbiota. Pearson correlation analysis was used to identify the correlation between clinical characteristics and the top 20 differentially abundant microbiota at the species level.</citation_analysis></p></caption><graphic xlink:href="NSS-16-1091-g0007" content-type="print-only" position="float"/><attrib><bold>Abbreviations</bold>: BMI, body mass index; HAMA, Hamilton Anxiety Rating Scale total score; HAMD, Hamilton Depression Rating Scale total score total score; AHI, apnea hypopnea index; SIT90, saturation impair time below 90%. Epworth_T, Epworth scale total score.</attrib></fig></citation_analysis></p>
+        <p><citation_analysis attribute="neither">Inflammation has been confirmed to be involved in the pathogenesis of OSA and MDD.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0023" ref-type="bibr">23–25</xref></citation_analysis><citation_analysis attribute="positive"> Additionally, the findings of this study clearly demonstrated that LBP level was positively correlated with BMI, AHI, and SIT90 (p&lt;0.05) and had a positive correlation with HAMA and HAMD scores. IL-6 level was positively correlated with HAMD and HAMA total scores (p&lt;0.05) (</citation_analysis><citation_analysis attribute="positive"><underline><ext-link xlink:href="https://www.dovepress.com/get_supplementary_file.php?f=474052.docx" ext-link-type="uri">Figure S3</ext-link></underline></citation_analysis><citation_analysis attribute="positive">). As shown in </citation_analysis><citation_analysis attribute="positive"><underline><ext-link xlink:href="https://www.dovepress.com/get_supplementary_file.php?f=474052.docx" ext-link-type="uri">Figure S3</ext-link></underline></citation_analysis><citation_analysis attribute="neither">, the correlation heatmap shows the correlation between inflammation factors in plasma and differentially abundant microbiota in the oral cavity. IL-6 level was positively correlated with the abundance of </citation_analysis><citation_analysis attribute="positive"><italic toggle="yes">Schaalia, Campylobacter, Fusobacterium, Alloprevotella, and Candidatus Nanosynbacter</italic></citation_analysis><citation_analysis attribute="neither"> (p&lt;0.05). LBP and CRP levels were negatively correlated with the abundance of </citation_analysis><citation_analysis attribute="positive"><italic toggle="yes">Prevotella, Bacteroides</italic></citation_analysis><citation_analysis attribute="neither"> and </citation_analysis><citation_analysis attribute="positive"><italic toggle="yes">Candidatus Nanosynbacter</italic></citation_analysis><citation_analysis attribute="neither"> (p&lt;0.05) (</citation_analysis><citation_analysis attribute="positive"><underline><ext-link xlink:href="https://www.dovepress.com/get_supplementary_file.php?f=474052.docx" ext-link-type="uri">Figure S4</ext-link></underline></citation_analysis><citation_analysis attribute="neither">).</citation_analysis></p>
+      </sec>
+    </sec>
+    <sec id="s0004">
+      <title>Discussion</title>
+      <p><citation_analysis attribute="positive">The oral cavity is the entrance that connects the outside world with the respiratory and digestive tracts. It is a warm, humid, and nutrient-rich environment that provides a particularly favorable environment for the survival of microbiota. For OSA patients, there was a significant reduction in airflow due to changes in airway pressure, which could change the moisture, oxygen content, and temperature of the upper airway.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0005" ref-type="bibr">5</xref></citation_analysis><citation_analysis attribute="positive"> Many studies have shown that changes in the oxygen concentration in the environment could affect the growth of the microbiota.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0026" ref-type="bibr">26</xref></citation_analysis><citation_analysis attribute="neither"> In the oral ecosystem, microbe-microbe and microbe-host relationships coexist for a long time, and the imbalance between them may be related to various diseases.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0027" ref-type="bibr">27</xref></citation_analysis><citation_analysis attribute="neither">,</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0028" ref-type="bibr">28</xref></citation_analysis></p>
+      <p><citation_analysis attribute="positive">In this work, whole-genome metagenomic analysis and bioinformatics analysis were used to examine and contrast the variations in oral microbiota among the HC, OSA, and OSA+MDD groups. The results showed that the α-diversity of the microbiota in the OSA+MDD group was higher than that of the other two groups, and there was no significant difference between the other two groups. In other words, the OSA+MDD group had greater richness, evenness, and diversity of their oral microbiota. In studies on oral microbiota changes in depressed patients, most of the results suggest that the α-diversity in depressed patients is higher than that in controls,</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0029" ref-type="bibr">29</xref></citation_analysis><citation_analysis attribute="neither">,</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0030" ref-type="bibr">30</xref></citation_analysis><citation_analysis attribute="positive"> which is consistent with our results. Rhee et al found that the α-diversity of the gut microbiota of depressed patients was significantly increased when compared with that of the control group.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0031" ref-type="bibr">31</xref></citation_analysis><citation_analysis attribute="neither"> Autistic children were also found to have an increased diversity of gut microbiota compared to healthy controls.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0032" ref-type="bibr">32</xref></citation_analysis><citation_analysis attribute="positive"> While having a greater diversity of gut microbiota was thought to be beneficial for hosts in the traditional sense, it has not been established whether the effect of diversity on the central nervous system is beneficial or not.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0033" ref-type="bibr">33</xref></citation_analysis><citation_analysis attribute="positive"> More research is needed to explore the relationship between them. In this study, there was no significant difference in α-diversity between the OSA and HC groups. However, studies on the changes in oral microbial diversity in OSA patients have shown inconsistent results. Some studies indicated that OSA patients have lower α-diversity than that of healthy controls,</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0005" ref-type="bibr">5</xref></citation_analysis><citation_analysis attribute="neither">,</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0009" ref-type="bibr">9</xref></citation_analysis><citation_analysis attribute="neither">,</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0034" ref-type="bibr">34</xref></citation_analysis><citation_analysis attribute="positive"> although some studies shown no difference,</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0007" ref-type="bibr">7</xref></citation_analysis><citation_analysis attribute="neither">,</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0035" ref-type="bibr">35–37</xref></citation_analysis><citation_analysis attribute="neither"> and another study found higher α-diversity in the OSA group.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0038" ref-type="bibr">38</xref></citation_analysis><citation_analysis attribute="neither"> We hypothesize that this was because the severity of OSA was different and the sample of patients was sampled at different sites of the oral cavity, leading to different results. The β-diversity reflects the similarity of microbiota among different samples in a group. In our study, the β-diversity of the OSA+MDD, HC, and OSA groups gradually increased, indicating that the composition of microbiota in the OSA group varied greatly among each patient, while the oral microbiota in the OSA+MDD group tended to be similar.</citation_analysis></p>
+      <p><citation_analysis attribute="neither">In our study, we found that </citation_analysis><citation_analysis attribute="positive"><italic toggle="yes">Prevotella</italic></citation_analysis><citation_analysis attribute="neither"> (including </citation_analysis><citation_analysis attribute="positive"><italic toggle="yes">Prevotella melanogenes, Prevotella intermedia</italic></citation_analysis><citation_analysis attribute="neither">, etc.) abundance in the oral microbiota of the OSA and OSA+MDD groups decreased, while </citation_analysis><citation_analysis attribute="positive"><italic toggle="yes">Streptococcus</italic></citation_analysis><citation_analysis attribute="positive"> abundance increased, and the results of correlation analysis also suggested that </citation_analysis><citation_analysis attribute="positive"><italic toggle="yes">Prevotella_intermedia</italic></citation_analysis><citation_analysis attribute="neither"> abundance was significantly negatively correlated with AHI, and </citation_analysis><citation_analysis attribute="positive"><italic toggle="yes">Streptococcus cristatus</italic></citation_analysis><citation_analysis attribute="neither"> abundance was significantly positively correlated with AHI. </citation_analysis><citation_analysis attribute="positive"><italic toggle="yes">Bacteroidetes</italic></citation_analysis><citation_analysis attribute="neither"> was one of the main bacterial groups in the oral cavity of healthy people, and </citation_analysis><citation_analysis attribute="positive"><italic toggle="yes">Prevotella</italic></citation_analysis><citation_analysis attribute="neither"> was the largest genus of </citation_analysis><citation_analysis attribute="positive"><italic toggle="yes">Bacteroidetes. Prevotella</italic></citation_analysis><citation_analysis attribute="neither"> is a gram-negative bacterium that is strictly anaerobic</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0039" ref-type="bibr">39</xref></citation_analysis><citation_analysis attribute="neither"> and could be an opportunistic pathogen in many oral infections.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0040" ref-type="bibr">40</xref></citation_analysis><citation_analysis attribute="neither"> This genus was associated with chronic periodontitis, pulp infection, and abscesses of periodontal origin.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0041" ref-type="bibr">41</xref></citation_analysis><citation_analysis attribute="neither">,</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0042" ref-type="bibr">42</xref></citation_analysis><citation_analysis attribute="neither"> Colonization of </citation_analysis><citation_analysis attribute="positive"><italic toggle="yes">Prevotella</italic></citation_analysis><citation_analysis attribute="neither"> in the mouth depends on biofilm formation, but open mouth breathing in OSA patients changes the anaerobic environment and increases the oxygen content of the mouth, which is not conducive to the survival of </citation_analysis><citation_analysis attribute="positive"><italic toggle="yes">Prevotella</italic></citation_analysis><citation_analysis attribute="neither">. Gao et al confirmed that the concentration of </citation_analysis><citation_analysis attribute="positive"><italic toggle="yes">Prevotella</italic></citation_analysis><citation_analysis attribute="neither"> in the saliva of OSA patients was significantly lower than that of healthy controls. However, for MDD patients, previous studies have found that the abundance of </citation_analysis><citation_analysis attribute="positive"><italic toggle="yes">Prevotella</italic></citation_analysis><citation_analysis attribute="neither"> in both the oral cavity and feces increased,</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0043" ref-type="bibr">43–45</xref></citation_analysis><citation_analysis attribute="neither"> and the abundance of </citation_analysis><citation_analysis attribute="positive"><italic toggle="yes">Prevotella</italic></citation_analysis><citation_analysis attribute="neither"> in the oral cavity was positively correlated with depressive symptoms at the species level.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0045" ref-type="bibr">45</xref></citation_analysis><citation_analysis attribute="neither"> Therefore, we speculate that the variation in oral </citation_analysis><citation_analysis attribute="positive"><italic toggle="yes">Prevotella</italic></citation_analysis><citation_analysis attribute="neither"> abundance may be used as a characteristic microbiota to distinguish OSA, MDD, and OSA+MDD. The decrease in </citation_analysis><citation_analysis attribute="positive"><italic toggle="yes">Prevotella</italic></citation_analysis><citation_analysis attribute="neither"> abundance may be a predictor of OSA.</citation_analysis></p>
+      <p><citation_analysis attribute="positive"><italic toggle="yes">Streptococcu</italic></citation_analysis><citation_analysis attribute="neither">s is a gram-positive, facultative anaerobic bacterium commonly found in various parts of the human body. It significantly influences the balance of oral microbiota and the development of oral and systemic diseases. </citation_analysis><citation_analysis attribute="positive"><italic toggle="yes">Streptococcus</italic></citation_analysis><citation_analysis attribute="neither"> regulates the expression of adherence factors and other virulence factors, allowing it to colonize oral mucosa or other parts of the body effectively, and these factors are also important for infecting the host.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0046" ref-type="bibr">46</xref></citation_analysis><citation_analysis attribute="positive"> In our study, LEfSe analysis results suggested that </citation_analysis><citation_analysis attribute="positive"><italic toggle="yes">Streptococcaceae</italic></citation_analysis><citation_analysis attribute="neither"> were the characteristic oral microbiota of the OSA group. </citation_analysis><citation_analysis attribute="positive"><italic toggle="yes">Streptococcus</italic></citation_analysis><citation_analysis attribute="neither"> was related to tonsil and adenoid hypertrophy, and previous metagenomics studies had also found that, compared with the control group, the abundance of </citation_analysis><citation_analysis attribute="positive"><italic toggle="yes">Streptococcus</italic></citation_analysis><citation_analysis attribute="neither"> in the oral mucosa of OSA patients was increased.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0009" ref-type="bibr">9</xref></citation_analysis><citation_analysis attribute="neither"> Higher abundance levels of </citation_analysis><citation_analysis attribute="positive"><italic toggle="yes">Streptococcus</italic></citation_analysis><citation_analysis attribute="neither"> were also found in the nasal passages of adult OSA patients.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0047" ref-type="bibr">47</xref></citation_analysis><citation_analysis attribute="neither"> With the increased abundance of </citation_analysis><citation_analysis attribute="positive"><italic toggle="yes">Streptococcus</italic></citation_analysis><citation_analysis attribute="neither"> in the oral cavity, its metabolites could directly or indirectly upregulate the level of inflammatory factors in oropharyngeal tissues, causing inflammatory distention of the soft palate, tonsils, and adenoids. This could lead to a narrowing airway, exacerbating the obstruction of the upper airway, and making patients more susceptible to obstruction events during sleep. </citation_analysis><citation_analysis attribute="positive"><italic toggle="yes">Streptococcus</italic></citation_analysis><citation_analysis attribute="negative"> depends on the glycolysis of carbohydrates for energy and is extremely acid-resistant. Long-term high carbohydrate intake may lead to weight gain, which is a risk factor for OSA. In addition, exposure to dietary carbohydrates can make the oral environment dysfunctional. In this environment where more organic acids are produced, such as lactic acid, which is a byproduct of fermentation, the abundance of </citation_analysis><citation_analysis attribute="positive"><italic toggle="yes">Streptococcus</italic></citation_analysis><citation_analysis attribute="neither"> and other acid-tolerant bacteria increased, and less acid-tolerant symbiotic bacteria decreased,</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0048" ref-type="bibr">48</xref></citation_analysis><citation_analysis attribute="neither"> ultimately leading to the disruption of oral microbiota balance.</citation_analysis></p>
+      <p><citation_analysis attribute="neither">Previous studies have noted that compared with those of healthy people, the oral microbiota and gut microbiota of depressed patients are different. In the present study, </citation_analysis><citation_analysis attribute="positive"><italic toggle="yes">Actinomycetes</italic></citation_analysis><citation_analysis attribute="neither"> was the characteristic microbiota of the OSA+MDD group, and the abundances of </citation_analysis><citation_analysis attribute="positive"><italic toggle="yes">Actinomyces pacaensis</italic></citation_analysis><citation_analysis attribute="neither"> and </citation_analysis><citation_analysis attribute="positive"><italic toggle="yes">Schaalia odontolytica</italic></citation_analysis><citation_analysis attribute="neither"> were positively correlated with HAMD scores and HAMA scores. A study by Brianna N. et al found that patients with depressive symptoms had an increased abundance of </citation_analysis><citation_analysis attribute="positive"><italic toggle="yes">Actinomycetes</italic></citation_analysis><citation_analysis attribute="neither"> compared with patients without depressive symptoms.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0049" ref-type="bibr">49</xref></citation_analysis><citation_analysis attribute="neither"> Another study also found that the abundance of </citation_analysis><citation_analysis attribute="positive"><italic toggle="yes">Actinomyces</italic></citation_analysis><citation_analysis attribute="neither"> in the oral cavity was positively correlated with depressive symptoms.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0045" ref-type="bibr">45</xref></citation_analysis><citation_analysis attribute="positive"> These findings were consistent with our own. The abundance of </citation_analysis><citation_analysis attribute="positive"><italic toggle="yes">Actinomycetes</italic></citation_analysis><citation_analysis attribute="neither"> was positively correlated with cortisol levels.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0045" ref-type="bibr">45</xref></citation_analysis><citation_analysis attribute="neither"> Basal cortisol level is associated with depressive and anxiety symptoms, and previous studies have hypothesized that elevated salivary cortisol due to dysregulation of HPA axis activity may be responsible for the association between depressive and anxiety symptoms and oral bacterial abundance.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0050" ref-type="bibr">50</xref></citation_analysis><citation_analysis attribute="neither"> For OSA+MDD patients, the factors that affect the oral microbiota include not only cortisol but also changes in the oral environment, and the regulatory effect of cortisol on oral </citation_analysis><citation_analysis attribute="positive"><italic toggle="yes">Actinomycetes</italic></citation_analysis><citation_analysis attribute="neither"> still needs further research.</citation_analysis></p>
+      <p><citation_analysis attribute="neither">Oral microbiota and its metabolite entry into the systemic circulation may be one of the reasons for inducing and aggravating inflammation. Pathogenic oral bacteria can induce the production of proinflammatory factors. In this study, plasma IL-6 levels in the OSA+MDD group were significantly higher than those in the OSA and HC groups. IL-6 was positively correlated with the abundance of </citation_analysis><citation_analysis attribute="positive"><italic toggle="yes">Schaalia, Campylobacter, Fusobacterium, Alloprevotella</italic></citation_analysis><citation_analysis attribute="neither">, and </citation_analysis><citation_analysis attribute="positive"><italic toggle="yes">Phlolobacter</italic></citation_analysis><citation_analysis attribute="neither"> (</citation_analysis><citation_analysis attribute="positive"><italic toggle="yes">Candidatus Nanosynbacter</italic></citation_analysis><citation_analysis attribute="neither">). Previous studies have found that numerous inflammatory factors are increased in depressed patients, and these inflammatory factors, including IL-6, decrease after antidepressant treatment.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0051" ref-type="bibr">51–53</xref></citation_analysis><citation_analysis attribute="neither"> Elevated IL-6 levels have been identified as an independent predictor of depression.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0054" ref-type="bibr">54</xref></citation_analysis><citation_analysis attribute="neither"> In OSA patients, previous studies have also found that the plasma IL-6 concentration was higher than that of normal controls.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0055" ref-type="bibr">55</xref></citation_analysis><citation_analysis attribute="positive"> In a previous study on inflammatory factors in female OSA patients, the researchers assessed depression (using the depression score from the hospital anxiety and depression questionnaire HAD-D) and measured plasma inflammatory factors in 247 patients diagnosed with moderate to severe OSA and found that IL-6 was independently associated with the presence of depression and positively correlated with depression scores.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0056" ref-type="bibr">56</xref></citation_analysis><citation_analysis attribute="positive"> Our study also found that IL-6 has a positive correlation with AHI and BMI. The sympathetic nervous system and the adrenomedullary nervous system could stimulate the secretion of IL-6, which could lead to increased IL-6 under stress.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0057" ref-type="bibr">57</xref></citation_analysis><citation_analysis attribute="neither"> In addition, IL-6 can activate the HPA system,</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0058" ref-type="bibr">58</xref></citation_analysis><citation_analysis attribute="neither"> which is associated with depression. Intermittent hypoxia during sleep and increasing sympathetic nerve activity may lead to increased IL-6 in OSA patients. Therefore, elevated IL-6 in OSA patients may be one of the mechanisms of depression. Therefore, we speculated that, regardless of whether OSA was combined with MDD, elevated plasma IL-6 and increased oral </citation_analysis><citation_analysis attribute="positive"><italic toggle="yes">Actinomycetes</italic></citation_analysis><citation_analysis attribute="neither"> may be predictors of depressive events. Oral microbiota imbalance affects the plasma IL-6 concentration, and IL-6 may be involved in regulating the relationship between depressive symptoms and oral microbiota in OSA+MDD patients.</citation_analysis></p>
+      <p><citation_analysis attribute="positive">To anticipate the roles of oral microbiota function, KEGG pathway studies were performed. Compared with the HC group, the synthesis of branched-chain amino acids (BCAAs), including valine, leucine, and isoleucine, were increased in the OSA group. This was consistent with previous findings in children with OSA.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0059" ref-type="bibr">59</xref></citation_analysis><citation_analysis attribute="neither"> The presence of OSA was significantly correlated with the concentration of BCAA. The increase in BCAA may directly or indirectly lead to mitochondrial dysfunction, and abdominal obesity, insulin resistance, and low-grade inflammation are associated with the increase in BCAA.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0059" ref-type="bibr">59</xref></citation_analysis><citation_analysis attribute="neither"> Mammalian target of rapamycin (mTOR) is a ubiquitous serine/threonine protein kinase that plays a crucial role in regulating cell growth, cell proliferation, cell survival, cell motility, protein synthesis, autophagy, and transcription.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0060" ref-type="bibr">60</xref></citation_analysis><citation_analysis attribute="neither"> According to Hay et al, BCAAs (especially leucine), insulin and growth factors are important input signals from the upstream pathway of mTOR that could activate mTOR.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0060" ref-type="bibr">60</xref></citation_analysis><citation_analysis attribute="neither"> Chronic activation of mTOR induced by BCAAs could lead to insulin resistance and early cell dysfunction.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0061" ref-type="bibr">61–63</xref></citation_analysis><citation_analysis attribute="negative"> It was related to the occurrence of OSA complications. Moreover, obesity, as one of the risk factors for OSA, could dull amino acid metabolism in adipose tissue, thus profoundly affecting the catabolism of BCAA in OSA patients.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0064" ref-type="bibr">64</xref></citation_analysis><citation_analysis attribute="neither"> In further analysis, we found increased expression of a BCAA-degrading pathway in the OSA+MDD group compared to the HC group. Previous studies on depression in adults and adolescents have found that reduced BCAA levels are associated with depression. In an animal study, researchers found that treatment with paroxetine, an antidepressant, increased the concentrations of the essential amino acids valine, leucine, and isoleucine by 50–70% in mice.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0065" ref-type="bibr">65</xref></citation_analysis><citation_analysis attribute="neither"> The mTOR signaling pathway in the prefrontal cortex was impaired in patients with major depression.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0066" ref-type="bibr">66</xref></citation_analysis><citation_analysis attribute="neither"> However, BCAA deficiency could lead to decreased mTOR activity, resulting in decreased energy metabolism and depressive symptoms.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0067" ref-type="bibr">67</xref></citation_analysis></p>
+      <p><citation_analysis attribute="neither">In addition, autophagy was increased in the OSA+MDD group compared with the OSA and HC groups. Autophagy is a cellular homeostasis process and a stress response. Autophagy may be a response to chronic stress; studies have confirmed that the occurrence of autophagy is conducive to alleviating OSA or MDD processes.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0068" ref-type="bibr">68–70</xref></citation_analysis><citation_analysis attribute="neither"> Autophagy could act as an antidepressant by maintaining protein stability, especially by maintaining the integrity of synaptic membrane protein function.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0071" ref-type="bibr">71</xref></citation_analysis><citation_analysis attribute="neither"> Previous studies have also found that most antidepressants, including fluoxetine, sertraline, paroxetine, venlafaxine, mirtazapine, and electric convulsive therapy, can enhance autophagy.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0071" ref-type="bibr">71</xref></citation_analysis><citation_analysis attribute="neither"> However, excessive autophagy can lead to cell death, characterized by the formation of large autophagy vacuoles.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0071" ref-type="bibr">71</xref></citation_analysis><citation_analysis attribute="neither"> Increased autophagy affects synaptic function, inducing autophagy by inhibiting mTOR at the presynaptic terminal, rapidly altering the presynaptic structure, and reducing neurotransmission.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0072" ref-type="bibr">72</xref></citation_analysis><citation_analysis attribute="neither"> An autopsy study showed that the mTOR signaling pathway in the prefrontal cortex was impaired in patients with major depression.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0073" ref-type="bibr">73</xref></citation_analysis><citation_analysis attribute="neither"> Chronic stress in mice is often used to simulate depression, and enhanced autophagy can be seen in chronically stressed mice.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0074" ref-type="bibr">74</xref></citation_analysis><citation_analysis attribute="neither">,</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0075" ref-type="bibr">75</xref></citation_analysis><citation_analysis attribute="neither"> In human studies, a study with a small sample size found increased expression of autophagy-related genes in the blood mononuclear cells of individuals with major depression compared to healthy controls.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0073" ref-type="bibr">73</xref></citation_analysis><citation_analysis attribute="neither"> OSA can induce autophagy through hypoxia, oxidative stress, endoplasmic reticulum stress, endothelial dysfunction, and miRNA.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0076" ref-type="bibr">76</xref></citation_analysis><citation_analysis attribute="neither"> Hypoxia is one of the reasons for mTOR inactivation. Therefore, we speculate that autophagy in OSA patients may increase due to hypoxia, but if it is excessively increased, it might cause synaptic dysfunction. Autophagy is a normal physiological function, and the increase in autophagy during stress is also an adaptive response of cells. A certain degree of autophagy is the basis for maintaining cell and organ function, and autophagy activation that is too low or too high may lead to impaired cell function. Therefore, we speculate that the process of hypoxia-induced autophagy may be affected by many factors, and excessive autophagy activation may cause synaptic damage, resulting in depressive symptoms. Further research is needed to confirm this idea.</citation_analysis></p>
+      <p><citation_analysis attribute="positive">Recently, several investigations have been conducted on the oral microbiota of individuals diagnosed with OSA and MDD. However, the findings of these studies are inconsistent. There were many factors involved, including disease assessment methods. In previous studies on the oral microbiota of patients with depression, most of them only used a scale to assess the depressive symptoms of patients and did not diagnose MDD. In addition, the oral cavity is a complex environment, and different results may occur depending on the sampling site. In addition, factors such as OSA severity, dietary habits and oral health may also affect the study results. In our study, there were differences in the number of participants with a history of alcohol use among the three groups, but none of them had alcohol use disorder. Alcohol use was associated with a heightened risk of OSA due to its effects on the upper airway and body mass index (BMI).</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0077" ref-type="bibr">77</xref></citation_analysis><citation_analysis attribute="neither"> The results of meta-analysis found that alcohol consumption was associated with worsening severity of snoring, altered sleep architecture, AHI, as well as lowest oxygen saturation among patients susceptible to snoring and OSA.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0078" ref-type="bibr">78</xref></citation_analysis><citation_analysis attribute="negative"> The interrelationship between alcohol and depression was also complex. There was a U-shaped curve between the amount of alcohol and the risk of depression,</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0079" ref-type="bibr">79</xref></citation_analysis><citation_analysis attribute="neither"> non-drinkers and people who engage in hazardous drinking had a higher depression risk.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0080" ref-type="bibr">80</xref></citation_analysis><citation_analysis attribute="neither"> Most research showed that alcohol can lead to adverse outcomes of depression.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0081" ref-type="bibr">81</xref></citation_analysis><citation_analysis attribute="positive"> Therefore, alcohol use as a risk factor for OSA and MDD may be the reason why in our study more participants in the OSA group and OSA+MDD group have a history of drinking. However, this remains a limitation of this study. Previous studies have shown that alcohol use might be one of the potential determinants in shaping the oral microbiota communities, and continuous alcohol consumption will alter the oral ecosystem including reducing saliva production, decreasing oral pH, and disrupting tooth enamel, resulting in cavities and periodontal inflammation.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0082" ref-type="bibr">82</xref></citation_analysis><citation_analysis attribute="neither">,</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0083" ref-type="bibr">83</xref></citation_analysis><citation_analysis attribute="positive"> Due to the discrepancies in drinking habits and the diversity of alcoholic beverages across various regions, there was no consistent result on the impact of alcohol use on oral microbiota at present.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0084" ref-type="bibr">84</xref></citation_analysis><citation_analysis attribute="neither">,</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0085" ref-type="bibr">85</xref></citation_analysis><citation_analysis attribute="positive"> More comprehensive data were needed to analyze the effects of alcohol on oral microbes in OSA and OSA+MDD patients. In addition, the effect of OSA on the oral microbiota may be a dynamic process, so the influence of the disease course should be considered in future studies. This work represents the initial investigation into the oral microbiota of individuals with comorbid OSA and MDD. The diagnostic criteria outlined in the DSM-V were used to identify individuals with MDD, while metagenomics techniques were utilized to analyze the oral samples.</citation_analysis></p>
+    </sec>
+    <sec id="s0005">
+      <title>Conclusion</title>
+      <p><citation_analysis attribute="neither">In the present investigation we draw the following conclusions: a) notable disparities were observed in the oral microbiota and gene functions among the OSA, OSA+MDD, and HC groups; b) the variation in oral </citation_analysis><citation_analysis attribute="positive"><italic toggle="yes">Prevotellaceae</italic></citation_analysis><citation_analysis attribute="neither"> abundance may be used as a characteristic microorganism to distinguish OSA, MDD, and OSA+MDD; c) the decreased abundance of </citation_analysis><citation_analysis attribute="positive"><italic toggle="yes">Prevotellaceae</italic></citation_analysis><citation_analysis attribute="neither"> and increased abundance of </citation_analysis><citation_analysis attribute="positive"><italic toggle="yes">Streptococcaceae</italic></citation_analysis><citation_analysis attribute="neither"> in oral were the characteristics of OSA patients; d) </citation_analysis><citation_analysis attribute="positive"><italic toggle="yes">Actinobacteria</italic></citation_analysis><citation_analysis attribute="neither"> were characteristic of the OSA+MDD group, and increased </citation_analysis><citation_analysis attribute="positive"><italic toggle="yes">Actinobacteria</italic></citation_analysis><citation_analysis attribute="neither"> abundance was associated with depression. e) with or without OSA, elevated plasma IL-6 levels and increased oral abundance of </citation_analysis><citation_analysis attribute="positive"><italic toggle="yes">Actinobacteria</italic></citation_analysis><citation_analysis attribute="neither"> may be predictors of depressive events.; f) dysregulation of the oral microbiota could affect plasma IL-6 concentration and IL-6 may be involved in regulating the relationship between depressive symptoms and oral microbiota in OSA+MDD patients.</citation_analysis></p>
+    </sec>
+  </body>
+  <back>
+    <ack>
+      <title>Acknowledgments</title>
+      <p><citation_analysis attribute="neither">We would like to thank all participants.</citation_analysis></p>
+    </ack>
+    <sec id="s0006">
+      <title>Abbreviations</title>
+      <p><citation_analysis attribute="neither">AHI, apnea and hypopnea index; ArI, arousal index; BCAAs, branched-chain amino acids; BMI, body mass index; CRP, C-reactive protein; HAMA, Hamilton Anxiety Rating Scale; HAMD, Hamilton Depression Rating Scale; HC, healthy control; IL-6, interleukin-6; IL-8, interleukin-8; LBP, lipopolysaccharide binding protein; mTOR, mammalian target of rapamycin; MDD, major depressive disorder; NREM, non-rapid eye movement sleep; OSA, obstructive sleep apnea; OSA+MDD, obstructive sleep apnea comorbid with major depressive disorder; OCST, out-of-center sleep testing; REM, rapid eye movement; SIT90, saturation impair time below 90%; TNF-α, tumor necrosis factor-α; TST, total sleep time; WASO, waking after sleep onset.</citation_analysis></p>
+    </sec>
+    <sec id="s0007">
+      <title>Ethics Approval and Consent to Participate</title>
+      <p><citation_analysis attribute="neither">The experimental protocol complied with the ethical guidelines of the Helsinki Declaration and was approved by the Medical Ethics Committee of the First People’s Hospital of Yunnan Province (KHLL2022-KY040). All subjects signed informed consent forms.</citation_analysis></p>
+    </sec>
+    <sec sec-type="COI-statement" id="s0008">
+      <title>Disclosure</title>
+      <p><citation_analysis attribute="neither">The authors declare that they have no conflicts of interest in this work.</citation_analysis></p>
+    </sec>
+    <ref-list>
+      <title>References</title>
+      <ref id="cit0001">
+        <label>1.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Grewal</surname>
+<given-names>N</given-names></string-name>, <string-name><surname>Gordon</surname>
+<given-names>D</given-names></string-name>, <string-name><surname>Bajaj</surname>
+<given-names>S</given-names></string-name>. et al. <article-title>Impact of obstructive sleep apnea treatment on cardiovascular disease associated mortality and morbidity: a systematic review</article-title>. <source><italic toggle="yes">Curr Prob Cardiology</italic></source>. <year>2024</year>;<volume>49</volume>(<issue>1 Pt C)</issue>):<fpage>102139</fpage>. doi:<pub-id pub-id-type="doi">10.1016/j.cpcardiol.2023.102139</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0002">
+        <label>2.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Abelleira</surname>
+<given-names>R</given-names></string-name>, <string-name><surname>Zamarrón</surname>
+<given-names>C</given-names></string-name>, <string-name><surname>Riveiro</surname>
+<given-names>V</given-names></string-name>, et al. <article-title>Relationship between obstructive sleep apnea and type 2 diabetes mellitus</article-title>. <source><italic toggle="yes">Med Clin-Barcelona</italic></source>. <year>2024</year>;<volume>162</volume>(<issue>8</issue>):<fpage>363</fpage>–<lpage>369</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.medcli.2023.11.014</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0003">
+        <label>3.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Qin</surname>
+<given-names>Y</given-names></string-name>, <string-name><surname>Sun</surname>
+<given-names>C</given-names></string-name>, <string-name><surname>Sun</surname>
+<given-names>H</given-names></string-name>, et al. <article-title>Electroencephalographic slowdowns during sleep are associated with cognitive impairment in patients who have obstructive sleep apnea but no dementia</article-title>. <source><italic toggle="yes">Sleep Breath</italic></source>. <year>2023</year>;<volume>27</volume>(<issue>6</issue>):<fpage>2315</fpage>–<lpage>2324</lpage>. doi:<pub-id pub-id-type="doi">10.1007/s11325-023-02843-y</pub-id><pub-id pub-id-type="pmid">37155126</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0004">
+        <label>4.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Kapur</surname>
+<given-names>VK</given-names></string-name>, <string-name><surname>Auckley</surname>
+<given-names>DH</given-names></string-name>, <string-name><surname>Chowdhuri</surname>
+<given-names>S</given-names></string-name>, et al. <article-title>Clinical practice guideline for diagnostic testing for adult obstructive sleep apnea: an American Academy of sleep medicine clinical practice guideline</article-title>. <source><italic toggle="yes">J Clin Sleep Med</italic></source>. <year>2017</year>;<volume>13</volume>(<issue>3</issue>):<fpage>479</fpage>–<lpage>504</lpage>. doi:<pub-id pub-id-type="doi">10.5664/jcsm.6506</pub-id><pub-id pub-id-type="pmid">28162150</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0005">
+        <label>5.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Yang</surname>
+<given-names>W</given-names></string-name>, <string-name><surname>Shao</surname>
+<given-names>L</given-names></string-name>, <string-name><surname>Heizhati</surname>
+<given-names>M</given-names></string-name>, et al. <article-title>Oropharyngeal microbiome in obstructive sleep apnea: decreased diversity and abundance</article-title>. <source><italic toggle="yes">J Clin Sleep Med</italic></source>. <year>2019</year>;<volume>15</volume>(<issue>12</issue>):<fpage>1777</fpage>–<lpage>1788</lpage>. doi:<pub-id pub-id-type="doi">10.5664/jcsm.8084</pub-id><pub-id pub-id-type="pmid">31855163</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0006">
+        <label>6.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Alexander</surname>
+<given-names>AG</given-names></string-name>. <article-title>Habitual mouthbreathing and its effect on gingival health</article-title>. <source><italic toggle="yes">Parodontologie</italic></source>. <year>1970</year>;<volume>24</volume>(<issue>2</issue>):<fpage>49</fpage>–<lpage>55</lpage>.<pub-id pub-id-type="pmid">5267641</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0007">
+        <label>7.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Ko</surname>
+<given-names>CY</given-names></string-name>, <string-name><surname>Hu</surname>
+<given-names>AK</given-names></string-name>, <string-name><surname>Chou</surname>
+<given-names>D</given-names></string-name>, et al. <article-title>Analysis of oral microbiota in patients with obstructive sleep apnea-associated hypertension</article-title>. <source><italic toggle="yes">Hypertens Res</italic></source>. <year>2019</year>;<volume>42</volume>(<issue>11</issue>):<fpage>1692</fpage>–<lpage>1700</lpage>. doi:<pub-id pub-id-type="doi">10.1038/s41440-019-0260-4</pub-id><pub-id pub-id-type="pmid">30976074</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0008">
+        <label>8.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Ko</surname>
+<given-names>CY</given-names></string-name>, <string-name><surname>Hu</surname>
+<given-names>AK</given-names></string-name>, <string-name><surname>Zhang</surname>
+<given-names>L</given-names></string-name>, <string-name><surname>Lu</surname>
+<given-names>XL</given-names></string-name>, <string-name><surname>Zeng</surname>
+<given-names>YM</given-names></string-name>. <article-title>Alterations of oral microbiota in patients with obstructive sleep apnea-hypopnea syndrome treated with continuous positive airway pressure: a pilot study</article-title>. <source><italic toggle="yes">Sleep Breath</italic></source>. <year>2022</year>;<volume>26</volume>(<issue>2</issue>):<fpage>811</fpage>–<lpage>814</lpage>. doi:<pub-id pub-id-type="doi">10.1007/s11325-021-02428-7</pub-id><pub-id pub-id-type="pmid">34196941</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0009">
+        <label>9.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Gao</surname>
+<given-names>Y</given-names></string-name>, <string-name><surname>Wang</surname>
+<given-names>H</given-names></string-name>, <string-name><surname>Hu</surname>
+<given-names>Y</given-names></string-name>, et al. <article-title>Whole-genome metagenomic analysis of the oral microbiota in patients with obstructive sleep apnea</article-title>. <source><italic toggle="yes">Sleep Breath</italic></source>. <year>2023</year>;<volume>27</volume>(<issue>4</issue>):<fpage>1383</fpage>–<lpage>1398</lpage>. doi:<pub-id pub-id-type="doi">10.1007/s11325-022-02732-w</pub-id><pub-id pub-id-type="pmid">36401059</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0010">
+        <label>10.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Dominy</surname>
+<given-names>SS</given-names></string-name>, <string-name><surname>Lynch</surname>
+<given-names>C</given-names></string-name>, <string-name><surname>Ermini</surname>
+<given-names>F</given-names></string-name>, et al. <article-title>Porphyromonas gingivalis in Alzheimer’s disease brains: evidence for disease causation and treatment with small-molecule inhibitors</article-title>. <source><italic toggle="yes">Sci Adv</italic></source>. <year>2019</year>;<volume>5</volume>(<issue>1</issue>):<fpage>eaau3333</fpage>. doi:<pub-id pub-id-type="doi">10.1126/sciadv.aau3333</pub-id><pub-id pub-id-type="pmid">30746447</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0011">
+        <label>11.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Farrokhi</surname>
+<given-names>V</given-names></string-name>, <string-name><surname>Nemati</surname>
+<given-names>R</given-names></string-name>, <string-name><surname>Nichols</surname>
+<given-names>FC</given-names></string-name>, et al. <article-title>Bacterial lipodipeptide, Lipid 654, is a microbiome-associated biomarker for multiple sclerosis</article-title>. <source><italic toggle="yes">Clin Transl Immunology</italic></source>. <year>2013</year>;<volume>2</volume>(<issue>11</issue>):<fpage>e8</fpage>. doi:<pub-id pub-id-type="doi">10.1038/cti.2013.11</pub-id><pub-id pub-id-type="pmid">25505950</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0012">
+        <label>12.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Pereira</surname>
+<given-names>PAB</given-names></string-name>, <string-name><surname>Aho</surname>
+<given-names>VTE</given-names></string-name>, <string-name><surname>Paulin</surname>
+<given-names>L</given-names></string-name>, <string-name><surname>Pekkonen</surname>
+<given-names>E</given-names></string-name>, <string-name><surname>Auvinen</surname>
+<given-names>P</given-names></string-name>, <string-name><surname>Scheperjans</surname>
+<given-names>F</given-names></string-name>. <article-title>Oral and nasal microbiota in Parkinson’s disease</article-title>. <source><italic toggle="yes">Parkinsonism Relat d</italic></source>. <year>2017</year>;<volume>38</volume>(<issue>null</issue>):<fpage>61</fpage>–<lpage>67</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.parkreldis.2017.02.026</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0013">
+        <label>13.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Paudel</surname>
+<given-names>D</given-names></string-name>, <string-name><surname>Uehara</surname>
+<given-names>O</given-names></string-name>, <string-name><surname>Giri</surname>
+<given-names>S</given-names></string-name>, et al. <article-title>Effect of psychological stress on the oral-gut microbiota and the potential oral-gut-brain axis</article-title>. <source><italic toggle="yes">Jpn Dent Sci Rev</italic></source>. <year>2022</year>;<volume>58</volume>(<issue>null</issue>):<fpage>365</fpage>–<lpage>375</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.jdsr.2022.11.003</pub-id><pub-id pub-id-type="pmid">36425317</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0014">
+        <label>14.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Garbarino</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Bardwell</surname>
+<given-names>WA</given-names></string-name>, <string-name><surname>Guglielmi</surname>
+<given-names>O</given-names></string-name>, <string-name><surname>Chiorri</surname>
+<given-names>C</given-names></string-name>, <string-name><surname>Bonanni</surname>
+<given-names>E</given-names></string-name>, <string-name><surname>Magnavita</surname>
+<given-names>N</given-names></string-name>. <article-title>Association of anxiety and depression in obstructive sleep apnea patients: A systematic review and meta-analysis</article-title>. <source><italic toggle="yes">Behav Sleep Med</italic></source>. <year>2020</year>;<volume>18</volume>(<issue>1</issue>):<fpage>35</fpage>–<lpage>57</lpage>. doi:<pub-id pub-id-type="doi">10.1080/15402002.2018.1545649</pub-id><pub-id pub-id-type="pmid">30453780</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0015">
+        <label>15.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Chen</surname>
+<given-names>Y</given-names></string-name>, <string-name><surname>Chen</surname>
+<given-names>Y</given-names></string-name>, <string-name><surname>Shi</surname>
+<given-names>C</given-names></string-name>, et al. <article-title>SOAPnuke: a MapReduce acceleration-supported software for integrated quality control and preprocessing of high-throughput sequencing data</article-title>. <source><italic toggle="yes">Gigascience</italic></source>. <year>2018</year>;<volume>7</volume>(<issue>1</issue>):<fpage>1</fpage>–<lpage>6</lpage>. doi:<pub-id pub-id-type="doi">10.1093/gigascience/gix120</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0016">
+        <label>16.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Langmead</surname>
+<given-names>B</given-names></string-name>, <string-name><surname>Salzberg</surname>
+<given-names>SL</given-names></string-name>. <article-title>Fast gapped-read alignment with Bowtie 2</article-title>. <source><italic toggle="yes">Nat Methods</italic></source>. <year>2012</year>;<volume>9</volume>(<issue>4</issue>):<fpage>357</fpage>–<lpage>359</lpage>. doi:<pub-id pub-id-type="doi">10.1038/nmeth.1923</pub-id><pub-id pub-id-type="pmid">22388286</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0017">
+        <label>17.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Li</surname>
+<given-names>D</given-names></string-name>, <string-name><surname>Liu</surname>
+<given-names>CM</given-names></string-name>, <string-name><surname>Luo</surname>
+<given-names>R</given-names></string-name>, <string-name><surname>Sadakane</surname>
+<given-names>K</given-names></string-name>, <string-name><surname>Lam</surname>
+<given-names>TW</given-names></string-name>. <article-title>MEGAHIT: an ultra-fast single-node solution for large and complex metagenomics assembly via succinct de Bruijn graph</article-title>. <source><italic toggle="yes">Bioinformatics</italic></source>. <year>2015</year>;<volume>31</volume>(<issue>10</issue>):<fpage>1674</fpage>–<lpage>1676</lpage>. doi:<pub-id pub-id-type="doi">10.1093/bioinformatics/btv033</pub-id><pub-id pub-id-type="pmid">25609793</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0018">
+        <label>18.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Zhu</surname>
+<given-names>W</given-names></string-name>, <string-name><surname>Lomsadze</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Borodovsky</surname>
+<given-names>M</given-names></string-name>. <article-title>Ab initio gene identification in metagenomic sequences</article-title>. <source><italic toggle="yes">Nucleic Acids Res</italic></source>. <year>2010</year>;<volume>38</volume>(<issue>12</issue>):<fpage>e132</fpage>. doi:<pub-id pub-id-type="doi">10.1093/nar/gkq275</pub-id><pub-id pub-id-type="pmid">20403810</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0019">
+        <label>19.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Fu</surname>
+<given-names>L</given-names></string-name>, <string-name><surname>Niu</surname>
+<given-names>B</given-names></string-name>, <string-name><surname>Zhu</surname>
+<given-names>Z</given-names></string-name>, <string-name><surname>Wu</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Li</surname>
+<given-names>W</given-names></string-name>. <article-title>CD-HIT: accelerated for clustering the next-generation sequencing data</article-title>. <source><italic toggle="yes">Bioinformatics</italic></source>. <year>2012</year>;<volume>28</volume>(<issue>23</issue>):<fpage>3150</fpage>–<lpage>3152</lpage>. doi:<pub-id pub-id-type="doi">10.1093/bioinformatics/bts565</pub-id><pub-id pub-id-type="pmid">23060610</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0020">
+        <label>20.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Patro</surname>
+<given-names>R</given-names></string-name>, <string-name><surname>Duggal</surname>
+<given-names>G</given-names></string-name>, <string-name><surname>Love</surname>
+<given-names>MI</given-names></string-name>, <string-name><surname>Irizarry</surname>
+<given-names>RA</given-names></string-name>, <string-name><surname>Kingsford</surname>
+<given-names>C</given-names></string-name>. <article-title>Salmon provides fast and bias-aware quantification of transcript expression</article-title>. <source><italic toggle="yes">Nat Methods</italic></source>. <year>2017</year>;<volume>14</volume>(<issue>4</issue>):<fpage>417</fpage>–<lpage>419</lpage>. doi:<pub-id pub-id-type="doi">10.1038/nmeth.4197</pub-id><pub-id pub-id-type="pmid">28263959</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0021">
+        <label>21.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Wood</surname>
+<given-names>DE</given-names></string-name>, <string-name><surname>Lu</surname>
+<given-names>J</given-names></string-name>, <string-name><surname>Langmead</surname>
+<given-names>B</given-names></string-name>. <article-title>Improved metagenomic analysis with Kraken 2</article-title>. <source><italic toggle="yes">Genome Biol</italic></source>. <year>2019</year>;<volume>20</volume>(<issue>1</issue>):<fpage>257</fpage>. doi:<pub-id pub-id-type="doi">10.1186/s13059-019-1891-0</pub-id><pub-id pub-id-type="pmid">31779668</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0022">
+        <label>22.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Lu</surname>
+<given-names>J</given-names></string-name>, <string-name><surname>Breitwieser</surname>
+<given-names>FP</given-names></string-name>, <string-name><surname>Thielen</surname>
+<given-names>P</given-names></string-name>, <string-name><surname>Salzberg</surname>
+<given-names>SL</given-names></string-name>. <article-title>Bracken: estimating species abundance in metagenomics data</article-title>. <source><italic toggle="yes">PeerJ Comput Sci</italic></source>. <year>2017</year>;<volume>3</volume>:<fpage>e104</fpage>. doi:<pub-id pub-id-type="doi">10.7717/peerj-cs.104</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0023">
+        <label>23.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Meliante</surname>
+<given-names>PG</given-names></string-name>, <string-name><surname>Zoccali</surname>
+<given-names>F</given-names></string-name>, <string-name><surname>Cascone</surname>
+<given-names>F</given-names></string-name>, et al. <article-title>Molecular pathology, oxidative stress, and biomarkers in obstructive sleep apnea</article-title>. <source><italic toggle="yes">Int J Mol Sci</italic></source>. <year>2023</year>;<volume>24</volume>(<issue>6</issue>):<fpage>null</fpage>. doi:<pub-id pub-id-type="doi">10.3390/ijms24065478</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0024">
+        <label>24.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Bhatt</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Nagappa</surname>
+<given-names>AN</given-names></string-name>, <string-name><surname>Patil</surname>
+<given-names>CR</given-names></string-name>. <article-title>Role of oxidative stress in depression</article-title>. <source><italic toggle="yes">Drug Discov Today</italic></source>. <year>2020</year>;<volume>25</volume>(<issue>7</issue>):<fpage>1270</fpage>–<lpage>1276</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.drudis.2020.05.001</pub-id><pub-id pub-id-type="pmid">32404275</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0025">
+        <label>25.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Slavich</surname>
+<given-names>GM</given-names></string-name>, <string-name><surname>Sacher</surname>
+<given-names>J</given-names></string-name>. <article-title>Stress, sex hormones, inflammation, and major depressive disorder: extending social signal transduction theory of depression to account for sex differences in mood disorders</article-title>. <source><italic toggle="yes">Psychopharmacology</italic></source>. <year>2019</year>;<volume>236</volume>(<issue>10</issue>):<fpage>3063</fpage>–<lpage>3079</lpage>. doi:<pub-id pub-id-type="doi">10.1007/s00213-019-05326-9</pub-id><pub-id pub-id-type="pmid">31359117</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0026">
+        <label>26.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Paul</surname>
+<given-names>D</given-names></string-name>, <string-name><surname>Kumbhare</surname>
+<given-names>SV</given-names></string-name>, <string-name><surname>Mhatre</surname>
+<given-names>SS</given-names></string-name>, et al. <article-title>Exploration of microbial diversity and community structure of lonar lake: the only hypersaline meteorite crater lake within basalt rock</article-title>. <source><italic toggle="yes">Front Microbiol</italic></source>. <year>2015</year>;<volume>6</volume>(<issue>null</issue>):<fpage>1553</fpage>.<pub-id pub-id-type="pmid">26834712</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0027">
+        <label>27.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Atarashi</surname>
+<given-names>K</given-names></string-name>, <string-name><surname>Suda</surname>
+<given-names>W</given-names></string-name>, <string-name><surname>Luo</surname>
+<given-names>C</given-names></string-name>, et al. <article-title>Ectopic colonization of oral bacteria in the intestine drives TH1 cell induction and inflammation</article-title>. <source><italic toggle="yes">Science</italic></source>. <year>2017</year>;<volume>358</volume>(<issue>6361</issue>):<fpage>359</fpage>–<lpage>365</lpage>. doi:<pub-id pub-id-type="doi">10.1126/science.aan4526</pub-id><pub-id pub-id-type="pmid">29051379</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0028">
+        <label>28.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Dickson</surname>
+<given-names>I</given-names></string-name>. <article-title>Gut microbiota: oral bacteria: a cause of IBD?</article-title>
+<source><italic toggle="yes">Nat Rev Gastroenterol Hepatol</italic></source>. <year>2018</year>;<volume>15</volume>(<issue>1</issue>):<fpage>4</fpage>–<lpage>5</lpage>.</mixed-citation>
+      </ref>
+      <ref id="cit0029">
+        <label>29.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Kohn</surname>
+<given-names>JN</given-names></string-name>, <string-name><surname>Kosciolek</surname>
+<given-names>T</given-names></string-name>, <string-name><surname>Marotz</surname>
+<given-names>C</given-names></string-name>, et al. <article-title>Differing salivary microbiome diversity, community and diurnal rhythmicity in association with affective state and peripheral inflammation in adults</article-title>. <source><italic toggle="yes">Brain Behav Immun</italic></source>. <year>2020</year>;<volume>87</volume>(<issue>null</issue>):<fpage>591</fpage>–<lpage>602</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.bbi.2020.02.004</pub-id><pub-id pub-id-type="pmid">32061904</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0030">
+        <label>30.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Al Bataineh</surname>
+<given-names>MT</given-names></string-name>, <string-name><surname>Künstner</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Dash</surname>
+<given-names>NR</given-names></string-name>, et al. <article-title>Altered composition of the oral microbiota in depression among cigarette smokers: a pilot study</article-title>. <source><italic toggle="yes">Front Psychiatry</italic></source>. <year>2022</year>;<volume>13</volume>(<issue>null</issue>):<fpage>90s2433</fpage>. doi:<pub-id pub-id-type="doi">10.3389/fpsyt.2022.902433</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0031">
+        <label>31.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Rhee</surname>
+<given-names>SJ</given-names></string-name>, <string-name><surname>Kim</surname>
+<given-names>H</given-names></string-name>, <string-name><surname>Lee</surname>
+<given-names>Y</given-names></string-name>, et al. <article-title>Comparison of serum microbiome composition in bipolar and major depressive disorders</article-title>. <source><italic toggle="yes">J Psychiatr Res</italic></source>. <year>2020</year>;<volume>123</volume>(<issue>null</issue>):<fpage>31</fpage>–<lpage>38</lpage>.<pub-id pub-id-type="pmid">32028208</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0032">
+        <label>32.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Finegold</surname>
+<given-names>SM</given-names></string-name>, <string-name><surname>Dowd</surname>
+<given-names>SE</given-names></string-name>, <string-name><surname>Gontcharova</surname>
+<given-names>V</given-names></string-name>, et al. <article-title>Pyrosequencing study of fecal microflora of autistic and control children</article-title>. <source><italic toggle="yes">Anaerobe</italic></source>. <year>2010</year>;<volume>16</volume>(<issue>4</issue>):<fpage>444</fpage>–<lpage>453</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.anaerobe.2010.06.008</pub-id><pub-id pub-id-type="pmid">20603222</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0033">
+        <label>33.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Jiang</surname>
+<given-names>H</given-names></string-name>, <string-name><surname>Ling</surname>
+<given-names>Z</given-names></string-name>, <string-name><surname>Zhang</surname>
+<given-names>Y</given-names></string-name>, et al. <article-title>Altered fecal microbiota composition in patients with major depressive disorder</article-title>. <source><italic toggle="yes">Brain Behav Immun</italic></source>. <year>2015</year>;<volume>48</volume>(<issue>null</issue>):<fpage>186</fpage>–<lpage>194</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.bbi.2015.03.016</pub-id><pub-id pub-id-type="pmid">25882912</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0034">
+        <label>34.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Chen</surname>
+<given-names>Y</given-names></string-name>, <string-name><surname>Chen</surname>
+<given-names>X</given-names></string-name>, <string-name><surname>Huang</surname>
+<given-names>X</given-names></string-name>, <string-name><surname>Duan</surname>
+<given-names>Y</given-names></string-name>, <string-name><surname>Gao</surname>
+<given-names>H</given-names></string-name>, <string-name><surname>Gao</surname>
+<given-names>X</given-names></string-name>. <article-title>Analysis of salivary microbiome and its association with periodontitis in patients with obstructive sleep apnea</article-title>. <source><italic toggle="yes">Front Cell Infect Microbiol</italic></source>. <year>2021</year>;<volume>11</volume>(<issue>null</issue>):<fpage>752475</fpage>. doi:<pub-id pub-id-type="doi">10.3389/fcimb.2021.752475</pub-id><pub-id pub-id-type="pmid">34950605</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0035">
+        <label>35.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Chen</surname>
+<given-names>X</given-names></string-name>, <string-name><surname>Chen</surname>
+<given-names>Y</given-names></string-name>, <string-name><surname>Feng</surname>
+<given-names>M</given-names></string-name>, et al. <article-title>Altered salivary microbiota in patients with obstructive sleep apnea comorbid hypertension</article-title>. <source><italic toggle="yes">Nat Sci Sleep</italic></source>. <year>2022</year>;<volume>14</volume>(<issue>null</issue>):<fpage>593</fpage>–<lpage>607</lpage>. doi:<pub-id pub-id-type="doi">10.2147/NSS.S347630</pub-id><pub-id pub-id-type="pmid">35422668</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0036">
+        <label>36.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Jia</surname>
+<given-names>P</given-names></string-name>, <string-name><surname>Zou</surname>
+<given-names>J</given-names></string-name>, <string-name><surname>Yin</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Chen</surname>
+<given-names>F</given-names></string-name>, <string-name><surname>Yi</surname>
+<given-names>H</given-names></string-name>, <string-name><surname>Zhang</surname>
+<given-names>Q</given-names></string-name>. <article-title>Analysis of the salivary microbiome in obstructive sleep apnea syndrome patients</article-title>. <source><italic toggle="yes">Can j Infect Dis Med</italic></source>. <year>2020</year>;<volume>2020</volume>(<issue>null</issue>):<fpage>6682020</fpage>.</mixed-citation>
+      </ref>
+      <ref id="cit0037">
+        <label>37.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Zhang</surname>
+<given-names>X</given-names></string-name>, <string-name><surname>Li</surname>
+<given-names>X</given-names></string-name>, <string-name><surname>Xu</surname>
+<given-names>H</given-names></string-name>, et al. <article-title>Changes in the oral and nasal microbiota in pediatric obstructive sleep apnea</article-title>. <source><italic toggle="yes">J Oral Microbiol</italic></source>. <year>2023</year>;<volume>15</volume>(<issue>1</issue>):<fpage>2182571</fpage>. doi:<pub-id pub-id-type="doi">10.1080/20002297.2023.2182571</pub-id><pub-id pub-id-type="pmid">36875426</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0038">
+        <label>38.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Xu</surname>
+<given-names>H</given-names></string-name>, <string-name><surname>Li</surname>
+<given-names>X</given-names></string-name>, <string-name><surname>Zheng</surname>
+<given-names>X</given-names></string-name>, et al. <article-title>Pediatric obstructive sleep apnea is associated with changes in the oral microbiome and urinary metabolomics profile: a pilot study</article-title>. <source><italic toggle="yes">J Clin Sleep Med</italic></source>. <year>2018</year>;<volume>14</volume>(<issue>9</issue>):<fpage>1559</fpage>–<lpage>1567</lpage>. doi:<pub-id pub-id-type="doi">10.5664/jcsm.7336</pub-id><pub-id pub-id-type="pmid">30176961</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0039">
+        <label>39.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Shah</surname>
+<given-names>HN</given-names></string-name>, <string-name><surname>Collins</surname>
+<given-names>DM</given-names></string-name>. <article-title>Prevotella, a new genus to include bacteroides melaninogenicus and related species formerly classified in the genus bacteroides</article-title>. <source><italic toggle="yes">Int j Syst Bacteriol</italic></source>. <year>1990</year>;<volume>40</volume>(<issue>2</issue>):<fpage>205</fpage>–<lpage>208</lpage>. doi:<pub-id pub-id-type="doi">10.1099/00207713-40-2-205</pub-id><pub-id pub-id-type="pmid">2223612</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0040">
+        <label>40.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Krom</surname>
+<given-names>BP</given-names></string-name>, <string-name><surname>Kidwai</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Ten Cate</surname>
+<given-names>JM</given-names></string-name>. <article-title>Candida and other fungal species: forgotten players of healthy oral microbiota</article-title>. <source><italic toggle="yes">J Dent Res</italic></source>. <year>2014</year>;<volume>93</volume>(<issue>5</issue>):<fpage>445</fpage>–<lpage>451</lpage>. doi:<pub-id pub-id-type="doi">10.1177/0022034514521814</pub-id><pub-id pub-id-type="pmid">24487378</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0041">
+        <label>41.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Xie</surname>
+<given-names>Y</given-names></string-name>, <string-name><surname>Chen</surname>
+<given-names>J</given-names></string-name>, <string-name><surname>He</surname>
+<given-names>J</given-names></string-name>, et al. <article-title>Antimicrobial resistance and prevalence of resistance genes of obligate anaerobes isolated from periodontal abscesses</article-title>. <source><italic toggle="yes">J Periodontol</italic></source>. <year>2014</year>;<volume>85</volume>(<issue>2</issue>):<fpage>327</fpage>–<lpage>334</lpage>. doi:<pub-id pub-id-type="doi">10.1902/jop.2013.130081</pub-id><pub-id pub-id-type="pmid">23659425</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0042">
+        <label>42.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Lafaurie</surname>
+<given-names>GI</given-names></string-name>, <string-name><surname>Contreras</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Barón</surname>
+<given-names>A</given-names></string-name>, et al. <article-title>Demographic, clinical, and microbial aspects of chronic and aggressive periodontitis in Colombia: a multicenter study</article-title>. <source><italic toggle="yes">J Periodontol</italic></source>. <year>2007</year>;<volume>78</volume>(<issue>4</issue>):<fpage>629</fpage>–<lpage>639</lpage>. doi:<pub-id pub-id-type="doi">10.1902/jop.2007.060187</pub-id><pub-id pub-id-type="pmid">17397309</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0043">
+        <label>43.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Chung</surname>
+<given-names>YE</given-names></string-name>, <string-name><surname>Chen</surname>
+<given-names>HC</given-names></string-name>, <string-name><surname>Chou</surname>
+<given-names>HL</given-names></string-name>, et al. <article-title>Exploration of microbiota targets for major depressive disorder and mood related traits</article-title>. <source><italic toggle="yes">J Psychiatr Res</italic></source>. <year>2019</year>;<volume>111</volume>(<issue>null</issue>):<fpage>74</fpage>–<lpage>82</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.jpsychires.2019.01.016</pub-id><pub-id pub-id-type="pmid">30685565</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0044">
+        <label>44.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Lai</surname>
+<given-names>WT</given-names></string-name>, <string-name><surname>Zhao</surname>
+<given-names>J</given-names></string-name>, <string-name><surname>Xu</surname>
+<given-names>SX</given-names></string-name>, et al. <article-title>Shotgun metagenomics reveals both taxonomic and tryptophan pathway differences of gut microbiota in bipolar disorder with current major depressive episode patients</article-title>. <source><italic toggle="yes">J Affect Disord</italic></source>. <year>2021</year>;<volume>278</volume>(<issue>null</issue>):<fpage>311</fpage>–<lpage>319</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.jad.2020.09.010</pub-id><pub-id pub-id-type="pmid">32979562</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0045">
+        <label>45.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Simpson</surname>
+<given-names>CA</given-names></string-name>, <string-name><surname>Adler</surname>
+<given-names>C</given-names></string-name>, <string-name><surname>du Plessis</surname>
+<given-names>MR</given-names></string-name>, et al. <article-title>Oral microbiome composition, but not diversity, is associated with adolescent anxiety and depression symptoms</article-title>. <source><italic toggle="yes">Physiol Behav</italic></source>. <year>2020</year>;<volume>226</volume>(<issue>null</issue>):<fpage>113126</fpage>. doi:<pub-id pub-id-type="doi">10.1016/j.physbeh.2020.113126</pub-id><pub-id pub-id-type="pmid">32777312</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0046">
+        <label>46.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Brouwer</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Barnett</surname>
+<given-names>TC</given-names></string-name>, <string-name><surname>Rivera-Hernandez</surname>
+<given-names>T</given-names></string-name>, <string-name><surname>Rohde</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Walker</surname>
+<given-names>MJ</given-names></string-name>. <article-title>Streptococcus pyogenes adhesion and colonization</article-title>. <source><italic toggle="yes">FEBS Lett</italic></source>. <year>2016</year>;<volume>590</volume>(<issue>21</issue>):<fpage>3739</fpage>–<lpage>3757</lpage>. doi:<pub-id pub-id-type="doi">10.1002/1873-3468.12254</pub-id><pub-id pub-id-type="pmid">27312939</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0047">
+        <label>47.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Wu</surname>
+<given-names>BG</given-names></string-name>, <string-name><surname>Sulaiman</surname>
+<given-names>I</given-names></string-name>, <string-name><surname>Wang</surname>
+<given-names>J</given-names></string-name>, et al. <article-title>Severe obstructive sleep apnea is associated with alterations in the nasal microbiome and an increase in inflammation</article-title>. <source><italic toggle="yes">Am j Resp Crit Care</italic></source>. <year>2019</year>;<volume>199</volume>(<issue>1</issue>):<fpage>99</fpage>–<lpage>109</lpage>. doi:<pub-id pub-id-type="doi">10.1164/rccm.201801-0119OC</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0048">
+        <label>48.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Abranches</surname>
+<given-names>J</given-names></string-name>, <string-name><surname>Zeng</surname>
+<given-names>L</given-names></string-name>, <string-name><surname>Kajfasz</surname>
+<given-names>JK</given-names></string-name>, et al. <article-title>Biology of oral streptococci</article-title>. <source><italic toggle="yes">Microbiol Spectr</italic></source>. <year>2018</year>;<volume>6</volume>(<issue>5</issue>):<fpage>null</fpage>. doi:<pub-id pub-id-type="doi">10.1128/microbiolspec.GPP3-0042-2018</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0049">
+        <label>49.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Richardson</surname>
+<given-names>BN</given-names></string-name>, <string-name><surname>Noh</surname>
+<given-names>HI</given-names></string-name>, <string-name><surname>Webster</surname>
+<given-names>CI</given-names></string-name>, et al. <article-title>Oral microbiome, mental health, and sleep outcomes during the COVID-19 Pandemic: an observational study in Chinese and Korean American immigrants</article-title>. <source><italic toggle="yes">Omics</italic></source>. <year>2023</year>;<volume>27</volume>(<issue>4</issue>):<fpage>180</fpage>–<lpage>190</lpage>. doi:<pub-id pub-id-type="doi">10.1089/omi.2022.0182</pub-id><pub-id pub-id-type="pmid">36946910</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0050">
+        <label>50.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Lamb</surname>
+<given-names>AL</given-names></string-name>, <string-name><surname>Hess</surname>
+<given-names>DE</given-names></string-name>, <string-name><surname>Edenborn</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Ubinger</surname>
+<given-names>E</given-names></string-name>, <string-name><surname>Carrillo</surname>
+<given-names>AE</given-names></string-name>, <string-name><surname>Appasamy</surname>
+<given-names>PM</given-names></string-name>. <article-title>Elevated salivary IgA, decreased anxiety, and an altered oral microbiota are associated with active participation on an undergraduate athletic team</article-title>. <source><italic toggle="yes">Physiol Behav</italic></source>. <year>2017</year>;<volume>169</volume>(<issue>null</issue>):<fpage>169</fpage>–<lpage>177</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.physbeh.2016.12.004</pub-id><pub-id pub-id-type="pmid">27932242</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0051">
+        <label>51.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Bakunina</surname>
+<given-names>N</given-names></string-name>, <string-name><surname>Pariante</surname>
+<given-names>CM</given-names></string-name>, <string-name><surname>Zunszain</surname>
+<given-names>PA</given-names></string-name>. <article-title>Immune mechanisms linked to depression via oxidative stress and neuroprogression</article-title>. <source><italic toggle="yes">Immunology</italic></source>. <year>2015</year>;<volume>144</volume>(<issue>3</issue>):<fpage>365</fpage>–<lpage>373</lpage>. doi:<pub-id pub-id-type="doi">10.1111/imm.12443</pub-id><pub-id pub-id-type="pmid">25580634</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0052">
+        <label>52.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Krishnadas</surname>
+<given-names>R</given-names></string-name>, <string-name><surname>Cavanagh</surname>
+<given-names>J</given-names></string-name>. <article-title>Depression: an inflammatory illness?</article-title>
+<source><italic toggle="yes">J Neurol Neurosur Ps</italic></source>. <year>2012</year>;<volume>83</volume>(<issue>5</issue>):<fpage>495</fpage>–<lpage>502</lpage>. doi:<pub-id pub-id-type="doi">10.1136/jnnp-2011-301779</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0053">
+        <label>53.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Hannestad</surname>
+<given-names>J</given-names></string-name>, <string-name><surname>DellaGioia</surname>
+<given-names>N</given-names></string-name>, <string-name><surname>Bloch</surname>
+<given-names>M</given-names></string-name>. <article-title>The effect of antidepressant medication treatment on serum levels of inflammatory cytokines: a meta-analysis</article-title>. <source><italic toggle="yes">Neuropsychopharmacol</italic></source>. <year>2011</year>;<volume>36</volume>(<issue>12</issue>):<fpage>2452</fpage>–<lpage>2459</lpage>. doi:<pub-id pub-id-type="doi">10.1038/npp.2011.132</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0054">
+        <label>54.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Valkanova</surname>
+<given-names>V</given-names></string-name>, <string-name><surname>Ebmeier</surname>
+<given-names>KP</given-names></string-name>, <string-name><surname>Allan CL.</surname>
+<given-names>CRP</given-names></string-name>. <article-title>IL-6 and depression: a systematic review and meta-analysis of longitudinal studies</article-title>. <source><italic toggle="yes">J Affect Disord</italic></source>. <year>2013</year>;<volume>150</volume>(<issue>3</issue>):<fpage>736</fpage>–<lpage>744</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.jad.2013.06.004</pub-id><pub-id pub-id-type="pmid">23870425</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0055">
+        <label>55.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Takayanagi</surname>
+<given-names>H</given-names></string-name>. <article-title>Osteoclast differentiation and activation</article-title>. <source><italic toggle="yes">Clin Calcium</italic></source>. <year>2007</year>;<volume>17</volume>(<issue>4</issue>):<fpage>484</fpage>–<lpage>492</lpage>.<pub-id pub-id-type="pmid">17404476</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0056">
+        <label>56.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Campos-Rodriguez</surname>
+<given-names>F</given-names></string-name>, <string-name><surname>Cordero-Guevara</surname>
+<given-names>J</given-names></string-name>, <string-name><surname>Asensio-Cruz</surname>
+<given-names>MI</given-names></string-name>, et al. <article-title>Interleukin 6 as a marker of depression in women with sleep apnea</article-title>. <source><italic toggle="yes">J Sleep Res</italic></source>. <year>2021</year>;<volume>30</volume>(<issue>1</issue>):<fpage>e13035</fpage>. doi:<pub-id pub-id-type="doi">10.1111/jsr.13035</pub-id><pub-id pub-id-type="pmid">32212220</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0057">
+        <label>57.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Papanicolaou</surname>
+<given-names>DA</given-names></string-name>, <string-name><surname>Wilder</surname>
+<given-names>RL</given-names></string-name>, <string-name><surname>Manolagas</surname>
+<given-names>SC</given-names></string-name>, <string-name><surname>Chrousos</surname>
+<given-names>GP</given-names></string-name>. <article-title>The pathophysiologic roles of interleukin-6 in human disease</article-title>. <source><italic toggle="yes">Ann Intern Med</italic></source>. <year>1998</year>;<volume>128</volume>(<issue>2</issue>):<fpage>127</fpage>–<lpage>137</lpage>. doi:<pub-id pub-id-type="doi">10.7326/0003-4819-128-2-199801150-00009</pub-id><pub-id pub-id-type="pmid">9441573</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0058">
+        <label>58.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Maes</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Scharpé</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Meltzer</surname>
+<given-names>HY</given-names></string-name>, et al. <article-title>Relationships between interleukin-6 activity, acute phase proteins, and function of the hypothalamic-pituitary-adrenal axis in severe depression</article-title>. <source><italic toggle="yes">Psychiat Res</italic></source>. <year>1993</year>;<volume>49</volume>(<issue>1</issue>):<fpage>11</fpage>–<lpage>27</lpage>. doi:<pub-id pub-id-type="doi">10.1016/0165-1781(93)90027-E</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0059">
+        <label>59.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Bogl</surname>
+<given-names>LH</given-names></string-name>, <string-name><surname>Kaye</surname>
+<given-names>SM</given-names></string-name>, <string-name><surname>Rämö</surname>
+<given-names>JT</given-names></string-name>, et al. <article-title>Abdominal obesity and circulating metabolites: a twin study approach</article-title>. <source><italic toggle="yes">Metabolism</italic></source>. <year>2016</year>;<volume>65</volume>(<issue>3</issue>):<fpage>111</fpage>–<lpage>121</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.metabol.2015.10.027</pub-id><pub-id pub-id-type="pmid">26892522</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0060">
+        <label>60.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Hay</surname>
+<given-names>N</given-names></string-name>, <string-name><surname>Sonenberg</surname>
+<given-names>N</given-names></string-name>. <article-title>Upstream and downstream of mTOR</article-title>. <source><italic toggle="yes">Gene dev</italic></source>. <year>2004</year>;<volume>18</volume>(<issue>16</issue>):<fpage>1926</fpage>–<lpage>1945</lpage>. doi:<pub-id pub-id-type="doi">10.1101/gad.1212704</pub-id><pub-id pub-id-type="pmid">15314020</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0061">
+        <label>61.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Melnik</surname>
+<given-names>BC</given-names></string-name>. <article-title>Leucine signaling in the pathogenesis of type 2 diabetes and obesity</article-title>. <source><italic toggle="yes">World J Diabetes</italic></source>. <year>2012</year>;<volume>3</volume>(<issue>3</issue>):<fpage>38</fpage>–<lpage>53</lpage>. doi:<pub-id pub-id-type="doi">10.4239/wjd.v3.i3.38</pub-id><pub-id pub-id-type="pmid">22442749</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0062">
+        <label>62.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Xu</surname>
+<given-names>Q</given-names></string-name>, <string-name><surname>Vu</surname>
+<given-names>H</given-names></string-name>, <string-name><surname>Liu</surname>
+<given-names>L</given-names></string-name>, <string-name><surname>Wang</surname>
+<given-names>TC</given-names></string-name>, <string-name><surname>Schaefer</surname>
+<given-names>WH</given-names></string-name>. <article-title>Metabolic profiles show specific mitochondrial toxicities in vitro in myotube cells</article-title>. <source><italic toggle="yes">J Biomol Nmr</italic></source>. <year>2011</year>;<volume>49</volume>(<issue>3–4</issue>):<fpage>207</fpage>–<lpage>219</lpage>. doi:<pub-id pub-id-type="doi">10.1007/s10858-011-9482-8</pub-id><pub-id pub-id-type="pmid">21359514</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0063">
+        <label>63.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Felig</surname>
+<given-names>P</given-names></string-name>, <string-name><surname>Marliss</surname>
+<given-names>E</given-names></string-name>, <string-name><surname>Cahill</surname>
+<given-names>GF</given-names></string-name>. <article-title>Plasma amino acid levels and insulin secretion in obesity</article-title>. <source><italic toggle="yes">New engl j med</italic></source>. <year>1969</year>;<volume>281</volume>(<issue>15</issue>):<fpage>811</fpage>–<lpage>816</lpage>. doi:<pub-id pub-id-type="doi">10.1056/NEJM196910092811503</pub-id><pub-id pub-id-type="pmid">5809519</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0064">
+        <label>64.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Wang</surname>
+<given-names>TJ</given-names></string-name>, <string-name><surname>Larson</surname>
+<given-names>MG</given-names></string-name>, <string-name><surname>Vasan</surname>
+<given-names>RS</given-names></string-name>, et al. <article-title>Metabolite profiles and the risk of developing diabetes</article-title>. <source><italic toggle="yes">Nat med</italic></source>. <year>2011</year>;<volume>17</volume>(<issue>4</issue>):<fpage>448</fpage>–<lpage>453</lpage>. doi:<pub-id pub-id-type="doi">10.1038/nm.2307</pub-id><pub-id pub-id-type="pmid">21423183</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0065">
+        <label>65.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Webhofer</surname>
+<given-names>C</given-names></string-name>, <string-name><surname>Gormanns</surname>
+<given-names>P</given-names></string-name>, <string-name><surname>Tolstikov</surname>
+<given-names>V</given-names></string-name>, et al. <article-title>Metabolite profiling of antidepressant drug action reveals novel drug targets beyond monoamine elevation</article-title>. <source><italic toggle="yes">Transl Psychiatry</italic></source>. <year>2011</year>;<volume>1</volume>(<issue>null</issue>):<fpage>e58</fpage>. doi:<pub-id pub-id-type="doi">10.1038/tp.2011.56</pub-id><pub-id pub-id-type="pmid">22832350</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0066">
+        <label>66.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Jernigan</surname>
+<given-names>CS</given-names></string-name>, <string-name><surname>Goswami</surname>
+<given-names>DB</given-names></string-name>, <string-name><surname>Austin</surname>
+<given-names>MC</given-names></string-name>, et al. <article-title>The mTOR signaling pathway in the prefrontal cortex is compromised in major depressive disorder</article-title>. <source><italic toggle="yes">Prog Neuropsyc Biol Psych</italic></source>. <year>2011</year>;<volume>35</volume>(<issue>7</issue>):<fpage>1774</fpage>–<lpage>1779</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.pnpbp.2011.05.010</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0067">
+        <label>67.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Baranyi</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Amouzadeh-Ghadikolai</surname>
+<given-names>O</given-names></string-name>, <string-name><surname>von Lewinski</surname>
+<given-names>D</given-names></string-name>, et al. <article-title>Branched-chain amino acids as new biomarkers of major depression - a novel neurobiology of mood disorder</article-title>. <source><italic toggle="yes">PLoS One</italic></source>. <year>2016</year>;<volume>11</volume>(<issue>8</issue>):<fpage>e0160542</fpage>. doi:<pub-id pub-id-type="doi">10.1371/journal.pone.0160542</pub-id><pub-id pub-id-type="pmid">27490818</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0068">
+        <label>68.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Ali</surname>
+<given-names>T</given-names></string-name>, <string-name><surname>Rahman</surname>
+<given-names>SU</given-names></string-name>, <string-name><surname>Hao</surname>
+<given-names>Q</given-names></string-name>, et al. <article-title>Melatonin prevents neuroinflammation and relieves depression by attenuating autophagy impairment through FOXO3a regulation</article-title>. <source><italic toggle="yes">J Pineal Res</italic></source>. <year>2020</year>;<volume>69</volume>(<issue>2</issue>):<fpage>e12667</fpage>. doi:<pub-id pub-id-type="doi">10.1111/jpi.12667</pub-id><pub-id pub-id-type="pmid">32375205</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0069">
+        <label>69.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Lyu</surname>
+<given-names>D</given-names></string-name>, <string-name><surname>Wang</surname>
+<given-names>F</given-names></string-name>, <string-name><surname>Zhang</surname>
+<given-names>M</given-names></string-name>, et al. <article-title>Ketamine induces rapid antidepressant effects via the autophagy-NLRP3 inflammasome pathway</article-title>. <source><italic toggle="yes">Psychopharmacology</italic></source>. <year>2022</year>;<volume>239</volume>(<issue>10</issue>):<fpage>3201</fpage>–<lpage>3212</lpage>. doi:<pub-id pub-id-type="doi">10.1007/s00213-022-06201-w</pub-id><pub-id pub-id-type="pmid">35925279</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0070">
+        <label>70.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Gong</surname>
+<given-names>LJ</given-names></string-name>, <string-name><surname>Wang</surname>
+<given-names>XY</given-names></string-name>, <string-name><surname>Gu</surname>
+<given-names>WY</given-names></string-name>, <string-name><surname>Wu</surname>
+<given-names>X</given-names></string-name>. <article-title>Pinocembrin ameliorates intermittent hypoxia-induced neuroinflammation through BNIP3-dependent mitophagy in a murine model of sleep apnea</article-title>. <source><italic toggle="yes">J Neuroinflammation</italic></source>. <year>2020</year>;<volume>17</volume>(<issue>1</issue>):<fpage>337</fpage>. doi:<pub-id pub-id-type="doi">10.1186/s12974-020-02014-w</pub-id><pub-id pub-id-type="pmid">33176803</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0071">
+        <label>71.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Gassen</surname>
+<given-names>NC</given-names></string-name>, <string-name><surname>Rein</surname>
+<given-names>T</given-names></string-name>. <article-title>Is there a role of autophagy in depression and antidepressant action?</article-title>
+<source><italic toggle="yes">Front Psychiatry</italic></source>. <year>2019</year>;<volume>10</volume>(<issue>null</issue>):<fpage>337</fpage>. doi:<pub-id pub-id-type="doi">10.3389/fpsyt.2019.00337</pub-id><pub-id pub-id-type="pmid">31156481</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0072">
+        <label>72.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Hernandez</surname>
+<given-names>D</given-names></string-name>, <string-name><surname>Torres</surname>
+<given-names>CA</given-names></string-name>, <string-name><surname>Setlik</surname>
+<given-names>W</given-names></string-name>, et al. <article-title>Regulation of presynaptic neurotransmission by macroautophagy</article-title>. <source><italic toggle="yes">Neuron</italic></source>. <year>2012</year>;<volume>74</volume>(<issue>2</issue>):<fpage>277</fpage>–<lpage>284</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.neuron.2012.02.020</pub-id><pub-id pub-id-type="pmid">22542182</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0073">
+        <label>73.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Alcocer-Gómez</surname>
+<given-names>E</given-names></string-name>, <string-name><surname>Casas-Barquero</surname>
+<given-names>N</given-names></string-name>, <string-name><surname>Núñez-Vasco</surname>
+<given-names>J</given-names></string-name>, <string-name><surname>Navarro-Pando</surname>
+<given-names>JM</given-names></string-name>, <string-name><surname>Bullón</surname>
+<given-names>P</given-names></string-name>. <article-title>Psychological status in depressive patients correlates with metabolic gene expression</article-title>. <source><italic toggle="yes">Cns Neurosci Ther</italic></source>. <year>2017</year>;<volume>23</volume>(<issue>10</issue>):<fpage>843</fpage>–<lpage>845</lpage>. doi:<pub-id pub-id-type="doi">10.1111/cns.12755</pub-id><pub-id pub-id-type="pmid">28879683</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0074">
+        <label>74.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Nestler</surname>
+<given-names>EJ</given-names></string-name>, <string-name><surname>Hyman</surname>
+<given-names>SE</given-names></string-name>. <article-title>Animal models of neuropsychiatric disorders</article-title>. <source><italic toggle="yes">Nat Neurosci</italic></source>. <year>2010</year>;<volume>13</volume>(<issue>10</issue>):<fpage>1161</fpage>–<lpage>1169</lpage>. doi:<pub-id pub-id-type="doi">10.1038/nn.2647</pub-id><pub-id pub-id-type="pmid">20877280</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0075">
+        <label>75.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Woo</surname>
+<given-names>H</given-names></string-name>, <string-name><surname>Hong</surname>
+<given-names>CJ</given-names></string-name>, <string-name><surname>Jung</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Choe</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Yu</surname>
+<given-names>SW</given-names></string-name>. <article-title>Chronic restraint stress induces hippocampal memory deficits by impairing insulin signaling</article-title>. <source><italic toggle="yes">Mol Brain</italic></source>. <year>2018</year>;<volume>11</volume>(<issue>1</issue>):<fpage>37</fpage>. doi:<pub-id pub-id-type="doi">10.1186/s13041-018-0381-8</pub-id><pub-id pub-id-type="pmid">29970188</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0076">
+        <label>76.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Ding</surname>
+<given-names>H</given-names></string-name>, <string-name><surname>Guo</surname>
+<given-names>H</given-names></string-name>, <string-name><surname>Cao</surname>
+<given-names>J</given-names></string-name>. <article-title>The importance of autophagy regulation in obstructive sleep apnea</article-title>. <source><italic toggle="yes">Sleep Breath</italic></source>. <year>2021</year>;<volume>25</volume>(<issue>3</issue>):<fpage>1211</fpage>–<lpage>1218</lpage>. doi:<pub-id pub-id-type="doi">10.1007/s11325-020-02261-4</pub-id><pub-id pub-id-type="pmid">33394324</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0077">
+        <label>77.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Ko</surname>
+<given-names>J</given-names></string-name>, <string-name><surname>Lim</surname>
+<given-names>JH</given-names></string-name>, <string-name><surname>Kim</surname>
+<given-names>DB</given-names></string-name>, et al. <article-title>Association between alcohol use disorder and risk of obstructive sleep apnea</article-title>. <source><italic toggle="yes">J Sleep Res</italic></source>. <year>2023</year>;<volume>null</volume>(<issue>null</issue>):<fpage>e14128</fpage>.</mixed-citation>
+      </ref>
+      <ref id="cit0078">
+        <label>78.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Burgos-Sanchez</surname>
+<given-names>C</given-names></string-name>, <string-name><surname>Jones</surname>
+<given-names>NN</given-names></string-name>, <string-name><surname>Avillion</surname>
+<given-names>M</given-names></string-name>, et al. <article-title>Impact of alcohol consumption on snoring and sleep apnea: a systematic review and meta-analysis</article-title>. <source><italic toggle="yes">Otolaryng Head Neck</italic></source>. <year>2020</year>;<volume>163</volume>(<issue>6</issue>):<fpage>1078</fpage>–<lpage>1086</lpage>. doi:<pub-id pub-id-type="doi">10.1177/0194599820931087</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0079">
+        <label>79.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Lina-Jolien</surname>
+<given-names>P</given-names></string-name>, <string-name><surname>Rocío</surname>
+<given-names>GJ</given-names></string-name>, <string-name><surname>Miquel</surname>
+<given-names>R</given-names></string-name>, et al. <article-title>Moderate alcohol consumption and depression prevention: a critical review</article-title>. <source><italic toggle="yes">Actas esp psiquiatri</italic></source>. <year>2022</year>;<volume>50</volume>(<issue>3</issue>):<fpage>126</fpage>–<lpage>133</lpage>.</mixed-citation>
+      </ref>
+      <ref id="cit0080">
+        <label>80.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Gémes</surname>
+<given-names>K</given-names></string-name>, <string-name><surname>Forsell</surname>
+<given-names>Y</given-names></string-name>, <string-name><surname>Janszky</surname>
+<given-names>I</given-names></string-name>, et al. <article-title>Moderate alcohol consumption and depression - a longitudinal population-based study in Sweden</article-title>. <source><italic toggle="yes">Acta Psychiat Scand</italic></source>. <year>2019</year>;<volume>139</volume>(<issue>6</issue>):<fpage>526</fpage>–<lpage>535</lpage>. doi:<pub-id pub-id-type="doi">10.1111/acps.13034</pub-id><pub-id pub-id-type="pmid">30980542</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0081">
+        <label>81.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Sivolap</surname>
+<given-names>YP</given-names></string-name>, <string-name><surname>Krupitsky</surname>
+<given-names>EM</given-names></string-name>, <string-name><surname>Mendelevich</surname>
+<given-names>VD</given-names></string-name>, et al. <article-title>Dual diagnosis: depression and alcohol use disorder</article-title>. <source><italic toggle="yes">Zh nevrol psikhiatr</italic></source>. <year>2021</year>;<volume>121</volume>(<issue>7</issue>):<fpage>135</fpage>–<lpage>140</lpage>. doi:<pub-id pub-id-type="doi">10.17116/jnevro2021121071135</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0082">
+        <label>82.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Lages</surname>
+<given-names>EJ</given-names></string-name>, <string-name><surname>Costa</surname>
+<given-names>FO</given-names></string-name>, <string-name><surname>Cortelli</surname>
+<given-names>SC</given-names></string-name>, et al. <article-title>Alcohol consumption and periodontitis: quantification of periodontal pathogens and cytokines</article-title>. <source><italic toggle="yes">J Periodontol</italic></source>. <year>2015</year>;<volume>86</volume>(<issue>9</issue>):<fpage>1058</fpage>–<lpage>1068</lpage>. doi:<pub-id pub-id-type="doi">10.1902/jop.2015.150087</pub-id><pub-id pub-id-type="pmid">26062839</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0083">
+        <label>83.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Enberg</surname>
+<given-names>N</given-names></string-name>, <string-name><surname>Alho</surname>
+<given-names>H</given-names></string-name>, <string-name><surname>Loimaranta</surname>
+<given-names>V</given-names></string-name>, <string-name><surname>Lenander-Lumikari</surname>
+<given-names>M</given-names></string-name>. <article-title>Saliva flow rate, amylase activity, and protein and electrolyte concentrations in saliva after acute alcohol consumption</article-title>. <source><italic toggle="yes">Oral Surg Oral Med o</italic></source>. <year>2001</year>;<volume>92</volume>(<issue>3</issue>):<fpage>292</fpage>–<lpage>298</lpage>. doi:<pub-id pub-id-type="doi">10.1067/moe.2001.116814</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0084">
+        <label>84.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Fan</surname>
+<given-names>X</given-names></string-name>, <string-name><surname>Peters</surname>
+<given-names>BA</given-names></string-name>, <string-name><surname>Jacobs</surname>
+<given-names>EJ</given-names></string-name>, et al. <article-title>Drinking alcohol is associated with variation in the human oral microbiome in a large study of American adults</article-title>. <source><italic toggle="yes">Microbiome</italic></source>. <year>2018</year>;<volume>6</volume>(<issue>1</issue>):<fpage>59</fpage>. doi:<pub-id pub-id-type="doi">10.1186/s40168-018-0448-x</pub-id><pub-id pub-id-type="pmid">29685174</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0085">
+        <label>85.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Liao</surname>
+<given-names>Y</given-names></string-name>, <string-name><surname>XT</surname>
+<given-names>T</given-names></string-name>, <string-name><surname>YJ</surname>
+<given-names>J</given-names></string-name>, et al. <article-title>The Effects of alcohol drinking on oral microbiota in the Chinese population</article-title>. <source><italic toggle="yes">Int J Environ Res Public Health</italic></source>. <year>2022</year>;<volume>19</volume>(<issue>9</issue>):<fpage>null</fpage>. doi:<pub-id pub-id-type="doi">10.3390/ijerph19095729</pub-id></mixed-citation>
+      </ref>
+    </ref-list>
+  </back>
+</article>
+</pmc-articleset>

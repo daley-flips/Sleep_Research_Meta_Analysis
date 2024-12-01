@@ -1,0 +1,582 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<pmc-articleset><article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" dtd-version="1.3" xml:lang="en" article-type="research-article">
+  <?properties open_access?>
+  <processing-meta base-tagset="archiving" mathml-version="3.0" table-model="xhtml" tagset-family="jats">
+    <restricted-by>pmc</restricted-by>
+  </processing-meta>
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="nlm-ta">Nat Sci Sleep</journal-id>
+      <journal-id journal-id-type="iso-abbrev">Nat Sci Sleep</journal-id>
+      <journal-id journal-id-type="publisher-id">nss</journal-id>
+      <journal-title-group>
+        <journal-title>Nature and Science of Sleep</journal-title>
+      </journal-title-group>
+      <issn pub-type="epub">1179-1608</issn>
+      <publisher>
+        <publisher-name>Dove</publisher-name>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="pmid">35783665</article-id>
+      <article-id pub-id-type="pmc">9241996</article-id>
+      <article-id pub-id-type="publisher-id">361270</article-id>
+      <article-id pub-id-type="doi">10.2147/NSS.S361270</article-id>
+      <article-categories>
+        <subj-group subj-group-type="heading">
+          <subject>Original Research</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>End-to-End Sleep Staging Using Nocturnal Sounds from Microphone Chips for Mobile Devices</article-title>
+        <alt-title alt-title-type="running-authors">Hong et al</alt-title>
+        <alt-title alt-title-type="running-title">Hong et al</alt-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0002-8378-3332</contrib-id>
+          <name>
+            <surname>Hong</surname>
+            <given-names>Joonki</given-names>
+          </name>
+          <xref rid="aff0001" ref-type="aff">
+<sup>1</sup>
+</xref>
+          <xref rid="aff0002" ref-type="aff">
+<sup>2</sup>
+</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0002-4006-3909</contrib-id>
+          <name>
+            <surname>Tran</surname>
+            <given-names>Hai Hong</given-names>
+          </name>
+          <xref rid="aff0001" ref-type="aff">
+<sup>1</sup>
+</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0002-2455-4206</contrib-id>
+          <name>
+            <surname>Jung</surname>
+            <given-names>Jinhwan</given-names>
+          </name>
+          <xref rid="aff0001" ref-type="aff">
+<sup>1</sup>
+</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0002-7314-0739</contrib-id>
+          <name>
+            <surname>Jang</surname>
+            <given-names>Hyeryung</given-names>
+          </name>
+          <xref rid="aff0003" ref-type="aff">
+<sup>3</sup>
+</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0003-4660-6174</contrib-id>
+          <name>
+            <surname>Lee</surname>
+            <given-names>Dongheon</given-names>
+          </name>
+          <xref rid="aff0001" ref-type="aff">
+<sup>1</sup>
+</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0002-3995-8238</contrib-id>
+          <name>
+            <surname>Yoon</surname>
+            <given-names>In-Young</given-names>
+          </name>
+          <xref rid="aff0004" ref-type="aff">
+<sup>4</sup>
+</xref>
+          <xref rid="aff0005" ref-type="aff">
+<sup>5</sup>
+</xref>
+        </contrib>
+        <contrib contrib-type="author" equal-contrib="yes">
+          <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0002-1893-7868</contrib-id>
+          <name>
+            <surname>Hong</surname>
+            <given-names>Jung Kyung</given-names>
+          </name>
+          <xref rid="aff0004" ref-type="aff">
+<sup>4</sup>
+</xref>
+          <xref rid="aff0005" ref-type="aff">
+<sup>5</sup>
+</xref>
+          <xref rid="ft0001" ref-type="author-notes">*</xref>
+          <xref rid="an0002" ref-type="corresp"/>
+        </contrib>
+        <contrib contrib-type="author" equal-contrib="yes">
+          <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0003-4858-3316</contrib-id>
+          <name>
+            <surname>Kim</surname>
+            <given-names>Jeong-Whun</given-names>
+          </name>
+          <xref rid="aff0005" ref-type="aff">
+<sup>5</sup>
+</xref>
+          <xref rid="aff0006" ref-type="aff">
+<sup>6</sup>
+</xref>
+          <xref rid="ft0001" ref-type="author-notes">*</xref>
+          <xref rid="an0001" ref-type="corresp"/>
+        </contrib>
+        <aff id="aff0001"><label>1</label><institution>Asleep Inc</institution>., <addr-line>Seoul</addr-line>, <country>Korea</country></aff>
+        <aff id="aff0002"><label>2</label><institution>Korea Advanced Institute of Science and Technology</institution>, <addr-line>Daejeon</addr-line>, <country>Korea</country></aff>
+        <aff id="aff0003"><label>3</label><institution>Dongguk University</institution>, <addr-line>Seoul</addr-line>, <country>Korea</country></aff>
+        <aff id="aff0004"><label>4</label><institution>Department of Psychiatry, Seoul National University Bundang Hospital</institution>, <addr-line>Seongnam</addr-line>, <country>Korea</country></aff>
+        <aff id="aff0005"><label>5</label><institution>Seoul National University College of Medicine</institution>, <addr-line>Seoul</addr-line>, <country>Korea</country></aff>
+        <aff id="aff0006"><label>6</label><institution>Department of Otorhinolaryngology, Seoul National University Bundang Hospital</institution>, <addr-line>Seongnam</addr-line>, <country>Korea</country></aff>
+      </contrib-group>
+      <author-notes>
+        <corresp id="an0001">Correspondence: Jeong-Whun Kim, <institution>Department of Otorhinolaryngology, Seoul National University College of Medicine, Seoul National University Bundang Hospital</institution>, <addr-line>82, Gumi-ro 173beon-gil, Bundang-gu</addr-line>, <addr-line>Seongnam</addr-line>, <addr-line>Gyeonggi-do</addr-line>, <addr-line>463-707</addr-line>, <country>Korea</country>, Email kimemails7@gmail.com</corresp>
+        <corresp id="an0002">Jung Kyung Hong, <institution>Department of Psychiatry, Seoul National University College of Medicine, Seoul National University Bundang Hospital</institution>, <addr-line>82, Gumi-ro 173beon-gil, Bundang-gu</addr-line>, <addr-line>Seongnam</addr-line>, <addr-line>Gyeonggi-do</addr-line>, <addr-line>463-707</addr-line>, <country>Korea</country>, Email hongjk15@gmail.com</corresp>
+        <fn id="ft0001">
+          <label>*</label>
+          <p><citation_analysis attribute="neither">These authors contributed equally to this work</citation_analysis></p>
+        </fn>
+      </author-notes>
+      <pub-date pub-type="epub">
+        <day>25</day>
+        <month>6</month>
+        <year>2022</year>
+      </pub-date>
+      <pub-date pub-type="collection">
+        <year>2022</year>
+      </pub-date>
+      <volume>14</volume>
+      <fpage>1187</fpage>
+      <lpage>1201</lpage>
+      <history>
+        <date date-type="received">
+          <day>08</day>
+          <month>2</month>
+          <year>2022</year>
+        </date>
+        <date date-type="accepted">
+          <day>03</day>
+          <month>6</month>
+          <year>2022</year>
+        </date>
+      </history>
+      <permissions>
+        <copyright-statement>© 2022 Hong et al.</copyright-statement>
+        <copyright-year>2022</copyright-year>
+        <copyright-holder>Hong et al.</copyright-holder>
+        <license>
+          <ali:license_ref xmlns:ali="http://www.niso.org/schemas/ali/1.0/" specific-use="textmining" content-type="ccbynclicense">https://creativecommons.org/licenses/by-nc/3.0/</ali:license_ref>
+          <license-p>This work is published and licensed by Dove Medical Press Limited. The full terms of this license are available at <ext-link ext-link-type="uri" xlink:href="https://www.dovepress.com/terms.php">https://www.dovepress.com/terms.php</ext-link> and incorporate the Creative Commons Attribution – Non Commercial (unported, v3.0) License (<ext-link ext-link-type="uri" xlink:href="https://creativecommons.org/licenses/by-nc/3.0/">http://creativecommons.org/licenses/by-nc/3.0/</ext-link>). By accessing the work you hereby accept the Terms. Non-commercial uses of the work are permitted without any further permission from Dove Medical Press Limited, provided the work is properly attributed. For permission for commercial use of this work, please see paragraphs 4.2 and 5 of our Terms (<ext-link ext-link-type="uri" xlink:href="https://www.dovepress.com/terms.php">https://www.dovepress.com/terms.php</ext-link>).</license-p>
+        </license>
+      </permissions>
+      <abstract>
+        <sec id="s2001">
+          <title>Purpose</title>
+          <p><citation_analysis attribute="positive">Nocturnal sounds contain numerous information and are easily obtainable by a non-contact manner. Sleep staging using nocturnal sounds recorded from common mobile devices may allow daily at-home sleep tracking. The objective of this study is to introduce an end-to-end (sound-to-sleep stages) deep learning model for sound-based sleep staging designed to work with audio from microphone chips, which are essential in mobile devices such as modern smartphones.</citation_analysis></p>
+        </sec>
+        <sec id="s2002">
+          <title>Patients and Methods</title>
+          <p><citation_analysis attribute="neither">Two different audio datasets were used: audio data routinely recorded by a solitary microphone chip during polysomnography (PSG dataset, N=1154) and audio data recorded by a smartphone (smartphone dataset, N=327). The audio was converted into Mel spectrogram to detect latent temporal frequency patterns of breathing and body movement from ambient noise. The proposed neural network model learns to first extract features from each 30-second epoch and then analyze inter-epoch relationships of extracted features to finally classify the epochs into sleep stages.</citation_analysis></p>
+        </sec>
+        <sec id="s2003">
+          <title>Results</title>
+          <p><citation_analysis attribute="neither">Our model achieved 70% epoch-by-epoch agreement for 4-class (wake, light, deep, REM) sleep stage classification and robust performance across various signal-to-noise conditions. The model performance was not considerably affected by sleep apnea or periodic limb movement. External validation with smartphone dataset also showed 68% epoch-by-epoch agreement.</citation_analysis></p>
+        </sec>
+        <sec id="s2004">
+          <title>Conclusion</title>
+          <p><citation_analysis attribute="positive">The proposed end-to-end deep learning model shows potential of low-quality sounds recorded from microphone chips to be utilized for sleep staging. Future study using nocturnal sounds recorded from mobile devices at home environment may further confirm the use of mobile device recording as an at-home sleep tracker.</citation_analysis></p>
+        </sec>
+      </abstract>
+      <kwd-group kwd-group-type="author">
+        <title>Keywords</title>
+        <kwd>respiratory sounds</kwd>
+        <kwd>sleep stages</kwd>
+        <kwd>deep learning</kwd>
+        <kwd>smartphone</kwd>
+        <kwd>polysomnography</kwd>
+      </kwd-group>
+      <counts>
+        <fig-count count="10"/>
+        <table-count count="15"/>
+        <ref-count count="32"/>
+        <page-count count="15"/>
+      </counts>
+    </article-meta>
+  </front>
+  <body>
+    <sec id="s0001">
+      <title>Plain Language Summary</title>
+      <p><citation_analysis attribute="positive">Sound-based sleep staging can be a potential candidate for non-contact home sleep trackers. However, existing works were limited to audio measured with a contact manner (ie, tracheal sounds), with a limited distance (ie, 25 cm), or by a professional microphone. For convenience, a more practical way is to utilize easily obtainable audio, such as sounds recorded from commercial mobile devices. To the best of our knowledge, this is the first paper to propose an end-to-end deep learning-based sleep staging (without manual feature extraction) designed to work with sounds recorded from smartphone microphone (low signal-to-noise). The proposed model shows good performance for 4-class sleep staging on smartphone audio dataset, which is better than that of previous works using high-quality audio.</citation_analysis></p>
+    </sec>
+    <sec sec-type="intro" id="s0002">
+      <title>Introduction</title>
+      <p><citation_analysis attribute="neither">There are long-dreamed needs to track sleep in an easy and convenient way. As beyond-polysomnography (PSG) measurements, various commercial sleep trackers including wearable devices such as accelerometers, smartwatches, and piezoelectric devices are available on the market.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0001" ref-type="bibr">1–3</xref></citation_analysis><citation_analysis attribute="neither"> Some non-contact methods, especially radar-based devices, were also developed rapidly (eg, Somnofy,</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0004" ref-type="bibr">4</xref></citation_analysis><citation_analysis attribute="neither"> S+</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0005" ref-type="bibr">5</xref></citation_analysis><citation_analysis attribute="neither"> and Circadia</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0006" ref-type="bibr">6</xref></citation_analysis><citation_analysis attribute="neither"> for sleep staging, and BodyCompass</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0007" ref-type="bibr">7</xref></citation_analysis><citation_analysis attribute="neither"> and SleepPoseNet</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0008" ref-type="bibr">8</xref></citation_analysis><citation_analysis attribute="neither"> for sleep position detection). However, none of them was suitable for daily use for general population because of inconvenience, expensiveness, or placement sensitiveness. Nocturnal sounds, easily obtained by recording audio throughout the nighttime, contain rich information of sleep (eg, respiratory patterns, sleep-activity patterns, and variable breathing sound corresponding to muscle tone change in upper airway</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0009" ref-type="bibr">9</xref></citation_analysis><citation_analysis attribute="positive">). Sound-based sleep staging utilizing nocturnal sounds measured from mobile devices may open new doors to at-home sleep tracking.</citation_analysis></p>
+      <p><citation_analysis attribute="neither">Few attempts have been made to classify sleep stages solely depending on nocturnal sound. Prior works have extracted useful signals (respiratory and sleep-activity patterns) exceeding a simple energy threshold or a rule-based sound event detection, which require a very good quality of audio with high signal-to-noise ratio (SNR). Either tracheal sound measured in a contact way or sound measured in a limited distance with a high-performance directional microphone was used in previous studies.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0010" ref-type="bibr">10–12</xref></citation_analysis><citation_analysis attribute="neither"> With a machine learning algorithm, the performance reached 67% in accuracy, presenting a potential of sound-based sleep stage prediction. However, extensive research on non-contact sound measured in practical conditions such as measuring with a smartphone nearby while sleeping is limited.</citation_analysis></p>
+      <p><citation_analysis attribute="neither">The performance of sound-based sleep staging would always depend on the quality of the audio. Micro-electromechanical systems (MEMS) microphone, referred to as microphone chip or silicon microphone, is commonly inserted in mobile devices (eg, smartphones) with the advantage of small size and minimal power consumption. When nocturnal sounds are measured with microphone chips at a distance, breathing and body movement sounds during night are so weak that the energy of such signals is sometimes smaller than that of ambient noise. Thus, previous methods such as screening audio energy plot were not applicable in such scenarios. Mel spectrogram is a method to visualize sound energy when frequency spectrum changes over time. The energy of an audio is decomposed into multiple frequency bins for better interpretation. Sounds of breathing and body movements have specific temporal frequency patterns, which give a unique pattern of frequency spectrum changes over time on Mel spectrogram. Therefore, unlike random ambient noise, respiratory and sleep-activity patterns can easily be seen in Mel spectrogram. Although it still requires extensive signal processing and a non-trivial algorithm to recognize and detect various types of breathing and body movement sound, it may help overcome the low SNR in a practical setting.</citation_analysis></p>
+      <p><citation_analysis attribute="positive">The objective of this study was to develop an end (sound)-to-end (sleep stages) deep learning-based sleep stage classifier applicable to nocturnal sounds from microphone chips in smartphones. We proposed a novel neural network architecture to analyze Mel spectrogram (a converted form of audio data) to extract respiratory and sleep-activity features and predict sleep stages considering preceding and subsequent epochs. It was trained and evaluated with a large clinical dataset from two different audio sources: PSG-embedded and smartphone-recorded audios.</citation_analysis></p>
+    </sec>
+    <sec id="s0003">
+      <title>Methods</title>
+      <sec id="s0003-s2001">
+        <title>Datasets</title>
+        <p><citation_analysis attribute="negative">Two different audio datasets and their mixed form were used in this study. All audio recordings were conducted at the sleep center in Seoul National University Bundang Hospital (SNUBH) during PSG. Every 30-second epoch of PSG was manually annotated as one of five sleep stages: wake, rapid eye movement (REM) sleep (R), non-REM (NREM) stage 1 (N1), NREM stage 2 (N2), and NREM stage 3 (N3).</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0013" ref-type="bibr">13</xref></citation_analysis><citation_analysis attribute="neither"> Detailed baseline subject characteristics of the two datasets are presented in </citation_analysis><citation_analysis attribute="positive"><xref rid="t0001" ref-type="table">Table 1</xref></citation_analysis><citation_analysis attribute="neither">.</citation_analysis><citation_analysis attribute="positive"><table-wrap position="float" id="t0001"><label>Table 1</label><caption><p><citation_analysis attribute="neither">Baseline Characteristics of the Study Population in the PSG Audio Dataset and Smartphone Audio Dataset</citation_analysis></p></caption><table frame="hsides" rules="groups"><thead><tr><th rowspan="1" colspan="1">Variables</th><th rowspan="1" colspan="1">PSG Audio Dataset (n = 1154)</th><th rowspan="1" colspan="1">Smartphone Dataset (n = 327)</th></tr></thead><tbody><tr><td rowspan="1" colspan="1"><bold>Demographics</bold></td><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"/></tr><tr><td rowspan="1" colspan="1">Age (year), mean (SD)</td><td rowspan="1" colspan="1">52.7 (13.7)</td><td rowspan="1" colspan="1">47.7 (12.2)</td></tr><tr><td rowspan="1" colspan="1">Male, n (%)</td><td rowspan="1" colspan="1">801 (69.4)</td><td rowspan="1" colspan="1">276 (84.4)</td></tr><tr><td rowspan="1" colspan="1">Body mass index (kg/m2), mean (SD)</td><td rowspan="1" colspan="1">25.8 (13.7)</td><td rowspan="1" colspan="1">27.3 (4.3)</td></tr><tr><td rowspan="1" colspan="1"><bold>Sleep-disordered breathing</bold></td><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"/></tr><tr><td rowspan="1" colspan="1">Mean AHI, mean (SD)</td><td rowspan="1" colspan="1">22.8 (22.4)</td><td rowspan="1" colspan="1">33.9 (24.5)</td></tr><tr><td rowspan="1" colspan="1">AHI &lt; 5, n (%)</td><td rowspan="1" colspan="1">279 (24.2)</td><td rowspan="1" colspan="1">27 (8.3)</td></tr><tr><td rowspan="1" colspan="1">5 ≤ AHI &lt; 15, n (%)</td><td rowspan="1" colspan="1">268 (23.2)</td><td rowspan="1" colspan="1">58 (17.7)</td></tr><tr><td rowspan="1" colspan="1">15 ≤ AHI &lt; 30, n (%)</td><td rowspan="1" colspan="1">277 (24.0)</td><td rowspan="1" colspan="1">88 (26.9)</td></tr><tr><td rowspan="1" colspan="1">30 ≤ AHI, n (%)</td><td rowspan="1" colspan="1">330 (28.6)</td><td rowspan="1" colspan="1">154 (47.1)</td></tr><tr><td rowspan="1" colspan="1"><bold>Periodic limb movement</bold></td><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"/></tr><tr><td rowspan="1" colspan="1">Mean PLMI, mean (SD)</td><td rowspan="1" colspan="1">9.8 (20.4)</td><td rowspan="1" colspan="1">3.9 (10.8)</td></tr><tr><td rowspan="1" colspan="1">PLMI &lt; 5, n (%)</td><td rowspan="1" colspan="1">794 (68.8)</td><td rowspan="1" colspan="1">272 (83.2)</td></tr><tr><td rowspan="1" colspan="1">5 ≤ PLMI &lt; 25, n (%)</td><td rowspan="1" colspan="1">201 (17.4)</td><td rowspan="1" colspan="1">38 (11.6)</td></tr><tr><td rowspan="1" colspan="1">25 ≤ PLMI &lt; 50, n (%)</td><td rowspan="1" colspan="1">96 (8.3)</td><td rowspan="1" colspan="1">14 (4.3)</td></tr><tr><td rowspan="1" colspan="1">50 ≤ PLMI, n (%)</td><td rowspan="1" colspan="1">63 (5.5)</td><td rowspan="1" colspan="1">3 (0.9)</td></tr></tbody></table><table-wrap-foot><fn id="tfn0001"><p><citation_analysis attribute="positive"><bold>Abbreviations</bold></citation_analysis><citation_analysis attribute="neither">: AHI, apnea-hypopnea index; PLMI, periodic limb movement index; SD, standard deviation; n, number of patients.</citation_analysis></p></fn></table-wrap-foot></table-wrap></citation_analysis><citation_analysis attribute="positive">
+</citation_analysis></p>
+        <sec id="s0003-s2001-s3001">
+          <title>PSG Audio Dataset</title>
+          <p><citation_analysis attribute="positive">We included 1154 audios accompanying PSGs performed between January 2019 and December 2020. In the SNUBH, audio recording has been included as part of the PSG to detect breathing and snoring sounds for all examinees. Microphone chips (SUPR-102, ShenZhen YIANDA Electronics Co. Ltd., Shenzhen, China) were installed on the ceiling which should be 1.7 meters above the subject’s head. Since the dataset was retrospectively collected from PSGs previously conducted, additional informed consents were not available. However, the data were all anonymized. The use of this dataset in this study was approved by the Institutional Review Board (IRB) of SNUBH (IRB No. B-2011/648-102).</citation_analysis></p>
+        </sec>
+        <sec id="s0003-s2001-s3002">
+          <title>Smartphone Audio Dataset</title>
+          <p><citation_analysis attribute="neither">The other audio dataset was achieved by prospective collection. To examinees who agreed to participate, sound recording through a smartphone was added during their scheduled in-lab PSGs. A smartphone (LG G3, LG Electronics, Inc, Seoul, Republic of Korea) equipped with a microphone chip was placed on a bed table one meter away from the head of the subject during PSG, and a pre-installed sound recording application was used. In total, 327 audio data with matching PSGs were available for analysis. Written informed consents were obtained according to the Declaration of Helsinki and the study protocol was approved by the Institutional Review Board of Seoul National University Bundang Hospital (IRB No. B-1912-580-305).</citation_analysis></p>
+          <p><citation_analysis attribute="negative">The audio recorded via the two different modalities had different characters: the microphone chip used for PSG audio dataset (SUPR-102) had lower signal-to-noise rate and sensitivity compared to the microphone chips equipped in smartphones. In this study, we not only studied the individual audio datasets respectively but also combined the two datasets as one mixed audio dataset and conducted experiments at the mixed audio dataset as well.</citation_analysis></p>
+          <p><citation_analysis attribute="neither">Each dataset was divided into training, validation, and test sets at a ratio of 70:15:15 in a subject-independent manner. There were some overlaps between patients in PSG audio dataset and smartphone audio dataset. We arranged training and test sets of each dataset to be mutually exclusive for fair comparison. Detailed description on dataset is illustrated in </citation_analysis><citation_analysis attribute="positive"><xref rid="f0001" ref-type="fig">Figure 1</xref></citation_analysis><citation_analysis attribute="neither">.</citation_analysis><citation_analysis attribute="positive"><fig position="float" id="f0001" fig-type="figure"><label>Figure 1</label><caption><p><citation_analysis attribute="neither">(</citation_analysis><citation_analysis attribute="positive"><bold>A</bold></citation_analysis><citation_analysis attribute="neither">) Three types of audio datasets (PSG, Smartphone, Mixed), each divided into training, validation, and test sets. For example, the PSG audio dataset was divided into Train</citation_analysis><citation_analysis attribute="positive"><sub>PSG,</sub></citation_analysis><citation_analysis attribute="neither"> Valid</citation_analysis><citation_analysis attribute="positive"><sub>PSG,</sub></citation_analysis><citation_analysis attribute="neither"> Test</citation_analysis><citation_analysis attribute="positive"><sub>PSG.</sub></citation_analysis><citation_analysis attribute="neither"> Model</citation_analysis><citation_analysis attribute="positive"><sub>PSG</sub></citation_analysis><citation_analysis attribute="positive"> was trained using Train</citation_analysis><citation_analysis attribute="positive"><sub>PSG,</sub></citation_analysis><citation_analysis attribute="neither"> Valid</citation_analysis><citation_analysis attribute="positive"><sub>PSG</sub></citation_analysis><citation_analysis attribute="positive"> until performance saturation, and was then evaluated with Test</citation_analysis><citation_analysis attribute="positive"><sub>PSG</sub></citation_analysis><citation_analysis attribute="negative">. The same process was independently conducted for the Smartphone audio dataset and the mixed audio datasets (PSG+Smartphone), respectively. The numbers of subjects in each dataset were presented. (</citation_analysis><citation_analysis attribute="positive"><bold>B</bold></citation_analysis><citation_analysis attribute="positive">) Pairs between trained models and test sets for cross-domain validation. Each trained model was evaluated on test sets from datasets not used for training the model.</citation_analysis></p></caption><graphic xlink:href="NSS-14-1187-g0001" content-type="print-only" position="float"/></fig></citation_analysis></p>
+        </sec>
+      </sec>
+      <sec id="s0003-s2002">
+        <title>Preprocessing</title>
+        <p><citation_analysis attribute="positive">Data preprocessing was conducted in order to reduce noise and facilitate neural network learning to distinguish meaningful signals from noise with a focus on biological signals. The data preprocessing procedure included noise suppression, Mel spectrogram conversion, and pitch shifting for data augmentation</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0014" ref-type="bibr">14</xref></citation_analysis><citation_analysis attribute="neither"> (</citation_analysis><citation_analysis attribute="positive"><xref rid="f0002" ref-type="fig">Figure 2A</xref></citation_analysis><citation_analysis attribute="neither">). Mel spectrogram conversion could help unveil sounds of breathing and body movements which showed specific temporal frequency patterns (</citation_analysis><citation_analysis attribute="positive"><xref rid="f0002" ref-type="fig">Figure 2B</xref></citation_analysis><citation_analysis attribute="neither">). In addition, the dimension of the input data could be significantly reduced from the raw audio which had a sampling rate of 16 kHz after Mel spectrogram conversion, which led to a more efficient learning curve and reduced computational cost of the deep learning model. The entire night recording of each patient was divided into 30-second fragments which were Mel spectrograms with 20 frequency bins and 1201 timesteps. Each 30-second Mel spectrogram was temporally synchronized with manually scored sleep stages for 30-second epochs from matched PSGs.</citation_analysis><citation_analysis attribute="positive"><fig position="float" id="f0002" fig-type="figure"><label>Figure 2</label><caption><p><citation_analysis attribute="neither">(</citation_analysis><citation_analysis attribute="positive"><bold>A</bold></citation_analysis><citation_analysis attribute="neither">) Entire preprocessing procedure. For noise suppression, adaptive spectral gating was applied to each 30-second window to suppress stationary noise profile. Pitch shifting simulated different types of respiratory events, different individual’s characteristics of respiratory sound, and different frequency responses of the microphone. (</citation_analysis><citation_analysis attribute="positive"><bold>B</bold></citation_analysis><citation_analysis attribute="neither">) Mel spectrograms and corresponding audio energy plots in dB scale for each sleep stage. Mel spectrograms emphasize the pattern which is more stable and independent from overall energy level (sound amplitude).</citation_analysis></p></caption><graphic xlink:href="NSS-14-1187-g0002" content-type="print-only" position="float"/></fig></citation_analysis></p>
+      </sec>
+      <sec id="s0003-s2003">
+        <title>Deep Neural Network Architecture</title>
+        <p><citation_analysis attribute="neither">Our proposed deep neural network model, SoundSleepNet, is designed to be trained through two-step process. Since end-to-end sleep stage classification requires complex and hierarchical algorithm, we broke down the algorithm into two steps: (1) the pretraining step to train the model to detect respiratory and sleep-activity patterns from a single Mel spectrogram, (2) the final step to train the model to learn the sequential relationship and predict sleep stages at a sequence level.</citation_analysis></p>
+        <p><citation_analysis attribute="positive">The first step focuses on training the model to extract meaningful features, one by one epoch (one-to-one training). The model trained in this step consists of feature extractor and fully connected layers. The feature extractor includes Listener and Transformer Encoder network, which are specialized for pattern recognition and temporal correlation analysis, respectively</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0015" ref-type="bibr">15</xref></citation_analysis><citation_analysis attribute="neither">,</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0016" ref-type="bibr">16</xref></citation_analysis><citation_analysis attribute="neither"> (</citation_analysis><citation_analysis attribute="positive"><xref rid="f0003" ref-type="fig">Figure 3</xref></citation_analysis><citation_analysis attribute="positive">). Then, the fully connected layers classify sleep stages based on the extracted features. Through this first step, feature extractor is trained to detect temporal frequency patterns of breathing and body movement and to extract significant sleep-related features from a single Mel spectrogram.</citation_analysis><citation_analysis attribute="positive"><fig position="float" id="f0003" fig-type="figure"><label>Figure 3</label><caption><p><citation_analysis attribute="positive">The details of first step of SoundSleepNet—pretraining (one-to-one training). The first step of SoundSleepNet focuses on training the feature extractor to detect the meaningful features related to sleep staging from a single Mel spectrogram. Feature extractor is composed of Listener and Transformer encoder. Listener network is a stack of multiple CNNs commonly used to deal with image data (Mel Spectrograms in our case), followed by N layers of bidirectional Long Short-Term Memory (LSTM) to capture the temporal correlation of CNN outputs. Transformer encoder network composed of N layers of an encoder block, which has one multi-head attention and one feed forward network. The attention and feedforward network are each followed by an addition and normalization layer. In our experiments, N was set to be 2 for all Listener and Transformer encoder blocks. At the end, the fully connected layers (FC) classify sleep stages for each input epoch, which feedbacks the training of feature extractor.</citation_analysis></p></caption><graphic xlink:href="NSS-14-1187-g0003" content-type="print-only" position="float"/><attrib><bold>Abbreviation</bold>: CNN, convolutional neural networks.</attrib></fig></citation_analysis></p>
+        <p><citation_analysis attribute="neither">The second step is the main step of SoundSleepNet, many-to-many training for dealing with a sequence of data (40 Mel spectrograms in our proposed model). The two core elements are sequential version of feature extractor and multi-epoch classifier. For feature extractor, the pretrained feature extractor from the first step is loaded and duplicated to deal with a sequence of data (</citation_analysis><citation_analysis attribute="positive"><xref rid="f0004" ref-type="fig">Figure 4</xref></citation_analysis><citation_analysis attribute="neither">). The second core element is multi-epoch classifier, which classifies sleep stages regarding slowly changing respiratory patterns, taking into consideration of preceding and following epochs. The major building blocks of multi-epoch classifier are Bi-directional Long Short-Term Memory (Bi-LSTM) Transformer Encoder and fully connected layers. Bi-LSTM analyzes sequential relationship of features extracted from 40 consecutive Mel spectrograms. At the end, the fully connected layers output the classification (ie, sleep stages) based on the sequential relationship of features. Here, both feature extractor and classifier were trained simultaneously.</citation_analysis><citation_analysis attribute="positive"><fig position="float" id="f0004" fig-type="figure"><label>Figure 4</label><caption><p><citation_analysis attribute="positive">The two-step training flow of SoundSleepNet. Along with the simplified first step (one-to-one), the second step (many-to-many training) was shown with m being the number of input epochs and n being the number of output predictions. The two core elements in the second step were sequential version of feature extractor and multi-epoch classifier. The parameters pretrained in the first step were transferred for feature extractor, which were duplicated for many-to-many network. Multi-epoch classifier includes Bi-directional Long Short-Term Memory (Bi-LSTM) Transformer Encoder and fully connected layers (FC). While the first Transformer Encoder within the feature extractor (not shown in figure) aims to extract intra-epoch features, the second Transformer Encoder, BiLSTM Transformer Encoder within the multi-epoch classifier, extracts inter-epoch features. The head and tail of the transformer encoder’s output were removed before the last fully connected layer. Thus, only 20 predictions at the middle of the sequence were finally outputted, ensuring all predictions were made with consideration of both past and future epochs.</citation_analysis></p></caption><graphic xlink:href="NSS-14-1187-g0004" content-type="print-only" position="float"/></fig></citation_analysis></p>
+        <p><citation_analysis attribute="neither">In our proposed model, only the classification for middle 20 epochs are outputted for every 40-epoch sequence input. In order to output only the sleep stage predictions in which sufficient preceding and following epochs were considered, we discarded the head and tail 10 epochs from each 40-epoch sequence (</citation_analysis><citation_analysis attribute="positive"><xref rid="f0005" ref-type="fig">Figure 5</xref></citation_analysis><citation_analysis attribute="neither">). To note, therefore, the first and the last ten epochs of entire night sleep cannot be processed by SoundSleepNet.</citation_analysis><citation_analysis attribute="positive"><fig position="float" id="f0005" fig-type="figure"><label>Figure 5</label><caption><p><citation_analysis attribute="neither">Ablation study design. The simplified flow of SoundSleepNet in comparison to its three variants: (i) the first step only (one-to-one), (ii) the second step only (one-step 40-to-20), (iii) two-step process but without head and tail removal (20-to-20).</citation_analysis></p></caption><graphic xlink:href="NSS-14-1187-g0005" content-type="print-only" position="float"/></fig></citation_analysis></p>
+      </sec>
+      <sec id="s0003-s2004">
+        <title>Training and Validation</title>
+        <p><citation_analysis attribute="neither">Three types of audio datasets (PSG, smartphone, and mixed) were used for training, validation, and test separately. More specifically, for the training setting, we used the stochastic gradient descent (SGD) optimizer and fixed the number of training epochs to be 10 in all experiments. In the one-to-one training, we used an initial learning rate of 0.01. During the one-to-one pretraining task, the learning rate was decreased 10 times whenever the macro F1 score on the validation set did not increase for three consecutive epochs. As for the many-to-many training, the Slanted Triangular Learning Rate (STLR) scheduler, Discriminative Fine-tuning, and Gradual unfreezing</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0017" ref-type="bibr">17</xref></citation_analysis><citation_analysis attribute="neither"> were applied to the training procedure. We used the cross-entropy loss function and selected the one achieving the highest Macro F1 score on the validation set as the best model for both training steps.</citation_analysis></p>
+      </sec>
+      <sec id="s0003-s2005">
+        <title>Evaluation</title>
+        <sec id="s0003-s2005-s3001">
+          <title>Classifier Performance</title>
+          <p><citation_analysis attribute="neither">In this paper, the performance of 4-class classification (wake, light, deep, REM) of sleep was mainly evaluated, in which N1 and N2 were merged into light sleep while N3 was considered as deep sleep.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0012" ref-type="bibr">12</xref></citation_analysis><citation_analysis attribute="neither"> Performances of 3-class (wake, NREM, and REM) and 2-class (wake and sleep) classifications were also evaluated. The robustness of the model was then tested under different SNR conditions.</citation_analysis></p>
+          <p><citation_analysis attribute="positive">The classifier performance was evaluated by accuracy, Cohen’s kappa, macro-F1 score, mean per-class sensitivity, and confusion matrix. Accuracy and Cohen’s kappa were traditional metrics for evaluating classification performance. However, they were easily affected by the distribution of classes. Since sleep stages were not equally distributed, macro-F1 and mean per-class sensitivity known to take data imbalance problem into account were weighted in this study.</citation_analysis></p>
+          <p><citation_analysis attribute="positive">In addition, predicted results of sleep variables (ie, total sleep time [TST], total wake time [TWT], wake after sleep onset [WASO], sleep onset latency [SOL], sleep efficiency [SE], REM latency [RL]) were compared with results from manual scoring using Bland-Altman plots.</citation_analysis></p>
+        </sec>
+        <sec id="s0003-s2005-s3002">
+          <title>Ablation Study</title>
+          <p><citation_analysis attribute="positive">Contributions of individual components in the SoundSleepNet were evaluated by ablation study. The three targeting components in ablation study were the pretraining step, the final step dealing with inputs as sequences, and the design of outputting only the middle of the sequence. Correspondingly, the performance of SoundSleepNet was compared with its three variants (</citation_analysis><citation_analysis attribute="positive"><xref rid="f0005" ref-type="fig">Figure 5</xref></citation_analysis><citation_analysis attribute="neither">): (i) the one-to-one model (SoundSleepNet without the second step); (ii) the 40-to-20 model without pretraining (SoundSleepNet without the first step); (iii) the 20-to-20 model whose network structure resembled SoundSleepNet except that it had the same number of inputs and outputs (20 epoch inputs-to-20 epoch outputs). For the ablation study, only the PSG dataset was used.</citation_analysis></p>
+        </sec>
+        <sec id="s0003-s2005-s3003">
+          <title>External Cross-Domain Validation</title>
+          <p><citation_analysis attribute="neither">In order to verify the generalization ability of SoundSleepNet, we used all three audio datasets to perform a cross-domain experiment. As illustrated in </citation_analysis><citation_analysis attribute="positive"><xref rid="f0001" ref-type="fig">Figure 1B</xref></citation_analysis><citation_analysis attribute="positive">, three models trained on each audio training dataset were evaluated with other test datasets.</citation_analysis></p>
+        </sec>
+      </sec>
+    </sec>
+    <sec id="s0004">
+      <title>Results</title>
+      <sec id="s0004-s2001">
+        <title>Sleep Staging Performance of SoundSleepNet on PSG Audio Dataset</title>
+        <p><citation_analysis attribute="neither">Confusion matrices of the PSG audio dataset were presented in </citation_analysis><citation_analysis attribute="positive"><xref rid="f0006" ref-type="fig">Figure 6</xref></citation_analysis><citation_analysis attribute="positive">. In the 4-class case, the model was correct for 77% of wake, 73% of light sleep, 46% of deep sleep, and 66% of REM sleep. Most misclassifications were in the deep sleep stage, with 46% of deep stages being predicted as light stage. When sleep stages were grouped into three classes, 84% accuracy was shown for the NREM stage. The accuracy became even higher in the 2-stage case as the model was correct for 93% of sleep stages. An example of predicted sleep stages for one whole night was illustrated in </citation_analysis><citation_analysis attribute="positive"><xref rid="f0007" ref-type="fig">Figure 7</xref></citation_analysis><citation_analysis attribute="neither">.</citation_analysis><citation_analysis attribute="positive"><fig position="float" id="f0006" fig-type="figure"><label>Figure 6</label><caption><p><citation_analysis attribute="neither">4-stage, 3-stage, and 2-stage confusion matrices on the PSG audio test set comparing sleep stages based on sleep technologists and network predictions. The SoundSleepNet model was trained on the PSG audio training set. In each confusion matrix, each row represents sleep stages from sleep technologists and each column shows network predictions.</citation_analysis></p></caption><graphic xlink:href="NSS-14-1187-g0006" content-type="print-only" position="float"/></fig></citation_analysis><citation_analysis attribute="positive"><fig position="float" id="f0007" fig-type="figure"><label>Figure 7</label><caption><p><citation_analysis attribute="positive">A comparison of the one-night prediction of SoundSleepNet and the PSG result on a subject from the PSG audio test set. The top figure shows target labels given by sleep technologists. The bottom figure shows SNR (dB) of audio signals. The middle figures show predictions of the model.</citation_analysis></p></caption><graphic xlink:href="NSS-14-1187-g0007" content-type="print-only" position="float"/></fig></citation_analysis></p>
+        <p><citation_analysis attribute="neither">Evaluation metrics for 4-stage, 3-stage, and 2-stage predictions are presented in </citation_analysis><citation_analysis attribute="positive"><xref rid="t0002" ref-type="table">Table 2</xref></citation_analysis><citation_analysis attribute="neither">. The 4-class sleep staging model achieved 0.532 for Cohen’s kappa, 0.644 for Macro F1, 0.655 for mean per-class sensitivity, and 0.703 for accuracy. These scores increased as the number of sleep stage class decreased. Performance comparison between the present study and previous sound-based sleep staging studies is available in supplementary material (</citation_analysis><citation_analysis attribute="positive"><underline><ext-link xlink:href="https://www.dovepress.com/get_supplementary_file.php?f=361270.docx" ext-link-type="uri">Table S1</ext-link></underline></citation_analysis><citation_analysis attribute="neither">).</citation_analysis><citation_analysis attribute="positive"><table-wrap position="float" id="t0002"><label>Table 2</label><caption><p><citation_analysis attribute="neither">Overall Performance of the SoundSleepNet Model</citation_analysis></p></caption><table frame="hsides" rules="groups"><thead><tr><th rowspan="1" colspan="1"/><th rowspan="1" colspan="1">Cohen’s Kappa</th><th rowspan="1" colspan="1">Macro F1</th><th rowspan="1" colspan="1">Mean Per-Class Sensitivity</th><th rowspan="1" colspan="1">Accuracy</th></tr></thead><tbody><tr><td rowspan="1" colspan="1"><bold>4-stage classification</bold></td><td rowspan="1" colspan="1">0.532</td><td rowspan="1" colspan="1">0.644</td><td rowspan="1" colspan="1">0.655</td><td rowspan="1" colspan="1">0.703</td></tr><tr><td rowspan="1" colspan="1"><bold>3-stage classification</bold></td><td rowspan="1" colspan="1">0.623</td><td rowspan="1" colspan="1">0.749</td><td rowspan="1" colspan="1">0.757</td><td rowspan="1" colspan="1">0.798</td></tr><tr><td rowspan="1" colspan="1"><bold>2-stage classification</bold></td><td rowspan="1" colspan="1">0.683</td><td rowspan="1" colspan="1">0.842</td><td rowspan="1" colspan="1">0.850</td><td rowspan="1" colspan="1">0.894</td></tr></tbody></table><table-wrap-foot><fn id="tfn0002"><p><citation_analysis attribute="positive"><bold>Note</bold></citation_analysis><citation_analysis attribute="positive">: The model was trained with the PSG audio training set and evaluated with the PSG audio test set.</citation_analysis></p></fn></table-wrap-foot></table-wrap></citation_analysis><citation_analysis attribute="positive">
+</citation_analysis></p>
+        <p><citation_analysis attribute="neither">Multiple sleep metrics obtained from both SoundSleepNet and the PSG are presented in </citation_analysis><citation_analysis attribute="positive"><xref rid="t0003" ref-type="table">Table 3</xref></citation_analysis><citation_analysis attribute="positive">. Comparison of sleep metric mean values between SoundSleepNet and PSG showed a consistent agreement of the two methods. The absolute difference (magnitude of difference) were also minimal throughout most of the sleep metrics. </citation_analysis><citation_analysis attribute="positive"><xref rid="f0008" ref-type="fig">Figure 8</xref></citation_analysis><citation_analysis attribute="positive"> presents the Bland-Altman plots for various sleep metrics. Data points in most of the plots were found to surround the zero line. In addition to this, the mean differences between the sleep metrics obtained from SoundSleepNet and the PSG were close to zero (TST: −5.87, SOL: −1.43, SE: −1.30, WASO: 7.3, RL: −42.04, REM: 1.01, Light: −3.61, Deep: 1.30), thereby proving that SoundSleepNet predictions are very consistent with the manual PSG reading of sleep technologists.</citation_analysis><citation_analysis attribute="positive"><table-wrap position="float" id="t0003"><label>Table 3</label><caption><p><citation_analysis attribute="neither">Comparison of Sleep Metrics Between PSG Labels and Predictions from the SoundSleepNet Model</citation_analysis></p></caption><table frame="hsides" rules="groups"><thead><tr><th rowspan="1" colspan="1">Sleep Metrics</th><th rowspan="1" colspan="1">PSG</th><th rowspan="1" colspan="1">SoundSleepNet</th><th rowspan="1" colspan="1">Difference</th><th rowspan="1" colspan="1">Absolute Difference</th></tr></thead><tbody><tr><td rowspan="1" colspan="1"><bold>TST (mins)</bold></td><td rowspan="1" colspan="1">369.8 ± 61.9 (360.5, 379.1)</td><td rowspan="1" colspan="1">363.9 ± 65.2 (354.1, 373.7)</td><td rowspan="1" colspan="1">−5.9 ± 43.2 (−12.3, 0.6)</td><td rowspan="1" colspan="1">28.4 ± 33.1 (23.4, 33.3)</td></tr><tr><td rowspan="1" colspan="1"><bold>SOL (mins)</bold></td><td rowspan="1" colspan="1">16.4 ± 25.3 (12.6, 20.1)</td><td rowspan="1" colspan="1">14.9 ± 22.2 (11.6, 18.3)</td><td rowspan="1" colspan="1">−1.4 ± 19.5 (−4.4, 1.5)</td><td rowspan="1" colspan="1">9.4 ± 17.1 (6.9, 12.0)</td></tr><tr><td rowspan="1" colspan="1"><bold>SE (%)</bold></td><td rowspan="1" colspan="1">79.4 ± 12.9 (77.5, 81.3)</td><td rowspan="1" colspan="1">78.1 ± 13.6 (76.1, 80.1)</td><td rowspan="1" colspan="1">−1.3 ± 9.1 (−2.7, 0.1)</td><td rowspan="1" colspan="1">6.1 ± 7.0 (5.0, 7.1)</td></tr><tr><td rowspan="1" colspan="1"><bold>WASO (mins)</bold></td><td rowspan="1" colspan="1">79.1 ± 50.4 (71.6, 86.7)</td><td rowspan="1" colspan="1">86.4 ± 55.4 (78.1, 94.7)</td><td rowspan="1" colspan="1">7.3 ± 40.9 (1.2, 13.4)</td><td rowspan="1" colspan="1">27.5 ± 31.1 (22.9, 32.2)</td></tr><tr><td rowspan="1" colspan="1"><bold>RL (mins)</bold></td><td rowspan="1" colspan="1">132.9 ± 82.0 (120.4, 145.4)</td><td rowspan="1" colspan="1">90.9 ± 83.7 (78.1, 103.6)</td><td rowspan="1" colspan="1">−42.0 ± 95.0 (−56.5, −27.6)</td><td rowspan="1" colspan="1">66.0 ± 80.1 (53.8, 78.2)</td></tr><tr><td rowspan="1" colspan="1"><bold>REM (%)</bold></td><td rowspan="1" colspan="1">15.5 ± 6.3 (14.6, 16.5)</td><td rowspan="1" colspan="1">16.5 ± 10.3 (15.0, 18.1)</td><td rowspan="1" colspan="1">1.0 ± 9.7 (−0.4, 2.5)</td><td rowspan="1" colspan="1">7.0 ± 6.7 (6.0, 8.0)</td></tr><tr><td rowspan="1" colspan="1"><bold>Light (%)</bold></td><td rowspan="1" colspan="1">55.3 ± 10.5 (53.8, 56.9)</td><td rowspan="1" colspan="1">51.7 ± 13.2 (49.7, 53.7)</td><td rowspan="1" colspan="1">−3.6 ± 11.7 (−5.4, −1.8)</td><td rowspan="1" colspan="1">9.3 ± 8.0 (8.1, 10.5)</td></tr><tr><td rowspan="1" colspan="1"><bold>Deep (%)</bold></td><td rowspan="1" colspan="1">8.6 ± 7.1 (7.5, 9.6)</td><td rowspan="1" colspan="1">9.9 ± 8.7 (8.6, 11.2)</td><td rowspan="1" colspan="1">1.3 ± 8.6 (0.0, 2.6)</td><td rowspan="1" colspan="1">6.2 ± 6.1 (5.3, 7.1)</td></tr></tbody></table><table-wrap-foot><fn id="tfn0003"><p><citation_analysis attribute="positive"><bold>Notes</bold></citation_analysis><citation_analysis attribute="neither">: Difference in sleep metrics was calculated for each subject (SoundSleepNet – PSG) while absolute difference considers the magnitude of difference. Values are presented in the format mean ± SD (95% confidence interval).</citation_analysis></p></fn><fn id="tfn0004"><p><citation_analysis attribute="positive"><bold>Abbreviations</bold></citation_analysis><citation_analysis attribute="neither">: TST, total sleep time; SOL, sleep onset latency; SE, sleep efficiency; WASO, wake after sleep onset; RL, REM latency.</citation_analysis></p></fn></table-wrap-foot></table-wrap></citation_analysis><citation_analysis attribute="positive">
+</citation_analysis><citation_analysis attribute="positive"><fig position="float" id="f0008" fig-type="figure"><label>Figure 8</label><caption><p><citation_analysis attribute="neither">Bland-Altman plots for common sleep metrics: Total Sleep Time (TST), Sleep Onset Latency (SOL), Sleep Efficiency (SE), Wake After Sleep Onset (WASO), REM Latency (RL), and REM, Light, and Deep percentages. X-axis represents the mean value while Y-axis represents the difference of sleep metric values from SoundSleepNet and the polysomnography (PSG). The dashed lines represent the 95% limit of agreement.</citation_analysis></p></caption><graphic xlink:href="NSS-14-1187-g0008" content-type="print-only" position="float"/></fig></citation_analysis></p>
+        <p><citation_analysis attribute="positive"><xref rid="t0004" ref-type="table">Table 4</xref></citation_analysis><citation_analysis attribute="positive"> shows Cohen’s kappa, Macro F1, and accuracy for different subject groups divided according to five clinical features: age, gender, body mass index (BMI), apnea-hypopnea index (AHI), and periodic limb movements index (PLMI). For gender and BMI features, results were consistent for all three metrics. The male group had higher scores compared to the female group. With an increase of BMI, the performance of the model increased. For remaining features, results of the three metrics were inconsistent. As for age, the model showed the highest Macro F1 score for the middle-aged group (0.652). However, it had the highest Cohen’s kappa for the young-aged group (0.566). Similarly, the model showed decreased Cohen’s kappa in Normal and Mild AHI groups (0.506 and 0.504), while it showed decreased Macro F1 score only in the Mild AHI group (0.616). As for PLMS, the score was considerably decreased in the Severe group (0.438 for Cohen’s kappa and 0.527 for macro F1) compared to other groups.</citation_analysis><citation_analysis attribute="positive"><table-wrap position="float" id="t0004"><label>Table 4</label><caption><p><citation_analysis attribute="neither">Performance of SoundSleepNet According to Patient Characteristics</citation_analysis></p></caption><table frame="hsides" rules="groups"><thead><tr><th rowspan="1" colspan="1">Feature</th><th rowspan="1" colspan="1">Group</th><th rowspan="1" colspan="1">Patients</th><th rowspan="1" colspan="1">Epochs</th><th rowspan="1" colspan="1">Cohen’s Kappa</th><th rowspan="1" colspan="1">Macro F1</th><th rowspan="1" colspan="1">Accuracy</th></tr></thead><tbody><tr><td rowspan="3" colspan="1"><bold>Age</bold></td><td rowspan="1" colspan="1">Young [19, 40)</td><td rowspan="1" colspan="1">35</td><td rowspan="1" colspan="1">32,560</td><td rowspan="1" colspan="1">0.566</td><td rowspan="1" colspan="1">0.583</td><td rowspan="1" colspan="1">0.724</td></tr><tr><td rowspan="1" colspan="1">Middle [40, 60)</td><td rowspan="1" colspan="1">72</td><td rowspan="1" colspan="1">67,220</td><td rowspan="1" colspan="1">0.536</td><td rowspan="1" colspan="1">0.652</td><td rowspan="1" colspan="1">0.711</td></tr><tr><td rowspan="1" colspan="1">Old [60, 80)</td><td rowspan="1" colspan="1">64</td><td rowspan="1" colspan="1">59,340</td><td rowspan="1" colspan="1">0.508</td><td rowspan="1" colspan="1">0.604</td><td rowspan="1" colspan="1">0.683</td></tr><tr><td rowspan="2" colspan="1"><bold>Gender</bold></td><td rowspan="1" colspan="1">Male</td><td rowspan="1" colspan="1">113</td><td rowspan="1" colspan="1">104,960</td><td rowspan="1" colspan="1">0.556</td><td rowspan="1" colspan="1">0.657</td><td rowspan="1" colspan="1">0.724</td></tr><tr><td rowspan="1" colspan="1">Female</td><td rowspan="1" colspan="1">58</td><td rowspan="1" colspan="1">54,160</td><td rowspan="1" colspan="1">0.487</td><td rowspan="1" colspan="1">0.620</td><td rowspan="1" colspan="1">0.664</td></tr><tr><td rowspan="4" colspan="1"><bold>BMI</bold></td><td rowspan="1" colspan="1">Underweight [0, 18.5)</td><td rowspan="1" colspan="1">4</td><td rowspan="1" colspan="1">3,740</td><td rowspan="1" colspan="1">0.425</td><td rowspan="1" colspan="1">0.560</td><td rowspan="1" colspan="1">0.598</td></tr><tr><td rowspan="1" colspan="1">Normal [18.5, 25)</td><td rowspan="1" colspan="1">82</td><td rowspan="1" colspan="1">75,780</td><td rowspan="1" colspan="1">0.513</td><td rowspan="1" colspan="1">0.632</td><td rowspan="1" colspan="1">0.683</td></tr><tr><td rowspan="1" colspan="1">Overweight [25, 30)</td><td rowspan="1" colspan="1">61</td><td rowspan="1" colspan="1">57,020</td><td rowspan="1" colspan="1">0.547</td><td rowspan="1" colspan="1">0.648</td><td rowspan="1" colspan="1">0.723</td></tr><tr><td rowspan="1" colspan="1">Obese [30, ∞)</td><td rowspan="1" colspan="1">23</td><td rowspan="1" colspan="1">21,660</td><td rowspan="1" colspan="1">0.591</td><td rowspan="1" colspan="1">0.689</td><td rowspan="1" colspan="1">0.749</td></tr><tr><td rowspan="4" colspan="1"><bold>AHI</bold></td><td rowspan="1" colspan="1">Normal [0, 5)</td><td rowspan="1" colspan="1">46</td><td rowspan="1" colspan="1">42,460</td><td rowspan="1" colspan="1">0.506</td><td rowspan="1" colspan="1">0.640</td><td rowspan="1" colspan="1">0.668</td></tr><tr><td rowspan="1" colspan="1">Mild [5, 15)</td><td rowspan="1" colspan="1">39</td><td rowspan="1" colspan="1">36,360</td><td rowspan="1" colspan="1">0.504</td><td rowspan="1" colspan="1">0.616</td><td rowspan="1" colspan="1">0.684</td></tr><tr><td rowspan="1" colspan="1">Moderate [15, 30)</td><td rowspan="1" colspan="1">38</td><td rowspan="1" colspan="1">35,440</td><td rowspan="1" colspan="1">0.561</td><td rowspan="1" colspan="1">0.662</td><td rowspan="1" colspan="1">0.726</td></tr><tr><td rowspan="1" colspan="1">Severe [30, ∞)</td><td rowspan="1" colspan="1">48</td><td rowspan="1" colspan="1">44,860</td><td rowspan="1" colspan="1">0.556</td><td rowspan="1" colspan="1">0.645</td><td rowspan="1" colspan="1">0.735</td></tr><tr><td rowspan="4" colspan="1"><bold>PLMI</bold></td><td rowspan="1" colspan="1">Normal [0, 5)</td><td rowspan="1" colspan="1">117</td><td rowspan="1" colspan="1">109,140</td><td rowspan="1" colspan="1">0.536</td><td rowspan="1" colspan="1">0.651</td><td rowspan="1" colspan="1">0.709</td></tr><tr><td rowspan="1" colspan="1">Mild [5, 25)</td><td rowspan="1" colspan="1">29</td><td rowspan="1" colspan="1">27,320</td><td rowspan="1" colspan="1">0.546</td><td rowspan="1" colspan="1">0.644</td><td rowspan="1" colspan="1">0.709</td></tr><tr><td rowspan="1" colspan="1">Moderate [25, 50)</td><td rowspan="1" colspan="1">16</td><td rowspan="1" colspan="1">14,760</td><td rowspan="1" colspan="1">0.525</td><td rowspan="1" colspan="1">0.640</td><td rowspan="1" colspan="1">0.696</td></tr><tr><td rowspan="1" colspan="1">Severe [50, ∞)</td><td rowspan="1" colspan="1">9</td><td rowspan="1" colspan="1">7,900</td><td rowspan="1" colspan="1">0.438</td><td rowspan="1" colspan="1">0.527</td><td rowspan="1" colspan="1">0.617</td></tr></tbody></table><table-wrap-foot><fn id="tfn0005"><p><citation_analysis attribute="positive"><bold>Note</bold></citation_analysis><citation_analysis attribute="positive">: The model was trained with the PSG audio training set and evaluated with the PSG audio test set.</citation_analysis></p></fn><fn id="tfn0006"><p><citation_analysis attribute="positive"><bold>Abbreviations</bold></citation_analysis><citation_analysis attribute="neither">: BMI, body-mass index; AHI, apnea-hypopnea index; PLMI, periodic limb movement index.</citation_analysis></p></fn></table-wrap-foot></table-wrap></citation_analysis><citation_analysis attribute="positive">
+</citation_analysis></p>
+      </sec>
+      <sec id="s0004-s2002">
+        <title>Ablation Study of the SoundSleepNet</title>
+        <p><citation_analysis attribute="positive">Our proposed deep neural network, SoundSleepNet (40-to-20 model), demonstrated the best performance among its variants in three out of four performance metrics. The gap with the second-best model, 20-to-20 variant, was substantial (difference: 0.043 in Cohen’s kappa, 0.030 in Macro F1, and 3.8% in accuracy) (</citation_analysis><citation_analysis attribute="positive"><xref rid="t0005" ref-type="table">Table 5</xref></citation_analysis><citation_analysis attribute="neither">). Removing the pretraining step (One-step 40-to-20) also had an unignorable impact on the performance (difference: 0.056 in Cohen’s kappa, 0.032 in Macro F1, and 6% in accuracy). For the simplest model, one-to-one variant, the gap became more prominent (difference: 0.227 in Cohen’s kappa, 0.183 in Macro F1, and 21% in accuracy).</citation_analysis><citation_analysis attribute="positive"><table-wrap position="float" id="t0005"><label>Table 5</label><caption><p><citation_analysis attribute="neither">Evaluation Metrics for Different Models (Results from Ablation Study)</citation_analysis></p></caption><table frame="hsides" rules="groups"><thead><tr><th rowspan="1" colspan="1"/><th rowspan="1" colspan="1">Cohen’s Kappa</th><th rowspan="1" colspan="1">Macro F1</th><th rowspan="1" colspan="1">Mean Per-Class Sensitivity</th><th rowspan="1" colspan="1">Accuracy</th></tr></thead><tbody><tr><td rowspan="1" colspan="1"><bold>One-to-one</bold></td><td rowspan="1" colspan="1">0.305</td><td rowspan="1" colspan="1">0.461</td><td rowspan="1" colspan="1">0.538</td><td rowspan="1" colspan="1">0.493</td></tr><tr><td rowspan="1" colspan="1"><bold>20-to-20</bold></td><td rowspan="1" colspan="1">0.489</td><td rowspan="1" colspan="1">0.614</td><td rowspan="1" colspan="1">0.640</td><td rowspan="1" colspan="1">0.665</td></tr><tr><td rowspan="1" colspan="1"><bold>One-step 40-to-20</bold></td><td rowspan="1" colspan="1">0.476</td><td rowspan="1" colspan="1">0.612</td><td rowspan="1" colspan="1"><bold>0.670</bold></td><td rowspan="1" colspan="1">0.643</td></tr><tr><td rowspan="1" colspan="1"><bold>SoundSleepNet</bold></td><td rowspan="1" colspan="1"><bold>0.532</bold></td><td rowspan="1" colspan="1"><bold>0.644</bold></td><td rowspan="1" colspan="1">0.655</td><td rowspan="1" colspan="1"><bold>0.703</bold></td></tr></tbody></table><table-wrap-foot><fn id="tfn0007"><p><citation_analysis attribute="positive"><bold>Notes</bold></citation_analysis><citation_analysis attribute="positive">: Bolded values indicate the highest score. The model was trained with the PSG audio training set and evaluated with the PSG audio test set.</citation_analysis></p></fn></table-wrap-foot></table-wrap></citation_analysis><citation_analysis attribute="positive">
+</citation_analysis></p>
+        <p><citation_analysis attribute="neither">When tested with various SNR, the SoundSleepNet model not only showed the best performance across the spectrum of SNR but also were the least affected by the degree of SNR (</citation_analysis><citation_analysis attribute="positive"><xref rid="f0009" ref-type="fig">Figure 9</xref></citation_analysis><citation_analysis attribute="neither">). The difference between the best and the worst performance for different SNR range (0.096 for Cohen’s kappa, 0.07 for Macro F1) was less than that for any other variant model (the second lowest values were: 0.119 for Cohen’s kappa, and 0.09 for Macro F1).</citation_analysis><citation_analysis attribute="positive"><fig position="float" id="f0009" fig-type="figure"><label>Figure 9</label><caption><p><citation_analysis attribute="neither">Performances of SoundSleepNet and its counterparts in different SNR ranges.</citation_analysis></p></caption><graphic xlink:href="NSS-14-1187-g0009" content-type="print-only" position="float"/></fig></citation_analysis></p>
+      </sec>
+      <sec id="s0004-s2003">
+        <title>External Cross-Domain Validation with Smartphone Audio Dataset</title>
+        <p><citation_analysis attribute="positive"><xref rid="t0006" ref-type="table">Table 6</xref></citation_analysis><citation_analysis attribute="positive"> shows the results of a cross-domain validation experiment using PSG, smartphone, and mixed audio datasets. The model trained with PSG training set not only performed best with the PSG test set but also yielded substantial results in external validation with smartphone test set (0.485 for Cohen’s kappa and 0.610 for Macro F1) with only a small gap (0.047 for Cohen’s kappa and 0.034 for Macro F1). It also demonstrated high performance with the mixed test set (0.522 for Cohen’s kappa and 0.636 for Macro F1). On the other hand, the model trained with smartphone training set experienced a degraded performance in external validation on PSG test set (0.349 for Cohen’s kappa and 0.494 for Macro F1) with a considerable gap (0.094 for Cohen’s kappa and 0.08 for Macro F1). This model performed the worst for all three test sets. Finally, the model trained with mixed training set showed similar or superior performance over three test sets. Especially for the smartphone test set, the model trained with the mixed dataset surprisingly gained a significant improvement and achieved the highest performance (0.512 for Cohen’s kappa and 0.647 for Macro F1). The confusion matrices for this model are shown in </citation_analysis><citation_analysis attribute="positive"><xref rid="f0010" ref-type="fig">Figure 10</xref></citation_analysis><citation_analysis attribute="neither">.</citation_analysis><citation_analysis attribute="positive"><table-wrap position="float" id="t0006"><label>Table 6</label><caption><p><citation_analysis attribute="neither">Performance of SoundSleepNet Trained and Tested with Different Datasets</citation_analysis></p></caption><table frame="hsides" rules="groups"><thead><tr><th rowspan="2" colspan="1"/><th colspan="3" rowspan="1">Cohen’s Kappa</th><th colspan="3" rowspan="1">Macro F1</th><th colspan="3" rowspan="1">Mean Per-Class Sensitivity</th></tr><tr><th rowspan="1" colspan="1">PSG Test</th><th rowspan="1" colspan="1">Smp Test</th><th rowspan="1" colspan="1">Mixed Test</th><th rowspan="1" colspan="1">PSG Test</th><th rowspan="1" colspan="1">Smp Test</th><th rowspan="1" colspan="1">Mixed Test</th><th rowspan="1" colspan="1">PSG Test</th><th rowspan="1" colspan="1">Smp Test</th><th rowspan="1" colspan="1">Mixed Test</th></tr></thead><tbody><tr><td rowspan="1" colspan="1"><bold>PSG training</bold></td><td rowspan="1" colspan="1"><bold>0.532</bold></td><td rowspan="1" colspan="1">0.485</td><td rowspan="1" colspan="1">0.522</td><td rowspan="1" colspan="1"><bold>0.644</bold></td><td rowspan="1" colspan="1">0.610</td><td rowspan="1" colspan="1"><bold>0.636</bold></td><td rowspan="1" colspan="1"><bold>0.655</bold></td><td rowspan="1" colspan="1">0.603</td><td rowspan="1" colspan="1">0.643</td></tr><tr><td rowspan="1" colspan="1"><bold>Smp training</bold></td><td rowspan="1" colspan="1">0.349</td><td rowspan="1" colspan="1">0.443</td><td rowspan="1" colspan="1">0.369</td><td rowspan="1" colspan="1">0.494</td><td rowspan="1" colspan="1">0.574</td><td rowspan="1" colspan="1">0.511</td><td rowspan="1" colspan="1">0.510</td><td rowspan="1" colspan="1">0.563</td><td rowspan="1" colspan="1">0.523</td></tr><tr><td rowspan="1" colspan="1"><bold>Mixed training</bold></td><td rowspan="1" colspan="1">0.525</td><td rowspan="1" colspan="1"><bold>0.512</bold></td><td rowspan="1" colspan="1"><bold>0.524</bold></td><td rowspan="1" colspan="1">0.631</td><td rowspan="1" colspan="1"><bold>0.647</bold></td><td rowspan="1" colspan="1">0.636</td><td rowspan="1" colspan="1">0.643</td><td rowspan="1" colspan="1"><bold>0.653</bold></td><td rowspan="1" colspan="1"><bold>0.645</bold></td></tr></tbody></table><table-wrap-foot><fn id="tfn0008"><p><citation_analysis attribute="positive"><bold>Note</bold></citation_analysis><citation_analysis attribute="neither">: Bolded values indicate the highest score on a test dataset.</citation_analysis></p></fn><fn id="tfn0009"><p><citation_analysis attribute="positive"><bold>Abbreviations</bold></citation_analysis><citation_analysis attribute="negative">: PSG, PSG audio dataset; Smp, smartphone audio dataset; Mixed, mixed audio dataset.</citation_analysis></p></fn></table-wrap-foot></table-wrap></citation_analysis><citation_analysis attribute="positive">
+</citation_analysis><citation_analysis attribute="positive"><fig position="float" id="f0010" fig-type="figure"><label>Figure 10</label><caption><p><citation_analysis attribute="neither">Four-stage, 3-stage, and 2-stage confusion matrices on the smartphone audio test set comparing stages from sleep technologists and network predictions. The SoundSleepNet model was trained on the Mixed audio dataset. In each confusion matrix, each row represents sleep stages from sleep technologists while each column shows network predictions.</citation_analysis></p></caption><graphic xlink:href="NSS-14-1187-g0010" content-type="print-only" position="float"/></fig></citation_analysis></p>
+      </sec>
+    </sec>
+    <sec id="s0005">
+      <title>Discussion</title>
+      <p><citation_analysis attribute="positive">Our proposed end (sound)-to-end (sleep staging) deep learning method made it possible to accurately predict sleep stages based on nocturnal audio recorded from a distance with compact microphones of mobile devices. Our key findings were: (i) latent breathing and body movement sound in noisy audio were distinguishable in Mel spectrogram; (ii) the proposed model could detect temporal frequency patterns of breathing and body movement sound and therefore successfully classify sleep stages even for low-quality audio data measured by common microphones; (iii) significant performance improvements were achieved for sound-based sleep staging by letting the model (40-to-20) exploit past and future information (from 40 input epochs) to predict sleep stages at the middle (20 output epochs); (iv) the proposed model robustly worked well in two different domain datasets such as PSG and smartphone audio, and (v) the proposed method was robust under various sleep characteristics that entailed unusual nocturnal sound, such as sleep disordered breathing and periodic limb movements.</citation_analysis></p>
+      <p><citation_analysis attribute="neither">To the best of our knowledge, this is the first end-to-end deep learning model that can work with audio data measured in a more practical condition (non-contact and smartphone microphone). Most of previous sound-based sleep studies</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0010" ref-type="bibr">10–12</xref></citation_analysis><citation_analysis attribute="neither"> investigated automatic classifying sleep stages by machine learning algorithms where sound was measured in a contact way for high SNRs. Tracheal sound was measured from microphones attached to the neck so that respiratory patterns were easily obtainable through threshold-based sound event detection. Some researchers have used these respiratory patterns to extract hand-crafted features for sleep/wake detection.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0010" ref-type="bibr">10</xref></citation_analysis><citation_analysis attribute="neither">,</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0012" ref-type="bibr">12</xref></citation_analysis><citation_analysis attribute="neither"> More recently, there were efforts to utilize non-contact measured sound but with other limitations. One study used sound measured in a non-contact manner but with the measuring device only 25 cm away from the subject’s head.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0018" ref-type="bibr">18</xref></citation_analysis><citation_analysis attribute="neither"> In another study, the non-contact sound was measured at a distance of 1 m away from the head but a directional microphone was used to obtain sound with high SNR.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0009" ref-type="bibr">9</xref></citation_analysis><citation_analysis attribute="positive"> In addition, extensive preprocessing and manual labeling were needed for sleep staging. Unlike previous works using high quality audio with high SNR, we used audio data with low SNR which were measured by a compact microphone embedded in a mobile device over a longer distance. In spite of using the lower quality of audio compared to previous works, our deep neural network model (SoundSleepNet) demonstrated superior performance for both PSG and smartphone audio datasets (</citation_analysis><citation_analysis attribute="positive"><underline><ext-link xlink:href="https://www.dovepress.com/get_supplementary_file.php?f=361270.docx" ext-link-type="uri">Table S1</ext-link></underline></citation_analysis><citation_analysis attribute="neither">).</citation_analysis></p>
+      <p><citation_analysis attribute="neither">The power of SoundSleepNet to work robustly in low SNR environment comes from automatic respiratory and sleep activity pattern extraction from Mel spectrogram. </citation_analysis><citation_analysis attribute="positive"><underline><ext-link xlink:href="https://www.dovepress.com/get_supplementary_file.php?f=361270.docx" ext-link-type="uri">Figure S1</ext-link></underline></citation_analysis><citation_analysis attribute="neither"> visualizes single-epoch Mel spectrograms randomly sampled from the same patient whose sleep stages are illustrated in </citation_analysis><citation_analysis attribute="positive"><xref rid="f0007" ref-type="fig">Figure 7</xref></citation_analysis><citation_analysis attribute="positive">. Since the breathing sound is weak while recorded at a distance, detecting respiratory event using traditional methods such as threshold-based or rule-based algorithm can come up with tremendous false positive and false negative. It was observed that some respiratory patterns could not be detected by frame energy analysis because of high ambient noise energy level. On the other hand, by looking at temporal frequency patterns in Mel spectrogram, the existence of breathing sound was clearly recognizable.</citation_analysis></p>
+      <p><citation_analysis attribute="neither">Another active research field in deep learning-based sleep staging is how to utilize sequential dependency of the sleep signals.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0013" ref-type="bibr">13</xref></citation_analysis><citation_analysis attribute="neither">,</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0019" ref-type="bibr">19</xref></citation_analysis><citation_analysis attribute="neither"> By deciding the number of input epochs and corresponding output labels, strategies of model design can be divided into (i) one-to-one,</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0020" ref-type="bibr">20–23</xref></citation_analysis><citation_analysis attribute="neither"> (ii) many-to-one,</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0024" ref-type="bibr">24–26</xref></citation_analysis><citation_analysis attribute="neither"> and (iii) many-to-many.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0027" ref-type="bibr">27–30</xref></citation_analysis><citation_analysis attribute="positive"> Many recent papers are utilizing the many-to-many prediction strategy since it could achieve better performance by exploiting contextual input information and contextual output generation. We also recruited a many-to-many strategy for our proposed network. Furthermore, we designed the model to observe at least 10 adjacent epochs (5 mins) for both past and future directions (40-to-20), taking into account the slowly changing pattern of respiratory and sleep activity in response to a sleep stage change. Unlike signals from PSG, the patterns of respiratory and body movements detected from sound change at a slower tempo, and therefore, observing sufficient surrounding epochs is crucial in this case. As expected, the one-to-one model with insufficient information of future and past had frequently changing unstable predictions with low accuracy. In addition, SoundSleepNet (40-to-20) performed considerably better than the 20-to-20 model (conventional many-to-many way) in ablation study, thereby supporting the fact that past and future epochs are undoubtedly helpful for the prediction. The other essence of the design of the SoundSleepNet is the two-step training. The SoundSleepNet demonstrated better performance compared to the One-step 40-to-20, which has the same neural network architectures but omits a pretraining step. Since the model architecture is complex with 40 sequence of inputs and 20 sequence of outputs, the training signal from the label gets weaker when it goes down to the feature extractor. The pretraining of the feature extractor with the one-to-one training step contributes to the improvement of performance.</citation_analysis></p>
+      <p><citation_analysis attribute="positive">While our model showed good performance in general, it had difficulty distinguishing deep sleep from light sleep. This finding is consistent with previous studies using sound for sleep staging.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0009" ref-type="bibr">9</xref></citation_analysis><citation_analysis attribute="neither">,</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0012" ref-type="bibr">12</xref></citation_analysis><citation_analysis attribute="positive"> We carefully assumed that low accuracy for deep sleep might be a fundamental limitation of sleep staging using mainly respiratory and body movement information. While wakefulness is characterized by frequent body movements and REM sleep by irregular breathing, light and deep sleep share features such as regular breathing with little body movement. Even in a study using respiratory inductance plethysmography signals which are measured in a contact way and are considered the most accurate respiratory signals, deep sleep stage is the least accurately predicted.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0031" ref-type="bibr">31</xref></citation_analysis></p>
+      <p><citation_analysis attribute="positive">As for evaluation on sleep metrics, the mean difference of REM Latency was relatively more significant than those from other sleep metrics (</citation_analysis><citation_analysis attribute="positive"><xref rid="f0008" ref-type="fig">Figure 8</xref></citation_analysis><citation_analysis attribute="positive">). This was due to the fact that SoundSleepNet sometimes predicts the REM stage before detecting any Light or Deep stage, thereby setting the REM latency to be zero. Interestingly, the subjects with predicted REM latency of zero mostly belong to the Old Age group on which SoundSleepNet appears to have lower performance. Our validation dataset are from hospital patients with various sleep disorders, which result in relatively large widths of limits of agreement for several sleep metrics.</citation_analysis></p>
+      <p><citation_analysis attribute="positive">The model trained on PSG audio showed robust performance in the cross-domain validation using the smartphone dataset. On the other hand, the cross-domain validation from smartphone to PSG showed significant drops for all metrics compared to PSG to smartphone validation. While the small size of the smartphone dataset for training and the different characteristics of subject population included in the smartphone dataset (ie, high AHI) might contribute to the degradation of the external validation performance, it was more likely to be attributed to the different microphone domains. That is, a model trained with low-SNR data (PSG audio) may work well on high-SNR data (smartphone audio), but not vice versa. Notably, the model trained with the mixed dataset including both PSG and smartphone audios showed superior or comparable performance for all three types of test datasets, indicating that the diversity in the training dataset might make the model more robust. Extracting audio from PSG is the easiest way to collect nocturnal sound data having matched sleep stage labels, and developing a model generalizable to easily obtainable data is essential for practical at-home services in the future. Our results imply that the proposed model has substantial generalization capability on different microphone domains.</citation_analysis></p>
+      <p><citation_analysis attribute="neither">With the increase of interest in sleep, several commercial sleep trackers for home are now available. Wearables such as smartwatches are predominant. However, piezoelectric sensors and radar-based sleep trackers are getting more attention due to their advantages of non-contact and more convenient sensing. Unfortunately, these devices are rather expensive because they require the latest technology. On the other hand, the sound-based sleep staging can be implemented as a smartphone application since smartphones are equipped with high-quality microphones. Even with the advantage of availability with software implementation, the proposed sound-based sleep tracking showed higher performance. </citation_analysis><citation_analysis attribute="positive"><underline><ext-link xlink:href="https://www.dovepress.com/get_supplementary_file.php?f=361270.docx" ext-link-type="uri">Table S2</ext-link></underline></citation_analysis><citation_analysis attribute="neither"> summarizes performances of several commercial sleep trackers (including Fitbit Alta HR) compared with matching sleep expert-scored PSG test.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0032" ref-type="bibr">32</xref></citation_analysis></p>
+      <p><citation_analysis attribute="positive">The limitations of our work are as follows. First, our dataset only included audio recorded in a hospital environment. A home environment is exposed to a broad range of noises (eg, sound from bed partner, television, talks, air conditioner, and pets) and is different from an in-lab hospital environment. Second, when the model was trained with solely smartphone data, the sleep staging performance was not ideal, which might be due to the small size of the dataset. The external validation showed good performance for the smartphone dataset, showing a capacity for improvement of performance with a larger sample size. Third, our model was tested on sounds from only two microphone domains. Smartphones, smart speakers, and other mobile devices are equipped with various types of microphones, which may affect the performance of the model.</citation_analysis></p>
+    </sec>
+    <sec id="s0006">
+      <title>Conclusion</title>
+      <p><citation_analysis attribute="neither">In conclusion, with a large-scale audio dataset recorded with two different microphones, we developed an end-to-end sound-based sleep stage classifier that worked well with the audio recorded in a non-contact way by compact microphones built in mobile devices such as smartphones. This study presents a potential of deep learning model for sound-based sleep staging deep to be utilized as a convenient at-home sleep tracker in a real world (eg, applied on a smartphone application). Future works are needed to recruit a larger smartphone dataset and develop a model specified with sound recorded from home environment.</citation_analysis></p>
+    </sec>
+  </body>
+  <back>
+    <sec sec-type="COI-statement" id="s0007">
+      <title>Disclosure</title>
+      <p><citation_analysis attribute="neither">Professor Hyeryung Jang reports grants from King’s College London, outside the submitted work. The author reports no conflicts of interest in this work.</citation_analysis></p>
+    </sec>
+    <ref-list>
+      <title>References</title>
+      <ref id="cit0001">
+        <label>1.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Zhai</surname>
+<given-names>B</given-names></string-name>, <string-name><surname>Perez-Pozuelo</surname>
+<given-names>I</given-names></string-name>, <string-name><surname>Clifton</surname>
+<given-names>EA</given-names></string-name>, <string-name><surname>Palotti</surname>
+<given-names>J</given-names></string-name>, <string-name><surname>Guan</surname>
+<given-names>Y</given-names></string-name>. <article-title>Making sense of sleep: multimodal sleep stage classification in a large, diverse population using movement and cardiac sensing</article-title>. <source><italic toggle="yes">Proc ACM Interactive Mobile Wearable Ubiquit Technol</italic></source>. <year>2020</year>;<volume>4</volume>(<issue>2</issue>):<fpage>1</fpage>–<lpage>33</lpage>. doi:<pub-id pub-id-type="doi">10.1145/3397325</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0002">
+        <label>2.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Walch</surname>
+<given-names>O</given-names></string-name>, <string-name><surname>Huang</surname>
+<given-names>Y</given-names></string-name>, <string-name><surname>Forger</surname>
+<given-names>D</given-names></string-name>, <string-name><surname>Goldstein</surname>
+<given-names>C</given-names></string-name>. <article-title>Sleep stage prediction with raw acceleration and photoplethysmography heart rate data derived from a consumer wearable device</article-title>. <source><italic toggle="yes">Sleep</italic></source>. <year>2019</year>;<volume>42</volume>(<issue>12</issue>):<fpage>zsz180</fpage>. doi:<pub-id pub-id-type="doi">10.1093/sleep/zsz180</pub-id><pub-id pub-id-type="pmid">31579900</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0003">
+        <label>3.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Liang</surname>
+<given-names>Z</given-names></string-name>, <string-name><surname>Chapa-Martell</surname>
+<given-names>MA</given-names></string-name>. <article-title>Accuracy of Fitbit wristbands in measuring sleep stage transitions and the effect of user-specific factors</article-title>. <source><italic toggle="yes">JMIR mHealth uHealth</italic></source>. <year>2019</year>;<volume>7</volume>(<issue>6</issue>):<fpage>e13384</fpage>. doi:<pub-id pub-id-type="doi">10.2196/13384</pub-id><pub-id pub-id-type="pmid">31172956</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0004">
+        <label>4.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Toften</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Pallesen</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Hrozanova</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Moen</surname>
+<given-names>F</given-names></string-name>, <string-name><surname>Grønli</surname>
+<given-names>J</given-names></string-name>. <article-title>Validation of sleep stage classification using non-contact radar technology and machine learning (Somnofy<sup>®</sup>)</article-title>. <source><italic toggle="yes">Sleep Med</italic></source>. <year>2020</year>;<volume>75</volume>:<fpage>54</fpage>–<lpage>61</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.sleep.2020.02.022</pub-id><pub-id pub-id-type="pmid">32853919</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0005">
+        <label>5.</label>
+        <mixed-citation publication-type="book"><string-name><surname>Zaffaroni</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Doheny</surname>
+<given-names>EP</given-names></string-name>, <string-name><surname>Gahan</surname>
+<given-names>L</given-names></string-name>, et al. <part-title>Non-contact estimation of sleep staging</part-title>. In: <source><italic toggle="yes">EMBEC &amp; NBC 2017</italic></source>. <publisher-name>Springer</publisher-name>; <year>2017</year>:<fpage>77</fpage>–<lpage>80</lpage>.</mixed-citation>
+      </ref>
+      <ref id="cit0006">
+        <label>6.</label>
+        <mixed-citation publication-type="confproc"><string-name><surname>Lauteslager</surname>
+<given-names>T</given-names></string-name>, <string-name><surname>Kampakis</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Williams</surname>
+<given-names>AJ</given-names></string-name>, <string-name><surname>Maslik</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Siddiqui</surname>
+<given-names>F</given-names></string-name>. <article-title>Performance evaluation of the circadia contactless breathing monitor and sleep analysis algorithm for sleep stage classification</article-title>. In: <conf-name>proceedings from the 2020 42nd Annual International Conference of the IEEE Engineering in Medicine &amp; Biology Society (EMBC)</conf-name>; <year>2020</year>.</mixed-citation>
+      </ref>
+      <ref id="cit0007">
+        <label>7.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Yue</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Yang</surname>
+<given-names>Y</given-names></string-name>, <string-name><surname>Wang</surname>
+<given-names>H</given-names></string-name>, et al. <article-title>Bodycompass: monitoring sleep posture with wireless signals</article-title>. <source><italic toggle="yes">Proc ACM Interactive Mobile Wearable Ubiquit Technol</italic></source>. <year>2020</year>;<volume>4</volume>(<issue>2</issue>):<fpage>1</fpage>–<lpage>25</lpage>. doi:<pub-id pub-id-type="doi">10.1145/3397311</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0008">
+        <label>8.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Piriyajitakonkij</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Warin</surname>
+<given-names>P</given-names></string-name>, <string-name><surname>Lakhan</surname>
+<given-names>P</given-names></string-name>, et al. <article-title>SleepPoseNet: multi-view learning for sleep postural transition recognition using UWB</article-title>. <source><italic toggle="yes">IEEE J Biomed Health Inform</italic></source>. <year>2020</year>;<volume>25</volume>(<issue>4</issue>):<fpage>1305</fpage>–<lpage>1314</lpage>. doi:<pub-id pub-id-type="doi">10.1109/JBHI.2020.3025900</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0009">
+        <label>9.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Dafna</surname>
+<given-names>E</given-names></string-name>, <string-name><surname>Tarasiuk</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Zigel</surname>
+<given-names>Y</given-names></string-name>. <article-title>Sleep staging using nocturnal sound analysis</article-title>. <source><italic toggle="yes">Sci Rep</italic></source>. <year>2018</year>;<volume>8</volume>(<issue>1</issue>):<fpage>1</fpage>–<lpage>14</lpage>. doi:<pub-id pub-id-type="doi">10.1038/s41598-018-31748-0</pub-id><pub-id pub-id-type="pmid">29311619</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0010">
+        <label>10.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Ghahjaverestan</surname>
+<given-names>NM</given-names></string-name>, <string-name><surname>Akbarian</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Hafezi</surname>
+<given-names>M</given-names></string-name>, et al. <article-title>Sleep/wakefulness detection using tracheal sounds and movements</article-title>. <source><italic toggle="yes">Nat Sci Sleep</italic></source>. <year>2020</year>;<volume>12</volume>:<fpage>1009</fpage>. doi:<pub-id pub-id-type="doi">10.2147/NSS.S276107</pub-id><pub-id pub-id-type="pmid">33235534</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0011">
+        <label>11.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Nakano</surname>
+<given-names>H</given-names></string-name>, <string-name><surname>Furukawa</surname>
+<given-names>T</given-names></string-name>, <string-name><surname>Tanigawa</surname>
+<given-names>T</given-names></string-name>. <article-title>Tracheal sound analysis using a deep neural network to detect sleep apnea</article-title>. <source><italic toggle="yes">J Clin Sleep Med</italic></source>. <year>2019</year>;<volume>15</volume>(<issue>8</issue>):<fpage>1125</fpage>–<lpage>1133</lpage>. doi:<pub-id pub-id-type="doi">10.5664/jcsm.7804</pub-id><pub-id pub-id-type="pmid">31482834</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0012">
+        <label>12.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Kalkbrenner</surname>
+<given-names>C</given-names></string-name>, <string-name><surname>Brucher</surname>
+<given-names>R</given-names></string-name>, <string-name><surname>Kesztyüs</surname>
+<given-names>T</given-names></string-name>, <string-name><surname>Eichenlaub</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Rottbauer</surname>
+<given-names>W</given-names></string-name>, <string-name><surname>Scharnbeck</surname>
+<given-names>D</given-names></string-name>. <article-title>Automated sleep stage classification based on tracheal body sound and actigraphy</article-title>. <source><italic toggle="yes">German Med Sci</italic></source>. <year>2019</year>;<volume>17</volume>. doi:<pub-id pub-id-type="doi">10.3205/000268</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0013">
+        <label>13.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Berry</surname>
+<given-names>RB</given-names></string-name>, <string-name><surname>Brooks</surname>
+<given-names>R</given-names></string-name>, <string-name><surname>Gamaldo</surname>
+<given-names>CE</given-names></string-name>, <string-name><surname>Harding</surname>
+<given-names>SM</given-names></string-name>, <string-name><surname>Marcus</surname>
+<given-names>C</given-names></string-name>, <string-name><surname>Vaughn</surname>
+<given-names>BV</given-names></string-name>. <article-title>The AASM manual for the scoring of sleep and associated events</article-title>. <source><italic toggle="yes">Am Acad Sleep Med</italic></source>. <year>2012</year>;<volume>176</volume>:<fpage>2012</fpage>.</mixed-citation>
+      </ref>
+      <ref id="cit0014">
+        <label>14.</label>
+        <mixed-citation publication-type="newspaper"><string-name><surname>Eklund</surname>
+<given-names>-V-V</given-names></string-name>. <source>Data augmentation techniques for robust audio analysis</source>. <year>2019</year>.</mixed-citation>
+      </ref>
+      <ref id="cit0015">
+        <label>15.</label>
+        <mixed-citation publication-type="confproc"><string-name><surname>Vaswani</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Shazeer</surname>
+<given-names>N</given-names></string-name>, <string-name><surname>Parmar</surname>
+<given-names>N</given-names></string-name>, et al. <article-title>Attention is all you need</article-title>. In: <conf-name>proceedings from the Advances in neural information processing systems</conf-name>; <year>2017</year>.</mixed-citation>
+      </ref>
+      <ref id="cit0016">
+        <label>16.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Hori</surname>
+<given-names>T</given-names></string-name>, <string-name><surname>Watanabe</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Zhang</surname>
+<given-names>Y</given-names></string-name>, <string-name><surname>Chan</surname>
+<given-names>W</given-names></string-name>. <article-title>Advances in joint CTC-attention based end-to-end speech recognition with a deep CNN encoder and RNN-LM</article-title>. <source><italic toggle="yes">arXiv preprint</italic></source>. <year>2017</year>;<volume>arXiv</volume>:<fpage>170602737</fpage>.</mixed-citation>
+      </ref>
+      <ref id="cit0017">
+        <label>17.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Howard</surname>
+<given-names>J</given-names></string-name>, <string-name><surname>Ruder</surname>
+<given-names>S</given-names></string-name>. <article-title>Universal language model fine-tuning for text classification</article-title>. <source><italic toggle="yes">arXiv preprint</italic></source>. <year>2018</year>;<volume>arXiv</volume>:<fpage>180106146</fpage>.</mixed-citation>
+      </ref>
+      <ref id="cit0018">
+        <label>18.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Xue</surname>
+<given-names>B</given-names></string-name>, <string-name><surname>Deng</surname>
+<given-names>B</given-names></string-name>, <string-name><surname>Hong</surname>
+<given-names>H</given-names></string-name>, <string-name><surname>Wang</surname>
+<given-names>Z</given-names></string-name>, <string-name><surname>Zhu</surname>
+<given-names>X</given-names></string-name>, <string-name><surname>Feng</surname>
+<given-names>DD</given-names></string-name>. <article-title>Non-contact sleep stage detection using canonical correlation analysis of respiratory sound</article-title>. <source><italic toggle="yes">IEEE J Biomed Health Inform</italic></source>. <year>2019</year>;<volume>24</volume>(<issue>2</issue>):<fpage>614</fpage>–<lpage>625</lpage>. doi:<pub-id pub-id-type="doi">10.1109/JBHI.2019.2910566</pub-id><pub-id pub-id-type="pmid">30990201</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0019">
+        <label>19.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Liang</surname>
+<given-names>S-F</given-names></string-name>, <string-name><surname>Kuo</surname>
+<given-names>C-E</given-names></string-name>, <string-name><surname>Hu</surname>
+<given-names>Y-H</given-names></string-name>, <string-name><surname>Cheng</surname>
+<given-names>Y-S</given-names></string-name>. <article-title>A rule-based automatic sleep staging method</article-title>. <source><italic toggle="yes">J Neurosci Methods</italic></source>. <year>2012</year>;<volume>205</volume>(<issue>1</issue>):<fpage>169</fpage>–<lpage>176</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.jneumeth.2011.12.022</pub-id><pub-id pub-id-type="pmid">22245090</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0020">
+        <label>20.</label>
+        <mixed-citation publication-type="confproc"><string-name><surname>Andreotti</surname>
+<given-names>F</given-names></string-name>, <string-name><surname>Phan</surname>
+<given-names>H</given-names></string-name>, <string-name><surname>Cooray</surname>
+<given-names>N</given-names></string-name>, <string-name><surname>Lo</surname>
+<given-names>C</given-names></string-name>, <string-name><surname>Hu</surname>
+<given-names>MT</given-names></string-name>, <string-name><surname>De Vos</surname>
+<given-names>M</given-names></string-name>. <article-title>Multichannel sleep stage classification and transfer learning using convolutional neural networks</article-title>. In: <conf-name>proceedings from the 2018 40th annual international conference of the IEEE Engineering in medicine and biology society (EMBC)</conf-name>; <year>2018</year>.</mixed-citation>
+      </ref>
+      <ref id="cit0021">
+        <label>21.</label>
+        <mixed-citation publication-type="confproc"><string-name><surname>Andreotti</surname>
+<given-names>F</given-names></string-name>, <string-name><surname>Phan</surname>
+<given-names>H</given-names></string-name>, <string-name><surname>De Vos</surname>
+<given-names>M</given-names></string-name>. <article-title>Visualising convolutional neural network decisions in automatic sleep scoring</article-title>. In: <conf-name>proceedings from the CEUR Workshop Proceedings</conf-name>; <year>2018</year>.</mixed-citation>
+      </ref>
+      <ref id="cit0022">
+        <label>22.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Supratak</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Dong</surname>
+<given-names>H</given-names></string-name>, <string-name><surname>Wu</surname>
+<given-names>C</given-names></string-name>, <string-name><surname>Guo</surname>
+<given-names>Y</given-names></string-name>. <article-title>DeepSleepNet: a model for automatic sleep stage scoring based on raw single-channel EEG</article-title>. <source><italic toggle="yes">IEEE Trans Neural Syst Rehabil Eng</italic></source>. <year>2017</year>;<volume>25</volume>(<issue>11</issue>):<fpage>1998</fpage>–<lpage>2008</lpage>. doi:<pub-id pub-id-type="doi">10.1109/TNSRE.2017.2721116</pub-id><pub-id pub-id-type="pmid">28678710</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0023">
+        <label>23.</label>
+        <mixed-citation publication-type="confproc"><string-name><surname>Phan</surname>
+<given-names>H</given-names></string-name>, <string-name><surname>Andreotti</surname>
+<given-names>F</given-names></string-name>, <string-name><surname>Cooray</surname>
+<given-names>N</given-names></string-name>, <string-name><surname>Chén</surname>
+<given-names>OY</given-names></string-name>, <string-name><surname>De Vos</surname>
+<given-names>M</given-names></string-name>. <article-title>Automatic sleep stage classification using single-channel EEG: learning sequential features with attention-based recurrent neural networks</article-title>. In: <conf-name>proceedings from the 2018 40th annual international conference of the IEEE engineering in medicine and biology society (EMBC)</conf-name>; <year>2018</year>.</mixed-citation>
+      </ref>
+      <ref id="cit0024">
+        <label>24.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Guillot</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Sauvet</surname>
+<given-names>F</given-names></string-name>, <string-name><surname>During</surname>
+<given-names>EH</given-names></string-name>, <string-name><surname>Thorey</surname>
+<given-names>V</given-names></string-name>. <article-title>Dreem open datasets: multi-scored sleep datasets to compare human and automated sleep staging</article-title>. <source><italic toggle="yes">IEEE Trans Neural Syst Rehabil Eng</italic></source>. <year>2020</year>;<volume>28</volume>(<issue>9</issue>):<fpage>1955</fpage>–<lpage>1965</lpage>. doi:<pub-id pub-id-type="doi">10.1109/TNSRE.2020.3011181</pub-id><pub-id pub-id-type="pmid">32746326</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0025">
+        <label>25.</label>
+        <mixed-citation publication-type="confproc"><string-name><surname>Li</surname>
+<given-names>Y</given-names></string-name>, <string-name><surname>Gu</surname>
+<given-names>Z</given-names></string-name>, <string-name><surname>Lin</surname>
+<given-names>Z</given-names></string-name>, <string-name><surname>Yu</surname>
+<given-names>Z</given-names></string-name>, <string-name><surname>Li</surname>
+<given-names>Y</given-names></string-name>. <article-title>An automatic sleep staging model combining feature learning and sequence learning</article-title>. In: <conf-name>proceedings from the 2020 12th International Conference on Advanced Computational Intelligence (ICACI)</conf-name>; <year>2020</year>.</mixed-citation>
+      </ref>
+      <ref id="cit0026">
+        <label>26.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Seo</surname>
+<given-names>H</given-names></string-name>, <string-name><surname>Back</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Lee</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Park</surname>
+<given-names>D</given-names></string-name>, <string-name><surname>Kim</surname>
+<given-names>T</given-names></string-name>, <string-name><surname>Lee</surname>
+<given-names>K</given-names></string-name>. <article-title>Intra-and inter-epoch temporal context network (IITNet) using sub-epoch features for automatic sleep scoring on raw single-channel EEG</article-title>. <source><italic toggle="yes">Biomed Signal Process Control</italic></source>. <year>2020</year>;<volume>61</volume>:<fpage>102037</fpage>. doi:<pub-id pub-id-type="doi">10.1016/j.bspc.2020.102037</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0027">
+        <label>27.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Phan</surname>
+<given-names>H</given-names></string-name>, <string-name><surname>Chén</surname>
+<given-names>OY</given-names></string-name>, <string-name><surname>Tran</surname>
+<given-names>MC</given-names></string-name>, <string-name><surname>Koch</surname>
+<given-names>P</given-names></string-name>, <string-name><surname>Mertins</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>De Vos</surname>
+<given-names>M</given-names></string-name>. <article-title>XSleepNet: multi-view sequential model for automatic sleep staging</article-title>. <source><italic toggle="yes">IEEE Trans Pattern Anal Mach Intell</italic></source>. <year>2021</year>;<fpage>1</fpage>. doi:<pub-id pub-id-type="doi">10.1109/TPAMI.2021.3070057</pub-id><pub-id pub-id-type="pmid">31331880</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0028">
+        <label>28.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Guillot</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Thorey</surname>
+<given-names>V</given-names></string-name>. <article-title>RobustSleepNet: transfer learning for automated sleep staging at scale</article-title>. <source><italic toggle="yes">arXiv preprint</italic></source>. <year>2021</year>;<volume>arXiv</volume>:<fpage>210102452</fpage>.</mixed-citation>
+      </ref>
+      <ref id="cit0029">
+        <label>29.</label>
+        <mixed-citation publication-type="confproc"><string-name><surname>Phan</surname>
+<given-names>H</given-names></string-name>, <string-name><surname>Chén</surname>
+<given-names>OY</given-names></string-name>, <string-name><surname>Koch</surname>
+<given-names>P</given-names></string-name>, <string-name><surname>Mertins</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>De Vos</surname>
+<given-names>M</given-names></string-name>. <article-title>Fusion of end-to-end deep learning models for sequence-to-sequence sleep staging</article-title>. In: <conf-name>proceedings from the 2019 41st Annual International Conference of the IEEE Engineering in Medicine and Biology Society (EMBC)</conf-name>; <year>2019</year>.</mixed-citation>
+      </ref>
+      <ref id="cit0030">
+        <label>30.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Phan</surname>
+<given-names>H</given-names></string-name>, <string-name><surname>Andreotti</surname>
+<given-names>F</given-names></string-name>, <string-name><surname>Cooray</surname>
+<given-names>N</given-names></string-name>, <string-name><surname>Chén</surname>
+<given-names>OY</given-names></string-name>, <string-name><surname>De Vos</surname>
+<given-names>M</given-names></string-name>. <article-title>SeqSleepNet: end-to-end hierarchical recurrent neural network for sequence-to-sequence automatic sleep staging</article-title>. <source><italic toggle="yes">IEEE Trans Neural Syst Rehabil Eng</italic></source>. <year>2019</year>;<volume>27</volume>(<issue>3</issue>):<fpage>400</fpage>–<lpage>410</lpage>. doi:<pub-id pub-id-type="doi">10.1109/TNSRE.2019.2896659</pub-id><pub-id pub-id-type="pmid">30716040</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0031">
+        <label>31.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Sun</surname>
+<given-names>H</given-names></string-name>, <string-name><surname>Ganglberger</surname>
+<given-names>W</given-names></string-name>, <string-name><surname>Panneerselvam</surname>
+<given-names>E</given-names></string-name>, et al. <article-title>Sleep staging from electrocardiography and respiration with deep learning</article-title>. <source><italic toggle="yes">Sleep</italic></source>. <year>2020</year>;<volume>43</volume>(<issue>7</issue>):<fpage>zsz306</fpage>. doi:<pub-id pub-id-type="doi">10.1093/sleep/zsz306</pub-id><pub-id pub-id-type="pmid">31863111</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0032">
+        <label>32.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Chinoy</surname>
+<given-names>ED</given-names></string-name>, <string-name><surname>Cuellar</surname>
+<given-names>JA</given-names></string-name>, <string-name><surname>Huwa</surname>
+<given-names>KE</given-names></string-name>, et al. <article-title>Performance of seven consumer sleep-tracking devices compared with polysomnography</article-title>. <source><italic toggle="yes">Sleep</italic></source>. <year>2021</year>;<volume>44</volume>(<issue>5</issue>):<fpage>zsaa291</fpage>. doi:<pub-id pub-id-type="doi">10.1093/sleep/zsaa291</pub-id><pub-id pub-id-type="pmid">33378539</pub-id></mixed-citation>
+      </ref>
+    </ref-list>
+  </back>
+</article>
+</pmc-articleset>

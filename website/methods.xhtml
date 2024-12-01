@@ -34,6 +34,12 @@
             <div id="content">
                 <h1>Methods</h1>
                 <hr/>
+                <h1>1. <i>python~</i> Assemble corpus</h1>
+                Python scripts were used to download the xml of any sleep research paper, so long as the author provides permission. This is why I decided to go with
+                the <a href="https://www.dovepress.com/nature-and-science-of-sleep-journal">Nature and Science of Sleep Journal</a> which is fully open-access.
+                
+                <hr/>
+                <h1>2. <i>manual reading~</i> Sentiment analysis</h1>
                 I performed a close reading on 3 research papers while noting the following:
                 <!-- ================================================================================== -->
                 <p>
@@ -44,10 +50,10 @@
                 <!-- ================================================================================== -->
                 <!-- ================================================================================== -->
                 <!-- ================================================================================== -->
-                <hr/>
-                <h2>
+           
+                <h3>
                     Example from https://pmc.ncbi.nlm.nih.gov/articles/PMC8436142/:
-                </h2>
+                </h3>
                 
                 
                 <!-- insert a paragraph with a citation and highlight a couple things in blue -->
@@ -121,10 +127,10 @@
                 <!-- ================================================================================== -->
                 <!-- ================================================================================== -->
             
-                <hr />
-                <h2>
+               
+                <h3>
                     Words identified from the readings:
-                </h2>
+                </h3>
                 <div>
                     Supporting: 
                     <span class="good">[evidence, growing evidence, included, evaluated, validated, using, add, correlation
@@ -136,10 +142,10 @@
                     <span class="bad">[lack, few, few examples, inconsistent, bias, insufficient, risk, inconsistency, imprecise, subjectively, subjective, however
                         unclear, mixed, mixed findings, inconclusive]</span>
                 </div>
-                <hr/>
-                <h2>
+              
+                <h3>
                     I also asked chat gpt to add similar words, heres what it generated:
-                </h2>
+                </h3>
                 <div>
                     Supporting: 
                     <span class="good">[proof, increasing proof, incorporated, assessed, verified, utilizing, augment, relationship
@@ -153,13 +159,23 @@
                 </div>
                 
                 <hr/>
-                <h2>
-                    I also need to find a way to include variations:
-                </h2>
-                <div>
-                    for example
-                    reported is in the supporting words. I should also include [report, reports]
-                </div>
+                <h1>3. <i>xslt~</i> Match selected words to cited papers</h1>
+                I used XSLT to tag paragraphs with a sentiment attribute (positive, negative, or neutral) based on predefined word lists. The transformation evaluates each paragraph’s text for matches with these lists, wrapping the content in a &lt;citation_analysis&gt; element to record the sentiment. This automated process added sentiment metadata to all 967 XML files for further analysis.
+                <br/>
+                <img src="pos_neg.png" alt="Description of SVG" style="width: 35%;" />
+                <img src="cite.jpg" alt="Description of SVG" style="width: 100%;" />
+                <br/>
+                had my own element to add to all 967 xml papers with the attribute for the sentiment
+                <hr/>
+                <h1>4. <i>python~</i> Go through xmls and identify 3 things, source | cited | sentiment</h1>
+                This created a CSV file with ~60,000 rows that I could use to create an SVG
+                <br/>
+                <img src="csv_snip.png" alt="Description of SVG" style="width: 50%;" />
+                <hr/>
+                <h1>5. <i>python~</i> SVG</h1>
+                Used networkx to draw connections between papers and their citations.
+                <br/>
+                Also built a significance map, using only the top 1% of papers with the most citations.
                 
             </div>
             

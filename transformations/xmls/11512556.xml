@@ -1,0 +1,818 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<pmc-articleset><article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" dtd-version="1.3" xml:lang="en" article-type="research-article">
+  <?properties open_access?>
+  <processing-meta base-tagset="archiving" mathml-version="3.0" table-model="xhtml" tagset-family="jats">
+    <restricted-by>pmc</restricted-by>
+  </processing-meta>
+  <front><journal-meta><journal-id journal-id-type="nlm-ta">Nat Sci Sleep</journal-id><journal-id journal-id-type="iso-abbrev">Nat Sci Sleep</journal-id><journal-id journal-id-type="publisher-id">nss</journal-id><journal-title-group><journal-title>Nature and Science of Sleep</journal-title></journal-title-group><issn pub-type="epub">1179-1608</issn><publisher><publisher-name>Dove</publisher-name></publisher></journal-meta>
+<article-meta><article-id pub-id-type="pmid">39464515</article-id><article-id pub-id-type="pmc">11512556</article-id><article-id pub-id-type="publisher-id">480491</article-id><article-id pub-id-type="doi">10.2147/NSS.S480491</article-id><article-categories><subj-group subj-group-type="heading"><subject>Original Research</subject></subj-group></article-categories><title-group><article-title>Causal Associations Between Sleep Traits and Low Grip Strength: A Bidirectional Mendelian Randomization Study</article-title><alt-title alt-title-type="running-authors">Tai et al</alt-title><alt-title alt-title-type="running-title">Tai et al</alt-title></title-group><contrib-group><contrib contrib-type="author" equal-contrib="yes"><name><surname>Tai</surname><given-names>Yihong</given-names></name><xref rid="aff0001" ref-type="aff">
+<sup>1</sup>
+</xref><xref rid="ft0001" ref-type="author-notes">*</xref></contrib><contrib contrib-type="author" equal-contrib="yes"><contrib-id contrib-id-type="orcid">http://orcid.org/0000-0001-8984-3765</contrib-id><name><surname>Wang</surname><given-names>Haonan</given-names></name><xref rid="aff0001" ref-type="aff">
+<sup>1</sup>
+</xref><xref rid="ft0001" ref-type="author-notes">*</xref></contrib><contrib contrib-type="author" equal-contrib="yes"><name><surname>Dai</surname><given-names>Yinghong</given-names></name><xref rid="aff0002" ref-type="aff">
+<sup>2</sup>
+</xref><xref rid="ft0001" ref-type="author-notes">*</xref></contrib><contrib contrib-type="author"><name><surname>Yu</surname><given-names>Liang</given-names></name><xref rid="aff0001" ref-type="aff">
+<sup>1</sup>
+</xref><xref rid="aff0003" ref-type="aff">
+<sup>3</sup>
+</xref><xref rid="an0001" ref-type="corresp"/></contrib><aff id="aff0001"><label>1</label><institution>Department of Exercise Physiology, School of Sport Science, Beijing Sport University</institution>, <addr-line>Beijing</addr-line>, <addr-line>100084</addr-line>, <country>People’s Republic of China</country></aff><aff id="aff0002"><label>2</label><institution>Xiangya School of Medicine, Central South University</institution>, <addr-line>Changsha</addr-line>, <addr-line>410008</addr-line>, <country>People’s Republic of China</country></aff><aff id="aff0003"><label>3</label><institution>Engineering Research Center of Strength and Conditioning Training Key Core Technology Integrated System and Equipment of Ministry of Education, Beijing Sport University</institution>, <addr-line>Beijing</addr-line>, <addr-line>100084</addr-line>, <country>People’s Republic of China</country></aff></contrib-group><author-notes><corresp id="an0001">Correspondence: Liang Yu, <institution>Engineering Research Center of Strength and Conditioning Training Key Core Technology Integrated System and Equipment of Ministry of Education, Beijing Sport University</institution>, <addr-line>Beijing</addr-line>, <addr-line>100084</addr-line>, <country>People’s Republic of China</country>, Tel/Fax <phone content-type="general">+86 1062967640</phone>, Email yuliang@bsu.edu.cn</corresp><fn id="ft0001"><label>*</label><p><citation_analysis attribute="neither">These authors contributed equally to this work</citation_analysis></p></fn></author-notes><pub-date pub-type="epub"><day>22</day><month>10</month><year>2024</year></pub-date><pub-date pub-type="collection"><year>2024</year></pub-date><volume>16</volume><fpage>1699</fpage><lpage>1711</lpage><history><date date-type="received"><day>24</day><month>6</month><year>2024</year></date><date date-type="accepted"><day>13</day><month>9</month><year>2024</year></date></history><permissions><copyright-statement>© 2024 Tai et al.</copyright-statement><copyright-year>2024</copyright-year><copyright-holder>Tai et al.</copyright-holder><license><ali:license_ref xmlns:ali="http://www.niso.org/schemas/ali/1.0/" specific-use="textmining" content-type="ccbynclicense">https://creativecommons.org/licenses/by-nc/3.0/</ali:license_ref><license-p>This work is published and licensed by Dove Medical Press Limited. The full terms of this license are available at <ext-link ext-link-type="uri" xlink:href="https://www.dovepress.com/terms.php">https://www.dovepress.com/terms.php</ext-link> and incorporate the Creative Commons Attribution – Non Commercial (unported, v3.0) License (<ext-link ext-link-type="uri" xlink:href="https://creativecommons.org/licenses/by-nc/3.0/">http://creativecommons.org/licenses/by-nc/3.0/</ext-link>). By accessing the work you hereby accept the Terms. Non-commercial uses of the work are permitted without any further permission from Dove Medical Press Limited, provided the work is properly attributed. For permission for commercial use of this work, please see paragraphs 4.2 and 5 of our Terms (<ext-link ext-link-type="uri" xlink:href="https://www.dovepress.com/terms.php">https://www.dovepress.com/terms.php</ext-link>).</license-p></license></permissions><abstract><sec><title>Background</title><p><citation_analysis attribute="positive">Sleep disorders and low grip strength often co-occur clinically and are geriatric symptoms that cause significant socioeconomic burden. Previous observational studies have found an association between sleep behaviors and grip strength, but the causal relationship remains unclear.</citation_analysis></p></sec><sec><title>Purpose</title><p><citation_analysis attribute="neither">With the Mendelian randomization (MR) approach, the study aimed to determine the causal association between sleep traits (sleep duration, insomnia, daytime napping, sleep-wake disorders, chronotype) and low grip strength.</citation_analysis></p></sec><sec><title>Methods</title><p><citation_analysis attribute="positive">The study used genetic variants from the genome-wide association study (GWAS) archived in UK Biobank and FinnGen. We assessed the potential causal relationship between sleep behaviors and grip strength using inverse variance weighting (IVW), weighted median (WM), and MR-Egger. Additionally, we performed sensitivity analyses using Cochran’s Q test, MR Egger Intercept test, funnel plots, and leave-one-out method.</citation_analysis></p></sec><sec><title>Results</title><p><citation_analysis attribute="positive">We found that sleep duration is causally negatively associated with low grip strength (OR = 0.618, 95% CI = 0.424–0.900, P = 0.012). Sleep-wake disorders have a positive association with low grip strength (OR = 1.018, 95% CI = 1.002–1.034, P = 0.029). Reversely, high low grip strength risk was causally associated with increased daytime napping (OR = 1.018, 95% CI = 1.004–1.032, P = 0.011).</citation_analysis></p></sec><sec><title>Conclusion</title><p><citation_analysis attribute="positive">The study revealed causal associations between sleep duration, sleep-wake disorders, and low grip strength. Understanding their relationship helps in early clinical intervention to improve the life quality of the elderly.</citation_analysis></p></sec></abstract><kwd-group kwd-group-type="author"><title>Keywords</title><kwd>sleep</kwd><kwd>low grip strength</kwd><kwd>Mendelian randomization</kwd></kwd-group><funding-group><award-group><funding-source>
+<institution-wrap><institution>Open Project of State Key Laboratory of Basic and Applied Aerospace Medicine</institution></institution-wrap>
+</funding-source></award-group><funding-statement>This research was funded by the Fundamental Research Business Expenses of the Central Universities (Grant No. 2024GCZX002, 2024GCZX005, PD-GCZX002, PD-GCZX006, and 2022YB019); the Open Project of State Key Laboratory of Basic and Applied Aerospace Medicine (Grant No. SMFA20K04).</funding-statement></funding-group><counts><fig-count count="6"/><table-count count="3"/><ref-count count="83"/><page-count count="13"/></counts></article-meta></front>
+  <body>
+    <sec sec-type="intro" id="s0001">
+      <title>Introduction</title>
+      <p><citation_analysis attribute="neither">Low grip strength is a common debilitating dysfunction, and not only predicts a decline in muscle mass and function, but is also associated with falls and reduced mobility.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0001" ref-type="bibr">1</xref></citation_analysis><citation_analysis attribute="positive"> Meta-analyses have demonstrated that low grip strength elevates the risk of a variety of diseases, including cardiovascular diseases,</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0002" ref-type="bibr">2</xref></citation_analysis><citation_analysis attribute="neither"> type 2 diabetes,</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0003" ref-type="bibr">3</xref></citation_analysis><citation_analysis attribute="neither"> obesity,</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0004" ref-type="bibr">4</xref></citation_analysis><citation_analysis attribute="neither"> and chronic obstructive pulmonary disease.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0005" ref-type="bibr">5</xref></citation_analysis><citation_analysis attribute="neither"> In addition, multiple previous studies support the association of weak grip strength with increased all-cause mortality in the general and old population.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0006" ref-type="bibr">6–8</xref></citation_analysis></p>
+      <p><citation_analysis attribute="neither">Sleep quality is a key evaluator of sleep, and sleep quality is recognized as one of the key factors affecting grip strength.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0009" ref-type="bibr">9</xref></citation_analysis><citation_analysis attribute="positive"> Previous studies have demonstrated that poor sleep quality was associated with decreased muscle mass and decreased grip strength.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0010" ref-type="bibr">10</xref></citation_analysis><citation_analysis attribute="neither">,</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0011" ref-type="bibr">11</xref></citation_analysis><citation_analysis attribute="neither"> This may be due to the fact that poor sleep quality affects the metabolism of hormones, among which insulin-like growth factor 1 (IGF-1) is a central factor to muscle protein synthesis.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0012" ref-type="bibr">12</xref></citation_analysis><citation_analysis attribute="positive"> Sleep patterns are also significant for sleep health,</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0013" ref-type="bibr">13</xref></citation_analysis><citation_analysis attribute="neither"> yet sleep patterns change with age independent of other factors such as comorbidities and medications.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0014" ref-type="bibr">14</xref></citation_analysis><citation_analysis attribute="neither"> Several prospective cohorts have also examined the strong correlation between circadian rhythm disruption and skeletal muscle damage in humans.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0015" ref-type="bibr">15</xref></citation_analysis><citation_analysis attribute="neither">,</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0016" ref-type="bibr">16</xref></citation_analysis><citation_analysis attribute="positive"> Epidemiological studies have shown that poor sleep quality is prevalent in the old, with about half or more complaining about their sleep problems.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0017" ref-type="bibr">17</xref></citation_analysis><citation_analysis attribute="neither">,</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0018" ref-type="bibr">18</xref></citation_analysis><citation_analysis attribute="positive"> Therefore, it is essential to explore the effects of sleep on grip strength levels in the elderly.</citation_analysis></p>
+      <p><citation_analysis attribute="positive">Most of the current studies on sleep and grip strength are observational and are susceptible to confounding factors, making it difficult to confirm a causal relationship. In addition, most of these studies utilized cross-sectional designs, so it is difficult to infer causality and the direction of causality. To strengthen causal inference, we apply a novel genetically informed method. Mendelian randomization (MR) is an approach that uses genetic variants as instruments to estimate the causal effects of the exposure on outcome.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0019" ref-type="bibr">19</xref></citation_analysis><citation_analysis attribute="neither"> Since genotypes are randomly assigned from parents to offspring, they are not subject to reverse causality and confounding factors.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0020" ref-type="bibr">20</xref></citation_analysis></p>
+      <p><citation_analysis attribute="positive">As mentioned earlier, there may be a correlation between sleep traits and low grip strength, but evidence of causality is lacking. This study aimed to investigate the causal relationship between several sleep traits and low grip strength and shed light on the causal directions, providing a theoretical basis for clinical improvement of life quality in the elderly.</citation_analysis></p>
+    </sec>
+    <sec id="s0002">
+      <title>Materials and Methods</title>
+      <sec id="s0002-s2001">
+        <title>Study Design</title>
+        <p><citation_analysis attribute="positive">We used a bidirectional, two-sample MR design to examine the relationship between sleep traits and low grip strength. Analyses were conducted using sleep traits: (i) as the exposure to assess whether sleep traits have a causal effect on low grip strength and sleep traits, and (ii) as the outcome to assess whether low grip strength has a causal effect on sleep traits. Summary data for all exposure and outcome variables were obtained from large-scale genome-wide association studies (GWAS) of individuals of European ancestry. We assessed the role of five different sleep traits on low grip strength. These included sleep duration, insomnia, sleep-wake disorders, daytime napping, and chronotype. In addition, </citation_analysis><citation_analysis attribute="positive"><xref rid="f0001" ref-type="fig">Figure 1</xref></citation_analysis><citation_analysis attribute="neither"> summarizes the core MR assumptions for the study design.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0021" ref-type="bibr">21</xref></citation_analysis><citation_analysis attribute="positive">
+</citation_analysis><citation_analysis attribute="positive"><fig position="float" id="f0001" fig-type="figure"><label>Figure 1</label><caption><p><citation_analysis attribute="positive">Study design and Mendelian Randomisation (MR) fundamental assumptions. (I) The genetic variant must be associated with the exposure. The use of weak IVs can bias MR estimates towards the confounded observational estimate in MR settings. (II) The genetic instruments should not be associated with confounders of the exposure-outcome relationship. (III) Any association between the genetic instruments and the outcome must be via the exposure.</citation_analysis></p></caption><graphic xlink:href="NSS-16-1699-g0001" content-type="print-only" position="float"/></fig></citation_analysis></p>
+        <p><citation_analysis attribute="positive">This study is reported as per the Strengthening the Reporting of Observational Studies in Epidemiology Using Mendelian Randomization (STROBE-MR) guideline (</citation_analysis><citation_analysis attribute="positive"><underline><ext-link xlink:href="https://www.dovepress.com/get_supplementary_file.php?f=480491.docx" ext-link-type="uri">Supplementary Table S1</ext-link></underline></citation_analysis><citation_analysis attribute="neither">).</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0022" ref-type="bibr">22</xref></citation_analysis><citation_analysis attribute="positive"> All original studies included in the GWAS datasets were ethically approved, and informed consent was obtained from all participants.</citation_analysis></p>
+      </sec>
+      <sec id="s0002-s2002">
+        <title>Data Sources</title>
+        <p><citation_analysis attribute="neither">Summary data for five sleep traits, including sleep duration (n = 460,099),</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0023" ref-type="bibr">23</xref></citation_analysis><citation_analysis attribute="neither">,</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0024" ref-type="bibr">24</xref></citation_analysis><citation_analysis attribute="neither"> insomnia (n = 307,751),</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0025" ref-type="bibr">25</xref></citation_analysis><citation_analysis attribute="neither"> sleep-wake disorders (n = 305,359),</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0025" ref-type="bibr">25</xref></citation_analysis><citation_analysis attribute="neither"> daytime napping (n = 452,633),</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0026" ref-type="bibr">26</xref></citation_analysis><citation_analysis attribute="neither"> and chronotype (n = 449,734),</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0027" ref-type="bibr">27</xref></citation_analysis><citation_analysis attribute="neither"> were obtained from GWAS studies in the UK Biobank and FinnGen (R7 release). The UK Biobank is a large-scale biomedical database containing genetic and health information from approximately half a million United Kingdom participants aged between 40 and 69. The FinnGen research project collected biological samples from 500,000 participants with a median age of 63 years in Finland over six years. The details of sleep traits data sources used in this study are in </citation_analysis><citation_analysis attribute="positive"><xref rid="t0001" ref-type="table">Table 1</xref></citation_analysis><citation_analysis attribute="neither">.
+</citation_analysis><citation_analysis attribute="positive"><table-wrap position="float" id="t0001"><label>Table 1</label><caption><p><citation_analysis attribute="neither">Details of GWAS Datasets About Sleep Traits</citation_analysis></p></caption><table frame="hsides" rules="groups"><thead><tr><th rowspan="1" colspan="1">Exposures</th><th rowspan="1" colspan="1">Type</th><th rowspan="1" colspan="1">Definition</th><th rowspan="1" colspan="1">Sample size</th><th rowspan="1" colspan="1">Populations</th><th rowspan="1" colspan="1">Consortium</th><th rowspan="1" colspan="1">Sources</th></tr></thead><tbody><tr><td rowspan="1" colspan="1">Sleep duration</td><td rowspan="1" colspan="1">Categorical Ordered</td><td rowspan="1" colspan="1">Reported in whole hours: Short sleep duration (&lt;6 vs 7 or 8 h); Long sleep duration (&gt;9 vs 7 or 8 h)</td><td rowspan="1" colspan="1">460,099</td><td rowspan="1" colspan="1">European</td><td rowspan="1" colspan="1">MRC-IEU (UKB)</td><td rowspan="1" colspan="1"><underline><ext-link xlink:href="https://gwas.mrcieu.ac.uk/datasets/ukb-b-4424/" ext-link-type="uri">https://gwas.mrcieu.ac.uk/datasets/ukb-b-4424/</ext-link></underline><xref rid="cit0023" ref-type="bibr">23</xref></td></tr><tr><td rowspan="1" colspan="1">Insomnia</td><td rowspan="1" colspan="1">Categorical Ordered</td><td rowspan="1" colspan="1">Self-reported: usually;Sometimes or rarely; Never</td><td rowspan="1" colspan="1">307,751</td><td rowspan="1" colspan="1">European</td><td rowspan="1" colspan="1">FinnGen</td><td rowspan="1" colspan="1">Kurki MI et al<xref rid="cit0025" ref-type="bibr">25</xref></td></tr><tr><td rowspan="1" colspan="1">Sleep-wake disorders</td><td rowspan="1" colspan="1">Categorical Ordered</td><td rowspan="1" colspan="1">Sleep-wake phase disorder; Delayed sleep-wake phase disorder</td><td rowspan="1" colspan="1">305,359</td><td rowspan="1" colspan="1">European</td><td rowspan="1" colspan="1">FinnGen</td><td rowspan="1" colspan="1">Kurki MI et al<xref rid="cit0025" ref-type="bibr">25</xref></td></tr><tr><td rowspan="1" colspan="1">Daytime napping</td><td rowspan="1" colspan="1">Categorical Ordered</td><td rowspan="1" colspan="1">Self-reported: Never/Rarely; Sometimes; Always</td><td rowspan="1" colspan="1">452,633</td><td rowspan="1" colspan="1">European</td><td rowspan="1" colspan="1">UKB</td><td rowspan="1" colspan="1">Dashti HS et al<xref rid="cit0026" ref-type="bibr">26</xref></td></tr><tr><td rowspan="1" colspan="1">Chronotype</td><td rowspan="1" colspan="1">Categorical Ordered</td><td rowspan="1" colspan="1">Self-report: Definitely morning; More morning than evening; Do not know; More evening than morning; Definitely evening</td><td rowspan="1" colspan="1">449,734</td><td rowspan="1" colspan="1">European</td><td rowspan="1" colspan="1">UKB</td><td rowspan="1" colspan="1">Jones SE et al<xref rid="cit0027" ref-type="bibr">27</xref></td></tr></tbody></table><table-wrap-foot><fn id="tfn0001"><p><citation_analysis attribute="positive"><bold>Abbreviations</bold></citation_analysis><citation_analysis attribute="neither">: UKB, UK biobank; MRC-IEU, Medical Research Center-Integrative Epidemiology Center (UK Bristol).</citation_analysis></p></fn></table-wrap-foot></table-wrap></citation_analysis></p>
+        <p><citation_analysis attribute="neither">For low grip strength, the summary data were obtained from a recent GWAS meta-analysis on muscle weakness.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0028" ref-type="bibr">28</xref></citation_analysis><citation_analysis attribute="positive"> The study included 48,596 old adults (aged from 60 to 90 years) of European ancestry with the European Working Group on Sarcopenia in Older People definition (grip strength &lt; 30 kg Male; &lt; 20 kg Female), adjusted for sex, age, and technical covariates.</citation_analysis></p>
+      </sec>
+      <sec id="s0002-s2003">
+        <title>Genetic Instruments Selection</title>
+        <p><citation_analysis attribute="neither">As genetic instruments, single nucleotide polymorphisms (SNPs) associated with each trait at genome-wide significance (</citation_analysis><citation_analysis attribute="positive"><italic toggle="yes">P</italic></citation_analysis><citation_analysis attribute="neither"> &lt; 5×10</citation_analysis><citation_analysis attribute="positive"><sup>−8</sup></citation_analysis><citation_analysis attribute="negative">) were extracted. For phenotypes with insufficient SNPs reaching the threshold, we selected instruments with a relaxed threshold (</citation_analysis><citation_analysis attribute="positive"><italic toggle="yes">P</italic></citation_analysis><citation_analysis attribute="neither"> &lt; 5×10</citation_analysis><citation_analysis attribute="positive"><sup>−5</sup></citation_analysis><citation_analysis attribute="positive">). Then, SNPs were clumped to obtain independent loci using a threshold of linkage disequilibrium (LD) r</citation_analysis><citation_analysis attribute="positive"><sup>2</sup></citation_analysis><citation_analysis attribute="positive"> &lt; 0.001 and a distance of 10,000 kb. When SNPs for the exposure were unavailable in the outcome phenotype data, we replaced them with proxy SNPs in high-linkage disequilibrium (r</citation_analysis><citation_analysis attribute="positive"><sup>2</sup></citation_analysis><citation_analysis attribute="positive"> &gt; 0.800) using the LDlink (</citation_analysis><citation_analysis attribute="positive"><underline><ext-link xlink:href="https://ldlink.nih.gov/?tab=ldproxy" ext-link-type="uri">https://ldlink.nih.gov/?tab=ldproxy</ext-link></underline></citation_analysis><citation_analysis attribute="positive">). Furthermore, we removed SNPs strongly associated with outcome (</citation_analysis><citation_analysis attribute="positive"><italic toggle="yes">P</italic></citation_analysis><citation_analysis attribute="neither"> &lt; 5×10</citation_analysis><citation_analysis attribute="positive"><sup>−8</sup></citation_analysis><citation_analysis attribute="positive">). Then, we considered several factors to be potential confounders of the association between sleep traits and grip strength: body mass index (BMI), fracture, poor appetite, bone mineral density, waist circumference, dementia, insulin resistance, strenuous physical activity, oxidative protein damage, age at menarche, depression, fall status, and cardiorespiratory. Furthermore, we removed SNPs with potential reverse causal effects by the Steiger filtering (Steiger </citation_analysis><citation_analysis attribute="positive"><italic toggle="yes">P</italic></citation_analysis><citation_analysis attribute="neither"> &gt; 0.05).</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0029" ref-type="bibr">29</xref></citation_analysis><citation_analysis attribute="neither"> Finally, to quantify the strength of instrumental variables (IVs), we calculated F-statistics. F-statistics &gt; 10 suggests that the combined SNPs in our MR model are a sufficiently strong instrument to explain phenotypic variants.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0030" ref-type="bibr">30</xref></citation_analysis><citation_analysis attribute="positive"> The list of instruments for each phenotype is shown in </citation_analysis><citation_analysis attribute="positive"><underline><ext-link xlink:href="https://www.dovepress.com/get_supplementary_file.php?f=480491.docx" ext-link-type="uri">Supplementary Table S2</ext-link></underline></citation_analysis><citation_analysis attribute="neither">.</citation_analysis></p>
+      </sec>
+      <sec id="s0002-s2004">
+        <title>Statistical Analyses</title>
+        <p><citation_analysis attribute="neither">This study used the random-effect inverse-variance weighted (IVW) method to estimate overall causal effects. It is considered the most predictive method, assuming no directional pleiotropy.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0031" ref-type="bibr">31</xref></citation_analysis><citation_analysis attribute="neither"> Then, we conducted the weighted-Median method, which gives a credible estimate of effect when up to half of the weight is derived from valid IVs.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0032" ref-type="bibr">32</xref></citation_analysis><citation_analysis attribute="positive"> In addition, the MR-Egger method provided a causal estimate using the slope of the weighted linear regression against horizontal pleiotropy.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0033" ref-type="bibr">33</xref></citation_analysis></p>
+        <p><citation_analysis attribute="positive">We conducted several sensitivity analyses to further estimate the MR results’ robustness. Cochran’s Q statistic evaluated Heterogeneity across IVs.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0034" ref-type="bibr">34</xref></citation_analysis><citation_analysis attribute="neither"> We performed the MR-Egger intercept test to assess horizontal pleiotropy.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0035" ref-type="bibr">35</xref></citation_analysis><citation_analysis attribute="neither"> The stability of these genetic variants is measured by funnel plots and leave-one-out method.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0033" ref-type="bibr">33</xref></citation_analysis><citation_analysis attribute="neither"> In addition, Mendelian Randomization Pleiotropy Residual Sum and Outlier (MR-PRESSO) was used to identify potential pleiotropic outliers and provided estimates after excluding these outlier SNPs.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0035" ref-type="bibr">35</xref></citation_analysis><citation_analysis attribute="neither"> Moreover, we looked up each instrument SNP and their proxies (r</citation_analysis><citation_analysis attribute="positive"><sup>2</sup></citation_analysis><citation_analysis attribute="positive">&gt; 0.80) in the PhenoScanner database to assess associations with potential confounding (</citation_analysis><citation_analysis attribute="positive"><italic toggle="yes">P</italic></citation_analysis><citation_analysis attribute="neither"> &lt; 1 × 10</citation_analysis><citation_analysis attribute="positive"><sup>−5</sup></citation_analysis><citation_analysis attribute="positive">). We assessed the effects of manually removing these SNPs from the MR analysis to rule out possible pleiotropic effects. Finally, because some exposure data were derived from UK Biobank and outcome data were derived from several GWAS meta-analysis results, there is some inevitable partial sample overlap. We used MRlap method to assess the potential resulting bias.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0036" ref-type="bibr">36</xref></citation_analysis><citation_analysis attribute="positive"> If the difference between the raw and adjusted IVW effects was insignificant (</citation_analysis><citation_analysis attribute="positive"><italic toggle="yes">P</italic></citation_analysis><citation_analysis attribute="positive"> &gt; 0.05), the raw IVW estimates could be trusted. Conversely, if we found the difference significant (</citation_analysis><citation_analysis attribute="positive"><italic toggle="yes">P</italic></citation_analysis><citation_analysis attribute="positive"> &lt; 0.05), we prioritize the adjusted IVW estimates as it is not affected by sample overlap.</citation_analysis></p>
+        <p><citation_analysis attribute="positive">All statistical analyses were conducted in the R software (version 4.2.2) using the TwoSampleMR, MR-PRESSO, and MRlap packages.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0037" ref-type="bibr">37</xref></citation_analysis><citation_analysis attribute="positive"> Effect estimates are reported in odds ratio (OR) with 95% confidence intervals (CI), and P &lt; 0.05 was considered statistically significant.</citation_analysis></p>
+      </sec>
+    </sec>
+    <sec id="s0003">
+      <title>Results</title>
+      <sec id="s0003-s2001">
+        <title>Causal Effects of Sleep Traits and Low Grip Strength</title>
+        <p><citation_analysis attribute="negative">The F-statistics for five sleep traits were above of 10 (12.09–32.67), indicating that the selected IVs has enough power to avoid potential weak instruments bias effectively.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0038" ref-type="bibr">38</xref></citation_analysis><citation_analysis attribute="neither">,</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0039" ref-type="bibr">39</xref></citation_analysis><citation_analysis attribute="positive"> The summary results of all the analyses for sleep traits on low grip strength are shown in </citation_analysis><citation_analysis attribute="positive"><xref rid="f0002" ref-type="fig">Figure 2</xref></citation_analysis><citation_analysis attribute="neither"> and </citation_analysis><citation_analysis attribute="positive"><xref rid="t0002" ref-type="table">Table 2</xref></citation_analysis><citation_analysis attribute="neither">.
+</citation_analysis><citation_analysis attribute="positive"><table-wrap position="float" id="t0002"><label>Table 2</label><caption><p><citation_analysis attribute="neither">MR Analyses with Heterogeneity, Sensitivity, and Pleiotropy Evaluation for Causal Effects of Sleep Traits on LGS</citation_analysis></p></caption><table frame="hsides" rules="groups"><thead><tr><th rowspan="2" colspan="1">Exposure</th><th rowspan="2" colspan="1">Outcome</th><th rowspan="2" colspan="1">SNPs</th><th rowspan="2" colspan="1">Cochran’s Q test (P)</th><th rowspan="2" colspan="1">MR Egger Intercept (P)</th><th colspan="3" rowspan="1">MR</th></tr><tr><th rowspan="1" colspan="1">Method</th><th rowspan="1" colspan="1">OR (95% CI)</th><th rowspan="1" colspan="1">P</th></tr></thead><tbody><tr><td rowspan="1" colspan="1">Sleep duration</td><td rowspan="1" colspan="1">LGS</td><td rowspan="1" colspan="1">36</td><td rowspan="1" colspan="1">0.193</td><td rowspan="1" colspan="1">0.954</td><td rowspan="1" colspan="1">IVW</td><td rowspan="1" colspan="1">0.618 (0.424–0.900)</td><td rowspan="1" colspan="1">0.012</td></tr><tr><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1">WM</td><td rowspan="1" colspan="1">0.526 (0.322–0.860)</td><td rowspan="1" colspan="1">0.010</td></tr><tr><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1">MR-Egger</td><td rowspan="1" colspan="1">0.587 (0.101–3.402)</td><td rowspan="1" colspan="1">0.556</td></tr><tr><td rowspan="1" colspan="1">Insomnia</td><td rowspan="1" colspan="1">LGS</td><td rowspan="1" colspan="1">66<sup>a</sup></td><td rowspan="1" colspan="1">0.390</td><td rowspan="1" colspan="1">0.321</td><td rowspan="1" colspan="1">IVW</td><td rowspan="1" colspan="1">1.013 (0.994–1.032)</td><td rowspan="1" colspan="1">0.171</td></tr><tr><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1">WM</td><td rowspan="1" colspan="1">0.994 (0.968–1.021)</td><td rowspan="1" colspan="1">0.675</td></tr><tr><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1">MR-Egger</td><td rowspan="1" colspan="1">0.999 (0.967–1.032)</td><td rowspan="1" colspan="1">0.962</td></tr><tr><td rowspan="1" colspan="1">Sleep-wake disorders</td><td rowspan="1" colspan="1">LGS</td><td rowspan="1" colspan="1">18<sup>a</sup></td><td rowspan="1" colspan="1">0.408</td><td rowspan="1" colspan="1">0.525</td><td rowspan="1" colspan="1">IVW</td><td rowspan="1" colspan="1">1.018 (1.002–1.034)</td><td rowspan="1" colspan="1">0.029</td></tr><tr><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1">WM</td><td rowspan="1" colspan="1">1.015 (0.993–1.038)</td><td rowspan="1" colspan="1">0.173</td></tr><tr><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1">MR-Egger</td><td rowspan="1" colspan="1">1.007 (0.973–1.043)</td><td rowspan="1" colspan="1">0.693</td></tr><tr><td rowspan="1" colspan="1">Daytime napping</td><td rowspan="1" colspan="1">LGS</td><td rowspan="1" colspan="1">48</td><td rowspan="1" colspan="1">0.701</td><td rowspan="1" colspan="1">0.978</td><td rowspan="1" colspan="1">IVW</td><td rowspan="1" colspan="1">1.045 (0.721–1.515)</td><td rowspan="1" colspan="1">0.816</td></tr><tr><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1">WM</td><td rowspan="1" colspan="1">0.839 (0.492–1.431)</td><td rowspan="1" colspan="1">0.520</td></tr><tr><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1">MR-Egger</td><td rowspan="1" colspan="1">1.025 (0.245–4.281)</td><td rowspan="1" colspan="1">0.973</td></tr><tr><td rowspan="1" colspan="1">Chronotype</td><td rowspan="1" colspan="1">LGS</td><td rowspan="1" colspan="1">6<sup>a</sup></td><td rowspan="1" colspan="1">0.910</td><td rowspan="1" colspan="1">0.500</td><td rowspan="1" colspan="1">IVW</td><td rowspan="1" colspan="1">1.161 (0.862–1.563)</td><td rowspan="1" colspan="1">0.325</td></tr><tr><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1">WM</td><td rowspan="1" colspan="1">1.083 (0.763–1.538)</td><td rowspan="1" colspan="1">0.657</td></tr><tr><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1">MR-Egger</td><td rowspan="1" colspan="1">0.855 (0.361–2.026)</td><td rowspan="1" colspan="1">0.740</td></tr></tbody></table><table-wrap-foot><fn id="tfn0002"><p><citation_analysis attribute="positive"><bold>Notes</bold></citation_analysis><citation_analysis attribute="neither">: </citation_analysis><citation_analysis attribute="positive"><sup>a</sup></citation_analysis><citation_analysis attribute="neither">Using </citation_analysis><citation_analysis attribute="positive"><italic toggle="yes">P</italic></citation_analysis><citation_analysis attribute="neither"> &lt; 5×10</citation_analysis><citation_analysis attribute="positive"><sup>−5</sup></citation_analysis><citation_analysis attribute="negative"> threshold when the eligible single nucleotide polymorphism (SNP) numbers were insufficient (nSNP &lt;3).</citation_analysis></p></fn><fn id="tfn0003"><p><citation_analysis attribute="positive"><bold>Abbreviations</bold></citation_analysis><citation_analysis attribute="neither">: LGS, Low grip strength; SNP, Single-nucleotide polymorphism; MR, Mendelian Randomization; OR, odds ratio; IVW, Inverse-Variance Weighted; WM, Weighted Median.</citation_analysis></p></fn></table-wrap-foot></table-wrap></citation_analysis><citation_analysis attribute="positive">
+</citation_analysis><citation_analysis attribute="positive"><fig position="float" id="f0002" fig-type="figure"><label>Figure 2</label><caption><p><citation_analysis attribute="positive">Forest plot for Mendelian randomization (MR) effect estimates with IVW, WM, and MR-Egger: causal effects for sleep traits on low grip strength. OR: odds ratio; CI: confidence interval; IVW: inverse-variance weighted; WM: weighted median; nSNP: number of single nucleotide polymorphisms. Horizontal lines represent 95% confidence interval.</citation_analysis></p></caption><graphic xlink:href="NSS-16-1699-g0002" content-type="print-only" position="float"/></fig></citation_analysis></p>
+        <p><citation_analysis attribute="positive">We obtained 36 significant independent SNPs as IVs for sleep duration, excluding 24 confounder-associated variants, 1 incompatible SNP, and 10 palindromic SNPs. The IVW result showed that sleep duration was negatively associated with low grip strength (OR = 0.62, 95% CI = 0.42–0.90, </citation_analysis><citation_analysis attribute="positive"><italic toggle="yes">P</italic></citation_analysis><citation_analysis attribute="neither"> = 0.012 &lt; 0.05) (</citation_analysis><citation_analysis attribute="positive"><xref rid="f0003" ref-type="fig">Figure 3</xref></citation_analysis><citation_analysis attribute="positive">). The weighted median and MR-Egger results showed the same direction as those of IVW (OR &lt; 1.00). Moreover, the MR-Egger intercept test showed no significant horizontal pleiotropy (</citation_analysis><citation_analysis attribute="positive"><italic toggle="yes">P</italic></citation_analysis><citation_analysis attribute="neither"> &gt; 0.05), and MR-PRESSO did not identify any pleiotropic outliers. Funnel plot and leave-one-out analysis showed no single SNP biased effect estimates (</citation_analysis><citation_analysis attribute="positive"><underline><ext-link xlink:href="https://www.dovepress.com/get_supplementary_file.php?f=480491.docx" ext-link-type="uri">Supplementary Figures S1</ext-link></underline></citation_analysis><citation_analysis attribute="neither"> and </citation_analysis><citation_analysis attribute="positive"><underline><ext-link xlink:href="https://www.dovepress.com/get_supplementary_file.php?f=480491.docx" ext-link-type="uri">S2</ext-link></underline></citation_analysis><citation_analysis attribute="positive">). MRlap analysis showed no significant difference between the raw and adjusted IVW estimates (</citation_analysis><citation_analysis attribute="positive"><italic toggle="yes">P</italic></citation_analysis><citation_analysis attribute="neither"> &gt; 0.05).
+</citation_analysis><citation_analysis attribute="positive"><fig position="float" id="f0003" fig-type="figure"><label>Figure 3</label><caption><p><citation_analysis attribute="neither">Scatterplot of the effect of each single genetic instrument on sleep duration and low grip strength. The slope of each line corresponds to the estimated MR effect in different models, and the horizontal and vertical lines indicate each correlation’s 95% confidence interval.</citation_analysis></p></caption><graphic xlink:href="NSS-16-1699-g0003" content-type="print-only" position="float"/></fig></citation_analysis></p>
+        <p><citation_analysis attribute="positive">For sleep-wake disorders, we got 18 IVs using relaxed P-value thresholds (</citation_analysis><citation_analysis attribute="positive"><italic toggle="yes">P</italic></citation_analysis><citation_analysis attribute="neither"> &lt; 5×10</citation_analysis><citation_analysis attribute="positive"><sup>−5</sup></citation_analysis><citation_analysis attribute="positive">) after removing 1 palindromic SNP. Notably, for the large-scale GWAS study on sleep-wake disorders (n = 305,359) that we used, relaxing the P-value thresholds may have increased the true positive discovery at the cost of adding few additional false positive results.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0040" ref-type="bibr">40</xref></citation_analysis><citation_analysis attribute="neither"> We found sleep-wake disorders was significantly associated with low grip strength (IVW: OR = 1.02, 95% CI = 1.00–1.03, P = 0.020 &lt; 0.05) (</citation_analysis><citation_analysis attribute="positive"><xref rid="f0004" ref-type="fig">Figure 4</xref></citation_analysis><citation_analysis attribute="positive">). Consistent with the IVW result, the Weighted median and MR-Egger showed a positive causal direction (OR &gt; 1.00). The Cochran’s Q and MR-Egger intercept tests showed no obvious heterogeneity and horizontal pleiotropy (</citation_analysis><citation_analysis attribute="positive"><italic toggle="yes">P</italic></citation_analysis><citation_analysis attribute="positive"> &gt; 0.05). In addition, no outlier IVs were identified in the MR-PRESSO analysis. Funnel plots and leave-one-out analyses showed single SNP did not bias the result (</citation_analysis><citation_analysis attribute="positive"><underline><ext-link xlink:href="https://www.dovepress.com/get_supplementary_file.php?f=480491.docx" ext-link-type="uri">Supplementary Figures S3</ext-link></underline></citation_analysis><citation_analysis attribute="neither"> and </citation_analysis><citation_analysis attribute="positive"><underline><ext-link xlink:href="https://www.dovepress.com/get_supplementary_file.php?f=480491.docx" ext-link-type="uri">S4</ext-link></underline></citation_analysis><citation_analysis attribute="positive">). MRlap analysis showed no significant differences between the raw and adjusted IVW P-values for sleep-wake disorders (</citation_analysis><citation_analysis attribute="positive"><italic toggle="yes">P</italic></citation_analysis><citation_analysis attribute="neither"> &gt; 0.05).
+</citation_analysis><citation_analysis attribute="positive"><fig position="float" id="f0004" fig-type="figure"><label>Figure 4</label><caption><p><citation_analysis attribute="neither">Scatterplot of the effect of each single genetic instrument on sleep-wake disorders and low grip strength. The slope of each line corresponds to the estimated MR effect in different models, and the horizontal and vertical lines indicate each correlation’s 95% confidence interval.</citation_analysis></p></caption><graphic xlink:href="NSS-16-1699-g0004" content-type="print-only" position="float"/></fig></citation_analysis></p>
+        <p><citation_analysis attribute="positive">Besides, we did not find a significant causal relationship between the genetically predicted insomnia, daytime napping, and chronotype with low grip strength (IVW P &gt; 0.05). In the sensitivity analyses, the MR-PRESSO results for chronotype showed rs76277841 played a contradictory role with other SNPs. However, we still could not find a causal relationship between chronotype and low grip strength after removing it (OR = 0.95, 95% CI = 0.65–1.40, </citation_analysis><citation_analysis attribute="positive"><italic toggle="yes">P</italic></citation_analysis><citation_analysis attribute="positive"> = 0.802). MRlap analyses for these three sleep traits similarly showed no significant difference between the raw and adjusted (for sample overlap) IVW P-values (</citation_analysis><citation_analysis attribute="positive"><italic toggle="yes">P</italic></citation_analysis><citation_analysis attribute="positive"> &gt; 0.05). The visualization of the sensitivity analyses is shown in </citation_analysis><citation_analysis attribute="positive"><underline><ext-link xlink:href="https://www.dovepress.com/get_supplementary_file.php?f=480491.docx" ext-link-type="uri">Supplementary Figures S5</ext-link></underline></citation_analysis><citation_analysis attribute="neither">–</citation_analysis><citation_analysis attribute="positive"><underline><ext-link xlink:href="https://www.dovepress.com/get_supplementary_file.php?f=480491.docx" ext-link-type="uri">S13</ext-link></underline></citation_analysis><citation_analysis attribute="neither">.</citation_analysis></p>
+      </sec>
+      <sec id="s0003-s2002">
+        <title>Causal Effects of Low Grip Strength on Sleep Traits</title>
+        <p><citation_analysis attribute="positive">In reverse analyses, we found a significant positive association low grip strength and between daytime napping (IVW: OR = 1.02, 95% CI = 1.00–1.03, </citation_analysis><citation_analysis attribute="positive"><italic toggle="yes">P</italic></citation_analysis><citation_analysis attribute="neither"> = 0.011 &lt; 0.05) (</citation_analysis><citation_analysis attribute="positive"><xref rid="f0005" ref-type="fig">Figure 5</xref></citation_analysis><citation_analysis attribute="positive">). Notably, the IVs used for daytime napping had removed the specific SNP (rs3771501), influencing the effect estimates found by the leave-one-out analysis. Similar to the IVW result, the Weighted median and MR-Egger also showed a positive causal direction (OR &gt; 1.00). Cochran’s Q and MR-Egger intercept tests showed no significant heterogeneity or horizontal pleiotropy (</citation_analysis><citation_analysis attribute="positive"><italic toggle="yes">P</italic></citation_analysis><citation_analysis attribute="positive"> &gt; 0.05). MR-PRESSO did not identify any outliers. Furthermore, funnel plots and leave-one-out analysis verified the robustness of the findings (</citation_analysis><citation_analysis attribute="positive"><underline><ext-link xlink:href="https://www.dovepress.com/get_supplementary_file.php?f=480491.docx" ext-link-type="uri">Supplementary Figures S14</ext-link></underline></citation_analysis><citation_analysis attribute="neither"> and </citation_analysis><citation_analysis attribute="positive"><underline><ext-link xlink:href="https://www.dovepress.com/get_supplementary_file.php?f=480491.docx" ext-link-type="uri">S15</ext-link></underline></citation_analysis><citation_analysis attribute="positive">). MRlap analysis showed a significant difference between the raw and adjusted IVW P-values (</citation_analysis><citation_analysis attribute="positive"><italic toggle="yes">P</italic></citation_analysis><citation_analysis attribute="positive"> = 0.007 &lt; 0.05). However, the MRlap corrected results were consistent with the primary MR analysis result (corrected IVW: OR = 1.08, 95% CI = 0.94–1.23, </citation_analysis><citation_analysis attribute="positive"><italic toggle="yes">P</italic></citation_analysis><citation_analysis attribute="neither"> = 0.044 &lt; 0.05), which confirms that the IVW method is robust. The results of reverse MR are summarized in </citation_analysis><citation_analysis attribute="positive"><xref rid="f0006" ref-type="fig">Figure 6</xref></citation_analysis><citation_analysis attribute="neither"> and </citation_analysis><citation_analysis attribute="positive"><xref rid="t0003" ref-type="table">Table 3</xref></citation_analysis><citation_analysis attribute="neither">.
+</citation_analysis><citation_analysis attribute="positive"><table-wrap position="float" id="t0003"><label>Table 3</label><caption><p><citation_analysis attribute="neither">MR Analyses with Heterogeneity, Sensitivity, and Pleiotropy Evaluation for Causal Effects of LGS on Sleep Traits</citation_analysis></p></caption><table frame="hsides" rules="groups"><thead><tr><th rowspan="2" colspan="1">Exposure</th><th rowspan="2" colspan="1">Outcome</th><th rowspan="2" colspan="1">SNPs</th><th rowspan="2" colspan="1">Cochran’s Q test (P)</th><th rowspan="2" colspan="1">MR Egger Intercept (P)</th><th colspan="3" rowspan="1">MR</th></tr><tr><th rowspan="1" colspan="1">Method</th><th rowspan="1" colspan="1">OR (95% CI)</th><th rowspan="1" colspan="1">P</th></tr></thead><tbody><tr><td rowspan="1" colspan="1">LGS</td><td rowspan="1" colspan="1">Sleep duration</td><td rowspan="1" colspan="1">7</td><td rowspan="1" colspan="1">0.973</td><td rowspan="1" colspan="1">0.955</td><td rowspan="1" colspan="1">IVW</td><td rowspan="1" colspan="1">0.996 (0.979–1.012)</td><td rowspan="1" colspan="1">0.609</td></tr><tr><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1">WM</td><td rowspan="1" colspan="1">0.995 (0.975–1.015)</td><td rowspan="1" colspan="1">0.602</td></tr><tr><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1">MR-Egger</td><td rowspan="1" colspan="1">0.997 (0.949–1.048)</td><td rowspan="1" colspan="1">0.911</td></tr><tr><td rowspan="1" colspan="1">LGS</td><td rowspan="1" colspan="1">Insomnia</td><td rowspan="1" colspan="1">137 <sup>a</sup></td><td rowspan="1" colspan="1">0.501</td><td rowspan="1" colspan="1">0.883</td><td rowspan="1" colspan="1">IVW</td><td rowspan="1" colspan="1">1.032 (0.940–1.134)</td><td rowspan="1" colspan="1">0.503</td></tr><tr><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1">WM</td><td rowspan="1" colspan="1">1.072 (0.927–1.241)</td><td rowspan="1" colspan="1">0.352</td></tr><tr><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1">MR-Egger</td><td rowspan="1" colspan="1">1.047 (0.855–1.281)</td><td rowspan="1" colspan="1">0.659</td></tr><tr><td rowspan="1" colspan="1">LGS</td><td rowspan="1" colspan="1">Sleep-wake disorders</td><td rowspan="1" colspan="1">106 <sup>a</sup></td><td rowspan="1" colspan="1">0.986</td><td rowspan="1" colspan="1">0.444</td><td rowspan="1" colspan="1">IVW</td><td rowspan="1" colspan="1">0.900 (0.665–1.220)</td><td rowspan="1" colspan="1">0.498</td></tr><tr><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1">WM</td><td rowspan="1" colspan="1">0.995 (0.636–1.556)</td><td rowspan="1" colspan="1">0.982</td></tr><tr><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1">MR-Egger</td><td rowspan="1" colspan="1">0.739 (0.411–1.330)</td><td rowspan="1" colspan="1">0.316</td></tr><tr><td rowspan="1" colspan="1">LGS</td><td rowspan="1" colspan="1">Daytime napping</td><td rowspan="1" colspan="1">6</td><td rowspan="1" colspan="1">0.722</td><td rowspan="1" colspan="1">0.756</td><td rowspan="1" colspan="1">IVW</td><td rowspan="1" colspan="1">1.018 (1.004–1.032)</td><td rowspan="1" colspan="1">0.011</td></tr><tr><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1">WM</td><td rowspan="1" colspan="1">1.020 (1.003–1.038)</td><td rowspan="1" colspan="1">0.022</td></tr><tr><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1">MR-Egger</td><td rowspan="1" colspan="1">1.025 (0.982–1.070)</td><td rowspan="1" colspan="1">0.324</td></tr><tr><td rowspan="1" colspan="1">LGS</td><td rowspan="1" colspan="1">Chronotype</td><td rowspan="1" colspan="1">3 <sup>a</sup></td><td rowspan="1" colspan="1">0.316</td><td rowspan="1" colspan="1">0.445</td><td rowspan="1" colspan="1">IVW</td><td rowspan="1" colspan="1">1.060 (0.934–1.202)</td><td rowspan="1" colspan="1">0.368</td></tr><tr><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1">WM</td><td rowspan="1" colspan="1">1.065 (0.900–1.260)</td><td rowspan="1" colspan="1">0.465</td></tr><tr><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1">MR-Egger</td><td rowspan="1" colspan="1">1.189 (0.953–1.484)</td><td rowspan="1" colspan="1">0.367</td></tr></tbody></table><table-wrap-foot><fn id="tfn0004"><p><citation_analysis attribute="positive"><bold>Notes</bold></citation_analysis><citation_analysis attribute="neither">: </citation_analysis><citation_analysis attribute="positive"><sup>a</sup></citation_analysis><citation_analysis attribute="neither"> Using </citation_analysis><citation_analysis attribute="positive"><italic toggle="yes">P</italic></citation_analysis><citation_analysis attribute="neither"> &lt; 5×10</citation_analysis><citation_analysis attribute="positive"><sup>−5</sup></citation_analysis><citation_analysis attribute="negative"> threshold when the eligible single nucleotide polymorphism (SNP) numbers were insufficient (nSNP &lt;3).</citation_analysis></p></fn><fn id="tfn0005"><p><citation_analysis attribute="positive"><bold>Abbreviations</bold></citation_analysis><citation_analysis attribute="neither">: LGS, Low grip strength; SNP, Single-nucleotide polymorphism; MR, Mendelian Randomization; OR, odds ratio; IVW, Inverse-Variance Weighted; WM = Weighted Median.</citation_analysis></p></fn></table-wrap-foot></table-wrap></citation_analysis><citation_analysis attribute="positive">
+</citation_analysis><citation_analysis attribute="positive"><fig position="float" id="f0005" fig-type="figure"><label>Figure 5</label><caption><p><citation_analysis attribute="neither">Scatterplot of the effect of each single genetic instrument on low grip strength and daytime napping. The slope of each line corresponds to the estimated MR effect in different models, and the horizontal and vertical lines indicate each correlation’s 95% confidence interval.</citation_analysis></p></caption><graphic xlink:href="NSS-16-1699-g0005" content-type="print-only" position="float"/></fig></citation_analysis><citation_analysis attribute="positive">
+</citation_analysis><citation_analysis attribute="positive"><fig position="float" id="f0006" fig-type="figure"><label>Figure 6</label><caption><p><citation_analysis attribute="positive">Forest plot for Mendelian randomization (MR) effect estimates with IVW, WM, and MR-Egger: causal effects for low grip strength on sleep traits. OR: odds ratio; CI: confidence interval; IVW: inverse-variance weighted; WM: weighted median; nSNP: number of single nucleotide polymorphisms. Horizontal lines represent 95% confidence interval.</citation_analysis></p></caption><graphic xlink:href="NSS-16-1699-g0006" content-type="print-only" position="float"/></fig></citation_analysis></p>
+        <p><citation_analysis attribute="neither">However, we failed to find a potential causal relationship between genetically predicted low grip strength and sleep duration, insomnia, sleep-wake disorders, and chronotype (IVW </citation_analysis><citation_analysis attribute="positive"><italic toggle="yes">P</italic></citation_analysis><citation_analysis attribute="positive"> &gt; 0.05). Moreover, MRlap analyses revealed a significant difference between raw and corrected IVW P-values for low hand grip strength to Insomnia (</citation_analysis><citation_analysis attribute="positive"><italic toggle="yes">P</italic></citation_analysis><citation_analysis attribute="neither"> = 0.049 &lt; 0.05) and Sleep-wake disorders analyses (</citation_analysis><citation_analysis attribute="positive"><italic toggle="yes">P</italic></citation_analysis><citation_analysis attribute="positive"> = 0.004 &lt; 0.05). Similarly, the corrected results of low grip strength to Insomnia and Sleep-wake disorders were consistent with the primary MR results (corrected IVW: </citation_analysis><citation_analysis attribute="positive"><italic toggle="yes">P</italic></citation_analysis><citation_analysis attribute="positive"> = 0.856 and 0.428 &gt; 0.05). For the MRlap result for low grip strength to chronotype, no significant difference was observed between the raw and adjusted IVW P-values (P &gt; 0.05). All sensitivity analyses showed that the results are robust (</citation_analysis><citation_analysis attribute="positive"><underline><ext-link xlink:href="https://www.dovepress.com/get_supplementary_file.php?f=480491.docx" ext-link-type="uri">Supplementary Figure S16</ext-link></underline></citation_analysis><citation_analysis attribute="neither">–</citation_analysis><citation_analysis attribute="positive"><underline><ext-link xlink:href="https://www.dovepress.com/get_supplementary_file.php?f=480491.docx" ext-link-type="uri">S27</ext-link></underline></citation_analysis><citation_analysis attribute="neither">).</citation_analysis></p>
+      </sec>
+    </sec>
+    <sec id="s0004">
+      <title>Discussion</title>
+      <p><citation_analysis attribute="positive">Using bi-directional two-sample MR with genetic instruments selected from large-scale GWAS, we found evidence supporting a potential causal relationship between sleep traits and reduced risk for low grip strength. The study is the first bi-directional MR study to investigate causality between sleep traits and low grip strength. Low grip strength is an early marker of age-related functional decline and a strong predictor of morbidity and mortality in various diseases.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0041" ref-type="bibr">41</xref></citation_analysis><citation_analysis attribute="neither"> Previous studies have revealed the association of grip strength with physical functioning and independence in community-dwelling older adults.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0042" ref-type="bibr">42</xref></citation_analysis><citation_analysis attribute="positive"> Therefore, preventing low grip strength is important for improving population health, especially among older adults. Based on the results, we revealed a significant negative causal effect of sleep duration on low grip strength, indicating that longer sleep duration is associated with a lower occurrence of low grip strength. In addition, the result proposes a causality association between low grip strength risk and sleep-wake disorders. Reversely, low grip strength achieved a significant causal effect with daytime napping. However, there was no evidence of a causal association between insomnia, chronotype and low grip strength.</citation_analysis></p>
+      <p><citation_analysis attribute="neither">Sleep duration is a key trait in sleep quality.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0043" ref-type="bibr">43</xref></citation_analysis><citation_analysis attribute="negative"> Aging disrupts circadian rhythms and is a risk factor for decreased sleep duration;</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0044" ref-type="bibr">44</xref></citation_analysis><citation_analysis attribute="negative"> it also increases the risk of falls, representing the risk of decreased muscle strength.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0045" ref-type="bibr">45</xref></citation_analysis><citation_analysis attribute="neither"> As two corollaries of aging, however, researches on the correlation between sleep duration and grip strength in older adults are controversial.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0009" ref-type="bibr">9</xref></citation_analysis><citation_analysis attribute="neither">,</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0046" ref-type="bibr">46</xref></citation_analysis><citation_analysis attribute="positive"> An observational study has shown no evidence of a correlation between lower sleep duration and sarcopenia.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0047" ref-type="bibr">47</xref></citation_analysis><citation_analysis attribute="neither"> However, a systematic review including 21 cross-sectional, 3 prospective studies, and 92,363 subjects indicated the robust association between sleep duration and muscle health.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0048" ref-type="bibr">48</xref></citation_analysis><citation_analysis attribute="negative"> Typically, previous studies concluded that the shorter the sleep duration, the lower the skeletal muscle mass index and the higher risk of low grip strength.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0049" ref-type="bibr">49</xref></citation_analysis><citation_analysis attribute="neither"> The old adults with mid-sleep (6–7 h) had significantly higher hand grip strength than those with short-sleep (≤ 5 h).</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0050" ref-type="bibr">50</xref></citation_analysis><citation_analysis attribute="positive"> However, recent studies have suggested that either too long or too short sleep duration may lead to sarcopenia and manifest as low grip strength.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0051" ref-type="bibr">51</xref></citation_analysis><citation_analysis attribute="neither">,</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0052" ref-type="bibr">52</xref></citation_analysis><citation_analysis attribute="positive"> Our findings support an appropriate increase in sleep duration, which may be a protective factor for low grip strength, improving quality of life in older adults. Skeletal muscle is composed of 80% protein.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0053" ref-type="bibr">53</xref></citation_analysis><citation_analysis attribute="neither"> When sleep is reduced, the metabolic state of protein is reduced anabolism and/or increased catabolism, which partially explains the decrease in muscle mass when sleep is reduced, and also fits with our results.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0054" ref-type="bibr">54</xref></citation_analysis><citation_analysis attribute="neither"> IGF-1 is a key protein for muscle growth and directly upregulates skeletal muscle protein synthesis through activation of PI3k/Akt/mTOR.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0053" ref-type="bibr">53</xref></citation_analysis><citation_analysis attribute="neither"> Sleep deprivation leads to a decrease in circulating IGF-1, which in turn affects muscle synthesis.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0055" ref-type="bibr">55</xref></citation_analysis><citation_analysis attribute="neither"> Besides the involvement of protein metabolism in muscle synthesis, glucose also has an effect on muscle metabolism. Muscle is the largest organ in the human body and consumes a large amount of glucose every day to maintain its energy supply and glucose homeostasis.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0056" ref-type="bibr">56</xref></citation_analysis><citation_analysis attribute="neither">,</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0057" ref-type="bibr">57</xref></citation_analysis><citation_analysis attribute="neither"> Reduced sleep induces insulin resistance, leading to reduced glucose uptake by muscles and reduced muscle synthesis.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0058" ref-type="bibr">58</xref></citation_analysis><citation_analysis attribute="neither">,</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0059" ref-type="bibr">59</xref></citation_analysis><citation_analysis attribute="neither"> In addition, skeletal muscle possesses a sleep-regulated cell-autonomous molecular clock, and maintaining adequate sleep is essential for muscle mass, growth, and metabolic regulation.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0060" ref-type="bibr">60–62</xref></citation_analysis></p>
+      <p><citation_analysis attribute="positive">Daytime napping appeared to be a beneficial strategy to enhance the recovery process and counteract some of the adverse effects of sleep deprivation on physical and cognitive performance.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0063" ref-type="bibr">63</xref></citation_analysis><citation_analysis attribute="positive"> In observational studies, a higher risk of functional limitations (low grip strength and propensity to fall) was associated with increased daytime napping, but this could not be fully explained by adjusting for demographics or health status.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0064" ref-type="bibr">64</xref></citation_analysis><citation_analysis attribute="neither"> Using MR analyses, we found the causality and its direction: low grip strength may be a causative factor for daytime napping. Previous studies corroborated the plausibility of the results: low hand grip strength was an important symptom of frailty and tended to be highly associated with daytime napping.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0065" ref-type="bibr">65</xref></citation_analysis><citation_analysis attribute="neither">,</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0066" ref-type="bibr">66</xref></citation_analysis><citation_analysis attribute="positive"> However, the clinical significance of this result should be interpreted cautiously as the OR was very close to 1 (OR = 1.018). Increased physical activity increases muscle mass and reduces the incidence of low grip strength.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0067" ref-type="bibr">67</xref></citation_analysis><citation_analysis attribute="negative"> This may help to reduce the incidence of daytime napping, and thus reduce the risk of multiple diseases associated with excessive daytime sleepiness.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0068" ref-type="bibr">68</xref></citation_analysis></p>
+      <p><citation_analysis attribute="neither">Almost all sleep-related phenotypes can be categorized as sleep-wake disorders (or sleep disorders) according to American Psychiatric Association definition.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0069" ref-type="bibr">69</xref></citation_analysis><citation_analysis attribute="positive"> The causal associations of sleep duration, sleep-wake disorders to low grip strength, and low grip strength to daytime napping may be related to circadian rhythm mechanisms in skeletal muscle.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0070" ref-type="bibr">70</xref></citation_analysis><citation_analysis attribute="neither"> Causes of sleep disorders include delayed circadian rhythm with aging, lower physical function and/or activity, and decreased social interactions.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0071" ref-type="bibr">71</xref></citation_analysis><citation_analysis attribute="neither">,</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0072" ref-type="bibr">72</xref></citation_analysis><citation_analysis attribute="positive"> Studies have shown that long-term sleep disorders alter the body’s normal biological rhythms, and indirectly impair skeletal muscle structure, function, and metabolism.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0016" ref-type="bibr">16</xref></citation_analysis><citation_analysis attribute="positive"> In addition to the aforementioned effects of protein metabolism on muscle production, previous studies have shown that patients with sleep disorders are predisposed to develop metabolic syndrome.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0016" ref-type="bibr">16</xref></citation_analysis><citation_analysis attribute="neither"> And the pathological processes that characterize metabolic syndrome, insulin resistance and persistent inflammation, weaken muscle mass.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0073" ref-type="bibr">73</xref></citation_analysis><citation_analysis attribute="neither"> Moreover, the rhythmicity of skeletal muscle itself is thought to affect sleep. The skeletal muscle clock gene regulates sleep homeostasis, and knockout BMAL1 mice exhibit an attenuated rhythm of sleep-wake distribution during 24 hours.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0074" ref-type="bibr">74</xref></citation_analysis></p>
+      <p><citation_analysis attribute="neither">Circadian clock genes regulate skeletal muscle rhythms.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0060" ref-type="bibr">60</xref></citation_analysis><citation_analysis attribute="neither">,</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0061" ref-type="bibr">61</xref></citation_analysis><citation_analysis attribute="neither"> More than 2300 circadian clock genes are expressed in human skeletal muscle, and these genes regulate the expression of downstream clock-control genes (CCGs) through transcriptional, translational, and epigenetic means, thereby effectively regulating the rhythmicity of organisms at physiological, metabolic, and behavioral levels.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0075" ref-type="bibr">75</xref></citation_analysis><citation_analysis attribute="neither"> Among them, skeletal muscle-specific CCGs include myogenic differentiation 1 (Myod1),</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0076" ref-type="bibr">76</xref></citation_analysis><citation_analysis attribute="neither"> Atrogin-1,</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0077" ref-type="bibr">77</xref></citation_analysis><citation_analysis attribute="neither"> dynamin-related protein 1 (Drp1),</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0078" ref-type="bibr">78</xref></citation_analysis><citation_analysis attribute="neither"> Bcl-2 nineteen-kilodalton interacting protein 3 (BNIP3),</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0079" ref-type="bibr">79</xref></citation_analysis><citation_analysis attribute="neither"> and so on. These tissue-specific genes not only maintain skeletal muscle mass and prevent muscle atrophy by regulating muscular dystrophy factor, but also interact with the central clock to influence sleep behavior.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0080" ref-type="bibr">80</xref></citation_analysis><citation_analysis attribute="neither"> For example, Myod1 is a key upstream factor involved in myogenic differentiation and also regulates the expression of core clock genes.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0080" ref-type="bibr">80</xref></citation_analysis><citation_analysis attribute="neither">,</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0081" ref-type="bibr">81</xref></citation_analysis><citation_analysis attribute="neither"> Despite certain results, the complex mechanisms by which skeletal muscle circadian rhythms affect sleep behavior need to be supported by more researches.</citation_analysis></p>
+      <p><citation_analysis attribute="positive">Our study used bidirectional two-sample MR to explore causality and reverse causality between multiple sleep traits and low grip strength based on large sample size databases. Both directions yielded significant results, albeit with some weak effect sizes, suggesting some degree of potential interaction between sleep and grip strength. This may give a universal positive signal that increasing muscle mass to increase grip strength, or consciously improving sleep habits, can consequently improve quality of life and health in old populations.</citation_analysis></p>
+      <p><citation_analysis attribute="positive">Several limitations should be considered in our study. Firstly, although we drew on the largest available GWAS data, some traits found insufficient genome-wide significant SNPs. Therefore, we used relaxed P-value thresholds for some analyses, which may result in weak instruments bias.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0082" ref-type="bibr">82</xref></citation_analysis><citation_analysis attribute="negative"> Although the F-statistics results assured the efficacy of the genetic instruments, some bias (eg, false positives) may still exist with the relaxed thresholds.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0040" ref-type="bibr">40</xref></citation_analysis><citation_analysis attribute="positive"> Secondly, despite selecting strongly associated SNPs, common SNPs do not yet explain much total variance in complex traits and so cannot be considered exact proxies of the exposure. Thirdly, there was some difference in age between the populations for exposure and outcome. The samples in the exposure data from the UK Biobank ranged in age from 40 to 69 years, and the median age of samples from the FinnGen database was 63 years. For outcome, SNPs associated with low grip strength were identified in the CHARGE (Cohorts for Heart and Aging Research in Genomic Epidemiology) Study of individuals aged 60 to 90. Therefore, we could not avoid bias from age differences. Due to the low hand grip strength being an important symptom of frailty, the GWAS data on low hand grip strength are restricted to an older population, which might limit the generalizability of the findings to younger populations. However, age differences in two-sample MR studies generally do not increase the likelihood of incorrectly inferring a causal association.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0083" ref-type="bibr">83</xref></citation_analysis><citation_analysis attribute="positive"> Moreover, datasets restricted to European ancestry limited the bias due to population stratification and clinical generalizability to other populations. However, despite some limitations, our findings are novel and provide data support and a theoretical basis for clinical improvement of quality of life in older adults.</citation_analysis></p>
+    </sec>
+    <sec id="s0005">
+      <title>Conclusion</title>
+      <p><citation_analysis attribute="positive">This study leverages MR to explore causal associations regarding sleep traits and low grip strength risk. Our findings validate a potential causal association between sleep-related phenotypes and low grip strength risk, including sleep duration, sleep-wake disorders, and daytime napping. Furthermore, we speculate on possible physiological mechanisms from the skeletal muscle circadian rhythms perspective. Effective interventions are of great necessity to improve the elderly sleep and muscle function from an early stage. These findings have implications for establishing feasible disease screening and prevention strategies.</citation_analysis></p>
+    </sec>
+  </body>
+  <back>
+    <ack>
+      <title>Acknowledgments</title>
+      <p><citation_analysis attribute="neither">We want to acknowledge the participants and investigators of the FinnGen study, UK Biobank, MRC-IEU and other original GWAS studies.</citation_analysis></p>
+    </ack>
+    <sec sec-type="data-availability" id="s0006">
+      <title>Data Sharing Statement</title>
+      <p><citation_analysis attribute="neither">The data presented in this study are available on reasonable request from the corresponding author. Original data on sleep traits and low grip strength were obtained from the IEU GWAS database (</citation_analysis><citation_analysis attribute="positive"><underline><ext-link xlink:href="https://gwas.mrcieu.ac.uk/" ext-link-type="uri">https://gwas.mrcieu.ac.uk/</ext-link></underline></citation_analysis><citation_analysis attribute="neither">), Finngen database (</citation_analysis><citation_analysis attribute="positive"><underline><ext-link xlink:href="https://www.finngen.fi/en" ext-link-type="uri">https://www.finngen.fi/en</ext-link></underline></citation_analysis><citation_analysis attribute="neither">), and original GWAS studies.</citation_analysis></p>
+    </sec>
+    <sec id="s0007">
+      <title>Ethics Approval</title>
+      <p><citation_analysis attribute="neither">The ethics committee of Beijing Sport University strictly adheres to the Declaration of Helsinki and the International Ethical Guidelines for Health-related Research Involving Humans. The present study uses legally obtained publicly available data, meeting the conditions for exemption from review as stated in the Measures for Ethical Review Methods for Life Sciences and Medical Research Involving Humans.</citation_analysis></p>
+    </sec>
+    <sec id="s0008">
+      <title>Author contributions</title>
+      <p><citation_analysis attribute="positive">All authors made a significant contribution to the work reported, whether that is in the conception, study design, execution, acquisition of data, analysis and interpretation, or in all these areas; took part in drafting, revising or critically reviewing the article; gave final approval of the version to be published; have agreed on the journal to which the article has been submitted; and agree to be accountable for all aspects of the work.</citation_analysis></p>
+    </sec>
+    <sec sec-type="COI-statement" id="s0009">
+      <title>Disclosure</title>
+      <p><citation_analysis attribute="neither">The authors report no conflicts of interest in this work.</citation_analysis></p>
+    </sec>
+    <ref-list>
+      <title>References</title>
+      <ref id="cit0001">
+        <label>1.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Vaishya</surname>
+<given-names>R</given-names></string-name>, <string-name><surname>Misra</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Vaish</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Ursino</surname>
+<given-names>N</given-names></string-name>, <string-name><surname>D’Ambrosi</surname>
+<given-names>R</given-names></string-name>. <article-title>Hand grip strength as a proposed new vital sign of health: a narrative review of evidences</article-title>. <source><italic toggle="yes">J Health Popul Nutr</italic></source>. <year>2024</year>;<volume>43</volume>(<issue>1</issue>):<fpage>7</fpage>. doi:<pub-id pub-id-type="doi">10.1186/s41043-024-00500-y</pub-id><pub-id pub-id-type="pmid">38195493</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0002">
+        <label>2.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Wu</surname>
+<given-names>Y</given-names></string-name>, <string-name><surname>Wang</surname>
+<given-names>W</given-names></string-name>, <string-name><surname>Liu</surname>
+<given-names>T</given-names></string-name>, <string-name><surname>Zhang</surname>
+<given-names>D</given-names></string-name>. <article-title>Association of grip strength with risk of all-cause mortality, cardiovascular diseases, and cancer in community-dwelling populations: a meta-analysis of prospective cohort studies</article-title>. <source><italic toggle="yes">J Am Med Dir Assoc</italic></source>. <year>2017</year>;<volume>18</volume>(<issue>6</issue>):<fpage>551e517</fpage>–<lpage>551e535</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.jamda.2017.03.011</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0003">
+        <label>3.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Hamasaki</surname>
+<given-names>H</given-names></string-name>, <string-name><surname>Kawashima</surname>
+<given-names>Y</given-names></string-name>, <string-name><surname>Katsuyama</surname>
+<given-names>H</given-names></string-name>, <string-name><surname>Sako</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Goto</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Yanai</surname>
+<given-names>H</given-names></string-name>. <article-title>Association of handgrip strength with hospitalization, cardiovascular events, and mortality in Japanese patients with type 2 diabetes</article-title>. <source><italic toggle="yes">Sci Rep</italic></source>. <year>2017</year>;<volume>7</volume>(<issue>1</issue>). doi:<pub-id pub-id-type="doi">10.1038/s41598-017-07438-8</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0004">
+        <label>4.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Lin</surname>
+<given-names>MH</given-names></string-name>, <string-name><surname>Chang</surname>
+<given-names>CY</given-names></string-name>, <string-name><surname>Wu</surname>
+<given-names>DM</given-names></string-name>, <string-name><surname>Lu</surname>
+<given-names>CH</given-names></string-name>, <string-name><surname>Kuo</surname>
+<given-names>CC</given-names></string-name>, <string-name><surname>Chu</surname>
+<given-names>NF</given-names></string-name>. <article-title>Relationship of multimorbidity, obesity status, and grip strength among older adults in Taiwan</article-title>. <source><italic toggle="yes">Int J Environ Res Public Health</italic></source>. <year>2021</year>;<volume>18</volume>(<issue>14</issue>):<fpage>7540</fpage>.<pub-id pub-id-type="pmid">34299990</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0005">
+        <label>5.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Burtin</surname>
+<given-names>C</given-names></string-name>, <string-name><surname>Ter Riet</surname>
+<given-names>G</given-names></string-name>, <string-name><surname>Puhan</surname>
+<given-names>MA</given-names></string-name>, et al. <article-title>Handgrip weakness and mortality risk in COPD: a multicentre analysis</article-title>. <source><italic toggle="yes">Thorax</italic></source>. <year>2016</year>;<volume>71</volume>(<issue>1</issue>):<fpage>86</fpage>–<lpage>87</lpage>. doi:<pub-id pub-id-type="doi">10.1136/thoraxjnl-2015-207451</pub-id><pub-id pub-id-type="pmid">26514408</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0006">
+        <label>6.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Cooper</surname>
+<given-names>R</given-names></string-name>, <string-name><surname>Kuh</surname>
+<given-names>D</given-names></string-name>, <string-name><surname>Hardy</surname>
+<given-names>R</given-names></string-name>, <collab>Mortality Review G</collab>; <collab>Falcon, Teams HAS</collab>. <article-title>Objectively measured physical capability levels and mortality: systematic review and meta-analysis</article-title>. <source><italic toggle="yes">BMJ</italic></source>. <year>2010</year>:<volume>341</volume>:<fpage>c4467</fpage>.<pub-id pub-id-type="pmid">20829298</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0007">
+        <label>7.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Wang</surname>
+<given-names>Y</given-names></string-name>, <string-name><surname>Meng</surname>
+<given-names>T</given-names></string-name>, <string-name><surname>Yang</surname>
+<given-names>W</given-names></string-name>, et al. <article-title>Association of grip strength and comorbidities with all-cause mortality in the older hypertensive adults</article-title>. <source><italic toggle="yes">Front Public Health</italic></source>. <year>2023</year>;<volume>11</volume>:<fpage>1162425</fpage>. doi:<pub-id pub-id-type="doi">10.3389/fpubh.2023.1162425</pub-id><pub-id pub-id-type="pmid">37457245</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0008">
+        <label>8.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Lopez-Bueno</surname>
+<given-names>R</given-names></string-name>, <string-name><surname>Andersen</surname>
+<given-names>LL</given-names></string-name>, <string-name><surname>Calatayud</surname>
+<given-names>J</given-names></string-name>, et al. <article-title>Associations of handgrip strength with all-cause and cancer mortality in older adults: a prospective cohort study in 28 countries</article-title>. <source><italic toggle="yes">Age Ageing</italic></source>. <year>2022</year>;<volume>51</volume>(<issue>5</issue>). doi:<pub-id pub-id-type="doi">10.1093/ageing/afac117</pub-id>.</mixed-citation>
+      </ref>
+      <ref id="cit0009">
+        <label>9.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Liu</surname>
+<given-names>J</given-names></string-name>, <string-name><surname>Zhang</surname>
+<given-names>T</given-names></string-name>, <string-name><surname>Luo</surname>
+<given-names>J</given-names></string-name>, <string-name><surname>Chen</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Zhang</surname>
+<given-names>D</given-names></string-name>. <article-title>Association between sleep duration and grip strength in U.S. older adults: an NHANES analysis (2011-2014)</article-title>. <source><italic toggle="yes">Int J Environ Res Public Health</italic></source>. <year>2023</year>;<volume>20</volume>(<issue>4</issue>):<fpage>3416</fpage>.<pub-id pub-id-type="pmid">36834111</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0010">
+        <label>10.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Buchmann</surname>
+<given-names>N</given-names></string-name>, <string-name><surname>Spira</surname>
+<given-names>D</given-names></string-name>, <string-name><surname>Norman</surname>
+<given-names>K</given-names></string-name>, <string-name><surname>Demuth</surname>
+<given-names>I</given-names></string-name>, <string-name><surname>Eckardt</surname>
+<given-names>R</given-names></string-name>, <string-name><surname>Steinhagen-Thiessen</surname>
+<given-names>E</given-names></string-name>. <article-title>Sleep, muscle mass and muscle function in older people</article-title>. <source><italic toggle="yes">Dtsch Arztebl Int</italic></source>. <year>2016</year>;<volume>113</volume>(<issue>15</issue>):<fpage>253</fpage>–<lpage>260</lpage>. doi:<pub-id pub-id-type="doi">10.3238/arztebl.2016.0253</pub-id><pub-id pub-id-type="pmid">27151463</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0011">
+        <label>11.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Han</surname>
+<given-names>Q</given-names></string-name>, <string-name><surname>Hu</surname>
+<given-names>W</given-names></string-name>, <string-name><surname>Sun</surname>
+<given-names>N</given-names></string-name>, et al. <article-title>Bidirectional associations between sleep quality and grip strength and the mediating role of depression: evidence from two nationally representative cohorts</article-title>. <source><italic toggle="yes">J Gerontol a Biol Sci Med Sci</italic></source>. <year>2023</year>;<volume>78</volume>(<issue>12</issue>):<fpage>2449</fpage>–<lpage>2457</lpage>. doi:<pub-id pub-id-type="doi">10.1093/gerona/glad084</pub-id><pub-id pub-id-type="pmid">36934351</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0012">
+        <label>12.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Everson</surname>
+<given-names>CA</given-names></string-name>, <string-name><surname>Crowley</surname>
+<given-names>WR</given-names></string-name>. <article-title>Reductions in circulating anabolic hormones induced by sustained sleep deprivation in rats</article-title>. <source><italic toggle="yes">Am J Physiol Endocrinol Metab</italic></source>. <year>2004</year>;<volume>286</volume>(<issue>6</issue>):<fpage>E1060</fpage>–<lpage>1070</lpage>. doi:<pub-id pub-id-type="doi">10.1152/ajpendo.00553.2003</pub-id><pub-id pub-id-type="pmid">14871886</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0013">
+        <label>13.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Van Cauter</surname>
+<given-names>E</given-names></string-name>, <string-name><surname>Spiegel</surname>
+<given-names>K</given-names></string-name>, <string-name><surname>Tasali</surname>
+<given-names>E</given-names></string-name>, <string-name><surname>Leproult</surname>
+<given-names>R</given-names></string-name>. <article-title>Metabolic consequences of sleep and sleep loss</article-title>. <source><italic toggle="yes">Sleep Med</italic></source>. <year>2008</year>;<volume>9</volume>(<issue>Suppl 1(0 1)</issue>):<fpage>S23</fpage>–<lpage>28</lpage>. doi:<pub-id pub-id-type="doi">10.1016/S1389-9457(08)70013-3</pub-id><pub-id pub-id-type="pmid">18929315</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0014">
+        <label>14.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Sun</surname>
+<given-names>XH</given-names></string-name>, <string-name><surname>Ma</surname>
+<given-names>T</given-names></string-name>, <string-name><surname>Yao</surname>
+<given-names>S</given-names></string-name>, et al. <article-title>Associations of sleep quality and sleep duration with frailty and pre-frailty in an elderly population Rugao longevity and ageing study</article-title>. <source><italic toggle="yes">BMC Geriatr</italic></source>. <year>2020</year>;<volume>20</volume>(<issue>1</issue>):<fpage>9</fpage>. doi:<pub-id pub-id-type="doi">10.1186/s12877-019-1407-5</pub-id><pub-id pub-id-type="pmid">31906855</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0015">
+        <label>15.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Cheng</surname>
+<given-names>P</given-names></string-name>, <string-name><surname>Drake</surname>
+<given-names>CL</given-names></string-name>. <article-title>Psychological impact of shift work</article-title>. <source><italic toggle="yes">Curr Sleep Med Rep</italic></source>. <year>2018</year>;<volume>4</volume>(<issue>2</issue>):<fpage>104</fpage>–<lpage>109</lpage>. doi:<pub-id pub-id-type="doi">10.1007/s40675-018-0114-7</pub-id><pub-id pub-id-type="pmid">29984133</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0016">
+        <label>16.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Choi</surname>
+<given-names>YI</given-names></string-name>, <string-name><surname>Park</surname>
+<given-names>DK</given-names></string-name>, <string-name><surname>Chung</surname>
+<given-names>JW</given-names></string-name>, <string-name><surname>Kim</surname>
+<given-names>KO</given-names></string-name>, <string-name><surname>Kwon</surname>
+<given-names>KA</given-names></string-name>, <string-name><surname>Kim</surname>
+<given-names>YJ</given-names></string-name>. <article-title>Circadian rhythm disruption is associated with an increased risk of sarcopenia: a nationwide population-based study in Korea</article-title>. <source><italic toggle="yes">Sci Rep</italic></source>. <year>2019</year>;<volume>9</volume>(<issue>1</issue>):<fpage>12015</fpage>. doi:<pub-id pub-id-type="doi">10.1038/s41598-019-48161-w</pub-id><pub-id pub-id-type="pmid">31427694</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0017">
+        <label>17.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Yu</surname>
+<given-names>DS</given-names></string-name>, <string-name><surname>Lee</surname>
+<given-names>DT</given-names></string-name>, <string-name><surname>Man</surname>
+<given-names>NW</given-names></string-name>. <article-title>Fatigue among older people: a review of the research literature</article-title>. <source><italic toggle="yes">Int J Nurs Stud</italic></source>. <year>2010</year>;<volume>47</volume>(<issue>2</issue>):<fpage>216</fpage>–<lpage>228</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.ijnurstu.2009.05.009</pub-id><pub-id pub-id-type="pmid">19524240</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0018">
+        <label>18.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Gulia</surname>
+<given-names>KK</given-names></string-name>, <string-name><surname>Kumar</surname>
+<given-names>VM</given-names></string-name>. <article-title>Sleep disorders in the elderly: a growing challenge</article-title>. <source><italic toggle="yes">Psychogeriatrics</italic></source>. <year>2018</year>;<volume>18</volume>(<issue>3</issue>):<fpage>155</fpage>–<lpage>165</lpage>. doi:<pub-id pub-id-type="doi">10.1111/psyg.12319</pub-id><pub-id pub-id-type="pmid">29878472</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0019">
+        <label>19.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Sanderson</surname>
+<given-names>E</given-names></string-name>, <string-name><surname>Glymour</surname>
+<given-names>MM</given-names></string-name>, <string-name><surname>Holmes</surname>
+<given-names>MV</given-names></string-name>, et al. <article-title>Mendelian randomization</article-title>. <source><italic toggle="yes">Nat Rev Meth Primers</italic></source>. <year>2022</year>;<volume>2</volume>:<fpage>6</fpage>.</mixed-citation>
+      </ref>
+      <ref id="cit0020">
+        <label>20.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Riaz</surname>
+<given-names>H</given-names></string-name>, <string-name><surname>Khan</surname>
+<given-names>MS</given-names></string-name>, <string-name><surname>Siddiqi</surname>
+<given-names>TJ</given-names></string-name>, et al. <article-title>Association between obesity and cardiovascular outcomes: a systematic review and meta-analysis of Mendelian randomization studies</article-title>. <source><italic toggle="yes">JAMA Network Open</italic></source>. <year>2018</year>;<volume>1</volume>(<issue>7</issue>):<fpage>e183788</fpage>. doi:<pub-id pub-id-type="doi">10.1001/jamanetworkopen.2018.3788</pub-id><pub-id pub-id-type="pmid">30646365</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0021">
+        <label>21.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Zheng</surname>
+<given-names>J</given-names></string-name>, <string-name><surname>Baird</surname>
+<given-names>D</given-names></string-name>, <string-name><surname>Borges</surname>
+<given-names>MC</given-names></string-name>, et al. <article-title>Recent developments in Mendelian randomization studies</article-title>. <source><italic toggle="yes">Curr Epidemiol Rep</italic></source>. <year>2017</year>;<volume>4</volume>(<issue>4</issue>):<fpage>330</fpage>–<lpage>345</lpage>. doi:<pub-id pub-id-type="doi">10.1007/s40471-017-0128-6</pub-id><pub-id pub-id-type="pmid">29226067</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0022">
+        <label>22.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Skrivankova</surname>
+<given-names>VW</given-names></string-name>, <string-name><surname>Richmond</surname>
+<given-names>RC</given-names></string-name>, <string-name><surname>Woolf</surname>
+<given-names>BAR</given-names></string-name>, et al. <article-title>Strengthening the reporting of observational studies in epidemiology using Mendelian randomisation (STROBE-MR): explanation and elaboration</article-title>. <source><italic toggle="yes">BMJ</italic></source>. <year>2021</year>;<volume>375</volume>:<fpage>n2233</fpage>. doi:<pub-id pub-id-type="doi">10.1136/bmj.n2233</pub-id><pub-id pub-id-type="pmid">34702754</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0023">
+        <label>23.</label>
+        <mixed-citation publication-type="webpage"><string-name><surname>Elsworth</surname>
+<given-names>B</given-names></string-name>
+<article-title>Sleep duration: dataset</article-title>: <fpage>ukb–b</fpage>–<lpage>4424</lpage>. <year>2018</year>; <comment>Available from:</comment>
+<ext-link xlink:href="https://gwas.mrcieu.ac.uk/datasets/ukb-b-4424/" ext-link-type="uri">https://gwas.mrcieu.ac.uk/datasets/ukb-b-4424/</ext-link>. <date-in-citation>Accessed <month>April</month>
+<day>16</day>, 2024</date-in-citation>.</mixed-citation>
+      </ref>
+      <ref id="cit0024">
+        <label>24.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Dashti</surname>
+<given-names>HS</given-names></string-name>, <string-name><surname>Jones</surname>
+<given-names>SE</given-names></string-name>, <string-name><surname>Wood</surname>
+<given-names>AR</given-names></string-name>, et al. <article-title>Genome-wide association study identifies genetic loci for self-reported habitual sleep duration supported by accelerometer-derived estimates</article-title>. <source><italic toggle="yes">Nat Commun</italic></source>. <year>2019</year>;<volume>10</volume>(<issue>1</issue>):<fpage>1100</fpage>. doi:<pub-id pub-id-type="doi">10.1038/s41467-019-08917-4</pub-id><pub-id pub-id-type="pmid">30846698</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0025">
+        <label>25.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Kurki</surname>
+<given-names>MI</given-names></string-name>, <string-name><surname>Karjalainen</surname>
+<given-names>J</given-names></string-name>, <string-name><surname>Palta</surname>
+<given-names>P</given-names></string-name>, et al. <article-title>FinnGen: unique genetic insights from combining isolated population and national health register data</article-title>. <source><italic toggle="yes">medRxiv</italic></source>. <year>2022</year>:<fpage>22271360</fpage>. doi:<pub-id pub-id-type="doi">10.1101/2022.03.03.22271360</pub-id>.</mixed-citation>
+      </ref>
+      <ref id="cit0026">
+        <label>26.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Dashti</surname>
+<given-names>HS</given-names></string-name>, <string-name><surname>Daghlas</surname>
+<given-names>I</given-names></string-name>, <string-name><surname>Lane</surname>
+<given-names>JM</given-names></string-name>, et al. <article-title>Genetic determinants of daytime napping and effects on cardiometabolic health</article-title>. <source><italic toggle="yes">Nat Commun</italic></source>. <year>2021</year>;<volume>12</volume>(<issue>1</issue>):<fpage>900</fpage>. doi:<pub-id pub-id-type="doi">10.1038/s41467-020-20585-3</pub-id><pub-id pub-id-type="pmid">33568662</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0027">
+        <label>27.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Jones</surname>
+<given-names>SE</given-names></string-name>, <string-name><surname>Lane</surname>
+<given-names>JM</given-names></string-name>, <string-name><surname>Wood</surname>
+<given-names>AR</given-names></string-name>, et al. <article-title>Genome-wide association analyses of chronotype in 697,828 individuals provides insights into circadian rhythms</article-title>. <source><italic toggle="yes">Nat Commun</italic></source>. <year>2019</year>;<volume>10</volume>(<issue>1</issue>):<fpage>343</fpage>. doi:<pub-id pub-id-type="doi">10.1038/s41467-018-08259-7</pub-id><pub-id pub-id-type="pmid">30696823</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0028">
+        <label>28.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Jones</surname>
+<given-names>G</given-names></string-name>, <string-name><surname>Trajanoska</surname>
+<given-names>K</given-names></string-name>, <string-name><surname>Santanasto</surname>
+<given-names>AJ</given-names></string-name>, et al. <article-title>Genome-wide meta-analysis of muscle weakness identifies 15 susceptibility loci in older men and women</article-title>. <source><italic toggle="yes">Nat Commun</italic></source>. <year>2021</year>;<volume>12</volume>(<issue>1</issue>):<fpage>654</fpage>. doi:<pub-id pub-id-type="doi">10.1038/s41467-021-20918-w</pub-id><pub-id pub-id-type="pmid">33510174</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0029">
+        <label>29.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Hemani</surname>
+<given-names>G</given-names></string-name>, <string-name><surname>Tilling</surname>
+<given-names>K</given-names></string-name>, <string-name><surname>Davey Smith</surname>
+<given-names>G</given-names></string-name>. <article-title>Orienting the causal relationship between imprecisely measured traits using GWAS summary data</article-title>. <source><italic toggle="yes">PLoS Genet</italic></source>. <year>2017</year>;<volume>13</volume>(<issue>11</issue>):<fpage>e1007081</fpage>. doi:<pub-id pub-id-type="doi">10.1371/journal.pgen.1007081</pub-id><pub-id pub-id-type="pmid">29149188</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0030">
+        <label>30.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Burgess</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Thompson</surname>
+<given-names>SG</given-names></string-name>, <string-name><surname>Collaboration</surname>
+<given-names>CCG</given-names></string-name>. <article-title>Avoiding bias from weak instruments in Mendelian randomization studies</article-title>. <source><italic toggle="yes">Int J Epidemiol</italic></source>. <year>2011</year>;<volume>40</volume>(<issue>3</issue>):<fpage>755</fpage>–<lpage>764</lpage>. doi:<pub-id pub-id-type="doi">10.1093/ije/dyr036</pub-id><pub-id pub-id-type="pmid">21414999</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0031">
+        <label>31.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Burgess</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Scott</surname>
+<given-names>RA</given-names></string-name>, <string-name><surname>Timpson</surname>
+<given-names>NJ</given-names></string-name>, <string-name><surname>Davey Smith</surname>
+<given-names>G</given-names></string-name>, <string-name><surname>Thompson</surname>
+<given-names>SG</given-names></string-name>, <string-name><surname>Consortium</surname>
+<given-names>E-I</given-names></string-name>. <article-title>Using published data in Mendelian randomization: a blueprint for efficient identification of causal risk factors</article-title>. <source><italic toggle="yes">Eur J Epidemiol</italic></source>. <year>2015</year>;<volume>30</volume>(<issue>7</issue>):<fpage>543</fpage>–<lpage>552</lpage>. doi:<pub-id pub-id-type="doi">10.1007/s10654-015-0011-z</pub-id><pub-id pub-id-type="pmid">25773750</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0032">
+        <label>32.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Bowden</surname>
+<given-names>J</given-names></string-name>, <string-name><surname>Davey Smith</surname>
+<given-names>G</given-names></string-name>, <string-name><surname>Haycock</surname>
+<given-names>PC</given-names></string-name>, <string-name><surname>Burgess</surname>
+<given-names>S</given-names></string-name>. <article-title>Consistent estimation in Mendelian randomization with some invalid instruments using a weighted median estimator</article-title>. <source><italic toggle="yes">Genet Epidemiol</italic></source>. <year>2016</year>;<volume>40</volume>(<issue>4</issue>):<fpage>304</fpage>–<lpage>314</lpage>. doi:<pub-id pub-id-type="doi">10.1002/gepi.21965</pub-id><pub-id pub-id-type="pmid">27061298</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0033">
+        <label>33.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Bowden</surname>
+<given-names>J</given-names></string-name>, <string-name><surname>Del Greco</surname>
+<given-names>MF</given-names></string-name>, <string-name><surname>Minelli</surname>
+<given-names>C</given-names></string-name>, <string-name><surname>Davey Smith</surname>
+<given-names>G</given-names></string-name>, <string-name><surname>Sheehan</surname>
+<given-names>NA</given-names></string-name>, <string-name><surname>Thompson</surname>
+<given-names>JR</given-names></string-name>. <article-title>Assessing the suitability of summary data for two-sample Mendelian randomization analyses using MR-Egger regression: the role of the I2 statistic</article-title>. <source><italic toggle="yes">Int J Epidemiol</italic></source>. <year>2016</year>;<volume>45</volume>(<issue>6</issue>):<fpage>1961</fpage>–<lpage>1974</lpage>. doi:<pub-id pub-id-type="doi">10.1093/ije/dyw220</pub-id><pub-id pub-id-type="pmid">27616674</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0034">
+        <label>34.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Verbanck</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Chen</surname>
+<given-names>CY</given-names></string-name>, <string-name><surname>Neale</surname>
+<given-names>B</given-names></string-name>, <string-name><surname>Do</surname>
+<given-names>R</given-names></string-name>. <article-title>Detection of widespread horizontal pleiotropy in causal relationships inferred from Mendelian randomization between complex traits and diseases</article-title>. <source><italic toggle="yes">Nat Genet</italic></source>. <year>2018</year>;<volume>50</volume>(<issue>5</issue>):<fpage>693</fpage>–<lpage>698</lpage>. doi:<pub-id pub-id-type="doi">10.1038/s41588-018-0099-7</pub-id><pub-id pub-id-type="pmid">29686387</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0035">
+        <label>35.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Hemani</surname>
+<given-names>G</given-names></string-name>, <string-name><surname>Bowden</surname>
+<given-names>J</given-names></string-name>, <string-name><surname>Davey Smith</surname>
+<given-names>G</given-names></string-name>. <article-title>Evaluating the potential role of pleiotropy in Mendelian randomization studies</article-title>. <source><italic toggle="yes">Hum Mol Genet</italic></source>. <year>2018</year>;<volume>27</volume>(<issue>R2</issue>):<fpage>R195</fpage>–<lpage>R208</lpage>. doi:<pub-id pub-id-type="doi">10.1093/hmg/ddy163</pub-id><pub-id pub-id-type="pmid">29771313</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0036">
+        <label>36.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Mounier</surname>
+<given-names>N</given-names></string-name>, <string-name><surname>Kutalik</surname>
+<given-names>Z</given-names></string-name>. <article-title>Bias correction for inverse variance weighting Mendelian randomization</article-title>. <source><italic toggle="yes">Genet Epidemiol</italic></source>. <year>2023</year>;<volume>47</volume>(<issue>4</issue>):<fpage>314</fpage>–<lpage>331</lpage>. doi:<pub-id pub-id-type="doi">10.1002/gepi.22522</pub-id><pub-id pub-id-type="pmid">37036286</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0037">
+        <label>37.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Walker</surname>
+<given-names>VM</given-names></string-name>, <string-name><surname>Davies</surname>
+<given-names>NM</given-names></string-name>, <string-name><surname>Hemani</surname>
+<given-names>G</given-names></string-name>, et al. <article-title>Using the MR-base platform to investigate risk factors and drug targets for thousands of phenotypes</article-title>. <source><italic toggle="yes">Wellcome Open Res</italic></source>. <year>2019</year>;<volume>4</volume>:<fpage>113</fpage>. doi:<pub-id pub-id-type="doi">10.12688/wellcomeopenres.15334.1</pub-id><pub-id pub-id-type="pmid">31448343</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0038">
+        <label>38.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Burgess</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Davies</surname>
+<given-names>NM</given-names></string-name>, <string-name><surname>Thompson</surname>
+<given-names>SG</given-names></string-name>. <article-title>Bias due to participant overlap in two-sample Mendelian randomization</article-title>. <source><italic toggle="yes">Genet Epidemiol</italic></source>. <year>2016</year>;<volume>40</volume>(<issue>7</issue>):<fpage>597</fpage>–<lpage>608</lpage>. doi:<pub-id pub-id-type="doi">10.1002/gepi.21998</pub-id><pub-id pub-id-type="pmid">27625185</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0039">
+        <label>39.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Palmer</surname>
+<given-names>TM</given-names></string-name>, <string-name><surname>Lawlor</surname>
+<given-names>DA</given-names></string-name>, <string-name><surname>Harbord</surname>
+<given-names>RM</given-names></string-name>, et al. <article-title>Using multiple genetic variants as instrumental variables for modifiable risk factors</article-title>. <source><italic toggle="yes">Stat Methods Med Res</italic></source>. <year>2012</year>;<volume>21</volume>(<issue>3</issue>):<fpage>223</fpage>–<lpage>242</lpage>. doi:<pub-id pub-id-type="doi">10.1177/0962280210394459</pub-id><pub-id pub-id-type="pmid">21216802</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0040">
+        <label>40.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Chen</surname>
+<given-names>Z</given-names></string-name>, <string-name><surname>Boehnke</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Wen</surname>
+<given-names>X</given-names></string-name>, <string-name><surname>Mukherjee</surname>
+<given-names>B</given-names></string-name>. <article-title>Revisiting the genome-wide significance threshold for common variant GWAS</article-title>. <source><italic toggle="yes">G3</italic></source>. <year>2021</year>;<volume>11</volume>(<issue>2</issue>). doi:<pub-id pub-id-type="doi">10.1093/g3journal/jkaa056</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0041">
+        <label>41.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Suetta</surname>
+<given-names>C</given-names></string-name>, <string-name><surname>Haddock</surname>
+<given-names>B</given-names></string-name>, <string-name><surname>Alcazar</surname>
+<given-names>J</given-names></string-name>, et al. <article-title>The Copenhagen Sarcopenia Study: lean mass, strength, power, and physical function in a Danish cohort aged 20–93 years</article-title>. <source><italic toggle="yes">J Cachexia, Sarcopenia and Muscle</italic></source>. <year>2019</year>;<volume>10</volume>(<issue>6</issue>):<fpage>1316</fpage>–<lpage>1329</lpage>. doi:<pub-id pub-id-type="doi">10.1002/jcsm.12477</pub-id><pub-id pub-id-type="pmid">31419087</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0042">
+        <label>42.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Porto</surname>
+<given-names>JM</given-names></string-name>, <string-name><surname>Nakaishi</surname>
+<given-names>APM</given-names></string-name>, <string-name><surname>Cangussu-Oliveira</surname>
+<given-names>LM</given-names></string-name>, <string-name><surname>Freire Júnior</surname>
+<given-names>RC</given-names></string-name>, <string-name><surname>Spilla</surname>
+<given-names>SB</given-names></string-name>, <string-name><surname>DCCd</surname>
+<given-names>A</given-names></string-name>. <article-title>Relationship between grip strength and global muscle strength in community-dwelling older people</article-title>. <source><italic toggle="yes">Arch Gerontol Geriatrics</italic></source>. <year>2019</year>;<volume>82</volume>:<fpage>273</fpage>–<lpage>278</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.archger.2019.03.005</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0043">
+        <label>43.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Wang</surname>
+<given-names>Z</given-names></string-name>, <string-name><surname>Zeng</surname>
+<given-names>Z</given-names></string-name>. <article-title>Association between personality characteristics and sleep quality among Chinese middle-aged and older adults: evidence from China family panel studies</article-title>. <source><italic toggle="yes">BMC Public Health</italic></source>. <year>2023</year>;<volume>23</volume>(<issue>1</issue>):<fpage>2427</fpage>. doi:<pub-id pub-id-type="doi">10.1186/s12889-023-17352-6</pub-id><pub-id pub-id-type="pmid">38053067</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0044">
+        <label>44.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Spira</surname>
+<given-names>AP</given-names></string-name>, <string-name><surname>Kaufmann</surname>
+<given-names>CN</given-names></string-name>, <string-name><surname>Stone</surname>
+<given-names>KL</given-names></string-name>. <article-title>Sleep, circadian rhythms, and aging: advancing knowledge to promote older adults’ health</article-title>. <source><italic toggle="yes">J Gerontol a Biol Sci Med Sci</italic></source>. <year>2023</year>;<volume>78</volume>(<issue>10</issue>):<fpage>1812</fpage>–<lpage>1815</lpage>. doi:<pub-id pub-id-type="doi">10.1093/gerona/glad195</pub-id><pub-id pub-id-type="pmid">37814930</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0045">
+        <label>45.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Xu</surname>
+<given-names>Q</given-names></string-name>, <string-name><surname>Ou</surname>
+<given-names>X</given-names></string-name>, <string-name><surname>Li</surname>
+<given-names>J</given-names></string-name>. <article-title>The risk of falls among the aging population: a systematic review and meta-analysis</article-title>. <source><italic toggle="yes">Front Public Health</italic></source>. <year>2022</year>;<volume>10</volume>:<fpage>902599</fpage>. doi:<pub-id pub-id-type="doi">10.3389/fpubh.2022.902599</pub-id><pub-id pub-id-type="pmid">36324472</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0046">
+        <label>46.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Hsu</surname>
+<given-names>NW</given-names></string-name>, <string-name><surname>Lin</surname>
+<given-names>CH</given-names></string-name>, <string-name><surname>Yang</surname>
+<given-names>NP</given-names></string-name>, <string-name><surname>Chen</surname>
+<given-names>HC</given-names></string-name>, <string-name><surname>Chou</surname>
+<given-names>P</given-names></string-name>. <article-title>Handgrip strength is associated with mortality in community-dwelling older adults: the Yilan cohort study, Taiwan</article-title>. <source><italic toggle="yes">BMC Public Health</italic></source>. <year>2023</year>;<volume>23</volume>(<issue>1</issue>):<fpage>2194</fpage>. doi:<pub-id pub-id-type="doi">10.1186/s12889-023-17058-9</pub-id><pub-id pub-id-type="pmid">37940899</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0047">
+        <label>47.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Fabrega-Cuadros</surname>
+<given-names>R</given-names></string-name>, <string-name><surname>Cruz-Diaz</surname>
+<given-names>D</given-names></string-name>, <string-name><surname>Martinez-Amat</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Aibar-Almazan</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Redecillas-Peiro</surname>
+<given-names>MT</given-names></string-name>, <string-name><surname>Hita-Contreras</surname>
+<given-names>F</given-names></string-name>. <article-title>Associations of sleep and depression with obesity and sarcopenia in middle-aged and older adults</article-title>. <source><italic toggle="yes">Maturitas</italic></source>. <year>2020</year>;<volume>142</volume>:<fpage>1</fpage>–<lpage>7</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.maturitas.2020.06.019</pub-id><pub-id pub-id-type="pmid">33158481</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0048">
+        <label>48.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Pana</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Sourtzi</surname>
+<given-names>P</given-names></string-name>, <string-name><surname>Kalokairinou</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Pastroudis</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Chatzopoulos</surname>
+<given-names>ST</given-names></string-name>, <string-name><surname>Velonaki</surname>
+<given-names>VS</given-names></string-name>. <article-title>Association between muscle strength and sleep quality and duration among middle-aged and older adults: a systematic review</article-title>. <source><italic toggle="yes">Eur Geriatr Med</italic></source>. <year>2021</year>;<volume>12</volume>(<issue>1</issue>):<fpage>27</fpage>–<lpage>44</lpage>. doi:<pub-id pub-id-type="doi">10.1007/s41999-020-00399-8</pub-id><pub-id pub-id-type="pmid">32974889</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0049">
+        <label>49.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Wen</surname>
+<given-names>QR</given-names></string-name>, <string-name><surname>Wu</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Pan</surname>
+<given-names>L</given-names></string-name>, et al. <article-title>The correlation of sleep duration and insomnia with low muscle mass, strength and quality in Chinese adults</article-title>. <source><italic toggle="yes">Zhonghua Liu Xing Bing Xue Za Zhi</italic></source>. <year>2022</year>;<volume>43</volume>(<issue>2</issue>):<fpage>175</fpage>–<lpage>182</lpage>. doi:<pub-id pub-id-type="doi">10.3760/cma.j.cn112338-20201020-01252</pub-id><pub-id pub-id-type="pmid">35184481</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0050">
+        <label>50.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Chen</surname>
+<given-names>HC</given-names></string-name>, <string-name><surname>Hsu</surname>
+<given-names>NW</given-names></string-name>, <string-name><surname>Chou</surname>
+<given-names>P</given-names></string-name>. <article-title>The association between sleep duration and hand grip strength in community-dwelling older adults: the Yilan study, Taiwan</article-title>. <source><italic toggle="yes">Sleep</italic></source>. <year>2017</year>;<volume>40</volume>(<issue>4</issue>). doi:<pub-id pub-id-type="doi">10.1093/sleep/zsx021</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0051">
+        <label>51.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Matsumoto</surname>
+<given-names>T</given-names></string-name>, <string-name><surname>Tanizawa</surname>
+<given-names>K</given-names></string-name>, <string-name><surname>Tachikawa</surname>
+<given-names>R</given-names></string-name>, et al. <article-title>Associations of obstructive sleep apnea with truncal skeletal muscle mass and density</article-title>. <source><italic toggle="yes">Sci Rep</italic></source>. <year>2018</year>;<volume>8</volume>(<issue>1</issue>):<fpage>6550</fpage>. doi:<pub-id pub-id-type="doi">10.1038/s41598-018-24750-z</pub-id><pub-id pub-id-type="pmid">29695811</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0052">
+        <label>52.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Lucassen</surname>
+<given-names>EA</given-names></string-name>, <string-name><surname>de Mutsert</surname>
+<given-names>R</given-names></string-name>, <string-name><surname>le Cessie</surname>
+<given-names>S</given-names></string-name>, et al. <article-title>Poor sleep quality and later sleep timing are risk factors for osteopenia and sarcopenia in middle-aged men and women: the NEO study</article-title>. <source><italic toggle="yes">PLoS One</italic></source>. <year>2017</year>;<volume>12</volume>(<issue>5</issue>):<fpage>e0176685</fpage>. doi:<pub-id pub-id-type="doi">10.1371/journal.pone.0176685</pub-id><pub-id pub-id-type="pmid">28459884</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0053">
+        <label>53.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Lamon</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Morabito</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Arentson-Lantz</surname>
+<given-names>E</given-names></string-name>, et al. <article-title>The effect of acute sleep deprivation on skeletal muscle protein synthesis and the hormonal environment</article-title>. <source><italic toggle="yes">Physiol Rep</italic></source>. <year>2021</year>;<volume>9</volume>(<issue>1</issue>):<fpage>e14660</fpage>. doi:<pub-id pub-id-type="doi">10.14814/phy2.14660</pub-id><pub-id pub-id-type="pmid">33400856</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0054">
+        <label>54.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Dattilo</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Antunes</surname>
+<given-names>HK</given-names></string-name>, <string-name><surname>Medeiros</surname>
+<given-names>A</given-names></string-name>, et al. <article-title>Sleep and muscle recovery: endocrinological and molecular basis for a new and promising hypothesis</article-title>. <source><italic toggle="yes">Med Hypotheses</italic></source>. <year>2011</year>;<volume>77</volume>(<issue>2</issue>):<fpage>220</fpage>–<lpage>222</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.mehy.2011.04.017</pub-id><pub-id pub-id-type="pmid">21550729</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0055">
+        <label>55.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Chennaoui</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Leger</surname>
+<given-names>D</given-names></string-name>, <string-name><surname>Gomez-Merino</surname>
+<given-names>D</given-names></string-name>. <article-title>Sleep and the GH/IGF-1 axis: consequences and countermeasures of sleep loss/disorders</article-title>. <source><italic toggle="yes">Sleep Med Rev</italic></source>. <year>2020</year>;<volume>49</volume>:<fpage>101223</fpage>. doi:<pub-id pub-id-type="doi">10.1016/j.smrv.2019.101223</pub-id><pub-id pub-id-type="pmid">31778943</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0056">
+        <label>56.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Hulett</surname>
+<given-names>NA</given-names></string-name>, <string-name><surname>Scalzo</surname>
+<given-names>RL</given-names></string-name>, <string-name><surname>Reusch</surname>
+<given-names>JEB</given-names></string-name>. <article-title>Glucose uptake by skeletal muscle within the contexts of Type 2 diabetes and exercise: an integrated approach</article-title>. <source><italic toggle="yes">Nutrients</italic></source>. <year>2022</year>;<volume>14</volume>(<issue>3</issue>):<fpage>647</fpage>. doi:<pub-id pub-id-type="doi">10.3390/nu14030647</pub-id><pub-id pub-id-type="pmid">35277006</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0057">
+        <label>57.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Merz</surname>
+<given-names>KE</given-names></string-name>, <string-name><surname>Thurmond</surname>
+<given-names>DC</given-names></string-name>. <article-title>Role of skeletal muscle in insulin resistance and glucose uptake</article-title>. <source><italic toggle="yes">Compr Physiol</italic></source>. <year>2020</year>;<volume>10</volume>(<issue>3</issue>):<fpage>785</fpage>–<lpage>809</lpage>.<pub-id pub-id-type="pmid">32940941</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0058">
+        <label>58.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Syauqy</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Hsu</surname>
+<given-names>CY</given-names></string-name>, <string-name><surname>Rau</surname>
+<given-names>HH</given-names></string-name>, <string-name><surname>Kurniawan</surname>
+<given-names>AL</given-names></string-name>, <string-name><surname>Chao</surname>
+<given-names>JC</given-names></string-name>. <article-title>Association of sleep duration and insomnia symptoms with components of metabolic syndrome and inflammation in middle-aged and older adults with metabolic syndrome in Taiwan</article-title>. <source><italic toggle="yes">Nutrients</italic></source>. <year>2019</year>;<volume>11</volume>(<issue>8</issue>):<fpage>1848</fpage>. doi:<pub-id pub-id-type="doi">10.3390/nu11081848</pub-id><pub-id pub-id-type="pmid">31404954</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0059">
+        <label>59.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Abbatecola</surname>
+<given-names>AM</given-names></string-name>, <string-name><surname>Paolisso</surname>
+<given-names>G</given-names></string-name>, <string-name><surname>Fattoretti</surname>
+<given-names>P</given-names></string-name>, et al. <article-title>Discovering pathways of sarcopenia in older adults: a role for insulin resistance on mitochondria dysfunction</article-title>. <source><italic toggle="yes">J Nutr Health Aging</italic></source>. <year>2011</year>;<volume>15</volume>(<issue>10</issue>):<fpage>890</fpage>–<lpage>895</lpage>. doi:<pub-id pub-id-type="doi">10.1007/s12603-011-0366-0</pub-id><pub-id pub-id-type="pmid">22159778</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0060">
+        <label>60.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Chatterjee</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Ma</surname>
+<given-names>K</given-names></string-name>. <article-title>Circadian clock regulation of skeletal muscle growth and repair</article-title>. <source><italic toggle="yes">F1000Res</italic></source>. <year>2016</year>;<volume>5</volume>:<fpage>1549</fpage>. doi:<pub-id pub-id-type="doi">10.12688/f1000research.9076.1</pub-id><pub-id pub-id-type="pmid">27540471</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0061">
+        <label>61.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Harfmann</surname>
+<given-names>BD</given-names></string-name>, <string-name><surname>Schroder</surname>
+<given-names>EA</given-names></string-name>, <string-name><surname>Esser</surname>
+<given-names>KA</given-names></string-name>. <article-title>Circadian rhythms, the molecular clock, and skeletal muscle</article-title>. <source><italic toggle="yes">J Biol Rhythms</italic></source>. <year>2015</year>;<volume>30</volume>(<issue>2</issue>):<fpage>84</fpage>–<lpage>94</lpage>. doi:<pub-id pub-id-type="doi">10.1177/0748730414561638</pub-id><pub-id pub-id-type="pmid">25512305</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0062">
+        <label>62.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Zhang</surname>
+<given-names>H</given-names></string-name>, <string-name><surname>Liang</surname>
+<given-names>J</given-names></string-name>, <string-name><surname>Chen</surname>
+<given-names>N</given-names></string-name>. <article-title>Do not neglect the role of circadian rhythm in muscle atrophy</article-title>. <source><italic toggle="yes">Ageing Res Rev</italic></source>. <year>2020</year>;<volume>63</volume>:<fpage>101155</fpage>. doi:<pub-id pub-id-type="doi">10.1016/j.arr.2020.101155</pub-id><pub-id pub-id-type="pmid">32882420</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0063">
+        <label>63.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Botonis</surname>
+<given-names>PG</given-names></string-name>, <string-name><surname>Koutouvakis</surname>
+<given-names>N</given-names></string-name>, <string-name><surname>Toubekis</surname>
+<given-names>AG</given-names></string-name>. <article-title>The impact of daytime napping on athletic performance - A narrative review</article-title>. <source><italic toggle="yes">Scand J Med Sci Sports</italic></source>. <year>2021</year>;<volume>31</volume>(<issue>12</issue>):<fpage>2164</fpage>–<lpage>2177</lpage>. doi:<pub-id pub-id-type="doi">10.1111/sms.14060</pub-id><pub-id pub-id-type="pmid">34559915</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0064">
+        <label>64.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Goldman</surname>
+<given-names>SE</given-names></string-name>, <string-name><surname>Stone</surname>
+<given-names>KL</given-names></string-name>, <string-name><surname>Ancoli-Israel</surname>
+<given-names>S</given-names></string-name>, et al. <article-title>Poor sleep is associated with poorer physical performance and greater functional limitations in older women</article-title>. <source><italic toggle="yes">Sleep</italic></source>. <year>2007</year>;<volume>30</volume>(<issue>10</issue>):<fpage>1317</fpage>–<lpage>1324</lpage>. doi:<pub-id pub-id-type="doi">10.1093/sleep/30.10.1317</pub-id><pub-id pub-id-type="pmid">17969465</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0065">
+        <label>65.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Zhang</surname>
+<given-names>Y</given-names></string-name>, <string-name><surname>Zhou</surname>
+<given-names>L</given-names></string-name>, <string-name><surname>Ge</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Lin</surname>
+<given-names>X</given-names></string-name>, <string-name><surname>Dong</surname>
+<given-names>B</given-names></string-name>. <article-title>Association between daytime nap duration and risks of frailty: findings from the China health and retirement longitudinal study</article-title>. <source><italic toggle="yes">Front Public Health</italic></source>. <year>2022</year>;<volume>10</volume>:<fpage>1098609</fpage>. doi:<pub-id pub-id-type="doi">10.3389/fpubh.2022.1098609</pub-id><pub-id pub-id-type="pmid">36777767</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0066">
+        <label>66.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Deng</surname>
+<given-names>Z</given-names></string-name>, <string-name><surname>Hu</surname>
+<given-names>Y</given-names></string-name>, <string-name><surname>Duan</surname>
+<given-names>L</given-names></string-name>, et al. <article-title>Causality between sleep traits and the risk of frailty: a Mendelian randomization study</article-title>. <source><italic toggle="yes">Front Public Health</italic></source>. <year>2024</year>;<volume>12</volume>:<fpage>1381482</fpage>. doi:<pub-id pub-id-type="doi">10.3389/fpubh.2024.1381482</pub-id><pub-id pub-id-type="pmid">38784581</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0067">
+        <label>67.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>McGrath</surname>
+<given-names>RP</given-names></string-name>, <string-name><surname>Kraemer</surname>
+<given-names>WJ</given-names></string-name>, <string-name><surname>Snih</surname>
+<given-names>SA</given-names></string-name>, <string-name><surname>Peterson</surname>
+<given-names>MD</given-names></string-name>. <article-title>Handgrip strength and health in aging adults</article-title>. <source><italic toggle="yes">Sports Med</italic></source>. <year>2018</year>;<volume>48</volume>(<issue>9</issue>):<fpage>1993</fpage>–<lpage>2000</lpage>. doi:<pub-id pub-id-type="doi">10.1007/s40279-018-0952-y</pub-id><pub-id pub-id-type="pmid">29943230</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0068">
+        <label>68.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Yamada</surname>
+<given-names>T</given-names></string-name>, <string-name><surname>Hara</surname>
+<given-names>K</given-names></string-name>, <string-name><surname>Shojima</surname>
+<given-names>N</given-names></string-name>, <string-name><surname>Yamauchi</surname>
+<given-names>T</given-names></string-name>, <string-name><surname>Kadowaki</surname>
+<given-names>T</given-names></string-name>. <article-title>Daytime napping and the risk of cardiovascular disease and all-cause mortality: a prospective study and dose-response meta-analysis</article-title>. <source><italic toggle="yes">Sleep</italic></source>. <year>2015</year>;<volume>38</volume>(<issue>12</issue>):<fpage>1945</fpage>–<lpage>1953</lpage>. doi:<pub-id pub-id-type="doi">10.5665/sleep.5246</pub-id><pub-id pub-id-type="pmid">26158892</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0069">
+        <label>69.</label>
+        <mixed-citation publication-type="journal"><collab>American Psychiatric Association</collab>. <article-title>Diagnostic and statistical manual of mental disorders (DSM-5-TR), fifth edition</article-title>. <source><italic toggle="yes">Text Rivision</italic></source>. <year>2022</year>.</mixed-citation>
+      </ref>
+      <ref id="cit0070">
+        <label>70.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Morrison</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Halson</surname>
+<given-names>SL</given-names></string-name>, <string-name><surname>Weakley</surname>
+<given-names>J</given-names></string-name>, <string-name><surname>Hawley</surname>
+<given-names>JA</given-names></string-name>. <article-title>Sleep, circadian biology and skeletal muscle interactions: implications for metabolic health</article-title>. <source><italic toggle="yes">Sleep Med Rev</italic></source>. <year>2022</year>;<volume>66</volume>:<fpage>101700</fpage>. doi:<pub-id pub-id-type="doi">10.1016/j.smrv.2022.101700</pub-id><pub-id pub-id-type="pmid">36272396</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0071">
+        <label>71.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Youngstedt</surname>
+<given-names>SD</given-names></string-name>, <string-name><surname>Elliott</surname>
+<given-names>JA</given-names></string-name>, <string-name><surname>Kripke</surname>
+<given-names>DF</given-names></string-name>. <article-title>Human circadian phase-response curves for exercise</article-title>. <source><italic toggle="yes">J Physiol</italic></source>. <year>2019</year>;<volume>597</volume>(<issue>8</issue>):<fpage>2253</fpage>–<lpage>2268</lpage>. doi:<pub-id pub-id-type="doi">10.1113/JP276943</pub-id><pub-id pub-id-type="pmid">30784068</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0072">
+        <label>72.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Seol</surname>
+<given-names>J</given-names></string-name>, <string-name><surname>Lee</surname>
+<given-names>J</given-names></string-name>, <string-name><surname>Nagata</surname>
+<given-names>K</given-names></string-name>, et al. <article-title>Combined effect of daily physical activity and social relationships on sleep disorder among older adults: cross-sectional and longitudinal study based on data from the Kasama study</article-title>. <source><italic toggle="yes">BMC Geriatr</italic></source>. <year>2021</year>;<volume>21</volume>(<issue>1</issue>):<fpage>623</fpage>. doi:<pub-id pub-id-type="doi">10.1186/s12877-021-02589-w</pub-id><pub-id pub-id-type="pmid">34732144</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0073">
+        <label>73.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Nishikawa</surname>
+<given-names>H</given-names></string-name>, <string-name><surname>Asai</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Fukunishi</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Nishiguchi</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Higuchi</surname>
+<given-names>K</given-names></string-name>. <article-title>Metabolic syndrome and sarcopenia</article-title>. <source><italic toggle="yes">Nutrients</italic></source>. <year>2021</year>;<volume>13</volume>(<issue>10</issue>):<fpage>3519</fpage>. doi:<pub-id pub-id-type="doi">10.3390/nu13103519</pub-id><pub-id pub-id-type="pmid">34684520</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0074">
+        <label>74.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Laposky</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Easton</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Dugovic</surname>
+<given-names>C</given-names></string-name>, <string-name><surname>Walisser</surname>
+<given-names>J</given-names></string-name>, <string-name><surname>Bradfield</surname>
+<given-names>C</given-names></string-name>, <string-name><surname>Turek</surname>
+<given-names>F</given-names></string-name>. <article-title>Deletion of the mammalian circadian clock gene BMAL1/Mop3 alters baseline sleep architecture and the response to sleep deprivation</article-title>. <source><italic toggle="yes">Sleep</italic></source>. <year>2005</year>;<volume>28</volume>(<issue>4</issue>):<fpage>395</fpage>–<lpage>409</lpage>. doi:<pub-id pub-id-type="doi">10.1093/sleep/28.4.395</pub-id><pub-id pub-id-type="pmid">16171284</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0075">
+        <label>75.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Choi</surname>
+<given-names>Y</given-names></string-name>, <string-name><surname>Cho</surname>
+<given-names>J</given-names></string-name>, <string-name><surname>No</surname>
+<given-names>MH</given-names></string-name>, et al. <article-title>Re-setting the circadian clock using exercise against sarcopenia</article-title>. <source><italic toggle="yes">Int J Mol Sci</italic></source>. <year>2020</year>;<volume>21</volume>(<issue>9</issue>):<fpage>3106</fpage>.<pub-id pub-id-type="pmid">32354038</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0076">
+        <label>76.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Zhang</surname>
+<given-names>X</given-names></string-name>, <string-name><surname>Patel</surname>
+<given-names>SP</given-names></string-name>, <string-name><surname>McCarthy</surname>
+<given-names>JJ</given-names></string-name>, <string-name><surname>Rabchevsky</surname>
+<given-names>AG</given-names></string-name>, <string-name><surname>Goldhamer</surname>
+<given-names>DJ</given-names></string-name>, <string-name><surname>Esser</surname>
+<given-names>KA</given-names></string-name>. <article-title>A non-canonical E-box within the MyoD core enhancer is necessary for circadian expression in skeletal muscle</article-title>. <source><italic toggle="yes">Nucleic Acids Res</italic></source>. <year>2012</year>;<volume>40</volume>(<issue>8</issue>):<fpage>3419</fpage>–<lpage>3430</lpage>. doi:<pub-id pub-id-type="doi">10.1093/nar/gkr1297</pub-id><pub-id pub-id-type="pmid">22210883</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0077">
+        <label>77.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Hodge</surname>
+<given-names>BA</given-names></string-name>, <string-name><surname>Wen</surname>
+<given-names>Y</given-names></string-name>, <string-name><surname>Riley</surname>
+<given-names>LA</given-names></string-name>, et al. <article-title>The endogenous molecular clock orchestrates the temporal separation of substrate metabolism in skeletal muscle</article-title>. <source><italic toggle="yes">Skelet Muscle</italic></source>. <year>2015</year>;<volume>5</volume>(<issue>1</issue>):<fpage>17</fpage>. doi:<pub-id pub-id-type="doi">10.1186/s13395-015-0039-5</pub-id><pub-id pub-id-type="pmid">26000164</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0078">
+        <label>78.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Schmitt</surname>
+<given-names>K</given-names></string-name>, <string-name><surname>Grimm</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Dallmann</surname>
+<given-names>R</given-names></string-name>, et al. <article-title>Circadian control of DRP1 activity regulates mitochondrial dynamics and bioenergetics</article-title>. <source><italic toggle="yes">Cell Metab</italic></source>. <year>2018</year>;<volume>27</volume>(<issue>3</issue>):<fpage>657</fpage>–<lpage>666e655</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.cmet.2018.01.011</pub-id><pub-id pub-id-type="pmid">29478834</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0079">
+        <label>79.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Li</surname>
+<given-names>E</given-names></string-name>, <string-name><surname>Li</surname>
+<given-names>X</given-names></string-name>, <string-name><surname>Huang</surname>
+<given-names>J</given-names></string-name>, et al. <article-title>BMAL1 regulates mitochondrial fission and mitophagy through mitochondrial protein BNIP3 and is critical in the development of dilated cardiomyopathy</article-title>. <source><italic toggle="yes">Protein Cell</italic></source>. <year>2020</year>;<volume>11</volume>(<issue>9</issue>):<fpage>661</fpage>–<lpage>679</lpage>. doi:<pub-id pub-id-type="doi">10.1007/s13238-020-00713-x</pub-id><pub-id pub-id-type="pmid">32277346</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0080">
+        <label>80.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Mayeuf-Louchart</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Staels</surname>
+<given-names>B</given-names></string-name>, <string-name><surname>Duez</surname>
+<given-names>H</given-names></string-name>. <article-title>Skeletal muscle functions around the clock</article-title>. <source><italic toggle="yes">Diabetes Obes Metab</italic></source>. <year>2015</year>;<volume>17</volume>(<issue>Suppl 1</issue>):<fpage>39</fpage>–<lpage>46</lpage>. doi:<pub-id pub-id-type="doi">10.1111/dom.12517</pub-id><pub-id pub-id-type="pmid">26332967</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0081">
+        <label>81.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Hodge</surname>
+<given-names>BA</given-names></string-name>, <string-name><surname>Zhang</surname>
+<given-names>X</given-names></string-name>, <string-name><surname>Gutierrez-Monreal</surname>
+<given-names>MA</given-names></string-name>, et al. <article-title>MYOD1 functions as a clock amplifier as well as a critical co-factor for downstream circadian gene expression in muscle</article-title>. <source><italic toggle="yes">Elife</italic></source>. <year>2019</year>;<volume>8</volume>: <fpage>e43017</fpage>.<pub-id pub-id-type="pmid">30789342</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0082">
+        <label>82.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Wray</surname>
+<given-names>NR</given-names></string-name>, <string-name><surname>Yang</surname>
+<given-names>J</given-names></string-name>, <string-name><surname>Hayes</surname>
+<given-names>BJ</given-names></string-name>, <string-name><surname>Price</surname>
+<given-names>AL</given-names></string-name>, <string-name><surname>Goddard</surname>
+<given-names>ME</given-names></string-name>, <string-name><surname>Visscher</surname>
+<given-names>PM</given-names></string-name>. <article-title>Pitfalls of predicting complex traits from SNPs</article-title>. <source><italic toggle="yes">Nat Rev Genet</italic></source>. <year>2013</year>;<volume>14</volume>(<issue>7</issue>):<fpage>507</fpage>–<lpage>515</lpage>. doi:<pub-id pub-id-type="doi">10.1038/nrg3457</pub-id><pub-id pub-id-type="pmid">23774735</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0083">
+        <label>83.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Hemani</surname>
+<given-names>G</given-names></string-name>, <string-name><surname>Zheng</surname>
+<given-names>J</given-names></string-name>, <string-name><surname>Elsworth</surname>
+<given-names>B</given-names></string-name>, et al. <article-title>The MR-Base platform supports systematic causal inference across the human phenome</article-title>. <source><italic toggle="yes">Elife</italic></source>. <year>2018</year>;<volume>7</volume>. doi:<pub-id pub-id-type="doi">10.7554/eLife.34408</pub-id></mixed-citation>
+      </ref>
+    </ref-list>
+  </back>
+</article>
+</pmc-articleset>

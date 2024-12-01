@@ -1,0 +1,715 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<pmc-articleset><article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" dtd-version="1.3" xml:lang="en" article-type="research-article">
+  <?properties open_access?>
+  <processing-meta base-tagset="archiving" mathml-version="3.0" table-model="xhtml" tagset-family="jats">
+    <restricted-by>pmc</restricted-by>
+  </processing-meta>
+  <front><journal-meta><journal-id journal-id-type="nlm-ta">Nat Sci Sleep</journal-id><journal-id journal-id-type="iso-abbrev">Nat Sci Sleep</journal-id><journal-id journal-id-type="publisher-id">nss</journal-id><journal-title-group><journal-title>Nature and Science of Sleep</journal-title></journal-title-group><issn pub-type="epub">1179-1608</issn><publisher><publisher-name>Dove</publisher-name></publisher></journal-meta>
+<article-meta><article-id pub-id-type="pmid">39081512</article-id><article-id pub-id-type="pmc">11288323</article-id><article-id pub-id-type="publisher-id">464944</article-id><article-id pub-id-type="doi">10.2147/NSS.S464944</article-id><article-categories><subj-group subj-group-type="heading"><subject>Original Research</subject></subj-group></article-categories><title-group><article-title>Nonlinear Heart Rate Variability Analysis for Sleep Stage Classification Using Integration of Ballistocardiogram and Apple Watch</article-title><alt-title alt-title-type="running-authors">Jaworski and Park</alt-title><alt-title alt-title-type="running-title">Jaworski and Park</alt-title></title-group><contrib-group><contrib contrib-type="author"><contrib-id contrib-id-type="orcid">http://orcid.org/0000-0002-4025-4713</contrib-id><name><surname>Jaworski</surname><given-names>Dominic</given-names></name><xref rid="aff0001" ref-type="aff">
+<sup>1</sup>
+</xref><xref rid="aff0002" ref-type="aff">
+<sup>2</sup>
+</xref></contrib><contrib contrib-type="author"><name><surname>Park</surname><given-names>Edward J</given-names></name><xref rid="aff0001" ref-type="aff">
+<sup>1</sup>
+</xref><xref rid="aff0002" ref-type="aff">
+<sup>2</sup>
+</xref><xref rid="an0001" ref-type="corresp"/></contrib><aff id="aff0001"><label>1</label><institution>Mechatronic Systems Engineering, Simon Fraser University</institution>, <addr-line>Surrey</addr-line>, <addr-line>BC</addr-line>, <addr-line>V3T 0A3</addr-line>, <country>Canada</country></aff><aff id="aff0002"><label>2</label><institution>WearTech Labs, Simon Fraser University</institution>, <addr-line>Surrey</addr-line>, <addr-line>BC</addr-line>, <addr-line>V3V 0C6</addr-line>, <country>Canada</country></aff></contrib-group><author-notes><corresp id="an0001">Correspondence: Edward J Park; Dominic Jaworski, <institution>Surrey Centre 2 Building</institution>, <addr-line>9639 - 137A Street, Unit 206</addr-line>, <addr-line>Surrey</addr-line>, <addr-line>BC</addr-line>, <addr-line>V3V 0C6</addr-line>, <country>Canada</country>, Email ed_park@sfu.ca; djaworsk@sfu.ca</corresp></author-notes><pub-date pub-type="epub"><day>26</day><month>7</month><year>2024</year></pub-date><pub-date pub-type="collection"><year>2024</year></pub-date><volume>16</volume><fpage>1075</fpage><lpage>1090</lpage><history><date date-type="received"><day>09</day><month>4</month><year>2024</year></date><date date-type="accepted"><day>28</day><month>6</month><year>2024</year></date></history><permissions><copyright-statement>© 2024 Jaworski and Park.</copyright-statement><copyright-year>2024</copyright-year><copyright-holder>Jaworski and Park.</copyright-holder><license><ali:license_ref xmlns:ali="http://www.niso.org/schemas/ali/1.0/" specific-use="textmining" content-type="ccbynclicense">https://creativecommons.org/licenses/by-nc/3.0/</ali:license_ref><license-p>This work is published and licensed by Dove Medical Press Limited. The full terms of this license are available at <ext-link ext-link-type="uri" xlink:href="https://www.dovepress.com/terms.php">https://www.dovepress.com/terms.php</ext-link> and incorporate the Creative Commons Attribution – Non Commercial (unported, v3.0) License (<ext-link ext-link-type="uri" xlink:href="https://creativecommons.org/licenses/by-nc/3.0/">http://creativecommons.org/licenses/by-nc/3.0/</ext-link>). By accessing the work you hereby accept the Terms. Non-commercial uses of the work are permitted without any further permission from Dove Medical Press Limited, provided the work is properly attributed. For permission for commercial use of this work, please see paragraphs 4.2 and 5 of our Terms (<ext-link ext-link-type="uri" xlink:href="https://www.dovepress.com/terms.php">https://www.dovepress.com/terms.php</ext-link>).</license-p></license></permissions><abstract><sec><title>Purpose</title><p><citation_analysis attribute="positive">Wearable or non-contact, non-intrusive devices present a practical alternative to traditional polysomnography (PSG) for daily assessment of sleep quality. Physiological signals have been known to be nonlinear and nonstationary as the body adapts to states of rest or activity. By integrating more sophisticated nonlinear methodologies, the accuracy of sleep stage identification using such devices can be improved. This advancement enables individuals to monitor and adjust their sleep patterns more effectively without visiting sleep clinics.</citation_analysis></p></sec><sec><title>Patients and Methods</title><p><citation_analysis attribute="neither">Six participants slept for three cycles of at least three hours each, wearing PSG as a reference, along with an Apple Watch, an actigraphy device, and a ballistocardiography (BCG) bed sensor. The physiological signals were processed with nonlinear methods and trained with a long short-term memory (LSTM) model to classify sleep stages. Nonlinear methods, such as return maps with advanced techniques to analyze the shape and asymmetry in physiological signals, were used to relate these signals to the autonomic nervous system (ANS). The changing dynamics of cardiac signals in restful or active states, regulated by the ANS, were associated with sleep stages and quality, which were measurable.</citation_analysis></p></sec><sec><title>Results</title><p><citation_analysis attribute="neither">Approximately 73% agreement was obtained by comparing the combination of the BCG and Apple Watch signals against a PSG reference system to classify rapid eye movement (REM) and non-REM sleep stages.</citation_analysis></p></sec><sec><title>Conclusion</title><p><citation_analysis attribute="neither">Utilizing nonlinear methods to evaluate cardiac dynamics showed an improved sleep quality detection with the non-intrusive devices in this study. A system of non-intrusive devices can provide a comprehensive outlook on health by regularly measuring sleeping patterns and quality over time, offering a relatively accessible method for participants. Additionally, a non-intrusive system can be integrated into a user’s or clinic’s bedroom environment to measure and evaluate sleep quality without negatively impacting sleep. Devices placed around the bedroom could measure user vitals over longer periods with minimal interaction from the user, representing their natural sleeping trends for more accurate health and sleep disorder diagnosis.</citation_analysis></p></sec></abstract><kwd-group kwd-group-type="author"><title>Keywords</title><kwd>ballistocardiogram</kwd><kwd>wearable</kwd><kwd>heart rate variability</kwd><kwd>nonstationary signals</kwd></kwd-group><counts><fig-count count="7"/><table-count count="2"/><ref-count count="52"/><page-count count="16"/></counts></article-meta></front>
+  <body>
+    <sec sec-type="intro" id="s0001">
+      <title>Introduction</title>
+      <p><citation_analysis attribute="positive">Maintaining a regular sleep schedule of good quality restful sleep is beneficial for a healthy life.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0001" ref-type="bibr">1</xref></citation_analysis><citation_analysis attribute="negative"> Good sleep can enhance alertness and daily performance, while lack of sleep can increase the risk of various diseases such as obesity, hypertension, and cardiovascular issues.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0001" ref-type="bibr">1</xref></citation_analysis><citation_analysis attribute="neither">,</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0002" ref-type="bibr">2</xref></citation_analysis><citation_analysis attribute="positive"> Keeping a consistent sleep schedule may be difficult due to many activities that can be carried out at night, such as personal hobbies, or due to sleeping patterns related to differences between workdays and non-workdays, as well as shift work that changes working hours based on job requirements and results in re-adjusting sleeping schedules.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0003" ref-type="bibr">3</xref></citation_analysis><citation_analysis attribute="neither">,</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0004" ref-type="bibr">4</xref></citation_analysis><citation_analysis attribute="neither"> This phenomenon, known as social jetlag, can disrupt the body’s biological clock, resulting in daytime drowsiness.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0004" ref-type="bibr">4</xref></citation_analysis><citation_analysis attribute="neither"> Therefore, managing daily activities to leave enough time to sleep well is very important for a healthy life.</citation_analysis></p>
+      <p><citation_analysis attribute="neither">Polysomnography (PSG) is recognized as the gold standard for assessing sleep quality, capturing a wide range of physiological signals simultaneously via electrodes and sensors attached to the body.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0005" ref-type="bibr">5</xref></citation_analysis><citation_analysis attribute="neither"> Typically conducted within the confines of sleep clinics, PSG studies necessitate an extensive array of sophisticated equipment and the expertise of trained professionals for accurate classification of sleep stages. This requirement for specialized infrastructure and personnel not only adds to the discomfort but also renders the procedure impractical for routine application.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0006" ref-type="bibr">6</xref></citation_analysis><citation_analysis attribute="neither"> Alternatively, a variety of consumer-grade devices, including smartphones, smartwatches, and specialized sleep monitoring tools, are accessible to the broader public. These devices, designed to be worn or placed in or around the bed, offer a non-intrusive approach to track sleep activity.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0006" ref-type="bibr">6</xref></citation_analysis><citation_analysis attribute="neither"> They enable the long-term monitoring of sleeping cycles, facilitating the improvement of users’ sleep patterns, and contributing to more restful sleep nightly.</citation_analysis></p>
+      <p><citation_analysis attribute="neither">Consumer health-monitoring wearables, often worn on the arm-like smartwatches, are equipped with sensors and algorithms that effectively track vital signs throughout the day.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0007" ref-type="bibr">7</xref></citation_analysis><citation_analysis attribute="positive"> Wearable devices have been shown to have good agreement of sleep stages compared with PSG.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0008" ref-type="bibr">8</xref></citation_analysis><citation_analysis attribute="neither">,</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0009" ref-type="bibr">9</xref></citation_analysis><citation_analysis attribute="neither"> For instance, the Apple Watch, which is equipped with optical and electrical cardiac sensors as well as sensitive accelerometers and gyroscopes, offers a native sleep quality analysis function since the release of the Apple Watch Series 6.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0010" ref-type="bibr">10</xref></citation_analysis><citation_analysis attribute="neither">,</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0011" ref-type="bibr">11</xref></citation_analysis><citation_analysis attribute="neither"> Open-Source software kits are available from Apple Inc. for developers to create health solutions from the sensor data that could benefit clinicians and patients.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0012" ref-type="bibr">12</xref></citation_analysis><citation_analysis attribute="negative"> Consumer devices can connect to other user devices to transfer health information through wireless networks making them a convenient option to monitor their vitals and make appropriate adjustments to live a healthier lifestyle. However, many consumer wearables are non-clinical fitness devices that monitor one or a few physiological parameters with the goal of providing users insight into their sleeping habits.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0005" ref-type="bibr">5</xref></citation_analysis><citation_analysis attribute="negative"> Since only a few physiological properties are measured, these devices would not be able to evaluate every kind of sleep disorder without more sensors.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0013" ref-type="bibr">13</xref></citation_analysis><citation_analysis attribute="neither"> Nonetheless, the benefit of non-intrusive devices with sophisticated sensors and software is that they provide an accessible way for consumers to monitor their health effectively without expensive clinical equipment.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0007" ref-type="bibr">7</xref></citation_analysis><citation_analysis attribute="neither">,</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0009" ref-type="bibr">9</xref></citation_analysis><citation_analysis attribute="neither">,</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0013" ref-type="bibr">13</xref></citation_analysis></p>
+      <p><citation_analysis attribute="neither">While wearables can be conveniently worn throughout the day, dedicated devices positioned near the sleep area in the bedroom can provide additional insight into a user’s sleep quality and habits. One type of such device is known as ballistocardiography (BCG), which measures cardiac activity through vibrations from a mattress during sleep.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0014" ref-type="bibr">14</xref></citation_analysis><citation_analysis attribute="positive"> More specifically, the recoil forces from the heartbeat and blood being pumped throughout the body can be measured by the BCG and evaluated to show heart rate activity like an ECG.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0015" ref-type="bibr">15</xref></citation_analysis><citation_analysis attribute="neither"> In ECG, heart rate signals are identified with the QRS complex that reflecting systolic and diastolic activity in the heart with the R wave being a large upward deflection and generally used to evaluate cardiac signals.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0016" ref-type="bibr">16</xref></citation_analysis><citation_analysis attribute="neither"> On the other hand, BCG uses analogous complexes noted as IJK, reflecting the use of a different evaluation methods.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0017" ref-type="bibr">17</xref></citation_analysis><citation_analysis attribute="neither"> The I wave occurs during the systole from the blood accelerating into the aorta; the J wave shows a sharp amplitude when the direction of blood changes; and the K wave is caused by the deceleration of the blood flow, leading to the diastolic portion of the cardiac cycle.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0016" ref-type="bibr">16</xref></citation_analysis><citation_analysis attribute="neither"> The IJK complexes also have more noise from movement artifacts and external vibrations, as well as lagging slightly from QRS complexes due to the time it takes for the vibrations to travel from the body to the sensor.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0017" ref-type="bibr">17</xref></citation_analysis><citation_analysis attribute="neither"> Filtering and signal processing techniques are required to clean up the BCG signals into usable cardiac activity, with appropriate filtering methods used for specific sensors.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0014" ref-type="bibr">14</xref></citation_analysis><citation_analysis attribute="neither">,</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0016" ref-type="bibr">16</xref></citation_analysis></p>
+      <p><citation_analysis attribute="negative">The time between the J–J peaks in BCG signals is referred to as heart rate variability (HRV).</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0018" ref-type="bibr">18</xref></citation_analysis><citation_analysis attribute="neither"> The changes in HRV can reflect the activity of the ANS, which controls the body’s restful or active states, and indicate different sleep stages.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0019" ref-type="bibr">19</xref></citation_analysis><citation_analysis attribute="neither"> Particularly, the high and low frequency components of HRV can signify the transition between wake and sleep stages, with a reduction of HRV showing a transition into the REM sleep stage.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0019" ref-type="bibr">19</xref></citation_analysis><citation_analysis attribute="positive"> Cardiac activity and HRV have nonlinear and nonstationary characteristics that can be analyzed by nonlinear methods to show physiological autonomic changes that can be classified into different sleep stages.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0019" ref-type="bibr">19</xref></citation_analysis><citation_analysis attribute="neither">,</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0020" ref-type="bibr">20</xref></citation_analysis><citation_analysis attribute="neither"> In 1996, a task force was established to standardize the HRV measurement methods, focusing on time, frequency, and nonlinear domains to assess the ANS.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0021" ref-type="bibr">21</xref></citation_analysis><citation_analysis attribute="neither"> Although nonlinear methods showed promise for HRV analyzing, they required further development and evaluation before being standardized at the time.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0021" ref-type="bibr">21</xref></citation_analysis><citation_analysis attribute="neither"> Since then, however, nonlinear methods have become standard for HRV analysis, as physiological signals are nonstationary and nonlinear, essential for regulating the body and maintaining stability during various activities.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0022" ref-type="bibr">22</xref></citation_analysis><citation_analysis attribute="neither">,</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0023" ref-type="bibr">23</xref></citation_analysis></p>
+      <p><citation_analysis attribute="neither">BCG signals are inherently noisy due to the movement, creating artefacts that can affect the overall signal quality measured by the sensitive mechanical sensors.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0016" ref-type="bibr">16</xref></citation_analysis><citation_analysis attribute="neither"> While an ECG utilizes electrodes attached directly to the body to measure electrical signals to analyze cardiac activity, these signals are not as affected by movement as BCG signals.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0016" ref-type="bibr">16</xref></citation_analysis><citation_analysis attribute="positive"> Therefore, BCG signals need additional preprocessing to remove any movement-induced noise to perform an equivalent analysis to that of ECG, and the extra filtering could result in losing some vital information from the signals.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0016" ref-type="bibr">16</xref></citation_analysis><citation_analysis attribute="neither"> However, nonlinear methods that can capture the dynamic nature of cardiac signals can be applied with minimal preprocessing and without over-filtering of BCG signals. Additionally, the body reacts and adapts to situations that are reflected by the changing cardiac activity when someone is resting or active.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0020" ref-type="bibr">20</xref></citation_analysis><citation_analysis attribute="neither"> Classical spectral analysis for HRV was under the assumption that cardiac signals contained linear and stationary such as requiring interpolation into evenly spaced intervals which could lose some valuable information from any biases incurred.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0019" ref-type="bibr">19</xref></citation_analysis><citation_analysis attribute="neither">,</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0024" ref-type="bibr">24</xref></citation_analysis><citation_analysis attribute="neither"> Therefore, measuring these nonlinear changes in HRV with methods that can directly analyze the dynamic nature of the body could provide better insight into some of the subtle changes during the transitions among sleep stages.</citation_analysis></p>
+      <p><citation_analysis attribute="neither">Cardiac signal analysis with a BCG is usually performed similarly to an ECG, following the recommendations and guidelines set out by the task force for features and model training.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0021" ref-type="bibr">21</xref></citation_analysis><citation_analysis attribute="neither">,</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0022" ref-type="bibr">22</xref></citation_analysis><citation_analysis attribute="positive"> However, using more specific techniques that can take advantage of the nonlinear and nonstationary nature of cardiac signals, as well as the unique signals from a BCG, could evaluate sleep quality equivalently to ECG but in a non-contact way.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0020" ref-type="bibr">20</xref></citation_analysis><citation_analysis attribute="negative"> BCG signals also produce a nonlinear and nonstationary cardiac signal due to the inconsistent J-peaks from motion artifacts.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0020" ref-type="bibr">20</xref></citation_analysis><citation_analysis attribute="neither"> However, the BCG signal can measure a good quality cardiac signal similar to an ECG signal with appropriate signal preprocessing and effectively be analyzed through nonlinear methods.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0025" ref-type="bibr">25</xref></citation_analysis><citation_analysis attribute="neither">,</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0026" ref-type="bibr">26</xref></citation_analysis><citation_analysis attribute="neither"> Nonlinear methods offer a more accurate modeling of physiological signal dynamics, providing greater insights into cardiac state and improving sleep stage classification with non-intrusive devices.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0027" ref-type="bibr">27</xref></citation_analysis></p>
+      <p><citation_analysis attribute="positive">Machine learning methods have demonstrated effective classification of sleep stages with various devices and have shown good results compared to PSG.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0028" ref-type="bibr">28</xref></citation_analysis><citation_analysis attribute="positive"> Applying machine learning with nonlinear methods for HRV could further improve the classification of sleep stages using the non-intrusive devices. Additionally, the Internet of Things (IoT) is a technology that can connect devices, sensors, and software together through a shared network to benefit patients and healthcare professionals.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0029" ref-type="bibr">29</xref></citation_analysis><citation_analysis attribute="neither"> This is particularly advantageous for sleep monitoring, as devices can collect data and transmit it to a database, allowing medical professionals to monitor patients’ conditions without requiring an overnight in a laboratory or clinic. Therefore, patients can maintain their daily routines without disruption while being monitored to manage their sleeping habits.</citation_analysis></p>
+      <p><citation_analysis attribute="neither">The study in this manuscript aims to expand on the methods for detecting sleep quality with non-intrusive devices and continues from our previous publications that acted as pilot studies to formulate the experiments and methods for this study.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0030" ref-type="bibr">30</xref></citation_analysis><citation_analysis attribute="neither">,</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0031" ref-type="bibr">31</xref></citation_analysis><citation_analysis attribute="neither"> Combining a non-contact BCG in the bed mattress and a wearable device like the Apple Watch to measure physiological data while they sleep. Nonlinear methods and advanced techniques are explored to measure the nonlinear and nonstationary nature of BCG cardiac signals as the participants transition from wake to sleep stages. Additionally, machine learning is used to classify the sleep stages from the expanded nonlinear features. The goal of this study was to advance methods for evaluating sleep quality with non-intrusive devices and provide additional support for future studies looking into sleep quality measurements with similar system environments.</citation_analysis></p>
+    </sec>
+    <sec id="s0002">
+      <title>Materials and Methods</title>
+      <sec id="s0002-s2001">
+        <title>Experiment Protocol</title>
+        <p><citation_analysis attribute="neither">This study was approved by the Simon Fraser University Research Ethics Board (#20170629) and complies with WMA Declaration of Helsinki ethical principles. Participants were provided with detailed information about the protocol prior to the study commencement to ensure they were fully informed. After comprehensively understanding and agreeing to the study’s requirements, participants indicated their consent by signing informed consent forms. The experimental procedure consisted of participants coming into a designated sleep lab and sleeping for three separate days and at least for three hours, while sensors collected data on and around their bodies. This timeframe was chosen based on initial testing to see if participants could enter every sleep stage in a shorter sleep cycle. Additionally, the three-hour duration was chosen to collect sleep cycles from different participants on the same day for data collection. The study consisted of three nights to alleviate some of the first night effect from PSG, which may cause poor sleep readings from participants as they are not accustomed to all the electrodes and sensors attached to their body during sleep.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0032" ref-type="bibr">32</xref></citation_analysis><citation_analysis attribute="positive"> All three days were included in the experimental analysis as patients reported similar sleeping experiences for each night. The experiment consisted of six healthy participants (two female and four male) ranging in age from 25 to 40, with average BMI and no reported sleep disorders, totaling 18 sleep sessions. A limitation of this study is the number of participants; however, the three sleep sessions per participant helped in mitigating the low number of participants. Future studies will include an expanded number of participants to strengthen the results. Upon arrival to the sleep lab, the participant put on the Natus Embletta X100 PSG by Embla Systems Inc (Broomfield, CO, USA) and the electrodes that would act as a gold standard reference to the rest of the proposed systems and devices. Additionally, the participants wore an Apple Watch Series 8 (Apple Inc., Cupertino, CA, USA) and a GT9X Link (ActiGraph LLC, Pensacola, FL, USA) on their non-dominant arm, which ended up being the left arm for all participants. The BCG device was the SCA11H bed sensor by Murata Manufacturing Co., LTD (Nagaokakyo, Japan) that was placed inside the bed. </citation_analysis><citation_analysis attribute="positive"><xref rid="f0001" ref-type="fig">Figure 1</xref></citation_analysis><citation_analysis attribute="neither"> shows the entire experimental setup and a participant wearing the devices during their sleep. An overview of the IoT system is available in a previous publication by our team and is seen on the table in </citation_analysis><citation_analysis attribute="positive"><xref rid="f0001" ref-type="fig">Figure 1B</xref></citation_analysis><citation_analysis attribute="neither">.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0030" ref-type="bibr">30</xref></citation_analysis><citation_analysis attribute="neither"> Each device was calibrated before the participant went to sleep, following the user manual’s recommendations:
+</citation_analysis><citation_analysis attribute="positive"><list list-type="bullet"><list-item><p><citation_analysis attribute="neither">GT9X Link performed a ten-second calibration upon removal from its USB-charging dock.</citation_analysis></p></list-item><list-item><p><citation_analysis attribute="neither">Participants sat still for five minutes while the Apple Watch mindfulness app was activated, with the heart rate measured in BPM.</citation_analysis></p></list-item><list-item><p><citation_analysis attribute="neither">BCG calibration involved running its calibration mode for 1 minute on an empty bed and 1 minute with the participant lying on the bed.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0033" ref-type="bibr">33</xref></citation_analysis><citation_analysis attribute="neither">,</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0034" ref-type="bibr">34</xref></citation_analysis></p></list-item></list></citation_analysis><citation_analysis attribute="positive">
+</citation_analysis><citation_analysis attribute="positive"><fig position="float" id="f0001" fig-type="figure"><label>Figure 1</label><caption><p><citation_analysis attribute="neither">(</citation_analysis><citation_analysis attribute="positive"><bold>A</bold></citation_analysis><citation_analysis attribute="neither">) Participant with all devices attached to their body. (</citation_analysis><citation_analysis attribute="positive"><bold>B</bold></citation_analysis><citation_analysis attribute="neither">) Sleep IoT device on bedside table with the Apple Watch, iPhone and GT9X Link prior to experiment. (</citation_analysis><citation_analysis attribute="positive"><bold>C</bold></citation_analysis><citation_analysis attribute="neither">) Participant lying in bed with all devices beside the BCG device that is clamped to the bed sheet. Written informed consent was obtained from the participant to use an image in this manuscript.</citation_analysis></p></caption><graphic xlink:href="NSS-16-1075-g0001" content-type="print-only" position="float"/></fig></citation_analysis></p>
+        <p><citation_analysis attribute="neither">The study ended when participants woke up naturally after three hours. Data was downloaded to local computers from each device for processing and analysis. The experiment was repeated for two more days with the same procedure. All data from the experiment was stored on lab computers that only researchers had access to, and all data from sensors used anonymous user profiles without any descriptors to maintain participant privacy and security.</citation_analysis></p>
+      </sec>
+      <sec id="s0002-s2002">
+        <title>Polysomnography and Sleep Detection</title>
+        <p><citation_analysis attribute="positive">The PSG system consisted of electroencephalogram (EEG), electrocardiogram (ECG), electrooculogram (EOG), electromyogram (EMG), photoplethysmogram (PPG), respiration bands, and nasal cannula, as shown in </citation_analysis><citation_analysis attribute="positive"><xref rid="f0001" ref-type="fig">Figure 1A</xref></citation_analysis><citation_analysis attribute="neither"> and </citation_analysis><citation_analysis attribute="positive"><xref rid="f0001" ref-type="fig">C</xref></citation_analysis><citation_analysis attribute="positive">. The PSG was used as a gold standard reference for the sleep stage classification obtained from the IoT sleep system and devices. The data were downloaded into the Remlogic software provided by Natus, which was then scored visually using the rules and guidelines established by the American Academy of Sleep Medicine (AASM).</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0035" ref-type="bibr">35</xref></citation_analysis><citation_analysis attribute="neither"> In addition to the PSG, the GT9X link is a research-grade actigraph that was used to provide an additional reference by estimating sleep/wake instances through limb movements with the Cole–Kripke method.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0007" ref-type="bibr">7</xref></citation_analysis><citation_analysis attribute="neither">,</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0036" ref-type="bibr">36</xref></citation_analysis><citation_analysis attribute="neither"> The room was kept at around 21°C, and participants were provided blankets to ensure maximum comfort during sleep.</citation_analysis></p>
+      </sec>
+      <sec id="s0002-s2003">
+        <title>Ballistocardiography and Environmental Device</title>
+        <p><citation_analysis attribute="neither">Murata’s BCG device collects various cardiorespiratory signals (heart rate, respiration rate, heart stroke volume, HRV, and J–J interval time) and samples them at 1 Hz over a wireless network through highly sensitive accelerometers.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0037" ref-type="bibr">37</xref></citation_analysis><citation_analysis attribute="positive"> Clinical testing has validated Murata’s BCG sensor, showing that its cardiac signals closely matched the readings obtained from the PSG.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0016" ref-type="bibr">16</xref></citation_analysis><citation_analysis attribute="neither">,</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0033" ref-type="bibr">33</xref></citation_analysis></p>
+        <p><citation_analysis attribute="neither">Furthermore, low pass filtering was used to remove movement artifacts within the signals, as detailed in the above clinical trials from Murata. The non-invasive nature of the BCG sensors, placed within the bed before participant arrival, ensured undisturbed sleep by eliminating any direct interaction with the device.</citation_analysis></p>
+      </sec>
+      <sec id="s0002-s2004">
+        <title>Apple Watch</title>
+        <p><citation_analysis attribute="positive">For the experiment, an Apple Watch Series 8 (OS version 9.6.3) was linked to an iPhone x (OS version 16.7.2) during the experiment. We had recently validated the Apple Watch against the BCG and PSG during sleep cycles, along with some of its health measurement features.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0031" ref-type="bibr">31</xref></citation_analysis><citation_analysis attribute="positive"> The results showed that the Apple Watch physiological sensor readings were closely accurate compared to the other devices. However, an issue was identified with the Apple Watch exporting vitals signal signals at an inconsistent sampling rate when exported for analysis. In this study, this issue was alleviated by utilizing the workout app’s cross-training mode, which significantly improved the sampling rate to around 3–7 seconds between samples. Consequently, linear interpolation was applied to match the 1 Hz sampling rate of the BCG. Note that only heart rate data in beats per minute (BPM) was available for extended sampling, whereas instantaneous HRV and QRS complex data were limited to 30-second intervals via the Apple Watch’s ECG app. Therefore, HRV was estimated by dividing the heart rate (in BPM) by 60,000 milliseconds (1 minute) as per the following equation:</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0038" ref-type="bibr">38</xref></citation_analysis><citation_analysis attribute="positive">
+</citation_analysis><citation_analysis attribute="positive"><disp-formula-group><disp-formula id="m0001"><label>(1)</label><alternatives><graphic xlink:href="NSS-16-1075-e0001.jpg" position="float"/><tex-math id="Tex001">\documentclass[12pt]{minimal}
+\usepackage{wasysym}
+\usepackage[substack]{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage[mathscr]{eucal}
+\usepackage{mathrsfs}
+\DeclareFontFamily{T1}{linotext}{}
+\DeclareFontShape{T1}{linotext}{m}{n} {linotext }{}
+\DeclareSymbolFont{linotext}{T1}{linotext}{m}{n}
+\DeclareSymbolFontAlphabet{\mathLINOTEXT}{linotext}
+\begin{document}$${{HRV = }}{{{{60000}}} \over {{{HR}}}}$$\end{document}</tex-math></alternatives></disp-formula></disp-formula-group></citation_analysis></p>
+      </sec>
+      <sec id="s0002-s2005">
+        <title>Heart Rate Variability Analysis</title>
+        <p><citation_analysis attribute="positive">The conventional evaluation of HRV typically occurs in the intervals of at least 5 minutes, aligning with many established norms, whereas sleep stage scores are assessed in 30-second sequential intervals.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0022" ref-type="bibr">22</xref></citation_analysis><citation_analysis attribute="neither">,</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0035" ref-type="bibr">35</xref></citation_analysis><citation_analysis attribute="neither"> To synchronize the data from all devices, this study processed signals within a 5-minute sliding window that advanced in 30-seconds increments. While employing the metrics and norms for HRV analysis as outlined by the task force, this study also expanded on them into the nonlinear domain.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0021" ref-type="bibr">21</xref></citation_analysis><citation_analysis attribute="neither">,</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0022" ref-type="bibr">22</xref></citation_analysis><citation_analysis attribute="neither"> It is important to note that the application of nonlinear HRV analysis methods in this study represents a relatively novel approach, as most such methods have traditionally been applied to ECG signals.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0022" ref-type="bibr">22</xref></citation_analysis><citation_analysis attribute="neither">,</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0027" ref-type="bibr">27</xref></citation_analysis><citation_analysis attribute="neither">,</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0039" ref-type="bibr">39</xref></citation_analysis><citation_analysis attribute="neither"> However, BCG signals also exhibit nonlinear and nonstationary characteristics, which are even noisier than ECG signals, making nonlinear analysis a suitable approach to model the physiological dynamics.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0020" ref-type="bibr">20</xref></citation_analysis><citation_analysis attribute="positive"> The BCG signals, measuring the heart’s mechanical effect on the body, are distinct in nature from ECG signals, which measure the electrical activity of the heart. This distinction necessitates further evaluation to determine which nonlinear features are relevant for accurate BCG-based HRV analysis. This aspect is important due to the inherent differences between BCG and ECG signals, underscoring the need for this study’s comprehensive examination of relevant nonlinear features for effective HRV analysis using BCG signals.</citation_analysis></p>
+        <p><citation_analysis attribute="neither">In this context, an additional time domain metric is introduced in this study, which leverages the relative J–J interval difference (analogous to the R–R intervals used ECG studies).</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0040" ref-type="bibr">40</xref></citation_analysis><citation_analysis attribute="neither"> These intervals are weighted by the means to enhance the robustness of the analysis. The relative J–J intervals are calculated by the following equation:
+</citation_analysis><citation_analysis attribute="positive"><disp-formula-group><disp-formula id="m0002"><label>(2)</label><alternatives><graphic xlink:href="NSS-16-1075-e0002.jpg" position="float"/><tex-math id="Tex002">\documentclass[12pt]{minimal}
+\usepackage{wasysym}
+\usepackage[substack]{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage[mathscr]{eucal}
+\usepackage{mathrsfs}
+\DeclareFontFamily{T1}{linotext}{}
+\DeclareFontShape{T1}{linotext}{m}{n} {linotext }{}
+\DeclareSymbolFont{linotext}{T1}{linotext}{m}{n}
+\DeclareSymbolFontAlphabet{\mathLINOTEXT}{linotext}
+\begin{document}$${{r}}{{{r}}_{{i}}}{{ = }}{{{{2}}\left({{{J}}{{{J}}_{{i}}}{{ - J}}{{{J}}_{{{i -1)}}}}} \right)} \over {{{J}}{{{J}}_{{i}}}{{ + J}}{{{J}}_{{{i - 1}}}}}}$$\end{document}</tex-math></alternatives></disp-formula></disp-formula-group></citation_analysis></p>
+        <p><citation_analysis attribute="neither">where </citation_analysis><citation_analysis attribute="positive"><italic toggle="yes">rr</italic></citation_analysis><citation_analysis attribute="neither"> is the relative variation of the intervals, </citation_analysis><citation_analysis attribute="positive"><italic toggle="yes">i</italic></citation_analysis><citation_analysis attribute="neither"> is the current relative interval, and </citation_analysis><citation_analysis attribute="positive"><italic toggle="yes">JJ</italic></citation_analysis><citation_analysis attribute="positive"> are the J–J interval times. The return map of the consecutive relative J–J intervals can show heartbeat dynamics through the Euclidean distances to the center and identify outliers through the median or annular intensity from the interquartile range.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0040" ref-type="bibr">40</xref></citation_analysis><citation_analysis attribute="neither"> Similarly, a nonlinear method that also uses return maps of consecutive J–J intervals for analysis is known as the Poincare plot, which is insensitive to trends in inter-beat intervals and a great tool for analysis of noisy signals from wearable and noncontact devices.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0022" ref-type="bibr">22</xref></citation_analysis><citation_analysis attribute="neither">,</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0041" ref-type="bibr">41</xref></citation_analysis><citation_analysis attribute="positive"> Poincare plots are usually evaluated by the shape and area of the ellipse drawn around the scattered J–J intervals with the standard deviations representing the length and width of the ellipse represented by the following equations:</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0022" ref-type="bibr">22</xref></citation_analysis><citation_analysis attribute="neither">,</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0040" ref-type="bibr">40</xref></citation_analysis><citation_analysis attribute="positive">
+</citation_analysis><citation_analysis attribute="positive"><disp-formula-group><disp-formula id="m0003"><label>(3)</label><alternatives><graphic xlink:href="NSS-16-1075-e0003.jpg" position="float"/><tex-math id="Tex003">\documentclass[12pt]{minimal}
+\usepackage{wasysym}
+\usepackage[substack]{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage[mathscr]{eucal}
+\usepackage{mathrsfs}
+\DeclareFontFamily{T1}{linotext}{}
+\DeclareFontShape{T1}{linotext}{m}{n} {linotext }{}
+\DeclareSymbolFont{linotext}{T1}{linotext}{m}{n}
+\DeclareSymbolFontAlphabet{\mathLINOTEXT}{linotext}
+\begin{document}$${{SD1 = }}\sqrt {{{{1}} \over {{2}}}.{{\sigma }}\left({{{J}}{{{J}}_{{{i + 1}}}}{{ - J}}{{{J}}_{{i}}}} \right)} $$\end{document}</tex-math></alternatives></disp-formula></disp-formula-group></citation_analysis><citation_analysis attribute="positive">
+</citation_analysis><citation_analysis attribute="positive"><disp-formula-group><disp-formula id="m0004"><label>(4)</label><alternatives><graphic xlink:href="NSS-16-1075-e0004.jpg" position="float"/><tex-math id="Tex004">\documentclass[12pt]{minimal}
+\usepackage{wasysym}
+\usepackage[substack]{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage[mathscr]{eucal}
+\usepackage{mathrsfs}
+\DeclareFontFamily{T1}{linotext}{}
+\DeclareFontShape{T1}{linotext}{m}{n} {linotext }{}
+\DeclareSymbolFont{linotext}{T1}{linotext}{m}{n}
+\DeclareSymbolFontAlphabet{\mathLINOTEXT}{linotext}
+\begin{document}$${{SD2 = }}\sqrt {{{{1}} \over {{2}}}.{{\sigma (J}}{{{J}}_{{{i + 1}}}}{{ + J}}{{{J}}_{{i}}}} {{)}}$$\end{document}</tex-math></alternatives></disp-formula></disp-formula-group></citation_analysis></p>
+        <p><citation_analysis attribute="neither">where </citation_analysis><citation_analysis attribute="positive"><italic toggle="yes">SD1</italic></citation_analysis><citation_analysis attribute="neither"> and </citation_analysis><citation_analysis attribute="positive"><italic toggle="yes">SD2</italic></citation_analysis><citation_analysis attribute="neither"> are the width and length, respectively, and σ is the variance of the scattered points of the Poincare plot. Both measures are related to the baroreflex sensitivity of cardiac activity and the ratio </citation_analysis><citation_analysis attribute="positive"><italic toggle="yes">SD1/SD2</italic></citation_analysis><citation_analysis attribute="positive"> measures the ANS balance that could show if the body is in a more sympathetic (SNS) or parasympathetic nervous system (PNS) activation.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0022" ref-type="bibr">22</xref></citation_analysis><citation_analysis attribute="positive"> Additionally, deeper analysis on Poincare plots that looks at the asymmetry of the inter-beat intervals and can show the imbalances of activity between the SNS and PNS.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0039" ref-type="bibr">39</xref></citation_analysis><citation_analysis attribute="positive">
+</citation_analysis><citation_analysis attribute="positive"><xref rid="f0002" ref-type="fig">Figure 2</xref></citation_analysis><citation_analysis attribute="neither"> shows an example of the Poincare plot of consecutive J–J intervals.
+</citation_analysis><citation_analysis attribute="positive"><fig position="float" id="f0002" fig-type="figure"><label>Figure 2</label><caption><p><citation_analysis attribute="neither">Poincare plot for J-J intervals from the BCG device.</citation_analysis></p></caption><graphic xlink:href="NSS-16-1075-g0002" content-type="print-only" position="float"/></fig></citation_analysis></p>
+        <p><citation_analysis attribute="positive">The deceleration and accelerations of the inter-beat intervals are what cause the heart rate asymmetry and have been modeled through various indices about the 45° line of identity, which passes through the origin of the Poincare plot shown in </citation_analysis><citation_analysis attribute="positive"><xref rid="f0002" ref-type="fig">Figure 2</xref></citation_analysis><citation_analysis attribute="neither"> as the red line.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0039" ref-type="bibr">39</xref></citation_analysis><citation_analysis attribute="neither">,</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0042" ref-type="bibr">42</xref></citation_analysis></p>
+        <p><citation_analysis attribute="neither">The following section briefly describes each of the asymmetry indexes used in this study and their accompanying equations.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0039" ref-type="bibr">39</xref></citation_analysis><citation_analysis attribute="neither">,</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0043" ref-type="bibr">43</xref></citation_analysis><citation_analysis attribute="neither"> The Porta index shows the ratio of how many points are below the line of identity:
+</citation_analysis><citation_analysis attribute="positive"><disp-formula-group><disp-formula id="m0005"><label>(5)</label><alternatives><graphic xlink:href="NSS-16-1075-e0005.jpg" position="float"/><tex-math id="Tex005">\documentclass[12pt]{minimal}
+\usepackage{wasysym}
+\usepackage[substack]{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage[mathscr]{eucal}
+\usepackage{mathrsfs}
+\DeclareFontFamily{T1}{linotext}{}
+\DeclareFontShape{T1}{linotext}{m}{n} {linotext }{}
+\DeclareSymbolFont{linotext}{T1}{linotext}{m}{n}
+\DeclareSymbolFontAlphabet{\mathLINOTEXT}{linotext}
+\begin{document}$${{PI = }}{{{b}} \over {{m}}}{{ \times 100}}$$\end{document}</tex-math></alternatives></disp-formula></disp-formula-group></citation_analysis></p>
+        <p><citation_analysis attribute="neither">with </citation_analysis><citation_analysis attribute="positive"><italic toggle="yes">b</italic></citation_analysis><citation_analysis attribute="neither"> being the point below and </citation_analysis><citation_analysis attribute="positive"><italic toggle="yes">m</italic></citation_analysis><citation_analysis attribute="neither"> being the total number of points. The Guzik index is the ratio of all the distances of the points above the line of identity over all the point distances:
+</citation_analysis><citation_analysis attribute="positive"><disp-formula-group><disp-formula id="m0006"><label>(6)</label><alternatives><graphic xlink:href="NSS-16-1075-e0006.jpg" position="float"/><tex-math id="Tex006">\documentclass[12pt]{minimal}
+\usepackage{wasysym}
+\usepackage[substack]{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage[mathscr]{eucal}
+\usepackage{mathrsfs}
+\DeclareFontFamily{T1}{linotext}{}
+\DeclareFontShape{T1}{linotext}{m}{n} {linotext }{}
+\DeclareSymbolFont{linotext}{T1}{linotext}{m}{n}
+\DeclareSymbolFontAlphabet{\mathLINOTEXT}{linotext}
+\begin{document}$$GI = {{\mathop \sum \nolimits_{i = 1}^l {D_i}} \over {\mathop \sum \nolimits_{i = 1}^m {D_i}}} \times 100$$\end{document}</tex-math></alternatives></disp-formula></disp-formula-group></citation_analysis><citation_analysis attribute="positive">
+</citation_analysis><citation_analysis attribute="positive"><disp-formula-group><disp-formula id="m0007"><label>(7)</label><alternatives><graphic xlink:href="NSS-16-1075-e0007.jpg" position="float"/><tex-math id="Tex007">\documentclass[12pt]{minimal}
+\usepackage{wasysym}
+\usepackage[substack]{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage[mathscr]{eucal}
+\usepackage{mathrsfs}
+\DeclareFontFamily{T1}{linotext}{}
+\DeclareFontShape{T1}{linotext}{m}{n} {linotext }{}
+\DeclareSymbolFont{linotext}{T1}{linotext}{m}{n}
+\DeclareSymbolFontAlphabet{\mathLINOTEXT}{linotext}
+\begin{document}$${D_i} = {{\left| {J{J_{i + 1}} - J{J_i}} \right|} \over {\sqrt 2 }}$$\end{document}</tex-math></alternatives></disp-formula></disp-formula-group></citation_analysis></p>
+        <p><citation_analysis attribute="neither">with </citation_analysis><citation_analysis attribute="positive"><italic toggle="yes">l</italic></citation_analysis><citation_analysis attribute="neither"> being the number of points above the line of identity, </citation_analysis><citation_analysis attribute="positive"><italic toggle="yes">m</italic></citation_analysis><citation_analysis attribute="neither"> being all the points, </citation_analysis><citation_analysis attribute="positive"><italic toggle="yes">D<sub>i</sub></italic></citation_analysis><citation_analysis attribute="neither"> is the distance of each point to the line of identity and is calculated by </citation_analysis><citation_analysis attribute="positive"><xref rid="m0007" ref-type="disp-formula">Equation (7</xref></citation_analysis><citation_analysis attribute="neither">). Next, Ehlers’ index shows the skewness of the points with respect to the line of identity:
+</citation_analysis><citation_analysis attribute="positive"><disp-formula-group><disp-formula id="m0008"><label>(8)</label><alternatives><graphic xlink:href="NSS-16-1075-e0008.jpg" position="float"/><tex-math id="Tex008">\documentclass[12pt]{minimal}
+\usepackage{wasysym}
+\usepackage[substack]{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage[mathscr]{eucal}
+\usepackage{mathrsfs}
+\DeclareFontFamily{T1}{linotext}{}
+\DeclareFontShape{T1}{linotext}{m}{n} {linotext }{}
+\DeclareSymbolFont{linotext}{T1}{linotext}{m}{n}
+\DeclareSymbolFontAlphabet{\mathLINOTEXT}{linotext}
+\begin{document}$$EI = {{\mathop \sum \nolimits_{i = 1}^{N - 1} {{\left({J{J_i} - J{J_{i + 1}}} \right)}^3}} \over {{{\left({\mathop \sum \nolimits_{i = 1}^{N - 1} {{\left({J{J_i} - J{J_{i + 1}}} \right)}^2}} \right)}^{{\raise0.7ex\hbox{3} \!\mathord{\left/ {\vphantom {3 2}}\right.\kern-0.5mu}\!\lower0.7ex\hbox{2}}}}}}$$\end{document}</tex-math></alternatives></disp-formula></disp-formula-group></citation_analysis></p>
+        <p><citation_analysis attribute="neither">Finally, the slope indexes are calculated by the ratio of the phase angle of all points above the line of identity, while the area index calculates the area from the phase angle to the line of identity:
+</citation_analysis><citation_analysis attribute="positive"><disp-formula-group><disp-formula id="m0009"><label>(9)</label><alternatives><graphic xlink:href="NSS-16-1075-e0009.jpg" position="float"/><tex-math id="Tex009">\documentclass[12pt]{minimal}
+\usepackage{wasysym}
+\usepackage[substack]{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage[mathscr]{eucal}
+\usepackage{mathrsfs}
+\DeclareFontFamily{T1}{linotext}{}
+\DeclareFontShape{T1}{linotext}{m}{n} {linotext }{}
+\DeclareSymbolFont{linotext}{T1}{linotext}{m}{n}
+\DeclareSymbolFontAlphabet{\mathLINOTEXT}{linotext}
+\begin{document}$${\theta _i} = {\mathrm{atan}}\left({{{J{J_{i + 1}}} \over {J{J_i}}}} \right)$$\end{document}</tex-math></alternatives></disp-formula></disp-formula-group></citation_analysis><citation_analysis attribute="positive">
+</citation_analysis><citation_analysis attribute="positive"><disp-formula-group><disp-formula id="m0010"><label>(10)</label><alternatives><graphic xlink:href="NSS-16-1075-e0010.jpg" position="float"/><tex-math id="Tex010">\documentclass[12pt]{minimal}
+\usepackage{wasysym}
+\usepackage[substack]{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage[mathscr]{eucal}
+\usepackage{mathrsfs}
+\DeclareFontFamily{T1}{linotext}{}
+\DeclareFontShape{T1}{linotext}{m}{n} {linotext }{}
+\DeclareSymbolFont{linotext}{T1}{linotext}{m}{n}
+\DeclareSymbolFontAlphabet{\mathLINOTEXT}{linotext}
+\begin{document}$$R{\theta _i} = {\theta _{LI}} - {\theta _i}$$\end{document}</tex-math></alternatives></disp-formula></disp-formula-group></citation_analysis><citation_analysis attribute="positive">
+</citation_analysis><citation_analysis attribute="positive"><disp-formula-group><disp-formula id="m0011"><label>(11)</label><alternatives><graphic xlink:href="NSS-16-1075-e0011.jpg" position="float"/><tex-math id="Tex011">\documentclass[12pt]{minimal}
+\usepackage{wasysym}
+\usepackage[substack]{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage[mathscr]{eucal}
+\usepackage{mathrsfs}
+\DeclareFontFamily{T1}{linotext}{}
+\DeclareFontShape{T1}{linotext}{m}{n} {linotext }{}
+\DeclareSymbolFont{linotext}{T1}{linotext}{m}{n}
+\DeclareSymbolFontAlphabet{\mathLINOTEXT}{linotext}
+\begin{document}$${S_i} = {1 \over 2} \times R{\theta _i} \times {r^2}$$\end{document}</tex-math></alternatives></disp-formula></disp-formula-group></citation_analysis><citation_analysis attribute="positive">
+</citation_analysis><citation_analysis attribute="positive"><disp-formula-group><disp-formula id="m0012"><label>(12)</label><alternatives><graphic xlink:href="NSS-16-1075-e0012.jpg" position="float"/><tex-math id="Tex012">\documentclass[12pt]{minimal}
+\usepackage{wasysym}
+\usepackage[substack]{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage[mathscr]{eucal}
+\usepackage{mathrsfs}
+\DeclareFontFamily{T1}{linotext}{}
+\DeclareFontShape{T1}{linotext}{m}{n} {linotext }{}
+\DeclareSymbolFont{linotext}{T1}{linotext}{m}{n}
+\DeclareSymbolFontAlphabet{\mathLINOTEXT}{linotext}
+\begin{document}$$SI = {{\mathop \sum \nolimits_{i = 1}^l \left| {R{\theta _i}} \right|} \over {\mathop \sum \nolimits_{i = 1}^m \left| {R{\theta _i}} \right|}} \times 100$$\end{document}</tex-math></alternatives></disp-formula></disp-formula-group></citation_analysis><citation_analysis attribute="positive">
+</citation_analysis><citation_analysis attribute="positive"><disp-formula-group><disp-formula id="m0013"><label>(13)</label><alternatives><graphic xlink:href="NSS-16-1075-e0013.jpg" position="float"/><tex-math id="Tex013">\documentclass[12pt]{minimal}
+\usepackage{wasysym}
+\usepackage[substack]{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage[mathscr]{eucal}
+\usepackage{mathrsfs}
+\DeclareFontFamily{T1}{linotext}{}
+\DeclareFontShape{T1}{linotext}{m}{n} {linotext }{}
+\DeclareSymbolFont{linotext}{T1}{linotext}{m}{n}
+\DeclareSymbolFontAlphabet{\mathLINOTEXT}{linotext}
+\begin{document}$$AI = {{\mathop \sum \nolimits_{i = 1}^l \left| {{S_i}} \right|} \over {\mathop \sum \nolimits_{i = 1}^m |{S_i}|}} \times 100$$\end{document}</tex-math></alternatives></disp-formula></disp-formula-group></citation_analysis></p>
+        <p><citation_analysis attribute="neither">where </citation_analysis><citation_analysis attribute="positive"><italic toggle="yes">θ</italic></citation_analysis><citation_analysis attribute="neither"> is the phase angle of the point, </citation_analysis><citation_analysis attribute="positive"><italic toggle="yes">Rθ</italic></citation_analysis><citation_analysis attribute="neither"> is the phase angle from the line of identity to the point, </citation_analysis><citation_analysis attribute="positive"><italic toggle="yes">S<sub>i</sub></italic></citation_analysis><citation_analysis attribute="neither"> is the area of the sector with </citation_analysis><citation_analysis attribute="positive"><italic toggle="yes">r</italic></citation_analysis><citation_analysis attribute="neither"> being the radius of the sector, </citation_analysis><citation_analysis attribute="positive"><italic toggle="yes">SI</italic></citation_analysis><citation_analysis attribute="neither"> is the slope index ratio, and </citation_analysis><citation_analysis attribute="positive"><italic toggle="yes">AI</italic></citation_analysis><citation_analysis attribute="neither"> is the area index ratio.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0039" ref-type="bibr">39</xref></citation_analysis><citation_analysis attribute="neither">,</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0043" ref-type="bibr">43</xref></citation_analysis></p>
+        <p><citation_analysis attribute="neither">Another scatter plot method used in this study is sequential trend analysis (STA). STA plots the differences of successive J–J intervals with the first value plotted on the x-axis and the consecutive value plotted on the y-axis.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0044" ref-type="bibr">44</xref></citation_analysis><citation_analysis attribute="neither"> The data points placed into quadrants that represent increasing/decreasing consecutively or points that are alternating in their activation. Consecutively decreasing data points correspond to the SNS while consecutively increasing points are for the PNS with the other quadrants representing the transition between the states.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0044" ref-type="bibr">44</xref></citation_analysis><citation_analysis attribute="neither">,</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0045" ref-type="bibr">45</xref></citation_analysis><citation_analysis attribute="positive"> To evaluate which quadrants are the most active, the mean of all the distances for the point in each quadrant is evaluated with the following equation:</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0046" ref-type="bibr">46</xref></citation_analysis><citation_analysis attribute="positive">
+</citation_analysis><citation_analysis attribute="positive"><disp-formula-group><disp-formula id="m0014"><label>(14)</label><alternatives><graphic xlink:href="NSS-16-1075-e0014.jpg" position="float"/><tex-math id="Tex014">\documentclass[12pt]{minimal}
+\usepackage{wasysym}
+\usepackage[substack]{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage[mathscr]{eucal}
+\usepackage{mathrsfs}
+\DeclareFontFamily{T1}{linotext}{}
+\DeclareFontShape{T1}{linotext}{m}{n} {linotext }{}
+\DeclareSymbolFont{linotext}{T1}{linotext}{m}{n}
+\DeclareSymbolFontAlphabet{\mathLINOTEXT}{linotext}
+\begin{document}$${1 \over {n - 1}}\sum\nolimits_{k = 1}^{n - 1} {\sqrt {JJ_n^2 + JJ_{n + 1}^2} } $$\end{document}</tex-math></alternatives></disp-formula></disp-formula-group></citation_analysis></p>
+        <p><citation_analysis attribute="neither">where </citation_analysis><citation_analysis attribute="positive"><italic toggle="yes">n</italic></citation_analysis><citation_analysis attribute="neither"> is the total number of J–J intervals. Many of the Poincare plot methods in this study build off each other and can be effective for analysis as many features can be extracted from the plots. </citation_analysis><citation_analysis attribute="positive"><xref rid="f0003" ref-type="fig">Figure 3</xref></citation_analysis><citation_analysis attribute="neither"> shows an example of the STA plot and the consecutive J–J intervals of the quadrants.
+</citation_analysis><citation_analysis attribute="positive"><fig position="float" id="f0003" fig-type="figure"><label>Figure 3</label><caption><p><citation_analysis attribute="neither">Sequential trend analysis plot from the BCG device.</citation_analysis></p></caption><graphic xlink:href="NSS-16-1075-g0003" content-type="print-only" position="float"/></fig></citation_analysis></p>
+        <p><citation_analysis attribute="neither">The last nonlinear method used is the Renyi entropy that is effective for short time series, nonlinear, and nonstationary signals like HRV.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0027" ref-type="bibr">27</xref></citation_analysis><citation_analysis attribute="positive"> This is beneficial for the BCG signals obtained in this study as the hardware limitations can cause some of the HRV readings to be distorted from noise and artifacts.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0020" ref-type="bibr">20</xref></citation_analysis><citation_analysis attribute="positive"> Renyi entropy is generalized from Shannon entropy and is briefly shown in the following equations:</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0027" ref-type="bibr">27</xref></citation_analysis><citation_analysis attribute="neither">,</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0047" ref-type="bibr">47</xref></citation_analysis><citation_analysis attribute="positive">
+</citation_analysis><citation_analysis attribute="positive"><disp-formula-group><disp-formula id="m0015"><label>(15)</label><alternatives><graphic xlink:href="NSS-16-1075-e0015.jpg" position="float"/><tex-math id="Tex015">\documentclass[12pt]{minimal}
+\usepackage{wasysym}
+\usepackage[substack]{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage[mathscr]{eucal}
+\usepackage{mathrsfs}
+\DeclareFontFamily{T1}{linotext}{}
+\DeclareFontShape{T1}{linotext}{m}{n} {linotext }{}
+\DeclareSymbolFont{linotext}{T1}{linotext}{m}{n}
+\DeclareSymbolFontAlphabet{\mathLINOTEXT}{linotext}
+\begin{document}$$H\left(\alpha \right) = {1 \over {1 - \alpha }}{\log _2}\left({\mathop \sum \limits_{i = 1}^n \rho _i^\alpha } \right)$$\end{document}</tex-math></alternatives></disp-formula></disp-formula-group></citation_analysis><citation_analysis attribute="positive">
+</citation_analysis><citation_analysis attribute="positive"><disp-formula-group><disp-formula id="m0016"><label>(16)</label><alternatives><graphic xlink:href="NSS-16-1075-e0016.jpg" position="float"/><tex-math id="Tex016">\documentclass[12pt]{minimal}
+\usepackage{wasysym}
+\usepackage[substack]{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage[mathscr]{eucal}
+\usepackage{mathrsfs}
+\DeclareFontFamily{T1}{linotext}{}
+\DeclareFontShape{T1}{linotext}{m}{n} {linotext }{}
+\DeclareSymbolFont{linotext}{T1}{linotext}{m}{n}
+\DeclareSymbolFontAlphabet{\mathLINOTEXT}{linotext}
+\begin{document}$${\rho _i} = {1 \over {\sigma \sqrt {2\pi } }}\sum\nolimits_{j = 1}^n {{e^{ - {{dist_{ij}^2} \over {2{\sigma ^2}}}}}} $$\end{document}</tex-math></alternatives></disp-formula></disp-formula-group></citation_analysis><citation_analysis attribute="positive">
+</citation_analysis><citation_analysis attribute="positive"><disp-formula-group><disp-formula id="m0017"><label>(17)</label><alternatives><graphic xlink:href="NSS-16-1075-e0017.jpg" position="float"/><tex-math id="Tex017">\documentclass[12pt]{minimal}
+\usepackage{wasysym}
+\usepackage[substack]{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage[mathscr]{eucal}
+\usepackage{mathrsfs}
+\DeclareFontFamily{T1}{linotext}{}
+\DeclareFontShape{T1}{linotext}{m}{n} {linotext }{}
+\DeclareSymbolFont{linotext}{T1}{linotext}{m}{n}
+\DeclareSymbolFontAlphabet{\mathLINOTEXT}{linotext}
+\begin{document}$$dis{t_{ij}} = \sum\nolimits_{k = 0}^\pi {{{\left({{x_{i + k}} - {x_{j + k}}} \right)}^2}} $$\end{document}</tex-math></alternatives></disp-formula></disp-formula-group></citation_analysis></p>
+        <p><citation_analysis attribute="neither">where </citation_analysis><citation_analysis attribute="positive"><italic toggle="yes">n</italic></citation_analysis><citation_analysis attribute="neither"> is the number of values, </citation_analysis><citation_analysis attribute="positive"><italic toggle="yes">α</italic></citation_analysis><citation_analysis attribute="neither"> order of entropy measure, ρ</citation_analysis><citation_analysis attribute="positive"><italic toggle="yes"><sub>i</sub></italic></citation_analysis><citation_analysis attribute="neither"> is the probability from the random variable from </citation_analysis><citation_analysis attribute="positive"><italic toggle="yes">n</italic></citation_analysis><citation_analysis attribute="neither"> values and the Gaussian kernel, </citation_analysis><citation_analysis attribute="positive"><italic toggle="yes">σ</italic></citation_analysis><citation_analysis attribute="neither"> is the dispersion of the function, </citation_analysis><citation_analysis attribute="positive"><italic toggle="yes">π</italic></citation_analysis><citation_analysis attribute="neither"> is the number of J–J intervals designated from the literature and </citation_analysis><citation_analysis attribute="positive"><italic toggle="yes">dist</italic></citation_analysis><citation_analysis attribute="neither"> is the sum of Euclidean distances between sequential J–J intervals designated as </citation_analysis><citation_analysis attribute="positive"><italic toggle="yes">x</italic></citation_analysis><citation_analysis attribute="neither"> in </citation_analysis><citation_analysis attribute="positive"><xref rid="m0007" ref-type="disp-formula">Equation (17</xref></citation_analysis><citation_analysis attribute="neither">).</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0027" ref-type="bibr">27</xref></citation_analysis><citation_analysis attribute="positive"> Additionally, the J–J intervals were decomposed into magnitude, sign, and accelerations to be evaluated with the Renyi entropy based on the following works.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0027" ref-type="bibr">27</xref></citation_analysis><citation_analysis attribute="neither">,</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0048" ref-type="bibr">48</xref></citation_analysis></p>
+        <p><citation_analysis attribute="positive">Additionally, the signals obtained from the Apple Watch and BCG are compared for any offset between them. The Apple Watch and BCG should provide similar physiological signals but the difference in sensing methods and movement artifacts, particularly in BCG, could distort the signal acquisition. Additional features that look at the correlation, differences, and increasing/decreasing segments are included in the model. Dynamic time warping was also used to align and compare any differences between the signals.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0049" ref-type="bibr">49</xref></citation_analysis><citation_analysis attribute="neither"> The features are trained with a bi-directional long short-term memory (LSTM) neural network based on previous studies for sleep stage classification.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0030" ref-type="bibr">30</xref></citation_analysis><citation_analysis attribute="neither">,</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0050" ref-type="bibr">50</xref></citation_analysis><citation_analysis attribute="neither"> This was used to capture the temporal order of the sleep cycle as it can store memory from the time series and generate outputs on the current time step.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0050" ref-type="bibr">50</xref></citation_analysis><citation_analysis attribute="neither"> The sleep cycle begins initially getting into bed wake, a middle section where the bulk of the sleep stages occur and ending with wake and getting out of bed. This study utilized the machine and deep learning toolbox within Matlab 2023b for the LSTM model and consisted of five layers. Beginning with the sequence input layer that added the data to the model and applied data normalization and followed by the bi-directional LSTM layer, consisting of 150 hidden units and the output mode set to the sequence. The fully connected layer processed the inputs from the biLSTM layer into the sleep stage classes into a softmax function layer. Finally, the classification layer calculated the weight sleep stages classes and output them for each epoch during the sleep cycle. This network configuration received all the processed sensor data from each device to classify sleep stages by 30 second epochs with respect to the sleep cycle temporal order.</citation_analysis></p>
+      </sec>
+    </sec>
+    <sec id="s0003">
+      <title>Results</title>
+      <p><citation_analysis attribute="neither">The sleep stage classifications from the LSTM model, which was trained on physiological signals collected from the BCG bed sensor and Apple Watch for each participant, are presented as accuracy and agreement compared to PSG in </citation_analysis><citation_analysis attribute="positive"><xref rid="t0001" ref-type="table">Table 1</xref></citation_analysis><citation_analysis attribute="neither">. Additionally, similar models were trained separately on physiological signals obtained from each device to compare their combinations. The BCG and Apple Watch provided 38 and 37 features, respectively, with 22 of the total features obtained from the nonlinear methods described in this study. Additional features looked at comparing both devices such as correlations, difference, deviation and rate of change to include instances when one device had better physiological signals. For example, when the participant was moving a lot or left the bed, the BCG would have poor or no signal while the Apple Watch would continue to function as it was always worn during the experiment. The remaining 55 features were derived from comparisons between the BCG and Apple Watch, for a total of 130 features. The BCG device has its own HRV output, as outlined in Murata’s manual and clinical trials, in addition to the raw beat-to-beat times used for most of the analysis.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0016" ref-type="bibr">16</xref></citation_analysis><citation_analysis attribute="neither">,</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0033" ref-type="bibr">33</xref></citation_analysis><citation_analysis attribute="positive">
+</citation_analysis><citation_analysis attribute="positive"><xref rid="t0001" ref-type="table">Table 1</xref></citation_analysis><citation_analysis attribute="neither"> showed improved agreement for the BCG and Apple Watch combination compared to PSG when sleep stages were classified into more diverse categories. This suggests that the combined system could function together to classify different sleep stages from the cardiac signals. </citation_analysis><citation_analysis attribute="positive"><xref rid="f0004" ref-type="fig">Figure 4</xref></citation_analysis><citation_analysis attribute="neither"> shows the predictor importance of the top features, with the nonlinear ones considered in this study underlined. Many of the top nonlinear features come from the scatterplot methods like Poincare plots and sequential trend analysis that suggests these methods can effectively distinguish ANS activity and ultimately be used for sleep stage classifications. The sleep stages were rescored to match outputs from GT9X actigraph as it only evaluates sleep or wakes and compare the Results from our previous study evaluating sleep stages with a similar setup.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0030" ref-type="bibr">30</xref></citation_analysis><citation_analysis attribute="neither"> The “Act” (denoting Actigraphy) and “Sleep/Wake” stages in </citation_analysis><citation_analysis attribute="positive"><xref rid="t0001" ref-type="table">Table 1</xref></citation_analysis><citation_analysis attribute="neither"> were rescored to classify all sleep stages as “sleep”, resulting in a binary output of sleep or wake instances. “Sleep/Wake” compares instances to epochs from the PSG, while the “Act” compares them to the GT9X sleep scores. Actigraphy, which relies solely on motion activity to estimate sleep stages, is limited to evaluating sleep or wake states, while the specific sleep stages (ie, “Non-REM” and REM stages) require more sensors for accurate classification.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0013" ref-type="bibr">13</xref></citation_analysis><citation_analysis attribute="positive">
+</citation_analysis><citation_analysis attribute="positive"><xref rid="t0002" ref-type="table">Table 2</xref></citation_analysis><citation_analysis attribute="neither"> shows statistical metrics comparing device configurations against sleep stages for PSG and the actigraphy. The sensitivity indicates correctly classified sleep stages while the specificity identifies correctly classified wake stages. The sensitivity in </citation_analysis><citation_analysis attribute="positive"><xref rid="t0002" ref-type="table">Table 2</xref></citation_analysis><citation_analysis attribute="neither"> for all device configurations were higher than the specificity which indicates that more sleep stages were correctly classified than wake stages. However, the BCG and Apple Watch combination for “Sleep/Wake” stages showed higher sensitivity and specificity indicating that more sleep and wake stages were correctly classified compared to each device separately. Suggesting that the combination of the BCG and Apple Watch could classify sleep and wake stages correctly without overestimating sleep due to the participants lying still in a relaxed state. The classification into “Light/Full” rescores sleep stages 2, 3, and REM as “full sleep”, while maintaining “wake” and stage 1 as “wake” and “light sleep” stages, respectively. “Light/Deep” rescores the sleep stages 1 and 2 as “light sleep” and stages 3 and REM as “deep sleep”. “Non-REM/REM” combines all the non-REM sleep stages (stages 1.2, and 3) into a single stage, with REM and wake maintaining their own designations. The sleep stages were rescored into four different target outputs to assess the model’s performance in classifying similar sleep stages together over corresponding epochs during the sleep cycle, such as grouping lighter sleep stages (stages 1 and 2) and deeper sleep stages (stages 3 and REM) and tracking the transition from wakefulness to lighter and then to deeper sleep. </citation_analysis><citation_analysis attribute="positive"><xref rid="f0005 f0006 f0007" ref-type="fig">Figures 5–7</xref></citation_analysis><citation_analysis attribute="neither"> display the classified sleep stages in the REM/Non-REM configuration for each device configuration against the PSG stages, along with a confusion matrix for each sleep stage agreement. </citation_analysis><citation_analysis attribute="positive"><xref rid="f0007" ref-type="fig">Figure 7</xref></citation_analysis><citation_analysis attribute="positive"> shows that the combined system was able to classify REM/non-REM sleep stages better as the BCG alone identified more non-REM stages while the Apple Watch identified more REM stages shown in </citation_analysis><citation_analysis attribute="positive"><xref rid="f0006 f0005" ref-type="fig">Figures 6</xref></citation_analysis><citation_analysis attribute="neither"> and </citation_analysis><citation_analysis attribute="positive"><xref rid="f0005" ref-type="fig">5</xref></citation_analysis><citation_analysis attribute="neither">, respectively. Therefore, this suggests that the strengths of each device with an emphasis on nonlinear methods could be utilized together to identify different sleep stages.</citation_analysis><citation_analysis attribute="positive"><table-wrap position="float" id="t0001"><label>Table 1</label><caption><p><citation_analysis attribute="neither">The Agreement of Correctly Classifying Sleep Stages for Each Device Compared to PSG. Act is the Sleep/Wake Stages Compared to the GT9X Actigraphy Stages. Sleep/Wake is the Sleep/Wake Stages. Compared to the PSG Sleep Stages. Light/Full is the Sleep Stages Combined into Wake/Light/Deep. Light/Deep Combines Stage 1/2 and 3/REM into Light and Deep, Respectively REM/Non-REM are the Sleep Stages of Wake/Non-REM/REM Stages Compared to PSG</citation_analysis></p></caption><table frame="hsides" rules="groups"><thead><tr><th colspan="3" rowspan="1">BCG + Apple Watch</th><th colspan="2" rowspan="1">BCG</th><th colspan="2" rowspan="1">Apple Watch</th></tr><tr><th rowspan="1" colspan="1">Stages</th><th rowspan="1" colspan="1">Acc</th><th rowspan="1" colspan="1">Kappa</th><th rowspan="1" colspan="1">Acc</th><th rowspan="1" colspan="1">Kappa</th><th rowspan="1" colspan="1">Acc</th><th rowspan="1" colspan="1">Kappa</th></tr></thead><tbody><tr><td rowspan="1" colspan="1"><bold>Act</bold></td><td rowspan="1" colspan="1">81.9</td><td rowspan="1" colspan="1">0.402</td><td rowspan="1" colspan="1">81.1</td><td rowspan="1" colspan="1">0.433</td><td rowspan="1" colspan="1">80.2</td><td rowspan="1" colspan="1">0.35</td></tr><tr><td rowspan="1" colspan="1"><bold>Sleep/Wake</bold></td><td rowspan="1" colspan="1">90.4</td><td rowspan="1" colspan="1">0.684</td><td rowspan="1" colspan="1">86.9</td><td rowspan="1" colspan="1">0.609</td><td rowspan="1" colspan="1">81.8</td><td rowspan="1" colspan="1">0.271</td></tr><tr><td rowspan="1" colspan="1"><bold>Light/Full</bold></td><td rowspan="1" colspan="1">86.4</td><td rowspan="1" colspan="1">0.615</td><td rowspan="1" colspan="1">85.5</td><td rowspan="1" colspan="1">0.519</td><td rowspan="1" colspan="1">79.5</td><td rowspan="1" colspan="1">0.382</td></tr><tr><td rowspan="1" colspan="1"><bold>Light/Deep</bold></td><td rowspan="1" colspan="1">73.4</td><td rowspan="1" colspan="1">0.583</td><td rowspan="1" colspan="1">52.4</td><td rowspan="1" colspan="1">0.268</td><td rowspan="1" colspan="1">61</td><td rowspan="1" colspan="1">0.383</td></tr><tr><td rowspan="1" colspan="1"><bold>REM/Non-REM</bold></td><td rowspan="1" colspan="1">72.7</td><td rowspan="1" colspan="1">0.534</td><td rowspan="1" colspan="1">64.2</td><td rowspan="1" colspan="1">0.389</td><td rowspan="1" colspan="1">55.5</td><td rowspan="1" colspan="1">0.406</td></tr></tbody></table></table-wrap></citation_analysis><citation_analysis attribute="positive">
+</citation_analysis><citation_analysis attribute="positive"><table-wrap position="float" id="t0002"><label>Table 2</label><caption><p><citation_analysis attribute="neither">Statistical Metrics for Sleep/Wake Stages from Each Device Configuration Compared Against PSG and Actigraphy Sleep Stages</citation_analysis></p></caption><table frame="hsides" rules="groups"><thead><tr><th rowspan="1" colspan="1">Device</th><th rowspan="1" colspan="1">Method</th><th rowspan="1" colspan="1">Sensitivity</th><th rowspan="1" colspan="1">Specificity</th><th rowspan="1" colspan="1">Precision</th><th rowspan="1" colspan="1">F1</th></tr></thead><tbody><tr><td rowspan="2" colspan="1"><bold>BCG + Apple Watch</bold></td><td rowspan="1" colspan="1"><bold>ACT</bold></td><td rowspan="1" colspan="1">0.8449</td><td rowspan="1" colspan="1">0.6604</td><td rowspan="1" colspan="1">0.9386</td><td rowspan="1" colspan="1">0.8892</td></tr><tr><td rowspan="1" colspan="1"><bold>Sleep/Wake</bold></td><td rowspan="1" colspan="1">0.8925</td><td rowspan="1" colspan="1">0.9717</td><td rowspan="1" colspan="1">0.9949</td><td rowspan="1" colspan="1">0.9409</td></tr><tr><td rowspan="2" colspan="1"><bold>BCG</bold></td><td rowspan="1" colspan="1"><bold>ACT</bold></td><td rowspan="1" colspan="1">0.8637</td><td rowspan="1" colspan="1">0.5946</td><td rowspan="1" colspan="1">0.8976</td><td rowspan="1" colspan="1">0.8803</td></tr><tr><td rowspan="1" colspan="1"><bold>Sleep/Wake</bold></td><td rowspan="1" colspan="1">0.8982</td><td rowspan="1" colspan="1">0.75</td><td rowspan="1" colspan="1">0.9366</td><td rowspan="1" colspan="1">0.917</td></tr><tr><td rowspan="2" colspan="1"><bold>Apple Watch</bold></td><td rowspan="1" colspan="1"><bold>ACT</bold></td><td rowspan="1" colspan="1">0.8364</td><td rowspan="1" colspan="1">0.5963</td><td rowspan="1" colspan="1">0.9249</td><td rowspan="1" colspan="1">0.8784</td></tr><tr><td rowspan="1" colspan="1"><bold>Sleep/Wake</bold></td><td rowspan="1" colspan="1">0.8441</td><td rowspan="1" colspan="1">0.6606</td><td rowspan="1" colspan="1">0.9366</td><td rowspan="1" colspan="1">0.888</td></tr></tbody></table></table-wrap></citation_analysis><citation_analysis attribute="positive">
+</citation_analysis><citation_analysis attribute="positive"><fig position="float" id="f0004" fig-type="figure"><label>Figure 4</label><caption><p><citation_analysis attribute="neither">Zoomed in portion of top features for chi-square feature selection of most important features. Underlines are for non-linear features.</citation_analysis></p></caption><graphic xlink:href="NSS-16-1075-g0004" content-type="print-only" position="float"/></fig></citation_analysis><citation_analysis attribute="positive">
+</citation_analysis><citation_analysis attribute="positive"><fig position="float" id="f0005" fig-type="figure"><label>Figure 5</label><caption><p><citation_analysis attribute="neither">(</citation_analysis><citation_analysis attribute="positive"><bold>A</bold></citation_analysis><citation_analysis attribute="neither">) Non-REM Sleep Stages for Apple Watch comparing to PSG. Epochs of 0, 1 and 2 are wake, non-REM, REM stages respectively. (</citation_analysis><citation_analysis attribute="positive"><bold>B</bold></citation_analysis><citation_analysis attribute="neither">) Confusion matrix for the Apple Watch’s sleep classifications.</citation_analysis></p></caption><graphic xlink:href="NSS-16-1075-g0005" content-type="print-only" position="float"/></fig></citation_analysis><citation_analysis attribute="positive">
+</citation_analysis><citation_analysis attribute="positive"><fig position="float" id="f0006" fig-type="figure"><label>Figure 6</label><caption><p><citation_analysis attribute="neither">(</citation_analysis><citation_analysis attribute="positive"><bold>A</bold></citation_analysis><citation_analysis attribute="neither">) Non-REM sleep stages for BCG comparing to PSG. Epochs of 0, 1 and 2 are wake, non-REM, REM stages respectively. (</citation_analysis><citation_analysis attribute="positive"><bold>B</bold></citation_analysis><citation_analysis attribute="neither">) Confusion matrix for the BCG’s sleep classifications.</citation_analysis></p></caption><graphic xlink:href="NSS-16-1075-g0006" content-type="print-only" position="float"/></fig></citation_analysis><citation_analysis attribute="positive">
+</citation_analysis><citation_analysis attribute="positive"><fig position="float" id="f0007" fig-type="figure"><label>Figure 7</label><caption><p><citation_analysis attribute="neither">(</citation_analysis><citation_analysis attribute="positive"><bold>A</bold></citation_analysis><citation_analysis attribute="neither">) Non-REM sleep stages for combination BCG + Apple Watch comparing to PSG Epochs of 0, 1 and 2 are wake, non-REM, REM stages respectively. (</citation_analysis><citation_analysis attribute="positive"><bold>B</bold></citation_analysis><citation_analysis attribute="neither">) Confusion matrix for the BCG–Apple Watch combination’s sleep classifications.</citation_analysis></p></caption><graphic xlink:href="NSS-16-1075-g0007" content-type="print-only" position="float"/></fig></citation_analysis></p>
+    </sec>
+    <sec id="s0004">
+      <title>Discussion</title>
+      <p><citation_analysis attribute="positive">The integration of BCG with the Apple Watch, alongside the use of nonlinear HRV analysis techniques, has led to a notable improvement in sleep stage detection accuracy. This is evident in the system’s demonstrated ability to differentiate between restful and active states, validated against the gold-standard PSG. Furthermore, the combined use of physiological signals from both devices have more consistently distinguished between wake and REM stages compared to when each device is used separately. As shown in </citation_analysis><citation_analysis attribute="positive"><xref rid="t0001" ref-type="table">Tables 1</xref></citation_analysis><citation_analysis attribute="neither">, by leveraging the unique strengths of both devices, the reliability of sleep stage classification has been enhanced. The accuracy of the combined BCG and Apple Watch improved to 72.2% from 64.2% and 55.5% for the BCG and Apple Watch alone, respectively. The Apple Watch’s robustness against movement artifacts ensures clarity of signals during periods of restlessness, while BCG’s sensitivity to motion aids in identifying lighter sleep stages. This complementary function is evident in the balanced classification of wake and REM stages in the confusion matrices presented in </citation_analysis><citation_analysis attribute="positive"><xref rid="f0005 f0006 f0007" ref-type="fig">Figures 5–7</xref></citation_analysis><citation_analysis attribute="neither">, with the Apple Watch showing fewer wake classifications (eg, </citation_analysis><citation_analysis attribute="positive"><xref rid="f0005" ref-type="fig">Figure 5B</xref></citation_analysis><citation_analysis attribute="neither">) and BCG fewer REM classifications (eg, </citation_analysis><citation_analysis attribute="positive"><xref rid="f0006" ref-type="fig">Figure 6B</xref></citation_analysis><citation_analysis attribute="positive">), leading to a more balanced outcome across all sleep stages. Traditional actigraph devices, like the GT9X, tend to overestimate sleep in stationery but awake individuals.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0036" ref-type="bibr">36</xref></citation_analysis><citation_analysis attribute="positive"> The combined system’s performance in sleep/wake detection surpassed that of traditional actigraphy as well, as shown in </citation_analysis><citation_analysis attribute="positive"><xref rid="t0002" ref-type="table">Table 2</xref></citation_analysis><citation_analysis attribute="positive"> (eg, an F1 score of 0.94 vs 0.89). Since multiple devices were used in tandem during the experiment, synchronizing each device sample rates and physiological signals was an important consideration. Each device included timestamps throughout the experiment and was used to synchronize each device. Additionally, participants began the experiment outside of the bed and the movement of the participant entering the bed would be used as an additional marker to synchronize the devices for the experiment. The PSG also had an event button that the participant was instructed to press when they got in or out of the bed throughout the sleep cycle. However, some margin of error may be present from the device synchronization, but precautions were taken to reduce it and have a synchronized system.</citation_analysis></p>
+      <p><citation_analysis attribute="neither">The non-linear features, primarily based on scatter plot concepts, were chosen for their resilience to trends.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0022" ref-type="bibr">22</xref></citation_analysis><citation_analysis attribute="neither"> For example, the motion-sensitive BCG device works through Wi-Fi, making it susceptible to network data loss; the chosen non-linear features minimize the impact of signal corruption, ensuring a more appropriate output. Poincare plots are not sensitive to irregularities and trends that could change the output of the cardiac signals due to the motion artifacts and data loss from a wireless BCG.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0041" ref-type="bibr">41</xref></citation_analysis><citation_analysis attribute="neither"> Additionally, the scatter plot methods do not require additional filtering, as the analysis is performed directly on a visual representation of J–J intervals with the processed BCG signals.</citation_analysis></p>
+      <p><citation_analysis attribute="positive">The Apple Watch samples at an inconsistent rate through its normal exported health data. In our previous publication, we compared the Apple Watch to BCG and PSG, finding that the Apple Watch produced cardiac signals with higher mean and standard deviation as a result of the inconsistent sampling rate.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0031" ref-type="bibr">31</xref></citation_analysis><citation_analysis attribute="positive">
+</citation_analysis><citation_analysis attribute="positive"><xref rid="t0001" ref-type="table">Table 1</xref></citation_analysis><citation_analysis attribute="negative"> shows that the Apple Watch had lower accuracy in most configurations compared to the BCG, potentially due to the interpolation used to address the inconsistent sampling rate, reducing the resolution of physiological signals and thus losing analytical detail. However, in the “Light/Deep” configuration, the Apple Watch shows higher accuracy of 61% than the BCG which had 52.4% as it was not affected by motion and distinguished between the three non-REM sleep stages more effectively. In contrast, the BCG was better at classifying the extreme stages of sleep in configurations focused on wake, light sleep, or REM. Nonetheless, the Apple Watch still maintained comparable accuracy to the BCG for most sleep stages, indicating the data’s potential utility for analysis. In the “Sleep/Wake” configuration, the BCG showed improved results in detecting sleep or wake instances compared to the Apple Watch, due to its higher sensitivity and specificity, as detailed in </citation_analysis><citation_analysis attribute="positive"><xref rid="t0002" ref-type="table">Table 2</xref></citation_analysis><citation_analysis attribute="neither">.</citation_analysis></p>
+      <p><citation_analysis attribute="neither">The combined use of BCG and Apple Watch showed a balanced sensitivity and specificity in </citation_analysis><citation_analysis attribute="positive"><xref rid="t0002" ref-type="table">Table 2</xref></citation_analysis><citation_analysis attribute="neither">, providing a comprehensive assessment of sleep and wake instances. The body’s effort to maintain stable functioning involves many organs operating in a nonlinear and nonstationary manner to adapt to external forces, with the ANS regulating cardiac activity by increasing SNS and decreasing PNS activities.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0027" ref-type="bibr">27</xref></citation_analysis><citation_analysis attribute="neither">,</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0039" ref-type="bibr">39</xref></citation_analysis><citation_analysis attribute="neither"> Various indices have modeled this cardiac asymmetry to indicate the ANS dominance in heart control.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0039" ref-type="bibr">39</xref></citation_analysis><citation_analysis attribute="neither"> The asymmetry measured by these indices can be used to assess sleep stage levels, with plots skewed to one side indicating a deeper sleep. Similarly, the STA method measures SNS and PNS activities by placing consecutive J–J intervals in specific quadrants throughout the sleep cycle, allowing for the observation of sleep stages transitions.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0044" ref-type="bibr">44</xref></citation_analysis><citation_analysis attribute="positive"> Many influential features on the model, particularly nonlinear ones, are shown in </citation_analysis><citation_analysis attribute="positive"><xref rid="f0004" ref-type="fig">Figure 4</xref></citation_analysis><citation_analysis attribute="positive">, enhance its performance. This study demonstrated an improvement from 50% to 86% in “Light/Full” sleep stage classification accuracy over our previous work using a BCG and an inertial measurement unit (IMU).</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0030" ref-type="bibr">30</xref></citation_analysis><citation_analysis attribute="positive"> Furthermore, combining HRV signals from the BCG and Apple Watch yielded better results than using each device separately. Studies in the literature utilizing BCG and Apple Watch devices separately have obtained 76% precision on a 25 subject dataset</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0051" ref-type="bibr">51</xref></citation_analysis><citation_analysis attribute="neither"> and 72% accuracy on a 39 subject dataset,</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0008" ref-type="bibr">8</xref></citation_analysis><citation_analysis attribute="neither"> respectively, for classifying non-REM/REM sleep stages. While our study had a smaller dataset than those from literature, we were able to obtain a comparable accuracy of about 73% for non-REM/REM sleep stage classification. Many of these non-intrusive devices are relatively easy to obtain for the general population and include sophisticated sensors and algorithms to evaluate their health vitals. Incorporating more advanced non-linear techniques into these devices would allow clinics to diagnose patients in a more comfortable and natural environment and study them over longer periods of time. Additionally, the non-intrusive nature of the devices would be able to be used with almost any population group because the intrusive setup normally performed during clinical experiments would not be necessary with a small non-intrusive system. The general consumer would have a better representation of their health and activity with more algorithms that can measure the dynamic physiological activity of their body. Therefore, this study shows that nonlinear methods can be used to effectively classify sleep stages from the cardiac signals measured from BCG and Apple Watch combined.</citation_analysis></p>
+      <p><citation_analysis attribute="positive">In summary, the integration of BCG with the Apple Watch and the use of nonlinear analysis methods showed promising sleep stage classification results in this study. Future research should address this study’s limitations. A larger participant pool is necessary for more generalizable results, given the small sample size of six participants in this study. Participants were expected to complete three sleep cycles, but the average sleep duration was just under four hours, suggesting that longer sleep periods should be evaluated for a more thorough observation of sleep stage transitions. The Apple Watch’s inconsistent sampling rate necessitated interpolation to align with other devices, potentially leading to inaccurate signal readings. Apple’s APIs offer developers the opportunity to create apps that could enforce consistent data collection rates from the sensors and facilitate direct data export for analysis. Furthermore, refinement of the classification model by exploring alternative machine learning methods and diving deeper into the nonlinear methods may achieve more precise differentiation among the various sleep stages.</citation_analysis></p>
+    </sec>
+    <sec id="s0005">
+      <title>Conclusion</title>
+      <p><citation_analysis attribute="positive">This study explored incorporating additional methods that could provide effective features to classify sleep stages using more unobtrusive devices. Specifically, methods involving scatter/return maps, such as those associated with Poincare plots, were examined for their relationship to the body’s ANS and their ability to capture the dynamics of the SNS and PNS imbalances. The combination of an Apple Watch and a bed-based BCG sensor with advanced nonlinear methods showed improved accuracy in sleep stage scores compared to PSG. Focusing more on methods that evaluate ANS dynamics could provide more insight into modeling sleep stages with unobtrusive devices through machine learning models.</citation_analysis></p>
+      <p><citation_analysis attribute="neither">PSG, due to its inconvenience, high cost, and the necessity for medical professionals to manage setup and scoring, is not an effective method for the continuous sleep evaluation of the general population. The inter-rater reliability among manual sleep scorers, indicated by a kappa value of 0.76, demonstrates good reliability. However, discrepancies in some sleep stages among scores suggest a potential for misclassification.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0052" ref-type="bibr">52</xref></citation_analysis><citation_analysis attribute="neither"> Therefore, the general population, interested in sleep tracking, and clinicians, aiming to observe patients’ health trends over extended periods, would benefit from more accessible monitoring options. State-of-the-art consumer wearables, equipped with sophisticated sensors and algorithms, accurately measure physiological signals. Through network connectivity, these devices can be integrated with other systems for comprehensive health monitoring without relying on intrusive equipment. A home environment with this kind of system to monitor health aspects related to sleep quality and regularly provide health information to the user or medical professional. Patients with sleep health issues can be remotely monitored in their own home comfortably, diagnosing any potential sleep-related illnesses without requiring visiting a dedicated sleep clinic, which may not reflect their natural sleep. However, widespread adoption may take some time due to the initial investment in devices and networking capability required to make these devices available everywhere. As these devices connect to other devices like smart phones and online databases to provide more vitals monitoring capabilities, users would need to commit to specific system environments for adequate monitoring. Future advancements in sensor and device accessibility would alleviate barriers preventing users from incorporating a system to monitor their sleep quality and health regularly. The convenience of a non-intrusive system can regularly monitor a user’s health without interrupting their sleep or activities in daily life.</citation_analysis></p>
+    </sec>
+  </body>
+  <back>
+    <ack>
+      <title>Acknowledgments</title>
+      <p><citation_analysis attribute="neither">This work was funded by the Natural Sciences and Engineering Research Council of Canada (NSERC) and Mitacs. Special thanks go to the team members of WearTech Labs for their guidance and feedback.</citation_analysis></p>
+    </ack>
+    <sec sec-type="COI-statement" id="s0006">
+      <title>Disclosure</title>
+      <p><citation_analysis attribute="neither">The authors report no conflicts of interest in this work.</citation_analysis></p>
+    </sec>
+    <ref-list>
+      <title>References</title>
+      <ref id="cit0001">
+        <label>1.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Sletten</surname>
+<given-names>TL</given-names></string-name>, <string-name><surname>Weaver</surname>
+<given-names>MD</given-names></string-name>, <string-name><surname>Foster</surname>
+<given-names>RG</given-names></string-name>, et al. <article-title>The importance of sleep regularity: a consensus statement of the national sleep foundation sleep timing and variability panel</article-title>. <source><italic toggle="yes">Sleep Health</italic></source>. <year>2023</year>;<volume>9</volume>(<issue>6</issue>):<fpage>801</fpage>–<lpage>820</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.sleh.2023.07.016</pub-id><pub-id pub-id-type="pmid">37684151</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0002">
+        <label>2.</label>
+        <mixed-citation publication-type="book"><string-name><surname>Cappuccio</surname>
+<given-names>FP</given-names></string-name>, <string-name><surname>Miller</surname>
+<given-names>MA</given-names></string-name>. <part-title>Sleep and cardio – metabolic disease</part-title>. In: <string-name><surname>Francesco</surname>
+<given-names>P</given-names></string-name>, editor. <source><italic toggle="yes">Sleep, Health, and Society: From Aetiology to Public Health</italic></source>. <edition>2nd</edition> ed. <publisher-loc>United Kingdom</publisher-loc>: <publisher-name>Oxford Academics</publisher-name>; <year>2018</year>:<fpage>67</fpage>–<lpage>79</lpage>.</mixed-citation>
+      </ref>
+      <ref id="cit0003">
+        <label>3.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Rocco</surname>
+<given-names>C</given-names></string-name>, <string-name><surname>Streng</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Van Kerkhof</surname>
+<given-names>LWM</given-names></string-name>, <string-name><surname>Van Der Horst</surname>
+<given-names>GTJ</given-names></string-name>, <string-name><surname>Chaves</surname>
+<given-names>I</given-names></string-name>. <article-title>Social jetlag and related risks for human health: a timely review</article-title>. <source><italic toggle="yes">Nutrients</italic></source>. <year>2021</year>;<volume>13</volume>(<issue>12</issue>):<fpage>4543</fpage>. doi:<pub-id pub-id-type="doi">10.3390/nu13124543</pub-id><pub-id pub-id-type="pmid">34960096</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0004">
+        <label>4.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Wittman</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Dinich</surname>
+<given-names>J</given-names></string-name>, <string-name><surname>Merrow</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Roenneberg</surname>
+<given-names>T</given-names></string-name>. <article-title>Social jetlag: misalignment of biological and social time</article-title>. <source><italic toggle="yes">Chronobiol. Int.</italic></source>
+<year>2006</year>;<volume>23</volume>(<issue>1–2</issue>):<fpage>497</fpage>–<lpage>509</lpage>. doi:<pub-id pub-id-type="doi">10.1080/07420520500545979</pub-id><pub-id pub-id-type="pmid">16687322</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0005">
+        <label>5.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Singh</surname>
+<given-names>J</given-names></string-name>, <string-name><surname>Sharma</surname>
+<given-names>RK</given-names></string-name>. <article-title>Making sleep study instrumentation more unobtrusive</article-title>. <source><italic toggle="yes">IEEE Instrum Meas Mag</italic></source>. <year>2021</year>;<volume>21</volume>(<issue>1</issue>):<fpage>50</fpage>–<lpage>53</lpage>. doi:<pub-id pub-id-type="doi">10.1109/MIM.2018.8278812</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0006">
+        <label>6.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Chinoy</surname>
+<given-names>ED</given-names></string-name>, <string-name><surname>Cueller</surname>
+<given-names>JA</given-names></string-name>, <string-name><surname>Huwa</surname>
+<given-names>KE</given-names></string-name>, et al. <article-title>Performance of seven consumer sleep-tracking devices compared with polysomnography</article-title>. <source><italic toggle="yes">Sleep</italic></source>. <year>2021</year>;<volume>44</volume>(<issue>5</issue>):<fpage>1</fpage>–<lpage>16</lpage>. doi:<pub-id pub-id-type="doi">10.1093/sleep/zsaa291</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0007">
+        <label>7.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Lee</surname>
+<given-names>J</given-names></string-name>, <string-name><surname>Byun</surname>
+<given-names>W</given-names></string-name>, <string-name><surname>Kiell</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Dinkel</surname>
+<given-names>D</given-names></string-name>, <string-name><surname>Seo</surname>
+<given-names>Y</given-names></string-name>. <article-title>Comparison of wearable trackers’ ability to estimate sleep</article-title>. <source><italic toggle="yes">Int J Environ Res Public Health</italic></source>. <year>2018</year>;<volume>15</volume>(<issue>6</issue>):<fpage>1265</fpage>. doi:<pub-id pub-id-type="doi">10.3390/ijerph15061265</pub-id><pub-id pub-id-type="pmid">29914050</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0008">
+        <label>8.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Welch</surname>
+<given-names>O</given-names></string-name>, <string-name><surname>Huang</surname>
+<given-names>Y</given-names></string-name>, <string-name><surname>Forger</surname>
+<given-names>D</given-names></string-name>, <string-name><surname>Goldstein</surname>
+<given-names>C</given-names></string-name>. <article-title>Sleep stage prediction with raw acceleration and photoplethysmography heart rate data derived from a consumer wearable device</article-title>. <source><italic toggle="yes">Sleep</italic></source>. <year>2019</year>;<volume>42</volume>(<issue>12</issue>):<fpage>1</fpage>–<lpage>19</lpage>.</mixed-citation>
+      </ref>
+      <ref id="cit0009">
+        <label>9.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Zambotti</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Baker</surname>
+<given-names>FC</given-names></string-name>, <string-name><surname>Corlain</surname>
+<given-names>IM</given-names></string-name>. <article-title>Validation of sleep-tracking technology compared with polysomnography in adolescents</article-title>. <source><italic toggle="yes">Sleep</italic></source>. <year>2015</year>;<volume>38</volume>(<issue>9</issue>):<fpage>1461</fpage>–<lpage>1468</lpage>. doi:<pub-id pub-id-type="doi">10.5665/sleep.4990</pub-id><pub-id pub-id-type="pmid">26158896</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0010">
+        <label>10.</label>
+        <mixed-citation publication-type="book"><collab>Apple</collab>. <source><italic toggle="yes">Apple Watch User GuideL Everything You Need to Know About Apple Watch</italic></source>. <publisher-name>WatchOS9.2, Apple Inc</publisher-name>; <year>2022</year>.</mixed-citation>
+      </ref>
+      <ref id="cit0011">
+        <label>11.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Lujan</surname>
+<given-names>MR</given-names></string-name>, <string-name><surname>Perez-Pozuelo</surname>
+<given-names>I</given-names></string-name>, <string-name><surname>Grandner</surname>
+<given-names>MA</given-names></string-name>. <article-title>Past, present, and future of multisensory wearable technology to monitor sleep and circadian rhythms</article-title>. <source><italic toggle="yes">Front Digit Health</italic></source>. <year>2021</year>;<volume>3</volume>:<fpage>721919</fpage>. doi:<pub-id pub-id-type="doi">10.3389/fdgth.2021.721919</pub-id><pub-id pub-id-type="pmid">34713186</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0012">
+        <label>12.</label>
+        <mixed-citation publication-type="book"><collab>Apple</collab>. <source><italic toggle="yes">Empowering People to Live a Healthier Day</italic></source>. <publisher-name>Apple Inc</publisher-name>; <year>2022</year>.</mixed-citation>
+      </ref>
+      <ref id="cit0013">
+        <label>13.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Nam</surname>
+<given-names>Y</given-names></string-name>, <string-name><surname>Kim</surname>
+<given-names>Y</given-names></string-name>, <string-name><surname>Lee</surname>
+<given-names>J</given-names></string-name>. <article-title>Sleep monitoring based on a tri-axial accelerometer and a pressure sensor</article-title>. <source><italic toggle="yes">Sensors</italic></source>. <year>2016</year>;<volume>16</volume>(<issue>5</issue>):<fpage>750</fpage>. doi:<pub-id pub-id-type="doi">10.3390/s16050750</pub-id><pub-id pub-id-type="pmid">27223290</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0014">
+        <label>14.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Uguz</surname>
+<given-names>DU</given-names></string-name>, <string-name><surname>Tufan</surname>
+<given-names>TB</given-names></string-name>, <string-name><surname>Uzun</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Leonhardt</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Antink</surname>
+<given-names>CH</given-names></string-name>. <article-title>Physiological motion artifacts in capacitive ECG: ballistocardiographic impedance distortions</article-title>. <source><italic toggle="yes">IEEE Trans Instrum Meas</italic></source>. <year>2020</year>;<volume>69</volume>(<issue>6</issue>):<fpage>3297</fpage>–<lpage>3307</lpage>. doi:<pub-id pub-id-type="doi">10.1109/TIM.2020.2971336</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0015">
+        <label>15.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Mora</surname>
+<given-names>N</given-names></string-name>, <string-name><surname>Cocconcelli</surname>
+<given-names>F</given-names></string-name>, <string-name><surname>Matrella</surname>
+<given-names>G</given-names></string-name>, <string-name><surname>Ciampolini</surname>
+<given-names>P</given-names></string-name>. <article-title>Accurate heartbeat detection on ballistocardiogram accelerometric traces</article-title>. <source><italic toggle="yes">IEEE Trans Instrum Meas</italic></source>. <year>2020</year>;<volume>69</volume>(<issue>11</issue>):<fpage>9000</fpage>–<lpage>9009</lpage>. doi:<pub-id pub-id-type="doi">10.1109/TIM.2020.2998644</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0016">
+        <label>16.</label>
+        <mixed-citation publication-type="book"><string-name><surname>Nurmi</surname>
+<given-names>S</given-names></string-name>. <source><italic toggle="yes">Nocturnal Sleep Quality and Quantity Analysis with Ballistocardiography</italic></source> [<source>dissertation</source>]. <publisher-loc>Accra</publisher-loc>: <publisher-name>Aalto University</publisher-name>; <year>2016</year>.</mixed-citation>
+      </ref>
+      <ref id="cit0017">
+        <label>17.</label>
+        <mixed-citation publication-type="confproc"><string-name><surname>Pino</surname>
+<given-names>EJ</given-names></string-name>, <string-name><surname>Chavez</surname>
+<given-names>JAP</given-names></string-name>, <string-name><surname>Aqueveque</surname>
+<given-names>P</given-names></string-name>. <article-title>BCG algorithm for unobtrusive heart rate monitoring</article-title>. <conf-name>IEEE Healthcare Innovations and Point of Care Technologies</conf-name>. <conf-loc>Bethesda, MD, USA</conf-loc>: <publisher-name>IEEE</publisher-name>; <year>2017</year>.</mixed-citation>
+      </ref>
+      <ref id="cit0018">
+        <label>18.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Shin</surname>
+<given-names>JH</given-names></string-name>, <string-name><surname>Hwang</surname>
+<given-names>SH</given-names></string-name>, <string-name><surname>Chang</surname>
+<given-names>MH</given-names></string-name>, <string-name><surname>Park</surname>
+<given-names>KS</given-names></string-name>. <article-title>Heart rate variability analysis using a ballistocardiogram during valsalva manoeuvre and post exercise</article-title>. <source><italic toggle="yes">Physiol Meas</italic></source>. <year>2011</year>;<volume>32</volume>(<issue>8</issue>):<fpage>1239</fpage>–<lpage>1264</lpage>. doi:<pub-id pub-id-type="doi">10.1088/0967-3334/32/8/015</pub-id><pub-id pub-id-type="pmid">21743126</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0019">
+        <label>19.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Tobaldini</surname>
+<given-names>E</given-names></string-name>, <string-name><surname>Nobili</surname>
+<given-names>L</given-names></string-name>, <string-name><surname>Strada</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Casali</surname>
+<given-names>KR</given-names></string-name>, <string-name><surname>Braghiroli</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Montano</surname>
+<given-names>N</given-names></string-name>. <article-title>Heart rate variability in normal and pathological sleep</article-title>. <source><italic toggle="yes">Front Physiol</italic></source>. <year>2013</year>;<volume>4</volume>(<issue>294</issue>):<fpage>1</fpage>–<lpage>11</lpage>. doi:<pub-id pub-id-type="doi">10.3389/fphys.2013.00294</pub-id><pub-id pub-id-type="pmid">23372552</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0020">
+        <label>20.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Sadek</surname>
+<given-names>I</given-names></string-name>, <string-name><surname>Biswas</surname>
+<given-names>J</given-names></string-name>, <string-name><surname>Abdulrazak</surname>
+<given-names>B</given-names></string-name>. <article-title>Ballistocardiogram signal processing: a review</article-title>. <source><italic toggle="yes">Health Inf Sci Syst</italic></source>. <year>2019</year>;<volume>7</volume>(<issue>1</issue>):<fpage>10</fpage>. doi:<pub-id pub-id-type="doi">10.1007/s13755-019-0071-7</pub-id><pub-id pub-id-type="pmid">31114676</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0021">
+        <label>21.</label>
+        <mixed-citation publication-type="journal"><collab>Task Force of the European Society of Cardiology</collab>. <article-title>The North American society of pacing electrophysiology. heart rate variability</article-title>. <source><italic toggle="yes">Circulation</italic></source>. <year>1996</year>;<volume>93</volume>(<issue>5</issue>):<fpage>1045</fpage>–<lpage>1065</lpage>.</mixed-citation>
+      </ref>
+      <ref id="cit0022">
+        <label>22.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Shaffer</surname>
+<given-names>F</given-names></string-name>, <string-name><surname>Ginsberg</surname>
+<given-names>JP</given-names></string-name>. <article-title>An overview of heart rate variability metrics and norms</article-title>. <source><italic toggle="yes">Front Public Health</italic></source>. <year>2017</year>;<volume>5</volume>(<issue>258</issue>):<fpage>1</fpage>–<lpage>17</lpage>. doi:<pub-id pub-id-type="doi">10.3389/fpubh.2017.00258</pub-id><pub-id pub-id-type="pmid">28229066</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0023">
+        <label>23.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Goldberger</surname>
+<given-names>AL</given-names></string-name>, <string-name><surname>Amaral</surname>
+<given-names>LAN</given-names></string-name>, <string-name><surname>Hausdorff</surname>
+<given-names>JM</given-names></string-name>, <string-name><surname>Ivanov</surname>
+<given-names>PC</given-names></string-name>, <string-name><surname>Peng</surname>
+<given-names>CK</given-names></string-name>, <string-name><surname>Stanley</surname>
+<given-names>HE</given-names></string-name>. <article-title>Fractal dynamics in physiology: alterations with disease and aging</article-title>. <source><italic toggle="yes">Proc Natl Acad Sci USA</italic></source>. <year>2002</year>;<volume>99</volume>(<issue>1</issue>):<fpage>2466</fpage>–<lpage>2472</lpage>. doi:<pub-id pub-id-type="doi">10.1073/pnas.012579499</pub-id><pub-id pub-id-type="pmid">11875196</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0024">
+        <label>24.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Li</surname>
+<given-names>K</given-names></string-name>, <string-name><surname>Rudiger</surname>
+<given-names>H</given-names></string-name>, <string-name><surname>Ziemssen</surname>
+<given-names>T</given-names></string-name>. <article-title>Spectral analysis of heart rate variability: time window matters</article-title>. <source><italic toggle="yes">Front Neurol</italic></source>. <year>2019</year>;<volume>10</volume>:<fpage>545</fpage>. doi:<pub-id pub-id-type="doi">10.3389/fneur.2019.00545</pub-id><pub-id pub-id-type="pmid">31191437</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0025">
+        <label>25.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Feng</surname>
+<given-names>J</given-names></string-name>, <string-name><surname>Huang</surname>
+<given-names>W</given-names></string-name>, <string-name><surname>Jiang</surname>
+<given-names>J</given-names></string-name>, et al. <article-title>Non-invasive monitoring of cardiac function through ballistocardiogram: an algorithm integrating short-time Fourier transform and ensemble empirical mode decomposition</article-title>. <source><italic toggle="yes">Front Physiol</italic></source>. <year>2023</year>;<volume>14</volume>:<fpage>1201722</fpage>. doi:<pub-id pub-id-type="doi">10.3389/fphys.2023.1201722</pub-id><pub-id pub-id-type="pmid">37664434</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0026">
+        <label>26.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Sadek</surname>
+<given-names>I</given-names></string-name>, <string-name><surname>Biswas</surname>
+<given-names>J</given-names></string-name>. <article-title>Nonintrusive heart rate measurement using ballistocardiogram signals: a comparative study</article-title>. <source><italic toggle="yes">Signal Image Video Process</italic></source>. <year>2018</year>;<volume>13</volume>:<fpage>475</fpage>–<lpage>482</lpage>. doi:<pub-id pub-id-type="doi">10.1007/s11760-018-1372-z</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0027">
+        <label>27.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Jelinek</surname>
+<given-names>HF</given-names></string-name>, <string-name><surname>Cornforth</surname>
+<given-names>DJ</given-names></string-name>, <string-name><surname>Tarvainen</surname>
+<given-names>MP</given-names></string-name>, <string-name><surname>Khalaf</surname>
+<given-names>K</given-names></string-name>. <article-title>Investigation of linear and nonlinear properties of a heartbeat time series using multiscale renyi entropy</article-title>. <source><italic toggle="yes">Entroy</italic></source>. <year>2019</year>;<volume>21</volume>(<issue>8</issue>):<fpage>727</fpage>. doi:<pub-id pub-id-type="doi">10.3390/e21080727</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0028">
+        <label>28.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Almutairi</surname>
+<given-names>H</given-names></string-name>, <string-name><surname>Hassan</surname>
+<given-names>GM</given-names></string-name>, <string-name><surname>Datta</surname>
+<given-names>A</given-names></string-name>. <article-title>Machine-learning-based-approaches for sleep stage classification utilising a combination of physiological signals: a systematic review</article-title>. <source><italic toggle="yes">Appl Sci</italic></source>. <year>2023</year>;<volume>13</volume>(<issue>24</issue>):<fpage>13280</fpage>. doi:<pub-id pub-id-type="doi">10.3390/app132413280</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0029">
+        <label>29.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Lin</surname>
+<given-names>CT</given-names></string-name>, <string-name><surname>Prasad</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Chung</surname>
+<given-names>CH</given-names></string-name>, et al. <article-title>IoT-based wireless polysomnography intelligent system for sleep monitoring</article-title>. <source><italic toggle="yes">IEEE Access</italic></source>. <year>2018</year>;<volume>6</volume>:<fpage>405</fpage>–<lpage>414</lpage>. doi:<pub-id pub-id-type="doi">10.1109/ACCESS.2017.2765702</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0030">
+        <label>30.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Jaworski</surname>
+<given-names>DJ</given-names></string-name>, <string-name><surname>Park</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Park</surname>
+<given-names>EJ</given-names></string-name>. <article-title>Internet of things for sleep monitoring</article-title>. <source><italic toggle="yes">IEEE Instrum Meas Mag</italic></source>. <year>2021</year>;<volume>24</volume>(<issue>2</issue>):<fpage>30</fpage>–<lpage>36</lpage>. doi:<pub-id pub-id-type="doi">10.1109/MIM.2021.9400950</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0031">
+        <label>31.</label>
+        <mixed-citation publication-type="confproc"><string-name><surname>Jaworski</surname>
+<given-names>DJ</given-names></string-name>, <string-name><surname>Park</surname>
+<given-names>EJ</given-names></string-name>. <article-title>Apple watch sleep and physiological tracking compared to clinically validated actigraphy, ballistocardiography and polysomnography</article-title>. <conf-name>Annu. Int. Conf. IEEE Eng. Med. Biol. Soc</conf-name>. <conf-loc>Sydney Australia</conf-loc>; <year>2023</year>.</mixed-citation>
+      </ref>
+      <ref id="cit0032">
+        <label>32.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Herbst</surname>
+<given-names>E</given-names></string-name>, <string-name><surname>Metzler</surname>
+<given-names>TJ</given-names></string-name>, <string-name><surname>Lenoci</surname>
+<given-names>M</given-names></string-name>, et al. <article-title>Adaption effects to sleep studies in participants with and without chronic posttraumatic stress disorder</article-title>. <source><italic toggle="yes">Psychophysiology</italic></source>. <year>2010</year>;<volume>47</volume>(<issue>6</issue>):<fpage>1127</fpage>–<lpage>1133</lpage>. doi:<pub-id pub-id-type="doi">10.1111/j.1469-8986.2010.01030.x</pub-id><pub-id pub-id-type="pmid">20456661</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0033">
+        <label>33.</label>
+        <mixed-citation publication-type="book"><string-name><surname>Meriheina</surname>
+<given-names>U</given-names></string-name>. <article-title>BCG Measurements in BEDS White Paper</article-title>. <publisher-name>Murata Electronics Oy</publisher-name>: <publisher-loc>Nagaokakyo, Japan</publisher-loc>; <year>2019</year>.</mixed-citation>
+      </ref>
+      <ref id="cit0034">
+        <label>34.</label>
+        <mixed-citation publication-type="book"><collab>Murata Electronics LTD</collab>. <article-title>Intelligent Calibration Application Note</article-title>. <publisher-name>Murata Electronics Oy</publisher-name>: <publisher-loc>Nagaokakyo, Japan</publisher-loc>; <year>2017</year>.</mixed-citation>
+      </ref>
+      <ref id="cit0035">
+        <label>35.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Berry</surname>
+<given-names>RB</given-names></string-name>, <string-name><surname>Quan</surname>
+<given-names>SF</given-names></string-name>, <string-name><surname>Abreu</surname>
+<given-names>AR</given-names></string-name>, et al. <article-title>The AASM manual for the scoring of sleep and associated events: rules, terminology and technical specifications</article-title>. <source><italic toggle="yes">Am Acad Sleep Med</italic></source>. <year>2020</year>;<volume>2020</volume>:<fpage>1</fpage>.</mixed-citation>
+      </ref>
+      <ref id="cit0036">
+        <label>36.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Cole</surname>
+<given-names>RJ</given-names></string-name>, <string-name><surname>Kripke</surname>
+<given-names>DF</given-names></string-name>, <string-name><surname>Gruen</surname>
+<given-names>W</given-names></string-name>, <string-name><surname>Mullaney</surname>
+<given-names>DJ</given-names></string-name>, <string-name><surname>Gillin</surname>
+<given-names>JC</given-names></string-name>. <article-title>Automatic sleep/wake identification from wrist activity</article-title>. <source><italic toggle="yes">Sleep</italic></source>. <year>1992</year>;<volume>15</volume>(<issue>5</issue>):<fpage>461</fpage>–<lpage>469</lpage>. doi:<pub-id pub-id-type="doi">10.1093/sleep/15.5.461</pub-id><pub-id pub-id-type="pmid">1455130</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0037">
+        <label>37.</label>
+        <mixed-citation publication-type="book"><collab>Murata Electronics LTD</collab>. <article-title>SCA11H Operation Modes</article-title>. <publisher-name>Murata Electronics Oy</publisher-name>: <publisher-loc>Nagaokakyo, Japan</publisher-loc>; <year>2015</year>.</mixed-citation>
+      </ref>
+      <ref id="cit0038">
+        <label>38.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Young</surname>
+<given-names>DW</given-names></string-name>. <article-title>Self-Measure of Heart Rate Variability (HRV) and arrhythmia to monitor and to manage atrial arrhythmias: personal experience with high intensity interval exercise (HIIE) for the conversion to sinus rhythm</article-title>. <source><italic toggle="yes">Front Physiol</italic></source>. <year>2014</year>;<volume>5</volume>(<issue>251</issue>):<fpage>1</fpage>–<lpage>4</lpage>. doi:<pub-id pub-id-type="doi">10.3389/fphys.2014.00251</pub-id><pub-id pub-id-type="pmid">24478714</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0039">
+        <label>39.</label>
+        <mixed-citation publication-type="book"><string-name><surname>Khandoker</surname>
+<given-names>AH</given-names></string-name>, <string-name><surname>Karmakar</surname>
+<given-names>C</given-names></string-name>, <string-name><surname>Brennan</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Voss</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Palaniswami</surname>
+<given-names>M</given-names></string-name>. <part-title>Heart Rate Asymmetry Analysis Using Poincare Plot</part-title>. In: <source><italic toggle="yes">Poincare Plot Methods for Heart Rate Variability Analysis</italic></source>. <publisher-loc>Boston MA</publisher-loc>: <publisher-name>Springer</publisher-name>; <year>2013</year>:<fpage>69</fpage>–<lpage>91</lpage>.</mixed-citation>
+      </ref>
+      <ref id="cit0040">
+        <label>40.</label>
+        <mixed-citation publication-type="confproc"><string-name><surname>Vollmer</surname>
+<given-names>M</given-names></string-name>. <article-title>A robust, simple and reliable measure of heart rate variability using relative RR intervals</article-title>. <conf-name>Computing in Cardiology Conference</conf-name>. <conf-loc>Nice, France</conf-loc>; <year>2015</year>.</mixed-citation>
+      </ref>
+      <ref id="cit0041">
+        <label>41.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Behbahani</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Dabanloo</surname>
+<given-names>NJ</given-names></string-name>, <string-name><surname>Nasrabadi</surname>
+<given-names>AM</given-names></string-name>. <article-title>Ictal heart rate variability assessment with focus on secondary generalized and complex partial epileptic seizures</article-title>. <source><italic toggle="yes">Adv Biores</italic></source>. <year>2013</year>;<volume>4</volume>(<issue>1</issue>):<fpage>50</fpage>–<lpage>58</lpage>.</mixed-citation>
+      </ref>
+      <ref id="cit0042">
+        <label>42.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Pawloski</surname>
+<given-names>R</given-names></string-name>, <string-name><surname>Buszko</surname>
+<given-names>K</given-names></string-name>, <string-name><surname>Newton</surname>
+<given-names>JL</given-names></string-name>, <string-name><surname>Kujawski</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Zalewski</surname>
+<given-names>P</given-names></string-name>. <article-title>Heart rate asymmetry analysis during head-up tilt test in healthy men</article-title>. <source><italic toggle="yes">Front Physiol</italic></source>. <year>2021</year>;<volume>2021</volume>:<fpage>12</fpage>.</mixed-citation>
+      </ref>
+      <ref id="cit0043">
+        <label>43.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Yan</surname>
+<given-names>C</given-names></string-name>, <string-name><surname>Li</surname>
+<given-names>P</given-names></string-name>, <string-name><surname>Ji</surname>
+<given-names>L</given-names></string-name>, et al. <article-title>Area asymmetry of heart rate variability signal</article-title>. <source><italic toggle="yes">Biomed Eng Online</italic></source>. <year>2017</year>;<volume>16</volume>(<issue>112</issue>):<fpage>1</fpage>–<lpage>14</lpage>. doi:<pub-id pub-id-type="doi">10.1186/s12938-017-0402-3</pub-id><pub-id pub-id-type="pmid">28086973</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0044">
+        <label>44.</label>
+        <mixed-citation publication-type="confproc"><string-name><surname>de Carvalho</surname>
+<given-names>JLA</given-names></string-name>, <string-name><surname>da Rocha</surname>
+<given-names>AF</given-names></string-name>, <string-name><surname>de Oliveira Nascimento</surname>
+<given-names>FA</given-names></string-name>, <string-name><surname>Neto</surname>
+<given-names>JS</given-names></string-name>, <string-name><surname>Junqueira</surname>
+<given-names>LF</given-names></string-name>. <article-title>Development of a matlab software for analysis of heart rate variability</article-title>. <conf-name>6th Int. Conf. Signal Proc</conf-name>. <conf-loc>Beijing, China</conf-loc>; <year>2003</year>.</mixed-citation>
+      </ref>
+      <ref id="cit0045">
+        <label>45.</label>
+        <mixed-citation publication-type="confproc"><string-name><surname>Srinivas</surname>
+<given-names>K</given-names></string-name>, <string-name><surname>Reddy</surname>
+<given-names>LRG</given-names></string-name>, <string-name><surname>Srinivas</surname>
+<given-names>R</given-names></string-name>. <article-title>Estimation of heart rate variability from peripheral pulse wave using PPG sensor</article-title>. <conf-name>Int. Conf. Biomed. Eng</conf-name>. <publisher-loc>Kuala Lumpur, Malaysia</publisher-loc>; <year>2007</year>.</mixed-citation>
+      </ref>
+      <ref id="cit0046">
+        <label>46.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Srinivas</surname>
+<given-names>K</given-names></string-name>, <string-name><surname>Reddy</surname>
+<given-names>LRG</given-names></string-name>. <article-title>Detecting congestive heart failure using heart rate sequential trend analysis plot</article-title>. <source><italic toggle="yes">Int Jour Eng Science Tech</italic></source>. <year>2010</year>;<volume>2</volume>(<issue>12</issue>):<fpage>7329</fpage>–<lpage>7334</lpage>.</mixed-citation>
+      </ref>
+      <ref id="cit0047">
+        <label>47.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Renyi</surname>
+<given-names>A</given-names></string-name>. <article-title>On measures of entropy and information</article-title>. <source><italic toggle="yes">Berkeley Symp on Math Statist and Prob</italic></source>. <year>1961</year>;<volume>4</volume>(<issue>1</issue>):<fpage>547</fpage>–<lpage>561</lpage>.</mixed-citation>
+      </ref>
+      <ref id="cit0048">
+        <label>48.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Askenazy</surname>
+<given-names>Y</given-names></string-name>, <string-name><surname>Ivanov</surname>
+<given-names>PC</given-names></string-name>, <string-name><surname>Havlin</surname>
+<given-names>S</given-names></string-name>, et al. <article-title>Magnitude and sign correlations in heartbeat fluctuations</article-title>. <source><italic toggle="yes">Phys Rev Lett</italic></source>. <year>2001</year>;<volume>86</volume>(<issue>9</issue>):<fpage>1900</fpage>. doi:<pub-id pub-id-type="doi">10.1103/PhysRevLett.86.1900</pub-id><pub-id pub-id-type="pmid">11290277</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0049">
+        <label>49.</label>
+        <mixed-citation publication-type="book"><string-name><surname>Muller</surname>
+<given-names>M</given-names></string-name>. <part-title>Dynamic Time Warping</part-title>. In: <source><italic toggle="yes">Information Retrieval for Music and Motion</italic></source>. <publisher-loc>Heidelberg, Berlin</publisher-loc>: <publisher-name>Springer</publisher-name>; <year>2007</year>:<fpage>69</fpage>.</mixed-citation>
+      </ref>
+      <ref id="cit0050">
+        <label>50.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Rahda</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Fonseca</surname>
+<given-names>R</given-names></string-name>, <string-name><surname>Moreau</surname>
+<given-names>A</given-names></string-name>, et al. <article-title>Sleep stage classification from heart-rate variability using long short-term memory neural networks</article-title>. <source><italic toggle="yes">Sci Rep</italic></source>. <year>2019</year>;<volume>9</volume>:<fpage>14149</fpage>. doi:<pub-id pub-id-type="doi">10.1038/s41598-019-49703-y</pub-id><pub-id pub-id-type="pmid">31578345</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="cit0051">
+        <label>51.</label>
+        <mixed-citation publication-type="confproc"><string-name><surname>Gasmi</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Augusto</surname>
+<given-names>V</given-names></string-name>, <string-name><surname>Beaudet</surname>
+<given-names>P</given-names></string-name>, et al. <article-title>Sleep stage classification using cardio-respiratory variables</article-title>. <conf-name>IEEE Conf. Autom. Sci. Eng (CASE)</conf-name>. <conf-loc>Hong Kong, China</conf-loc>; <year>2020</year>.</mixed-citation>
+      </ref>
+      <ref id="cit0052">
+        <label>52.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Lee</surname>
+<given-names>YJ</given-names></string-name>, <string-name><surname>Lee</surname>
+<given-names>JY</given-names></string-name>, <string-name><surname>Cho</surname>
+<given-names>JH</given-names></string-name>, <string-name><surname>Choi</surname>
+<given-names>JH</given-names></string-name>. <article-title>Interrater reliability of sleep stage scoring: a meta-analysis</article-title>. <source><italic toggle="yes">J Clin Sleep Med</italic></source>. <year>2022</year>;<volume>18</volume>(<issue>1</issue>):<fpage>193</fpage>–<lpage>202</lpage>. doi:<pub-id pub-id-type="doi">10.5664/jcsm.9538</pub-id><pub-id pub-id-type="pmid">34310277</pub-id>
+</mixed-citation>
+      </ref>
+    </ref-list>
+  </back>
+</article>
+</pmc-articleset>

@@ -1,0 +1,966 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<pmc-articleset><article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" dtd-version="1.3" xml:lang="en" article-type="brief-report">
+  <?properties open_access?>
+  <processing-meta base-tagset="archiving" mathml-version="3.0" table-model="xhtml" tagset-family="jats">
+    <restricted-by>pmc</restricted-by>
+  </processing-meta>
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="nlm-ta">Nat Sci Sleep</journal-id>
+      <journal-id journal-id-type="iso-abbrev">Nat Sci Sleep</journal-id>
+      <journal-id journal-id-type="publisher-id">nss</journal-id>
+      <journal-title-group>
+        <journal-title>Nature and Science of Sleep</journal-title>
+      </journal-title-group>
+      <issn pub-type="epub">1179-1608</issn>
+      <publisher>
+        <publisher-name>Dove</publisher-name>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="pmid">36132745</article-id>
+      <article-id pub-id-type="pmc">9482962</article-id>
+      <article-id pub-id-type="publisher-id">376755</article-id>
+      <article-id pub-id-type="doi">10.2147/NSS.S376755</article-id>
+      <article-categories>
+        <subj-group subj-group-type="heading">
+          <subject>Short Report</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>Automatic Driver Drowsiness Detection Using Artificial Neural Network Based on Visual Facial Descriptors: Pilot Study</article-title>
+        <alt-title alt-title-type="running-authors">Inkeaw et al</alt-title>
+        <alt-title alt-title-type="running-title">Inkeaw et al</alt-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Inkeaw</surname>
+            <given-names>Papangkorn</given-names>
+          </name>
+          <xref rid="aff0001" ref-type="aff">
+<sup>1</sup>
+</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Srikummoon</surname>
+            <given-names>Pimwarat</given-names>
+          </name>
+          <xref rid="aff0002" ref-type="aff">
+<sup>2</sup>
+</xref>
+          <xref rid="aff0003" ref-type="aff">
+<sup>3</sup>
+</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Chaijaruwanich</surname>
+            <given-names>Jeerayut</given-names>
+          </name>
+          <xref rid="aff0001" ref-type="aff">
+<sup>1</sup>
+</xref>
+          <xref rid="aff0004" ref-type="aff">
+<sup>4</sup>
+</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Traisathit</surname>
+            <given-names>Patrinee</given-names>
+          </name>
+          <xref rid="aff0002" ref-type="aff">
+<sup>2</sup>
+</xref>
+          <xref rid="aff0003" ref-type="aff">
+<sup>3</sup>
+</xref>
+          <xref rid="aff0005" ref-type="aff">
+<sup>5</sup>
+</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0001-6886-7063</contrib-id>
+          <name>
+            <surname>Awiphan</surname>
+            <given-names>Suphakit</given-names>
+          </name>
+          <xref rid="aff0001" ref-type="aff">
+<sup>1</sup>
+</xref>
+          <xref rid="aff0004" ref-type="aff">
+<sup>4</sup>
+</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0001-5497-7704</contrib-id>
+          <name>
+            <surname>Inchai</surname>
+            <given-names>Juthamas</given-names>
+          </name>
+          <xref rid="aff0006" ref-type="aff">
+<sup>6</sup>
+</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Worasuthaneewan</surname>
+            <given-names>Ratirat</given-names>
+          </name>
+          <xref rid="aff0007" ref-type="aff">
+<sup>7</sup>
+</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0001-6182-6218</contrib-id>
+          <name>
+            <surname>Theerakittikul</surname>
+            <given-names>Theerakorn</given-names>
+          </name>
+          <xref rid="aff0006" ref-type="aff">
+<sup>6</sup>
+</xref>
+          <xref rid="aff0007" ref-type="aff">
+<sup>7</sup>
+</xref>
+          <xref rid="an0001" ref-type="corresp"/>
+        </contrib>
+        <aff id="aff0001"><label>1</label><institution>Data Science Research Center, Department of Computer Science, Faculty of Science, Chiang Mai University</institution>, <addr-line>Chiang Mai</addr-line>, <addr-line>50200</addr-line>, <country>Thailand</country></aff>
+        <aff id="aff0002"><label>2</label><institution>Department of Statistics, Faculty of Science, Chiang Mai University</institution>, <addr-line>Chiang Mai</addr-line>, <addr-line>50200</addr-line>, <country>Thailand</country></aff>
+        <aff id="aff0003"><label>3</label><institution>Data Science Research Center, Department of Statistics, Faculty of Science, Chiang Mai University</institution>, <addr-line>Chiang Mai</addr-line>, <addr-line>50200</addr-line>, <country>Thailand</country></aff>
+        <aff id="aff0004"><label>4</label><institution>Department of Computer Science, Faculty of Science, Chiang Mai University</institution>, <addr-line>Chiang Mai</addr-line>, <addr-line>50200</addr-line>, <country>Thailand</country></aff>
+        <aff id="aff0005"><label>5</label><institution>Research Center in Bioresources for Agriculture, Industry and Medicine, Department of Statistics, Faculty of Science, Chiang Mai University</institution>, <addr-line>Chiang Mai</addr-line>, <addr-line>50200</addr-line>, <country>Thailand</country></aff>
+        <aff id="aff0006"><label>6</label><institution>Division of Pulmonary, Critical Care and Allergy, Department of Internal Medicine, Faculty of Medicine, Chiang Mai University</institution>, <addr-line>Chiang Mai</addr-line>, <addr-line>50200</addr-line>, <country>Thailand</country></aff>
+        <aff id="aff0007"><label>7</label><institution>Sleep Disorder Center, Center for Medical Excellence, Faculty of Medicine, Chiang Mai University</institution>, <addr-line>Chiang Mai</addr-line>, <addr-line>50200</addr-line>, <country>Thailand</country></aff>
+      </contrib-group>
+      <author-notes>
+        <corresp id="an0001">Correspondence: Theerakorn Theerakittikul, <phone>Tel +6653936229</phone>, Email theerakorn.t@cmu.ac.th</corresp>
+      </author-notes>
+      <pub-date pub-type="epub">
+        <day>14</day>
+        <month>9</month>
+        <year>2022</year>
+      </pub-date>
+      <pub-date pub-type="collection">
+        <year>2022</year>
+      </pub-date>
+      <volume>14</volume>
+      <fpage>1641</fpage>
+      <lpage>1649</lpage>
+      <history>
+        <date date-type="received">
+          <day>31</day>
+          <month>5</month>
+          <year>2022</year>
+        </date>
+        <date date-type="accepted">
+          <day>26</day>
+          <month>8</month>
+          <year>2022</year>
+        </date>
+      </history>
+      <permissions>
+        <copyright-statement>© 2022 Inkeaw et al.</copyright-statement>
+        <copyright-year>2022</copyright-year>
+        <copyright-holder>Inkeaw et al.</copyright-holder>
+        <license>
+          <ali:license_ref xmlns:ali="http://www.niso.org/schemas/ali/1.0/" specific-use="textmining" content-type="ccbynclicense">https://creativecommons.org/licenses/by-nc/3.0/</ali:license_ref>
+          <license-p>This work is published and licensed by Dove Medical Press Limited. The full terms of this license are available at <ext-link ext-link-type="uri" xlink:href="https://www.dovepress.com/terms.php">https://www.dovepress.com/terms.php</ext-link> and incorporate the Creative Commons Attribution – Non Commercial (unported, v3.0) License (<ext-link ext-link-type="uri" xlink:href="https://creativecommons.org/licenses/by-nc/3.0/">http://creativecommons.org/licenses/by-nc/3.0/</ext-link>). By accessing the work you hereby accept the Terms. Non-commercial uses of the work are permitted without any further permission from Dove Medical Press Limited, provided the work is properly attributed. For permission for commercial use of this work, please see paragraphs 4.2 and 5 of our Terms (<ext-link ext-link-type="uri" xlink:href="https://www.dovepress.com/terms.php">https://www.dovepress.com/terms.php</ext-link>).</license-p>
+        </license>
+      </permissions>
+      <abstract>
+        <sec id="s2001">
+          <title>Purpose</title>
+          <p><citation_analysis attribute="negative">Driving while drowsy is a major cause of traffic accidents globally. Recent technologies for detection and alarm within automobiles for this condition are limited by their reliability, practicality, cost, and lack of clinical validation. In this study, we developed an early drowsiness detection algorithm and device based on the “gold standard brain biophysiological signal” and facial expression digital data.</citation_analysis></p>
+        </sec>
+        <sec id="s2002">
+          <title>Methods</title>
+          <p><citation_analysis attribute="neither">The data were obtained from 10 participants. Artificial neural networks (ANN) were adopted as the model. Composite features of facial descriptors (ie, eye aspect ratio (EAR), mouth aspect ratio (MAR), face length (FL), and face width balance (FWB)) extracted from two-second video frames were investigated.</citation_analysis></p>
+        </sec>
+        <sec id="s2003">
+          <title>Results</title>
+          <p><citation_analysis attribute="neither">The ANN combined with the EAR and MAR features had the most sensitivity (70.12%) while the ANN combined with the EAR, MAR, and FL features had the most accuracy and specificity (60.76% and 58.71%, respectively). In addition, by applying the discrete Fourier transform (DFT) to the composite features, the ANN combined with the EAR and MAR features again had the highest sensitivity (72.25%), while the ANN combined with the EAR, MAR, and FL features had the highest accuracy and specificity (60.40% and 54.10%, respectively).</citation_analysis></p>
+        </sec>
+        <sec id="s2004">
+          <title>Conclusion</title>
+          <p><citation_analysis attribute="neither">The ANN with DFT combined with the EAR, MAR, and FL offered the best performance. Our direct driver sleepiness detection system developed from the integration of biophysiological information and internal validation provides a valuable algorithm, specifically toward alertness level.</citation_analysis></p>
+        </sec>
+      </abstract>
+      <kwd-group kwd-group-type="author">
+        <title>Keywords</title>
+        <kwd>drowsy driving</kwd>
+        <kwd>driver sleepiness detection</kwd>
+      </kwd-group>
+      <funding-group>
+        <award-group>
+          <funding-source>
+<institution-wrap><institution>The Faculty of Medicine, Chiang Mai University</institution></institution-wrap>
+</funding-source>
+        </award-group>
+        <funding-statement>This research was supported by The Faculty of Medicine, Chiang Mai University, grant number 039/2563.</funding-statement>
+      </funding-group>
+      <counts>
+        <fig-count count="5"/>
+        <table-count count="7"/>
+        <ref-count count="55"/>
+        <page-count count="9"/>
+      </counts>
+    </article-meta>
+  </front>
+  <body>
+    <sec sec-type="intro" id="s0001">
+      <title>Introduction</title>
+      <p><citation_analysis attribute="neither">Driving while fatigued plays a major role in traffic accidents and results in enormous economic loss.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0001" ref-type="bibr">1</xref></citation_analysis><citation_analysis attribute="neither"> Death and injuries from traffic accidents have increased despite the proliferation of modern driving technologies and road safety strategies.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0002" ref-type="bibr">2</xref></citation_analysis><citation_analysis attribute="neither"> Thailand ranks first for traffic accident deaths among the ASEAN nations and third highest worldwide.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0003" ref-type="bibr">3</xref></citation_analysis><citation_analysis attribute="neither">,</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0004" ref-type="bibr">4</xref></citation_analysis><citation_analysis attribute="neither"> The three main causes of traffic accidents are speed violations, illegal overtaking, and human errors such as drowsy driving.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0005" ref-type="bibr">5</xref></citation_analysis><citation_analysis attribute="neither">,</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0006" ref-type="bibr">6</xref></citation_analysis></p>
+      <p><citation_analysis attribute="positive">Mitigation for “drowsy driving” related death and injury can be achieved by improving early drowsiness detection for drivers and further developing driver alert systems. Previous studies have detected drowsiness by using brainwaves measured with an electroencephalogram (EEG),</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0007" ref-type="bibr">7</xref></citation_analysis><citation_analysis attribute="neither">,</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0008" ref-type="bibr">8</xref></citation_analysis><citation_analysis attribute="neither"> heart rate monitoring,</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0009" ref-type="bibr">9</xref></citation_analysis><citation_analysis attribute="neither"> and steering grip pressure monitoring.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0010" ref-type="bibr">10</xref></citation_analysis><citation_analysis attribute="positive"> Moreover, brain–computer interfaces have been used to develop detection systems for drowsiness in laboratory simulations using brainwave monitoring with an EEG or eye movement with an electrooculogram (EOG).</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0011" ref-type="bibr">11</xref></citation_analysis><citation_analysis attribute="neither"> Additionally, a wide range of artificial intelligence (AI) techniques including artificial neural networks (ANNs) have been used to detect levels of drowsiness.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0010" ref-type="bibr">10</xref></citation_analysis><citation_analysis attribute="neither">,</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0012" ref-type="bibr">12</xref></citation_analysis><citation_analysis attribute="neither"> Researchers have also developed alert systems by measuring face and eyelid aspect ratios,</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0013" ref-type="bibr">13</xref></citation_analysis><citation_analysis attribute="neither"> eye area,</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0014" ref-type="bibr">14</xref></citation_analysis><citation_analysis attribute="neither"> vehicle speed, steering angle</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0012" ref-type="bibr">12</xref></citation_analysis><citation_analysis attribute="neither">; examining facial expressions and eye blinking ratio</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0013" ref-type="bibr">13</xref></citation_analysis><citation_analysis attribute="neither">,</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0015" ref-type="bibr">15–25</xref></citation_analysis><citation_analysis attribute="neither">; lane departures, fatigue levels and video monitoring.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0026" ref-type="bibr">26–29</xref></citation_analysis></p>
+      <p><citation_analysis attribute="neither">The sensitivity and specificity of many approaches have been studied</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0030" ref-type="bibr">30</xref></citation_analysis><citation_analysis attribute="neither">,</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0031" ref-type="bibr">31</xref></citation_analysis><citation_analysis attribute="neither"> in comparison with the lane-crossing and microsleep models with a variety of results.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0025" ref-type="bibr">25</xref></citation_analysis><citation_analysis attribute="neither">,</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0032" ref-type="bibr">32–35</xref></citation_analysis><citation_analysis attribute="neither"> Most of these methods have been tested for improving detection systems; however, variables such as hypoglycemia caused by fasting, body movements, light interference, consumption of sedatives, and having oily hair have interfered with EEG readings. Movements such as swallowing and blinking have especially caused inaccuracies.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0036" ref-type="bibr">36</xref></citation_analysis><citation_analysis attribute="neither"> Finally, although smartphones are common, installation of drowsiness detection applications require the devices to be set up for a particular individual’s eyes and facial features.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0037" ref-type="bibr">37</xref></citation_analysis><citation_analysis attribute="neither"> The feasibility of these existing detection approaches is limited by their cost and practicality.</citation_analysis></p>
+      <p><citation_analysis attribute="positive">This study aims to develop an algorithm for the detection of drowsiness using alternated-facial-expression data with microsleep-starting-point data provided by EEG, then measure the efficacy of our algorithm and improve upon it by feeding results back into our model. The change in alertness observed by facial expression is based on the eye aspect ratio and the facial-drowsiness-expression-algorithm. The advantage of this development is that the system can be used for warning drivers of potential dangers posed by their fatigue and encourage them to stop driving, fostering accident prevention.</citation_analysis></p>
+    </sec>
+    <sec id="s0002">
+      <title>Materials and Methods</title>
+      <sec id="s0002-s2001">
+        <title>The Study Workflow</title>
+        <p><citation_analysis attribute="neither">First, EEG signals and video capture data of the subject’s face were simultaneously collected. The EEG signals were then interpreted by a somnologist to identify the subject’s state of drowsiness, especially to mark the time points of the microsleep initiation. Meanwhile, the subject’s facial data and time stamps were extracted from the video for use as a classifier of the microsleep developments to identify the state of drowsiness automatically within our model. Finally, the performance of the classifier was evaluated. The details of each component in the workflow are described as follows (</citation_analysis><citation_analysis attribute="positive"><xref rid="f0001" ref-type="fig">Figure 1</xref></citation_analysis><citation_analysis attribute="neither">).</citation_analysis><citation_analysis attribute="positive"><fig position="float" id="f0001" fig-type="figure"><label>Figure 1</label><caption><p><citation_analysis attribute="neither">Workflow of the study.</citation_analysis></p></caption><graphic xlink:href="NSS-14-1641-g0001" content-type="print-only" position="float"/></fig></citation_analysis></p>
+      </sec>
+      <sec id="s0002-s2002">
+        <title>Participants</title>
+        <p><citation_analysis attribute="positive">This study included 10 healthy subjects (3 men and 7 women) who met the inclusion criteria including 1) age 18–50 years, 2) no history of seizure, 3) no hypnotic drug intake within 4 weeks of the study enrollment, and 4) no abnormal eye movement. Written informed consent was obtained from each subject before conducting the study, and the experimental procedures were carried out in compliance with the local Research Ethics Committee for research on human subjects.</citation_analysis></p>
+      </sec>
+      <sec id="s0002-s2003">
+        <title>EEG Signal Collection and Interpretation</title>
+        <p><citation_analysis attribute="neither">All subjects were screened through a clinical interview and enrollment process. They were instructed to relax on a chair while resting their chin on an individually fitted headrest, and to stare at an application for 2 hours or until the EEG showed an absence of alpha waves for 5 minutes consecutively. The room environment was intended for comfort and to isolate any external factors that may affect the EEG signals. Constant temperature (68–76°F), and light intensity, approximately 500–1000 lux, were maintained.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0038" ref-type="bibr">38</xref></citation_analysis><citation_analysis attribute="neither">,</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0039" ref-type="bibr">39</xref></citation_analysis><citation_analysis attribute="neither"> Thirteen EEG channels were configured following the International 10/20 System, including the following: two frontal brain regions (F3, F4), two central brain regions (C3, C4), two occipital brain regions (O1, O2), two reference channels (A1, A2) placed on the mastoid process, two EOG channels recording the corneo-retinal potential difference, and three electromyography (EMG) channels (</citation_analysis><citation_analysis attribute="positive"><xref rid="f0002" ref-type="fig">Figure 2</xref></citation_analysis><citation_analysis attribute="neither">).</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0040" ref-type="bibr">40–42</xref></citation_analysis><citation_analysis attribute="positive"> Each electrode had a built-in impedance of 5 kΩ, and the electrode-skin impedance was maintained below 5 kΩ by utilizing abrasive electrode paste.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0041" ref-type="bibr">41</xref></citation_analysis><citation_analysis attribute="neither">,</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0043" ref-type="bibr">43</xref></citation_analysis><citation_analysis attribute="neither">,</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0044" ref-type="bibr">44</xref></citation_analysis><citation_analysis attribute="neither"> Online EEG was acquired in real-time monitoring of 30 seconds in each epoch that enabled identification of the sleep stage, typically with the commercial software (Polysmith PSG-1100 Nihon kohden software). The software was configured with a minimum digital resolution of 12 bits per sample, sampling rates of 200–500 Hz, filter setting of 0.3 Hz by the low-frequency filter and 35 Hz by the high-frequency filter in EEG and EOG, 10 Hz by the low-frequency filter and 100 Hz by the high-frequency filter in EMG were recorded.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0045" ref-type="bibr">45</xref></citation_analysis><citation_analysis attribute="neither">,</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0046" ref-type="bibr">46</xref></citation_analysis><citation_analysis attribute="positive"><fig position="float" id="f0002" fig-type="figure"><label>Figure 2</label><caption><p><citation_analysis attribute="neither">Electroencephalography electrodes placement locations on the scalp according to the international 10–20 system, whereas the electrical signals from the white electrodes are used for defining sleep–wake stage.</citation_analysis></p></caption><graphic xlink:href="NSS-14-1641-g0002" content-type="print-only" position="float"/></fig></citation_analysis></p>
+        <p><citation_analysis attribute="negative">The sleep stages use the standard EEG waveforms criteria for interpretation which include delta (0.5 to 4Hz), theta (4 to 7Hz), alpha (8 to 12Hz), and beta (13 to 30Hz).</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0041" ref-type="bibr">41</xref></citation_analysis><citation_analysis attribute="neither">,</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0047" ref-type="bibr">47</xref></citation_analysis><citation_analysis attribute="neither">,</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0048" ref-type="bibr">48</xref></citation_analysis><citation_analysis attribute="positive"> Conventionally, sleep onset is demonstrated by the transition of EEG alpha activity (8–12 Hz) to theta activity (4–7 Hz), but the first stage of sleep needs the presence of theta and vertex waves to be more than 50% of each individual EEG epoch.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0049" ref-type="bibr">49–51</xref></citation_analysis><citation_analysis attribute="neither"> The termination of sleep or drowsiness indicated at EEG repetitiveness of alpha activity and absence of theta activity and delta activity. Theta detection during wakefulness was related to drowsiness or microsleep for active subjects with their eyes open.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0052" ref-type="bibr">52–54</xref></citation_analysis><citation_analysis attribute="neither"> In this study, a certified sleep technician recorded the specific time that the EEG showed the onset of microsleep, which was specified by the transition of EEG alpha activity to the presence of theta activity and used it to determine the onset of drowsiness (</citation_analysis><citation_analysis attribute="positive"><xref rid="f0003" ref-type="fig">Figure 3</xref></citation_analysis><citation_analysis attribute="neither">).</citation_analysis><citation_analysis attribute="positive"><fig position="float" id="f0003" fig-type="figure"><label>Figure 3</label><caption><p><citation_analysis attribute="neither">Polysomnography epochs display for 30 seconds time-range. Red arrow illustrates the specific microsleep time point.</citation_analysis></p></caption><graphic xlink:href="NSS-14-1641-g0003" content-type="print-only" position="float"/></fig></citation_analysis></p>
+      </sec>
+      <sec id="s0002-s2004">
+        <title>Video Capture Device</title>
+        <p><citation_analysis attribute="positive">The device was built with a Raspberry Pi 4, which operates as a microcontroller for video data processing and alert triggering. The camera module is connected to a camera serial interface on the Raspberry Pi using a ribbon cable. In our experiment, a video capture device was installed to frontally record the participant’s face. Both EEG signal collection and the video capture device were initiated simultaneously.</citation_analysis></p>
+      </sec>
+      <sec id="s0002-s2005">
+        <title>Facial Information Extraction</title>
+        <p><citation_analysis attribute="neither">The facial information of each subject was extracted from facial components used for feature vector construction. For each frame of the given volunteer’s face capture data, facial landmarks (illustrated in </citation_analysis><citation_analysis attribute="positive"><xref rid="f0004" ref-type="fig">Figure 4</xref></citation_analysis><citation_analysis attribute="positive">) were detected by using an ensemble of regression trees.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0055" ref-type="bibr">55</xref></citation_analysis><citation_analysis attribute="neither"> Four facial features of the frame </citation_analysis><citation_analysis attribute="positive"><inline-formula id="ilm0001"><alternatives><inline-graphic xlink:href="NSS-14-1641-e0001.jpg"/><tex-math id="Tex001">\documentclass[12pt]{minimal}
+\usepackage{wasysym}
+\usepackage[substack]{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage[mathscr]{eucal}
+\usepackage{mathrsfs}
+\DeclareFontFamily{T1}{linotext}{}
+\DeclareFontShape{T1}{linotext}{m}{n} {linotext }{}
+\DeclareSymbolFont{linotext}{T1}{linotext}{m}{n}
+\DeclareSymbolFontAlphabet{\mathLINOTEXT}{linotext}
+\begin{document}
+$$t,$$
+\end{document}</tex-math></alternatives></inline-formula></citation_analysis><citation_analysis attribute="neither"> namely eye aspect ratio (EAR), mouth aspect ratio (MAR), face length (FL), and face width balance (FWB) were then calculated as follows:
+</citation_analysis><citation_analysis attribute="positive"><disp-formula-group><disp-formula id="m0001"><label>(1)</label><alternatives><graphic xlink:href="NSS-14-1641-e0002.jpg" position="float"/><tex-math id="Tex002">\documentclass[12pt]{minimal}
+\usepackage{wasysym}
+\usepackage[substack]{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage[mathscr]{eucal}
+\usepackage{mathrsfs}
+\DeclareFontFamily{T1}{linotext}{}
+\DeclareFontShape{T1}{linotext}{m}{n} {linotext }{}
+\DeclareSymbolFont{linotext}{T1}{linotext}{m}{n}
+\DeclareSymbolFontAlphabet{\mathLINOTEXT}{linotext}
+\begin{document}
+$$EA{R_t} = 0.5\left({{{d\left({{p_{38}},{p_{42}}} \right) + d\left({{p_{39}},{p_{41}}} \right)} \over {2 \cdot d\left({{p_{37}},{p_{40}}} \right)}} + {{d\left({{p_{44}},{p_{48}}} \right) + d\left({{p_{45}},{p_{47}}} \right)} \over {2 \cdot d\left({{p_{43}},{p_{46}}} \right)}}} \right)$$
+\end{document}</tex-math></alternatives></disp-formula></disp-formula-group></citation_analysis><citation_analysis attribute="positive">
+</citation_analysis><citation_analysis attribute="positive"><disp-formula-group><disp-formula id="m0002"><label>(2)</label><alternatives><graphic xlink:href="NSS-14-1641-e0003.jpg" position="float"/><tex-math id="Tex003">\documentclass[12pt]{minimal}
+\usepackage{wasysym}
+\usepackage[substack]{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage[mathscr]{eucal}
+\usepackage{mathrsfs}
+\DeclareFontFamily{T1}{linotext}{}
+\DeclareFontShape{T1}{linotext}{m}{n} {linotext }{}
+\DeclareSymbolFont{linotext}{T1}{linotext}{m}{n}
+\DeclareSymbolFontAlphabet{\mathLINOTEXT}{linotext}
+\begin{document}
+$$MA{R_t} = {{d\left({{p_{63}},{p_{67}}} \right)} \over {d\left({{p_{61}},{p_{65}}} \right)}}$$
+\end{document}</tex-math></alternatives></disp-formula></disp-formula-group></citation_analysis><citation_analysis attribute="positive">
+</citation_analysis><citation_analysis attribute="positive"><disp-formula-group><disp-formula id="m0003"><label>(3)</label><alternatives><graphic xlink:href="NSS-14-1641-e0004.jpg" position="float"/><tex-math id="Tex004">\documentclass[12pt]{minimal}
+\usepackage{wasysym}
+\usepackage[substack]{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage[mathscr]{eucal}
+\usepackage{mathrsfs}
+\DeclareFontFamily{T1}{linotext}{}
+\DeclareFontShape{T1}{linotext}{m}{n} {linotext }{}
+\DeclareSymbolFont{linotext}{T1}{linotext}{m}{n}
+\DeclareSymbolFontAlphabet{\mathLINOTEXT}{linotext}
+\begin{document}
+$$F{L_t} = d\left({{p_9},{p_{28}}} \right)$$
+\end{document}</tex-math></alternatives></disp-formula></disp-formula-group></citation_analysis><citation_analysis attribute="positive">
+</citation_analysis><citation_analysis attribute="positive"><disp-formula-group><disp-formula id="m0004"><label>(4)</label><alternatives><graphic xlink:href="NSS-14-1641-e0005.jpg" position="float"/><tex-math id="Tex005">\documentclass[12pt]{minimal}
+\usepackage{wasysym}
+\usepackage[substack]{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage[mathscr]{eucal}
+\usepackage{mathrsfs}
+\DeclareFontFamily{T1}{linotext}{}
+\DeclareFontShape{T1}{linotext}{m}{n} {linotext }{}
+\DeclareSymbolFont{linotext}{T1}{linotext}{m}{n}
+\DeclareSymbolFontAlphabet{\mathLINOTEXT}{linotext}
+\begin{document}
+$$FW{B_t} = d\left({{p_1},{p_{28}}} \right) - d\left({{p_{17}},{p_{28}}} \right)$$
+\end{document}</tex-math></alternatives></disp-formula></disp-formula-group></citation_analysis><citation_analysis attribute="positive"><fig position="float" id="f0004" fig-type="figure"><label>Figure 4</label><caption><p><citation_analysis attribute="neither">Visualizing the 68 facial landmark coordinates on an AI-generated face image.</citation_analysis></p></caption><graphic xlink:href="NSS-14-1641-g0004" content-type="print-only" position="float"/></fig></citation_analysis></p>
+        <p><citation_analysis attribute="neither">where </citation_analysis><citation_analysis attribute="positive"><inline-formula id="ilm0002"><alternatives><inline-graphic xlink:href="NSS-14-1641-e0006.jpg"/><tex-math id="Tex006">\documentclass[12pt]{minimal}
+\usepackage{wasysym}
+\usepackage[substack]{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage[mathscr]{eucal}
+\usepackage{mathrsfs}
+\DeclareFontFamily{T1}{linotext}{}
+\DeclareFontShape{T1}{linotext}{m}{n} {linotext }{}
+\DeclareSymbolFont{linotext}{T1}{linotext}{m}{n}
+\DeclareSymbolFontAlphabet{\mathLINOTEXT}{linotext}
+\begin{document}
+$$d\left({{p_i},{p_j}} \right)$$
+\end{document}</tex-math></alternatives></inline-formula></citation_analysis><citation_analysis attribute="neither"> is the Euclidean distance between landmark points </citation_analysis><citation_analysis attribute="positive"><inline-formula id="ilm0003"><alternatives><inline-graphic xlink:href="NSS-14-1641-e0007.jpg"/><tex-math id="Tex007">\documentclass[12pt]{minimal}
+\usepackage{wasysym}
+\usepackage[substack]{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage[mathscr]{eucal}
+\usepackage{mathrsfs}
+\DeclareFontFamily{T1}{linotext}{}
+\DeclareFontShape{T1}{linotext}{m}{n} {linotext }{}
+\DeclareSymbolFont{linotext}{T1}{linotext}{m}{n}
+\DeclareSymbolFontAlphabet{\mathLINOTEXT}{linotext}
+\begin{document}
+$$i$$
+\end{document}</tex-math></alternatives></inline-formula></citation_analysis><citation_analysis attribute="neither"> and </citation_analysis><citation_analysis attribute="positive"><inline-formula id="ilm0004"><alternatives><inline-graphic xlink:href="NSS-14-1641-e0008.jpg"/><tex-math id="Tex008">\documentclass[12pt]{minimal}
+\usepackage{wasysym}
+\usepackage[substack]{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage[mathscr]{eucal}
+\usepackage{mathrsfs}
+\DeclareFontFamily{T1}{linotext}{}
+\DeclareFontShape{T1}{linotext}{m}{n} {linotext }{}
+\DeclareSymbolFont{linotext}{T1}{linotext}{m}{n}
+\DeclareSymbolFontAlphabet{\mathLINOTEXT}{linotext}
+\begin{document}
+$$j$$
+\end{document}</tex-math></alternatives></inline-formula></citation_analysis><citation_analysis attribute="neither">.</citation_analysis></p>
+        <p><citation_analysis attribute="neither">The EAR represents the behavior of blinking as it depicts the ratio of height to width of eyes. The </citation_analysis><citation_analysis attribute="positive"><inline-formula id="ilm0005"><alternatives><inline-graphic xlink:href="NSS-14-1641-e0009.jpg"/><tex-math id="Tex009">\documentclass[12pt]{minimal}
+\usepackage{wasysym}
+\usepackage[substack]{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage[mathscr]{eucal}
+\usepackage{mathrsfs}
+\DeclareFontFamily{T1}{linotext}{}
+\DeclareFontShape{T1}{linotext}{m}{n} {linotext }{}
+\DeclareSymbolFont{linotext}{T1}{linotext}{m}{n}
+\DeclareSymbolFontAlphabet{\mathLINOTEXT}{linotext}
+\begin{document}
+$$EA{R_t}$$
+\end{document}</tex-math></alternatives></inline-formula></citation_analysis><citation_analysis attribute="neither"> of zero indicates the person is blinking. The behavior of speech or yawning is captured by the MAR that presents the ratio of height to width of mouth. The </citation_analysis><citation_analysis attribute="positive"><inline-formula id="ilm0006"><alternatives><inline-graphic xlink:href="NSS-14-1641-e0010.jpg"/><tex-math id="Tex010">\documentclass[12pt]{minimal}
+\usepackage{wasysym}
+\usepackage[substack]{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage[mathscr]{eucal}
+\usepackage{mathrsfs}
+\DeclareFontFamily{T1}{linotext}{}
+\DeclareFontShape{T1}{linotext}{m}{n} {linotext }{}
+\DeclareSymbolFont{linotext}{T1}{linotext}{m}{n}
+\DeclareSymbolFontAlphabet{\mathLINOTEXT}{linotext}
+\begin{document}
+$$MA{R_t}$$
+\end{document}</tex-math></alternatives></inline-formula></citation_analysis><citation_analysis attribute="neither"> of zero implies that the person is speaking or yawning. The facial movement is encapsulated by FL and FWB. The FL depicts the length between the chin and plane of eyes. The decrease and increase of </citation_analysis><citation_analysis attribute="positive"><inline-formula id="ilm0007"><alternatives><inline-graphic xlink:href="NSS-14-1641-e0011.jpg"/><tex-math id="Tex011">\documentclass[12pt]{minimal}
+\usepackage{wasysym}
+\usepackage[substack]{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage[mathscr]{eucal}
+\usepackage{mathrsfs}
+\DeclareFontFamily{T1}{linotext}{}
+\DeclareFontShape{T1}{linotext}{m}{n} {linotext }{}
+\DeclareSymbolFont{linotext}{T1}{linotext}{m}{n}
+\DeclareSymbolFontAlphabet{\mathLINOTEXT}{linotext}
+\begin{document}
+$$F{L_t}$$
+\end{document}</tex-math></alternatives></inline-formula></citation_analysis><citation_analysis attribute="neither"> indicates that the person is nodding. Meanwhile, the FWB pictures the difference of widths of left and right sides of the face. The decrease and increase of </citation_analysis><citation_analysis attribute="positive"><inline-formula id="ilm0008"><alternatives><inline-graphic xlink:href="NSS-14-1641-e0012.jpg"/><tex-math id="Tex012">\documentclass[12pt]{minimal}
+\usepackage{wasysym}
+\usepackage[substack]{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage[mathscr]{eucal}
+\usepackage{mathrsfs}
+\DeclareFontFamily{T1}{linotext}{}
+\DeclareFontShape{T1}{linotext}{m}{n} {linotext }{}
+\DeclareSymbolFont{linotext}{T1}{linotext}{m}{n}
+\DeclareSymbolFontAlphabet{\mathLINOTEXT}{linotext}
+\begin{document}
+$$FW{B_t}$$
+\end{document}</tex-math></alternatives></inline-formula></citation_analysis><citation_analysis attribute="neither"> imply that the person is turning his face. Each frame on the input video has extracted the EAR, MAR, FL, and FWB. Consequently, for a given video, we concluded with the time series of EARs, MARs, FLs, and FWBs. For a frame </citation_analysis><citation_analysis attribute="positive"><inline-formula id="ilm0009"><alternatives><inline-graphic xlink:href="NSS-14-1641-e0013.jpg"/><tex-math id="Tex013">\documentclass[12pt]{minimal}
+\usepackage{wasysym}
+\usepackage[substack]{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage[mathscr]{eucal}
+\usepackage{mathrsfs}
+\DeclareFontFamily{T1}{linotext}{}
+\DeclareFontShape{T1}{linotext}{m}{n} {linotext }{}
+\DeclareSymbolFont{linotext}{T1}{linotext}{m}{n}
+\DeclareSymbolFontAlphabet{\mathLINOTEXT}{linotext}
+\begin{document}
+$$t$$
+\end{document}</tex-math></alternatives></inline-formula></citation_analysis><citation_analysis attribute="neither"> in the video, a feature vector was constructed by combining the facial features between </citation_analysis><citation_analysis attribute="positive"><inline-formula id="ilm0010"><alternatives><inline-graphic xlink:href="NSS-14-1641-e0014.jpg"/><tex-math id="Tex014">\documentclass[12pt]{minimal}
+\usepackage{wasysym}
+\usepackage[substack]{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage[mathscr]{eucal}
+\usepackage{mathrsfs}
+\DeclareFontFamily{T1}{linotext}{}
+\DeclareFontShape{T1}{linotext}{m}{n} {linotext }{}
+\DeclareSymbolFont{linotext}{T1}{linotext}{m}{n}
+\DeclareSymbolFontAlphabet{\mathLINOTEXT}{linotext}
+\begin{document}
+$$t - 49$$
+\end{document}</tex-math></alternatives></inline-formula></citation_analysis><citation_analysis attribute="neither"> and </citation_analysis><citation_analysis attribute="positive"><inline-formula id="ilm0011"><alternatives><inline-graphic xlink:href="NSS-14-1641-e0015.jpg"/><tex-math id="Tex015">\documentclass[12pt]{minimal}
+\usepackage{wasysym}
+\usepackage[substack]{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage[mathscr]{eucal}
+\usepackage{mathrsfs}
+\DeclareFontFamily{T1}{linotext}{}
+\DeclareFontShape{T1}{linotext}{m}{n} {linotext }{}
+\DeclareSymbolFont{linotext}{T1}{linotext}{m}{n}
+\DeclareSymbolFontAlphabet{\mathLINOTEXT}{linotext}
+\begin{document}
+$$t$$
+\end{document}</tex-math></alternatives></inline-formula></citation_analysis><citation_analysis attribute="neither">. Several combinations of facial features were investigated. We adopted the DFT to convert each facial feature to the frequency domain.</citation_analysis></p>
+      </sec>
+      <sec id="s0002-s2006">
+        <title>Drowsiness State Identification</title>
+        <p><citation_analysis attribute="neither">To determine the drowsiness state of the person at the frame </citation_analysis><citation_analysis attribute="positive"><inline-formula id="ilm0012"><alternatives><inline-graphic xlink:href="NSS-14-1641-e0016.jpg"/><tex-math id="Tex016">\documentclass[12pt]{minimal}
+\usepackage{wasysym}
+\usepackage[substack]{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage[mathscr]{eucal}
+\usepackage{mathrsfs}
+\DeclareFontFamily{T1}{linotext}{}
+\DeclareFontShape{T1}{linotext}{m}{n} {linotext }{}
+\DeclareSymbolFont{linotext}{T1}{linotext}{m}{n}
+\DeclareSymbolFontAlphabet{\mathLINOTEXT}{linotext}
+\begin{document}
+$$t$$
+\end{document}</tex-math></alternatives></inline-formula></citation_analysis><citation_analysis attribute="positive">, an ANN was adopted as the classifier. As shown in </citation_analysis><citation_analysis attribute="positive"><xref rid="f0005" ref-type="fig">Figure 5</xref></citation_analysis><citation_analysis attribute="neither">, the ANN is composed of three layers including input, hidden, and output layers. The facial features of 50 frames (2 seconds) were pressed to the ANN through the input layer. The hidden layer consists of </citation_analysis><citation_analysis attribute="positive"><inline-formula id="ilm0013"><alternatives><inline-graphic xlink:href="NSS-14-1641-e0017.jpg"/><tex-math id="Tex017">\documentclass[12pt]{minimal}
+\usepackage{wasysym}
+\usepackage[substack]{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage[mathscr]{eucal}
+\usepackage{mathrsfs}
+\DeclareFontFamily{T1}{linotext}{}
+\DeclareFontShape{T1}{linotext}{m}{n} {linotext }{}
+\DeclareSymbolFont{linotext}{T1}{linotext}{m}{n}
+\DeclareSymbolFontAlphabet{\mathLINOTEXT}{linotext}
+\begin{document}
+$$\left({{2 \over 3}I + O} \right)$$
+\end{document}</tex-math></alternatives></inline-formula></citation_analysis><citation_analysis attribute="neither"> neural, where </citation_analysis><citation_analysis attribute="positive"><inline-formula id="ilm0014"><alternatives><inline-graphic xlink:href="NSS-14-1641-e0018.jpg"/><tex-math id="Tex018">\documentclass[12pt]{minimal}
+\usepackage{wasysym}
+\usepackage[substack]{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage[mathscr]{eucal}
+\usepackage{mathrsfs}
+\DeclareFontFamily{T1}{linotext}{}
+\DeclareFontShape{T1}{linotext}{m}{n} {linotext }{}
+\DeclareSymbolFont{linotext}{T1}{linotext}{m}{n}
+\DeclareSymbolFontAlphabet{\mathLINOTEXT}{linotext}
+\begin{document}
+$$I$$
+\end{document}</tex-math></alternatives></inline-formula></citation_analysis><citation_analysis attribute="neither"> and </citation_analysis><citation_analysis attribute="positive"><inline-formula id="ilm0015"><alternatives><inline-graphic xlink:href="NSS-14-1641-e0019.jpg"/><tex-math id="Tex019">\documentclass[12pt]{minimal}
+\usepackage{wasysym}
+\usepackage[substack]{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage[mathscr]{eucal}
+\usepackage{mathrsfs}
+\DeclareFontFamily{T1}{linotext}{}
+\DeclareFontShape{T1}{linotext}{m}{n} {linotext }{}
+\DeclareSymbolFont{linotext}{T1}{linotext}{m}{n}
+\DeclareSymbolFontAlphabet{\mathLINOTEXT}{linotext}
+\begin{document}
+$$O$$
+\end{document}</tex-math></alternatives></inline-formula></citation_analysis><citation_analysis attribute="neither"> were the size of input and output layers, respectively. A sigmoid function was adopted as the activation function of the hidden layer. The output layer of the ANN has one neuron that produces a probability of drowsiness state at the frame </citation_analysis><citation_analysis attribute="positive"><italic toggle="yes">t</italic></citation_analysis><citation_analysis attribute="neither">. The value of the probability varies between 0 and 1. The value of 0 indicates the person is active, while the value of 1 indicates the person is in sleep state at the frame </citation_analysis><citation_analysis attribute="positive"><inline-formula id="ilm0016"><alternatives><inline-graphic xlink:href="NSS-14-1641-e0020.jpg"/><tex-math id="Tex020">\documentclass[12pt]{minimal}
+\usepackage{wasysym}
+\usepackage[substack]{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage[mathscr]{eucal}
+\usepackage{mathrsfs}
+\DeclareFontFamily{T1}{linotext}{}
+\DeclareFontShape{T1}{linotext}{m}{n} {linotext }{}
+\DeclareSymbolFont{linotext}{T1}{linotext}{m}{n}
+\DeclareSymbolFontAlphabet{\mathLINOTEXT}{linotext}
+\begin{document}
+$$t$$
+\end{document}</tex-math></alternatives></inline-formula></citation_analysis><citation_analysis attribute="neither">.</citation_analysis><citation_analysis attribute="positive"><fig position="float" id="f0005" fig-type="figure"><label>Figure 5</label><caption><p><citation_analysis attribute="neither">Architecture of ANN for identifying drowsiness state.</citation_analysis></p></caption><graphic xlink:href="NSS-14-1641-g0005" content-type="print-only" position="float"/></fig></citation_analysis></p>
+      </sec>
+      <sec id="s0002-s2007">
+        <title>Statistical Analysis</title>
+        <p><citation_analysis attribute="neither">To evaluate detection performance of the proposed method, 10-fold cross-validation (10-CV) was performed. The 10-CV process was repeated ten times with each of the ten subjects used exactly once as the test dataset. In each fold, the data of nine subjects were used as a training dataset while the remaining subject was used as a test dataset. The proposed method correctly identified the status of the subject at a time point </citation_analysis><citation_analysis attribute="positive"><italic toggle="yes">t</italic></citation_analysis><citation_analysis attribute="neither"> if at least one EEG signal within </citation_analysis><citation_analysis attribute="positive"><italic toggle="yes">t</italic></citation_analysis><citation_analysis attribute="neither">±3 seconds indicated the same status. The delay and early warning of drowsiness state were accepted within 6 seconds. Consequently, true positive, true negative, false positive, and false negative were defined in </citation_analysis><citation_analysis attribute="positive"><xref rid="t0001" ref-type="table">Table 1</xref></citation_analysis><citation_analysis attribute="neither">.</citation_analysis><citation_analysis attribute="positive"><table-wrap position="float" id="t0001"><label>Table 1</label><caption><p><citation_analysis attribute="neither">The Definition of True Positive (TP), True Negative (TN), False Positive (FP), and False Negative (FN) for Evaluate the Performance of Real-Time Detecting Drowsiness State at a Point of Time</citation_analysis></p></caption><table frame="hsides" rules="groups"><thead><tr><th rowspan="1" colspan="1">At Time <italic toggle="yes">t</italic></th><th rowspan="1" colspan="1">EEG within <italic toggle="yes">t</italic>±3 Indicates Drowsiness State</th><th rowspan="1" colspan="1">EEG within <italic toggle="yes">t</italic>±3 Indicates Active State</th></tr></thead><tbody><tr><td rowspan="1" colspan="1"><bold>The proposed method warns of drowsiness state</bold></td><td rowspan="1" colspan="1">TP</td><td rowspan="1" colspan="1">FP</td></tr><tr><td rowspan="1" colspan="1"><bold>The proposed method warns of active state</bold></td><td rowspan="1" colspan="1">FN</td><td rowspan="1" colspan="1">TN</td></tr></tbody></table></table-wrap></citation_analysis><citation_analysis attribute="positive">
+</citation_analysis></p>
+        <p><citation_analysis attribute="neither">The detection performance was measured in terms of accuracy, sensitivity, and specificity. Good performance of any classification is defined by high accuracy, high sensitivity, and high specificity. To select the proper model, the averaged values of the accuracy, sensitivity, and specificity of 10-CV were considered.</citation_analysis></p>
+      </sec>
+    </sec>
+    <sec id="s0003">
+      <title>Results</title>
+      <p><citation_analysis attribute="positive">Having compared the results of the ANN models with four composite features, (EAR and MAR; EAR, MAR, and FL; EAR, MAR and FWB; EAR, MAR, FL, and FWB), the ANN model with EAR and MAR features had the most sensitivity (70.12%) while the ANN model with EAR, MAR, and FL features had the most accuracy and specificity (60.76% and 58.71%, respectively). The ANN model with EAR and MAR features had the highest sensitivity (72.25%) while the ANN model with EAR, MAR, and FL features had the highest accuracy and specificity (60.40% and 54.10%, respectively) using the ANN and DFT model with four composite features (</citation_analysis><citation_analysis attribute="positive"><xref rid="t0002" ref-type="table">Table 2</xref></citation_analysis><citation_analysis attribute="neither">).</citation_analysis><citation_analysis attribute="positive"><table-wrap position="float" id="t0002"><label>Table 2</label><caption><p><citation_analysis attribute="neither">The Performance of the ANN with Various Features Compared with ANN and DFT with Various Features (in Seconds)</citation_analysis></p></caption><table frame="hsides" rules="groups"><thead><tr><th colspan="9" align="center" rowspan="1">Models (Features)</th></tr><tr><th rowspan="1" colspan="1"/><th rowspan="1" colspan="1">ANN (EAR_MAR)</th><th rowspan="1" colspan="1">ANN-DFT (EAR_MAR)</th><th rowspan="1" colspan="1">ANN (EAR_MAR_FL)</th><th rowspan="1" colspan="1">ANN-DFT (EAR_MAR_FL)</th><th rowspan="1" colspan="1">ANN (EAR_MAR_FWB)</th><th rowspan="1" colspan="1">ANN-DFT (EAR_MAR_FWB)</th><th rowspan="1" colspan="1">ANN (ALL)</th><th rowspan="1" colspan="1">ANN-DFT (ALL)</th></tr></thead><tbody><tr><td rowspan="1" colspan="1">Accuracy</td><td rowspan="1" colspan="1">55.89%</td><td rowspan="1" colspan="1">54.70%</td><td rowspan="1" colspan="1"><bold>60.76</bold>%</td><td rowspan="1" colspan="1"><bold>60.40%</bold></td><td rowspan="1" colspan="1">56.29%</td><td rowspan="1" colspan="1">53.26%</td><td rowspan="1" colspan="1">56.02%</td><td rowspan="1" colspan="1">54.94%</td></tr><tr><td rowspan="1" colspan="1">Sensitivity</td><td rowspan="1" colspan="1"><bold>70.12%</bold></td><td rowspan="1" colspan="1"><bold>72.25%</bold></td><td rowspan="1" colspan="1">60.46%</td><td rowspan="1" colspan="1">68.06%</td><td rowspan="1" colspan="1">63.17%</td><td rowspan="1" colspan="1">70.25%</td><td rowspan="1" colspan="1">63.92%</td><td rowspan="1" colspan="1">65.72%</td></tr><tr><td rowspan="1" colspan="1">Specificity</td><td rowspan="1" colspan="1">48.91%</td><td rowspan="1" colspan="1">46.49%</td><td rowspan="1" colspan="1"><bold>58.71</bold>%</td><td rowspan="1" colspan="1"><bold>54.10%</bold></td><td rowspan="1" colspan="1">51.46%</td><td rowspan="1" colspan="1">46.14%</td><td rowspan="1" colspan="1">51.10%</td><td rowspan="1" colspan="1">47.40%</td></tr></tbody></table><table-wrap-foot><fn id="tfn0001"><p><citation_analysis attribute="positive"><bold>Note</bold></citation_analysis><citation_analysis attribute="neither">: The highest accuracy, sensitivity and specificity for each model are given in bold.</citation_analysis></p></fn><fn id="tfn0002"><p><citation_analysis attribute="positive"><bold>Abbreviations</bold></citation_analysis><citation_analysis attribute="neither">: ANN, artificial neural networks; ANN-DFT, artificial neural networks with discrete Fourier transform.</citation_analysis></p></fn></table-wrap-foot></table-wrap></citation_analysis><citation_analysis attribute="positive">
+</citation_analysis></p>
+      <p><citation_analysis attribute="neither">The ANN model with EAR and MAR had the highest sensitivity (64.97%) while the ANN model with EAR, MAR, and FL features had the highest accuracy and specificity (63.15% and 62.67%, respectively) for results of the ANN models with four composite features. The features with the highest sensitivity, accuracy, and specificity were the ANN model for results of the ANN and DFT models with four composite features (</citation_analysis><citation_analysis attribute="positive"><xref rid="t0003" ref-type="table">Table 3</xref></citation_analysis><citation_analysis attribute="neither">).</citation_analysis><citation_analysis attribute="positive"><table-wrap position="float" id="t0003"><label>Table 3</label><caption><p><citation_analysis attribute="neither">The Performance of the ANN with Various Features Compared with ANN and DFT with Various Features (in Frame)</citation_analysis></p></caption><table frame="hsides" rules="groups"><thead><tr><th colspan="9" align="center" rowspan="1">Models (Features)</th></tr><tr><th rowspan="1" colspan="1"/><th rowspan="1" colspan="1">ANN (EAR_MAR)</th><th rowspan="1" colspan="1">ANN-DFT (EAR_MAR)</th><th rowspan="1" colspan="1">ANN (EAR_MAR_FL)</th><th rowspan="1" colspan="1">ANN-DFT (EAR_MAR_FL)</th><th rowspan="1" colspan="1">ANN (EAR_MAR_FWB)</th><th rowspan="1" colspan="1">ANN-DFT (EAR_MAR_FWB)</th><th rowspan="1" colspan="1">ANN (ALL)</th><th rowspan="1" colspan="1">ANN-DFT (ALL)</th></tr></thead><tbody><tr><td rowspan="1" colspan="1">Accuracy</td><td rowspan="1" colspan="1">58.99%</td><td rowspan="1" colspan="1">58.21%</td><td rowspan="1" colspan="1"><bold>63.15%</bold></td><td rowspan="1" colspan="1"><bold>63.35%</bold></td><td rowspan="1" colspan="1">58.67%</td><td rowspan="1" colspan="1">55.95%</td><td rowspan="1" colspan="1">58.24%</td><td rowspan="1" colspan="1">57.00%</td></tr><tr><td rowspan="1" colspan="1">Sensitivity</td><td rowspan="1" colspan="1"><bold>64.97%</bold></td><td rowspan="1" colspan="1"><bold>67.20</bold>%</td><td rowspan="1" colspan="1">57.16%</td><td rowspan="1" colspan="1">60.91%</td><td rowspan="1" colspan="1">59.76%</td><td rowspan="1" colspan="1">65.73%</td><td rowspan="1" colspan="1">61.15%</td><td rowspan="1" colspan="1">62.51%</td></tr><tr><td rowspan="1" colspan="1">Specificity</td><td rowspan="1" colspan="1">54.82%</td><td rowspan="1" colspan="1">52.66%</td><td rowspan="1" colspan="1"><bold>62.67</bold>%</td><td rowspan="1" colspan="1"><bold>60.89%</bold></td><td rowspan="1" colspan="1">55.73%</td><td rowspan="1" colspan="1">51.13%</td><td rowspan="1" colspan="1">55.08%</td><td rowspan="1" colspan="1">51.49%</td></tr></tbody></table><table-wrap-foot><fn id="tfn0003"><p><citation_analysis attribute="positive"><bold>Note</bold></citation_analysis><citation_analysis attribute="neither">: The highest accuracy, sensitivity and specificity for each model are given in bold.</citation_analysis></p></fn><fn id="tfn0004"><p><citation_analysis attribute="positive"><bold>Abbreviations</bold></citation_analysis><citation_analysis attribute="neither">: ANN, artificial neural networks; ANN-DFT, artificial neural networks with discrete Fourier transform.</citation_analysis></p></fn></table-wrap-foot></table-wrap></citation_analysis><citation_analysis attribute="positive">
+</citation_analysis></p>
+    </sec>
+    <sec id="s0004">
+      <title>Discussion</title>
+      <p><citation_analysis attribute="neither">Fatigue in drivers can be observed by both direct driver inspection and indirectly, however, sleepy drivers indicate fatigue in different ways and can be affected by various driving conditions and environments. Importantly, driving behaviors detected indirectly are pre-specified differently by each automobile manufacturer which are lacking in clinical validation.</citation_analysis></p>
+      <p><citation_analysis attribute="positive">The inspection of biophysiological information may focus specifically on alertness levels such as our study and will provide the opportunity to develop a portable device, which can be used in more than one vehicle. During the development process, our system learned the dynamic changes of pre-specified facial points and areas in the form of qualitative and quantitative data for interpretation. The guidance from the EEG gave the specific time-point of microsleep initiation to the system learning. Finally, the accuracy of the system was validated back with the EEG again.</citation_analysis></p>
+    </sec>
+    <sec id="s0005">
+      <title>Limitations</title>
+      <p><citation_analysis attribute="neither">Limitations of our algorithm include the need for the preset position (the distance between the camera and the face of the subject) and the inability of users to wear sunglasses while driving. Further validation for real-world variables is needed.</citation_analysis></p>
+    </sec>
+    <sec id="s0006">
+      <title>Conclusion</title>
+      <p><citation_analysis attribute="neither">The ANN with DFT combined with the EAR, MAR, and FL offered the best performance. Our direct driver sleepiness detection system developed from the integration of biophysiological information and internal validation provide a valuable algorithm, specifically toward alertness level.</citation_analysis></p>
+    </sec>
+  </body>
+  <back>
+    <ack>
+      <title>Acknowledgments</title>
+      <p><citation_analysis attribute="neither">We are incredibly grateful for all participants in this study. In addition, we would like to thank Chiang Mai University for partial support.</citation_analysis></p>
+    </ack>
+    <sec id="s0007">
+      <title>Data Sharing Statement</title>
+      <p><citation_analysis attribute="positive">The data that support the findings of this study are available from the corresponding author on reasonable request.</citation_analysis></p>
+    </sec>
+    <sec id="s0008">
+      <title>Ethical Approval and Participation Consent</title>
+      <p><citation_analysis attribute="neither">This study received approval from the Research Ethics Committees, Faculty of Medicine, Chiang Mai University (REC no. 386/2019) and followed to GCPs and relevant international ethical guidelines, applicable laws, and regulations including Declaration of Helsinki. All participants gave consent after being informed about the aim of the study as well as their right to refuse to participate.</citation_analysis></p>
+    </sec>
+    <sec id="s0009">
+      <title>Author Contributions</title>
+      <p><citation_analysis attribute="positive">All authors made a significant contribution to the work reported, whether that is in the conception, study design, execution, acquisition of data, analysis and interpretation, or in all these areas; took part in drafting, revising or critically reviewing the article; gave final approval of the version to be published; have agreed on the journal to which the article has been submitted; and agree to be accountable for all aspects of the work.</citation_analysis></p>
+    </sec>
+    <sec sec-type="COI-statement" id="s0010">
+      <title>Disclosure</title>
+      <p><citation_analysis attribute="neither">The authors report no conflicts of interest in this work.</citation_analysis></p>
+    </sec>
+    <ref-list>
+      <title>References</title>
+      <ref id="cit0001">
+        <label>1.</label>
+        <mixed-citation publication-type="newspaper"><collab>World Health Organization</collab>. <article-title>Review of Thailand’s status against voluntary global targets for road safety risk factors and service delivery mechanism</article-title>; <year>2020</year>.</mixed-citation>
+      </ref>
+      <ref id="cit0002">
+        <label>2.</label>
+        <mixed-citation publication-type="webpage"><collab>Central Information Technology Center</collab>. <article-title>Road crash case statistics</article-title>. <comment>Available from:</comment>
+<ext-link xlink:href="http://www.pitc.police.go.th//2014" ext-link-type="uri">www.pitc.police.go.th//2014</ext-link>. <date-in-citation>Accessed <month>October</month>
+<day>19</day>, 2014</date-in-citation>.</mixed-citation>
+      </ref>
+      <ref id="cit0003">
+        <label>3.</label>
+        <mixed-citation publication-type="webpage"><collab>World Health Organization</collab>. <article-title>Global status report on road safety 2015</article-title>; <year>2015</year>. <comment>Available from:</comment>
+<ext-link xlink:href="http://www.who.int/violence_injury_prevention/road_safety_status/20.15/en/" ext-link-type="uri">http://www.who.int/violence_injury_prevention/road_safety_status/20.15/en/</ext-link>
+<date-in-citation>Accessed <month>September</month>
+<day>7</day>, 2022</date-in-citation>.</mixed-citation>
+      </ref>
+      <ref id="cit0004">
+        <label>4.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Supalaknari</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Hintao</surname>
+<given-names>K</given-names></string-name>. <article-title>Factors affecting the competency of road crash investigation in the context of Thai police</article-title>. <source><italic toggle="yes">Humanit Arts Soc Sci Stud</italic></source>. <year>2018</year>;<volume>18</volume>(<issue>2</issue>):<fpage>429</fpage>–<lpage>442</lpage>.</mixed-citation>
+      </ref>
+      <ref id="cit0005">
+        <label>5.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Klinjun</surname>
+<given-names>N</given-names></string-name>, <string-name><surname>Kelly</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Praditsathaporn</surname>
+<given-names>C</given-names></string-name>, <string-name><surname>Petsirasan</surname>
+<given-names>R</given-names></string-name>. <article-title>Identification of factors affecting road traffic injuries incidence and severity in Southern Thailand based on accident investigation reports</article-title>. <source><italic toggle="yes">Sustainability</italic></source>. <year>2021</year>;<volume>13</volume>(<issue>22</issue>):<fpage>12467</fpage>. doi:<pub-id pub-id-type="doi">10.3390/su132212467</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0006">
+        <label>6.</label>
+        <mixed-citation publication-type="webpage"><string-name><surname>Sinlapabutra</surname>
+<given-names>T</given-names></string-name>. <article-title>Current Situation of Road Safety in Thailand</article-title>. <comment>Available from:</comment>
+<ext-link xlink:href="https://www.unescap.org/sites/default/files/2.23.Thailand-1.pdf" ext-link-type="uri">https://www.unescap.org/sites/default/files/2.23.Thailand-1.pdf</ext-link>. <date-in-citation>Accessed <month>September</month>
+<day>7</day>, 2022</date-in-citation>.</mixed-citation>
+      </ref>
+      <ref id="cit0007">
+        <label>7.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Lopez de la</surname>
+<given-names>OJ</given-names></string-name>, <string-name><surname>Ibáñez</surname>
+<given-names>NR</given-names></string-name>, <string-name><surname>González</surname>
+<given-names>MN</given-names></string-name>, et al. <article-title>Development of a system to test somnolence detectors with drowsy drivers</article-title>. <source><italic toggle="yes">Procedia Soc Behav Sci</italic></source>. <year>2012</year>;<volume>48</volume>:<fpage>2058</fpage>–<lpage>2070</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.sbspro.2012.06.1179</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0008">
+        <label>8.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Faber</surname>
+<given-names>J</given-names></string-name>. <article-title>Detection of different levels of vigilance by EEG pseudo spectra</article-title>. <source><italic toggle="yes">Neural Netw World</italic></source>. <year>2004</year>;<volume>14</volume>:<fpage>285</fpage>–<lpage>290</lpage>.</mixed-citation>
+      </ref>
+      <ref id="cit0009">
+        <label>9.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Sun</surname>
+<given-names>Y</given-names></string-name>, <string-name><surname>Yu</surname>
+<given-names>XB</given-names></string-name>. <article-title>An innovative nonintrusive driver assistance system for vital signal monitoring</article-title>. <source><italic toggle="yes">IEEE J Biomed Health Inform</italic></source>. <year>2014</year>;<volume>18</volume>(<issue>6</issue>):<fpage>1932</fpage>–<lpage>1939</lpage>. doi:<pub-id pub-id-type="doi">10.1109/jbhi.2014.2305403</pub-id><pub-id pub-id-type="pmid">25375690</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0010">
+        <label>10.</label>
+        <mixed-citation publication-type="confproc"><string-name><surname>Chieh</surname>
+<given-names>TC</given-names></string-name>, <string-name><surname>Mustafa</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Hussain</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Zahedi</surname>
+<given-names>E</given-names></string-name>, <string-name><surname>Majlis</surname>
+<given-names>B</given-names></string-name>. <article-title>Driver fatigue detection using steering grip force</article-title>. <conf-name>Proceedings Student Conference on Research and Development, 2003 SCORED 2003</conf-name>; <year>2003</year>: <fpage>45</fpage>–<lpage>48</lpage>.</mixed-citation>
+      </ref>
+      <ref id="cit0011">
+        <label>11.</label>
+        <mixed-citation publication-type="newspaper"><string-name><surname>Arnin</surname>
+<given-names>J</given-names></string-name>, <string-name><surname>Anopas</surname>
+<given-names>D</given-names></string-name>, <string-name><surname>Horapong</surname>
+<given-names>M</given-names></string-name>, et al. <article-title>Wireless-based portable EEG-EOG monitoring for real time drowsiness detection</article-title>. <source>IEEE</source>; <year>2013</year>:<fpage>4977</fpage>–<lpage>4980</lpage>.</mixed-citation>
+      </ref>
+      <ref id="cit0012">
+        <label>12.</label>
+        <mixed-citation publication-type="newspaper"><string-name><surname>Vasudevan</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Anudeep</surname>
+<given-names>J</given-names></string-name>, <string-name><surname>Kowshik</surname>
+<given-names>G</given-names></string-name>, <string-name><surname>Nair</surname>
+<given-names>P</given-names></string-name>. <article-title>An AI approach for real-time driver drowsiness detection—A novel attempt with high accuracy</article-title>; <year>2021</year>:<fpage>305</fpage>–<lpage>316</lpage>.</mixed-citation>
+      </ref>
+      <ref id="cit0013">
+        <label>13.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Sahayadhas</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Sundaraj</surname>
+<given-names>K</given-names></string-name>, <string-name><surname>Murugappan</surname>
+<given-names>M</given-names></string-name>. <article-title>Detecting driver drowsiness based on sensors: a review</article-title>. <source><italic toggle="yes">Sensors</italic></source>. <year>2012</year>;<volume>12</volume>(<issue>12</issue>):<fpage>16937</fpage>–<lpage>16953</lpage>. doi:<pub-id pub-id-type="doi">10.3390/s121216937</pub-id><pub-id pub-id-type="pmid">23223151</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0014">
+        <label>14.</label>
+        <mixed-citation publication-type="confproc"><string-name><surname>Devi</surname>
+<given-names>MS</given-names></string-name>, <string-name><surname>Bajaj</surname>
+<given-names>PR</given-names></string-name>. <article-title>Driver fatigue detection based on eye tracking</article-title>. <conf-name>Presented at: Proceedings of the 2008 First International Conference on Emerging Trends in Engineering and Technology</conf-name>; <year>2008</year>. doi:<pub-id pub-id-type="doi">10.1109/ICETET.2008.17</pub-id>.</mixed-citation>
+      </ref>
+      <ref id="cit0015">
+        <label>15.</label>
+        <mixed-citation publication-type="book"><string-name><surname>Kircher</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Uddman</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Sandin</surname>
+<given-names>J</given-names></string-name>. <part-title>Vehicle control and drowsiness</part-title>. In: <source><italic toggle="yes">VTI Meddelande 922A</italic></source>; <year>2002</year>.</mixed-citation>
+      </ref>
+      <ref id="cit0016">
+        <label>16.</label>
+        <mixed-citation publication-type="confproc"><string-name><surname>Vural</surname>
+<given-names>E</given-names></string-name>, <string-name><surname>Cetin</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Ercil</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Littlewort</surname>
+<given-names>G</given-names></string-name>, <string-name><surname>Bartlett</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Movellan</surname>
+<given-names>J</given-names></string-name>. <article-title>Drowsy driver detection through facial movement analysis</article-title>. <conf-name>International Workshop on Human-Computer Interaction</conf-name>; <year>2007</year>:<fpage>6</fpage>–<lpage>18</lpage>.</mixed-citation>
+      </ref>
+      <ref id="cit0017">
+        <label>17.</label>
+        <mixed-citation publication-type="confproc"><string-name><surname>Danisman</surname>
+<given-names>T</given-names></string-name>, <string-name><surname>Bilasco</surname>
+<given-names>I</given-names></string-name>, <string-name><surname>Djeraba</surname>
+<given-names>C</given-names></string-name>, <string-name><surname>Ihaddadene</surname>
+<given-names>N</given-names></string-name>. <article-title>Drowsy driver detection system using eye blink patterns</article-title>. <conf-name>Presented at: International Conference on Machine and Web Intelligence</conf-name>; <year>2010</year>.</mixed-citation>
+      </ref>
+      <ref id="cit0018">
+        <label>18.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Biswal</surname>
+<given-names>AK</given-names></string-name>, <string-name><surname>Singh</surname>
+<given-names>D</given-names></string-name>, <string-name><surname>Pattanayak</surname>
+<given-names>BK</given-names></string-name>, <string-name><surname>Samanta</surname>
+<given-names>D</given-names></string-name>, <string-name><surname>Yang</surname>
+<given-names>M-H</given-names></string-name>. <article-title>IoT-based smart alert system for drowsy driver detection</article-title>. <source><italic toggle="yes">Wirel Commun Mob Comput</italic></source>. <year>2021</year>;<volume>2021</volume>:<fpage>6627217</fpage>. doi:<pub-id pub-id-type="doi">10.1155/2021/6627217</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0019">
+        <label>19.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>van der Wall</surname>
+<given-names>H</given-names></string-name>, <string-name><surname>Doll</surname>
+<given-names>R</given-names></string-name>, <string-name><surname>van Westen</surname>
+<given-names>G</given-names></string-name>, et al. <article-title>Using machine learning techniques to characterize sleep-deprived driving behavior</article-title>. <source><italic toggle="yes">Traffic Inj Prev</italic></source>. <year>2021</year>;<volume>22</volume>(<issue>5</issue>):<fpage>366</fpage>–<lpage>371</lpage>. doi:<pub-id pub-id-type="doi">10.1080/15389588.2021.1914837</pub-id><pub-id pub-id-type="pmid">33960857</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0020">
+        <label>20.</label>
+        <mixed-citation publication-type="newspaper"><string-name><surname>Mehta</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Dadhich</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Gumber</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Jadhav Bhatt</surname>
+<given-names>A</given-names></string-name>. <article-title>Real-time driver drowsiness detection system using eye aspect ratio and eye closure ratio</article-title>; <year>2019</year>.</mixed-citation>
+      </ref>
+      <ref id="cit0021">
+        <label>21.</label>
+        <mixed-citation publication-type="newspaper"><string-name><surname>Dua</surname>
+<given-names>HK</given-names></string-name>, <string-name><surname>Goel</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Sharma</surname>
+<given-names>V</given-names></string-name>. <article-title>Drowsiness detection and alert system</article-title>; <year>2018</year>:<fpage>621</fpage>–<lpage>624</lpage>.</mixed-citation>
+      </ref>
+      <ref id="cit0022">
+        <label>22.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Jacobé de Naurois</surname>
+<given-names>C</given-names></string-name>, <string-name><surname>Bourdin</surname>
+<given-names>C</given-names></string-name>, <string-name><surname>Bougard</surname>
+<given-names>C</given-names></string-name>, <string-name><surname>Vercher</surname>
+<given-names>J-L</given-names></string-name>. <article-title>Adapting artificial neural networks to a specific driver enhances detection and prediction of drowsiness</article-title>. <source><italic toggle="yes">Accid Anal Prev</italic></source>. <year>2018</year>;<volume>121</volume>:<fpage>118</fpage>–<lpage>128</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.aap.2018.08.017</pub-id><pub-id pub-id-type="pmid">30243040</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0023">
+        <label>23.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Wang</surname>
+<given-names>X</given-names></string-name>, <string-name><surname>Xu</surname>
+<given-names>C</given-names></string-name>. <article-title>Driver drowsiness detection based on non-intrusive metrics considering individual specifics</article-title>. <source><italic toggle="yes">Accid Anal Prev</italic></source>. <year>2016</year>;<volume>95</volume>:<fpage>350</fpage>–<lpage>357</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.aap.2015.09.002</pub-id><pub-id pub-id-type="pmid">26433567</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0024">
+        <label>24.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Jacobé de Naurois</surname>
+<given-names>C</given-names></string-name>, <string-name><surname>Bourdin</surname>
+<given-names>C</given-names></string-name>, <string-name><surname>Stratulat</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Diaz</surname>
+<given-names>E</given-names></string-name>, <string-name><surname>Vercher</surname>
+<given-names>J-L</given-names></string-name>. <article-title>Detection and prediction of driver drowsiness using artificial neural network models</article-title>. <source><italic toggle="yes">Accid Anal Prev</italic></source>. <year>2019</year>;<volume>126</volume>:<fpage>95</fpage>–<lpage>104</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.aap.2017.11.038</pub-id><pub-id pub-id-type="pmid">29203032</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0025">
+        <label>25.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Liang</surname>
+<given-names>Y</given-names></string-name>, <string-name><surname>Horrey</surname>
+<given-names>WJ</given-names></string-name>, <string-name><surname>Howard</surname>
+<given-names>ME</given-names></string-name>, et al. <article-title>Prediction of drowsiness events in night shift workers during morning driving</article-title>. <source><italic toggle="yes">Accid Anal Prev</italic></source>. <year>2019</year>;<volume>126</volume>:<fpage>105</fpage>–<lpage>114</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.aap.2017.11.004</pub-id><pub-id pub-id-type="pmid">29126462</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0026">
+        <label>26.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Forsman</surname>
+<given-names>PM</given-names></string-name>, <string-name><surname>Vila</surname>
+<given-names>BJ</given-names></string-name>, <string-name><surname>Short</surname>
+<given-names>RA</given-names></string-name>, <string-name><surname>Mott</surname>
+<given-names>CG</given-names></string-name>, <string-name><surname>Van Dongen</surname>
+<given-names>HP</given-names></string-name>. <article-title>Efficient driver drowsiness detection at moderate levels of drowsiness</article-title>. <source><italic toggle="yes">Accid Anal Prev</italic></source>. <year>2013</year>;<volume>50</volume>:<fpage>341</fpage>–<lpage>350</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.aap.2012.05.005</pub-id><pub-id pub-id-type="pmid">22647383</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0027">
+        <label>27.</label>
+        <mixed-citation publication-type="newspaper"><string-name><surname>Grace</surname>
+<given-names>R</given-names></string-name>, <string-name><surname>Steward</surname>
+<given-names>S</given-names></string-name>. <article-title>Drowsy driver monitor and warning system</article-title>. <source>Iowa Research Online</source>; <year>2001</year>:<fpage>64</fpage>–<lpage>69</lpage>.</mixed-citation>
+      </ref>
+      <ref id="cit0028">
+        <label>28.</label>
+        <mixed-citation publication-type="confproc"><string-name><surname>Grace</surname>
+<given-names>R</given-names></string-name>, <string-name><surname>Byrne</surname>
+<given-names>VE</given-names></string-name>, <string-name><surname>Bierman</surname>
+<given-names>D</given-names></string-name>, et al. <article-title>A drowsy driver detection system for heavy vehicles</article-title>. <conf-name>17th DASC AIAA/IEEE/SAE Digital Avionics Systems Conference Proceedings (Cat No98CH36267)</conf-name>; <volume>2</volume>, <year>1998</year>:<page-range>I36/1–I36/8</page-range>.</mixed-citation>
+      </ref>
+      <ref id="cit0029">
+        <label>29.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Moller</surname>
+<given-names>HJ</given-names></string-name>, <string-name><surname>Kayumov</surname>
+<given-names>L</given-names></string-name>, <string-name><surname>Bulmash</surname>
+<given-names>EL</given-names></string-name>, <string-name><surname>Nhan</surname>
+<given-names>J</given-names></string-name>, <string-name><surname>Shapiro</surname>
+<given-names>CM</given-names></string-name>. <article-title>Simulator performance, microsleep episodes, and subjective sleepiness: normative data using convergent methodologies to assess driver drowsiness</article-title>. <source><italic toggle="yes">J Psychosom Res</italic></source>. <year>2006</year>;<volume>61</volume>(<issue>3</issue>):<fpage>335</fpage>–<lpage>342</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.jpsychores.2006.04.007</pub-id><pub-id pub-id-type="pmid">16938511</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0030">
+        <label>30.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Sparrow</surname>
+<given-names>AR</given-names></string-name>, <string-name><surname>LaJambe</surname>
+<given-names>CM</given-names></string-name>, <string-name><surname>Van Dongen</surname>
+<given-names>HPA</given-names></string-name>. <article-title>Drowsiness measures for commercial motor vehicle operations</article-title>. <source><italic toggle="yes">Accid Anal Prev</italic></source>. <year>2019</year>;<volume>126</volume>:<fpage>146</fpage>–<lpage>159</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.aap.2018.04.020</pub-id><pub-id pub-id-type="pmid">29704947</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0031">
+        <label>31.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Watling</surname>
+<given-names>CN</given-names></string-name>, <string-name><surname>Mahmudul Hasan</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Larue</surname>
+<given-names>GS</given-names></string-name>. <article-title>Sensitivity and specificity of the driver sleepiness detection methods using physiological signals: a systematic review</article-title>. <source><italic toggle="yes">Accid Anal Prev</italic></source>. <year>2021</year>;<volume>150</volume>:<fpage>105900</fpage>. doi:<pub-id pub-id-type="doi">10.1016/j.aap.2020.105900</pub-id><pub-id pub-id-type="pmid">33285449</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0032">
+        <label>32.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Barua</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Ahmed</surname>
+<given-names>MU</given-names></string-name>, <string-name><surname>Ahlström</surname>
+<given-names>C</given-names></string-name>, <string-name><surname>Begum</surname>
+<given-names>S</given-names></string-name>. <article-title>Automatic driver sleepiness detection using EEG, EOG and contextual information</article-title>. <source><italic toggle="yes">Expert Syst Appl</italic></source>. <year>2019</year>;<volume>115</volume>:<fpage>121</fpage>–<lpage>135</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.eswa.2018.07.054</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0033">
+        <label>33.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Guo</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Li</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Wang</surname>
+<given-names>L</given-names></string-name>, <string-name><surname>Chai</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Chen</surname>
+<given-names>F</given-names></string-name>, <string-name><surname>Wei</surname>
+<given-names>Y</given-names></string-name>. <article-title>Research on the relationship between reaction ability and mental state for online assessment of driving fatigue</article-title>. <source><italic toggle="yes">Int J Environ Res Public Health</italic></source>. <year>2016</year>;<volume>13</volume>(<issue>12</issue>):<fpage>1174</fpage>. doi:<pub-id pub-id-type="doi">10.3390/ijerph13121174</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0034">
+        <label>34.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Mårtensson</surname>
+<given-names>H</given-names></string-name>, <string-name><surname>Keelan</surname>
+<given-names>O</given-names></string-name>, <string-name><surname>Ahlström</surname>
+<given-names>C</given-names></string-name>. <article-title>Driver sleepiness classification based on physiological data and driving performance from real road driving</article-title>. <source><italic toggle="yes">IEEE Trans Intell Transp Syst</italic></source>. <year>2019</year>;<volume>20</volume>(<issue>2</issue>):<fpage>421</fpage>–<lpage>430</lpage>. doi:<pub-id pub-id-type="doi">10.1109/TITS.2018.2814207</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0035">
+        <label>35.</label>
+        <mixed-citation publication-type="newspaper"><string-name><surname>Bundele</surname>
+<given-names>MM</given-names></string-name>, <string-name><surname>Banerjee</surname>
+<given-names>R</given-names></string-name>. <article-title>ROC analysis of a fatigue classifier for vehicular drivers</article-title>; <year>2010</year>:<fpage>296</fpage>–<lpage>301</lpage>.</mixed-citation>
+      </ref>
+      <ref id="cit0036">
+        <label>36.</label>
+        <mixed-citation publication-type="book"><string-name><surname>Hopkins</surname>
+<given-names>J</given-names></string-name>. <article-title>Electroencephalogram (EEG)</article-title>. <publisher-name>The Johns Hopkins University</publisher-name>. <comment>Available from:</comment>
+<ext-link xlink:href="https://www.hopkinsmedicine.org/health/treatment-tests-and-therapies/electroencephalogram-eeg" ext-link-type="uri">https://www.hopkinsmedicine.org/health/treatment-tests-and-therapies/electroencephalogram-eeg</ext-link>. <date-in-citation>Accessed <month>July</month>
+<day>11</day>, 2021</date-in-citation>.</mixed-citation>
+      </ref>
+      <ref id="cit0037">
+        <label>37.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Mohammad</surname>
+<given-names>F</given-names></string-name>, <string-name><surname>Mahadas</surname>
+<given-names>K</given-names></string-name>, <string-name><surname>Hung</surname>
+<given-names>GK</given-names></string-name>. <article-title>Drowsy driver mobile application: development of a novel scleral-area detection method</article-title>. <source><italic toggle="yes">Comput Biol Med</italic></source>. <year>2017</year>;<volume>89</volume>:<fpage>76</fpage>–<lpage>83</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.compbiomed.2017.07.027</pub-id><pub-id pub-id-type="pmid">28787648</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0038">
+        <label>38.</label>
+        <mixed-citation publication-type="other"><string-name><surname>Light</surname>
+<given-names>and lighting</given-names></string-name>, Lighting of work places - Indoor work places. BS EN. <year>2011</year>;12464-1. <ext-link xlink:href="https://knowledge.bsigroup.com/products/light-and-lighting-lighting-of-work-places-indoor-work-places/standard" ext-link-type="uri">https://knowledge.bsigroup.com/products/light-and-lighting-lighting-of-work-places-indoor-work-places/standard</ext-link>.</mixed-citation>
+      </ref>
+      <ref id="cit0039">
+        <label>39.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Kruisselbrink</surname>
+<given-names>T</given-names></string-name>, <string-name><surname>Dangol</surname>
+<given-names>R</given-names></string-name>, <string-name><surname>Rosemann</surname>
+<given-names>A</given-names></string-name>. <article-title>Photometric measurements of lighting quality: an overview</article-title>. <source><italic toggle="yes">Build Environ</italic></source>. <year>2018</year>;<volume>138</volume>:<fpage>42</fpage>–<lpage>52</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.buildenv.2018.04.028</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0040">
+        <label>40.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Jasper</surname>
+<given-names>H</given-names></string-name>. <article-title>Report of the committee on methods of clinical examination in electroencephalography</article-title>. <source><italic toggle="yes">Electroencephalogr Clin Neurophysiol</italic></source>. <year>1958</year>;<volume>10</volume>:<fpage>370</fpage>–<lpage>375</lpage>.</mixed-citation>
+      </ref>
+      <ref id="cit0041">
+        <label>41.</label>
+        <mixed-citation publication-type="journal"><string-name><given-names>IG</given-names>
+<surname>Campbell</surname></string-name>. <article-title>EEG recording and analysis for sleep research</article-title>. <source><italic toggle="yes">Curr Protoc Neurosci</italic></source>. <year>2009</year>. doi:<pub-id pub-id-type="doi">10.1002/0471142301</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0042">
+        <label>42.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Munday</surname>
+<given-names>JA</given-names></string-name>. <article-title>Instrumentation and electrode placement</article-title>. <source><italic toggle="yes">Respir Care Clin N Am</italic></source>. <year>2005</year>;<volume>11</volume>(<issue>4</issue>):<fpage>605</fpage>–<lpage>615</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.rcc.2005.08.004</pub-id><pub-id pub-id-type="pmid">16303592</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0043">
+        <label>43.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Kappenman</surname>
+<given-names>ES</given-names></string-name>, <string-name><surname>Luck</surname>
+<given-names>SJ</given-names></string-name>. <article-title>The effects of electrode impedance on data quality and statistical significance in ERP recordings</article-title>. <source><italic toggle="yes">Psychophysiology</italic></source>. <year>2010</year>;<volume>47</volume>(<issue>5</issue>):<fpage>888</fpage>–<lpage>904</lpage>. doi:<pub-id pub-id-type="doi">10.1111/j.1469-8986.2010.01009.x</pub-id><pub-id pub-id-type="pmid">20374541</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0044">
+        <label>44.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Górecka</surname>
+<given-names>J</given-names></string-name>, <string-name><surname>Makiewicz</surname>
+<given-names>P</given-names></string-name>. <article-title>The dependence of electrode impedance on the number of performed EEG examinations</article-title>. <source><italic toggle="yes">Sensors</italic></source>. <year>2019</year>;<volume>19</volume>(<issue>11</issue>):<fpage>2608</fpage>. doi:<pub-id pub-id-type="doi">10.3390/s19112608</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0045">
+        <label>45.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Pipberger</surname>
+<given-names>HV</given-names></string-name>. <article-title>Recommendations for standardization of leads, and of specifications for instruments in electrocardiography and vectorcardiography.Report of the Committee on Electrocardiography</article-title>. <source><italic toggle="yes">Am Heart Assoc</italic></source>. <year>1975</year>;<volume>52</volume>:<fpage>11</fpage>–<lpage>31</lpage>.</mixed-citation>
+      </ref>
+      <ref id="cit0046">
+        <label>46.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Kreuzer</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Polta</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Gapp</surname>
+<given-names>J</given-names></string-name>, <string-name><surname>Schuler</surname>
+<given-names>C</given-names></string-name>, <string-name><surname>Kochs</surname>
+<given-names>EF</given-names></string-name>, <string-name><surname>Fenzl</surname>
+<given-names>T</given-names></string-name>. <article-title>Sleep scoring made easy—Semi-automated sleep analysis software and manual rescoring tools for basic sleep research in mice</article-title>. <source><italic toggle="yes">MethodsX</italic></source>. <year>2015</year>;<volume>2</volume>:<fpage>232</fpage>–<lpage>240</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.mex.2015.04.005</pub-id><pub-id pub-id-type="pmid">26150993</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0047">
+        <label>47.</label>
+        <mixed-citation publication-type="book"><string-name><given-names>CS</given-names>
+<surname>Nayak</surname></string-name>, <string-name><given-names>AC</given-names>
+<surname>Anilkumar</surname></string-name>. <source><italic toggle="yes">EEG Normal Waveforms</italic></source>. <publisher-name>StatPearls</publisher-name>; <year>2021</year>.</mixed-citation>
+      </ref>
+      <ref id="cit0048">
+        <label>48.</label>
+        <mixed-citation publication-type="book"><string-name><surname>Carskadon</surname>
+<given-names>MA</given-names></string-name>, <string-name><surname>Dement</surname>
+<given-names>WC</given-names></string-name>. <part-title>Monitoring and staging human sleep; Normal human sleep</part-title>. In: <source><italic toggle="yes">Principles and Practice of Sleep Medicine</italic></source>. <edition>5th</edition> ed; <year>2011</year>:<fpage>16</fpage>–<lpage>26</lpage>.</mixed-citation>
+      </ref>
+      <ref id="cit0049">
+        <label>49.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Santamaria</surname>
+<given-names>J</given-names></string-name>, <string-name><surname>Chiappa</surname>
+<given-names>KH</given-names></string-name>. <article-title>The EEG of drowsiness in normal adults</article-title>. <source><italic toggle="yes">Neurophysiol</italic></source>. <year>1987</year>;<volume>4</volume>:<fpage>327</fpage>–<lpage>382</lpage>.</mixed-citation>
+      </ref>
+      <ref id="cit0050">
+        <label>50.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Ogilvie</surname>
+<given-names>R</given-names></string-name>. <article-title>The process of falling asleep</article-title>. <source><italic toggle="yes">Sleep Med Rev</italic></source>. <year>2001</year>;<volume>5</volume>(<issue>3</issue>):<fpage>247</fpage>–<lpage>270</lpage>. doi:<pub-id pub-id-type="doi">10.1053/smrv.2001.0145</pub-id><pub-id pub-id-type="pmid">12530990</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0051">
+        <label>51.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Hyoki</surname>
+<given-names>K</given-names></string-name>, <string-name><surname>Shigeta</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Tsuno</surname>
+<given-names>N</given-names></string-name>, <string-name><surname>Kawamuro</surname>
+<given-names>Y</given-names></string-name>, <string-name><surname>Kinoshita</surname>
+<given-names>T</given-names></string-name>. <article-title>Quantitative electro-oculography and electroencephalography as indices of alertness</article-title>. <source><italic toggle="yes">Electroencephalogr Clin Neurophysiol</italic></source>. <year>1998</year>;<volume>106</volume>(<issue>3</issue>):<fpage>213</fpage>–<lpage>219</lpage>. doi:<pub-id pub-id-type="doi">10.1016/S0013-4694(97)00128-4</pub-id><pub-id pub-id-type="pmid">9743279</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0052">
+        <label>52.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Daniel</surname>
+<given-names>RS</given-names></string-name>. <article-title>Alpha and theta EEG in vigilance</article-title>. <source><italic toggle="yes">Percept Mot Skills</italic></source>. <year>1967</year>;<volume>25</volume>(<issue>3</issue>):<fpage>697</fpage>–<lpage>703</lpage>. doi:<pub-id pub-id-type="doi">10.2466/pms.1967.25.3.697</pub-id><pub-id pub-id-type="pmid">6081429</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0053">
+        <label>53.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Horváth</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Frantik</surname>
+<given-names>E</given-names></string-name>, <string-name><surname>Kopriva</surname>
+<given-names>K</given-names></string-name>. <article-title>EEG theta activity increase coinciding with performance decrements in a monotonous task</article-title>. <source><italic toggle="yes">Act Nerve Super</italic></source>. <year>1976</year>;<volume>18</volume>:<fpage>207</fpage>–<lpage>210</lpage>.</mixed-citation>
+      </ref>
+      <ref id="cit0054">
+        <label>54.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Torsvall</surname>
+<given-names>L</given-names></string-name>, <string-name><surname>Åkerstedt</surname>
+<given-names>T</given-names></string-name>. <article-title>Sleepiness on the job: continuously measured EEG changes in train drivers</article-title>. <source><italic toggle="yes">Electroencephalogr Clin Neurophysiol</italic></source>. <year>1987</year>;<volume>66</volume>(<issue>6</issue>):<fpage>502</fpage>–<lpage>511</lpage>. doi:<pub-id pub-id-type="doi">10.1016/0013-4694(87)90096-4</pub-id><pub-id pub-id-type="pmid">2438115</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0055">
+        <label>55.</label>
+        <mixed-citation publication-type="confproc"><string-name><surname>Kazemi</surname>
+<given-names>V</given-names></string-name>, <string-name><surname>Sullivan</surname>
+<given-names>J</given-names></string-name>. <article-title>One millisecond face alignment with an ensemble of regression trees</article-title>. <conf-name>2014 IEEE Conference on Computer Vision and Pattern Recognition</conf-name>; <year>2014</year>:<fpage>1867</fpage>–<lpage>1874</lpage>.</mixed-citation>
+      </ref>
+    </ref-list>
+  </back>
+</article>
+</pmc-articleset>

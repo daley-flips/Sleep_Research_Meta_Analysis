@@ -1,0 +1,917 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<pmc-articleset><article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" dtd-version="1.3" xml:lang="en" article-type="research-article">
+  <?properties open_access?>
+  <processing-meta base-tagset="archiving" mathml-version="3.0" table-model="xhtml" tagset-family="jats">
+    <restricted-by>pmc</restricted-by>
+  </processing-meta>
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="nlm-ta">Nat Sci Sleep</journal-id>
+      <journal-id journal-id-type="iso-abbrev">Nat Sci Sleep</journal-id>
+      <journal-id journal-id-type="publisher-id">nss</journal-id>
+      <journal-title-group>
+        <journal-title>Nature and Science of Sleep</journal-title>
+      </journal-title-group>
+      <issn pub-type="epub">1179-1608</issn>
+      <publisher>
+        <publisher-name>Dove</publisher-name>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="pmid">35611177</article-id>
+      <article-id pub-id-type="pmc">9124490</article-id>
+      <article-id pub-id-type="publisher-id">352335</article-id>
+      <article-id pub-id-type="doi">10.2147/NSS.S352335</article-id>
+      <article-categories>
+        <subj-group subj-group-type="heading">
+          <subject>Original Research</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>Obstructive Sleep Apnoea Syndrome Screening Through Wrist-Worn Smartbands: A Machine-Learning Approach</article-title>
+        <alt-title alt-title-type="running-authors">Benedetti et al</alt-title>
+        <alt-title alt-title-type="running-title">Benedetti et al</alt-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0003-3881-5742</contrib-id>
+          <name>
+            <surname>Benedetti</surname>
+            <given-names>Davide</given-names>
+          </name>
+          <xref rid="aff0001" ref-type="aff">
+<sup>1</sup>
+</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0001-6968-2503</contrib-id>
+          <name>
+            <surname>Olcese</surname>
+            <given-names>Umberto</given-names>
+          </name>
+          <xref rid="aff0002" ref-type="aff">
+<sup>2</sup>
+</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0003-2523-1924</contrib-id>
+          <name>
+            <surname>Bruno</surname>
+            <given-names>Simone</given-names>
+          </name>
+          <xref rid="aff0001" ref-type="aff">
+<sup>1</sup>
+</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Barsotti</surname>
+            <given-names>Marta</given-names>
+          </name>
+          <xref rid="aff0003" ref-type="aff">
+<sup>3</sup>
+</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0003-0960-4938</contrib-id>
+          <name>
+            <surname>Maestri Tassoni</surname>
+            <given-names>Michelangelo</given-names>
+          </name>
+          <xref rid="aff0003" ref-type="aff">
+<sup>3</sup>
+</xref>
+          <xref rid="aff0004" ref-type="aff">
+<sup>4</sup>
+</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0001-8500-1149</contrib-id>
+          <name>
+            <surname>Bonanni</surname>
+            <given-names>Enrica</given-names>
+          </name>
+          <xref rid="aff0003" ref-type="aff">
+<sup>3</sup>
+</xref>
+          <xref rid="aff0004" ref-type="aff">
+<sup>4</sup>
+</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0002-6142-2384</contrib-id>
+          <name>
+            <surname>Siciliano</surname>
+            <given-names>Gabriele</given-names>
+          </name>
+          <xref rid="aff0003" ref-type="aff">
+<sup>3</sup>
+</xref>
+          <xref rid="aff0004" ref-type="aff">
+<sup>4</sup>
+</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0002-4814-7218</contrib-id>
+          <name>
+            <surname>Faraguna</surname>
+            <given-names>Ugo</given-names>
+          </name>
+          <xref rid="aff0001" ref-type="aff">
+<sup>1</sup>
+</xref>
+          <xref rid="aff0005" ref-type="aff">
+<sup>5</sup>
+</xref>
+          <xref rid="an0001" ref-type="corresp"/>
+        </contrib>
+        <aff id="aff0001"><label>1</label><institution>Department of Translational Research and of New Surgical and Medical Technologies, University of Pisa</institution>, <addr-line>Pisa</addr-line>, <country>Italy</country></aff>
+        <aff id="aff0002"><label>2</label><institution>Cognitive and Systems Neuroscience Group, Swammerdam Institute for Life Sciences, University of Amsterdam</institution>, <addr-line>Amsterdam</addr-line>, <country>the Netherlands</country></aff>
+        <aff id="aff0003"><label>3</label><institution>Neurological Clinics, University Hospital of Pisa</institution>, <addr-line>Pisa</addr-line>, <country>Italy</country></aff>
+        <aff id="aff0004"><label>4</label><institution>Department of Clinical and Experimental Medicine, University of Pisa</institution>, <addr-line>Pisa</addr-line>, <country>Italy</country></aff>
+        <aff id="aff0005"><label>5</label><institution>Department of Developmental Neuroscience, IRCCS Fondazione Stella Maris</institution>, <addr-line>Pisa</addr-line>, <country>Italy</country></aff>
+      </contrib-group>
+      <author-notes>
+        <corresp id="an0001">Correspondence: Ugo Faraguna, <institution>Department of Translational Research and of New Surgical and Medical Technologies, University of Pisa</institution>, <addr-line>Via San Zeno, 31</addr-line>, <addr-line>Pisa</addr-line>, <addr-line>56123</addr-line>, <country>Italy</country>, <phone>Tel +39 050 2213470</phone>, Email ugo.faraguna@unipi.it</corresp>
+      </author-notes>
+      <pub-date pub-type="epub">
+        <day>18</day>
+        <month>5</month>
+        <year>2022</year>
+      </pub-date>
+      <pub-date pub-type="collection">
+        <year>2022</year>
+      </pub-date>
+      <volume>14</volume>
+      <fpage>941</fpage>
+      <lpage>956</lpage>
+      <history>
+        <date date-type="received">
+          <day>06</day>
+          <month>12</month>
+          <year>2021</year>
+        </date>
+        <date date-type="accepted">
+          <day>27</day>
+          <month>2</month>
+          <year>2022</year>
+        </date>
+      </history>
+      <permissions>
+        <copyright-statement>© 2022 Benedetti et al.</copyright-statement>
+        <copyright-year>2022</copyright-year>
+        <copyright-holder>Benedetti et al.</copyright-holder>
+        <license>
+          <ali:license_ref xmlns:ali="http://www.niso.org/schemas/ali/1.0/" specific-use="textmining" content-type="ccbynclicense">https://creativecommons.org/licenses/by-nc/3.0/</ali:license_ref>
+          <license-p>This work is published and licensed by Dove Medical Press Limited. The full terms of this license are available at <ext-link ext-link-type="uri" xlink:href="https://www.dovepress.com/terms.php">https://www.dovepress.com/terms.php</ext-link> and incorporate the Creative Commons Attribution – Non Commercial (unported, v3.0) License (<ext-link ext-link-type="uri" xlink:href="https://creativecommons.org/licenses/by-nc/3.0/">http://creativecommons.org/licenses/by-nc/3.0/</ext-link>). By accessing the work you hereby accept the Terms. Non-commercial uses of the work are permitted without any further permission from Dove Medical Press Limited, provided the work is properly attributed. For permission for commercial use of this work, please see paragraphs 4.2 and 5 of our Terms (<ext-link ext-link-type="uri" xlink:href="https://www.dovepress.com/terms.php">https://www.dovepress.com/terms.php</ext-link>).</license-p>
+        </license>
+      </permissions>
+      <abstract>
+        <sec id="s2001">
+          <title>Purpose</title>
+          <p><citation_analysis attribute="positive">A large portion of the adult population is thought to suffer from obstructive sleep apnoea syndrome (OSAS), a sleep-related breathing disorder associated with increased morbidity and mortality. International guidelines include the polysomnography and the cardiorespiratory monitoring (CRM) as diagnostic tools for OSAS, but they are unfit for a large-scale screening, given their invasiveness, high cost and lengthy process of scoring. Current screening methods are based on self-reported questionnaires that suffer from lack of objectivity. On the contrary, commercial smartbands are wearable devices capable of collecting accelerometric and photoplethysmographic data in a user-friendly and objective way. We questioned whether machine-learning (ML) classifiers trained on data collected through these wearable devices would help predict OSAS severity.</citation_analysis></p>
+        </sec>
+        <sec id="s2002">
+          <title>Patients and Methods</title>
+          <p><citation_analysis attribute="positive">Each of the patients (n = 78, mean age ± SD: 57.2 ± 12.9 years; 30 females) underwent CRM and concurrently wore a commercial wrist smartband. CRM’s traces were scored, and OSAS severity was reported as apnoea hypopnoea index (AHI). We trained three pairs of classifiers to make the following prediction: AHI &lt;5 vs AHI ≥5, AHI &lt;15 vs AHI ≥15, and AHI &lt;30 vs AHI ≥30.</citation_analysis></p>
+        </sec>
+        <sec id="s2003">
+          <title>Results</title>
+          <p><citation_analysis attribute="positive">According to the Matthews correlation coefficient (MCC), the proposed algorithms reached an overall good correlation with the ground truth (CRM) for AHI &lt;5 vs AHI ≥5 (MCC: 0.4) and AHI &lt;30 vs AHI ≥30 (MCC: 0.3) classifications. AHI &lt;5 vs AHI ≥5 and AHI &lt;30 vs AHI ≥30 classifiers’ sensitivity, specificity, positive predictive values (PPV), negative predictive values (NPV) and diagnostic odds ratio (DOR) are comparable with the STOP-Bang questionnaire, an established OSAS screening tool.</citation_analysis></p>
+        </sec>
+        <sec id="s2004">
+          <title>Conclusion</title>
+          <p><citation_analysis attribute="neither">Machine learning algorithms showed an overall good performance. Unlike questionnaires, these are based on objectively collected data. Furthermore, these commercial devices are widely distributed in the general population. The aforementioned advantages of machine-learning algorithms applied to smartbands’ data over questionnaires lead to the conclusion that they could serve a population-scale screening for OSAS.</citation_analysis></p>
+        </sec>
+      </abstract>
+      <kwd-group kwd-group-type="author">
+        <title>Keywords</title>
+        <kwd>obstructive sleep apnoea syndrome</kwd>
+        <kwd>screening</kwd>
+        <kwd>wearable devices</kwd>
+        <kwd>wrist-worn smartbands</kwd>
+        <kwd>artificial intelligence</kwd>
+      </kwd-group>
+      <funding-group>
+        <award-group>
+          <funding-source>
+<institution-wrap><institution>Arpa Foundation</institution></institution-wrap>
+</funding-source>
+        </award-group>
+        <award-group>
+          <funding-source>
+<institution-wrap><institution>RC 1.21 Italian Ministry of Health</institution></institution-wrap>
+</funding-source>
+        </award-group>
+        <funding-statement>UF was funded by Arpa Foundation (<underline><ext-link xlink:href="https://fondazionearpa.it/" ext-link-type="uri">https://fondazionearpa.it/</ext-link></underline>) and by Grant RC 1.21 Italian Ministry of Health.</funding-statement>
+      </funding-group>
+      <counts>
+        <fig-count count="6"/>
+        <table-count count="14"/>
+        <ref-count count="61"/>
+        <page-count count="16"/>
+      </counts>
+    </article-meta>
+  </front>
+  <body>
+    <sec sec-type="intro" id="s0001">
+      <title>Introduction</title>
+      <p><citation_analysis attribute="neither">Obstructive Sleep Apnoea Syndrome (OSAS) is characterized by frequent events of cessation of airflow during sleep, associated with sleep arousal, oxygen desaturation and the concurrent persistence of respiratory effort.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0001" ref-type="bibr">1</xref></citation_analysis><citation_analysis attribute="neither"> This sleep-related breathing disorder is highly prevalent among adults,</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0002" ref-type="bibr">2</xref></citation_analysis><citation_analysis attribute="neither">,</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0003" ref-type="bibr">3</xref></citation_analysis><citation_analysis attribute="neither"> and it is associated with a higher mortality and morbidity as compared to the general population.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0004" ref-type="bibr">4–6</xref></citation_analysis><citation_analysis attribute="positive"> OSAS can be assessed through Polysomnography (PSG), the reference standard technique, or through alternative diagnostic methods such as cardiorespiratory monitoring (CRM). The American Academy of Sleep Research (AASM) and the European Respiratory Society included both PSG and CRM in their clinical guidelines,</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0007" ref-type="bibr">7</xref></citation_analysis><citation_analysis attribute="neither">,</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0008" ref-type="bibr">8</xref></citation_analysis><citation_analysis attribute="neither"> but they are relatively invasive, expensive and time consuming in the process of sleep events scoring.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0009" ref-type="bibr">9</xref></citation_analysis><citation_analysis attribute="neither">,</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0010" ref-type="bibr">10</xref></citation_analysis><citation_analysis attribute="neither"> Due to resource constraints, it is therefore unfeasible to resort to PSG or CRM for general population screening purposes. As several studies claim that OSAS goes largely undiagnosed, not being recognized in up to 90% of patients,</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0011" ref-type="bibr">11</xref></citation_analysis><citation_analysis attribute="neither">,</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0012" ref-type="bibr">12</xref></citation_analysis><citation_analysis attribute="neither"> it is imperative to investigate new convenient tools to screen the general population for OSAS. A possible way to reduce the invasiveness of the PSG and CRM might be single-lead electrocardiography (ECG). The application on the skin of just two electrodes allows to collect data over both the electrical activity of the heart and the status of the autonomic nervous system, known to be perturbed by the OSAS events.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0013" ref-type="bibr">13</xref></citation_analysis><citation_analysis attribute="neither">,</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0014" ref-type="bibr">14</xref></citation_analysis><citation_analysis attribute="positive"> Recent studies achieved promising results using single-lead ECG signals to train deep neural networks: Feng et al</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0015" ref-type="bibr">15</xref></citation_analysis><citation_analysis attribute="positive"> reached a sensitivity of 86.1% relative to the gold standard, using an unsupervised learning approach for feature extraction; Yang et al</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0016" ref-type="bibr">16</xref></citation_analysis><citation_analysis attribute="neither"> reached a sensitivity of 87.1% with a deep learning algorithm capable of extracting from the single-lead ECG cardiopulmonary features. Other studies reached comparable results.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0017" ref-type="bibr">17–20</xref></citation_analysis><citation_analysis attribute="neither"> Nevertheless, a single-lead ECG approach does not solve the problem of screening the general population for OSAS: the single-lead ECG test needs to be administered by a health-care provider after having grown a suspicion of OSAS, whereby these methods are promising alternatives to PSG and CRM but cannot be used to pursue a large-scale screening in an unaware population.</citation_analysis></p>
+      <p><citation_analysis attribute="neither">A machine-learning (ML) approach allows to collect a relatively small number of features and feed them into an algorithm capable of making predictions. So far, researchers have mainly focused on training ML algorithms on questionnaires or data collected through various medical devices. Mencar et al trained a series of ML-algorithms on anthropometric and clinical data collected via questionnaires. The best algorithm of this study reached a poor accuracy (44.7%), making the authors conclude that ML-algorithms cannot be used for automated diagnosis of OSAS, even if they might find an application in estimating the probability of OSAS and may be useful for prioritizing the access to PSG and CRM resources. Uston et al</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0021" ref-type="bibr">21</xref></citation_analysis><citation_analysis attribute="neither"> trained SLIM (Supersparse Linear Integer Model) on questionnaire’s data based on the medical history of the patient. Although SLIM is considerably easy-to-use, it reached a sensitivity of 64.2%, too low for a first-level test that aims at screening the general population. Beyond the ML approach, self-reported questionnaires have been investigated for making prediction and grading OSAS;: the Epworth Sleepiness Scale, the Berlin questionnaire, the STOP questionnaire, and the STOP-Bang questionnaire are among the most studied in literature,</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0022" ref-type="bibr">22</xref></citation_analysis><citation_analysis attribute="neither">,</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0023" ref-type="bibr">23</xref></citation_analysis><citation_analysis attribute="negative"> and the last considered as the one with the highest methodological validity and accuracy. Questionnaires are reliable, but they suffer from a response rate (range 82–91%) that is insufficient for OSAS screening.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0022" ref-type="bibr">22</xref></citation_analysis><citation_analysis attribute="positive"> The low response rate might be explained by their high complexity, and relatively long time taken for filling them in. Furthermore, questionnaires’ result is thought to be dependent upon the relative willingness of the patient to complete them, willingness generally higher in the sleep-clinic population compared to the general one.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0022" ref-type="bibr">22</xref></citation_analysis><citation_analysis attribute="positive"> This makes questionnaires draw on subjective data that might bias the result of the test.</citation_analysis></p>
+      <p><citation_analysis attribute="neither">Medical-grade wearable devices have been the object of recent experimental interest, and various studies addressed the applicability of algorithms trained on data collected through these devices for OSAS screening and detection. Wearables are equipped with different sensors, such as accelerometers and photoplethysmography, that allow gathering physiological data such as the tri-axial movement of the wrist and cardiorespiratory related parameters, respectively.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0024" ref-type="bibr">24</xref></citation_analysis><citation_analysis attribute="neither"> Among the investigated wearables, there is reflective photoplethysmography,</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0025" ref-type="bibr">25</xref></citation_analysis><citation_analysis attribute="neither"> which data was used to train ML-algorithm that reached a correlation of 61% to the PSG reference. Deep learning model based on tracheal-placed accelerometers</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0026" ref-type="bibr">26</xref></citation_analysis><citation_analysis attribute="neither"> reached a better sensitivity, specificity, and accuracy of 81%, 87%, and 84%, respectively. Similar approaches used both photoplethysmographic sensors placed on the nasal septum</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0027" ref-type="bibr">27</xref></citation_analysis><citation_analysis attribute="neither"> or electrocardiogram wearable belts.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0028" ref-type="bibr">28</xref></citation_analysis><citation_analysis attribute="neither"> Despite this promising outcome, this approach remains prototypal, relatively invasive, and not particularly suitable for large population screenings.</citation_analysis></p>
+      <p><citation_analysis attribute="neither">An alternative approach to medical-grade devices could instead take advantage of the widespread distribution of biometric sensors in the consumer market. More specifically, consumer wrist-worn smartbands are considered affordable and minimally invasive, capable of continuously collecting physiological data, such as heart rate (HR) and sleep parameters.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0029" ref-type="bibr">29</xref></citation_analysis><citation_analysis attribute="neither"> Fitbit Inc. devices, such as Fitbit ChargeHR</citation_analysis><citation_analysis attribute="positive"><sup>TM</sup></citation_analysis><citation_analysis attribute="neither">, Fitbit Charge 2</citation_analysis><citation_analysis attribute="positive"><sup>TM</sup></citation_analysis><citation_analysis attribute="neither"> and Fitbit AltaHR</citation_analysis><citation_analysis attribute="positive"><sup>TM</sup></citation_analysis><citation_analysis attribute="neither">, are amid the most studied commercial smartbands.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0030" ref-type="bibr">30</xref></citation_analysis><citation_analysis attribute="positive"> Their accelerometric and HR measures have been validated in literature both during sleep and wakefulness, showing higher sensor accuracy during sleep.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0030" ref-type="bibr">30–36</xref></citation_analysis><citation_analysis attribute="neither"> Their unobtrusiveness, their easy accessibility and reliability makes these devices compatible with a population-based screening test.</citation_analysis></p>
+      <p><citation_analysis attribute="positive">In this study, we evaluated the performance of supervised ML-algorithms trained on smartbands’ data to predict and grading OSAS. Three different pairs of algorithms were trained to classify patients according to three different cut-offs: AHI &lt;5 vs AHI &gt;5, AHI &lt;15 vs AHI ≥15 and AHI &lt;30 vs AHI ≥30. We then compared their performance to the pooled performance reported by Nagappa et al</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0037" ref-type="bibr">37</xref></citation_analysis><citation_analysis attribute="neither"> in their systematic review. We then questioned whether a multistep classification would achieve a better performance. We modified the training dataset for the AHI &lt;15 vs AHI ≥15 and AHI &lt;30 vs AHI ≥30 classifications as follows: we excluded healthy patients (AHI &lt;5) by both datasets, while we dropped those having the AHI &lt;15 from the AHI &lt;30 vs AHI ≥30 training datasets.</citation_analysis></p>
+    </sec>
+    <sec id="s0002">
+      <title>Methods</title>
+      <sec id="s0002-s2001">
+        <title>Cohort Selection and Cardiorespiratory Monitoring</title>
+        <p><citation_analysis attribute="neither">Volunteers were recruited among patients of the Sleep Centre of Santa Chiara Hospital in Pisa, Italy. Each volunteer was equipped with one of the CRM devices available at the Sleep Centre: Nox T3, Nox Medical; Somté, Compumedics; Embletta MPR, Natus Medical; Sleep and go, Sibelmed; Sleepdoc porti 8, Dr. Fenyves und Gut Deutschland GmbH. Each device collected the following physiological parameters: nasal airflow, chest and abdominal muscle’s activity, pulse, oxygen saturation and snoring. A trained professional scored the CRM’s recordings according to the AASM’s 2012 guidelines. The AHI was used to estimate the severity of the disease.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0038" ref-type="bibr">38</xref></citation_analysis><citation_analysis attribute="positive">
+</citation_analysis><citation_analysis attribute="positive"><xref rid="t0001" ref-type="table">Table 1</xref></citation_analysis><citation_analysis attribute="neither"> shows sample size, gender distribution, mean age and mean Body Mass Index (BMI) of the sample, stratified by OSAS severity class. Patients’ comorbidities for each AHI severity group (healthy, mild, moderate and severe) are depicted in </citation_analysis><citation_analysis attribute="positive"><underline><ext-link xlink:href="https://www.dovepress.com/get_supplementary_file.php?f=352335.pdf" ext-link-type="uri">Supplementary Table 1</ext-link></underline></citation_analysis><citation_analysis attribute="neither">.</citation_analysis><citation_analysis attribute="positive"><table-wrap position="float" id="t0001"><label>Table 1</label><caption><p><citation_analysis attribute="neither">Description of the Training Dataset</citation_analysis></p></caption><table frame="hsides" rules="groups"><thead><tr><th rowspan="1" colspan="1">AHI</th><th rowspan="1" colspan="1">Patients, n [%] (F/M)</th><th rowspan="1" colspan="1">Age, Mean [SD]</th><th rowspan="1" colspan="1">BMI, Mean [SD]</th></tr></thead><tbody><tr><td rowspan="1" colspan="1">Healthy (AHI &lt; 5/h)</td><td rowspan="1" colspan="1">18 [23.1%] (7/11)</td><td rowspan="1" colspan="1">51.67 [15.3]</td><td rowspan="1" colspan="1">28.72 [4.73]</td></tr><tr><td rowspan="1" colspan="1">Mild (5/h ≤ AHI &lt; 15/h)</td><td rowspan="1" colspan="1">30 [38.5%] (13/17)</td><td rowspan="1" colspan="1">58.83 [11.75]</td><td rowspan="1" colspan="1">32.58 [9.4]</td></tr><tr><td rowspan="1" colspan="1">Moderate (15/h ≤ AHI &lt; 30/h)</td><td rowspan="1" colspan="1">16 [20.5%] (7/9)</td><td rowspan="1" colspan="1">56.88 [12.34]</td><td rowspan="1" colspan="1">31.96 [4.4]</td></tr><tr><td rowspan="1" colspan="1">Severe (AHI ≥ 30/h)</td><td rowspan="1" colspan="1">14 [17.9%] (3/11)</td><td rowspan="1" colspan="1">61.36 [9.45]</td><td rowspan="1" colspan="1">36.98 [8.95]</td></tr></tbody></table><table-wrap-foot><fn id="tfn0001"><p><citation_analysis attribute="positive"><bold>Note</bold></citation_analysis><citation_analysis attribute="positive">: For each class of AHI is shown the overall number of patients, the number of female (F) and male (M) patients, the mean age, and the mean body mass index (BMI).</citation_analysis></p></fn><fn id="tfn0002"><p><citation_analysis attribute="positive"><bold>Abbreviations</bold></citation_analysis><citation_analysis attribute="neither">: AHI, apnoea hypopnea index; SD, standard deviation.</citation_analysis></p></fn></table-wrap-foot></table-wrap></citation_analysis><citation_analysis attribute="positive">
+</citation_analysis></p>
+        <p><citation_analysis attribute="neither">This study was approved by the Pisa University Hospital Bioethical Committee (CEAVNO protocol No: 42714). Participants provided written informed consent to take part in the study. The current study complies with the Declaration of Helsinki.</citation_analysis></p>
+      </sec>
+      <sec id="s0002-s2002">
+        <title>Fitbit Data</title>
+        <p><citation_analysis attribute="neither">In this study, we used two different models of Fitbit Inc.’s smartbands: Fitbit Charge4</citation_analysis><citation_analysis attribute="positive"><sup>TM</sup></citation_analysis><citation_analysis attribute="neither"> and Fitbit AltaHR</citation_analysis><citation_analysis attribute="positive"><sup>TM</sup></citation_analysis><citation_analysis attribute="neither">, both equipped with a triaxial accelerometer sensor (micro-electro-mechanical systems [MEMS] 3-axis accelerometer) and a photoplethysmographic sensor (PurePulse</citation_analysis><citation_analysis attribute="positive"><sup>®</sup></citation_analysis><citation_analysis attribute="neither"> light-emitting diode). Accelerometric measures were processed by a Fitbit Inc. proprietary algorithm to compute both energy expenditure and steps, while the photoplethysmographic measures, shaped as a pulsatile waveform,</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0024" ref-type="bibr">24</xref></citation_analysis><citation_analysis attribute="neither"> were used to calculate HR by the aforementioned proprietary algorithm. Data were downloaded from the Application Programming Interface (API) provided by Fitbit through a third-party platform (</citation_analysis><citation_analysis attribute="positive"><underline><ext-link xlink:href="http://www.sleepacta.com" ext-link-type="uri">www.sleepacta.com</ext-link></underline></citation_analysis><citation_analysis attribute="neither">). Energy expenditure data were stored at a frequency of one data point per minute, while the HR data were stored at a frequency of one data point per second during physical exercise, one data point each five seconds otherwise.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0031" ref-type="bibr">31</xref></citation_analysis><citation_analysis attribute="neither"> The third-party platform returns a minute-by-minute wake-sleep staging and derives from this sleep staging a series of sleep parameters through DORMI, a proprietary deep-learning algorithm.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0039" ref-type="bibr">39</xref></citation_analysis><citation_analysis attribute="neither">,</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0040" ref-type="bibr">40</xref></citation_analysis><citation_analysis attribute="neither"> Among these parameters, six of them were used to train the algorithm: sleep efficiency (SE), defined as the ratio of total sleep time (TST) to time in bed;</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0041" ref-type="bibr">41</xref></citation_analysis><citation_analysis attribute="neither"> TST itself; Sleep Fragmentation Index (SFI), defined as the total number of awakenings divided by the total sleep time;</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0042" ref-type="bibr">42</xref></citation_analysis><citation_analysis attribute="neither"> Wake After Sleep Onset (WASO), defined as the period of wakefulness that occurs after a defined sleep onset;</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0043" ref-type="bibr">43</xref></citation_analysis><citation_analysis attribute="neither"> number of awakenings (Naw) after sleep onset and the mean length of awakenings after sleep onset (mLaw). </citation_analysis><citation_analysis attribute="positive"><xref rid="f0001" ref-type="fig">Figure 1</xref></citation_analysis><citation_analysis attribute="neither"> shows one representative patients smartbands’ data for each disease’s severity class according to the AHI estimated by CRM.</citation_analysis><citation_analysis attribute="positive"><fig position="float" id="f0001" fig-type="figure"><label>Figure 1</label><caption><p><citation_analysis attribute="neither">Minute-by-minute smartbands measures for each AHI’s severity class. Accelerometric, heart rate (HR) measures and sleep-wake classification according to the DORMI algorithm for (</citation_analysis><citation_analysis attribute="positive"><bold>A</bold></citation_analysis><citation_analysis attribute="neither">) Healthy participant (AHI = 0.0/h), (</citation_analysis><citation_analysis attribute="positive"><bold>B</bold></citation_analysis><citation_analysis attribute="neither">) Mild (AHI = 12.1/h), (</citation_analysis><citation_analysis attribute="positive"><bold>C</bold></citation_analysis><citation_analysis attribute="neither">) Moderate (AHI = 16.8/h), and (</citation_analysis><citation_analysis attribute="positive"><bold>D</bold></citation_analysis><citation_analysis attribute="neither">) Severe (AHI = 60.1/h) representative OSAS patients.</citation_analysis></p></caption><graphic xlink:href="NSS-14-941-g0001" content-type="print-only" position="float"/></fig></citation_analysis></p>
+      </sec>
+      <sec id="s0002-s2003">
+        <title>Machine-Learning Algorithms</title>
+        <p><citation_analysis attribute="neither">ML algorithms were provided by scikit-learn, a Python-based library.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0044" ref-type="bibr">44</xref></citation_analysis><citation_analysis attribute="positive"> Three different pairs of algorithms were used, and in each pair the algorithms were placed in series to classify OSAS severity. The first algorithm of the pair was trained on the dataset composed of data collected through wrist-worn smartbands, while the second one was trained on the same dataset of the former one, but the output of the classification reached by the first algorithm of the pair was fed as additional descriptor. To reach the best performance by each pair of classifiers, we adjusted the parameters through a trial-and-error approach to improve the outcome results.</citation_analysis></p>
+        <p><citation_analysis attribute="neither">The first pair of algorithms returned an AHI &lt;5 vs AHI &gt;5 classification. The first algorithm consisted of a multi-layer perceptron (MLP) classifier, initialized as follows: number of layers, 2; number of neurons in the first layer, 200; number of neurons in the second layer, 100; activation function, Rectified Linear Unit (ReLU); L2 regularization term, 0.01; all other parameters were kept as scikit-learn defaults. The second algorithm was a MLP classifier, initialized as follows: number of layers,2; number of neurons in the first layer, 200; number of neurons in the second layer 100; activation function, Logistic; L2 regularization term, 0.01; all other parameters were kept as scikit-learn defaults.</citation_analysis></p>
+        <p><citation_analysis attribute="neither">The second pair of algorithms made AHI &lt;15 vs AHI ≥15 classification. The first algorithm was a MLP classifier, initialized as follows: number of layers, 2; number of neurons in the first layer, 100; number of neurons in the second layer, 100; activation function, ReLU; L2 regularization term, 0.001; all other parameters were kept as scikit-learn defaults (</citation_analysis><citation_analysis attribute="positive"><underline><ext-link xlink:href="https://scikit-learn.org/stable/modules/generated/sklearn.neural_network.MLPClassifier.html" ext-link-type="uri">https://scikit-learn.org/stable/modules/generated/sklearn.neural_network.MLPClassifier.html</ext-link></underline></citation_analysis><citation_analysis attribute="neither">. Accessed May 6, 2022.). The second algorithm was a Random Forest classifier, initialized as follows: number of estimators, 2000; all other parameters were kept as scikit-learn defaults (</citation_analysis><citation_analysis attribute="positive"><underline><ext-link xlink:href="https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestClassifier.html" ext-link-type="uri">https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestClassifier.html</ext-link></underline></citation_analysis><citation_analysis attribute="neither">. Accessed May 6, 2022).</citation_analysis></p>
+        <p><citation_analysis attribute="neither">The third pair of algorithms made AHI &lt;30 vs AHI ≥30 classification. The first algorithm was a Random Forest classifier, initialized as follows: number of estimators, 200; all other parameters were kept as scikit-learn defaults. The second algorithm was a Random Forest classifier, initialized as follows: number of estimators, 2000; all other parameters were kept as scikit-learn defaults.</citation_analysis></p>
+      </sec>
+      <sec id="s0002-s2004">
+        <title>Training and Cross-Validation</title>
+        <p><citation_analysis attribute="positive">The descriptors used to train the algorithm were: Age, Gender, BMI, SE, TST, SFI, WASO, Naw, mLaw, the mean HR during sleep (mHRs) mean HR during sleep arousal (mHRw). The relative contribution of each descriptor to the outcome performance included in the final algorithm is depicted in the </citation_analysis><citation_analysis attribute="positive"><underline><ext-link xlink:href="https://www.dovepress.com/get_supplementary_file.php?f=352335.pdf" ext-link-type="uri">Supplementary Figure 1</ext-link></underline></citation_analysis><citation_analysis attribute="neither">. AHI was correlated to each descriptor of the present dataset. We further compared the mean AHI between groups identified by Gender and Comorbidity status (</citation_analysis><citation_analysis attribute="positive"><underline><ext-link xlink:href="https://www.dovepress.com/get_supplementary_file.php?f=352335.pdf" ext-link-type="uri">Supplementary Table 2</ext-link></underline></citation_analysis><citation_analysis attribute="neither">).</citation_analysis></p>
+        <p><citation_analysis attribute="neither">As for cross-validation, we adopted the Leave-One-Out (LOO) procedure: given a dataset of N instances, we left out just one instance as validation set, and for each round of LOO procedure, the algorithm was trained on N-1 instances. Since the AHI’s severity classes had not the same numerosity, to avoid misclassification due to dataset size imbalance, we applied the following procedure: for each round of LOO’s training, the algorithm was trained T times. Each time we randomly selected I instance among the N-1 that composed the training dataset of the LOO’s round. Therefore, the dataset was composed of an equal number of instances for each AHI’s severity class. The algorithm was set to have a “warm start” that is, the algorithm reused the solution of previous calls for initialization. The values of T and I were: 8 and 7 for Healthy vs OSAS-suffering classification, 6 and 6 for both AHI &lt;15 vs AHI ≥15 and for AHI &lt;30 vs AHI ≥30 classifications. We reduced the T and I for the last two trainings since we trained AHI &lt;15 vs AHI ≥15 and AHI &lt;30 vs AHI ≥30 on a dataset with AHI ≥5 only and AHI ≥15 only patients.</citation_analysis></p>
+        <p><citation_analysis attribute="neither">To verify that the data sample was large enough to support the training of the algorithms, we adopted the following procedure. Starting from 78 participants, we repeated the leave-one-out procedure on the AHI &lt;5 vs AHI &gt;5 pair of algorithms 30 times. We calculated the mean sensitivity of this procedure. We then randomly dropped from the original dataset 2 participants, and we retrained the AHI &lt;5 vs AHI ≥5 pair of algorithms 30 times via cross-validation (LOO), each time eliminating 2 random participants. We finally calculated the mean sensitivity reached by the algorithms. That is, we questioned how the sensitivity was affected by training the algorithms on a reduced (76 participants) dataset. This overall procedure was repeated progressively dropping 5, 10, and then 20 participants from the original dataset. The results of the overall sample estimation procedure are summarized in </citation_analysis><citation_analysis attribute="positive"><underline><ext-link xlink:href="https://www.dovepress.com/get_supplementary_file.php?f=352335.pdf" ext-link-type="uri">Supplementary Figure 2</ext-link></underline></citation_analysis><citation_analysis attribute="neither">. Given that the mean sensitivity is stable (ie, it shows a plateau) even when the number of participants in the training dataset is progressively reduced, we conclude that our sample is large enough.</citation_analysis></p>
+      </sec>
+      <sec id="s0002-s2005">
+        <title>Performance Metrics and Statistical Analysis</title>
+        <p><citation_analysis attribute="positive">The algorithms’ predictions fall into one of the following categories: True Positives (TP), ie, actual positive (OSAS patients) correctly classified as positives; False Positives (FP), ie, actual negative (healthy) misclassified as positives; True Negatives (TN), ie, actual negative (healthy) correctly classified as negatives; False Negatives (FN), ie, actual positive (OSAS patients) misclassified as negatives. The afore-mentioned categories were used to calculate the following performance parameters:</citation_analysis></p>
+        <p><citation_analysis attribute="positive">
+</citation_analysis><citation_analysis attribute="positive"><inline-formula id="ilm0001">
+<alternatives><inline-graphic xlink:href="NSS-14-941-e0001.jpg"/><tex-math id="Tex001">\documentclass[12pt]{minimal}
+\usepackage{wasysym}
+\usepackage[substack]{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage[mathscr]{eucal}
+\usepackage{mathrsfs}
+\DeclareFontFamily{T1}{linotext}{}
+\DeclareFontShape{T1}{linotext}{m}{n} {linotext }{}
+\DeclareSymbolFont{linotext}{T1}{linotext}{m}{n}
+\DeclareSymbolFontAlphabet{\mathLINOTEXT}{linotext}
+\begin{document}
+$$\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ Matthews\ Correlation\ Coefficient\ \left({MCC} \right) = {{TP \times TN\ -\ FP \times FN} \over \sqrt {\left({TP + FP} \right) \times \left({TP + FN} \right) \times \left({TN + FP} \right) \times \left({TN + FN} \right)}}$$
+\end{document}</tex-math></alternatives>
+</inline-formula></citation_analysis><citation_analysis attribute="positive">
+</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0045" ref-type="bibr">45</xref></citation_analysis><citation_analysis attribute="positive">
+</citation_analysis></p>
+        <p><citation_analysis attribute="positive">
+</citation_analysis><citation_analysis attribute="positive"><inline-formula id="ilm0002">
+<alternatives><inline-graphic xlink:href="NSS-14-941-e0002.jpg"/><tex-math id="Tex002">\documentclass[12pt]{minimal}
+\usepackage{wasysym}
+\usepackage[substack]{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage[mathscr]{eucal}
+\usepackage{mathrsfs}
+\DeclareFontFamily{T1}{linotext}{}
+\DeclareFontShape{T1}{linotext}{m}{n} {linotext }{}
+\DeclareSymbolFont{linotext}{T1}{linotext}{m}{n}
+\DeclareSymbolFontAlphabet{\mathLINOTEXT}{linotext}
+\begin{document}
+$$\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ Sensitivity = {{TP} \over {TP + FN}}$$
+\end{document}</tex-math></alternatives>
+</inline-formula></citation_analysis><citation_analysis attribute="positive">
+</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0046" ref-type="bibr">46</xref></citation_analysis><citation_analysis attribute="positive">
+</citation_analysis></p>
+        <p><citation_analysis attribute="positive">
+</citation_analysis><citation_analysis attribute="positive"><inline-formula id="ilm0003">
+<alternatives><inline-graphic xlink:href="NSS-14-941-e0003.jpg"/><tex-math id="Tex003">\documentclass[12pt]{minimal}
+\usepackage{wasysym}
+\usepackage[substack]{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage[mathscr]{eucal}
+\usepackage{mathrsfs}
+\DeclareFontFamily{T1}{linotext}{}
+\DeclareFontShape{T1}{linotext}{m}{n} {linotext }{}
+\DeclareSymbolFont{linotext}{T1}{linotext}{m}{n}
+\DeclareSymbolFontAlphabet{\mathLINOTEXT}{linotext}
+\begin{document}
+$$\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ Specificity = {{TN} \over {TN + FP}}$$
+\end{document}</tex-math></alternatives>
+</inline-formula></citation_analysis><citation_analysis attribute="positive">
+</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0046" ref-type="bibr">46</xref></citation_analysis><citation_analysis attribute="positive">
+</citation_analysis></p>
+        <p><citation_analysis attribute="positive">
+</citation_analysis><citation_analysis attribute="positive"><inline-formula id="ilm0004">
+<alternatives><inline-graphic xlink:href="NSS-14-941-e0004.jpg"/><tex-math id="Tex004">\documentclass[12pt]{minimal}
+\usepackage{wasysym}
+\usepackage[substack]{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage[mathscr]{eucal}
+\usepackage{mathrsfs}
+\DeclareFontFamily{T1}{linotext}{}
+\DeclareFontShape{T1}{linotext}{m}{n} {linotext }{}
+\DeclareSymbolFont{linotext}{T1}{linotext}{m}{n}
+\DeclareSymbolFontAlphabet{\mathLINOTEXT}{linotext}
+\begin{document}
+$$\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ Positive\ Predictive\ Value\ \left({PPV} \right) = {{TP} \over {TP + FP}}$$
+\end{document}</tex-math></alternatives>
+</inline-formula></citation_analysis><citation_analysis attribute="positive">
+</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0046" ref-type="bibr">46</xref></citation_analysis><citation_analysis attribute="positive">
+</citation_analysis></p>
+        <p><citation_analysis attribute="positive">
+</citation_analysis><citation_analysis attribute="positive"><inline-formula id="ilm0005">
+<alternatives><inline-graphic xlink:href="NSS-14-941-e0005.jpg"/><tex-math id="Tex005">\documentclass[12pt]{minimal}
+\usepackage{wasysym}
+\usepackage[substack]{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage[mathscr]{eucal}
+\usepackage{mathrsfs}
+\DeclareFontFamily{T1}{linotext}{}
+\DeclareFontShape{T1}{linotext}{m}{n} {linotext }{}
+\DeclareSymbolFont{linotext}{T1}{linotext}{m}{n}
+\DeclareSymbolFontAlphabet{\mathLINOTEXT}{linotext}
+\begin{document}
+$$\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ Negative\ Predictive\ Value\ \left({NPV} \right) = {{TN} \over {FN + TN}}$$
+\end{document}</tex-math></alternatives>
+</inline-formula></citation_analysis><citation_analysis attribute="positive">
+</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0046" ref-type="bibr">46</xref></citation_analysis><citation_analysis attribute="positive">
+</citation_analysis></p>
+        <p><citation_analysis attribute="positive">
+</citation_analysis><citation_analysis attribute="positive"><inline-formula id="ilm0006">
+<alternatives><inline-graphic xlink:href="NSS-14-941-e0006.jpg"/><tex-math id="Tex006">\documentclass[12pt]{minimal}
+\usepackage{wasysym}
+\usepackage[substack]{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage[mathscr]{eucal}
+\usepackage{mathrsfs}
+\DeclareFontFamily{T1}{linotext}{}
+\DeclareFontShape{T1}{linotext}{m}{n} {linotext }{}
+\DeclareSymbolFont{linotext}{T1}{linotext}{m}{n}
+\DeclareSymbolFontAlphabet{\mathLINOTEXT}{linotext}
+\begin{document}
+$$\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ Diagnostic\ Odds\ Ratio\ \left({DOR} \right) = {{TP \times TN} \over {FP \times FN}}$$
+\end{document}</tex-math></alternatives>
+</inline-formula></citation_analysis><citation_analysis attribute="positive">
+</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0047" ref-type="bibr">47</xref></citation_analysis><citation_analysis attribute="positive">
+</citation_analysis></p>
+        <p><citation_analysis attribute="positive">
+</citation_analysis><citation_analysis attribute="positive"><inline-formula id="ilm0007">
+<alternatives><inline-graphic xlink:href="NSS-14-941-e0007.jpg"/><tex-math id="Tex007">\documentclass[12pt]{minimal}
+\usepackage{wasysym}
+\usepackage[substack]{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsbsy}
+\usepackage[mathscr]{eucal}
+\usepackage{mathrsfs}
+\DeclareFontFamily{T1}{linotext}{}
+\DeclareFontShape{T1}{linotext}{m}{n} {linotext }{}
+\DeclareSymbolFont{linotext}{T1}{linotext}{m}{n}
+\DeclareSymbolFontAlphabet{\mathLINOTEXT}{linotext}
+\begin{document}
+$$\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ Confusion\ Matrix = \left[{\matrix{ {TP} &amp; {FN} \cr {FP} &amp; {TN} \cr } } \right] $$
+\end{document}</tex-math></alternatives>
+</inline-formula></citation_analysis><citation_analysis attribute="positive">
+</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0045" ref-type="bibr">45</xref></citation_analysis><citation_analysis attribute="positive">
+</citation_analysis></p>
+        <p><citation_analysis attribute="neither">We calculated the Matthews Correlation Coefficient because it was found to be more informative than Accuracy and F1-score. MCC ranges from −1 (perfect misclassification) to 1 (perfect classification).</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0045" ref-type="bibr">45</xref></citation_analysis><citation_analysis attribute="neither"> Confusion matrices were produced through scikit-learn</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0044" ref-type="bibr">44</xref></citation_analysis><citation_analysis attribute="neither"> library, while all the other parameters were calculated through a custom script based on NumPy library.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0048" ref-type="bibr">48</xref></citation_analysis></p>
+        <p><citation_analysis attribute="neither">To evaluate the relative importance of each descriptor for the algorithms presented here, we adopted the permutation feature importance technique issued by the Python-based scikit-learn library.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0042" ref-type="bibr">42</xref></citation_analysis><citation_analysis attribute="neither"> This technique allows to calculate a model score, which indicates how much a model resorts to a single feature of the dataset to generate its output. The model score was calculated here randomly shuffling a single feature for 10 times.</citation_analysis></p>
+      </sec>
+    </sec>
+    <sec id="s0003">
+      <title>Results</title>
+      <p><citation_analysis attribute="positive"><xref rid="t0002" ref-type="table">Table 2</xref></citation_analysis><citation_analysis attribute="neither"> shows algorithms’ performance of predicting the AHI severity class in AHI &lt;5 vs AHI ≥5, AHI &lt;15 vs AHI ≥15 and AHI &lt;30 vs AHI ≥30 cohorts, along with the pooled predictive parameters of the STOP-Bang questionnaire on the sleep clinic population, according to Nagappa et al.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0037" ref-type="bibr">37</xref></citation_analysis><citation_analysis attribute="positive"><table-wrap position="float" id="t0002"><label>Table 2</label><caption><p><citation_analysis attribute="neither">Comparison of ML Algorithms’ and STOP-Bang Questionnaire’s Performance Parameters</citation_analysis></p></caption><table frame="hsides" rules="groups"><thead><tr><th rowspan="1" colspan="1"/><th rowspan="1" colspan="1">Any OSAS AHI≥5</th><th rowspan="1" colspan="1">Moderate-Severe OSAS AHI≥15</th><th rowspan="1" colspan="1">Severe OSAS AHI≥30</th></tr></thead><tbody><tr><td rowspan="1" colspan="1"><bold>STOP-Bang Questionnaire</bold></td><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"/></tr><tr><td rowspan="1" colspan="1">Sensitivity</td><td rowspan="1" colspan="1">90.0%</td><td rowspan="1" colspan="1">94.0%</td><td rowspan="1" colspan="1">96.0%</td></tr><tr><td rowspan="1" colspan="1">Specificity</td><td rowspan="1" colspan="1">49.0%</td><td rowspan="1" colspan="1">34.0%</td><td rowspan="1" colspan="1">25.0%</td></tr><tr><td rowspan="1" colspan="1">PPV</td><td rowspan="1" colspan="1">91.0%</td><td rowspan="1" colspan="1">72.0%</td><td rowspan="1" colspan="1">48.0%</td></tr><tr><td rowspan="1" colspan="1">NPV</td><td rowspan="1" colspan="1">46.0%</td><td rowspan="1" colspan="1">75.0%</td><td rowspan="1" colspan="1">90.0%</td></tr><tr><td rowspan="1" colspan="1">Pooled DOR (95% CI)</td><td align="center" rowspan="1" colspan="1">8.3 (6.1–9.7)</td><td align="center" rowspan="1" colspan="1">7.2 (5.7–9.0)</td><td align="center" rowspan="1" colspan="1">7.2 (5.1–10.2)</td></tr><tr><td rowspan="1" colspan="1"><bold>ML Algorithms</bold></td><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"/></tr><tr><td rowspan="1" colspan="1">MCC</td><td rowspan="1" colspan="1">0.39</td><td rowspan="1" colspan="1">0.15</td><td rowspan="1" colspan="1">0.33</td></tr><tr><td rowspan="1" colspan="1">Sensitivity</td><td rowspan="1" colspan="1">76.67%</td><td rowspan="1" colspan="1">73.33%</td><td rowspan="1" colspan="1">85.71%</td></tr><tr><td rowspan="1" colspan="1">Specificity</td><td rowspan="1" colspan="1">66.67%</td><td rowspan="1" colspan="1">41.67%</td><td rowspan="1" colspan="1">57.81%</td></tr><tr><td rowspan="1" colspan="1">PPV</td><td rowspan="1" colspan="1">88.46%</td><td rowspan="1" colspan="1">44.00%</td><td rowspan="1" colspan="1">30.77%</td></tr><tr><td rowspan="1" colspan="1">NPV</td><td rowspan="1" colspan="1">46.15%</td><td rowspan="1" colspan="1">71.43%</td><td rowspan="1" colspan="1">94.87%</td></tr><tr><td rowspan="1" colspan="1">DOR (95% CI)</td><td align="center" rowspan="1" colspan="1">6.57 (5.42–7.72)</td><td align="center" rowspan="1" colspan="1">1.96 (0.97–2.95)</td><td align="center" rowspan="1" colspan="1">8.22 (6.64–9.8)</td></tr></tbody></table><table-wrap-foot><fn id="tfn0003"><p><citation_analysis attribute="positive"><bold>Note</bold></citation_analysis><citation_analysis attribute="neither">: Table 2 depicts the performance parameters achieved by the ML algorithms here presented, along with the pooled performance of the STOP-Bang, according to Nagappa et al’s systematic review.</citation_analysis></p></fn><fn id="tfn0004"><p><citation_analysis attribute="positive"><bold>Abbreviations</bold></citation_analysis><citation_analysis attribute="positive">: MCC, Matthews correlation coefficient; PPV, positive predictive value; NPV, negative predictive value; DOR, diagnostic odds ratio; CI, confidence interval.</citation_analysis></p></fn></table-wrap-foot></table-wrap></citation_analysis><citation_analysis attribute="positive">
+</citation_analysis></p>
+      <p><citation_analysis attribute="neither">To visually assess the classification performance, </citation_analysis><citation_analysis attribute="positive"><xref rid="f0002" ref-type="fig">Figure 2</xref></citation_analysis><citation_analysis attribute="neither"> shows two confusion matrices for each OSAS severity prediction.</citation_analysis><citation_analysis attribute="positive"><fig position="float" id="f0002" fig-type="figure"><label>Figure 2</label><caption><p><citation_analysis attribute="neither">Confusion matrices for each AHI &lt;5 vs AHI ≥5, AHI &lt;15 vs AHI ≥15 and AHI &lt;30 vs AHI ≥30 cohort. Figure 2 shows confusion matrices normalized to the ground truth for each AHI &lt;5 vs AHI ≥5 (</citation_analysis><citation_analysis attribute="positive"><bold>A</bold></citation_analysis><citation_analysis attribute="neither">), AHI &lt;15 vs AHI ≥15 (</citation_analysis><citation_analysis attribute="positive"><bold>B</bold></citation_analysis><citation_analysis attribute="neither">) and AHI &lt;30 vs AHI ≥30 (</citation_analysis><citation_analysis attribute="positive"><bold>C</bold></citation_analysis><citation_analysis attribute="positive">) classification. The number of predictions falling in each category is shown in brackets.</citation_analysis></p></caption><graphic xlink:href="NSS-14-941-g0002" content-type="print-only" position="float"/></fig></citation_analysis></p>
+      <p><citation_analysis attribute="positive">According to the MCC, the algorithms here presented reached an overall good correlation with the severity class estimated by the CRM for AHI &lt;5 vs AHI &gt;5 prediction (MCC: 0.4) and AHI &lt;30 vs AHI ≥30 prediction (MCC: 0.3), while poor results were reached in AHI &lt;15 vs AHI ≥15 classification (MCC: 0.2). The sensitivity (AHI&lt;5 vs AHI ≥5: 76.7%; AHI &lt;15 vs AHI ≥15: 73.3%; AHI &lt;30 vs AHI ≥30: 85.7%) was lower than the sensitivity of the STOP-Bang questionnaire (AHI &lt;5 vs AHI ≥5: 90.0%; AHI &lt;15 vs AHI ≥15: 94.0%; AHI &lt;30 vs AHI ≥30: 96.0%), while the specificity (AHI &lt;5 vs AHI ≥5: 66.7%; AHI &lt;15 vs AHI ≥15: 41.7%; AHI &lt;30 vs AHI ≥30: 57.8%) always outperformed the specificity of STOP-Bang questionnaire (AHI &lt;5 vs AHI ≥5: 49.0%; AHI &lt;15 vs AHI ≥15: 34.0%; AHI &lt;30 vs AHI ≥30: 25.0%). PPV of AHI &lt;5 vs AHI ≥5 (PPV: 88.5%) and AHI &lt;30 vs AHI ≥30 (PPV: 30.8%) classifiers are in line with the pooled PPV presented by Nagappa et al (AHI &lt;5 vs AHI ≥5: 91.0%; AHI &lt;30 vs AHI ≥30: 48.0%), while the AHI &lt;15 vs AHI ≥15 classifier performs worse in predicting positive patients (PPV: 44.0%), as compared to STOP-Bang questionnaire (PPV: 72.0%). NPV of classifiers here presented (AHI &lt;5 vs AHI ≥5: 46.2%; AHI &lt;15 vs AHI ≥15: 71.4%; AHI &lt;30 vs AHI ≥30: 94.9%) matched the STOP-Bang pooled NPVs (AHI &lt;5 vs AHI ≥5: 46.0%; AHI &lt;15 vs AHI ≥15: 75.0%; AHI &lt;30 vs AHI ≥30: 90.0%). For both AHI &lt;5 vs AHI ≥5 and AHI &lt;30 vs AHI ≥30 predictions, the DOR of ML-algorithms and the STOP-Bang were similar, and their confidence interval (CI) overlapped the corresponding STOP-Bang’s CI. DOR for AHI &lt;15 vs AHI ≥15 prediction (DOR: 2.0; CI: 1.0–2.0) was lower than the corresponding STOP-Bang’s pooled DOR (DOR: 7.2; CI: 5.7–9.0).</citation_analysis></p>
+      <p><citation_analysis attribute="positive"><xref rid="f0003" ref-type="fig">Figure 3</xref></citation_analysis><citation_analysis attribute="neither"> shows the misclassified and correctly classified patients for each AHI &lt;5 vs AHI ≥5, AHI &lt;15 vs AHI ≥15 and AHI &lt;30 vs AHI ≥30 cohorts, along with the distance between the cut-off of OSAS severity estimated by the CRM ground-truth.</citation_analysis><citation_analysis attribute="positive"><fig position="float" id="f0003" fig-type="figure"><label>Figure 3</label><caption><p><citation_analysis attribute="neither">Correctly classified and misclassified patients for each AHI &lt;5 vs AHI ≥5, AHI &lt;15 vs AHI ≥15 and AHI &lt;30 vs AHI ≥30 cohort. Figure 3 shows those patients that were correctly classified (Orange) and misclassified (blue) in each AHI &lt;5 vs AHI ≥5 (</citation_analysis><citation_analysis attribute="positive"><bold>A</bold></citation_analysis><citation_analysis attribute="neither">), AHI &lt;15 vs AHI ≥15 (</citation_analysis><citation_analysis attribute="positive"><bold>B</bold></citation_analysis><citation_analysis attribute="neither">) and AHI &lt;30 vs AHI ≥30 (</citation_analysis><citation_analysis attribute="positive"><bold>C</bold></citation_analysis><citation_analysis attribute="neither">) classification. Vertical dashed lines represent the error gravity of the classifier, ie, the distance between the cut-off (dark-blue horizontal line) and the AHI estimated by the CRM ground (y axis).</citation_analysis></p></caption><graphic xlink:href="NSS-14-941-g0003" content-type="print-only" position="float"/></fig></citation_analysis></p>
+      <sec id="s0003-s2001">
+        <title>OSAS Patient Classification</title>
+        <p><citation_analysis attribute="positive">Healthy participants were not excluded neither from the AHI &lt;15 vs AHI ≥15 nor from AHI &lt;30 vs AHI ≥30 classifications so far presented. To assess the algorithm’s ability to diagnose the severity of OSAS in patients only (ie, after excluding healthy subjects), we re-trained the AHI &lt;15 vs AHI ≥15 algorithm only on those patients having AHI ≥5 (Mild vs Moderate-Severe classification), while the dataset used for training the AHI &lt;30 vs AHI ≥30 algorithm comprised only those patients having AHI ≥15 (Moderate vs Severe classification). Performance parameters and confusion matrices are shown in </citation_analysis><citation_analysis attribute="positive"><xref rid="t0003" ref-type="table">Table 3</xref></citation_analysis><citation_analysis attribute="neither"> and </citation_analysis><citation_analysis attribute="positive"><xref rid="f0004" ref-type="fig">Figure 4</xref></citation_analysis><citation_analysis attribute="neither">, respectively.</citation_analysis><citation_analysis attribute="positive"><table-wrap position="float" id="t0003"><label>Table 3</label><caption><p><citation_analysis attribute="neither">Mild vs Moderate-Severe and Moderate vs Severe Classification</citation_analysis></p></caption><table frame="hsides" rules="groups"><thead><tr><th rowspan="1" colspan="1"/><th rowspan="1" colspan="1">Mild vs Moderate-Severe 5≤AHI&lt;15</th><th rowspan="1" colspan="1">Moderate vs Severe 15≤AHI&lt;30</th></tr></thead><tbody><tr><td rowspan="1" colspan="1">MCC</td><td rowspan="1" colspan="1">0.28</td><td rowspan="1" colspan="1">0.55</td></tr><tr><td rowspan="1" colspan="1">Sensitivity</td><td rowspan="1" colspan="1">80%</td><td rowspan="1" colspan="1">57.14%</td></tr><tr><td rowspan="1" colspan="1">Specificity</td><td rowspan="1" colspan="1">46.67%</td><td rowspan="1" colspan="1">93.75%</td></tr><tr><td rowspan="1" colspan="1">PPV</td><td rowspan="1" colspan="1">60%</td><td rowspan="1" colspan="1">88.89%</td></tr><tr><td rowspan="1" colspan="1">NPV</td><td rowspan="1" colspan="1">70%</td><td rowspan="1" colspan="1">71.43%</td></tr><tr><td rowspan="1" colspan="1">DOR (95% CI)</td><td align="center" rowspan="1" colspan="1">3.5 (2.35–4.65)</td><td align="center" rowspan="1" colspan="1">20.0 (17.72–22.28)</td></tr></tbody></table><table-wrap-foot><fn id="tfn0005"><p><citation_analysis attribute="positive"><bold>Notes</bold></citation_analysis><citation_analysis attribute="neither">: Table 3 shows the metrics of performance achieved by the Mild vs Moderate-Severe and Moderate vs Severe classifiers. MCC: Matthews correlation coefficient.</citation_analysis></p></fn><fn id="tfn0006"><p><citation_analysis attribute="positive"><bold>Abbreviations</bold></citation_analysis><citation_analysis attribute="positive">: PPV, positive predictive value; NPV, negative predictive value; DOR, diagnostic odds ratio; CI, confidence interval.</citation_analysis></p></fn></table-wrap-foot></table-wrap></citation_analysis><citation_analysis attribute="positive">
+</citation_analysis><citation_analysis attribute="positive"><fig position="float" id="f0004" fig-type="figure"><label>Figure 4</label><caption><p><citation_analysis attribute="neither">Confusion matrices for Mild vs Moderate-Severe and Moderate vs Severe classifiers. Figure 4 shows confusion matrices normalized to the ground truth for Mild vs Moderate-Severe, ie, AHI &lt;15 vs AHI ≥15 (</citation_analysis><citation_analysis attribute="positive"><bold>A</bold></citation_analysis><citation_analysis attribute="neither">) and Moderate vs Severe, ie, AHI &lt;30 vs AHI ≥30 (</citation_analysis><citation_analysis attribute="positive"><bold>B</bold></citation_analysis><citation_analysis attribute="positive">) classifications. The number of predictions falling in each category is shown in brackets.</citation_analysis></p></caption><graphic xlink:href="NSS-14-941-g0004" content-type="print-only" position="float"/></fig></citation_analysis></p>
+        <p><citation_analysis attribute="neither">Both the Mild vs Moderate-Severe (MCC: 0.3) and the Moderate vs Severe (MCC: 0.6) classification reached a good concordance with the CRM’s severity class. Mild vs Moderate-Severe classification reached a high sensitivity score (Sensitivity: 80%) but a poor specificity (Specificity: 46.7%). On the contrary, Moderate vs Severe classification showed a high specificity (Specificity: 93.8%) but a poor sensitivity (Sensitivity: 57.1%). PPV was higher in the Moderate vs Severe classification (PPV: 88.9%) than in the Mild vs Moderate-Severe classification (PPV: 60%), while the NPVs of these ML algorithms were similar (Mild vs Moderate-Severe: 70.0%; Moderate vs Severe classification: 71.4%). DOR was notably high in Moderate vs Severe classification (DOR: 20.0; CI: 17.7–22.3), while it was lower in Mild vs Moderate-Severe classification (DOR: 3.5; CI: 2.4–4.7).</citation_analysis></p>
+        <p><citation_analysis attribute="positive"><xref rid="f0005" ref-type="fig">Figure 5</xref></citation_analysis><citation_analysis attribute="positive"> shows the misclassified patients by AHI &lt;15 vs AHI ≥15 and AHI &lt;30 vs AHI ≥30 predictions. For each patient, its AHI and AHI severity class estimated by CRM is reported along with the predicted class by ML algorithms.</citation_analysis><citation_analysis attribute="positive"><fig position="float" id="f0005" fig-type="figure"><label>Figure 5</label><caption><p><citation_analysis attribute="neither">Correctly classified and misclassified patients for Mild vs Moderate-Severe and Moderate vs Severe classifiers. Figure 5 shows those patients that were correctly classified (Orange) misclassified (blue) in each Mild vs Moderate-Severe (</citation_analysis><citation_analysis attribute="positive"><bold>A</bold></citation_analysis><citation_analysis attribute="neither">), Moderate vs Severe (</citation_analysis><citation_analysis attribute="positive"><bold>B</bold></citation_analysis><citation_analysis attribute="neither">) classification. Vertical dashed lines represent the degree of error of the classifier, ie, the distance between the cut-off (dark-blue horizontal line) and the AHI estimated by the CRM ground (y axis).</citation_analysis></p></caption><graphic xlink:href="NSS-14-941-g0005" content-type="print-only" position="float"/></fig></citation_analysis></p>
+      </sec>
+      <sec sec-type="intro" id="s0003-s2002">
+        <title>Introspection Analysis: Feature Importance</title>
+        <p><citation_analysis attribute="positive"><xref rid="f0006" ref-type="fig">Figure 6</xref></citation_analysis><citation_analysis attribute="neither"> depicts the results of the feature importance analysis for each of the algorithms here presented.</citation_analysis><citation_analysis attribute="positive"><fig position="float" id="f0006" fig-type="figure"><label>Figure 6</label><caption><p><citation_analysis attribute="neither">Mean feature importance for each classifier. Figure 6 shows the mean feature importance of each descriptor fed in the algorithms of the following classifiers: AHI &lt;5 vs AHI ≥5 (</citation_analysis><citation_analysis attribute="positive"><bold>A</bold></citation_analysis><citation_analysis attribute="neither">), AHI &lt;15 vs AHI ≥15 (</citation_analysis><citation_analysis attribute="positive"><bold>B</bold></citation_analysis><citation_analysis attribute="neither">), AHI &lt;30 vs AHI ≥30 (</citation_analysis><citation_analysis attribute="positive"><bold>C</bold></citation_analysis><citation_analysis attribute="neither">), Mild vs Moderate-Severe (</citation_analysis><citation_analysis attribute="positive"><bold>D</bold></citation_analysis><citation_analysis attribute="neither">) and Moderate vs Severe (</citation_analysis><citation_analysis attribute="positive"><bold>E</bold></citation_analysis><citation_analysis attribute="neither">) classifications. The feature importance is a metric for introspecting a machine-learning model. This technique weights how much a descriptor contributes to the classifier.</citation_analysis></p></caption><graphic xlink:href="NSS-14-941-g0006" content-type="print-only" position="float"/></fig></citation_analysis></p>
+        <p><citation_analysis attribute="neither">The AHI &lt;5 vs AHI ≥5 algorithm relies significantly on TST (0.167 ± 0.041), WASO (0.141 ± 0.038), Age (0.058 ± 0.026), and SFI (0.054 ± 0.024). Gender (0.004 ± 0.006), BMI (0.002 ± 0.009), Naw (0.017 ± 0.022), mLaw (0.0189 ± 0.020), SE (0.013 ± 0.021), mHRs (0.014 ± 0.017) and mHRw (0.014 ± 0.017) contribute less to the model.</citation_analysis></p>
+        <p><citation_analysis attribute="positive">The AHI &lt;15 vs AHI ≥15 algorithm’s features contribute homogeneously to the model, as suggested by the following model scores: Age (0.018 ± 0.013); Gender (0.013 ± 0.008); BMI (0.010 ± 0.008); Naw (0.018 ± 0.018); SFI (0.021 ± 0.015); mLaw (0.020 ± 0.013); WASO (0.024 ± 0.019); mHRs (0.024 ± 0.031); mHRw (0.034 ± 0.023). On the other hand, TST (−0.020 ± 0.030) and SE (−0.011 ± 0.017) show a weaker effect.</citation_analysis></p>
+        <p><citation_analysis attribute="neither">The AHI &lt;30 vs AHI ≥30 algorithm’s main features are represented by Age (0.033 ± 0.020), Gender (0.025 ± 0.014) and SFI (0.016 ± 0.019). BMI (0.001 ± 0.001), Naw (0.003 ± 0.009), mLaw (0.003 ± 0.011), TST (0.001 ± 0.014), WASO (0.006 ± 0.007), mHRs (0.002 ± 0.010), SE (−0.008 ± 0.013) and mHRw (−0.012 ± 0.013) do not significantly contribute to the performance of this algorithm.</citation_analysis></p>
+        <p><citation_analysis attribute="positive">The Mild vs Moderate-Severe algorithm was found to mainly rely on the following descriptors: BMI (0.013 ± 0.006); Naw (0.029 ± 0.023) and mLaw (0.026 ± 0.015). Low or none contribution was given by Age (0.001 ± 0.004), Gender (0 ± 0), SFI (0.001 ± 0.006), mHRs (0.008 ± 0.009) and mHRw (0.001 ± 0.017). TST (−0.036 ± 0.027), WASO (−0.002 ± 0.013) and SE (−0.009 ± 0.019) did not show model scores.</citation_analysis></p>
+        <p><citation_analysis attribute="neither">The Moderate vs Severe classifier is mainly based on SFI (0.021 ± 0.019) and SE (0.021 ± 0.014). Little contribution was provided by the following descriptors: Age (0.001 ± 0.014); Gender (0 ± 0); BMI (0.001 ± 0.021); mLaw (−0.003 ± 0.021); TST (0.006 ± 0.018); WASO (0 ± 0); SE (0.021 ± 0.014); Naw (−0.027 ± 0.025); mHRs (−0.011 ± 0.013); mHRw (−0.008 ± 0.019).</citation_analysis></p>
+      </sec>
+    </sec>
+    <sec id="s0004">
+      <title>Discussion</title>
+      <p><citation_analysis attribute="positive">In this study, we assessed the performance of three different machine learning (ML) algorithms trained on accelerometric and photoplethysmographic data collected through wrist-worn Fitbit Inc.’s smartbands. The algorithms were independently trained on two independent data cohorts. For the first data cohort, the dataset collected was subdivided according to the following AHI cut-offs: AHI &lt;5/AHI ≥5, AHI &lt;15/AHI ≥15 and AHI &lt;30/AHI ≥30. Each AHI &lt;5, AHI &lt;15 and AHI &lt;30 class comprised all the patients having the AHI estimated by CRM, respectively, below 5/h, 15/h, and 30/h. For the second data cohort, we excluded from the AHI &lt;15 class the patients having AHI &lt;5/h, while those patients having AHI &lt;15/h were excluded from the AHI &lt;30 class. We chose this dual approach for several reasons: the first data cohort served the purpose of comparing the outcome of the classifier with the STOP-Bang Questionnaire’s pooled performance, according to the metrics reported by Nagappa et al’s systematic review. DOR is a useful tool for comparing the performance of different diagnostic tests evaluated in different studies.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0047" ref-type="bibr">47</xref></citation_analysis><citation_analysis attribute="neither"> For AHI &lt;5 vs AHI ≥5 and AHI &lt;30 vs AHI ≥30 classification, the DOR reached by our ML approach is comparable to the pooled DOR reached by the STOP-Bang questionnaire (</citation_analysis><citation_analysis attribute="positive"><xref rid="t0002" ref-type="table">Table 2</xref></citation_analysis><citation_analysis attribute="neither">). Conversely, the DOR of the AHI &lt;15 vs AHI ≥15 classifier is lower than the pooled DOR for the STOP-Bang. Even if useful for comparing diagnostic tests, DOR only is not sufficient to decide whether to include a new diagnostic tool in the clinical practice.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0047" ref-type="bibr">47</xref></citation_analysis><citation_analysis attribute="neither"> For this purpose, PPV and NPV are more reliable parameters. For each classifier, PPV and NPV of ML algorithms are comparable to the pooled performance parameters of the STOP-Bang Questionnaire, suggesting that ML algorithms based on data collected through smartband data could serve as a viable strategy to screen OSAS in the general population.</citation_analysis></p>
+      <p><citation_analysis attribute="negative">The second data cohort, in which AHI &lt;15 vs AHI ≥15 and AHI &lt;30 vs AHI ≥30 classifiers were trained on modified datasets, was not intended to be applied for comparison between screening tools, but to combine the ML algorithms in a multistep process that aims at estimating OSAS severity. Once classified as at risk of OSAS through the AHI &lt;5 vs AHI ≥5 classifier, the patient’s measures could be fed into AHI &lt;15 vs AHI ≥15 and AHI &lt;30 vs AHI ≥30 classifiers to assess the severity of the disease. This double step approach has a practical application: according to both the AASM’s clinical practice guidelines</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0007" ref-type="bibr">7</xref></citation_analysis><citation_analysis attribute="neither"> and the algorithm for diagnosis of OSAS proposed by the European Respiratory Society (ERS) task force,</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0049" ref-type="bibr">49</xref></citation_analysis><citation_analysis attribute="neither"> PSG and CRM are tests to be undergone only after a clinical evaluation of the patient. In particular, the AASM’s diagnostic algorithm begins upon “clinical suspicion based on a comprehensive sleep evaluation” and the collection of the information necessary to establish a differential diagnosis, and to administer the most adequate clinical diagnostic tests. AASM does not propose a standard procedure to make this clinical evaluation, such as a standardized administration of pre-tests that return a clinical probability of OSAS. Given the widespread distribution of wearable devices,</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0029" ref-type="bibr">29</xref></citation_analysis><citation_analysis attribute="neither"> an algorithm can be a feasible standard procedure to screen the general population for OSAS.</citation_analysis></p>
+      <p><citation_analysis attribute="neither">The performance achieved by the AHI &lt;5 vs AHI ≥5 algorithm is comparable to the one of other studies in which ML-algorithms were trained on data derived from wearable devices. In </citation_analysis><citation_analysis attribute="positive"><xref rid="t0004" ref-type="table">Table 4</xref></citation_analysis><citation_analysis attribute="neither"> is compared the performance of our algorithm that makes the AHI &lt;5 vs AHI ≥5 classification to performance’s metrics of other studies.</citation_analysis><citation_analysis attribute="positive"><table-wrap position="float" id="t0004"><label>Table 4</label><caption><p><citation_analysis attribute="neither">Comparison of the AHI &lt;5 vs AHI &gt;5 Algorithm to Other ML-Algorithms Based on Wearable Devices</citation_analysis></p></caption><table frame="hsides" rules="groups"><thead><tr><th rowspan="1" colspan="1"/><th rowspan="1" colspan="1">This Study</th><th rowspan="1" colspan="1">Papini et al.<xref rid="cit0025" ref-type="bibr">25</xref></th><th rowspan="1" colspan="1">Wu et al.<xref rid="cit0050" ref-type="bibr">50</xref></th><th rowspan="1" colspan="1">Baty et al.<xref rid="cit0028" ref-type="bibr">28</xref></th></tr></thead><tbody><tr><td rowspan="1" colspan="1">Sensitivity</td><td rowspan="1" colspan="1">76.67%</td><td rowspan="1" colspan="1">77%</td><td rowspan="1" colspan="1">76.7%</td><td rowspan="1" colspan="1">70%</td></tr><tr><td rowspan="1" colspan="1">Specificity</td><td rowspan="1" colspan="1">66.67%</td><td rowspan="1" colspan="1">72%</td><td rowspan="1" colspan="1">89.6%</td><td rowspan="1" colspan="1">74%</td></tr><tr><td rowspan="1" colspan="1">PPV</td><td rowspan="1" colspan="1">88.46%</td><td rowspan="1" colspan="1">83%</td><td align="center" rowspan="1" colspan="1">Not reported</td><td align="center" rowspan="1" colspan="1">Not reported</td></tr></tbody></table><table-wrap-foot><fn id="tfn0007"><p><citation_analysis attribute="positive"><bold>Notes</bold></citation_analysis><citation_analysis attribute="positive">: This table compares the performance of our algorithm (AHI&lt;5 vs AHI≥5) in identifying OSAS of any severity to the performance reached by other wearable devices. Papini et al used ML-algorithms trained on reflective photoplethysmography; we reported the sensitivity, specificity, and positive predictive value (PPV) achieved in the AHI≥5 classification. Wu et al analysed the short-term fluctuations in the heart rate through both static and dynamic information-based similarity; heart rate data was derived from a wearable photoplethysmograph. Baty et al used a wearable band to collect electrocardiographic data and then trained four different classifiers. The best performance in the latter study was reached in the AHI&lt;15 vs AHI≥15 classification (healthy and mild OSAS vs moderate and severe OSAS). Our algorithms reached a performance comparable to the one achieved by other ML-algorithms presented in literature.</citation_analysis></p></fn></table-wrap-foot></table-wrap></citation_analysis><citation_analysis attribute="positive">
+</citation_analysis></p>
+      <p><citation_analysis attribute="neither">The sensitivity of the algorithms presented in these studies averages off at 77%. This might suggest that the intrinsic instability of the wearable sensor placed around the wrist</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0025" ref-type="bibr">25</xref></citation_analysis><citation_analysis attribute="neither">,</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0050" ref-type="bibr">50</xref></citation_analysis><citation_analysis attribute="neither"> or the thorax, as in Baty et al</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0028" ref-type="bibr">28</xref></citation_analysis><citation_analysis attribute="neither"> may account for the lower performance compared to non-wearable devices (as later discussed in Limitations).</citation_analysis></p>
+      <p><citation_analysis attribute="positive">ML-algorithms based on physiological data could have several advantages over the commonly used self-reported questionnaires: monitoring through smartbands would avoid the subjectivity of self-reported symptoms. Since they do not require the wearer to play an active part in the diagnostic process, they could be affected less by the OSAS-suspected willingness to fill in a questionnaire. Furthermore, their minimal invasiveness could increase patients’ compliance. To support the latter point, wrist-worn smartbands have been tested and validated in different clinical and home-monitoring settings and have been always found as well-tolerated tools.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0051" ref-type="bibr">51–53</xref></citation_analysis><citation_analysis attribute="neither"> Another advantage of commercial smartbands over self-reported questionnaires is the long-term data storage and their suitability to retrospective studies. Users’ data collected through Fitbit Inc.’s and similar devices can be indefinitely stored within the manufacturer’s server, and thereby retrieved through the API provided by the company. Since OSAS is often unrecognized, the opportunity to retroactively screen wearables’ users through previously collected smartbands’ measures is a promising way for identifying potential OSAS patients unaware of their condition. The cohort of people that can take advantage of this retroactive approach is higher than 31 million people, the number of active users of Fitbit Inc.’s devices in 2020</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0054" ref-type="bibr">54</xref></citation_analysis><citation_analysis attribute="neither">. This number will probably raise in the next years, according to perspective studies on the wearable devices’ share in forthcoming years.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0055" ref-type="bibr">55</xref></citation_analysis></p>
+    </sec>
+    <sec id="s0005">
+      <title>Limitations</title>
+      <p><citation_analysis attribute="negative">A limitation of this study consists of the misclassification of several patients by the ML algorithms. Even if both overestimation and underestimation of patients’ severity could occur, underestimation is the most critical one since it can prevent a patient from undergoing additional investigations. This point is crucial for the AHI &lt;5 vs AHI &gt;5 algorithm, the first step in the evaluation of OSAS risk. To investigate the possible causes of misclassification, we inspected the AHI of patients whose disease severity was underestimated by the AHI &lt;5 vs AHI ≥5 algorithm (</citation_analysis><citation_analysis attribute="positive"><xref rid="t0005" ref-type="table">Table 5</xref></citation_analysis><citation_analysis attribute="neither">).</citation_analysis><citation_analysis attribute="positive"><table-wrap position="float" id="t0005"><label>Table 5</label><caption><p><citation_analysis attribute="neither">Apnoea Hypopnoea Index for Underestimated Patients by the AHI &lt;5 vs AHI ≥5 Algorithm</citation_analysis></p></caption><table frame="hsides" rules="groups"><thead><tr><th rowspan="1" colspan="1">ID</th><th rowspan="1" colspan="1">AHI</th><th rowspan="1" colspan="1">Apnoea Index</th><th rowspan="1" colspan="1">Hypopnoea Index</th></tr></thead><tbody><tr><td rowspan="1" colspan="1">2</td><td rowspan="1" colspan="1">27.7/h</td><td rowspan="1" colspan="1">7.5/h</td><td rowspan="1" colspan="1">20.2/h</td></tr><tr><td rowspan="1" colspan="1">4</td><td rowspan="1" colspan="1">31.8/h</td><td rowspan="1" colspan="1">17.7/h</td><td rowspan="1" colspan="1">14.1/h</td></tr><tr><td rowspan="1" colspan="1">6</td><td rowspan="1" colspan="1">38.8/h</td><td rowspan="1" colspan="1">26.5/h</td><td rowspan="1" colspan="1">12.3/h</td></tr><tr><td rowspan="1" colspan="1">10</td><td rowspan="1" colspan="1">19.8/h</td><td rowspan="1" colspan="1">6.6/h</td><td rowspan="1" colspan="1">13.2/h</td></tr><tr><td rowspan="1" colspan="1">11</td><td rowspan="1" colspan="1">16.8/h</td><td rowspan="1" colspan="1">11.7/h</td><td rowspan="1" colspan="1">5.0/h</td></tr><tr><td rowspan="1" colspan="1">16</td><td rowspan="1" colspan="1">6.8/h</td><td rowspan="1" colspan="1">1.0/h</td><td rowspan="1" colspan="1">5.7/h</td></tr><tr><td rowspan="1" colspan="1">21</td><td rowspan="1" colspan="1">5.7/h</td><td rowspan="1" colspan="1">0/h</td><td rowspan="1" colspan="1">5.7/h</td></tr><tr><td rowspan="1" colspan="1">22</td><td rowspan="1" colspan="1">11.4/h</td><td rowspan="1" colspan="1">2.0/h</td><td rowspan="1" colspan="1">9.4/h</td></tr><tr><td rowspan="1" colspan="1">36</td><td rowspan="1" colspan="1">8.1/h</td><td rowspan="1" colspan="1">0.6/h</td><td rowspan="1" colspan="1">7.5/h</td></tr><tr><td rowspan="1" colspan="1">41</td><td rowspan="1" colspan="1">21.7/h</td><td rowspan="1" colspan="1">10.3/h</td><td rowspan="1" colspan="1">11.4/h</td></tr><tr><td rowspan="1" colspan="1">59</td><td rowspan="1" colspan="1">16.2/h</td><td rowspan="1" colspan="1">3.4/h</td><td rowspan="1" colspan="1">12.8/h</td></tr><tr><td rowspan="1" colspan="1">66</td><td rowspan="1" colspan="1">8.3/h</td><td rowspan="1" colspan="1">0.0/h</td><td rowspan="1" colspan="1">8.3/h</td></tr><tr><td rowspan="1" colspan="1">73</td><td rowspan="1" colspan="1">12.2/h</td><td rowspan="1" colspan="1">0.3/h</td><td rowspan="1" colspan="1">11.9/h</td></tr><tr><td rowspan="1" colspan="1">75</td><td rowspan="1" colspan="1">5.27h</td><td rowspan="1" colspan="1">0.7/h</td><td rowspan="1" colspan="1">4.5/h</td></tr></tbody></table><table-wrap-foot><fn id="tfn0008"><p><citation_analysis attribute="positive"><bold>Notes</bold></citation_analysis><citation_analysis attribute="neither">: Table 5 shows the apnoea hypopnoea index those patients that were underestimated by the AHI&lt;5 vs AHI≥5 algorithm. The large majority of underestimated patients suffers mainly from hypopneas, which is a known source of disagreement between humans and algorithms.</citation_analysis></p></fn><fn id="tfn0009"><p><citation_analysis attribute="positive"><bold>Abbreviation</bold></citation_analysis><citation_analysis attribute="neither">: AHI, apnoea/hypopnea index.</citation_analysis></p></fn></table-wrap-foot></table-wrap></citation_analysis><citation_analysis attribute="positive">
+</citation_analysis></p>
+      <p><citation_analysis attribute="neither">The vast majority of AHI underestimations presented mainly hypopnea events (11 participants out of 14), which are a known source of higher disagreement between human and automatic scorers.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0025" ref-type="bibr">25</xref></citation_analysis><citation_analysis attribute="neither">,</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0056" ref-type="bibr">56</xref></citation_analysis><citation_analysis attribute="neither">,</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0057" ref-type="bibr">57</xref></citation_analysis></p>
+      <p><citation_analysis attribute="negative">Another possible limitation of the study is represented by the worse performance attained by our algorithms compared to other non-wearable medical devices. Tang and Liu</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0058" ref-type="bibr">58</xref></citation_analysis><citation_analysis attribute="neither"> proposed a new index, derived from a temporal dependency analysis method, achieving a sensitivity of 92.5% of OSAS screening. Gupta et al</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0018" ref-type="bibr">18</xref></citation_analysis><citation_analysis attribute="neither"> achieved an accuracy of 94.97%, a sensitivity of 94.58% and a specificity of 94.95% training their OSACN-Net model on single-lead ECG data. These studies outperformed our algorithms. Nevertheless, our performance is in line with that reached by other wearable devices, as discussed. The possible explanation to this gap in performance might be found in the different kind of information conveyed by wrist-worn smartbands. The information collected through electrocardiography allows the deep neural network to extract features that are informative over the state of the autonomic nervous system, which is known to be affected by the OSAS events.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0059" ref-type="bibr">59</xref></citation_analysis><citation_analysis attribute="neither"> The nature of the wearable data is intrinsically simpler and comes with a lower amount of information: wrist-worn smartbands collect heart rate with a one-minute sampling frequency, and accelerometric data of the wrist with a one-minute sampling frequency. We exclude that the deterioration of performance is caused by an imbalance of AHI classes (healthy, mild OSAS, moderate OSAS and severe OSAS) insofar as in each leave-one-out split we adopted a procedure (as already discussed in the methods section) that aimed at avoiding any imbalance in the dataset fed into the algorithms.</citation_analysis></p>
+      <p><citation_analysis attribute="neither">In the clinical setting, actigraphic data (if available) could be retrospectively used in patients with a clinical suspicion of OSAS without performing any further examination. Moreover, a combined use of both self-reported questionnaire and physiological data could be implemented, further improving diagnostic value.</citation_analysis></p>
+      <p><citation_analysis attribute="neither">Even if trained on Fitbit Charge4</citation_analysis><citation_analysis attribute="positive"><sup>TM</sup></citation_analysis><citation_analysis attribute="neither"> and Fitbit AltaHR</citation_analysis><citation_analysis attribute="positive"><sup>TM</sup></citation_analysis><citation_analysis attribute="neither">, our algorithms can be applied to other devices, given that the sensors of Fitbit Inc. are not device-specific but are shared by different smartbands.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0033" ref-type="bibr">33</xref></citation_analysis><citation_analysis attribute="neither"> Unfortunately, the recruited patients were only Caucasian: it is not possible to predict the performance of these classifiers on other human populations of skin tone, known to affect the quality of photoplethysmographic measures.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0060" ref-type="bibr">60</xref></citation_analysis></p>
+      <p><citation_analysis attribute="positive">Future developments in the proposed screening algorithms will likely incorporate descriptors such as oxygen saturation and blood pressure, when the relative data collected by novel consumer sensors will become available.</citation_analysis><citation_analysis attribute="positive"><xref rid="cit0061" ref-type="bibr">61</xref></citation_analysis></p>
+    </sec>
+    <sec id="s0006">
+      <title>Conclusions</title>
+      <p><citation_analysis attribute="positive">In this study, we trained a multistep machine learning algorithm to classify the severity of OSAS using cardiorespiratory monitoring as ground truth reference. The classifiers were trained on data collected through wrist-worn smartbands. The sensitivity and specificity achieved by our AHI &lt;5 vs AHI &gt;5 algorithm are in line with the ones of other algorithms trained on data derived by wearable devices. The results indicate that these devices could be a promising source of physiological data to train algorithms based on artificial intelligence architectures. These algorithms capable of identifying OSAS patients among apparently healthy individuals and of evaluating the severity of the disease in OSAS patients, might be useful to make a large-scale population screening for OSAS. The low invasiveness, and convenience of these commercially available devices, along with their comparable performance to commonly used subjective self-reported questionnaires make smartbands suitable for screening in the general population for OSAS.</citation_analysis></p>
+    </sec>
+  </body>
+  <back>
+    <sec id="s0007">
+      <title>Abbreviations</title>
+      <p><citation_analysis attribute="neither">AASM, American Academy of Sleep Medicine; AHI, Apnoea Hypopnoea Index; API, Application Programming Interface; CRM, Cardiorespiratory Monitoring; ERS, European Respiratory Society; FN, False Negative; FP, False Positive; HR, Heart Rate; LOO, Leave-One-Out; MCC, Matthews correlation coefficient; mHRs, mean HR during sleep; mHRw, mean HR during sleep arousal; ML, Machine Learning; mLaw, mean length of awakenings after sleep onset; MLP, multi-layer perceptron; Naw, number of awakenings; OSAS, Obstructive Sleep Apnoea Syndrome; PSG, Polysomnography; ReLU, Rectified Linear Unit; SE, Sleep Efficiency; SFI, Sleep Fragmentation Index; SLIM, Supersparse Linear Integer Model; TN, True Negative; TP, True Positive; TST, Total Sleep Time; WASO, Wake After Sleep Onset.</citation_analysis></p>
+    </sec>
+    <sec sec-type="COI-statement" id="s0008">
+      <title>Disclosure</title>
+      <p><citation_analysis attribute="neither">UF and UO are co-founders of sleepActa S.r.l, a spin-off company of the University of Pisa operating in the field of sleep medicine. All other authors declare no competing interests.</citation_analysis></p>
+    </sec>
+    <ref-list>
+      <title>References</title>
+      <ref id="cit0001">
+        <label>1.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Roux</surname>
+<given-names>F</given-names></string-name>, <string-name><surname>D’Ambrosio</surname>
+<given-names>C</given-names></string-name>, <string-name><surname>Mohsenin</surname>
+<given-names>V</given-names></string-name>. <article-title>Sleep-related breathing disorders and cardiovascular disease</article-title>. <source><italic toggle="yes">Am J Med</italic></source>. <year>2000</year>;<volume>108</volume>(<issue>5</issue>):<fpage>396</fpage>–<lpage>402</lpage>. doi:<pub-id pub-id-type="doi">10.1016/S0002-9343(00)00302-8</pub-id><pub-id pub-id-type="pmid">10759096</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0002">
+        <label>2.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Punjabi</surname>
+<given-names>NM</given-names></string-name>. <article-title>The epidemiology of adult obstructive sleep apnea</article-title>. <source><italic toggle="yes">Proc Am Thorac Soc</italic></source>. <year>2008</year>;<volume>5</volume>(<issue>2</issue>):<fpage>136</fpage>–<lpage>143</lpage>. doi:<pub-id pub-id-type="doi">10.1513/pats.200709-155MG</pub-id><pub-id pub-id-type="pmid">18250205</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0003">
+        <label>3.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Franklin</surname>
+<given-names>KA</given-names></string-name>, <string-name><surname>Lindberg</surname>
+<given-names>E</given-names></string-name>. <article-title>Obstructive sleep apnea is a common disorder in the population - a review on the epidemiology of sleep apnea</article-title>. <source><italic toggle="yes">J Thorac Dis</italic></source>. <year>2015</year>;<volume>7</volume>(<issue>8</issue>):<fpage>1311</fpage>–<lpage>1322</lpage>. doi:<pub-id pub-id-type="doi">10.3978/j.issn.2072-1439.2015.06.11</pub-id><pub-id pub-id-type="pmid">26380759</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0004">
+        <label>4.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Dodds</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Williams</surname>
+<given-names>LJ</given-names></string-name>, <string-name><surname>Roguski</surname>
+<given-names>A</given-names></string-name>, et al. <article-title>Mortality and morbidity in obstructive sleep apnoea-hypopnoea syndrome: results from a 30-year prospective cohort study</article-title>. <source><italic toggle="yes">ERJ Open Res</italic></source>. <year>2020</year>;<volume>6</volume>(<issue>3</issue>):<fpage>00057</fpage>–<lpage>2020</lpage>. doi:<pub-id pub-id-type="doi">10.1183/23120541.00057-2020</pub-id><pub-id pub-id-type="pmid">32963994</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0005">
+        <label>5.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Parra</surname>
+<given-names>O</given-names></string-name>, <string-name><surname>Arboix</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Montserrat</surname>
+<given-names>JM</given-names></string-name>, <string-name><surname>Quinto</surname>
+<given-names>L</given-names></string-name>, <string-name><surname>Bechich</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Garcia-Eroles</surname>
+<given-names>L</given-names></string-name>. <article-title>Sleep-related breathing disorders: impact on mortality of cerebrovascular disease</article-title>. <source><italic toggle="yes">Eur Respir J</italic></source>. <year>2004</year>;<volume>24</volume>(<issue>2</issue>):<fpage>267</fpage>–<lpage>272</lpage>. doi:<pub-id pub-id-type="doi">10.1183/09031936.04.00061503</pub-id><pub-id pub-id-type="pmid">15332396</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0006">
+        <label>6.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Vijayan</surname>
+<given-names>VK</given-names></string-name>. <article-title>Morbidities associated with obstructive sleep apnea</article-title>. <source><italic toggle="yes">Expert Rev Respir Med</italic></source>. <year>2012</year>;<volume>6</volume>(<issue>5</issue>):<fpage>557</fpage>–<lpage>566</lpage>. doi:<pub-id pub-id-type="doi">10.1586/ers.12.44</pub-id><pub-id pub-id-type="pmid">23134249</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0007">
+        <label>7.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Kapur</surname>
+<given-names>VK</given-names></string-name>, <string-name><surname>Auckley</surname>
+<given-names>DH</given-names></string-name>, <string-name><surname>Chowdhuri</surname>
+<given-names>S</given-names></string-name>, et al. <article-title>Clinical practice guideline for diagnostic testing for adult obstructive sleep apnea: an American Academy of Sleep Medicine Clinical Practice Guideline</article-title>. <source><italic toggle="yes">J Clin Sleep Med</italic></source>. <year>2017</year>;<volume>13</volume>(<issue>3</issue>):<fpage>479</fpage>–<lpage>504</lpage>. doi:<pub-id pub-id-type="doi">10.5664/jcsm.6506</pub-id><pub-id pub-id-type="pmid">28162150</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0008">
+        <label>8.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Corral-Penafiel</surname>
+<given-names>J</given-names></string-name>, <string-name><surname>Pepin</surname>
+<given-names>JL</given-names></string-name>, <string-name><surname>Barbe</surname>
+<given-names>F</given-names></string-name>. <article-title>Ambulatory monitoring in the diagnosis and management of obstructive sleep apnoea syndrome</article-title>. <source><italic toggle="yes">Eur Respir Rev</italic></source>. <year>2013</year>;<volume>22</volume>(<issue>129</issue>):<fpage>312</fpage>–<lpage>324</lpage>. doi:<pub-id pub-id-type="doi">10.1183/09059180.00004213</pub-id><pub-id pub-id-type="pmid">23997059</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0009">
+        <label>9.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Elbaz</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Roue</surname>
+<given-names>GM</given-names></string-name>, <string-name><surname>Lofaso</surname>
+<given-names>F</given-names></string-name>, <string-name><surname>Quera Salva</surname>
+<given-names>MA</given-names></string-name>. <article-title>Utility of actigraphy in the diagnosis of obstructive sleep apnea</article-title>. <source><italic toggle="yes">Sleep</italic></source>. <year>2002</year>;<volume>25</volume>(<issue>5</issue>):<fpage>527</fpage>–<lpage>531</lpage>.<pub-id pub-id-type="pmid">12150319</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0010">
+        <label>10.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Mencar</surname>
+<given-names>C</given-names></string-name>, <string-name><surname>Gallo</surname>
+<given-names>C</given-names></string-name>, <string-name><surname>Mantero</surname>
+<given-names>M</given-names></string-name>, et al. <article-title>Application of machine learning to predict obstructive sleep apnea syndrome severity</article-title>. <source><italic toggle="yes">Health Informatics J</italic></source>. <year>2020</year>;<volume>26</volume>(<issue>1</issue>):<fpage>298</fpage>–<lpage>317</lpage>. doi:<pub-id pub-id-type="doi">10.1177/1460458218824725</pub-id><pub-id pub-id-type="pmid">30696334</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0011">
+        <label>11.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Singh</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Liao</surname>
+<given-names>P</given-names></string-name>, <string-name><surname>Kobah</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Wijeysundera</surname>
+<given-names>DN</given-names></string-name>, <string-name><surname>Shapiro</surname>
+<given-names>C</given-names></string-name>, <string-name><surname>Chung</surname>
+<given-names>F</given-names></string-name>. <article-title>Proportion of surgical patients with undiagnosed obstructive sleep apnoea</article-title>. <source><italic toggle="yes">Br J Anaesth</italic></source>. <year>2013</year>;<volume>110</volume>(<issue>4</issue>):<fpage>629</fpage>–<lpage>636</lpage>. doi:<pub-id pub-id-type="doi">10.1093/bja/aes465</pub-id><pub-id pub-id-type="pmid">23257990</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0012">
+        <label>12.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Young</surname>
+<given-names>T</given-names></string-name>, <string-name><surname>Evans</surname>
+<given-names>L</given-names></string-name>, <string-name><surname>Finn</surname>
+<given-names>L</given-names></string-name>, <string-name><surname>Palta</surname>
+<given-names>M</given-names></string-name>. <article-title>Estimation of the clinically diagnosed proportion of sleep apnea syndrome in middle-aged men and women</article-title>. <source><italic toggle="yes">Sleep</italic></source>. <year>1997</year>;<volume>20</volume>(<issue>9</issue>):<fpage>705</fpage>–<lpage>706</lpage>. doi:<pub-id pub-id-type="doi">10.1093/sleep/20.9.705</pub-id><pub-id pub-id-type="pmid">9406321</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0013">
+        <label>13.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Jo</surname>
+<given-names>JA</given-names></string-name>, <string-name><surname>Blasi</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Valladares</surname>
+<given-names>E</given-names></string-name>, <string-name><surname>Juarez</surname>
+<given-names>R</given-names></string-name>, <string-name><surname>Baydur</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Khoo</surname>
+<given-names>MC</given-names></string-name>. <article-title>Determinants of heart rate variability in obstructive sleep apnea syndrome during wakefulness and sleep</article-title>. <source><italic toggle="yes">Am J Physiol Heart Circ Physiol</italic></source>. <year>2005</year>;<volume>288</volume>(<issue>3</issue>):<fpage>H1103</fpage>–<lpage>1112</lpage>. doi:<pub-id pub-id-type="doi">10.1152/ajpheart.01065.2003</pub-id><pub-id pub-id-type="pmid">15471971</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0014">
+        <label>14.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Guilleminault</surname>
+<given-names>C</given-names></string-name>, <string-name><surname>Poyares</surname>
+<given-names>D</given-names></string-name>, <string-name><surname>Rosa</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Huang</surname>
+<given-names>YS</given-names></string-name>. <article-title>Heart rate variability, sympathetic and vagal balance and EEG arousals in upper airway resistance and mild obstructive sleep apnea syndromes</article-title>. <source><italic toggle="yes">Sleep Med</italic></source>. <year>2005</year>;<volume>6</volume>(<issue>5</issue>):<fpage>451</fpage>–<lpage>457</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.sleep.2005.03.014</pub-id><pub-id pub-id-type="pmid">15994124</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0015">
+        <label>15.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Feng</surname>
+<given-names>K</given-names></string-name>, <string-name><surname>Qin</surname>
+<given-names>H</given-names></string-name>, <string-name><surname>Wu</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Pan</surname>
+<given-names>W</given-names></string-name>, <string-name><surname>Liu</surname>
+<given-names>G</given-names></string-name>. <article-title>A sleep apnea detection method based on unsupervised feature learning and single-lead electrocardiogram</article-title>. <source><italic toggle="yes">IEEE Trans Instrum Meas</italic></source>. <year>2021</year>;<volume>70</volume>:<fpage>1</fpage>–<lpage>12</lpage>. doi:<pub-id pub-id-type="doi">10.1109/tim.2020.3020682</pub-id><pub-id pub-id-type="pmid">33776080</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0016">
+        <label>16.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Yang</surname>
+<given-names>Q</given-names></string-name>, <string-name><surname>Zou</surname>
+<given-names>L</given-names></string-name>, <string-name><surname>Wei</surname>
+<given-names>K</given-names></string-name>, <string-name><surname>Liu</surname>
+<given-names>G</given-names></string-name>. <article-title>Obstructive sleep apnea detection from single-lead electrocardiogram signals using one-dimensional squeeze-and-excitation residual group network</article-title>. <source><italic toggle="yes">Comput Biol Med</italic></source>. <year>2021</year>;<volume>140</volume>:<fpage>105124</fpage>. doi:<pub-id pub-id-type="doi">10.1016/j.compbiomed.2021.105124</pub-id><pub-id pub-id-type="pmid">34896885</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0017">
+        <label>17.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Shen</surname>
+<given-names>Q</given-names></string-name>, <string-name><surname>Qin</surname>
+<given-names>H</given-names></string-name>, <string-name><surname>Wei</surname>
+<given-names>K</given-names></string-name>, <string-name><surname>Liu</surname>
+<given-names>G.</given-names></string-name>
+<article-title>Multiscale deep neural network for obstructive sleep apnea detection using RR interval from single-lead ECG signal</article-title>. <source><italic toggle="yes">IEEE Trans Instrum Meas</italic></source>. <year>2021</year>;<volume>70</volume>:<fpage>1</fpage>–<lpage>13</lpage>.<pub-id pub-id-type="pmid">33776080</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0018">
+        <label>18.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Gupta</surname>
+<given-names>K</given-names></string-name>, <string-name><surname>Bajaj</surname>
+<given-names>V</given-names></string-name>, <string-name><surname>Ansari</surname>
+<given-names>IA</given-names></string-name>. <article-title>OSACN-Net: automated classification of sleep apnea using deep learning model and smoothed Gabor spectrograms of ECG signal</article-title>. <source><italic toggle="yes">IEEE Trans Instrum Meas</italic></source>. <year>2021</year>;<volume>71</volume>:<fpage>1</fpage>.</mixed-citation>
+      </ref>
+      <ref id="cit0019">
+        <label>19.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Liu</surname>
+<given-names>HQ</given-names></string-name>. <article-title>A dual-model deep learning method for sleep apnea detection based on representation learning and temporal dependence</article-title>. <source><italic toggle="yes">Neurocomputing</italic></source>. <year>2022</year>;<volume>473</volume>:<fpage>24</fpage>–<lpage>36</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.neucom.2021.12.001</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0020">
+        <label>20.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Liu</surname>
+<given-names>QY</given-names></string-name>. <article-title>Obstructive sleep apnea detection from single-lead electrocardiogram signals using one-dimensional squeeze-and-excitation residual group network</article-title>. <source><italic toggle="yes">Comput Biol Med</italic></source>. <year>2022</year>;<volume>140</volume>:<fpage>105124</fpage>.</mixed-citation>
+      </ref>
+      <ref id="cit0021">
+        <label>21.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Ustun</surname>
+<given-names>B</given-names></string-name>, <string-name><surname>Westover</surname>
+<given-names>MB</given-names></string-name>, <string-name><surname>Rudin</surname>
+<given-names>C</given-names></string-name>, <string-name><surname>Bianchi</surname>
+<given-names>MT</given-names></string-name>. <article-title>Clinical prediction models for sleep apnea: the importance of medical history over symptoms</article-title>. <source><italic toggle="yes">J Clin Sleep Med</italic></source>. <year>2016</year>;<volume>12</volume>(<issue>2</issue>):<fpage>161</fpage>–<lpage>168</lpage>. doi:<pub-id pub-id-type="doi">10.5664/jcsm.5476</pub-id><pub-id pub-id-type="pmid">26350602</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0022">
+        <label>22.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Abrishami</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Khajehdehi</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Chung</surname>
+<given-names>F</given-names></string-name>. <article-title>A systematic review of screening questionnaires for obstructive sleep apnea</article-title>. <source><italic toggle="yes">Can J Anaesth</italic></source>. <year>2010</year>;<volume>57</volume>(<issue>5</issue>):<fpage>423</fpage>–<lpage>438</lpage>. doi:<pub-id pub-id-type="doi">10.1007/s12630-010-9280-x</pub-id><pub-id pub-id-type="pmid">20143278</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0023">
+        <label>23.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Amra</surname>
+<given-names>B</given-names></string-name>, <string-name><surname>Rahmati</surname>
+<given-names>B</given-names></string-name>, <string-name><surname>Soltaninejad</surname>
+<given-names>F</given-names></string-name>, <string-name><surname>Feizi</surname>
+<given-names>A</given-names></string-name>. <article-title>Screening questionnaires for obstructive sleep apnea: an updated systematic review</article-title>. <source><italic toggle="yes">Oman Med J</italic></source>. <year>2018</year>;<volume>33</volume>(<issue>3</issue>):<fpage>184</fpage>–<lpage>192</lpage>. doi:<pub-id pub-id-type="doi">10.5001/omj.2018.36</pub-id><pub-id pub-id-type="pmid">29896325</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0024">
+        <label>24.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Allen</surname>
+<given-names>J</given-names></string-name>. <article-title>Photoplethysmography and its application in clinical physiological measurement</article-title>. <source><italic toggle="yes">Physiol Meas</italic></source>. <year>2007</year>;<volume>28</volume>(<issue>3</issue>):<fpage>R1</fpage>–<lpage>39</lpage>. doi:<pub-id pub-id-type="doi">10.1088/0967-3334/28/3/R01</pub-id><pub-id pub-id-type="pmid">17322588</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0025">
+        <label>25.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Papini</surname>
+<given-names>GB</given-names></string-name>, <string-name><surname>Fonseca</surname>
+<given-names>P</given-names></string-name>, <string-name><surname>van Gilst</surname>
+<given-names>MM</given-names></string-name>, <string-name><surname>Bergmans</surname>
+<given-names>JWM</given-names></string-name>, <string-name><surname>Vullings</surname>
+<given-names>R</given-names></string-name>, <string-name><surname>Overeem</surname>
+<given-names>S</given-names></string-name>. <article-title>Wearable monitoring of sleep-disordered breathing: estimation of the apnea-hypopnea index using wrist-worn reflective photoplethysmography</article-title>. <source><italic toggle="yes">Sci Rep</italic></source>. <year>2020</year>;<volume>10</volume>(<issue>1</issue>):<fpage>13512</fpage>. doi:<pub-id pub-id-type="doi">10.1038/s41598-020-69935-7</pub-id><pub-id pub-id-type="pmid">32782313</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0026">
+        <label>26.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Hafezi</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Montazeri</surname>
+<given-names>N</given-names></string-name>, <string-name><surname>Saha</surname>
+<given-names>S</given-names></string-name>. <article-title>Sleep apnea severity estimation from tracheal movements using a deep learning model</article-title>. <source><italic toggle="yes">IEEE Access</italic></source>. <year>2020</year>;<volume>8</volume>:<fpage>22641</fpage>–<lpage>22649</lpage>. doi:<pub-id pub-id-type="doi">10.1109/ACCESS.2020.2969227</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0027">
+        <label>27.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Manoni</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Loreti</surname>
+<given-names>F</given-names></string-name>, <string-name><surname>Radicioni</surname>
+<given-names>V</given-names></string-name>, et al. <article-title>A new wearable system for home sleep apnea testing, screening, and classification</article-title>. <source><italic toggle="yes">Sensors</italic></source>. <year>2020</year>;<volume>20</volume>(<issue>24</issue>):<fpage>7014</fpage>. doi:<pub-id pub-id-type="doi">10.3390/s20247014</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0028">
+        <label>28.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Baty</surname>
+<given-names>F</given-names></string-name>, <string-name><surname>Boesch</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Widmer</surname>
+<given-names>S</given-names></string-name>, et al. <article-title>Classification of sleep apnea severity by electrocardiogram monitoring using a novel wearable device</article-title>. <source><italic toggle="yes">Sensors</italic></source>. <year>2020</year>;<volume>20</volume>(<issue>1</issue>):<fpage>286</fpage>. doi:<pub-id pub-id-type="doi">10.3390/s20010286</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0029">
+        <label>29.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Henriksen</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Haugen Mikalsen</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Woldaregay</surname>
+<given-names>AZ</given-names></string-name>, et al. <article-title>Using fitness trackers and smartwatches to measure physical activity in research: analysis of consumer wrist-worn wearables</article-title>. <source><italic toggle="yes">J Med Internet Res</italic></source>. <year>2018</year>;<volume>20</volume>(<issue>3</issue>):<fpage>e110</fpage>. doi:<pub-id pub-id-type="doi">10.2196/jmir.9157</pub-id><pub-id pub-id-type="pmid">29567635</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0030">
+        <label>30.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Fuller</surname>
+<given-names>D</given-names></string-name>, <string-name><surname>Colwell</surname>
+<given-names>E</given-names></string-name>, <string-name><surname>Low</surname>
+<given-names>J</given-names></string-name>, et al. <article-title>Reliability and validity of commercially available wearable devices for measuring steps, energy expenditure, and heart rate: systematic review</article-title>. <source><italic toggle="yes">JMIR Mhealth Uhealth</italic></source>. <year>2020</year>;<volume>8</volume>(<issue>9</issue>):<fpage>e18694</fpage>. doi:<pub-id pub-id-type="doi">10.2196/18694</pub-id><pub-id pub-id-type="pmid">32897239</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0031">
+        <label>31.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Benedetti</surname>
+<given-names>D</given-names></string-name>, <string-name><surname>Olcese</surname>
+<given-names>U</given-names></string-name>, <string-name><surname>Frumento</surname>
+<given-names>P</given-names></string-name>, et al. <article-title>Heart rate detection by Fitbit ChargeHR(): a validation study versus portable polysomnography</article-title>. <source><italic toggle="yes">J Sleep Res</italic></source>. <year>2021</year>;<volume>30</volume>(<issue>6</issue>):<fpage>e13346</fpage>. doi:<pub-id pub-id-type="doi">10.1111/jsr.13346</pub-id><pub-id pub-id-type="pmid">33837981</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0032">
+        <label>32.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Benedetto</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Caldato</surname>
+<given-names>C</given-names></string-name>, <string-name><surname>Bazzan</surname>
+<given-names>E</given-names></string-name>, <string-name><surname>Greenwood</surname>
+<given-names>DC</given-names></string-name>, <string-name><surname>Pensabene</surname>
+<given-names>V</given-names></string-name>, <string-name><surname>Actis</surname>
+<given-names>P</given-names></string-name>. <article-title>Assessment of the Fitbit Charge 2 for monitoring heart rate</article-title>. <source><italic toggle="yes">PLoS One</italic></source>. <year>2018</year>;<volume>13</volume>(<issue>2</issue>):<fpage>e0192691</fpage>. doi:<pub-id pub-id-type="doi">10.1371/journal.pone.0192691</pub-id><pub-id pub-id-type="pmid">29489850</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0033">
+        <label>33.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Haghayegh</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Khoshnevis</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Smolensky</surname>
+<given-names>MH</given-names></string-name>, <string-name><surname>Diller</surname>
+<given-names>KR</given-names></string-name>. <article-title>Accuracy of PurePulse photoplethysmography technology of Fitbit Charge 2 for assessment of heart rate during sleep</article-title>. <source><italic toggle="yes">Chronobiol Int</italic></source>. <year>2019</year>;<volume>36</volume>(<issue>7</issue>):<fpage>927</fpage>–<lpage>933</lpage>. doi:<pub-id pub-id-type="doi">10.1080/07420528.2019.1596947</pub-id><pub-id pub-id-type="pmid">30990098</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0034">
+        <label>34.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>de Zambotti</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Baker</surname>
+<given-names>FC</given-names></string-name>, <string-name><surname>Willoughby</surname>
+<given-names>AR</given-names></string-name>, et al. <article-title>Measures of sleep and cardiac functioning during sleep using a multi-sensory commercially-available wristband in adolescents</article-title>. <source><italic toggle="yes">Physiol Behav</italic></source>. <year>2016</year>;<volume>158</volume>:<fpage>143</fpage>–<lpage>149</lpage>. doi:<pub-id pub-id-type="doi">10.1016/j.physbeh.2016.03.006</pub-id><pub-id pub-id-type="pmid">26969518</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0035">
+        <label>35.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Nelson</surname>
+<given-names>BW</given-names></string-name>, <string-name><surname>Allen</surname>
+<given-names>NB</given-names></string-name>. <article-title>Accuracy of consumer wearable heart rate measurement during an ecologically valid 24-hour period: intraindividual validation study</article-title>. <source><italic toggle="yes">JMIR Mhealth Uhealth</italic></source>. <year>2019</year>;<volume>7</volume>(<issue>3</issue>):<fpage>e10828</fpage>. doi:<pub-id pub-id-type="doi">10.2196/10828</pub-id><pub-id pub-id-type="pmid">30855232</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0036">
+        <label>36.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Tedesco</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Sica</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Ancillao</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Timmons</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Barton</surname>
+<given-names>J</given-names></string-name>, <string-name><surname>O’Flynn</surname>
+<given-names>B</given-names></string-name>. <article-title>Validity evaluation of the fitbit charge2 and the Garmin vivosmart HR+ in free-living environments in an older adult cohort</article-title>. <source><italic toggle="yes">JMIR Mhealth Uhealth</italic></source>. <year>2019</year>;<volume>7</volume>(<issue>6</issue>):<fpage>e13084</fpage>. doi:<pub-id pub-id-type="doi">10.2196/13084</pub-id><pub-id pub-id-type="pmid">31219048</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0037">
+        <label>37.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Nagappa</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Liao</surname>
+<given-names>P</given-names></string-name>, <string-name><surname>Wong</surname>
+<given-names>J</given-names></string-name>, et al. <article-title>Validation of the STOP-Bang Questionnaire as a screening tool for obstructive sleep apnea among different populations: a systematic review and meta-analysis</article-title>. <source><italic toggle="yes">PLoS One</italic></source>. <year>2015</year>;<volume>10</volume>(<issue>12</issue>):<fpage>e0143697</fpage>. doi:<pub-id pub-id-type="doi">10.1371/journal.pone.0143697</pub-id><pub-id pub-id-type="pmid">26658438</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0038">
+        <label>38.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Berry</surname>
+<given-names>RB</given-names></string-name>, <string-name><surname>Budhiraja</surname>
+<given-names>R</given-names></string-name>, <string-name><surname>Gottlieb</surname>
+<given-names>DJ</given-names></string-name>, et al. <article-title>Rules for scoring respiratory events in sleep: update of the 2007 AASM manual for the scoring of sleep and associated events. deliberations of the sleep apnea definitions task force of the American Academy of Sleep Medicine</article-title>. <source><italic toggle="yes">J Clin Sleep Med</italic></source>. <year>2012</year>;<volume>8</volume>(<issue>5</issue>):<fpage>597</fpage>–<lpage>619</lpage>. doi:<pub-id pub-id-type="doi">10.5664/jcsm.2172</pub-id><pub-id pub-id-type="pmid">23066376</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0039">
+        <label>39.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Banfi</surname>
+<given-names>T</given-names></string-name>, <string-name><surname>Valigi</surname>
+<given-names>N</given-names></string-name>, <string-name><surname>Di Galante</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>d’Ascanio</surname>
+<given-names>P</given-names></string-name>, <string-name><surname>Ciuti</surname>
+<given-names>G</given-names></string-name>, <string-name><surname>Faraguna</surname>
+<given-names>U</given-names></string-name>. <article-title>Efficient embedded sleep wake classification for open-source actigraphy</article-title>. <source><italic toggle="yes">Sci Rep</italic></source>. <year>2021</year>;<volume>11</volume>(<issue>1</issue>):<fpage>345</fpage>. doi:<pub-id pub-id-type="doi">10.1038/s41598-020-79294-y</pub-id><pub-id pub-id-type="pmid">33431918</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0040">
+        <label>40.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Guarnieri</surname>
+<given-names>B</given-names></string-name>, <string-name><surname>Maestri</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Cucchiara</surname>
+<given-names>F</given-names></string-name>, et al. <article-title>Multicenter study on sleep and circadian alterations as objective markers of mild cognitive impairment and Alzheimer’s disease reveals sex differences</article-title>. <source><italic toggle="yes">J Alzheimers Dis</italic></source>. <year>2020</year>;<volume>78</volume>(<issue>4</issue>):<fpage>1707</fpage>–<lpage>1719</lpage>. doi:<pub-id pub-id-type="doi">10.3233/JAD-200632</pub-id><pub-id pub-id-type="pmid">33185597</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0041">
+        <label>41.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Reed</surname>
+<given-names>DL</given-names></string-name>, <string-name><surname>Sacco</surname>
+<given-names>WP</given-names></string-name>. <article-title>Measuring sleep efficiency: what should the denominator be?</article-title>
+<source><italic toggle="yes">J Clin Sleep Med</italic></source>. <year>2016</year>;<volume>12</volume>(<issue>2</issue>):<fpage>263</fpage>–<lpage>266</lpage>. doi:<pub-id pub-id-type="doi">10.5664/jcsm.5498</pub-id><pub-id pub-id-type="pmid">26194727</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0042">
+        <label>42.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Morrell</surname>
+<given-names>MJ</given-names></string-name>, <string-name><surname>Finn</surname>
+<given-names>L</given-names></string-name>, <string-name><surname>Kim</surname>
+<given-names>H</given-names></string-name>, <string-name><surname>Peppard</surname>
+<given-names>PE</given-names></string-name>, <string-name><surname>Badr</surname>
+<given-names>MS</given-names></string-name>, <string-name><surname>Young</surname>
+<given-names>T</given-names></string-name>. <article-title>Sleep fragmentation, awake blood pressure, and sleep-disordered breathing in a population-based study</article-title>. <source><italic toggle="yes">Am J Respir Crit Care Med</italic></source>. <year>2000</year>;<volume>162</volume>(<issue>6</issue>):<fpage>2091</fpage>–<lpage>2096</lpage>. doi:<pub-id pub-id-type="doi">10.1164/ajrccm.162.6.9904008</pub-id><pub-id pub-id-type="pmid">11112120</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0043">
+        <label>43.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Shrivastava</surname>
+<given-names>D</given-names></string-name>, <string-name><surname>Jung</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Saadat</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Sirohi</surname>
+<given-names>R</given-names></string-name>, <string-name><surname>Crewson</surname>
+<given-names>K</given-names></string-name>. <article-title>How to interpret the results of a sleep study</article-title>. <source><italic toggle="yes">J Community Hosp Intern Med Perspect</italic></source>. <year>2014</year>;<volume>4</volume>(<issue>5</issue>):<fpage>24983</fpage>. doi:<pub-id pub-id-type="doi">10.3402/jchimp.v4.24983</pub-id><pub-id pub-id-type="pmid">25432643</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0044">
+        <label>44.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Pedregosa FaV</surname>
+<given-names>G</given-names></string-name>, <string-name><surname>Gramfort</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Michel</surname>
+<given-names>V</given-names></string-name>, et al. <article-title>Scikit-learn: machine learning in python</article-title>. <source><italic toggle="yes">J Mach Learn Res</italic></source>. <year>2011</year>;<volume>12</volume>:<fpage>2825</fpage>–<lpage>2830</lpage>.</mixed-citation>
+      </ref>
+      <ref id="cit0045">
+        <label>45.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Chicco</surname>
+<given-names>D</given-names></string-name>, <string-name><surname>Jurman</surname>
+<given-names>G</given-names></string-name>. <article-title>The advantages of the Matthews correlation coefficient (MCC) over F1 score and accuracy in binary classification evaluation</article-title>. <source><italic toggle="yes">BMC Genomics</italic></source>. <year>2020</year>;<volume>21</volume>(<issue>1</issue>):<fpage>6</fpage>. doi:<pub-id pub-id-type="doi">10.1186/s12864-019-6413-7</pub-id><pub-id pub-id-type="pmid">31898477</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0046">
+        <label>46.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Parikh</surname>
+<given-names>R</given-names></string-name>, <string-name><surname>Mathai</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Parikh</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Chandra Sekhar</surname>
+<given-names>G</given-names></string-name>, <string-name><surname>Thomas</surname>
+<given-names>R</given-names></string-name>. <article-title>Understanding and using sensitivity, specificity and predictive values</article-title>. <source><italic toggle="yes">Indian J Ophthalmol</italic></source>. <year>2008</year>;<volume>56</volume>(<issue>1</issue>):<fpage>45</fpage>–<lpage>50</lpage>. doi:<pub-id pub-id-type="doi">10.4103/0301-4738.37595</pub-id><pub-id pub-id-type="pmid">18158403</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0047">
+        <label>47.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Glas</surname>
+<given-names>AS</given-names></string-name>, <string-name><surname>Lijmer</surname>
+<given-names>JG</given-names></string-name>, <string-name><surname>Prins</surname>
+<given-names>MH</given-names></string-name>, <string-name><surname>Bonsel</surname>
+<given-names>GJ</given-names></string-name>, <string-name><surname>Bossuyt</surname>
+<given-names>PM</given-names></string-name>. <article-title>The diagnostic odds ratio: a single indicator of test performance</article-title>. <source><italic toggle="yes">J Clin Epidemiol</italic></source>. <year>2003</year>;<volume>56</volume>(<issue>11</issue>):<fpage>1129</fpage>–<lpage>1135</lpage>. doi:<pub-id pub-id-type="doi">10.1016/S0895-4356(03)00177-X</pub-id><pub-id pub-id-type="pmid">14615004</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0048">
+        <label>48.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Harris</surname>
+<given-names>CR</given-names></string-name>, <string-name><surname>Millman</surname>
+<given-names>KJ</given-names></string-name>, <string-name><surname>van der Walt</surname>
+<given-names>SJ</given-names></string-name>, et al. <article-title>Array programming with NumPy</article-title>. <source><italic toggle="yes">Nature</italic></source>. <year>2020</year>;<volume>585</volume>(<issue>7825</issue>):<fpage>357</fpage>–<lpage>362</lpage>. doi:<pub-id pub-id-type="doi">10.1038/s41586-020-2649-2</pub-id><pub-id pub-id-type="pmid">32939066</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0049">
+        <label>49.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Parati</surname>
+<given-names>G</given-names></string-name>, <string-name><surname>Lombardi</surname>
+<given-names>C</given-names></string-name>, <string-name><surname>Hedner</surname>
+<given-names>J</given-names></string-name>, et al. <article-title>Recommendations for the management of patients with obstructive sleep apnoea and hypertension</article-title>. <source><italic toggle="yes">Eur Respir J</italic></source>. <year>2013</year>;<volume>41</volume>(<issue>3</issue>):<fpage>523</fpage>–<lpage>538</lpage>. doi:<pub-id pub-id-type="doi">10.1183/09031936.00226711</pub-id><pub-id pub-id-type="pmid">23397300</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0050">
+        <label>50.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Wu</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Chen</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Wei</surname>
+<given-names>K</given-names></string-name>, <string-name><surname>Liu</surname>
+<given-names>G</given-names></string-name>. <article-title>Sleep apnea screening based on Photoplethysmography data from wearable bracelets using an information-based similarity approach</article-title>. <source><italic toggle="yes">Comput Methods Programs Biomed</italic></source>. <year>2021</year>;<volume>211</volume>:<fpage>106442</fpage>. doi:<pub-id pub-id-type="doi">10.1016/j.cmpb.2021.106442</pub-id><pub-id pub-id-type="pmid">34624633</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0051">
+        <label>51.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Yin</surname>
+<given-names>TC</given-names></string-name>, <string-name><surname>Huang</surname>
+<given-names>CW</given-names></string-name>, <string-name><surname>Tsai</surname>
+<given-names>HL</given-names></string-name>, et al. <article-title>Smartband use during enhanced recovery after surgery facilitates inpatient recuperation following minimally invasive colorectal surgery</article-title>. <source><italic toggle="yes">Front Surg</italic></source>. <year>2020</year>;<volume>7</volume>:<fpage>608950</fpage>. doi:<pub-id pub-id-type="doi">10.3389/fsurg.2020.608950</pub-id><pub-id pub-id-type="pmid">33585547</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0052">
+        <label>52.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Dagan</surname>
+<given-names>A</given-names></string-name>, <string-name><surname>Mechanic</surname>
+<given-names>OJ</given-names></string-name>. <article-title>Use of ultra-low cost fitness trackers as clinical monitors in low resource emergency departments</article-title>. <source><italic toggle="yes">Clin Exp Emerg Med</italic></source>. <year>2020</year>;<volume>7</volume>(<issue>3</issue>):<fpage>144</fpage>–<lpage>149</lpage>. doi:<pub-id pub-id-type="doi">10.15441/ceem.19.081</pub-id><pub-id pub-id-type="pmid">33028056</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0053">
+        <label>53.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Chung</surname>
+<given-names>IY</given-names></string-name>, <string-name><surname>Jung</surname>
+<given-names>M</given-names></string-name>, <string-name><surname>Lee</surname>
+<given-names>SB</given-names></string-name>, et al. <article-title>An assessment of physical activity data collected via a smartphone app and a smart band in breast cancer survivors: observational study</article-title>. <source><italic toggle="yes">J Med Internet Res</italic></source>. <year>2019</year>;<volume>21</volume>(<issue>9</issue>):<fpage>13463</fpage>. doi:<pub-id pub-id-type="doi">10.2196/13463</pub-id><pub-id pub-id-type="pmid">31493319</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0054">
+        <label>54.</label>
+        <mixed-citation publication-type="webpage">Laricchia F. Fitbit - statistics &amp; facts. Statista. <comment>Available from:</comment>
+<ext-link xlink:href="https://www.statista.com/topics/2595/fitbit/" ext-link-type="uri">https://www.statista.com/topics/2595/fitbit/</ext-link>. <date-in-citation>Accessed <month>May</month>
+<day>6</day>, 2022</date-in-citation>.</mixed-citation>
+      </ref>
+      <ref id="cit0055">
+        <label>55.</label>
+        <mixed-citation publication-type="webpage">Laricchia F. Number of wearable device users in the United States from 2014 to 2022. Statista. <comment>Available from:</comment>
+<ext-link xlink:href="https://www.statista.com/statistics/543070/number-of-wearable-users-in-the-us/" ext-link-type="uri">https://www.statista.com/statistics/543070/number-of-wearable-users-in-the-us/</ext-link>. <date-in-citation>Accessed <month>May</month>
+<day>6</day>, 2022</date-in-citation>.</mixed-citation>
+      </ref>
+      <ref id="cit0056">
+        <label>56.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Aurora</surname>
+<given-names>RN</given-names></string-name>, <string-name><surname>Swartz</surname>
+<given-names>R</given-names></string-name>, <string-name><surname>Punjabi</surname>
+<given-names>NM</given-names></string-name>. <article-title>Misclassification of OSA severity with automated scoring of home sleep recordings</article-title>. <source><italic toggle="yes">Chest</italic></source>. <year>2015</year>;<volume>147</volume>(<issue>3</issue>):<fpage>719</fpage>–<lpage>727</lpage>. doi:<pub-id pub-id-type="doi">10.1378/chest.14-0929</pub-id><pub-id pub-id-type="pmid">25411804</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0057">
+        <label>57.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Punjabi</surname>
+<given-names>NM</given-names></string-name>, <string-name><surname>Shifa</surname>
+<given-names>N</given-names></string-name>, <string-name><surname>Dorffner</surname>
+<given-names>G</given-names></string-name>, <string-name><surname>Patil</surname>
+<given-names>S</given-names></string-name>, <string-name><surname>Pien</surname>
+<given-names>G</given-names></string-name>, <string-name><surname>Aurora</surname>
+<given-names>RN</given-names></string-name>. <article-title>Computer-assisted automated scoring of polysomnograms using the somnolyzer system</article-title>. <source><italic toggle="yes">Sleep</italic></source>. <year>2015</year>;<volume>38</volume>(<issue>10</issue>):<fpage>1555</fpage>–<lpage>1566</lpage>. doi:<pub-id pub-id-type="doi">10.5665/sleep.5046</pub-id><pub-id pub-id-type="pmid">25902809</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0058">
+        <label>58.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Tang</surname>
+<given-names>L</given-names></string-name>, <string-name><surname>Liu</surname>
+<given-names>G</given-names></string-name>. <article-title>The novel approach of temporal dependency complexity analysis of heart rate variability in obstructive sleep apnea</article-title>. <source><italic toggle="yes">Comput Biol Med</italic></source>. <year>2021</year>;<volume>135</volume>:<fpage>104632</fpage>. doi:<pub-id pub-id-type="doi">10.1016/j.compbiomed.2021.104632</pub-id><pub-id pub-id-type="pmid">34265554</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0059">
+        <label>59.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Lombardi</surname>
+<given-names>C</given-names></string-name>, <string-name><surname>Pengo</surname>
+<given-names>MF</given-names></string-name>, <string-name><surname>Parati</surname>
+<given-names>G</given-names></string-name>. <article-title>Obstructive sleep apnea syndrome and autonomic dysfunction</article-title>. <source><italic toggle="yes">Auton Neurosci</italic></source>. <year>2019</year>;<volume>221</volume>:<fpage>102563</fpage>. doi:<pub-id pub-id-type="doi">10.1016/j.autneu.2019.102563</pub-id><pub-id pub-id-type="pmid">31445406</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0060">
+        <label>60.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>Sjoding</surname>
+<given-names>MW</given-names></string-name>, <string-name><surname>Dickson</surname>
+<given-names>RP</given-names></string-name>, <string-name><surname>Iwashyna</surname>
+<given-names>TJ</given-names></string-name>, <string-name><surname>Gay</surname>
+<given-names>SE</given-names></string-name>, <string-name><surname>Valley</surname>
+<given-names>TS</given-names></string-name>. <article-title>Racial bias in pulse oximetry measurement</article-title>. <source><italic toggle="yes">N Engl J Med</italic></source>. <year>2020</year>;<volume>383</volume>(<issue>25</issue>):<fpage>2477</fpage>–<lpage>2478</lpage>. doi:<pub-id pub-id-type="doi">10.1056/NEJMc2029240</pub-id><pub-id pub-id-type="pmid">33326721</pub-id></mixed-citation>
+      </ref>
+      <ref id="cit0061">
+        <label>61.</label>
+        <mixed-citation publication-type="journal"><string-name><surname>O’Mahony</surname>
+<given-names>AM</given-names></string-name>, <string-name><surname>Garvey</surname>
+<given-names>JF</given-names></string-name>, <string-name><surname>McNicholas</surname>
+<given-names>WT</given-names></string-name>. <article-title>Technologic advances in the assessment and management of obstructive sleep apnoea beyond the apnoea-hypopnoea index: a narrative review</article-title>. <source><italic toggle="yes">J Thorac Dis</italic></source>. <year>2020</year>;<volume>12</volume>(<issue>9</issue>):<fpage>5020</fpage>–<lpage>5038</lpage>. doi:<pub-id pub-id-type="doi">10.21037/jtd-sleep-2020-003</pub-id><pub-id pub-id-type="pmid">33145074</pub-id></mixed-citation>
+      </ref>
+    </ref-list>
+  </back>
+</article>
+</pmc-articleset>

@@ -1,0 +1,1156 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<pmc-articleset><article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="article-commentary">
+  <?properties open_access?>
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="nlm-ta">Nat Sci Sleep</journal-id>
+      <journal-id journal-id-type="iso-abbrev">Nat Sci Sleep</journal-id>
+      <journal-id journal-id-type="publisher-id">Nature and Science of Sleep</journal-id>
+      <journal-title-group>
+        <journal-title>Nature and Science of Sleep</journal-title>
+      </journal-title-group>
+      <issn pub-type="epub">1179-1608</issn>
+      <publisher>
+        <publisher-name>Dove Medical Press</publisher-name>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="pmid">24741336</article-id>
+      <article-id pub-id-type="pmc">3982973</article-id>
+      <article-id pub-id-type="doi">10.2147/NSS.S61853</article-id>
+      <article-id pub-id-type="publisher-id">nss-6-051</article-id>
+      <article-categories>
+        <subj-group subj-group-type="heading">
+          <subject>Commentary</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>Apnea-hypopnea index: time to wake up</article-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Shahar</surname>
+            <given-names>Eyal</given-names>
+          </name>
+          <xref ref-type="aff" rid="af1-nss-6-051"/>
+          <xref ref-type="corresp" rid="c1-nss-6-051"/>
+        </contrib>
+      </contrib-group>
+      <aff id="af1-nss-6-051">Division of Epidemiology and Biostatistics, Mel and Enid Zuckerman College of Public Health, University of Arizona, Tucson, AZ, USA</aff>
+      <author-notes>
+        <corresp id="c1-nss-6-051">Correspondence: Eyal Shahar, Division of Epidemiology and Biostatistics, Mel and Enid Zuckerman College of Public Health, University of Arizona, 1295 N Martin Ave, Tucson, AZ, USA, Tel +1 520 626 8025, Fax +1 520 626 2767, Email <email>shahar@email.arizona.edu</email></corresp>
+      </author-notes>
+      <pub-date pub-type="collection">
+        <year>2014</year>
+      </pub-date>
+      <pub-date pub-type="epub">
+        <day>05</day>
+        <month>4</month>
+        <year>2014</year>
+      </pub-date>
+      <volume>6</volume>
+      <fpage>51</fpage>
+      <lpage>56</lpage>
+      <permissions>
+        <copyright-statement>© 2014 Shahar. This work is published by Dove Medical Press Limited, and licensed under Creative Commons Attribution – Non Commercial (unported, v3.0) License</copyright-statement>
+        <copyright-year>2014</copyright-year>
+        <license>
+          <license-p>The full terms of the License are available at <ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by-nc/3.0/">http://creativecommons.org/licenses/by-nc/3.0/</ext-link>. Non-commercial uses of the work are permitted without any further permission from Dove Medical Press Limited, provided the work is properly attributed.</license-p>
+        </license>
+      </permissions>
+      <abstract>
+        <p><citation_analysis attribute="neither">Despite the widespread use of the apnea-hypopnea index in research, its scientific and statistical properties have not been examined thoroughly. The index may be viewed either as a rate (number of events per hour of sleep) or as a ratio of two variables (number of events/number of hours of sleep). When considered as a rate, the apnea-hypopnea index may be modeled as the dependent variable, provided that researchers explicitly state which physical property they assume to be measuring. On the other hand, the index is rarely, if ever, the preferred model of exposure to sleep-disordered breathing (an independent variable), regardless of whether it is considered a rate or a ratio variable. Continued indiscriminate use of the apnea-hypopnea index in sleep research should be discouraged.</citation_analysis></p>
+      </abstract>
+      <kwd-group>
+        <title>Keywords</title>
+        <kwd>apnea-hypopnea index</kwd>
+        <kwd>respiratory disturbance index</kwd>
+        <kwd>ratio variables</kwd>
+        <kwd>rates</kwd>
+      </kwd-group>
+    </article-meta>
+  </front>
+  <body>
+    <sec sec-type="intro">
+      <title>Introduction</title>
+      <p><citation_analysis attribute="neither">“We feel that the use of an ‘Apnea Index,’ ie, the number of apneas per sleep-hour, frequently gives a better indication of the seriousness of the disorder.”</citation_analysis><citation_analysis attribute="positive"><xref rid="b1-nss-6-051" ref-type="bibr">1</xref></citation_analysis><citation_analysis attribute="neither"> The term “apnea index” was probably coined in this quote, a parenthetical remark embedded in the second page of a book that was published in 1978.</citation_analysis><citation_analysis attribute="positive"><xref rid="b1-nss-6-051" ref-type="bibr">1</xref></citation_analysis><citation_analysis attribute="neither"> Apart from one misgiving,</citation_analysis><citation_analysis attribute="positive"><xref rid="b2-nss-6-051" ref-type="bibr">2</xref></citation_analysis><citation_analysis attribute="neither"> the apnea index was endorsed by research groups in the early 1980s,</citation_analysis><citation_analysis attribute="positive"><xref rid="b3-nss-6-051" ref-type="bibr">3</xref></citation_analysis><citation_analysis attribute="neither">–</citation_analysis><citation_analysis attribute="positive"><xref rid="b8-nss-6-051" ref-type="bibr">8</xref></citation_analysis><citation_analysis attribute="neither"> but was later replaced by the apnea-hypopnea index (AHI), the average number of apneas and hypopneas per hour of sleep.</citation_analysis><citation_analysis attribute="positive"><xref rid="b9-nss-6-051" ref-type="bibr">9</xref></citation_analysis><citation_analysis attribute="neither">–</citation_analysis><citation_analysis attribute="positive"><xref rid="b11-nss-6-051" ref-type="bibr">11</xref></citation_analysis><citation_analysis attribute="neither"> Since 1983, the AHI has also been popularized under another self-explanatory name, the respiratory disturbance index.</citation_analysis><citation_analysis attribute="positive"><xref rid="b11-nss-6-051" ref-type="bibr">11</xref></citation_analysis></p>
+      <p><citation_analysis attribute="positive">Both indices proved helpful in clinical practice, helping to diagnose sleep apnea and make treatment decisions. Clinical measures, however, are not necessarily the preferred measures in biomedical science, where modeled variables should accord with sound research methodology. In retrospect, sleep researchers have adopted the AHI and its predecessor too quickly, skipping a formal appraisal of the two variables. Only recently do we encounter dissenting writers who question the wisdom of using the AHI in research and suggest numerous alternative measures.</citation_analysis><citation_analysis attribute="positive"><xref rid="b12-nss-6-051" ref-type="bibr">12</xref></citation_analysis><citation_analysis attribute="neither">–</citation_analysis><citation_analysis attribute="positive"><xref rid="b16-nss-6-051" ref-type="bibr">16</xref></citation_analysis><citation_analysis attribute="neither"> This commentary offers a methodical analysis of the scientific merit of the AHI, and questions the indiscriminate use of this variable in research.</citation_analysis></p>
+    </sec>
+    <sec>
+      <title>First question: what are we counting?</title>
+      <p><citation_analysis attribute="positive">Paraphrasing a familiar idiom on apples and oranges, the merit of counting often depends on the answer to the following question: Are we counting apples alone and oranges alone, or are we counting a mix? Whichever definition of a respiratory event is used, it is inconceivable that all apneas and all hypopneas are the same kind of exposure, as far as effects are concerned. For instance, the clinical consequences of not breathing for 60 seconds cannot be identical to the consequences of shallow breathing for 30 seconds, and the consequences of accompanying hypoxemia surely depend on its magnitude and duration, not on an arbitrary cutoff point. Not surprisingly, the hypopnea definition affects the count of hypopneas,</citation_analysis><citation_analysis attribute="positive"><xref rid="b17-nss-6-051" ref-type="bibr">17</xref></citation_analysis><citation_analysis attribute="neither"> yet no agreed-upon definition will solve the underlying problem: all kinds of apples and all kinds of oranges are counted identically in one overly simplified variable. Of course, no alternative variable is free of weaknesses either, but deficient measures can still be ranked as better and worse.</citation_analysis></p>
+      <p><citation_analysis attribute="neither">Setting that issue aside, how well do we count apneas and hypopneas? Judging from the literature, the answer seems variable, although several difficulties should be mentioned. The AHI depends on physiological and technical variables including sleep position, sleep stage, (rapid eye movement [REM] versus non-REM), scoring rules, and device-related parameters, such as sensitivity, calibration, and the type and quality of the signals.</citation_analysis><citation_analysis attribute="positive"><xref rid="b9-nss-6-051" ref-type="bibr">9</xref></citation_analysis><citation_analysis attribute="neither">,</citation_analysis><citation_analysis attribute="positive"><xref rid="b12-nss-6-051" ref-type="bibr">12</xref></citation_analysis><citation_analysis attribute="neither">,</citation_analysis><citation_analysis attribute="positive"><xref rid="b18-nss-6-051" ref-type="bibr">18</xref></citation_analysis><citation_analysis attribute="neither">–</citation_analysis><citation_analysis attribute="positive"><xref rid="b22-nss-6-051" ref-type="bibr">22</xref></citation_analysis><citation_analysis attribute="neither"> Interestingly, in the era of digital technology, much of the scoring is still done manually, leaving the door open for human error. Yet all of these counting-related issues are the prelude for deeper methodological pitfalls of the AHI. The first insight may be gained by a closer look at the name of the variable.</citation_analysis></p>
+    </sec>
+    <sec>
+      <title>The AHI: an index or a rate?</title>
+      <p><citation_analysis attribute="neither">Rate is a well-defined term in mathematics, denoting the ratio of the change in one quantity to the change in another. In epidemiology and medicine, the denominator of the rate is usually the passing of time, which can be counted in years (cancer rates), days (case fatality rates), hours (albumin excretion rate), minutes (heart rate), or even seconds (forced expiratory volume in one second). Some rates quantify the change in discrete variables (eg, number of heart beats), whereas others quantify the change in continuous variables (eg, volume of exhaled air). Although there are several kinds of rates, ie, population rate, individual rate, instantaneous rate, hazard rate, and average rate, all of them include some quantity of interest in the numerator and time in the denominator.</citation_analysis></p>
+      <p><citation_analysis attribute="positive">The acronym AHI contains the word “index”, but this measure is not some human-made index like the Standard and Poor’s 500; it is actually a rate. More precisely, the AHI may be written as the average of the hourly rates of a respiratory event, as shown next.</citation_analysis></p>
+      <p><citation_analysis attribute="neither">Suppose a person sleeps </citation_analysis><citation_analysis attribute="positive"><italic>k</italic></citation_analysis><citation_analysis attribute="neither"> hours where </citation_analysis><citation_analysis attribute="positive"><italic>k</italic></citation_analysis><citation_analysis attribute="neither"> is an integer, and </citation_analysis><citation_analysis attribute="positive"><italic>N</italic></citation_analysis><citation_analysis attribute="neither"> denotes the number of respiratory events during that time. Let </citation_analysis><citation_analysis attribute="positive"><italic>n</italic></citation_analysis><citation_analysis attribute="positive"><italic><sub>i</sub></italic></citation_analysis><citation_analysis attribute="neither"> denote the number of events in the </citation_analysis><citation_analysis attribute="positive"><italic>i</italic></citation_analysis><citation_analysis attribute="neither">-th hour of sleep (</citation_analysis><citation_analysis attribute="positive"><italic>i</italic></citation_analysis><citation_analysis attribute="neither">=1,2, … </citation_analysis><citation_analysis attribute="positive"><italic>k</italic></citation_analysis><citation_analysis attribute="neither">), such that </citation_analysis><citation_analysis attribute="positive"><italic>N</italic></citation_analysis><citation_analysis attribute="neither"> = ∑</citation_analysis><citation_analysis attribute="positive"><italic>n</italic></citation_analysis><citation_analysis attribute="positive"><italic><sub>i</sub></italic></citation_analysis><citation_analysis attribute="neither">. But the number of events in the </citation_analysis><citation_analysis attribute="positive"><italic>i</italic></citation_analysis><citation_analysis attribute="neither">-th hour (</citation_analysis><citation_analysis attribute="positive"><italic>n</italic></citation_analysis><citation_analysis attribute="positive"><italic><sub>i</sub></italic></citation_analysis><citation_analysis attribute="neither">) is related to the rate of events in the </citation_analysis><citation_analysis attribute="positive"><italic>i</italic></citation_analysis><citation_analysis attribute="neither">-th hour (denoted </citation_analysis><citation_analysis attribute="positive"><italic>R</italic></citation_analysis><citation_analysis attribute="positive"><italic><sub>i</sub></italic></citation_analysis><citation_analysis attribute="neither">) as follows: </citation_analysis><citation_analysis attribute="positive"><italic>n</italic></citation_analysis><citation_analysis attribute="positive"><italic><sub>i</sub></italic></citation_analysis><citation_analysis attribute="neither"> events/1 hour = </citation_analysis><citation_analysis attribute="positive"><italic>R</italic></citation_analysis><citation_analysis attribute="positive"><italic><sub>i</sub></italic></citation_analysis><citation_analysis attribute="neither"> events/hour. So </citation_analysis><citation_analysis attribute="positive"><italic>n</italic></citation_analysis><citation_analysis attribute="positive"><italic><sub>i</sub></italic></citation_analysis><citation_analysis attribute="neither"> = </citation_analysis><citation_analysis attribute="positive"><italic>R</italic></citation_analysis><citation_analysis attribute="positive"><italic><sub>i</sub></italic></citation_analysis><citation_analysis attribute="neither">, and, therefore, AHI = </citation_analysis><citation_analysis attribute="positive"><italic>N</italic></citation_analysis><citation_analysis attribute="neither">/</citation_analysis><citation_analysis attribute="positive"><italic>k</italic></citation_analysis><citation_analysis attribute="neither"> = (∑</citation_analysis><citation_analysis attribute="positive"><italic>n</italic></citation_analysis><citation_analysis attribute="positive"><italic><sub>i</sub></italic></citation_analysis><citation_analysis attribute="neither">)/</citation_analysis><citation_analysis attribute="positive"><italic>k</italic></citation_analysis><citation_analysis attribute="neither"> = (∑</citation_analysis><citation_analysis attribute="positive"><italic>R</italic></citation_analysis><citation_analysis attribute="positive"><italic><sub>i</sub></italic></citation_analysis><citation_analysis attribute="neither">)/</citation_analysis><citation_analysis attribute="positive"><italic>k</italic></citation_analysis><citation_analysis attribute="neither">, which is the average of </citation_analysis><citation_analysis attribute="positive"><italic>k</italic></citation_analysis><citation_analysis attribute="neither"> hourly rates.</citation_analysis></p>
+      <p><citation_analysis attribute="neither">There is nothing sacred about dividing time into hours. If sleep duration is divided into </citation_analysis><citation_analysis attribute="positive"><italic>q</italic></citation_analysis><citation_analysis attribute="neither"> intervals of 10 minutes, rather than </citation_analysis><citation_analysis attribute="positive"><italic>k</italic></citation_analysis><citation_analysis attribute="neither"> intervals of one hour, another AHI (per 10 minutes) may be written as the average of </citation_analysis><citation_analysis attribute="positive"><italic>q</italic></citation_analysis><citation_analysis attribute="neither"> event rates in 10-minute intervals, (∑</citation_analysis><citation_analysis attribute="positive"><italic>R</italic></citation_analysis><citation_analysis attribute="positive"><italic><sub>i</sub></italic></citation_analysis><citation_analysis attribute="neither">)/</citation_analysis><citation_analysis attribute="positive"><italic>q</italic></citation_analysis><citation_analysis attribute="neither">. We cannot, however, shrink the time intervals infinitely and consider an average of time point (ie, instantaneous) rates. The instantaneous rate is a derivative of some quantity (</citation_analysis><citation_analysis attribute="positive"><italic>Y</italic></citation_analysis><citation_analysis attribute="neither">) as a function of time (</citation_analysis><citation_analysis attribute="positive"><italic>t</italic></citation_analysis><citation_analysis attribute="neither">), but </citation_analysis><citation_analysis attribute="positive"><italic>Y</italic></citation_analysis><citation_analysis attribute="neither"> = </citation_analysis><citation_analysis attribute="positive"><italic>f</italic></citation_analysis><citation_analysis attribute="neither">(</citation_analysis><citation_analysis attribute="positive"><italic>t</italic></citation_analysis><citation_analysis attribute="neither">) is not differentiable when </citation_analysis><citation_analysis attribute="positive"><italic>Y</italic></citation_analysis><citation_analysis attribute="neither"> is the count of events by time </citation_analysis><citation_analysis attribute="positive"><italic>t</italic></citation_analysis><citation_analysis attribute="neither"> (because it is not a continuous function). The instantaneous rate of a respiratory event does not exist.</citation_analysis></p>
+    </sec>
+    <sec>
+      <title>Rates: neither causes nor effects</title>
+      <p><citation_analysis attribute="positive">We distinguish between two kinds of variables: natural variables and derived variables. The former describe properties of objects at discrete time points (eg, body mass, height, and waist circumference), whereas the latter are made up by mathematics (eg, body mass index and waist-to-hip ratio). Natural variables make up the causal structure of the natural world; derived variables do not. Natural variables are causes and effects of other natural variables; derived variables are not.</citation_analysis><citation_analysis attribute="positive"><xref rid="b23-nss-6-051" ref-type="bibr">23</xref></citation_analysis></p>
+      <p><citation_analysis attribute="neither">Rates are not natural variables, and the average rate of a respiratory event is no exception. The AHI is not caused by anything and does not affect anything; there is no causal parameter behind the association of the AHI with any variable. To think that the AHI itself (the product of mathematics) affects the level of sleepiness is analogous to thinking that body mass index, also a product of mathematics, affects the level of blood glucose. Both are examples of thought bias,</citation_analysis><citation_analysis attribute="positive"><xref rid="b23-nss-6-051" ref-type="bibr">23</xref></citation_analysis><citation_analysis attribute="neither">–</citation_analysis><citation_analysis attribute="positive"><xref rid="b25-nss-6-051" ref-type="bibr">25</xref></citation_analysis><citation_analysis attribute="neither"> which is ubiquitous in science. And as harsh and scary as the last claim might sound, it is solidly true and yet to be challenged.</citation_analysis></p>
+      <p><citation_analysis attribute="neither">Are all rates, therefore, useless? Not at all. First, many rates, such as the mortality rate or the rate of lung cancer, do not claim to be more than what they are, ie, the frequency of some event. Second, some rates may also be used to impute the unknown values of natural variables of interest. For instance, airflow (liters per second) serves to measure the speed at which air moves, and the forced expiratory volume in one second provides information about airway obstruction, which is actually the airway diameter. Likewise, the heart rate tells us not only about the frequency of a heartbeat, but also about the condition, or location, of the governing pacemaker. Derived variables, including rates, may sometimes serve as substitutes for natural variables,</citation_analysis><citation_analysis attribute="positive"><xref rid="b25-nss-6-051" ref-type="bibr">25</xref></citation_analysis><citation_analysis attribute="neither"> provided we explicitly state what they are supposed to measure.</citation_analysis></p>
+    </sec>
+    <sec>
+      <title>The AHI substitutes for … what?</title>
+      <p><citation_analysis attribute="negative">Scientific inference thrives on explicit, precise assumptions, which may be false, but should not include the apologetic phrase “do not really know”. Scientists are allowed, perhaps even encouraged, to remain uncertain about whether A is a cause of B, but they may not declare uncertainty about what A and B stand for.</citation_analysis><citation_analysis attribute="positive"><xref rid="b26-nss-6-051" ref-type="bibr">26</xref></citation_analysis><citation_analysis attribute="neither"> A measurement in science must be coupled with an explicit theory of what is assumed to be measured, because a measured variable is merely a substitution for some variable of interest.</citation_analysis><citation_analysis attribute="positive"><xref rid="b23-nss-6-051" ref-type="bibr">23</xref></citation_analysis><citation_analysis attribute="neither">,</citation_analysis><citation_analysis attribute="positive"><xref rid="b25-nss-6-051" ref-type="bibr">25</xref></citation_analysis><citation_analysis attribute="neither"> Yet all too often a measurement takes on a life of its own, absurdly becoming the focus of the inquiry. In retrospect, that was the case with the AHI. For the most part, researchers did not bother to state what exactly is being measured by that index. What does the average rate of a respiratory event substitute for?</citation_analysis></p>
+      <p><citation_analysis attribute="negative">If probed about the causal variable of interest, many researchers would probably answer “severity of sleep-disordered breathing” or some related idea, such as “the level of physiological stress” or “the tendency of the upper airway to collapse” (in obstructive events). “Severity”, “stress”, and “tendency”, however, are not well specified natural variables. They are abstract nouns. If anything, the AHI must substitute for some physical property: upper airway pressure, upper airway diameter (in the obstructive type), excitation of respiratory muscles (in the central type), and the volume of inhaled air to name a few examples. That a single derived variable can substitute for more than one natural variable does not dismiss the duty of researchers to state which natural variable they claim to be measuring. Moreover, inexplicit measurements open the door to ridiculous inference, as illustrated next.</citation_analysis></p>
+      <p><citation_analysis attribute="neither">Consider a linear regression model that an analyst might fit:
+</citation_analysis><citation_analysis attribute="positive"><disp-formula id="fd1-nss-6-051"><mml:math id="mm1"><mml:mtext>Log</mml:mtext><mml:mspace width="0.2em"/><mml:mo stretchy="false">(</mml:mo><mml:mtext>AHI</mml:mtext><mml:mo>+</mml:mo><mml:mn>0.1</mml:mn><mml:mo stretchy="false">)</mml:mo><mml:mo>=</mml:mo><mml:msub><mml:mtext>β</mml:mtext><mml:mn>0</mml:mn></mml:msub><mml:mo>+</mml:mo><mml:msub><mml:mtext>β</mml:mtext><mml:mn>1</mml:mn></mml:msub><mml:mspace width="0.2em"/><mml:mtext>NECK</mml:mtext><mml:mo>+</mml:mo><mml:mi mathvariant="bold">β</mml:mi><mml:mo>·</mml:mo><mml:mi mathvariant="bold">V</mml:mi><mml:mo>+</mml:mo><mml:mi>e</mml:mi></mml:math></disp-formula></citation_analysis><citation_analysis attribute="neither">where NECK is neck circumference, </citation_analysis><citation_analysis attribute="positive"><bold>V</bold></citation_analysis><citation_analysis attribute="neither"> denotes a vector of all so-called covariates, and </citation_analysis><citation_analysis attribute="positive"><bold>β</bold></citation_analysis><citation_analysis attribute="neither"> denotes a vector of their coefficients.</citation_analysis></p>
+      <p><citation_analysis attribute="neither">Without an explicit theory of what is being measured by the AHI and NECK, a reader may claim that both variables substitute for upper airway pressure at a given moment. If so, β</citation_analysis><citation_analysis attribute="positive"><sub>1</sub></citation_analysis><citation_analysis attribute="neither"> in this model is an absurdity, ie, an attempt to estimate the effect of a variable on itself. On the other hand, if the researchers state that neck circumference substitutes for the volume of fat around the upper airway and the AHI substitutes for subsequent upper airway diameter, they may claim that β</citation_analysis><citation_analysis attribute="positive"><sub>1</sub></citation_analysis><citation_analysis attribute="neither"> estimates the effect of the former on the latter. As that example shows, a regression model can correspond to two theories, one logical and another absurd, but a model may not correspond to “We are not sure what we have measured”. To model a variable without an explicit theory of what is assumed to be measured is a mathematical exercise, not science,</citation_analysis><citation_analysis attribute="positive"><xref rid="b26-nss-6-051" ref-type="bibr">26</xref></citation_analysis><citation_analysis attribute="neither">,</citation_analysis><citation_analysis attribute="positive"><xref rid="b27-nss-6-051" ref-type="bibr">27</xref></citation_analysis><citation_analysis attribute="neither"> because no one can corroborate or negate an unspecified causal theory.</citation_analysis></p>
+    </sec>
+    <sec>
+      <title>The AHI: a good measure of exposure to sleep apnea?</title>
+      <p><citation_analysis attribute="neither">If we are interested in the causes of sleep apnea, the AHI may be the dependent variable, substituting for a specified physical property as illustrated in the last example. On the other hand, the AHI is rarely, if ever, the preferred choice whenever we study the possible consequences of sleep apnea, such as sleepiness, stroke, blood pressure, and death. Several lines of reasoning argue against modeling the AHI as an independent variable.</citation_analysis></p>
+      <p><citation_analysis attribute="neither">First and foremost, the hallmark of sleep apnea, whether obstructive, central, or mixed, is reduced volume of inhaled air (which might lead to hypoxemia, sympathetic surges, and microarousals). That type of exposure calls for modeling assumptions, and it is unclear why the average frequency of a respiratory event is a better model than the number (and type) of respiratory events, the total duration of respiratory events,</citation_analysis><citation_analysis attribute="positive"><xref rid="b13-nss-6-051" ref-type="bibr">13</xref></citation_analysis><citation_analysis attribute="neither"> or other proposed measures.</citation_analysis><citation_analysis attribute="positive"><xref rid="b14-nss-6-051" ref-type="bibr">14</xref></citation_analysis><citation_analysis attribute="neither">–</citation_analysis><citation_analysis attribute="positive"><xref rid="b16-nss-6-051" ref-type="bibr">16</xref></citation_analysis><citation_analysis attribute="neither"> By analogy, which variable better captures exposure to cigarette smoke while awake: the rate of cigarette smoking or the total number of cigarettes smoked? Why do researchers prefer to model, for instance, pack-years of smoking rather than a smoking disturbance index, ie, the average number of cigarettes smoked per hour of wakefulness? Any logic behind a preference for the respiratory disturbance index in sleep research should have carried to the smoking disturbance index in smoking research.</citation_analysis></p>
+      <p><citation_analysis attribute="positive">Second, modeling the AHI leads to excessive information bias that can be avoided by using alternative variables. Consider two people who share the same value of the AHI, say 10, one of whom usually sleeps 7 hours each night them, for example, according to the volume of inhaled air during sleep. If researchers think that the interval between successive events might play the role of an effect modifier,</citation_analysis><citation_analysis attribute="positive"><xref rid="b28-nss-6-051" ref-type="bibr">28</xref></citation_analysis><citation_analysis attribute="neither"> they may fit an appropriate model; for example, include a product term that contains “event-free sleep duration”. As already discussed, distinguishing between apneas and hypopneas and taking event duration into account should be considered as well.</citation_analysis></p>
+      <p><citation_analysis attribute="positive">Third, sleep duration is not only the denominator for the rate of a respiratory event, but is also a variable that substitutes for whatever sleep is supposed to achieve. Since sleep and sleep apnea share some effects of interest (eg, daytime sleepiness), the logic of putting sleep duration in the denominator of the AHI is far from clear. If the reasoning appeals to confounding, that is plainly wrong. One theoretical exception aside,</citation_analysis><citation_analysis attribute="positive"><xref rid="b29-nss-6-051" ref-type="bibr">29</xref></citation_analysis><citation_analysis attribute="negative"> confounding bias is not removed by dividing the exposure variable (the number of respiratory events) by the confounder (sleep duration). Rather, sleep duration should enter the model as a covariate. Furthermore, dividing one variable by another is often a bad idea in research.</citation_analysis></p>
+    </sec>
+    <sec>
+      <title>The AHI: a ratio of two variables</title>
+      <p><citation_analysis attribute="neither">As we just saw, the denominator of the AHI plays a dual role. On the one hand, it is the usual time interval for rate computation, but on the other hand it is a variable that captures sleep duration per se. Given the latter role, we may view the AHI not only as a rate that substitutes for some physical property, but also as a ratio of two variables, ie, the number of respiratory events (N) divided by sleep duration (S). Informally, N may be some measure of sleep apnea during the night and S may be some measure of “battery charge” upon awakening. Is there any justification for modeling the ratio of two variables as an independent variable? May we fit models such as the following?
+</citation_analysis><citation_analysis attribute="positive"><disp-formula id="fd2-nss-6-051"><mml:math id="mm2"><mml:mtable columnalign="center"><mml:mtr><mml:mtd><mml:mtext>Systolic blood pressure</mml:mtext><mml:mo>=</mml:mo><mml:msub><mml:mtext>β</mml:mtext><mml:mn>0</mml:mn></mml:msub><mml:mo>+</mml:mo><mml:msub><mml:mtext>β</mml:mtext><mml:mn>1</mml:mn></mml:msub><mml:mspace width="0.2em"/><mml:mtext>N/S</mml:mtext><mml:mo>+</mml:mo><mml:mi mathvariant="bold">β</mml:mi><mml:mo>·</mml:mo><mml:mi mathvariant="bold">V</mml:mi><mml:mo>+</mml:mo><mml:mi>e</mml:mi></mml:mtd></mml:mtr><mml:mtr><mml:mtd><mml:mtext>Log (death rate)</mml:mtext><mml:mo>=</mml:mo><mml:msub><mml:mtext>β</mml:mtext><mml:mn>0</mml:mn></mml:msub><mml:mo>+</mml:mo><mml:msub><mml:mtext>β</mml:mtext><mml:mn>1</mml:mn></mml:msub><mml:mspace width="0.2em"/><mml:mtext>N/S</mml:mtext><mml:mo>+</mml:mo><mml:mi mathvariant="bold">β</mml:mi><mml:mo>·</mml:mo><mml:mi mathvariant="bold">V</mml:mi></mml:mtd></mml:mtr></mml:mtable></mml:math></disp-formula></citation_analysis></p>
+      <p><citation_analysis attribute="neither">To answer this question, we should first ask ourselves what we have in mind when we model N/S in these equations. If we claim that N/S substitutes for a natural variable, and name it, we are partially safe. The ratio may be considered an imputation of the unknown values of that variable, analogous to any measurement.</citation_analysis><citation_analysis attribute="positive"><xref rid="b23-nss-6-051" ref-type="bibr">23</xref></citation_analysis><citation_analysis attribute="neither"> Of course, the substitution may still be criticized for having information bias, as argued in the previous section.</citation_analysis></p>
+      <p><citation_analysis attribute="positive">In all other circumstances, modeling a ratio such as N/S is unjustified because the model entails excessive bias or misspecification of causal relations. If only N (or whatever N is measuring) affects the outcome of interest, division by S adds information bias by creating a variable (N/S), the distribution of which differs from that of N. If only S (or whatever S is measuring) affects the outcome, the error might be compounded by unexplained modeling of 1/S, rather than S, on top of detrimental multiplication by N. And if both N and S affect the outcome, neither the effect of N nor the effect of S is estimated by the coefficient of their ratio (misspecification). At best, we may view the ratio N/S as an interaction term. For instance:
+</citation_analysis><citation_analysis attribute="positive"><disp-formula id="fd3-nss-6-051"><mml:math id="mm3"><mml:mtext>Log (death rate)</mml:mtext><mml:mo>=</mml:mo><mml:msub><mml:mtext>β</mml:mtext><mml:mn>0</mml:mn></mml:msub><mml:mo>+</mml:mo><mml:msub><mml:mtext>β</mml:mtext><mml:mn>1</mml:mn></mml:msub><mml:mspace width="0.2em"/><mml:mtext>N</mml:mtext><mml:mo stretchy="false">(</mml:mo><mml:mn>1</mml:mn><mml:mo>/</mml:mo><mml:mtext>S</mml:mtext><mml:mo stretchy="false">)</mml:mo><mml:mo>+</mml:mo><mml:mi mathvariant="bold">β</mml:mi><mml:mo>·</mml:mo><mml:mi mathvariant="bold">V</mml:mi></mml:math></disp-formula></citation_analysis></p>
+      <p><citation_analysis attribute="neither">But that does not solve the problem either. Interaction models, serving to estimate effect modification between two causes of some outcome,</citation_analysis><citation_analysis attribute="positive"><xref rid="b28-nss-6-051" ref-type="bibr">28</xref></citation_analysis><citation_analysis attribute="positive"> can be interpreted properly only when the components of the product term are included as well.</citation_analysis><citation_analysis attribute="positive"><xref rid="b30-nss-6-051" ref-type="bibr">30</xref></citation_analysis><citation_analysis attribute="neither"> If researchers hold a theory of effect modification between sleep apnea and sleep duration, they should fit the following model:
+</citation_analysis><citation_analysis attribute="positive"><disp-formula id="fd4-nss-6-051"><mml:math id="mm4"><mml:mtext>Log (death rate)</mml:mtext><mml:mo>=</mml:mo><mml:msub><mml:mtext>β</mml:mtext><mml:mn>0</mml:mn></mml:msub><mml:mo>+</mml:mo><mml:msub><mml:mtext>β</mml:mtext><mml:mn>1</mml:mn></mml:msub><mml:mspace width="0.2em"/><mml:mtext>N</mml:mtext><mml:mo>+</mml:mo><mml:msub><mml:mtext>β</mml:mtext><mml:mn>2</mml:mn></mml:msub><mml:mspace width="0.2em"/><mml:mtext>S</mml:mtext><mml:mo>+</mml:mo><mml:msub><mml:mtext>β</mml:mtext><mml:mn>3</mml:mn></mml:msub><mml:mspace width="0.2em"/><mml:mtext>NS</mml:mtext><mml:mo>+</mml:mo><mml:mi mathvariant="bold">β</mml:mi><mml:mo>·</mml:mo><mml:mi mathvariant="bold">V</mml:mi></mml:math></disp-formula></citation_analysis></p>
+      <p><citation_analysis attribute="neither">Lastly, even under the paradigm of predicting the outcome, ignoring cause-and-effect relationships, modeling the ratio alone might be worse than modeling one of its components, or worse than modeling the ratio together with its components.</citation_analysis><citation_analysis attribute="positive"><xref rid="b30-nss-6-051" ref-type="bibr">30</xref></citation_analysis></p>
+    </sec>
+    <sec>
+      <title>Conclusion</title>
+      <p><citation_analysis attribute="neither">Although there is some justification for modeling the AHI as the dependent variable, modeling of the AHI as an independent variable is rarely justified. The number and type of respiratory events overnight, their total duration,</citation_analysis><citation_analysis attribute="positive"><xref rid="b13-nss-6-051" ref-type="bibr">13</xref></citation_analysis><citation_analysis attribute="neither"> and other recently proposed variables</citation_analysis><citation_analysis attribute="positive"><xref rid="b14-nss-6-051" ref-type="bibr">14</xref></citation_analysis><citation_analysis attribute="neither">–</citation_analysis><citation_analysis attribute="positive"><xref rid="b16-nss-6-051" ref-type="bibr">16</xref></citation_analysis><citation_analysis attribute="neither"> are better models of exposure to sleep apnea. Interestingly enough, shortly before coining the term “apnea index”,</citation_analysis><citation_analysis attribute="positive"><xref rid="b1-nss-6-051" ref-type="bibr">1</xref></citation_analysis><citation_analysis attribute="neither"> the same first author preferred to report the total number, or duration, of nocturnal apneas,</citation_analysis><citation_analysis attribute="positive"><xref rid="b31-nss-6-051" ref-type="bibr">31</xref></citation_analysis><citation_analysis attribute="neither">,</citation_analysis><citation_analysis attribute="positive"><xref rid="b32-nss-6-051" ref-type="bibr">32</xref></citation_analysis><citation_analysis attribute="neither"> rather than their number per sleep-hour. What caused him to change his mind is unclear, but the effect of his casual remark lasted for many years.</citation_analysis></p>
+      <p><citation_analysis attribute="negative">Should previous studies that used the AHI as an exposure variable be declared useless? Not at all. In retrospect, we may (awkwardly) view the AHI as a measure of the total number of respiratory events, just as we may (awkwardly) view the body mass index as a measure of body fat. In both cases, we can save the model by admitting to have mistakenly added some information bias by dividing the numerator (the preferred measure) by another variable. Moreover, we may argue that the bias is negligible or small, because sleep duration, S, does not vary greatly among many people, and N/S is highly correlated with N. Notwithstanding their saving of past work, post hoc arguments do not justify perpetuating a recognized methodological mistake, regardless of its practical significance.</citation_analysis></p>
+      <p><citation_analysis attribute="neither">Many of the arguments presented here extend to other ratio variables that are commonly used in sleep research: the arousal index, percentage of time in desaturation, and percentage of time in each sleep stage. In fact, the modeling of ratios has been harshly criticized in other branches of science as well.</citation_analysis><citation_analysis attribute="positive"><xref rid="b29-nss-6-051" ref-type="bibr">29</xref></citation_analysis><citation_analysis attribute="neither">,</citation_analysis><citation_analysis attribute="positive"><xref rid="b30-nss-6-051" ref-type="bibr">30</xref></citation_analysis><citation_analysis attribute="neither">,</citation_analysis><citation_analysis attribute="positive"><xref rid="b33-nss-6-051" ref-type="bibr">33</xref></citation_analysis><citation_analysis attribute="neither">–</citation_analysis><citation_analysis attribute="positive"><xref rid="b37-nss-6-051" ref-type="bibr">37</xref></citation_analysis><citation_analysis attribute="neither"> However, the lessons offered are far more general. First, a variable that is useful in clinical practice is not necessarily the preferred variable in biomedical science. Second, we should never accept a new variable into science on the basis of feelings or authority. Third, if the analyzed variable is a derived variable, researchers should explicitly state which natural variable they claim to be measuring. And if they are unwilling to commit to a clear theory,</citation_analysis><citation_analysis attribute="positive"><xref rid="b38-nss-6-051" ref-type="bibr">38</xref></citation_analysis><citation_analysis attribute="neither"> they are not in the business of science.</citation_analysis><citation_analysis attribute="positive"><xref rid="b26-nss-6-051" ref-type="bibr">26</xref></citation_analysis></p>
+    </sec>
+  </body>
+  <back>
+    <ack>
+      <title>Acknowledgment</title>
+      <p><citation_analysis attribute="neither">The author thanks Doron Shahar for insightful comments on the draft manuscript.</citation_analysis></p>
+    </ack>
+    <fn-group>
+      <fn>
+        <p><citation_analysis attribute="positive">
+          </citation_analysis><citation_analysis attribute="positive"><bold>Disclosure</bold></citation_analysis><citation_analysis attribute="positive">
+        </citation_analysis></p>
+        <p><citation_analysis attribute="neither">The author reports no conflicts of interest in this work.</citation_analysis></p>
+      </fn>
+    </fn-group>
+    <ref-list>
+      <title>References</title>
+      <ref id="b1-nss-6-051">
+        <label>1</label>
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Guilleminault</surname>
+              <given-names>C</given-names>
+            </name>
+            <name>
+              <surname>van den Hoed</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Mitler</surname>
+              <given-names>MM</given-names>
+            </name>
+          </person-group>
+          <article-title>Clinical overview of the sleep apnea syndromes</article-title>
+          <person-group person-group-type="editor">
+            <name>
+              <surname>Guilleminault</surname>
+              <given-names>C</given-names>
+            </name>
+            <name>
+              <surname>Dement</surname>
+              <given-names>WC</given-names>
+            </name>
+          </person-group>
+          <source>Sleep Apnea Syndromes</source>
+          <publisher-loc>New York, NY, USA</publisher-loc>
+          <publisher-name>Alan R Liss, Inc.</publisher-name>
+          <year>1978</year>
+        </element-citation>
+      </ref>
+      <ref id="b2-nss-6-051">
+        <label>2</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Hudgel</surname>
+              <given-names>DW</given-names>
+            </name>
+          </person-group>
+          <article-title>“Apnea index”: need for improving the description of respiratory variability during sleep</article-title>
+          <source>Am Rev Respir Dis</source>
+          <year>1986</year>
+          <volume>133</volume>
+          <fpage>708</fpage>
+          <lpage>709</lpage>
+          <pub-id pub-id-type="pmid">3083746</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b3-nss-6-051">
+        <label>3</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Perks</surname>
+              <given-names>WH</given-names>
+            </name>
+            <name>
+              <surname>Cooper</surname>
+              <given-names>RA</given-names>
+            </name>
+            <name>
+              <surname>Bradbury</surname>
+              <given-names>S</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Sleep apnoea in Scheie’s syndrome</article-title>
+          <source>Thorax</source>
+          <year>1980</year>
+          <volume>35</volume>
+          <fpage>85</fpage>
+          <lpage>91</lpage>
+          <pub-id pub-id-type="pmid">6769175</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b4-nss-6-051">
+        <label>4</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Ancoli-Israel</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Kripke</surname>
+              <given-names>DF</given-names>
+            </name>
+            <name>
+              <surname>Mason</surname>
+              <given-names>W</given-names>
+            </name>
+            <name>
+              <surname>Messin</surname>
+              <given-names>S</given-names>
+            </name>
+          </person-group>
+          <article-title>Sleep apnea and nocturnal myoclonus in a senior population</article-title>
+          <source>Sleep</source>
+          <year>1981</year>
+          <volume>4</volume>
+          <fpage>349</fpage>
+          <lpage>358</lpage>
+          <pub-id pub-id-type="pmid">7313389</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b5-nss-6-051">
+        <label>5</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Sullivan</surname>
+              <given-names>CE</given-names>
+            </name>
+            <name>
+              <surname>Issa</surname>
+              <given-names>FG</given-names>
+            </name>
+            <name>
+              <surname>Berthon-Jones</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Eves</surname>
+              <given-names>L</given-names>
+            </name>
+          </person-group>
+          <article-title>Reversal of obstructive sleep apnoea by continuous positive airway pressure applied through the nares</article-title>
+          <source>Lancet</source>
+          <year>1981</year>
+          <volume>1</volume>
+          <fpage>862</fpage>
+          <lpage>865</lpage>
+          <pub-id pub-id-type="pmid">6112294</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b6-nss-6-051">
+        <label>6</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Harman</surname>
+              <given-names>E</given-names>
+            </name>
+            <name>
+              <surname>Wynne</surname>
+              <given-names>JW</given-names>
+            </name>
+            <name>
+              <surname>Block</surname>
+              <given-names>AJ</given-names>
+            </name>
+            <name>
+              <surname>Malloy-Fisher</surname>
+              <given-names>L</given-names>
+            </name>
+          </person-group>
+          <article-title>Sleep-disordered breathing and oxygen desaturation in obese patients</article-title>
+          <source>Chest</source>
+          <year>1981</year>
+          <volume>79</volume>
+          <fpage>256</fpage>
+          <lpage>260</lpage>
+          <pub-id pub-id-type="pmid">6781822</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b7-nss-6-051">
+        <label>7</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>McEvoy</surname>
+              <given-names>RD</given-names>
+            </name>
+            <name>
+              <surname>Thornton</surname>
+              <given-names>AT</given-names>
+            </name>
+          </person-group>
+          <article-title>Treatment of obstructive sleep apnea syndrome with nasal continuous positive airway pressure</article-title>
+          <source>Sleep</source>
+          <year>1984</year>
+          <volume>7</volume>
+          <fpage>313</fpage>
+          <lpage>325</lpage>
+          <pub-id pub-id-type="pmid">6440264</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b8-nss-6-051">
+        <label>8</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Wittig</surname>
+              <given-names>RM</given-names>
+            </name>
+            <name>
+              <surname>Romaker</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Zorick</surname>
+              <given-names>FJ</given-names>
+            </name>
+            <name>
+              <surname>Roehrs</surname>
+              <given-names>TA</given-names>
+            </name>
+            <name>
+              <surname>Conway</surname>
+              <given-names>WA</given-names>
+            </name>
+            <name>
+              <surname>Roth</surname>
+              <given-names>T</given-names>
+            </name>
+          </person-group>
+          <article-title>Night-to-night consistency of apneas during sleep</article-title>
+          <source>Am Rev Respir Dis</source>
+          <year>1984</year>
+          <volume>129</volume>
+          <fpage>244</fpage>
+          <lpage>246</lpage>
+          <pub-id pub-id-type="pmid">6696325</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b9-nss-6-051">
+        <label>9</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Cartwright</surname>
+              <given-names>RD</given-names>
+            </name>
+          </person-group>
+          <article-title>Effect of sleep position on sleep apnea severity</article-title>
+          <source>Sleep</source>
+          <year>1984</year>
+          <volume>7</volume>
+          <fpage>110</fpage>
+          <lpage>114</lpage>
+          <pub-id pub-id-type="pmid">6740055</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b10-nss-6-051">
+        <label>10</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Wilhoit</surname>
+              <given-names>SC</given-names>
+            </name>
+            <name>
+              <surname>Suratt</surname>
+              <given-names>PM</given-names>
+            </name>
+            <name>
+              <surname>Evans</surname>
+              <given-names>RJ</given-names>
+            </name>
+            <name>
+              <surname>Brown</surname>
+              <given-names>ED</given-names>
+            </name>
+            <name>
+              <surname>Kaiser</surname>
+              <given-names>DL</given-names>
+            </name>
+          </person-group>
+          <article-title>Comparison of indices used to detect hypoventilation during sleep</article-title>
+          <source>Respiration</source>
+          <year>1985</year>
+          <volume>47</volume>
+          <fpage>237</fpage>
+          <lpage>242</lpage>
+          <pub-id pub-id-type="pmid">4012043</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b11-nss-6-051">
+        <label>11</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Bliwise</surname>
+              <given-names>DL</given-names>
+            </name>
+            <name>
+              <surname>Carey</surname>
+              <given-names>E</given-names>
+            </name>
+            <name>
+              <surname>Dement</surname>
+              <given-names>WC</given-names>
+            </name>
+          </person-group>
+          <article-title>Nightly variation in sleep-related respiratory disturbance in older adults</article-title>
+          <source>Exp Aging Res</source>
+          <year>1983</year>
+          <volume>9</volume>
+          <fpage>77</fpage>
+          <lpage>81</lpage>
+          <pub-id pub-id-type="pmid">6628492</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b12-nss-6-051">
+        <label>12</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Cherniack</surname>
+              <given-names>NS</given-names>
+            </name>
+          </person-group>
+          <article-title>The sleep apnea number game: counting the apnea-hypopnea index</article-title>
+          <source>Respiration</source>
+          <year>2009</year>
+          <volume>77</volume>
+          <fpage>21</fpage>
+          <lpage>22</lpage>
+          <pub-id pub-id-type="pmid">19018123</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b13-nss-6-051">
+        <label>13</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Muraja-Murro</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Nurkkala</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Tiihonen</surname>
+              <given-names>P</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Total duration of apnea and hypopnea events and average desaturation show significant variation in patients with a similar apnea-hypopnea index</article-title>
+          <source>J Med Eng Technol</source>
+          <year>2012</year>
+          <volume>36</volume>
+          <fpage>393</fpage>
+          <lpage>398</lpage>
+          <pub-id pub-id-type="pmid">22953737</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b14-nss-6-051">
+        <label>14</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kulkas</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Tiihonen</surname>
+              <given-names>P</given-names>
+            </name>
+            <name>
+              <surname>Julkunen</surname>
+              <given-names>P</given-names>
+            </name>
+            <name>
+              <surname>Mervaala</surname>
+              <given-names>E</given-names>
+            </name>
+            <name>
+              <surname>Töyräs</surname>
+              <given-names>J</given-names>
+            </name>
+          </person-group>
+          <article-title>Novel parameters indicate significant differences in severity of obstructive sleep apnea with patients having similar apnea-hypopnea index</article-title>
+          <source>Med Biol Eng Comput</source>
+          <year>2013</year>
+          <volume>51</volume>
+          <fpage>697</fpage>
+          <lpage>708</lpage>
+          <pub-id pub-id-type="pmid">23417543</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b15-nss-6-051">
+        <label>15</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Tam</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Woodson</surname>
+              <given-names>BT</given-names>
+            </name>
+            <name>
+              <surname>Rotenberg</surname>
+              <given-names>B</given-names>
+            </name>
+          </person-group>
+          <article-title>Outcome measurements in obstructive sleep apnea: beyond the apnea-hypopnea index</article-title>
+          <source>Laryngoscope</source>
+          <year>2014</year>
+          <volume>124</volume>
+          <fpage>337</fpage>
+          <lpage>343</lpage>
+          <pub-id pub-id-type="pmid">23794206</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b16-nss-6-051">
+        <label>16</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Balakrishnan</surname>
+              <given-names>K</given-names>
+            </name>
+            <name>
+              <surname>James</surname>
+              <given-names>KT</given-names>
+            </name>
+            <name>
+              <surname>Weaver</surname>
+              <given-names>EM</given-names>
+            </name>
+          </person-group>
+          <article-title>Composite severity indices reflect sleep apnea disease burden more comprehensively than the apnea-hypopnea index</article-title>
+          <source>Otolaryngol Head Neck Surg</source>
+          <year>2013</year>
+          <volume>148</volume>
+          <fpage>324</fpage>
+          <lpage>330</lpage>
+          <pub-id pub-id-type="pmid">23077154</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b17-nss-6-051">
+        <label>17</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Ruehland</surname>
+              <given-names>WR</given-names>
+            </name>
+            <name>
+              <surname>Rochford</surname>
+              <given-names>PD</given-names>
+            </name>
+            <name>
+              <surname>O’Donoghue</surname>
+              <given-names>FJ</given-names>
+            </name>
+            <name>
+              <surname>Pierce</surname>
+              <given-names>RJ</given-names>
+            </name>
+            <name>
+              <surname>Singh</surname>
+              <given-names>P</given-names>
+            </name>
+            <name>
+              <surname>Thornton</surname>
+              <given-names>AT</given-names>
+            </name>
+          </person-group>
+          <article-title>The new AASM criteria for scoring hypopneas: impact on the apnea hypopnea index</article-title>
+          <source>Sleep</source>
+          <year>2009</year>
+          <volume>32</volume>
+          <fpage>150</fpage>
+          <lpage>157</lpage>
+          <pub-id pub-id-type="pmid">19238801</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b18-nss-6-051">
+        <label>18</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Punjabi</surname>
+              <given-names>NM</given-names>
+            </name>
+            <name>
+              <surname>Bandeen-Roche</surname>
+              <given-names>K</given-names>
+            </name>
+            <name>
+              <surname>Marx</surname>
+              <given-names>JJ</given-names>
+            </name>
+            <name>
+              <surname>Neubauer</surname>
+              <given-names>DN</given-names>
+            </name>
+            <name>
+              <surname>Smith</surname>
+              <given-names>PL</given-names>
+            </name>
+            <name>
+              <surname>Schwartz</surname>
+              <given-names>AR</given-names>
+            </name>
+          </person-group>
+          <article-title>The association between daytime sleepiness and sleep-disordered breathing in NREM and REM sleep</article-title>
+          <source>Sleep</source>
+          <year>2002</year>
+          <volume>25</volume>
+          <fpage>307</fpage>
+          <lpage>314</lpage>
+          <pub-id pub-id-type="pmid">12003161</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b19-nss-6-051">
+        <label>19</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Peregrim</surname>
+              <given-names>I</given-names>
+            </name>
+            <name>
+              <surname>Grešová</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Pallayová</surname>
+              <given-names>M</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Does obstructive sleep apnea worsen during REM sleep?</article-title>
+          <source>Physiol Res</source>
+          <year>2013</year>
+          <volume>62</volume>
+          <fpage>569</fpage>
+          <lpage>575</lpage>
+          <pub-id pub-id-type="pmid">24020811</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b20-nss-6-051">
+        <label>20</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Aarab</surname>
+              <given-names>G</given-names>
+            </name>
+            <name>
+              <surname>Lobbezoo</surname>
+              <given-names>F</given-names>
+            </name>
+            <name>
+              <surname>Hamburger</surname>
+              <given-names>HL</given-names>
+            </name>
+            <name>
+              <surname>Naeije</surname>
+              <given-names>M</given-names>
+            </name>
+          </person-group>
+          <article-title>Variability in the apnea-hypopnea index and its consequences for diagnosis and therapy evaluation</article-title>
+          <source>Respiration</source>
+          <year>2009</year>
+          <volume>77</volume>
+          <fpage>32</fpage>
+          <lpage>37</lpage>
+          <pub-id pub-id-type="pmid">18957843</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b21-nss-6-051">
+        <label>21</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Thornton</surname>
+              <given-names>AT</given-names>
+            </name>
+            <name>
+              <surname>Singh</surname>
+              <given-names>P</given-names>
+            </name>
+            <name>
+              <surname>Ruehland</surname>
+              <given-names>WR</given-names>
+            </name>
+            <name>
+              <surname>Rochford</surname>
+              <given-names>PD</given-names>
+            </name>
+          </person-group>
+          <article-title>AASM criteria for scoring respiratory events: interaction between apnea sensor and hypopnea definition</article-title>
+          <source>Sleep</source>
+          <year>2012</year>
+          <volume>35</volume>
+          <fpage>425</fpage>
+          <lpage>432</lpage>
+          <pub-id pub-id-type="pmid">22379249</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b22-nss-6-051">
+        <label>22</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Crowley</surname>
+              <given-names>KE</given-names>
+            </name>
+            <name>
+              <surname>Rajaratnam</surname>
+              <given-names>SM</given-names>
+            </name>
+            <name>
+              <surname>Shea</surname>
+              <given-names>SA</given-names>
+            </name>
+            <name>
+              <surname>Epstein</surname>
+              <given-names>LJ</given-names>
+            </name>
+            <name>
+              <surname>Czeisler</surname>
+              <given-names>CA</given-names>
+            </name>
+            <name>
+              <surname>Lockley</surname>
+              <given-names>SW</given-names>
+            </name>
+            <collab>Harvard Work Hours, Health and Safety Group</collab>
+          </person-group>
+          <article-title>Evaluation of a single-channel nasal pressure device to assess obstructive sleep apnea risk in laboratory and home environments</article-title>
+          <source>J Clin Sleep Med</source>
+          <year>2013</year>
+          <volume>9</volume>
+          <fpage>109</fpage>
+          <lpage>116</lpage>
+          <pub-id pub-id-type="pmid">23372462</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b23-nss-6-051">
+        <label>23</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Shahar</surname>
+              <given-names>E</given-names>
+            </name>
+            <name>
+              <surname>Shahar</surname>
+              <given-names>DJ</given-names>
+            </name>
+          </person-group>
+          <article-title>Causal diagrams, information bias, and thought bias</article-title>
+          <source>Pragmatic and Observational Research</source>
+          <year>2010</year>
+          <volume>1</volume>
+          <fpage>33</fpage>
+          <lpage>47</lpage>
+        </element-citation>
+      </ref>
+      <ref id="b24-nss-6-051">
+        <label>24</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Shahar</surname>
+              <given-names>E</given-names>
+            </name>
+            <name>
+              <surname>Shahar</surname>
+              <given-names>DJ</given-names>
+            </name>
+          </person-group>
+          <article-title>Causal diagrams and change variables</article-title>
+          <source>J Eval Clin Pract</source>
+          <year>2012</year>
+          <volume>18</volume>
+          <fpage>143</fpage>
+          <lpage>148</lpage>
+          <pub-id pub-id-type="pmid">20831667</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b25-nss-6-051">
+        <label>25</label>
+        <element-citation publication-type="webpage">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Shahar</surname>
+              <given-names>E</given-names>
+            </name>
+            <name>
+              <surname>Shahar</surname>
+              <given-names>DJ</given-names>
+            </name>
+          </person-group>
+          <article-title>Causal diagrams and three pairs of biases</article-title>
+          <person-group person-group-type="editor">
+            <name>
+              <surname>Lunet</surname>
+              <given-names>N</given-names>
+            </name>
+          </person-group>
+          <source>Epidemiology – Current Perspectives on Research and Practice</source>
+          <comment>Available from: <ext-link ext-link-type="uri" xlink:href="http://www.intechopen.com/books/epidemiology-current-perspectives-on-research-and-practice">http://www.intechopen.com/books/epidemiology-current-perspectives-on-research-and-practice</ext-link></comment>
+          <date-in-citation>Accessed March 16, 2014</date-in-citation>
+        </element-citation>
+      </ref>
+      <ref id="b26-nss-6-051">
+        <label>26</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Shahar</surname>
+              <given-names>E</given-names>
+            </name>
+          </person-group>
+          <article-title>Shahar responds to “causal diagrams and measurement bias”</article-title>
+          <source>Am J Epidemiol</source>
+          <year>2009</year>
+          <volume>170</volume>
+          <fpage>963</fpage>
+          <lpage>964</lpage>
+        </element-citation>
+      </ref>
+      <ref id="b27-nss-6-051">
+        <label>27</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Shahar</surname>
+              <given-names>E</given-names>
+            </name>
+          </person-group>
+          <article-title>A method to detect an unknown confounder: something from nothing?</article-title>
+          <source>J Eval Clin Pract</source>
+          <year>2012</year>
+          <volume>18</volume>
+          <fpage>702</fpage>
+          <lpage>703</lpage>
+          <pub-id pub-id-type="pmid">21395924</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b28-nss-6-051">
+        <label>28</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Shahar</surname>
+              <given-names>E</given-names>
+            </name>
+            <name>
+              <surname>Shahar</surname>
+              <given-names>DJ</given-names>
+            </name>
+          </person-group>
+          <article-title>On the definition of effect modification</article-title>
+          <source>Epidemiology</source>
+          <year>2010</year>
+          <volume>21</volume>
+          <fpage>587</fpage>
+          <pub-id pub-id-type="pmid">20539118</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b29-nss-6-051">
+        <label>29</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Allison</surname>
+              <given-names>DB</given-names>
+            </name>
+            <name>
+              <surname>Paultre</surname>
+              <given-names>F</given-names>
+            </name>
+            <name>
+              <surname>Goran</surname>
+              <given-names>MI</given-names>
+            </name>
+            <name>
+              <surname>Poehlman</surname>
+              <given-names>ET</given-names>
+            </name>
+            <name>
+              <surname>Heymsfield</surname>
+              <given-names>SB</given-names>
+            </name>
+          </person-group>
+          <article-title>Statistical considerations regarding the use of ratios to adjust data</article-title>
+          <source>Int J Obes</source>
+          <year>1995</year>
+          <volume>19</volume>
+          <fpage>644</fpage>
+          <lpage>652</lpage>
+        </element-citation>
+      </ref>
+      <ref id="b30-nss-6-051">
+        <label>30</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kronmal</surname>
+              <given-names>RA</given-names>
+            </name>
+          </person-group>
+          <article-title>Spurious correlation and the fallacy of the ratio standard revisited</article-title>
+          <source>J R Stat Soc Ser A</source>
+          <year>1993</year>
+          <volume>156</volume>
+          <fpage>379</fpage>
+          <lpage>392</lpage>
+        </element-citation>
+      </ref>
+      <ref id="b31-nss-6-051">
+        <label>31</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Guilleminault</surname>
+              <given-names>C</given-names>
+            </name>
+            <name>
+              <surname>Eldridge</surname>
+              <given-names>FL</given-names>
+            </name>
+            <name>
+              <surname>Tilkian</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Simmons</surname>
+              <given-names>FB</given-names>
+            </name>
+            <name>
+              <surname>Dement</surname>
+              <given-names>WC</given-names>
+            </name>
+          </person-group>
+          <article-title>Sleep apnea syndrome due to upper airway obstruction: a review of 25 cases</article-title>
+          <source>Arch Intern Med</source>
+          <year>1977</year>
+          <volume>137</volume>
+          <fpage>296</fpage>
+          <lpage>300</lpage>
+          <pub-id pub-id-type="pmid">557314</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b32-nss-6-051">
+        <label>32</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Guilleminault</surname>
+              <given-names>C</given-names>
+            </name>
+            <name>
+              <surname>Tilkian</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Lehrman</surname>
+              <given-names>K</given-names>
+            </name>
+            <name>
+              <surname>Forno</surname>
+              <given-names>L</given-names>
+            </name>
+            <name>
+              <surname>Dement</surname>
+              <given-names>WC</given-names>
+            </name>
+          </person-group>
+          <article-title>Sleep apnoea syndrome: states of sleep and autonomic dysfunction</article-title>
+          <source>J Neurol Neurosurg Psychiatry</source>
+          <year>1977</year>
+          <volume>40</volume>
+          <fpage>718</fpage>
+          <lpage>725</lpage>
+          <pub-id pub-id-type="pmid">199709</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b33-nss-6-051">
+        <label>33</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Schuessler</surname>
+              <given-names>K</given-names>
+            </name>
+          </person-group>
+          <article-title>Analysis of ratio variables: opportunities and pitfalls</article-title>
+          <source>Am J Sociol</source>
+          <year>1974</year>
+          <volume>80</volume>
+          <fpage>379</fpage>
+          <lpage>396</lpage>
+        </element-citation>
+      </ref>
+      <ref id="b34-nss-6-051">
+        <label>34</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Packard</surname>
+              <given-names>GC</given-names>
+            </name>
+            <name>
+              <surname>Boardman</surname>
+              <given-names>TJ</given-names>
+            </name>
+          </person-group>
+          <article-title>The use of percentages and size-specific indices to normalize physiological data for variation in body size: wasted time, wasted effort?</article-title>
+          <source>Comp Biochem Physiol A</source>
+          <year>1999</year>
+          <volume>122</volume>
+          <fpage>37</fpage>
+          <lpage>44</lpage>
+        </element-citation>
+      </ref>
+      <ref id="b35-nss-6-051">
+        <label>35</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Raubenheimer</surname>
+              <given-names>D</given-names>
+            </name>
+          </person-group>
+          <article-title>Problems with ratio analysis in nutritional studies</article-title>
+          <source>Funct Ecol</source>
+          <year>1995</year>
+          <volume>9</volume>
+          <fpage>21</fpage>
+          <lpage>29</lpage>
+        </element-citation>
+      </ref>
+      <ref id="b36-nss-6-051">
+        <label>36</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Forshee</surname>
+              <given-names>RA</given-names>
+            </name>
+            <name>
+              <surname>Storey</surname>
+              <given-names>ML</given-names>
+            </name>
+          </person-group>
+          <article-title>Controversy and statistical issues in the use of nutrient densities in assessing diet quality</article-title>
+          <source>J Nutr</source>
+          <year>2004</year>
+          <volume>134</volume>
+          <fpage>2733</fpage>
+          <lpage>2737</lpage>
+          <pub-id pub-id-type="pmid">15465775</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b37-nss-6-051">
+        <label>37</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Tu</surname>
+              <given-names>Y-K</given-names>
+            </name>
+            <name>
+              <surname>Clerehugh</surname>
+              <given-names>V</given-names>
+            </name>
+            <name>
+              <surname>Gilthorpe</surname>
+              <given-names>MS</given-names>
+            </name>
+          </person-group>
+          <article-title>Ratio variables in regression analysis can give rise to spurious results: illustration from two studies in periodontology</article-title>
+          <source>J Dent</source>
+          <year>2004</year>
+          <volume>32</volume>
+          <fpage>143</fpage>
+          <lpage>151</lpage>
+          <pub-id pub-id-type="pmid">14749086</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="b38-nss-6-051">
+        <label>38</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Hernan</surname>
+              <given-names>MA</given-names>
+            </name>
+            <name>
+              <surname>Cole</surname>
+              <given-names>SR</given-names>
+            </name>
+          </person-group>
+          <article-title>Causal diagrams and measurement bias</article-title>
+          <source>Am J Epidemiol</source>
+          <year>2009</year>
+          <volume>170</volume>
+          <fpage>959</fpage>
+          <lpage>962</lpage>
+          <pub-id pub-id-type="pmid">19755635</pub-id>
+        </element-citation>
+      </ref>
+    </ref-list>
+  </back>
+</article>
+</pmc-articleset>
