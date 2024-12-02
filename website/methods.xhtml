@@ -34,7 +34,7 @@
             <div id="content">
                 <h1>Methods</h1>
                 <hr/>
-                <h1>1. <i>regex+python~</i> Assemble corpus</h1>
+                <h1>1. <i>xpath+python~</i> Assemble corpus</h1>
                 Python scripts were used to download the xml of any sleep research paper, so long as the author provides permission. This is why I decided to go with
                 the <a href="https://www.dovepress.com/nature-and-science-of-sleep-journal">Nature and Science of Sleep Journal</a> which is fully open-access.
                 
@@ -167,12 +167,12 @@
                 <br/>
                 had my own element to add to all 967 xml papers with the attribute for the sentiment
                 <hr/>
-                <h1>4. <i>regex+python~</i> Go through xmls and identify 3 things, source | cited | sentiment</h1>
+                <h1>4. <i>xpath+python~</i> Go through xmls and identify 3 things, source | cited | sentiment</h1>
                 This created a CSV file with ~60,000 rows that I could use to create an SVG
                 <br/>
                 <img src="csv_snip.png" alt="Description of SVG" style="width: 50%;" />
                 <hr/>
-                <h1>5. <i>regex+python~</i> SVG</h1>
+                <h1>5. <i>python~</i> SVG</h1>
                 Used networkx to draw connections between papers and their citations.
                 <br/>
                 Also built a significance map, using only the top 1% of papers with the most citations.
